@@ -224,7 +224,7 @@
 		
 		<!-- Nar Shaddaa: Bonus Series - Taxi to Captain Westro -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)">
-			<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Upper Industrial Sector Taxi" XYZ="-193.4776,14.501,-179.3555" ToX="-197.4539" ToY="-145.499" ToZ="275.5112" />
+			<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Upper Industrial Sector Taxi" XYZ="-193.4776,14.501,-179.3555" />
 		</If>
 		
 		<!-- Speak to Captain Westro -->
@@ -347,7 +347,7 @@
 		
 		<!-- Wonkavator to Quest Zone - Binding it to quest "Getting the Message Across" -->
 		<If Condition="not HasQuest(0xE000C15BCE0BF4DE) and not IsStepComplete(0xE000C15BCE0BF4DE, 2)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Lower Office Atrium" XYZ="-168.2335,-145.4901,288.0036" ToX="-167.8577" ToY="-164.274" ToZ="298.7248" />
+			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Lower Office Atrium" XYZ="-168.2335,-145.4901,288.0036" />
 		</If>
 		
 		
@@ -389,7 +389,7 @@
 		
 		<!-- A Message for the Mercenaries - Wonkavator to Eliss Pim -->
 		<If Condition="HasQuest(0xE0006D8E0420E64D) and not IsStepComplete(0xE0006D8E0420E64D, 3)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="-167.7092,-164.274,298.8677" ToX="-168.3918" ToY="-145.4901" ToZ="288.1305" />
+			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="-167.7092,-164.274,298.8677" />
 		</If>
 		
 		<!-- A Message for the Mercenaries -->
@@ -414,7 +414,7 @@
 		
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Narvusin -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Network Security District" XYZ="-168.259,-145.4901,288.0291" ToX="166.4256" ToY="-156.299" ToZ="265.1544" />
+			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Network Security District" XYZ="-168.259,-145.4901,288.0291" />
 		</If>
 		
 		<!-- Catching Bind Point - Binding it to quest 'Nar Shaddaa: Bonus Series' -->
@@ -601,11 +601,11 @@
 		
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Colonel Harok -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 10)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="166.5646,-156.299,265.0335" ToX="-168.3918" ToY="-145.4901" ToZ="288.1305" />
+			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="166.5646,-156.299,265.0335" />
 		</If>
 		<!-- Taxi to Colonel Harok -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 10)">
-			<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Mezenti Spaceport Taxi" XYZ="-198.0589,-145.499,274.9999" ToX="-194.1939" ToY="14.501" ToZ="-179.3562" />
+			<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Mezenti Spaceport Taxi" XYZ="-198.0589,-145.499,274.9999" />
 		</If>
 		
 	
@@ -618,7 +618,7 @@
 		
 			<!-- Traveling to Alderaan - Binding it to "Formal Introductions" -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" XYZ="-217.681,14.5011,-187.4632" ToX="-225.0151" ToY="-6.999" ToZ="-204.3671" />
+				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" XYZ="-217.681,14.5011,-187.4632" />
 			</If>
 			<!-- Entering Ship -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
@@ -639,7 +639,7 @@
 		
 			<!-- Wonkavator to Vector Hyllus -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport" XYZ="10.75562,13.98987,-128.4035" ToX="11.1267" ToY="27.98976" ToZ="-128.2973" />
+				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport" XYZ="10.75562,13.98987,-128.4035" />
 			</If>
 		
 		</If>

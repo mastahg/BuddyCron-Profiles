@@ -55,8 +55,7 @@
 		<If Condition="((not HasQuest(0xE000332E98DB7B07)) and (not HasQuest(0xE0004B9AD68E0EBA)) and (not HasQuest(0xE00059299B493DB6)) and (not HasQuest(0xE000AB3D97853604)))"> 
 			<If Condition="Me.Position.Z &gt;= -61">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 2"
-										XYZ="7.904294,1.912309,-60.07261"
-										ToX="12.8248" ToY="0.901" ToZ="-62.878" />
+										XYZ="7.904294,1.912309,-60.07261" />
 			</If>	
 		
 			<If Condition="((not HasQuest(0xE000557FD57DB2E8)) and (not IsQuestComplete(0xE000557FD57DB2E8)) )">
@@ -85,8 +84,7 @@
 
 			<If Condition="Me.Position.Z &lt;= -61">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 1"
-										XYZ="12.63087,0.901,-62.80514"
-										ToX="7.8142" ToY="1.9062" ToZ="-60.3051" />
+										XYZ="12.63087,0.901,-62.80514" />
 			</If>				
 		</If> 
 
@@ -164,15 +162,13 @@
 			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 2)))">
 				<If Condition="Me.Position.Y &gt;= 0">
 					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 2"
-											XYZ="-12.4353,1.401,-37.75841"
-											ToX="-15.4787" ToY="-7.599" ToZ="-44.4031" />
+											XYZ="-12.4353,1.401,-37.75841" />
 				</If>					
 			</If>
 			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 3)))">
 				<If Condition="Me.Position.Z &gt;= -40">
 					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 2"
-											XYZ="-12.4353,1.401,-37.75841"
-											ToX="-15.4787" ToY="-7.599" ToZ="-44.4031" />
+											XYZ="-12.4353,1.401,-37.75841" />
 				</If>
 				<If Condition="Me.Position.Z &lt;= -40">	
 					<UseObject QuestId="0xE000332E98DB7B07" BranchId="1" StepId="3" Radius="5" UseRange="5" WaitTime="5" IgnoreLOS="True" >
@@ -192,8 +188,7 @@
 			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 4)))">
 				<If Condition="(Me.Position.Y &lt;= 0) and (Me.Position.Y &gt;= -10)">
 					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 1"
-											XYZ="-15.41282,-7.599,-44.23388"
-											ToX="-12.3895" ToY="1.401" ToZ="-37.5888" />
+											XYZ="-15.41282,-7.599,-44.23388" />
 				</If>					
 			</If>			
 		</If>	
@@ -266,8 +261,7 @@
 		<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 4)) and (HasQuest(0xE0004B9AD68E0EBA)) and (not IsStepComplete(0xE0004B9AD68E0EBA, 3)) and (HasQuest(0xE00059299B493DB6)) and (not IsStepComplete(0xE00059299B493DB6, 3)) and (HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 9)))"> 
 			<If Condition="Me.Position.Z &gt;= -61">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 2"
-										XYZ="7.904294,1.912309,-60.07261"
-										ToX="12.8248" ToY="0.901" ToZ="-62.878" />
+										XYZ="7.904294,1.912309,-60.07261" />
 			</If>	
 		
 			<If Condition="Me.Position.Z &lt;= -61">
@@ -286,8 +280,7 @@
 				<ForceVendor VendorType="Repair" />	
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 1"
-										XYZ="12.63087,0.901,-62.80514"
-										ToX="7.8142" ToY="1.9062" ToZ="-60.3051" />
+										XYZ="12.63087,0.901,-62.80514" />
 			</If>	
 			
 			<If Condition="Me.Position.Z &gt;= -61">

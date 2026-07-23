@@ -337,8 +337,7 @@
 			<PickUpQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" GiverName="Republic Commando" XYZ="-100.0057,-99.599,-4.6223" />
 	
 			<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Republic Operational Headquarters"
-									XYZ="-99.03693,-99.30054,-11.71831" 
-									ToX="92.2852" ToY="7.888209" ToZ="-0.9554" />
+									XYZ="-99.03693,-99.30054,-11.71831" />
 		</If>
 		
 		<PickUpQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" GiverName="Agent Suria" XYZ="84.3202,7.372199,7.7194" />
@@ -737,8 +736,7 @@
 				<TalkTo QuestId="0xE000FD8C21F68F0F" Name="Major Treeg" XYZ="165.6167,4.264454,207.7246" />
  
 				<UseTransport TransporterName="War Camp Speeder" Type="Taxi" Option="Republic Base Speeder" 
-									XYZ="51.4993,12.15389,118.8223"
-									ToX="77.2059" ToY="7.374802" ToZ="6.7087" />
+									XYZ="51.4993,12.15389,118.8223" />
 				<!-- I quicktraveled to RB -->
 			</If>
 		</If>
@@ -763,8 +761,7 @@
 			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 2, 2)))">
 				<!-- I am on Quesh -->
 				<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Your Ship"
-									XYZ="92.26299,8.201427,-1.664324" 
-									ToX="-0.007707885" ToY="0.5900244" ToZ="-2.886653" />
+									XYZ="92.26299,8.201427,-1.664324" />
 			
 				<!-- I am on my ship -->
 				<!-- Zenith has a quest for us - Unfamiliar Peace -->
@@ -788,8 +785,7 @@
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
 				<!-- I am in the airlock hangar -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Hoth Orbital Station"
-									XYZ="-95.0188,-100.0039,8.930848"
-									ToX="-98.3026" ToY="-99.60795" ToZ="7.2902" />
+									XYZ="-95.0188,-100.0039,8.930848" />
 			</If>
 		</If>
 
@@ -798,8 +794,7 @@
 			<PickUpQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" GiverX="-98.7554" Y="-99.599" Z="-12.8862" />
 	
 			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Aurek Base"
-									XYZ="-99.66091,-99.34919,-13.57615"
-									ToX="-362.6329" ToY="9.034428" ToZ="-136.3432" />
+									XYZ="-99.66091,-99.34919,-13.57615" />
 									
 			<!-- I am now in Aurek Base -->
 		</If>

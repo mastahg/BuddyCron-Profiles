@@ -91,16 +91,14 @@
 			<If Condition="(Me.Position.X &gt; -13) and (Me.Position.X &lt; 5) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; -4) and (Me.Position.Z &lt; 7)">
 				<MoveTo QuestId="0xE000746FA7B97065" XYZ="-12.36037,7.801,1.960792" />		<!-- GoTo Elevator 1 -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-12.36037,7.801,1.960792"
-					ToX="-14.3504" ToY="7.801" ToZ="2.0526" />
+					XYZ="-12.36037,7.801,1.960792" />
 			</If>
 			<If Condition="(not IsStepComplete(0xE000A89E340382EC, 2))">
 				<If Condition="(not IsTaskComplete(0xE000A89E340382EC, 2, 1))">
 					<If Condition="(Me.Position.X &gt; -13) and (Me.Position.X &lt; 5) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; -4) and (Me.Position.Z &lt; 7)">
 						<MoveTo QuestId="0xE000746FA7B97065" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-							XYZ="-38.39104,7.801,2.039455"
-							ToX="-36.7497" ToY="7.801" ToZ="2.1096" />
+							XYZ="-38.39104,7.801,2.039455" />
 					</If>				
 					<UseObject QuestId="0xE000A89E340382EC" BranchId="1" StepId="2" TaskId="1" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Placeables>
@@ -121,8 +119,7 @@
 					<If Condition="(Me.Position.X &gt; -13) and (Me.Position.X &lt; 5) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; -4) and (Me.Position.Z &lt; 7)">
 						<MoveTo QuestId="0xE000746FA7B97065" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-							XYZ="-38.39104,7.801,2.039455"
-							ToX="-36.7497" ToY="7.801" ToZ="2.1096" />
+							XYZ="-38.39104,7.801,2.039455" />
 					</If>					
 					<UseObject QuestId="0xE000A89E340382EC" BranchId="1" StepId="2" TaskId="0" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Placeables>
@@ -149,14 +146,12 @@
 			<If Condition="(Me.Position.X &gt; -13) and (Me.Position.X &lt; 5) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; -4) and (Me.Position.Z &lt; 7)">
 				<MoveTo QuestId="0xE000746FA7B97065" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-38.39104,7.801,2.039455"
-					ToX="-36.7497" ToY="7.801" ToZ="2.1096" />
+					XYZ="-38.39104,7.801,2.039455" />
 			</If>
 			<If Condition="(Me.Position.X &gt; -27) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 11)">
 				<MoveTo QuestId="0xE000746FA7B97065" XYZ="-23.31157,6.337068,9.881577" />		<!-- GoTo Elevator 2 -->				
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Waste Disposal"
-					XYZ="-23.31157,6.337068,9.881577"
-					ToX="-23.1502" ToY="1.501" ToZ="5.8946" />	
+					XYZ="-23.31157,6.337068,9.881577" />	
 			</If> 
 			
 			<If Condition="(not IsStepComplete(0xE000746FA7B97065, 2))">
@@ -214,8 +209,7 @@
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-23.31,1.521,6.147062" />		<!-- GoTo Elevator 2 -->				
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-						XYZ="-23.31,1.521,6.147062"
-						ToX="-23.1523" ToY="6.301" ToZ="9.6136" />	
+						XYZ="-23.31,1.521,6.147062" />	
 				</If>
 			</If>
 		</If>	
@@ -226,14 +220,12 @@
 			<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 				<MoveTo QuestId="0xE000746FA7B97065" XYZ="-23.31,1.521,6.147062" />		<!-- GoTo Elevator 2 -->				
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-23.31,1.521,6.147062"
-					ToX="-23.1523" ToY="6.301" ToZ="9.6136" />	
+					XYZ="-23.31,1.521,6.147062" />	
 			</If>
 			<If Condition="(Me.Position.X &gt; -27) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 9) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 11)">
 				<MoveTo QuestId="0xE0009CF3F58AD94C" XYZ="-14.19719,7.810627,1.929299" />		<!-- GoTo Elevator 1 -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Offices"
-					XYZ="-14.19719,7.810627,1.929299"
-					ToX="-12.5504" ToY="7.801" ToZ="2.0526" />
+					XYZ="-14.19719,7.810627,1.929299" />
 			</If>
 			<If Condition="(not IsStepComplete(0xE0009CF3F58AD94C, 2))">
 				<Grind GrindRef="Staff Cuts" While="(not IsStepComplete(0xE0009CF3F58AD94C, 2))"/>
@@ -245,14 +237,12 @@
 			<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 				<MoveTo QuestId="0xE000746FA7B97065" XYZ="-23.31,1.521,6.147062" />		<!-- GoTo Elevator 2 -->				
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-23.31,1.521,6.147062"
-					ToX="-23.1523" ToY="6.301" ToZ="9.6136" />	
+					XYZ="-23.31,1.521,6.147062" />	
 			</If>
 			<If Condition="(Me.Position.X &gt; -27) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 9) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 11)">
 				<MoveTo QuestId="0xE0009CF3F58AD94C" XYZ="-14.19719,7.810627,1.929299" />		<!-- GoTo Elevator 1 -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Offices"
-					XYZ="-14.19719,7.810627,1.929299"
-					ToX="-12.5504" ToY="7.801" ToZ="2.0526" />
+					XYZ="-14.19719,7.810627,1.929299" />
 			</If>				
 			<MoveTo QuestId="0xE0009CF3F58AD94C" XYZ="4.476641,8.802309,2.756657"  />
 			<UseObject QuestId="0xE0009CF3F58AD94C" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="4.476641,8.802309,2.756657"  />

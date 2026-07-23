@@ -574,8 +574,7 @@
 			<CompleteQuest QuestName="Dreams of Korriban" QuestId="0xE000E71E17B6397B" />
 			
 			<UseTransport TransporterName="Poison Pit Speeder" Type="Taxi" Option="Nemro's Palace Speeder"
-										XYZ="-43.87135,1.758143,27.82802" 
-										ToX="-53.5701" ToY="2.156853" ToZ="48.9896" />
+										XYZ="-43.87135,1.758143,27.82802" />
 		</If>
 		
 		<!-- BH - The Last Flight -->
@@ -594,8 +593,7 @@
 				</If>
 			
 				<UseTransport TransporterName="Nemro's Palace Speeder" Type="Taxi" Option="Poison Pit Speeder"
-									XYZ="-53.3717,2.137235,49.0033"
-									ToX="-44.0267" ToY="1.758143" ToZ="27.9976" />
+									XYZ="-53.3717,2.137235,49.0033" />
 			</If>
 			<!-- Skip 4 -->
 			<If Condition="HasQuest(0xE0001CFF2D5A7A1A) and not IsStepComplete(0xE0001CFF2D5A7A1A, 5)">
@@ -688,8 +686,7 @@
 			<PickUpQuest QuestName="A Slight Lean" QuestId="0xE000DE45E4C10CD4" GiverName="Morsel" XYZ="-53.1481,4.551,65.747" />
 			
 			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Jiguuna Speeder"
-									XYZ="-53.31712,2.134857,49.10521"
-									ToX="-31.1564" ToY="1.177323" ToZ="40.9684" />
+									XYZ="-53.31712,2.134857,49.10521" />
 		</If>
 		
 		<!-- Turnin A Slight Lean -->
@@ -741,8 +738,7 @@
 			<CompleteQuest QuestName="Tech Jealousy" QuestId="0xE000C8D888CB93DF" />
 			
 			<UseTransport TransporterName="Jiguuna Speeder" Option="Nemro's Palace Speeder"
-										XYZ="-30.99755,1.177323,40.86168"
-										ToX="-53.0641" ToY="2.126748" ToZ="49.1119" />
+										XYZ="-30.99755,1.177323,40.86168" />
 										
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -782,8 +778,7 @@
 			<PickUpQuest QuestName="To Boom or Not to Boom" QuestId="0xE0009E7E4C9DBE56" GiverName="Getzo" XYZ="-54.424,4.554522,67.135" />
 	
 			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Jiguuna Speeder"
-									XYZ="-53.31166,2.134839,49.12879"
-									ToX="-31.1564" ToY="1.177323" ToZ="40.9684" />
+									XYZ="-53.31166,2.134839,49.12879" />
 		</If>
 		
 		<!-- To Boom or Not to Boom -->
@@ -939,8 +934,7 @@
 			<CompleteQuest QuestName="Keeping Secrets" QuestId="0xE0005A924CF2B444" />
 			
 			<UseTransport TransporterName="Rust Yards Speeder" Option="Nemro's Palace Speeder"
-									XYZ="26.84658,1.278584,37.27312" 
-									ToX="-53.0641" ToY="2.126748" ToZ="49.1119" />
+									XYZ="26.84658,1.278584,37.27312" />
 			
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -987,8 +981,7 @@
 			<CompleteQuest QuestName="Settling Accounts: Yalt Reward" QuestId="0xE000B5C817EFD173" />
 			<If Condition="HasQuest(0xE00036351098CD4B) and not IsStepComplete(0xE00036351098CD4B, 3)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" IgnoreLOS="True" IgnoreQuestRelation="True" 
-										XYZ="-46.71477,4.627566,66.23927"
-										ToX="-46.7838" ToY="-0.3971924" ToZ="65.9931" />
+										XYZ="-46.71477,4.627566,66.23927" />
 			</If>
 			<UseObject ObjectName="Beast Pit Alarm" QuestId="0xE00036351098CD4B" BranchId="1" StepId="4" WaitTime="1" XYZ="-51.94848,-0.3568176,74.62281" />
 			<Grind GrindRef="House Cleaning: Nem'ro's Aplology 5-7" While="(not IsBranchStepComplete(0xE00036351098CD4B, 1, 5))" />
@@ -997,8 +990,7 @@
 			<If Condition="HasQuest(0xE00036351098CD4B) and not IsStepComplete(0xE00036351098CD4B, 8)">
 				<MoveTo QuestId="0xE00036351098CD4B" XYZ="-52.53738,-0.3900205,75.42714" />
 				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 1" 
-										XYZ="-46.79951,-0.3949655,66.26503" 
-										ToX="-46.791" ToY="4.629808" ToZ="66.0081" />
+										XYZ="-46.79951,-0.3949655,66.26503" />
 			</If>
 			<If Condition="HasQuest(0xE00036351098CD4B) and not IsStepComplete(0xE00036351098CD4B, 9)">
 				<MoveTo QuestId="0xE00036351098CD4B" XYZ="-53.24677,4.552899,74.39927" />
@@ -1070,8 +1062,7 @@
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
 			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Rust Yards Speeder" 
-									XYZ="-53.28392,2.130127,49.0124" 
-									ToX="26.8913" ToY="1.259339" ToZ="37.089" />
+									XYZ="-53.28392,2.130127,49.0124" />
 		</If>
 		<PickUpQuest QuestName="Unfinished Business" QuestId="0xE000D51EB84CAB94" GiverName="Cy Krolo" XYZ="30.3276,1.311847,41.9702" />
 		
@@ -1123,8 +1114,7 @@
 				<If Condition="(Me.Position.Y &gt;= 6.4)"> <!-- Level 1 to 3 -->
 					<ForceVendor VendorType="Repair" />
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 3" 
-									XYZ="58.09467,6.720118,61.94585" 
-									ToX="57.9008" ToY="1.698508" ToZ="61.9464" />
+									XYZ="58.09467,6.720118,61.94585" />
 				</If>
 				<!-- Lizard Hunting -->
 				<If Condition="(not IsQuestComplete(0xE000D910BF77EA86))">
@@ -1146,8 +1136,7 @@
 				</UseObject>
 				<If Condition="(Me.Position.Y &lt; 2) and (Me.Position.Y &gt; 1.5)"> <!-- Level 3 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-									XYZ="58.17458,1.701464,61.94816" 
-									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+									XYZ="58.17458,1.701464,61.94816" />
 				</If>
 			</If>
 		</If>
@@ -1157,13 +1146,11 @@
 			<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 1, 3)">
 				<If Condition="(Me.Position.Y &gt;= 6.4)"> <!-- Level 1 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-									XYZ="58.09467,6.720118,61.94585" 
-									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+									XYZ="58.09467,6.720118,61.94585" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 2) and (Me.Position.Y &gt; 0)"> <!-- Level 3 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-									XYZ="58.17458,1.701464,61.94816" 
-									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+									XYZ="58.17458,1.701464,61.94816" />
 				</If>
 				<UseObject ObjectName="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="1" StepId="3" WaitTime="3500" XYZ="61.35532,4.501,60.88064" />
 			</If>
@@ -1171,8 +1158,7 @@
 				<UseObject ObjectName="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="3" StepId="2" WaitTime="3500" XYZ="61.29214,4.501,60.79504" />
 				<If Condition="(Me.Position.Y &lt;= 6) and (Me.Position.Y &gt;= 4)"> <!-- 2 to 1 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1" 
-									XYZ="58.15561,4.718481,61.94775" 
-									ToX="57.9019" ToY="6.720118" ToZ="61.9492" />
+									XYZ="58.15561,4.718481,61.94775" />
 					<ForceVendor VendorType="Repair" />
 				</If>
 			</If>
@@ -1183,13 +1169,11 @@
 			<If Condition="((HasQuest(0xE000FC4495BE6904)) and (not IsBranchStepComplete(0xE000FC4495BE6904, 1, 6)))">
 				<If Condition="(Me.Position.Y &gt;= 6.4)"> <!-- Level 1 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-										XYZ="58.09467,6.720118,61.94585" 
-										ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+										XYZ="58.09467,6.720118,61.94585" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 2) and (Me.Position.Y &gt; 0)"> <!-- Level 3 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-										XYZ="58.17458,1.701464,61.94816" 
-										ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+										XYZ="58.17458,1.701464,61.94816" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000FC4495BE6904)) and (not IsBranchStepComplete(0xE000FC4495BE6904, 1, 3)))">
@@ -1209,13 +1193,11 @@
 			<If Condition="HasQuest(0xE000F4EC9F57201B) and not IsStepComplete(0xE000F4EC9F57201B, 2)">
 				<If Condition="(Me.Position.Y &gt;= 6.4)"> <!-- Level 1 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-									XYZ="58.09467,6.720118,61.94585" 
-									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+									XYZ="58.09467,6.720118,61.94585" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 2) and (Me.Position.Y &gt; 0)"> <!-- Level 3 to 2 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2" 
-									XYZ="58.17458,1.701464,61.94816" 
-									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
+									XYZ="58.17458,1.701464,61.94816" />
 				</If>
 				<UseObject ObjectName="Carbonite Stasis Controls" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="2" WaitTime="3" XYZ="70.49318,4.901,70.12951" />
 			</If>
@@ -1223,8 +1205,7 @@
 				<UseObject ObjectName="Fa'athra's Stash" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="3" WaitTime="2500" XYZ="55.85725,4.502736,71.79343" />
 				<If Condition="(Me.Position.Y &lt;= 6) and (Me.Position.Y &gt;= 4)"> <!-- 2 to 1 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1" 
-									XYZ="58.15561,4.718481,61.94775" 
-									ToX="57.9019" ToY="6.720118" ToZ="61.9492" />
+									XYZ="58.15561,4.718481,61.94775" />
 					<ForceVendor VendorType="Repair" />
 				</If>
 			</If>
@@ -1245,8 +1226,7 @@
 			<CompleteQuest QuestName="Unfinished Business" QuestId="0xE000D51EB84CAB94" />
 			
 			<UseTransport TransporterName="Rust Yards Speeder" Type="Taxi" Option="Jiguuna Speeder" 
-									XYZ="26.97561,1.3046,37.43103" 
-									ToX="-30.8806" ToY="1.177323" ToZ="40.9536" />
+									XYZ="26.97561,1.3046,37.43103" />
 		</If>
 		
 		<!-- Turnin Return of the Warrior -->
@@ -1327,8 +1307,7 @@
 		<If Condition="((HasQuest(0xE0003E4B705AF1EC)) and (not IsQuestComplete(0xE0003E4B705AF1EC)))">
 			<If Condition="HasQuest(0xE0003E4B705AF1EC) and not IsStepComplete(0xE0003E4B705AF1EC, 2)">
 				<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Imperial Fleet" 
-										XYZ="-73.03813,3.057236,24.6992" 
-										ToX="672.6099" ToY="0.101" ToZ="472.8877" />
+										XYZ="-73.03813,3.057236,24.6992" />
 										
 				<WaitTimer WaitTime="15" />
 			</If>
@@ -1340,8 +1319,7 @@
 		<If Condition="((HasQuest(0xE000A0A580DFAEF6)) and (not IsQuestComplete(0xE000A0A580DFAEF6)))">
 			<If Condition="HasQuest(0xE000A0A580DFAEF6) and not IsStepComplete(0xE000A0A580DFAEF6, 2)">
 				<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Imperial Fleet" 
-										XYZ="-73.03813,3.057236,24.6992" 
-										ToX="672.6099" ToY="0.101" ToZ="472.8877" />
+										XYZ="-73.03813,3.057236,24.6992" />
 				
 				<WaitTimer WaitTime="15" />
 			</If>

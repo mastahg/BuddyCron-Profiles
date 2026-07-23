@@ -582,8 +582,7 @@
 			<!-- Dromund Kaas Spaceport to Dromund Kaas -->
 			<If Condition="(Me.Position.Y &lt;= -6) and (Me.Position.Y &gt;= -8) and (Core.Player.AreaId == 0x4000000046FD234A)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Dromund Kaas Spaceport" 
-									XYZ="101.2396,-7.818616,22.0853" 
-									ToX="101.6636" ToY="6.287242" ToZ="22.1307" />
+									XYZ="101.2396,-7.818616,22.0853" />
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 		</If>
@@ -624,8 +623,7 @@
 			<CompleteQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" RewardIndex="0" />
  
 			<UseTransport TransporterName="Spaceport Speeder" Type="Taxi" Option="Kaas City Entrance Speeder" 
-									XYZ="88.2997,6.340111,36.3558" 
-									ToX="-9.0122" ToY="4.1061" ToZ="31.5782" />
+									XYZ="88.2997,6.340111,36.3558" />
 		</If>
 
 		<PickUpQuest QuestName="On The Scent" QuestId="0xE00088D248EEC6D5" GiverName="Minder Twenty" XYZ="-19.4987,3.408775,25.90403" />
@@ -672,8 +670,7 @@
 			<CompleteQuest QuestName="On The Scent" QuestId="0xE00088D248EEC6D5" />
 			
 			<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi" 
-									XYZ="-19.6445,4.007461,-1.152719" 
-									ToX="-33.33472" ToY="2.307461" ToZ="-50.02405" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 		</If>
 		
 		<!-- BH - The Hunt on Dromund Kaas and Turnin -->
@@ -708,8 +705,7 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 			</If>
 			<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
 				<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
@@ -720,21 +716,18 @@
 				</If>
 			
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi" 
-									XYZ="-19.3678,4.007462,-1.069131" 
-									ToX="-33.33167" ToY="2.307461" ToZ="-50.02511" />
+									XYZ="-19.3678,4.007462,-1.069131" />
 			</If>
 			<TurnInQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" TurnInName="Renegin" XYZ="-34.31099,2.307461,-51.37895" />
 			<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" RewardIndex="2" />
 			
 			<If Condition="(Me.Class == CharacterClass.Agent)">
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="12.17422" ToY="1.79964" ToZ="-55.952" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.BountyHunter)">
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061"
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 			</If>
 		</If>
 		
@@ -771,8 +764,7 @@
 					</If>
 				</If>
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 			</If>
 		</If>
 		
@@ -782,8 +774,7 @@
 			<CompleteQuest QuestName="Onwards to Dromund Kaas" QuestId="0xE0006DA1145988E6" />
 
 			<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 		</If>
 		
 		<!-- Warrior - Turnin The Flight to Dromund Kaas -->
@@ -792,8 +783,7 @@
 			<CompleteQuest QuestName="The Flight to Dromund Kaas" QuestId="0xE000919D1513AC49" />
 
 			<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 		</If>
 
 		<!-- Warrior - The Transporter and Turnin -->
@@ -801,8 +791,7 @@
 			<If Condition="HasQuest(0xE0007F1907D8A21D) and not IsBranchStepComplete(0xE0007F1907D8A21D, 1, 2)">
 				<If Condition="(Me.Position.Y &gt; 2)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Cargo Port B7" 
-									XYZ="-32.1643,2.488747,27.33236" 
-									ToX="9.7384" ToY="-3.697699" ToZ="2.7875" />
+									XYZ="-32.1643,2.488747,27.33236" />
 				</If>
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
@@ -814,13 +803,11 @@
 			<If Condition="((HasQuest(0xE0007F1907D8A21D)) and (not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 5)))">
 				<If Condition="(Me.Position.Y &lt; -3)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Kaas City"
-									XYZ="9.539744,-3.696166,2.558426"
-									ToX="-32.0092" ToY="2.453264" ToZ="27.0516" />
+									XYZ="9.539744,-3.696166,2.558426" />
 				</If>
 				<If Condition="(Me.Position.Z &gt; -10)">
 					<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi" 
-									XYZ="-19.3678,4.007462,-1.069131" 
-									ToX="-33.33167" ToY="2.307461" ToZ="-50.02511" />
+									XYZ="-19.3678,4.007462,-1.069131" />
 				</If>
 			</If>
 			<TurnInQuest QuestName="The Transporter" QuestId="0xE0007F1907D8A21D" TurnInName="Darth Baras" XYZ="-2.3059,1.40001,-82.6698" />
@@ -828,8 +815,7 @@
 			<!-- Pull the Plug 0xE00056E9960E4824-->
 
 			<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061" 
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 		</If>
 
 		<PickUpQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" GiverName="Sergeant Torken" XYZ="-8.7057,1.247094,44.7255" />
@@ -987,8 +973,7 @@
 			<CompleteQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" RewardIndex="3" />
 			
 			<UseTransport TransporterName="Outpost Tempest Speeder" Type="Taxi" Option="Kaas City Entrance Speeder" 
-									XYZ="28.51099,3.268803,80.00479" 
-									ToX="-9.1708" ToY="4.1061" ToZ="31.6973" />
+									XYZ="28.51099,3.268803,80.00479" />
 									
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -997,23 +982,20 @@
 		<If Condition="((HasQuest(0xE00056E9960E4824)) and (not IsQuestComplete(0xE00056E9960E4824)))">
 			<If Condition="((HasQuest(0xE00056E9960E4824)) and (not IsBranchStepComplete(0xE00056E9960E4824, 4, 2)))">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Sith Sanctum Taxi" 
-                    XYZ="-19.6445,4.007461,-1.152719" 
-                    ToX="-10.99834" ToY="2.307461" ToZ="-50.26735" />
+                    XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="Pull the Plug" QuestId="0xE00056E9960E4824" TurnInName="Darth Baras" XYZ="-2.1115,1.400012,-82.5195" />
 			<CompleteQuest QuestName="Pull the Plug" QuestId="0xE00056E9960E4824" RewardIndex="1" />
         
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-										XYZ="-10.62671,2.307461,-50.81066" 
-										ToX="-19.23495" ToY="4.007461" ToZ="-1.758956" />
+										XYZ="-10.62671,2.307461,-50.81066" />
 		</If>
 		
 		<!-- Agent - Dark Meeting -->
 		<If Condition="((HasQuest(0xE0001B71A237F55C)) and (not IsQuestComplete(0xE0001B71A237F55C)))">
 			<If Condition="HasQuest(0xE0001B71A237F55C) and not IsBranchStepComplete(0xE0001B71A237F55C, 1, 2)">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Sith Sanctum Taxi" 
-										XYZ="-19.6445,4.007461,-1.152719" 
-										ToX="-10.99834" ToY="2.307461" ToZ="-50.26735" />
+										XYZ="-19.6445,4.007461,-1.152719" />
 				<MoveTo QuestId="0xE0001B71A237F55C" XYZ="-7.70923,2.200376,-90.56509" />
 			</If>
 			<If Condition="HasQuest(0xE0001B71A237F55C) and not IsBranchStepComplete(0xE0001B71A237F55C, 2, 2)">
@@ -1022,23 +1004,20 @@
 			<CompleteQuest QuestName="Dark Meeting" QuestId="0xE0001B71A237F55C" />
 				
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-										XYZ="-10.62671,2.307461,-50.81066" 
-										ToX="-19.23495" ToY="4.007461" ToZ="-1.758956" />
+										XYZ="-10.62671,2.307461,-50.81066" />
 		</If>
 		
 		<!-- Inquisitor - Turnin At the Foot of the Colossus -->
 		<If Condition="((HasQuest(0xE0003CFF4A6A17F4)) and (not IsQuestComplete(0xE0003CFF4A6A17F4)))">
 			<If Condition="(Me.Position.Z &gt;= -25)">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Sith Sanctum Taxi" 
-										XYZ="-19.6445,4.007461,-1.152719" 
-										ToX="-10.99834" ToY="2.307461" ToZ="-50.26735" />
+										XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" TurnInName="Lord Zash" XYZ="-13.2876,2.200412,-90.7578" />
 			<CompleteQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" RewardIndex="1" />
 				
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-										XYZ="-10.62671,2.307461,-50.81066" 
-										ToX="-19.23495" ToY="4.007461" ToZ="-1.758956" />
+										XYZ="-10.62671,2.307461,-50.81066" />
 		</If>
    
 		<!-- BH - Musty Trail and Turnin -->
@@ -1055,16 +1034,14 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
 			
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi"
-									XYZ="-19.6445,4.007461,-1.152719"
-									ToX="-33.33472" ToY="2.307461" ToZ="-50.02405" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<If Condition="((HasQuest(0xE000885D5541D2F4)) and (not IsBranchStepComplete(0xE000885D5541D2F4, 3, 2)))">
 				<TalkTo QuestName="A Musty Trail" QuestId="0xE000885D5541D2F4" Name="Crysta Markon" WaitTime="1" XYZ="-25.9326,1.400012,-70.4624" />
 				<!-- Is this a turnin? if so, where is the complete quest? -->
 			
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061"
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 			</If>
 		</If>
     
@@ -1364,8 +1341,7 @@
 			<CompleteQuest QuestName="Grathan Assault" QuestId="0xE00043A358C5B3A8" />
 			
 			<UseTransport TransporterName="The Wall Speeder" Type="Taxi" Option="Revanite Compound Speeder" 
-									XYZ="-31.94016,-5.865528,113.1601" 
-									ToX="-80.147" ToY="-2.539633" ToZ="115.4878" />
+									XYZ="-31.94016,-5.865528,113.1601" />
 		</If>
 		
 		<!-- Turnin The Mask of Revan -->
@@ -1405,8 +1381,7 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			
 				<UseTransport TransporterName="The Wall Speeder" Type="Taxi" Option="Revanite Compound Speeder" 
-									XYZ="-31.94016,-5.865528,113.1601" 
-									ToX="-80.147" ToY="-2.539633" ToZ="115.4878" />
+									XYZ="-31.94016,-5.865528,113.1601" />
 			</If>
 			<If Condition="HasQuest(0xE000551DC2B4032F) and not IsBranchStepComplete(0xE000551DC2B4032F, 10, 2)">
 				<TalkTo QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" Name="Raymon" WaitTime="1" XYZ="-84.70087,-2.659268,112.7321" />
@@ -1422,8 +1397,7 @@
 				<UseObject ObjectName="Holoterminal" QuestId="0xE000AB75F2974255" BranchId="1" StepId="2" WaitTime="4" XYZ="-81.00342,-2.670008,109.8387" />
 			
 				<UseTransport TransporterName="Revanite Compound Speeder" Type="Taxi" Option="Kaas City Entrance Speeder" 
-									XYZ="-79.73012,-2.539633,115.3169" 
-									ToX="-9.3482" ToY="4.1061" ToZ="31.7269" />
+									XYZ="-79.73012,-2.539633,115.3169" />
 			</If>
 			<TurnInQuest QuestName="The Master's Secret" QuestId="0xE000AB75F2974255" TurnInName="Sandor" XYZ="-18.08327,3.398767,2.071999" />
 			<CompleteQuest QuestName="The Master's Secret" QuestId="0xE000AB75F2974255" RewardIndex="1" />
@@ -1446,8 +1420,7 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
 			
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi"
-									XYZ="-19.6445,4.007461,-1.152719"
-									ToX="-33.33472" ToY="2.307461" ToZ="-50.02405" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<If Condition="((HasQuest(0xE000B405E6F6F7B1)) and (not IsBranchStepComplete(0xE000B405E6F6F7B1, 2, 3)))">
 				<TalkTo QuestName="Family Cleansing" QuestId="0xE000B405E6F6F7B1" Name="Crysta Markon" WaitTime="1" XYZ="-25.9326,1.400012,-70.4624" />
@@ -1464,8 +1437,7 @@
 			</If>
 			<If Condition="(HasQuest(0xE000DC7A795B6F2F) and (not HasQuest(0xE0004C2A6B1FB0C5) and not IsQuestComplete(0xE0004C2A6B1FB0C5)))">
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="12.23383,1.799556,-56.55454"
-									ToX="-19.6445" ToY="4.007461" ToZ="-1.152719" />
+									XYZ="12.23383,1.799556,-56.55454" />
 			</If>
 		</If>
 		
@@ -1473,23 +1445,20 @@
 		<If Condition="((HasQuest(0xE0006DA5A506D94F)) and (not IsQuestComplete(0xE0006DA5A506D94F)))">
 			<If Condition="HasQuest(0xE0006DA5A506D94F) and not IsStepComplete(0xE0006DA5A506D94F, 13) and (Me.Position.Z &gt;= -25)">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-19.6445,4.007461,-1.152719" 
-									ToX="12.17359" ToY="1.799643" ToZ="-55.92628" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="High Society" QuestId="0xE0006DA5A506D94F" TurnInName="Keeper" XYZ="12.19512,2.680449,-83.05063" />
 			<CompleteQuest QuestName="High Society" QuestId="0xE0006DA5A506D94F" RewardIndex="2" />
 			
 			<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="12.3486,1.799503,-56.93169" 
-									ToX="-19.6445" ToY="4.007461" ToZ="-1.152719" />
+									XYZ="12.3486,1.799503,-56.93169" />
 		</If>
 		
 		<!-- Inquisitor - Dismantling the Machine -->
 		<If Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsQuestComplete(0xE000F6DDC719F7E5)))">
 			<If Condition="HasQuest(0xE000F6DDC719F7E5) and not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 6) and (Me.Position.Z &gt;= -25)">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-19.6445,4.007461,-1.152719" 
-									ToX="12.17359" ToY="1.799643" ToZ="-55.92628" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="Dismantling the Machine" QuestId="0xE000F6DDC719F7E5" TurnInName="Lord Zash" XYZ="-13.2876,2.200412,-90.7578" />
 			<CompleteQuest QuestName="Dismantling the Machine" QuestId="0xE000F6DDC719F7E5" />
@@ -1510,14 +1479,12 @@
 			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 5)))">
 				<TalkTo QuestId="0xE000FB4EC7E346DF" Name="Darth Skotia" XYZ="-0.1026277,1.80003,-71.92362" />
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="12.3486,1.799503,-56.93169" 
-									ToX="-19.6445" ToY="4.007461" ToZ="-1.152719" />
+									XYZ="12.3486,1.799503,-56.93169" />
 			</If>
 			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 6)))">
 				<MoveTo QuestId="0xE000FB4EC7E346DF" XYZ="-31.05358,5.04142,2.563138" />
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-19.6445,4.007461,-1.152719" 
-									ToX="12.17359" ToY="1.799643" ToZ="-55.92628" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 8)))">
 				<MoveTo QuestId="0xE000FB4EC7E346DF" XYZ="-0.3750512,1.800021,-72.10003" />
@@ -1529,8 +1496,7 @@
 			<CompleteQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" RewardIndex="1" />
 			
 			<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="12.3486,1.799503,-56.93169" 
-									ToX="-19.09842" ToY="4.007461" ToZ="-1.733004" />
+									XYZ="12.3486,1.799503,-56.93169" />
 			<!-- In the Halls of Traitors -->
 		</If>
 		
@@ -1538,15 +1504,13 @@
 		<If Condition="((HasQuest(0xE0009FF7D4D67CE5)) and (not IsQuestComplete(0xE0009FF7D4D67CE5)))">
 			<If Condition="((HasQuest(0xE0009FF7D4D67CE5)) and (not IsBranchStepComplete(0xE0009FF7D4D67CE5, 4, 3)))">
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Sith Sanctum Taxi" 
-                    XYZ="-19.6445,4.007461,-1.152719" 
-                    ToX="-10.99834" ToY="2.307461" ToZ="-50.26735" />
+                    XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="Laying Waste" QuestId="0xE0009FF7D4D67CE5" TurnInName="Darth Baras" XYZ="-2.1115,1.400012,-82.5195" />
 			<CompleteQuest QuestName="Laying Waste" QuestId="0xE0009FF7D4D67CE5" RewardIndex="1" />
         
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-										XYZ="-10.62671,2.307461,-50.81066" 
-										ToX="-19.23495" ToY="4.007461" ToZ="-1.758956" />
+										XYZ="-10.62671,2.307461,-50.81066" />
 		</If>
 		
 		<!-- Pickup Unauthorized Transmission, Part I -->
@@ -1578,8 +1542,7 @@
 			<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" RewardIndex="3" />
 			
 			<UseTransport TransporterName="Outpost Warden Speeder" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="-124.0459,5.308574,69.62733" 
-									ToX="-19.6723" ToY="4.007462" ToZ="-0.3819" />
+									XYZ="-124.0459,5.308574,69.62733" />
 		</If>
 		
 		<!-- Turnin Unauthorized Transmission, Part II -->
@@ -1692,8 +1655,7 @@
 			<CompleteQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" RewardIndex="2" />
 			
 			<UseTransport TransporterName="Outpost Warden Speeder" Type="Taxi" Option="Intelligence Headquarters Taxi"
-									XYZ="-124.0295,5.318403,69.44215" 
-									ToX="12.4198" ToY="1.79964" ToZ="-55.9457" />
+									XYZ="-124.0295,5.318403,69.44215" />
 									
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1708,8 +1670,7 @@
 				<CompleteQuest QuestName="Doom and the Dark Temple" QuestId="0xE000B824C3135EF5" RewardIndex="1" />
 			
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="12.37518,1.799497,-56.9724" 
-									ToX="-19.09415" ToY="4.007462" ToZ="-1.731741" />
+									XYZ="12.37518,1.799497,-56.9724" />
 			</If>
 
 			<!-- Agent - Cleaning Up the Mess -->
@@ -1717,8 +1678,7 @@
 				<If Condition="HasQuest(0xE000A23E5571DC48) and not IsStepComplete(0xE000A23E5571DC48, 2)">
 					<If Condition="(Me.Position.Y &gt;= 1)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Cargo Port A3" 
-										XYZ="-36.52017,2.459709,27.27418" 
-										ToX="9.8416" ToY="-0.09565075" ToZ="8.2057" />
+										XYZ="-36.52017,2.459709,27.27418" />
 					</If>
 					<!-- A Minor Inconvenience -->
 					<If Condition="(not IsQuestComplete(0xE000AA5B4390BC91))">
@@ -1727,26 +1687,22 @@
 					<UseObject QuestId="0xE000A23E5571DC48" ObjectName="Cargo" BranchId="1" StepId="2" WaitTime="4" XYZ="12.922,-0.08043796,14.41046" />
 					<If Condition="(Me.Position.Y &lt;= 1)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Kaas City" 
-										XYZ="9.441738,-0.05139881,8.023747"
-										ToX="-36.3458" ToY="2.448064" ToZ="27.1456" />
+										XYZ="9.441738,-0.05139881,8.023747" />
 					</If>
 				</If>
 				<If Condition="(Me.Position.Z &gt;= -25)">
 					<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.6445,4.007461,-1.152719" 
-										ToX="12.17359" ToY="1.799643" ToZ="-55.92628" />
+										XYZ="-19.6445,4.007461,-1.152719" />
 				</If>
 				<TurnInQuest QuestName="Cleaning Up the Mess" QuestId="0xE000A23E5571DC48" TurnInName="Keeper" XYZ="12.34972,2.680449,-83.43895" />
 				<CompleteQuest QuestName="Cleaning Up the Mess" QuestId="0xE000A23E5571DC48" RewardIndex="3" />
 				<If Condition="(Me.Position.Z &lt;= -25)">
 					<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Expansion Speeder"
-										XYZ="12.37518,1.799497,-56.9724" 
-										ToX="-64.1756" ToY="2.436682" ToZ="20.4127" />
+										XYZ="12.37518,1.799497,-56.9724" />
 				</If>
 				<If Condition="(Me.Position.X &lt;= 50)">
 					<UseTransport TransporterName="Kaas City Entrance Speeder" Type="Taxi" Option="Spaceport Speeder" 
-										XYZ="-8.49697,4.1061,31.13363"
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.49697,4.1061,31.13363" />
 				</If>
 			</If>
 
@@ -1754,8 +1710,7 @@
 			<If Condition="((HasQuest(0xE00025962C222D52)) and (not IsQuestComplete(0xE00025962C222D52)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A) and (Me.Position.Y &gt;= -4)"> <!-- dro_main -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Agent Hangar" IgnoreQuestRelation="True" 
-										XYZ="96.64817,6.192361,42.66215" 
-										ToX="96.6911" ToY="-7.802541" ToZ="42.9783" />
+										XYZ="96.64817,6.192361,42.66215" />
 				</If>
 				<If Condition="((HasQuest(0xE00025962C222D52)) and (not IsBranchStepComplete(0xE00025962C222D52, 1, 2)))">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- dro_main -->
@@ -1778,13 +1733,11 @@
 					</If>
 					<If Condition="(Me.Position.X &lt; 93) and (Me.Position.X &gt;= 60) and (Me.Position.Y &lt;= -95)">
 						<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Korriban Orbital Station" 
-											XYZ="91.20815,-100.0039,1.40146" 
-											ToX="93.8071" ToY="-100.0039" ToZ="1.3996" />
+											XYZ="91.20815,-100.0039,1.40146" />
 					</If>
 					<If Condition="(Me.Position.Y &lt;= -5)">
 						<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Korriban" 
-											XYZ="100.1471,-99.34077,-11.8988" 
-											ToX="14.8672" ToY="0.491" ToZ="12.1473" />
+											XYZ="100.1471,-99.34077,-11.8988" />
 					</If>
 					<!-- Ele going up -->
 					<TalkTo QuestName="Darth Zhorrid Arrives" QuestId="0xE00025962C222D52" Name="Darth Zhorrid" XYZ="-39.7916,8.601561,-2.498202" />
@@ -1800,13 +1753,11 @@
 					<If Condition="(Core.Player.AreaId == 0x4000000106296B6D)">
 						<If Condition="(Me.Position.Y &gt;= -5)">
 							<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Korriban Orbital Station" 
-										XYZ="14.2359,0.7492358,12.75191"
-										ToX="99.9679" ToY="-99.599" ToZ="-11.0946" />
+										XYZ="14.2359,0.7492358,12.75191" />
 						</If>
 						<If Condition="(Me.Position.X &gt; 93) and (Me.Position.Y &lt;= -95)">
 							<UseTransport Type="Wonkavator" TransporterName="Airlock" Option="Imperial Agent Airlock"
-										XYZ="93.81657,-100.0039,1.404137" 
-										ToX="91.2197" ToY="-100.0005" ToZ="1.3988" />
+										XYZ="93.81657,-100.0039,1.404137" />
 						</If>
 						<UseObject QuestId="0xE00025962C222D52" ObjectName="Ship Entrance" IgnoreQuestRelation="True" WaitTime="3" XYZ="79.66711,-99.96401,1.3985" />
 						<WaitTimer QuestId="1" WaitTime="15" />
@@ -1831,8 +1782,7 @@
 				<If Condition="HasQuest(0xE000DE1D7172F979) and not IsStepComplete(0xE000DE1D7172F979, 4)">
 					<If Condition="(Me.Position.Y &lt; -14)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-8.569576,-15.39565,83.75136" 
-									ToX="-8.1964" ToY="5.600296" ToZ="83.5899" />
+									XYZ="-8.569576,-15.39565,83.75136" />
 					</If>
 				</If>
 			</If>
@@ -1877,8 +1827,7 @@
 				<CompleteQuest QuestName="The Spy Game" QuestId="0xE000DC7A795B6F2F" />
 			
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-									XYZ="-33.41899,2.307461,-50.84061"
-									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
+									XYZ="-33.41899,2.307461,-50.84061" />
 									
 				<ForceVendor VendorType="Repair" />
 				<ForceVendor VendorType="Train" />
@@ -1889,11 +1838,9 @@
 				<If Condition="(HasQuest(0xE000DD24579D2279)) and (not IsBranchStepComplete(0xE000DD24579D2279, 1, 2))">
 					<If Condition="(Me.Position.Y &lt;= 2.5) and (Core.Player.AreaId == 0x4000000046FD234A)">
 						<UseTransport TransporterName="Kaas City Entrance Speeder" Type="Taxi" Option="Spaceport Speeder"
-									XYZ="-8.49697,4.1061,31.13363"
-									ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+									XYZ="-8.49697,4.1061,31.13363" />
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Docking Bay B-04" IgnoreQuestRelation="True"
-									XYZ="101.2311,6.293561,46.29863"
-									ToX="101.6002" ToY="-0.8221402" ToZ="46.303" />
+									XYZ="101.2311,6.293561,46.29863" />
 						<MoveTo QuestId="1" XYZ="94.79829,-5.261968E-06,51.82272" />
 					</If>
 				</If>
@@ -1931,8 +1878,7 @@
 					<TalkTo QuestName="Pirrell's Ambitions" QuestId="0xE0002941C61FA0E2" Name="Vorr" WaitTime="1" XYZ="-9.4631,-22.399,90.18" />
 					<If Condition="(Me.Position.Y &lt; -14)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-9.426838,-22.39818,83.57056"
-									ToX="-9.7833" ToY="5.553259" ToZ="83.7223" />
+									XYZ="-9.426838,-22.39818,83.57056" />
 					</If>
 				</If>
 			</If>
@@ -1944,15 +1890,13 @@
 			<If Condition="((HasQuest(0xE000487ED22B2414)) and (not IsQuestComplete(0xE000487ED22B2414)))">
 				<If Condition="(Me.Position.Z &gt;= -25)">
 					<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-19.6445,4.007461,-1.152719" 
-									ToX="12.17359" ToY="1.799643" ToZ="-55.92628" />
+									XYZ="-19.6445,4.007461,-1.152719" />
 				</If>
 				<TurnInQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" TurnInName="Darth Zash" XYZ="-3.037,1.800402,-68.1395" />
 				<CompleteQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" RewardIndex="1" />
 			
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
-									XYZ="12.37518,1.799497,-56.9724" 
-									ToX="-19.09415" ToY="4.007462" ToZ="-1.731741" />
+									XYZ="12.37518,1.799497,-56.9724" />
 			</If>
 		
 			<!-- Inq - Plans -->
@@ -1960,13 +1904,11 @@
 				<If Condition="((HasQuest(0xE000A80E99D61403)) and (not IsBranchStepComplete(0xE000A80E99D61403, 1, 2)))">
 					<If Condition="(Me.Position.X &lt;= 50) and (Core.Player.AreaId == 0x4000000046FD234A)">
 						<UseTransport TransporterName="Kaas City Entrance Speeder" Type="Taxi" Option="Spaceport Speeder" 
-										XYZ="-8.49697,4.1061,31.13363"
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.49697,4.1061,31.13363" />
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A) and (Me.Position.Y &gt;= -4)"> <!-- dro_main -->
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Inquisitor Hangar" IgnoreQuestRelation="True" 
-										XYZ="96.63437,6.184735,25.09194"
-										ToX="96.7079" ToY="-7.810241" ToZ="25.4379" />
+										XYZ="96.63437,6.184735,25.09194" />
 					</If>
 					<MoveTo Name="My Location" XYZ="81.64088,-7.798999,23.57328" />
 				</If>
@@ -1990,8 +1932,7 @@
 					<If Condition="(Core.Player.AreaId == 0x40000000E21DD4EC)"> <!-- Balmorra -->
 						<If Condition="(Me.Position.Y &lt; -14)">
 							<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-25.42319,-15.42346,83.52718" 
-									ToX="-25.84346" ToY="5.589759" ToZ="83.59578" />
+									XYZ="-25.42319,-15.42346,83.52718" />
 						</If>
 					</If>
 				</If>
@@ -2009,8 +1950,7 @@
 				<CompleteQuest QuestName="An Ancient Answer" QuestId="0xE0008CB858EB11F7" RewardIndex="1" />
         
 				<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
-										XYZ="-10.62671,2.307461,-50.81066" 
-										ToX="-19.23495" ToY="4.007461" ToZ="-1.758956" />
+										XYZ="-10.62671,2.307461,-50.81066" />
 				<ForceVendor VendorType="Train" />
 			</If>
 		
@@ -2018,13 +1958,11 @@
 			<If Condition="((HasQuest(0xE000EA4805AC703A)) and (not IsQuestComplete(0xE000EA4805AC703A)))">
 				<If Condition="(Me.Position.X &lt;= 50)">
 					<UseTransport TransporterName="Kaas City Entrance Speeder" Type="Taxi" Option="Spaceport Speeder" 
-										XYZ="-8.49697,4.1061,31.13363"
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.49697,4.1061,31.13363" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A) and (Me.Position.Y &gt;= -4)"> <!-- dro_main -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Warrior Hangar" IgnoreQuestRelation="True" 
-										XYZ="96.74149,6.186783,26.80241"
-										ToX="96.7388" ToY="-0.8314179" ToZ="27.0302" />
+										XYZ="96.74149,6.186783,26.80241" />
 				</If>
 				<MoveTo QuestId="1" XYZ="88.75359,0.001282449,18.34654" />
 				<WaitTimer QuestId="1" WaitTime="30" />

@@ -996,15 +996,13 @@
 			
 				<!-- If I am on Voss: Republic Orbital Station, Consular Airlock -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="-95.017,-100.0039,8.860291"
-									ToX="-98.3034" ToY="-99.60795" ToZ="7.1773" />
+									XYZ="-95.017,-100.0039,8.860291" />
 									
 				<PickUpQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" GiverX="-100.5321" Y="-99.599" Z="-4.5337" />
 	
 				<!-- If I am on Voss: Republic Orbital Station -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
-									XYZ="-100.0168,-99.3791,-12.93396"
-									ToX="-26.1238" ToY="27.38585" ToZ="25.325" />
+									XYZ="-100.0168,-99.3791,-12.93396" />
 									
 			</If>
 		</If>
@@ -1025,8 +1023,7 @@
 		<If Condition="((HasQuest(0xE0002FDF6B0BCB8A)) and (not IsQuestComplete(0xE0002FDF6B0BCB8A)))">
 			<If Condition="((HasQuest(0xE0002FDF6B0BCB8A)) and (not IsBranchStepComplete(0xE0002FDF6B0BCB8A, 1, 2)))">
 				<UseTransport TransporterName="Voss-Ka Republic District Skyhopper" Type="Taxi" Option="Ken-La Outpost Skyhopper" 
-									XYZ="-23.3046,26.89906,18.9275" 
-									ToX="-129.6367" ToY="-7.325841" ToZ="-64.2081" />
+									XYZ="-23.3046,26.89906,18.9275" />
 
 				<TalkTo QuestId="0xE0002FDF6B0BCB8A" Name="Ambassador Jannik" XYZ="-142.1079,-7.3363,-60.232" />
 			</If>
@@ -1380,8 +1377,7 @@
 			<CompleteQuest QuestName="Gormak Payback" QuestId="0xE0004FC513FFFBB1" />
  
 			<UseTransport TransporterName="Pilgrim Retreat Speeder" Type="Taxi" Option="Camp Talanis Skyhopper" 
-									XYZ="-182.9797,-5.218355,-88.0415"
-									ToX="76.5537" ToY="21.49236" ToZ="88.9388" />
+									XYZ="-182.9797,-5.218355,-88.0415" />
 		</If>
 		
 		<!-- Turnin Gormak Payback -->
@@ -1390,8 +1386,7 @@
 			<CompleteQuest QuestName="Gormak Payback" QuestId="0xE0004FC513FFFBB1" />
  
 			<UseTransport TransporterName="Pilgrim Retreat Speeder" Type="Taxi" Option="Camp Talanis Skyhopper" 
-									XYZ="-182.9797,-5.218355,-88.0415"
-									ToX="76.5537" ToY="21.49236" ToZ="88.9388" />
+									XYZ="-182.9797,-5.218355,-88.0415" />
 		</If>
 		
 		<PickUpQuest QuestName="More Clever Than You'd Think" QuestId="0xE00050DFA94CB023" GiverName="Sergeant Usser" XYZ="74.6405,21.28464,83.4021" />
@@ -1663,8 +1658,7 @@
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 4, 5)))">
 				<If Condition="Me.Position.X &gt;= 50">
 					<UseTransport TransporterName="Camp Talanis Skyhopper" Type="Taxi" Option="Voss-Ka Republic District Skyhopper" 
-											XYZ="76.5537,21.49236,88.9388"
-											ToX="-23.3046" ToY="26.89906" ToZ="18.9275" />	
+											XYZ="76.5537,21.49236,88.9388" />	
 				</If>	
 				<If Condition="Me.Position.X &lt;= 50">
 					<TalkTo QuestId="0xE000764752516D58" Name="Laryn-Ki" XYZ="-7.3762,25.58664,-1.2375" />
@@ -1679,8 +1673,7 @@
 			<If Condition="((HasQuest(0xE00067DEC6061269)) and (not IsBranchStepComplete(0xE00067DEC6061269, 1, 2)))">
 				<If Condition="Me.Position.X &lt;= 0">
 					<UseTransport TransporterName="Voss-Ka Republic District Skyhopper" Type="Taxi" Option="Shad-Ka Outpost Skyhopper" 
-									XYZ="-23.3046,26.89906,18.9275"
-									ToX="113.1755" ToY="1.906079" ToZ="79.9382" />
+									XYZ="-23.3046,26.89906,18.9275" />
 				</If>	
 				<If Condition="Me.Position.X &gt;= 100">
 					<TalkTo QuestId="0xE00067DEC6061269" Name="Talan-De" XYZ="114.3444,2.010583,73.906" />
@@ -1923,8 +1916,7 @@
 				<TalkTo QuestId="0xE0001C3385B21A3B" Name="Avatar of Sel-Makor" XYZ="215.4176,-0.7026517,36.8855" />
 			
 				<UseTransport TransporterName="Shad-Ka Outpost Skyhopper" Type="Taxi" Option="Voss-Ka Republic District Skyhopper" 
-									XYZ="113.1755,1.906079,79.9382" 
-									ToX="-23.3046" ToY="26.89906" ToZ="18.9275" />
+									XYZ="113.1755,1.906079,79.9382" />
 				<ForceVendor VendorType="Train" />
 			</If>
 			<TurnInQuest QuestName="The Dark Hollow" QuestId="0xE0001C3385B21A3B" TurnInName="Laryn-Ki" XYZ="-7.3762,25.58664,-1.2375" />
@@ -1946,8 +1938,7 @@
 			<PickUpQuest QuestName="Voss: Bonus Series - 1" QuestId="0xE000119D7B57E3A1" GiverName="Lieutenant Randa" XYZ="-25.4206,27.38585,26.6846" />
  
 			<UseTransport TransporterName="Voss-Ka Republic District Skyhopper" Type="Taxi" Option="Kri-Ta Outpost Skyhopper" 
-									XYZ="-23.3046,26.89906,18.9275" 
-									ToX="67.4463" ToY="5.527771" ToZ="-133.0041" />
+									XYZ="-23.3046,26.89906,18.9275" />
 		</If>
 		
 		<!-- Ignoring 4 Heroic - Cyber Mercenaries -->
@@ -2041,8 +2032,7 @@
 				</If>
  
 				<UseTransport TransporterName="Pelath Point Speeder" Type="Taxi" Option="Kri-Ta Outpost Skyhopper" 
-									XYZ="-38.3018,16.0851,-204.6477" 
-									ToX="67.4463" ToY="5.527771" ToZ="-133.0041" />
+									XYZ="-38.3018,16.0851,-204.6477" />
 			</If>
 		</If>
 		
@@ -2177,8 +2167,7 @@
 				<TalkTo QuestId="0xE0000E19E72A9981" Name="Master Halykus" XYZ="59.8129,5.5432,-131.9028" />
 			
 				<UseTransport TransporterName="Kri-Ta Outpost Skyhopper" Type="Taxi" Option="Pelath Point Speeder" 
-									XYZ="67.4463,5.527771,-133.0041" 
-									ToX="-38.3018" ToY="16.0851" ToZ="-204.6477" />
+									XYZ="67.4463,5.527771,-133.0041" />
 			</If>
 			<If Condition="((HasQuest(0xE0000E19E72A9981)) and (not IsBranchStepComplete(0xE0000E19E72A9981, 1, 4)))">
 				<TalkTo QuestId="0xE0000E19E72A9981" Name="Qualie" XYZ="-43.072,16.04563,-202.8036" />
@@ -2286,8 +2275,7 @@
 			</If>
  
 			<UseTransport TransporterName="Pelath Point Speeder" Type="Taxi" Option="Kri-Ta Outpost Skyhopper" 
-									XYZ="-38.3018,16.0851,-204.6477"
-									ToX="67.4463" ToY="5.527771" ToZ="-133.0041" />
+									XYZ="-38.3018,16.0851,-204.6477" />
 		</If>
 
 		<!-- Turnin Beast Takedown -->
@@ -2296,8 +2284,7 @@
 			<CompleteQuest QuestName="Beast Takedown" QuestId="0xE00088F4A78CB9A6" />
  
 			<UseTransport TransporterName="Kri-Ta Outpost Skyhopper" Type="Taxi" Option="Voss-Ka Republic District Skyhopper" 
-									XYZ="67.4463,5.527771,-133.0041" 
-									ToX="-23.3046" ToY="26.89906" ToZ="18.9275" />
+									XYZ="67.4463,5.527771,-133.0041" />
 		</If>
 
 		<!-- Turnin Voss: Bonus Series - 2 -->
@@ -2315,13 +2302,11 @@
 				<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Y &gt;= 20)">
 					<MoveTo QuestId="1" XYZ="-26.62373,27.69503,25.08072" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="-26.62373,27.69503,25.08072" 
-									ToX="-100.0244" ToY="-99.39177" ToZ="-12.91551" />
+									XYZ="-26.62373,27.69503,25.08072" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Y &lt;= -98) and (Me.Position.Z &lt;= 8)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Airlock"
-									XYZ="-98.29467,-99.60392,7.610901" 
-									ToX="-95.0169" ToY="-100.0079" ToZ="9.3002" />
+									XYZ="-98.29467,-99.60392,7.610901" />
 				</If>
 				<!-- If I am in Consular Airlock -->
 				<MoveTo QuestId="0xE00022E4A5FC8BA6" Name="Jedi Consular Airlock" XYZ="-94.96279,-100.0019,12.41421" />
@@ -2382,8 +2367,7 @@
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 11)))">
 				<If Condition="(Me.Position.Y &lt;= 8) and (Me.Position.Y &gt;= 7)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Command Deck"
-									XYZ="23.14002,7.501,8.998264"
-									ToX="22.899" ToY="17.401" ToZ="8.9978" />
+									XYZ="23.14002,7.501,8.998264" />
 				</If>
 				<MoveTo QuestId="0xE0004BBDF55CBDBB" Name="Fourth Point" XYZ="19.78793,17.381,6.671397" />
 			</If>
@@ -2398,8 +2382,7 @@
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 15)))">
 				<If Condition="(Me.Position.Y &lt;= 18) and (Me.Position.Y &gt;= 17)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Engineering Deck"
-									XYZ="23.19053,17.401,-0.01392169"
-									ToX="22.9079" ToY="12.001" ToZ="0.0024" />
+									XYZ="23.19053,17.401,-0.01392169" />
 				</If>
 				<UseObject QuestId="0xE0004BBDF55CBDBB" ObjectName="Detonite Charge" BranchId="1" StepId="15" Radius="20" WaitTime="5" XYZ="16.27208,12.001,-1.324959" />
 			</If>
@@ -2421,8 +2404,7 @@
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 20)))">
 				<If Condition="(Me.Position.Y &lt;= 13) and (Me.Position.Y &gt;= 11)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Weapons Deck"
-									XYZ="19.67455,12.001,4.049259"
-									ToX="19.7078" ToY="7.501" ToZ="4.3762" />
+									XYZ="19.67455,12.001,4.049259" />
 				</If>
 				<UseObject QuestId="0xE0004BBDF55CBDBB" ObjectName="Detonite Charge" BranchId="1" StepId="20" Radius="20" WaitTime="5" XYZ="16.4565,7.501,9.918989" />
 			</If>
@@ -2463,15 +2445,13 @@
 			
 				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxilliary Spaceport"
-									XYZ="71.80659,-9.610241,82.11574"
-									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />
+									XYZ="71.80659,-9.610241,82.11574" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsBranchStepComplete(0xE000253F776474E7, 1, 4)))">
 				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxiliary Spaceport"
-									XYZ="71.80659,-9.610241,82.11574"
-									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />
+									XYZ="71.80659,-9.610241,82.11574" />
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 			</If>

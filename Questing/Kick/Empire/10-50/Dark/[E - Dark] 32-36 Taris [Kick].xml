@@ -932,14 +932,12 @@
 				</If>
 				<If Condition="(Me.Position.X &lt; 92) and (Me.Position.Y &lt; -98) and (Me.Position.Y &gt; -101)">
 					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Taris Orbital Station" 
-										XYZ="91.14017,-100.0039,1.384658" 
-										ToX="94.2038" ToY="-100.0079" ToZ="1.4069" />
+										XYZ="91.14017,-100.0039,1.384658" />
 				</If>
 				<PickUpQuest QuestName="Dominating Taris" QuestId="0xE000E89384E22115" GiverName="Lieutenant Rankin" XYZ="99.9029,-99.599,-10.9241" />
 				<If Condition="(Me.Position.Y &lt; -98) and (Me.Position.Y &gt; -101)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Toxic Lake Garrison"
-										XYZ="99.7755,-99.34077,-11.4965"
-										ToX="-8.222276" ToY="-25.44986" ToZ="66.5977" />
+										XYZ="99.7755,-99.34077,-11.4965" />
 				</If>
 			</If>
 		</If>
@@ -959,14 +957,12 @@
 				</If>
 				<If Condition="(Me.Position.X &gt; 104) and (Me.Position.X &lt; 106) and (Me.Position.Y &lt; -98) and (Me.Position.Y &gt; -101)">
 					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Taris Orbital Station" 
-										XYZ="105.0093,-100.0039,8.858175"
-										ToX="101.701" ToY="-99.60392" ToZ="7.505" />
+										XYZ="105.0093,-100.0039,8.858175" />
 				</If>
 				<PickUpQuest QuestName="Dominating Taris" QuestId="0xE000E89384E22115" GiverName="Lieutenant Rankin" XYZ="99.9029,-99.599,-10.9241" />
 				<If Condition="(Me.Position.Y &lt; -98) and (Me.Position.Y &gt; -101)">
 					<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Toxic Lake Garrison"
-										XYZ="99.7755,-99.34077,-11.4965"
-										ToX="-8.1668" ToY="-25.45371" ToZ="66.5213" />
+										XYZ="99.7755,-99.34077,-11.4965" />
 				</If>
 				<TalkTo QuestId="0xE0000C952E5E884A" Name="Elios Maliss" XYZ="2.7509,-25.84703,48.9459" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1058,8 +1054,7 @@
 			<CompleteQuest QuestName="Come Out, Come Out" QuestId="0xE000071270A2FE4A" />
  
 			<UseTransport TransporterName="Bomber Command Post Speeder" Type="Taxi" Option="Toxic Lake Garrison Speeder" 
-									XYZ="-74.3268,-23.71469,79.7078" 
-									ToX="-7.8917" ToY="-25.72766" ToZ="59.3518" />
+									XYZ="-74.3268,-23.71469,79.7078" />
 		</If>
 		
 		<!-- Turnin Barrage -->
@@ -1117,8 +1112,7 @@
 			<!-- Race for the Kill -->
 			
 			<UseTransport TransporterName="Bomber Command Post Speeder" Option="Toxic Lake Garrison Speeder" 
-										XYZ="-74.3224,-23.71337,79.62973"
-										ToX="-8.0283" ToY="-25.73111" ToZ="59.7911" />
+										XYZ="-74.3224,-23.71337,79.62973" />
 		</If>
 		
 		<!-- [HEROIC 4] The Fathers of Taris - Mission Terminal -->
@@ -1309,8 +1303,7 @@
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 8)">
 				<If Condition="(Me.Position.Y &lt;= -19)">
 					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 2"
-										XYZ="56.7185,-20.57353,53.69612"
-										ToX="81.8701" ToY="-17.74023" ToZ="99.7004" />
+										XYZ="56.7185,-20.57353,53.69612" />
 				</If>
 			</If>
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 2)">
@@ -1335,8 +1328,7 @@
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 2, 2)">
 				<If Condition="(Me.Position.Y &gt; -18)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-										XYZ="81.6912,-17.74023,99.77271" 
-										ToX="56.5058" ToY="-20.57353" ToZ="53.7435" />
+										XYZ="81.6912,-17.74023,99.77271" />
 				</If>
 			</If>
 			<TurnInQuest QuestName="Culling the Nekghouls" QuestId="0xE000B2EF0F026708" TurnInName="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
@@ -1694,8 +1686,7 @@
 			</If>
 			<If Condition="not IsBranchStepComplete(0xE000E61C0D7415F1, 3, 2) or not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 9) and (Me.Position.Y &gt; -35)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar 42" 
-									XYZ="-211.9257,-19.51102,72.4192" 
-									ToX="-211.6013" ToY="-40.61024" ToZ="72.2767" />
+									XYZ="-211.9257,-19.51102,72.4192" />
 			</If>
 			<If Condition="HasQuest(0xE000E61C0D7415F1) and not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 6)">
 				<MoveTo QuestId="0xE000E61C0D7415F1" XYZ="-211.4992,-40.599,78.5491" />
@@ -1728,8 +1719,7 @@
 			<CompleteQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" RewardIndex="1" />
  
 			<UseTransport TransporterName="Crater Command Base Speeder" Type="Taxi" Option="Toxic Lake Garrison Speeder" 
-									XYZ="-116.9401,-18.79324,44.5439"
-									ToX="-7.8917" ToY="-25.72766" ToZ="59.3518" />
+									XYZ="-116.9401,-18.79324,44.5439" />
 		</If>
 		
 		<!-- Agent - Thieves and Liars -->
@@ -1824,8 +1814,7 @@
 			<CompleteQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" RewardIndex="1" />
 			
 			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder"
-									XYZ="72.7968,-17.68709,41.6978"
-									ToX="-8.0283" ToY="-25.73111" ToZ="59.7911" />
+									XYZ="72.7968,-17.68709,41.6978" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1835,8 +1824,7 @@
 		<If Condition="((not HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<PickUpQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" GiverName="Colonel Surab" XYZ="-6.6689,-25.45396,65.1455" />
 			<UseTransport TransporterName="Toxic Lake Garrison Speeder" Option="75th Legion Forward Camp Speeder" 
-									XYZ="-7.805839,-25.72946,59.3979"
-									ToX="72.6557" ToY="-17.68729" ToZ="41.1164" />
+									XYZ="-7.805839,-25.72946,59.3979" />
 		</If>
 		
 		<!-- Taris: Bonus Series 2 -->
@@ -2011,8 +1999,7 @@
 			<CompleteQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" RewardIndex="1" />
 			
 			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder" 
-									XYZ="72.78806,-17.6871,41.60294" 
-									ToX="-7.7365" ToY="-25.73111" ToZ="59.7885" />
+									XYZ="72.78806,-17.6871,41.60294" />
 		</If>
 		
 		<!-- Taris: Bonus Series -->
@@ -2031,8 +2018,7 @@
 				<If Condition="((HasQuest(0xE00013817B6E485D)) and (not IsBranchStepComplete(0xE00013817B6E485D, 6, 9)))">
 					<If Condition="(Core.Player.AreaId == 0x4000000C22D43C01)"> <!-- Taris - E -->
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-									XYZ="-8.766011,-25.20037,67.2092" 
-									ToX="-0.002399988" ToY="0.7985187" ToZ="4.3053" />
+									XYZ="-8.766011,-25.20037,67.2092" />
 			
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -2057,8 +2043,7 @@
 					</If>
 					<If Condition="(Me.Position.X &gt; 103) and (Me.Position.X &lt; 105) and (Me.Position.Y &gt; -101) and (Me.Position.Y &lt; -99)"> <!-- Inq Airlock -->
 						<UseTransport Type="Wonkavator" TransporterName="Airlock" Option="Quesh Orbital Station" 
-									XYZ="104.9846,-100.0039,8.834691"
-									ToX="101.6938" ToY="-99.60795" ToZ="7.2101" />
+									XYZ="104.9846,-100.0039,8.834691" />
 					</If>
 				</If>
 			</If>
@@ -2070,8 +2055,7 @@
 			<If Condition="((HasQuest(0xE000CC415FBDD34F)) and (not IsQuestComplete(0xE000CC415FBDD34F)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000C22D43C01)"> <!-- Taris - E -->
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-									XYZ="-8.766011,-25.20037,67.2092" 
-									ToX="0.9927" ToY="0.8599995" ToZ="1.7975" />
+									XYZ="-8.766011,-25.20037,67.2092" />
 			
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
@@ -2092,18 +2076,15 @@
 					</If>
 					<If Condition="(Me.Position.Y &gt; -8) and (Me.Position.Y &lt; -7) and (Me.Position.X &gt; 75) and (Me.Position.X &lt; 100)">
 						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Dromund Kaas Spaceport" 
-										XYZ="96.60424,-7.805025,43.32071" 
-										ToX="96.6756" ToY="6.187614" ToZ="43.0209" />
+										XYZ="96.60424,-7.805025,43.32071" />
 					</If>
 					<If Condition="(Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 7) and (Me.Position.X &gt; 85) and (Me.Position.X &lt; 100)">
 						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-										XYZ="88.3737,6.340111,36.17062" 
-										ToX="-9.0122" ToY="4.1061" ToZ="31.5782" />
+										XYZ="88.3737,6.340111,36.17062" />
 					</If>
 					<If Condition="(Me.Position.Y &gt; 3) and (Me.Position.Y &lt; 5) and (Me.Position.X &gt; -21) and (Me.Position.X &lt; -8)">
 						<UseTransport TransporterName="Kaas City Central Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.5048,4.007461,-1.2225" 
-										ToX="12.16938" ToY="1.79964" ToZ="-55.95218" />
+										XYZ="-19.5048,4.007461,-1.2225" />
 					</If>
 					<MoveTo QuestId="0xE0007FA16B96ABE7" XYZ="11.37652,2.600966,-84.12134" />
 					<WaitTimer QuestId="1" WaitTime="5" />
@@ -2125,18 +2106,15 @@
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"><!-- Dromund Kaas -->
 						<If Condition="(Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 3)">
 							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi"
-										XYZ="12.28,1.799508,-56.9" 
-										ToX="-19.0862" ToY="4.007462" ToZ="-1.729442" />
+										XYZ="12.28,1.799508,-56.9" />
 						</If>
 						<If Condition="(Me.Position.Y &gt; 4) and (Me.Position.Y &lt; 5)">
 							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
-										XYZ="-8.558567,4.1061,31.20626" 
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.558567,4.1061,31.20626" />
 						</If>
 						<If Condition="(Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 7)">
 							<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-										XYZ="96.71832,6.189306,42.67947"
-										ToX="96.6911" ToY="-7.802541" ToZ="42.9783" />
+										XYZ="96.71832,6.189306,42.67947" />
 						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="78.94019,-7.798998,51.2834" />
 						<MoveTo QuestId="1" IgnoreLOS="True" XYZ="77.48743,-7.084901,50.17662" />
@@ -2155,8 +2133,7 @@
 					</If>
 					<If Condition="(Me.Position.X &gt; 79) and (Me.Position.X &lt; 92) and (Me.Position.Y &gt; -101) and (Me.Position.Y &lt; -99)">
 						<UseTransport Type="Wonkavator" TransporterName="Airlock" Option="Quesh Orbital Station" 
-										XYZ="91.15109,-100.0039,1.399911" 
-										ToX="94.2928" ToY="-100.0079" ToZ="1.4077" />
+										XYZ="91.15109,-100.0039,1.399911" />
 					</If>
 				</If>
 			</If>

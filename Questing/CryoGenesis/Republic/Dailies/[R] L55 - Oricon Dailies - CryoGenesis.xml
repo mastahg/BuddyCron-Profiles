@@ -219,8 +219,7 @@
 				<If Condition="(Me.Position.Z &lt; -2)">
 					<MoveTo QuestId="0xE0009768A8665D68" XYZ="-21.15199,3.445179,-3.150028" />		<!-- GoTo Elevator -->
 					<UseTransport TransporterName="Watchtower Hypergate" Type="Wonkavator" Option="Watchtower Upper Passage"
-						XYZ="-21.15199,3.445179,-3.150028"
-						ToX="-31.9419" ToY="9.875719" ToZ="-0.2252" />
+						XYZ="-21.15199,3.445179,-3.150028" />
 				</If>
 				<If Condition="(Me.Position.Z &gt; -2)">
 					<UseObject QuestId="0xE0009768A8665D68" BranchId="1" StepId="2" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >

@@ -1033,8 +1033,7 @@
 			<If Condition="((HasQuest(0xE0002C3306EB994E)) and (not IsBranchStepComplete(0xE0002C3306EB994E, 1, 6)))">
 				<If Condition="(Me.Position.Y &lt; -29) and (Me.Position.Y &gt; -32)"> <!-- Orbital Station -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-169.2879,-30.50826,182.2322" 
-									ToX="-169.3065" ToY="4.589759" ToZ="181.8807" />
+									XYZ="-169.2879,-30.50826,182.2322" />
 				</If>
 			</If>
 		</If>
@@ -1052,8 +1051,7 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -23) and (Me.Position.Y &gt; -24) and (Me.Position.X &lt; -125) and (Me.Position.X &gt; -147)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-145.0782,-23.50134,183.1996"
-									ToX="-145.0842" ToY="4.589759" ToZ="183.5487" />
+									XYZ="-145.0782,-23.50134,183.1996" />
 				</If>
 				<MoveTo QuestId="0xE00048A8826BAEA8" Name="Major Sanos" XYZ="-149.1368,2.401,210.4891" />
 			</If>
@@ -1067,13 +1065,11 @@
 			<If Condition="((HasQuest(0xE000D022C030F619)) and (not IsBranchStepComplete(0xE000D022C030F619, 1, 2)))">
 				<If Condition="(Me.Position.Y &gt; 0) and (Me.Position.Y &lt; 10)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-164.4232,4.487002,186.7769"
-									ToX="-164.3981" ToY="-23.51434" ToZ="186.8533" />
+									XYZ="-164.4232,4.487002,186.7769" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 					<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="The Tears of Taris"
-									 XYZ="-169.1883,-23.18872,204.2063"
-									ToX="-345.9713" ToY="52.961" ToZ="35.1379" />
+									 XYZ="-169.1883,-23.18872,204.2063" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 					<TalkTo QuestId="0xE000D022C030F619" Name="Darth Charnus" XYZ="-357.5052,53.0047,38.4511" />
@@ -1083,13 +1079,11 @@
 			<If Condition="((HasQuest(0xE000D022C030F619)) and (not IsBranchStepComplete(0xE000D022C030F619, 1, 3)))">
 				<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 					<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-345.9756,53.27988,34.40249" 
-									ToX="-169.0969" ToY="-23.4991" ToZ="203.5098" />
+									XYZ="-345.9756,53.27988,34.40249" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-164.0912,-23.51083,186.7765"
-									ToX="-164.3981" ToY="4.489759" ToZ="186.8175" />
+									XYZ="-164.0912,-23.51083,186.7765" />
 				</If>
 			</If>
 		</If>
@@ -1174,8 +1168,7 @@
 			<If Condition="((HasQuest(0xE0002C3306EB994E)) and (not IsBranchStepComplete(0xE0002C3306EB994E, 1, 6)))">
 				<If Condition="(Me.Position.Z &gt; 200) and (Me.Position.Z &lt; 300)">
 					<UseTransport TransporterName="Incorporation Islands Taxi" Type="Taxi" Option="Islands Outpost Taxi"
-									XYZ="-247.8156,-3.599,241.6037" 
-									ToX="-280.5907" ToY="-2.18525" ToZ="337.8447" />
+									XYZ="-247.8156,-3.599,241.6037" />
 				</If>
 				<!-- Breaking the Republic's Siege (Bonus) 
 		 <If Condition="(not IsQuestComplete(0xE0008A68E9A8CD97))">
@@ -1198,8 +1191,7 @@
 			<!-- Inquisitor - Blood and Fire 0xE000C68990DF55BF-->
  
 			<UseTransport TransporterName="Islands Outpost Taxi" Type="Taxi" Option="Incorporation Islands Taxi" 
-									XYZ="-281.5264,-2.19355,337.9013" 
-									ToX="-248.0768" ToY="-3.599999" ToZ="242.2455" />
+									XYZ="-281.5264,-2.19355,337.9013" />
 		</If>
 
 		<!-- Turnin The Rebel Secrets -->
@@ -1294,13 +1286,11 @@
 			<If Condition="((HasQuest(0xE000D4B2E265ABCC)) and (not IsBranchStepComplete(0xE000D4B2E265ABCC, 2, 2)))">
 				<If Condition="(Me.Position.Y &gt; -7) and (Me.Position.Y &lt; 5)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-164.4232,4.487002,186.7769"
-									ToX="-164.3981" ToY="-23.51434" ToZ="186.8533" />
+									XYZ="-164.4232,4.487002,186.7769" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 					<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="The Tears of Taris"
-									 XYZ="-169.1883,-23.18872,204.2063"
-									ToX="-345.9713" ToY="52.961" ToZ="35.1379" />
+									 XYZ="-169.1883,-23.18872,204.2063" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 					<TalkTo QuestId="0xE000D4B2E265ABCC" Name="Darth Charnus" XYZ="-357.5052,53.0047,38.4511" />
@@ -1310,13 +1300,11 @@
 				<!-- Engineering Breakdown 0xE000260C3F3F8692-->
 				<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 					<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-345.9756,53.27988,34.40249" 
-									ToX="-169.0969" ToY="-23.4991" ToZ="203.5098" />
+									XYZ="-345.9756,53.27988,34.40249" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-164.0912,-23.51083,186.7765"
-									ToX="-164.3981" ToY="4.489759" ToZ="186.8175" />
+									XYZ="-164.0912,-23.51083,186.7765" />
 				</If>
 			</If>
 		</If>
@@ -1351,8 +1339,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000B76EB2CEEDE8)) and (not IsBranchStepComplete(0xE000B76EB2CEEDE8, 1, 9))) and (Me.Position.Y &lt; 7)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Central Control"
-									XYZ="-184.5218,-0.9970314,131.6662" 
-									ToX="-183.649" ToY="7.902227" ToZ="132.3932" />
+									XYZ="-184.5218,-0.9970314,131.6662" />
 			</If>
 			<UseObject QuestId="0xE000B76EB2CEEDE8" BranchId="1" StepId="7" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Security Terminal" XYZ="-180.7532,7.901,127.1041" />
 			<Grind GrindRef="Industrial Collapse 8" While="(not IsBranchStepComplete(0xE000B76EB2CEEDE8, 1, 8))" />
@@ -1360,18 +1347,15 @@
 			<UseObject QuestId="0xE000B76EB2CEEDE8" BranchId="6" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Ion Cannon Controls" XYZ="-177.1955,8.911,123.0001" />
 			<If Condition="((HasQuest(0xE000B76EB2CEEDE8)) and (not IsBranchStepComplete(0xE000B76EB2CEEDE8, 6, 3))) and (Me.Position.Y &gt; 7)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Central Tower"
-									XYZ="-183.9295,7.916245,132.1878" 
-									ToX="-184.3986" ToY="-0.9970314" ToZ="131.6376" />
+									XYZ="-183.9295,7.916245,132.1878" />
 			</If>
 			<If Condition="(Me.Position.Y &gt; -7) and (Me.Position.Y &lt; 5)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-164.4232,4.487002,186.7769"
-									ToX="-164.3981" ToY="-23.51434" ToZ="186.8533" />
+									XYZ="-164.4232,4.487002,186.7769" />
 			</If>
 			<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 				<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="The Tears of Taris"
-									 XYZ="-169.1883,-23.18872,204.2063"
-									ToX="-345.9713" ToY="52.961" ToZ="35.1379" />
+									 XYZ="-169.1883,-23.18872,204.2063" />
 			</If>
 			<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 				<TurnInQuest QuestName="Industrial Collapse" QuestId="0xE000B76EB2CEEDE8" TurnInName="Darth Charnus" XYZ="-357.5799,53.001,38.8081" />
@@ -1380,13 +1364,11 @@
 			<!-- Into the Fire 0xE000E23C557EA7A4-->
 			<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 				<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
-									XYZ="-345.9756,53.27988,34.40249" 
-									ToX="-169.0969" ToY="-23.4991" ToZ="203.5098" />
+									XYZ="-345.9756,53.27988,34.40249" />
 			</If>
 			<If Condition="(Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -23)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-164.0912,-23.51083,186.7765"
-									ToX="-164.3981" ToY="4.489759" ToZ="186.8175" />
+									XYZ="-164.0912,-23.51083,186.7765" />
 			</If>
 			
 			<ForceVendor VendorType="Train" />
@@ -1399,8 +1381,7 @@
 			<CompleteQuest QuestName="Dismantling Czerka" QuestId="0xE000B901085788D1" RewardIndex="1" />
  
 			<UseTransport TransporterName="Incorporation Islands Tram" Type="Taxi" Option="Imperial War Camp Tram" 
-									XYZ="-170.1035,4.38175,218.119" 
-									ToX="-317.1981" ToY="-7.60222" ToZ="-153.6032" />
+									XYZ="-170.1035,4.38175,218.119" />
 									
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Imperial War Camp" XYZ="-317.2253,-9.86964,-153.5646" />
 		</If>
@@ -1605,8 +1586,7 @@
 			<CompleteQuest QuestName="A Selonian Infestation" QuestId="0xE000CE42E74103D7" RewardIndex="1" />
  
 			<UseTransport TransporterName="Imperial War Camp Tram" Type="Taxi" Option="Axial Park South Tram" 
-									XYZ="-317.204,-7.61825,-154.1093"
-									ToX="105.1889" ToY="4.38175" ToZ="-165.8872" />
+									XYZ="-317.204,-7.61825,-154.1093" />
 	
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Axial Park South" XYZ="105.3477,2.1088,-166.7256" />
 		</If>
@@ -1707,8 +1687,7 @@
 			<If Condition="((HasQuest(0xE000F4815FB0463F)) and (not IsBranchStepComplete(0xE000F4815FB0463F, 1, 4)))">
 				<If Condition="(Me.Position.Y &lt; 6)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Speeder Hangar Maintenance Access"
-									XYZ="83.58266,2.413148,-284.95" 
-									ToX="80.6575" ToY="6.201" ToZ="-286.4" />
+									XYZ="83.58266,2.413148,-284.95" />
 				</If>
 				<MoveTo QuestId="0xE000F4815FB0463F" Name="Speeder" XYZ="83.72002,7.801004,-287.3526" />
 				<UseObject QuestId="0xE000F4815FB0463F" BranchId="1" StepId="4" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Speeder" XYZ="83.72002,7.801004,-287.3526" />
@@ -1716,8 +1695,7 @@
 			<If Condition="((HasQuest(0xE000F4815FB0463F)) and (not IsBranchStepComplete(0xE000F4815FB0463F, 1, 5)))">
 				<If Condition="(Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 8)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Axial Park"
-									XYZ="80.355,6.222418,-286.5893"
-									ToX="83.58266" ToY="2.413148" ToZ="-284.95" />
+									XYZ="80.355,6.222418,-286.5893" />
 				</If>
 				<AnswerHolocomCall QuestName="The Apocalypse Party" QuestId="0xE000F4815FB0463F" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1870,8 +1848,7 @@
 			<CompleteQuest QuestName="Impact Zone" QuestId="0xE0008C96F9C87C1A" RewardIndex="4" />
 
 			<UseTransport TransporterName="Axial Park South Tram" Type="Taxi" Option="Business Sector Tram" 
-									XYZ="105.1889,4.38175,-165.8872"
-									ToX="303.2081" ToY="22.39778" ToZ="-121.3972" />
+									XYZ="105.1889,4.38175,-165.8872" />
 			
 			<ForceVendor VendorType="Repair" />
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Business Sector" XYZ="303.3526,20.11387,-121.6979" />
@@ -1909,15 +1886,13 @@
 			<If Condition="((HasQuest(0xE000474052488525)) and (not IsBranchStepComplete(0xE000474052488525, 1, 2)))">
 				<If Condition="(Me.Position.Y &gt; 14)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Decimus's Rise"
-									XYZ="255.7171,21.43809,-160.1701"
-									ToX="262.2065" ToY="12.20762" ToZ="-167.1938" />
+									XYZ="255.7171,21.43809,-160.1701" />
 				</If>
 				<TalkTo QuestId="0xE000474052488525" Name="Darth Decimus" XYZ="262.1669,11.7037,-160.4801" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Central Command"
-									XYZ="262.3943,12.23486,-167.475"
-									ToX="255.9409" ToY="21.40175" ToZ="-159.9996" />
+									XYZ="262.3943,12.23486,-167.475" />
 			</If>
 		</If>
 
@@ -1926,8 +1901,7 @@
 			<If Condition="((HasQuest(0xE000ED6C040DE24D)) and (not IsBranchTaskComplete(0xE000ED6C040DE24D, 1, 2, 1)))">
 				<If Condition="(Me.Position.Y &lt; 60)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Rooftop"
-									XYZ="286.2062,23.43922,-157.6147"
-									ToX="296.4287" ToY="63.901" ToZ="-162.7047" />
+									XYZ="286.2062,23.43922,-157.6147" />
 				</If>
 				<UseObject QuestId="0xE000ED6C040DE24D" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="50" WaitTime="5" >
 					<Placeables>
@@ -1946,8 +1920,7 @@
 				<MoveTo QuestId="0xE000ED6C040DE24D" Name="Republic SpecForce Sharpshooter" XYZ="292.7748,63.42445,-162.9718" />
 				<If Condition="(Me.Position.Y &gt; 60)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ground Floor"
-									XYZ="296.5638,63.901,-162.943"
-									ToX="286.3938" ToY="23.401" ToZ="-157.9125" />
+									XYZ="296.5638,63.901,-162.943" />
 				</If>
 			</If>
 			<Grind GrindRef="Coronet Arms Massacre 2 0" While="(not IsBranchTaskComplete(0xE000ED6C040DE24D, 1, 2, 0))" />
@@ -2069,8 +2042,7 @@
 			<If Condition="((HasQuest(0xE0003291A89F588C)) and (not IsBranchStepComplete(0xE0003291A89F588C, 1, 3)))">
 				<If Condition="(Me.Position.Y &lt; 25)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Audience Chamber"
-									XYZ="333.4095,22.41437,-204.9837"
-									ToX="335.7085" ToY="25.80295" ToZ="-203.1421" />
+									XYZ="333.4095,22.41437,-204.9837" />
 				</If>
 				<TalkTo QuestId="0xE0003291A89F588C" Name="Darth Thanaton" XYZ="335.7049,25.8604,-209.1523" />
 				<WaitTimer QuestId="1" WaitTime="15" />
@@ -2094,16 +2066,14 @@
 			<!-- The Dark Council 0xE000AFA71CDE8549-->
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ground Floor"
-									XYZ="335.5534,25.81918,-202.9625"
-									ToX="333.6039" ToY="22.40295" ToZ="-205.3024" />
+									XYZ="335.5534,25.81918,-202.9625" />
 		</If>
 		
 		<!-- Agent - Armageddon and Turnin -->
 		<If Condition="((HasQuest(0xE000D780762486C8)) and (not IsQuestComplete(0xE000D780762486C8)))">
 			<If Condition="((HasQuest(0xE000D780762486C8)) and (not (IsBranchStepComplete(0xE000D780762486C8, 1, 7) or IsBranchStepComplete(0xE000D780762486C8, 2, 2)))) and (Me.Position.Y &gt; 19)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Level"
-									XYZ="298.5969,22.40295,-163.4618" 
-									ToX="299.8401" ToY="17.60291" ToZ="-163.5878" />
+									XYZ="298.5969,22.40295,-163.4618" />
 			</If>
 			<UseObject QuestId="0xE000D780762486C8" BranchId="1" StepId="3" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Support Pillar" XYZ="304.9495,17.62349,-163.7869" />
 			<UseObject QuestId="0xE000D780762486C8" BranchId="1" StepId="4" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Support Pillar" XYZ="304.8814,17.601,-155.3706" />
@@ -2152,16 +2122,14 @@
 		<If Condition="((HasQuest(0xE000474052488525)) and (not IsQuestComplete(0xE000474052488525)))">
 			<If Condition="((HasQuest(0xE000474052488525)) and (not IsBranchStepComplete(0xE000474052488525, 1, 7))) and (Me.Position.Y &gt; 14)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Decimus's Rise"
-									XYZ="255.7171,21.43809,-160.1701"
-									ToX="262.2065" ToY="12.20762" ToZ="-167.1938" />
+									XYZ="255.7171,21.43809,-160.1701" />
 			</If>
 			<TurnInQuest QuestName="Making History" QuestId="0xE000474052488525" TurnInName="Darth Decimus" XYZ="262.1669,11.7037,-160.4801" />
 			<CompleteQuest QuestName="Making History" QuestId="0xE000474052488525" RewardIndex="6" />
 			<!-- The Battle of Corellia 0xE000EEB5E4D24D64-->
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Central Command"
-									XYZ="262.3943,12.23486,-167.475"
-									ToX="255.9409" ToY="21.40175" ToZ="-159.9996" />
+									XYZ="262.3943,12.23486,-167.475" />
 									
 			<ForceVendor VendorType="Repair" />									
 		</If>
@@ -2183,19 +2151,16 @@
 			</If>
 			<If Condition="((HasQuest(0xE000EEB5E4D24D64)) and (not IsBranchStepComplete(0xE000EEB5E4D24D64, 2, 5))) and (Me.Position.Y &gt; 14)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Darth Decimus's Rise"
-									XYZ="255.7171,21.43809,-160.1701"
-									ToX="262.2065" ToY="12.20762" ToZ="-167.1938" />
+									XYZ="255.7171,21.43809,-160.1701" />
 			</If>
 			<TurnInQuest QuestName="The Battle of Corellia" QuestId="0xE000EEB5E4D24D64" TurnInName="Darth Decimus" XYZ="262.1983,12.201,-163.5422" />
 			<CompleteQuest QuestName="The Battle of Corellia" QuestId="0xE000EEB5E4D24D64" RewardIndex="1" />
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Central Command"
-									XYZ="262.3943,12.23486,-167.475"
-									ToX="255.9409" ToY="21.40175" ToZ="-159.9996" />
+									XYZ="262.3943,12.23486,-167.475" />
  
 			<UseTransport TransporterName="Business Sector Tram" Type="Taxi" Option="Incorporations Island Tram" 
-									XYZ="302.7045,22.38175,-121.3812" 
-									ToX="-170.1146" ToY="3.396781" ToZ="217.5976" />
+									XYZ="302.7045,22.38175,-121.3812" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -2207,8 +2172,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000365D0CBA4)"> <!-- Corellia Main -->
 					<If Condition="(Me.Position.Y &gt; -10)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Inquisitor Hangar"
-									XYZ="-169.3204,4.59239,181.5619"
-									ToX="-169.2775" ToY="-30.51024" ToZ="181.889" />
+									XYZ="-169.3204,4.59239,181.5619" />
 					</If>
 					<If Condition="(Me.Position.Y &lt; -20)">
 						<MoveTo QuestId="1" XYZ="-184.3113,-30.4989,187.0979" />
@@ -2226,13 +2190,11 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 107) and (Me.Position.X &gt; 103)"> <!-- Inquisitor Airlock -->
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Korriban Orbital Station"
-									XYZ="105.0125,-100.0039,8.820145"
-									ToX="101.7018" ToY="-99.60392" ToZ="7.6742" />
+									XYZ="105.0125,-100.0039,8.820145" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 103) and (Me.Position.X &gt; 99)"> <!-- Korriban Orbital Station -->
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Korriban"
-									XYZ="100.1065,-99.34077,-11.82215"
-									ToX="14.8672" ToY="0.491" ToZ="12.1473" />
+									XYZ="100.1065,-99.34077,-11.82215" />
 				</If>
 				<MoveTo QuestId="0xE000AFA71CDE8549" XYZ="-46.6599,8.600554,5.3398" />
 			</If>
@@ -2247,8 +2209,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000106296B6D)"> <!-- Korriban -->
 					<If Condition="(Me.Position.Y &gt; -5) and (Me.Position.Y &lt; 5)">
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="14.34693,0.749236,12.68935"
-									ToX="-0.002399988" ToY="0.7985187" ToZ="4.3053" />
+									XYZ="14.34693,0.749236,12.68935" />
 					</If>
 				</If>
 				<SpaceTravel Planet="Dromund Kaas" />
@@ -2261,18 +2222,15 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 					<If Condition="(Me.Position.Y &lt; -7) and (Me.Position.Y &gt; -8)">
 						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Dromund Kaas Spaceport" 
-										XYZ="96.70467,-7.808838,25.72693"
-										ToX="96.7127" ToY="6.18871" ToZ="25.3895" />
+										XYZ="96.70467,-7.808838,25.72693" />
 					</If>
 					<If Condition="(Me.Position.X &lt; 97) and (Me.Position.X &gt; 85)">
 						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-										XYZ="88.2997,6.340111,36.3558" 
-										ToX="-9.0122" ToY="4.1061" ToZ="31.5782" />
+										XYZ="88.2997,6.340111,36.3558" />
 					</If>
 					<If Condition="(Me.Position.Z &lt; 32) and (Me.Position.Z &gt; -5)">
 						<UseTransport TransporterName="Kaas City Central Taxi" Option="Sith Sanctum Taxi" 
-										XYZ="-19.36833,4.007462,-1.192061" 
-										ToX="-10.99774" ToY="2.307461" ToZ="-50.26709" />
+										XYZ="-19.36833,4.007462,-1.192061" />
 					</If>
 				</If>
 				<MoveTo QuestId="0xE000AFA71CDE8549" XYZ="-5.342464,1.801015,-87.44279" /> <!-- this xyz may be wrong -->
@@ -2287,18 +2245,15 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 					<If Condition="(Me.Position.Z &gt; -100) and (Me.Position.Z &lt; -55)">
 						<UseTransport TransporterName="Citadel Taxi" Option="Kaas City Central Taxi" 
-										XYZ="-10.5032,2.307461,-50.798"  
-										ToX="-19.0862" ToY="4.007462" ToZ="-1.729442" />
+										XYZ="-10.5032,2.307461,-50.798" />
 					</If>
 					<If Condition="(Me.Position.Z &gt; -5) and (Me.Position.Z &lt; 33)">
 						<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder"
-										XYZ="-8.558567,4.1061,31.20626" 
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.558567,4.1061,31.20626" />
 					</If>
 					<If Condition="(Me.Position.Y &gt;= -4)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Inquisitor Hangar" IgnoreQuestRelation="True" 
-										XYZ="96.63437,6.184735,25.09194"
-										ToX="96.7079" ToY="-7.810241" ToZ="25.4379" />
+										XYZ="96.63437,6.184735,25.09194" />
 					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="81.64088,-7.798999,23.57328" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="80.74992,-7.122471,22.5519" />
@@ -2314,8 +2269,7 @@
 				</If>
 				<If Condition="(Me.Position.Y &gt; 50)">
 					<UseTransport TransporterName="Sith Inquisitor Hangar" Type="Wonkavator" Option="Main Level"
-									XYZ="466.4655,-109.199,473.5537"
-									ToX="465.9486" ToY="71.001" ToZ="474.0539" />
+									XYZ="466.4655,-109.199,473.5537" />
 				</If>
 				<TalkTo QuestId="0xE0003913E4F692A9" Name="T9-M6" XYZ="467.6053,71.001,475.5038" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -2324,8 +2278,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000001CCBDD9A50)"> <!-- Imp Fleet -->
 					<If Condition="and (Me.Position.Y &lt; -50)">
 						<UseTransport TransporterName="Sith Inquisitor Hangar" Type="Wonkavator" Option="Sith Inquisitor Hangar"
-									XYZ="465.9822,71.001,474.0565" 
-									ToX="466.3853" ToY="-109.199" ToZ="473.6104" />
+									XYZ="465.9822,71.001,474.0565" />
 					</If>
 					<MoveTo QuestId="1" XYZ="460.3763,-109.199,479.6306" />
 					<MoveTo QuestId="1" IgnoreMesh="True" XYZ="459.562,-108.5232,480.4755" />
@@ -2341,13 +2294,11 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 106) and (Me.Position.X &gt; 104)"> <!-- To Orbital Station -->
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Ilum Orbital Station"
-									XYZ="105.0052,-100.0039,8.813889"
-									ToX="101.7002" ToY="-99.60178" ToZ="7.4669" />
+									XYZ="105.0052,-100.0039,8.813889" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 105) and (Me.Position.X &gt; 93)"> <!-- Orbital Station -->
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Ilum"
-									XYZ="100.4468,-99.34077,-12.28194" 
-									ToX="38.9835" ToY="-0.4760438" ToZ="-48.1286" />
+									XYZ="100.4468,-99.34077,-12.28194" />
 				</If>
 				<TalkTo QuestId="0xE0003913E4F692A9" Name="Grand Moff Regus" XYZ="57.4423,-0.9632974,-51.0422" />
 			</If>
@@ -2359,8 +2310,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000365D0CBA4)"> <!-- Corellia -->
 					<If Condition="(Me.Position.Y &gt; 1)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Agent Hangar"
-									XYZ="-145.0235,4.58815,183.7968"
-									ToX="-145.0805" ToY="-23.50134" ToZ="183.4955" />
+									XYZ="-145.0235,4.58815,183.7968" />
 					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="-128.7252,-23.4991,191.2686" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="-127.6857,-22.80147,189.4571" />
@@ -2380,15 +2330,13 @@
 			<If Condition="((HasQuest(0xE000E1E86FEB6CBD)) and (not IsBranchStepComplete(0xE000E1E86FEB6CBD, 1, 5)))">
 				<If Condition="(Me.Position.X &gt; -18) and (Me.Position.Y &lt; 9.403)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="-21.7946,9.401001,-10.39706"
-									ToX="-13.5545" ToY="9.401001" ToZ="-10.3997" />
+									XYZ="-21.7946,9.401001,-10.39706" />
 				</If>
 				<TalkTo QuestId="0xE000E1E86FEB6CBD" Name="Minister of Intelligence" XYZ="-10.406,9.4034,-5.2713" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="-13.73345,9.401001,-10.38238"
-									ToX="-21.5604" ToY="9.401001" ToZ="-10.3985" />
+									XYZ="-13.73345,9.401001,-10.38238" />
 			</If>
 			<If Condition="((HasQuest(0xE000E1E86FEB6CBD)) and (not IsBranchStepComplete(0xE000E1E86FEB6CBD, 1, 6)))">
 				<If Condition="(Core.Player.AreaId == 0x40000005786A8070)"> <!-- The Tenebrous -->
@@ -2448,8 +2396,7 @@
 				<If Condition="(Core.Player.AreaId == 0x40000005786A8070)"> <!-- The Tenebrous -->
 					<If Condition="(Me.Position.Y &gt; -9.403)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="-13.73345,9.401001,-10.38238"
-									ToX="-21.5604" ToY="9.401001" ToZ="-10.3985" />
+									XYZ="-13.73345,9.401001,-10.38238" />
 					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="-16.03783,9.401,8.103169" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="-17.74232,10.05694,7.91696" />
@@ -2476,8 +2423,7 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -100)">
 					<UseTransport TransporterName="Main Level" Type="Wonkavator" Option="Main Level"
-									XYZ="466.4265,-109.199,466.4579" 
-									ToX="465.9799" ToY="71.001" ToZ="465.9739" />
+									XYZ="466.4265,-109.199,466.4579" />
 				</If>
 				<TalkTo QuestId="0xE0003913E4F692A9" Name="T9-M6" XYZ="467.6053,71.001,475.5038" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -2486,8 +2432,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000001CCBDD9A50)"> <!-- Imperial Fleet -->
 					<If Condition="(Me.Position.Y &gt; 60)">
 						<UseTransport TransporterName="Imperial Agent Hangar" Type="Wonkavator" Option="Imperial Agent Hangar"
-									XYZ="465.9426,71.01006,465.8916"
-									ToX="466.3919" ToY="-109.199" ToZ="466.3874" />
+									XYZ="465.9426,71.01006,465.8916" />
 					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="460.9392,-109.199,456.1003" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="459.3179,-108.5014,457.7312" />
@@ -2503,13 +2448,11 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 92) and (Me.Position.X &gt; 75)"> <!-- To Orbital Station -->
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Ilum Orbital Station"
-									XYZ="91.19405,-100.0039,1.425982" 
-									ToX="94.0331" ToY="-100.0018" ToZ="1.3969" />
+									XYZ="91.19405,-100.0039,1.425982" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 105) and (Me.Position.X &gt; 93)"> <!-- Orbital Station -->
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Ilum"
-									XYZ="100.4468,-99.34077,-12.28194" 
-									ToX="38.9835" ToY="-0.4760438" ToZ="-48.1286" />
+									XYZ="100.4468,-99.34077,-12.28194" />
 				</If>
 				<TalkTo QuestId="0xE0003913E4F692A9" Name="Grand Moff Regus" XYZ="57.4423,-0.9632974,-51.0422" />
 			</If>

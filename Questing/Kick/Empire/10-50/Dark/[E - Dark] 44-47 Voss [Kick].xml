@@ -708,13 +708,11 @@
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 92) and (Me.Position.X &gt; 75)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="91.16818,-100.0039,1.406444"
-									ToX="94.2427" ToY="-100.0079" ToZ="1.4081" />
+									XYZ="91.16818,-100.0039,1.406444" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 105) and (Me.Position.X &gt; 93)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
-									XYZ="100.1947,-99.34077,-10.57431"
-									ToX="-19.9483" ToY="27.24463" ToZ="-61.9411" />
+									XYZ="100.1947,-99.34077,-10.57431" />
 				</If>
 			</If>
 		</If>
@@ -739,13 +737,11 @@
 			<If Condition="((HasQuest(0xE000490AC1FCA8C5)) and (not IsBranchStepComplete(0xE000490AC1FCA8C5, 1, 6)))">
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 105) and (Me.Position.X &gt; 105)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="104.985,-100.0039,8.8181"
-									ToX="101.7229" ToY="-99.60795" ToZ="7.2236" />
+									XYZ="104.985,-100.0039,8.8181" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 104) and (Me.Position.X &gt; 93)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
-									XYZ="100.1947,-99.34077,-10.57431"
-									ToX="-19.9483" ToY="27.24463" ToZ="-61.9411" />
+									XYZ="100.1947,-99.34077,-10.57431" />
 				</If>
 			</If>
 		</If>
@@ -793,8 +789,7 @@
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Voss-Ka Cantina" XYZ="20.6911,27.10099,-9.478715" />
  
 			<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Fort Kodentha Skyhopper" 
-									XYZ="-31.7978,27.09854,-43.6523" 
-									ToX="-142.3947" ToY="2.482049" ToZ="47.6458" />
+									XYZ="-31.7978,27.09854,-43.6523" />
 									
 			<MoveTo QuestId="1" XYZ="-140.8075,2.501,48.2085" />
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Fort Kodentha" XYZ="-140.8075,2.501,48.2085" />
@@ -851,8 +846,7 @@
 			<If Condition="((HasQuest(0xE0007712DE2FEA33)) and (not IsBranchStepComplete(0xE0007712DE2FEA33, 2, 10)))">
 				<If Condition="(Me.Position.X &lt; -80)">
 					<UseTransport TransporterName="Fort Kodentha Skyhopper" Type="Taxi" Option="Voss-Ka Imperial District Skyhopper" 
-									XYZ="-141.9186,2.488814,48.2019" 
-									ToX="-31.7978" ToY="27.09854" ToZ="-43.6523" />
+									XYZ="-141.9186,2.488814,48.2019" />
 				</If>
 				<MoveTo QuestId="0xE0007712DE2FEA33" Name="Bas-Ton's Hut" XYZ="13.96014,26.201,-31.60148" />
 			</If>
@@ -860,8 +854,7 @@
 			<!-- Agent - The Wellspring of Healing 0xE000FF1CA8DCA295-->
  
 			<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Fort Kodentha Skyhopper" 
-									XYZ="-31.7978,27.09854,-43.6523" 
-									ToX="-142.3947" ToY="2.482049" ToZ="47.6458" />
+									XYZ="-31.7978,27.09854,-43.6523" />
 		</If>
 		
 		<!-- Inquisitor - Visions and Visionaries -->
@@ -1081,8 +1074,7 @@
 			<!-- The Gormak War 0xE000C704F6747026-->
  
 			<UseTransport TransporterName="Pilgrim Retreat Speeder" Type="Taxi" Option="Voss-Ka Imperial District Skyhopper" 
-									XYZ="-182.9797,-5.218355,-88.0415"
-									ToX="-31.7978" ToY="27.09854" ToZ="-43.6523" />	
+									XYZ="-182.9797,-5.218355,-88.0415" />	
 		</If>
 		
 		<!-- Agent - Turnin The Wellspring of Healing -->
@@ -1119,8 +1111,7 @@
 					<ForceVendor VendorType="Repair" />
 			
 					<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Outpost Skyline Skyhopper" 
-									XYZ="-31.7978,27.09854,-43.6523" 
-									ToX="-66.3337" ToY="23.42929" ToZ="84.9562" />
+									XYZ="-31.7978,27.09854,-43.6523" />
 					<MoveTo QuestId="1" XYZ="-65.1713,23.43258,84.50069" />
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Outpost Skyline" XYZ="-65.1713,23.43258,84.50069" />
 				</If>
@@ -1350,8 +1341,7 @@
 		<If Condition="((HasQuest(0xE000F8C7E45BA27C)) and (not IsQuestComplete(0xE000F8C7E45BA27C)))">
 			<If Condition="(Me.Position.Z &gt; 75)">
 				<UseTransport TransporterName="Outpost Skyline Skyhopper" Type="Taxi" Option="Voss-Ka Imperial District Skyhopper" 
-									XYZ="-66.3337,23.42929,84.9562"
-									ToX="-31.7978" ToY="27.09854" ToZ="-43.6523" />
+									XYZ="-66.3337,23.42929,84.9562" />
 			</If>
 			<TurnInQuest QuestName="The Gormak King" QuestId="0xE000F8C7E45BA27C" TurnInName="Darth Serevin" XYZ="-10.328,27.58654,-31.2122" />
 			<CompleteQuest QuestName="The Gormak King" QuestId="0xE000F8C7E45BA27C" RewardIndex="2" />
@@ -1374,8 +1364,7 @@
 		<If Condition="((HasQuest(0xE000FF88E50736D5)) and (not IsQuestComplete(0xE000FF88E50736D5)))">
 			<If Condition="(Me.Position.X &lt; 50)">
 				<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Gehn's Overlook Skyhopper" 
-									XYZ="-31.7978,27.09854,-43.6523"
-									ToX="117.4049" ToY="1.6967" ToZ="-76.9431" />
+									XYZ="-31.7978,27.09854,-43.6523" />
 									
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Ghen's Overlook" XYZ="118.8246,1.7051,-77.11059" />
 			</If>
@@ -1587,8 +1576,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0003449D2726424)) and (not IsBranchStepComplete(0xE0003449D2726424, 1, 6))) and (Me.Position.X &gt; 75)">
 				<UseTransport TransporterName="Gehn's Overlook Skyhopper" Type="Taxi" Option="Voss-Ka Imperial District Skyhopper" 
-									XYZ="117.4049,1.6967,-76.9431" 
-									ToX="-31.7978" ToY="27.09854" ToZ="-43.6523" />
+									XYZ="117.4049,1.6967,-76.9431" />
 			</If>
 			<TurnInQuest QuestName="A Long Forgotten Evil" QuestId="0xE0003449D2726424" TurnInName="Darth Serevin" XYZ="-10.328,27.58654,-31.2122" />
 			<CompleteQuest QuestName="A Long Forgotten Evil" QuestId="0xE0003449D2726424" RewardIndex="3" />
@@ -1616,13 +1604,11 @@
 				<If Condition="((HasQuest(0xE0001C8CE2FA848E)) and (not IsBranchStepComplete(0xE0001C8CE2FA848E, 4, 10)))">
 					<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Y &gt; 0)"> <!-- Voss Main -->
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="-19.79158,27.24463,-62.02574" 
-									ToX="100.1429" ToY="-99.34077" ToZ="-10.3433" />
+									XYZ="-19.79158,27.24463,-62.02574" />
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Z &lt; 8.5)"> <!-- Voss Orbital Station -->
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Sith Inquisitor Airlock"
-									XYZ="101.6975,-99.60392,7.648034"
-									ToX="104.9966" ToY="-100.0079" ToZ="9.3026" />
+									XYZ="101.6975,-99.60392,7.648034" />
 					</If>
 					<MoveTo QuestId="0xE0001C8CE2FA848E" Name="Rul Jophen" XYZ="104.9656,-100.0007,14.5899" />
 				</If>
@@ -1650,13 +1636,11 @@
 					</If>
 					<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 107) and (Me.Position.X &gt; 103)"> <!-- Inquisitor Airlock -->
 						<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Korriban Orbital Station"
-									XYZ="105.0125,-100.0039,8.820145"
-									ToX="101.7018" ToY="-99.60392" ToZ="7.6742" />
+									XYZ="105.0125,-100.0039,8.820145" />
 					</If>
 					<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 103) and (Me.Position.X &gt; 99)"> <!-- Korriban Orbital Station -->
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Korriban"
-									XYZ="100.1065,-99.34077,-11.82215"
-									ToX="14.8672" ToY="0.491" ToZ="12.1473" />
+									XYZ="100.1065,-99.34077,-11.82215" />
 					</If>
 					<TalkTo QuestId="0xE000EBE8843F1D67" Name="Overseer Harkun" XYZ="-26.9302,1.400465,-9.9344" />
 					<WaitTimer QuestId="1" WaitTime="8" />
@@ -1665,8 +1649,7 @@
 					<If Condition="(Core.Player.AreaId == 0x4000000106296B6D)"> <!-- Korriban -->
 						<If Condition="(Me.Position.Y &gt; -5) and (Me.Position.Y &lt; 5)">
 							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="14.34693,0.749236,12.68935"
-									ToX="-0.002399988" ToY="0.7985187" ToZ="4.3053" />
+									XYZ="14.34693,0.749236,12.68935" />
 						</If>
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
@@ -1681,8 +1664,7 @@
 					</If>
 					<If Condition="(Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 6.5)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Command Deck"
-									XYZ="-8.777678,6.001,-6.1744" 
-									ToX="-5.6" ToY="8.401001" ToZ="-5.7" />
+									XYZ="-8.777678,6.001,-6.1744" />
 					</If>
 					<TalkTo QuestId="0xE000EBE8843F1D67" Name="Moff Pyron" XYZ="9.9241,8.7637,-10.7786" />
 				</If>
@@ -1690,8 +1672,7 @@
 					<If Condition="(Core.Player.AreaId == 0x400000056B28F358)"> <!-- The Doombringer -->
 						<If Condition="(Me.Position.Y &gt; 8)">
 							<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Transport Deck"
-									XYZ="-5.582763,8.401001,-5.359535"
-									ToX="-8.8" ToY="6.001" ToZ="-5.9" />
+									XYZ="-5.582763,8.401001,-5.359535" />
 						</If>
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Airlock Door" XYZ="-6.301247,6.032619,0.6147925" />
 						<WaitTimer QuestId="1" WaitTime="60" />
@@ -1724,8 +1705,7 @@
 				<If Condition="((HasQuest(0xE0002C3306EB994E)) and (not IsBranchStepComplete(0xE0002C3306EB994E, 1, 6)))">
 					<If Condition="(Me.Position.Y &lt; -29) and (Me.Position.Y &gt; -32)"> <!-- Orbital Station -->
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-169.2879,-30.50826,182.2322" 
-									ToX="-169.3065" ToY="4.589759" ToZ="181.8807" />
+									XYZ="-169.2879,-30.50826,182.2322" />
 					</If>
 				</If>
 			</If>
@@ -1738,8 +1718,7 @@
 				<If Condition="((HasQuest(0xE0000119FFEA85BD)) and (not IsBranchStepComplete(0xE0000119FFEA85BD, 8, 2)))">
 					<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48)"> <!-- Voss -->
 						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="-19.79158,27.24463,-62.02574" 
-									ToX="0.9927" ToY="0.8599995" ToZ="1.7975" />
+									XYZ="-19.79158,27.24463,-62.02574" />
 			
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -1760,18 +1739,15 @@
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 						<If Condition="(Me.Position.Y &gt; -8) and (Me.Position.Y &lt; -7)">
 							<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Dromund Kaas Spaceport" 
-										XYZ="96.68191,-7.801478,43.33433" 
-										ToX="96.6756" ToY="6.187614" ToZ="43.0209" />
+										XYZ="96.68191,-7.801478,43.33433" />
 						</If>
 						<If Condition="(Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 7)">
 							<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-										XYZ="88.3737,6.340111,36.17062" 
-										ToX="-9.0122" ToY="4.1061" ToZ="31.5782" />
+										XYZ="88.3737,6.340111,36.17062" />
 						</If>
 						<If Condition="(Me.Position.Z &gt; -5)">
 							<UseTransport TransporterName="Kaas City Central Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.5048,4.007461,-1.2225" 
-										ToX="12.16938" ToY="1.79964" ToZ="-55.95218" />
+										XYZ="-19.5048,4.007461,-1.2225" />
 						</If>
 					</If>
 					<MoveTo QuestId="0xE000AD89F260835D" Name="Watcher Three" XYZ="12.2699,2.680449,-83.593" />
@@ -1781,18 +1757,15 @@
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 						<If Condition="(Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 3)">
 							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi"
-										XYZ="12.28,1.799508,-56.9" 
-										ToX="-19.0862" ToY="4.007462" ToZ="-1.729442" />
+										XYZ="12.28,1.799508,-56.9" />
 						</If>
 						<If Condition="(Me.Position.Y &gt; 4) and (Me.Position.Y &lt; 5)">
 							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
-										XYZ="-8.558567,4.1061,31.20626" 
-										ToX="88.3433" ToY="6.340111" ToZ="35.9772" />
+										XYZ="-8.558567,4.1061,31.20626" />
 						</If>
 						<If Condition="(Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 7)">
 							<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-										XYZ="96.71832,6.189306,42.67947"
-										ToX="96.6911" ToY="-7.802541" ToZ="42.9783" />
+										XYZ="96.71832,6.189306,42.67947" />
 						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="78.94019,-7.798998,51.2834" />
 						<MoveTo QuestId="1" IgnoreLOS="True" XYZ="77.48743,-7.084901,50.17662" />
@@ -1818,8 +1791,7 @@
 					</If>
 					<If Condition="(Me.Position.Y &lt; -23) and (Me.Position.Y &gt; -24)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet Spaceport"
-									XYZ="-145.0782,-23.50134,183.1996"
-									ToX="-145.0842" ToY="4.589759" ToZ="183.5487" />
+									XYZ="-145.0782,-23.50134,183.1996" />
 					</If>
 				</If>
 			</If>

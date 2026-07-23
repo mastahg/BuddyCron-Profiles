@@ -82,14 +82,12 @@
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 4)))">	
 				<If Condition="(Me.Position.Y &lt; 0) and (Me.Position.Z &gt; 8)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ord Mantell Orbital Station" 
-									XYZ="-105.017,-100.0039,8.968137"
-									ToX="-101.7078" ToY="-99.60795" ToZ="7.2956" />
+									XYZ="-105.017,-100.0039,8.968137" />
 				</If>	
 				<If Condition="(Me.Position.Y &lt; 0) and (Me.Position.Z &lt; 8)">
 					<MoveTo QuestId="0xE000DDE90A0F682E" Name="Shuttle Door" XYZ="-99.79253,-99.29657,-10.9328" />
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ord Mantell" 
-									XYZ="-99.79253,-99.29657,-10.9328"
-									ToX="26.6854" ToY="6.088634" ToZ="37.228" />
+									XYZ="-99.79253,-99.29657,-10.9328" />
 				</If>
 				<MoveTo QuestId="0xE000DDE90A0F682E" Name="Lore object: Republic Banner" XYZ="12.74154,6.105463,1.176242" />
 				<Interact Name="Republic Banner" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="12.74154,6.105463,1.176242" />	<!-- Lore: Republic Banner -->
@@ -132,8 +130,7 @@
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 12)))">	
 				<If Condition="(Me.Position.Y &lt; 0)">
 					<UseTransport TransporterName="Oradam Village Speeder" Type="Taxi" Option="Fort Garnik Speeder" 
-									XYZ="-29.187,2.163444,-61.0815"
-									ToX="-114.6167" ToY="142.111" ToZ="-425.4255" />
+									XYZ="-29.187,2.163444,-61.0815" />
 				</If>
 				<TalkTo QuestId="0xE000DDE90A0F682E" Name="Agent Ottau" XYZ="18.2291,5.880543,-14.1523" />
 				<WaitTimer QuestId="0xE000DDE90A0F682E" WaitTime="5" />				
@@ -142,13 +139,11 @@
 				<If Condition="(Me.Position.Y &gt; 0)">
 					<MoveTo QuestId="0xE000DDE90A0F682E" Name="Shuttle Door" XYZ="26.84946,6.357598,38.12398" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Ord Mantell Orbital Station" 
-									XYZ="26.84946,6.357598,38.12398"
-									ToX="-99.9961" ToY="-99.599" ToZ="-10.0919" />
+									XYZ="26.84946,6.357598,38.12398" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 0) and (Me.Position.Z &lt; 8)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Knight Airlock" 
-									XYZ="-101.7161,-99.60392,7.683023"
-									ToX="-105.0013" ToY="-100.0079" ToZ="9.2092" />
+									XYZ="-101.7161,-99.60392,7.683023" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 0) and (Me.Position.Z &gt; 8)">
 					<MoveTo QuestId="0xE000DDE90A0F682E" Name="Go To Airlock" XYZ="-104.9845,-99.999,12.91203" />	

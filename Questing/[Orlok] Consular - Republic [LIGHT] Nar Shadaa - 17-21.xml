@@ -1060,8 +1060,7 @@
 			<!-- Consular - The Master (Bonus) 0xE000581244AEE1B0 -->
 			<If Condition="(Me.Position.X &lt;= -250) and (Me.Position.Z &lt;= 301)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
-										XYZ="-255.0624,-167.7633,296.8357"
-										ToX="-252.619" ToY="-168.9484" ToZ="319.7654" />
+										XYZ="-255.0624,-167.7633,296.8357" />
 			</If>			
 		</If>
 		

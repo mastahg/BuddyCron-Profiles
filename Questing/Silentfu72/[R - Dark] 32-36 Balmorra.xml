@@ -1086,8 +1086,7 @@
 			<ForceVendor VendorType="Repair" />
 			
 			<UseTransport TransporterName="Farnel Skyhopper" Type="Taxi" Option="Upper Markaran Outpost Skyhopper" 
-									XYZ="30.6793,1.50401,-3.5924" 
-									ToX="-115.9084" ToY="14.73068" ToZ="95.9494" />
+									XYZ="30.6793,1.50401,-3.5924" />
 		</If>
 		
 		<!-- Ignoring 2+ Shifting Priorities from Feero -->
@@ -1421,8 +1420,7 @@
 			<CompleteQuest QuestName="Factory Meltdown" QuestId="0xE0005B52730B2BFF" />
  
 			<UseTransport TransporterName="Upper Markaran Outpost Skyhopper" Type="Taxi" Option="Farnel Skyhopper" 
-									XYZ="-115.9084,14.73068,95.9494" 
-									ToX="30.6793" ToY="1.50401" ToZ="-3.5924" />
+									XYZ="-115.9084,14.73068,95.9494" />
 		</If>
 		
 		<!-- Turnin Consular - Our Points of View -->
@@ -1449,8 +1447,7 @@
 		<If Condition="((not HasQuest(0xE0002CD28F97EB6A)) and (not IsQuestComplete(0xE0002CD28F97EB6A)))">
 			<If Condition="(Me.Position.X &gt; 19) and (Me.Position.X &lt; 40) and (Me.Position.Y &gt; -0.2) and (Me.Position.Y &lt; 1.6) and (Me.Position.Z &gt; -31) and (Me.Position.Z &lt; -2)">
 				<UseTransport TransporterName="Farnel Skyhopper" Type="Taxi" Option="Lower Markaran Outpost Skyhopper" 
-									XYZ="30.6793,1.50401,-3.5924"
-									ToX="-56.8356" ToY="14.68558" ToZ="144.8748" />
+									XYZ="30.6793,1.50401,-3.5924" />
 			</If>						
 			<PickUpQuest QuestName="Hazardous Recovery" QuestId="0xE0002CD28F97EB6A" GiverName="Sergeant Carness" XYZ="-17.2112,9.55835,172.5899" />
 		</If>
@@ -1569,8 +1566,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE00051B6A771E1BE)) and (not IsStepComplete(0xE00051B6A771E1BE, 2)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar 61"
-									XYZ="-29.09139,5.689759,80.01674"
-									ToX="-29.0937" ToY="-15.41024" ToZ="80.3002" />
+									XYZ="-29.09139,5.689759,80.01674" />
 									
 				<MoveTo QuestId="0xE00051B6A771E1BE" Name="My Location" XYZ="-30.86316,-15.39901,80.28209" />
 			</If>
@@ -1585,8 +1581,7 @@
 				<TalkTo QuestId="0xE00051B6A771E1BE" Name="Colonel Marric" XYZ="-41.16955,-15.419,83.92363" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-29.10099,-15.41036,80.6341"
-									ToX="-29.102" ToY="5.689759" ToZ="80.3046" />
+									XYZ="-29.10099,-15.41036,80.6341" />
 			</If>
 			<!-- Quicktravel to Corinth -->
 		</If>
@@ -1635,16 +1630,14 @@
 		<If Condition="((HasQuest(0xE00073D404851181)) and (not IsQuestComplete(0xE00073D404851181)))">
 			<If Condition="((HasQuest(0xE00073D404851181)) and (not IsStepComplete(0xE00073D404851181, 7)))">
 				<UseTransport TransporterName="Gorinth Outpost Skyhopper" Type="Taxi" Option="Farnel Skyhopper" 
-									XYZ="-10.6984,15.79628,166.882"
-									ToX="30.6793" ToY="1.50401" ToZ="-3.5924" />
+									XYZ="-10.6984,15.79628,166.882" />
 			</If>
 			<TurnInQuest QuestName="Watchers" QuestId="0xE00073D404851181" TurnInName="Tai Cordan" XYZ="-5.1411,0.3909587,-15.3106" />
 			<CompleteQuest QuestName="Watchers" QuestId="0xE00073D404851181" RewardIndex="0" />
 			<!-- Consular - Executive Order 228 0xE000DE9C28BEA2C1-->
  
 			<UseTransport TransporterName="Farnel Skyhopper" Type="Taxi" Option="Gorinth Outpost Skyhopper" 
-									XYZ="30.6793,1.50401,-3.5924" 
-									ToX="-10.6984" ToY="15.79628" ToZ="166.882" />
+									XYZ="30.6793,1.50401,-3.5924" />
 		</If>
 		
 		<!-- Consular - Executive Order 228 -->
@@ -1804,14 +1797,12 @@
 			<If Condition="((HasQuest(0xE000313E6A996846)) and (not IsBranchStepComplete(0xE000313E6A996846, 1, 6)))">
 				<UseObject QuestId="0xE000313E6A996846" ObjectName="Prison Cell Control Panel" BranchId="1" StepId="6" TaskId="0" Radius="20" WaitTime="5" XYZ="15.86034,15.586,207.0284" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="15.36095,15.59037,209.8573"
-									ToX="15.3604" ToY="5.290368" ToZ="209.4616" />
+									XYZ="15.36095,15.59037,209.8573" />
 			</If>
 			<If Condition="((HasQuest(0xE000313E6A996846)) and (not IsBranchStepComplete(0xE000313E6A996846, 1, 9))) and (Me.Position.Y &gt;= 15.5)">
 				<MoveTo QuestId="1" XYZ="15.36451,15.59037,210.0478" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="15.36095,15.59037,209.8573"
-									ToX="15.3604" ToY="5.290368" ToZ="209.4616" />
+									XYZ="15.36095,15.59037,209.8573" />
 			</If>
 			<!-- Cease and Desist (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00041A2D29559CE))">
@@ -1829,8 +1820,7 @@
 			<If Condition="((HasQuest(0xE000313E6A996846)) and (not IsBranchStepComplete(0xE000313E6A996846, 1, 9)))">
 				<UseObject QuestId="0xE000313E6A996846" ObjectName="Prison Cell Control Panel" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="32.13288,3.780273,191.6126" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="15.39184,5.290368,209.8991"
-									ToX="15.3605" ToY="15.59037" ToZ="209.463" />
+									XYZ="15.39184,5.290368,209.8991" />
 			</If>
 			<!-- Branch 4, Step 2 -->
 			<TurnInQuest QuestName="Prison Break" QuestId="0xE000313E6A996846" TurnInName="Wes Durga" XYZ="-10.1781,15.57594,159.5239" />
@@ -1984,8 +1974,7 @@
 					<MoveTo QuestId="1" XYZ="139.241,12.97957,44.06332" />
 					<MoveTo QuestId="1" XYZ="138.4455,13.39285,44.05383" />
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Barrager Laboratory"
-									XYZ="135.6561,13.48928,34.82183"
-									ToX="135.2165" ToY="-6.168909" ToZ="69.5129" />
+									XYZ="135.6561,13.48928,34.82183" />
 				</If>
 				<UseObject QuestId="0xE00084E5C5595D10" BranchId="1" StepId="3" Radius="5" WaitTime="5" IgnoreLOS="False" ObjectName="External Access Control Terminal" XYZ="132.1437,-6.175545,67.05453" />
 			</If>
@@ -2003,8 +1992,7 @@
 				<TalkTo QuestId="0xE00084E5C5595D10" Name="Barrager Scientist" XYZ="126.9738,-5.160123,48.0165" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Balmorran Arms Factory"
-									XYZ="134.9344,-6.135943,70.58897"
-									ToX="135.9831" ToY="13.48928" ToZ="34.8573" />
+									XYZ="134.9344,-6.135943,70.58897" />
 			</If>
 		</If>
 
@@ -2047,8 +2035,7 @@
 			<CompleteQuest QuestName="Storming The Front" QuestId="0xE0001004700B7218" />
  
 			<UseTransport TransporterName="Lower Sundari Outpost Skyhopper" Type="Taxi" Option="Farnel Skyhopper" 
-									XYZ="82.0797,13.965,155.6113"
-									ToX="30.6793" ToY="1.50401" ToZ="-3.5924" />
+									XYZ="82.0797,13.965,155.6113" />
 		</If>
 		
 		<!-- Turnin Good Intentions -->
@@ -2080,8 +2067,7 @@
 			<PickUpQuest QuestName="Balmorra: Bonus Series 1" QuestId="0xE0005C9E33E8ED5D" GiverName="Gabe Dovaro" XYZ="27.0677,0.7341935,-4.8385" />
  
 			<UseTransport TransporterName="Farnel Skyhopper" Type="Taxi" Option="Lower Markaran Outpost Skyhopper" 
-									XYZ="30.6793,1.50401,-3.5924"
-									ToX="-56.8356" ToY="14.68558" ToZ="144.8748" />
+									XYZ="30.6793,1.50401,-3.5924" />
 		</If>
 		<PickUpQuest QuestName="Stage 1 - The Hunt for Lord Tharsis (Bonus)" QuestId="0xE000B2FDDDF12A29" GiverName="Wixx" XYZ="-51.608,7.895119,164.7734" />
 		<PickUpQuest QuestName="Hunting the Mandalorians" QuestId="0xE000D0507F022303" GiverName="Rond Berrin" XYZ="-50.3816,7.701,166.6396" />
@@ -2232,8 +2218,7 @@
 			<CompleteQuest QuestName="Balmorra: Bonus Series 1" QuestId="0xE0005C9E33E8ED5D" RewardIndex="0" />
  
 			<UseTransport TransporterName="Moraine Outpost Skyhopper" Type="Taxi" Option="Lower Sundari Outpost Skyhopper" 
-									XYZ="-55.7543,8.593284,181.5154"
-									ToX="82.0797" ToY="13.965" ToZ="155.6113" />
+									XYZ="-55.7543,8.593284,181.5154" />
 		</If>
 	
 		<!-- Ignoring [HEROIC 4] Acquired Taste -->
@@ -2394,8 +2379,7 @@
 				<TalkTo QuestId="0xE0000B3B9578D2D6" Name="Colonel Hunt" XYZ="153.506,16.75872,123.4008" />
  
 				<UseTransport TransporterName="Upper Sundari Outpost Skyhopper" Type="Taxi" Option="Farnel Skyhopper" 
-									XYZ="149.4361,17.2136,121.7798"
-									ToX="30.6793" ToY="1.50401" ToZ="-3.5924" />
+									XYZ="149.4361,17.2136,121.7798" />
 			</If>
 			<If Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsBranchStepComplete(0xE0000B3B9578D2D6, 1, 6)))">
 				<TalkTo QuestId="0xE0000B3B9578D2D6" Name="Gabe Dovaro" XYZ="27.0677,0.7341935,-4.8385" />
@@ -2414,8 +2398,7 @@
 				<!-- If I am on Balmorra -->
 				<While Condition="(Core.Player.AreaId == 0x4000000510FD7371)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="27.37347,1.425991,-0.4036863"
-									ToX="-0.004900001" ToY="0.5900244" ToZ="-2.8389" />
+									XYZ="27.37347,1.425991,-0.4036863" />
 				</While>
 				<WaitTimer QuestId="1" WaitTime="60" />
 				<!-- I am now on my ship -->
@@ -2446,8 +2429,7 @@
 				<WaitTimer QuestId="1" WaitTime="60" />
 			
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Quesh Orbital Station"
-									XYZ="-95.00368,-100.0039,8.840394" 
-									ToX="-98.3218" ToY="-99.60795" ToZ="7.1875" />
+									XYZ="-95.00368,-100.0039,8.840394" />
 			</If>
 		</If>
 		

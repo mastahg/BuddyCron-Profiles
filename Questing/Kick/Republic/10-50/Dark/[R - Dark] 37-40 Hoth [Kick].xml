@@ -710,8 +710,7 @@
 			<PickUpQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" GiverName="Hoth Shuttle Pilot" XYZ="-98.7554,-99.599,-12.8862" />
 	
 			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Aurek Base"
-									XYZ="-99.57454,-99.28554,-13.62852" 
-									ToX="-362.6329" ToY="9.034428" ToZ="-136.3432" />
+									XYZ="-99.57454,-99.28554,-13.62852" />
 									
 			<!-- I am now in Aurek Base -->
 		</If>
@@ -831,8 +830,7 @@
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Private Falk" XYZ="-277.1939,11.41011,-52.0314" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="-275.6001,11.43925,-55.46798" 
-									ToX="-275.9326" ToY="5.818851" ToZ="-59.2927" />
+									XYZ="-275.6001,11.43925,-55.46798" />
 			</If>
 			<!-- Crescent Canyon Cleanup (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003F8892A56188))">
@@ -851,8 +849,7 @@
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Republic Squad Leader" XYZ="-282.4919,5.853352,-62.63512" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="-276.0989,5.818851,-58.96164"
-									ToX="-275.8993" ToY="11.43925" ToZ="-55.3078" />
+									XYZ="-276.0989,5.818851,-58.96164" />
 			</If>
 		</If>
 		
@@ -966,8 +963,7 @@
 			<CompleteQuest QuestName="[AREA] Spy Droids" QuestId="0xE000D8B77E9888C6" RewardIndex="4" />
  
 			<UseTransport TransporterName="Outpost Senth Speeder" Type="Taxi" Option="Outpost Cresh Speeder" 
-									XYZ="-87.8932,4.953951,-92.5085" 
-									ToX="-222.9196" ToY="9.093787" ToZ="-112.3754" />
+									XYZ="-87.8932,4.953951,-92.5085" />
 		</If>
 		
 		<!-- Turnin Questionable Sources -->
@@ -1103,8 +1099,7 @@
 			<!-- Allied Forces 0xE00067DCD14BE141 -->
 
 			<UseTransport TransporterName="Outpost Cresh Speeder" Type="Taxi" Option="Outpost Senth Speeder" 
-									XYZ="-222.9196,9.093787,-112.3754"
-									ToX="-87.8932" ToY="4.953951" ToZ="-92.5085" />
+									XYZ="-222.9196,9.093787,-112.3754" />
 		</If>
 		
 		<!-- Turnin Allied Forces -->
@@ -1389,13 +1384,11 @@
 				<TalkTo QuestId="0xE0000CA7A0E3F850" Name="Private Cawelyn" XYZ="135.8025,-1.082772,4.5163" />
  
 				<UseTransport TransporterName="Outpost Zerek Speeder" Type="Taxi" Option="Aurek Base Speeder" 
-									XYZ="124.6078,-0.99914,-30.0401" 
-									ToX="-329.6133" ToY="9.090794" ToZ="-135.177" />
+									XYZ="124.6078,-0.99914,-30.0401" />
 			
 				<!-- I am in Aurek Base -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="-363.2719,9.240034,-136.3387" 
-									ToX="-0.004900001" ToY="0.5900244" ToZ="-2.8389" />
+									XYZ="-363.2719,9.240034,-136.3387" />
 			</If>
 			<UserDialog Title="Test" Message="Stop Bot and do something" />
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 10, 2)))">
@@ -1464,13 +1457,11 @@
 			
 				<!-- In Airlock now -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Tython Orbitol Station"
-									XYZ="-95.0019,-100.0039,8.91724"
-									ToX="-98.3028" ToY="-99.60392" ToZ="7.4894" />
+									XYZ="-95.0019,-100.0039,8.91724" />
 			
 				<!-- In Orbital Station -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Tython"
-									XYZ="-99.59008,-99.30646,-13.77327" 
-									ToX="-43.5494" ToY="-5.423623" ToZ="-53.545" />
+									XYZ="-99.59008,-99.30646,-13.77327" />
 			
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 3)))">
@@ -1478,8 +1469,7 @@
 			
 				<!-- I am on Tython -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="-43.55989,-5.111489,-54.31081"
-									ToX="-0.004900001" ToY="0.5900244" ToZ="-2.8389" />
+									XYZ="-43.55989,-5.111489,-54.31081" />
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 4)))">
 				<!-- I am on my ship -->
@@ -1489,19 +1479,16 @@
 			
 				<!-- I am in the Consular Airlock -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Hoth Orbital Station"
-									XYZ="-95.00227,-100.0039,8.911096" 
-									ToX="-98.3026" ToY="-99.60795" ToZ="7.2902" />
+									XYZ="-95.00227,-100.0039,8.911096" />
 			
 				<!-- I am on the Orbital Station Now -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Aurek Base"
-									XYZ="-99.65608,-99.34272,-13.58516"
-									ToX="-362.6329" ToY="9.034428" ToZ="-136.3432" />
+									XYZ="-99.65608,-99.34272,-13.58516" />
 			
 				<!-- I am on Hoth Now -->
  
 				<UseTransport TransporterName="Aurek Base Speeder" Type="Taxi" Option="Outpost Zerek Speeder" 
-									XYZ="-329.6133,9.090794,-135.177" 
-									ToX="124.6078" ToY="-0.99914" ToZ="-30.0401" />
+									XYZ="-329.6133,9.090794,-135.177" />
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 5)))">
 				<MoveTo QuestId="0xE000C12D408B68A2" Name="Elite Rakata Guardian Droid" XYZ="110.8592,5.297254,-73.62916" />
@@ -1516,13 +1503,11 @@
 				<!-- QT Cantina -->
  
 				<UseTransport TransporterName="Outpost Zerek Speeder" Type="Taxi" Option="Aurek Base Speeder" 
-									XYZ="124.6078,-0.99914,-30.0401" 
-									ToX="-329.6133" ToY="9.090794" ToZ="-135.177" />
+									XYZ="124.6078,-0.99914,-30.0401" />
 			
 				<!-- I am in Aurek Base -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="-363.2719,9.240034,-136.3387" 
-									ToX="-0.004900001" ToY="0.5900244" ToZ="-2.8389" />
+									XYZ="-363.2719,9.240034,-136.3387" />
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 2, 3)))">
 				<!-- I am on my ship now -->
@@ -1541,8 +1526,7 @@
 			
 				<!-- I am on Carrick Station Now -->
 				<UseTransport TransporterName="Main Level" Type="Wonkavator" Option="Main Level"
-									XYZ="-466.415,-109.9388,-473.5548" 
-									ToX="-466.1774" ToY="71.001" ToZ="-473.8201" />
+									XYZ="-466.415,-109.9388,-473.5548" />
 			</If>
 			<If Condition="((HasQuest(0xE0002211D4BFCC57)) and (not IsBranchStepComplete(0xE0002211D4BFCC57, 1, 3)))">
 				<TalkTo QuestId="0xE0002211D4BFCC57" Name="Master Shanji-vru" XYZ="-486.6795,69.401,-460.3825" />
@@ -1553,8 +1537,7 @@
 			<UserDialog Title="Test" Message="Stop Bot and do something" />
 			
 			<UseTransport TransporterName="Jedi Consular Hangar" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-466.095,71.01118,-473.9516"
-									ToX="-466.3195" ToY="-109.9902" ToZ="-473.6828" />
+									XYZ="-466.095,71.01118,-473.9516" />
 									
 			<UseObject QuestId="1" ObjectName="Defender" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="-460.4654,-109.4982,-479.5999" />
 		</If>
@@ -1567,8 +1550,7 @@
 			<PickUpQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" GiverName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
  
 			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Wardpost Luurdes Thranta" 
-									XYZ="-103.6758,23.17954,123.6498" 
-									ToX="133.9279" ToY="18.23531" ToZ="184.7597" />
+									XYZ="-103.6758,23.17954,123.6498" />
 		</If>
 		
 		<LoadProfile Path="[R - Dark] 40-41 Alderaan Bonus [Kick].xml" />

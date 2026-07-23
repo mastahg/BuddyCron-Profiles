@@ -722,8 +722,7 @@
 			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 3)))">
 				<MoveTo QuestId="0xE000D8E514C906C4" XYZ="-53.4878,-7.713922,-125.4795" />
 				<UseTransport TransporterName="Masters' Retreat Taxi" Type="Taxi" Option="Gnarls Outpost Speeder" 
-									XYZ="-53.4878,-7.713922,-125.4795"
-									ToX="-17.2731" ToY="-2.403527" ToZ="-100.9103" />
+									XYZ="-53.4878,-7.713922,-125.4795" />
 			</If>
 		</If>
 		
@@ -734,8 +733,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 3)))">
 				<UseTransport TransporterName="Masters' Retreat Taxi" Option="Gnarls Outpost Speeder" 
-									XYZ="-53.4878,-7.713922,-125.4795"
-									ToX="-17.2731" ToY="-2.403527" ToZ="-100.9103" />
+									XYZ="-53.4878,-7.713922,-125.4795" />
 			</If>
 		</If>
 		
@@ -1059,7 +1057,7 @@
 			<ForceVendor VendorType="Repair" />
 			
 			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481"
-									Option="Jedi Temple Speeder" ToX="-13.1076" ToY="-7.968236" ToZ="-45.234" />
+									Option="Jedi Temple Speeder" />
 		</If>
 
 		<!-- Turnin Consular - Pilgrims -->
@@ -1235,7 +1233,7 @@
 			<!-- open item in bags: Medium Credit Box -->
 			<!-- The Face of the Enemy 0xE000A722C5D14F73 -->
 			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481" 
-									Option="Jedi Temple Speeder" ToX="-13.1076" ToY="-7.968236" ToZ="-45.234" />
+									Option="Jedi Temple Speeder" />
 		</If>
 
 		<!-- Turnin Consular - Trials in Kaleth -->
@@ -1272,7 +1270,7 @@
 			<CompleteQuest QuestName="Combat Leadership: Mark III" QuestId="0xE0006E2A873C0E01" />
 			
 			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Kalikori Village Speeder" ToX="16.9777" ToY="-0.7802001" ToZ="-29.4481" />
+									Option="Kalikori Village Speeder" />
 		</If>
 		
 		<PickUpQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" GiverName="Master Meeb Wix" XYZ="13.7071,-0.7828179,-31.4855" />
@@ -1376,7 +1374,7 @@
 			<CompleteQuest QuestName="Pilgrim Medicine" QuestId="0xE00090E5E21BD7DF" />
 			
 			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481" 
-									Option="Jedi Temple Speeder" ToX="-13.1076" ToY="-7.968236" ToZ="-45.234" />
+									Option="Jedi Temple Speeder" />
 		</If>
 		
 		<!-- Turnin Consular - Hunter's Eye -->
@@ -1404,7 +1402,7 @@
 			<ForceVendor VendorType="Repair" />
 			
 			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Forward Camp Speeder" ToX="-25.4954" ToY="-2.367607" ToZ="-6.1771" />
+									Option="Forward Camp Speeder" />
 		</If>
 	
 		<PickUpQuest QuestName="Commune With the Light" QuestId="0xE000DF08498AC1C3" GiverName="Flingeld" XYZ="-59.7379,-0.7714155,16.9973" /> <!-- SW Ruins of Kaleth -->
@@ -1448,7 +1446,7 @@
 			<ForceVendor VendorType="Train" />
 			
 			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Forward Camp Speeder" ToX="-25.4954" ToY="-2.367607" ToZ="-6.1771" />
+									Option="Forward Camp Speeder" />
 		</If>
 		
 		<!-- Knight - Dark Temptations and Turnin -->
@@ -1492,8 +1490,7 @@
 			<!-- open character tab, press companion tab, Equip Item: T7 Customization 2 -->
 			
 			<UseTransport TransporterName="Kalikori Village Speeder" Type="Taxi" Option="Forward Camp Speeder" 
-									XYZ="16.9777,-0.7802001,-29.4481" 
-									ToX="-25.4954" ToY="-2.367607" ToZ="-6.1771" />
+									XYZ="16.9777,-0.7802001,-29.4481" />
 		</If>
 			
 		<!-- Ignoring Combat V until we have pet -->
@@ -1759,16 +1756,14 @@
 			<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsStepComplete(0xE000BEC612EFB6D0, 2)))">
 				<MoveTo QuestId="1" Name="Shuttle" XYZ="-43.59722,-5.060167,-54.38555" />
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-									XYZ="-43.54809,-5.122989,-54.29406" 
-									ToX="-671.6973" ToY="0.501" ToZ="-469.3175" />
+									XYZ="-43.54809,-5.122989,-54.29406" />
 									
 				<WaitTimer QuestId="1" WaitTime="60" />
 				<CompleteQuest QuestName="An Afflicted Master" QuestId="0xE000BEC612EFB6D0" RewardIndex="3" />
 				<!-- Open Qyzen's Civilian Outfit, press Take All, equip them on companion (C, companion pane, equip items: Qyzen's Rugged Pants, Jacket, Boots) -->
 				<!-- The Arrival 0xE0000CB5D481F093 -->
 				<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7466,0.4950807,-473.3069"
-									ToX="-485.2026" ToY="70.19205" ToZ="-470.0033" />
+									XYZ="-663.7466,0.4950807,-473.3069" />
 			</If>
 		</If>
 			
@@ -1777,16 +1772,14 @@
 			<If Condition="((HasQuest(0xE000904D233CD242)) and (not IsStepComplete(0xE000904D233CD242, 2)))">
 				<MoveTo QuestId="1" Name="Shuttle" XYZ="-43.59722,-5.060167,-54.38555" />
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-									XYZ="-43.54809,-5.122989,-54.29406" 
-									ToX="-671.6973" ToY="0.501" ToZ="-469.3175" />
+									XYZ="-43.54809,-5.122989,-54.29406" />
 									
 				<WaitTimer QuestId="1" WaitTime="60" />
 				<CompleteQuest QuestName="Seeking Darkness" QuestId="0xE000904D233CD242" />
 				<!-- The Jedi Envoy 0xE0002021F2CF1FFC -->
 			
 				<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7466,0.4950807,-473.3069"
-									ToX="-485.2026" ToY="70.19205" ToZ="-470.0033" />
+									XYZ="-663.7466,0.4950807,-473.3069" />
 			</If>
 		</If>
 		

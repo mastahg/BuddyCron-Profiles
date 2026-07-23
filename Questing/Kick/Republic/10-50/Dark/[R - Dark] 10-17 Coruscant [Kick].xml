@@ -737,8 +737,7 @@
 				<UseObject QuestId="0xE0000CB5D481F093" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="5" XYZ="-96.88853,154.001,-389.6191" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" 
-									ToX="-115.3961" ToY="143.601" ToZ="-401.0855" />
+									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -762,8 +761,7 @@
 				<UseObject QuestId="0xE0002021F2CF1FFC" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="5" XYZ="-96.88853,154.001,-389.6191" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" 
-									ToX="-115.3961" ToY="143.601" ToZ="-401.0855" />
+									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE0002021F2CF1FFC)) and (not IsStepComplete(0xE0002021F2CF1FFC, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -787,8 +785,7 @@
 				<UseObject QuestId="0xE000AE7B9FA6A4D0" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="5" XYZ="-96.88853,154.001,-389.6191" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" 
-									ToX="-115.3961" ToY="143.601" ToZ="-401.0855" />
+									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -812,8 +809,7 @@
 				<UseObject QuestId="0xE0008E987301305E" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="5" XYZ="-96.88853,154.001,-389.6191" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" 
-									ToX="-115.3961" ToY="143.601" ToZ="-401.0855" />
+									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4))) and (Me.Position.Z &gt; -391)">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -835,8 +831,7 @@
 				<TalkTo QuestId="0xE0000CB5D5BC1DD3" Name="Minister Imogh" XYZ="-113.4124,143.5009,-458.7595" />
 			
 				<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Galactic Market Taxi" 
-									XYZ="-114.6167,142.111,-425.4255"
-									ToX="246.0565" ToY="44.401" ToZ="61.6166" />
+									XYZ="-114.6167,142.111,-425.4255" />
 				<!-- Learn Bind Point - 
 				<Hotspot Name="Old Galactic Market Sector" X="237.7842" Y="43.21099" Z="62.46188" />
 			-->
@@ -1084,8 +1079,7 @@
 			<CompleteQuest QuestName="Cantina Contusions" QuestId="0xE0000942586238DE" />
 			
 			<UseTransport TransporterName="Galactic Market Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-									XYZ="246.0565,44.401,61.6166" 
-									ToX="-114.6167" ToY="142.111" ToZ="-425.4255" />
+									XYZ="246.0565,44.401,61.6166" />
 		</If>
 		<!-- End of Old Galactic Market -->
 
@@ -1139,8 +1133,7 @@
 			<PickupQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" GiverName="Agent Nurls Yorksin" XYZ="-115.2399,142.701,-431.7927" />
  
 			<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Black Sun Territory Taxi" 
-									XYZ="-114.6167,142.111,-425.4255" 
-									ToX="-331.6994" ToY="-127.099" ToZ="-30.0932" />
+									XYZ="-114.6167,142.111,-425.4255" />
 			<!-- Learn Bind point -->
 		</If>
 
@@ -1347,8 +1340,7 @@
 			<PickUpQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" GiverName="Lieutenant Doorn" XYZ="-329.2979,-127.0957,-30.1709" />
  
 			<UseTransport TransporterName="Black Sun Territory Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-									XYZ="-331.6994,-127.099,-30.0932" 
-									ToX="-114.6167" ToY="142.111" ToZ="-425.4255" />
+									XYZ="-331.6994,-127.099,-30.0932" />
 		</If>
 	
 		<!-- Turnin The Freightskippers -->
@@ -1382,8 +1374,7 @@
 		<!--use transport for Class Quest Smuggler - Quest "Hot Pursuit"-->
 		<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 3, 4)))">
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="-116.411,143.621,-405.334"
-                                    ToX="-115.9532" ToY="152.001" ToZ="-404.9021"/>
+									XYZ="-116.411,143.621,-405.334"/>
 			<!--Eclipse the Lookouts (Bonus)-->
 			<If Condition="((HasQuest(0xE000B5DDEB1C09A7)) and (not IsStepComplete(0xE000B5DDEB1C09A7, 2)))">
 				<Grind GrindRef="Eclipse the Lookouts" While="(not IsStepComplete(0xE000B5DDEB1C09A7, 2))" />
@@ -1403,8 +1394,7 @@
 		<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 3, 7)))">
 			<TalkTo QuestId="0xE000D0A7D6B0A490" Name="Miel Muwn" XYZ="-139.0567,154.001,-366.9964"  />
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="-116.405,152.021,-405.3066"
-                                    ToX="-115.9734" ToY="143.601" ToZ="-404.9053"/>
+									XYZ="-116.405,152.021,-405.3066"/>
 		</If>
 		 
 		<!-- Gree: Repairing Coruscant -->
@@ -1414,8 +1404,7 @@
 			<!-- Force Train / Sell / Repair / Mail -->
 			
 			<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Galactic Market Taxi" 
-									XYZ="-114.6167,142.111,-425.4255" 
-									ToX="246.0565" ToY="44.401" ToZ="61.6166" />
+									XYZ="-114.6167,142.111,-425.4255" />
 		</If>
 		
 		<!-- more Smuggler - Hot Pursuit - Talk to Egara-->
@@ -1438,8 +1427,7 @@
 			<CompleteQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" RewardIndex="2" />
  
 			<UseTransport TransporterName="Galactic Market Taxi" Type="Taxi" Option="Justicar Territory Taxi" 
-									XYZ="246.0565,44.401,61.6166" 
-									ToX="152.1595" ToY="-106.1157" ToZ="398.612" />
+									XYZ="246.0565,44.401,61.6166" />
 			
 			<!-- Learn Bindpoint -->
 		</If>
@@ -1507,8 +1495,7 @@
 			<If Condition="((HasQuest(0xE0005D6EEB46C12F)) and (not IsBranchStepComplete(0xE0005D6EEB46C12F, 1, 2)))">
 				<!-- If me.Y &gt; -108 ? -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Maintenance"
-									XYZ="94.51535,-107.199,424.9944" 
-									ToX="94.3982" ToY="-109.7635" ToZ="424.7567" />
+									XYZ="94.51535,-107.199,424.9944" />
 									
 				<MoveTo QuestId="0xE0005D6EEB46C12F" Name="My Location" XYZ="96.18522,-109.7203,426.8578" />
 			</If>
@@ -1516,8 +1503,7 @@
 				<TalkTo QuestId="0xE0005D6EEB46C12F" Name="Gotrut" XYZ="95.82886,-109.7203,426.527" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Territory"
-									XYZ="94.63613,-109.7635,424.9155" 
-									ToX="94.3544" ToY="-107.199" ToZ="424.8723" />
+									XYZ="94.63613,-109.7635,424.9155" />
 			</If>
 		</If>
 		
@@ -1582,8 +1568,7 @@
 		<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsQuestComplete(0xE000E6BFD5F03C51)))">
 			<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsStepComplete(0xE000E6BFD5F03C51, 3)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="53.92227,-104.984,446.9867" 
-									ToX="54.1007" ToY="-108.399" ToZ="446.9467" />
+									XYZ="53.92227,-104.984,446.9867" />
  
 				<UseObject QuestId="0xE000E6BFD5F03C51" ObjectName="Field Generator" BranchId="1" StepId="3" IgnoreLOS="True" Radius="5" WaitTime="5" XYZ="50.16521,-108.3962,442.3809" />
 			</If>
@@ -1594,8 +1579,7 @@
 				<UseObject QuestId="0xE000E6BFD5F03C51" ObjectName="Detainee Terminal" BranchId="1" StepId="5" IgnoreLOS="True" Radius="5" WaitTime="5" XYZ="52.22342,-108.399,446.0835" />
  
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="54.1007,-108.399,446.9467" 
-									ToX="54.1018" ToY="-104.999" ToZ="446.6454" />
+									XYZ="54.1007,-108.399,446.9467" />
 			</If>
 		</If>
 	
@@ -1668,8 +1652,7 @@
 			<PickUpQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" GiverName="Fez Burba" XYZ="124.813,-105.299,428.4864" />
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
-									XYZ="124.9337,-105.299,430.7395" 
-									ToX="122.0977" ToY="-226.2697" ToZ="431.0822" />
+									XYZ="124.9337,-105.299,430.7395" />
 			<!-- Learn Bindpoint, Force Repair / Sell / Mail -->
 		</If>
 	
@@ -1764,8 +1747,7 @@
 			<!-- Learn The Works Taxi -->
  
 			<UseTransport TransporterName="The Works Taxi" Type="Taxi" Option="Jedi Temple Taxi" 
-									XYZ="80.1477,-226.6384,484.1165" 
-									ToX="-277.4109" ToY="-245.2109" ToZ="334.6139" />
+									XYZ="80.1477,-226.6384,484.1165" />
 		</If>
 
 		<!-- Pickup Insult to Injury -->
@@ -1773,8 +1755,7 @@
 			<PickUpQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" Type="Placeable" UseRange="2" GiverName="Sealed Door" XYZ="-274.4974,-244.5595,316.4988" />
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Temple Ruins"
-									XYZ="-272.4638,-244.5599,317.9294" 
-									ToX="-299.9852" ToY="48.9032" ToZ="279.3594" />
+									XYZ="-272.4638,-244.5599,317.9294" />
 		</If>
 		
 		<!-- Insult to Injury -->
@@ -1789,8 +1770,7 @@
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 6)))">
 				<If Condition="(Me.Position.Y &lt; -240)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Temple Ruins"
-									XYZ="-272.3149,-244.5211,317.9462" 
-									ToX="-299.9852" ToY="48.9032" ToZ="279.3594" />
+									XYZ="-272.3149,-244.5211,317.9462" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 2)))">
@@ -1816,12 +1796,10 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Temple Speeder Pad"
-									XYZ="-299.7094,48.93557,279.3349"
-									ToX="-272.6696" ToY="-244.5607" ToZ="317.7685" />
+									XYZ="-299.7094,48.93557,279.3349" />
  
 				<UseTransport TransporterName="Jedi Temple Taxi" Type="Taxi" Option="Justicar Territory Taxi" 
-									XYZ="-277.4109,-245.2109,334.6139" 
-									ToX="152.1595" ToY="-106.1157" ToZ="398.612" />
+									XYZ="-277.4109,-245.2109,334.6139" />
 			</If>
 		</If>
 	
@@ -1832,27 +1810,23 @@
 			<!-- Open Rudimentary Premium Storage Case -->
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
-									XYZ="124.9337,-105.299,430.7395" 
-									ToX="122.0977" ToY="-226.2697" ToZ="431.0822" />
+									XYZ="124.9337,-105.299,430.7395" />
 		</If>
 	
 		<!-- Turnin Meltdown -->
 		<If Condition="((HasQuest(0xE000CB379DF8DDE0)) and (not IsQuestComplete(0xE000CB379DF8DDE0)))">
 			<If Condition="(Me.Position.Y &gt; -120)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
-									XYZ="124.9337,-105.299,430.7395" 
-									ToX="122.0977" ToY="-226.2697" ToZ="431.0822" />
+									XYZ="124.9337,-105.299,430.7395" />
 			</If>
 			<TurnInQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" TurnInName="Ozurist" XYZ="120.8,-226.2636,429.6701" />
 			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" RewardIndex="2" />
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Territory"
-									XYZ="122.3554,-226.2697,429.9664"
-									ToX="126.0952" ToY="-105.299" ToZ="430.6045" />
+									XYZ="122.3554,-226.2697,429.9664" />
  
 			<UseTransport TransporterName="Justicar Territory Taxi" Type="Taxi" Option="Black Sun Territory Taxi" 
-									XYZ="152.1595,-106.1157,398.612"
-									ToX="-331.6994" ToY="-127.099" ToZ="-30.0932" />
+									XYZ="152.1595,-106.1157,398.612" />
 		</If>
 		
 		<!-- Turnin Secret Passages -->
@@ -1861,8 +1835,7 @@
 			<CompleteQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" RewardIndex="2" />
  
 			<UseTransport TransporterName="Black Sun Territory Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-									XYZ="-331.6994,-127.099,-30.0932" 
-									ToX="-114.6167" ToY="142.111" ToZ="-425.4255" />
+									XYZ="-331.6994,-127.099,-30.0932" />
 		</If>
 	
 		<!-- TurnIn Gree: Power Outage -->
@@ -1950,8 +1923,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)"> <!-- Taris - Consular Hangar -->
 					<If Condition="(Me.Position.Y &lt; -32) and (Me.Position.Y &gt; -34)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-									XYZ="-212.8293,-33.60266,72.16498" 
-									ToX="-213.1803" ToY="-19.51568" ToZ="72.3756" />
+									XYZ="-212.8293,-33.60266,72.16498" />
 					</If>
 				</If>
 			</If>
@@ -1962,8 +1934,7 @@
 		<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsQuestComplete(0xE000D1E53CE5D671)))">
 			<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsBranchStepComplete(0xE000D1E53CE5D671, 3, 3)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="-112.7917,143.621,-404.4639"
-									ToX="-113.2532" ToY="152.001" ToZ="-404.9021" />
+									XYZ="-112.7917,143.621,-404.4639" />
 				<UseObject QuestId="0xE000D1E53CE5D671" ObjectName="Door Panel" BranchId="3" StepId="3" Radius="5" WaitTime="5" XYZ="-101.234,154.001,-371.0305"  />
 			</If>
 			<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsBranchStepComplete(0xE000D1E53CE5D671, 3, 4)))">

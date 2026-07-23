@@ -35,8 +35,7 @@
 	
 		<If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
 			<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7174,0.4950807,-473.2921" 
-									ToX="-485.1419" ToY="70.19205" ToZ="-470.001" />
+									XYZ="-663.7174,0.4950807,-473.2921" />
 		   
 			<WaitTimer QuestId="1" WaitTime="10" />
 		</If>
@@ -60,8 +59,7 @@
 		<If Condition="(Me.Class == CharacterClass.Knight)">
 			<If Condition="Me.Position.X &lt; -650">
 				<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7466,0.4950807,-473.3069"
-									ToX="-485.2026" ToY="70.19205" ToZ="-470.0033" />
+									XYZ="-663.7466,0.4950807,-473.3069" />
 			</If>
 		
 			<PickUpQuest QuestName="Advanced Training: Jedi Knight" QuestId="0xE0006FC5EA2918C0" GiverName="Master Nimi" XYZ="-480.3764,70.211,-470.951" />
@@ -124,15 +122,13 @@
 	
 		<If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.Z &lt; -400)">
 			<UseTransport TransporterName="Elevator to Coruscant Departures" Type="Wonkavator" Option="Coruscant Departures"
-									XYZ="-469.9958,70.19608,-454.3647"
-									ToX="-481.5506" ToY="0.4910509" ToZ="-272.6427" />
+									XYZ="-469.9958,70.19608,-454.3647" />
 			<WaitTimer QuestId="1" WaitTime="10" />
 		</If>
 		   
 		<If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -400)">
 			<UseTransport TransporterName="Interfleet Transport" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-473.5218,0.6301395,-268.2039" 
-									ToX="-83.8126" ToY="154.001" ToZ="-393.6998" />
+									XYZ="-473.5218,0.6301395,-268.2039" />
 			<WaitTimer QuestId="1" WaitTime="5" />
 		</If>
 		   

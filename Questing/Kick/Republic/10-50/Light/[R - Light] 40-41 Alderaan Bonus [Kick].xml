@@ -212,8 +212,7 @@
 			<PickUpQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" GiverName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
  
 			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Wardpost Luurdes Thranta" 
-									XYZ="-103.6758,23.17954,123.6498" 
-									ToX="133.9279" ToY="18.23531" ToZ="184.7597" />
+									XYZ="-103.6758,23.17954,123.6498" />
 		</If>
 		
 		<!-- Alderaan: Bonus Series 2 -->
@@ -454,20 +453,17 @@
 				<!-- UseTaxi House Traders' Circle to House Organa -->
  
 				<UseTransport TransporterName="House Traders' Circle Thranta" Type="Taxi" Option="House Organa Taxi" 
-									XYZ="300.0786,18.41762,53.691"
-									ToX="-103.6758" ToY="23.17954" ToZ="123.6498" />
+									XYZ="300.0786,18.41762,53.691" />
 			</If>
 			<TurnInQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" TurnInName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
 			<CompleteQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" RewardIndex="1" />
 			
 			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Pallista Spaceport Taxi" 
-									XYZ="-103.6758,23.17954,123.6498"
-									ToX="-146.1381" ToY="22.48502" ToZ="135.5366" />
+									XYZ="-103.6758,23.17954,123.6498" />
 			
 			<!-- Consular -->
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-158.4106,22.28976,151.6067" 
-									ToX="-158.0944" ToY="-5.810242" ToZ="151.5977" />
+									XYZ="-158.4106,22.28976,151.6067" />
 									
 			<UseObject QuestId="1" ObjectName="Defender" Radius="20" WaitTime="5" XYZ="-153.4679,-5.298329,167.8923" />
 		</If>
@@ -485,15 +481,13 @@
 			
 				<!-- I am in Airlock  -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Belsavis Orbital Station"
-									XYZ="62.00192,-78.00392,47.83056"
-									ToX="58.6999" ToY="-77.60795" ToZ="46.1658" />
+									XYZ="62.00192,-78.00392,47.83056" />
 			
 				<PickUpQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" GiverName="Intake Officer" XYZ="56.4383,-77.589,32.7644" />
 	
 				<!-- I am on Orbital Station -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Minimum Security"
-									XYZ="56.95659,-77.3624,26.44885" 
-									ToX="113.2147" ToY="30.4782" ToZ="26.7613" />
+									XYZ="56.95659,-77.3624,26.44885" />
 			
 				<!-- I am on Belsavis -->
 			</If>

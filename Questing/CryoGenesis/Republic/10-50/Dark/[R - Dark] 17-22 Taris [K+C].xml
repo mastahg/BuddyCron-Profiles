@@ -998,8 +998,7 @@
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -35) and (Me.Position.Y &lt; -32) and (Me.Position.Z &gt; 24) and (Me.Position.Z &lt; 50)">
 				<UserDialog Title="CryoGenesis" Message="You are on 'The Vault', step 'Return to Beryl Thorne'. We are now going to complete this quest and the bonus series." />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-213.562,-33.60794,48.13525" 
-										ToX="-213.1784" ToY="-19.51024" ToZ="48.099" />
+										XYZ="-213.562,-33.60794,48.13525" />
 			</If>	
 		</If>
 		
@@ -1007,8 +1006,7 @@
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -35) and (Me.Position.Y &lt; -32) and (Me.Position.Z &gt; 24) and (Me.Position.Z &lt; 50)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Beryl's Bargain'" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-213.562,-33.60794,48.13525" 
-										ToX="-213.1784" ToY="-19.51024" ToZ="48.099" />
+										XYZ="-213.562,-33.60794,48.13525" />
 			</If>	
 		</If>	
 		
@@ -1016,8 +1014,7 @@
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -34) and (Me.Position.Y &lt; -33) and (Me.Position.Z &gt; 74) and (Me.Position.Z &lt; 100)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'The Expedition'" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-212.8891,-33.60464,72.25816" 
-										ToX="-213.1803" ToY="-19.51608" ToZ="72.3756" />
+										XYZ="-212.8891,-33.60464,72.25816" />
 			</If>	
 		</If>
 		
@@ -1025,8 +1022,7 @@
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -41) and (Me.Position.Y &lt; -39) and (Me.Position.Z &gt; 20) and (Me.Position.Z &lt; 50)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'The Architect of Annihilation'" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-211.96,-40.60636,48.12917" 
-										ToX="-211.6068" ToY="-19.51024" ToZ="48.1036" />
+										XYZ="-211.96,-40.60636,48.12917" />
 			</If>	
 		</If>
 
@@ -1034,8 +1030,7 @@
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -41) and (Me.Position.Y &lt; -39) and (Me.Position.Z &gt; 70) and (Me.Position.Z &lt; 95)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Welcome Party'" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-211.2708,-40.61089,72.28619" 
-										ToX="-211.59" ToY="-19.51024" ToZ="72.3004" />
+										XYZ="-211.2708,-40.61089,72.28619" />
 			</If>	
 		</If>
 
@@ -1347,8 +1342,7 @@
 			<Interact Name="Aurek" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-74.25592,-12.99559,1.034851" />	<!-- Bind point: Aurek -->
 			<TalkTo QuestId="1" Name="Waypoint Station Aurek Speeder" XYZ="-73.2112,-12.99559,0.5226" />	
 			<UseTransport TransporterName="Waypoint Station Aurek Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="-73.2112,-12.99559,0.5226"
-									ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+									XYZ="-73.2112,-12.99559,0.5226" />
 		</If>
 	
 		<!-- Usetransport Aurek to Olaris -->
@@ -1380,8 +1374,7 @@
 			<ForceVendor VendorType="Repair" />	
  
 			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Aurek Speeder" 
-									XYZ="-183.4904,-20.01153,50.9324" 
-									ToX="-73.2112" ToY="-12.99559" ToZ="0.5226" />
+									XYZ="-183.4904,-20.01153,50.9324" />
 		</If>
 
 		<!-- Turnin Wake of the Spire -->
@@ -1957,8 +1950,7 @@
 			<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsBranchStepComplete(0xE0004A5DD1C1BD45, 1, 4)))">	
 				<If Condition="Me.Position.X &gt;= -100">
 					<UseTransport TransporterName="Waypoint Station Draay Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-											XYZ="-74.5297,-23.71469,79.3271"
-											ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+											XYZ="-74.5297,-23.71469,79.3271" />
 				</If>	
 				<If Condition="Me.Position.X &lt;= -100">
 					<TalkTo QuestId="0xE0004A5DD1C1BD45" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
@@ -1974,8 +1966,7 @@
 					<ForceVendor VendorType="Train" />
 					<ForceVendor VendorType="Repair" />				
 					<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Draay Speeder" 
-											XYZ="-183.4904,-20.01153,50.9324"
-											ToX="-74.4355" ToY="-23.71469" ToZ="79.022" />
+											XYZ="-183.4904,-20.01153,50.9324" />
 				</If>			
 			</If>
 		</If>		
@@ -2051,8 +2042,7 @@
 				<!-- If I am at Morne - UseTaxi to Olaris -->
 				<If Condition="Me.Position.X &gt;= 0">
 					<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78"
-									ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+									XYZ="33.3469,-19.6577,49.78" />
 				</If>
 				<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" XYZ="-206.3995,-19.259,84.62611" />
 				<JumpTo 	QuestId="1" 
@@ -2115,8 +2105,7 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />				
 			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder" 
-									XYZ="-183.4904,-20.01153,50.9324"
-									ToX="32.765" ToY="-19.6577" ToZ="49.8914" />			
+									XYZ="-183.4904,-20.01153,50.9324" />			
 		</If>
 		
 		<!-- Consular - Super Reactor (Bonus) -->
@@ -2256,8 +2245,7 @@
 		<If Condition="((HasQuest(0xE000BD226E0F07CB)) and (not IsQuestComplete(0xE000BD226E0F07CB)))">
 			<If Condition="Me.Position.X &gt;= 0">
 				<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78"
-									ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+									XYZ="33.3469,-19.6577,49.78" />
 			</If>
 			<TurnInQuest QuestName="Infectious Legacy" QuestId="0xE000BD226E0F07CB" Type="Placeable" TurnInName="Drop Box" XYZ="-178.5443,-19.94706,54.51231" />
 			<CompleteQuest QuestName="Infectious Legacy" QuestId="0xE000BD226E0F07CB" />
@@ -2315,8 +2303,7 @@
 			<If Condition="((HasQuest(0xE0003BDD52123B85)) and (not IsBranchStepComplete(0xE0003BDD52123B85, 1, 2)))">
 				<If Condition="Me.Position.Y &gt; -30">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-											XYZ="-212.8937,-19.51024,48.12398"
-											ToX="-211.6013" ToY="-40.61024" ToZ="72.2767" />
+											XYZ="-212.8937,-19.51024,48.12398" />
 				</If>
 				<If Condition="Me.Position.Y &lt; -30">
 					<MoveTo QuestId="0xE0003BDD52123B85" Name="Going to XS Stock Light for Risha" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />
@@ -2335,8 +2322,7 @@
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 2)))">
 				<If Condition="Me.Position.X &lt;= 0">
 					<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder" 
-											XYZ="-183.4904,-20.01153,50.9324"
-											ToX="32.765" ToY="-19.6577" ToZ="49.8914" />
+											XYZ="-183.4904,-20.01153,50.9324" />
 				</If>
 				<If Condition="Me.Position.X &gt;= 0">
 					<MoveTo QuestId="0xE000033762E7E517" Name="Going for Slicing the Vault Door, but first kill Roksur" XYZ="115.8759,-19.01828,-31.48846" />
@@ -2357,8 +2343,7 @@
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 8)))">
 				<If Condition="(Me.Position.X &gt;= 117) and (Me.Position.X &lt;= 120) and (Me.Position.Y &gt;= -21) and (Me.Position.Y &lt;= -18) and (Me.Position.Z &gt;= -33) and (Me.Position.Z &lt;= -30)">
 					<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-											XYZ="33.3469,-19.6577,49.78"
-											ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+											XYZ="33.3469,-19.6577,49.78" />
 				</If>
 			</If>				
 		</If>		
@@ -2370,8 +2355,7 @@
 				<ForceVendor VendorType="Repair" />	
 				<PickUpQuest QuestName="Taris: Bonus Series" QuestId="0xE000DD2E1F315748" GiverName="Strom" XYZ="-206.6253,-19.189,60.8031" />
 				<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Brejik's Run Outpost Speeder" 
-										XYZ="-183.4904,-20.01153,50.9324"
-										ToX="120.7934" ToY="-21.37551" ToZ="47.79225" />
+										XYZ="-183.4904,-20.01153,50.9324" />
 			</If>	
 			<If Condition="Me.Position.X &gt;= 0">	
 				<MoveTo QuestId="1" Name="Brejik's Run QT" XYZ="121.2625,-21.3594,47.4486" />
@@ -2767,8 +2751,7 @@
 			<CompleteQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" RewardIndex="1" />
 			<If Condition="Me.Position.X &gt;= 0">
 				<UseTransport TransporterName="Kanner Outpost Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-										XYZ="34.2049,-13.29579,-20.5859"
-										ToX="-183.4904" ToY="-20.01153" ToZ="50.9324" />
+										XYZ="34.2049,-13.29579,-20.5859" />
 			</If>	
 			<If Condition="Me.Position.X &lt;= 0">
 				<ForceVendor VendorType="Repair" />	
@@ -2787,8 +2770,7 @@
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 8, 2)))">
 				<If Condition="Me.Position.Y &gt; -30">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-											XYZ="-213.5143,-19.5131,72.34254"
-											ToX="-213.1524" ToY="-33.60464" ToZ="72.2806" />
+											XYZ="-213.5143,-19.5131,72.34254" />
 				</If>
 				<If Condition="Me.Position.Y &lt; -30">
 					<MoveTo QuestId="0xE00072624DFC54F8" Name="Defender" Radius="20" WaitTime="5" XYZ="-209.8364,-33.599,88.1882" />
@@ -2802,8 +2784,7 @@
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 7)))">
 				<If Condition="Me.Position.Y &gt; -30">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-											XYZ="-211.3234,-19.51262,48.13313"
-											ToX="-211.5993" ToY="-40.61024" ToZ="48.1161" />
+											XYZ="-211.3234,-19.51262,48.13313" />
 				</If>
 				<If Condition="Me.Position.Y &lt; -30">
 					<MoveTo QuestId="0xE000437B1D0CE17C" Name="Meeting Doctor Godera" Radius="20" WaitTime="5" XYZ="-211.5993,-40.59901,46.55803" />
@@ -2820,8 +2801,7 @@
 			<If Condition="((HasQuest(0xE000E9F9F3A702EC)) and (not IsBranchStepComplete(0xE000E9F9F3A702EC, 1, 2)))">
 				<If Condition="Me.Position.Y &gt; -30">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-											XYZ="-211.9009,-19.51434,72.23331"
-											ToX="-211.6013" ToY="-40.61024" ToZ="72.2767" />
+											XYZ="-211.9009,-19.51434,72.23331" />
 				</If>
 				<If Condition="Me.Position.Y &lt; -30">
 					<MoveTo QuestId="0xE000E9F9F3A702EC" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="-209.6981,-40.599,88.60381" />
@@ -2835,8 +2815,7 @@
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 8)))">
 				<If Condition="Me.Position.Y &gt; -30">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-											XYZ="-212.8937,-19.51024,48.12398"
-											ToX="-211.6013" ToY="-40.61024" ToZ="72.2767" />
+											XYZ="-212.8937,-19.51024,48.12398" />
 				</If>
 				<If Condition="Me.Position.Y &lt; -30">
 					<MoveTo QuestId="0xE000033762E7E517" Name="XS Stock Light" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />

@@ -1043,8 +1043,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" /> <!-- It took me 2 mins to zone into the planet -->
 					<If Condition="Me.Position.Y &lt;= 44">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-										XYZ="161.4948,38.07876,-330.3893" 
-										ToX="161.2107" ToY="45.18976" ToZ="-330.3968" />
+										XYZ="161.4948,38.07876,-330.3893" />
 					</If>
 				</If>
 			</If>
@@ -1061,8 +1060,7 @@
 				</If>
 				<MoveTo QuestId="0xE0008AFAC01D4B5D" Name="Trooper Hangar exit" XYZ="163.13,31.09148,-330.4094" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="163.13,31.09148,-330.4094"
-						ToX="162.802" ToY="45.18976" ToZ="-330.4062" />	
+						XYZ="163.13,31.09148,-330.4094" />	
 			</If>			
 		</If>	
 		
@@ -1073,8 +1071,7 @@
 				</If>	
 				<MoveTo QuestId="0xE00025FDC943A8D0" Name="Smuggler Hangar exit" XYZ="160.9173,31.08976,-354.6024" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="160.9173,31.08976,-354.6024"
-						ToX="161.1982" ToY="45.18976" ToZ="-354.5981" />	
+						XYZ="160.9173,31.08976,-354.6024" />	
 			</If>			
 		</If>			
 	
@@ -1173,8 +1170,7 @@
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 6)))">
 				<If Condition="Me.Position.Y &gt;= 40">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar 21"
-									XYZ="166.1169,45.08802,-335.0212"
-									ToX="166.104" ToY="38.09376" ToZ="-335.2958" />
+									XYZ="166.1169,45.08802,-335.0212" />
 				</If>
 				<MoveTo QuestId="0xE000908AED28019E" Name="My Location" XYZ="168.1107,38.10099,-335.0339" />
 			</If>
@@ -1189,8 +1185,7 @@
 				<UseObject QuestId="0xE000908AED28019E" ObjectName="Slave Pen" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="191.6803,38.101,-325.9045" />
 				<If Condition="Me.Position.Y &lt;= 40">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-									XYZ="166.1,38.09373,-335.6349" 
-									ToX="166.0991" ToY="45.08976" ToZ="-335.2982" />
+									XYZ="166.1,38.09373,-335.6349" />
 				</If>
 			</If>
 			<TurnInQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" TurnInName="Sheriff Encot" XYZ="176.4121,45.0668,-344.7314" />
@@ -1207,8 +1202,7 @@
 		<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsQuestComplete(0xE00092A1D0D46728)))">
 			<If Condition="(Me.Position.X &gt;= 175) and (Me.Position.Z &lt;= -320) and (not IsStepComplete(0xE00092A1D0D46728, 6))">
 				<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-					XYZ="189.6707,44.79112,-327.2745"
-					ToX="82.2426" ToY="44.6536" ToZ="-162.3402" />
+					XYZ="189.6707,44.79112,-327.2745" />
 			</If>	
 			<If Condition="(Me.Position.X &gt; 82) and (Me.Position.X &lt; 83) and (Me.Position.Y &gt; 44) and (Me.Position.Y &lt; 45) and (Me.Position.Z &gt; -163) and (Me.Position.Z &lt; -162)">
 				<Interact Name="Dreviad Outpost" XYZ="81.28106,44.64627,-162.1858" />	<!-- Bind point: Dreviad Outpost -->
@@ -1383,8 +1377,7 @@
 			<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsStepComplete(0xE00092A1D0D46728, 10)))">
 				<If Condition="Me.Position.Z &gt;= -200">
 					<UseTransport TransporterName="Dreviad Outpost Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="12.8318,43.82843,-155.0174" 
-									ToX="189.6707" ToY="44.79112" ToZ="-327.2745" />
+									XYZ="12.8318,43.82843,-155.0174" />
 				</If>
  
 				<!-- Elevator down -->
@@ -1395,8 +1388,7 @@
 			<!-- Last One Out 0xE000CD19F6C033BB -->
 		 
 			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-									XYZ="189.6707,44.79112,-327.2745"
-									ToX="81.7213" ToY="44.65361" ToZ="-162.2166" />
+									XYZ="189.6707,44.79112,-327.2745" />
 		</If>
 	
 		<!-- Trooper - Interception -->
@@ -1893,8 +1885,7 @@
 			<CompleteQuest QuestName="A Thorough Cleaning" QuestId="0xE0007F163CBB8A29" />
 		 
 			<UseTransport TransporterName="Outpost Thorazan Speeder" Type="Taxi" Option="Outpost Salara Speeder" 
-									XYZ="-112.8901,42.68666,-138.6788" 
-									ToX="12.8318" ToY="43.82843" ToZ="-155.0174" />
+									XYZ="-112.8901,42.68666,-138.6788" />
 		</If>
 		
 		<!-- Turnin The Thing Czerka Found -->
@@ -1918,8 +1909,7 @@
 			<PickUpQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" GiverName="Galen Besk" XYZ="170.4086,45.501,-341.3672" />
 			<!-- Usetransport Anchorhead to Dreviad -->
 			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-				XYZ="189.6707,44.79112,-327.2745"
-				ToX="82.2426" ToY="44.6536" ToZ="-162.3402" />
+				XYZ="189.6707,44.79112,-327.2745" />
 		</If>
 
 		<!-- Tatooine: Bonus Series 2 -->
@@ -2243,8 +2233,7 @@
 			<!-- Open Reinforced Small Credit Case -->
  
 			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="167.8405,44.83727,-110.8722"
-									ToX="189.6707" ToY="44.79112" ToZ="-327.2745" />
+									XYZ="167.8405,44.83727,-110.8722" />
 		</If>
 		
 		<!-- Turnin Tatooine: Bonus Series -->
@@ -2259,8 +2248,7 @@
 		<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsQuestComplete(0xE000AE4F49390A99)))">
 			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 6)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="160.8575,45.19058,-330.4009" 
-									ToX="161.2005" ToY="38.07876" ToZ="-330.3965" />
+									XYZ="160.8575,45.19058,-330.4009" />
 				<Interact QuestId="0xE000AE4F49390A99" Name="Defender" Radius="20" WaitTime="5" XYZ="166.4718,38.56984,-315.5696" />
 				<Interact QuestId="0xE000AE4F49390A99" Name="Holoterminal" Radius="20" WaitTime="5" XYZ="-0.01485645,1.676,1.386945" /> <!-- on ship -->
 			</If>
@@ -2276,8 +2264,7 @@
 				<Interact QuestId="0xE00016CC1D921686" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
 				<WaitTimer QuestId="1" WaitTime="15" /> <!-- took me a min to load -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Pallista Spaceport"
-									XYZ="-157.8094,-5.810242,151.5989" 
-									ToX="-158.0929" ToY="22.28976" ToZ="151.6026" />
+									XYZ="-157.8094,-5.810242,151.5989" />
 			</If>
 		</If>
 	
@@ -2285,8 +2272,7 @@
 		<If Condition="((HasQuest(0xE000CF23BCF7D10C)) and (not IsQuestComplete(0xE000CF23BCF7D10C)))">
 			<If Condition="((HasQuest(0xE000CF23BCF7D10C)) and (not IsBranchStepComplete(0xE000CF23BCF7D10C, 7, 3)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-									XYZ="161.5202,45.18606,-354.5351" 
-									ToX="161.1928" ToY="31.08976" ToZ="-354.6012" /> <!--
+									XYZ="161.5202,45.18606,-354.5351" /> <!--
 			<MoveTo QuestId="0xE000CF23BCF7D10C" X="165.9103" Y="31.73625" Z="-368.6794"  />							
 			<Interact QuestId="0xE000CF23BCF7D10C" Name="XS Stock Light" Radius="20" WaitTime="5" X="165.9103" Y="31.73625" Z="-368.6794" />
 			<UserDialog Title="Restart!" Message="Restart the bot please!" />
@@ -2300,8 +2286,7 @@
 		<If Condition="((HasQuest(0xE0006C4932DE1987)) and (not IsQuestComplete(0xE0006C4932DE1987)))">
 			<If Condition="((HasQuest(0xE0006C4932DE1987)) and (not IsBranchStepComplete(0xE0006C4932DE1987, 9, 2)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-									XYZ="162.4526,45.19342,-330.4059" 
-									ToX="162.8027" ToY="31.08976" ToZ="-330.3975" />
+									XYZ="162.4526,45.19342,-330.4059" />
 			</If>
 		</If>
 		

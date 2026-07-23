@@ -55,8 +55,7 @@
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 3)))">
 				<If Condition="(Me.Position.Y &gt; 15)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Generator Access"
-								XYZ="-0.7707567,25.741,-79.99551" 
-								ToX="-37.7" ToY="9.330576" ToZ="-70.05" />
+								XYZ="-0.7707567,25.741,-79.99551" />
 				</If>
 				<If Condition="(Me.Position.Y &lt; 15)">
 					<MoveTo QuestId="0xE000F3534C0434DC" Name="Cleaning up some Imps" XYZ="-30.46649,9.104074,-88.07248" />
@@ -70,8 +69,7 @@
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 5)))">
 				<If Condition="(Me.Position.Y &lt; 15)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Gearbox's Bunker"
-								XYZ="-37.38632,9.325771,-70.12252" 
-								ToX="-1.1015" ToY="25.7053" ToZ="-79.7595" />
+								XYZ="-37.38632,9.325771,-70.12252" />
 				</If>
 				<If Condition="(Me.Position.Y &gt; 15)">
 					<MoveTo QuestId="0xE000F3534C0434DC" Name="Finding Gearbox" XYZ="1.818794,25.74206,-81.75397" />

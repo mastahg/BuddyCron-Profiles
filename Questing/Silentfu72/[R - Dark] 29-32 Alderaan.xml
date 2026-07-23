@@ -836,8 +836,7 @@
 			<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsBranchStepComplete(0xE00016CC1D921686, 1, 4)))">			
 				<If Condition="(Me.Position.X &gt; -159) and (Me.Position.X &lt; -140) and (Me.Position.Y &gt; -6) and (Me.Position.Y &lt; -5) and (Me.Position.Z &gt; 162) and (Me.Position.Z &lt; 180)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Pallista Spaceport"
-									XYZ="-157.8094,-5.810242,151.5989" 
-									ToX="-158.0929" ToY="22.28976" ToZ="151.6026" />
+									XYZ="-157.8094,-5.810242,151.5989" />
 				</If>
 			</If>
 		</If>
@@ -1439,8 +1438,7 @@
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 6)))">
 				<!-- Usetaxi Hurne to Duvaal -->
 				<UseTransport TransporterName="Wardpost Hurne Thranta" Type="Taxi" Option="Wardpost Duvaal Thranta" 
-									XYZ="34.31587,16.701,-49.26218"
-									ToX="47.0051" ToY="18.68" ToZ="167.8183" />
+									XYZ="34.31587,16.701,-49.26218" />
 				<If Condition="(Me.Position.X &gt; 40) and (Me.Position.X &lt; 53) and (Me.Position.Y &gt; 18) and (Me.Position.Y &lt; 19) and (Me.Position.Z &gt; 167) and (Me.Position.Z &lt; 173)">
 					<MoveTo QuestId="1" XYZ="52.46561,18.00367,170.745" />
 				</If>
@@ -1451,8 +1449,7 @@
 			<!-- Usetransport Duvaal to Hurne -->
 			<MoveTo QuestId="1" XYZ="52.46561,18.00367,170.745" />
 			<UseTransport TransporterName="Wardpost Duvaal Thranta" Type="Taxi" Option="Wardpost Hurne Thranta" 
-									XYZ="47.0051,18.68,167.8183"
-									ToX="34.31587" ToY="16.701" ToZ="-49.26218" /> 
+									XYZ="47.0051,18.68,167.8183" /> 
 		</If>
 
 		<!-- Consular - The Summit -->
@@ -1462,8 +1459,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 1, 3)))">
 				<UseTransport TransporterName="Shuttle Control Panel" Type="Wonkavator" Option="Sendoth Ruins"
-									XYZ="49.36418,20.94904,-59.20562"
-									ToX="-93.6599" ToY="19.4247" ToZ="-37.0185" />
+									XYZ="49.36418,20.94904,-59.20562" />
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 1, 4)))">
 				<MoveTo QuestId="0xE0000530981149E2" Name="Summit Guard" XYZ="-85.64553,21.05835,-52.14132" />
@@ -1479,8 +1475,7 @@
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 4)))">
 				<TalkTo QuestId="0xE0000530981149E2" Name="Master Sidonie Garen" XYZ="-62.9625,25.814,-50.4024" />
 				<UseTransport TransporterName="Shuttle Control Panel" Type="Wonkavator" Option="Glarus Valley Shuttlepad"
-									XYZ="-93.33459,19.42437,-37.05323"
-									ToX="49.3883" ToY="20.94955" ToZ="-59.4592" />
+									XYZ="-93.33459,19.42437,-37.05323" />
 			</If>
 		</If>
 
@@ -1634,8 +1629,7 @@
 		<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsQuestComplete(0xE0000FDDF7B0B055)))">
 			<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsStepComplete(0xE0000FDDF7B0B055, 2)))">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Throne Room"
-									XYZ="-254.098,11.65537,-38.54094"
-									ToX="-254.7385" ToY="-26.44463" ToZ="-38.7978" />
+									XYZ="-254.098,11.65537,-38.54094" />
 									
 				<MoveTo QuestId="0xE0000FDDF7B0B055" Name="My Location" XYZ="-262.6425,-26.57931,-39.06619" />
 			</If>
@@ -1670,8 +1664,7 @@
 			<TurnInQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" TurnInName="Bouris Ulgo" XYZ="-279.8767,-26.5778,-38.40318" />
 			<CompleteQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" RewardIndex="2" />
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Castle Panteer"
-									XYZ="-254.553,-26.44463,-38.79814"
-									ToX="-254.091" ToY="11.65537" ToZ="-38.6719" />
+									XYZ="-254.553,-26.44463,-38.79814" />
 			<!-- Quicktravel to to Panteer Refuge -->
 		</If>
 		
@@ -1680,8 +1673,7 @@
 			<TurnInQuest QuestName="The Coming Storm" QuestId="0xE000BF6F7D728668" TurnInName="Andon Organa" XYZ="-143.2018,15.91278,-74.8083" />
 			<CompleteQuest QuestName="The Coming Storm" QuestId="0xE000BF6F7D728668" RewardIndex="2" />
 			<UseTransport TransporterName="Panteer Refuge Thranta" Type="Taxi" Option="House Organa Taxi" 
-									XYZ="-161.15,16.47614,-64.8442"
-									ToX="-103.6758" ToY="23.17954" ToZ="123.6498" />			
+									XYZ="-161.15,16.47614,-64.8442" />			
 		</If>
 	
 		<!-- Alderaan Bonus Series are 37+ only - Recommended 40+ -->
@@ -1693,12 +1685,10 @@
 					<ForceVendor VendorType="Repair" />
 					<ForceVendor VendorType="Train" />
 					<UseTransport TransporterName="Shining Star Taxi" Type="Taxi" Option="Pallista Spaceport Taxi" 
-									XYZ="-83.0049,25.88653,87.0611"
-									ToX="-146.1381" ToY="22.48502" ToZ="135.5366" />
+									XYZ="-83.0049,25.88653,87.0611" />
 				</If>
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-158.4495,22.29133,151.6039" 
-									ToX="-158.0944" ToY="-5.810242" ToZ="151.5977" />
+									XYZ="-158.4495,22.29133,151.6039" />
 				<MoveTo QuestId="0xE0000530981149E2" Name="My Location" XYZ="-156.513,-5.799002,158.6026" />
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 6)))">
@@ -1740,14 +1730,12 @@
 			<If Condition="((HasQuest(0xE000009A890B8FDC)) and (not IsBranchStepComplete(0xE000009A890B8FDC, 1, 3)))">
 				<If Condition="(Me.Position.Y &lt;= -99.8)">
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Tython Orbital Station"
-									XYZ="-95.01287,-100.0039,8.850919" 
-									ToX="-98.3028" ToY="-99.60392" ToZ="7.4894" />
+									XYZ="-95.01287,-100.0039,8.850919" />
 				</If>
 
 				<If Condition="(Me.Position.Z &lt;= 8) and (Me.Position.Y &lt;= -95)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Tython"
-									XYZ="-99.58784,-99.28069,-13.81532" 
-									ToX="-43.5494" ToY="-5.423623" ToZ="-53.545" />
+									XYZ="-99.58784,-99.28069,-13.81532" />
 				</If>
 
 				<UseObject QuestId="0xE000009A890B8FDC" ObjectName="Jedi Council Chambers" BranchId="1" StepId="3" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="-42.38997,-5.024618,-44.34493" />
@@ -1888,14 +1876,12 @@
 				<!-- We're on Tython now -->
 				<If Condition="(Me.Position.Y &lt;= -99.8)">
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Tython Orbital Station"
-									XYZ="-95.01287,-100.0039,8.850919" 
-									ToX="-98.3028" ToY="-99.60392" ToZ="7.4894" />
+									XYZ="-95.01287,-100.0039,8.850919" />
 				</If>
 
 				<If Condition="(Me.Position.Z &lt;= 8) and (Me.Position.Y &lt;= -95)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Tython"
-									XYZ="-99.58784,-99.28069,-13.81532" 
-									ToX="-43.5494" ToY="-5.423623" ToZ="-53.545" />
+									XYZ="-99.58784,-99.28069,-13.81532" />
 				</If>
 
 				<UseObject QuestId="0xE000B5FB2A4C6C25" ObjectName="Jedi Council Chambers" BranchId="3" StepId="4" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-42.38997,-5.024618,-44.34493" />
@@ -1962,8 +1948,7 @@
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 2)))">
 				<While Condition="(Core.Player.AreaId == 0x40000029DB8F7920)">
 					<UseTransport TransporterName="Jedi Consular Turbolift" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-466.0253,71.01118,-473.9927"
-									ToX="-466.3195" ToY="-109.9902" ToZ="-473.6828" />
+									XYZ="-466.0253,71.01118,-473.9927" />
 					<MoveTo QuestId="1" XYZ="-461.2225,-109.999,-478.879" />
 					<Interact QuestId="1" Name="Defender" Radius="50" UseRange="50" WaitTime="5" XYZ="-460.4712,-109.4982,-479.6056" />
 				</While>
@@ -2007,12 +1992,10 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000055F4C611)">
 					<MoveTo QuestId="1" XYZ="-43.5592,-5.296281,-54.04523" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Tython Orbital Station"
-									XYZ="-43.56053,-5.047842,-54.4035"
-									ToX="-99.59689" ToY="-99.30276" ToZ="-13.78343" />
+									XYZ="-43.56053,-5.047842,-54.4035" />
 									
 					<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Jedi Consular Airlock"
-									XYZ="-98.30823,-99.60392,7.706116" 
-									ToX="-94.9968" ToY="-100.0039" ToZ="8.9131" />
+									XYZ="-98.30823,-99.60392,7.706116" />
 				</If>
 				<While Condition="(Core.Player.AreaId == 0x4000000055F4C611)">
 					<MoveTo QuestId="1" XYZ="-94.9968,-99.96738,20.25186" />						
@@ -2057,8 +2040,7 @@
 				<MoveTo QuestId="0xE000B78F8018628A" Name="Sith Marauder" XYZ="22.1485,4.301,0.4062" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Cargo Deck"
-									XYZ="23.19404,4.341,0.3977815"
-									ToX="23.0437" ToY="4.341" ToZ="-36.4989" />
+									XYZ="23.19404,4.341,0.3977815" />
 									
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 2, 2)))">
@@ -2066,8 +2048,7 @@
 				<!-- Go back to ship -->
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Command Deck"
-									XYZ="23.05531,4.341,-36.51015"
-									ToX="23.0648" ToY="4.341" ToZ="0.4009" />
+									XYZ="23.05531,4.341,-36.51015" />
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 2, 3)))">
 				<MoveTo QuestId="1" XYZ="-6.577189,4.232619,13.91592" />
@@ -2109,8 +2090,7 @@
 			
 				<MoveTo QuestId="1" XYZ="-99.69282,-99.599,-11.0905" />
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Bugtown"
-									XYZ="-99.88813,-99.35979,-11.39618" 
-									ToX="27.35" ToY="1.149193" ToZ="-1.0267" />
+									XYZ="-99.88813,-99.35979,-11.39618" />
 			</If>
 			<!-- Auto Skip 3 (use ships intercom - it auto cutscenes) -->
 		</If>

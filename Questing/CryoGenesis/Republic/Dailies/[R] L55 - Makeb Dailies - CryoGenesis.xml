@@ -186,49 +186,49 @@
 		<!-- GOTO The Giant's Spear  -->
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE000554348EB59CB)) and (not IsQuestComplete(0xE000554348EB59CB)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="The Giant's Spear Shuttle" ToX="65.9491" ToY="48.98209" ToZ="-7.8698" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="The Giant's Spear Shuttle" />
 			</If>	
 		</If>
 		
 		<!-- GOTO Tarlam Settlements --> 
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE000E5AE5E13630E)) and (not IsQuestComplete(0xE000E5AE5E13630E)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Tarlam Settlements Shuttle" ToX="206.5027" ToY="-22.19781" ToZ="-160.1016" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Tarlam Settlements Shuttle" />
 			</If>	 		
 		</If>	
 
 		<!-- GOTO Talaos City -->
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">	
 			<If Condition="((HasQuest(0xE000CCE0719F340D)) and (not IsQuestComplete(0xE000CCE0719F340D)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Talaos City Shuttle" ToX="410.0121" ToY="-17.99116" ToZ="9.4447" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Talaos City Shuttle" />
 			</If>	 
 		</If>
 		
 		<!-- GOTO Frinn Mesa -->
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE00022CA9DC86159)) and (not IsQuestComplete(0xE00022CA9DC86159)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Frinn Mesa Shuttle" ToX="96.608" ToY="-15.12164" ToZ="243.3063" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Frinn Mesa Shuttle" />
 			</If>
 		</If>
 		
 		<!-- GOTO The Sanctuary -->
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE000927687A7A349)) and (not IsQuestComplete(0xE000927687A7A349)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="The Sanctuary Shuttle" ToX="117.8575" ToY="-28.70551" ToZ="476.5852" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="The Sanctuary Shuttle" />
 			</If>
 		</If>
 		
 		<!-- GOTO Mining Mesa -->
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE000DA15211C0232)) and (not IsQuestComplete(0xE000DA15211C0232)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Mining Mesa Shuttle" ToX="-31.6018" ToY="-66.4152" ToZ="291.2305" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Mining Mesa Shuttle" />
 			</If>	
 		</If>
 		
 		<!-- GOTO Hutt Stronghold --> 
 		<If Condition="(Me.Position.X &gt; 257) and (Me.Position.X &lt; 261) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -15) and (Me.Position.Z &gt; 109) and (Me.Position.Z &lt; 115)">
 			<If Condition="((HasQuest(0xE000CAD2F83AB6DB)) and (not IsQuestComplete(0xE000CAD2F83AB6DB)) )">
-				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Hutt Stronghold Shuttle" ToX="31.3157" ToY="-10.97385" ToZ="-481.0769" />
+				<UseTransport TransporterName="Avesta's Plantation Shuttle" XYZ="259.0204,-15.36055,111.0912" Option="Hutt Stronghold Shuttle" />
 			</If>			
 		</If>
 				
@@ -267,7 +267,7 @@
 		<!-- GOTO Tarlam Settlements --> 
 		<If Condition="(Me.Position.X &gt; 54) and (Me.Position.X &lt; 66) and (Me.Position.Y &gt; 48) and (Me.Position.Y &lt; 50) and (Me.Position.Z &gt; -12) and (Me.Position.Z &lt; -4)">
 			<If Condition="((HasQuest(0xE000E5AE5E13630E)) and (not IsQuestComplete(0xE000E5AE5E13630E)) )">
-				<UseTransport TransporterName="The Giant's Spear Shuttle" XYZ="65.9491,48.98209,-7.8698" Option="Tarlam Settlements Shuttle" ToX="206.5027" ToY="-22.19781" ToZ="-160.1016" />
+				<UseTransport TransporterName="The Giant's Spear Shuttle" XYZ="65.9491,48.98209,-7.8698" Option="Tarlam Settlements Shuttle" />
 			</If>	 		
 		</If>
 		
@@ -306,7 +306,7 @@
 		<!-- GOTO Talaos City -->
 		<If Condition="(Me.Position.X &gt; 204) and (Me.Position.X &lt; 210) and (Me.Position.Y &gt; -23) and (Me.Position.Y &lt; -21) and (Me.Position.Z &gt; -162) and (Me.Position.Z &lt; -159)">
 			<If Condition="((HasQuest(0xE000CCE0719F340D)) and (not IsQuestComplete(0xE000CCE0719F340D)) )">
-				<UseTransport TransporterName="Tarlam Settlements Shuttle" XYZ="206.5027,-22.19781,-160.1016" Option="Talaos City Shuttle" ToX="410.0121" ToY="-17.99116" ToZ="9.4447" />
+				<UseTransport TransporterName="Tarlam Settlements Shuttle" XYZ="206.5027,-22.19781,-160.1016" Option="Talaos City Shuttle" />
 			</If>	 		
 		</If>
 		
@@ -344,7 +344,7 @@
 		<!-- GOTO Frinn Mesa -->
 		<If Condition="(Me.Position.X &gt; 408) and (Me.Position.X &lt; 412) and (Me.Position.Y &gt; -19) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; 8) and (Me.Position.Z &lt; 10)">
 			<If Condition="((HasQuest(0xE00022CA9DC86159)) and (not IsQuestComplete(0xE00022CA9DC86159)) )">
-				<UseTransport TransporterName="Talaos City Shuttle" XYZ="410.0121,-17.99116,9.4447" Option="Frinn Mesa Shuttle" ToX="96.608" ToY="-15.12164" ToZ="243.3063" />
+				<UseTransport TransporterName="Talaos City Shuttle" XYZ="410.0121,-17.99116,9.4447" Option="Frinn Mesa Shuttle" />
 			</If>	 
 		</If>
 		
@@ -377,7 +377,7 @@
 		<!-- GOTO The Sanctuary -->
 		<If Condition="(Me.Position.X &gt; 94) and (Me.Position.X &lt; 99) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -14) and (Me.Position.Z &gt; 241) and (Me.Position.Z &lt; 245)">
 			<If Condition="((HasQuest(0xE000927687A7A349)) and (not IsQuestComplete(0xE000927687A7A349)) )">
-				<UseTransport TransporterName="Frinn Mesa Shuttle" XYZ="96.608,-15.12164,243.3063" Option="The Sanctuary Shuttle" ToX="117.8575" ToY="-28.70551" ToZ="476.5852" />
+				<UseTransport TransporterName="Frinn Mesa Shuttle" XYZ="96.608,-15.12164,243.3063" Option="The Sanctuary Shuttle" />
 			</If>	 
 		</If>
 		
@@ -444,7 +444,7 @@
 		<!-- GOTO Mining Mesa -->
 		<If Condition="(Me.Position.X &gt; 115) and (Me.Position.X &lt; 120) and (Me.Position.Y &gt; -30) and (Me.Position.Y &lt;  27) and (Me.Position.Z &gt; 475) and (Me.Position.Z &lt; 478)">
 			<If Condition="((HasQuest(0xE000DA15211C0232)) and (not IsQuestComplete(0xE000DA15211C0232)) )">
-				<UseTransport TransporterName="The Sanctuary Shuttle" XYZ="117.8575,-28.70551,476.5852" Option="Mining Mesa Shuttle" ToX="-31.6018" ToY="-66.4152" ToZ="291.2305" />
+				<UseTransport TransporterName="The Sanctuary Shuttle" XYZ="117.8575,-28.70551,476.5852" Option="Mining Mesa Shuttle" />
 			</If>	
 		</If>
 		
@@ -469,7 +469,7 @@
 		<!-- GOTO Hutt Stronghold --> 
 		<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -28) and (Me.Position.Y &gt; -68) and (Me.Position.Y &lt; -65) and (Me.Position.Z &gt; 290) and (Me.Position.Z &lt; 293)">
 			<If Condition="((HasQuest(0xE000CAD2F83AB6DB)) and (not IsQuestComplete(0xE000CAD2F83AB6DB)) )">
-				<UseTransport TransporterName="Cartel Mining Mesa Shuttle" XYZ="-31.6018,-66.4152,291.2305" Option="Hutt Stronghold Shuttle" ToX="31.3157" ToY="-10.97385" ToZ="-481.0769" />
+				<UseTransport TransporterName="Cartel Mining Mesa Shuttle" XYZ="-31.6018,-66.4152,291.2305" Option="Hutt Stronghold Shuttle" />
 			</If>		
 		</If>
 		
@@ -489,7 +489,7 @@
 		<!-- GOTO Avesta's Plantation -->
 		<If Condition="(Me.Position.X &gt; 29) and (Me.Position.X &lt; 36) and (Me.Position.Y &gt; -13) and (Me.Position.Y &lt; -8) and (Me.Position.Z &gt; -490) and (Me.Position.Z &lt; -470)">
 			<If Condition="((HasQuest(0xE00070AA2DD38BCC)) and (not IsQuestComplete(0xE00070AA2DD38BCC)) )">
-				<UseTransport TransporterName="Hutt Strongholds Shuttle" XYZ="31.3157,-10.97385,-481.0769" Option="Avesta's Plantation Shuttle" ToX="259.0204" ToY="-15.36055" ToZ="111.0912" />
+				<UseTransport TransporterName="Hutt Strongholds Shuttle" XYZ="31.3157,-10.97385,-481.0769" Option="Avesta's Plantation Shuttle" />
 			</If>		
 		</If>
 		

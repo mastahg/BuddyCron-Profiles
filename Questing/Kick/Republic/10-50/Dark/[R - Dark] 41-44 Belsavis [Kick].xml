@@ -952,8 +952,7 @@
 			<!-- Riot in the Warden's Station 0xE0008EB9032A851C-->
  
 			<UseTransport TransporterName="Republic Guardpost Beta Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
-									XYZ="43.4419,26.95373,79.7208"
-									ToX="119.9507" ToY="30.03752" ToZ="29.6126" />
+									XYZ="43.4419,26.95373,79.7208" />
 		</If>
 		
 		<!-- Riot in the Warden's Station and Turnin -->
@@ -985,8 +984,7 @@
 			<!-- Maximum Security 0xE000399E31A55E10-->
  
 			<UseTransport TransporterName="Prison Administration Center Speeder" Type="Taxi" Option="Republic Guardpost Beta Speeder" 
-									XYZ="119.9507,30.03752,29.6126"
-									ToX="43.4419" ToY="26.95373" ToZ="79.7208" />
+									XYZ="119.9507,30.03752,29.6126" />
 		</If>
 		
 		<!-- Turnin Maximum Security -->
@@ -1133,8 +1131,7 @@
 			
 				<MoveTo QuestId="0xE000B1192853D0EC" XYZ="-61.20194,20.318,-26.79423" />
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="-61.20194,20.318,-26.79423" 
-									ToX="-61.19279" ToY="15.451" ToZ="-26.2356" />
+									XYZ="-61.20194,20.318,-26.79423" />
 			</If>
 			<!-- Scavenger Hunt (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007639287A8A35))">
@@ -1145,8 +1142,7 @@
 				<UseObject QuestId="0xE000B1192853D0EC" ObjectName="Rakata Terminal" BranchId="1" StepId="3" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-77.99833,14.69944,-35.78953" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="-61.20345,15.451,-25.48685" 
-									ToX="-61.18449" ToY="20.318" ToZ="-26.2076" />
+									XYZ="-61.20345,15.451,-25.48685" />
 			
 			</If>
 			<!-- Auto Skip 4 -->
@@ -1333,8 +1329,7 @@
 				<UseObject QuestId="0xE0007947BCE4DEBE" ObjectName="Rakata Panel" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-175.3055,21.63462,-81.65733" />
 			
 				<UseTransport TransporterName="Rakata Transporter" Type="Taxi" Option="Excavated Transport Center" 
-									XYZ="-174.6815,21.6929,-81.38072"
-									ToX="-133.4452" ToY="28.7002" ToZ="-33.08997" />
+									XYZ="-174.6815,21.6929,-81.38072" />
 			</If>
 			<TurnInQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" TurnInName="Lora" XYZ="-146.113,26.97806,-32.1348" />
 			<CompleteQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" RewardIndex="1" />
@@ -1353,8 +1348,7 @@
 			<!-- Striking the Esh-kha 0xE000EDD86673B47E-->
 			
 			<UseTransport TransporterName="Rakata Transporter" Type="Taxi" InteractRange="0.1" Option="Outer Tomb Transport Center" 
-									XYZ="-133.4452,28.7002,-33.08997"
-									ToX="-174.6815" ToY="21.6929" ToZ="-81.38072" />
+									XYZ="-133.4452,28.7002,-33.08997" />
 		</If>
 		
 		<PickUpQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" GiverName="Rakata Terminal" XYZ="-209.2774,18.411,-125.4401" />
@@ -1625,13 +1619,11 @@
 				<!-- We need to learn Lower earlier in the profile - as I don't know it atm
 			<MoveTo QuestId="1" Name="Lower Transport Center" X="-107.2507" Y="17.2312" Z="-119.3793" /> -->
 				<UseTransport TransporterName="Rataka Transporter" Type="Taxi" Option="Lower Transport Center"
-									XYZ="-107.2507,17.2312,-119.3793"
-									ToX="-4.947242" ToY="13.8312" ToZ="-141.378" />
+									XYZ="-107.2507,17.2312,-119.3793" />
 			
 				<!-- Republic Power Center to Excavated Transport Center -->
 				<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Excavated Transport Center" 
-									XYZ="-174.6815,21.6929,-81.38072"
-									ToX="-133.4452" ToY="28.7002" ToZ="-33.08997" />
+									XYZ="-174.6815,21.6929,-81.38072" />
 				<!-- I QT'd to Maximum Security Ops Center -->
 			</If>
 		</If>
@@ -1642,8 +1634,7 @@
 			<CompleteQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" RewardIndex="1" />
  
 			<UseTransport TransporterName="Republic Ops Center Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
-									XYZ="-156.3876,27.07195,-34.3323" 
-									ToX="119.9507" ToY="30.03752" ToZ="29.6126" />
+									XYZ="-156.3876,27.07195,-34.3323" />
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -1654,13 +1645,11 @@
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 16)))">
 				<!-- If I am on Belsavis -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="113.1553,30.51896,26.75817" 
-									ToX="56.9933" ToY="-77.40764" ToZ="26.5056" />
+									XYZ="113.1553,30.51896,26.75817" />
 			
 				<!-- If I am on Belsavis: Republic Orbital Station -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Jedi Consular Airlock"
-									XYZ="58.69345,-77.60392,46.67022"
-									ToX="62.0006" ToY="-78.00795" ToZ="48.3183" />
+									XYZ="58.69345,-77.60392,46.67022" />
 			
 				<!-- If I am on Belsavis: Republic Orbital Station -->
 				<UseObject QuestId="0xE0007866ACA716C2" BranchId="1" StepId="16" ObjectName="Ship Entrance" Radius="20" WaitTime="5" XYZ="62.03563,-77.96738,59.19472" />
@@ -1727,15 +1716,13 @@
 			
 				<!-- If I am on Voss: Republic Orbital Station, Consular Airlock -->
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
-									XYZ="-95.017,-100.0039,8.860291"
-									ToX="-98.3034" ToY="-99.60795" ToZ="7.1773" />
+									XYZ="-95.017,-100.0039,8.860291" />
 									
 				<PickUpQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" GiverName="Commander Hurada" XYZ="-100.5321,-99.599,-4.5337" />
 	
 				<!-- If I am on Voss: Republic Orbital Station -->
 				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
-									XYZ="-100.0168,-99.3791,-12.93396"
-									ToX="-26.1238" ToY="27.38585" ToZ="25.325" />
+									XYZ="-100.0168,-99.3791,-12.93396" />
 									
 			</If>
 			<!-- Re-summon our original companion -->
