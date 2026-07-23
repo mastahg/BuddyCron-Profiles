@@ -707,11 +707,11 @@
 		<!-- Inq - Plans -->
 		<If Condition="((HasQuest(0xE000A80E99D61403)) and (not IsQuestComplete(0xE000A80E99D61403)))">
 			<If Condition="((HasQuest(0xE000A80E99D61403)) and (not IsBranchStepComplete(0xE000A80E99D61403, 1, 5)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6619)"> <!-- My Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- My Ship -->
 					<Interact Name="Ship Exit" IgnoreLOS="True" WaitTime="5" XYZ="-0.0008129627,0.7982781,4.452863" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000000E21DD4EC) and (Me.Position.Y &lt; -14)">
+				<If Condition="(Core.Player.AreaId == 0x40000000E21DD4EC) and (Me.Position.Y &lt; -14)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
 									XYZ="-25.42319,-15.42346,83.52718" 
 									ToX="-25.84346" ToY="5.589759" ToZ="83.59578" />
@@ -1939,14 +1939,14 @@
 		<!-- Agent - Destroy the Enemy -->
 		<If Condition="((HasQuest(0xE00062183D8F80DE)) and (not IsQuestComplete(0xE00062183D8F80DE)))">
 			<If Condition="HasQuest(0xE00062183D8F80DE) and not IsBranchStepComplete(0xE00062183D8F80DE, 9, 2)">
-				<If Condition="(Me.Position.Y &gt;= 0) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)">
+				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
 					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
 									XYZ="-8.557227,5.605309,83.58036" 
 									ToX="-8.2" ToY="-15.40014" ToZ="83.6" />
 									
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
-				<If Condition="(Me.Position.Y &lt;= -10) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)">
+				<If Condition="(Me.Position.Y &lt;= -10) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
 					<MoveTo QuestId="1" Name="My Location" XYZ="-4.176818,-15.399,99.54711" />
 					<MoveTo QuestId="1" Name="My Location" XYZ="-3.577215,-14.74714,100.9835" />
 					<Interact QuestId="0xE00062183D8F80DE" Name="X-70B Phantom" UseRange="20" WaitTime="5" XYZ="-3.568984,-14.73137,101.0051" />
@@ -1966,11 +1966,11 @@
 				<Interact QuestId="0xE00062183D8F80DE" Name="Holoterminal" WaitTime="10" XYZ="0.008884223,1.051,-0.474171" />
 			</If>
 			<If Condition="HasQuest(0xE000539A10248ED1) and not IsStepComplete(0xE000539A10248ED1, 4)">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)">
+				<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)">
 					<Interact QuestId="0xE000539A10248ED1" Name="Ship Exit" WaitTime="3" XYZ="1.115736,0.8599994,1.779554" />
 					<WaitTimer WaitTime="90" QuestId="1" />
 				</If>
-				<If Condition="(Me.Position.Y &lt;= -5) and (BuddyTor.Client.AreaID == 0x40000002278FFC5D)">
+				<If Condition="(Me.Position.Y &lt;= -5) and (Core.Player.AreaId == 0x40000002278FFC5D)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
 									XYZ="-225.1632,-6.966546,-204.0284"
 									ToX="-217.5112" ToY="14.5011" ToZ="-187.4107" />
@@ -1996,14 +1996,14 @@
 		<!-- Inquisitor - Into the Pit -->
 		<If Condition="((HasQuest(0xE00081033ABE002B)) and (not IsQuestComplete(0xE00081033ABE002B)))">
 			<If Condition="HasQuest(0xE00081033ABE002B) and not IsBranchStepComplete(0xE00081033ABE002B, 9, 3)">
-				<If Condition="(Me.Position.Y &gt;= 0) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)"> <!-- Balmorra -->
+				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)"> <!-- Balmorra -->
 					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Sith Inquisitor Hangar" 
 									XYZ="-26.11348,5.589685,83.59577" 
 									ToX="-25.796" ToY="-15.42874" ToZ="83.5916" />
 									
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
-				<If Condition="(Me.Position.Y &lt;= -10) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)">
+				<If Condition="(Me.Position.Y &lt;= -10) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
 					<MoveTo QuestId="1" Name="My Location" XYZ="-26.25098,-15.429,102.4759" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="-27.45084,-14.72677,102.5224" />
 					<Interact Name="Fury" UseRange="40" IgnoreLOS="True" WaitTime="5" XYZ="-27.45084,-14.72677,102.5224" />
@@ -2029,11 +2029,11 @@
 		<!-- Inquisitor - The Prophet Arrives -->
 		<If Condition="((HasQuest(0xE0002CB06A3D9FAE)) and (not IsQuestComplete(0xE0002CB06A3D9FAE)))">
 			<If Condition="((HasQuest(0xE0002CB06A3D9FAE)) and (not IsBranchStepComplete(0xE0002CB06A3D9FAE, 1, 2)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6619)"> <!-- My Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- My Ship -->
 					<Interact QuestId="0xE000539A10248ED1" Name="Ship Exit" IgnoreLOS="True" WaitTime="3" XYZ="-0.0025963,0.7983624,4.418161" />
 					<WaitTimer WaitTime="60" QuestId="1" />
 				</If>
-				<If Condition="(Me.Position.Y &lt;= 6) and (BuddyTor.Client.AreaID == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
+				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
 									XYZ="-225.0887,5.501,-204.1261"
 									ToX="-213.6957" ToY="14.5011" ToZ="-187.4169" />
@@ -2044,7 +2044,7 @@
 		<!-- Warrior - To Kill a Legend -->
 		<If Condition="((HasQuest(0xE00016DD20D96D29)) and (not IsQuestComplete(0xE00016DD20D96D29)))">
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 15)))">
-				<If Condition="(Me.Position.Y &gt;= 0) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)">
+				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Warrior Hangar"
 									XYZ="-24.46811,5.588664,83.58705"
 									ToX="-24.2102" ToY="-22.41174" ToZ="83.5989" />
@@ -2053,7 +2053,7 @@
 				</If>
 			</If>
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 17)))">
-				<If Condition="(Me.Position.Y &lt;= -10) and (BuddyTor.Client.AreaID == 0x40000000E21DD4EC)">
+				<If Condition="(Me.Position.Y &lt;= -10) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
 					<MoveTo QuestId="1" XYZ="-30.06181,-22.399,99.37096" />
 					<MoveTo QuestId="1" XYZ="-30.06834,-22.12069,99.8392" />
 					<Interact QuestId="0xE00016DD20D96D29" Name="Fury" UseRange="20" WaitTime="5" XYZ="-30.02518,-21.7264,100.5771" />
@@ -2076,7 +2076,7 @@
 			<If Condition="HasQuest(0xE0000232FCC11D4A) and not IsStepComplete(0xE0000232FCC11D4A, 4)">
 				<Interact QuestId="0xE0000232FCC11D4A" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 				<WaitTimer WaitTime="90" QuestId="1" />
-				<If Condition="(Me.Position.Y &lt;= 6) and (BuddyTor.Client.AreaID == 0x40000002278FFC5D)">
+				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
 									XYZ="-224.8444,5.5011,-157.8653"
 									ToX="-217.5231" ToY="14.501" ToZ="-174.5868" />			

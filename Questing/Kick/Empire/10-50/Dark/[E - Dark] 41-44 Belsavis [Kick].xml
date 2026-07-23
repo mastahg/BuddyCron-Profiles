@@ -629,7 +629,7 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE0000459DFC70FDC)) and (not IsBranchStepComplete(0xE0000459DFC70FDC, 1, 4)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> 
+				<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> 
 					<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="1.104365,0.8599994,1.785109" />
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
@@ -651,7 +651,7 @@
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.370085,0.8962948,1.644378" />
 			</If>
 			<If Condition="((HasQuest(0xE00002FDF22034F5)) and (not IsBranchStepComplete(0xE00002FDF22034F5, 1, 2)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
@@ -1406,7 +1406,7 @@
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
 				<If Condition="((HasQuest(0xE000F50CD0ECB7BB)) and (not IsBranchStepComplete(0xE000F50CD0ECB7BB, 2, 7)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000001C0831248)"> <!-- Belsavis -->
+					<If Condition="(Core.Player.AreaId == 0x40000001C0831248)"> <!-- Belsavis -->
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Entrance" XYZ="261.9946,-77.9631,59.34803" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -1425,7 +1425,7 @@
 					<SpaceTravel Planet="Nar Shaddaa" />
 				</If>
 				<If Condition="((HasQuest(0xE00001948E78D284)) and (not IsBranchStepComplete(0xE00001948E78D284, 1, 4)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -1471,7 +1471,7 @@
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
 				<If Condition="((HasQuest(0xE00001948E78D284)) and (not IsBranchStepComplete(0xE00001948E78D284, 3, 2)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
+					<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
 						<If Condition="(Me.Position.Y &gt; 50) and (Me.Position.Y &lt; 60)">
 							<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Mezenti Spaceport Taxi" 
 									XYZ="-125.5166,53.801,-78.1966"
@@ -1503,7 +1503,7 @@
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
 				<If Condition="((HasQuest(0xE000490AC1FCA8C5)) and (not IsBranchStepComplete(0xE000490AC1FCA8C5, 1, 4)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 						<!-- You must press space bar after zoning onto Voss -->
@@ -1531,7 +1531,7 @@
 			<!-- Agent - Heist and Turnin -->
 			<If Condition="((HasQuest(0xE000DD23FD180C6F)) and (not IsQuestComplete(0xE000DD23FD180C6F)))">
 				<If Condition="((HasQuest(0xE000DD23FD180C6F)) and (not IsBranchStepComplete(0xE000DD23FD180C6F, 9, 3)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000001C0831248)"> <!-- Belsavis -->
+					<If Condition="(Core.Player.AreaId == 0x40000001C0831248)"> <!-- Belsavis -->
 						<If Condition="(Me.Position.X &gt; 249)">
 							<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Agent Airlock"
 									XYZ="250.826,-78.00392,40.42448" 
@@ -1540,13 +1540,13 @@
 						<Interact Name="Ship Entrance" IgnoreLOS="True" XYZ="236.6837,-77.965,40.42096" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="0.02274081,1.157813,-0.7451631" />
 						<WaitTimer QuestId="1" WaitTime="8" />
 					</If>
 				</If>
 				<If Condition="((HasQuest(0xE000DD23FD180C6F)) and (not IsBranchStepComplete(0xE000DD23FD180C6F, 8, 2)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="1.112151,0.8599994,1.80631" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -1559,11 +1559,11 @@
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
 				<If Condition="((HasQuest(0xE000DD23FD180C6F)) and (not IsBranchStepComplete(0xE000DD23FD180C6F, 8, 6)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000001C0831248)"> <!-- Belsavis -->
+					<If Condition="(Core.Player.AreaId == 0x40000001C0831248)"> <!-- Belsavis -->
 						<Interact Name="Ship Entrance" IgnoreLOS="True" XYZ="236.6837,-77.965,40.42096" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="0.02274081,1.157813,-0.7451631" />
 						<WaitTimer QuestId="1" WaitTime="8" />
 					</If>
@@ -1578,7 +1578,7 @@
 					<SpaceTravel Planet="The Tytun Rings" />
 				</If>
 				<If Condition="((HasQuest(0xE00059BB2A778080)) and (not IsBranchStepComplete(0xE00059BB2A778080, 1, 3)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="1.112151,0.8599994,1.80631" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
@@ -1589,18 +1589,18 @@
 				<UseObject QuestId="0xE00059BB2A778080" BranchId="1" StepId="6" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Data Terminal" XYZ="4.125216,5.001676,-9.272419" />
 				<UseObject QuestId="0xE00059BB2A778080" BranchId="1" StepId="7" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Data Terminal" XYZ="-9.094779,5.001672,-9.302238" />
 				<If Condition="((HasQuest(0xE00059BB2A778080)) and (not IsBranchStepComplete(0xE00059BB2A778080, 1, 8)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x400000076A6E4932)"> <!-- Tytun -->
+					<If Condition="(Core.Player.AreaId == 0x400000076A6E4932)"> <!-- Tytun -->
 						<Interact Name="Airlock to Ship" IgnoreLOS="True" XYZ="-6.024457,5.534154,5.600999" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
 					<SpaceTravel Planet="Dromund Kaas" />
 				</If>
 				<If Condition="((HasQuest(0xE00059BB2A778080)) and (not IsBranchStepComplete(0xE00059BB2A778080, 1, 9)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" WaitTime="5" XYZ="1.120779,0.8599994,1.784101" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(BuddyTor.Client.AreaID == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
+					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 						<If Condition="(Me.Position.Y &gt; -8) and (Me.Position.Y &lt; -7)">
 							<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Dromund Kaas Spaceport" 
 										XYZ="96.68191,-7.801478,43.33433" 
@@ -1621,7 +1621,7 @@
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<If Condition="((HasQuest(0xE00059BB2A778080)) and (not IsBranchStepComplete(0xE00059BB2A778080, 1, 11)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
+					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 						<If Condition="(Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 3)">
 							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi"
 										XYZ="12.28,1.799508,-56.9" 
@@ -1656,7 +1656,7 @@
 					<Interact Name="Holoterminal" IgnoreLOS="True" WaitTime="5" XYZ="-0.005652264,1.158703,-0.7875819" />
 				</If>
 				<If Condition="((HasQuest(0xE0007712DE2FEA33)) and (not IsBranchStepComplete(0xE0007712DE2FEA33, 2, 4)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" IgnoreLOS="True" WaitTime="5" XYZ="1.144623,0.8599994,1.809662" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>

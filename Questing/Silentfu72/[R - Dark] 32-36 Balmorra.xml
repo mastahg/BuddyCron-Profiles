@@ -2412,7 +2412,7 @@
 		<If Condition="((HasQuest(0xE000602538AF1859)) and (not IsQuestComplete(0xE000602538AF1859)))">
 			<If Condition="((HasQuest(0xE000602538AF1859)) and (not IsBranchStepComplete(0xE000602538AF1859, 2, 4)))">
 				<!-- If I am on Balmorra -->
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000510FD7371)">
+				<While Condition="(Core.Player.AreaId == 0x4000000510FD7371)">
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
 									XYZ="27.37347,1.425991,-0.4036863"
 									ToX="-0.004900001" ToY="0.5900244" ToZ="-2.8389" />
@@ -2438,7 +2438,7 @@
 				<!-- We must travel to Quesh - Hutt Space, Quesh, Travel Now -->
 				<Interact QuestId="0xE000541DD5ACEA32" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 				<SpaceTravel Planet="Quesh" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000541DD5ACEA32" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />

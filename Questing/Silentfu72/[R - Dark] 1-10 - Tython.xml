@@ -1792,7 +1792,7 @@
 		<!-- Consular - An Afflicted Master  -->
 		<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsQuestComplete(0xE000BEC612EFB6D0)))">
 			<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsStepComplete(0xE000BEC612EFB6D0, 2)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000055F4C611)"> <!--Tython-->
+				<While Condition="(Core.Player.AreaId == 0x4000000055F4C611)"> <!--Tython-->
 					<MoveTo QuestId="1" Name="Shuttle" XYZ="-43.59722,-5.060167,-54.38555" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
 									XYZ="-43.54809,-5.122989,-54.29406" 
@@ -1825,7 +1825,7 @@
 				<UseTransport TransporterName="Elevator to Coruscant Departures" Type="Wonkavator" Option="Coruscant Departures"
 									XYZ="-470.0075,70.19608,-454.3293"
 									ToX="-481.5506" ToY="0.4910509" ToZ="-272.6427" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000029DB8F7920)"> <!--Republic Fleet-->
+				<While Condition="(Core.Player.AreaId == 0x40000029DB8F7920)"> <!--Republic Fleet-->
 					<MoveTo QuestId="1" XYZ="-473.5241,0.6365371,-268.1676" />
 					<UseTransport TransporterName="Interfleet Transport" Type="Wonkavator" Option="Coruscant Spaceport"
 									XYZ="-473.5241,0.6365371,-268.1676"

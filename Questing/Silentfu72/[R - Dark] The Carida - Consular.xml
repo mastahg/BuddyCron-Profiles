@@ -110,12 +110,12 @@
 				<UseObject QuestId="0xE000EDF4DDB848B6" ObjectName="Door Access Panel" BranchId="4" StepId="2" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="-3.461777,0.01999992,5.294277" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 4, 3)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000635D26495)">
+				<While Condition="(Core.Player.AreaId == 0x4000000635D26495)">
 					<MoveTo QuestId="1" XYZ="2.727372,0.03565633,-0.02751724" />
 					<Interact QuestId="0xE000EDF4DDB848B6" Name="Airlock to Ship" BranchId="4" StepId="3" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="2.727372,0.03565633,-0.02751724" />
 				</While>	
 				<WaitTimer QuestId="1" WaitTime="30" />
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)"> <!-- Our Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-0.003681187,1.676,1.428787" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.003681187,1.676,1.428787" />
 					<CompleteQuest QuestName="The Carida" QuestId="0xE000EDF4DDB848B6" RewardIndex="1" />
@@ -135,7 +135,7 @@
 				<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.003681187,1.676,1.428787" />
 			</If>
 			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 1, 4)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000F1A8B5387ABA" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />

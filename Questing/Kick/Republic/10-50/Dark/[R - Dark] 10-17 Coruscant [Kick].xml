@@ -1902,13 +1902,13 @@
 			</If>
 			<!-- We now have our ship -->
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 11)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x4000000024FBCF55)"> <!-- Coruscant -->
+				<If Condition="(Core.Player.AreaId == 0x4000000024FBCF55)"> <!-- Coruscant -->
 					<MoveTo QuestId="1" XYZ="-89.88445,145.601,-363.4966" />
 					<MoveTo QuestId="1" IgnoreMesh="True" XYZ="-88.51129,146.1041,-363.5213" />
 					<Interact Name="Defender" IgnoreLOS="True" UseRange="50" XYZ="-88.51129,146.1041,-363.5213" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)"> <!-- Our Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-0.05295352,1.676,1.393657" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.05295352,1.676,1.393657" />
 				</If>
@@ -1935,19 +1935,19 @@
 				<MoveTo QuestId="1" XYZ="-0.05295352,1.676,1.393657" />
 				<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.05295352,1.676,1.393657" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)"> <!-- Our Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="0.009938865,0.5951088,-3.069698" />
 					<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="0.009938865,0.5951088,-3.069698" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsBranchStepComplete(0xE000660EC83C3BEF, 1, 4)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)"> <!-- Our Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="0.009938865,0.5951088,-3.069698" />
 					<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="0.009938865,0.5951088,-3.069698" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(BuddyTor.Client.AreaID == 0x4000000111629D34)"> <!-- Taris - Consular Hangar -->
+				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)"> <!-- Taris - Consular Hangar -->
 					<If Condition="(Me.Position.Y &lt; -32) and (Me.Position.Y &gt; -34)">
 						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
 									XYZ="-212.8293,-33.60266,72.16498" 

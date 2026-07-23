@@ -1106,7 +1106,7 @@
 		<!-- <If Condition="Me.Level &lt; 10"> </If> -->
 		
 		<!-- Travel to Imperial Fleet - Inq, Warrior -->
-		<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE00011DCC3956478)) and (BuddyTor.Client.AreaID == 0x4000000106296B6D)">
+		<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE00011DCC3956478)) and (Core.Player.AreaId == 0x4000000106296B6D)">
 			<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Imperial Fleet"
 									XYZ="14.21082,0.7897972,12.77711" 
 									ToX="671.7901" ToY="0.101" ToZ="470.5447" />

@@ -860,7 +860,7 @@
 				<Interact Name="Holoterminal" XYZ="-0.00581874,1.051,-0.4990843" />
 			</If>
 			<If Condition="HasQuest(0xE000F1803B97A0CE) and not IsBranchStepComplete(0xE000F1803B97A0CE, 1, 4)">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 					<Interact Name="Ship Exit" XYZ="1.125018,0.8599994,1.794628" />
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
@@ -875,7 +875,7 @@
 		<!-- Warrior - Seek Answers -->
 		<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsQuestComplete(0xE000B3DB9E8F94EC)))">
 			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 2)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6499)">
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 					<MoveTo QuestId="1" XYZ="1.549997,1.000068,2.616951" /> <!-- Help get around couch -->
 					<SpaceTravel Planet="Tatooine" />
 				</If>
@@ -884,11 +884,11 @@
 				<Interact QuestId="0xE000B3DB9E8F94EC" Name="Holoterminal" WaitTime="10" XYZ="0.2869586,0.9987401,2.575448" />
 			</If>
 			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 4)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6499)">
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 					<Interact QuestId="0xE0003BE7DB5CEA47" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
-				<If Condition="(BuddyTor.Client.AreaID == 0x400000000003FFE4)">
+				<If Condition="(Core.Player.AreaId == 0x400000000003FFE4)">
 					<TalkTo QuestId="0xE000B3DB9E8F94EC" Name="Sharack Breev" XYZ="70.8011,44.501,344.9927" />
 				</If>
 			</If>
@@ -1823,7 +1823,7 @@
 					<TalkTo QuestId="0xE000AE60C7EE2F0C" WaitTime="5" Name="Sharack Breev" XYZ="72.045,44.481,347.377" />
 				</If>
 				<If Condition="((HasQuest(0xE000AE60C7EE2F0C)) and (not IsBranchStepComplete(0xE000AE60C7EE2F0C, 5, 2)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x400000000003FFE4)">
+					<If Condition="(Core.Player.AreaId == 0x400000000003FFE4)">
 						<MoveTo QuestId="1" XYZ="71.97671,44.501,343.898" />
 						<MoveTo QuestId="1" XYZ="72.46533,44.70259,343.6209" />
 						<MoveTo QuestId="1" XYZ="72.68459,44.87579,343.4967" />
@@ -1832,7 +1832,7 @@
 						<Interact QuestId="0xE000AE60C7EE2F0C" Name="Fury" WaitTime="3" XYZ="73.1944,45.17718,343.1855" />
 						<WaitTimer QuestId="1" WaitTime="90" />
 					</If>
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6499)">
+					<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 						<Interact QuestId="0xE000AE60C7EE2F0C" Name="Holoterminal" WaitTime="5" XYZ="0.3576343,1.000212,2.572119" />
 						<CompleteQuest QuestId="0xE000AE60C7EE2F0C" Name="Guru in the Dunes" RewardIndex="4" />
 					</If>
@@ -1842,7 +1842,7 @@
 			<!-- Warrior - Shake Down -->
 			<If Condition="((HasQuest(0xE0002F177BE37E5D)) and (not IsQuestComplete(0xE0002F177BE37E5D)))">
 				<If Condition="((HasQuest(0xE0002F177BE37E5D)) and (not IsBranchStepComplete(0xE0002F177BE37E5D, 1, 2)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6499)">
+					<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 						<MoveTo QuestId="1" XYZ="1.682945,0.9998809,2.809304" />
 						<SpaceTravel Planet="Alderaan" />
 					</If>
@@ -1851,11 +1851,11 @@
 					<Interact QuestId="0xE000AE60C7EE2F0C" Name="Holoterminal" WaitTime="5" XYZ="0.3576343,1.000212,2.572119" />
 				</If>
 				<If Condition="((HasQuest(0xE0002F177BE37E5D)) and (not IsBranchStepComplete(0xE0002F177BE37E5D, 1, 4)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F6499)">
+					<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 						<Interact QuestId="0xE0003BE7DB5CEA47" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 						<WaitTimer QuestId="1" WaitTime="90" />
 					</If>
-					<If Condition="(BuddyTor.Client.AreaID == 0x400000014450FB0A)">
+					<If Condition="(Core.Player.AreaId == 0x400000014450FB0A)">
 						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport" 
 									XYZ="26.78128,13.99721,-128.2874"
 									ToX="27.0992" ToY="27.98976" ToZ="-128.3029" />
@@ -1868,7 +1868,7 @@
 		<If Condition="(Me.Class == CharacterClass.Agent)">
 			<!-- Agent - The Assassin's Fortress -->
 			<If Condition="((HasQuest(0xE0009853C75EF6D9)) and (not IsQuestComplete(0xE0009853C75EF6D9)))">
-				<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsStepComplete(0xE0009853C75EF6D9, 8) and (BuddyTor.Client.AreaID == 0x400000000003FFE4)">
+				<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsStepComplete(0xE0009853C75EF6D9, 8) and (Core.Player.AreaId == 0x400000000003FFE4)">
 					<If Condition="(Me.Position.Y &gt; 46)">
 						<MoveTo QuestId="1" XYZ="54.03238,51.48971,359.9255" />
 						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
@@ -1893,7 +1893,7 @@
 					<Interact Name="Holoterminal" WaitTime="5" XYZ="-0.0002999014,1.051001,-1.25649" />
 				</If>
 				<If Condition="((HasQuest(0xE000C700544E8F98)) and (not IsBranchStepComplete(0xE000C700544E8F98, 1, 4)))">
-					<If Condition="(BuddyTor.Client.AreaID == 0x40000007C8166A37)"> <!-- My Ship -->
+					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" WaitTime="5" XYZ="1.165987,0.8786522,1.797909" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>

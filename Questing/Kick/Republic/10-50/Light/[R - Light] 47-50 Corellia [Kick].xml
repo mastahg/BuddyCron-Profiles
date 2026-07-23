@@ -878,7 +878,7 @@
 				<Interact Name="Ship Exit" XYZ="-0.001382841,0.5900244,-2.985341" />
 				<WaitTimer QuestId="1" WaitTime="30" />
 			
-				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (BuddyTor.Client.AreaID == 0x4000000365D0CBA4)">
+				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxiliary Spaceport"
 									XYZ="71.80659,-9.610241,82.11574"
 									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />
@@ -886,7 +886,7 @@
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsBranchStepComplete(0xE000253F776474E7, 1, 4)))">
-				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (BuddyTor.Client.AreaID == 0x4000000365D0CBA4)">
+				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxiliary Spaceport"
 									XYZ="71.80659,-9.610241,82.11574"
 									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />

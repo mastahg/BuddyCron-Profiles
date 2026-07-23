@@ -1705,13 +1705,13 @@
 				<AnswerHolocomCall QuestName="The Summit" QuestId="0xE0000530981149E2" />						
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 7)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x400000014450FB0A)">
+				<If Condition="(Core.Player.AreaId == 0x400000014450FB0A)">
 					<MoveTo QuestId="1" XYZ="-154.3317,-5.798999,167.2357" />
 					<Interact QuestId="0xE0000530981149E2" Name="Defender" Radius="50" UseRange="50" WaitTime="5" XYZ="-211.545,68.50267,-211.2714" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<!-- We are now on our ship -->
-				<If Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)"> <!-- Our Ship -->
+				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="0.01878826,0.6900402,-2.614157" />
 					<MoveTo QuestId="1" XYZ="0.01732085,1.676,1.430504" />
 					<Interact QuestId="0xE0000530981149E2" Name="Holoterminal" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.05295352,1.676,1.393657" />
@@ -1730,7 +1730,7 @@
 			<If Condition="((HasQuest(0xE000009A890B8FDC)) and (not IsBranchStepComplete(0xE000009A890B8FDC, 1, 2)))">
 				<Interact QuestId="0xE000009A890B8FDC" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 				<SpaceTravel Planet="Tython" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000009A890B8FDC" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
@@ -1791,7 +1791,7 @@
  			<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Jedi Consular Airlock"
 									X="-98.30823" Y="-99.60392" Z="7.706116" 
 									ToX="-94.9968" ToY="-100.0039" ToZ="8.9131" />-->
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000055F4C611)">
+				<While Condition="(Core.Player.AreaId == 0x4000000055F4C611)">
 					<MoveTo QuestId="1" XYZ="-94.9968,-99.96738,20.25186" />						
 					<Interact QuestId="1" Name="Ship Entrance" Radius="20" WaitTime="5" XYZ="-95.01634,-99.96738,20.24277" />
 				</While>
@@ -1801,7 +1801,7 @@
 				<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 				<Interact QuestId="0xE000009A890B8FDC" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 				<SpaceTravel Planet="Vivicar's Ship" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000009A890B8FDC" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
@@ -1867,7 +1867,7 @@
 				<AnswerHolocomCall QuestName="Vivicar Awaits" QuestId="0xE000B5FB2A4C6C25" />			
 			</If>
 			<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsBranchStepComplete(0xE000B5FB2A4C6C25, 3, 3)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000635D2645F)">
+				<While Condition="(Core.Player.AreaId == 0x4000000635D2645F)">
 					<MoveTo QuestId="1" XYZ="3.492248,0.03261898,3.320032" /> 
 					<Interact QuestId="1" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="3.492248,0.03261898,3.320032" />
 				</While>
@@ -1877,7 +1877,7 @@
 				<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 				<Interact QuestId="0xE000B5FB2A4C6C25" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 				<SpaceTravel Planet="Tython" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000B5FB2A4C6C25" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
@@ -1960,7 +1960,7 @@
 		<!-- Consular - An Alliance of Opposites -->
 		<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsQuestComplete(0xE000B78F8018628A)))">
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 2)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000029DB8F7920)">
+				<While Condition="(Core.Player.AreaId == 0x40000029DB8F7920)">
 					<UseTransport TransporterName="Jedi Consular Turbolift" Type="Wonkavator" Option="Jedi Consular Hangar"
 									XYZ="-466.0253,71.01118,-473.9927"
 									ToX="-466.3195" ToY="-109.9902" ToZ="-473.6828" />
@@ -1973,7 +1973,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 3)))">
 				<!-- Lets go to Tython -->
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<UseItem QuestId="0xE000B78F8018628A" ItemName="Jedi Academy Pass" Range="4" InCombat="False" BranchId="1" StepId="2" XYZ="0.001445431,1.350871,-0.827467" />
 					<!--<Interact QuestId="0xE000B78F8018628A" Name="Galaxy Map" Radius="20" WaitTime="5" X="0.1098477" Y="1.551" Z="-4.595932" />
 					<SpaceTravel Planet="Tython" />
@@ -2004,7 +2004,7 @@
  			
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 5)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x4000000055F4C611)">
+				<If Condition="(Core.Player.AreaId == 0x4000000055F4C611)">
 					<MoveTo QuestId="1" XYZ="-43.5592,-5.296281,-54.04523" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Tython Orbital Station"
 									XYZ="-43.56053,-5.047842,-54.4035"
@@ -2014,7 +2014,7 @@
 									XYZ="-98.30823,-99.60392,7.706116" 
 									ToX="-94.9968" ToY="-100.0039" ToZ="8.9131" />
 				</If>
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000055F4C611)">
+				<While Condition="(Core.Player.AreaId == 0x4000000055F4C611)">
 					<MoveTo QuestId="1" XYZ="-94.9968,-99.96738,20.25186" />						
 					<Interact QuestId="1" Name="Ship Entrance" Radius="20" WaitTime="5" XYZ="-95.01634,-99.96738,20.24277" />
 				</While>
@@ -2034,7 +2034,7 @@
 			<!-- <Hotspot Name="Republic Medical Droid" X="6.3897" Y="4.201" Z="14.1421" /> -->
 			<!-- various named mobs, but no bonus quests -->
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 7)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000B78F8018628A" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
@@ -2093,7 +2093,7 @@
 			<If Condition="((HasQuest(0xE000541DD5ACEA32)) and (not IsStepComplete(0xE000541DD5ACEA32, 2)))">
 				<Interact QuestId="0xE000541DD5ACEA32" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 				<SpaceTravel Planet="Balmorra" />
-				<While Condition="(BuddyTor.Client.AreaID == 0x40000007A66F4E7C)">
+				<While Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)">
 					<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
 					<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 					<Interact QuestId="0xE000541DD5ACEA32" Name="Ship Exit" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />

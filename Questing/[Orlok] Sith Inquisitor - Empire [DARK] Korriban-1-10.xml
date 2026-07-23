@@ -241,7 +241,7 @@
 
 
 		<!--  Travel to Imperial Fleet - Inq, Warrior  -->
-		<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE0008DB4769571D5)) and (BuddyTor.Client.AreaID == 0x4000000106296B6D)">
+		<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE0008DB4769571D5)) and (Core.Player.AreaId == 0x4000000106296B6D)">
 			<MoveTo QuestId="0xE0008DB4769571D5" XYZ="14.21082,0.7897972,12.77711"/>
 			<UserDialog Title="Orlok Raven" Message="Manually fly to the Imperial Fleet, thank you for using my profile! Please donate if possible!"/>
 			<WaitTimer QuestId="1" WaitTime="30"/>

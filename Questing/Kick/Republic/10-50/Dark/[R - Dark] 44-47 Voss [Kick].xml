@@ -2237,13 +2237,13 @@
 		<!-- Consular - Deep Cradle, Dark Heart -->
 		<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsQuestComplete(0xE00022E4A5FC8BA6)))">
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 4, 4)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x400000019E9B4C48) and (Me.Position.Y &gt;= 20)">
+				<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Y &gt;= 20)">
 					<MoveTo QuestId="1" XYZ="-26.62373,27.69503,25.08072" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss Orbital Station"
 									XYZ="-26.62373,27.69503,25.08072" 
 									ToX="-100.0244" ToY="-99.39177" ToZ="-12.91551" />
 				</If>
-				<If Condition="(BuddyTor.Client.AreaID == 0x400000019E9B4C48) and (Me.Position.Y &lt;= -98) and (Me.Position.Z &lt;= 8)">
+				<If Condition="(Core.Player.AreaId == 0x400000019E9B4C48) and (Me.Position.Y &lt;= -98) and (Me.Position.Z &lt;= 8)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Airlock"
 									XYZ="-98.29467,-99.60392,7.610901" 
 									ToX="-95.0169" ToY="-100.0079" ToZ="9.3002" />
@@ -2359,13 +2359,13 @@
 				<UseObject QuestId="0xE0004BBDF55CBDBB" ObjectName="Security Console" BranchId="1" StepId="23" Radius="20" WaitTime="5" XYZ="8.091211,7.481,3.404468" />
 			</If>
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 24)))">
-				<If Condition="(BuddyTor.Client.AreaID == 0x4000000780A847D2)">
+				<If Condition="(Core.Player.AreaId == 0x4000000780A847D2)">
 					<Interact Name="Airlock to Ship" XYZ="3.109401,7.532619,16.62531" />
 					<WaitTimer QuestId="1" WaitTime="30" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 25)))">
-				<While Condition="(BuddyTor.Client.AreaID == 0x4000000780A847D2)">
+				<While Condition="(Core.Player.AreaId == 0x4000000780A847D2)">
 					<Interact Name="Airlock to Ship" XYZ="3.109401,7.532619,16.62531" />
 					<WaitTimer QuestId="1" WaitTime="30" />
 				</While>
@@ -2386,14 +2386,14 @@
 				<Interact Name="Ship Exit" XYZ="-0.001382841,0.5900244,-2.985341" />
 				<WaitTimer QuestId="1" WaitTime="30" />
 			
-				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (BuddyTor.Client.AreaID == 0x4000000365D0CBA4)">
+				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxilliary Spaceport"
 									XYZ="71.80659,-9.610241,82.11574"
 									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsBranchStepComplete(0xE000253F776474E7, 1, 4)))">
-				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (BuddyTor.Client.AreaID == 0x4000000365D0CBA4)">
+				<If Condition="(Me.Position.Y &lt;= -9) and (Me.Position.Y &gt;= -10) and (Core.Player.AreaId == 0x4000000365D0CBA4)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shipwright Auxiliary Spaceport"
 									XYZ="71.80659,-9.610241,82.11574"
 									ToX="71.7807" ToY="4.489759" ToZ="81.8011" />
