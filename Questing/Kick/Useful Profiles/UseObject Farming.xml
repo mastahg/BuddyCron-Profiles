@@ -1,24 +1,24 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>UseObject Farming</Name>
+	<Name>UseObject Farming</Name>
   
 	<Vendors>
 	</Vendors>
 	
 	<Questing>
 
-			<UseObject QuestId="1" IgnoreLOS="True" Radius="200" WaitTime="5" >
-			 <Placeables>
+		<UseObject QuestId="1" IgnoreLOS="True" Radius="200" WaitTime="5" >
+			<Placeables>
 				<Placeable>Some Lockbox</Placeable>
-			 </Placeables>
-			 <Hotspots>
+			</Placeables>
+			<Hotspots>
 				<Hotspot XYZ />
 				<Hotspot XYZ />
 				<Hotspot XYZ />
 				<Hotspot XYZ />
 				<Hotspot XYZ />
 				<Hotspot XYZ />
-			 </Hotspots>
-			</UseObject>
+			</Hotspots>
+		</UseObject>
 
 	
 	</Questing>    

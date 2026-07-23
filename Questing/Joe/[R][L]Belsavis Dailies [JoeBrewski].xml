@@ -1,22 +1,22 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-	<ForceAlignment Type="Light" AutoSkip="True" />
-	<Name>[Pub][Light] Belsavis Level 50 PvE Daily Missions - JoeBrewski/Name>
+  <ForceAlignment Type="Light" AutoSkip="True" />
+  <Name>[Pub][Light] Belsavis Level 50 PvE Daily Missions - JoeBrewski/Name>
 
-	<ForceAlignment Type="Light" AutoSkip="true"/>
+    <ForceAlignment Type="Light" AutoSkip="true"/>
 
-	<!-- *** This Profile starts at: Minimum Security Section - Imperial Lodgement *** -->
+    <!-- *** This Profile starts at: Minimum Security Section - Imperial Lodgement *** -->
 
-	<!--<Vendors>-->
-		<!-- Minimum Security Section - Imperial Lodgement -->
-		<!--<Hotspot Name="Imperial Medical Droid" X="159.4996" Y="32.4143" Z="138.0106" />-->
-	<!--</Vendors>-->
+    <!--<Vendors>-->
+    <!-- Minimum Security Section - Imperial Lodgement -->
+    <!--<Hotspot Name="Imperial Medical Droid" X="159.4996" Y="32.4143" Z="138.0106" />-->
+    <!--</Vendors>-->
 
-	<!--<Mailboxes>-->
-		<!-- Minimum Security Section - Imperial Lodgement -->
-		<!--<Hotspot Name="Mailbox" X="162.467" Y="33.23367" Z="142.8544" />-->
-	<!--</Mailboxes>-->
+    <!--<Mailboxes>-->
+    <!-- Minimum Security Section - Imperial Lodgement -->
+    <!--<Hotspot Name="Mailbox" X="162.467" Y="33.23367" Z="142.8544" />-->
+    <!--</Mailboxes>-->
 
-	<!--
+    <!--
 	<Taxis>
 	</Taxis>
 	
@@ -27,8 +27,8 @@
 	</AvoidMobs>
 	-->
 
-	<!--<GrindAreas>-->
-		<!--<GrindArea Name="Invisible Threat">
+    <!--<GrindAreas>-->
+    <!--<GrindArea Name="Invisible Threat">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
 			<Mobs>
@@ -48,80 +48,80 @@
 				<Hotspot Name="Republic Stealth Commander" X="-71.303" Y="25.636" Z="241.9016" />
 			</Hotspots>
 		</GrindArea>-->
-	<!--</GrindAreas>-->
+    <!--</GrindAreas>-->
 
 
-  <Questing>
+    <Questing>
 
-    <!-- ***************************************** Republic High Security Section:  The Gran Exile Dailies ***************************************** -->
+      <!-- ***************************************** Republic High Security Section:  The Gran Exile Dailies ***************************************** -->
 
-    <!-- <UseTransport TransporterName="Imperial Lodgement Speeder"  X="156.7063" Y="31.70771" Z="140.5391" Option="Imperial Domination Outpost Speeder" ToX="-89.6066" ToY="30.80301" ToZ="214.7109" />  -->
+      <!-- <UseTransport TransporterName="Imperial Lodgement Speeder"  X="156.7063" Y="31.70771" Z="140.5391" Option="Imperial Domination Outpost Speeder" ToX="-89.6066" ToY="30.80301" ToZ="214.7109" />  -->
 
-    <If Condition="(not HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3))">
-      <PickupQuest QuestName="Strengthening the Chain" QuestId="0xE000830A40E929B3" GiverName="Major Harris" X="-168.9536" Y="30.09492" Z="115.9593"/>
-    </If>
+      <If Condition="(not HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3))">
+        <PickupQuest QuestName="Strengthening the Chain" QuestId="0xE000830A40E929B3" GiverName="Major Harris" XYZ="-168.9536,30.09492,115.9593"/>
+      </If>
 
-    <If Condition="(not HasQuest(0xE000FC279BBFF7C8)) and (not IsQuestComplete(0xE000FC279BBFF7C8))">
-      <PickupQuest QuestName="Restraining the Darkness" QuestId="0xE000FC279BBFF7C8" GiverName="Master Korman Reyes" X="-169.5396" Y="30.09319" Z="115.3393" />
-    </If>
+      <If Condition="(not HasQuest(0xE000FC279BBFF7C8)) and (not IsQuestComplete(0xE000FC279BBFF7C8))">
+        <PickupQuest QuestName="Restraining the Darkness" QuestId="0xE000FC279BBFF7C8" GiverName="Master Korman Reyes" XYZ="-169.5396,30.09319,115.3393" />
+      </If>
 
-    <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,2))" >
-      <MoveTo QuestId="0xE000FC279BBFF7C8" X="-160.301" Y="31.16031" Z="132.0279" />
-      <MoveTo QuestId="0xE000FC279BBFF7C8" X="-154.1656" Y="31.36468" Z="136.2118" />
-    </While>
-    <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,3))" >
-      <MoveTo QuestId="0xE000FC279BBFF7C8" X="-154.767" Y="31.79134" Z="145.8604" />
-      <Interact QuestId="0xE000FC279BBFF7C8" Name="Imperial Shuttle" UseRange="10" WaitTime="3" IgnoreLos="True" X="-154.767" Y="31.79134" Z="145.8604" />
-    </While>
+      <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,2))" >
+        <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-160.301,31.16031,132.0279" />
+        <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-154.1656,31.36468,136.2118" />
+      </While>
+      <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,3))" >
+        <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-154.767,31.79134,145.8604" />
+        <Interact QuestId="0xE000FC279BBFF7C8" Name="Imperial Shuttle" UseRange="10" WaitTime="3" IgnoreLos="True" XYZ="-154.767,31.79134,145.8604" />
+      </While>
 
-    <!--<While Condition="HasQuest(0xE000830A40E929B3) and (not IsStepComplete(0xE000830A40E929B3,2))" >-->
-    <While Condition="HasQuest(0xE000BFC5DA500F88) and (not IsStepComplete(0xE000BFC5DA500F88,2))" >
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-138.1343" Y="31.44359" Z="131.577" />
-      <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" X="-138.1343" Y="31.44359" Z="131.577" />
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-140.5337" Y="31.54993" Z="128.9455" />
-      <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-139.1638" Y="31.62691" Z="126.277" />
-      <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-133.1584" Y="31.48729" Z="128.8217" />
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-132.2327" Y="31.5056" Z="123.2978" />
-      <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" X="-130.6771" Y="31.50039" Z="123.3093" />
-    </While>
+      <!--<While Condition="HasQuest(0xE000830A40E929B3) and (not IsStepComplete(0xE000830A40E929B3,2))" >-->
+      <While Condition="HasQuest(0xE000BFC5DA500F88) and (not IsStepComplete(0xE000BFC5DA500F88,2))" >
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-138.1343,31.44359,131.577" />
+        <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" XYZ="-138.1343,31.44359,131.577" />
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-140.5337,31.54993,128.9455" />
+        <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-139.1638,31.62691,126.277" />
+        <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-133.1584,31.48729,128.8217" />
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-132.2327,31.5056,123.2978" />
+        <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-130.6771,31.50039,123.3093" />
+      </While>
 
-    <If Condition="HasQuest(0xE000830A40E929B3) and (not IsQuestComplete(0xE000830A40E929B3))">
-      <TurnInQuest QuestId="0xE000830A40E929B3" QuestName="Strengthening the Chain" TurnInName="Major Harris" WaitTime="5" X="-168.9536" Y="30.09492" Z="115.9593" />
-      <CompleteQuest QuestId="0xE000830A40E929B3" RewardIndex="0" />
-    </If>
-    <If Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsQuestComplete(0xE000FC279BBFF7C8))">
-      <TurnInQuest QuestId="0xE000FC279BBFF7C8" QuestName="Restraining the Darkness" TurnInName="Master Korman Reyes" X="-169.5396" Y="30.09319" Z="115.3393" />
-      <CompleteQuest QuestId="0xE000FC279BBFF7C8" RewardIndex="0" />
-    </If>
+      <If Condition="HasQuest(0xE000830A40E929B3) and (not IsQuestComplete(0xE000830A40E929B3))">
+        <TurnInQuest QuestId="0xE000830A40E929B3" QuestName="Strengthening the Chain" TurnInName="Major Harris" WaitTime="5" XYZ="-168.9536,30.09492,115.9593" />
+        <CompleteQuest QuestId="0xE000830A40E929B3" RewardIndex="0" />
+      </If>
+      <If Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsQuestComplete(0xE000FC279BBFF7C8))">
+        <TurnInQuest QuestId="0xE000FC279BBFF7C8" QuestName="Restraining the Darkness" TurnInName="Master Korman Reyes" XYZ="-169.5396,30.09319,115.3393" />
+        <CompleteQuest QuestId="0xE000FC279BBFF7C8" RewardIndex="0" />
+      </If>
 
-    <If Condition="(not HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))">
-      <PickupQuest QuestName="Emergent Medicine" QuestId="0xE0003EBBFCAFDDB7" UseRange="4" GiverName="Sergeant Kayen" X="-163.4987" Y="30.07947" Z="126.2642" />
-    </If>
-    <While Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsStepComplete(0xE0003EBBFCAFDDB7,2))">
-      <MoveTo QuestId="0xE0003EBBFCAFDDB7" X="-120.4483" Y="30.45424" Z="141.0784" />
-      <MoveTo QuestId="0xE0003EBBFCAFDDB7" X="-117.786" Y="30.1903" Z="135.368" />
-      <MoveTo QuestId="0xE0003EBBFCAFDDB7" X="-109.7577" Y="30.43397" Z="138.0925" />
-      <MoveTo QuestId="0xE0003EBBFCAFDDB7" X="-101.9457" Y="30.39376" Z="143.7504" />
-    </While>
-    <If Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))" >
-      <TurnInQuest QuestId="0xE0003EBBFCAFDDB7" QuestName="Emergent Medicine" TurnInName="Private Lorul" X="-131.5907" Y="32.5444" Z="164.2804" />
-      <CompleteQuest QuestId="0xE0003EBBFCAFDDB7" RewardIndex="0" />
-    </If>
+      <If Condition="(not HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))">
+        <PickupQuest QuestName="Emergent Medicine" QuestId="0xE0003EBBFCAFDDB7" UseRange="4" GiverName="Sergeant Kayen" XYZ="-163.4987,30.07947,126.2642" />
+      </If>
+      <While Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsStepComplete(0xE0003EBBFCAFDDB7,2))">
+        <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-120.4483,30.45424,141.0784" />
+        <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-117.786,30.1903,135.368" />
+        <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-109.7577,30.43397,138.0925" />
+        <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-101.9457,30.39376,143.7504" />
+      </While>
+      <If Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))" >
+        <TurnInQuest QuestId="0xE0003EBBFCAFDDB7" QuestName="Emergent Medicine" TurnInName="Private Lorul" XYZ="-131.5907,32.5444,164.2804" />
+        <CompleteQuest QuestId="0xE0003EBBFCAFDDB7" RewardIndex="0" />
+      </If>
 
-    <If Condition="(not HasQuest(0xE000C7B4447005D5)) and (not IsQuestComplete(0xE000C7B4447005D5))">
-      <PickupQuest QuestName="A Lesson is Learned" QuestId="0xE000C7B4447005D5" GiverName="Doctor Everis" X="-130.6159" Y="32.53959" Z="163.3082" />
-    </If>
-    <If Condition="(not HasQuest(0xE000AFA93F593BAE)) and (not IsQuestComplete(0xE000AFA93F593BAE))">
-      <PickupQuest QuestName="The Perfect Carrier: Curing Gen'Dai" QuestId="0xE000AFA93F593BAE" GiverName="Doctor Fash" X="-133.8321" Y="32.54752" Z="165.2574" />
-    </If>
+      <If Condition="(not HasQuest(0xE000C7B4447005D5)) and (not IsQuestComplete(0xE000C7B4447005D5))">
+        <PickupQuest QuestName="A Lesson is Learned" QuestId="0xE000C7B4447005D5" GiverName="Doctor Everis" XYZ="-130.6159,32.53959,163.3082" />
+      </If>
+      <If Condition="(not HasQuest(0xE000AFA93F593BAE)) and (not IsQuestComplete(0xE000AFA93F593BAE))">
+        <PickupQuest QuestName="The Perfect Carrier: Curing Gen'Dai" QuestId="0xE000AFA93F593BAE" GiverName="Doctor Fash" XYZ="-133.8321,32.54752,165.2574" />
+      </If>
 
-    <!-- 55+ GEARED ONLY HERE -->
-    <While Condition="HasQuest( 0xE000C7B4447005D5) and (not IsStepComplete( 0xE000C7B4447005D5,2))">
-      <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" X="-142.1319" Y="30.72998" Z="154.3368" />
-      <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" IgnoreMesh="True" X="-142.6694" Y="28.301" Z="169.9356" />
-      <!--<UseObject QuestId=" 0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" Radius="100" IgnoreLOS="True" BlacklistDuration="120" >
+      <!-- 55+ GEARED ONLY HERE -->
+      <While Condition="HasQuest( 0xE000C7B4447005D5) and (not IsStepComplete( 0xE000C7B4447005D5,2))">
+        <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" XYZ="-142.1319,30.72998,154.3368" />
+        <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" IgnoreMesh="True" XYZ="-142.6694,28.301,169.9356" />
+        <!--<UseObject QuestId=" 0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" Radius="100" IgnoreLOS="True" BlacklistDuration="120" >
         <Hotspots>
           <Hotspot Name="My Location" X="-142.6694" Y="28.301" Z="169.9356" />        
           <Hotspot Name="My Location" X="-135.9995" Y="27.501" Z="172.9939" />
@@ -130,98 +130,98 @@
           <Hotspot Name="My Location" X="-132.6213" Y="27.501" Z="178.5684" />
         </Hotspots>    
         </UseObject>-->
-      <MoveTo QuestId="0xE000C7B4447005D5" X="-142.6694" Y="28.301" Z="169.9356" />
-      <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" X="-142.6694" Y="28.301" Z="169.9356" />
-      <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" X="-142.6694" Y="28.301" Z="169.9356" />
-      <MoveTo QuestId="0xE000C7B4447005D5" X="-135.9995" Y="27.501" Z="172.9939" />
-      <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" X="-135.9995" Y="27.501" Z="172.9939" />
-      <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <MoveTo QuestId="0xE000C7B4447005D5" X="-134.8628" Y="27.511" Z="179.9068" />
-      <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <MoveTo QuestId="0xE000C7B4447005D5" X="-131.871" Y="27.501" Z="175.9714" />
-      <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <MoveTo QuestId="0xE000C7B4447005D5" X="-132.6213" Y="27.501" Z="178.5684" />
-      <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
-    </While>
-    <While Condition="HasQuest(0xE000AFA93F593BAE) and (not IsStepComplete(0xE000AFA93F593BAE,2))">
-      <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
-      <MoveTo QuestId="0xE000AFA93F593BAE" X="-120.4153" Y="30.62333" Z="152.6161" />
-      <MoveTo QuestId="0xE000AFA93F593BAE" X="-117.4462" Y="29.8483" Z="153.7693" />
-      <MoveTo QuestId="0xE000AFA93F593BAE" X="-119.3128" Y="29.84898" Z="154.5434" />
-      <MoveTo QuestId="0xE000AFA93F593BAE" X="-114.2481" Y="29.8483" Z="151.0095" />
-    </While>
+        <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-142.6694,28.301,169.9356" />
+        <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" XYZ="-142.6694,28.301,169.9356" />
+        <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" XYZ="-142.6694,28.301,169.9356" />
+        <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-135.9995,27.501,172.9939" />
+        <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" XYZ="-135.9995,27.501,172.9939" />
+        <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-134.8628,27.511,179.9068" />
+        <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-131.871,27.501,175.9714" />
+        <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-132.6213,27.501,178.5684" />
+        <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
+        <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
+      </While>
+      <While Condition="HasQuest(0xE000AFA93F593BAE) and (not IsStepComplete(0xE000AFA93F593BAE,2))">
+        <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
+        <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-120.4153,30.62333,152.6161" />
+        <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-117.4462,29.8483,153.7693" />
+        <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-119.3128,29.84898,154.5434" />
+        <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-114.2481,29.8483,151.0095" />
+      </While>
 
-    <If Condition="HasQuest(0xE000C7B4447005D5) and (not IsQuestComplete(0xE000C7B4447005D5))" >
-      <TurnInQuest QuestId="0xE000C7B4447005D5" QuestName="A Lesson is Learned" UseRange="4" TurnInName="Doctor Everis" X="-130.6159" Y="32.53959" Z="163.3082" />
-      <CompleteQuest QuestId="0xE000C7B4447005D5" RewardIndex="0" />
-    </If>
-    <If Condition="HasQuest(0xE000AFA93F593BAE) and (not IsQuestComplete(0xE000AFA93F593BAE))">
-      <TurnInQuest QuestName="The Perfect Carrier: Curing Gen'Dai" QuestId="0xE000AFA93F593BAE" UseRange="4" TurnInName="Doctor Fash" X="-133.8321" Y="32.54752" Z="165.2574" />
-      <CompleteQuest QuestId="0xE000AFA93F593BAE" RewardIndex="0" />
-    </If>
+      <If Condition="HasQuest(0xE000C7B4447005D5) and (not IsQuestComplete(0xE000C7B4447005D5))" >
+        <TurnInQuest QuestId="0xE000C7B4447005D5" QuestName="A Lesson is Learned" UseRange="4" TurnInName="Doctor Everis" XYZ="-130.6159,32.53959,163.3082" />
+        <CompleteQuest QuestId="0xE000C7B4447005D5" RewardIndex="0" />
+      </If>
+      <If Condition="HasQuest(0xE000AFA93F593BAE) and (not IsQuestComplete(0xE000AFA93F593BAE))">
+        <TurnInQuest QuestName="The Perfect Carrier: Curing Gen'Dai" QuestId="0xE000AFA93F593BAE" UseRange="4" TurnInName="Doctor Fash" XYZ="-133.8321,32.54752,165.2574" />
+        <CompleteQuest QuestId="0xE000AFA93F593BAE" RewardIndex="0" />
+      </If>
 
-    <If Condition="(not HasQuest(0xE000D8D1668C1A69)) and (not IsQuestComplete(0xE000D8D1668C1A69))">
-      <PickupQuest QuestName="Open Communications" QuestId="0xE000D8D1668C1A69" GiverName="Agent Hextal" X="-133.9591" Y="32.55043" Z="164.5069" />
-    </If>
-    <While Condition="HasQuest(0xE000D8D1668C1A69) and (not IsStepComplete(0xE000D8D1668C1A69,2))">
-      <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
-      <MoveTo QuestId="0xE000D8D1668C1A69" X="1.821777" Y="9.019557" Z="-328.9624" />
-      <MoveTo QuestId="0xE000D8D1668C1A69" X="29.23101" Y="5.901" Z="-319.0967" />
-      <Interact QuestId="1" Name="Disabled Warden Droid" UseRange="4" WaitTime="4" IgnoreLOS="True" />
-    </While>
+      <If Condition="(not HasQuest(0xE000D8D1668C1A69)) and (not IsQuestComplete(0xE000D8D1668C1A69))">
+        <PickupQuest QuestName="Open Communications" QuestId="0xE000D8D1668C1A69" GiverName="Agent Hextal" XYZ="-133.9591,32.55043,164.5069" />
+      </If>
+      <While Condition="HasQuest(0xE000D8D1668C1A69) and (not IsStepComplete(0xE000D8D1668C1A69,2))">
+        <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
+        <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="1.821777,9.019557,-328.9624" />
+        <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="29.23101,5.901,-319.0967" />
+        <Interact QuestId="1" Name="Disabled Warden Droid" UseRange="4" WaitTime="4" IgnoreLOS="True" />
+      </While>
 
-    <If Condition="(not HasQuest(0xE0007A085412F617)) and (not IsQuestComplete(0xE0007A085412F617))">
-      <MoveTo QuestId="1" X="-26.57909" Y="11.1007" Z="-320.9546" />
-      <Interact QuestId="1" Name="Monitoring Station" Range="2" WaitTime="3" />
-      <MoveTo QuestId="1" X="-25.92637" Y="11.1007" Z="-320.8894" />
-      <Interact QuestId="1" Name="Monitoring Station Console" Range="2" WaitTime="3" />
-    </If>
+      <If Condition="(not HasQuest(0xE0007A085412F617)) and (not IsQuestComplete(0xE0007A085412F617))">
+        <MoveTo QuestId="1" XYZ="-26.57909,11.1007,-320.9546" />
+        <Interact QuestId="1" Name="Monitoring Station" Range="2" WaitTime="3" />
+        <MoveTo QuestId="1" XYZ="-25.92637,11.1007,-320.8894" />
+        <Interact QuestId="1" Name="Monitoring Station Console" Range="2" WaitTime="3" />
+      </If>
 
-    <If Condition="HasQuest(0xE000D8D1668C1A69) and (not IsQuestComplete(0xE000D8D1668C1A69))">
-      <MoveTo QuestId="0xE000D8D1668C1A69" X="-26.36607" Y="11.1007" Z="-321.4893" />
-      <Interact QuestId="0xE000D8D1668C1A69" Name="Broadcast Station" Range="6" WaitTime="3" />
-      <CompleteQuest QuestId="0xE000D8D1668C1A69" RewardIndex="0" />
-    </If>
+      <If Condition="HasQuest(0xE000D8D1668C1A69) and (not IsQuestComplete(0xE000D8D1668C1A69))">
+        <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="-26.36607,11.1007,-321.4893" />
+        <Interact QuestId="0xE000D8D1668C1A69" Name="Broadcast Station" Range="6" WaitTime="3" />
+        <CompleteQuest QuestId="0xE000D8D1668C1A69" RewardIndex="0" />
+      </If>
 
-    <!--Sleeping Rakata-->
-    <While Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsStepComplete(0xE000E36A1BEFEF20,4))">
-      <MoveTo QuestId="1"  X="-14.0966" Y="8.569486" Z="-363.0425" />
-      <MoveTo QuestId="1" X="-6.931331" Y="8.775431" Z="-367.5646" />
-      <MoveTo QuestId="1" X="-6.858109" Y="8.777105" Z="-370.4995" />
-      <MoveTo QuestId="1" X="-4.873365" Y="8.705536" Z="-369.1323" />
-      <MoveTo QuestId="1" X="3.035643" Y="8.470235" Z="-382.0898" />
-      <Interact QuestId="1" Name="Rakata Mind Trap" Range="4" WaitTime="5" />
-      <MoveTo QuestId="1" X="-16.91012" Y="34.78043" Z="-383.4747" />
-      <TalkTo QuestId="1" Name="Eishuu" Range="4" WaitTime="5" />
-      <MoveTo QuestId="1" X="-17.82755" Y="34.78043" Z="-382.9109" />
-      <Interact QuestId="1" Name="Rakata Mind Trap" Range="4" WaitTime="5" />
-    </While>
+      <!--Sleeping Rakata-->
+      <While Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsStepComplete(0xE000E36A1BEFEF20,4))">
+        <MoveTo QuestId="1"  XYZ="-14.0966,8.569486,-363.0425" />
+        <MoveTo QuestId="1" XYZ="-6.931331,8.775431,-367.5646" />
+        <MoveTo QuestId="1" XYZ="-6.858109,8.777105,-370.4995" />
+        <MoveTo QuestId="1" XYZ="-4.873365,8.705536,-369.1323" />
+        <MoveTo QuestId="1" XYZ="3.035643,8.470235,-382.0898" />
+        <Interact QuestId="1" Name="Rakata Mind Trap" Range="4" WaitTime="5" />
+        <MoveTo QuestId="1" XYZ="-16.91012,34.78043,-383.4747" />
+        <TalkTo QuestId="1" Name="Eishuu" Range="4" WaitTime="5" />
+        <MoveTo QuestId="1" XYZ="-17.82755,34.78043,-382.9109" />
+        <Interact QuestId="1" Name="Rakata Mind Trap" Range="4" WaitTime="5" />
+      </While>
 
-    <!--Unheard Frequencies-->
-    <If Condition="HasQuest( 0xE0007A085412F617) and (not IsStepComplete(0xE0007A085412F617,2))">
-      <MoveTo QuestId="1" X="-43.1881" Y="9.302256" Z="-369.6344" />
-      <MoveTo QuestId="1" X="-46.82253" Y="9.178092" Z="-372.4951" />
-      <MoveTo QuestId="1" X="-36.09821" Y="6.483633" Z="-379.3653" />
-    </If>
+      <!--Unheard Frequencies-->
+      <If Condition="HasQuest( 0xE0007A085412F617) and (not IsStepComplete(0xE0007A085412F617,2))">
+        <MoveTo QuestId="1" XYZ="-43.1881,9.302256,-369.6344" />
+        <MoveTo QuestId="1" XYZ="-46.82253,9.178092,-372.4951" />
+        <MoveTo QuestId="1" XYZ="-36.09821,6.483633,-379.3653" />
+      </If>
     
-    <!--Turn-Ins-->
-    <If Condition="HasQuest( 0xE0007A085412F617) and (not IsQuestComplete(0xE0007A085412F617))">
-      <MoveTo QuestId="0xE0007A085412F617" X="-26.49216" Y="11.1007" Z="-320.9391" />
-      <Interact QuestId="0xE0007A085412F617" Name="Monitoring Station" Range="2" WaitTime="3" />
-      <CompleteQuest QuestId="0xE0007A085412F617" RewardIndex="0"/>
-    </If>
-    <If Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsQuestComplete(0xE000E36A1BEFEF20))">
-      <MoveTo QuestId="0xE000E36A1BEFEF20" X="-25.84078" Y="11.1007" Z="-320.9447" />
-      <Interact QuestId="0xE000E36A1BEFEF20" Name="Monitoring Station Console" Range="2" WaitTime="3" />
-      <CompleteQuest QuestId="0xE000E36A1BEFEF20" RewardIndex="0"/>
-    </If>
+      <!--Turn-Ins-->
+      <If Condition="HasQuest( 0xE0007A085412F617) and (not IsQuestComplete(0xE0007A085412F617))">
+        <MoveTo QuestId="0xE0007A085412F617" XYZ="-26.49216,11.1007,-320.9391" />
+        <Interact QuestId="0xE0007A085412F617" Name="Monitoring Station" Range="2" WaitTime="3" />
+        <CompleteQuest QuestId="0xE0007A085412F617" RewardIndex="0"/>
+      </If>
+      <If Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsQuestComplete(0xE000E36A1BEFEF20))">
+        <MoveTo QuestId="0xE000E36A1BEFEF20" XYZ="-25.84078,11.1007,-320.9447" />
+        <Interact QuestId="0xE000E36A1BEFEF20" Name="Monitoring Station Console" Range="2" WaitTime="3" />
+        <CompleteQuest QuestId="0xE000E36A1BEFEF20" RewardIndex="0"/>
+      </If>
     
       <UserDialog Title="End" Message="End" />
 
-  </Questing>	
+    </Questing>	
 
 
-</Profile>
+  </Profile>

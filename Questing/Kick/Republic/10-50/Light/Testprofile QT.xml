@@ -1,11 +1,11 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>Testprofile</Name>
+	<Name>Testprofile</Name>
 
 
 	<Questing>
 		
-		<MoveTo QuestId="1" Name="Dealer's Den Cantina QT" X="229.2589" Y="43.21119" Z="66.11561" />
-		<Interact Name="Dealer's Den Cantina" Radius="20" UseRange="5" IgnoreLOS="true" X="229.2589" Y="43.21119" Z="66.11561" />	<!-- Bindpoint: Dealer's Den Cantina -->									
+		<MoveTo QuestId="1" Name="Dealer's Den Cantina QT" XYZ="229.2589,43.21119,66.11561" />
+		<Interact Name="Dealer's Den Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="229.2589,43.21119,66.11561" />	<!-- Bindpoint: Dealer's Den Cantina -->									
 
 	</Questing>    
 

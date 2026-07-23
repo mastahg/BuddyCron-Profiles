@@ -1,36 +1,36 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[R - Dark] 29-30 Nar Shaddaa Bonus Quests [Kick]</Name>
+	<Name>[R - Dark] 29-30 Nar Shaddaa Bonus Quests [Kick]</Name>
   
 	<ForceAlignment Type="Dark" AutoSkip="true" />
 	
 	<Vendors>
-		<Hotspot Name="Wyjus-Miin" X="-214" Y="64.50999" Z="-180.3613" /> <!-- Nar Shaddaa Spaceports -->
-		<Hotspot Name="Republic Medical Droid" X="-196.9323" Y="64.50095" Z="-179.4464" /> <!-- Deucalon Spaceport -->
-		<Hotspot Name="Reicovis" X="-102.3956" Y="51.801" Z="-69.9146" /> <!-- Lower Promenade Market -->
-		<Hotspot Name="Republic Medical Droid" X="-103.494" Y="53.801" Z="-55.6676" /> <!-- Upper Promenade -->
-		<Hotspot Name="Republic Medical Droid" X="-383.96" Y="24.001" Z="-310.2817" /> <!-- Nikto Sector -->
-		<Hotspot Name="Slaar" X="-356.2877" Y="22.50448" Z="-342.5659" /> <!-- Nikto Sector - North -->
-		<Hotspot Name="Ralos-Vok" X="335.6675" Y="-313.699" Z="-318.4112" /> <!-- Red Light Sector -->
-		<Hotspot Name="Republic Medical Droid" X="-198.4139" Y="-170.599" Z="287.4258" /> <!-- Lower Industrial Sector -->
-		<Hotspot Name="Nerich" X="-218.9897" Y="-171.3688" Z="289.1992" /> <!-- Lower Industrial Sector -->
-		<Hotspot Name="Waric" X="254.2421" Y="-153.799" Z="283.2153" /> <!-- Shadow Town -->
+		<Hotspot Name="Wyjus-Miin" XYZ="-214,64.50999,-180.3613" /> <!-- Nar Shaddaa Spaceports -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-196.9323,64.50095,-179.4464" /> <!-- Deucalon Spaceport -->
+		<Hotspot Name="Reicovis" XYZ="-102.3956,51.801,-69.9146" /> <!-- Lower Promenade Market -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-103.494,53.801,-55.6676" /> <!-- Upper Promenade -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-383.96,24.001,-310.2817" /> <!-- Nikto Sector -->
+		<Hotspot Name="Slaar" XYZ="-356.2877,22.50448,-342.5659" /> <!-- Nikto Sector - North -->
+		<Hotspot Name="Ralos-Vok" XYZ="335.6675,-313.699,-318.4112" /> <!-- Red Light Sector -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-198.4139,-170.599,287.4258" /> <!-- Lower Industrial Sector -->
+		<Hotspot Name="Nerich" XYZ="-218.9897,-171.3688,289.1992" /> <!-- Lower Industrial Sector -->
+		<Hotspot Name="Waric" XYZ="254.2421,-153.799,283.2153" /> <!-- Shadow Town -->
 	</Vendors>
 	
 	<Mailboxes>
-		<Hotspot Name="Nar Shaddaa Spaceports" X="-205.5961" Y="65.001" Z="-180.9817" />
-		<Hotspot Name="Lower Promenade Market" X="-100.0964" Y="51.801" Z="-69.85793" />
-		<Hotspot Name="Upper Promenade" X="-102.5798" Y="53.801" Z="-51.85589" />
-		<Hotspot Name="Nikto Sector" X="-385.3981" Y="24.001" Z="-312.0654" />
-		<Hotspot Name="Red Light Sector" X="333.6572" Y="-312.499" Z="-306.9147" />
-		<Hotspot Name="Lower Industrial Sector" X="-196.9535" Y="-170.599" Z="284.8684" />
-		<Hotspot Name="Shadow Town" X="259.8077" Y="-152.799" Z="267.9245" />
+		<Hotspot Name="Nar Shaddaa Spaceports" XYZ="-205.5961,65.001,-180.9817" />
+		<Hotspot Name="Lower Promenade Market" XYZ="-100.0964,51.801,-69.85793" />
+		<Hotspot Name="Upper Promenade" XYZ="-102.5798,53.801,-51.85589" />
+		<Hotspot Name="Nikto Sector" XYZ="-385.3981,24.001,-312.0654" />
+		<Hotspot Name="Red Light Sector" XYZ="333.6572,-312.499,-306.9147" />
+		<Hotspot Name="Lower Industrial Sector" XYZ="-196.9535,-170.599,284.8684" />
+		<Hotspot Name="Shadow Town" XYZ="259.8077,-152.799,267.9245" />
 	</Mailboxes>
 	
 	<Trainers>
-		<Hotspot Name="Master Arias" Class="Consular" X="-92.5955" Y="51.801" Z="-62.6803" />
-		<Hotspot Name="Master Halacia" Class="Knight" X="-93.554" Y="51.801" Z="-62.3903" />
-		<Hotspot Name="Letta" Class="Smuggler" X="-92.0969" Y="51.801" Z="-63.466" />
-		<Hotspot Name="Lieutenant Cafian" Class="Trooper" X="-92.3472" Y="51.801" Z="-64.6539" />
+		<Hotspot Name="Master Arias" Class="Consular" XYZ="-92.5955,51.801,-62.6803" />
+		<Hotspot Name="Master Halacia" Class="Knight" XYZ="-93.554,51.801,-62.3903" />
+		<Hotspot Name="Letta" Class="Smuggler" XYZ="-92.0969,51.801,-63.466" />
+		<Hotspot Name="Lieutenant Cafian" Class="Trooper" XYZ="-92.3472,51.801,-64.6539" />
 	</Trainers>
 	
 	<!--
@@ -107,29 +107,29 @@
 		
 		<!-- Enter Nar Shaddaa Bonus Quests here -->
 		<If Condition="((not HasQuest(0xE0006ABC532A84C7)) and (not IsQuestComplete(0xE0006ABC532A84C7)))">
-		 <If Condition="(BuddyTor.Client.AreaName == &quot;spc_ps_jedi_consular&quot;)">
-		<!-- Qyzen has a quest for us -->
-	<PickUpQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" GiverName="Qyzen Fess" X="-0.005899999" Y="0.8005782" Z="3.957" />
-			<CompleteQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" />
+			<If Condition="(BuddyTor.Client.AreaName == &quot;spc_ps_jedi_consular&quot;)">
+				<!-- Qyzen has a quest for us -->
+				<PickUpQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" GiverName="Qyzen Fess" XYZ="-0.005899999,0.8005782,3.957" />
+				<CompleteQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" />
 			
- 			<UseObject QuestId="1" Name="Galaxy Map" X="0.09486517" Y="1.551" Z="-4.583985" />
-			<!-- Travel to Hutt Space - Nar Shaddaa -->
- 			<UseObject QuestId="1" Name="Ship Exit" X="0.009287226" Y="0.5900244" Z="-2.999504" />
-		 </If>
- 		 <If Condition="Me.Position.Z &lt; -200">
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-									X="-225.0826" Y="68.001" Z="-204.0825" 
+				<UseObject QuestId="1" Name="Galaxy Map" XYZ="0.09486517,1.551,-4.583985" />
+				<!-- Travel to Hutt Space - Nar Shaddaa -->
+				<UseObject QuestId="1" Name="Ship Exit" XYZ="0.009287226,0.5900244,-2.999504" />
+			</If>
+			<If Condition="Me.Position.Z &lt; -200">
+				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
+									XYZ="-225.0826,68.001,-204.0825" 
 									ToX="-213.7667" ToY="64.501" ToZ="-187.4188" />
-		 </If>
+			</If>
 		
-	<PickUpQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE0006ABC532A84C7" GiverName="Deera Ulyette" X="-217.6859" Y="64.501" Z="-180.997" />
+			<PickUpQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE0006ABC532A84C7" GiverName="Deera Ulyette" XYZ="-217.6859,64.501,-180.997" />
  
- 			<UseTransport TransporterName="Deucalon Spaceport Taxi" Type="Taxi" Option="Lower Industry Sector Taxi" 
-									X="-193.91" Y="64.50095" Z="-183.16" 
+			<UseTransport TransporterName="Deucalon Spaceport Taxi" Type="Taxi" Option="Lower Industry Sector Taxi" 
+									XYZ="-193.91,64.50095,-183.16" 
 									ToX="-197.8112" ToY="-170.599" ToZ="284.6895" />
 		</If>
 		
-	<PickUpQuest QuestName="Inspection" QuestId="0xE0008087A8D5DDED" GiverName="Mas Avaho" X="-186.77" Y="-170.0689" Z="292.2" />
+		<PickUpQuest QuestName="Inspection" QuestId="0xE0008087A8D5DDED" GiverName="Mas Avaho" XYZ="-186.77,-170.0689,292.2" />
 
 
 

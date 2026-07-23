@@ -1,25 +1,25 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[R - Dark] 36-37 Quesh [Kick]</Name>
+	<Name>[R - Dark] 36-37 Quesh [Kick]</Name>
   
 	<ForceAlignment Type="Dark" AutoSkip="true" />
 	
 	<Vendors>
-		<Hotspot Name="Keshani" X="73.9392" Y="8.6448" Z="0.6577" /> <!-- Cantina -->
-		<Hotspot Name="Maneros" X="80.421" Y="7.349222" Z="6.5932" /> <!-- Headquarters -->
-		<Hotspot Name="Republic Medical Droid" X="52.3715" Y="12.14486" Z="124.9101" /> <!-- War Camp -->
-		<Hotspot Name="Republic Medical Droid" X="78.6168" Y="11.8938" Z="154.9981" /> <!-- Malignant Meadow -->
+		<Hotspot Name="Keshani" XYZ="73.9392,8.6448,0.6577" /> <!-- Cantina -->
+		<Hotspot Name="Maneros" XYZ="80.421,7.349222,6.5932" /> <!-- Headquarters -->
+		<Hotspot Name="Republic Medical Droid" XYZ="52.3715,12.14486,124.9101" /> <!-- War Camp -->
+		<Hotspot Name="Republic Medical Droid" XYZ="78.6168,11.8938,154.9981" /> <!-- Malignant Meadow -->
 	</Vendors>
 	
 	<Mailboxes>
-		<Hotspot Name="Republic Base" X="91.08227" Y="7.9076" Z="0.62528" />
-		<Hotspot Name="War Camp" X="50.4923" Y="12.15389" Z="119.4338" />
+		<Hotspot Name="Republic Base" XYZ="91.08227,7.9076,0.62528" />
+		<Hotspot Name="War Camp" XYZ="50.4923,12.15389,119.4338" />
 	</Mailboxes>
 	
 	<Trainers>
-		<Hotspot Name="Master Seffi" Class="Consular" X="82.3573" Y="7.89718" Z="-4.4341" />
-		<Hotspot Name="Master Brohmer" Class="Knight" X="83.401" Y="7.896029" Z="-4.6378" />
-		<Hotspot Name="Hoda Yebb" Class="Smuggler" X="84.1221" Y="7.895125" Z="-4.3969" />
-		<Hotspot Name="Sergeant Arric" Class="Trooper" X="84.0066" Y="7.897977" Z="-3.548" />
+		<Hotspot Name="Master Seffi" Class="Consular" XYZ="82.3573,7.89718,-4.4341" />
+		<Hotspot Name="Master Brohmer" Class="Knight" XYZ="83.401,7.896029,-4.6378" />
+		<Hotspot Name="Hoda Yebb" Class="Smuggler" XYZ="84.1221,7.895125,-4.3969" />
+		<Hotspot Name="Sergeant Arric" Class="Trooper" XYZ="84.0066,7.897977,-3.548" />
 	</Trainers>
 	
 	<!--
@@ -49,10 +49,10 @@
 				<Mob>Palace Alarm Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Palace Security Droid" X="78.33" Y="9.591323" Z="199.3" />
-				<Hotspot Name="Palace Alarm Droid" X="73.54839" Y="9.591323" Z="199.3124" />
-				<Hotspot Name="Palace Alarm Droid" X="63.75" Y="9.600673" Z="199.1" />
-				<Hotspot Name="Palace Alarm Droid" X="48.619" Y="12.05959" Z="209.971" />
+				<Hotspot Name="Palace Security Droid" XYZ="78.33,9.591323,199.3" />
+				<Hotspot Name="Palace Alarm Droid" XYZ="73.54839,9.591323,199.3124" />
+				<Hotspot Name="Palace Alarm Droid" XYZ="63.75,9.600673,199.1" />
+				<Hotspot Name="Palace Alarm Droid" XYZ="48.619,12.05959,209.971" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -66,17 +66,17 @@
 				<Mob>Cartel Devastator Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Cartel Bodyguard" X="48.39601" Y="8.048733" Z="34.91925" />
-				<Hotspot Name="Cartel Mechanic" X="45.657" Y="8.533345" Z="35.81982" />
-				<Hotspot Name="Cartel Devastator Droid" X="43.61359" Y="8.509908" Z="37.60776" />
-				<Hotspot Name="Cartel Devastator Droid" X="45.1821" Y="8.509908" Z="43.68399" />
-				<Hotspot Name="Cartel Devastator Droid" X="41.96604" Y="8.509693" Z="31.39034" />
-				<Hotspot Name="Cartel Defense Droid" X="39.5833" Y="8.509301" Z="34.2747" />
-				<Hotspot Name="Cartel Devastator Droid" X="35.81978" Y="8.547853" Z="46.27055" />
-				<Hotspot Name="Cartel Devastator Droid" X="46.1327" Y="9.184955" Z="49.28782" />
-				<Hotspot Name="Cartel Bodyguard" X="37.0234" Y="9.161092" Z="56.361" />
-				<Hotspot Name="Cartel Defense Droid" X="45.2106" Y="9.799401" Z="59.1064" />
-				<Hotspot Name="Cartel Defense Droid" X="39.307" Y="9.796494" Z="59.9115" />
+				<Hotspot Name="Cartel Bodyguard" XYZ="48.39601,8.048733,34.91925" />
+				<Hotspot Name="Cartel Mechanic" XYZ="45.657,8.533345,35.81982" />
+				<Hotspot Name="Cartel Devastator Droid" XYZ="43.61359,8.509908,37.60776" />
+				<Hotspot Name="Cartel Devastator Droid" XYZ="45.1821,8.509908,43.68399" />
+				<Hotspot Name="Cartel Devastator Droid" XYZ="41.96604,8.509693,31.39034" />
+				<Hotspot Name="Cartel Defense Droid" XYZ="39.5833,8.509301,34.2747" />
+				<Hotspot Name="Cartel Devastator Droid" XYZ="35.81978,8.547853,46.27055" />
+				<Hotspot Name="Cartel Devastator Droid" XYZ="46.1327,9.184955,49.28782" />
+				<Hotspot Name="Cartel Bodyguard" XYZ="37.0234,9.161092,56.361" />
+				<Hotspot Name="Cartel Defense Droid" XYZ="45.2106,9.799401,59.1064" />
+				<Hotspot Name="Cartel Defense Droid" XYZ="39.307,9.796494,59.9115" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -89,12 +89,12 @@
 				<Mob>Sith Assassin</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Soldier" X="25.2831" Y="9.600099" Z="34.9864" />
-				<Hotspot Name="Sith Assassin" X="21.74769" Y="9.7186" Z="33.60659" />
-				<Hotspot Name="Sith Assassin" X="20.31565" Y="9.597723" Z="36.12691" />
-				<Hotspot Name="Imperial Soldier" X="22.3388" Y="9.540001" Z="39.718" />
-				<Hotspot Name="Sith Reaver" X="19.7934" Y="9.598825" Z="41.2078" />
-				<Hotspot Name="Sith Reaver" X="24.5716" Y="9.598026" Z="41.9868" />
+				<Hotspot Name="Imperial Soldier" XYZ="25.2831,9.600099,34.9864" />
+				<Hotspot Name="Sith Assassin" XYZ="21.74769,9.7186,33.60659" />
+				<Hotspot Name="Sith Assassin" XYZ="20.31565,9.597723,36.12691" />
+				<Hotspot Name="Imperial Soldier" XYZ="22.3388,9.540001,39.718" />
+				<Hotspot Name="Sith Reaver" XYZ="19.7934,9.598825,41.2078" />
+				<Hotspot Name="Sith Reaver" XYZ="24.5716,9.598026,41.9868" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -105,7 +105,7 @@
 				<Mob>Kadon Vul</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Kadon Vul" X="22.93716" Y="9.600153" Z="37.29272" />
+				<Hotspot Name="Kadon Vul" XYZ="22.93716,9.600153,37.29272" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -117,7 +117,7 @@
 				<Mob>Captain Jesh</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Captain Jesh" X="44.3682" Y="10.5775" Z="72.12734" />
+				<Hotspot Name="Captain Jesh" XYZ="44.3682,10.5775,72.12734" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -129,8 +129,8 @@
 				<Mob>Imperial Gunner</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Security Chief" X="43.1096" Y="10.5775" Z="71.502" />
-				<Hotspot Name="Imperial Gunner" X="42.9481" Y="10.5875" Z="71.6999" />
+				<Hotspot Name="Imperial Security Chief" XYZ="43.1096,10.5775,71.502" />
+				<Hotspot Name="Imperial Gunner" XYZ="42.9481,10.5875,71.6999" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -145,16 +145,16 @@
 				<Mob>Imperial Shock Commando</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Vanguard" X="64.6252" Y="4.774876" Z="42.6793" />
-				<Hotspot Name="Imperial Shock Soldier" X="66.24441" Y="4.951769" Z="39.28879" />
-				<Hotspot Name="Imperial Field Medic" X="68.94773" Y="5.048398" Z="48.34735" />
-				<Hotspot Name="Imperial Shock Soldier" X="63.0605" Y="5.018536" Z="47.2938" />
-				<Hotspot Name="Imperial Shock Soldier" X="77.9454" Y="5.300498" Z="46.6589" />
-				<Hotspot Name="Imperial Shock Commando" X="88.9559" Y="5.898947" Z="47.6103" />
-				<Hotspot Name="Imperial Shock Commando" X="95.32147" Y="6.076735" Z="47.65013" />
-				<Hotspot Name="Imperial Assault Captain" X="94.12379" Y="5.759067" Z="36.424" />
-				<Hotspot Name="Imperial Assault Captain" X="102.5437" Y="5.668157" Z="37.541" />
-				<Hotspot Name="Imperial Shock Commando" X="105.3803" Y="5.69234" Z="34.76439" />
+				<Hotspot Name="Imperial Vanguard" XYZ="64.6252,4.774876,42.6793" />
+				<Hotspot Name="Imperial Shock Soldier" XYZ="66.24441,4.951769,39.28879" />
+				<Hotspot Name="Imperial Field Medic" XYZ="68.94773,5.048398,48.34735" />
+				<Hotspot Name="Imperial Shock Soldier" XYZ="63.0605,5.018536,47.2938" />
+				<Hotspot Name="Imperial Shock Soldier" XYZ="77.9454,5.300498,46.6589" />
+				<Hotspot Name="Imperial Shock Commando" XYZ="88.9559,5.898947,47.6103" />
+				<Hotspot Name="Imperial Shock Commando" XYZ="95.32147,6.076735,47.65013" />
+				<Hotspot Name="Imperial Assault Captain" XYZ="94.12379,5.759067,36.424" />
+				<Hotspot Name="Imperial Assault Captain" XYZ="102.5437,5.668157,37.541" />
+				<Hotspot Name="Imperial Shock Commando" XYZ="105.3803,5.69234,34.76439" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -166,12 +166,12 @@
 				<Mob>Imperial Rifleman</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="20.97501" Y="9.802685" Z="61.4868" />
-				<Hotspot Name="Imperial Watchman" X="12.74" Y="9.799482" Z="58.74" />
-				<Hotspot Name="Imperial Watchman" X="15.39491" Y="9.801684" Z="62" />
-				<Hotspot Name="Imperial Watchman" X="31.79" Y="9.794035" Z="61.31" />
-				<Hotspot Name="Imperial Watchman" X="24.08423" Y="9.80078" Z="51.43364" />
-				<Hotspot Name="Imperial Rifleman" X="14.9974" Y="10.28321" Z="52.27296" />
+				<Hotspot Name="My Location" XYZ="20.97501,9.802685,61.4868" />
+				<Hotspot Name="Imperial Watchman" XYZ="12.74,9.799482,58.74" />
+				<Hotspot Name="Imperial Watchman" XYZ="15.39491,9.801684,62" />
+				<Hotspot Name="Imperial Watchman" XYZ="31.79,9.794035,61.31" />
+				<Hotspot Name="Imperial Watchman" XYZ="24.08423,9.80078,51.43364" />
+				<Hotspot Name="Imperial Rifleman" XYZ="14.9974,10.28321,52.27296" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -184,10 +184,10 @@
 				<Mob>Imperial Strike Drone</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Command Droid" X="13.36728" Y="17.59432" Z="94.23149" />
-				<Hotspot Name="Imperial Demolition Drone" X="9.43" Y="17.59432" Z="94.2712" />
-				<Hotspot Name="Imperial Strike Drone" X="11.9881" Y="17.59432" Z="92.08835" />
-				<Hotspot Name="Imperial Command Droid" X="11.8879" Y="17.59432" Z="99.53339" />
+				<Hotspot Name="Imperial Command Droid" XYZ="13.36728,17.59432,94.23149" />
+				<Hotspot Name="Imperial Demolition Drone" XYZ="9.43,17.59432,94.2712" />
+				<Hotspot Name="Imperial Strike Drone" XYZ="11.9881,17.59432,92.08835" />
+				<Hotspot Name="Imperial Command Droid" XYZ="11.8879,17.59432,99.53339" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -200,12 +200,12 @@
 				<Mob>Cartel Assault Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Cartel Command Droid" X="25.222" Y="9.958001" Z="110.6923" />
-				<Hotspot Name="Cartel Command Droid" X="24.4703" Y="3.544055" Z="108.16" />
-				<Hotspot Name="Cartel Command Droid" X="19.107" Y="3.540701" Z="108.7599" />
-				<Hotspot Name="Cartel Command Droid" X="26.5156" Y="2.382981" Z="104.2845" />
-				<Hotspot Name="Cartel Command Droid" X="23.0612" Y="2.360092" Z="100.5924" />
-				<Hotspot Name="Cartel Command Droid" X="21.353" Y="4.482888" Z="101.2354" />
+				<Hotspot Name="Cartel Command Droid" XYZ="25.222,9.958001,110.6923" />
+				<Hotspot Name="Cartel Command Droid" XYZ="24.4703,3.544055,108.16" />
+				<Hotspot Name="Cartel Command Droid" XYZ="19.107,3.540701,108.7599" />
+				<Hotspot Name="Cartel Command Droid" XYZ="26.5156,2.382981,104.2845" />
+				<Hotspot Name="Cartel Command Droid" XYZ="23.0612,2.360092,100.5924" />
+				<Hotspot Name="Cartel Command Droid" XYZ="21.353,4.482888,101.2354" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -221,15 +221,15 @@
 				<Mob>Sith Commander</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Cartel Power Droid" X="62.46207" Y="12.69367" Z="171.7458" />
-				<Hotspot Name="Sith Marauder" X="54.25939" Y="13.68363" Z="175.0808" />
-				<Hotspot Name="Imperial Defense Droid" X="50.0031" Y="13.67928" Z="172.2648" />
-				<Hotspot Name="Imperial Sentinel" X="50.6083" Y="14.10433" Z="175.7714" />
-				<Hotspot Name="Imperial Lookout" X="50.05906" Y="14.8634" Z="185.2149" />
-				<Hotspot Name="Imperial Defense Droid" X="53.2779" Y="14.8658" Z="192.5515" />
-				<Hotspot Name="Cartel Guard" X="47.6505" Y="14.87656" Z="192.5619" />
-				<Hotspot Name="Sith Commander" X="48.73" Y="15.1702" Z="197.07" />
-				<Hotspot Name="Sith Commander" X="48.69981" Y="17.05961" Z="203.8275" />
+				<Hotspot Name="Cartel Power Droid" XYZ="62.46207,12.69367,171.7458" />
+				<Hotspot Name="Sith Marauder" XYZ="54.25939,13.68363,175.0808" />
+				<Hotspot Name="Imperial Defense Droid" XYZ="50.0031,13.67928,172.2648" />
+				<Hotspot Name="Imperial Sentinel" XYZ="50.6083,14.10433,175.7714" />
+				<Hotspot Name="Imperial Lookout" XYZ="50.05906,14.8634,185.2149" />
+				<Hotspot Name="Imperial Defense Droid" XYZ="53.2779,14.8658,192.5515" />
+				<Hotspot Name="Cartel Guard" XYZ="47.6505,14.87656,192.5619" />
+				<Hotspot Name="Sith Commander" XYZ="48.73,15.1702,197.07" />
+				<Hotspot Name="Sith Commander" XYZ="48.69981,17.05961,203.8275" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -240,7 +240,7 @@
 				<Mob>Moff Dracen</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Moff Dracen" X="47.78899" Y="17.0206" Z="216.4509" />
+				<Hotspot Name="Moff Dracen" XYZ="47.78899,17.0206,216.4509" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -252,7 +252,7 @@
 				<Mob>Mysterious Sith Lord</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Mysterious Sith Lord" X="50.8847" Y="12.2525" Z="136.7214" />
+				<Hotspot Name="Mysterious Sith Lord" XYZ="50.8847,12.2525,136.7214" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -266,13 +266,13 @@
 				<Mob>Imperial Heavy Cannoneer</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Assault Droid" X="84.34531" Y="11.18715" Z="146.4565" />
-				<Hotspot Name="Imperial Assault Droid" X="81.76359" Y="11.05694" Z="149.8524" />
-				<Hotspot Name="Imperial Assault Droid" X="87.21966" Y="8.775023" Z="160.0726" />
-				<Hotspot Name="Imperial Assault Droid" X="93.8212" Y="6.383945" Z="169.214" />
-				<Hotspot Name="Imperial Hazmat Commander" X="98.3459" Y="4.103046" Z="179.3241" />
-				<Hotspot Name="Imperial Hazmat Trooper" X="107.72" Y="4.297441" Z="187.56" />
-				<Hotspot Name="Imperial Hazmat Commando" X="124.98" Y="4.326" Z="192.76" />
+				<Hotspot Name="Imperial Assault Droid" XYZ="84.34531,11.18715,146.4565" />
+				<Hotspot Name="Imperial Assault Droid" XYZ="81.76359,11.05694,149.8524" />
+				<Hotspot Name="Imperial Assault Droid" XYZ="87.21966,8.775023,160.0726" />
+				<Hotspot Name="Imperial Assault Droid" XYZ="93.8212,6.383945,169.214" />
+				<Hotspot Name="Imperial Hazmat Commander" XYZ="98.3459,4.103046,179.3241" />
+				<Hotspot Name="Imperial Hazmat Trooper" XYZ="107.72,4.297441,187.56" />
+				<Hotspot Name="Imperial Hazmat Commando" XYZ="124.98,4.326,192.76" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -284,8 +284,8 @@
 				<Mob>Major Treeg</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Lord Magras" X="165.628" Y="4.264454" Z="207.8192" />
-				<Hotspot Name="Major Treeg" X="165.6025" Y="4.2635" Z="207.7237" />
+				<Hotspot Name="Lord Magras" XYZ="165.628,4.264454,207.8192" />
+				<Hotspot Name="Major Treeg" XYZ="165.6025,4.2635,207.7237" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -304,7 +304,7 @@
 
 	</GrindAreas>
 	
-		<!--
+	<!--
 		<GrindArea Name="">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -334,176 +334,176 @@
 			
 		<!-- Pickup Venom Safeguards -->
 		<If Condition="((not HasQuest(0xE000A825B453531A)) and (not IsQuestComplete(0xE000A825B453531A)))">
-	<PickUpQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" GiverName="Republic Commando" X="-100.0057" Y="-99.599" Z="-4.6223" />
+			<PickUpQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" GiverName="Republic Commando" XYZ="-100.0057,-99.599,-4.6223" />
 	
- 			<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Republic Operational Headquarters"
-									X="-99.03693" Y="-99.30054" Z="-11.71831" 
+			<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Republic Operational Headquarters"
+									XYZ="-99.03693,-99.30054,-11.71831" 
 									ToX="92.2852" ToY="7.888209" ToZ="-0.9554" />
 		</If>
 		
-	<PickUpQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" GiverName="Agent Suria" X="84.3202" Y="7.372199" Z="7.7194" />
+		<PickUpQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" GiverName="Agent Suria" XYZ="84.3202,7.372199,7.7194" />
 		
 		<!-- Venom Safeguards -->
 		<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsQuestComplete(0xE000A825B453531A)))">
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 2)))">
-			<TalkTo QuestId="0xE000A825B453531A" Name="General Korvan" X="84.1907" Y="7.6844" Z="14.2459" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 3)))">
-			<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="0" Radius="20" WaitTime="5" X="56.38317" Y="7.253777" Z="5.343389" />
-			<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="1" Radius="20" WaitTime="5" X="58.73229" Y="7.279254" Z="0.08304209" />
-			<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="2" Radius="20" WaitTime="5" X="52.45085" Y="7.284379" Z="1.743424" />
-			<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="3" Radius="20" WaitTime="5" X="55.61457" Y="7.380233" Z="-4.858208" />
-		 </If>
-		 <!-- Heal the Workers (Bonus) -->
-		 <If Condition="((HasQuest(0xE000FB8EAFE9CA1E)) and (not IsQuestComplete(0xE000FB8EAFE9CA1E)))">
-			<UseItem QuestId="0xE000FB8EAFE9CA1E" Item="Quesh Venom Healing Adrenal" OnObject="Poisoned Miner" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
-			 <Hotspots>				
-				<Hotspot Name="Poisoned Miner" X="56.4024" Y="7.249413" Z="5.5885" />
-				<Hotspot Name="Poisoned Miner" X="58.796" Y="7.230794" Z="0.7729" />
-				<Hotspot Name="Poisoned Miner" X="56.0867" Y="7.385503" Z="-4.8131" />
-				<Hotspot Name="Poisoned Miner" X="52.4312" Y="7.284762" Z="1.7287" />
-			 </Hotspots>
-			</UseItem>
-		 </If>
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 4)))">
-			<TalkTo QuestId="0xE000A825B453531A" Name="Miner Foreman" X="44.4497" Y="8.500248" Z="14.0364" />
-		 </If>
-		 <!-- Branch 2, Step 2 -->
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 2)))">
+				<TalkTo QuestId="0xE000A825B453531A" Name="General Korvan" XYZ="84.1907,7.6844,14.2459" />
+			</If>
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 3)))">
+				<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="0" Radius="20" WaitTime="5" XYZ="56.38317,7.253777,5.343389" />
+				<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="58.73229,7.279254,0.08304209" />
+				<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="2" Radius="20" WaitTime="5" XYZ="52.45085,7.284379,1.743424" />
+				<UseObject QuestId="0xE000A825B453531A" Name="Venom Pipeline" BranchId="1" StepId="3" TaskId="3" Radius="20" WaitTime="5" XYZ="55.61457,7.380233,-4.858208" />
+			</If>
+			<!-- Heal the Workers (Bonus) -->
+			<If Condition="((HasQuest(0xE000FB8EAFE9CA1E)) and (not IsQuestComplete(0xE000FB8EAFE9CA1E)))">
+				<UseItem QuestId="0xE000FB8EAFE9CA1E" Item="Quesh Venom Healing Adrenal" OnObject="Poisoned Miner" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
+					<Hotspots>				
+						<Hotspot Name="Poisoned Miner" XYZ="56.4024,7.249413,5.5885" />
+						<Hotspot Name="Poisoned Miner" XYZ="58.796,7.230794,0.7729" />
+						<Hotspot Name="Poisoned Miner" XYZ="56.0867,7.385503,-4.8131" />
+						<Hotspot Name="Poisoned Miner" XYZ="52.4312,7.284762,1.7287" />
+					</Hotspots>
+				</UseItem>
+			</If>
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 1, 4)))">
+				<TalkTo QuestId="0xE000A825B453531A" Name="Miner Foreman" XYZ="44.4497,8.500248,14.0364" />
+			</If>
+			<!-- Branch 2, Step 2 -->
 		</If>
 		
-	<PickUpQuest QuestName="Drilling For Imps" QuestId="0xE0002DBC7F368CB5" GiverName="Gallia" X="43.9301" Y="8.493119" Z="8.7081" />
+		<PickUpQuest QuestName="Drilling For Imps" QuestId="0xE0002DBC7F368CB5" GiverName="Gallia" XYZ="43.9301,8.493119,8.7081" />
 		
 		<!-- Consular - Attis Station 3-10 -->
 		<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsQuestComplete(0xE00031F9F4E81A85)))">
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 3)))">
-			<MoveTo QuestId="0xE00031F9F4E81A85" Name="Attis Station" X="22.98015" Y="9.611073" Z="29.6624" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 4)))">
-			<UseObject QuestId="0xE00031F9F4E81A85" Name="Airlock Control Panel" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="24.0725" Y="9.601121" Z="32.24936" />
-			<!-- pulldistance 5 -->
-			<UseObject QuestId="1" Name="Revivalist Station" IgnoreQuestRelation="True" Radius="20" WaitTime="5" X="25.46746" Y="9.60008" Z="33.68032" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 5)))">
-			<!-- This step really fucking sucks cock -->
-		  <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 0)))">
-			<Grind GrindRef="Attis Station 5 0" While="(not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 0))" />
-		  </If>
-		  <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 1)))">
-			<Grind GrindRef="Attis Station 5 1" While="(not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 1))" />
-		  </If>
-			<!-- pulldistance 20 -->
-		 </If>
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 6)))">
-			<TalkTo QuestId="0xE00031F9F4E81A85" Name="Nadia Grell" X="25.6522" Y="9.600138" Z="36.7772" />
-			<UseObject QuestId="1" Name="Revivalist Station" IgnoreQuestRelation="True" Radius="20" WaitTime="5" X="25.46746" Y="9.60008" Z="33.68032" />
-		 </If>
-			<UseObject QuestId="0xE00031F9F4E81A85" Name="Computer Terminal" BranchId="1" StepId="7" Radius="20" WaitTime="5" X="24.99771" Y="9.600158" Z="38.06967" />
-			<UseObject QuestId="0xE00031F9F4E81A85" Name="Second Floor Door Controls" BranchId="1" StepId="8" Radius="20" WaitTime="5" X="21.41819" Y="10.78323" Z="42.57655" />
-			<UseObject QuestId="0xE00031F9F4E81A85" Name="Console" BranchId="1" StepId="9" Radius="20" WaitTime="5" X="21.41819" Y="10.78323" Z="42.57655" />
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 10)))">
-			<MoveTo QuestId="0xE00031F9F4E81A85" Name="Researcher" X="22.0346" Y="10.78432" Z="44.5954" />
-			<TalkTo QuestId="0xE00031F9F4E81A85" Name="Researcher" X="22.0346" Y="10.78432" Z="44.5954" />
-		 </If>
-		 <!-- Use your ships intercom -->
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 3)))">
+				<MoveTo QuestId="0xE00031F9F4E81A85" Name="Attis Station" XYZ="22.98015,9.611073,29.6624" />
+			</If>
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 4)))">
+				<UseObject QuestId="0xE00031F9F4E81A85" Name="Airlock Control Panel" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="24.0725,9.601121,32.24936" />
+				<!-- pulldistance 5 -->
+				<UseObject QuestId="1" Name="Revivalist Station" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="25.46746,9.60008,33.68032" />
+			</If>
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 5)))">
+				<!-- This step really fucking sucks cock -->
+				<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 0)))">
+					<Grind GrindRef="Attis Station 5 0" While="(not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 0))" />
+				</If>
+				<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 1)))">
+					<Grind GrindRef="Attis Station 5 1" While="(not IsBranchTaskComplete(0xE00031F9F4E81A85, 1, 5, 1))" />
+				</If>
+				<!-- pulldistance 20 -->
+			</If>
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 6)))">
+				<TalkTo QuestId="0xE00031F9F4E81A85" Name="Nadia Grell" XYZ="25.6522,9.600138,36.7772" />
+				<UseObject QuestId="1" Name="Revivalist Station" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="25.46746,9.60008,33.68032" />
+			</If>
+			<UseObject QuestId="0xE00031F9F4E81A85" Name="Computer Terminal" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="24.99771,9.600158,38.06967" />
+			<UseObject QuestId="0xE00031F9F4E81A85" Name="Second Floor Door Controls" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="21.41819,10.78323,42.57655" />
+			<UseObject QuestId="0xE00031F9F4E81A85" Name="Console" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="21.41819,10.78323,42.57655" />
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 1, 10)))">
+				<MoveTo QuestId="0xE00031F9F4E81A85" Name="Researcher" XYZ="22.0346,10.78432,44.5954" />
+				<TalkTo QuestId="0xE00031F9F4E81A85" Name="Researcher" XYZ="22.0346,10.78432,44.5954" />
+			</If>
+			<!-- Use your ships intercom -->
 		</If>
 		
 		<!-- Extracting the Scientist -->
 		<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsQuestComplete(0xE00004D9B7BBFFF8)))">
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 2)))">
-			<UseObject QuestId="0xE00004D9B7BBFFF8" Name="Security Station" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="44.76302" Y="9.161462" Z="48.02155" />
-				<Hotspot Name="My Location" X="43.75149" Y="9.161462" Z="55.97237" />
-				<Hotspot Name="My Location" X="34.77979" Y="9.161092" Z="48.40661" />
-				<Hotspot Name="My Location" X="29.20996" Y="9.803679" Z="48.12183" />
-				<Hotspot Name="My Location" X="32.70146" Y="9.803679" Z="54.95792" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
-		 <!-- Stage 1 - Break the Cartel (Bonus) -->
-		 <If Condition="((not HasQuest(0xE0005FC0AB5638C9)) and (not IsQuestComplete(0xE0005FC0AB5638C9)))">
-			<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(not HasQuest(0xE0005FC0AB5638C9))" />
-		 </If>
-		 <!-- Stage 1 - Break the Cartel (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005FC0AB5638C9)) and (not IsQuestComplete(0xE0005FC0AB5638C9)))">
-			<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005FC0AB5638C9))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 2 - Break the Cartel (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005CC0AB55C3D0)) and (not IsQuestComplete(0xE0005CC0AB55C3D0)))">
-			<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005CC0AB55C3D0))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 3 - Break the Cartel (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005DC0AB563DA3)) and (not IsQuestComplete(0xE0005DC0AB563DA3)))">
-			<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005DC0AB563DA3))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Final Stage - Break the Cartel (Bonus) -->
-		 <While Condition="((HasQuest(0xE0005AC0AB55C04A)) and (not IsQuestComplete(0xE0005AC0AB55C04A)))">
-			<UseObject QuestId="0xE0005AC0AB55C04A" Name="Security Terminal" Radius="20" WaitTime="5" X="34.05397" Y="9.800097" Z="76.38559" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </While>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 3)))">
-			<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Agent Meldo" X="29.5639" Y="9.832342" Z="71.1705" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 4)))">
-			<UseObject QuestId="0xE00004D9B7BBFFF8" Name="Laboratory Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="44.94556" Y="9.387501" Z="71.62733" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 5)))">
-			<MoveTo QuestId="0xE00004D9B7BBFFF8" Name="Captain Jesh" X="44.3682" Y="10.5775" Z="72.12734" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 6)))">
-			<Grind GrindRef="Extracting the Scientist 6" While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 6))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 7)))">
-			<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Doctor Orlian" X="44.93" Y="10.60693" Z="72.45" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8)))">
-			<Grind GrindRef="Extracting the Scientist 8" While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8))" />
-		 </If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 2)))">
+				<UseObject QuestId="0xE00004D9B7BBFFF8" Name="Security Station" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="44.76302,9.161462,48.02155" />
+						<Hotspot Name="My Location" XYZ="43.75149,9.161462,55.97237" />
+						<Hotspot Name="My Location" XYZ="34.77979,9.161092,48.40661" />
+						<Hotspot Name="My Location" XYZ="29.20996,9.803679,48.12183" />
+						<Hotspot Name="My Location" XYZ="32.70146,9.803679,54.95792" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<!-- Stage 1 - Break the Cartel (Bonus) -->
+			<If Condition="((not HasQuest(0xE0005FC0AB5638C9)) and (not IsQuestComplete(0xE0005FC0AB5638C9)))">
+				<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(not HasQuest(0xE0005FC0AB5638C9))" />
+			</If>
+			<!-- Stage 1 - Break the Cartel (Bonus) -->
+			<If Condition="((HasQuest(0xE0005FC0AB5638C9)) and (not IsQuestComplete(0xE0005FC0AB5638C9)))">
+				<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005FC0AB5638C9))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 2 - Break the Cartel (Bonus) -->
+			<If Condition="((HasQuest(0xE0005CC0AB55C3D0)) and (not IsQuestComplete(0xE0005CC0AB55C3D0)))">
+				<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005CC0AB55C3D0))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 3 - Break the Cartel (Bonus) -->
+			<If Condition="((HasQuest(0xE0005DC0AB563DA3)) and (not IsQuestComplete(0xE0005DC0AB563DA3)))">
+				<Grind GrindRef="Stage 1 - Break the Cartel (Bonus)" While="(HasQuest(0xE0005DC0AB563DA3))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Final Stage - Break the Cartel (Bonus) -->
+			<While Condition="((HasQuest(0xE0005AC0AB55C04A)) and (not IsQuestComplete(0xE0005AC0AB55C04A)))">
+				<UseObject QuestId="0xE0005AC0AB55C04A" Name="Security Terminal" Radius="20" WaitTime="5" XYZ="34.05397,9.800097,76.38559" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</While>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 3)))">
+				<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Agent Meldo" XYZ="29.5639,9.832342,71.1705" />
+			</If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 4)))">
+				<UseObject QuestId="0xE00004D9B7BBFFF8" Name="Laboratory Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="44.94556,9.387501,71.62733" />
+			</If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 5)))">
+				<MoveTo QuestId="0xE00004D9B7BBFFF8" Name="Captain Jesh" XYZ="44.3682,10.5775,72.12734" />
+			</If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 6)))">
+				<Grind GrindRef="Extracting the Scientist 6" While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 6))" />
+			</If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 7)))">
+				<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Doctor Orlian" XYZ="44.93,10.60693,72.45" />
+			</If>
+			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8)))">
+				<Grind GrindRef="Extracting the Scientist 8" While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8))" />
+			</If>
 		</If>
 		
 		<!-- Venom Safeguards -->
 		<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsQuestComplete(0xE000A825B453531A)))">
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 2)))">
-			<MoveTo QuestId="0xE000A825B453531A" Name="Attis Station Compound" X="25.63495" Y="9.80078" Z="54.73442" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 3)))">
-			<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="3" TaskId="0" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Anti-Aircraft Gun (East)" X="24.58277" Y="9.80078" Z="50.27373" />
-			<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="3" TaskId="1" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Anti-Aircraft Gun (South)" X="20.99884" Y="9.802685" Z="61.74043" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 4)))">
-			<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="4" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Comm Tower" X="15.42348" Y="10.28321" Z="53.82549" />
-		 </If>
-		<!-- The Rearguard (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000C2A49A4F16E9))">
-			<Grind GrindRef="The Rearguard (Bonus)" While="(not IsQuestComplete(0xE000C2A49A4F16E9))" />
-		 </If>
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 2)))">
+				<MoveTo QuestId="0xE000A825B453531A" Name="Attis Station Compound" XYZ="25.63495,9.80078,54.73442" />
+			</If>
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 3)))">
+				<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="3" TaskId="0" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Anti-Aircraft Gun (East)" XYZ="24.58277,9.80078,50.27373" />
+				<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="3" TaskId="1" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Anti-Aircraft Gun (South)" XYZ="20.99884,9.802685,61.74043" />
+			</If>
+			<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsBranchStepComplete(0xE000A825B453531A, 3, 4)))">
+				<UseObject QuestId="0xE000A825B453531A" BranchId="3" StepId="4" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Comm Tower" XYZ="15.42348,10.28321,53.82549" />
+			</If>
+			<!-- The Rearguard (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000C2A49A4F16E9))">
+				<Grind GrindRef="The Rearguard (Bonus)" While="(not IsQuestComplete(0xE000C2A49A4F16E9))" />
+			</If>
 		</If>
 		
 		<!-- Drilling For Imps -->
 		<If Condition="((HasQuest(0xE0002DBC7F368CB5)) and (not IsQuestComplete(0xE0002DBC7F368CB5)))">
-		 <If Condition="((HasQuest(0xE0002DBC7F368CB5)) and (not IsBranchStepComplete(0xE0002DBC7F368CB5, 1, 2)))">
-			<UseObject QuestId="0xE0002DBC7F368CB5" Name="Imperial Mining Drill" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="43.69992" Y="5.1468" Z="58.748" />
-		 </If>
+			<If Condition="((HasQuest(0xE0002DBC7F368CB5)) and (not IsBranchStepComplete(0xE0002DBC7F368CB5, 1, 2)))">
+				<UseObject QuestId="0xE0002DBC7F368CB5" Name="Imperial Mining Drill" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="43.69992,5.1468,58.748" />
+			</If>
 		</If>
 		
 		<!-- Turnin Break the Cartel -->
 		<If Condition="((HasQuest(0xE00018B25CBC958C)) and (not IsQuestComplete(0xE00018B25CBC958C)))">
-	<TurnInQuest QuestName="Break the Cartel" QuestId="0xE00018B25CBC958C" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" X="84.17043" Y="7.352667" Z="8.909301" />
+			<TurnInQuest QuestName="Break the Cartel" QuestId="0xE00018B25CBC958C" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="84.17043,7.352667,8.909301" />
 			<CompleteQuest QuestName="Break the Cartel" QuestId="0xE00018B25CBC958C" />
 		</If>
 
 		<!-- Turnin Extracting the Scientist -->
 		<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsQuestComplete(0xE00004D9B7BBFFF8)))">
-	<TurnInQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" TurnInName="Agent Suria" X="84.3202" Y="7.372199" Z="7.7194" />
+			<TurnInQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" TurnInName="Agent Suria" XYZ="84.3202,7.372199,7.7194" />
 			<CompleteQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" RewardIndex="1" />
 		</If>
 
 		<!-- Turnin Drilling For Imps -->
 		<If Condition="((HasQuest(0xE0002DBC7F368CB5)) and (not IsQuestComplete(0xE0002DBC7F368CB5)))">
-	<TurnInQuest QuestName="Drilling For Imps" QuestId="0xE0002DBC7F368CB5" TurnInName="Gallia" X="43.9301" Y="8.493119" Z="8.7081" />
+			<TurnInQuest QuestName="Drilling For Imps" QuestId="0xE0002DBC7F368CB5" TurnInName="Gallia" XYZ="43.9301,8.493119,8.7081" />
 			<CompleteQuest QuestName="Drilling For Imps" QuestId="0xE0002DBC7F368CB5" />
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -511,247 +511,247 @@
 
 		<!-- Turnin Venom Safeguards -->
 		<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsQuestComplete(0xE000A825B453531A)))">
-	<TurnInQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" TurnInName="Major Treeg" X="51.0112" Y="12.2525" Z="137.7646" />
+			<TurnInQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" TurnInName="Major Treeg" XYZ="51.0112,12.2525,137.7646" />
 			<CompleteQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" RewardIndex="1" />
 			<!-- Cartel Crushing 0xE000998CE5AAB098 - Branch 3, Step 2 -->
 		</If>
 			
-	<PickUpQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" GiverName="Goonawaro" X="56.8688" Y="12.15308" Z="120.4958" />
-	<PickUpQuest QuestName="Rooftop Defense" QuestId="0xE00097758BF658DC" GiverName="Lieutenant Meric" X="41.7359" Y="8.149919" Z="103.7876" />
+		<PickUpQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" GiverName="Goonawaro" XYZ="56.8688,12.15308,120.4958" />
+		<PickUpQuest QuestName="Rooftop Defense" QuestId="0xE00097758BF658DC" GiverName="Lieutenant Meric" XYZ="41.7359,8.149919,103.7876" />
 
 		<!-- Rooftop Defense -->
 		<If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsQuestComplete(0xE00097758BF658DC)))">
-		 <If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsBranchStepComplete(0xE00097758BF658DC, 1, 2)))">
-			<!-- rooftop defense ele -->
-			<MoveTo QuestId="0xE00097758BF658DC" Name="My Location" X="15.15151" Y="17.59432" Z="95.63377" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsBranchStepComplete(0xE00097758BF658DC, 1, 3)))">
-			<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="0" Radius="20" WaitTime="5" X="7.391912" Y="17.59432" Z="96.98296" />
-			<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="1" Radius="20" WaitTime="5" X="7.471812" Y="17.59432" Z="94.29877" />
-			<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="2" Radius="20" WaitTime="5" X="13.50337" Y="17.59432" Z="86.8263" />
-			<MoveTo QuestId="1" X="13.53645" Y="17.59433" Z="100.8705" />
-			<MoveTo QuestId="1" X="13.54692" Y="17.59432" Z="104.5085" />
-			<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="3" Radius="20" WaitTime="5" X="13.54692" Y="17.59432" Z="104.5085" />
-			<MoveTo QuestId="1" X="13.53645" Y="17.59433" Z="100.8705" />
-			<MoveTo QuestId="1" X="15.7933" Y="17.59433" Z="95.61865" />
-			<MoveTo QuestId="1" X="20.42463" Y="9.745531" Z="95.66816" />
-			<!-- Bot Doesn't want to get back down the elevator -->
-		 </If>
-		 <!-- Bomb Squad (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0008A5033DCA39A))">
-			<Grind GrindRef="Bomb Squad (Bonus)" While="(not IsQuestComplete(0xE0008A5033DCA39A))" />
-		 </If>
-		 <!-- Use Ele back down -->
+			<If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsBranchStepComplete(0xE00097758BF658DC, 1, 2)))">
+				<!-- rooftop defense ele -->
+				<MoveTo QuestId="0xE00097758BF658DC" Name="My Location" XYZ="15.15151,17.59432,95.63377" />
+			</If>
+			<If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsBranchStepComplete(0xE00097758BF658DC, 1, 3)))">
+				<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="0" Radius="20" WaitTime="5" XYZ="7.391912,17.59432,96.98296" />
+				<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="7.471812,17.59432,94.29877" />
+				<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="2" Radius="20" WaitTime="5" XYZ="13.50337,17.59432,86.8263" />
+				<MoveTo QuestId="1" XYZ="13.53645,17.59433,100.8705" />
+				<MoveTo QuestId="1" XYZ="13.54692,17.59432,104.5085" />
+				<UseObject QuestId="0xE00097758BF658DC" Name="Explosive Device" BranchId="1" StepId="3" TaskId="3" Radius="20" WaitTime="5" XYZ="13.54692,17.59432,104.5085" />
+				<MoveTo QuestId="1" XYZ="13.53645,17.59433,100.8705" />
+				<MoveTo QuestId="1" XYZ="15.7933,17.59433,95.61865" />
+				<MoveTo QuestId="1" XYZ="20.42463,9.745531,95.66816" />
+				<!-- Bot Doesn't want to get back down the elevator -->
+			</If>
+			<!-- Bomb Squad (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0008A5033DCA39A))">
+				<Grind GrindRef="Bomb Squad (Bonus)" While="(not IsQuestComplete(0xE0008A5033DCA39A))" />
+			</If>
+			<!-- Use Ele back down -->
 		</If>
 		
 		<!-- Cartel Crushing -->
 		<If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsQuestComplete(0xE000998CE5AAB098)))">
-		 <If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsBranchStepComplete(0xE000998CE5AAB098, 3, 2)))">
-			<MoveTo QuestId="0xE000998CE5AAB098" Name="Factory Entrance" X="22.64016" Y="9.95903" Z="105.906" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsBranchStepComplete(0xE000998CE5AAB098, 3, 3)))">
-			<!-- ele inside going down -->
-			<UseObject QuestId="0xE000998CE5AAB098" Name="Security Control Panel" BranchId="3" StepId="3" TaskId="1" Radius="20" WaitTime="5" X="21.36201" Y="4.513222" Z="100.0591" />
-			<Grind GrindRef="Cartel Crushing 3 3 0" While="(not IsBranchTaskComplete(0xE000998CE5AAB098, 3, 3, 0))" />
-			<!-- Use Ele back up -->
-		 </If>
+			<If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsBranchStepComplete(0xE000998CE5AAB098, 3, 2)))">
+				<MoveTo QuestId="0xE000998CE5AAB098" Name="Factory Entrance" XYZ="22.64016,9.95903,105.906" />
+			</If>
+			<If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsBranchStepComplete(0xE000998CE5AAB098, 3, 3)))">
+				<!-- ele inside going down -->
+				<UseObject QuestId="0xE000998CE5AAB098" Name="Security Control Panel" BranchId="3" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="21.36201,4.513222,100.0591" />
+				<Grind GrindRef="Cartel Crushing 3 3 0" While="(not IsBranchTaskComplete(0xE000998CE5AAB098, 3, 3, 0))" />
+				<!-- Use Ele back up -->
+			</If>
 		</If>
 		
 		<!-- Turnin Rooftop Defense -->
 		<If Condition="((HasQuest(0xE00097758BF658DC)) and (not IsQuestComplete(0xE00097758BF658DC)))">
-	<TurnInQuest QuestName="Rooftop Defense" QuestId="0xE00097758BF658DC" TurnInName="Lieutenant Meric" X="41.7359" Y="8.149919" Z="103.7876" />
+			<TurnInQuest QuestName="Rooftop Defense" QuestId="0xE00097758BF658DC" TurnInName="Lieutenant Meric" XYZ="41.7359,8.149919,103.7876" />
 			<CompleteQuest QuestName="Rooftop Defense" QuestId="0xE00097758BF658DC" />
 		</If>
 
 		<!-- Turnin Cartel Crushing -->
 		<If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsQuestComplete(0xE000998CE5AAB098)))">
-	<TurnInQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" TurnInName="Major Treeg" X="51.0112" Y="12.2525" Z="137.7646" />
+			<TurnInQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" TurnInName="Major Treeg" XYZ="51.0112,12.2525,137.7646" />
 			<CompleteQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" RewardIndex="1" />
 			<!-- Storm the Sewers 0xE000FD4E9F10A29D-->
 		</If>
 
 		<!-- Venom Cleanup -->
 		<If Condition="((HasQuest(0xE0009E916585B668)) and (not IsQuestComplete(0xE0009E916585B668)))">
-		 <If Condition="((HasQuest(0xE0009E916585B668)) and (not IsBranchStepComplete(0xE0009E916585B668, 1, 2)))">
-			<UseObject QuestId="0xE0009E916585B668" Name="Venom Tank" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="76.17187" Y="11.79223" Z="163.8561" />
-				<Hotspot Name="My Location" X="73.38375" Y="11.99672" Z="164.4062" />
-				<Hotspot Name="My Location" X="61.84521" Y="12.76553" Z="164.5535" />
-				<Hotspot Name="My Location" X="63.1396" Y="12.69367" Z="168.552" />
-				<Hotspot Name="My Location" X="59.15564" Y="12.70265" Z="164.4145" />
-				<Hotspot Name="My Location" X="56.87611" Y="12.59171" Z="164.5849" />
-				<Hotspot Name="My Location" X="53.93021" Y="13.02786" Z="169.8668" />
-				<Hotspot Name="Cartel Power Droid" X="62.46207" Y="12.69367" Z="171.7458" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
+			<If Condition="((HasQuest(0xE0009E916585B668)) and (not IsBranchStepComplete(0xE0009E916585B668, 1, 2)))">
+				<UseObject QuestId="0xE0009E916585B668" Name="Venom Tank" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="76.17187,11.79223,163.8561" />
+						<Hotspot Name="My Location" XYZ="73.38375,11.99672,164.4062" />
+						<Hotspot Name="My Location" XYZ="61.84521,12.76553,164.5535" />
+						<Hotspot Name="My Location" XYZ="63.1396,12.69367,168.552" />
+						<Hotspot Name="My Location" XYZ="59.15564,12.70265,164.4145" />
+						<Hotspot Name="My Location" XYZ="56.87611,12.59171,164.5849" />
+						<Hotspot Name="My Location" XYZ="53.93021,13.02786,169.8668" />
+						<Hotspot Name="Cartel Power Droid" XYZ="62.46207,12.69367,171.7458" />
+					</Hotspots>
+				</UseObject>
+			</If>
 		</If>
 		
 		<!-- Storm the Sewers -->
 		<If Condition="((HasQuest(0xE000FD4E9F10A29D)) and (not IsQuestComplete(0xE000FD4E9F10A29D)))">
-		 <If Condition="((HasQuest(0xE000FD4E9F10A29D)) and (not IsBranchStepComplete(0xE000FD4E9F10A29D, 1, 2)))">
-			<MoveTo QuestId="0xE000FD4E9F10A29D" Name="Sewers" X="78.32988" Y="9.594321" Z="201.695" />
-		 </If>
-		 <!-- Sewer Cleaning (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000EDE8BB63078F))">
-			<Grind GrindRef="Sewer Cleaning (Bonus)" While="(not IsQuestComplete(0xE000EDE8BB63078F))" />
-		 </If>
-		 <!-- elevator up -->
-		 <If Condition="((HasQuest(0xE000FD4E9F10A29D)) and (not IsBranchStepComplete(0xE000FD4E9F10A29D, 1, 3)))">
-			<TalkTo QuestId="0xE000FD4E9F10A29D" Name="Red Squad Captain" X="42.3877" Y="17.0702" Z="213.1108" />
-		 </If>
+			<If Condition="((HasQuest(0xE000FD4E9F10A29D)) and (not IsBranchStepComplete(0xE000FD4E9F10A29D, 1, 2)))">
+				<MoveTo QuestId="0xE000FD4E9F10A29D" Name="Sewers" XYZ="78.32988,9.594321,201.695" />
+			</If>
+			<!-- Sewer Cleaning (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000EDE8BB63078F))">
+				<Grind GrindRef="Sewer Cleaning (Bonus)" While="(not IsQuestComplete(0xE000EDE8BB63078F))" />
+			</If>
+			<!-- elevator up -->
+			<If Condition="((HasQuest(0xE000FD4E9F10A29D)) and (not IsBranchStepComplete(0xE000FD4E9F10A29D, 1, 3)))">
+				<TalkTo QuestId="0xE000FD4E9F10A29D" Name="Red Squad Captain" XYZ="42.3877,17.0702,213.1108" />
+			</If>
 			<CompleteQuest QuestName="Storm the Sewers" QuestId="0xE000FD4E9F10A29D" />
 			<!-- The Republic Strikes Back 0xE000946DAB35974A-->
 		</If>
 		
 		<!-- The Republic Strikes Back -->
 		<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsQuestComplete(0xE000946DAB35974A)))">
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 2)))">
-			<MoveTo QuestId="1" X="45.46427" Y="17.06547" Z="216.4194" />
-			<!-- another non-quest related gameobject -->
-			<UseObject QuestId="1" Name="Fortified Chamber Door" IgnoreQuestRelation="True" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" X="45.46427" Y="17.06547" Z="216.4194" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 3)))">
-			<Grind GrindRef="The Republic Strikes Back 4 3" While="(not IsBranchStepComplete(0xE000946DAB35974A, 4, 3))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 4)))">
-			<TalkTo QuestId="0xE000946DAB35974A" Name="Moff Dracen" X="48.229" Y="17.0206" Z="216.4137" />
-		 <!-- Adrenal Sabotage (Bonus) -->
-		 <If Condition="((not HasQuest(0xE00007F57CDA7BAB)) and (not IsQuestComplete(0xE00007F57CDA7BAB)))">
-			<UseObject QuestId="1" Name="Imperial Adrenal Supplies" UseOnce="True" Radius="20" WaitTime="5" X="42.26817" Y="17.0702" Z="216.8567" />
-		 </If>
-		 </If>
-		 <!-- Adrenal Sabotage (Bonus) -->
-		 <If Condition="((HasQuest(0xE00007F57CDA7BAB)) and (not IsQuestComplete(0xE00007F57CDA7BAB)))">
-			<UseObject QuestId="0xE00007F57CDA7BAB" Name="Imperial Adrenal Supplies" Radius="20" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="44.79187" Y="17.02013" Z="210.2757" />
-				<Hotspot Name="My Location" X="46.09761" Y="17.02023" Z="207.3343" />
-				<Hotspot Name="My Location" X="49.27109" Y="17.0202" Z="207.7128" />
-				<Hotspot Name="Sith Commander" X="48.6988" Y="17.05962" Z="203.8237" />
-				<Hotspot Name="My Location" X="49.37312" Y="16.98153" Z="211.5408" />
-				<Hotspot Name="My Location" X="57.44197" Y="16.8702" Z="210.049" />
-				<Hotspot Name="My Location" X="47.71413" Y="15.16965" Z="196.6211" />
-				<Hotspot Name="Cartel Guard" X="56.7827" Y="14.86716" Z="194.8594" />
-				<Hotspot Name="Imperial Defense Droid" X="55.2969" Y="14.86661" Z="185.1111" />
-				<Hotspot Name="My Location" X="45.57305" Y="14.8602" Z="185.013" />
-				<Hotspot Name="My Location" X="46.35141" Y="14.8602" Z="183.0296" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 2)))">
+				<MoveTo QuestId="1" XYZ="45.46427,17.06547,216.4194" />
+				<!-- another non-quest related gameobject -->
+				<UseObject QuestId="1" Name="Fortified Chamber Door" IgnoreQuestRelation="True" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="45.46427,17.06547,216.4194" />
+			</If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 3)))">
+				<Grind GrindRef="The Republic Strikes Back 4 3" While="(not IsBranchStepComplete(0xE000946DAB35974A, 4, 3))" />
+			</If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 4)))">
+				<TalkTo QuestId="0xE000946DAB35974A" Name="Moff Dracen" XYZ="48.229,17.0206,216.4137" />
+				<!-- Adrenal Sabotage (Bonus) -->
+				<If Condition="((not HasQuest(0xE00007F57CDA7BAB)) and (not IsQuestComplete(0xE00007F57CDA7BAB)))">
+					<UseObject QuestId="1" Name="Imperial Adrenal Supplies" UseOnce="True" Radius="20" WaitTime="5" XYZ="42.26817,17.0702,216.8567" />
+				</If>
+			</If>
+			<!-- Adrenal Sabotage (Bonus) -->
+			<If Condition="((HasQuest(0xE00007F57CDA7BAB)) and (not IsQuestComplete(0xE00007F57CDA7BAB)))">
+				<UseObject QuestId="0xE00007F57CDA7BAB" Name="Imperial Adrenal Supplies" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="44.79187,17.02013,210.2757" />
+						<Hotspot Name="My Location" XYZ="46.09761,17.02023,207.3343" />
+						<Hotspot Name="My Location" XYZ="49.27109,17.0202,207.7128" />
+						<Hotspot Name="Sith Commander" XYZ="48.6988,17.05962,203.8237" />
+						<Hotspot Name="My Location" XYZ="49.37312,16.98153,211.5408" />
+						<Hotspot Name="My Location" XYZ="57.44197,16.8702,210.049" />
+						<Hotspot Name="My Location" XYZ="47.71413,15.16965,196.6211" />
+						<Hotspot Name="Cartel Guard" XYZ="56.7827,14.86716,194.8594" />
+						<Hotspot Name="Imperial Defense Droid" XYZ="55.2969,14.86661,185.1111" />
+						<Hotspot Name="My Location" XYZ="45.57305,14.8602,185.013" />
+						<Hotspot Name="My Location" XYZ="46.35141,14.8602,183.0296" />
+					</Hotspots>
+				</UseObject>
+			</If>
 		</If>
 		
 		<!-- Turnin Venom Cleanup -->
 		<If Condition="((HasQuest(0xE0009E916585B668)) and (not IsQuestComplete(0xE0009E916585B668)))">
-	<TurnInQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" TurnInName="Goonawaro" X="56.8688" Y="12.15308" Z="120.4958" />
+			<TurnInQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" TurnInName="Goonawaro" XYZ="56.8688,12.15308,120.4958" />
 			<CompleteQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" RewardIndex="1" />
 		</If>
 		
 		<!-- The Republic Strikes Back and Turnin -->
 		<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsQuestComplete(0xE000946DAB35974A)))">
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 5)))">
-			<MoveTo QuestId="0xE000946DAB35974A" Name="War Base" X="50.88833" Y="12.2185" Z="130.4233" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 6)))">
-			<Grind GrindRef="The Republic Strikes Back 4 6" While="(not IsBranchStepComplete(0xE000946DAB35974A, 4, 6))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 7)))">
-			<TalkTo QuestId="0xE000946DAB35974A" Name="Roshal Bek" X="50.4095" Y="12.2525" Z="137.9926" />
-		 </If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 5)))">
+				<MoveTo QuestId="0xE000946DAB35974A" Name="War Base" XYZ="50.88833,12.2185,130.4233" />
+			</If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 6)))">
+				<Grind GrindRef="The Republic Strikes Back 4 6" While="(not IsBranchStepComplete(0xE000946DAB35974A, 4, 6))" />
+			</If>
+			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 7)))">
+				<TalkTo QuestId="0xE000946DAB35974A" Name="Roshal Bek" XYZ="50.4095,12.2525,137.9926" />
+			</If>
 			<CompleteQuest QuestName="The Republic Strikes Back" QuestId="0xE000946DAB35974A" RewardIndex="1" />
 			<!-- Reclaiming Quesh 0xE000FD8C21F68F0F -->
 		</If>
 		
 		<!-- Reclaiming Quesh -->
 		<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsQuestComplete(0xE000FD8C21F68F0F)))">
-		 <If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 2)))">
-			<MoveTo QuestId="0xE000FD8C21F68F0F" Name="Mine Entrance" X="104.2801" Y="4.306988" Z="183.339" />
-		 </If>
-		 <!-- Medic Alert (Bonus) -->
-		 <If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsQuestComplete(0xE00088E6215DEE48)))">
-		 <If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsBranchStepComplete(0xE00088E6215DEE48, 1, 2)))">
-			<MoveTo QuestId="1" X="108.6151" Y="4.302556" Z="184.7667" />
-			<UseObject QuestId="1" Name="Medical Console" IgnoreLOS="True" UseRange="20" Radius="50" WaitTime="5" X="108.6151" Y="4.302556" Z="184.7667" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsBranchStepComplete(0xE00088E6215DEE48, 1, 3)))">
-			<UseItem QuestId="0xE00088E6215DEE48" Item="Venom Neutralizer" OnObject="Poisoned Worker" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
-			 <Hotspots>				
-				<Hotspot Name="Poisoned Worker" X="107.2969" Y="4.322295" Z="190.1075" />
-				<Hotspot Name="Poisoned Worker" X="111.122" Y="4.324881" Z="190.724" />
-				<Hotspot Name="Poisoned Worker" X="120.3647" Y="4.298909" Z="190.9115" />
-				<Hotspot Name="Poisoned Worker" X="117.2905" Y="4.288838" Z="196.0389" />
-				<Hotspot Name="Poisoned Worker" X="128.1236" Y="4.334131" Z="192.0784" />
-				<Hotspot Name="Poisoned Worker" X="132.8457" Y="4.280981" Z="194.38" />
-				<Hotspot Name="Poisoned Worker" X="138.5349" Y="4.357267" Z="197.0618" />
-				<Hotspot Name="Poisoned Worker" X="148.7323" Y="4.500999" Z="198.702" />
-				<Hotspot Name="Poisoned Worker" X="153.2439" Y="4.515639" Z="202.2183" />
-			 </Hotspots>
-			</UseItem>
-		 </If>
-		 </If>
-		 <!-- Stage 1 - Siege Breaker (Bonus) -->
-		 <If Condition="((not HasQuest(0xE0005647809B0A45)) and (not IsQuestComplete(0xE0005647809B0A45)))">
-			<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(not HasQuest(0xE0005647809B0A45))" />
-		 </If>
-		 <!-- Stage 1 - Siege Breaker (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005647809B0A45)) and (not IsQuestComplete(0xE0005647809B0A45)))">
-			<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(HasQuest(0xE0005647809B0A45))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 2 - Siege Breaker (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005747809B1590)) and (not IsQuestComplete(0xE0005747809B1590)))">
-			<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(HasQuest(0xE0005747809B1590))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 3 - Siege Breaker (Bonus) -->
-		 <If Condition="((HasQuest(0xE0005847809B17DF)) and (not IsQuestComplete(0xE0005847809B17DF)))">
-			<UseObject QuestId="0xE0005847809B17DF" Name="Siege Equipment" Radius="20" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="120.1978" Y="4.299124" Z="195.0374" />
-				<Hotspot Name="My Location" X="120.9309" Y="5.169253" Z="190.6224" />
-				<Hotspot Name="My Location" X="124.7992" Y="4.326" Z="192.6836" />
-				<Hotspot Name="My Location" X="127.901" Y="4.265481" Z="196.7254" />
-				<Hotspot Name="My Location" X="133.6076" Y="4.499343" Z="192.0281" />
-				<Hotspot Name="My Location" X="132.5078" Y="4.356646" Z="194.7865" />
-				<Hotspot Name="My Location" X="134.2843" Y="4.679188" Z="197.7777" />
-				<Hotspot Name="Imperial Hazmat Droid" X="137.5671" Y="4.321516" Z="199.1395" />
-				<Hotspot Name="Imperial Hazmat Droid" X="142.2689" Y="4.312492" Z="198.9042" />
-				<Hotspot Name="Imperial Hazmat Trooper" X="146.07" Y="4.476" Z="199.35" />
-			 </Hotspots>
-			</UseObject>
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Final Stage - Siege Breaker (Bonus) -->
-		 <While Condition="((HasQuest(0xE0005947809B116A)) and (not IsQuestComplete(0xE0005947809B116A)))">
-			<UseObject QuestId="0xE0005947809B116A" Name="Imperial Siege Computer" Radius="20" WaitTime="5" X="150.1514" Y="4.49411" Z="199.1613" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </While>
-		 <If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 3)))">
-			<UseObject QuestId="1" Name="Door to Collection Chamber" IgnoreQuestRelation="True" Radius="20" WaitTime="5" X="160.2021" Y="4.503222" Z="208.5268" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 4)))">
-			<Grind GrindRef="Reclaiming Quesh 4" While="(not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 4))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 5)))">
-			<TalkTo QuestId="0xE000FD8C21F68F0F" Name="Major Treeg" X="165.6167" Y="4.264454" Z="207.7246" />
+			<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 2)))">
+				<MoveTo QuestId="0xE000FD8C21F68F0F" Name="Mine Entrance" XYZ="104.2801,4.306988,183.339" />
+			</If>
+			<!-- Medic Alert (Bonus) -->
+			<If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsQuestComplete(0xE00088E6215DEE48)))">
+				<If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsBranchStepComplete(0xE00088E6215DEE48, 1, 2)))">
+					<MoveTo QuestId="1" XYZ="108.6151,4.302556,184.7667" />
+					<UseObject QuestId="1" Name="Medical Console" IgnoreLOS="True" UseRange="20" Radius="50" WaitTime="5" XYZ="108.6151,4.302556,184.7667" />
+				</If>
+				<If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsBranchStepComplete(0xE00088E6215DEE48, 1, 3)))">
+					<UseItem QuestId="0xE00088E6215DEE48" Item="Venom Neutralizer" OnObject="Poisoned Worker" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
+						<Hotspots>				
+							<Hotspot Name="Poisoned Worker" XYZ="107.2969,4.322295,190.1075" />
+							<Hotspot Name="Poisoned Worker" XYZ="111.122,4.324881,190.724" />
+							<Hotspot Name="Poisoned Worker" XYZ="120.3647,4.298909,190.9115" />
+							<Hotspot Name="Poisoned Worker" XYZ="117.2905,4.288838,196.0389" />
+							<Hotspot Name="Poisoned Worker" XYZ="128.1236,4.334131,192.0784" />
+							<Hotspot Name="Poisoned Worker" XYZ="132.8457,4.280981,194.38" />
+							<Hotspot Name="Poisoned Worker" XYZ="138.5349,4.357267,197.0618" />
+							<Hotspot Name="Poisoned Worker" XYZ="148.7323,4.500999,198.702" />
+							<Hotspot Name="Poisoned Worker" XYZ="153.2439,4.515639,202.2183" />
+						</Hotspots>
+					</UseItem>
+				</If>
+			</If>
+			<!-- Stage 1 - Siege Breaker (Bonus) -->
+			<If Condition="((not HasQuest(0xE0005647809B0A45)) and (not IsQuestComplete(0xE0005647809B0A45)))">
+				<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(not HasQuest(0xE0005647809B0A45))" />
+			</If>
+			<!-- Stage 1 - Siege Breaker (Bonus) -->
+			<If Condition="((HasQuest(0xE0005647809B0A45)) and (not IsQuestComplete(0xE0005647809B0A45)))">
+				<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(HasQuest(0xE0005647809B0A45))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 2 - Siege Breaker (Bonus) -->
+			<If Condition="((HasQuest(0xE0005747809B1590)) and (not IsQuestComplete(0xE0005747809B1590)))">
+				<Grind GrindRef="Stage 1 - Siege Breaker (Bonus)" While="(HasQuest(0xE0005747809B1590))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 3 - Siege Breaker (Bonus) -->
+			<If Condition="((HasQuest(0xE0005847809B17DF)) and (not IsQuestComplete(0xE0005847809B17DF)))">
+				<UseObject QuestId="0xE0005847809B17DF" Name="Siege Equipment" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="120.1978,4.299124,195.0374" />
+						<Hotspot Name="My Location" XYZ="120.9309,5.169253,190.6224" />
+						<Hotspot Name="My Location" XYZ="124.7992,4.326,192.6836" />
+						<Hotspot Name="My Location" XYZ="127.901,4.265481,196.7254" />
+						<Hotspot Name="My Location" XYZ="133.6076,4.499343,192.0281" />
+						<Hotspot Name="My Location" XYZ="132.5078,4.356646,194.7865" />
+						<Hotspot Name="My Location" XYZ="134.2843,4.679188,197.7777" />
+						<Hotspot Name="Imperial Hazmat Droid" XYZ="137.5671,4.321516,199.1395" />
+						<Hotspot Name="Imperial Hazmat Droid" XYZ="142.2689,4.312492,198.9042" />
+						<Hotspot Name="Imperial Hazmat Trooper" XYZ="146.07,4.476,199.35" />
+					</Hotspots>
+				</UseObject>
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Final Stage - Siege Breaker (Bonus) -->
+			<While Condition="((HasQuest(0xE0005947809B116A)) and (not IsQuestComplete(0xE0005947809B116A)))">
+				<UseObject QuestId="0xE0005947809B116A" Name="Imperial Siege Computer" Radius="20" WaitTime="5" XYZ="150.1514,4.49411,199.1613" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</While>
+			<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 3)))">
+				<UseObject QuestId="1" Name="Door to Collection Chamber" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="160.2021,4.503222,208.5268" />
+			</If>
+			<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 4)))">
+				<Grind GrindRef="Reclaiming Quesh 4" While="(not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 4))" />
+			</If>
+			<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 5)))">
+				<TalkTo QuestId="0xE000FD8C21F68F0F" Name="Major Treeg" XYZ="165.6167,4.264454,207.7246" />
  
- 			<UseTransport TransporterName="War Camp Speeder" Type="Taxi" Option="Republic Base Speeder" 
-									X="51.4993" Y="12.15389" Z="118.8223"
+				<UseTransport TransporterName="War Camp Speeder" Type="Taxi" Option="Republic Base Speeder" 
+									XYZ="51.4993,12.15389,118.8223"
 									ToX="77.2059" ToY="7.374802" ToZ="6.7087" />
-			<!-- I quicktraveled to RB -->
-		 </If>
+				<!-- I quicktraveled to RB -->
+			</If>
 		</If>
 		
 		<!-- Turnin Siege Breaker -->
 		<If Condition="((HasQuest(0xE000E704B9A34422)) and (not IsQuestComplete(0xE000E704B9A34422)))">
-	<TurnInQuest QuestName="Siege Breaker" QuestId="0xE000E704B9A34422" Type="Placeable" UseRange="2" TurnInName="Intelligence Terminal" X="82.48975" Y="7.686657" Z="12.31564" />
+			<TurnInQuest QuestName="Siege Breaker" QuestId="0xE000E704B9A34422" Type="Placeable" UseRange="2" TurnInName="Intelligence Terminal" XYZ="82.48975,7.686657,12.31564" />
 			<CompleteQuest QuestName="Siege Breaker" QuestId="0xE000E704B9A34422" />
 		</If>
 		
 		<!-- Turnin Reclaiming Quesh -->
 		<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsQuestComplete(0xE000FD8C21F68F0F)))">
-	<TurnInQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" TurnInName="General Korvan" X="84.1907" Y="7.6844" Z="14.2459" />
+			<TurnInQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" TurnInName="General Korvan" XYZ="84.1907,7.6844,14.2459" />
 			<CompleteQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" RewardIndex="1" />
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -760,52 +760,52 @@
 		
 		<!-- Consular - Attis Station -->
 		<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsQuestComplete(0xE00031F9F4E81A85)))">
-		 <If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 2, 2)))">
-			<!-- I am on Quesh -->
- 			<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Your Ship"
-									X="92.26299" Y="8.201427" Z="-1.664324" 
+			<If Condition="((HasQuest(0xE00031F9F4E81A85)) and (not IsBranchStepComplete(0xE00031F9F4E81A85, 2, 2)))">
+				<!-- I am on Quesh -->
+				<UseTransport TransporterName="Orbital Shuttle" Type="Wonkavator" Option="Your Ship"
+									XYZ="92.26299,8.201427,-1.664324" 
 									ToX="-0.007707885" ToY="0.5900244" ToZ="-2.886653" />
 			
-			<!-- I am on my ship -->
-			<!-- Zenith has a quest for us - Unfamiliar Peace -->
-			<UseObject QuestId="0xE00031F9F4E81A85" Name="Intercom" Radius="20" WaitTime="5" X="-0.918385" Y="1.651" Z="2.640365" />
-		 </If>
+				<!-- I am on my ship -->
+				<!-- Zenith has a quest for us - Unfamiliar Peace -->
+				<UseObject QuestId="0xE00031F9F4E81A85" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.918385,1.651,2.640365" />
+			</If>
 			<CompleteQuest QuestName="Attis Station" QuestId="0xE00031F9F4E81A85" RewardIndex="1" />
 			<!-- The Coalition 0xE000B7D990703E28-->
 		</If>
 		
 		<!-- Consular - The Coalition -->
 		<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsQuestComplete(0xE000B7D990703E28)))">
-		 <If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 2)))">
-			<UseObject QuestId="0xE000B7D990703E28" Name="Galaxy Map" Radius="20" WaitTime="5" X="0.09747243" Y="1.551" Z="-4.63301" />
-			<!-- Distant Outer Rim - Hoth - Travel Now -->
-		 </If>
-		 <If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
-			<MoveTo QuestId="0xE000B7D990703E28" Name="Intercom" X="-0.06827761" Y="1.651" Z="0.8234286" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-			<UseObject QuestId="0xE000B7D990703E28" Name="Ship Exit" Radius="20" WaitTime="5" X="-0.005501892" Y="0.5900244" Z="-2.994692" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
-			<!-- I am in the airlock hangar -->
- 			<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Hoth Orbital Station"
-									X="-95.0188" Y="-100.0039" Z="8.930848"
+			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 2)))">
+				<UseObject QuestId="0xE000B7D990703E28" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.09747243,1.551,-4.63301" />
+				<!-- Distant Outer Rim - Hoth - Travel Now -->
+			</If>
+			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
+				<MoveTo QuestId="0xE000B7D990703E28" Name="Intercom" XYZ="-0.06827761,1.651,0.8234286" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+				<UseObject QuestId="0xE000B7D990703E28" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005501892,0.5900244,-2.994692" />
+			</If>
+			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
+				<!-- I am in the airlock hangar -->
+				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Hoth Orbital Station"
+									XYZ="-95.0188,-100.0039,8.930848"
 									ToX="-98.3026" ToY="-99.60795" ToZ="7.2902" />
-		 </If>
+			</If>
 		</If>
 
 		<!-- Pickup Power Vacuum -->
 		<If Condition="((not HasQuest(0xE0008F3041E8297E)) and (not IsQuestComplete(0xE0008F3041E8297E)))">
-	<PickUpQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" GiverX="-98.7554" Y="-99.599" Z="-12.8862" />
+			<PickUpQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" GiverX="-98.7554" Y="-99.599" Z="-12.8862" />
 	
- 			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Aurek Base"
-									X="-99.66091" Y="-99.34919" Z="-13.57615"
+			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Aurek Base"
+									XYZ="-99.66091,-99.34919,-13.57615"
 									ToX="-362.6329" ToY="9.034428" ToZ="-136.3432" />
 									
 			<!-- I am now in Aurek Base -->
 		</If>
 			
-			<!-- On Hoth now, load Hoth 37-40 -->
-			<LoadProfile Path="[R - Dark] 37-40 Hoth [Kick].xml" />
+		<!-- On Hoth now, load Hoth 37-40 -->
+		<LoadProfile Path="[R - Dark] 37-40 Hoth [Kick].xml" />
 		
 			
 

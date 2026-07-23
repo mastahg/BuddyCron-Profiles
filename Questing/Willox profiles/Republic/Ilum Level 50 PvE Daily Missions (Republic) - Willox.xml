@@ -7,18 +7,18 @@
 
 	<Mailboxes>
 		<!-- Rapublic Base Camp -->
-		<Hotspot Name="MailBox" X="52.30401" Y="-3.181149" Z="57.53582" />
+		<Hotspot Name="MailBox" XYZ="52.30401,-3.181149,57.53582" />
 		<!-- Rapublic Way Station -->
-		<Hotspot Name="MailBox" X="0.8723124" Y="-0.6387" Z="20.90055" />
+		<Hotspot Name="MailBox" XYZ="0.8723124,-0.6387,20.90055" />
 	</Mailboxes>
 
 	
 
 	<!-- <Vendors> -->
-		<!-- Rapublic Base Camp --> 
-		<!-- <Hotspot Name="Republic Medical Droid" X="70.5276" Y="-1.4112" Z="52.6402" /> -->
-		<!-- Rapublic Way Station -->
-		<!-- <Hotspot Name="Republic Medical Droid" X="-0.6822" Y="-0.6387" Z="21.9234" /> -->
+	<!-- Rapublic Base Camp --> 
+	<!-- <Hotspot Name="Republic Medical Droid" X="70.5276" Y="-1.4112" Z="52.6402" /> -->
+	<!-- Rapublic Way Station -->
+	<!-- <Hotspot Name="Republic Medical Droid" X="-0.6822" Y="-0.6387" Z="21.9234" /> -->
 	<!--  </Vendors> -->
 
 
@@ -31,7 +31,7 @@
 		QuestId: 0xE000EB1412389108
 		-->
 		<If Condition="not HasQuest(0xE000EB1412389108) and not IsQuestComplete(0xE000EB1412389108)">
-			<PickupQuest QuestName="Pilot Down" QuestId="0xE000EB1412389108" Name="L4-B5" X="55.1248" Y="-3.363297" Z="54.6001"  />
+			<PickupQuest QuestName="Pilot Down" QuestId="0xE000EB1412389108" Name="L4-B5" XYZ="55.1248,-3.363297,54.6001"  />
 		</If>
 
 		<!-- 
@@ -56,7 +56,7 @@
 		QuestGiver Position: X="50.5174" Y="-3.197022" Z="57.7207" / Republic Base Camp
 		QuestId: 0xE0009F685FAEA75D-->
 		<If Condition="not HasQuest(0xE0009F685FAEA75D) and not IsQuestComplete(0xE0009F685FAEA75D)">
-			<PickupQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" Name="Agent Falcon" X="50.5174" Y="-3.197022" Z="57.7207" />
+			<PickupQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" Name="Agent Falcon" XYZ="50.5174,-3.197022,57.7207" />
 		</If>
 
 		<!-- 
@@ -79,7 +79,7 @@
 		***** UseObject*****
 		QuestName: Jam the Transmissions Step: Disable the Communications Dish-->
 		<If Condition="HasQuest(0xE0009F685FAEA75D) and not IsStepComplete(0xE0009F685FAEA75D, 3)">
-			<UseObject QuestId="0xE0009F685FAEA75D" Name="Communications Dish Console" Radius="20" WaitTime="3000" X="-8.445057" Y="-0.680347" Z="64.00549" />
+			<UseObject QuestId="0xE0009F685FAEA75D" Name="Communications Dish Console" Radius="20" WaitTime="3000" XYZ="-8.445057,-0.680347,64.00549" />
 		</If>
 
 		<!-- 
@@ -93,7 +93,7 @@
 		<If Condition="HasQuest(0xE000EB1412389108) and not IsStepComplete(0xE000EB1412389108, 2)">
 			<!-- <UseObject QuestId="0xE000EB1412389108" Name="Door Release" Radius="20" WaitTime="3000" X="25.75026" Y="-1.361803" Z="-2.13831" /> -->
 			
-			<TurnInQuest QuestName="Pilot Down" QuestId="0xE000EB1412389108" TurnInName="Door Release" X="25.75026" Y="-1.361803" Z="-2.13831"/>
+			<TurnInQuest QuestName="Pilot Down" QuestId="0xE000EB1412389108" TurnInName="Door Release" XYZ="25.75026,-1.361803,-2.13831"/>
 		</If>
 
 		<!--
@@ -103,7 +103,7 @@
 		QuestGiver Position: X="4.0125" Y="-1.845297" Z="10.0431" / Republic Waystaion
 		QuestId: 0xE0004A97621FDCE4-->
 		<If Condition="not HasQuest(0xE0004A97621FDCE4) and not IsQuestComplete(0xE0004A97621FDCE4)">
-			<PickupQuest QuestName="Jam the Transmissions" QuestId="0xE0004A97621FDCE4" Name="Major Dumerin" X="4.0125" Y="-1.845297" Z="10.0431" />
+			<PickupQuest QuestName="Jam the Transmissions" QuestId="0xE0004A97621FDCE4" Name="Major Dumerin" XYZ="4.0125,-1.845297,10.0431" />
 		</If>
 
 		<!--
@@ -117,7 +117,7 @@
 		Task 1: Recover Mark II  Prototype Shields 0/3 (Script: IsTaskComplete(0xE00060932859C428, 2, 1))
 		Task 2: Recover Mark III Prototype Shield  0/1 (Script: IsTaskComplete(0xE00060932859C428, 2, 2))-->
 		<If Condition="not HasQuest(0xE00060932859C428) and not IsQuestComplete(0xE00060932859C428)">
-			<PickupQuest QuestName="A Fair Fight" QuestId="0xE00060932859C428" Name="General Orias"  X="3.4387" Y="-1.633333" Z="6.9991"  />
+			<PickupQuest QuestName="A Fair Fight" QuestId="0xE00060932859C428" Name="General Orias"  XYZ="3.4387,-1.633333,6.9991"  />
 		</If>
 
 		<!--
@@ -127,7 +127,7 @@
 		QuestGiver Position: X="0.1986" Y="-1.845297" Z="8.0442" / Republic Waystaion
 		QuestId: 0xE0007EF27BCF8B18-->
 		<If Condition="( (not HasQuest(0xE0007EF27BCF8B18)) and (not IsQuestComplete(0xE0007EF27BCF8B18)) )">
-			<PickupQuest QuestName="Crystal Clear Sabotage" QuestId="0xE0007EF27BCF8B18" Name="Captain Sarmuk"  X="0.1986" Y="-1.845297" Z="8.0442" />
+			<PickupQuest QuestName="Crystal Clear Sabotage" QuestId="0xE0007EF27BCF8B18" Name="Captain Sarmuk"  XYZ="0.1986,-1.845297,8.0442" />
 		</If>
 
 		<!-- 
@@ -139,7 +139,7 @@
 		Object Loc:  X="25.75996" Y="-1.374002" Z="-2.096089" Eastern Ice Shelf - The Road to Glory 
 		Info: Quest Turnin Here -->
 		<If Condition="HasQuest(0xE0000CB5D481F093) and not IsStepComplete(0xE0000CB5D481F093, 3)">
-			<UseObject QuestId="0xE0000CB5D481F093" Name="Customs Terminal" Radius="200" X="-96.88853" Y="154.001" Z="-389.6191" />
+			<UseObject QuestId="0xE0000CB5D481F093" Name="Customs Terminal" Radius="200" XYZ="-96.88853,154.001,-389.6191" />
 		</If>
 
 		<!-- 
@@ -151,7 +151,7 @@
 		Object Loc:  X="-59.0565" Y="3.846299" Z="-16.4307" Eastern Ice Shelf - Western Jedi Ruins
 		-->
 		<If Condition="HasQuest(0xE0007EF27BCF8B18) and not IsStepComplete(0xE0007EF27BCF8B18, 2)">
-			<UseObject QuestId="0xE0007EF27BCF8B18" Name="Ion  Disrupter" Radius="20" X="-59.0565" Y="3.846299" Z="-16.4307" />
+			<UseObject QuestId="0xE0007EF27BCF8B18" Name="Ion  Disrupter" Radius="20" XYZ="-59.0565,3.846299,-16.4307" />
 		</If>
 
 		<!-- 
@@ -183,7 +183,7 @@
 		Task 2: Recover Mark III Prototype Shield  0/1     Script: IsTaskComplete(0xE00060932859C428, 2, 2)
 		
 		Grind Reason: Kill Mobs / Drop (QuestSteps) -->
-<Grind GrindRef="A Fair Fight Recover" While="(not IsTaskComplete(0xE00060932859C428, 2, 0)) or (not IsTaskComplete(0xE00060932859C428, 2, 1)) or (not IsTaskComplete(0xE00060932859C428, 2, 2))" />
+		<Grind GrindRef="A Fair Fight Recover" While="(not IsTaskComplete(0xE00060932859C428, 2, 0)) or (not IsTaskComplete(0xE00060932859C428, 2, 1)) or (not IsTaskComplete(0xE00060932859C428, 2, 2))" />
 
 		<!-- 
 		***** UseObject *****
@@ -196,12 +196,12 @@
 		<If Condition="((HasQuest(0xE00094CC92A7D0C4)) and (not IsQuestComplete(0xE00094CC92A7D0C4)))">
 			<UseObject QuestId="0xE00094CC92A7D0C4" Name="Unfinished Turret" Radius="200" WaitTime="5000" >
 				<Hotspots>
-					<Hotspot Name="My Location" X="106.7727" Y="-0.6678062" Z="-55.71804" />
-					<Hotspot Name="My Location" X="93.21588" Y="-0.3776858" Z="-51.32906" />
-					<Hotspot Name="My Location" X="87.17204" Y="-0.4306054" Z="-39.78939" />
-					<Hotspot Name="My Location" X="83.54575" Y="-0.4232196" Z="-41.44571" />
-					<Hotspot Name="My Location" X="86.08546" Y="-0.4532314" Z="-45.85491" />
-					<Hotspot Name="My Location" X="76.92207" Y="0.03896579" Z="-38.55328" />
+					<Hotspot Name="My Location" XYZ="106.7727,-0.6678062,-55.71804" />
+					<Hotspot Name="My Location" XYZ="93.21588,-0.3776858,-51.32906" />
+					<Hotspot Name="My Location" XYZ="87.17204,-0.4306054,-39.78939" />
+					<Hotspot Name="My Location" XYZ="83.54575,-0.4232196,-41.44571" />
+					<Hotspot Name="My Location" XYZ="86.08546,-0.4532314,-45.85491" />
+					<Hotspot Name="My Location" XYZ="76.92207,0.03896579,-38.55328" />
 				</Hotspots>
 			</UseObject>
 		</If>
@@ -214,7 +214,7 @@
 		QuestGiver Position: X="4.0125" Y="-1.845297" Z="10.0431" Republic Waystation
 		 -->
 		<If Condition="((HasQuest(0xE0004A97621FDCE4)) and (IsQuestComplete(0xE0004A97621FDCE4)))">
-			<TurnInQuest QuestName="Icy Destruction" QuestId="0xE000F2B7135F9F3D" TurnInName="Major Dumerin" X="4.0125" Y="-1.845297" Z="10.0431" />
+			<TurnInQuest QuestName="Icy Destruction" QuestId="0xE000F2B7135F9F3D" TurnInName="Major Dumerin" XYZ="4.0125,-1.845297,10.0431" />
 		</If>	
 
 		<!-- 
@@ -225,7 +225,7 @@
 		QuestGiver Position: X="3.4387" Y="-1.633333" Z="6.9991" Republic Waystation
 		 -->
 		<If Condition="((HasQuest(0xE00060932859C428)) and (IsQuestComplete(0xE00060932859C428)))">
-			<TurnInQuest QuestName="Icy Destruction" QuestId="0xE00060932859C428" TurnInName="General Orias" X="3.4387" Y="-1.633333" Z="6.9991" />
+			<TurnInQuest QuestName="Icy Destruction" QuestId="0xE00060932859C428" TurnInName="General Orias" XYZ="3.4387,-1.633333,6.9991" />
 		</If>
 
 		<!-- 
@@ -236,7 +236,7 @@
 		QuestGiver Position: X="3.4387" Y="-1.633333" Z="6.9991" Republic Waystation
 		 -->
 		<If Condition="((HasQuest(0xE0007EF27BCF8B18)) and (IsQuestComplete(0xE0007EF27BCF8B18)))">
-			<TurnInQuest QuestName="Crystal Clear Sabotage" QuestId="0xE0007EF27BCF8B18" TurnInName="Captain Sarmuk" X="3.4387" Y="-1.633333" Z="6.9991" />
+			<TurnInQuest QuestName="Crystal Clear Sabotage" QuestId="0xE0007EF27BCF8B18" TurnInName="Captain Sarmuk" XYZ="3.4387,-1.633333,6.9991" />
 		</If>
 
 		<!-- 
@@ -249,7 +249,7 @@
 		QuestGiver Position: X="50.5174" Y="-3.197022" Z="57.7207" Republic Base Camp
 		 -->
 		<If Condition="((HasQuest(0xE0009F685FAEA75D)) and (IsQuestComplete(0xE0009F685FAEA75D)))">
-			<TurnInQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" TurnInName="Agent Falcon" X="50.5174" Y="-3.197022" Z="57.7207" />
+			<TurnInQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" TurnInName="Agent Falcon" XYZ="50.5174,-3.197022,57.7207" />
 		</If>
 	</Questing>
 
@@ -262,10 +262,10 @@
 				<Mob>Imperial Scout Watcher</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Scout Droid" X="8.22588" Y="-2.072747" Z="62.3246" />
-				<Hotspot Name="Imperial Scout Droid" X="4.718006" Y="-2.160292" Z="61.52298" />
-				<Hotspot Name="Imperial Scout Droid" X="-0.5950797" Y="-1.308687" Z="64.39105" />
-				<Hotspot Name="Imperial Scout Droid" X="-2.962192" Y="-1.968319" Z="58.90305" />
+				<Hotspot Name="Imperial Scout Droid" XYZ="8.22588,-2.072747,62.3246" />
+				<Hotspot Name="Imperial Scout Droid" XYZ="4.718006,-2.160292,61.52298" />
+				<Hotspot Name="Imperial Scout Droid" XYZ="-0.5950797,-1.308687,64.39105" />
+				<Hotspot Name="Imperial Scout Droid" XYZ="-2.962192,-1.968319,58.90305" />
 			</Hotspots>
 		</GrindArea>
 
@@ -279,7 +279,7 @@
 				<Mob>IImperial Colonel</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="-59.29824" Y="3.807119" Z="-16.49279" />
+				<Hotspot Name="My Location" XYZ="-59.29824,3.807119,-16.49279" />
 			</Hotspots>
 
 		</GrindArea>
@@ -287,17 +287,17 @@
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
 			<Mobs>
-			<Mob>Turret</Mob>
+				<Mob>Turret</Mob>
 				<Mob>Turret</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Turret" X="-66.50529" Y="3.730955" Z="-20.9519" />
-				<Hotspot Name="Turret" X="-72.6527" Y="3.810211" Z="-23.9783" />
-				<Hotspot Name="Turret" X="-75.90848" Y="3.849447" Z="-18.87322" />
-				<Hotspot Name="Turret" X="-80.38141" Y="3.772743" Z="-15.43241" />
-				<Hotspot Name="Turret" X="-81.16315" Y="3.792351" Z="-10.63293" />
-				<Hotspot Name="Turret" X="-75.8707" Y="3.761062" Z="-12.72171" />
-				<Hotspot Name="Turret" X="-77.28896" Y="3.853388" Z="-7.630353" />
+				<Hotspot Name="Turret" XYZ="-66.50529,3.730955,-20.9519" />
+				<Hotspot Name="Turret" XYZ="-72.6527,3.810211,-23.9783" />
+				<Hotspot Name="Turret" XYZ="-75.90848,3.849447,-18.87322" />
+				<Hotspot Name="Turret" XYZ="-80.38141,3.772743,-15.43241" />
+				<Hotspot Name="Turret" XYZ="-81.16315,3.792351,-10.63293" />
+				<Hotspot Name="Turret" XYZ="-75.8707,3.761062,-12.72171" />
+				<Hotspot Name="Turret" XYZ="-77.28896,3.853388,-7.630353" />
 			</Hotspots>
 		</GrindArea>
 
@@ -311,12 +311,12 @@
 				<Mob>Imperial Rearguard</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="76.62691" Y="0.04909185" Z="-38.6433" />
-				<Hotspot Name="My Location" X="83.47381" Y="-0.420707" Z="-41.69299" />
-				<Hotspot Name="My Location" X="87.0667" Y="-0.4362461" Z="-39.86319" />
-				<Hotspot Name="My Location" X="85.98738" Y="-0.4547084" Z="-46.31882" />
-				<Hotspot Name="My Location" X="90.84405" Y="-0.4063074" Z="-42.99359" />
-				<Hotspot Name="My Location" X="91.84451" Y="-0.397314" Z="-48.01592" />
+				<Hotspot Name="My Location" XYZ="76.62691,0.04909185,-38.6433" />
+				<Hotspot Name="My Location" XYZ="83.47381,-0.420707,-41.69299" />
+				<Hotspot Name="My Location" XYZ="87.0667,-0.4362461,-39.86319" />
+				<Hotspot Name="My Location" XYZ="85.98738,-0.4547084,-46.31882" />
+				<Hotspot Name="My Location" XYZ="90.84405,-0.4063074,-42.99359" />
+				<Hotspot Name="My Location" XYZ="91.84451,-0.397314,-48.01592" />
 			</Hotspots>
 		</GrindArea>
 	</GrindAreas>

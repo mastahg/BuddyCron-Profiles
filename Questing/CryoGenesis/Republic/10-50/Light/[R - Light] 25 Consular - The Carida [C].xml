@@ -1,10 +1,10 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[R - Light] 25 The Carida - Consular [CryoGenesis]</Name>
+	<Name>[R - Light] 25 The Carida - Consular [CryoGenesis]</Name>
   
 	<ForceAlignment Type="Light" AutoSkip="True" />
 	
 	<Vendors>
-		<Hotspot Name="Republic Medical Droid" X="-1.2641" Y="-0.099" Z="-5.777" />
+		<Hotspot Name="Republic Medical Droid" XYZ="-1.2641,-0.099,-5.777" />
 	</Vendors>
 
 	
@@ -19,12 +19,12 @@
 				<Mob>Reprogrammed Attack Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="-6.045681" Y="0.0009999508" Z="5.570472" />
-				<Hotspot Name="Reprogrammed Sentry Droid" X="-9.262007" Y="0.004999884" Z="4.462798" />
-				<Hotspot Name="Reprogrammed Attack Droid" X="-8.788818" Y="0.001005429" Z="6.474269" />
-				<Hotspot Name="Reprogrammed Attack Droid" X="-6.422" Y="0.001000138" Z="8.5423" />
-				<Hotspot Name="Reprogrammed Guard Droid" X="-7.496" Y="-0.099" Z="12.0174" />
-				<Hotspot Name="Reprogrammed Attack Droid" X="-12.6163" Y="0.001000203" Z="10.3673" />
+				<Hotspot Name="My Location" XYZ="-6.045681,0.0009999508,5.570472" />
+				<Hotspot Name="Reprogrammed Sentry Droid" XYZ="-9.262007,0.004999884,4.462798" />
+				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-8.788818,0.001005429,6.474269" />
+				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-6.422,0.001000138,8.5423" />
+				<Hotspot Name="Reprogrammed Guard Droid" XYZ="-7.496,-0.099,12.0174" />
+				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.6163,0.001000203,10.3673" />
 			</Hotspots>
 		</GrindArea>    
 		
@@ -35,7 +35,7 @@
 				<Mob>Laranna Fain</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Laranna Fain" X="-10.0804" Y="-0.099" Z="12.6062" />
+				<Hotspot Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</Hotspots>
 		</GrindArea>    
 	
@@ -52,43 +52,43 @@
 		<!-- Consular - Distress Call (The Carida) -->
 		<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsQuestComplete(0xE000EDF4DDB848B6)))">
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 3)))">
-				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Going to Investigate the Carida" X="0.04006613" Y="0.005501461" Z="-0.008969914" />
+				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Going to Investigate the Carida" XYZ="0.04006613,0.005501461,-0.008969914" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 4)))">
-				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Lieutenant Bela Whinn" X="-2.0827" Y="0.004999924" Z="4.4998" />
+				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Lieutenant Bela Whinn" XYZ="-2.0827,0.004999924,4.4998" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 5)))">
-				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Entering the opened door" X="-4.253183" Y="0.01999998" Z="5.495532" />
+				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Entering the opened door" XYZ="-4.253183,0.01999998,5.495532" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 6)))">
-			<!-- Hacked Resistance (Bonus) -->
-			<If Condition="(not IsQuestComplete(0xE0006DB518096937))">
-				<Grind GrindRef="Hacked Resistance (Bonus)" While="(not IsQuestComplete(0xE0006DB518096937))" />
-			</If>
-				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" X="-10.0804" Y="-0.099" Z="12.6062" />
+				<!-- Hacked Resistance (Bonus) -->
+				<If Condition="(not IsQuestComplete(0xE0006DB518096937))">
+					<Grind GrindRef="Hacked Resistance (Bonus)" While="(not IsQuestComplete(0xE0006DB518096937))" />
+				</If>
+				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7)))">
 				<Grind GrindRef="Distress Call 7" While="(not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7))" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 8)))">
-				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" X="-10.0804" Y="-0.099" Z="12.6062" />
+				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</If>
 			<!-- Branch 2, Step 2 -->
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 2, 2)))">
-				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Computer Terminal" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLos="true" WaitTime="5" X="-10.02345" Y="-0.099" Z="12.62379" />
+				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Computer Terminal" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLos="true" WaitTime="5" XYZ="-10.02345,-0.099,12.62379" />
 			</If>
 			<!-- Auto Skip 2, 3 -->
 			<!-- Branch 4, 2 -->
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 4, 2)))">
-				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" X="-8.909665" Y="-0.099" Z="10.30387" />
+				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" XYZ="-8.909665,-0.099,10.30387" />
 				<JumpTo 	QuestId="1" JumpRotation="10" 
-								X="-8.909665" Y="-0.099" Z="10.30387"
+								XYZ="-8.909665,-0.099,10.30387"
 								EndX="-8.842566" EndY="0.0009999789" EndZ="9.112076" />	
-				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" X="-3.431461" Y="0.0199999" Z="5.245546" />					
-				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Door Access Panel" BranchId="4" StepId="2" Radius="20" WaitTime="5" X="-3.431461" Y="0.0199999" Z="5.245546" />
+				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" XYZ="-3.431461,0.0199999,5.245546" />					
+				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Door Access Panel" BranchId="4" StepId="2" Radius="20" WaitTime="5" XYZ="-3.431461,0.0199999,5.245546" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 4, 3)))">
-				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Defender - Airlock to Ship" Radius="20" WaitTime="5" X="2.603906" Y="0.03161899" Z="-0.01629187" />
+				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Defender - Airlock to Ship" Radius="20" WaitTime="5" XYZ="2.603906,0.03161899,-0.01629187" />
 				<UserDialog Title="CryoGenesis" Message="I'm Done on the Carida! If you are not on your ship right now, get on it and complete 'Distress Call'. Next Step is to travel to Tatooine (Distant Outer Rim - Tatooine) for the quest 'Looking Out for the Little Guy', restart the bot and load up that quest profile on Tatooine!" />
 			</If>
 		</If>

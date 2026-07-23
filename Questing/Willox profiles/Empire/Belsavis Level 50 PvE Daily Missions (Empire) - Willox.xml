@@ -7,22 +7,22 @@
 
 	<Vendors>
 		<!-- Minimum Security Section - Imperial Lodgement -->
-		<Hotspot Name="Imperial Medical Droid" X="159.4996" Y="32.4143" Z="138.0106" />
+		<Hotspot Name="Imperial Medical Droid" XYZ="159.4996,32.4143,138.0106" />
 		<!-- High Security Section - Alien Gangland -->
-		<Hotspot Name="Imperial Medical Droid" X="-96.8101" Y="30.76768" Z="218.5408" />
+		<Hotspot Name="Imperial Medical Droid" XYZ="-96.8101,30.76768,218.5408" />
 		<!-- The Tomb - Warlords Deep -->
-		<Hotspot Name="Imperial Medical Droid" X="-77.5095" Y="17.20731" Z="-274.309" />
+		<Hotspot Name="Imperial Medical Droid" XYZ="-77.5095,17.20731,-274.309" />
 	</Vendors>
 
 	<Mailboxes>
 		<!-- Minimum Security Section - Imperial Lodgement -->
-		<Hotspot Name="Mailbox" X="162.467" Y="33.23367" Z="142.8544" />
+		<Hotspot Name="Mailbox" XYZ="162.467,33.23367,142.8544" />
 		<!-- High Security Section - Alien Gangland -->
-		<Hotspot Name="Mailbox" X="-90.71979" Y="30.79175" Z="215.4788" />
+		<Hotspot Name="Mailbox" XYZ="-90.71979,30.79175,215.4788" />
 		<!-- Deep Launchpoint Transporter -->
-		<Hotspot Name="Mailbox" X="-76.62402" Y="15.71317" Z="-237.879" />
+		<Hotspot Name="Mailbox" XYZ="-76.62402,15.71317,-237.879" />
 		<!-- The Tomb - Warlords Deep -->
-		<Hotspot Name="Mailbox" X="-79.47224" Y="17.22219" Z="-273.3656" />
+		<Hotspot Name="Mailbox" XYZ="-79.47224,17.22219,-273.3656" />
 	</Mailboxes>
 
 	<!--
@@ -94,7 +94,7 @@
 		Task 0: 0/10 - Script: IsTaskComplete(0xE000FD1E421BBC7A, 2, 0)
 		Task 1: 0/2 - Script: IsTaskComplete(0xE000FD1E421BBC7A, 2, 1)-->
 		<If Condition="not HasQuest(0xE000FD1E421BBC7A) and not IsQuestComplete(0xE000FD1E421BBC7A)">
-			<PickupQuest QuestName="Invisible Threat" QuestId="0xE000FD1E421BBC7A" GiverName="N4-71" X="-94.3828" Y="30.76542" Z="221.3666"/>
+			<PickupQuest QuestName="Invisible Threat" QuestId="0xE000FD1E421BBC7A" GiverName="N4-71" XYZ="-94.3828,30.76542,221.3666"/>
 		</If>
 
 		<!--
@@ -114,7 +114,7 @@
 		Task 1: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 2, 1)
 		Task 2: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 2, 2)-->
 		<If Condition="not HasQuest(0xE000A6DDB6F9A148) and not IsQuestComplete(0xE000A6DDB6F9A148)">
-			<PickupQuest QuestName="Unintended Consequences" QuestId="0xE000A6DDB6F9A148" GiverName="Major Charkron" X="-97.7509" Y="30.76768" Z="222.6214"/>
+			<PickupQuest QuestName="Unintended Consequences" QuestId="0xE000A6DDB6F9A148" GiverName="Major Charkron" XYZ="-97.7509,30.76768,222.6214"/>
 		</If>
 
 		<!--
@@ -160,7 +160,7 @@
 		IsQuestComplete(0xE000A6DDB6F9A148)
 		IsStepComplete(0xE000A6DDB6F9A148, 3)-->
 		<If Condition="HasQuest(0xE000A6DDB6F9A148) and not IsStepComplete(0xE000A6DDB6F9A148, 3)" >
-			<UseObject Name="Wraith Box"  QuestId="0xE000A6DDB6F9A148" WaitTime="3000" X="-112.5121" Y="19.48314" Z="200.0852" />
+			<UseObject Name="Wraith Box"  QuestId="0xE000A6DDB6F9A148" WaitTime="3000" XYZ="-112.5121,19.48314,200.0852" />
 		</If>
 
 		<!-- 
@@ -176,7 +176,7 @@
 		Tasks: 2
 		Task 0: 0/1 - Script: IsTaskComplete(0xE000FD1E421BBC7A, 3, 0)
 		Task 1: Failed to get information. Possibly hidden task in game engine.-->
-		<TurnInQuest QuestName="Invisible Threat" QuestId="0xE000FD1E421BBC7A" TurnInName="N4-71" X="-94.3828" Y="30.76542" Z="221.3666" />
+		<TurnInQuest QuestName="Invisible Threat" QuestId="0xE000FD1E421BBC7A" TurnInName="N4-71" XYZ="-94.3828,30.76542,221.3666" />
 		<CompleteQuest QuestName="Invisible Threat" QuestId="0xE000FD1E421BBC7A" RewardIndex="1" />
 
 		<!-- 
@@ -193,7 +193,7 @@
 		Task 0: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 4, 0)
 		Task 1: Failed to get information. Possibly hidden task in game engine.
 		Task 2: Failed to get information. Possibly hidden task in game engine. -->
-		<TurnInQuest QuestName="Invisible Threat" QuestId="0xE000A6DDB6F9A148" TurnInName="Major Charkron" X="-97.7509" Y="30.76768" Z="222.6214" />
+		<TurnInQuest QuestName="Invisible Threat" QuestId="0xE000A6DDB6F9A148" TurnInName="Major Charkron" XYZ="-97.7509,30.76768,222.6214" />
 		<CompleteQuest QuestName="Invisible Threat" QuestId="0xE000A6DDB6F9A148" RewardIndex="1" />
 
 
@@ -214,7 +214,7 @@
 		IsQuestComplete(0xE0006744EE8D74C2)
 		IsStepComplete(0xE0006744EE8D74C2, 2)-->
 		<If Condition="not HasQuest(0xE0006744EE8D74C2) and not IsQuestComplete(0xE0006744EE8D74C2)">
-			<PickupQuest QuestName="Reluctant Volunteers" QuestId="0xE0006744EE8D74C2" GiverName="Darth Synar" X="-78.4763" Y="15.711" Z="-238.6302"/>
+			<PickupQuest QuestName="Reluctant Volunteers" QuestId="0xE0006744EE8D74C2" GiverName="Darth Synar" XYZ="-78.4763,15.711,-238.6302"/>
 		</If>
 
 		<!--
@@ -230,7 +230,7 @@
 		IsQuestComplete(0xE0003671CE5ACC9A)
 		IsStepComplete(0xE0003671CE5ACC9A, 2)-->
 		<If Condition="not HasQuest(0xE0003671CE5ACC9A) and not IsQuestComplete(0xE0003671CE5ACC9A)">
-			<PickupQuest QuestName="Found in Translation" QuestId="0xE0003671CE5ACC9A" GiverName="Specialist Nattis" X="-76.6261" Y="15.70979" Z="-237.3105"/>
+			<PickupQuest QuestName="Found in Translation" QuestId="0xE0003671CE5ACC9A" GiverName="Specialist Nattis" XYZ="-76.6261,15.70979,-237.3105"/>
 		</If>
 
 		<!--
@@ -246,7 +246,7 @@
 		IsQuestComplete(0xE000A8107C26C55A)
 		IsStepComplete(0xE000A8107C26C55A, 2)-->
 		<If Condition="not HasQuest(0xE000A8107C26C55A) and not IsQuestComplete(0xE000A8107C26C55A)">
-			<PickupQuest QuestName="Ancient Transmissions" QuestId="0xE000A8107C26C55A" GiverName="AR-72" X="-77.9784" Y="15.7073" Z="-237.2299"/>
+			<PickupQuest QuestName="Ancient Transmissions" QuestId="0xE000A8107C26C55A" GiverName="AR-72" XYZ="-77.9784,15.7073,-237.2299"/>
 		</If>
 
 		<!--
@@ -274,7 +274,7 @@
 		HasQuest(0xE000D987B579F78A)
 		IsQuestComplete(0xE000D987B579F78A)
 		IsStepComplete(0xE000D987B579F78A, 2)-->
-		<PickupQuest QuestName="The Carriers of Xenovirus Prime" QuestId="0xE000D987B579F78A" GiverName="Monitoring Station" X="-77.69521" Y="17.20761" Z="-277.5983"/>
+		<PickupQuest QuestName="The Carriers of Xenovirus Prime" QuestId="0xE000D987B579F78A" GiverName="Monitoring Station" XYZ="-77.69521,17.20761,-277.5983"/>
 		
 		
 		
@@ -351,13 +351,13 @@
 				<Mob>Republic Stealth Scout</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Republic Stealth Sniper" X="-79.56781" Y="28.39856" Z="244.0834" />
-				<Hotspot Name="Republic Stealth Operative" X="-82.7787" Y="28.37417" Z="243.8297" />
-				<Hotspot Name="Republic Stealth Commander" X="-80.9358" Y="28.37417" Z="242.0299" />
-				<Hotspot Name="Republic Stealth Scout" X="-80.49419" Y="26.62398" Z="232.2832" />
-				<Hotspot Name="Republic Stealth Commander" X="-71.1059" Y="25.42397" Z="232.9039" />
-				<Hotspot Name="Republic Stealth Sniper" X="-70.71258" Y="25.40672" Z="236.2411" />
-				<Hotspot Name="Republic Stealth Commander" X="-71.303" Y="25.636" Z="241.9016" />
+				<Hotspot Name="Republic Stealth Sniper" XYZ="-79.56781,28.39856,244.0834" />
+				<Hotspot Name="Republic Stealth Operative" XYZ="-82.7787,28.37417,243.8297" />
+				<Hotspot Name="Republic Stealth Commander" XYZ="-80.9358,28.37417,242.0299" />
+				<Hotspot Name="Republic Stealth Scout" XYZ="-80.49419,26.62398,232.2832" />
+				<Hotspot Name="Republic Stealth Commander" XYZ="-71.1059,25.42397,232.9039" />
+				<Hotspot Name="Republic Stealth Sniper" XYZ="-70.71258,25.40672,236.2411" />
+				<Hotspot Name="Republic Stealth Commander" XYZ="-71.303,25.636,241.9016" />
 			</Hotspots>
 		</GrindArea>
 		<GrindArea Name="Unintended Consequences">
@@ -369,10 +369,10 @@
 				<Mob>Kaleesh Warrior</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Kaleesh Hunter" X="-81.05198" Y="27.89351" Z="210.1513" />
-				<Hotspot Name="Kaleesh Commander" X="-85.56503" Y="27.901" Z="209.7249" />
-				<Hotspot Name="Kaleesh Warrior" X="-91.3098" Y="19.901" Z="210.9836" />
-				<Hotspot Name="Kaleesh Warrior" X="-95.41041" Y="19.711" Z="207.3495" />
+				<Hotspot Name="Kaleesh Hunter" XYZ="-81.05198,27.89351,210.1513" />
+				<Hotspot Name="Kaleesh Commander" XYZ="-85.56503,27.901,209.7249" />
+				<Hotspot Name="Kaleesh Warrior" XYZ="-91.3098,19.901,210.9836" />
+				<Hotspot Name="Kaleesh Warrior" XYZ="-95.41041,19.711,207.3495" />
 			</Hotspots>
 		</GrindArea>
 		<GrindArea Name="Reluctant Volunteers">
@@ -382,7 +382,7 @@
 				<Mob>Esh-kha Brute</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Brute" X="-86.99247" Y="12.26913" Z="-262.5849" />
+				<Hotspot Name="Esh-kha Brute" XYZ="-86.99247,12.26913,-262.5849" />
 			</Hotspots>
 		</GrindArea>
 	</GrindAreas>	

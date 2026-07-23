@@ -1,18 +1,18 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>Testing doorpanel</Name>
+	<Name>Testing doorpanel</Name>
 
 
 	<Questing>
 		<!--<MoveTo QuestId="0xE000CD19F6C033BB" Name="Door Panel" X="100.1138" Y="43.38709" Z="-246.9981" />
 		<UseObject QuestId="0xE000CD19F6C033BB" Name="Door Panel" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" IgnoreMesh="True" X="100.1138" Y="43.38709" Z="-247.0326" /> -->
 		<UseObject QuestId="0xE000CD19F6C033BB" IgnoreLOS="True" Radius="1" UseRange="5" WaitTime="5" >
-			 <Placeables>
+			<Placeables>
 				<Placeable>Door Panel</Placeable>
-			 </Placeables>
-			 <Hotspots>
-				<Hotspot Name="Door Panel" X="100.1138" Y="43.38709" Z="-246.9981" />
-			 </Hotspots>
-			</UseObject>
+			</Placeables>
+			<Hotspots>
+				<Hotspot Name="Door Panel" XYZ="100.1138,43.38709,-246.9981" />
+			</Hotspots>
+		</UseObject>
 	</Questing>
 </Profile>
 

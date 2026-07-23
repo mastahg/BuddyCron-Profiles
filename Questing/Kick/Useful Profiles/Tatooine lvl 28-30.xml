@@ -1,61 +1,61 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>Grinding level 6ish</Name>
+	<Name>Grinding level 6ish</Name>
 	
 	<Vendors>
-	<Hotspot Name="Imperial Medical Droid" X="143.9771" Y="44.40549" Z="58.8818" />
-    <Hotspot Name="Engine Oil Keratho" X="61.44556" Y="51.911" Z="358.3479" /> <!-- Tatooine: Mos Ila Spaceport -->
-	<Hotspot Name="Imperial Medical Droid" X="58.6105" Y="51.44746" Z="347.1011" /> <!-- Tatooine: Mos Ila Spaceport -->
-	<Hotspot Name="Danurorus" X="77.5611" Y="48.04441" Z="312.9839" />
-	<Hotspot Name="Phrague" X="71.2648" Y="46.50851" Z="280.9474" />
-	<Hotspot Name="Imperial Medical Droid" X="76.2237" Y="45.20236" Z="63.2247" />
-	<Hotspot Name="Nozabuiba" X="78.9839" Y="51.7154" Z="336.6888" /> <!-- Siltshift Cantina -->
-	<Hotspot Name="Imperial Medical Droid" X="73.2542" Y="46.28718" Z="276.0182" /> <!-- Mos Ila -->
-	<Hotspot Name="Sergeant Kench" X="67.0483" Y="45.35346" Z="62.8698" /> <!-- Outpost Varath -->
-	<Hotspot Name="Imperial Medical Droid" X="76.2237" Y="45.20236" Z="63.2247" /> <!-- Outpost Varath -->
-	<Hotspot Name="Yuprel" X="9.175598" Y="45.52941" Z="28.4401" /> <!-- Mos Anek -->
-	<Hotspot Name="Imperial Medical Droid" X="-4.466003" Y="44.6794" Z="32.1252" /><!-- Mos Anek -->
-	<Hotspot Name="Imperial Medical Droid" X="-66.7753" Y="43.85284" Z="-57.3646" /> <!-- Outpost Zaroshe -->
-	<Hotspot Name="Imperial Medical Droid" X="126.3566" Y="43.44089" Z="-4.025803" /> <!-- Outpost Rennar -->
-	<Hotspot Name="Supply Officer Threco" X="160.78" Y="44.74827" Z="-61.066" /> <!-- Ridgeside Sentry Post -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="143.9771,44.40549,58.8818" />
+		<Hotspot Name="Engine Oil Keratho" XYZ="61.44556,51.911,358.3479" /> <!-- Tatooine: Mos Ila Spaceport -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="58.6105,51.44746,347.1011" /> <!-- Tatooine: Mos Ila Spaceport -->
+		<Hotspot Name="Danurorus" XYZ="77.5611,48.04441,312.9839" />
+		<Hotspot Name="Phrague" XYZ="71.2648,46.50851,280.9474" />
+		<Hotspot Name="Imperial Medical Droid" XYZ="76.2237,45.20236,63.2247" />
+		<Hotspot Name="Nozabuiba" XYZ="78.9839,51.7154,336.6888" /> <!-- Siltshift Cantina -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="73.2542,46.28718,276.0182" /> <!-- Mos Ila -->
+		<Hotspot Name="Sergeant Kench" XYZ="67.0483,45.35346,62.8698" /> <!-- Outpost Varath -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="76.2237,45.20236,63.2247" /> <!-- Outpost Varath -->
+		<Hotspot Name="Yuprel" XYZ="9.175598,45.52941,28.4401" /> <!-- Mos Anek -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="-4.466003,44.6794,32.1252" /><!-- Mos Anek -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="-66.7753,43.85284,-57.3646" /> <!-- Outpost Zaroshe -->
+		<Hotspot Name="Imperial Medical Droid" XYZ="126.3566,43.44089,-4.025803" /> <!-- Outpost Rennar -->
+		<Hotspot Name="Supply Officer Threco" XYZ="160.78,44.74827,-61.066" /> <!-- Ridgeside Sentry Post -->
 	</Vendors>
 	
 	<GrindAreas> 
 	
-	<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
-      <MinLevel>1</MinLevel>
-      <MaxLevel>51</MaxLevel>
-      <Mobs>
-		<Mob>Exchange Anti-Aircraft Gunner</Mob>
-		<Mob>Exchange Assault Droid</Mob>
-		<Mob>Exchange Droid Technician</Mob>
-		<Mob>Exchange Investigation Drone</Mob>
-		<Mob>Exchange Quartermaster</Mob>
-		<Mob>Exchange Raider</Mob>
-		<Mob>Exchange Raider</Mob>
-		<Mob>Exchange Sentry</Mob>
-		<Mob>Exchange Slicer</Mob>
-		<Mob>Exchange Supply Runner</Mob>
-		<Mob>Exchange Tech-Runner</Mob>
-      </Mobs>
-      <Hotspots>
-		<Hotspot Name="My Location" X="90.29421" Y="42.04658" Z="-9.047235" />
-		<Hotspot Name="Exchange Supply Runner" X="99.5886" Y="43.669" Z="-16.3968" />
-		<Hotspot Name="Exchange Raider" X="84.38779" Y="42.09078" Z="2.251667" />
-		<Hotspot Name="My Location" X="90.1539" Y="42.04681" Z="-7.388222" />
-		<Hotspot Name="My Location" X="86.6192" Y="42.09088" Z="-3.703967" />
-		<Hotspot Name="My Location" X="94.43649" Y="42.37826" Z="-0.9193409" />
-		<Hotspot Name="Exchange Slicer" X="85.53374" Y="44.86664" Z="-19.51609" />
-		<Hotspot Name="Exchange Sentry" X="79.4231" Y="44.84555" Z="-15.7237" />
-		<Hotspot Name="Exchange Slicer" X="85.53374" Y="44.86664" Z="-19.51609" />
-		<Hotspot Name="Exchange Raider" X="63.3857" Y="42.04995" Z="-8.873597" />
-		<Hotspot Name="Exchange Supply Runner" X="65.40141" Y="42.55984" Z="-0.1335971" />		
-      </Hotspots>
-	</GrindArea>
+		<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>51</MaxLevel>
+			<Mobs>
+				<Mob>Exchange Anti-Aircraft Gunner</Mob>
+				<Mob>Exchange Assault Droid</Mob>
+				<Mob>Exchange Droid Technician</Mob>
+				<Mob>Exchange Investigation Drone</Mob>
+				<Mob>Exchange Quartermaster</Mob>
+				<Mob>Exchange Raider</Mob>
+				<Mob>Exchange Raider</Mob>
+				<Mob>Exchange Sentry</Mob>
+				<Mob>Exchange Slicer</Mob>
+				<Mob>Exchange Supply Runner</Mob>
+				<Mob>Exchange Tech-Runner</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" XYZ="90.29421,42.04658,-9.047235" />
+				<Hotspot Name="Exchange Supply Runner" XYZ="99.5886,43.669,-16.3968" />
+				<Hotspot Name="Exchange Raider" XYZ="84.38779,42.09078,2.251667" />
+				<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
+				<Hotspot Name="My Location" XYZ="86.6192,42.09088,-3.703967" />
+				<Hotspot Name="My Location" XYZ="94.43649,42.37826,-0.9193409" />
+				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+				<Hotspot Name="Exchange Sentry" XYZ="79.4231,44.84555,-15.7237" />
+				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+				<Hotspot Name="Exchange Raider" XYZ="63.3857,42.04995,-8.873597" />
+				<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />		
+			</Hotspots>
+		</GrindArea>
 
 	</GrindAreas>
 
 		
-		<Grind GrindRef="Stage 1 - Enforcing Order - Defeat Exchange Forces" While="True" />
+	<Grind GrindRef="Stage 1 - Enforcing Order - Defeat Exchange Forces" While="True" />
 
 
 </Profile>

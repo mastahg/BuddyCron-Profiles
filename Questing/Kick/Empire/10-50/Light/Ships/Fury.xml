@@ -13,12 +13,12 @@
 		
 		<If Condition="not ??????????">
 			<!-- Exit ship -->
-			<UseObject QuestId="??????????" Name="Ship Exit" WaitTime="3500" X="0.02821727" Y="0.798188" Z="4.449782" />
+			<UseObject QuestId="??????????" Name="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
 		</If>
 		
 		<!-- Into the Pit -->
 		<If Condition="not IsBranchStepComplete(0xE00081033ABE002B, 6, 3)">
-			<TurnInQuest Type="Placeable" QuestName="Into the Pit" QuestId="0xE00081033ABE002B" TurnInName="Holoterminal" X="1.786277E+25" Y="7.865703E+34" Z="1.849393E+31" />
+			<TurnInQuest Type="Placeable" QuestName="Into the Pit" QuestId="0xE00081033ABE002B" TurnInName="Holoterminal" XYZ="1.786277E+25,7.865703E+34,1.849393E+31" />
 		</If>
 		
 		<!-- Into the Pit -->
@@ -39,7 +39,7 @@
 		<!-- The Prophet Arrives -->
 		<If Condition="not IsStepComplete(0xE0002CB06A3D9FAE, 2)">
 			<!-- Exit ship -->
-			<UseObject QuestId="0xE0002CB06A3D9FAE" Name="Ship Exit" WaitTime="3500" X="0.02821727" Y="0.798188" Z="4.449782" />
+			<UseObject QuestId="0xE0002CB06A3D9FAE" Name="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
 		</If>
 		
 		

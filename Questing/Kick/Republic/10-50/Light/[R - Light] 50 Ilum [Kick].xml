@@ -1,26 +1,26 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[R - Light] 50 Ilum [Kick]</Name>
+	<Name>[R - Light] 50 Ilum [Kick]</Name>
   
 	<ForceAlignment Type="Light" AutoSkip="true" />
 	
 	<Vendors>
-		<Hotspot Name="Republic Medical Droid" X="70.5276" Y="-1.4112" Z="52.6402" /> <!-- Republic Base Camp -->
-		<Hotspot Name="Lieutenant Shrokti" X="54.3618" Y="-3.363297" Z="52.803" /> <!-- Republic Base Camp -->
-		<Hotspot Name="Republic Medical Droid" X="-0.6822" Y="-0.6387" Z="21.9234" /> <!-- Republic Waystation -->
-		<Hotspot Name="Lieutenant Joka" X="-199.9838" Y="2.791829" Z="118.6829" /> <!-- Republic Fray Landing Zone -->
+		<Hotspot Name="Republic Medical Droid" XYZ="70.5276,-1.4112,52.6402" /> <!-- Republic Base Camp -->
+		<Hotspot Name="Lieutenant Shrokti" XYZ="54.3618,-3.363297,52.803" /> <!-- Republic Base Camp -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-0.6822,-0.6387,21.9234" /> <!-- Republic Waystation -->
+		<Hotspot Name="Lieutenant Joka" XYZ="-199.9838,2.791829,118.6829" /> <!-- Republic Fray Landing Zone -->
 		
 	</Vendors>
 	
 	<Mailboxes>
-		<Hotspot Name="Republic Base Camp" X="52.32753" Y="-3.181149" Z="57.46116" />
-		<Hotspot Name="Republic Waystation" X="0.8927016" Y="-0.6387" Z="20.95343" />
+		<Hotspot Name="Republic Base Camp" XYZ="52.32753,-3.181149,57.46116" />
+		<Hotspot Name="Republic Waystation" XYZ="0.8927016,-0.6387,20.95343" />
 	</Mailboxes>
 	
 	<Trainers>
-		<Hotspot Name="Master Alekam" Class="Consular" X="53.2772" Y="-8.963297" Z="53.0304" />
-		<Hotspot Name="Master Tera-Su" Class="Knight" X="51.5296" Y="-8.963297" Z="54.2865" />
-		<Hotspot Name="Lesk &quot;Lightning&quot; Alair" Class="Smuggler" X="55.8267" Y="-8.94908" Z="53.878" />
-		<Hotspot Name="Commander Freyden" Class="Trooper" X="53.1168" Y="-8.792556" Z="56.6276" />
+		<Hotspot Name="Master Alekam" Class="Consular" XYZ="53.2772,-8.963297,53.0304" />
+		<Hotspot Name="Master Tera-Su" Class="Knight" XYZ="51.5296,-8.963297,54.2865" />
+		<Hotspot Name="Lesk &quot;Lightning&quot; Alair" Class="Smuggler" XYZ="55.8267,-8.94908,53.878" />
+		<Hotspot Name="Commander Freyden" Class="Trooper" XYZ="53.1168,-8.792556,56.6276" />
 	</Trainers>
 	
 	<!--
@@ -60,25 +60,25 @@
 
 	</GrindAreas>
 
-		<GrindArea Name="">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-			</Mobs>
-			<Hotspots>
+	<GrindArea Name="">
+		<MinLevel>1</MinLevel>
+		<MaxLevel>50</MaxLevel>
+		<Mobs>
+			<Mob></Mob>
+			<Mob></Mob>
+			<Mob></Mob>
+			<Mob></Mob>
+			<Mob></Mob>
+			<Mob></Mob>
+		</Mobs>
+		<Hotspots>
 				
 				
 				
 				
 				
-			</Hotspots>
-		</GrindArea>    
+		</Hotspots>
+	</GrindArea>    
 
 	<Questing>
 	
@@ -90,18 +90,18 @@
 		
 		<!-- Consular - Crystal Ball -->
 		<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsQuestComplete(0xE000D5AEB3BF7235)))">
-		 <If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsBranchStepComplete(0xE000D5AEB3BF7235, 1, 6)))">
-			<TalkTo QuestId="0xE000D5AEB3BF7235" Name="Supreme Commander Rans" X="57.6311" Y="-3.343423" Z="49.5196" />
-		 </If>
+			<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsBranchStepComplete(0xE000D5AEB3BF7235, 1, 6)))">
+				<TalkTo QuestId="0xE000D5AEB3BF7235" Name="Supreme Commander Rans" XYZ="57.6311,-3.343423,49.5196" />
+			</If>
 		</If>
 		
-	<PickUpQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" GiverName="Agent Falcon" X="50.5174" Y="-3.197022" Z="57.7207" />
+		<PickUpQuest QuestName="Jam the Transmissions" QuestId="0xE0009F685FAEA75D" GiverName="Agent Falcon" XYZ="50.5174,-3.197022,57.7207" />
 		
 		
 		
 		
 		
-			<UserDialog Title="Kick" Message="This profile is currently not available for use!" />
+		<UserDialog Title="Kick" Message="This profile is currently not available for use!" />
 
 		
 		

@@ -1,102 +1,102 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[E - Light] Imperial Fleet to Dromund Kaas [Kick]</Name>
+	<Name>[E - Light] Imperial Fleet to Dromund Kaas [Kick]</Name>
   
 	<ForceAlignment Type="Light" AutoSkip="true" />
 	
 	<Vendors>
-		<Hotspot Name="Jensen" X="479.9774" Y="69.801" Z="460.4633" />
-		<Hotspot Name="Bartender" X="470.0116" Y="70.181" Z="468.5824" />
+		<Hotspot Name="Jensen" XYZ="479.9774,69.801,460.4633" />
+		<Hotspot Name="Bartender" XYZ="470.0116,70.181,468.5824" />
 	</Vendors>
 	
 	<Mailboxes>
-		<Hotspot Name="My Location" X="475.8766" Y="71.0002" Z="470.985" />
+		<Hotspot Name="My Location" XYZ="475.8766,71.0002,470.985" />
 	</Mailboxes>
 	
 	<Trainers>
-		<Hotspot Name="Agent Marxa" Class="Agent" X="479.9584" Y="69.401" Z="453.3768" />
-		<Hotspot Name="Bulga the Crude"  Class="BountyHunter" X="484.2865" Y="69.401" Z="456.3523" />
-		<Hotspot Name="Lord Twintan" Class="Inquisitor" X="486.3813" Y="69.401" Z="458.6674" />
-		<Hotspot Name="Lord Hold" Class="Warrior" X="488.5438" Y="69.401" Z="464.3067" />
+		<Hotspot Name="Agent Marxa" Class="Agent" XYZ="479.9584,69.401,453.3768" />
+		<Hotspot Name="Bulga the Crude"  Class="BountyHunter" XYZ="484.2865,69.401,456.3523" />
+		<Hotspot Name="Lord Twintan" Class="Inquisitor" XYZ="486.3813,69.401,458.6674" />
+		<Hotspot Name="Lord Hold" Class="Warrior" XYZ="488.5438,69.401,464.3067" />
 	</Trainers>
 
 	<Questing>
 	
 		<!-- Agent, BH, Inquisitor, Warrior - Wonka to Fleet -->
 		<If Condition="(HasQuest(0xE000D722A9D8E989)) or (HasQuest(0xE0005EC6ED10F90F)) or (HasQuest(0xE0006DA1145988E6)) or (HasQuest(0xE000919D1513AC49))">
- 		 <If Condition="(Me.Position.Y &gt;= 0) and (Me.Position.Y &lt;= 1) and (Me.Position.X &gt;= 660) and (Me.Position.X &lt;= 675) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator to Station Core" Option="Main Level" 
-									X="663.931" Y="0.09508116" Z="473.2502" 
+			<If Condition="(Me.Position.Y &gt;= 0) and (Me.Position.Y &lt;= 1) and (Me.Position.X &gt;= 660) and (Me.Position.X &lt;= 675) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
+				<UseTransport Type="Wonkavator" TransporterName="Elevator to Station Core" Option="Main Level" 
+									XYZ="663.931,0.09508116,473.2502" 
 									ToX="485.1895" ToY="70.19205" ToZ="470" />
-		 </If>
+			</If>
 		</If>
 
 		<If Condition="Me.Class == CharacterClass.Agent">
 			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6" RewardIndex="3"/>
-	<PickUpQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" GiverName="Commander Dorne" X="480.2943" Y="70.211" Z="468.9107" />
-		 <If Condition="((HasQuest(0xE0008AB7FB48957A)) and (not IsQuestComplete(0xE0008AB7FB48957A)))">
-	<TurnInQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" TurnInName="Intelligence Quartermaster" X="481.386" Y="69.401" Z="454.2191" />
-			<CompleteQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" RewardIndex="1" />
+			<PickUpQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" GiverName="Commander Dorne" XYZ="480.2943,70.211,468.9107" />
+			<If Condition="((HasQuest(0xE0008AB7FB48957A)) and (not IsQuestComplete(0xE0008AB7FB48957A)))">
+				<TurnInQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" TurnInName="Intelligence Quartermaster" XYZ="481.386,69.401,454.2191" />
+				<CompleteQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" RewardIndex="1" />
 
-			<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
-			<ForceVendor VendorType="Train" />
-		 </If>
+				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
+				<ForceVendor VendorType="Train" />
+			</If>
 			
-		 <If Condition="((not HasQuest(0xE000E511A72BA065)) and (not IsQuestComplete(0xE000E511A72BA065)))">
-			<MoveTo QuestId="1" X="470.079" Y="70.201" Z="467.8111" />
-	<PickUpQuest QuestName="Part of the Team" QuestId="0xE000E511A72BA065" GiverName="Kaliyo" X="470.079" Y="70.201" Z="467.8111" />
-		 </If>
+			<If Condition="((not HasQuest(0xE000E511A72BA065)) and (not IsQuestComplete(0xE000E511A72BA065)))">
+				<MoveTo QuestId="1" XYZ="470.079,70.201,467.8111" />
+				<PickUpQuest QuestName="Part of the Team" QuestId="0xE000E511A72BA065" GiverName="Kaliyo" XYZ="470.079,70.201,467.8111" />
+			</If>
 			<CompleteQuest QuestName="Part of the Team" QuestId="0xE000E511A72BA065" />
 		</If>
 
 		<If Condition="Me.Class == CharacterClass.BountyHunter">
 			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC" RewardIndex="3"/>
-	<PickUpQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" GiverName="Rally Master Merrk Kelborn" X="480.1538" Y="70.211" Z="469.114" />
-		 <If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsQuestComplete(0xE0002E80DC508937)))">
-		  <If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsBranchStepComplete(0xE0002E80DC508937, 1, 2)))">
-			<TalkTo QuestId="0xE0002E80DC508937" Name="Braum &quot;Zakkeg&quot; Bourne" X="482.0164" Y="69.401" Z="456.493" />
-		  </If>
-	<TurnInQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" TurnInName="Rally Master Merrk Kelborn" X="480.1538" Y="70.211" Z="469.114" />
-			<CompleteQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" RewardIndex="1" />
-			<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
-			<ForceVendor VendorType="Train" />
-		 </If>
+			<PickUpQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" GiverName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
+			<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsQuestComplete(0xE0002E80DC508937)))">
+				<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsBranchStepComplete(0xE0002E80DC508937, 1, 2)))">
+					<TalkTo QuestId="0xE0002E80DC508937" Name="Braum &quot;Zakkeg&quot; Bourne" XYZ="482.0164,69.401,456.493" />
+				</If>
+				<TurnInQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" TurnInName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
+				<CompleteQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" RewardIndex="1" />
+				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
+				<ForceVendor VendorType="Train" />
+			</If>
 		</If>
 		
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
 			<CompleteQuest QuestName="Go to Dromund Kaas" QuestId="0xE0008DB4769571D5" />
-	<PickupQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" GiverName="Lord Krillis" X="480.1323" Y="70.211" Z="470.9225" />
-		 <If Condition="((HasQuest(0xE00033941096C865)) and (not IsQuestComplete(0xE00033941096C865)))">
-	<TurnInQuest QuestId="0xE00033941096C865" TurnInName="Overseer Kryos" X="485.4571" Y="69.401" Z="458.7404" />
-			<CompleteQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" />
-			<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
-			<ForceVendor VendorType="Train" />
-		 </If>
+			<PickupQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" GiverName="Lord Krillis" XYZ="480.1323,70.211,470.9225" />
+			<If Condition="((HasQuest(0xE00033941096C865)) and (not IsQuestComplete(0xE00033941096C865)))">
+				<TurnInQuest QuestId="0xE00033941096C865" TurnInName="Overseer Kryos" XYZ="485.4571,69.401,458.7404" />
+				<CompleteQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" />
+				<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
+				<ForceVendor VendorType="Train" />
+			</If>
 		</If>
 		
 		<If Condition="Me.Class == CharacterClass.Warrior">
 			<CompleteQuest QuestName="Leaving Korriban" QuestId="0xE00011DCC3956478" />
-	<PickupQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" GiverName="Lord Lokar" X="480.3184" Y="70.211" Z="471.1013" />
-		 <If Condition="((HasQuest(0xE000A1E3667B01B3)) and (not IsQuestComplete(0xE000A1E3667B01B3)))">
-	<TurnInQuest QuestId="0xE000A1E3667B01B3" TurnInName="Lord Krimyn" X="488.557" Y="69.401" Z="463.4848" />
-			<CompleteQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" />
-			<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
-			<ForceVendor VendorType="Train" />
-		 </If>
+			<PickupQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" GiverName="Lord Lokar" XYZ="480.3184,70.211,471.1013" />
+			<If Condition="((HasQuest(0xE000A1E3667B01B3)) and (not IsQuestComplete(0xE000A1E3667B01B3)))">
+				<TurnInQuest QuestId="0xE000A1E3667B01B3" TurnInName="Lord Krimyn" XYZ="488.557,69.401,463.4848" />
+				<CompleteQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" />
+				<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
+				<ForceVendor VendorType="Train" />
+			</If>
 		</If>
 
 		<!-- Agent, BH, Inquisitor, Warrior - Shuttle to Dromund Kaas -->
 		<If Condition="(HasQuest(0xE000D722A9D8E989)) or (HasQuest(0xE0005EC6ED10F90F)) or (HasQuest(0xE0006DA1145988E6)) or (HasQuest(0xE000919D1513AC49))">
- 		 <If Condition="(Me.Position.Y &lt;= 72) and (Me.Position.Y &gt;= 68) and (Me.Position.X &gt;= 462) and (Me.Position.X &lt;= 490) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
-			<UseTransport TransporterName="Dromund Kaas Departures Elevator" Type="Wonkavator" Option="Dromund Kaas Departures" 
-									X="469.9498" Y="70.19608" Z="454.3407" 
+			<If Condition="(Me.Position.Y &lt;= 72) and (Me.Position.Y &gt;= 68) and (Me.Position.X &gt;= 462) and (Me.Position.X &lt;= 490) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
+				<UseTransport TransporterName="Dromund Kaas Departures Elevator" Type="Wonkavator" Option="Dromund Kaas Departures" 
+									XYZ="469.9498,70.19608,454.3407" 
 									ToX="481.4977" ToY="0.1910517" ToZ="273.2335" />
-		 </If>
- 		 <If Condition="(Me.Position.Y &lt;= 2) and (Me.Position.Y &gt;= 0) and (Me.Position.X &gt;= 468) and (Me.Position.X &lt;= 483) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
-			<UseTransport TransporterName="Shuttle to Dromund Kaas" Type="Wonkavator" Option="Dromund Kaas Spaceport" 
-									X="470.0637" Y="0.5861785" Z="267.8914" 
+			</If>
+			<If Condition="(Me.Position.Y &lt;= 2) and (Me.Position.Y &gt;= 0) and (Me.Position.X &gt;= 468) and (Me.Position.X &lt;= 483) and (BuddyTor.Client.AreaID == 0x4000001CCBDD9A50)">
+				<UseTransport TransporterName="Shuttle to Dromund Kaas" Type="Wonkavator" Option="Dromund Kaas Spaceport" 
+									XYZ="470.0637,0.5861785,267.8914" 
 									ToX="92.1916" ToY="-7.799997" ToZ="1.430634" />
-			<WaitTimer QuestId="1" WaitTime="30" />
-		 </If>
+				<WaitTimer QuestId="1" WaitTime="30" />
+			</If>
 		</If>
 	
 		<LoadProfile Path="..\..\10-50\Dark\[E - Light] 10-17 Dromund Kaas [Kick].xml" />

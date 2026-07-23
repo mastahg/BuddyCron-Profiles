@@ -1,37 +1,37 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-  <Name>[R - Light] 41-44 Belsavis [Kick]</Name>
+	<Name>[R - Light] 41-44 Belsavis [Kick]</Name>
   
 	<ForceAlignment Type="Light" AutoSkip="true" />
 	
 	<Vendors>
-		<Hotspot Name="Republic Medical Droid" X="131.5886" Y="30.55137" Z="25.6284" /> <!-- Prison Administration Center -->
-		<Hotspot Name="Morale Officer T'len" X="120.2042" Y="29.991" Z="16.7279" /> <!-- Cantina -->
-		<Hotspot Name="Republic Medical Droid" X="43.7962" Y="27.02321" Z="84.6899" /> <!-- Republic Guardpost Beta -->
-		<Hotspot Name="Republic Medical Droid" X="-13.4281" Y="24.00608" Z="55.8373" /> <!-- Republic Watchtower -->
-		<Hotspot Name="Republic Medical Droid" X="-147.9789" Y="27.28861" Z="-34.4759" /> <!-- Republic Ops Center  -->
-		<Hotspot Name="Republic Medical Droid" X="-192.8178" Y="18.42244" Z="-65.1188" /> <!-- Maximum Security Thoroughfare -->
-		<Hotspot Name="Republic Medical Droid" X="-177.0527" Y="21.26061" Z="-81.8272" /> <!-- Outer Tomb -->
-		<Hotspot Name="Republic Medical Droid" X="-158.6836" Y="18.25674" Z="-141.7837" /> <!-- The Scar -->
-		<Hotspot Name="Republic Medical Droid" X="-102.4776" Y="17.49575" Z="-131.0971" /> <!-- The Tomb -->
-		<Hotspot Name="Republic Medical Droid" X="-7.4253" Y="13.39752" Z="-142.3559" /> <!-- Upper Transport Center -->
-		<Hotspot Name="Republic Medical Droid" X="-24.5007" Y="11.14414" Z="-321.3275" /> <!-- The Tomb -->
-		<Hotspot Name="Republic Medical Droid" X="-20.3287" Y="10.59752" Z="-311.8024" /> <!-- Frozen Transport Center -->
+		<Hotspot Name="Republic Medical Droid" XYZ="131.5886,30.55137,25.6284" /> <!-- Prison Administration Center -->
+		<Hotspot Name="Morale Officer T'len" XYZ="120.2042,29.991,16.7279" /> <!-- Cantina -->
+		<Hotspot Name="Republic Medical Droid" XYZ="43.7962,27.02321,84.6899" /> <!-- Republic Guardpost Beta -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-13.4281,24.00608,55.8373" /> <!-- Republic Watchtower -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-147.9789,27.28861,-34.4759" /> <!-- Republic Ops Center  -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-192.8178,18.42244,-65.1188" /> <!-- Maximum Security Thoroughfare -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-177.0527,21.26061,-81.8272" /> <!-- Outer Tomb -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-158.6836,18.25674,-141.7837" /> <!-- The Scar -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-102.4776,17.49575,-131.0971" /> <!-- The Tomb -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-7.4253,13.39752,-142.3559" /> <!-- Upper Transport Center -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-24.5007,11.14414,-321.3275" /> <!-- The Tomb -->
+		<Hotspot Name="Republic Medical Droid" XYZ="-20.3287,10.59752,-311.8024" /> <!-- Frozen Transport Center -->
 	</Vendors>
 	
 	<Mailboxes>
-		<Hotspot Name="Prison Administration Center" X="120.4901" Y="29.99414" Z="30.47457" />
-		<Hotspot Name="Republic Guardpost Beta" X="44.02655" Y="27.02565" Z="82.62804" />
-		<Hotspot Name="Republic Watchtower" X="-9.1991" Y="24.01864" Z="59.30571" />
-		<Hotspot Name="Republic Ops Center " X="-152.127" Y="26.98392" Z="-32.94196" />
-		<Hotspot Name="Automated Checkpoint" X="-100.762" Y="17.53177" Z="-131.4914" />
-		<Hotspot Name="The Tomb" X="-27.51226" Y="11.09687" Z="-322.9531" />
+		<Hotspot Name="Prison Administration Center" XYZ="120.4901,29.99414,30.47457" />
+		<Hotspot Name="Republic Guardpost Beta" XYZ="44.02655,27.02565,82.62804" />
+		<Hotspot Name="Republic Watchtower" XYZ="-9.1991,24.01864,59.30571" />
+		<Hotspot Name="Republic Ops Center " XYZ="-152.127,26.98392,-32.94196" />
+		<Hotspot Name="Automated Checkpoint" XYZ="-100.762,17.53177,-131.4914" />
+		<Hotspot Name="The Tomb" XYZ="-27.51226,11.09687,-322.9531" />
 	</Mailboxes>
 	
 	<Trainers>
-		<Hotspot Name="Master Illares" Class="Consular" X="122.0998" Y="30.55106" Z="24.4086" />
-		<Hotspot Name="Master Hasslo" Class="Knight" X="122.0973" Y="30.55106" Z="26.0146" />
-		<Hotspot Name="Blancia Sel" Class="Smuggler" X="125.6783" Y="30.55137" Z="27.786" />
-		<Hotspot Name="Colonel Kanna" Class="Trooper" X="125.1476" Y="30.55046" Z="27.475" />
+		<Hotspot Name="Master Illares" Class="Consular" XYZ="122.0998,30.55106,24.4086" />
+		<Hotspot Name="Master Hasslo" Class="Knight" XYZ="122.0973,30.55106,26.0146" />
+		<Hotspot Name="Blancia Sel" Class="Smuggler" XYZ="125.6783,30.55137,27.786" />
+		<Hotspot Name="Colonel Kanna" Class="Trooper" XYZ="125.1476,30.55046,27.475" />
 	</Trainers>
 	
 	<!--
@@ -76,7 +76,7 @@
 				<Mob>Condemned Assassin</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Condemned Assassin" X="93.6866" Y="28.49255" Z="15.2621" />
+				<Hotspot Name="Condemned Assassin" XYZ="93.6866,28.49255,15.2621" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -96,10 +96,10 @@
 				<Mob>Gang Leader</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Mauler" X="90.87733" Y="29.99161" Z="37.64135" />
-				<Hotspot Name="Sharpshooter" X="90.68957" Y="29.99161" Z="41.29659" />
-				<Hotspot Name="Gang Leader" X="100.4959" Y="30.1981" Z="60.0808" />
-				<Hotspot Name="Armsmaster" X="87.39935" Y="29.99228" Z="67.49539" />
+				<Hotspot Name="Mauler" XYZ="90.87733,29.99161,37.64135" />
+				<Hotspot Name="Sharpshooter" XYZ="90.68957,29.99161,41.29659" />
+				<Hotspot Name="Gang Leader" XYZ="100.4959,30.1981,60.0808" />
+				<Hotspot Name="Armsmaster" XYZ="87.39935,29.99228,67.49539" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -113,10 +113,10 @@
 				<Mob>Mandalorian Hunter</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Improvised Mandalorian Turret" X="102.2824" Y="29.07061" Z="87.721" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="102.0043" Y="29.42887" Z="84.048" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="106.2708" Y="29.88734" Z="81.0987" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="107.8494" Y="29.81658" Z="84.679" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -130,12 +130,12 @@
 				<Mob>Mandalorian Hunter</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Improvised Mandalorian Turret" X="102.2824" Y="29.07061" Z="87.721" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="102.0043" Y="29.42887" Z="84.048" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="106.2708" Y="29.88734" Z="81.0987" />
-				<Hotspot Name="Improvised Mandalorian Turret" X="107.8494" Y="29.81658" Z="84.679" />
-				<Hotspot Name="Mandalorian Clansman" X="103.5551" Y="29.17633" Z="86.8847" />
-				<Hotspot Name="Mandalorian Hunter" X="105.3767" Y="29.69583" Z="79.81803" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
+				<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
+				<Hotspot Name="Mandalorian Clansman" XYZ="103.5551,29.17633,86.8847" />
+				<Hotspot Name="Mandalorian Hunter" XYZ="105.3767,29.69583,79.81803" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -148,11 +148,11 @@
 				<Mob>Condemned Slicer</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Condemned Gangster" X="119.0299" Y="28.96009" Z="91.25396" />
-				<Hotspot Name="Condemned Slicer" X="121.0787" Y="28.96188" Z="88.65842" />
-				<Hotspot Name="Condemned Enforcer" X="121.7157" Y="28.95907" Z="91.00121" />
-				<Hotspot Name="Condemned Follower" X="117.2402" Y="28.96188" Z="85.08685" />
-				<Hotspot Name="Condemned Follower" X="120.1132" Y="28.9626" Z="83.75853" />
+				<Hotspot Name="Condemned Gangster" XYZ="119.0299,28.96009,91.25396" />
+				<Hotspot Name="Condemned Slicer" XYZ="121.0787,28.96188,88.65842" />
+				<Hotspot Name="Condemned Enforcer" XYZ="121.7157,28.95907,91.00121" />
+				<Hotspot Name="Condemned Follower" XYZ="117.2402,28.96188,85.08685" />
+				<Hotspot Name="Condemned Follower" XYZ="120.1132,28.9626,83.75853" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -165,11 +165,11 @@
 				<Mob>Reprogrammed Manhandler Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Reprogrammed Vanguard Droid" X="52.89299" Y="25.19544" Z="66.15514" />
-				<Hotspot Name="Reprogrammed Manhandler Droid" X="54.06868" Y="25.3519" Z="70.0161" />
-				<Hotspot Name="Reprogrammed Vanguard Droid" X="49.78243" Y="25.276" Z="69.91103" />
-				<Hotspot Name="Reprogrammed Bunker Droid" X="43.4183" Y="24.8864" Z="73.0776" />
-				<Hotspot Name="Reprogrammed Bunker Droid" X="43.5865" Y="24.876" Z="67.3466" />
+				<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="52.89299,25.19544,66.15514" />
+				<Hotspot Name="Reprogrammed Manhandler Droid" XYZ="54.06868,25.3519,70.0161" />
+				<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="49.78243,25.276,69.91103" />
+				<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.4183,24.8864,73.0776" />
+				<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.5865,24.876,67.3466" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -180,7 +180,7 @@
 				<Mob>TZ-27 Annihilator Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="TZ-27 Annihilator Droid" X="41.0702" Y="24.86931" Z="69.1943" />
+				<Hotspot Name="TZ-27 Annihilator Droid" XYZ="41.0702,24.86931,69.1943" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -194,9 +194,9 @@
 				<Mob>Blackmailer</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Mercenary" X="62.24321" Y="28.00393" Z="24.55289" />
-				<Hotspot Name="Mercenary" X="60.66288" Y="27.91551" Z="31.78945" />
-				<Hotspot Name="Blackmailer" X="51.8419" Y="28.11886" Z="24.6758" />
+				<Hotspot Name="Mercenary" XYZ="62.24321,28.00393,24.55289" />
+				<Hotspot Name="Mercenary" XYZ="60.66288,27.91551,31.78945" />
+				<Hotspot Name="Blackmailer" XYZ="51.8419,28.11886,24.6758" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -210,13 +210,13 @@
 				<Mob>Condemned Rioter</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Condemned Minion" X="41.82037" Y="24.40171" Z="127.7676" />
-				<Hotspot Name="Condemned Fighter" X="34.48977" Y="24.48222" Z="137.6874" />
-				<Hotspot Name="Imperial Tactical Coordinator" X="34.51943" Y="24.53024" Z="135.0028" />
-				<Hotspot Name="Imperial Monitor Drone" X="33.50751" Y="24.47753" Z="140.8709" />
-				<Hotspot Name="Imperial Tactical Coordinator" X="29.67179" Y="24.50386" Z="125.3283" />
-				<Hotspot Name="Imperial Monitor Drone" X="24.40553" Y="24.45436" Z="134.6449" />
-				<Hotspot Name="Imperial Tactical Coordinator" X="19.4728" Y="24.5182" Z="132.9102" />
+				<Hotspot Name="Condemned Minion" XYZ="41.82037,24.40171,127.7676" />
+				<Hotspot Name="Condemned Fighter" XYZ="34.48977,24.48222,137.6874" />
+				<Hotspot Name="Imperial Tactical Coordinator" XYZ="34.51943,24.53024,135.0028" />
+				<Hotspot Name="Imperial Monitor Drone" XYZ="33.50751,24.47753,140.8709" />
+				<Hotspot Name="Imperial Tactical Coordinator" XYZ="29.67179,24.50386,125.3283" />
+				<Hotspot Name="Imperial Monitor Drone" XYZ="24.40553,24.45436,134.6449" />
+				<Hotspot Name="Imperial Tactical Coordinator" XYZ="19.4728,24.5182,132.9102" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -229,11 +229,11 @@
 				<Mob>Condemned Offender</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Condemned Saboteur" X="98.46623" Y="28.566" Z="13.29392" />
-				<Hotspot Name="Condemned Pirate" X="93.6396" Y="28.501" Z="14.1905" />
-				<Hotspot Name="Condemned Offender" X="95.1399" Y="29.576" Z="19.7134" />
-				<Hotspot Name="Condemned Pirate" X="92.49279" Y="29.38843" Z="11.56512" />
-				<Hotspot Name="Condemned Pirate" X="87.984" Y="29.701" Z="15.1676" />
+				<Hotspot Name="Condemned Saboteur" XYZ="98.46623,28.566,13.29392" />
+				<Hotspot Name="Condemned Pirate" XYZ="93.6396,28.501,14.1905" />
+				<Hotspot Name="Condemned Offender" XYZ="95.1399,29.576,19.7134" />
+				<Hotspot Name="Condemned Pirate" XYZ="92.49279,29.38843,11.56512" />
+				<Hotspot Name="Condemned Pirate" XYZ="87.984,29.701,15.1676" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -245,7 +245,7 @@
 				<Mob>Escaped Condemned Killer</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Agent Feldon" X="86.2313" Y="28.501" Z="19.8975" />
+				<Hotspot Name="Agent Feldon" XYZ="86.2313,28.501,19.8975" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -258,11 +258,11 @@
 				<Mob>Rattataki Ambusher</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Rattataki Tribal" X="-8.631366" Y="21.626" Z="76.11381" />
-				<Hotspot Name="Rattataki Bloodletter" X="-12.17599" Y="21.61508" Z="79.47771" />
-				<Hotspot Name="Rattataki Bloodletter" X="-4.661103" Y="21.61508" Z="79.3817" />
-				<Hotspot Name="Rattataki Tribal" X="4.702801" Y="20.236" Z="79.84701" />
-				<Hotspot Name="Rattataki Bloodletter" X="3.625096" Y="19.836" Z="68.9168" />
+				<Hotspot Name="Rattataki Tribal" XYZ="-8.631366,21.626,76.11381" />
+				<Hotspot Name="Rattataki Bloodletter" XYZ="-12.17599,21.61508,79.47771" />
+				<Hotspot Name="Rattataki Bloodletter" XYZ="-4.661103,21.61508,79.3817" />
+				<Hotspot Name="Rattataki Tribal" XYZ="4.702801,20.236,79.84701" />
+				<Hotspot Name="Rattataki Bloodletter" XYZ="3.625096,19.836,68.9168" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -276,13 +276,13 @@
 				<Mob>Imperial Squad Leader</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Imperial Vanguard Droid" X="-109.5293" Y="22.5467" Z="30.38527" />
-				<Hotspot Name="Imperial Deadeye" X="-107.8985" Y="22.54553" Z="34.7135" />
-				<Hotspot Name="Imperial Invader" X="-104.2026" Y="22.54393" Z="34.9184" />
-				<Hotspot Name="Imperial Squad Leader" X="-108.8949" Y="22.54944" Z="41.5271" />
-				<Hotspot Name="Imperial Invader" X="-112.4978" Y="22.54944" Z="44.1674" />
-				<Hotspot Name="Imperial Vanguard Droid" X="-106.5047" Y="22.84684" Z="48.33767" />
-				<Hotspot Name="Imperial Squad Leader" X="-104.2092" Y="22.84623" Z="50.93602" />
+				<Hotspot Name="Imperial Vanguard Droid" XYZ="-109.5293,22.5467,30.38527" />
+				<Hotspot Name="Imperial Deadeye" XYZ="-107.8985,22.54553,34.7135" />
+				<Hotspot Name="Imperial Invader" XYZ="-104.2026,22.54393,34.9184" />
+				<Hotspot Name="Imperial Squad Leader" XYZ="-108.8949,22.54944,41.5271" />
+				<Hotspot Name="Imperial Invader" XYZ="-112.4978,22.54944,44.1674" />
+				<Hotspot Name="Imperial Vanguard Droid" XYZ="-106.5047,22.84684,48.33767" />
+				<Hotspot Name="Imperial Squad Leader" XYZ="-104.2092,22.84623,50.93602" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -296,11 +296,11 @@
 				<Mob>Tamed Acklay Ravager</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Rattataki Hunter" X="-33.29029" Y="24.10148" Z="61.04402" />
-				<Hotspot Name="Rattataki Stalker" X="-35.7928" Y="23.88995" Z="54.5337" />
-				<Hotspot Name="Rattataki Hunter" X="-32.3424" Y="24.25099" Z="39.3396" />
-				<Hotspot Name="Rattataki Stalker" X="-35.06975" Y="23.81979" Z="29.51539" />
-				<Hotspot Name="Tamed Acklay Ravager" X="-28.43013" Y="23.82404" Z="26.95622" />
+				<Hotspot Name="Rattataki Hunter" XYZ="-33.29029,24.10148,61.04402" />
+				<Hotspot Name="Rattataki Stalker" XYZ="-35.7928,23.88995,54.5337" />
+				<Hotspot Name="Rattataki Hunter" XYZ="-32.3424,24.25099,39.3396" />
+				<Hotspot Name="Rattataki Stalker" XYZ="-35.06975,23.81979,29.51539" />
+				<Hotspot Name="Tamed Acklay Ravager" XYZ="-28.43013,23.82404,26.95622" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -312,12 +312,12 @@
 				<Mob>Rattataki Savage</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Tamed Acklay Hunter" X="-4.789648" Y="21.00324" Z="17.41844" />
-				<Hotspot Name="Rattataki Savage" X="-8.019571" Y="21.19757" Z="15.7002" />
-				<Hotspot Name="Tamed Acklay Hunter" X="1.051271" Y="21.01508" Z="18.25062" />
-				<Hotspot Name="Tamed Acklay Hunter" X="1.053428" Y="21.19757" Z="21.52138" />
-				<Hotspot Name="Tamed Acklay Hunter" X="-8.985332" Y="21.01629" Z="26.40404" />
-				<Hotspot Name="Rattataki Savage" X="-8.444798" Y="20.87846" Z="29.5727" />
+				<Hotspot Name="Tamed Acklay Hunter" XYZ="-4.789648,21.00324,17.41844" />
+				<Hotspot Name="Rattataki Savage" XYZ="-8.019571,21.19757,15.7002" />
+				<Hotspot Name="Tamed Acklay Hunter" XYZ="1.051271,21.01508,18.25062" />
+				<Hotspot Name="Tamed Acklay Hunter" XYZ="1.053428,21.19757,21.52138" />
+				<Hotspot Name="Tamed Acklay Hunter" XYZ="-8.985332,21.01629,26.40404" />
+				<Hotspot Name="Rattataki Savage" XYZ="-8.444798,20.87846,29.5727" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -328,7 +328,7 @@
 				<Mob>The Beastmaster of Talath</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="The Beastmaster of Talath" X="-12.7108" Y="21.81886" Z="18.33893" />
+				<Hotspot Name="The Beastmaster of Talath" XYZ="-12.7108,21.81886,18.33893" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -340,7 +340,7 @@
 				<Mob>Sulkhaz Minion</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Sulkhaz" X="-28.11871" Y="20.86353" Z="18.3708" />
+				<Hotspot Name="Sulkhaz" XYZ="-28.11871,20.86353,18.3708" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -353,9 +353,9 @@
 				<Mob>Ongree General</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Ongree Mercenary" X="-87.77895" Y="21.901" Z="-79.06445" />
-				<Hotspot Name="Ongree Warrior" X="-88.56912" Y="21.901" Z="-84.0565" />
-				<Hotspot Name="Ongree General" X="-89.9726" Y="21.70101" Z="-75.3955" />
+				<Hotspot Name="Ongree Mercenary" XYZ="-87.77895,21.901,-79.06445" />
+				<Hotspot Name="Ongree Warrior" XYZ="-88.56912,21.901,-84.0565" />
+				<Hotspot Name="Ongree General" XYZ="-89.9726,21.70101,-75.3955" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -368,8 +368,8 @@
 				<Mob>Vault Targeter Unit</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="-61.04419" Y="14.71437" Z="-35.91248" />
-				<Hotspot Name="My Location" X="-76.50053" Y="14.68414" Z="-35.94244" />
+				<Hotspot Name="My Location" XYZ="-61.04419,14.71437,-35.91248" />
+				<Hotspot Name="My Location" XYZ="-76.50053,14.68414,-35.94244" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -380,10 +380,10 @@
 				<Mob>Esh-kha Leader</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Leader" X="-221.8579" Y="10.41891" Z="-106.7312" />
-				<Hotspot Name="Esh-kha Leader" X="-232.8604" Y="10.4349" Z="-118.1799" />
-				<Hotspot Name="Esh-kha Leader" X="-223.794" Y="10.801" Z="-124.5861" />
-				<Hotspot Name="Esh-kha Leader" X="-214.1553" Y="10.437" Z="-118.0935" />
+				<Hotspot Name="Esh-kha Leader" XYZ="-221.8579,10.41891,-106.7312" />
+				<Hotspot Name="Esh-kha Leader" XYZ="-232.8604,10.4349,-118.1799" />
+				<Hotspot Name="Esh-kha Leader" XYZ="-223.794,10.801,-124.5861" />
+				<Hotspot Name="Esh-kha Leader" XYZ="-214.1553,10.437,-118.0935" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -405,16 +405,16 @@
 				<Mob>Esh-kha Wild Huntsman</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Scavenger" X="-222.663" Y="23.43348" Z="-35.8263" />
-				<Hotspot Name="Esh-kha Bloodletter" X="-223.9891" Y="20.0546" Z="-57.6905" />
-				<Hotspot Name="Esh-kha Bloodletter" X="-220.0748" Y="18.4" Z="-65.84984" />
-				<Hotspot Name="Esh-kha Bloodletter" X="-216.3523" Y="18.40001" Z="-66.65372" />
-				<Hotspot Name="Esh-kha Ambusher" X="-220.0654" Y="18.40104" Z="-70.63829" />
-				<Hotspot Name="Esh-kha Ambusher" X="-215.2182" Y="18.40103" Z="-71.11149" />
-				<Hotspot Name="Esh-kha Ambusher" X="-203.2406" Y="18.411" Z="-68.3876" />
-				<Hotspot Name="Esh-kha Gouger" X="-203.1936" Y="18.411" Z="-59.4434" />
-				<Hotspot Name="Esh-kha Ambusher" X="-220.0654" Y="18.40104" Z="-70.63829" />
-				<Hotspot Name="Esh-kha Ambusher" X="-247.6676" Y="18.39168" Z="-61.8668" />
+				<Hotspot Name="Esh-kha Scavenger" XYZ="-222.663,23.43348,-35.8263" />
+				<Hotspot Name="Esh-kha Bloodletter" XYZ="-223.9891,20.0546,-57.6905" />
+				<Hotspot Name="Esh-kha Bloodletter" XYZ="-220.0748,18.4,-65.84984" />
+				<Hotspot Name="Esh-kha Bloodletter" XYZ="-216.3523,18.40001,-66.65372" />
+				<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
+				<Hotspot Name="Esh-kha Ambusher" XYZ="-215.2182,18.40103,-71.11149" />
+				<Hotspot Name="Esh-kha Ambusher" XYZ="-203.2406,18.411,-68.3876" />
+				<Hotspot Name="Esh-kha Gouger" XYZ="-203.1936,18.411,-59.4434" />
+				<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
+				<Hotspot Name="Esh-kha Ambusher" XYZ="-247.6676,18.39168,-61.8668" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -436,14 +436,14 @@
 				<Mob>Esh-kha Wild Huntsman</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Reaver" X="-189.5006" Y="18.54987" Z="-76.55219" />
-				<Hotspot Name="Esh-kha Reaver" X="-193.8497" Y="18.49283" Z="-79.70932" />
-				<Hotspot Name="Esh-kha Kinsman" X="-189.6233" Y="18.63722" Z="-75.88968" />
-				<Hotspot Name="Esh-kha Reaver" X="-196.741" Y="18.35109" Z="-85.00349" />
-				<Hotspot Name="Esh-kha Gene-Culler" X="-188.6318" Y="19.001" Z="-82.76469" />
-				<Hotspot Name="Esh-kha Wild Huntsman" X="-198.6902" Y="18.53236" Z="-89.27592" />
-				<Hotspot Name="Esh-kha Reaver" X="-198.9841" Y="18.38721" Z="-94.09012" />
-				<Hotspot Name="Esh-kha Reaver" X="-199.6131" Y="18.68738" Z="-100.4798" />
+				<Hotspot Name="Esh-kha Reaver" XYZ="-189.5006,18.54987,-76.55219" />
+				<Hotspot Name="Esh-kha Reaver" XYZ="-193.8497,18.49283,-79.70932" />
+				<Hotspot Name="Esh-kha Kinsman" XYZ="-189.6233,18.63722,-75.88968" />
+				<Hotspot Name="Esh-kha Reaver" XYZ="-196.741,18.35109,-85.00349" />
+				<Hotspot Name="Esh-kha Gene-Culler" XYZ="-188.6318,19.001,-82.76469" />
+				<Hotspot Name="Esh-kha Wild Huntsman" XYZ="-198.6902,18.53236,-89.27592" />
+				<Hotspot Name="Esh-kha Reaver" XYZ="-198.9841,18.38721,-94.09012" />
+				<Hotspot Name="Esh-kha Reaver" XYZ="-199.6131,18.68738,-100.4798" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -458,11 +458,11 @@
 				<Mob>Esh-kha Vanguard</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Tech-Breaker" X="-214.0955" Y="17.26713" Z="-143.7488" />
-				<Hotspot Name="Esh-kha Escort" X="-218.5947" Y="17.02841" Z="-147.6222" />
-				<Hotspot Name="Esh-kha Salvager" X="-211.633" Y="16.75928" Z="-151.2533" />
-				<Hotspot Name="Esh-kha Vanguard" X="-222.9944" Y="17.13117" Z="-149.3204" />
-				<Hotspot Name="Esh-kha Salvager" X="-207.298" Y="16.81976" Z="-150.565" />
+				<Hotspot Name="Esh-kha Tech-Breaker" XYZ="-214.0955,17.26713,-143.7488" />
+				<Hotspot Name="Esh-kha Escort" XYZ="-218.5947,17.02841,-147.6222" />
+				<Hotspot Name="Esh-kha Salvager" XYZ="-211.633,16.75928,-151.2533" />
+				<Hotspot Name="Esh-kha Vanguard" XYZ="-222.9944,17.13117,-149.3204" />
+				<Hotspot Name="Esh-kha Salvager" XYZ="-207.298,16.81976,-150.565" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -473,7 +473,7 @@
 				<Mob>Sleeping Doom</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Sleeping Doom" X="-168.1492" Y="17.601" Z="-125.3313" />
+				<Hotspot Name="Sleeping Doom" XYZ="-168.1492,17.601,-125.3313" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -487,10 +487,10 @@
 				<Mob>Esh-kha Long-Reach</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Prison-Breaker" X="-154.478" Y="18.33774" Z="-129.4539" />
-				<Hotspot Name="Esh-kha Minion" X="-146.778" Y="17.76587" Z="-139.31" />
-				<Hotspot Name="Esh-kha Crusher" X="-154.6519" Y="17.57869" Z="-144.4018" />
-				<Hotspot Name="Esh-kha Long-Reach" X="-157.7411" Y="17.76579" Z="-149.5882" />
+				<Hotspot Name="Esh-kha Prison-Breaker" XYZ="-154.478,18.33774,-129.4539" />
+				<Hotspot Name="Esh-kha Minion" XYZ="-146.778,17.76587,-139.31" />
+				<Hotspot Name="Esh-kha Crusher" XYZ="-154.6519,17.57869,-144.4018" />
+				<Hotspot Name="Esh-kha Long-Reach" XYZ="-157.7411,17.76579,-149.5882" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -501,7 +501,7 @@
 				<Mob>Thorn Maw</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Thorn Maw" X="-147.2732" Y="24.65106" Z="-93.41589" />
+				<Hotspot Name="Thorn Maw" XYZ="-147.2732,24.65106,-93.41589" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -515,12 +515,12 @@
 				<Mob>Esh-kha Trapper</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="My Location" X="-120.8945" Y="17.601" Z="-133.05" />
-				<Hotspot Name="Esh-kha Inquisitor" X="-128.1133" Y="17.40001" Z="-131.5435" />
-				<Hotspot Name="Esh-kha Farslayer" X="-127.8557" Y="17.601" Z="-124.8098" />
-				<Hotspot Name="Esh-kha Inquisitor" X="-131.245" Y="17.601" Z="-121.763" />
-				<Hotspot Name="Esh-kha Inquisitor" X="-123.8905" Y="17.611" Z="-120.8832" />
-				<Hotspot Name="Esh-kha Inquisitor" X="-133.6956" Y="17.5871" Z="-114.6719" />
+				<Hotspot Name="My Location" XYZ="-120.8945,17.601,-133.05" />
+				<Hotspot Name="Esh-kha Inquisitor" XYZ="-128.1133,17.40001,-131.5435" />
+				<Hotspot Name="Esh-kha Farslayer" XYZ="-127.8557,17.601,-124.8098" />
+				<Hotspot Name="Esh-kha Inquisitor" XYZ="-131.245,17.601,-121.763" />
+				<Hotspot Name="Esh-kha Inquisitor" XYZ="-123.8905,17.611,-120.8832" />
+				<Hotspot Name="Esh-kha Inquisitor" XYZ="-133.6956,17.5871,-114.6719" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -532,7 +532,7 @@
 				<Mob>Esh-kha Warrior</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Lord Chayloss" X="-127.2998" Y="17.69787" Z="-105.3995" />
+				<Hotspot Name="Lord Chayloss" XYZ="-127.2998,17.69787,-105.3995" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -545,8 +545,8 @@
 				<Mob>Esh-kha Warrior-Tracker</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Bonebreaker" X="-163.6325" Y="20.001" Z="-85.806" />
-				<Hotspot Name="Esh-kha Warrior-Tracker" X="-158.5774" Y="20.011" Z="-86.6846" />
+				<Hotspot Name="Esh-kha Bonebreaker" XYZ="-163.6325,20.001,-85.806" />
+				<Hotspot Name="Esh-kha Warrior-Tracker" XYZ="-158.5774,20.011,-86.6846" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -559,13 +559,13 @@
 				<Mob>Esh-kha Rampager</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Protector" X="-106.7051" Y="17.84351" Z="-137.6762" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-102.0194" Y="18.19773" Z="-141.3525" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-99.45829" Y="16.83593" Z="-145.4541" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-94.90514" Y="16.61366" Z="-143.7838" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-85.27788" Y="16.69084" Z="-142.4539" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-81.21664" Y="16.76187" Z="-142.3973" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-83.79981" Y="16.63837" Z="-146.4588" />
+				<Hotspot Name="Esh-kha Protector" XYZ="-106.7051,17.84351,-137.6762" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-102.0194,18.19773,-141.3525" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-99.45829,16.83593,-145.4541" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-94.90514,16.61366,-143.7838" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-85.27788,16.69084,-142.4539" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-81.21664,16.76187,-142.3973" />
+				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-83.79981,16.63837,-146.4588" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -580,11 +580,11 @@
 				<Mob>Esh-kha Genius</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Saboteur" X="-91.60112" Y="15.511" Z="-155.3621" />
-				<Hotspot Name="Esh-kha Corruptor" X="-84.22513" Y="15.10628" Z="-156.4016" />
-				<Hotspot Name="Esh-kha Predator" X="-78.91669" Y="14.50101" Z="-158.5016" />
-				<Hotspot Name="Esh-kha Technician" X="-71.76219" Y="13.91276" Z="-152.7826" />
-				<Hotspot Name="Esh-kha Predator" X="-68.69116" Y="13.9135" Z="-142.3456" />
+				<Hotspot Name="Esh-kha Saboteur" XYZ="-91.60112,15.511,-155.3621" />
+				<Hotspot Name="Esh-kha Corruptor" XYZ="-84.22513,15.10628,-156.4016" />
+				<Hotspot Name="Esh-kha Predator" XYZ="-78.91669,14.50101,-158.5016" />
+				<Hotspot Name="Esh-kha Technician" XYZ="-71.76219,13.91276,-152.7826" />
+				<Hotspot Name="Esh-kha Predator" XYZ="-68.69116,13.9135,-142.3456" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -597,15 +597,15 @@
 				<Mob>Esh-kha Marauder</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Butcher" X="-49.26229" Y="11.9094" Z="-136.3136" />
-				<Hotspot Name="Esh-kha Butcher" X="-46.2115" Y="11.08363" Z="-131.5836" />
-				<Hotspot Name="Esh-kha Marauder" X="-46.09109" Y="11.101" Z="-126.589" />
-				<Hotspot Name="Esh-kha Butcher" X="-57.72565" Y="11.101" Z="-119.8291" />
-				<Hotspot Name="Esh-kha Escapee" X="-61.9222" Y="11.08363" Z="-116.6067" />
-				<Hotspot Name="Esh-kha Marauder" X="-50.85127" Y="10.71726" Z="-116.2905" />
-				<Hotspot Name="Esh-kha Butcher" X="-47.19965" Y="10.701" Z="-110.5942" />
-				<Hotspot Name="Esh-kha Escapee" X="-41.1642" Y="10.701" Z="-111.1082" />
-				<Hotspot Name="Esh-kha Warrior-Striker" X="-28.83686" Y="9.700953" Z="-121.4592" />
+				<Hotspot Name="Esh-kha Butcher" XYZ="-49.26229,11.9094,-136.3136" />
+				<Hotspot Name="Esh-kha Butcher" XYZ="-46.2115,11.08363,-131.5836" />
+				<Hotspot Name="Esh-kha Marauder" XYZ="-46.09109,11.101,-126.589" />
+				<Hotspot Name="Esh-kha Butcher" XYZ="-57.72565,11.101,-119.8291" />
+				<Hotspot Name="Esh-kha Escapee" XYZ="-61.9222,11.08363,-116.6067" />
+				<Hotspot Name="Esh-kha Marauder" XYZ="-50.85127,10.71726,-116.2905" />
+				<Hotspot Name="Esh-kha Butcher" XYZ="-47.19965,10.701,-110.5942" />
+				<Hotspot Name="Esh-kha Escapee" XYZ="-41.1642,10.701,-111.1082" />
+				<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -616,7 +616,7 @@
 				<Mob>Esh-kha Warrior-Striker</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Warrior-Striker" X="-28.83686" Y="9.700953" Z="-121.4592" />
+				<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -627,7 +627,7 @@
 				<Mob>Primeval Purge Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Primeval Purge Droid" X="-30.4959" Y="16.70286" Z="-117.0004" />
+				<Hotspot Name="Primeval Purge Droid" XYZ="-30.4959,16.70286,-117.0004" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -639,11 +639,11 @@
 				<Mob>Primeval Stasis Sentinel</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Primeval Stasis Guardian" X="-15.89435" Y="16.70221" Z="-102.8807" />
-				<Hotspot Name="Primeval Stasis Guardian" X="-18.6859" Y="16.8" Z="-101.1245" />
-				<Hotspot Name="Primeval Stasis Guardian" X="-17.1255" Y="16.8" Z="-101.0732" />
-				<Hotspot Name="Primeval Stasis Guardian" X="-15.08551" Y="16.8199" Z="-101.1025" />
-				<Hotspot Name="Primeval Stasis Guardian" X="-13.53321" Y="16.80891" Z="-101.0854" />
+				<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.89435,16.70221,-102.8807" />
+				<Hotspot Name="Primeval Stasis Guardian" XYZ="-18.6859,16.8,-101.1245" />
+				<Hotspot Name="Primeval Stasis Guardian" XYZ="-17.1255,16.8,-101.0732" />
+				<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.08551,16.8199,-101.1025" />
+				<Hotspot Name="Primeval Stasis Guardian" XYZ="-13.53321,16.80891,-101.0854" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -657,12 +657,12 @@
 				<Mob>Primeval Obliterator Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Primeval Subduer Droid" X="-33.85471" Y="15.901" Z="-140.1253" />
-				<Hotspot Name="Primeval Enforcer Droid" X="-33.1162" Y="16.701" Z="-129.4153" />
-				<Hotspot Name="Primeval Recapture Droid" X="-37.4563" Y="16.7009" Z="-125.7318" />
-				<Hotspot Name="Primeval Subduer Droid" X="-40.7049" Y="16.701" Z="-128.9889" />
-				<Hotspot Name="Primeval Enforcer Droid" X="-20.719" Y="17.501" Z="-127.0588" />
-				<Hotspot Name="Primeval Enforcer Droid" X="-23.646" Y="17.501" Z="-123.9786" />
+				<Hotspot Name="Primeval Subduer Droid" XYZ="-33.85471,15.901,-140.1253" />
+				<Hotspot Name="Primeval Enforcer Droid" XYZ="-33.1162,16.701,-129.4153" />
+				<Hotspot Name="Primeval Recapture Droid" XYZ="-37.4563,16.7009,-125.7318" />
+				<Hotspot Name="Primeval Subduer Droid" XYZ="-40.7049,16.701,-128.9889" />
+				<Hotspot Name="Primeval Enforcer Droid" XYZ="-20.719,17.501,-127.0588" />
+				<Hotspot Name="Primeval Enforcer Droid" XYZ="-23.646,17.501,-123.9786" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -676,14 +676,14 @@
 				<Mob>Esh-kha Champion</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Lorekeeper" X="-4.703199" Y="15.19179" Z="-124.8152" />
-				<Hotspot Name="Esh-kha Weaponeer" X="0.7773204" Y="15.11771" Z="-120.3063" />
-				<Hotspot Name="Esh-kha Lorekeeper" X="8.0137" Y="15.11758" Z="-115.4296" />
-				<Hotspot Name="Esh-kha Slaughterer" X="16.3131" Y="14.84442" Z="-116.3568" />
-				<Hotspot Name="Esh-kha Champion" X="20.28807" Y="14.83336" Z="-113.5058" />
-				<Hotspot Name="Esh-kha Assassin" X="20.9463" Y="15.0636" Z="-98.8413" />
-				<Hotspot Name="Esh-kha Warleader" X="13.12382" Y="15.35088" Z="-99.97031" />
-				<Hotspot Name="Esh-kha Soldier" X="16.9689" Y="14.02696" Z="-92.92799" />
+				<Hotspot Name="Esh-kha Lorekeeper" XYZ="-4.703199,15.19179,-124.8152" />
+				<Hotspot Name="Esh-kha Weaponeer" XYZ="0.7773204,15.11771,-120.3063" />
+				<Hotspot Name="Esh-kha Lorekeeper" XYZ="8.0137,15.11758,-115.4296" />
+				<Hotspot Name="Esh-kha Slaughterer" XYZ="16.3131,14.84442,-116.3568" />
+				<Hotspot Name="Esh-kha Champion" XYZ="20.28807,14.83336,-113.5058" />
+				<Hotspot Name="Esh-kha Assassin" XYZ="20.9463,15.0636,-98.8413" />
+				<Hotspot Name="Esh-kha Warleader" XYZ="13.12382,15.35088,-99.97031" />
+				<Hotspot Name="Esh-kha Soldier" XYZ="16.9689,14.02696,-92.92799" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -695,7 +695,7 @@
 				<Mob>Esh-kha Warrior-Guardian</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Gore Claw" X="18.13051" Y="15.0636" Z="-100.945" />
+				<Hotspot Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -710,10 +710,10 @@
 				<Mob>Esh-kha Fiend</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Heart Carver" X="-6.749297" Y="11.901" Z="-191.4382" />
-				<Hotspot Name="Esh-kha Devout" X="-10.8298" Y="11.901" Z="-190.2563" />
-				<Hotspot Name="Esh-kha Heart Carver" X="-17.23697" Y="10.301" Z="-191.4138" />
-				<Hotspot Name="Esh-kha Fiend" X="-18.05899" Y="10.1" Z="-195.5498" />
+				<Hotspot Name="Esh-kha Heart Carver" XYZ="-6.749297,11.901,-191.4382" />
+				<Hotspot Name="Esh-kha Devout" XYZ="-10.8298,11.901,-190.2563" />
+				<Hotspot Name="Esh-kha Heart Carver" XYZ="-17.23697,10.301,-191.4138" />
+				<Hotspot Name="Esh-kha Fiend" XYZ="-18.05899,10.1,-195.5498" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -725,8 +725,8 @@
 				<Mob>Esh-kha Warrior-Protector</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Esh-kha Warrior-Captain" X="-17.4098" Y="8.701" Z="-179.6733" />
-				<Hotspot Name="Esh-kha Warrior-Protector" X="-18.0045" Y="8.701" Z="-179.5011" />
+				<Hotspot Name="Esh-kha Warrior-Captain" XYZ="-17.4098,8.701,-179.6733" />
+				<Hotspot Name="Esh-kha Warrior-Protector" XYZ="-18.0045,8.701,-179.5011" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -738,7 +738,7 @@
 				<Mob>Primeval Battle Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Commander Geland" X="-17.3363" Y="8.715515" Z="-173.3805" />
+				<Hotspot Name="Commander Geland" XYZ="-17.3363,8.715515,-173.3805" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -751,9 +751,9 @@
 				<Mob>Heavy Security Droid</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Euphony Guard Droid" X="8.345834" Y="7.436289" Z="-21.15039" />
-				<Hotspot Name="Euphony Sentry Droid" X="6.929261" Y="7.4047" Z="-23.1428" />
-				<Hotspot Name="Euphony Guard Droid" X="0.3594" Y="7.4047" Z="-22.7407" />
+				<Hotspot Name="Euphony Guard Droid" XYZ="8.345834,7.436289,-21.15039" />
+				<Hotspot Name="Euphony Sentry Droid" XYZ="6.929261,7.4047,-23.1428" />
+				<Hotspot Name="Euphony Guard Droid" XYZ="0.3594,7.4047,-22.7407" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -764,7 +764,7 @@
 				<Mob>Stark</Mob>
 			</Mobs>
 			<Hotspots>
-				<Hotspot Name="Stark" X="3.177081" Y="7.8007" Z="-17.44539" />
+				<Hotspot Name="Stark" XYZ="3.177081,7.8007,-17.44539" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -801,130 +801,130 @@
 			
 		<If Condition="((not HasQuest(0xE000B93790BD61B9)) and (not IsQuestComplete(0xE000B93790BD61B9)))">
 			<UserDialog Title="Kick" Message="Go back to the Belsavis Orbital Station and pickup A Belsavis Welcome quest from Intake Officer" />
-	<PickUpQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" GiverName="Intake Officer" X="56.4383" Y="-77.589" Z="32.7644" />
+			<PickUpQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" GiverName="Intake Officer" XYZ="56.4383,-77.589,32.7644" />
 		</If>
 		
-	<PickUpQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" GiverName="Officer Narong" X="122.008" Y="30.55272" Z="22.5167" />
+		<PickUpQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" GiverName="Officer Narong" XYZ="122.008,30.55272,22.5167" />
 		
 		<!-- A Belsavis Welcome -->
 		<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsQuestComplete(0xE000B93790BD61B9)))">
-		 <If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 2)))">
-			<!-- Ele going down -->
-			<TalkTo QuestId="0xE000B93790BD61B9" Name="Warden Playt" X="92.2314" Y="28.60099" Z="14.5895" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3)))">
-			<Grind GrindRef="A Belsavis Welcome 3" While="(not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 4)))">
-			<TalkTo QuestId="0xE000B93790BD61B9" Name="Assistant Warden Graal" X="92.50401" Y="28.575" Z="14.36949" />
-			<!-- use ele back up -->
-		 </If>
+			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 2)))">
+				<!-- Ele going down -->
+				<TalkTo QuestId="0xE000B93790BD61B9" Name="Warden Playt" XYZ="92.2314,28.60099,14.5895" />
+			</If>
+			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3)))">
+				<Grind GrindRef="A Belsavis Welcome 3" While="(not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3))" />
+			</If>
+			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 4)))">
+				<TalkTo QuestId="0xE000B93790BD61B9" Name="Assistant Warden Graal" XYZ="92.50401,28.575,14.36949" />
+				<!-- use ele back up -->
+			</If>
 		</If>
 		
 		<!-- Consular - Hostile Population -->
 		<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsQuestComplete(0xE000865F87CB1054)))">
-		 <If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 4)))">
-			<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" X="114.8022" Y="29.97954" Z="45.69102" />
-			<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" X="85.47663" Y="29.99107" Z="40.35137" />
-			<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" X="85.98088" Y="29.9927" Z="64.00886" />
-		 </If>
-		 <!-- Escapee Hunting (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0003B7AA29F8381))">
-			<Grind GrindRef="Escapee Hunting (Bonus)" While="(not IsQuestComplete(0xE0003B7AA29F8381))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 5)))">
-			<AnswerHolocomCall QuestName="Hostile Population" QuestId="0xE000865F87CB1054" />
-		 </If>
-		 <!-- Haywire Hindrance (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0006FC4CDD78BDC))">
-			<Grind GrindRef="Haywire Hindrance (Bonus)" While="(not IsQuestComplete(0xE0006FC4CDD78BDC))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 6)))">
-			<MoveTo QuestId="0xE000865F87CB1054" Name="Droid" X="44.82988" Y="24.85482" Z="69.23444" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 7)))">
-			<!-- This Guy hits like a fucking truck! - get out at 'overloaded' cast -->
-			<Grind GrindRef="Hostile Population 7" While="(not IsBranchStepComplete(0xE000865F87CB1054, 1, 7))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 8)))">
-			<UseObject QuestId="0xE000865F87CB1054" Name="Identification Card" BranchId="1" StepId="8" Radius="20" WaitTime="5" X="40.85533" Y="25.04757" Z="66.05173" />
-		 </If>
+			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 4)))">
+				<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="114.8022,29.97954,45.69102" />
+				<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="85.47663,29.99107,40.35137" />
+				<UseObject QuestId="0xE000865F87CB1054" Name="Control Switch" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="85.98088,29.9927,64.00886" />
+			</If>
+			<!-- Escapee Hunting (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0003B7AA29F8381))">
+				<Grind GrindRef="Escapee Hunting (Bonus)" While="(not IsQuestComplete(0xE0003B7AA29F8381))" />
+			</If>
+			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 5)))">
+				<AnswerHolocomCall QuestName="Hostile Population" QuestId="0xE000865F87CB1054" />
+			</If>
+			<!-- Haywire Hindrance (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0006FC4CDD78BDC))">
+				<Grind GrindRef="Haywire Hindrance (Bonus)" While="(not IsQuestComplete(0xE0006FC4CDD78BDC))" />
+			</If>
+			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 6)))">
+				<MoveTo QuestId="0xE000865F87CB1054" Name="Droid" XYZ="44.82988,24.85482,69.23444" />
+			</If>
+			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 7)))">
+				<!-- This Guy hits like a fucking truck! - get out at 'overloaded' cast -->
+				<Grind GrindRef="Hostile Population 7" While="(not IsBranchStepComplete(0xE000865F87CB1054, 1, 7))" />
+			</If>
+			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 8)))">
+				<UseObject QuestId="0xE000865F87CB1054" Name="Identification Card" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="40.85533,25.04757,66.05173" />
+			</If>
 			<CompleteQuest QuestName="Hostile Population" QuestId="0xE000865F87CB1054" RewardIndex="1" />
 			<!-- Consular - Category Ten 0xE000B1192853D0EC-->
 		</If>
 		
 		<!-- For Want of a Droid -->
 		<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsQuestComplete(0xE00085A5F97528A5)))">
-		 <If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2)))">
-			<Grind GrindRef="For Want of a Droid" While="(not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2))" />
-		 </If>
-		 <!-- Mando Negotiations (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE00069868317D121))">
-			<Grind GrindRef="Mando Negotiations (Bonus)" While="(not IsQuestComplete(0xE00069868317D121))" />
-		 </If>
+			<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2)))">
+				<Grind GrindRef="For Want of a Droid" While="(not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2))" />
+			</If>
+			<!-- Mando Negotiations (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE00069868317D121))">
+				<Grind GrindRef="Mando Negotiations (Bonus)" While="(not IsQuestComplete(0xE00069868317D121))" />
+			</If>
 		</If>
 		
 		<!-- Turnin A Belsavis Welcome -->
 		<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsQuestComplete(0xE000B93790BD61B9)))">
-		 <!-- Secure the Generator (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0003D2FB5468941))">
-			<Grind GrindRef="Secure the Generator (Bonus)" While="(not IsQuestComplete(0xE0003D2FB5468941))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 5)))">
-			<UseObject QuestId="0xE000B93790BD61B9" Name="Generator Control Panel" BranchId="1" StepId="5" Radius="20" WaitTime="5" X="121.6967" Y="29.49462" Z="96.10966" />
-		 </If>
+			<!-- Secure the Generator (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0003D2FB5468941))">
+				<Grind GrindRef="Secure the Generator (Bonus)" While="(not IsQuestComplete(0xE0003D2FB5468941))" />
+			</If>
+			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 5)))">
+				<UseObject QuestId="0xE000B93790BD61B9" Name="Generator Control Panel" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="121.6967,29.49462,96.10966" />
+			</If>
 			<CompleteQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" RewardIndex="3" />
 		</If>
 		
 		<!-- The Magnetar Rifles and Turnin -->
 		<If Condition="((HasQuest(0xE00034350E9223A5)) and (not IsQuestComplete(0xE00034350E9223A5)))">
-		 <If Condition="((HasQuest(0xE00034350E9223A5)) and (not IsBranchStepComplete(0xE00034350E9223A5, 1, 2)))">
-			<UseObject QuestId="0xE00034350E9223A5" Name="Armory Rack" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="112.6872" Y="27.79218" Z="68.35186" />
-				<Hotspot Name="My Location" X="112.589" Y="27.772" Z="67.04005" />
-				<Hotspot Name="My Location" X="116.1679" Y="26.9925" Z="63.17686" />
-				<Hotspot Name="My Location" X="118.4384" Y="26.976" Z="62.48712" />
-				<Hotspot Name="My Location" X="122.6441" Y="26.531" Z="68.9715" />
-				<Hotspot Name="My Location" X="124.285" Y="26.5535" Z="67.89101" />
-				<Hotspot Name="My Location" X="128.1083" Y="26.576" Z="66.80553" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
-		 <!-- Incapacitate Prisoners (Bonus) -->
-		 <If Condition="((HasQuest(0xE000F1BD342226D8)) and (not IsQuestComplete(0xE000F1BD342226D8)))">
-			<UseItem QuestId="0xE000F1BD342226D8" Item="Carbonizing Stun Grenade" OnObject="Condemned Scout" WaitTime="3500" Range="4" InCombat="True" Radius="100" >
-			<!-- Condemned Scout, Condemned Pistoleer, Condemned Rager -->
-			 <Hotspots>				
-				<Hotspot Name="My Location" X="124.8065" Y="26.451" Z="70.13139" />
-				<Hotspot Name="Condemned Pistoleer" X="118.959" Y="30.16383" Z="72.78883" />
-			 </Hotspots>
-			</UseItem>
-		 </If>
-	<TurnInQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" TurnInName="Assistant Warden Graal" X="92.4476" Y="28.576" Z="14.2511" />
+			<If Condition="((HasQuest(0xE00034350E9223A5)) and (not IsBranchStepComplete(0xE00034350E9223A5, 1, 2)))">
+				<UseObject QuestId="0xE00034350E9223A5" Name="Armory Rack" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="112.6872,27.79218,68.35186" />
+						<Hotspot Name="My Location" XYZ="112.589,27.772,67.04005" />
+						<Hotspot Name="My Location" XYZ="116.1679,26.9925,63.17686" />
+						<Hotspot Name="My Location" XYZ="118.4384,26.976,62.48712" />
+						<Hotspot Name="My Location" XYZ="122.6441,26.531,68.9715" />
+						<Hotspot Name="My Location" XYZ="124.285,26.5535,67.89101" />
+						<Hotspot Name="My Location" XYZ="128.1083,26.576,66.80553" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<!-- Incapacitate Prisoners (Bonus) -->
+			<If Condition="((HasQuest(0xE000F1BD342226D8)) and (not IsQuestComplete(0xE000F1BD342226D8)))">
+				<UseItem QuestId="0xE000F1BD342226D8" Item="Carbonizing Stun Grenade" OnObject="Condemned Scout" WaitTime="3500" Range="4" InCombat="True" Radius="100" >
+					<!-- Condemned Scout, Condemned Pistoleer, Condemned Rager -->
+					<Hotspots>				
+						<Hotspot Name="My Location" XYZ="124.8065,26.451,70.13139" />
+						<Hotspot Name="Condemned Pistoleer" XYZ="118.959,30.16383,72.78883" />
+					</Hotspots>
+				</UseItem>
+			</If>
+			<TurnInQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" TurnInName="Assistant Warden Graal" XYZ="92.4476,28.576,14.2511" />
 			<CompleteQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" RewardIndex="4" />
 			<!-- Crisis Prevention 0xE00028183F7D7C46-->
 		</If>
 		
 		<!-- Turnin For Want of a Droid -->
 		<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsQuestComplete(0xE00085A5F97528A5)))">
-	<TurnInQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" TurnInName="Officer Narong" X="122.008" Y="30.55272" Z="22.5167" />
+			<TurnInQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" TurnInName="Officer Narong" XYZ="122.008,30.55272,22.5167" />
 			<CompleteQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" RewardIndex="3" />
 		</If>
 		
-	<PickUpQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" GiverName="Officer Vempor" X="125.1363" Y="30.55048" Z="26.5369" />
+		<PickUpQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" GiverName="Officer Vempor" XYZ="125.1363,30.55048,26.5369" />
 		
 		<!-- Evacuation and Turnin -->
 		<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsQuestComplete(0xE000E72A70C485D1)))">
-		 <If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 2)))">
-			<TalkTo QuestId="0xE000E72A70C485D1" Name="Transport Driver" X="70.0991" Y="27.82788" Z="32.6962" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3)))">
-			<Grind GrindRef="Evacuation 3" While="(not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 4)))">
-			<TalkTo QuestId="0xE000E72A70C485D1" Name="Family Member" X="49.6298" Y="30.74063" Z="5.865002" />
-		 </If>
+			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 2)))">
+				<TalkTo QuestId="0xE000E72A70C485D1" Name="Transport Driver" XYZ="70.0991,27.82788,32.6962" />
+			</If>
+			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3)))">
+				<Grind GrindRef="Evacuation 3" While="(not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3))" />
+			</If>
+			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 4)))">
+				<TalkTo QuestId="0xE000E72A70C485D1" Name="Family Member" XYZ="49.6298,30.74063,5.865002" />
+			</If>
 			<CompleteQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" RewardIndex="1" />
 		</If>
 		
@@ -932,147 +932,147 @@
 		
 		<!-- Crisis Prevention and Turnin -->
 		<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsQuestComplete(0xE00028183F7D7C46)))">
-		 <If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3)))">
-			<Grind GrindRef="Crisis Prevention 3" While="(not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3))" />
-		 </If>
-		 <!-- Non-lethal Negotiations (Bonus) -->
-		 <If Condition="((HasQuest(0xE0009B41A4738FC8)) and (not IsQuestComplete(0xE0009B41A4738FC8)))">
-			<UseItem QuestId="0xE0009B41A4738FC8" Item="Carbonizing Stun Grenade" OnObject="Condemned Minion" WaitTime="3500" Range="4" InCombat="True" Radius="20" >
-				<!-- Mobs: Condemned Minion, Condemned Fighter, Condemned Rioter  -->
-			 <Hotspots>				
-				<Hotspot Name="Condemned Minion" X="41.82037" Y="24.40171" Z="127.7676" />
-				<Hotspot Name="Condemned Fighter" X="34.48977" Y="24.48222" Z="137.6874" />
-			 </Hotspots>
-			</UseItem>
-		 </If>
-		 <If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 4)))">
-			<UseObject QuestId="0xE00028183F7D7C46" Name="Computer Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="16.38093" Y="24.4047" Z="124.5264" />
-		 </If>
+			<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3)))">
+				<Grind GrindRef="Crisis Prevention 3" While="(not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3))" />
+			</If>
+			<!-- Non-lethal Negotiations (Bonus) -->
+			<If Condition="((HasQuest(0xE0009B41A4738FC8)) and (not IsQuestComplete(0xE0009B41A4738FC8)))">
+				<UseItem QuestId="0xE0009B41A4738FC8" Item="Carbonizing Stun Grenade" OnObject="Condemned Minion" WaitTime="3500" Range="4" InCombat="True" Radius="20" >
+					<!-- Mobs: Condemned Minion, Condemned Fighter, Condemned Rioter  -->
+					<Hotspots>				
+						<Hotspot Name="Condemned Minion" XYZ="41.82037,24.40171,127.7676" />
+						<Hotspot Name="Condemned Fighter" XYZ="34.48977,24.48222,137.6874" />
+					</Hotspots>
+				</UseItem>
+			</If>
+			<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 4)))">
+				<UseObject QuestId="0xE00028183F7D7C46" Name="Computer Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="16.38093,24.4047,124.5264" />
+			</If>
 			<CompleteQuest QuestName="Crisis Prevention" QuestId="0xE00028183F7D7C46" RewardIndex="1" />
 			<!-- Riot in the Warden's Station 0xE0008EB9032A851C-->
  
- 			<UseTransport TransporterName="Republic Guardpost Beta Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
-									X="43.4419" Y="26.95373" Z="79.7208"
+			<UseTransport TransporterName="Republic Guardpost Beta Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
+									XYZ="43.4419,26.95373,79.7208"
 									ToX="119.9507" ToY="30.03752" ToZ="29.6126" />
 		</If>
 		
 		<!-- Riot in the Warden's Station and Turnin -->
 		<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsQuestComplete(0xE0008EB9032A851C)))">
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 2)))">
-			<MoveTo QuestId="0xE0008EB9032A851C" Name="My Location" X="98.57916" Y="28.49097" Z="15.94092" />
-		 </If>
-		 <!-- Additional Force Authorized (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000E881B79F3F6F))">
-			<Grind GrindRef="Additional Force Authorized (Bonus)" While="(not IsQuestComplete(0xE000E881B79F3F6F))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 3)))">
-			<TalkTo QuestId="0xE0008EB9032A851C" Name="Assistant Warden Graal" X="89.3759" Y="29.576" Z="9.313" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 4)))">
-			<UseObject QuestId="0xE0008EB9032A851C" Name="Forcefield Barricade" BranchId="1" StepId="4" Radius="20" WaitTime="7" X="90.41882" Y="28.501" Z="16.83236" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 5)))">
-			<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" X="86.7851" Y="28.501" Z="19.6893" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6)))">
-			<Grind GrindRef="Riot in the Warden's Station 6" While="(not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 7)))">
-			<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" X="86.7851" Y="28.501" Z="19.6893" />
-		 </If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 2)))">
+				<MoveTo QuestId="0xE0008EB9032A851C" Name="My Location" XYZ="98.57916,28.49097,15.94092" />
+			</If>
+			<!-- Additional Force Authorized (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000E881B79F3F6F))">
+				<Grind GrindRef="Additional Force Authorized (Bonus)" While="(not IsQuestComplete(0xE000E881B79F3F6F))" />
+			</If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 3)))">
+				<TalkTo QuestId="0xE0008EB9032A851C" Name="Assistant Warden Graal" XYZ="89.3759,29.576,9.313" />
+			</If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 4)))">
+				<UseObject QuestId="0xE0008EB9032A851C" Name="Forcefield Barricade" BranchId="1" StepId="4" Radius="20" WaitTime="7" XYZ="90.41882,28.501,16.83236" />
+			</If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 5)))">
+				<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" XYZ="86.7851,28.501,19.6893" />
+			</If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6)))">
+				<Grind GrindRef="Riot in the Warden's Station 6" While="(not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6))" />
+			</If>
+			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 7)))">
+				<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" XYZ="86.7851,28.501,19.6893" />
+			</If>
 			<CompleteQuest QuestName="Riot in the Warden's Station" QuestId="0xE0008EB9032A851C" RewardIndex="1" />
 			<!-- Anointed Vine-silk Sash -->
 			<!-- Maximum Security 0xE000399E31A55E10-->
  
- 			<UseTransport TransporterName="Prison Administration Center Speeder" Type="Taxi" Option="Republic Guardpost Beta Speeder" 
-									X="119.9507" Y="30.03752" Z="29.6126"
+			<UseTransport TransporterName="Prison Administration Center Speeder" Type="Taxi" Option="Republic Guardpost Beta Speeder" 
+									XYZ="119.9507,30.03752,29.6126"
 									ToX="43.4419" ToY="26.95373" ToZ="79.7208" />
 		</If>
 		
 		<!-- Turnin Maximum Security -->
 		<If Condition="((HasQuest(0xE000399E31A55E10)) and (not IsQuestComplete(0xE000399E31A55E10)))">
-	<TurnInQuest QuestName="Maximum Security" QuestId="0xE000399E31A55E10" TurnInName="Colonel Hauer" X="0.8195953" Y="26.25956" Z="58.6236" />
+			<TurnInQuest QuestName="Maximum Security" QuestId="0xE000399E31A55E10" TurnInName="Colonel Hauer" XYZ="0.8195953,26.25956,58.6236" />
 			<CompleteQuest QuestName="Maximum Security" QuestId="0xE000399E31A55E10" />
 		</If>
 		
 		<!-- Countdown to Jailbreak and Turnin -->
 		<If Condition="((HasQuest(0xE0001D9E984EDB4F)) and (not IsQuestComplete(0xE0001D9E984EDB4F)))">
-		 <!-- Supply Chain (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000C5EEDF710488))">
-			<Grind GrindRef="Supply Chain (Bonus)" While="(not IsBranchStepComplete(0xE000C5EEDF710488, 1, 2))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0001D9E984EDB4F)) and (not IsBranchStepComplete(0xE0001D9E984EDB4F, 1, 2)))">
-			<UseObject QuestId="0xE0001D9E984EDB4F" Name="Power Core Bomb" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="8.197211" Y="19.78205" Z="69.98881" />
-		 </If>
-	<TurnInQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" TurnInName="Colonel Hauer" X="0.8195953" Y="26.25956" Z="58.6236" />
+			<!-- Supply Chain (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000C5EEDF710488))">
+				<Grind GrindRef="Supply Chain (Bonus)" While="(not IsBranchStepComplete(0xE000C5EEDF710488, 1, 2))" />
+			</If>
+			<If Condition="((HasQuest(0xE0001D9E984EDB4F)) and (not IsBranchStepComplete(0xE0001D9E984EDB4F, 1, 2)))">
+				<UseObject QuestId="0xE0001D9E984EDB4F" Name="Power Core Bomb" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="8.197211,19.78205,69.98881" />
+			</If>
+			<TurnInQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" TurnInName="Colonel Hauer" XYZ="0.8195953,26.25956,58.6236" />
 			<CompleteQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" RewardIndex="1" />
 			<!-- War Games 0xE000635999CDCE6E-->
 		</If>
 		
-	<PickUpQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" GiverName="Officer Serik" X="-5.941101" Y="24.00608" Z="55.9897" />
-	<PickUpQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" GiverName="Major Camren" X="-4.476593" Y="24.00509" Z="56.4015" />
+		<PickUpQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" GiverName="Officer Serik" XYZ="-5.941101,24.00608,55.9897" />
+		<PickUpQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" GiverName="Major Camren" XYZ="-4.476593,24.00509,56.4015" />
 		
 		<!-- Speaking Their Language -->
 		<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsQuestComplete(0xE000F9CDBDF826FA)))">
-		 <If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 2)))">
-			<UseObject QuestId="0xE000F9CDBDF826FA" Name="Console" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-14.15581" Y="24.00505" Z="61.32958" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 3)))">
-			<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" X="-41.2704" Y="25.24926" Z="68.35519" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 4)))">
-			<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" X="-39.02938" Y="25.36279" Z="58.48028" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 5)))">
-			<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" X="-62.21033" Y="23.46395" Z="24.51945" />
-		 </If>
+			<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 2)))">
+				<UseObject QuestId="0xE000F9CDBDF826FA" Name="Console" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-14.15581,24.00505,61.32958" />
+			</If>
+			<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 3)))">
+				<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" XYZ="-41.2704,25.24926,68.35519" />
+			</If>
+			<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 4)))">
+				<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" XYZ="-39.02938,25.36279,58.48028" />
+			</If>
+			<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsBranchStepComplete(0xE000F9CDBDF826FA, 1, 5)))">
+				<MoveTo QuestId="0xE000F9CDBDF826FA" Name="Coordinates" XYZ="-62.21033,23.46395,24.51945" />
+			</If>
 		</If>
 		
 		<!-- Turnin Explosive Entrance -->
 		<If Condition="((HasQuest(0xE00043688F135798)) and (not IsQuestComplete(0xE00043688F135798)))">
-		 <!-- Before the Bomb (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000DD54D8CA9F2F))">
-			<Grind GrindRef="Before the Bomb (Bonus)" While="(not IsQuestComplete(0xE000DD54D8CA9F2F))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00043688F135798)) and (not IsBranchStepComplete(0xE00043688F135798, 1, 2)))">
-			<UseObject QuestId="0xE00043688F135798" Name="Generator" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-110.2513" Y="22.84684" Z="52.67648" />
-		 </If>
-	<TurnInQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" TurnInName="Major Camren" X="-4.476593" Y="24.00509" Z="56.4015" />
+			<!-- Before the Bomb (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000DD54D8CA9F2F))">
+				<Grind GrindRef="Before the Bomb (Bonus)" While="(not IsQuestComplete(0xE000DD54D8CA9F2F))" />
+			</If>
+			<If Condition="((HasQuest(0xE00043688F135798)) and (not IsBranchStepComplete(0xE00043688F135798, 1, 2)))">
+				<UseObject QuestId="0xE00043688F135798" Name="Generator" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-110.2513,22.84684,52.67648" />
+			</If>
+			<TurnInQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" TurnInName="Major Camren" XYZ="-4.476593,24.00509,56.4015" />
 			<CompleteQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" RewardIndex="1" />
 		</If>
 		
 		<!-- Turnin Speaking Their Language -->
 		<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsQuestComplete(0xE000F9CDBDF826FA)))">
-	<TurnInQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" TurnInName="Officer Serik" X="-5.941101" Y="24.00608" Z="55.9897" />
+			<TurnInQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" TurnInName="Officer Serik" XYZ="-5.941101,24.00608,55.9897" />
 			<CompleteQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" RewardIndex="1" />
 		</If>
 	
 		<!-- War Games -->
 		<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsQuestComplete(0xE000635999CDCE6E)))">
-		 <!-- Stage 1 - Battle the Horde (Bonus) -->
-		 <If Condition="((not HasQuest(0xE0004D5B7D64FEDB)) and (not IsQuestComplete(0xE0004D5B7D64FEDB)))">
-			<Grind GrindRef="Stage 1 - Battle the Horde (Bonus)" While="(not HasQuest(0xE0004D5B7D64FEDB))" />
-		 </If>
-		 <!-- Stage 1 - Battle the Horde (Bonus) -->
-		 <If Condition="((HasQuest(0xE0004D5B7D64FEDB)) and (not IsQuestComplete(0xE0004D5B7D64FEDB)))">
-			<Grind GrindRef="Stage 1 - Battle the Horde (Bonus)" While="(HasQuest(0xE0004D5B7D64FEDB))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 2 - Battle the Horde (Bonus) -->
-		 <If Condition="((HasQuest(0xE0004C5B7D64FC8E)) and (not IsQuestComplete(0xE0004C5B7D64FC8E)))">
-			<UseObject QuestId="0xE0004C5B7D64FC8E" Name="Raided Weaponry" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="Rattataki Predator" X="-20.08499" Y="22.2107" Z="11.8409" />
-				<Hotspot Name="My Location" X="-17.08298" Y="22.201" Z="7.031429" />
-				<Hotspot Name="My Location" X="-10.91984" Y="22.201" Z="10.43954" />
-				<Hotspot Name="My Location" X="-4.260787" Y="21.826" Z="8.250051" />
-				<Hotspot Name="My Location" X="-2.950628" Y="21.826" Z="3.021648" />
-				<Hotspot Name="My Location" X="-4.857955" Y="21.801" Z="0.3404447" />
-			 </Hotspots>
-			</UseObject>
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Neimoidian Rescue (Bonus) -->
+			<!-- Stage 1 - Battle the Horde (Bonus) -->
+			<If Condition="((not HasQuest(0xE0004D5B7D64FEDB)) and (not IsQuestComplete(0xE0004D5B7D64FEDB)))">
+				<Grind GrindRef="Stage 1 - Battle the Horde (Bonus)" While="(not HasQuest(0xE0004D5B7D64FEDB))" />
+			</If>
+			<!-- Stage 1 - Battle the Horde (Bonus) -->
+			<If Condition="((HasQuest(0xE0004D5B7D64FEDB)) and (not IsQuestComplete(0xE0004D5B7D64FEDB)))">
+				<Grind GrindRef="Stage 1 - Battle the Horde (Bonus)" While="(HasQuest(0xE0004D5B7D64FEDB))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 2 - Battle the Horde (Bonus) -->
+			<If Condition="((HasQuest(0xE0004C5B7D64FC8E)) and (not IsQuestComplete(0xE0004C5B7D64FC8E)))">
+				<UseObject QuestId="0xE0004C5B7D64FC8E" Name="Raided Weaponry" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="Rattataki Predator" XYZ="-20.08499,22.2107,11.8409" />
+						<Hotspot Name="My Location" XYZ="-17.08298,22.201,7.031429" />
+						<Hotspot Name="My Location" XYZ="-10.91984,22.201,10.43954" />
+						<Hotspot Name="My Location" XYZ="-4.260787,21.826,8.250051" />
+						<Hotspot Name="My Location" XYZ="-2.950628,21.826,3.021648" />
+						<Hotspot Name="My Location" XYZ="-4.857955,21.801,0.3404447" />
+					</Hotspots>
+				</UseObject>
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Neimoidian Rescue (Bonus) -->
 			<!-- chain talkto's - they don't work atm
 		 <If Condition="((HasQuest(0xE000E576D4229F7C)) and (not IsQuestComplete(0xE000E576D4229F7C)))">
 			<UseObject QuestId="0xE000E576D4229F7C" Name="Neimoidian Prisoner" Radius="100" WaitTime="5" >
@@ -1101,448 +1101,448 @@
 				<TalkTo QuestId="0xE000E576D4229F7C" Name="Neimoidian Prisoner" X="-9.146805" Y="20.87846" Z="30.6149" />
 		 </If>
 			-->
-		 <!-- Stage 3 - Battle the Horde (Bonus) -->
-		 <If Condition="((HasQuest(0xE0004B5B7D64F37D)) and (not IsQuestComplete(0xE0004B5B7D64F37D)))">
-			<Grind GrindRef="Stage 3 - Battle the Horde (Bonus)" While="(HasQuest(0xE0004B5B7D64F37D))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Final Stage - Battle the Horde (Bonus) -->
-		 <If Condition="((HasQuest(0xE000525B7D64C758)) and (not IsQuestComplete(0xE000525B7D64C758)))">
-			<Grind GrindRef="Final Stage - Battle the Horde (Bonus)" While="(HasQuest(0xE000525B7D64C758))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 2)))">
-			<MoveTo QuestId="0xE000635999CDCE6E" Name="My Location" X="-22.72616" Y="20.93207" Z="18.44869" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 3)))">
-			<TalkTo QuestId="0xE000635999CDCE6E" Name="Sulkhaz" X="-28.11871" Y="20.86353" Z="18.3708" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4)))">
-			<Grind GrindRef="War Games  4" While="(not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4))" />
-		 </If>
+			<!-- Stage 3 - Battle the Horde (Bonus) -->
+			<If Condition="((HasQuest(0xE0004B5B7D64F37D)) and (not IsQuestComplete(0xE0004B5B7D64F37D)))">
+				<Grind GrindRef="Stage 3 - Battle the Horde (Bonus)" While="(HasQuest(0xE0004B5B7D64F37D))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Final Stage - Battle the Horde (Bonus) -->
+			<If Condition="((HasQuest(0xE000525B7D64C758)) and (not IsQuestComplete(0xE000525B7D64C758)))">
+				<Grind GrindRef="Final Stage - Battle the Horde (Bonus)" While="(HasQuest(0xE000525B7D64C758))" />
+			</If>
+			<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 2)))">
+				<MoveTo QuestId="0xE000635999CDCE6E" Name="My Location" XYZ="-22.72616,20.93207,18.44869" />
+			</If>
+			<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 3)))">
+				<TalkTo QuestId="0xE000635999CDCE6E" Name="Sulkhaz" XYZ="-28.11871,20.86353,18.3708" />
+			</If>
+			<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4)))">
+				<Grind GrindRef="War Games  4" While="(not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4))" />
+			</If>
 		</If>
 		
 		<!-- Consular - Category Ten and Turnin -->
 		<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsQuestComplete(0xE000B1192853D0EC)))">
-		 <!-- Ongree Rioters (Bonus) - i don't know why but this quest didn't show up for my dark toon
+			<!-- Ongree Rioters (Bonus) - i don't know why but this quest didn't show up for my dark toon
 		 <If Condition="(not IsQuestComplete(0xE0003906C652F314))">
 			<Grind GrindRef="Ongree Rioters (Bonus)" While="(not IsQuestComplete(0xE0003906C652F314))" />
 		 </If> -->
-		 <If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 2)))">
-			<MoveTo QuestId="0xE000B1192853D0EC" X="-88.09993" Y="21.901" Z="-85.85752" />
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Destroyed Rataka Terminal" BranchId="1" StepId="2" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" X="-88.09993" Y="21.901" Z="-85.85752" />
+			<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 2)))">
+				<MoveTo QuestId="0xE000B1192853D0EC" XYZ="-88.09993,21.901,-85.85752" />
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Destroyed Rataka Terminal" BranchId="1" StepId="2" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="-88.09993,21.901,-85.85752" />
 			
-			<MoveTo QuestId="0xE000B1192853D0EC" X="-61.20194" Y="20.318" Z="-26.79423" />
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									X="-61.20194" Y="20.318" Z="-26.79423" 
+				<MoveTo QuestId="0xE000B1192853D0EC" XYZ="-61.20194,20.318,-26.79423" />
+				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
+									XYZ="-61.20194,20.318,-26.79423" 
 									ToX="-61.19279" ToY="15.451" ToZ="-26.2356" />
-		 </If>
-		 <!-- Scavenger Hunt (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0007639287A8A35))">
-			<Grind GrindRef="Scavenger Hunt (Bonus)" While="(not IsQuestComplete(0xE0007639287A8A35))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 3)))">
-			<MoveTo QuestId="1" X="-77.99833" Y="14.69944" Z="-35.78953" />
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Rataka Terminal" BranchId="1" StepId="3" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" X="-77.99833" Y="14.69944" Z="-35.78953" />
+			</If>
+			<!-- Scavenger Hunt (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0007639287A8A35))">
+				<Grind GrindRef="Scavenger Hunt (Bonus)" While="(not IsQuestComplete(0xE0007639287A8A35))" />
+			</If>
+			<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 3)))">
+				<MoveTo QuestId="1" XYZ="-77.99833,14.69944,-35.78953" />
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Rataka Terminal" BranchId="1" StepId="3" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-77.99833,14.69944,-35.78953" />
 			
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									X="-61.20345" Y="15.451" Z="-25.48685" 
+				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
+									XYZ="-61.20345,15.451,-25.48685" 
 									ToX="-61.18449" ToY="20.318" ToZ="-26.2076" />
 			
-		 </If>
-		 <!-- Auto Skip 4 -->
-		 <If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 5)))">
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Surveillance Device" BranchId="1" StepId="5" TaskId="1" Radius="20" WaitTime="5" X="-59.5655" Y="22.26448" Z="-7.733306" />
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Scrapped Warden Droid" BranchId="1" StepId="5" TaskId="2" Radius="20" WaitTime="5" X="-85.3888" Y="22.55326" Z="-31.14686" />
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Security Terminal" BranchId="1" StepId="5" TaskId="0" Radius="20" WaitTime="5" X="-76.86577" Y="24.64519" Z="-54.23698" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 6)))">
-			<MoveTo QuestId="1" X="-88.09993" Y="21.901" Z="-85.85752" />
-			<UseObject QuestId="0xE000B1192853D0EC" Name="Destroyed Rataka Terminal" BranchId="1" StepId="6" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" X="-88.09993" Y="21.901" Z="-85.85752" />
-		 </If>
+			</If>
+			<!-- Auto Skip 4 -->
+			<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 5)))">
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Surveillance Device" BranchId="1" StepId="5" TaskId="1" Radius="20" WaitTime="5" XYZ="-59.5655,22.26448,-7.733306" />
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Scrapped Warden Droid" BranchId="1" StepId="5" TaskId="2" Radius="20" WaitTime="5" XYZ="-85.3888,22.55326,-31.14686" />
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Security Terminal" BranchId="1" StepId="5" TaskId="0" Radius="20" WaitTime="5" XYZ="-76.86577,24.64519,-54.23698" />
+			</If>
+			<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 6)))">
+				<MoveTo QuestId="1" XYZ="-88.09993,21.901,-85.85752" />
+				<UseObject QuestId="0xE000B1192853D0EC" Name="Destroyed Rataka Terminal" BranchId="1" StepId="6" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-88.09993,21.901,-85.85752" />
+			</If>
 			<CompleteQuest QuestName="Category Ten" QuestId="0xE000B1192853D0EC" RewardIndex="1" />
 			<!-- Taking on the Asylum 0xE00062AF4E3B5FD6-->
 		</If>
 		
 		<!-- Turnin Battle the Horde -->
 		<If Condition="((HasQuest(0xE000664258D969AB)) and (not IsQuestComplete(0xE000664258D969AB)))">
-	<TurnInQuest QuestName="Battle the Horde" QuestId="0xE000664258D969AB" Type="Placeable" UseRange="2" TurnInName="Mission Drop Box" X="-6.148174" Y="24.00608" Z="54.75011" />
+			<TurnInQuest QuestName="Battle the Horde" QuestId="0xE000664258D969AB" Type="Placeable" UseRange="2" TurnInName="Mission Drop Box" XYZ="-6.148174,24.00608,54.75011" />
 			<CompleteQuest QuestName="Battle the Horde" QuestId="0xE000664258D969AB" />
 		</If>
 		
 		<!-- Turnin War Games -->
 		<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsQuestComplete(0xE000635999CDCE6E)))">
-	<TurnInQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" TurnInName="Colonel Hauer" X="0.8195953" Y="26.25956" Z="58.6236" />
+			<TurnInQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" TurnInName="Colonel Hauer" XYZ="0.8195953,26.25956,58.6236" />
 			<CompleteQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" RewardIndex="1" />
 			<!-- The Deep Prisons 0xE0002D2D285F5275-->
 		</If>
 		
-	<PickUpQuest QuestName="Emergency Measures" QuestId="0xE0000AE4D30908E0" Type="Placeable" UseRange="2" GiverName="Mission Terminal" X="-148.4512" Y="26.98392" Z="-32.84198" />
-	<PickUpQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" GiverName="Lora" X="-146.113" Y="26.97806" Z="-32.1348" />
-	<PickUpQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" GiverName="Sergeant Nerrick" X="-147.5913" Y="26.98019" Z="-28.0786" />
+		<PickUpQuest QuestName="Emergency Measures" QuestId="0xE0000AE4D30908E0" Type="Placeable" UseRange="2" GiverName="Mission Terminal" XYZ="-148.4512,26.98392,-32.84198" />
+		<PickUpQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" GiverName="Lora" XYZ="-146.113,26.97806,-32.1348" />
+		<PickUpQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" GiverName="Sergeant Nerrick" XYZ="-147.5913,26.98019,-28.0786" />
 		<!-- Ignore [HEROIC 2+] The Engineers' Tale -->
 		
 		<!-- Turnin The Deep Prisons -->
 		<If Condition="((HasQuest(0xE0002D2D285F5275)) and (not IsQuestComplete(0xE0002D2D285F5275)))">
-	<TurnInQuest QuestName="The Deep Prisons" QuestId="0xE0002D2D285F5275" TurnInName="General Skylast" X="-147.991" Y="27.291" Z="-37.18068" />
+			<TurnInQuest QuestName="The Deep Prisons" QuestId="0xE0002D2D285F5275" TurnInName="General Skylast" XYZ="-147.991,27.291,-37.18068" />
 			<CompleteQuest QuestName="The Deep Prisons" QuestId="0xE0002D2D285F5275" />
 		</If>
 		
 		<!-- Emergency Measures -->
 		<If Condition="((HasQuest(0xE0000AE4D30908E0)) and (not IsQuestComplete(0xE0000AE4D30908E0)))">
-		 <If Condition="((HasQuest(0xE0000AE4D30908E0)) and (not IsBranchStepComplete(0xE0000AE4D30908E0, 1, 2)))">
-			<UseObject QuestId="0xE0000AE4D30908E0" Name="Emergency Station" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-243.2681" Y="22.03563" Z="28.79927" />
-				<Hotspot Name="My Location" X="-239.211" Y="22.00156" Z="24.83889" />
-				<Hotspot Name="My Location" X="-248.3963" Y="21.95649" Z="25.35306" />
-				<Hotspot Name="My Location" X="-254.2074" Y="21.95649" Z="25.23563" />
-				<Hotspot Name="My Location" X="-255.5512" Y="21.95767" Z="41.85205" />
-				<Hotspot Name="My Location" X="-250.4625" Y="22.0975" Z="37.94009" />
-				<Hotspot Name="My Location" X="-247.1698" Y="21.99846" Z="36.14243" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
+			<If Condition="((HasQuest(0xE0000AE4D30908E0)) and (not IsBranchStepComplete(0xE0000AE4D30908E0, 1, 2)))">
+				<UseObject QuestId="0xE0000AE4D30908E0" Name="Emergency Station" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-243.2681,22.03563,28.79927" />
+						<Hotspot Name="My Location" XYZ="-239.211,22.00156,24.83889" />
+						<Hotspot Name="My Location" XYZ="-248.3963,21.95649,25.35306" />
+						<Hotspot Name="My Location" XYZ="-254.2074,21.95649,25.23563" />
+						<Hotspot Name="My Location" XYZ="-255.5512,21.95767,41.85205" />
+						<Hotspot Name="My Location" XYZ="-250.4625,22.0975,37.94009" />
+						<Hotspot Name="My Location" XYZ="-247.1698,21.99846,36.14243" />
+					</Hotspots>
+				</UseObject>
+			</If>
 		</If>
 		
 		<!-- Consular - Taking on the Asylum -->
 		<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsQuestComplete(0xE00062AF4E3B5FD6)))">
-		 <If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 1, 2)))">
-			<UseObject QuestId="0xE00062AF4E3B5FD6" Name="Control Station" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-244.9192" Y="20.0255" Z="55.35439" />
-		 </If>
-		 <!-- Ensuring Staff Safety (Bonus) -->
-		 <If Condition="((HasQuest(0xE000EAB046B6BA51)) and (not IsQuestComplete(0xE000EAB046B6BA51)))">
-			<UseObject QuestId="0xE000EAB046B6BA51" Name="Camera Control Console" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-243.2494" Y="22.03565" Z="30.69403" />
-				<Hotspot Name="My Location" X="-239.2085" Y="22.01434" Z="21.96691" />
-				<Hotspot Name="My Location" X="-224.9062" Y="27.09585" Z="3.703959" />
-				<Hotspot Name="My Location" X="-230.0672" Y="27.14425" Z="8.580078" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
-		 <If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 2, 2)))">
-			<MoveTo QuestId="0xE00062AF4E3B5FD6" Name="Second Station" X="-203.9152" Y="24.50277" Z="-0.2887999" />
-		 </If>
+			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 1, 2)))">
+				<UseObject QuestId="0xE00062AF4E3B5FD6" Name="Control Station" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-244.9192,20.0255,55.35439" />
+			</If>
+			<!-- Ensuring Staff Safety (Bonus) -->
+			<If Condition="((HasQuest(0xE000EAB046B6BA51)) and (not IsQuestComplete(0xE000EAB046B6BA51)))">
+				<UseObject QuestId="0xE000EAB046B6BA51" Name="Camera Control Console" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-243.2494,22.03565,30.69403" />
+						<Hotspot Name="My Location" XYZ="-239.2085,22.01434,21.96691" />
+						<Hotspot Name="My Location" XYZ="-224.9062,27.09585,3.703959" />
+						<Hotspot Name="My Location" XYZ="-230.0672,27.14425,8.580078" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 2, 2)))">
+				<MoveTo QuestId="0xE00062AF4E3B5FD6" Name="Second Station" XYZ="-203.9152,24.50277,-0.2887999" />
+			</If>
 		</If>
 		
 		<!-- Turnin Emergency Measures -->
 		<If Condition="((HasQuest(0xE0000AE4D30908E0)) and (not IsQuestComplete(0xE0000AE4D30908E0)))">
-	<TurnInQuest QuestName="Emergency Measures" QuestId="0xE0000AE4D30908E0" Type="Placeable" UseRange="2" TurnInName="Mission Drop Box" X="-148.4896" Y="26.98392" Z="-32.75364" />
+			<TurnInQuest QuestName="Emergency Measures" QuestId="0xE0000AE4D30908E0" Type="Placeable" UseRange="2" TurnInName="Mission Drop Box" XYZ="-148.4896,26.98392,-32.75364" />
 			<CompleteQuest QuestName="Emergency Measures" QuestId="0xE0000AE4D30908E0" />
 		</If>
 		
 		<!-- Consular - Taking on the Asylum -->
 		<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsQuestComplete(0xE00062AF4E3B5FD6)))">
-		 <If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 4)))">
-			<MoveTo QuestId="0xE00062AF4E3B5FD6" Name="Unknown Guy" X="-161.7515" Y="20.001" Z="-85.81305" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5)))">
-			<Grind GrindRef="Taking on the Asylum 4 5" While="(not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 6)))">
-			<TalkTo QuestId="0xE00062AF4E3B5FD6" Name="Lhunu" X="-155.012" Y="19.98414" Z="-85.8068" />
-		 </If>
+			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 4)))">
+				<MoveTo QuestId="0xE00062AF4E3B5FD6" Name="Unknown Guy" XYZ="-161.7515,20.001,-85.81305" />
+			</If>
+			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5)))">
+				<Grind GrindRef="Taking on the Asylum 4 5" While="(not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5))" />
+			</If>
+			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 6)))">
+				<TalkTo QuestId="0xE00062AF4E3B5FD6" Name="Lhunu" XYZ="-155.012,19.98414,-85.8068" />
+			</If>
 			<CompleteQuest QuestName="Taking on the Asylum" QuestId="0xE00062AF4E3B5FD6" RewardIndex="3" />
 			<!-- The Voice From The Tomb 0xE0007866ACA716C2-->
 		</If>
 		
 		<!-- Friendly Fire -->
 		<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsQuestComplete(0xE000B8DEE6A887BB)))">
-		 <If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 2)))">
-			<MoveTo QuestId="0xE000B8DEE6A887BB" Name="My Location" X="-199.2046" Y="18.55841" Z="-84.39229" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 3)))">
-			<UseObject QuestId="0xE000B8DEE6A887BB" Name="Ship Hololog" BranchId="1" StepId="3" Radius="20" WaitTime="5" X="-199.2046" Y="18.55841" Z="-84.39229" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 4)))">
-			<UseObject QuestId="0xE000B8DEE6A887BB" Name="Laser Drill" BranchId="1" StepId="4" IgnoreLOS="True" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-199.8149" Y="18.4954" Z="-84.04989" />
-				<Hotspot Name="My Location" X="-196.9141" Y="18.47531" Z="-81.93812" />
-				<Hotspot Name="My Location" X="-195.2153" Y="18.33249" Z="-86.0018" />
-				<Hotspot Name="My Location" X="-197.054" Y="18.37299" Z="-87.54841" />
-				<Hotspot Name="My Location" X="-199.3372" Y="18.34415" Z="-87.27166" />
-			 </Hotspots>
-			</UseObject>
-		 </If>
-		 <!-- Scavengers (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE00066468CC9ECDA))">
-			<Grind GrindRef="Scavengers (Bonus)" While="(not IsQuestComplete(0xE00066468CC9ECDA))" />
-		 </If>
+			<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 2)))">
+				<MoveTo QuestId="0xE000B8DEE6A887BB" Name="My Location" XYZ="-199.2046,18.55841,-84.39229" />
+			</If>
+			<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 3)))">
+				<UseObject QuestId="0xE000B8DEE6A887BB" Name="Ship Hololog" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-199.2046,18.55841,-84.39229" />
+			</If>
+			<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsBranchStepComplete(0xE000B8DEE6A887BB, 1, 4)))">
+				<UseObject QuestId="0xE000B8DEE6A887BB" Name="Laser Drill" BranchId="1" StepId="4" IgnoreLOS="True" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-199.8149,18.4954,-84.04989" />
+						<Hotspot Name="My Location" XYZ="-196.9141,18.47531,-81.93812" />
+						<Hotspot Name="My Location" XYZ="-195.2153,18.33249,-86.0018" />
+						<Hotspot Name="My Location" XYZ="-197.054,18.37299,-87.54841" />
+						<Hotspot Name="My Location" XYZ="-199.3372,18.34415,-87.27166" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<!-- Scavengers (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE00066468CC9ECDA))">
+				<Grind GrindRef="Scavengers (Bonus)" While="(not IsQuestComplete(0xE00066468CC9ECDA))" />
+			</If>
 		</If>
 		
 		<!-- Shadows from the Past: Esh-kha Leaders -->
 		<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsQuestComplete(0xE00044AC51F792D7)))">
-		 <!-- Esh-kha Offensive (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0009025312C5C98))">
-			<Grind GrindRef="Esh-kha Offensive (Bonus)" While="(not IsQuestComplete(0xE0009025312C5C98))" />
-		 </If>
-		 <!-- Breaking the War Machine (Bonus) -->
-		 <If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsQuestComplete(0xE0004716F1655D21)))">
-		  <If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchStepComplete(0xE0004716F1655D21, 1, 2)))">
-			<!-- Use Ele down -->
-		   <If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 0)))">
-			<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Munitions" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-170.475" Y="10.40002" Z="-109.9999" />
-				<Hotspot Name="My Location" X="-170.9122" Y="12.005" Z="-113.0591" />
-				<Hotspot Name="My Location" X="-174.1131" Y="12.0066" Z="-111.2385" />
-				<Hotspot Name="My Location" X="-170.6818" Y="12.011" Z="-121.9468" />
-				<Hotspot Name="My Location" X="-183.0287" Y="12.011" Z="-121.8808" />
-				<Hotspot Name="My Location" X="-186.7804" Y="12.011" Z="-118.7583" />
-				<Hotspot Name="My Location" X="-183.2165" Y="12" Z="-102.6701" />
-				<Hotspot Name="Esh-kha Grand Claw" X="-177.2236" Y="12.00002" Z="-103.22" />
-			 </Hotspots>
-			</UseObject>
-		   </If>
-		   <If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 1)))">
-			<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Weapons Cache" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-180.1333" Y="10.40104" Z="-112.9594" />
-				<Hotspot Name="My Location" X="-180.0585" Y="10.40104" Z="-111.1469" />
-				<Hotspot Name="My Location" X="-169.2181" Y="10.41032" Z="-107.6518" />
-				<Hotspot Name="My Location" X="-169.6786" Y="10.40104" Z="-111.7046" />
-				<Hotspot Name="My Location" X="-172.5562" Y="10.40004" Z="-113.6979" />
-				<Hotspot Name="My Location" X="-183.0287" Y="12.011" Z="-121.8808" />
-			 </Hotspots>
-			</UseObject>
-		   </If>
-		   <If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 2)))">
-			<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Medical Supplies" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-185.2453" Y="10.41032" Z="-107.6599" />
-				<Hotspot Name="Esh-kha War Drone" X="-178.9989" Y="10.39999" Z="-108.4225" />
-				<Hotspot Name="My Location" X="-169.2181" Y="10.41032" Z="-107.6518" />
-				<Hotspot Name="My Location" X="-173.0097" Y="10.41001" Z="-115.4746" />
-			 </Hotspots>
-			</UseObject>
-		   </If>
-		   <!-- Ele back up -->
-		  </If>
-		 </If>
-		 <If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2)))">
-			<!-- Use Ele down -->
-			<Grind GrindRef="Shadows from the Past: Esh-kha Leaders 2" While="(not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2))" />
-		 </If>
+			<!-- Esh-kha Offensive (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0009025312C5C98))">
+				<Grind GrindRef="Esh-kha Offensive (Bonus)" While="(not IsQuestComplete(0xE0009025312C5C98))" />
+			</If>
+			<!-- Breaking the War Machine (Bonus) -->
+			<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsQuestComplete(0xE0004716F1655D21)))">
+				<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchStepComplete(0xE0004716F1655D21, 1, 2)))">
+					<!-- Use Ele down -->
+					<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 0)))">
+						<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Munitions" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="50" WaitTime="5" >
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-170.475,10.40002,-109.9999" />
+								<Hotspot Name="My Location" XYZ="-170.9122,12.005,-113.0591" />
+								<Hotspot Name="My Location" XYZ="-174.1131,12.0066,-111.2385" />
+								<Hotspot Name="My Location" XYZ="-170.6818,12.011,-121.9468" />
+								<Hotspot Name="My Location" XYZ="-183.0287,12.011,-121.8808" />
+								<Hotspot Name="My Location" XYZ="-186.7804,12.011,-118.7583" />
+								<Hotspot Name="My Location" XYZ="-183.2165,12,-102.6701" />
+								<Hotspot Name="Esh-kha Grand Claw" XYZ="-177.2236,12.00002,-103.22" />
+							</Hotspots>
+						</UseObject>
+					</If>
+					<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 1)))">
+						<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Weapons Cache" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="50" WaitTime="5" >
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-180.1333,10.40104,-112.9594" />
+								<Hotspot Name="My Location" XYZ="-180.0585,10.40104,-111.1469" />
+								<Hotspot Name="My Location" XYZ="-169.2181,10.41032,-107.6518" />
+								<Hotspot Name="My Location" XYZ="-169.6786,10.40104,-111.7046" />
+								<Hotspot Name="My Location" XYZ="-172.5562,10.40004,-113.6979" />
+								<Hotspot Name="My Location" XYZ="-183.0287,12.011,-121.8808" />
+							</Hotspots>
+						</UseObject>
+					</If>
+					<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsBranchTaskComplete(0xE0004716F1655D21, 1, 2, 2)))">
+						<UseObject QuestId="0xE0004716F1655D21" Name="Esh-kha Medical Supplies" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" Radius="50" WaitTime="5" >
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-185.2453,10.41032,-107.6599" />
+								<Hotspot Name="Esh-kha War Drone" XYZ="-178.9989,10.39999,-108.4225" />
+								<Hotspot Name="My Location" XYZ="-169.2181,10.41032,-107.6518" />
+								<Hotspot Name="My Location" XYZ="-173.0097,10.41001,-115.4746" />
+							</Hotspots>
+						</UseObject>
+					</If>
+					<!-- Ele back up -->
+				</If>
+			</If>
+			<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2)))">
+				<!-- Use Ele down -->
+				<Grind GrindRef="Shadows from the Past: Esh-kha Leaders 2" While="(not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2))" />
+			</If>
 		</If>
 		
 		<!-- Forging a Path and Turnin -->
 		<If Condition="((HasQuest(0xE0007947BCE4DEBE)) and (not IsQuestComplete(0xE0007947BCE4DEBE)))">
-		 <If Condition="((HasQuest(0xE0007947BCE4DEBE)) and (not IsBranchStepComplete(0xE0007947BCE4DEBE, 1, 2)))">
-			<UseObject QuestId="0xE0007947BCE4DEBE" Name="Rataka Panel" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-175.3055" Y="21.63462" Z="-81.65733" />
+			<If Condition="((HasQuest(0xE0007947BCE4DEBE)) and (not IsBranchStepComplete(0xE0007947BCE4DEBE, 1, 2)))">
+				<UseObject QuestId="0xE0007947BCE4DEBE" Name="Rataka Panel" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-175.3055,21.63462,-81.65733" />
 			
- 			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Excavated Transport Center" 
-									X="-174.6815" Y="21.6929" Z="-81.38072"
+				<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Excavated Transport Center" 
+									XYZ="-174.6815,21.6929,-81.38072"
 									ToX="-133.4452" ToY="28.7002" ToZ="-33.08997" />
-		 </If>
-	<TurnInQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" TurnInName="Lora" X="-146.113" Y="26.97806" Z="-32.1348" />
+			</If>
+			<TurnInQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" TurnInName="Lora" XYZ="-146.113,26.97806,-32.1348" />
 			<CompleteQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" RewardIndex="1" />
 		</If>
 		
 		<!-- Turnin Friendly Fire -->
 		<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsQuestComplete(0xE000B8DEE6A887BB)))">
-	<TurnInQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" TurnInName="Sergeant Nerrick" X="-147.5913" Y="26.98019" Z="-28.0786" />
+			<TurnInQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" TurnInName="Sergeant Nerrick" XYZ="-147.5913,26.98019,-28.0786" />
 			<CompleteQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" RewardIndex="3" />
 		</If>
 		
 		<!-- Turnin Shadows from the Past: Esh-kha Leaders -->
 		<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsQuestComplete(0xE00044AC51F792D7)))">
-	<TurnInQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" TurnInName="General Skylast" X="-147.991" Y="27.291" Z="-36.98882" />
+			<TurnInQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" TurnInName="General Skylast" XYZ="-147.991,27.291,-36.98882" />
 			<CompleteQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" RewardIndex="2" />
 			<!-- Striking the Esh-kha 0xE000EDD86673B47E-->
 			
- 			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Outer Tomb Transport Center" 
-									X="-133.4452" Y="28.7002" Z="-33.08997"
+			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Outer Tomb Transport Center" 
+									XYZ="-133.4452,28.7002,-33.08997"
 									ToX="-174.6815" ToY="21.6929" ToZ="-81.38072" />
 		</If>
 		
-	<PickUpQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" GiverName="Rataka Terminal" X="-209.2774" Y="18.411" Z="-125.4401" />
+		<PickUpQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" GiverName="Rataka Terminal" XYZ="-209.2774,18.411,-125.4401" />
 	
 		<!-- Prison Power Outage -->
 		<If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsQuestComplete(0xE000FF345DE28FB7)))">
-		 <If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsBranchStepComplete(0xE000FF345DE28FB7, 1, 2)))">
-			<UseObject QuestId="0xE000FF345DE28FB7" Name="Control Conduit" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" X="-214.4985" Y="16.76227" Z="-154.3863" />
-			<UseObject QuestId="0xE000FF345DE28FB7" Name="Thermal Vent" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" X="-211.5548" Y="16.77819" Z="-156.0796" />
-			<UseObject QuestId="0xE000FF345DE28FB7" Name="Ignition Matrix" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" X="-206.7648" Y="16.76492" Z="-152.1807" />
-		 </If>
-		 <!-- Stage 1 - Esh-kha Proofing (Bonus) -->
-		 <If Condition="((not HasQuest(0xE000E8721574E61C)) and (not IsQuestComplete(0xE000E8721574E61C)))">
-			<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(not HasQuest(0xE000E8721574E61C))" />
-		 </If>
-		 <!-- Stage 1 - Esh-kha Proofing (Bonus) -->
-		 <If Condition="((HasQuest(0xE000E8721574E61C)) and (not IsQuestComplete(0xE000E8721574E61C)))">
-			<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(HasQuest(0xE000E8721574E61C))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Stage 2 - Esh-kha Proofing (Bonus) -->
-		 <If Condition="((HasQuest(0xE000E5721574FB05)) and (not IsQuestComplete(0xE000E5721574FB05)))">
-			<UseObject QuestId="0xE000E5721574FB05" Name="Power Relay" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-239.8116" Y="19.20975" Z="-144.182" />
-				<Hotspot Name="My Location" X="-246.2831" Y="19.20974" Z="-150.8808" />
-				<Hotspot Name="My Location" X="-239.7618" Y="19.2155" Z="-152.6754" />
-				<Hotspot Name="My Location" X="-238.0329" Y="19.2155" Z="-150.8796" />
-			 </Hotspots>
-			</UseObject>
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsBranchStepComplete(0xE000FF345DE28FB7, 1, 3)))">
-			<UseObject QuestId="0xE000FF345DE28FB7" Name="Rataka Emergency Trigger" BranchId="1" StepId="3" Radius="20" WaitTime="5" X="-241.4243" Y="19.20911" Z="-148.3876" />
-		 </If>
-		 <!-- Stage 3 - Esh-kha Proofing (Bonus) -->
-		 <If Condition="((HasQuest(0xE000E6721574FAB6)) and (not IsQuestComplete(0xE000E6721574FAB6)))">
-			<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(not HasQuest(0xE000E6721574FAB6))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Final Stage - Esh-kha Proofing (Bonus) -->
-		 <If Condition="((HasQuest(0xE000EB721574E137)) and (not IsQuestComplete(0xE000EB721574E137)))">
-			<Grind GrindRef="Final Stage - Esh-kha Proofing (Bonus)" While="(HasQuest(0xE000EB721574E137))" />
-		 </If>
+			<If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsBranchStepComplete(0xE000FF345DE28FB7, 1, 2)))">
+				<UseObject QuestId="0xE000FF345DE28FB7" Name="Control Conduit" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" XYZ="-214.4985,16.76227,-154.3863" />
+				<UseObject QuestId="0xE000FF345DE28FB7" Name="Thermal Vent" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" XYZ="-211.5548,16.77819,-156.0796" />
+				<UseObject QuestId="0xE000FF345DE28FB7" Name="Ignition Matrix" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" XYZ="-206.7648,16.76492,-152.1807" />
+			</If>
+			<!-- Stage 1 - Esh-kha Proofing (Bonus) -->
+			<If Condition="((not HasQuest(0xE000E8721574E61C)) and (not IsQuestComplete(0xE000E8721574E61C)))">
+				<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(not HasQuest(0xE000E8721574E61C))" />
+			</If>
+			<!-- Stage 1 - Esh-kha Proofing (Bonus) -->
+			<If Condition="((HasQuest(0xE000E8721574E61C)) and (not IsQuestComplete(0xE000E8721574E61C)))">
+				<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(HasQuest(0xE000E8721574E61C))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Stage 2 - Esh-kha Proofing (Bonus) -->
+			<If Condition="((HasQuest(0xE000E5721574FB05)) and (not IsQuestComplete(0xE000E5721574FB05)))">
+				<UseObject QuestId="0xE000E5721574FB05" Name="Power Relay" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-239.8116,19.20975,-144.182" />
+						<Hotspot Name="My Location" XYZ="-246.2831,19.20974,-150.8808" />
+						<Hotspot Name="My Location" XYZ="-239.7618,19.2155,-152.6754" />
+						<Hotspot Name="My Location" XYZ="-238.0329,19.2155,-150.8796" />
+					</Hotspots>
+				</UseObject>
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsBranchStepComplete(0xE000FF345DE28FB7, 1, 3)))">
+				<UseObject QuestId="0xE000FF345DE28FB7" Name="Rataka Emergency Trigger" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-241.4243,19.20911,-148.3876" />
+			</If>
+			<!-- Stage 3 - Esh-kha Proofing (Bonus) -->
+			<If Condition="((HasQuest(0xE000E6721574FAB6)) and (not IsQuestComplete(0xE000E6721574FAB6)))">
+				<Grind GrindRef="Stage 1 - Esh-kha Proofing (Bonus)" While="(not HasQuest(0xE000E6721574FAB6))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Final Stage - Esh-kha Proofing (Bonus) -->
+			<If Condition="((HasQuest(0xE000EB721574E137)) and (not IsQuestComplete(0xE000EB721574E137)))">
+				<Grind GrindRef="Final Stage - Esh-kha Proofing (Bonus)" While="(HasQuest(0xE000EB721574E137))" />
+			</If>
 		</If>
 		
 		<!-- Pickup [AREA] Prison Scars -->
 		<If Condition="((not HasQuest(0xE00028FC1FF57C03)) and (not IsQuestComplete(0xE00028FC1FF57C03)))">
-			<MoveTo QuestId="1" Name="Pickup Prison Scars" X="-151.3487" Y="17.71077" Z="-138.9907" />
+			<MoveTo QuestId="1" Name="Pickup Prison Scars" XYZ="-151.3487,17.71077,-138.9907" />
 		</If>
 		
 		<!-- [AREA] Prison Scars -->
 		<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsQuestComplete(0xE00028FC1FF57C03)))">
-		 <If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3)))">
-			<Grind GrindRef="[AREA] Prison Scars" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3))" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 5)))">
-			<UseObject QuestId="0xE00028FC1FF57C03" Name="Archaic Stasis Chamber" IgnoreLOS="True" UseRange="6" BranchId="1" StepId="5" Radius="50" WaitTime="5" >
-			 <Hotspots>
-				<Hotspot Name="My Location" X="-137.9392" Y="18.78932" Z="-146.4295" />
-				<Hotspot Name="My Location" X="-161.7445" Y="20.30082" Z="-148.6946" />
-				<Hotspot Name="My Location" X="-159.4003" Y="19.92592" Z="-129.5646" />
-				<Hotspot Name="My Location" X="-157.1758" Y="20.18653" Z="-122.9198" />
-				<Hotspot Name="My Location" X="-155.1753" Y="21.22955" Z="-115.4151" />
-				<Hotspot Name="My Location" X="-138.6868" Y="19.22081" Z="-131.7785" />
-			 </Hotspots>
-			</UseObject>
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7)))">
-			<Grind GrindRef="[AREA] Prison Scars 7" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7))" />
-		 </If>
+			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3)))">
+				<Grind GrindRef="[AREA] Prison Scars" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3))" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 5)))">
+				<UseObject QuestId="0xE00028FC1FF57C03" Name="Archaic Stasis Chamber" IgnoreLOS="True" UseRange="6" BranchId="1" StepId="5" Radius="50" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-137.9392,18.78932,-146.4295" />
+						<Hotspot Name="My Location" XYZ="-161.7445,20.30082,-148.6946" />
+						<Hotspot Name="My Location" XYZ="-159.4003,19.92592,-129.5646" />
+						<Hotspot Name="My Location" XYZ="-157.1758,20.18653,-122.9198" />
+						<Hotspot Name="My Location" XYZ="-155.1753,21.22955,-115.4151" />
+						<Hotspot Name="My Location" XYZ="-138.6868,19.22081,-131.7785" />
+					</Hotspots>
+				</UseObject>
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7)))">
+				<Grind GrindRef="[AREA] Prison Scars 7" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7))" />
+			</If>
 		</If>
 		
 		<!-- Striking the Esh-kha and Turnin -->
 		<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsQuestComplete(0xE000EDD86673B47E)))">
-		 <If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 2)))">
-			<!-- Esh-kha Assault (Bonus) -->
-			<If Condition="(not HasQuest(0xE000FA38F285DC60))">
-				<Grind GrindRef="Esh-kha Assault (Bonus)" While="(not HasQuest(0xE000FA38F285DC60))" />
+			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 2)))">
+				<!-- Esh-kha Assault (Bonus) -->
+				<If Condition="(not HasQuest(0xE000FA38F285DC60))">
+					<Grind GrindRef="Esh-kha Assault (Bonus)" While="(not HasQuest(0xE000FA38F285DC60))" />
+				</If>
+				<!-- Esh-kha Assault (Bonus) -->
+				<If Condition="(not IsQuestComplete(0xE000FA38F285DC60))">
+					<Grind GrindRef="Esh-kha Assault (Bonus)" While="(not IsQuestComplete(0xE000FA38F285DC60))" />
+				</If>	
+				<MoveTo QuestId="0xE000EDD86673B47E" Name="Lord Chayloss" XYZ="-127.3099,17.5871,-109.4139" />
+				<MoveTo QuestId="0xE000EDD86673B47E" Name="Lord Chayloss" XYZ="-127.4842,17.69787,-105.7993" />
 			</If>
-			<!-- Esh-kha Assault (Bonus) -->
-			<If Condition="(not IsQuestComplete(0xE000FA38F285DC60))">
-				<Grind GrindRef="Esh-kha Assault (Bonus)" While="(not IsQuestComplete(0xE000FA38F285DC60))" />
-			</If>	
-			<MoveTo QuestId="0xE000EDD86673B47E" Name="Lord Chayloss" X="-127.3099" Y="17.5871" Z="-109.4139" />
-			<MoveTo QuestId="0xE000EDD86673B47E" Name="Lord Chayloss" X="-127.4842" Y="17.69787" Z="-105.7993" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3)))">
-			<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" X="-127.5295" Y="17.69787" Z="-105.3228" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 4)))">
-			<Grind GrindRef="Striking the Esh-kha" While="(not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 5)))">
-			<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" X="-127.5295" Y="17.69787" Z="-105.3228" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 6)))">
-			<MoveTo QuestId="1" X="-127.3402" Y="17.68954" Z="-103.4796" />
-			<UseObject QuestId="0xE000EDD86673B47E" Name="Rakata Holoterminal" BranchId="1" StepId="6" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" X="-127.3392" Y="17.69643" Z="-103.4697" />
-		 </If>
+			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3)))">
+				<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" XYZ="-127.5295,17.69787,-105.3228" />
+			</If>
+			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 4)))">
+				<Grind GrindRef="Striking the Esh-kha" While="(not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3))" />
+			</If>
+			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 5)))">
+				<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" XYZ="-127.5295,17.69787,-105.3228" />
+			</If>
+			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 6)))">
+				<MoveTo QuestId="1" XYZ="-127.3402,17.68954,-103.4796" />
+				<UseObject QuestId="0xE000EDD86673B47E" Name="Rakata Holoterminal" BranchId="1" StepId="6" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="-127.3392,17.69643,-103.4697" />
+			</If>
 			<CompleteQuest QuestName="Striking the Esh-kha" QuestId="0xE000EDD86673B47E" RewardIndex="1" />
 		</If>
 		
 		<!-- Turnin Prison Power Outage -->
 		<If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsQuestComplete(0xE000FF345DE28FB7)))">
-	<TurnInQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" TurnInName="Monitor Station" X="-104.4601" Y="17.56783" Z="-131.4975" />
+			<TurnInQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" TurnInName="Monitor Station" XYZ="-104.4601,17.56783,-131.4975" />
 			<CompleteQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" RewardIndex="3" />
 		</If>
 		
 		<!-- Turnin Secrets of the Deep -->
 		<If Condition="((HasQuest(0xE000E9423EF65815)) and (not IsQuestComplete(0xE000E9423EF65815)))">
-	<TurnInQuest QuestName="Secrets of the Deep" QuestId="0xE000E9423EF65815" Type="Placeable" UseRange="2" TurnInName="Holoterminal" X="-104.31" Y="17.56783" Z="-130.9935" />
+			<TurnInQuest QuestName="Secrets of the Deep" QuestId="0xE000E9423EF65815" Type="Placeable" UseRange="2" TurnInName="Holoterminal" XYZ="-104.31,17.56783,-130.9935" />
 			<CompleteQuest QuestName="Secrets of the Deep" QuestId="0xE000E9423EF65815" />
 		</If>
 		
 		<!-- Turnin [AREA] Prison Scars -->
 		<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsQuestComplete(0xE00028FC1FF57C03)))">
-	<TurnInQuest QuestName="[AREA] Prison Scars" QuestId="0xE00028FC1FF57C03" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" X="-103.497" Y="17.5657" Z="-130.5029" />
+			<TurnInQuest QuestName="[AREA] Prison Scars" QuestId="0xE00028FC1FF57C03" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-103.497,17.5657,-130.5029" />
 			<CompleteQuest QuestName="[AREA] Prison Scars" QuestId="0xE00028FC1FF57C03" />
 			<!-- a 2nd AREA Prision Scars box pops up, giving us an option for more stuff - reward 1 - boots; although i can't get the questid from it -->
 		</If>
 		
-	<PickUpQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" GiverName="TM-09" X="-104.8652" Y="17.5657" Z="-132.216" />
+		<PickUpQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" GiverName="TM-09" XYZ="-104.8652,17.5657,-132.216" />
 		
 		<!-- Unexpected Assistance -->
 		<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsQuestComplete(0xE00001C0DD51D63A)))">
-		 <If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsBranchStepComplete(0xE00001C0DD51D63A, 1, 2)))">
-			<UseItem QuestId="0xE00001C0DD51D63A" Item="TM-09's Security Spikes" OnObject="Reprogrammed Warden Droid" WaitTime="3500" Range="28" InCombat="True" Radius="20" >
-			 <Hotspots>				
-				<Hotspot Name="Reprogrammed Warden Droid" X="-102.0194" Y="18.19773" Z="-141.3525" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-99.45829" Y="16.83593" Z="-145.4541" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-94.93255" Y="16.6309" Z="-143.9554" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-85.27788" Y="16.69084" Z="-142.4539" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-81.21664" Y="16.76187" Z="-142.3973" />
-				<Hotspot Name="Reprogrammed Warden Droid" X="-83.79981" Y="16.63837" Z="-146.4588" />
-			 </Hotspots>
-			</UseItem>
-		 </If>
-		 <!-- Assisting the Wardens (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000D9DFAEE44F30))">
-			<Grind GrindRef="Assisting the Wardens (Bonus)" While="(not IsQuestComplete(0xE000D9DFAEE44F30))" />
-		 </If>
+			<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsBranchStepComplete(0xE00001C0DD51D63A, 1, 2)))">
+				<UseItem QuestId="0xE00001C0DD51D63A" Item="TM-09's Security Spikes" OnObject="Reprogrammed Warden Droid" WaitTime="3500" Range="28" InCombat="True" Radius="20" >
+					<Hotspots>				
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-102.0194,18.19773,-141.3525" />
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-99.45829,16.83593,-145.4541" />
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-94.93255,16.6309,-143.9554" />
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-85.27788,16.69084,-142.4539" />
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-81.21664,16.76187,-142.3973" />
+						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-83.79981,16.63837,-146.4588" />
+					</Hotspots>
+				</UseItem>
+			</If>
+			<!-- Assisting the Wardens (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000D9DFAEE44F30))">
+				<Grind GrindRef="Assisting the Wardens (Bonus)" While="(not IsQuestComplete(0xE000D9DFAEE44F30))" />
+			</If>
 		</If>
 		
-	<PickUpQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" GiverName="Rakata Computer" X="-93.09548" Y="16.311" Z="-149.7126" />
+		<PickUpQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" GiverName="Rakata Computer" XYZ="-93.09548,16.311,-149.7126" />
 		
 		<!-- A Safety Feature and Turnin -->
 		<If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsQuestComplete(0xE0002DD54723A3E9)))">
-		 <If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 2)))">
-			<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-78.91669" Y="14.50101" Z="-158.5016" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 3)))">
-			<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="3" Radius="20" WaitTime="5" X="-71.89949" Y="13.90751" Z="-152.367" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 4)))">
-			<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="-68.69116" Y="13.9135" Z="-142.3456" />
-		 </If>
-		 <!-- This is Sabotage (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000E943EF0DFBFD))">
-			<Grind GrindRef="This is Sabotage (Bonus)" While="(not IsQuestComplete(0xE000E943EF0DFBFD))" />
-		 </If>
-	<TurnInQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" TurnInName="Rakata Computer" X="-93.09548" Y="16.311" Z="-149.7126" />
+			<If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 2)))">
+				<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-78.91669,14.50101,-158.5016" />
+			</If>
+			<If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 3)))">
+				<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-71.89949,13.90751,-152.367" />
+			</If>
+			<If Condition="((HasQuest(0xE0002DD54723A3E9)) and (not IsBranchStepComplete(0xE0002DD54723A3E9, 1, 4)))">
+				<UseObject QuestId="0xE0002DD54723A3E9" Name="Emergency Power Relay Switch" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-68.69116,13.9135,-142.3456" />
+			</If>
+			<!-- This is Sabotage (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000E943EF0DFBFD))">
+				<Grind GrindRef="This is Sabotage (Bonus)" While="(not IsQuestComplete(0xE000E943EF0DFBFD))" />
+			</If>
+			<TurnInQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" TurnInName="Rakata Computer" XYZ="-93.09548,16.311,-149.7126" />
 			<CompleteQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" RewardIndex="1" />
 		</If>
 		
 		<!-- Turnin Unexpected Assistance -->
 		<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsQuestComplete(0xE00001C0DD51D63A)))">
-			<TurnInQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" TurnInName="TM-09" X="-104.8652" Y="17.5657" Z="-132.216" />
+			<TurnInQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" TurnInName="TM-09" XYZ="-104.8652,17.5657,-132.216" />
 			<CompleteQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" RewardIndex="3" />
 		</If>
-			<CompleteQuest QuestName="Esh-Kha Proofing" QuestId="0xE000FFCFA4164C14" /> <!-- Where does this go? -->
+		<CompleteQuest QuestName="Esh-Kha Proofing" QuestId="0xE000FFCFA4164C14" /> <!-- Where does this go? -->
 	
 		<!-- Failsafe and Turnin -->
 		<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsQuestComplete(0xE000ED82CBAE2C0E)))">
-		 <!-- Protecting the Failsafe (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0007854F21E894B))">
-			<Grind GrindRef="Protecting the Failsafe (Bonus)" While="(not IsQuestComplete(0xE0007854F21E894B))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 2)))">
-			<MoveTo QuestId="0xE000ED82CBAE2C0E" Name="Esh-kha Warrior-Striker" X="-28.83686" Y="9.700953" Z="-121.4592" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3)))">
-			<Grind GrindRef="Failsafe 3" While="(not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 4)))">
-			<UseObject QuestId="0xE000ED82CBAE2C0E" Name="Stasis Chamber" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="-28.12756" Y="9.7431" Z="-122.4022" />
-		 </If>
+			<!-- Protecting the Failsafe (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0007854F21E894B))">
+				<Grind GrindRef="Protecting the Failsafe (Bonus)" While="(not IsQuestComplete(0xE0007854F21E894B))" />
+			</If>
+			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 2)))">
+				<MoveTo QuestId="0xE000ED82CBAE2C0E" Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
+			</If>
+			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3)))">
+				<Grind GrindRef="Failsafe 3" While="(not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3))" />
+			</If>
+			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 4)))">
+				<UseObject QuestId="0xE000ED82CBAE2C0E" Name="Stasis Chamber" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-28.12756,9.7431,-122.4022" />
+			</If>
 			<CompleteQuest QuestName="Failsafe" QuestId="0xE000ED82CBAE2C0E" RewardIndex="3" />
 			<!-- The World Razer 0xE000FBCE093C560A-->
 		</If>
@@ -1551,102 +1551,102 @@
 		
 		<!-- Consular - The Voice From The Tomb 2-8 -->
 		<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsQuestComplete(0xE0007866ACA716C2)))">
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 2)))">
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Vault Door" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="-44.57597" Y="17.501" Z="-126.5952" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 3)))">
-			<MoveTo QuestId="0xE0007866ACA716C2" Name="Second Stasis Chamber" X="-30.4903" Y="16.701" Z="-121.3808" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4)))">
-			<Grind GrindRef="The Voice From The Tomb 4" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 5)))">
-			<TalkTo QuestId="0xE0007866ACA716C2" Name="Hidden Blade" X="-30.2048" Y="16.71959" Z="-114.8634" />
-		 </If>
-		 <!-- Primeval Destruction (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0002165BE8E8F5D))">
-			<Grind GrindRef="Primeval Destruction (Bonus)" While="(not IsQuestComplete(0xE0002165BE8E8F5D))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 6)))">
-			<MoveTo QuestId="0xE0007866ACA716C2" Name="Third Stasis Chamber" X="-15.87984" Y="18.301" Z="-115.6129" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7)))">
-			<Grind GrindRef="The Voice From The Tomb 7" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 8)))">
-			<MoveTo QuestId="1" X="-16.09044" Y="16.70221" Z="-103.0136" />
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Chamber" BranchId="1" StepId="8" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" X="-16.09044" Y="16.70221" Z="-103.0136" />
-		 </If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 2)))">
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Vault Door" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-44.57597,17.501,-126.5952" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 3)))">
+				<MoveTo QuestId="0xE0007866ACA716C2" Name="Second Stasis Chamber" XYZ="-30.4903,16.701,-121.3808" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4)))">
+				<Grind GrindRef="The Voice From The Tomb 4" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 5)))">
+				<TalkTo QuestId="0xE0007866ACA716C2" Name="Hidden Blade" XYZ="-30.2048,16.71959,-114.8634" />
+			</If>
+			<!-- Primeval Destruction (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0002165BE8E8F5D))">
+				<Grind GrindRef="Primeval Destruction (Bonus)" While="(not IsQuestComplete(0xE0002165BE8E8F5D))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 6)))">
+				<MoveTo QuestId="0xE0007866ACA716C2" Name="Third Stasis Chamber" XYZ="-15.87984,18.301,-115.6129" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7)))">
+				<Grind GrindRef="The Voice From The Tomb 7" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 8)))">
+				<MoveTo QuestId="1" XYZ="-16.09044,16.70221,-103.0136" />
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Chamber" BranchId="1" StepId="8" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="-16.09044,16.70221,-103.0136" />
+			</If>
 		</If>
 		
 		<!-- The World Razer -->
 		<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsQuestComplete(0xE000FBCE093C560A)))">
-		 <!-- Burning the Way (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE0007A4C9B79584D))">
-			<Grind GrindRef="Burning the Way (Bonus)" While="(not IsQuestComplete(0xE0007A4C9B79584D))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 2)))">
-			<MoveTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" X="18.13051" Y="15.0636" Z="-100.945" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 3)))">
-			<TalkTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" X="18.13051" Y="15.0636" Z="-100.945" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4)))">
-			<Grind GrindRef="The World Razer 4" While="(not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 5)))">
-			<UseObject QuestId="0xE000FBCE093C560A" Name="Rataka Console" BranchId="1" StepId="5" Radius="20" WaitTime="5" X="22.48197" Y="15.09665" Z="-94.67084" />
-		 </If>
+			<!-- Burning the Way (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0007A4C9B79584D))">
+				<Grind GrindRef="Burning the Way (Bonus)" While="(not IsQuestComplete(0xE0007A4C9B79584D))" />
+			</If>
+			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 2)))">
+				<MoveTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
+			</If>
+			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 3)))">
+				<TalkTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
+			</If>
+			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4)))">
+				<Grind GrindRef="The World Razer 4" While="(not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4))" />
+			</If>
+			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 5)))">
+				<UseObject QuestId="0xE000FBCE093C560A" Name="Rataka Console" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="22.48197,15.09665,-94.67084" />
+			</If>
 		</If>
 		
 		<!-- Consular - The Voice From The Tomb 9-15 -->
 		<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsQuestComplete(0xE0007866ACA716C2)))">
-		 <!-- For the Greater Good (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE00091DC3DBBEECB))">
-			<Grind GrindRef="For the Greater Good (Bonus)" While="(not IsQuestComplete(0xE00091DC3DBBEECB))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 9)))">
-			<MoveTo QuestId="0xE0007866ACA716C2" Name="Esh-kha Warrior-Captain" X="-17.39661" Y="8.701" Z="-179.7524" />
-		 </If>
-		 <!-- Skip 10 -->
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11)))">
-			<Grind GrindRef="The Voice From The Tomb 11" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 12)))">
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Vault Door" BranchId="1" StepId="12" Radius="20" WaitTime="5" X="-17.41509" Y="8.732846" Z="-179.1968" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 13)))">
-			<TalkTo QuestId="0xE0007866ACA716C2" Name="Commander Geland" X="-17.36844" Y="8.699" Z="-173.2574" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14)))">
-			<Grind GrindRef="The Voice From The Tomb 14" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 15)))">
-			<MoveTo QuestId="1" X="-17.36485" Y="8.701751" Z="-172.7633" />
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Chamber" BranchId="1" StepId="15" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" X="-17.36485" Y="8.701751" Z="-172.7633" />
+			<!-- For the Greater Good (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE00091DC3DBBEECB))">
+				<Grind GrindRef="For the Greater Good (Bonus)" While="(not IsQuestComplete(0xE00091DC3DBBEECB))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 9)))">
+				<MoveTo QuestId="0xE0007866ACA716C2" Name="Esh-kha Warrior-Captain" XYZ="-17.39661,8.701,-179.7524" />
+			</If>
+			<!-- Skip 10 -->
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11)))">
+				<Grind GrindRef="The Voice From The Tomb 11" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 12)))">
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Vault Door" BranchId="1" StepId="12" Radius="20" WaitTime="5" XYZ="-17.41509,8.732846,-179.1968" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 13)))">
+				<TalkTo QuestId="0xE0007866ACA716C2" Name="Commander Geland" XYZ="-17.36844,8.699,-173.2574" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14)))">
+				<Grind GrindRef="The Voice From The Tomb 14" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14))" />
+			</If>
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 15)))">
+				<MoveTo QuestId="1" XYZ="-17.36485,8.701751,-172.7633" />
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Stasis Chamber" BranchId="1" StepId="15" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="-17.36485,8.701751,-172.7633" />
 			
-			<!-- Upper to Lower -->
-			<!-- We need to learn Lower earlier in the profile - as I don't know it atm
+				<!-- Upper to Lower -->
+				<!-- We need to learn Lower earlier in the profile - as I don't know it atm
 			<MoveTo QuestId="1" Name="Lower Transport Center" X="-107.2507" Y="17.2312" Z="-119.3793" /> -->
- 			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" Option="Lower Transport Center"
-									X="-107.2507" Y="17.2312" Z="-119.3793"
+				<UseTransport TransporterName="Rataka Transporter" Type="Taxi" Option="Lower Transport Center"
+									XYZ="-107.2507,17.2312,-119.3793"
 									ToX="-4.947242" ToY="13.8312" ToZ="-141.378" />
 			
-			<!-- Republic Power Center to Excavated Transport Center -->
- 			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Excavated Transport Center" 
-									X="-174.6815" Y="21.6929" Z="-81.38072"
+				<!-- Republic Power Center to Excavated Transport Center -->
+				<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Excavated Transport Center" 
+									XYZ="-174.6815,21.6929,-81.38072"
 									ToX="-133.4452" ToY="28.7002" ToZ="-33.08997" />
-			<!-- I QT'd to Maximum Security Ops Center -->
-		 </If>
+				<!-- I QT'd to Maximum Security Ops Center -->
+			</If>
 		</If>
 		
 		<!-- Turnin The World Razer -->
 		<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsQuestComplete(0xE000FBCE093C560A)))">
-	<TurnInQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" TurnInName="General Skylast" X="-147.991" Y="27.291" Z="-36.97638" />
+			<TurnInQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" TurnInName="General Skylast" XYZ="-147.991,27.291,-36.97638" />
 			<CompleteQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" RewardIndex="1" />
  
- 			<UseTransport TransporterName="Republic Ops Center Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
-									X="-156.3876" Y="27.07195" Z="-34.3323" 
+			<UseTransport TransporterName="Republic Ops Center Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
+									XYZ="-156.3876,27.07195,-34.3323" 
 									ToX="119.9507" ToY="30.03752" ToZ="29.6126" />
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1655,23 +1655,23 @@
 		
 		<!-- Turnin Consular - The Voice From The Tomb -->
 		<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsQuestComplete(0xE0007866ACA716C2)))">
-		 <If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 16)))">
-			<!-- If I am on Belsavis -->
- 			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Belsavis Orbital Station"
-									X="113.1553" Y="30.51896" Z="26.75817" 
+			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 16)))">
+				<!-- If I am on Belsavis -->
+				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Belsavis Orbital Station"
+									XYZ="113.1553,30.51896,26.75817" 
 									ToX="56.9933" ToY="-77.40764" ToZ="26.5056" />
 			
-			<!-- If I am on Belsavis: Republic Orbital Station -->
- 			<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Jedi Consular Airlock"
-									X="58.69345" Y="-77.60392" Z="46.67022"
+				<!-- If I am on Belsavis: Republic Orbital Station -->
+				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Jedi Consular Airlock"
+									XYZ="58.69345,-77.60392,46.67022"
 									ToX="62.0006" ToY="-78.00795" ToZ="48.3183" />
 			
-			<!-- If I am on Belsavis: Republic Orbital Station -->
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Ship Entrance" Radius="20" WaitTime="5" X="62.03563" Y="-77.96738" Z="59.19472" />
+				<!-- If I am on Belsavis: Republic Orbital Station -->
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Ship Entrance" Radius="20" WaitTime="5" XYZ="62.03563,-77.96738,59.19472" />
 			
-			<!-- If I am in my Ship -->
-			<UseObject QuestId="0xE0007866ACA716C2" Name="Intercom" Radius="20" WaitTime="5" X="-0.9778407" Y="1.651" Z="2.675255" />
-		 </If>
+				<!-- If I am in my Ship -->
+				<UseObject QuestId="0xE0007866ACA716C2" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9778407,1.651,2.675255" />
+			</If>
 			<CompleteQuest QuestName="The Voice From The Tomb" QuestId="0xE0007866ACA716C2" RewardIndex="3" />
 			<!-- Fearless 0xE000EC7E57F1DD17-->
 		</If>
@@ -1683,70 +1683,70 @@
 		
 		<!-- Consular - Fearless -->
 		<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsQuestComplete(0xE000EC7E57F1DD17)))">
-		 <If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 2)))">
-			<UseObject QuestId="0xE000EC7E57F1DD17" Name="Galaxy Map" Radius="20" WaitTime="5" X="0.1172609" Y="1.551" Z="-4.558904" />
-			<!-- Distant Outer Rim - The Euphony - Travel Now -->
-			<UseObject QuestId="0xE000EC7E57F1DD17" Name="Ship Exit" Radius="20" WaitTime="5" X="-0.01402321" Y="0.5900244" Z="-2.957375" />
-			<!-- Summon Nadi Grell Companion -->
-		 </If>
-		 <!-- Automated Defense (Bonus) -->
-		 <If Condition="(not IsQuestComplete(0xE000342A24346674))">
-			<Grind GrindRef="Automated Defense (Bonus)" While="(not IsQuestComplete(0xE000342A24346674))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 3)))">
-			<MoveTo QuestId="0xE000EC7E57F1DD17" Name="Stark" X="3.3897" Y="7.801" Z="-17.4983" />
-		 </If>
-		 <!-- Skip 4 -->
-		 <If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5)))">
-			<Grind GrindRef="Fearless 5" While="(not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5))" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 6)))">
-			<TalkTo QuestId="0xE000EC7E57F1DD17" Name="Senator Grell" X="3.6988" Y="7.910185" Z="-17.483" />
-			<WaitTimer QuestId="1" WaitTime="5" />
-			<UseObject QuestId="0xE000EC7E57F1DD17" Name="Airlock to Ship" Radius="20" WaitTime="5" X="13.80267" Y="7.4047" Z="-25.24387" />
-		 </If>
-		 <If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 7)))">
-			<UseObject QuestId="0xE000EC7E57F1DD17" Name="Intercom" Radius="20" WaitTime="5" X="-0.9420362" Y="1.651" Z="2.678125" />
-		 </If>
+			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 2)))">
+				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1172609,1.551,-4.558904" />
+				<!-- Distant Outer Rim - The Euphony - Travel Now -->
+				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01402321,0.5900244,-2.957375" />
+				<!-- Summon Nadi Grell Companion -->
+			</If>
+			<!-- Automated Defense (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000342A24346674))">
+				<Grind GrindRef="Automated Defense (Bonus)" While="(not IsQuestComplete(0xE000342A24346674))" />
+			</If>
+			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 3)))">
+				<MoveTo QuestId="0xE000EC7E57F1DD17" Name="Stark" XYZ="3.3897,7.801,-17.4983" />
+			</If>
+			<!-- Skip 4 -->
+			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5)))">
+				<Grind GrindRef="Fearless 5" While="(not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5))" />
+			</If>
+			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 6)))">
+				<TalkTo QuestId="0xE000EC7E57F1DD17" Name="Senator Grell" XYZ="3.6988,7.910185,-17.483" />
+				<WaitTimer QuestId="1" WaitTime="5" />
+				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="13.80267,7.4047,-25.24387" />
+			</If>
+			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 7)))">
+				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9420362,1.651,2.678125" />
+			</If>
 			<CompleteQuest QuestName="Fearless" QuestId="0xE000EC7E57F1DD17" RewardIndex="2" />
 		</If>
 
-			<!-- Consular - A Thorny Path -->
+		<!-- Consular - A Thorny Path -->
 		<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsQuestComplete(0xE000484D39EFD2FE)))">
-		 <If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 2)))">
-			<!-- We have a couple quests from companions
+			<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 2)))">
+				<!-- We have a couple quests from companions
 			Lt Iresso - Command Decisions
 			Nadia Grell - Being Composed
 			-->
-			<UseObject QuestId="0xE000484D39EFD2FE" Name="Galaxy Map" Radius="20" WaitTime="5" X="0.08519984" Y="1.551" Z="-4.620997" />
-			<!-- Hutt Space - Voss - Travel Now -->
-			<MoveTo QuestId="0xE000484D39EFD2FE" Name="Intercom" X="-0.66154" Y="1.651" Z="2.209565" />
-			<WaitTimer QuestId="1" WaitTime="15" />
-		 </If>
-		 <!-- Skip 3 -->
-		 <!-- New Horizons (Bonus) -->
-		 <If Condition="((HasQuest(0xE000D77D2708EB60)) and (not IsQuestComplete(0xE000D77D2708EB60)))">
-			<UseObject QuestId="0xE000D77D2708EB60" Name="Intercom" Radius="20" WaitTime="5" X="-0.9565052" Y="1.651" Z="2.661546" />
-			<WaitTimer QuestId="1" WaitTime="5" />
-			<UseObject QuestId="0xE000484D39EFD2FE" Name="Ship Exit" Radius="20" WaitTime="5" X="-0.007053371" Y="0.5900244" Z="-2.995612" />
+				<UseObject QuestId="0xE000484D39EFD2FE" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.08519984,1.551,-4.620997" />
+				<!-- Hutt Space - Voss - Travel Now -->
+				<MoveTo QuestId="0xE000484D39EFD2FE" Name="Intercom" XYZ="-0.66154,1.651,2.209565" />
+				<WaitTimer QuestId="1" WaitTime="15" />
+			</If>
+			<!-- Skip 3 -->
+			<!-- New Horizons (Bonus) -->
+			<If Condition="((HasQuest(0xE000D77D2708EB60)) and (not IsQuestComplete(0xE000D77D2708EB60)))">
+				<UseObject QuestId="0xE000D77D2708EB60" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9565052,1.651,2.661546" />
+				<WaitTimer QuestId="1" WaitTime="5" />
+				<UseObject QuestId="0xE000484D39EFD2FE" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.007053371,0.5900244,-2.995612" />
 			
-			<!-- If I am on Voss: Republic Orbital Station, Consular Airlock -->
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
-									X="-95.017" Y="-100.0039" Z="8.860291"
+				<!-- If I am on Voss: Republic Orbital Station, Consular Airlock -->
+				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Voss Orbital Station"
+									XYZ="-95.017,-100.0039,8.860291"
 									ToX="-98.3034" ToY="-99.60795" ToZ="7.1773" />
 									
-	<PickUpQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" GiverName="Commander Hurada" X="-100.5321" Y="-99.599" Z="-4.5337" />
+				<PickUpQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" GiverName="Commander Hurada" XYZ="-100.5321,-99.599,-4.5337" />
 	
-			<!-- If I am on Voss: Republic Orbital Station -->
- 			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
-									X="-100.0168" Y="-99.3791" Z="-12.93396"
+				<!-- If I am on Voss: Republic Orbital Station -->
+				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Voss-Ka"
+									XYZ="-100.0168,-99.3791,-12.93396"
 									ToX="-26.1238" ToY="27.38585" ToZ="25.325" />
 									
-		 </If>
+			</If>
 		</If>
 		
-			<!-- load Voss -->
-			<LoadProfile Path="[R - Light] 44-47 Voss [Kick].xml" />
+		<!-- load Voss -->
+		<LoadProfile Path="[R - Light] 44-47 Voss [Kick].xml" />
 
 	</Questing>    
 
