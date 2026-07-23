@@ -168,7 +168,7 @@
 			<If Condition="HasQuest(0xE000BDCA4B3FB368) and not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 3)">
 				<MoveTo XYZ="50.50351,-19.34991,-33.30284"/>
 			</If>
-			<UseObject QuestId="0xE000BDCA4B3FB368" BranchId="1" StepId="4" Name="Ancient Sith Carving" WaitTime="8" XYZ="50.52357,-19.97035,-38.89777"/>
+			<UseObject QuestId="0xE000BDCA4B3FB368" BranchId="1" StepId="4" ObjectName="Ancient Sith Carving" WaitTime="8" XYZ="50.52357,-19.97035,-38.89777"/>
 			<Grind GrindRef="Kill Marka Ragnos" While="(not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 5))"/>
 		</If>
 		<!--  Warrior - Slaying the Beast  -->
@@ -224,17 +224,17 @@
 			<If Condition="HasQuest(0xE000E8EA0B8485FC) and not IsBranchStepComplete(0xE000E8EA0B8485FC, 1, 2)">
 				<MoveTo QuestId="0xE000E8EA0B8485FC" XYZ="-7.277274,-0.1250233,29.72608"/>
 			</If>
-			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="0" Name="Antechamber Shard" IgnoreLOS="True" XYZ="-7.277274,-0.1250233,29.72608"/>
+			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="0" ObjectName="Antechamber Shard" IgnoreLOS="True" XYZ="-7.277274,-0.1250233,29.72608"/>
 
 			<If Condition="HasQuest(0xE000E8EA0B8485FC) and not IsBranchStepComplete(0xE000E8EA0B8485FC, 1, 2)">
 				<MoveTo QuestId="0xE000E8EA0B8485FC" XYZ="17.08093,2.217013,54.87128"/>
 			</If>
-			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="1" Name="Machine Vault Shard" IgnoreLOS="True" XYZ="17.08093,2.217013,54.87128"/>
+			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="1" ObjectName="Machine Vault Shard" IgnoreLOS="True" XYZ="17.08093,2.217013,54.87128"/>
 
 			<If Condition="HasQuest(0xE000E8EA0B8485FC) and not IsBranchStepComplete(0xE000E8EA0B8485FC, 1, 2)">
 				<MoveTo QuestId="0xE000E8EA0B8485FC" XYZ="1.8023,-2.951316,49.61586"/>
 			</If>
-			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="2" Name="Archive Shard" IgnoreLOS="True" XYZ="1.8023,-2.951316,49.61586"/>
+			<UseObject QuestId="0xE000E8EA0B8485FC" BranchId="1" StepId="2" TaskId="2" ObjectName="Archive Shard" IgnoreLOS="True" XYZ="1.8023,-2.951316,49.61586"/>
 		</If>
 
 		<!--  Warrior - Sith Arithmetic  -->
@@ -264,22 +264,22 @@
 				<If Condition="HasQuest(0xE000918E60CB3E07) and not IsBranchStepComplete(0xE000918E60CB3E07, 1, 4)">
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.290918,-1.130078,-18.69201"/>
 				</If>
-				<UseObject QuestId="0xE000918E60CB3E07" Name="Statue" BranchId="1" StepId="4" TaskId="1" WaitTime="5000" XYZ="2.290918,-1.130078,-18.69201"/>
+				<UseObject QuestId="0xE000918E60CB3E07" ObjectName="Statue" BranchId="1" StepId="4" TaskId="1" WaitTime="5000" XYZ="2.290918,-1.130078,-18.69201"/>
 
 				<If Condition="HasQuest(0xE000918E60CB3E07) and not IsBranchStepComplete(0xE000918E60CB3E07, 1, 4)">
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.279323,-1.224045,-21.52775"/>
 				</If>
-				<UseObject QuestId="0xE000918E60CB3E07" Name="Broken Urn" BranchId="1" StepId="4" TaskId="2" WaitTime="5000" XYZ="2.279323,-1.224045,-21.52775"/>
+				<UseObject QuestId="0xE000918E60CB3E07" ObjectName="Broken Urn" BranchId="1" StepId="4" TaskId="2" WaitTime="5000" XYZ="2.279323,-1.224045,-21.52775"/>
 
 				<If Condition="HasQuest(0xE000918E60CB3E07) and not IsBranchStepComplete(0xE000918E60CB3E07, 1, 4)">
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.296261,-2.249048,-34.15512" />
 				</If>
-				<UseObject QuestId="0xE000918E60CB3E07" Name="Ruined Sarcophagus" BranchId="1" StepId="4" TaskId="3" WaitTime="5000" XYZ="2.296261,-2.249048,-34.15512"/>
+				<UseObject QuestId="0xE000918E60CB3E07" ObjectName="Ruined Sarcophagus" BranchId="1" StepId="4" TaskId="3" WaitTime="5000" XYZ="2.296261,-2.249048,-34.15512"/>
 
 				<If Condition="HasQuest(0xE000918E60CB3E07) and not IsBranchStepComplete(0xE000918E60CB3E07, 1, 4)">
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.630058,-3.110106,-38.02135" />
 				</If>
-				<UseObject QuestId="0xE000918E60CB3E07" Name="Armor Rack" BranchId="1" StepId="4" TaskId="4" WaitTime="5000" XYZ="2.630058,-3.110106,-38.02135"/>
+				<UseObject QuestId="0xE000918E60CB3E07" ObjectName="Armor Rack" BranchId="1" StepId="4" TaskId="4" WaitTime="5000" XYZ="2.630058,-3.110106,-38.02135"/>
 			</If>
 
 			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 6)">

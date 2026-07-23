@@ -56,21 +56,21 @@
 		<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsQuestComplete(0xE000AADDC6313899)))">
 			<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 4)))">
 				<MoveTo QuestId="0xE000AADDC6313899" Name="Northwest Hologram" XYZ="-1.17877,-3.75082,-110.1511"/>
-				<UseObject QuestId="0xE000AADDC6313899" Name="Northwest Hologram" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="-1.17877,-3.75082,-110.1511"/>
+				<UseObject QuestId="0xE000AADDC6313899" ObjectName="Northwest Hologram" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="-1.17877,-3.75082,-110.1511"/>
 				<!--  Northwest Hologram, 02  -->
 
 				<MoveTo QuestId="0xE000AADDC6313899" Name="Northeast Hologram" XYZ="14.33535,-4.429326,-111.0749"/>
-				<UseObject QuestId="0xE000AADDC6313899" Name="Northeast Hologram" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="14.33535,-4.429326,-111.0749"/>
+				<UseObject QuestId="0xE000AADDC6313899" ObjectName="Northeast Hologram" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="14.33535,-4.429326,-111.0749"/>
 				<!--  Northeast Hologram, 01  -->
 
 
 				<MoveTo QuestId="0xE000AADDC6313899" Name="Southeast Hologram" XYZ="16.32479,-4.450816,-93.97791"/>
-				<UseObject QuestId="0xE000AADDC6313899" Name="Southeast Hologram" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="16.32479,-4.450816,-93.97791"/>
+				<UseObject QuestId="0xE000AADDC6313899" ObjectName="Southeast Hologram" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="16.32479,-4.450816,-93.97791"/>
 				<!--  Southeast Hologram, 03  -->
 
 
 				<MoveTo QuestId="0xE000AADDC6313899" Name="Southwest Hologram" XYZ="0.2567409,-4.366278,-91.20907"/>
-				<UseObject QuestId="0xE000AADDC6313899" Name="Southwest Hologram" BranchId="1" StepId="4" TaskId="3" Radius="20" WaitTime="5" XYZ="0.2567409,-4.366278,-91.20907"/>
+				<UseObject QuestId="0xE000AADDC6313899" ObjectName="Southwest Hologram" BranchId="1" StepId="4" TaskId="3" Radius="20" WaitTime="5" XYZ="0.2567409,-4.366278,-91.20907"/>
 				<!--  Southwest Hologram, 04  -->
 
 			</If>
@@ -111,7 +111,7 @@
 				<MoveTo QuestId="0xE0009832354DE990" Name="Rajivari's Camp" XYZ="57.14337,-0.06794091,-5.44408"/>
 			</If>
 			<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 4)))">
-				<UseObject QuestId="0xE0009832354DE990" Name="Rajivari's Holocron" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="66.87022,-1.370737,-12.21556"/>
+				<UseObject QuestId="0xE0009832354DE990" ObjectName="Rajivari's Holocron" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="66.87022,-1.370737,-12.21556"/>
 			</If>
 			<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 5)))">
 
@@ -142,7 +142,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-51.57729,-2.560665,3.149354"/>
-				<UseObject QuestId="0xE000E027508959A7" Name="Combat Droid Activator" BranchId="1" StepId="4" Radius="20" WaitTime="5">
+				<UseObject QuestId="0xE000E027508959A7" ObjectName="Combat Droid Activator" BranchId="1" StepId="4" Radius="20" WaitTime="5">
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-51.57729,-2.560665,3.149354"/>
 						<Hotspot Name="My Location" XYZ="-51.75727,-2.58396,5.68008"/>
@@ -150,7 +150,7 @@
 				</UseObject>
 			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 5)))">
-				<UseObject QuestId="0xE000E027508959A7" Name="Mysterious Stone Carving" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-39.00844,-2.534567,-2.228338"/>
+				<UseObject QuestId="0xE000E027508959A7" ObjectName="Mysterious Stone Carving" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-39.00844,-2.534567,-2.228338"/>
 			</If>
 		</If>
 
@@ -173,7 +173,7 @@
 				<MoveTo QuestId="0xE000A63F64D79501" Name="Explore Cave" XYZ="22.32521,2.450641,43.67255"/>
 			</If>
 			<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsStepComplete(0xE000A63F64D79501, 3)))">
-				<UseObject QuestId="0xE000A63F64D79501" Name="Stone Marker" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="22.94497,3.218501,48.80195"/>
+				<UseObject QuestId="0xE000A63F64D79501" ObjectName="Stone Marker" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="22.94497,3.218501,48.80195"/>
 			</If>
 			<!--  Turnin Consular - Hunter's Eye  -->
 			<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsQuestComplete(0xE000A63F64D79501)))">
@@ -188,11 +188,11 @@
 				<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 2)))">
 
 					<MoveTo QuestId="0xE0003DC151A4CBEA" Name="South Terminal" XYZ="-58.42357,-0.8419659,16.08843"/>
-					<UseObject QuestId="0xE0003DC151A4CBEA" Name="South Terminal" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" XYZ="-58.42357,-0.8419659,16.08843"/>
+					<UseObject QuestId="0xE0003DC151A4CBEA" ObjectName="South Terminal" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" XYZ="-58.42357,-0.8419659,16.08843"/>
 				</If>
 				<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 1)))">
 					<MoveTo QuestId="0xE0003DC151A4CBEA" Name="West Terminal" XYZ="-62.47458,-0.7850895,5.954663"/>
-					<UseObject QuestId="0xE0003DC151A4CBEA" Name="West Terminal" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" XYZ="-62.47458,-0.7850895,5.954663"/>
+					<UseObject QuestId="0xE0003DC151A4CBEA" ObjectName="West Terminal" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" XYZ="-62.47458,-0.7850895,5.954663"/>
 				</If>
 				<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 0)))">
 					<MoveTo QuestId="0xE0003DC151A4CBEA" Name="North Terminal Agro Location" XYZ="-60.49426,-0.8026026,-4.394868"/>
@@ -200,7 +200,7 @@
 					<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" XYZ="-60.65588,-0.1755015,-6.296925"/>
 					<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" XYZ="-60.81425,-0.1765015,-4.867237"/>
 					<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" XYZ="-61.25005,-0.1755015,-4.392649"/>
-					<UseObject QuestId="0xE0003DC151A4CBEA" Name="North Terminal" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" XYZ="-61.22935,-0.1755015,-4.334087"/>
+					<UseObject QuestId="0xE0003DC151A4CBEA" ObjectName="North Terminal" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" XYZ="-61.22935,-0.1755015,-4.334087"/>
 					<MoveTo QuestId="1" IgnoreMesh="True" XYZ="-60.49426,-0.8026026,-4.394868"/>
 				</If>
 				<UserDialog Title="Orlok" Message="Take taxi or Quick Travel to Jedi Temple."/>
@@ -237,7 +237,7 @@
 				<Grind GrindRef="Rajivari's Legacy 3" While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))"/>
 			</If>
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 4)))">
-				<UseObject QuestId="0xE000EAC98B7D73C4" Name="Qyzen's Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="5.942243,1.430775,28.59888"/>
+				<UseObject QuestId="0xE000EAC98B7D73C4" ObjectName="Qyzen's Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="5.942243,1.430775,28.59888"/>
 			</If>
 			<!--  5 Auto Skips and we get Qyzen Fess as a Tank Pet  -->
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 6)))">
@@ -265,7 +265,7 @@
 		</If>
 		<!--  Skip 9  -->
 		<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 10)))">
-			<UseObject QuestId="0xE000EAC98B7D73C4" Name="Stone Carving" BranchId="1" StepId="10" Radius="20" WaitTime="5" XYZ="-11.17348,6.47582,80.80685"/>
+			<UseObject QuestId="0xE000EAC98B7D73C4" ObjectName="Stone Carving" BranchId="1" StepId="10" Radius="20" WaitTime="5" XYZ="-11.17348,6.47582,80.80685"/>
 		</If>
 		<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 11)))">
 			<TalkTo QuestId="0xE000EAC98B7D73C4" Name="Master Rajivari" XYZ="-7.2847,6.422899,80.3432"/>
@@ -290,14 +290,14 @@
 		<!--  Consular - The Forge  -->
 		<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsQuestComplete(0xE000759C2AD0DD3E)))">
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 2)))">
-				<UseObject QuestId="0xE000759C2AD0DD3E" Name="Crystal Formation" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="4.393589,11.81066,109.9767"/>
+				<UseObject QuestId="0xE000759C2AD0DD3E" ObjectName="Crystal Formation" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="4.393589,11.81066,109.9767"/>
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 3)))">
 				<MoveTo QuestId="1" XYZ="5.812215,11.31335,117.5789"/>
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 4)))">
 				<MoveTo QuestId="0xE000759C2AD0DD3E" Name="My Location" XYZ="6.055765,15.17534,154.8249"/>
-				<UseObject QuestId="0xE000759C2AD0DD3E" Name="The Forge" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="1.558054,17.68657,157.0443"/>
+				<UseObject QuestId="0xE000759C2AD0DD3E" ObjectName="The Forge" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="1.558054,17.68657,157.0443"/>
 				<WaitTimer QuestId="1" WaitTime="5"/>
 			</If>
 			<CompleteQuest QuestName="Forged Lightsaber" QuestId="0xE000CD5481FB147A"/>

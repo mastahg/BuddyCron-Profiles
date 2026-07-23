@@ -103,11 +103,11 @@
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 3, 2)))">
 				<MoveTo QuestId="1" XYZ="-10.43056,-0.099,11.25834" />
 				<MoveTo QuestId="1" XYZ="-10.01653,-0.099,12.6397" />
-				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Computer Terminal" BranchId="3" StepId="2" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="-10.01653,-0.099,12.6397" />
+				<UseObject QuestId="0xE000EDF4DDB848B6" ObjectName="Computer Terminal" BranchId="3" StepId="2" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="-10.01653,-0.099,12.6397" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 4, 2)))">
 				<MoveTo QuestId="1" XYZ="-3.461777,0.01999992,5.294277" />
-				<UseObject QuestId="0xE000EDF4DDB848B6" Name="Door Access Panel" BranchId="4" StepId="2" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="-3.461777,0.01999992,5.294277" />
+				<UseObject QuestId="0xE000EDF4DDB848B6" ObjectName="Door Access Panel" BranchId="4" StepId="2" Radius="20" IgnoreLOS="true" UseRange="5" WaitTime="5" XYZ="-3.461777,0.01999992,5.294277" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 4, 3)))">
 				<While Condition="(BuddyTor.Client.AreaID == 0x4000000635D26495)">

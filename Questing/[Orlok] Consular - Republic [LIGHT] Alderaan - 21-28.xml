@@ -131,10 +131,10 @@
 				<Grind GrindRef="Rist Overseer" While="(not IsQuestComplete(0xE000ECFC36E3348B))" />
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 4)))">
-				<UseObject QuestId="0xE000ECFC36E3348B" Name="Control Panel" BranchId="1" StepId="4" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="108.8625,19.0458,-73.79199" /> 
+				<UseObject QuestId="0xE000ECFC36E3348B" ObjectName="Control Panel" BranchId="1" StepId="4" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="108.8625,19.0458,-73.79199" /> 
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 5)))">
-				<UseObject QuestId="0xE000ECFC36E3348B" Name="Holoterminal" BranchId="1" StepId="5" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="105.539,19.0343,-56.45261" />
+				<UseObject QuestId="0xE000ECFC36E3348B" ObjectName="Holoterminal" BranchId="1" StepId="5" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="105.539,19.0343,-56.45261" />
 			</If>		
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 6)))">
 				<TalkTo QuestId="0xE000ECFC36E3348B" Name="Lord Teral" XYZ="78.34587,17.20004,147.0268" />			

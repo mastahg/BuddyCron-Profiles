@@ -108,7 +108,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 6)))">	
 				<!-- Get on Elevator down -->
-				<UseObject QuestId="0xE000DDE90A0F682E" Name="Hydraulic Gearbox" BranchId="1" StepId="6" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-15.45998,-4.5766,-98.59235" />
+				<UseObject QuestId="0xE000DDE90A0F682E" ObjectName="Hydraulic Gearbox" BranchId="1" StepId="6" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-15.45998,-4.5766,-98.59235" />
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 7)))">	
 				<MoveTo QuestId="0xE000DDE90A0F682E" Name="Get inside" XYZ="-19.9617,-4.5702,-97.58383" />
@@ -127,7 +127,7 @@
 				<WaitTimer QuestId="0xE000DDE90A0F682E" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 11)))">	
-				<UseObject QuestId="0xE000DDE90A0F682E" Name="Hyperspace Data Transceiver" BranchId="1" StepId="11" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-31.56874,-4.199,-85.43536" />
+				<UseObject QuestId="0xE000DDE90A0F682E" ObjectName="Hyperspace Data Transceiver" BranchId="1" StepId="11" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-31.56874,-4.199,-85.43536" />
 			</If>		
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 12)))">	
 				<If Condition="(Me.Position.Y &lt; 0)">

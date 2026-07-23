@@ -444,7 +444,7 @@
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
 			<!-- QuestName -->
 			<If Condition="not IsStepComplete(0xE0006DA1145988E6, 3)">
-				<UseObject QuestId="0xE0006DA1145988E6" StepId="3" Name="Arrivals Console" WaitTime="4500" XYZ="100.3171,-7.79744,16.61981" />
+				<UseObject QuestId="0xE0006DA1145988E6" StepId="3" ObjectName="Arrivals Console" WaitTime="4500" XYZ="100.3171,-7.79744,16.61981" />
 			</If>
 			
 			<!--
@@ -466,7 +466,7 @@
 		
 		<!-- Warning Sign -->
 		<If Condition="not IsTaskComplete(0xE0003DF2FAE378A8, 2, 0)">
-			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="0" Name="Landing Beacon Aurek" WaitTime="3000" XYZ="77.19182,5.012282,34.08869" />
+			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="0" ObjectName="Landing Beacon Aurek" WaitTime="3000" XYZ="77.19182,5.012282,34.08869" />
 		</If>
 		
 		<!-- Status Report -->
@@ -476,16 +476,16 @@
 		
 		<!-- Warning Sign -->
 		<If Condition="not IsTaskComplete(0xE0003DF2FAE378A8, 2, 1)">
-			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="1" Name="Landing Beacon Cresh" WaitTime="3000" XYZ="71.10945,8.784506,53.40517" />
+			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="1" ObjectName="Landing Beacon Cresh" WaitTime="3000" XYZ="71.10945,8.784506,53.40517" />
 		</If>
 		
 		<!-- Warning Sign -->
 		<If Condition="not IsTaskComplete(0xE0003DF2FAE378A8, 2, 2)">
-			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="2" Name="Landing Beacon Dorn" WaitTime="3000" XYZ="67.4297,10.95953,64.47352" />
+			<UseObject QuestId="0xE0003DF2FAE378A8" StepId="2" TaskId="2" ObjectName="Landing Beacon Dorn" WaitTime="3000" XYZ="67.4297,10.95953,64.47352" />
 		</If>
 		
 		<!-- Datacron - + 2 Presence -->
-		<UseObject Name="Datacron" WaitTime="3000" XYZ="58.00189,11.5792,79.74042" />
+		<UseObject ObjectName="Datacron" WaitTime="3000" XYZ="58.00189,11.5792,79.74042" />
 		
 		<!-- Call of the Wild -->
 		<Grind GrindRef="Call of the Wild" While="not IsStepComplete(0xE000FF73C1476653, 2)" />
@@ -581,7 +581,7 @@
 		
 		<!-- Sport Hunting -->
 		<If Condition="not IsBranchStepComplete(0xE000681C28D22248, 3, 2)">
-			<UseItem Name="Hunter Tag" OnNpc="Sith Acolyte" WaitTime="2000" Range="4">
+			<UseItem ItemName="Hunter Tag" OnNpc="Sith Acolyte" WaitTime="2000" Range="4">
 				<Hotspot Name="Sith Acolyte" XYZ="-11.9873,3.396814,7.4484" />
 				<Hotspot Name="Sith Acolyte" XYZ="-12.0127,3.397804,17.2792" />
 				<Hotspot Name="Sith Acolyte" XYZ="-17.83497,2.405602,12.30079" />
@@ -626,7 +626,7 @@
 		<Grind GrindRef="Lightning in a Bottle" While="(not IsTaskComplete(0xE000A5FAA2C0CC0C, 2, 0)) or (not IsTaskComplete(0xE000A5FAA2C0CC0C, 2, 1)) or (not IsTaskComplete(0xE000A5FAA2C0CC0C, 2, 2))" />
 		
 		<!-- Lightning in a Bottle -->
-		<UseObject QuestId="0xE000A5FAA2C0CC0C" Name="Access Panel" WaitTime="3000" XYZ="-6.727573,0.2276181,76.17809" />
+		<UseObject QuestId="0xE000A5FAA2C0CC0C" ObjectName="Access Panel" WaitTime="3000" XYZ="-6.727573,0.2276181,76.17809" />
 		
 		<!-- Lightning in a Bottle -->
 		<If Condition="not IsStepComplete(0xE000A5FAA2C0CC0C, 4)">
@@ -659,34 +659,34 @@
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsTaskComplete(0xE00061D4CA98B053, 3, 4)">
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="15.4253,5.126789,91.37445" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="16.34375,5.110667,95.34981" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="15.37942,5.068626,97.01981" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="13.14874,6.515936,99.76372" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="2.079448,6.280961,110.4313" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="-2.686131,6.326226,108.068" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="-0.9562443,6.386256,104.6012" />
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" Name="Reserve Water Tank" WaitTime="2000" XYZ="-6.498939,5.294443,98.89897" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="15.4253,5.126789,91.37445" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="16.34375,5.110667,95.34981" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="15.37942,5.068626,97.01981" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="13.14874,6.515936,99.76372" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="2.079448,6.280961,110.4313" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="-2.686131,6.326226,108.068" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="-0.9562443,6.386256,104.6012" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="4" ObjectName="Reserve Water Tank" WaitTime="2000" XYZ="-6.498939,5.294443,98.89897" />
 		</If>
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsTaskComplete(0xE00061D4CA98B053, 3, 0)">
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="0" Name="Water Filter Alpha" WaitTime="6000" XYZ="19.32886,4.947248,93.24535" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="0" ObjectName="Water Filter Alpha" WaitTime="6000" XYZ="19.32886,4.947248,93.24535" />
 		</If>
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsTaskComplete(0xE00061D4CA98B053, 3, 1)">
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="1" Name="Water Filter Beta" WaitTime="6000" XYZ="20.4329,6.048108,109.0609" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="1" ObjectName="Water Filter Beta" WaitTime="6000" XYZ="20.4329,6.048108,109.0609" />
 		</If>
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsTaskComplete(0xE00061D4CA98B053, 3, 2)">
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="2" Name="Water Filter Echo" WaitTime="6000" XYZ="0.537416,6.330934,108.8337" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="2" ObjectName="Water Filter Echo" WaitTime="6000" XYZ="0.537416,6.330934,108.8337" />
 		</If>
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsTaskComplete(0xE00061D4CA98B053, 3, 3)">
-			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="3" Name="Water Filter Gamma" WaitTime="6000" XYZ="-4.651849,5.136942,101.4912" />
+			<UseObject QuestId="0xE00061D4CA98B053" StepId="3" TaskId="3" ObjectName="Water Filter Gamma" WaitTime="6000" XYZ="-4.651849,5.136942,101.4912" />
 		</If>
 		
 		<!-- The Direct Approach -->
@@ -710,7 +710,7 @@
 		
 		<!-- The Slave-Killers -->
 		<If Condition="not IsStepComplete(0xE000FD02EA595E5E, 3)">
-			<UseObject QuestId="0xE000FD02EA595E5E" StepId="3" Name="Signal Fire" WaitTime="1000" XYZ="61.01816,7.717918,105.2278" />
+			<UseObject QuestId="0xE000FD02EA595E5E" StepId="3" ObjectName="Signal Fire" WaitTime="1000" XYZ="61.01816,7.717918,105.2278" />
 		</If>
 		
 		
@@ -733,32 +733,32 @@
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsTaskComplete(0xE0003CFF4A6A17F4, 5, 0)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="0" Name="Primary Security Station" WaitTime="4000" XYZ="66.15248,7.647502,148.3763" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="0" ObjectName="Primary Security Station" WaitTime="4000" XYZ="66.15248,7.647502,148.3763" />
 			</If>
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsTaskComplete(0xE0003CFF4A6A17F4, 5, 1)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="1" Name="Monitoring Station" WaitTime="2000" XYZ="52.33322,6.530371,143.4953" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="1" ObjectName="Monitoring Station" WaitTime="2000" XYZ="52.33322,6.530371,143.4953" />
 			</If>
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsTaskComplete(0xE0003CFF4A6A17F4, 5, 2)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="2" Name="Monitoring Station" WaitTime="2000" XYZ="55.86883,6.527437,155.0076" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="2" ObjectName="Monitoring Station" WaitTime="2000" XYZ="55.86883,6.527437,155.0076" />
 			</If>
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsTaskComplete(0xE0003CFF4A6A17F4, 5, 3)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="3" Name="Monitoring Station" WaitTime="2000" XYZ="51.00817,6.527102,163.0582" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="5" TaskId="3" ObjectName="Monitoring Station" WaitTime="2000" XYZ="51.00817,6.527102,163.0582" />
 			</If>
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsStepComplete(0xE0003CFF4A6A17F4, 6)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="6" Name="Door" WaitTime="1000" XYZ="46.54255,6.536222,154.9899" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="6" ObjectName="Door" WaitTime="1000" XYZ="46.54255,6.536222,154.9899" />
 			</If>
 			
 			<!-- At the Foot of the Colossus -->
 			<If Condition="not IsStepComplete(0xE0003CFF4A6A17F4, 7)">
-				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="7" Name="Trandoshan Relic" WaitTime="4000" XYZ="40.90772,6.51225,155.0148" />
+				<UseObject QuestId="0xE0003CFF4A6A17F4" StepId="7" ObjectName="Trandoshan Relic" WaitTime="4000" XYZ="40.90772,6.51225,155.0148" />
 			</If>
 		</If>
 		<!-- Inquisitor -->
@@ -823,7 +823,7 @@
 		
 		<!-- Into The Maw -->
 		<While ="not IsTaskComplete(0xE0008263AD8DB16C, 3, 2)">
-			<UseObject QuestId="0xE0008263AD8DB16C" Name="Supply Cache" WaitTime="3000" XYZ="14.27637,-5.714446,34.95294" Radius="100" />
+			<UseObject QuestId="0xE0008263AD8DB16C" ObjectName="Supply Cache" WaitTime="3000" XYZ="14.27637,-5.714446,34.95294" Radius="100" />
 		</While>
 		
 		<!-- Into The Maw -->
@@ -890,7 +890,7 @@
 		<TalkTo Name="Revanite Compound Speeder" WaitTime="1000" XYZ="-79.6927,-2.539633,115.3767" />
 		
 		<!-- Binding Point -->
-		<UseObject QuestId="1" Name="Revanite Compound" WaitTime="3000" XYZ="-80.24611,-2.539633,115.0128" />
+		<UseObject QuestId="1" ObjectName="Revanite Compound" WaitTime="3000" XYZ="-80.24611,-2.539633,115.0128" />
 		
 		<!-- Death and Life -->
 		<If Condition="not IsStepComplete(0xE0009FC8653EA2A5, 2)">
@@ -899,7 +899,7 @@
 		
 		<!-- Death and Life -->
 		<If Condition="not IsStepComplete(0xE0009FC8653EA2A5, 3)">
-			<UseObject QuestId="0xE0009FC8653EA2A5" StepId="3" Name="Revanite Altar" WaitTime="1000" XYZ="-110.2569,0.9408504,149.9169" />
+			<UseObject QuestId="0xE0009FC8653EA2A5" StepId="3" ObjectName="Revanite Altar" WaitTime="1000" XYZ="-110.2569,0.9408504,149.9169" />
 		</If>
 		
 		<!-- Death and Life -->
@@ -937,7 +937,7 @@
 			<TalkTo Name="The Wall Speeder" WaitTime="1000" XYZ="-31.8603,-5.86022,113.1545" />
 			
 			<!-- Binding Point -->
-			<UseObject QuestId="1" Name="The Wall" WaitTime="3000" XYZ="-33.27552,-5.859586,112.7479" />
+			<UseObject QuestId="1" ObjectName="The Wall" WaitTime="3000" XYZ="-33.27552,-5.859586,112.7479" />
 			
 			<!-- The War Machine -->
 			<PickupQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" GiverName="Captain Sarnova" XYZ="-35.1154,-5.904247,118.0605" />
@@ -958,7 +958,7 @@
 		
 		<!-- The War Machine -->
 		<If Condition="not IsStepComplete(0xE00069416197EC03, 4)">
-			<UseObject QuestId="0xE00069416197EC03" StepId="4" Name="Command Console" WaitTime="3500" XYZ="-37.08266,-3.476182,164.3819" />
+			<UseObject QuestId="0xE00069416197EC03" StepId="4" ObjectName="Command Console" WaitTime="3500" XYZ="-37.08266,-3.476182,164.3819" />
 		</If>
 		
 		<!-- Strange Weapons -->
@@ -977,7 +977,7 @@
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
 			<!-- Dismantling the Machine -->
 			<If Condition="not IsStepComplete(0xE000F6DDC719F7E5, 2)">
-				<UseObject QuestId="0xE000F6DDC719F7E5" StepId="2" Name="Door Panel" WaitTime="1500" XYZ="-52.81166,-4.681376,158.2621" />
+				<UseObject QuestId="0xE000F6DDC719F7E5" StepId="2" ObjectName="Door Panel" WaitTime="1500" XYZ="-52.81166,-4.681376,158.2621" />
 				<TurnInQuest QuestName="Dismantling the Machine" QuestId="0xE000F6DDC719F7E5" TurnInName="Dorotsech" XYZ="-52.4816,-4.627219,157.0385" />
 			</If>
 			
@@ -989,27 +989,27 @@
 		
 		<!-- Stage 3 - Final Stage - Grathan Assault (Bonus) -->
 		<If Condition="not IsStepComplete(0xE000272E1A83CE4F, 4)">
-			<UseObject QuestId="0xE000272E1A83CE4F" StepId="4" Name="Field Test Console" WaitTime="3000" XYZ="-46.36846,-5.196834,159.1133" />
+			<UseObject QuestId="0xE000272E1A83CE4F" StepId="4" ObjectName="Field Test Console" WaitTime="3000" XYZ="-46.36846,-5.196834,159.1133" />
 		</If>
 		
 		<!-- Black Science -->
 		<If Condition="not IsTaskComplete(0xE000F79667481DA3, 2, 2)">
-			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="2" Name="Remote Terminal P2" WaitTime="5000" XYZ="-48.76713,-2.834667,148.2793" />
+			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="2" ObjectName="Remote Terminal P2" WaitTime="5000" XYZ="-48.76713,-2.834667,148.2793" />
 		</If>
 		
 		<!-- Black Science -->
 		<If Condition="not IsTaskComplete(0xE000F79667481DA3, 2, 0)">
-			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="0" Name="Remote Terminal B13" WaitTime="5000" XYZ="-50.50914,-4.583115,149.3325" />
+			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="0" ObjectName="Remote Terminal B13" WaitTime="5000" XYZ="-50.50914,-4.583115,149.3325" />
 		</If>
 		
 		<!-- Black Science -->
 		<If Condition="not IsTaskComplete(0xE000F79667481DA3, 2, 1)">
-			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="1" Name="Remote Terminal G16" WaitTime="5000" XYZ="-64.08529,-4.242007,146.1838" />
+			<UseObject QuestId="0xE000F79667481DA3" StepId="2" TaskId="1" ObjectName="Remote Terminal G16" WaitTime="5000" XYZ="-64.08529,-4.242007,146.1838" />
 		</If>
 		
 		<!-- Black Science -->
 		<If Condition="not IsStepComplete(0xE000F79667481DA3, 3)">
-			<UseObject QuestId="0xE000F79667481DA3" StepId="3" Name="Main Computer Console" WaitTime="5000" XYZ="-33.05746,-4.789,154.7888" />
+			<UseObject QuestId="0xE000F79667481DA3" StepId="3" ObjectName="Main Computer Console" WaitTime="5000" XYZ="-33.05746,-4.789,154.7888" />
 		</If>
 		
 		<!-- Black Science -->
@@ -1029,7 +1029,7 @@
 		
 		<!-- The Mask of Revan -->
 		<If Condition="not IsStepComplete(0xE00034374F999EF7, 4)">
-			<UseObject Name="Door to Grathan's Antiquities" QuestId="0xE00034374F999EF7" StepId="4" WaitTime="3000" XYZ="-69.2553,-9.761499,154.394" />
+			<UseObject ObjectName="Door to Grathan's Antiquities" QuestId="0xE00034374F999EF7" StepId="4" WaitTime="3000" XYZ="-69.2553,-9.761499,154.394" />
 		</If>
 		
 		<!-- Strange Weapons -->
@@ -1047,9 +1047,9 @@
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
 			<!-- Cybernetic Sabotage -->
 			<If ="not IsTaskComplete(0xE00014D902E3FA21, 2, 1) or not IsQuestComplete(0xE00014D902E3FA21)">
-				<UseObject QuestId="0xE00014D902E3FA21" Name="Cybernetic Research Control" WaitTime="2000" XYZ="-49.36314,-10.16211,169.9212" />
-				<UseObject QuestId="0xE00014D902E3FA21" Name="Cybernetic Research Control" WaitTime="2000" XYZ="-42.95051,-10.16156,176.8485" />
-				<UseObject QuestId="0xE00014D902E3FA21" Name="Cybernetic Research Control" WaitTime="2000" XYZ="-45.24141,-9.052556,172.776" />
+				<UseObject QuestId="0xE00014D902E3FA21" ObjectName="Cybernetic Research Control" WaitTime="2000" XYZ="-49.36314,-10.16211,169.9212" />
+				<UseObject QuestId="0xE00014D902E3FA21" ObjectName="Cybernetic Research Control" WaitTime="2000" XYZ="-42.95051,-10.16156,176.8485" />
+				<UseObject QuestId="0xE00014D902E3FA21" ObjectName="Cybernetic Research Control" WaitTime="2000" XYZ="-45.24141,-9.052556,172.776" />
 			</If>
 			
 			<!-- Cybernetic Sabotage -->
@@ -1060,7 +1060,7 @@
 			
 			<!-- Dismantling the Machine -->
 			<If Condition="not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 3)">
-				<UseObject QuestId="0xE000F6DDC719F7E5" BranchId="7" StepId="3" Name="Control Panel" WaitTime="5000" XYZ="-46.59051,-10.16156,172.4538" />
+				<UseObject QuestId="0xE000F6DDC719F7E5" BranchId="7" StepId="3" ObjectName="Control Panel" WaitTime="5000" XYZ="-46.59051,-10.16156,172.4538" />
 			</If>
 			
 			<!-- Dismantling the Machine -->
@@ -1070,7 +1070,7 @@
 			
 			<!-- Dismantling the Machine -->
 			<If Condition="not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 5)">
-				<UseObject QuestId="0xE000F6DDC719F7E5" BranchId="7" StepId="5" Name="Cyber Neutralizer" WaitTime="3000" XYZ="-46.55738,-10.08252,172.7997" />
+				<UseObject QuestId="0xE000F6DDC719F7E5" BranchId="7" StepId="5" ObjectName="Cyber Neutralizer" WaitTime="3000" XYZ="-46.55738,-10.08252,172.7997" />
 			</If>
 		</If>
 		<!-- Inquisitor -->
@@ -1176,7 +1176,7 @@
 		
 		<!-- The Master's Secret -->
 		<If Condition="not IsStepComplete(0xE000AB75F2974255, 2)">
-			<UseObject QuestId="0xE000AB75F2974255" StepId="2" Name="Holoterminal" WaitTime="3000" XYZ="-80.98908,-2.66629,109.8088" />
+			<UseObject QuestId="0xE000AB75F2974255" StepId="2" ObjectName="Holoterminal" WaitTime="3000" XYZ="-80.98908,-2.66629,109.8088" />
 		</If>
 		
 		<!-- Use revanite speeder to kaas city -->
@@ -1192,7 +1192,7 @@
 		<!-- Explosive Discontent -->
 		<If Condition="not IsStepComplete(0xE0003EA372434FEE, 2)">
 			<!-- Explosive Discontent -->
-			<UseObject Name="Bomb" QuestId="0xE0003EA372434FEE" StepId="2" WaitTime="3000" Range="4">
+			<UseObject ObjectName="Bomb" QuestId="0xE0003EA372434FEE" StepId="2" WaitTime="3000" Range="4">
 				<Hotspot Name="My Location" XYZ="-32.71314,2.400666,19.48304" />
 				<Hotspot Name="My Location" XYZ="-32.59496,2.405892,23.88665" />
 				<Hotspot Name="My Location" XYZ="-37.6166,2.405892,24.02109" />
@@ -1200,7 +1200,7 @@
 			</UseObject>
 			
 			<!-- Explosive Discontent -->
-			<UseObject Name="Bomb Disposal Device" QuestId="0xE0003EA372434FEE" StepId="2" WaitTime="3000" XYZ="-30.48838,2.410548,18.62118" />
+			<UseObject ObjectName="Bomb Disposal Device" QuestId="0xE0003EA372434FEE" StepId="2" WaitTime="3000" XYZ="-30.48838,2.410548,18.62118" />
 		</If>
 		
 		<!-- Explosive Discontent -->
@@ -1241,7 +1241,7 @@
 			</If>
 			
 			<!-- Giant Killer -->
-			<UseObject QuestId="0xE000FB4EC7E346DF" Name="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="" XYZ="-0.3778934,1.800022,-72.07732" Radius="30" />
+			<UseObject QuestId="0xE000FB4EC7E346DF" ObjectName="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="" XYZ="-0.3778934,1.800022,-72.07732" Radius="30" />
 			
 			<!-- Giant Killer -->
 			<If Condition="HasQuest() and not IsStepComplete(, 2)">
@@ -1297,7 +1297,7 @@
 		<!-- Unauthorized Transmission, Part I -->
 		<If Condition="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)">
 			<TalkTo Name="Kaas City Expansion Speeder" XYZ="-63.5091,2.449646,20.4908" />
-			<UseObject QuestId="0xE0004C2A6B1FB0C5" StepId="2" Name="Kaas City Expansion" WaitTime="4000" XYZ="-63.13832,2.4226,20.88171" />
+			<UseObject QuestId="0xE0004C2A6B1FB0C5" StepId="2" ObjectName="Kaas City Expansion" WaitTime="4000" XYZ="-63.13832,2.4226,20.88171" />
 			<PickupQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" GiverName="Captain Isen" XYZ="-63.4106,2.401627,24.7758" />
 		</If>
 		
@@ -1332,13 +1332,13 @@
 		
 		<!-- The Accursed -->
 		<If Condition="not IsStepComplete(0xE000F5F9E56B8C7D, 3)">
-			<UseObject Name="Archaeologists' Holopad" QuestId="0xE000F5F9E56B8C7D" StepId="3" WaitTime="3500" XYZ="-123.1211,0.7514805,60.99183" />
+			<UseObject ObjectName="Archaeologists' Holopad" QuestId="0xE000F5F9E56B8C7D" StepId="3" WaitTime="3500" XYZ="-123.1211,0.7514805,60.99183" />
 		</If>
 		
 		<!-- Using The Accursed -->
 		<If Condition="not IsStepComplete(0xE000F5F9E56B8C7D, 4)">
 			<!-- Bind Point -->
-			<UseObject Name="Outpost Warden" QuestId="0xE000F5F9E56B8C7D" StepId="4" WaitTime="3000" XYZ="-124.9208,5.3,69.30022" />
+			<UseObject ObjectName="Outpost Warden" QuestId="0xE000F5F9E56B8C7D" StepId="4" WaitTime="3000" XYZ="-124.9208,5.3,69.30022" />
 			
 			<!-- Taxi  -->
 			<TalkTo Name="Outpost Warden Speeder" QuestId="0xE000F5F9E56B8C7D" WaitTime="1000" XYZ="-123.8997,5.326542,69.4146" />
@@ -1391,12 +1391,12 @@
 		
 		<!-- Buried Power -->
 		<If Condition="not IsStepComplete(0xE000841377950A97, 2)">
-			<UseObject QuestId="0xE000841377950A97" StepId="2" Name="Plasma Torch" WaitTime="3000" XYZ="-180.9848,15.051,-12.40324" />
+			<UseObject QuestId="0xE000841377950A97" StepId="2" ObjectName="Plasma Torch" WaitTime="3000" XYZ="-180.9848,15.051,-12.40324" />
 		</If>
 		
 		<!-- Buried Power -->
 		<If Condition="not IsStepComplete(0xE000841377950A97, 3)">
-			<UseObject QuestId="0xE000841377950A97" StepId="3" Name="First Chamber Door" WaitTime="6000" XYZ="-178.219,17.901,-22.96539" />
+			<UseObject QuestId="0xE000841377950A97" StepId="3" ObjectName="First Chamber Door" WaitTime="6000" XYZ="-178.219,17.901,-22.96539" />
 		</If>
 		
 		<!-- Secret Kinds of Darkness -->
@@ -1406,12 +1406,12 @@
 		
 		<!-- Buried Power -->
 		<If Condition="not IsStepComplete(0xE000841377950A97, 4)">
-			<UseObject QuestId="0xE000841377950A97" StepId="4" Name="Second Chamber Door" WaitTime="6000" XYZ="-196.4847,17.901,-22.23609" />
+			<UseObject QuestId="0xE000841377950A97" StepId="4" ObjectName="Second Chamber Door" WaitTime="6000" XYZ="-196.4847,17.901,-22.23609" />
 		</If>
 		
 		<!-- Buried Power -->
 		<If Condition="not IsStepComplete(0xE000841377950A97, 5)">
-			<UseObject QuestId="0xE000841377950A97" StepId="5" Name="Third Chamber Door" WaitTime="6000" XYZ="-196.4198,18.201,-9.39535" />
+			<UseObject QuestId="0xE000841377950A97" StepId="5" ObjectName="Third Chamber Door" WaitTime="6000" XYZ="-196.4198,18.201,-9.39535" />
 		</If>
 		
 		<!-- Secret Kinds of Darkness -->
@@ -1431,12 +1431,12 @@
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
 			<!-- In the Halls of Traitors -->
 			<If Condition="not IsStepComplete(0xE000487ED22B2414, 2)">
-				<UseObject QuestId="0xE000487ED22B2414" StepId="2" Name="Chamber Door" WaitTime="1000" XYZ="-185.591,18.9417,-42.39231" />
+				<UseObject QuestId="0xE000487ED22B2414" StepId="2" ObjectName="Chamber Door" WaitTime="1000" XYZ="-185.591,18.9417,-42.39231" />
 			</If>
 			
 			<!-- In the Halls of Traitors -->
 			<If Condition="not IsStepComplete(0xE000487ED22B2414, 3)">
-				<UseObject QuestId="0xE000487ED22B2414" StepId="3" Name="Artifact" WaitTime="1000" XYZ="-187.7891,18.84971,-42.49691" />
+				<UseObject QuestId="0xE000487ED22B2414" StepId="3" ObjectName="Artifact" WaitTime="1000" XYZ="-187.7891,18.84971,-42.49691" />
 			</If>
 			
 			<!-- In the Halls of Traitors -->

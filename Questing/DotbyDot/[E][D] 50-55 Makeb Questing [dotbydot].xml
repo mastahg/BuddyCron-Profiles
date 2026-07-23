@@ -194,7 +194,7 @@
 				<TalkTo QuestName="To Pierce the Heavens" QuestId="0xE00043B41935779B" Name="Shuttle Pilot" XYZ="-325.9,-55.4395,-12.15" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 3)))">
-				<UseObject QuestId="0xE00043B41935779B" BranchId="1" StepId="3" Name="Wreckage" WaitTime="5" Range="3" Radius="100">
+				<UseObject QuestId="0xE00043B41935779B" BranchId="1" StepId="3" ObjectName="Wreckage" WaitTime="5" Range="3" Radius="100">
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-332.3459,-24.19392,33.87362" />
 					</Hotspots>
@@ -203,33 +203,33 @@
 			</If>
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 4)))">
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-334.2643,-24.04729,35.8944" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Satellite Uplink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-334.2643,-24.04729,35.8944" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Satellite Uplink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-334.2643,-24.04729,35.8944" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 5)))">
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-323.1774,-22.76046,21.7692" />
 				<PickUpQuest QuestName="Defensive Data" QuestId="0xE000527599ECF7B8" GiverType="Placeable" UseRange="2" Radius="5" GiverName="Security Memo" XYZ="-323.7373,-22.76046,22.08231" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Communications Console" BranchId="1" StepId="5" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-323.1774,-22.76046,21.7692" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Communications Console" BranchId="1" StepId="5" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-323.1774,-22.76046,21.7692" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 6)))">
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-354.3657,-24.06046,23.77606" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Communications Console" BranchId="1" StepId="6" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-354.3657,-24.06046,23.77606" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Communications Console" BranchId="1" StepId="6" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-354.3657,-24.06046,23.77606" />
 			</If>
 			<!-- Defensive Data Start -->
 			
 			<If Condition="HasQuest(0xE000527599ECF7B8) and not IsTaskComplete(0xE000527599ECF7B8, 2, 0)">
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-359.0567,-23.97199,10.51889" />
-				<UseObject QuestId="0xE000527599ECF7B8" Name="Gravity Hook 7: Security Procedures" BranchId="1" StepId="2" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-358.8266,-23.85869,10.44749" />
+				<UseObject QuestId="0xE000527599ECF7B8" ObjectName="Gravity Hook 7: Security Procedures" BranchId="1" StepId="2" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-358.8266,-23.85869,10.44749" />
 			</If>
 			<If Condition="HasQuest(0xE000527599ECF7B8) and not IsTaskComplete(0xE000527599ECF7B8, 2, 1)">
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-346.1271,-24.52602,2.269437" />
-				<UseObject QuestId="0xE000527599ECF7B8" Name="Gravity Hook 7: Guard Rotation" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-346.1442,-24.39081,2.518631" />
+				<UseObject QuestId="0xE000527599ECF7B8" ObjectName="Gravity Hook 7: Guard Rotation" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-346.1442,-24.39081,2.518631" />
 			</If>
 			
 			<!-- To Pierce the Heavens continued -->
 			
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 7)))">
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-350.9838,-24.75863,-2.475908" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Communications Console" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-350.9838,-24.75863,-2.475908" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Communications Console" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-350.9838,-24.75863,-2.475908" />
 			</If>
 
 			<!-- Defensive Data Finish -->
@@ -237,12 +237,12 @@
 			<If Condition="HasQuest(0xE000527599ECF7B8) and not IsStepComplete(0xE000527599ECF7B8, 3)">
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-331.7395,-24.2908,-13.22036" />
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-330.8065,-24.2908,-15.68583" />
-				<UseObject QuestId="0xE000527599ECF7B8" Name="Gravity Hook 7 Defense Database" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-330.8065,-24.2908,-15.68583" />
+				<UseObject QuestId="0xE000527599ECF7B8" ObjectName="Gravity Hook 7 Defense Database" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-330.8065,-24.2908,-15.68583" />
 			</If>
 			<If Condition="HasQuest(0xE000527599ECF7B8) and not IsStepComplete(0xE000527599ECF7B8, 4)">
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-333.6952,-24.27912,-12.43413" />
 				<MoveTo QuestId="0xE000527599ECF7B8" XYZ="-333.4644,-24.26608,-10.62825" />
-				<UseObject QuestId="0xE000527599ECF7B8" Name="Imperial Command Uplink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-333.4644,-24.26608,-10.62825" />
+				<UseObject QuestId="0xE000527599ECF7B8" ObjectName="Imperial Command Uplink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-333.4644,-24.26608,-10.62825" />
 			</If>
 			<If Condition="((IsQuestComplete(0xE000527599ECF7B8)))">
 				<CompleteQuest QuestName="Defensive Data" QuestId="0xE000527599ECF7B8" RewardIndex="1" />
@@ -260,12 +260,12 @@
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-332.0557,132.301,0.5586675" />
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-327.5636,132.301,4.81282" />
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-331.7399,132.301,10.41996" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Security Panel" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-331.7399,132.301,10.41996" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Security Panel" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-331.7399,132.301,10.41996" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 10)))">
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-329.7903,132.421,12.98499" />
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-330.5316,132.411,13.79449" />
-				<UseObject QuestId="0xE00043B41935779B" Name="Central Control Console" BranchId="1" StepId="10" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-330.5316,132.411,13.79449" />
+				<UseObject QuestId="0xE00043B41935779B" ObjectName="Central Control Console" BranchId="1" StepId="10" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-330.5316,132.411,13.79449" />
 			
 			</If>
 		</If>
@@ -297,7 +297,7 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-306.8119,-23.94749,-244.4348" />
-				<UseObject QuestId="0xE00084AE8D790227" Name="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-306.8119,-23.94749,-244.4348" />
+				<UseObject QuestId="0xE00084AE8D790227" ObjectName="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-306.8119,-23.94749,-244.4348" />
 				
 			</If>
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 3)))">
@@ -309,7 +309,7 @@
 			</If>
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 5)))">
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-286.8775,-21.93887,-231.2547" />
-				<UseObject QuestId="0xE00084AE8D790227" Name="Landing Pad" BranchId="1" StepId="5" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-286.8775,-21.93887,-231.2547" />
+				<UseObject QuestId="0xE00084AE8D790227" ObjectName="Landing Pad" BranchId="1" StepId="5" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-286.8775,-21.93887,-231.2547" />
 			</If>
 		</If>
 
@@ -317,7 +317,7 @@
 		<!-- Private Access -->
 
 		<If Condition="((HasQuest(0xE000523308FEDE51)) and (not IsStepComplete(0xE000523308FEDE51, 2)))">
-			<UseObject QuestId="0xE000523308FEDE51" BranchId="1" StepId="2" Name="Network Terminal" WaitTime="3" Range="4" Radius="5">
+			<UseObject QuestId="0xE000523308FEDE51" BranchId="1" StepId="2" ObjectName="Network Terminal" WaitTime="3" Range="4" Radius="5">
 				<Hotspots>
 					<Hotspot Name="1" XYZ="-291.2876,-23.97673,-243.1844" />
 					<Hotspot Name="2" XYZ="-286.5015,-23.98861,-242.9286" />
@@ -330,7 +330,7 @@
 
 		<If Condition="((HasQuest(0xE0003340F24CF7A5)) and (not IsStepComplete(0xE0003340F24CF7A5, 4)))">
 			
-			<UseObject QuestId="0xE0003340F24CF7A5" BranchId="1" StepId="4" Name="Ground Sensor" WaitTime="3" Range="4" Radius="5">
+			<UseObject QuestId="0xE0003340F24CF7A5" BranchId="1" StepId="4" ObjectName="Ground Sensor" WaitTime="3" Range="4" Radius="5">
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-293.2449,-23.98889,-243.9715" />
 					<Hotspot Name="My Location" XYZ="-290.5333,-23.99089,-249.3904" />
@@ -354,7 +354,7 @@
 			</If>
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 8)))">
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-269.6113,-21.42997,-259.8235" />
-				<UseObject QuestId="0xE00084AE8D790227" Name="Landing Pad" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-269.6113,-21.42997,-259.8235" />
+				<UseObject QuestId="0xE00084AE8D790227" ObjectName="Landing Pad" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-269.6113,-21.42997,-259.8235" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 9)))">
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-291.4457,-22.34361,-275.8884" />
@@ -366,7 +366,7 @@
 			</If>
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 11)))">
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-289.4689,-22.16115,-281.4801" />
-				<UseObject QuestId="0xE00084AE8D790227" Name="Landing Pad" BranchId="1" StepId="11" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-289.4689,-22.16115,-281.4801" />
+				<UseObject QuestId="0xE00084AE8D790227" ObjectName="Landing Pad" BranchId="1" StepId="11" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-289.4689,-22.16115,-281.4801" />
 				
 			</If>
 			<!-- Stage 3 - Hesk's Hospitality (Bonus) -->
@@ -381,13 +381,13 @@
 			<!-- The Monstrous Mesa of Solida Hesk Finish -->
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 12)))">
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-317.8505,-21.45795,-270.4106" />
-				<UseObject QuestId="0xE00084AE8D790227" Name="Receiving Room" BranchId="1" StepId="12" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.8505,-21.45795,-270.4106" />
+				<UseObject QuestId="0xE00084AE8D790227" ObjectName="Receiving Room" BranchId="1" StepId="12" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.8505,-21.45795,-270.4106" />
 				
 			</If>
 			<MoveTo QuestId="0xE000523308FEDE51" XYZ="-317.9603,-24.49372,-241.8997" />
-			<UseObject QuestId="0xE000523308FEDE51" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.9603,-24.49372,-241.8997" />
+			<UseObject QuestId="0xE000523308FEDE51" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.9603,-24.49372,-241.8997" />
 			<CompleteQuest QuestName="Private Access" QuestId="0xE000523308FEDE51" />
-			<UseObject QuestId="0xE000329FD64A6328" Name="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.2459,-24.50338,-242.1894" />
+			<UseObject QuestId="0xE000329FD64A6328" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.2459,-24.50338,-242.1894" />
 			<CompleteQuest QuestName="Hesk's Hospitality" QuestId="0xE000329FD64A6328" RewardIndex="1" />
 			<If Condition="(Me.Position.Y &gt; -25) and (Me.Position.Y &lt; -24)">
 				<UseTransport TransporterName="Solida Hesk's Estate Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
@@ -438,7 +438,7 @@
 			</If>
 			<If Condition="((not IsStepComplete(0xE000680B73FBCF77, 3)))">
 				<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-404.7485,-22.97453,-169.8235" />
-				<UseObject QuestId="0xE000680B73FBCF77" Name="Field Holoterminal" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-412.8441,-22.62664,-171.3088" />
+				<UseObject QuestId="0xE000680B73FBCF77" ObjectName="Field Holoterminal" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-412.8441,-22.62664,-171.3088" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE000680B73FBCF77, 4)))">
 				<If Condition="(Me.Position.X &gt; -414) and (Me.Position.X &lt; -411) and (Me.Position.Y &gt; -23) and (Me.Position.Y &lt; -22) and (Me.Position.Z &gt; -174) and (Me.Position.Z &lt; -169)">
@@ -463,15 +463,15 @@
 				<If Condition="((not IsBranchStepComplete(0xE0002343D5F86E09, 1, 3)))">
 					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 1)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-363.614,-20.94896,-176.7937" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-363.614,-20.94896,-176.7937" />
+						<UseItem ItemName="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-363.614,-20.94896,-176.7937" />
 					</If>
 					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 2)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-356.1096,-20.149,-190.5007" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-356.1096,-20.149,-190.5007" />
+						<UseItem ItemName="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-356.1096,-20.149,-190.5007" />
 					</If>
 					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 3)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-368.3034,-20.34558,-190.5989" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-368.3034,-20.34558,-190.5989" />
+						<UseItem ItemName="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-368.3034,-20.34558,-190.5989" />
 					</If>
 				
 				</If>
@@ -501,7 +501,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0005D8285FA7C71)) and (not IsStepComplete(0xE0005D8285FA7C71, 3)))">
 				<MoveTo QuestId="0xE0005D8285FA7C71" XYZ="-380.1716,-21.30587,-170.119" />
-				<UseObject QuestId="0xE0005D8285FA7C71" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-380.1716,-21.30587,-170.119" />
+				<UseObject QuestId="0xE0005D8285FA7C71" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-380.1716,-21.30587,-170.119" />
 			</If>
 			<CompleteQuest QuestName="To Even The Odds" QuestId="0xE0005D8285FA7C71" />
 
@@ -550,15 +550,15 @@
 				<PickUpQuest QuestName="Losing Control" QuestId="0xE000A7A0C0B21EB9" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Imperial Command Uplink" XYZ="-268.1959,-21.9056,292.244" />
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 1)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-259.1438,-25.41104,280.0765" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-259.1438,-25.41104,280.0765" />
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-259.1438,-25.41104,280.0765" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 2)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-260.6154,-25.46608,272.2138" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-260.6154,-25.46608,272.2138" />	
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-260.6154,-25.46608,272.2138" />	
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 3)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-258.6855,-25.41634,267.8626" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="2" TaskId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.6855,-25.41634,267.8626" />
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="2" TaskId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.6855,-25.41634,267.8626" />
 				</If>		
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 3)))">
@@ -567,11 +567,11 @@
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 3, 1)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-261.1084,-25.36494,250.1495" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-261.1084,-25.36494,250.1495" />
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-261.1084,-25.36494,250.1495" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 3, 2)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-253.7549,-25.52996,249.0392" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-253.7549,-25.52996,249.0392" />	
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-253.7549,-25.52996,249.0392" />	
 				</If>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 4)))">
@@ -579,7 +579,7 @@
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-252.0862,-25.58189,252.7303" />
 					<MoveTo QuestId="0xE0001DC83CC34F75" IgnoreMesh="True" XYZ="-249.83,-25.43005,252.3444" />
 				</If>
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Support Structure" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-250.187,-25.57717,244.3087" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Support Structure" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-250.187,-25.57717,244.3087" />
 			</If>
 			<If Condition="(Me.Position.X &gt; -251) and (Me.Position.X &lt; -249) and (Me.Position.Y &gt; -26) and (Me.Position.Y &lt; -24) and (Me.Position.Z &gt; 243) and (Me.Position.Z &lt; 245)">
 				<MoveTo QuestId="0xE0001DC83CC34F75" IgnoreMesh="True" XYZ="-249.0237,-25.50026,245.5708" />
@@ -605,7 +605,7 @@
 			<If Condition="((HasQuest(0xE000A7A0C0B21EB9)) and (not IsQuestComplete(0xE000A7A0C0B21EB9)))">
 				<If Condition="((not IsStepComplete(0xE000A7A0C0B21EB9, 2)))">
 					<MoveTo QuestId="0xE000A7A0C0B21EB9" XYZ="-232.1868,-28.17707,233.577" />
-					<UseObject QuestId="0xE000A7A0C0B21EB9" Name="Control Bunker" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-232.1868,-28.17707,233.577" />
+					<UseObject QuestId="0xE000A7A0C0B21EB9" ObjectName="Control Bunker" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-232.1868,-28.17707,233.577" />
 				</If>
 			</If>
 
@@ -613,7 +613,7 @@
 
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 6)))">
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-230.6396,-28.20084,233.8533" />
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Holoterminal" BranchId="1" StepId="6" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-230.6396,-28.20084,233.8533" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Holoterminal" BranchId="1" StepId="6" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-230.6396,-28.20084,233.8533" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 7)))">
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-242.2464,-27.57727,271.9796" />
@@ -627,7 +627,7 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-230.4332,-36.59958,259.5837" />
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Security Office Door" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-230.4332,-36.59958,259.5837" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Security Office Door" BranchId="1" StepId="8" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-230.4332,-36.59958,259.5837" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 9)))">
 				<UserDialog Title="BuddyWing needs your help!" Message="Bot can't handle talking to mobs after fighting them so kill/talk to Enforcer Vorjok and click ok. Stick around because the bot will need your help again very soon. " />
@@ -644,7 +644,7 @@
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-236.0334,-36.633,257.7467" />
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-236.8041,-36.59313,257.4962" />
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-224.7896,-40.0736,250.8271" />
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Central Vault Door" BranchId="1" StepId="11" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.7896,-40.0736,250.8271" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Central Vault Door" BranchId="1" StepId="11" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.7896,-40.0736,250.8271" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 12)))">
 				<UserDialog Title="BuddyWing needs your help!" Message="Bot can't handle this big fight so finish it and click ok. Stick around because the bot will need your help again very soon. " />
@@ -658,7 +658,7 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-235.7367,-49.12428,270.4984" />
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Isotope-5 Storage Tank" BranchId="1" StepId="13" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-235.7367,-49.12428,270.4984" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Isotope-5 Storage Tank" BranchId="1" StepId="13" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-235.7367,-49.12428,270.4984" />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 14)))">
@@ -680,17 +680,17 @@
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 1)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-224.7348,-41.83775,260.8727" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Backup Shield System Controls" BranchId="3" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.7348,-41.83775,260.8727" />
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Backup Shield System Controls" BranchId="3" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.7348,-41.83775,260.8727" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 2)))">
 					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-224.9775,-41.83744,265.8248" />
-					<UseObject QuestId="0xE0001DC83CC34F75" Name="Backup Shield System Controls" BranchId="3" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.9775,-41.83744,265.8248" />
+					<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Backup Shield System Controls" BranchId="3" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-224.9775,-41.83744,265.8248" />
 				</If>
 
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 3, 3)))">
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-221.9846,-41.60425,256.9842" />
-				<UseObject QuestId="0xE0001DC83CC34F75" Name="Heat Shield Controls" BranchId="3" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-221.9846,-41.60425,256.9842" />
+				<UseObject QuestId="0xE0001DC83CC34F75" ObjectName="Heat Shield Controls" BranchId="3" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-221.9846,-41.60425,256.9842" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 3, 4)))">
 				<If Condition="(Me.Position.X &gt; -238) and (Me.Position.X &lt; -220) and (Me.Position.Y &gt; -42) and (Me.Position.Y &lt; -40) and (Me.Position.Z &gt; 255) and (Me.Position.Z &lt; 267)">
@@ -711,7 +711,7 @@
 				</If>
 				<If Condition="((HasQuest(0xE000A7A0C0B21EB9)) and (not IsQuestComplete(0xE000A7A0C0B21EB9)))">
 					<MoveTo QuestId="0xE000A7A0C0B21EB9" XYZ="-267.5094,-21.90765,293.3846" />
-					<UseObject QuestId="0xE000A7A0C0B21EB9" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-267.5094,-21.90765,293.3846" />
+					<UseObject QuestId="0xE000A7A0C0B21EB9" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-267.5094,-21.90765,293.3846" />
 				</If>
 				<CompleteQuest QuestName="Losing Control" QuestId="0xE000A7A0C0B21EB9"/>
 				<If Condition="(Me.Position.X &gt; -271) and (Me.Position.X &lt; -266) and (Me.Position.Y &gt; -23) and (Me.Position.Y &lt; -21) and (Me.Position.Z &gt; 292) and (Me.Position.Z &lt; 295)">
@@ -755,24 +755,24 @@
 				<PickUpQuest QuestName="Non-Routine Maintenance" QuestId="0xE00025EA0B9C72C2" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Imperial Command Uplink" XYZ="-257.9984,9.070786,154.9339" />
 				<UserDialog Title="BuddyWing needs your help!" Message="Bot can run into problems navigating through this area also mobs knocking you off can cause problems. For the last part of the quest in this area, the bot can not find its way to the elevator. Basically you need to watch and help the bot in this area. " />
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-246.5917,6.845751,157.953" />
-				<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-246.5917,6.845751,157.953" />
+				<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-246.5917,6.845751,157.953" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 3)))">
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-246.3601,4.741982,166.8654"  />
 				<If Condition="((not IsTaskComplete(0xE000B4C8AD49CEF3, 3, 3)))">
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-254.183,5.565229,167.4051"  />
-					<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Generator" BranchId="1" StepId="3" TaskId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-254.183,5.565229,167.4051" />
+					<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Generator" BranchId="1" StepId="3" TaskId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-254.183,5.565229,167.4051" />
 					
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-237.3384,3.943492,173.9905"  />
 				<If Condition="((not IsTaskComplete(0xE000B4C8AD49CEF3, 3, 2)))">
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-239.2744,3.946496,179.017"  />
-					<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Generator" BranchId="1" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-239.2744,3.946496,179.017" />
+					<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Generator" BranchId="1" StepId="3" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-239.2744,3.946496,179.017" />
 					
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-226.0844,5.347593,171.8575"  />
 				<If Condition="((not IsTaskComplete(0xE000B4C8AD49CEF3, 3, 1)))">
-					<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Generator" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-226.0844,5.347593,171.8575" />
+					<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Generator" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-226.0844,5.347593,171.8575" />
 				</If>
 				
 			</If>
@@ -792,7 +792,7 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-242.0343,-22.19045,162.2699"  />
-				<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Mine Shaft Cap" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-242.0343,-22.19045,162.2699" />
+				<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Mine Shaft Cap" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-242.0343,-22.19045,162.2699" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 5)))">
 				<If Condition="(Me.Position.X &gt; -246) and (Me.Position.X &lt; -236) and (Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -21) and (Me.Position.Z &gt; 156) and (Me.Position.Z &lt; 164)">
@@ -806,7 +806,7 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 7)))">
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-215.6213,-66.39899,116.9156"  />
-				<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Mining Drill Control Console" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-215.6213,-66.39899,116.9156" />
+				<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Mining Drill Control Console" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-215.6213,-66.39899,116.9156" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 8)))">
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-218.8405,-66.40025,121.39"  />
@@ -816,7 +816,7 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 10)))">
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-215.6213,-66.39899,116.9156"  />
-				<UseObject QuestId="0xE000B4C8AD49CEF3" Name="Mining Drill Control Console" BranchId="1" StepId="10" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-215.6213,-66.39899,116.9156" />
+				<UseObject QuestId="0xE000B4C8AD49CEF3" ObjectName="Mining Drill Control Console" BranchId="1" StepId="10" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-215.6213,-66.39899,116.9156" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 11)))">
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-233.4941,-63.80786,125.2236"  />
@@ -837,7 +837,7 @@
 				<WaitTimer QuestId="0xE000B4C8AD49CEF3" WaitTime="5" />
 				<If Condition="(Me.Position.X &gt; -262) and (Me.Position.X &lt; -249) and (Me.Position.Y &gt; 8) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; 150) and (Me.Position.Z &lt; 168)">
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-258.1245,9.065324,154.6232"  />
-					<UseObject QuestId="0xE00025EA0B9C72C2" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.1245,9.065324,154.6232" />
+					<UseObject QuestId="0xE00025EA0B9C72C2" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.1245,9.065324,154.6232" />
 					<CompleteQuest QuestName="Non-Routine Maintenance" QuestId="0xE00025EA0B9C72C2" RewardIndex="1" />
 					<UseTransport TransporterName="Abandoned Mining Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
 														XYZ="-258.319,9.058147,154.239" 
@@ -880,11 +880,11 @@
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-182.9595,-23.66191,436.8082"  />
 					<PickUpQuest QuestName="Probes of Perekta" QuestId="0xE0005BE2A2C5A73B" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Seismic Survey Probe" XYZ="-182.8865,-23.66894,436.7669" />
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-201.5113,-24.14689,436.8633"  />
-					<UseObject QuestId="0xE00050441AADBBED" Name="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-201.5113,-24.14689,436.8633" />
+					<UseObject QuestId="0xE00050441AADBBED" ObjectName="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-201.5113,-24.14689,436.8633" />
 					
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0005BE2A2C5A73B, 2, 1)))">
-					<UseObject QuestId="0xE0005BE2A2C5A73B" BranchId="1" StepId="2" TaskId="1" Name="Seismic Survey Probe" WaitTime="25" Range="2" Radius="100">
+					<UseObject QuestId="0xE0005BE2A2C5A73B" BranchId="1" StepId="2" TaskId="1" ObjectName="Seismic Survey Probe" WaitTime="25" Range="2" Radius="100">
 						<Hotspots>
 							<Hotspot Name="1" XYZ="-197.7109,-21.96034,424.1841" />
 							<Hotspot Name="2" XYZ="-200.124,-21.50675,423.1349" />
@@ -895,11 +895,11 @@
 				
 				<If Condition="((not IsTaskComplete(0xE00050441AADBBED, 2, 1)))">
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-223.9726,-24.14186,420.2708"  />
-					<UseObject QuestId="0xE00050441AADBBED" Name="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-223.9726,-24.14186,420.2708" />
+					<UseObject QuestId="0xE00050441AADBBED" ObjectName="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-223.9726,-24.14186,420.2708" />
 					
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0005BE2A2C5A73B, 2, 2)))">
-					<UseObject QuestId="0xE0005BE2A2C5A73B" BranchId="1" StepId="2" TaskId="2" Name="Seismic Survey Probe" WaitTime="25" Range="2" Radius="100">
+					<UseObject QuestId="0xE0005BE2A2C5A73B" BranchId="1" StepId="2" TaskId="2" ObjectName="Seismic Survey Probe" WaitTime="25" Range="2" Radius="100">
 						<Hotspots>
 							<Hotspot Name="1" XYZ="-212.0636,-24.1328,423.5416" />
           						
@@ -908,20 +908,20 @@
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0005BE2A2C5A73B, 2, 3)))">
 					<MoveTo QuestId="0xE0005BE2A2C5A73B" XYZ="-196.1391,-23.9379,404.7718" />
-					<UseObject QuestId="0xE0005BE2A2C5A73B" Name="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="3" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-196.1391,-23.9379,404.7718" />
+					<UseObject QuestId="0xE0005BE2A2C5A73B" ObjectName="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="3" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-196.1391,-23.9379,404.7718" />
 				</If>
 			
 				<If Condition="((not IsTaskComplete(0xE0005BE2A2C5A73B, 2, 4)))">
 					<MoveTo QuestId="0xE0005BE2A2C5A73B" XYZ="-185.0278,-23.78314,397.7227" />
-					<UseObject QuestId="0xE0005BE2A2C5A73B" Name="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="4" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-185.0278,-23.78314,397.7227" />
+					<UseObject QuestId="0xE0005BE2A2C5A73B" ObjectName="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="4" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-185.0278,-23.78314,397.7227" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0005BE2A2C5A73B, 2, 5)))">
 					<MoveTo QuestId="0xE0005BE2A2C5A73B" XYZ="-185.9435,-24.3238,385.1388" />
-					<UseObject QuestId="0xE0005BE2A2C5A73B" Name="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="5" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-191.2646,-24.30237,386.3108" />
+					<UseObject QuestId="0xE0005BE2A2C5A73B" ObjectName="Seismic Survey Probe" BranchId="1" StepId="2" TaskId="5" Radius="200" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-191.2646,-24.30237,386.3108" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE00050441AADBBED, 2, 2)))">
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-181.9787,-24.145,377.4276"  />
-					<UseObject QuestId="0xE00050441AADBBED" Name="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-181.9787,-24.145,377.4276" />
+					<UseObject QuestId="0xE00050441AADBBED" ObjectName="Groundquake Shelter Door" BranchId="1" StepId="2" TaskId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-181.9787,-24.145,377.4276" />
 					
 				</If>
 			</If>
@@ -930,7 +930,7 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE00050441AADBBED, 1, 4)))">
 				<MoveTo QuestId="0xE00050441AADBBED" XYZ="-172.4101,-23.82617,391.3378"  />
-				<UseObject QuestId="0xE00050441AADBBED" Name="Debris" BranchId="1" StepId="4" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-172.4101,-23.82617,391.3378" />
+				<UseObject QuestId="0xE00050441AADBBED" ObjectName="Debris" BranchId="1" StepId="4" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-172.4101,-23.82617,391.3378" />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE00050441AADBBED, 1, 5)))">
 				<MoveTo QuestId="0xE00050441AADBBED" XYZ="-171.8129,-23.41491,393.5503"  />
@@ -949,7 +949,7 @@
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-172.4101,-23.82617,391.3378"  />
 				</If>
 				<MoveTo QuestId="0xE0005BE2A2C5A73B" XYZ="-163.3214,-20.94624,421.5529"  />
-				<UseObject QuestId="0xE0005BE2A2C5A73B" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-163.2904,-20.94797,421.5877" />
+				<UseObject QuestId="0xE0005BE2A2C5A73B" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-163.2904,-20.94797,421.5877" />
 				<CompleteQuest QuestName="Probes of Perekta" QuestId="0xE0005BE2A2C5A73B" />
 				<If Condition="(Me.Position.X &gt; -165) and (Me.Position.X &lt; -160) and (Me.Position.Y &gt; -21) and (Me.Position.Y &lt; -20) and (Me.Position.Z &gt; 417) and (Me.Position.Z &lt; 423)">
 					<UseTransport TransporterName="Perekta Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
@@ -992,10 +992,10 @@
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 3)))">
 				<PickUpQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Datapad" XYZ="-72.78675,-70.51324,232.839" />
 				<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-50.48954,-70.43723,222.0672"   />
-				<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Drill Station Central Computer" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-50.48954,-70.43723,222.0672"  />
+				<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Drill Station Central Computer" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-50.48954,-70.43723,222.0672"  />
 			</If>
 			<If Condition="((not IsStepComplete(0xE000D3ADE65222E8, 2)))">
-				<UseObject QuestId="0xE000D3ADE65222E8" BranchId="1" StepId="2" Name="Plate Tectonics Sensor" WaitTime="4" Range="4" Radius="50">
+				<UseObject QuestId="0xE000D3ADE65222E8" BranchId="1" StepId="2" ObjectName="Plate Tectonics Sensor" WaitTime="4" Range="4" Radius="50">
 					<Hotspots>
 						<Hotspot Name="1" XYZ="-83.27938,-70.6464,232.2827" />
 						<Hotspot Name="2" XYZ="-86.18752,-69.42218,245.3622" />
@@ -1004,7 +1004,7 @@
 				</UseObject>	
 			</If>
 			<If Condition="((not IsStepComplete(0xE000494E66433558, 4)))">
-				<UseObject QuestId="0xE000494E66433558" BranchId="1" StepId="4" Name="Communications Array" WaitTime="4" Range="4" Radius="50">
+				<UseObject QuestId="0xE000494E66433558" BranchId="1" StepId="4" ObjectName="Communications Array" WaitTime="4" Range="4" Radius="50">
 					<Hotspots>
 						<Hotspot Name="1" XYZ="-77.81031,-70.75703,235.8417" />
 						<Hotspot Name="2" XYZ="-83.41133,-70.95252,238.4657" />
@@ -1015,16 +1015,16 @@
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 5)))">
 				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 1)">
 					<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-363.0775,-20.94539,-176.2954" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.884,-69.81491,246.7381" />
+					<UseItem ItemName="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.884,-69.81491,246.7381" />
 				</If>
 				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 3)">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-110.6657,-69.6965,233.2841" />
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-116.6747,-69.81644,233.8135" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.6747,-69.81644,233.8135" />
+					<UseItem ItemName="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.6747,-69.81644,233.8135" />
 				</If>
 				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 2)">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-122.5674,-69.69151,240.2866" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-122.5674,-69.69151,240.2866" />
+					<UseItem ItemName="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-122.5674,-69.69151,240.2866" />
 				</If>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 6)))">
@@ -1032,7 +1032,7 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 7)))">
 				<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-131.0373,-69.75171,240.3721" />
-				<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Drill Station Central Computer" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-131.0373,-69.75171,240.3721"  />
+				<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Drill Station Central Computer" BranchId="1" StepId="7" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-131.0373,-69.75171,240.3721"  />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 8)))">
 				<If Condition="((not IsTaskComplete(0xE000ABEA2E64D3CD, 8, 2)))">
@@ -1045,25 +1045,25 @@
 						<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-110.3456,-69.8197,233.5828" />
 					</If>
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-99.14336,-68.96526,262.3366" />
-					<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Cannon Emplacement" BranchId="1" StepId="8" TaskId="2" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-99.14336,-68.96526,262.3366"  />
+					<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Cannon Emplacement" BranchId="1" StepId="8" TaskId="2" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-99.14336,-68.96526,262.3366"  />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE000ABEA2E64D3CD, 8, 1)))">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-91.46915,-69.02751,271.832" />
-					<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Cannon Emplacement" BranchId="1" StepId="8" TaskId="1" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-91.46915,-69.02751,271.832"  />
+					<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Cannon Emplacement" BranchId="1" StepId="8" TaskId="1" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-91.46915,-69.02751,271.832"  />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE000ABEA2E64D3CD, 8, 3)))">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-97.14886,-69.03764,285.2497" />
-					<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Cannon Emplacement" BranchId="1" StepId="8" TaskId="3" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-97.14886,-69.03764,285.2497"  />
+					<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Cannon Emplacement" BranchId="1" StepId="8" TaskId="3" WaitTime="4" UseRange="6" IgnoreLOS="True" XYZ="-97.14886,-69.03764,285.2497"  />
 				</If>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 9)))">
 				<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-109.2631,-68.94939,290.0827" />
-				<UseObject QuestId="0xE000ABEA2E64D3CD" Name="Drill Station Central Computer" BranchId="1" StepId="9" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-109.2631,-68.94939,290.0827"  />
+				<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Drill Station Central Computer" BranchId="1" StepId="9" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-109.2631,-68.94939,290.0827"  />
 			</If>
 			<If Condition="((not IsStepComplete(0xE0004F4E66432F2E, 4)))">
 				<JumpTo  QuestId="0xE0004F4E66432F2E" JumpRotation="90.6"  XYZ="-47.67991,-66.67366,240.8071" EndX="-48.29053" EndY="-66.35537" EndZ="240.9794"  />
 				<MoveTo QuestId="0xE0004F4E66432F2E" XYZ="-53.58944,-66.26193,244.3958" />
-				<UseObject QuestId="0xE0004F4E66432F2E" Name="Communications Interlink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-53.58944,-66.26193,244.3958"  />
+				<UseObject QuestId="0xE0004F4E66432F2E" ObjectName="Communications Interlink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-53.58944,-66.26193,244.3958"  />
 			</If>
 			<If Condition="((not IsStepComplete(0xE000E6434FCA6D43, 3)))">
 				<If Condition="(Me.Position.X &gt; -56) and (Me.Position.X &lt; -48) and (Me.Position.Y &gt; -67) and (Me.Position.Y &lt; -66) and (Me.Position.Z &gt; 239) and (Me.Position.Z &lt; 246)">
@@ -1071,12 +1071,12 @@
 					<MoveTo QuestId="0xE000E6434FCA6D43" IgnoreMesh="True" XYZ="-48.01886,-66.70995,240.2236" />
 				</If>
 				<MoveTo QuestId="0xE000E6434FCA6D43" XYZ="-82.89151,-69.89246,213.8902" />
-				<UseObject QuestId="0xE000E6434FCA6D43" Name="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-82.89151,-69.89246,213.8902"  />
+				<UseObject QuestId="0xE000E6434FCA6D43" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-82.89151,-69.89246,213.8902"  />
 			</If>
 			<CompleteQuest QuestName="Archon's Armageddon" QuestId="0xE000E6434FCA6D43" RewardIndex="1" />
 			<If Condition="((not IsStepComplete(0xE000D3ADE65222E8, 3)))">
 				<MoveTo QuestId="0xE000D3ADE65222E8" XYZ="-84.2561,-69.90645,216.9453" />
-				<UseObject QuestId="0xE000D3ADE65222E8" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-84.2561,-69.90645,216.9453" />
+				<UseObject QuestId="0xE000D3ADE65222E8" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-84.2561,-69.90645,216.9453" />
 			</If>
 			<CompleteQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" RewardIndex="1" />
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 10)))">
@@ -1143,22 +1143,22 @@
 					<Interact Name="Hutt Strongholds" UseRange="4" XYZ="-24.89253,-14.97142,-397.4521" /> <!-- Archon's Estates Bindpoint -->
 				</If>
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-33.36926,-15.28547,-416.5928" />
-				<UseObject QuestId="0xE000E74DF274E415" Name="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-33.36926,-15.28547,-416.5928"  />
+				<UseObject QuestId="0xE000E74DF274E415" ObjectName="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-33.36926,-15.28547,-416.5928"  />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000E74DF274E415, 1, 3)))">
 				<If Condition="((not IsTaskComplete(0xE000E74DF274E415, 3, 0)))">
 					<MoveTo QuestId="0xE000E74DF274E415" XYZ="-27.21428,-14.84945,-431.1535" />
-					<UseObject QuestId="0xE000E74DF274E415" Name="Turret Control Center" BranchId="1" StepId="3" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-27.21428,-14.84945,-431.1535"  />
+					<UseObject QuestId="0xE000E74DF274E415" ObjectName="Turret Control Center" BranchId="1" StepId="3" TaskId="0" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-27.21428,-14.84945,-431.1535"  />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE000E74DF274E415, 3, 1)))">
 					<MoveTo QuestId="0xE000E74DF274E415" XYZ="-18.90218,-13.64761,-420.178" />
-					<UseObject QuestId="0xE000E74DF274E415" Name="Turret Control Center" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-18.90218,-13.64761,-420.178"  />
+					<UseObject QuestId="0xE000E74DF274E415" ObjectName="Turret Control Center" BranchId="1" StepId="3" TaskId="1" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-18.90218,-13.64761,-420.178"  />
 				</If>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000E74DF274E415, 1, 4)))">
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-25.37454,-14.7487,-428.2578" />
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-14.05474,-13.52996,-434.2465" />
-				<UseObject QuestId="0xE000E74DF274E415" Name="Turret Control Center" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-14.05474,-13.52996,-434.2465"  />
+				<UseObject QuestId="0xE000E74DF274E415" ObjectName="Turret Control Center" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-14.05474,-13.52996,-434.2465"  />
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000E74DF274E415, 1, 5)))">
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-16.67272,-11.599,-454.0017" />
@@ -1186,7 +1186,7 @@
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-25.83,-14.90539,-428.2932" />
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-24.23833,-14.97505,-397.6061" />
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-23.09138,-14.96838,-397.5682" />
-					<UseObject QuestId="0xE000D27A47E88928" Name="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-23.09138,-14.96838,-397.5682"  />
+					<UseObject QuestId="0xE000D27A47E88928" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-23.09138,-14.96838,-397.5682"  />
 					<CompleteQuest QuestName="The Backup Plan" QuestId="0xE000D27A47E88928" RewardIndex="1" />
 					<UseTransport TransporterName="Hutt Strongholds Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
 														XYZ="-24.3611,-14.97505,-396.5716" 

@@ -494,7 +494,7 @@
 		<!-- Trooper: Hit the Ground Running 3-4 -->
 		<If Condition="((HasQuest(0xE000D17A257E9F62)) and (not IsQuestComplete(0xE000D17A257E9F62)))">
 			<If Condition="((HasQuest(0xE000D17A257E9F62)) and (not IsStepComplete(0xE000D17A257E9F62, 3)))">
-				<UseObject QuestId="0xE000D17A257E9F62" Name="Missile Launcher Cache" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="13.95392,1.331,-45.22545" />
+				<UseObject QuestId="0xE000D17A257E9F62" ObjectName="Missile Launcher Cache" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="13.95392,1.331,-45.22545" />
 			</If>
 			<If Condition="((HasQuest(0xE000D17A257E9F62)) and (not IsStepComplete(0xE000D17A257E9F62, 4)))">
 				<UserDialog Title="Orlok" Message="Use holo call!"/>
@@ -538,7 +538,7 @@
 				<Grind GrindRef="Clean Up Talloran (Bonus)" While="(not IsQuestComplete(0xE0008853DFD65174))" />
 			</If>
 			<If Condition="((HasQuest(0xE000767EC7811E86)) and (not IsStepComplete(0xE000767EC7811E86, 2)))">
-				<UseObject QuestId="0xE000767EC7811E86" Name="Bellis" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="53.6624,2.794518,-16.45884" />
+				<UseObject QuestId="0xE000767EC7811E86" ObjectName="Bellis" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="53.6624,2.794518,-16.45884" />
 			</If>
 			<If Condition="((HasQuest(0xE000767EC7811E86)) and (not IsStepComplete(0xE000767EC7811E86, 3)))">
 				<UserDialog Title="Orlok" Message="Use Holo call!"/>
@@ -548,7 +548,7 @@
 			</If>
 			<!-- Autoskip 5 -->
 			<If Condition="((HasQuest(0xE000767EC7811E86)) and (not IsStepComplete(0xE000767EC7811E86, 6)))">
-				<UseObject QuestId="0xE000767EC7811E86" Name="Field Box" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="43.80542,3.333317,-21.45353" />
+				<UseObject QuestId="0xE000767EC7811E86" ObjectName="Field Box" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="43.80542,3.333317,-21.45353" />
 			</If>
 		</If>
 
@@ -575,11 +575,11 @@
 			</If>
 			<If Condition="((HasQuest(0xE0004BED7E9E26FF)) and (not IsStepComplete(0xE0004BED7E9E26FF, 4)))">
 				<MoveTo QuestId="0xE0004BED7E9E26FF" Name="Southwest Bomb" XYZ="-2.094196,4.582201,-17.92157" />
-				<UseObject QuestId="0xE0004BED7E9E26FF" Name="Southwest Bomb" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="-2.094196,4.582201,-17.92157" />
+				<UseObject QuestId="0xE0004BED7E9E26FF" ObjectName="Southwest Bomb" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="-2.094196,4.582201,-17.92157" />
 				<MoveTo QuestId="0xE0004BED7E9E26FF" Name="Northwest Bomb" XYZ="-1.549222,3.983438,-21.17603" />
-				<UseObject QuestId="0xE0004BED7E9E26FF" Name="Northwest Bomb" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="-1.549222,3.983438,-21.17603" />
+				<UseObject QuestId="0xE0004BED7E9E26FF" ObjectName="Northwest Bomb" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="-1.549222,3.983438,-21.17603" />
 				<MoveTo QuestId="0xE0004BED7E9E26FF" Name="Northeast Bomb" XYZ="1.747241,4.052604,-20.99901" />
-				<UseObject QuestId="0xE0004BED7E9E26FF" Name="Northeast Bomb" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="1.747241,4.052604,-20.99901" />
+				<UseObject QuestId="0xE0004BED7E9E26FF" ObjectName="Northeast Bomb" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="1.747241,4.052604,-20.99901" />
 	
 
 			</If>
@@ -617,7 +617,7 @@
 				<WaitTimer WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE0007C28919A35B3)) and (not IsBranchStepComplete(0xE0007C28919A35B3, 6, 2)))">
-				<UseObject QuestId="0xE0007C28919A35B3" Name="Forcefield Generator Control" BranchId="6" StepId="2" Radius="20" WaitTime="5" XYZ="85.66362,-0.349,37.86864" />
+				<UseObject QuestId="0xE0007C28919A35B3" ObjectName="Forcefield Generator Control" BranchId="6" StepId="2" Radius="20" WaitTime="5" XYZ="85.66362,-0.349,37.86864" />
 			</If>
 			<If Condition="((HasQuest(0xE0007C28919A35B3)) and (not IsBranchStepComplete(0xE0007C28919A35B3, 6, 3)))">
 				<MoveTo QuestId="0xE0007C28919A35B3" Name="Separatist Officer Dalern" XYZ="81.4305,0.0182,28.0942" />
@@ -631,7 +631,7 @@
 				<Grind GrindRef="Mannett Point 7" While="(not IsBranchStepComplete(0xE0007C28919A35B3, 6, 7))" />
 			</If>
 			<If Condition="((HasQuest(0xE0007C28919A35B3)) and (not IsBranchStepComplete(0xE0007C28919A35B3, 6, 8)))">
-				<UseObject QuestId="0xE0007C28919A35B3" Name="Mannett Point Base Computer" BranchId="6" StepId="8" Radius="20" WaitTime="5" XYZ="88.9261,0.010705,26.51218" />
+				<UseObject QuestId="0xE0007C28919A35B3" ObjectName="Mannett Point Base Computer" BranchId="6" StepId="8" Radius="20" WaitTime="5" XYZ="88.9261,0.010705,26.51218" />
 			</If>
 		</If>
 	

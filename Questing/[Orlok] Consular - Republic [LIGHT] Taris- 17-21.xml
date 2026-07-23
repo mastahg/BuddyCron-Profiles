@@ -1041,18 +1041,18 @@
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 4)))">
 				<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 0)))">
 					<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-214.9105,-18.864,111.4418" />
-					<UseObject QuestId="0xE0005896427A1928" Name="Eastern Passage" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="-214.9105,-18.864,111.4418" />
+					<UseObject QuestId="0xE0005896427A1928" ObjectName="Eastern Passage" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="-214.9105,-18.864,111.4418" />
 				</If>
 				<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 1)))">
 					<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-224.0442,-18.864,111.434" />
-					<UseObject QuestId="0xE0005896427A1928" Name="Western Passage" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="-224.0442,-18.864,111.434" />
+					<UseObject QuestId="0xE0005896427A1928" ObjectName="Western Passage" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="-224.0442,-18.864,111.434" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 5)))">
 				<MoveTo QuestId="0xE0005896427A1928" Name="Ripclaw" XYZ="-222.0614,-20.299,107.5286" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-221.7444,-20.299,107.4206" />
-				<UseObject QuestId="0xE0005896427A1928" Name="Binary Load Lifter" BranchId="1" StepId="5" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="7" XYZ="-221.7444,-20.299,107.4206" />
+				<UseObject QuestId="0xE0005896427A1928" ObjectName="Binary Load Lifter" BranchId="1" StepId="5" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="7" XYZ="-221.7444,-20.299,107.4206" />
 			</If>
 		 
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 6)))">

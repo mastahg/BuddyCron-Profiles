@@ -168,21 +168,21 @@
 			<If Condition="(not IsStepComplete(0xE000746FA7B97065, 3))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-28.15293,1.366044,1.610306" />
-					<UseObject QuestId="0xE000746FA7B97065" Name="Pipes" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" Radius="50" UseRange="50" WaitTime="5" XYZ="-28.34567,3.45,1.052138" /> 
+					<UseObject QuestId="0xE000746FA7B97065" ObjectName="Pipes" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" Radius="50" UseRange="50" WaitTime="5" XYZ="-28.34567,3.45,1.052138" /> 
 				</If>
 			</If>	
 			
 			<If Condition="(not IsStepComplete(0xE000746FA7B97065, 4))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">	
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-30.98007,1.358648,2.834285" />
-					<UseObject QuestId="0xE000746FA7B97065" Name="Power Junction Box" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-30.98007,1.358648,2.834285" />
+					<UseObject QuestId="0xE000746FA7B97065" ObjectName="Power Junction Box" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-30.98007,1.358648,2.834285" />
 				</If>
 			</If>
 			
 			<If Condition="(not IsStepComplete(0xE000746FA7B97065, 5))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-25.13031,1.426604,0.4213598" />
-					<UseObject QuestId="0xE000746FA7B97065" Name="Pipe System Controls" BranchId="1" StepId="5" Radius="1" UseRange="7" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" XYZ="-24.8007,1.8813,0.3097" />
+					<UseObject QuestId="0xE000746FA7B97065" ObjectName="Pipe System Controls" BranchId="1" StepId="5" Radius="1" UseRange="7" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" XYZ="-24.8007,1.8813,0.3097" />
 				</If>
 			</If>
 			
@@ -193,7 +193,7 @@
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-16.91866,1.318459,3.549692" />
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-16.01623,1.335254,1.179256" />
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-18.26612,1.524709,2.128933" />
-					<UseObject QuestId="0xE000746FA7B97065" Name="Czerka Anti-Toxin" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-18.26612,1.524709,2.128933" />
+					<UseObject QuestId="0xE000746FA7B97065" ObjectName="Czerka Anti-Toxin" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-18.26612,1.524709,2.128933" />
 				</If>
 			</If>
 			
@@ -206,7 +206,7 @@
 			<If Condition="(not IsStepComplete(0xE000746FA7B97065, 8))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
 					<MoveTo QuestId="0xE000746FA7B97065" XYZ="-18.26612,1.524709,2.128933" />
-					<UseObject QuestId="0xE000746FA7B97065" Name="Czerka Anti-Toxin" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="-18.26612,1.524709,2.128933" />
+					<UseObject QuestId="0xE000746FA7B97065" ObjectName="Czerka Anti-Toxin" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="-18.26612,1.524709,2.128933" />
 				</If>
 			</If>
 			
@@ -255,7 +255,7 @@
 					ToX="-12.5504" ToY="7.801" ToZ="2.0526" />
 			</If>				
 			<MoveTo QuestId="0xE0009CF3F58AD94C" XYZ="4.476641,8.802309,2.756657"  />
-			<UseObject QuestId="0xE0009CF3F58AD94C" Name="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="4.476641,8.802309,2.756657"  />
+			<UseObject QuestId="0xE0009CF3F58AD94C" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="4.476641,8.802309,2.756657"  />
 			<CompleteQuest QuestName="[DAILY] What's Yours Is Mine" QuestId="0xE000A89E340382EC"/>	
 			<CompleteQuest QuestName="[DAILY] Staff Cuts" QuestId="0xE0009CF3F58AD94C"/>	
 			<CompleteQuest QuestName="[DAILY] Droid Demolition" QuestId="0xE000421F7E832C08"/>	

@@ -1048,7 +1048,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000398CBAC8EDD9)) and (not IsBranchStepComplete(0xE000398CBAC8EDD9, 3, 2)))">
 				<UserDialog Title="Orlok" Message="Use Taxi!" />	
-				<UseObject QuestId="0xE000398CBAC8EDD9" Name="Primary Control" BranchId="3" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="-247.8324,-167.7688,300.3526" />
+				<UseObject QuestId="0xE000398CBAC8EDD9" ObjectName="Primary Control" BranchId="3" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="-247.8324,-167.7688,300.3526" />
 		 		
 			</If>
 			<If Condition="((HasQuest(0xE000398CBAC8EDD9)) and (not IsBranchStepComplete(0xE000398CBAC8EDD9, 4, 2)))">
@@ -1088,7 +1088,7 @@
 				<AnswerHolocomCall QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" />
 			</If>
 			<If Condition="((HasQuest(0xE000581244AEE1B0)) and (not IsStepComplete(0xE000581244AEE1B0, 6)))">
-				<UseObject QuestId="0xE000581244AEE1B0" Name="Holoterminal" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="323.3947,-313.6966,-335.1982" />
+				<UseObject QuestId="0xE000581244AEE1B0" ObjectName="Holoterminal" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="323.3947,-313.6966,-335.1982" />
 			</If>
 			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" RewardIndex="3" />
 			<!-- Consular - Shadow Town (Bonus) 0xE00066F2E7E7CB3E-->
@@ -1124,7 +1124,7 @@
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" Name="My Location" XYZ="250.497,-155.299,282.3771" />
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 4, 4)))">
-				<UseObject QuestId="0xE00066F2E7E7CB3E" Name="Forcefield Control" BranchId="4" StepId="4" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="250.0337,-155.299,281.6439" />
+				<UseObject QuestId="0xE00066F2E7E7CB3E" ObjectName="Forcefield Control" BranchId="4" StepId="4" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="250.0337,-155.299,281.6439" />
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 4, 5)))">
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" XYZ="258.5707,-155.799,308.7102" />
@@ -1135,7 +1135,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 5, 3)))">
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" Name="Power Junction Terminal" BranchId="5" StepId="3" XYZ="258.0842,-155.799,305.4204" />
-				<UseObject QuestId="0xE00066F2E7E7CB3E" Name="Power Junction Terminal" BranchId="5" StepId="3" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="258.0842,-155.799,305.4204" />
+				<UseObject QuestId="0xE00066F2E7E7CB3E" ObjectName="Power Junction Terminal" BranchId="5" StepId="3" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="258.0842,-155.799,305.4204" />
 			</If>
 			<!-- we have to re-summon our companion - Tharan Cedrax -->
 		</If>

@@ -491,7 +491,7 @@
 		<!-- Agent - Claim Your New Identity -->
 		<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 2)">
 			<MoveTo QuestId="0xE000DE0B067099C0" XYZ="-43.4214,1.773912,19.77494" />
-			<UseObject Name="Cantina Holoterminal" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="2" UseRange="20" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="1" XYZ="-43.4214,1.773912,19.77494" />
+			<UseObject ObjectName="Cantina Holoterminal" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="2" UseRange="20" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="1" XYZ="-43.4214,1.773912,19.77494" />
 		</If>
 	
 		<PickUpQuest QuestName="Gang Warfare" QuestId="0xE00025FE6BB8CE39" GiverName="Lew Brell" XYZ="-42.3377,1.765399,24.301" />
@@ -507,7 +507,7 @@
 			<If Condition="(not IsQuestComplete(0xE0000F850BCE7348))">
 				<Grind GrindRef="Vexx's Safehouse" While="(not IsQuestComplete(0xE0000F850BCE7348))" />
 			</If>
-			<UseObject Name="Datapad" QuestId="0xE0003A3DB752B5B9" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="6" XYZ="-38.35907,1.376182,38.47738" />
+			<UseObject ObjectName="Datapad" QuestId="0xE0003A3DB752B5B9" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="6" XYZ="-38.35907,1.376182,38.47738" />
 		</If>
 		
 		<!-- Agent - Claim Your New Identity and Turnin -->
@@ -519,7 +519,7 @@
 				<Grind GrindRef="Leave No Witnesses" While="(not IsQuestComplete(0xE00043C859E34E2F))" />
 			</If>
 			<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 5)">
-				<UseObject Name="Stolen Tribute" QuestId="0xE000DE0B067099C0" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="3" XYZ="-52.00552,1.493211,40.5127" />
+				<UseObject ObjectName="Stolen Tribute" QuestId="0xE000DE0B067099C0" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="3" XYZ="-52.00552,1.493211,40.5127" />
 			</If>
 			<TurnInQuest QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" TurnInName="Jheeg" XYZ="-44.9828,1.218928,31.3568" />
 			<CompleteQuest QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" />
@@ -665,7 +665,7 @@
 					<Hotspot Name="My Location" XYZ="-42.77925,4.466048,65.89707" />
 				</Hotspots>
 			</UseObject>
-			<UseObject Name="Suite Holoterminal" QuestId="0xE000A58671E7E58B" BranchId="1" StepId="6" WaitTime="1" XYZ="-42.2309,4.41578,65.73123" />
+			<UseObject ObjectName="Suite Holoterminal" QuestId="0xE000A58671E7E58B" BranchId="1" StepId="6" WaitTime="1" XYZ="-42.2309,4.41578,65.73123" />
 			<CompleteQuest QuestName="Soiree" QuestId="0xE000A58671E7E58B" />
 		</If>
 
@@ -714,7 +714,7 @@
 				<Grind GrindRef="Marked Evocii" While="(not IsQuestComplete(0xE00037295BAE24E2))" />
 			</If>
 			<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 4)">
-				<UseObject QuestId="0xE000E6A2DEE52C26" Name="Crate of Ore" BranchId="5" StepId="4" Radius="150" WaitTime="5" >
+				<UseObject QuestId="0xE000E6A2DEE52C26" ObjectName="Crate of Ore" BranchId="5" StepId="4" Radius="150" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-20.67951,1.146021,75.6036" />
 					</Hotspots>
@@ -766,7 +766,7 @@
 				<MoveTo QuestId="1" XYZ="-46.77332,4.600999,75.07892" />
 			</If>
 			<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 9)">
-				<UseObject Name="Suite Holoterminal" QuestId="0xE000E6A2DEE52C26" BranchId="5" StepId="9" WaitTime="1" XYZ="-42.2309,4.41578,65.73123" />
+				<UseObject ObjectName="Suite Holoterminal" QuestId="0xE000E6A2DEE52C26" BranchId="5" StepId="9" WaitTime="1" XYZ="-42.2309,4.41578,65.73123" />
 			</If>
 			<CompleteQuest QuestName="Subverting Karrels Javis" QuestId="0xE000E6A2DEE52C26" />
 		</If>
@@ -774,7 +774,7 @@
 		<!-- Agent - Economies of Scale -->
 		<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 2)">
-				<UseObject Name="Smuggled Explosives Crate" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="2" WaitTime="3500" XYZ="-42.95757,4.401,68.25577" />
+				<UseObject ObjectName="Smuggled Explosives Crate" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="2" WaitTime="3500" XYZ="-42.95757,4.401,68.25577" />
 			</If>
 		</If>
 		
@@ -790,7 +790,7 @@
 		
 		<!-- To Boom or Not to Boom -->
 		<If Condition="HasQuest(0xE0009E7E4C9DBE56) and not IsBranchStepComplete(0xE0009E7E4C9DBE56, 3, 2)">
-			<UseObject Name="Eel Tank" QuestId="0xE0009E7E4C9DBE56" BranchId="3" StepId="2" WaitTime="1" XYZ="-20.70685,1.2313,22.67521" />
+			<UseObject ObjectName="Eel Tank" QuestId="0xE0009E7E4C9DBE56" BranchId="3" StepId="2" WaitTime="1" XYZ="-20.70685,1.2313,22.67521" />
 		</If>
 		
 		<PickUpQuest QuestName="Spicecraft Down" QuestId="0xE00006E874E25E84" Type="Placeable" UseRange="2" IgnoreLOS="True" GiverName="Datapad" XYZ="12.9719,1.098726,10.41255" />
@@ -798,7 +798,7 @@
 		<!-- Spicecraft Down and Turnin -->
 		<If Condition="((HasQuest(0xE00006E874E25E84)) and (not IsQuestComplete(0xE00006E874E25E84)))">
 			<If Condition="HasQuest(0xE00006E874E25E84) and not IsStepComplete(0xE00006E874E25E84, 2)">
-				<UseObject QuestId="0xE00006E874E25E84" BranchId="1" StepId="2" Name="Container of Spice" IgnoreLOS="True" Radius="100" WaitTime="3" >
+				<UseObject QuestId="0xE00006E874E25E84" BranchId="1" StepId="2" ObjectName="Container of Spice" IgnoreLOS="True" Radius="100" WaitTime="3" >
 					<Hotspots>
 						<Hotspot Name="NOOO! SPICES!" XYZ="14.92302,0.5522667,16.18104" />
 						<Hotspot Name="NOOO! SPICES!" XYZ="14.93174,0.5525624,13.02874" />
@@ -850,7 +850,7 @@
 		<!-- Industrial Raiders -->
 		<If Condition="((HasQuest(0xE00056778BE3AEA7)) and (not IsQuestComplete(0xE00056778BE3AEA7)))">
 			<If Condition="HasQuest(0xE00056778BE3AEA7) and not IsBranchStepComplete(0xE00056778BE3AEA7, 3, 2)">
-				<UseObject QuestId="0xE00056778BE3AEA7" BranchId="3" StepId="2" Name="Exhausted Power Unit" Radius="50" WaitTime="3" >
+				<UseObject QuestId="0xE00056778BE3AEA7" BranchId="3" StepId="2" ObjectName="Exhausted Power Unit" Radius="50" WaitTime="3" >
 					<Hotspots>
 						<Hotspot Name="Industrial Raiders" XYZ="26.95791,1.156785,19.70246" />
 						<Hotspot Name="Industrial Raiders" XYZ="19.28853,1.142761,14.95261" />
@@ -865,9 +865,9 @@
 
 		<!-- BH - Settling Accounts -->
 		<If Condition="((HasQuest(0xE000042855502834)) and (not IsQuestComplete(0xE000042855502834)))">
-			<UseObject Name="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="0" Radius="10" WaitTime="6500" XYZ="23.36661,1.136143,14.24587" />
-			<UseObject Name="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="1" Radius="10" WaitTime="6500" XYZ="52.42941,1.412821,19.97844" />
-			<UseObject Name="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="2" Radius="10" WaitTime="6500" XYZ="31.04832,1.222146,6.687039" />
+			<UseObject ObjectName="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="0" Radius="10" WaitTime="6500" XYZ="23.36661,1.136143,14.24587" />
+			<UseObject ObjectName="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="1" Radius="10" WaitTime="6500" XYZ="52.42941,1.412821,19.97844" />
+			<UseObject ObjectName="Generator" QuestId="0xE000042855502834" BranchId="1" StepId="3" TaskId="2" Radius="10" WaitTime="6500" XYZ="31.04832,1.222146,6.687039" />
 			<If Condition="HasQuest(0xE000042855502834) and not IsBranchStepComplete(0xE000042855502834, 1, 4)">
 				<MoveTo Name="Yalt" QuestId="0xE000042855502834" WaitTime="1" XYZ="43.89708,2.58331,6.352927" />
 			</If>
@@ -878,7 +878,7 @@
 		
 		<!-- Industrial Raiders -->
 		<If Condition="HasQuest(0xE00056778BE3AEA7) and not IsBranchStepComplete(0xE00056778BE3AEA7, 3, 3)">
-			<UseObject Name="Power Station" QuestId="0xE00056778BE3AEA7" BranchId="3" StepId="3" WaitTime="1" XYZ="39.95376,2.584321,5.155937" />
+			<UseObject ObjectName="Power Station" QuestId="0xE00056778BE3AEA7" BranchId="3" StepId="3" WaitTime="1" XYZ="39.95376,2.584321,5.155937" />
 		</If>
 		
 		<!-- Agent - Economies of Scale -->
@@ -889,14 +889,14 @@
 				<UserDialog Title="Test" Message="Use the Disguise (mission items tab in bags), use the access panel, then press OK" />
 				<!-- Apoc has to fix this shit - it keeps spamming the useitem function -->
 				<!-- <UseItem Name="Guard Disguise" QuestId="1" Radius="2" WaitTime="5" X="45.05133" Y="3.528655" Z="16.91412" /> -->
-				<UseObject Name="Access Panel" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="4" WaitTime="4" XYZ="45.03392,3.536479,17.10564" />
+				<UseObject ObjectName="Access Panel" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="4" WaitTime="4" XYZ="45.03392,3.536479,17.10564" />
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 5)">
-				<UseObject Name="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="5" WaitTime="3" XYZ="40.62101,3.565821,18.7508" />
+				<UseObject ObjectName="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="5" WaitTime="3" XYZ="40.62101,3.565821,18.7508" />
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 6)">
 				<MoveTo QuestId="0xE000A1BCD0F891D3" XYZ="40.27652,3.565821,19.3739" />
-				<UseObject Name="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="40.27652,3.565821,19.3739" />
+				<UseObject ObjectName="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="40.27652,3.565821,19.3739" />
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 7)">
 				<Grind GrindRef="Economies of Scale 7" While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))" />
@@ -910,7 +910,7 @@
 			</If>
 			<If Condition="HasQuest(0xE0005A924CF2B444) and not IsBranchStepComplete(0xE0005A924CF2B444, 1, 2)">
 				<!-- ele going down -->
-				<UseObject Name="Zeven's Holding Cell" QuestId="0xE0005A924CF2B444" BranchId="1" StepId="2" WaitTime="3" XYZ="40.62208,0.03197207,10.51538" />
+				<UseObject ObjectName="Zeven's Holding Cell" QuestId="0xE0005A924CF2B444" BranchId="1" StepId="2" WaitTime="3" XYZ="40.62208,0.03197207,10.51538" />
 				<WaitTimer WaitTime="7" />
 				<!-- ele going up (in Elevators.xml file) -->
 			</If>
@@ -979,7 +979,7 @@
 										XYZ="-46.71477,4.627566,66.23927"
 										ToX="-46.7838" ToY="-0.3971924" ToZ="65.9931" />
 			</If>
-			<UseObject Name="Beast Pit Alarm" QuestId="0xE00036351098CD4B" BranchId="1" StepId="4" WaitTime="1" XYZ="-51.94848,-0.3568176,74.62281" />
+			<UseObject ObjectName="Beast Pit Alarm" QuestId="0xE00036351098CD4B" BranchId="1" StepId="4" WaitTime="1" XYZ="-51.94848,-0.3568176,74.62281" />
 			<Grind GrindRef="House Cleaning: Nem'ro's Aplology 5-7" While="(not IsBranchStepComplete(0xE00036351098CD4B, 1, 5))" />
 			<Grind GrindRef="House Cleaning: Nem'ro's Aplology 5-7" While="(not IsBranchStepComplete(0xE00036351098CD4B, 1, 6))" />
 			<Grind GrindRef="House Cleaning: Nem'ro's Aplology 5-7" While="(not IsBranchStepComplete(0xE00036351098CD4B, 1, 7))" />
@@ -1012,11 +1012,11 @@
 				<MoveTo QuestId="0xE000A1BCD0F891D3" XYZ="-42.72708,4.401,66.49088" />
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 13)">
-				<UseObject Name="Karrel's Gift" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="13" WaitTime="5" XYZ="-43.45744,4.401,66.46796" />
+				<UseObject ObjectName="Karrel's Gift" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="13" WaitTime="5" XYZ="-43.45744,4.401,66.46796" />
 			</If>
 			<CompleteQuest QuestName="Karrels Knife Reward" QuestId="0xE000A5749C0F7DAC" />
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 14)">
-				<UseObject Name="Suite Holoterminal" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="14" WaitTime="1" XYZ="-42.36146,4.401,65.78541" />
+				<UseObject ObjectName="Suite Holoterminal" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="14" WaitTime="1" XYZ="-42.36146,4.401,65.78541" />
 			</If>
 			<CompleteQuest QuestName="Economies of Scale" QuestId="0xE000A1BCD0F891D3" />
 		</If>
@@ -1024,7 +1024,7 @@
 		<!-- Agent - Change of Plans -->
 		<If Condition="((HasQuest(0xE000A5E970B33947)) and (not IsQuestComplete(0xE000A5E970B33947)))">
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 2)">
-				<UseObject QuestId="0xE000A5E970B33947" Name="Karrels's Suite Security Terminal" BranchId="1" StepId="2" WaitTime="8" XYZ="-48.28339,4.605928,65.66214" />
+				<UseObject QuestId="0xE000A5E970B33947" ObjectName="Karrels's Suite Security Terminal" BranchId="1" StepId="2" WaitTime="8" XYZ="-48.28339,4.605928,65.66214" />
 			</If>
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 3)">
 				<Grind GrindRef="Change of Plans 3" While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))" />
@@ -1073,7 +1073,7 @@
 				<Interact Name="Fa'athra Security Camera" XYZ="43.96653,4.501,66.6946" />
 			</While>
 
-			<UseObject Name="Fa'athra Security Camera" QuestId="0xE000F7324455002B" WaitTime="5" Range="4">
+			<UseObject ObjectName="Fa'athra Security Camera" QuestId="0xE000F7324455002B" WaitTime="5" Range="4">
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="50.03149,5.746397,71.80301" />
 					<Hotspot Name="My Location" XYZ="53.82891,6.577776,69.80424" />
@@ -1095,13 +1095,13 @@
 			</If>
 			<If Condition="((HasQuest(0xE000D51EB84CAB94)) and (not IsBranchStepComplete(0xE000D51EB84CAB94, 1, 2)))">
 				<If Condition="HasQuest(0xE000D51EB84CAB94) and not IsTaskComplete(0xE000D51EB84CAB94, 2, 2)">
-					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="2" Name="Transmitter Switch" OnObject="Cleaning Probe X101" WaitTime="4" Range="4" XYZ="60.72631,6.651,69.00583" />
+					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="2" ItemName="Transmitter Switch" OnObject="Cleaning Probe X101" WaitTime="4" Range="4" XYZ="60.72631,6.651,69.00583" />
 				</If>
 				<If Condition="HasQuest(0xE000D51EB84CAB94) and not IsTaskComplete(0xE000D51EB84CAB94, 2, 0)">
-					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="0" Name="Transmitter Switch" OnObject="Cleaning Probe F7" WaitTime="4" Range="4" XYZ="59.62883,6.500999,57.9488" />
+					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="0" ItemName="Transmitter Switch" OnObject="Cleaning Probe F7" WaitTime="4" Range="4" XYZ="59.62883,6.500999,57.9488" />
 				</If>
 				<If Condition="HasQuest(0xE000D51EB84CAB94) and not IsTaskComplete(0xE000D51EB84CAB94, 2, 1)">
-					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="1" Name="Transmitter Switch" OnObject="Cleaning Probe G44" WaitTime="4" Range="4" XYZ="54.77893,6.500999,57.30531" />
+					<UseItem QuestId="0xE000D51EB84CAB94" StepId="2" TaskId="1" ItemName="Transmitter Switch" OnObject="Cleaning Probe G44" WaitTime="4" Range="4" XYZ="54.77893,6.500999,57.30531" />
 				</If>
 			</If>
 		</If>
@@ -1119,7 +1119,7 @@
 				<If Condition="(not IsQuestComplete(0xE000D910BF77EA86))">
 					<Grind GrindRef="Lizard Hunting" While="(not IsQuestComplete(0xE000D910BF77EA86))" />
 				</If>
-				<UseObject QuestId="0xE000EF0E521CB2DE" BranchId="1" StepId="2" TaskId="0" Radius="5" WaitTime="5" IgnoreLOS="False" Name="Rancor Egg" XYZ="69.5481,1.661667,67.6657" />
+				<UseObject QuestId="0xE000EF0E521CB2DE" BranchId="1" StepId="2" TaskId="0" Radius="5" WaitTime="5" IgnoreLOS="False" ObjectName="Rancor Egg" XYZ="69.5481,1.661667,67.6657" />
 				<UseObject QuestId="0xE000EF0E521CB2DE" BranchId="1" StepId="2" TaskId="1" Radius="100" WaitTime="5" >
 					<Placeables>
 						<Placeable>Beast Egg</Placeable>
@@ -1154,11 +1154,11 @@
 									XYZ="58.17458,1.701464,61.94816" 
 									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
 				</If>
-				<UseObject Name="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="1" StepId="3" WaitTime="3500" XYZ="61.35532,4.501,60.88064" />
+				<UseObject ObjectName="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="1" StepId="3" WaitTime="3500" XYZ="61.35532,4.501,60.88064" />
 			</If>
 			<Grind GrindRef="The New Truth" While="(not IsBranchStepComplete(0xE000D51D1F07E1A5, 4, 2))" />
 			<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 4, 3)">
-				<UseObject Name="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="4" StepId="3" WaitTime="3500" XYZ="61.29214,4.501,60.79504" />
+				<UseObject ObjectName="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="4" StepId="3" WaitTime="3500" XYZ="61.29214,4.501,60.79504" />
 			</If>
 		</If>
 		
@@ -1201,10 +1201,10 @@
 									XYZ="58.17458,1.701464,61.94816" 
 									ToX="57.9046" ToY="4.717607" ToZ="61.9501" />
 				</If>
-				<UseObject Name="Carbonite Stasis Controls" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="2" WaitTime="3" XYZ="70.49318,4.901,70.12951" />
+				<UseObject ObjectName="Carbonite Stasis Controls" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="2" WaitTime="3" XYZ="70.49318,4.901,70.12951" />
 			</If>
 			<If Condition="HasQuest(0xE000F4EC9F57201B) and not IsStepComplete(0xE000F4EC9F57201B, 3)">
-				<UseObject Name="Fa'athra's Stash" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="3" WaitTime="2500" XYZ="55.85725,4.502736,71.79343" />
+				<UseObject ObjectName="Fa'athra's Stash" QuestId="0xE000F4EC9F57201B" BranchId="1" StepId="3" WaitTime="2500" XYZ="55.85725,4.502736,71.79343" />
 				<If Condition="(Me.Position.Y &lt;= 6) and (Me.Position.Y &gt;= 4)"> <!-- 2 to 1 -->
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1" 
 									XYZ="58.15561,4.718481,61.94775" 

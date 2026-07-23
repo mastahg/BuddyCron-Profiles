@@ -417,7 +417,7 @@
 			<If Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 4)">
 				<MoveTo QuestId="0xE000F312709657D7" XYZ="-32.18953,6.872758,97.1241" />
 			</If>
-			<UseObject QuestId="0xE000F312709657D7" Name="Filtration Unit" BranchId="1" StepId="5" IgnoreLOS="True" Radius="10" WaitTime="2" BlacklistDuration="180" >
+			<UseObject QuestId="0xE000F312709657D7" ObjectName="Filtration Unit" BranchId="1" StepId="5" IgnoreLOS="True" Radius="10" WaitTime="2" BlacklistDuration="180" >
 				<Hotspots>
 					<Hotspot Name="Republic Mining Droid" XYZ="-51.4326,6.815551,68.3261" />
 					<Hotspot Name="My Location" XYZ="-44.41125,6.87783,51.42951" />
@@ -429,7 +429,7 @@
 					<Hotspot Name="My Location" XYZ="-50.66098,7.171555,52.20551" />
 				</Hotspots>
 			</UseObject>
-			<UseObject Name="Ventilation Controls" QuestId="0xE000F312709657D7" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="4" XYZ="-51.79393,7.175291,49.59192" />
+			<UseObject ObjectName="Ventilation Controls" QuestId="0xE000F312709657D7" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="4" XYZ="-51.79393,7.175291,49.59192" />
 			<!-- Republic Teardown -->
 			<If Condition="(not IsQuestComplete(0xE00093F76C0E0860))">
 				<Grind GrindRef="Republic Teardown" While="(not IsQuestComplete(0xE00093F76C0E0860))" />
@@ -439,7 +439,7 @@
 				<MoveTo QuestId="1" XYZ="-53.8918,6.875942,68.09741" />
 			</If>
 			<If Condition="HasQuest(0xE000FD87F2197DE3) and not IsStepComplete(0xE000FD87F2197DE3, 2)" >
-				<UseObject Name="Door Controls" QuestId="0xE000FD87F2197DE3" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-64.18794,6.833078,60.89803" />
+				<UseObject ObjectName="Door Controls" QuestId="0xE000FD87F2197DE3" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-64.18794,6.833078,60.89803" />
 			</If>
 			<If Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 7)">
 				<MoveTo QuestId="0xE000F312709657D7" XYZ="-32.06129,6.872758,97.13928" />
@@ -448,10 +448,10 @@
 		
 		<!-- Walker Tripping and Turnin -->
 		<If Condition="((HasQuest(0xE000ACE785105EB2)) and (not IsQuestComplete(0xE000ACE785105EB2)))">
-			<UseObject Name="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-11.75441,5.691082,98.18716" />
-			<UseObject Name="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-7.1038,5.281374,91.51156" />
-			<UseObject Name="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-0.5620904,5.715382,79.00484" />
-			<UseObject Name="Surveillance Equipment" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="2" XYZ="-9.075624,6.282239,56.14957" />
+			<UseObject ObjectName="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-11.75441,5.691082,98.18716" />
+			<UseObject ObjectName="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-7.1038,5.281374,91.51156" />
+			<UseObject ObjectName="Crate" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" Radius="5" WaitTime="3" XYZ="-0.5620904,5.715382,79.00484" />
+			<UseObject ObjectName="Surveillance Equipment" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="2" XYZ="-9.075624,6.282239,56.14957" />
 			<!-- Breaker Breaker -->
 			<If Condition="(not IsQuestComplete(0xE00008ACEABC5917))">
 				<Grind GrindRef="Breaker Breaker - Defeat Republic Convoy Forces" While="(not IsQuestComplete(0xE00008ACEABC5917))" />
@@ -507,7 +507,7 @@
 			</If>
 			<!-- Stage 3 - Infusion -->
 			<If Condition="(not IsQuestComplete(0xE000D517FCBE6F80))">
-				<UseObject QuestId="0xE000D517FCBE6F80" Name="Factory Shipment" BranchId="1" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="2" >
+				<UseObject QuestId="0xE000D517FCBE6F80" ObjectName="Factory Shipment" BranchId="1" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-18.8875,0.2150023,20.77604" />
 						<Hotspot Name="My Location" XYZ="-20.0727,7.805155,16.09096" />
@@ -521,13 +521,13 @@
 			</If>
 			<!-- Final Stage - Infusion -->
 			<If Condition="(not IsQuestComplete(0xE000853DA97CDC42))">
-				<UseObject Name="Venom Processing Tank" QuestId="0xE000853DA97CDC42" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="-30.10324,7.883216,16.45145" />
+				<UseObject ObjectName="Venom Processing Tank" QuestId="0xE000853DA97CDC42" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="-30.10324,7.883216,16.45145" />
 			</If>
 		</If>
 		
 		<!-- Adrenal Appropriation -->
 		<If Condition="((HasQuest(0xE00048E78F6B713D)) and (not IsQuestComplete(0xE00048E78F6B713D)))">
-			<UseObject QuestId="0xE00048E78F6B713D" Name="Adrenal Shipping Crate" BranchId="1" StepId="2" IgnoreLOS="True" Radius="200" >
+			<UseObject QuestId="0xE00048E78F6B713D" ObjectName="Adrenal Shipping Crate" BranchId="1" StepId="2" IgnoreLOS="True" Radius="200" >
 				<Hotspots>
 					<Hotspot Name="Republic Station Trainee" XYZ="3.8316,8.958008,31.4573" />
 					<Hotspot Name="Republic Medical Officer" XYZ="0.3128687,8.95903,29.18386" />
@@ -543,7 +543,7 @@
 		
 		<!-- Agent - The Mind Trap -->
 		<If Condition="((HasQuest(0xE0007FA16B96ABE7)) and (not IsQuestComplete(0xE0007FA16B96ABE7)))">
-			<UseObject QuestId="0xE0007FA16B96ABE7" Name="Dimalium-6 Canister" BranchId="3" StepId="3" IgnoreLOS="True" Radius="200" >
+			<UseObject QuestId="0xE0007FA16B96ABE7" ObjectName="Dimalium-6 Canister" BranchId="3" StepId="3" IgnoreLOS="True" Radius="200" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-0.819003,9.371388,-21.73011" />
 					<Hotspot Name="Republic Transport Guard" XYZ="-2.2778,9.576431,-20.0452" />
@@ -594,10 +594,10 @@
 		<!-- The Three Families: Charge the Front and Turnin -->
 		<If Condition="((HasQuest(0xE000EE3861F2535B)) and (not IsQuestComplete(0xE000EE3861F2535B)))">
 			<If Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 1)">
-				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="1" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.7366,17.25719,-26.92838" />
+				<UseItem ItemName="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="1" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.7366,17.25719,-26.92838" />
 			</If>
 			<If Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 0)">
-				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="0" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.74851,17.23639,-42.43463" />
+				<UseItem ItemName="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="0" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.74851,17.23639,-42.43463" />
 			</If>
 			<!-- Stage 1 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000482FF42882E4))">
@@ -609,7 +609,7 @@
 			</If>
 			<!-- Stage 3 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000462FF428815E))">
-				<UseObject QuestId="0xE000462FF428815E" Name="Republic Supplies" BranchId="1" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="2" >
+				<UseObject QuestId="0xE000462FF428815E" ObjectName="Republic Supplies" BranchId="1" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="77.86804,17.2306,-41.50557" />
 						<Hotspot Name="My Location" XYZ="75.1974,16.67205,-35.96764" />
@@ -619,21 +619,21 @@
 			</If>
 			<!-- Final Stage - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000432FF428BA67))">
-				<UseObject Name="Security Station" QuestId="0xE000432FF428BA67" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="92.43005,19.201,-45.33429" />
+				<UseObject ObjectName="Security Station" QuestId="0xE000432FF428BA67" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="92.43005,19.201,-45.33429" />
 			</If>
-			<UseObject Name="Throne Room Console" QuestId="0xE000EE3861F2535B" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="100.0061,19.31233,-34.34623" />
+			<UseObject ObjectName="Throne Room Console" QuestId="0xE000EE3861F2535B" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="100.0061,19.31233,-34.34623" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="The Three Families: Charge the Front" QuestId="0xE000EE3861F2535B" TurnInName="Throne Room Console" XYZ="100.0061,19.31233,-34.34623" />
 			<CompleteQuest QuestName="The Three Families: Charge the Front" QuestId="0xE000EE3861F2535B" />
 		</If>
 		
 		<!-- The Three Families and Turnin -->
 		<If Condition="((HasQuest(0xE000AAA33520D44A)) and (not IsQuestComplete(0xE000AAA33520D44A)))">
-			<UseObject Name="Door to Throne Room" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="103.766,19.39703,-31.47484" />
-			<UseObject Name="Secondary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="104.7891,19.40402,-36.55947" />
-			<UseObject Name="Primary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="102.8459,19.40395,-36.53824" />
-			<UseObject Name="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
+			<UseObject ObjectName="Door to Throne Room" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="103.766,19.39703,-31.47484" />
+			<UseObject ObjectName="Secondary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="104.7891,19.40402,-36.55947" />
+			<UseObject ObjectName="Primary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="102.8459,19.40395,-36.53824" />
+			<UseObject ObjectName="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
 			<Grind GrindRef="The Three Families - Defeat the Republic Battle Droid" While="not IsBranchStepComplete(0xE000AAA33520D44A, 4, 5)" />
-			<UseObject Name="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
+			<UseObject ObjectName="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
 			<If Condition="HasQuest(0xE000AAA33520D44A) and not IsBranchStepComplete(0xE000AAA33520D44A, 4, 7)" >
 				<TalkTo QuestId="0xE000AAA33520D44A" Name="Portho the Hutt" XYZ="106.2824,19.40491,-34.9706" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -647,10 +647,10 @@
 		
 		<!-- Crane Decommission and Turnin -->
 		<If Condition="((HasQuest(0xE0001E6351365DC0)) and (not IsQuestComplete(0xE0001E6351365DC0)))">
-			<UseObject Name="Column One" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="4" XYZ="60.25116,9.258766,-92.43243" />
-			<UseObject Name="Column Three" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="4" XYZ="64.23466,9.299142,-95.12743" />
-			<UseObject Name="Column Two" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="4" XYZ="56.2754,9.307011,-96.50452" />
-			<UseObject Name="Barricade" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="69.42527,9.274594,-90.22997" />
+			<UseObject ObjectName="Column One" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="4" XYZ="60.25116,9.258766,-92.43243" />
+			<UseObject ObjectName="Column Three" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="4" XYZ="64.23466,9.299142,-95.12743" />
+			<UseObject ObjectName="Column Two" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="4" XYZ="56.2754,9.307011,-96.50452" />
+			<UseObject ObjectName="Barricade" QuestId="0xE0001E6351365DC0" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="69.42527,9.274594,-90.22997" />
 			<TurnInQuest QuestName="Crane Decommission" QuestId="0xE0001E6351365DC0" TurnInName="Sergeant Darro" XYZ="56.3704,9.267341,-73.9917" />
 			<CompleteQuest QuestName="Crane Decommission" QuestId="0xE0001E6351365DC0" />
 		</If>
@@ -663,7 +663,7 @@
 			</If>
 			<!-- Stage 2 - Atypical Tactics - Destroy Storage Cells -->
 			<If Condition="(not IsQuestComplete(0xE00060AB236DB4C0))">
-				<UseObject QuestId="0xE00060AB236DB4C0" BranchId="1" StepId="4" Name="Storage Cell" IgnoreLOS="True" Radius="200" WaitTime="2" >
+				<UseObject QuestId="0xE00060AB236DB4C0" BranchId="1" StepId="4" ObjectName="Storage Cell" IgnoreLOS="True" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="62.80311,9.290811,-71.402" />
 						<Hotspot Name="My Location" XYZ="74.90259,9.280597,-74.31151" />
@@ -678,7 +678,7 @@
 			</If>
 			<!-- Final Stage - Atypical Tactics -->
 			<If Condition="(not IsQuestComplete(0xE0005EAB236DB766))">
-				<UseObject Name="Shield Assembly Control Panel" QuestId="0xE0005EAB236DB766" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="92.70985,9.307575,-74.87419" />
+				<UseObject ObjectName="Shield Assembly Control Panel" QuestId="0xE0005EAB236DB766" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="92.70985,9.307575,-74.87419" />
 			</If>
 			<If Condition="((HasQuest(0xE000778438467841)) and (not IsBranchStepComplete(0xE000778438467841, 3, 2)))">
 				<MoveTo QuestId="0xE000778438467841" Name="Venom Refinery" XYZ="88.97652,9.249282,-96.65799" />

@@ -202,7 +202,7 @@
 		<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsQuestComplete(0xE0009A6887C8FC9F)))">
 			<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 7)))">
 				<MoveTo QuestId="0xE0009A6887C8FC9F" Name="Going to Sensor Hub" XYZ="-10.34794,1.897177,-33.00782" /> 
-				<UseObject QuestId="0xE0009A6887C8FC9F" Name="Sensor Hub" BranchId="1" StepId="7" IgnoreLOS="True" Radius="10" UseRange="5" WaitTime="5" XYZ="-10.34794,1.897177,-33.00782" /> 
+				<UseObject QuestId="0xE0009A6887C8FC9F" ObjectName="Sensor Hub" BranchId="1" StepId="7" IgnoreLOS="True" Radius="10" UseRange="5" WaitTime="5" XYZ="-10.34794,1.897177,-33.00782" /> 
 				<Grind GrindRef="[AREA] Criminal Crackdown 2" While="(not IsStepComplete(0xE0009A6887C8FC9F, 7))"/>
 			</If>		
 		</If>

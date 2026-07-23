@@ -236,7 +236,7 @@
 		<If Condition="((HasQuest(0xE000554348EB59CB)) and (not IsQuestComplete(0xE000554348EB59CB)) )">
 			<If Condition="(not IsStepComplete(0xE000554348EB59CB, 2))">
 				<If Condition="(not IsTaskComplete(0xE000554348EB59CB, 2, 0))">
-					<UseObject QuestId="0xE000554348EB59CB" BranchId="1" StepId="2" TaskId="0" Name="Luxury Goods" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000554348EB59CB" BranchId="1" StepId="2" TaskId="0" ObjectName="Luxury Goods" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Luxury Goods 1" XYZ="57.46024,49.0744,-6.607976" />
 							<Hotspot Name="Luxury Goods 2" XYZ="57.46024,49.0744,-6.607976" />
@@ -246,7 +246,7 @@
 					</UseObject>
 				</If>
 				<If Condition="(not IsTaskComplete(0xE000554348EB59CB, 2, 1))">
-					<UseObject QuestId="0xE000554348EB59CB" BranchId="1" StepId="2" TaskId="1" Name="Emergency Supplies" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000554348EB59CB" BranchId="1" StepId="2" TaskId="1" ObjectName="Emergency Supplies" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Emergency Supplies 1" XYZ="57.77033,49.07449,-6.681989" />
 							<Hotspot Name="Emergency Supplies 2" XYZ="57.46024,49.0744,-6.607976" />
@@ -274,7 +274,7 @@
 		<!-- [DAILY] Scattered Schematics -->
 		<If Condition="((HasQuest(0xE000E5AE5E13630E)) and (not IsQuestComplete(0xE000E5AE5E13630E)) )">
 			<If Condition="(not IsStepComplete(0xE000E5AE5E13630E, 2))">
-				<UseObject QuestId="0xE000E5AE5E13630E" BranchId="1" StepId="2" Name="Network Terminal" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+				<UseObject QuestId="0xE000E5AE5E13630E" BranchId="1" StepId="2" ObjectName="Network Terminal" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 					<Hotspots>
 						<Hotspot Name="Network Terminal 1" XYZ="203.3687,-22.39357,-171.7997"  />
 						<Hotspot Name="Network Terminal 2" XYZ="206.9042,-22.38797,-166.0376" />
@@ -295,7 +295,7 @@
 							XYZ="207.7254,-22.25698,-161.707" 
 							EndX="207.7023" EndY="-22.17675" EndZ="-161.146" />
 				<MoveTo QuestId="0xE000E5AE5E13630E" XYZ="207.9154,-22.17675,-161.0828" />
-				<UseObject QuestId="0xE000E5AE5E13630E" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="207.9194,-22.17675,-161.0227" />
+				<UseObject QuestId="0xE000E5AE5E13630E" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="207.9194,-22.17675,-161.0227" />
  				
 			</If>	
 		</If>	
@@ -317,7 +317,7 @@
 				<MoveTo QuestId="0xE000CCE0719F340D" XYZ="395.794,-18.07944,-7.353476" />		
 				<MoveTo QuestId="0xE000CCE0719F340D" XYZ="395.826,-18.21384,-7.674753" />
 
-				<UseObject QuestId="0xE000CCE0719F340D" BranchId="1" StepId="2" Name="Regulator Database" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+				<UseObject QuestId="0xE000CCE0719F340D" BranchId="1" StepId="2" ObjectName="Regulator Database" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 					<Hotspots>
 						<Hotspot Name="Regulator Database 1" XYZ="397.4247,-18.21031,-8.713782"  />
 						<Hotspot Name="Regulator Database 2" XYZ="394.3594,-18.199,-15.39291" />
@@ -333,7 +333,7 @@
 				<MoveTo QuestId="0xE000CCE0719F340D" XYZ="395.901,-17.97743,-7.081532" />
 				<MoveTo QuestId="0xE000CCE0719F340D" XYZ="396.6565,-17.30557,-4.536943" />
 				<MoveTo QuestId="0xE000CCE0719F340D" XYZ="400.4896,-17.22079,7.420362" />
-				<UseObject QuestId="0xE000CCE0719F340D" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="409.2288,-17.95088,9.146154" />
+				<UseObject QuestId="0xE000CCE0719F340D" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="409.2288,-17.95088,9.146154" />
  				
 			</If>	
 		</If>	
@@ -351,7 +351,7 @@
 		<!-- [DAILY] Arms for the Taking --> 
 		<If Condition="((HasQuest(0xE00022CA9DC86159)) and (not IsQuestComplete(0xE00022CA9DC86159)) )">
 			<If Condition="(not IsStepComplete(0xE00022CA9DC86159, 2))">
-				<UseObject QuestId="0xE00022CA9DC86159" BranchId="1" StepId="2" Name="Weapons Shipment" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+				<UseObject QuestId="0xE00022CA9DC86159" BranchId="1" StepId="2" ObjectName="Weapons Shipment" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 					<Hotspots>
 						<Hotspot Name="Weapons Shipment 1" XYZ="85.20036,-15.93101,220.8203"  />
 						<Hotspot Name="Weapons Shipment 2" XYZ="80.70406,-15.99694,224.1842" />
@@ -368,7 +368,7 @@
 				<MoveTo QuestId="0xE00022CA9DC86159" XYZ="92.72211,-15.23114,232.125" />
 				<MoveTo QuestId="0xE00022CA9DC86159" XYZ="96.97571,-15.30381,241.2623" />
 				<MoveTo QuestId="0xE00022CA9DC86159" XYZ="97.49991,-15.13354,242.6153" />
-				<UseObject QuestId="0xE00022CA9DC86159" Name="Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="97.49991,-15.13354,242.6153" />
+				<UseObject QuestId="0xE00022CA9DC86159" ObjectName="Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="97.49991,-15.13354,242.6153" />
 			</If>	
 		</If>	
 		<CompleteQuest QuestName="[DAILY] Arms for the Taking" QuestId="0xE00022CA9DC86159"/>
@@ -386,7 +386,7 @@
 			<If Condition="(not IsStepComplete(0xE000927687A7A349, 2))">
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 5))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="97.18571,-30.58626,456.2701" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="5" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="5" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 5" XYZ="97.18571,-30.58626,456.2701"  />
 						</Hotspots>
@@ -394,7 +394,7 @@
 				</If>
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 4))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="92.60695,-30.20146,467.2695" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="4" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="4" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 4" XYZ="92.60695,-30.20146,467.2695"  />
 						</Hotspots>
@@ -402,7 +402,7 @@
 				</If>
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 3))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="83.84176,-29.1616,451.5054" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="3" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="3" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 3" XYZ="83.84176,-29.1616,451.5054"  />
 						</Hotspots>
@@ -410,7 +410,7 @@
 				</If>			
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 2))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="94.44263,-29.79782,436.9394" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="2" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="2" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 2" XYZ="94.44263,-29.79782,436.9394"  />
 						</Hotspots>
@@ -418,7 +418,7 @@
 				</If>				
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 1))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="109.1307,-29.45706,444.6068" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="1" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="1" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 1" XYZ="109.1307,-29.45706,444.6068"  />
 						</Hotspots>
@@ -426,7 +426,7 @@
 				</If>		
 				<If Condition="(not IsTaskComplete(0xE000927687A7A349, 2, 6))">
 					<MoveTo QuestId="0xE000927687A7A349" XYZ="121.9032,-29.19986,455.2183" />
-					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="6" Name="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE000927687A7A349" BranchId="1" StepId="2" TaskId="6" ObjectName="Research Station" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Research Station 6" XYZ="121.9032,-29.19986,455.2183"  />
 						</Hotspots>
@@ -435,7 +435,7 @@
 			</If>		
 			<If Condition="(not IsStepComplete(0xE000927687A7A349, 3))">
 				<MoveTo QuestId="0xE000927687A7A349" XYZ="116.5885,-28.70551,476.2718" />
-				<UseObject QuestId="0xE000927687A7A349" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="116.5885,-28.70551,476.2718" />
+				<UseObject QuestId="0xE000927687A7A349" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="116.5885,-28.70551,476.2718" />
 			</If>	
 		</If>	
 		<CompleteQuest QuestName="[DAILY] Elemental Investigation" QuestId="0xE000927687A7A349"/>
@@ -451,7 +451,7 @@
 		<!-- [DAILY] The Core Issues -->
 		<If Condition="((HasQuest(0xE000DA15211C0232)) and (not IsQuestComplete(0xE000DA15211C0232)) )">
 			<If Condition="(not IsStepComplete(0xE000DA15211C0232, 2))">
-				<UseObject QuestId="0xE000DA15211C0232" BranchId="1" StepId="2" Name="Planet Core Stability Sensor" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+				<UseObject QuestId="0xE000DA15211C0232" BranchId="1" StepId="2" ObjectName="Planet Core Stability Sensor" Radius="100" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 					<Hotspots>
 						<Hotspot Name="Sensor Data 1" XYZ="-38.7158,-66.05147,284.7678"  />
 						<!-- <Hotspot Name="Sensor Data 2" X="-32.8282" Y="-66.03928" Z="276.6592" /> -->
@@ -460,7 +460,7 @@
 			</If>
 			<If Condition="(not IsStepComplete(0xE000DA15211C0232, 3))">			
 				<MoveTo QuestId="0xE000DA15211C0232" XYZ="-30.27135,-66.41521,291.9329" />
-				<UseObject QuestId="0xE000DA15211C0232" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-30.27135,-66.41521,291.9329" />				
+				<UseObject QuestId="0xE000DA15211C0232" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-30.27135,-66.41521,291.9329" />				
 			</If>	
 		</If>	
 		<CompleteQuest QuestName="[DAILY] The Core Issues" QuestId="0xE000DA15211C0232"/>
@@ -480,7 +480,7 @@
 			</If>
 			<If Condition="(not IsStepComplete(0xE000CAD2F83AB6DB, 3))">			
 				<MoveTo QuestId="0xE000CAD2F83AB6DB" XYZ="33.01517,-11.18327,-472.6186" />
-				<UseObject QuestId="0xE000CAD2F83AB6DB" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="33.01517,-11.18327,-472.6186" />				
+				<UseObject QuestId="0xE000CAD2F83AB6DB" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="33.01517,-11.18327,-472.6186" />				
 			</If>	
 		</If>	
 		<CompleteQuest QuestName="[DAILY] Toborro's Best" QuestId="0xE000CAD2F83AB6DB"/>	
@@ -498,7 +498,7 @@
 			<If Condition="(not IsStepComplete(0xE00070AA2DD38BCC, 2))">
 				<If Condition="(not IsTaskComplete(0xE00070AA2DD38BCC, 2, 2))">
 					<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="289.9294,-16.21129,120.8133" />
-					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="2" Name="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="2" ObjectName="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Sensor Jammer 2" XYZ="289.9294,-16.21129,120.8133"  />
 						</Hotspots>
@@ -506,7 +506,7 @@
 				</If>
 				<If Condition="(not IsTaskComplete(0xE00070AA2DD38BCC, 2, 1))">
 					<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="312.6334,-13.19704,146.8564" />
-					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="1" Name="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="1" ObjectName="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Sensor Jammer 1" XYZ="312.6334,-13.19704,146.8564"  />
 						</Hotspots>
@@ -514,7 +514,7 @@
 				</If>
 				<If Condition="(not IsTaskComplete(0xE00070AA2DD38BCC, 2, 3))">
 					<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="327.5209,-15.6914,162.7485" />
-					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="3" Name="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="3" ObjectName="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Sensor Jammer 3" XYZ="327.5209,-15.6914,162.7485"  />
 						</Hotspots>
@@ -522,7 +522,7 @@
 				</If>			
 				<If Condition="(not IsTaskComplete(0xE00070AA2DD38BCC, 2, 5))">
 					<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="380.623,-16.50315,130.3001" />
-					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="5" Name="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="5" ObjectName="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Sensor Jammer 5" XYZ="380.623,-16.50315,130.3001"  />
 						</Hotspots>
@@ -530,7 +530,7 @@
 				</If>				
 				<If Condition="(not IsTaskComplete(0xE00070AA2DD38BCC, 2, 4))">
 					<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="367.5105,-12.22186,156.0912" />
-					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="4" Name="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<UseObject QuestId="0xE00070AA2DD38BCC" BranchId="1" StepId="2" TaskId="4" ObjectName="Sensor Jammer" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
 						<Hotspots>
 							<Hotspot Name="Sensor Jammer 4" XYZ="367.5105,-12.22186,156.0912"  />
 						</Hotspots>
@@ -540,7 +540,7 @@
 			<If Condition="(not IsStepComplete(0xE00070AA2DD38BCC, 3))">
 				<!-- USE QUICKTRAVEL -->
 				<MoveTo QuestId="0xE00070AA2DD38BCC" XYZ="258.4696,-15.36141,112.9169" />
-				<UseObject QuestId="0xE00070AA2DD38BCC" Name="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="258.4696,-15.36141,112.9169" />
+				<UseObject QuestId="0xE00070AA2DD38BCC" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="258.4696,-15.36141,112.9169" />
 			</If>	
 		</If>	
 		<CompleteQuest QuestName="[DAILY] Clear Skies Ahead" QuestId="0xE00070AA2DD38BCC"/>			

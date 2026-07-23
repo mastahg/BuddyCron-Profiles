@@ -97,7 +97,7 @@
 		Goal: Disable the Sith Starship
 		-->
 		<If Condition="((HasQuest(0xE000FC279BBFF7C8)) and (not IsStepComplete(0xE000FC279BBFF7C8, 3)))">
-			<UseObject Name="Imperial Shuttle" WaitTime="3000" XYZ="-154.7346,31.79134,145.8748"  Radius="100" />
+			<UseObject ObjectName="Imperial Shuttle" WaitTime="3000" XYZ="-154.7346,31.79134,145.8748"  Radius="100" />
 		</If>
 
 		<!-- Grind: Strengthening The Chain (Kill 3x Rattataki Leader) -->
@@ -177,7 +177,7 @@
 
 		<!-- TurnIn Quest: Descent into the Tomb -->
 		<If Condition="((HasQuest(HasQuest(0xE000B61F1648081E))) and (not IsQuestComplete(0xE000B61F1648081E)))">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000" XYZ="-26.40972,11.1007,-322.7995" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000" XYZ="-26.40972,11.1007,-322.7995" />
 		</If>
 
 
@@ -198,7 +198,7 @@
 		QuestGiver: Object Position: X="-25.85419" Y="11.1007" Z="-320.9041"
 		QuestId: 0xE000E36A1BEFEF20 --> 
 		<If Condition="(not HasQuest(0xE000E36A1BEFEF20))) and (not IsQuestComplete(0xE000E36A1BEFEF20)))">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000" XYZ="-25.85419,11.1007,-320.9041" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000" XYZ="-25.85419,11.1007,-320.9041" />
 		</If>
 
 		<!-- 
@@ -208,14 +208,14 @@
 		QuestGiver: Object Position: X="-26.44604" Y="11.1007" Z="-320.9317"
 		QuestId:  0xE0007A085412F617 --> 
 		<If Condition="(not HasQuest( 0xE0007A085412F617))) and (not IsQuestComplete( 0xE0007A085412F617)))">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000" XYZ="-26.44604,11.1007,-320.9317" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000" XYZ="-26.44604,11.1007,-320.9317" />
 		</If>
 
 		<!-- Grind: Prison Repairs Task 0: Defeat Esh-kha Forces 15 x -->
 		<Grind GrindRef="Prison Repairs" While="(not IsTaskComplete(0xE000F2B7135F9F3D, 2, 0))" />
 		<!-- UseObject: Prison Repairs Task 1: Deactivate the Transporter Controls -->
 		<If Condition="(not HasQuest( 0xE000F2B7135F9F3D))) and (not IsTaskComplete(0xE000F2B7135F9F3D, 2, 1)))">
-			<UseObject Name="Transporter Controls" WaitTime="3000" XYZ="-103.1706,6.411,-341.069" />
+			<UseObject ObjectName="Transporter Controls" WaitTime="3000" XYZ="-103.1706,6.411,-341.069" />
 		</If>
 
 
@@ -236,7 +236,7 @@
 		</If>  
 		<!-- UseObject: Rakata Mind Trap for Quest: Sleeping Rakata(Step: 4) -->
 		<If Condition="(HasQuest( 0xE000E36A1BEFEF20))) and (not IsStepComplete(0xE000E36A1BEFEF20, 4))">
-			<UseObject Name="Rakata Mind Trap" WaitTime="3000" XYZ="3.042174,8.466206,-382.0728" />
+			<UseObject ObjectName="Rakata Mind Trap" WaitTime="3000" XYZ="3.042174,8.466206,-382.0728" />
 		</If> 
 
 
@@ -247,7 +247,7 @@
 
 		<!-- UseObject: Rakata Mind Trap (Leave Rakata Mind Prison) for Quest: Sleeping Rakata (Step: 7) -->
 		<If Condition="(HasQuest( 0xE000E36A1BEFEF20))) and (not IsStepComplete(0xE000E36A1BEFEF20, 7))">
-			<UseObject Name="Rakata Mind Trap" WaitTime="3000" XYZ="-18.02871,34.78043,-382.8534" /> />
+			<UseObject ObjectName="Rakata Mind Trap" WaitTime="3000" XYZ="-18.02871,34.78043,-382.8534" /> />
 		</If>
 		<!-- GoTo Location" X="-20.26218" Y="8.899982" Z="-361.8765" (We leave the Group Phase) -->
 		<If Condition="( ((HasQuest(0xE000E36A1BEFEF20) and (IsQuestComplete(0xE000E36A1BEFEF20))">
@@ -265,12 +265,12 @@
 		QuestGiver: Object Position:  X="-66.94678" Y="9.033975" Z="-359.2263"
 		QuestId:  0xE00093438E19BB24 --> 
 		<If Condition="(not HasQuest(0xE00093438E19BB24)) and (not IsQuestComplete(0xE00093438E19BB24))">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000"  XYZ="-66.94678,9.033975,-359.2263" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000"  XYZ="-66.94678,9.033975,-359.2263" />
 		</If>
 		<!--
 		UseObject: Supply Drop (To Get Item: Welding Torch) For Quest: Containing the Beast -->	
 		<If Condition="(HasQuest(0xE00093438E19BB24)) and (not IsStepComplete(0xE00093438E19BB24, 2))">
-			<UseObject Name="Supply Drop" WaitTime="3000" XYZ="-56.32034,8.952274,-363.8632" />
+			<UseObject ObjectName="Supply Drop" WaitTime="3000" XYZ="-56.32034,8.952274,-363.8632" />
 		</If> 
 		<!-- Enter Phase For Quest: Containing the Beast. GoTo Location" X="-74.59328" Y="8.991684" Z="-375.4356" -->
 		<If Condition="(HasQuest(0xE00093438E19BB24)) and (IsStepComplete(0xE00093438E19BB24, 3))">
@@ -290,15 +290,15 @@
 
 		<!-- UseObject: We Need To Click At The Right Button From The Monsters Door -->
 		<If Condition="(HasQuest(0xE00093438E19BB24)) and (not IsStepComplete(0xE000E36A1BEFEF20, 4))">
-			<UseObject Name="The Monster's Door" WaitTime="3000"  XYZ="-80.35275,9.024727,-377.0097" />
+			<UseObject ObjectName="The Monster's Door" WaitTime="3000"  XYZ="-80.35275,9.024727,-377.0097" />
 		</If> 
 		<!-- UseObject: We Need To Click At The Left Button From The Monsters Door -->
 		<If Condition="(HasQuest(0xE00093438E19BB24)) and (not IsStepComplete(0xE000E36A1BEFEF20, 4))">
-			<UseObject Name="The Monster's Door" WaitTime="3000"  XYZ="-81.55832,9.001,-376.9008" />
+			<UseObject ObjectName="The Monster's Door" WaitTime="3000"  XYZ="-81.55832,9.001,-376.9008" />
 		</If> 
 		<!-- UseObject: We Need To Click At The Middle Button From The Monsters Door -->
 		<If Condition="(HasQuest(0xE00093438E19BB24)) and (not IsStepComplete(0xE000E36A1BEFEF20, 4))">
-			<UseObject Name="The Monster's Door" WaitTime="3000"   XYZ="-80.95955,9.001,-376.8595" />
+			<UseObject ObjectName="The Monster's Door" WaitTime="3000"   XYZ="-80.95955,9.001,-376.8595" />
 		</If> 
 
 
@@ -314,7 +314,7 @@
 		QuestGiver: Object Position:  X="-26.43635" Y="11.1007" Z="-322.7885"
 		QuestId: 0xE000F2B7135F9F3D -->
 		<If Condition="( (HasQuest(0xE000F2B7135F9F3D))) and (IsQuestComplete(0xE000F2B7135F9F3D)) )">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000"  XYZ="-26.43635,11.1007,-322.7885" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000"  XYZ="-26.43635,11.1007,-322.7885" />
 		</If>
 
 		<!-- 
@@ -324,7 +324,7 @@
 		QuestGiver: Object Position:  X="-25.84272" Y="11.1007" Z="-320.9109"
 		QuestId: 0xE000E36A1BEFEF20 -->
 		<If Condition="( (HasQuest(0xE000E36A1BEFEF20)) and (IsQuestComplete(0xE000E36A1BEFEF20)) )">
-			<UseObject Name="Monitoring Station Console" WaitTime="3000"  XYZ="-25.84272,11.1007,-320.9109" />
+			<UseObject ObjectName="Monitoring Station Console" WaitTime="3000"  XYZ="-25.84272,11.1007,-320.9109" />
 		</If>
 
 		<!-- 
@@ -334,7 +334,7 @@
 		QuestGiver: Object Position: X="-26.43576" Y="11.1007" Z="-320.9124" 
 		QuestId: 0xE0007A085412F617 -->
 		<If Condition="( (HasQuest(0xE0007A085412F617)) and (IsQuestComplete(0xE0007A085412F617)) )">
-			<UseObject Name="Monitoring Station" WaitTime="3000"  XYZ="-26.43576,11.1007,-320.9124" />
+			<UseObject ObjectName="Monitoring Station" WaitTime="3000"  XYZ="-26.43576,11.1007,-320.9124" />
 		</If>
 
 

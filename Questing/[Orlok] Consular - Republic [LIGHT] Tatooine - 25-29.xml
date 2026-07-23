@@ -1023,7 +1023,7 @@
 			</If>
 			<!-- Branch 2, Step 2 -->
 			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 2)))">
-				<UseObject QuestId="0xE000F1A8B5387ABA" Name="Sandcrawler Parts" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" >
+				<UseObject QuestId="0xE000F1A8B5387ABA" ObjectName="Sandcrawler Parts" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="76.27166,42.96106,-271.6762" />
 						<Hotspot Name="My Location" XYZ="75.56541,43.03675,-268.1158" />
@@ -1068,7 +1068,7 @@
 				<Grind GrindRef="Defeat the Cave-Dwellers (Bonus)" While="(not IsQuestComplete(0xE0004058C4F49047))" />
 			</If>
 			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 3)))">
-				<UseObject QuestId="0xE0004E970935A120" Name="Torch" BranchId="1" StepId="3" Radius="20" WaitTime="5" >
+				<UseObject QuestId="0xE0004E970935A120" ObjectName="Torch" BranchId="1" StepId="3" Radius="20" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-17.36519,43.53726,-197.5582" />
 						<Hotspot Name="My Location" XYZ="-16.76545,43.52993,-198.1105" />
@@ -1077,7 +1077,7 @@
 				</UseObject>
 			</If>
 			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 4)))">
-				<UseObject QuestId="0xE0004E970935A120" Name="Sand People Carving" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-16.50815,43.54972,-198.2035" />
+				<UseObject QuestId="0xE0004E970935A120" ObjectName="Sand People Carving" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-16.50815,43.54972,-198.2035" />
 			</If>
 			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 5)))">
 				<AnswerHolocomCall QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />

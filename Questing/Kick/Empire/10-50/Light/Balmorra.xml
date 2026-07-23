@@ -576,7 +576,7 @@
 		<!-- Body of Evidence -->
 		<If Condition="not IsStepComplete(0xE0001EE9E968024E, 2)" />
 		<!-- Bind Point -->
-		<UseObject Name="Sunken Sarlacc Cantina" QuestId="0xE0001EE9E968024E" WaitTime="3000" XYZ="-21.9628,5.992943,125.9317" />
+		<UseObject ObjectName="Sunken Sarlacc Cantina" QuestId="0xE0001EE9E968024E" WaitTime="3000" XYZ="-21.9628,5.992943,125.9317" />
 			
 		<!-- Body of Evidence -->
 		<TurnInQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" TurnInName="Cantina Doorman" XYZ="-20.03156,5.386763,133.5637" />
@@ -589,7 +589,7 @@
 		
 	<!-- Body of Evidence -->
 	<If Condition="not IsStepComplete(0xE0001EE9E968024E, 4)">
-		<UseObject Name="Computer Console" QuestId="0xE0001EE9E968024E" StepId="4" WaitTime="6500" XYZ="-17.22209,5.400877,136.377" />
+		<UseObject ObjectName="Computer Console" QuestId="0xE0001EE9E968024E" StepId="4" WaitTime="6500" XYZ="-17.22209,5.400877,136.377" />
 	</If>
 		
 	<!-- Body of Evidence -->
@@ -621,30 +621,30 @@
 		
 	<!-- Step Lightly -->
 	<If Condition="not IsTaskComplete(0xE00029BD036CC1E5, 2, 0)">
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="0" WaitTime="5000" XYZ="-5.226384,8.109358,141.5214" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="0" WaitTime="5000" XYZ="-5.226384,8.109358,141.5214" />
 		<WaitTimer WaitTime="8000" />
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="0" WaitTime="1000" XYZ="-5.226384,8.109358,141.5214" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="0" WaitTime="1000" XYZ="-5.226384,8.109358,141.5214" />
 	</If>
 		
 	<!-- Step Lightly -->
 	<If Condition="IsTaskComplete(0xE00029BD036CC1E5, 2, 1)">
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" WaitTime="5000" XYZ="-13.73437,7.89515,149.1572" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" WaitTime="5000" XYZ="-13.73437,7.89515,149.1572" />
 		<WaitTimer WaitTime="8000" />
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" WaitTime="1000" XYZ="-13.73437,7.89515,149.1572" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" WaitTime="1000" XYZ="-13.73437,7.89515,149.1572" />
 	</If>
 		
 	<!-- Step Lightly -->
 	<If Condition="not IsTaskComplete(0xE00029BD036CC1E5, 2, 2)">
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="2" WaitTime="5000" XYZ="-24.72613,10.08352,157.3929" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="2" WaitTime="5000" XYZ="-24.72613,10.08352,157.3929" />
 		<WaitTimer WaitTime="8000" />
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="2" WaitTime="1000" XYZ="-24.72613,10.08352,157.3929" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="2" WaitTime="1000" XYZ="-24.72613,10.08352,157.3929" />
 	</If>
 		
 	<!-- Step Lightly -->
 	<If Condition="not IsTaskComplete(0xE00029BD036CC1E5, 2, 3)">
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="3" WaitTime="5000" XYZ="-29.85948,9.553096,167.5493" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="3" WaitTime="5000" XYZ="-29.85948,9.553096,167.5493" />
 		<WaitTimer WaitTime="8000" />
-		<UseObject Name="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="3" WaitTime="1000" XYZ="-29.85948,9.553096,167.5493" />
+		<UseObject ObjectName="Seismic Sensor" QuestId="0xE00029BD036CC1E5" StepId="2" TaskId="3" WaitTime="1000" XYZ="-29.85948,9.553096,167.5493" />
 	</If>
 		
 	<!-- No Tolerance -->
@@ -652,10 +652,10 @@
 		
 	<!-- Big Guns -->
 	<If Condition="not IsStepComplete(0xE00020F2827AA9E2, 2)">
-		<UseObject Name="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-51.85374,7.7011,200.4383" />
-		<UseObject Name="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-49.56685,7.7242,200.4441" />
-		<UseObject Name="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-48.39301,7.897265,204.0073" />
-		<UseObject Name="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-52.26764,7.9,203.3139" />
+		<UseObject ObjectName="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-51.85374,7.7011,200.4383" />
+		<UseObject ObjectName="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-49.56685,7.7242,200.4441" />
+		<UseObject ObjectName="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-48.39301,7.897265,204.0073" />
+		<UseObject ObjectName="Resistance Generator" QuestId="0xE00020F2827AA9E2" StepId="2" WaitTime="4000" XYZ="-52.26764,7.9,203.3139" />
 	</If>
 		
 	<!-- Life Sentence -->
@@ -666,7 +666,7 @@
 	<If Condition="Me.Class == CharacterClass.Inquisitor">
 		<!-- Scientific Inquiry -->
 		<If Condition="not IsStepComplete(0xE0007C25667A7F93, 2)">
-			<UseObject QuestId="" Name="Research Records Terminal" WaitTime="4000" XYZ="-32.74065,10.39606,189.1967" />
+			<UseObject QuestId="" ObjectName="Research Records Terminal" WaitTime="4000" XYZ="-32.74065,10.39606,189.1967" />
 		</If>
 	</If>
 	<!-- Inquisitor -->
@@ -680,7 +680,7 @@
 	<!-- Bindpoint & Taxi -->
 	<If Condition="not IsStepComplete(0xE0007300095B167B, 2)" />
 	<!-- Learning Bind Point -->
-	<UseObject Name="Troida Millitary Workshop" QuestId="0xE0007300095B167B" WaitTime="3000" XYZ="-15.61691,9.419967,184.7365" />
+	<UseObject ObjectName="Troida Millitary Workshop" QuestId="0xE0007300095B167B" WaitTime="3000" XYZ="-15.61691,9.419967,184.7365" />
 
 	<!-- Learning Taxi Node -->
 	<TalkTo Name="Troida Skyhopper" QuestId="0xE0007300095B167B" WaitTime="1000" XYZ="-15.2891,9.419992,185.4651" />
@@ -693,7 +693,7 @@
 		
 <!-- Step Lightly -->
 <If Condition="not IsStepComplete(0xE00029BD036CC1E5, 3)">
-	<UseObject QuestId="Step Lightly" Name="Mission Dropbox" WaitTime="3000" XYZ="-11.31472,9.186101,184.5182" />
+	<UseObject QuestId="Step Lightly" ObjectName="Mission Dropbox" WaitTime="3000" XYZ="-11.31472,9.186101,184.5182" />
 </If>
 		
 <!-- Step Lightly -->
@@ -702,24 +702,24 @@
 <!-- Wild Fire -->
 <If Condition="not IsStepComplete(0xE0007300095B167B, 2)">
 	<!-- Wild Fire -->
-	<UseItem Item="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-21.8239,9.911419,161.0484" />
+	<UseItem ItemName="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-21.8239,9.911419,161.0484" />
 	<WaitTimer WaitTime="3000" />
-	<UseObject Name="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-21.8239,9.911419,161.0484" />
+	<UseObject ObjectName="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-21.8239,9.911419,161.0484" />
 
 	<!-- Wild Fire -->
-	<UseItem Item="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-24.41281,10.17825,156.5648" />
+	<UseItem ItemName="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-24.41281,10.17825,156.5648" />
 	<WaitTimer WaitTime="3000" />
-	<UseObject Name="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-24.41281,10.17825,156.5648" />
+	<UseObject ObjectName="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-24.41281,10.17825,156.5648" />
 
 	<!-- Wild Fire -->
-	<UseItem Item="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-27.25697,10.0385,157.5364" />
+	<UseItem ItemName="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-27.25697,10.0385,157.5364" />
 	<WaitTimer WaitTime="3000" />
-	<UseObject Name="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-27.25697,10.0385,157.5364" />
+	<UseObject ObjectName="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-27.25697,10.0385,157.5364" />
 
 	<!-- Wild Fire -->
-	<UseItem Item="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-30.9085,10.13835,157.9354" />
+	<UseItem ItemName="Portable EMP" QuestId="0xE0007300095B167B" StepId="2" WaitTime="2000" Range="4" InCombat="False" Radius="20" XYZ="-30.9085,10.13835,157.9354" />
 	<WaitTimer WaitTime="3000" />
-	<UseObject Name="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-30.9085,10.13835,157.9354" />
+	<UseObject ObjectName="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" StepId="2" WaitTime="3000" XYZ="-30.9085,10.13835,157.9354" />
 </If>
 		
 <!-- Wild Fire -->
@@ -781,7 +781,7 @@
 		
 <!-- Quiet Kill -->
 <If Condition="not IsStepComplete(0xE00046F1BBD2E6F8, 4)">
-	<UseObject QuestId="0xE00046F1BBD2E6F8" StepId="4" Name="Surveillance Equipment" WaitTime="2000" XYZ="-38.3883,9.460217,163.4715" />
+	<UseObject QuestId="0xE00046F1BBD2E6F8" StepId="4" ObjectName="Surveillance Equipment" WaitTime="2000" XYZ="-38.3883,9.460217,163.4715" />
 </If>
 		
 <!-- Use Elevator UP
@@ -813,7 +813,7 @@
 	<TalkTo Name="Markaran Imperial Outpost Speeder" QuestId="0xE000C530D48D0147" WaitTime="1000"  XYZ="-57.2257,14.69548,144.8979" />
 
 	<!-- Bindpoint -->
-	<UseObject Name="Markaran Imperial Outpost" QuestId="0xE000C530D48D0147" WaitTime="3000" XYZ="-55.63977,14.292,146.4255" />
+	<UseObject ObjectName="Markaran Imperial Outpost" QuestId="0xE000C530D48D0147" WaitTime="3000" XYZ="-55.63977,14.292,146.4255" />
 </If>
 		
 <!-- Quiet Kill -->
@@ -839,7 +839,7 @@
 		
 <!-- Coms Away -->
 <If Condition="not IsBranchStepComplete(0xE000C530D48D0147, 2, 2)">
-	<UseObject QuestId="0xE000C530D48D0147" BranchId="2" StepId="2" Name="Resistance Corpse" Radius="200" WaitTime="3000" >
+	<UseObject QuestId="0xE000C530D48D0147" BranchId="2" StepId="2" ObjectName="Resistance Corpse" Radius="200" WaitTime="3000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="-72.84745,13.79452,153.7491" />
 			<Hotspot Name="My Location" XYZ="-81.86912,13.72296,155.4826" />
@@ -895,27 +895,27 @@
 		
 <!-- Calling All Droids -->
 <If Condition="not IsTaskComplete(0xE000AECBD4C2E34C, 5, 2)">
-	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="2" Name="Droid Call Back Station" WaitTime="3500" XYZ="-61.92034,14.00474,131.5327" />
+	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="2" ObjectName="Droid Call Back Station" WaitTime="3500" XYZ="-61.92034,14.00474,131.5327" />
 </If>
 		
 <!-- Calling All Droids -->
 <If Condition="not IsTaskComplete(0xE000AECBD4C2E34C, 5, 1)">
-	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="1" Name="Droid Call Back Station" WaitTime="3500" XYZ="-72.11643,13.80224,132.9121" />
+	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="1" ObjectName="Droid Call Back Station" WaitTime="3500" XYZ="-72.11643,13.80224,132.9121" />
 </If>
 		
 <!-- Calling All Droids -->
 <If Condition="not IsTaskComplete(0xE000AECBD4C2E34C, 5, 0)">
-	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="0" Name="Droid Call Back Station" WaitTime="3500" XYZ="-71.8712,13.89804,124.9618" />
+	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="5" TaskId="0" ObjectName="Droid Call Back Station" WaitTime="3500" XYZ="-71.8712,13.89804,124.9618" />
 </If>
 		
 <!-- Calling All Droids -->
 <If Condition="not IsStepComplete(0xE000AECBD4C2E34C, 7)">
-	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="7" Name="Droid Call Back Station" WaitTime="3500" XYZ="-67.75208,14.42225,142.6113" />
+	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="7" ObjectName="Droid Call Back Station" WaitTime="3500" XYZ="-67.75208,14.42225,142.6113" />
 </If>
 		
 <!-- Calling All Droids -->
 <If Condition="not IsStepComplete(0xE000AECBD4C2E34C, 7)">
-	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="7" Name="Droid Call Back Station" WaitTime="3500" XYZ="-67.75208,14.42225,142.6113" />
+	<UseObject QuestId="0xE000AECBD4C2E34C" StepId="7" ObjectName="Droid Call Back Station" WaitTime="3500" XYZ="-67.75208,14.42225,142.6113" />
 </If>
 		
 <!-- Data Corruption -->
@@ -930,7 +930,7 @@
 		
 <!-- Data Corruption -->
 <If Condition="not IsStepComplete(0xE000C0623E27C4BE, 4)">
-	<UseItem QuestId="0xE000C0623E27C4BE" StepId="4" Name="Virus Packets" Radius="15" InCombat="False" Range="4" WaitTime="5000" >
+	<UseItem QuestId="0xE000C0623E27C4BE" StepId="4" ItemName="Virus Packets" Radius="15" InCombat="False" Range="4" WaitTime="5000" >
 		<Hotspots>
 			<Hotspot Name="Probe Droid DX" XYZ="-107.6987,13.6149,154.8061" />
 			<Hotspot Name="Probe Droid DX" XYZ="-104.7271,12.53968,161.6889" />
@@ -986,7 +986,7 @@
 
 <!-- Despair -->
 <If Condition="not IsStepComplete(0xE000C59D689B383C, 4)">
-	<UseObject Name="Gorinth Imperial Outpost" QuestId="0xE000C59D689B383C" StepId="4" WaitTime="3000" XYZ="-10.66341,15.59683,165.5015" />
+	<UseObject ObjectName="Gorinth Imperial Outpost" QuestId="0xE000C59D689B383C" StepId="4" WaitTime="3000" XYZ="-10.66341,15.59683,165.5015" />
 	<TalkTo Name="Gorinth Imperial Outpost Skyhopper" QuestId="0xE000C59D689B383C" WaitTime="1000" XYZ="-10.3593,15.79626,166.5659" />
 	<TurnInQuest QuestName="Despair" QuestId="0xE000C59D689B383C" TurninName="Cavill Arin" XYZ="-1.7234,15.55583,168.1779" />
 </If>
@@ -996,19 +996,19 @@
 		
 <!-- Disguises -->
 <If Condition="not IsStepComplete(0xE000D0681C6D07BD, 2)">
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="4.470191,15.32134,174.1034" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="4.470191,15.32134,174.1034" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="3.177809,15.5663,179.166" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="3.177809,15.5663,179.166" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="3.032987,15.54391,182.3053" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="3.032987,15.54391,182.3053" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="9.375686,14.61235,182.1171" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="9.375686,14.61235,182.1171" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="14.10027,15.22762,187.5447" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="14.10027,15.22762,187.5447" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="15.81452,14.79968,184.1843" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="15.81452,14.79968,184.1843" />
 	<WaitTimer WaitTime="5000" />
-	<UseItem Item="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="18.87203,14.97763,186.8972" />
+	<UseItem ItemName="Anti-Stealth Device" QuestId="0xE000D0681C6D07BD" StepId="2" WaitTime="4000" Range="4" InCombat="False" Radius="5" XYZ="18.87203,14.97763,186.8972" />
 	<WaitTimer WaitTime="5000" />
 </If>
 				
@@ -1019,7 +1019,7 @@
 		
 <!-- Secret of Cave 52 -->
 <If Condition="not IsStepComplete(0xE000AF0CFE57BD2D, 3)">
-	<UseObject Name="Computer Terminal" QuestId="0xE000AF0CFE57BD2D" StepId="3" WaitTime="5000" XYZ="11.49234,14.98823,200.6325" />
+	<UseObject ObjectName="Computer Terminal" QuestId="0xE000AF0CFE57BD2D" StepId="3" WaitTime="5000" XYZ="11.49234,14.98823,200.6325" />
 </If>
 		
 <!-- Secret of Cave 52 -->
@@ -1160,7 +1160,7 @@
 <!-- Crash Course -->
 <If Condition="not IsStepComplete(0xE000EC98766AD969, 2)"> 
 	<!-- Bindpoint -->
-	<UseObject Name="Sundari Imperial Outpost" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="86.24603,14.15201,155.0487" />
+	<UseObject ObjectName="Sundari Imperial Outpost" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="86.24603,14.15201,155.0487" />
 
 	<!-- Taxi -->
 	<TalkTo Name="Sundari Imperial Outpost Skyhopper" QuestId="0xE000EC98766AD969" WaitTime="1000" XYZ="85.923,14.30889,156.7627" />
@@ -1174,7 +1174,7 @@
 		
 <!-- Crash Course -->
 <If Condition="not IsStepComplete(0xE000EC98766AD969, 2)">
-	<UseObject Name="Datapad" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="121.5556,13.35011,142.8329" />
+	<UseObject ObjectName="Datapad" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="121.5556,13.35011,142.8329" />
 </If>
 		
 <!-- Crash Course -->
@@ -1193,7 +1193,7 @@
 		
 <!-- On The Line -->
 <If Condition="not IsStepComplete(0xE0007023CA4DE6C9, 2)">
-	<UseObject QuestId="0xE0007023CA4DE6C9" StepId="2" Name="Mounted Cannon" Radius="200" WaitTime="3000" >
+	<UseObject QuestId="0xE0007023CA4DE6C9" StepId="2" ObjectName="Mounted Cannon" Radius="200" WaitTime="3000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="126.9143,13.98716,118.4199" />
 			<Hotspot Name="My Location" XYZ="130.6427,13.95962,116.2096" />
@@ -1220,22 +1220,22 @@
 		
 <!-- The Missing Agent -->
 <If Condition="not IsStepComplete(0xE000BB5C67376E8F, 2)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="2" WaitTime="3000" XYZ="148.5644,12.06034,89.53433" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="2" WaitTime="3000" XYZ="148.5644,12.06034,89.53433" />
 </If>
 		
 <!-- The Missing Agent -->
 <If Condition="not IsStepComplete(0xE000BB5C67376E8F, 1)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="1" WaitTime="3000" XYZ="148.4746,12.06034,85.8231" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="1" WaitTime="3000" XYZ="148.4746,12.06034,85.8231" />
 </If>
 		
 <!-- The Missing Agent -->
 <If Condition="not IsStepComplete(0xE000BB5C67376E8F, 0)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="0" WaitTime="3000" XYZ="146.2455,12.06034,81.62409" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000BB5C67376E8F" StepId="0" WaitTime="3000" XYZ="146.2455,12.06034,81.62409" />
 </If>
 		
 <!-- The Siege of Balmorran Arms -->
 <If Condition="not IsTaskComplete(0xE0005DCACE239D7A, 2, 1)">
-	<UseObject QuestId="0xE0005DCACE239D7A" StepId="2" TaskId="1" Name="Powered Down Droids" Radius="200" WaitTime="2000" >
+	<UseObject QuestId="0xE0005DCACE239D7A" StepId="2" TaskId="1" ObjectName="Powered Down Droids" Radius="200" WaitTime="2000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="125.5953,10.43651,69.08067" />
 			<Hotspot Name="My Location" XYZ="128.0928,10.5131,66.50426" />
@@ -1249,7 +1249,7 @@
 
 <!-- The Siege of Balmorran Arms -->
 <If Condition="not IsTaskComplete(0xE0005DCACE239D7A, 2, 0)">
-	<UseObject QuestId="0xE0005DCACE239D7A" StepId="2" TaskId="0" Name="Internal Sensors" Radius="200" WaitTime="2500" >
+	<UseObject QuestId="0xE0005DCACE239D7A" StepId="2" TaskId="0" ObjectName="Internal Sensors" Radius="200" WaitTime="2500" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="125.5953,10.43651,69.08067" />
 			<Hotspot Name="My Location" XYZ="128.0928,10.5131,66.50426" />
@@ -1263,17 +1263,17 @@
 
 <!-- Breaking the Resistance -->
 <If Condition="not IsStepComplete(0xE0001E7C002236E6, 2)">
-	<UseObject Name="Main Generator" QuestId="0xE0001E7C002236E6" StepId="2" WaitTime="3000" XYZ="137.5936,10.42445,64.08906" />
+	<UseObject ObjectName="Main Generator" QuestId="0xE0001E7C002236E6" StepId="2" WaitTime="3000" XYZ="137.5936,10.42445,64.08906" />
 </If>
 
 <!-- Breaking the Resistance -->
 <If Condition="not IsTaskComplete(0xE0001E7C002236E6, 3, 0)">
-	<UseObject Name="Primary Security Hub" QuestId="0xE0001E7C002236E6" StepId="3" TaskId="0" WaitTime="2000" XYZ="140.7878,11.43968,51.59555" />
+	<UseObject ObjectName="Primary Security Hub" QuestId="0xE0001E7C002236E6" StepId="3" TaskId="0" WaitTime="2000" XYZ="140.7878,11.43968,51.59555" />
 </If>
 		
 <!-- Breaking the Resistance -->
 <If Condition="not IsTaskComplete(0xE0001E7C002236E6, 3, 1)">
-	<UseObject Name="Secondary Security Hub" QuestId="0xE0001E7C002236E6" StepId="3" TaskId="1" WaitTime="2000" XYZ="144.0587,11.43968,40.50714" />
+	<UseObject ObjectName="Secondary Security Hub" QuestId="0xE0001E7C002236E6" StepId="3" TaskId="1" WaitTime="2000" XYZ="144.0587,11.43968,40.50714" />
 </If>
 		
 <!-- Breaking the Resistance -->
@@ -1286,13 +1286,13 @@
 		
 <!-- The Siege of Balmorran Arms -->
 <If Condition="not IsStepComplete(0xE0005DCACE239D7A, 3)">
-	<UseObject QuestId="0xE0005DCACE239D7A" StepId="3" Name="Barricade Controls" WaitTime="5000" XYZ="154.3936,13.44988,31.96653" />
+	<UseObject QuestId="0xE0005DCACE239D7A" StepId="3" ObjectName="Barricade Controls" WaitTime="5000" XYZ="154.3936,13.44988,31.96653" />
 	<WaitTimer WaitTime="5000" />
 </If>
 		
 <!-- The Siege of Balmorran Arms -->
 <If Condition="not IsStepComplete(0xE0005DCACE239D7A, 5)">
-	<UseObject QuestId="0xE0005DCACE239D7A" StepId="5" Name="Barricade Controls" WaitTime="5000" XYZ="154.3936,13.44988,31.96653" />
+	<UseObject QuestId="0xE0005DCACE239D7A" StepId="5" ObjectName="Barricade Controls" WaitTime="5000" XYZ="154.3936,13.44988,31.96653" />
 </If>
 		
 <!-- The Siege of Balmorran Arms -->
@@ -1314,7 +1314,7 @@
 		
 <!-- Repelling Invasion -->
 <If Condition="not IsTaskComplete(0xE000615560B84386, 2, 0)">
-	<UseObject QuestId="0xE000615560B84386" StepId="2" TaskId="0" Name="Guidance Systems" Radius="200" WaitTime="4000" >
+	<UseObject QuestId="0xE000615560B84386" StepId="2" TaskId="0" ObjectName="Guidance Systems" Radius="200" WaitTime="4000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="153.2767,15.49112,22.42876" />
 			<Hotspot Name="My Location" XYZ="154.7793,15.49144,22.01872" />
@@ -1328,17 +1328,17 @@
 		
 <!-- Repelling Invasion -->
 <If Condition="not IsTaskComplete(0xE000615560B84386, 2, 1)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="1" WaitTime="3000" XYZ="145.7201,17.30444,14.75346" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="1" WaitTime="3000" XYZ="145.7201,17.30444,14.75346" />
 </If>
 		
 <!-- Repelling Invasion -->
 <If Condition="not IsTaskComplete(0xE000615560B84386, 2, 2)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="2" WaitTime="3000" XYZ="161.4911,17.24824,27.63279" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="2" WaitTime="3000" XYZ="161.4911,17.24824,27.63279" />
 </If>
 		
 <!-- Repelling Invasion -->
 <If Condition="not IsTaskComplete(0xE000615560B84386, 2, 3)">
-	<UseObject Name="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="3" WaitTime="3000" XYZ="174.6242,17.11174,4.64517" />
+	<UseObject ObjectName="Exhaust Vent" QuestId="0xE000615560B84386" StepId="2" TaskId="3" WaitTime="3000" XYZ="174.6242,17.11174,4.64517" />
 </If>
 		
 <!-- Repelling Invasion -->
@@ -1376,7 +1376,7 @@
 			
 	<!-- Into the Pit -->
 	<If Condition="not IsBranchStepComplete(0xE0002FE18F814730, 7, 3)">
-		<UseItem QuestId="0xE0002FE18F814730" BranchId="7" StepId="3" Name="Colicoid Serum" WaitTime="2000" XYZ="123.4123,19.35775,7.093591" />
+		<UseItem QuestId="0xE0002FE18F814730" BranchId="7" StepId="3" ItemName="Colicoid Serum" WaitTime="2000" XYZ="123.4123,19.35775,7.093591" />
 	</If>
 			
 	<!-- Into the Pit -->
@@ -1524,7 +1524,7 @@
 <!-- Balmorra: Bonus Series -->
 <If Condition="not IsStepComplete(0xE00029E61EADE4B5, 2)">
 	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00029E61EADE4B5" StepId="2" Name="Remote Markaran Outpost" WaitTime="3000" XYZ="-114.6419,14.49679,96.50491" />
+	<UseObject QuestId="0xE00029E61EADE4B5" StepId="2" ObjectName="Remote Markaran Outpost" WaitTime="3000" XYZ="-114.6419,14.49679,96.50491" />
 			
 	<!-- Taxi -->
 	<TalkTo Name="Remote Markaran Outpost Skyhopper" WaitTime="1000" XYZ="-115.8359,14.50528,96.3506" />
@@ -1569,12 +1569,12 @@
 		[10:11:12.772 D] Room: hub_5_resistance_interior_room_01 -->
 		
 <If Condition="not IsStepComplete(0xE000E2352105255E, 2)">
-	<UseObject QuestId="0xE000E2352105255E" StepId="2" Name="Improvised Thermite Bomb" WaitTime="4000" XYZ="-130.5132,10.18723,91.25366" Radius="50" />
+	<UseObject QuestId="0xE000E2352105255E" StepId="2" ObjectName="Improvised Thermite Bomb" WaitTime="4000" XYZ="-130.5132,10.18723,91.25366" Radius="50" />
 </If>
 		
 <!-- Boom Town -->
 <If Condition="not IsTaskComplete(0xE000E2352105255E, 3, 0)">
-	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="0" Name="Ammunition Crates" Radius="200" WaitTime="3000" >
+	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="0" ObjectName="Ammunition Crates" Radius="200" WaitTime="3000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="-124.7477,9.942477,95.44182" />
 			<Hotspot Name="My Location" XYZ="-130.7379,8.613251,97.04224" />
@@ -1597,7 +1597,7 @@
 
 <!-- Boom Town -->
 <If Condition="not IsTaskComplete(0xE000E2352105255E, 3, 1)">
-	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="1" Name="Turret" Radius="200" WaitTime="3000" >
+	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="1" ObjectName="Turret" Radius="200" WaitTime="3000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="-124.7477,9.942477,95.44182" />
 			<Hotspot Name="My Location" XYZ="-130.7379,8.613251,97.04224" />
@@ -1620,7 +1620,7 @@
 
 <!-- Boom Town -->
 <If Condition="not IsTaskComplete(0xE000E2352105255E, 3, 2)">
-	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="2" Name="Fuel Barrels" Radius="200" WaitTime="3000" >
+	<UseObject QuestId="0xE000E2352105255E" StepId="3" TaskId="2" ObjectName="Fuel Barrels" Radius="200" WaitTime="3000" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="-124.7477,9.942477,95.44182" />
 			<Hotspot Name="My Location" XYZ="-130.7379,8.613251,97.04224" />
@@ -1643,27 +1643,27 @@
 		
 <!-- Flight Plan -->
 <If Condition="not IsTaskComplete(0xE0000C7877ACE375, 2, 0)">
-	<UseObject Name="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="0" WaitTime="3000" XYZ="-131.5933,10.64249,119.8432" />
+	<UseObject ObjectName="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="0" WaitTime="3000" XYZ="-131.5933,10.64249,119.8432" />
 </If>
 		
 <!-- Flight Plan -->
 <If Condition="not IsTaskComplete(0xE0000C7877ACE375, 2, 1)">
-	<UseObject Name="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="1" WaitTime="3000" XYZ="-158.9308,11.13709,123.3872" />
+	<UseObject ObjectName="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="1" WaitTime="3000" XYZ="-158.9308,11.13709,123.3872" />
 </If>
 		
 <!-- Flight Plan -->
 <If Condition="not IsTaskComplete(0xE0000C7877ACE375, 2, 2)">
-	<UseObject Name="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="2" WaitTime="3000" XYZ="-137.4985,10.77369,89.83725" />
+	<UseObject ObjectName="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="2" WaitTime="3000" XYZ="-137.4985,10.77369,89.83725" />
 </If>
 
 <!-- Flight Plan -->
 <If Condition="not IsTaskComplete(0xE0000C7877ACE375, 2, 3)">
-	<UseObject Name="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="3" WaitTime="3000" XYZ="-164.4193,10.89369,102.5631" />
+	<UseObject ObjectName="Turret Control Console" QuestId="0xE0000C7877ACE375" StepId="2" TaskId="3" WaitTime="3000" XYZ="-164.4193,10.89369,102.5631" />
 </If>
 		
 <!-- Flight Plan -->
 <If Condition="not IsStepComplete(0xE0000C7877ACE375, 4)">
-	<UseObject Name="Shuttle Controls" QuestId="0xE0000C7877ACE375" StepId="4" WaitTime="3000" XYZ="-163.0358,8.867454,97.39344" />
+	<UseObject ObjectName="Shuttle Controls" QuestId="0xE0000C7877ACE375" StepId="4" WaitTime="3000" XYZ="-163.0358,8.867454,97.39344" />
 </If>
 		
 <!-- Take Out the Rebel Rabble -->
@@ -1683,7 +1683,7 @@
 	<TalkTo QuestId="0xE00029E61EADE4B5" Name="Vanguard Outpost Skyhopper" WaitTime="1000" XYZ="-155.0228,14.10858,128.7553" />
 			
 	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00029E61EADE4B5" StepId="3" TaskId="6" Name="Vanguard Outpost" WaitTime="3000" XYZ="-156.0894,14.12632,130.0515" />
+	<UseObject QuestId="0xE00029E61EADE4B5" StepId="3" TaskId="6" ObjectName="Vanguard Outpost" WaitTime="3000" XYZ="-156.0894,14.12632,130.0515" />
 			
 	<!-- Balmorra: Bonus Series -->
 	<TurnInQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" TurninName="Captain Renzfeil Neuwt" XYZ="-155.0889,14.36972,133.5063" />
@@ -1729,16 +1729,16 @@
 		
 <!-- Salting the Fields -->
 <If Condition="not IsStepComplete(0xE000A87997FBCE07, 2)">
-	<UseObject QuestId="0xE000A87997FBCE07" StepId="2" Name="Imperial Corpse" WaitTime="3000" XYZ="-163.4224,13.19779,166.1703" />
+	<UseObject QuestId="0xE000A87997FBCE07" StepId="2" ObjectName="Imperial Corpse" WaitTime="3000" XYZ="-163.4224,13.19779,166.1703" />
 </If>
 		
 <!-- Salting the Fields -->
 <If Condition="not IsStepComplete(0xE000A87997FBCE07, 3)">
-	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" Name="RK-9 Soil Devestator" WaitTime="6000" XYZ="-158.7726,13.36294,166.3471" />
-	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" Name="RK-9 Soil Devestator" WaitTime="6000" XYZ="-158.386,13.24671,168.5451" />
-	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" Name="RK-9 Soil Devestator" WaitTime="6000" XYZ="-154.4904,13.33987,169.6423" />
-	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" Name="RK-9 Soil Devestator" WaitTime="6000" XYZ="-148.5924,13.30038,172.6822" />
-	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" Name="RK-9 Soil Devestator" WaitTime="6000" XYZ="-135.4102,13.37922,170.0092" />
+	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" ItemName="RK-9 Soil Devestator" WaitTime="6000" XYZ="-158.7726,13.36294,166.3471" />
+	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" ItemName="RK-9 Soil Devestator" WaitTime="6000" XYZ="-158.386,13.24671,168.5451" />
+	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" ItemName="RK-9 Soil Devestator" WaitTime="6000" XYZ="-154.4904,13.33987,169.6423" />
+	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" ItemName="RK-9 Soil Devestator" WaitTime="6000" XYZ="-148.5924,13.30038,172.6822" />
+	<UseItem QuestId="0xE000A87997FBCE07" StepId="3" ItemName="RK-9 Soil Devestator" WaitTime="6000" XYZ="-135.4102,13.37922,170.0092" />
 </If>
 		
 <!-- Hidden Crimes -->
@@ -1809,17 +1809,17 @@
 		
 <!-- Escape and Evade -->
 <If Condition="not IsStepComplete(0xE0009966107D487A, 2)">
-	<UseObject QuestId="0xE0009966107D487A" StepId="2" Name="Decryption Computer" WaitTime="3500" XYZ="-70.74784,13.32179,25.41017" />
+	<UseObject QuestId="0xE0009966107D487A" StepId="2" ObjectName="Decryption Computer" WaitTime="3500" XYZ="-70.74784,13.32179,25.41017" />
 </If>
 		
 <!-- The Guns Of Traken-4 -->
 <If Condition="not IsTaskComplete(0xE000CB2018BCB691, 2, 1)">
-	<UseObject QuestId="0xE0009966107D487A" Name="Turret Theta Power Coupling" WaitTime="6000" XYZ="-71.95627,13.48256,21.11245" />
+	<UseObject QuestId="0xE0009966107D487A" ObjectName="Turret Theta Power Coupling" WaitTime="6000" XYZ="-71.95627,13.48256,21.11245" />
 </If>
 		
 <!-- The Guns Of Traken-4 -->
 <If Condition="not IsTaskComplete(0xE000CB2018BCB691, 2, 0)">
-	<UseObject QuestId="0xE0009966107D487A" Name="Turret Alpha Power Coupling" WaitTime="6000" XYZ="-59.6349,13.48843,39.95142" />
+	<UseObject QuestId="0xE0009966107D487A" ObjectName="Turret Alpha Power Coupling" WaitTime="6000" XYZ="-59.6349,13.48843,39.95142" />
 </If>
 		
 <!-- Biohazard -->
@@ -1829,7 +1829,7 @@
 		
 <!-- Biohazard -->
 <If Condition="not IsStepComplete(0xE000C014A6AF06EB, 3)">
-	<UseObject QuestId="0xE000C014A6AF06EB" StepId="3" Name="Ship's Datalog" WaitTime="3000" XYZ="-98.12247,13.67171,36.52943" />
+	<UseObject QuestId="0xE000C014A6AF06EB" StepId="3" ObjectName="Ship's Datalog" WaitTime="3000" XYZ="-98.12247,13.67171,36.52943" />
 </If>
 		
 <!-- Clean Up the Wastes -->
@@ -1840,12 +1840,12 @@
 
 <!-- Biohazard -->
 <If Condition="not IsStepComplete(0xE000C014A6AF06EB, 4)">
-	<UseObject QuestId="0xE000C014A6AF06EB" StepId="4" Name="Datapad" WaitTime="4000" XYZ="-89.50844,12.96381,28.45546" />
+	<UseObject QuestId="0xE000C014A6AF06EB" StepId="4" ObjectName="Datapad" WaitTime="4000" XYZ="-89.50844,12.96381,28.45546" />
 </If>
 		
 <!-- Biohazard -->
 <While Condition="not IsTaskComplete(0xE000C014A6AF06EB, 5)">
-	<UseObject QuestId="0xE000C014A6AF06EB" Name="Space Debris" Radius="50" WaitTime="3500" >
+	<UseObject QuestId="0xE000C014A6AF06EB" ObjectName="Space Debris" Radius="50" WaitTime="3500" >
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="-89.13674,12.95616,27.78706" />
 			<Hotspot Name="My Location" XYZ="-96.09571,12.97432,26.52729" />
@@ -1903,7 +1903,7 @@
 		
 <If Condition="not IsStepComplete(0xE00081033ABE002B, 3)">
 	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00081033ABE002B" StepId="3" Name="Bugtown Outpost" WaitTime="3000" XYZ="26.85787,-0.05343744,-8.183394" />
+	<UseObject QuestId="0xE00081033ABE002B" StepId="3" ObjectName="Bugtown Outpost" WaitTime="3000" XYZ="26.85787,-0.05343744,-8.183394" />
 </If>
 		
 <!-- Colicoid Expulsion -->
@@ -1917,7 +1917,7 @@
 		
 <!-- Colicoid Feast -->
 <While Condition="not IsTaskComplete(0xE0005D3BD4CFC5CB, 2)">
-	<UseObject QuestId="0xE0005D3BD4CFC5CB" Name="Feasting Mound" Radius="200" WaitTime="4500">
+	<UseObject QuestId="0xE0005D3BD4CFC5CB" ObjectName="Feasting Mound" Radius="200" WaitTime="4500">
 		<Hotspots>
 			<Hotspot Name="My Location" XYZ="7.919285,-1.024676,-32.6436" />
 			<Hotspot Name="My Location" XYZ="16.91591,0.2084774,-22.05313" />
@@ -1937,15 +1937,15 @@
 <Grind GrindRef="Clean Up Bugtown - Colicoid Mutilator" While="not IsTaskComplete(0xE00006F01721E1EE, 2, 1)" />
 		
 <If Condition="not IsTaskComplete(0xE00096FE13A3C207, 2, 0)">
-	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="0" Item="Target Marker" WaitTime="500" XYZ="-10.96269,0.8917601,-16.33712" />
+	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="0" ItemName="Target Marker" WaitTime="500" XYZ="-10.96269,0.8917601,-16.33712" />
 </If>
 		
 <If Condition="not IsTaskComplete(0xE00096FE13A3C207, 2, 2)">
-	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="2" Item="Target Marker" WaitTime="500" XYZ="-17.8335,0.6248986,-41.67209" />
+	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="2" ItemName="Target Marker" WaitTime="500" XYZ="-17.8335,0.6248986,-41.67209" />
 </If>
 		
 <If Condition="not IsTaskComplete(0xE00096FE13A3C207, 2, 1)">
-	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="1" Item="Target Marker" WaitTime="500" XYZ="-14.35454,0.4961288,-45.35879" />
+	<UseItem QuestId="0xE00096FE13A3C207" StepId="2" TaskId="1" ItemName="Target Marker" WaitTime="500" XYZ="-14.35454,0.4961288,-45.35879" />
 </If>
 		
 <!-- Teleport To Bugtown Outpost -->

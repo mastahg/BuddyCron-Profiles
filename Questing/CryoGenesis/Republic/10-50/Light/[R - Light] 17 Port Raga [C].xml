@@ -82,19 +82,19 @@
 			</If>	
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 2)))">	
 				<MoveTo QuestId="0xE00069E92FF50D39" Name="Examine the Bomb" XYZ="2.866979,0.003699961,-9.626103" />
-				<UseObject QuestId="0xE00069E92FF50D39" Name="Bomb - Inflated Deadman Switch" BranchId="2" StepId="2" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="2.866979,0.003699961,-9.626103" />
+				<UseObject QuestId="0xE00069E92FF50D39" ObjectName="Bomb - Inflated Deadman Switch" BranchId="2" StepId="2" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="2.866979,0.003699961,-9.626103" />
 			</If>
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 3)))">	
-				<UseObject QuestId="0xE00069E92FF50D39" Name="Bulkhead Door Control Panel" BranchId="2" StepId="3" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="5.415035,0.009983987,-6.643185" />
+				<UseObject QuestId="0xE00069E92FF50D39" ObjectName="Bulkhead Door Control Panel" BranchId="2" StepId="3" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="5.415035,0.009983987,-6.643185" />
 			</If>
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 4)))">	
-				<UseObject QuestId="0xE00069E92FF50D39" Name="Emergency Atmosphere Vacuum" BranchId="2" StepId="4" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="7.205277,0.008163956,-7.865962" />
+				<UseObject QuestId="0xE00069E92FF50D39" ObjectName="Emergency Atmosphere Vacuum" BranchId="2" StepId="4" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="7.205277,0.008163956,-7.865962" />
 			</If>	
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 5)))">	
-				<UseObject QuestId="0xE00069E92FF50D39" Name="Bomb - Remote Uplink" BranchId="2" StepId="5" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="3.175536,0.003700019,-9.80004" />
+				<UseObject QuestId="0xE00069E92FF50D39" ObjectName="Bomb - Remote Uplink" BranchId="2" StepId="5" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="3.175536,0.003700019,-9.80004" />
 			</If>		
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 6)))">	
-				<UseObject QuestId="0xE00069E92FF50D39" Name="Bomb - Pressure Plate Sensor" BranchId="2" StepId="6" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="3.218981,0.003699993,-9.520416" />
+				<UseObject QuestId="0xE00069E92FF50D39" ObjectName="Bomb - Pressure Plate Sensor" BranchId="2" StepId="6" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="true" XYZ="3.218981,0.003699993,-9.520416" />
 			</If>
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 2, 7)))">	
 				<TalkTo QuestId="0xE00069E92FF50D39" Name="Senator Krasul" XYZ="3.1178,0.0037,-9.6187" />

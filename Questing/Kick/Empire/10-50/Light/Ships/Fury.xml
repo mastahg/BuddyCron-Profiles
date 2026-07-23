@@ -13,7 +13,7 @@
 		
 		<If Condition="not ??????????">
 			<!-- Exit ship -->
-			<UseObject QuestId="??????????" Name="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
+			<UseObject QuestId="??????????" ObjectName="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
 		</If>
 		
 		<!-- Into the Pit -->
@@ -39,7 +39,7 @@
 		<!-- The Prophet Arrives -->
 		<If Condition="not IsStepComplete(0xE0002CB06A3D9FAE, 2)">
 			<!-- Exit ship -->
-			<UseObject QuestId="0xE0002CB06A3D9FAE" StepId="2" Name="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
+			<UseObject QuestId="0xE0002CB06A3D9FAE" StepId="2" ObjectName="Ship Exit" WaitTime="3500" XYZ="0.02821727,0.798188,4.449782" />
 		</If>
 		
 		

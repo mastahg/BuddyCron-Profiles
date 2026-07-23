@@ -32,6 +32,13 @@ line endings are preserved, and no element is added, removed or reordered.
   rewritten, and each file keeps its own style, so tab-indented profiles stay on tabs. Comment
   interiors and the continuation lines of a multi-line tag keep the layout the author gave them.
 
+- **Object and item names renamed to the spelling the engine reads.** `UseObject` takes the
+  object's name from `ObjectName` (or `OnObject`) and `UseItem` takes the item's from `ItemName`;
+  neither reads the older `Name`, and `UseItem` no longer reads `Item` either. Left as they were,
+  those tags named nothing and matched nothing. 4,139 `UseObject Name` → `ObjectName`, plus 245
+  `UseItem Item` and 52 `UseItem Name` → `ItemName`. `UseItem`'s separate `OnObject` — what the
+  item is used *on* — is untouched.
+
 - **Quest-guard `<While>` blocks became `<If>`,** and their `UseObject`/`UseItem` children were
   given the matching `Step`/`Branch`/`Task`. A quest guard asks whether a step is still
   outstanding, which is a gate rather than a loop — and most of these profiles already wrote it

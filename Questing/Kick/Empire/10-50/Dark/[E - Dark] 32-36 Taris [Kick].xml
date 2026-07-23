@@ -999,10 +999,10 @@
 		
 		<!-- Inquisitor - The Padawan and Turnin -->
 		<If Condition="((HasQuest(0xE0000C952E5E884A)) and (not IsQuestComplete(0xE0000C952E5E884A)))">
-			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="5" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Databank" XYZ="9.300844,-23.38447,95.29478" />
-			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="6" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Databank" XYZ="-29.95788,-24.5293,109.8744" />
-			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="7" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Databank" XYZ="-84.29286,-24.75858,117.8357" />
-			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="8" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Databank" XYZ="-96.93199,-24.27401,117.019" />
+			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="5" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Databank" XYZ="9.300844,-23.38447,95.29478" />
+			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="6" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Databank" XYZ="-29.95788,-24.5293,109.8744" />
+			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="7" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Databank" XYZ="-84.29286,-24.75858,117.8357" />
+			<UseObject QuestId="0xE0000C952E5E884A" BranchId="1" StepId="8" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Databank" XYZ="-96.93199,-24.27401,117.019" />
 			<If Condition="((HasQuest(0xE0000C952E5E884A)) and (not IsBranchStepComplete(0xE0000C952E5E884A, 1, 9)))">
 				<AnswerHolocomCall QuestName="The Padawan" QuestId="0xE0000C952E5E884A" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1013,9 +1013,9 @@
 		
 		<!-- Barrage -->
 		<If Condition="((HasQuest(0xE00097EFF57035D7)) and (not IsQuestComplete(0xE00097EFF57035D7)))">
-			<UseObject Name="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="0" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-31.58686,-23.54469,88.7682" />
-			<UseObject Name="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="1" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-42.04436,-22.59499,91.63347" />
-			<UseObject Name="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="2" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-54.01978,-23.57765,90.98615" />
+			<UseObject ObjectName="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="0" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-31.58686,-23.54469,88.7682" />
+			<UseObject ObjectName="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="1" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-42.04436,-22.59499,91.63347" />
+			<UseObject ObjectName="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="2" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-54.01978,-23.57765,90.98615" />
 			<!-- Artillery Teams - Defeat Republic Artillery Forces -->
 			<If Condition="(not IsQuestComplete(0xE0004D5DCC5F1E0C))"> <!-- is this qid wrong? -->
 				<Grind GrindRef="Artillery Teams - Defeat Republic Artillery Forces" While="(not IsQuestComplete(0xE0004D5DCC5F1E0C))" />
@@ -1034,7 +1034,7 @@
 		<If Condition="((HasQuest(0xE000071270A2FE4A)) and (not IsQuestComplete(0xE000071270A2FE4A)))">
 			<Grind GrindRef="Come Out, Come Out - Defeat Tarisian Militia Forces" While="not IsStepComplete(0xE000071270A2FE4A, 2)" />
 			<Grind GrindRef="Come Out, Come Out - Defeat Tarisian Militia Watch Commander" While="not IsStepComplete(0xE000071270A2FE4A, 3)" />
-			<UseObject Name="Distress Beacon" QuestId="0xE000071270A2FE4A" BranchId="1" StepId="4" WaitTime="4" XYZ="-52.76336,-23.56352,102.8849" />
+			<UseObject ObjectName="Distress Beacon" QuestId="0xE000071270A2FE4A" BranchId="1" StepId="4" WaitTime="4" XYZ="-52.76336,-23.56352,102.8849" />
 		</If>
 		
 		<!-- Agent - Chaos on a Broken World and Turnin -->
@@ -1078,7 +1078,7 @@
 		
 		<!-- Tainted Water -->
 		<If Condition="((HasQuest(0xE000269D4534988B)) and (not IsQuestComplete(0xE000269D4534988B)))">
-			<UseObject QuestId="0xE000269D4534988B" Name="Water Filtration Equipment" BranchId="1" StepId="2" TaskId="0" Radius="200" WaitTime="4" >
+			<UseObject QuestId="0xE000269D4534988B" ObjectName="Water Filtration Equipment" BranchId="1" StepId="2" TaskId="0" Radius="200" WaitTime="4" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="44.62545,-22.18831,75.87648" />
 					<Hotspot Name="My Location" XYZ="46.92102,-22.01874,64.80423" />
@@ -1141,8 +1141,8 @@
 			<If Condition="HasQuest(0xE000E743C2981279) and not IsBranchStepComplete(0xE000E743C2981279, 1, 2)">
 				<MoveTo QuestId="0xE000E743C2981279" XYZ="7.007733,-19.66691,17.73848" />
 			</If>
-			<UseObject Name="Blast Door Controls" QuestId="0xE000E743C2981279" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="4.98433,-19.67085,20.69036" />
-			<UseObject Name="Force Field Control Panel" QuestId="0xE000E743C2981279" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="2" XYZ="8.210474,-19.67085,16.07115" />
+			<UseObject ObjectName="Blast Door Controls" QuestId="0xE000E743C2981279" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="4.98433,-19.67085,20.69036" />
+			<UseObject ObjectName="Force Field Control Panel" QuestId="0xE000E743C2981279" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="2" XYZ="8.210474,-19.67085,16.07115" />
 			<Grind GrindRef="Despair" While="not IsBranchStepComplete(0xE000E743C2981279, 1, 5)" />
 			<If Condition="HasQuest(0xE000E743C2981279) and not IsBranchStepComplete(0xE000E743C2981279, 1, 6)" >
 				<TalkTo QuestId="0xE000E743C2981279" Name="Kom Orda" XYZ="7.010581,-19.6676,13.65588" />
@@ -1161,7 +1161,7 @@
 			<If Condition="HasQuest(0xE0004AB030885F4C) and not IsBranchStepComplete(0xE0004AB030885F4C, 1, 2)" >
 				<TalkTo QuestId="0xE0004AB030885F4C" Name="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
 			</If>
-			<UseObject QuestId="0xE0004AB030885F4C" Name="Chemical Cask" BranchId="1" StepId="3" Radius="200" WaitTime="2" >
+			<UseObject QuestId="0xE0004AB030885F4C" ObjectName="Chemical Cask" BranchId="1" StepId="3" Radius="200" WaitTime="2" >
 				<Hotspots>
 					<Hotspot Name="Republic Guerrilla" XYZ="55.6963,-21.56248,32.7182" />
 					<Hotspot Name="Republic Guerrilla" XYZ="54.9994,-19.08969,7.7595" />
@@ -1174,16 +1174,16 @@
 		<!-- Agent - The Cult of Ki Sazen -->
 		<If Condition="((HasQuest(0xE0002E56F56839FB)) and (not IsQuestComplete(0xE0002E56F56839FB)))">
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 2)"> <!-- 1st -->
-				<UseItem Item="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="2" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="26.91147,-16.04515,-1.339007" />
+				<UseItem ItemName="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="2" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="26.91147,-16.04515,-1.339007" />
 			</If>
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 3)">
 				<AnswerHolocomCall QuestName="The Cult of Ki Sazen" QuestId="0xE0002E56F56839FB" />
 			</If>
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 4)"> <!-- 2nd -->
-				<UseItem Item="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="4" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="48.66354,-20.8635,34.33049" />
+				<UseItem ItemName="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="4" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="48.66354,-20.8635,34.33049" />
 			</If>
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 5)"> <!-- 3rd -->
-				<UseItem Item="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="5" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="60.4289,-18.53197,12.08891" />
+				<UseItem ItemName="Triangulation Device" QuestId="0xE0002E56F56839FB" BranchId="1" StepId="5" WaitTime="4" Range="3" InCombat="False" Radius="5" XYZ="60.4289,-18.53197,12.08891" />
 			</If>
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 6)">
 				<AnswerHolocomCall QuestName="The Cult of Ki Sazen" QuestId="0xE0002E56F56839FB" />
@@ -1232,7 +1232,7 @@
 		
 		<!-- Inquisitor - Laying the Trap -->
 		<If Condition="((HasQuest(0xE000BA656636FDB4)) and (not IsQuestComplete(0xE000BA656636FDB4)))">
-			<UseObject QuestId="0xE000BA656636FDB4" BranchId="1" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Sith Holocron" XYZ="77.05791,-17.46217,-35.05718" />
+			<UseObject QuestId="0xE000BA656636FDB4" BranchId="1" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Sith Holocron" XYZ="77.05791,-17.46217,-35.05718" />
 			<If Condition="((HasQuest(0xE000BA656636FDB4)) and (not IsBranchStepComplete(0xE000BA656636FDB4, 1, 3)))">
 				<AnswerHolocomCall QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1316,7 +1316,7 @@
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 2)">
 				<MoveTo QuestId="0xE000B2EF0F026708" XYZ="108.1851,-17.36107,111.5085" />
 			</If>
-			<UseObject Name="Security Console" QuestId="0xE000B2EF0F026708" BranchId="1" StepId="3" WaitTime="3" XYZ="104.3055,-18.7704,106.6638" />
+			<UseObject ObjectName="Security Console" QuestId="0xE000B2EF0F026708" BranchId="1" StepId="3" WaitTime="3" XYZ="104.3055,-18.7704,106.6638" />
 			<Grind GrindRef="Culling the Nekghouls - Destroy the Security Droids" While="not IsBranchStepComplete(0xE000B2EF0F026708, 1, 4)" />
 			<!-- Deadly Abominations - Defeat Nekghouls -->
 			<If Condition="(not IsQuestComplete(0xE00001070A1D61D4))">
@@ -1369,17 +1369,17 @@
 		
 		<!-- Agent - Hunter and Prey -->
 		<If Condition="((HasQuest(0xE0007BD9A808FE18)) and (not IsQuestComplete(0xE0007BD9A808FE18)))">
-			<UseObject Name="South Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="1" WaitTime="7" XYZ="-26.5888,-14.42034,-4.801678" />
+			<UseObject ObjectName="South Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="1" WaitTime="7" XYZ="-26.5888,-14.42034,-4.801678" />
 		</If>
 	
 		<!-- Agent - The Chronicles - Read the Fourth Chronicle -->
 		<If Condition="((HasQuest(0xE000CAA64F472748)) and (not IsQuestComplete(0xE000CAA64F472748)))">
-			<UseObject QuestId="0xE000CAA64F472748" Name="Chronicle" BranchId="1" StepId="2" TaskId="2" IgnoreQuestRelation="True" IgnoreLOS="True" XYZ="-23.24849,-14.50493,-7.89804" />
+			<UseObject QuestId="0xE000CAA64F472748" ObjectName="Chronicle" BranchId="1" StepId="2" TaskId="2" IgnoreQuestRelation="True" IgnoreLOS="True" XYZ="-23.24849,-14.50493,-7.89804" />
 		</If>
 		
 		<!-- Friends of the Republic -->
 		<If Condition="((HasQuest(0xE0002EAC805ADA1F)) and (not IsQuestComplete(0xE0002EAC805ADA1F)))">
-			<UseObject QuestId="0xE0002EAC805ADA1F" Name="Republic Weapon Storage" BranchId="1" StepId="3" Radius="200" WaitTime="2" >
+			<UseObject QuestId="0xE0002EAC805ADA1F" ObjectName="Republic Weapon Storage" BranchId="1" StepId="3" Radius="200" WaitTime="2" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-10.41204,-14.35907,-11.10238" />
 					<Hotspot Name="My Location" XYZ="1.679296,-14.70605,-17.76196" />
@@ -1408,12 +1408,12 @@
 		
 		<!-- Agent - Hunter and Prey -->
 		<If Condition="((HasQuest(0xE0007BD9A808FE18)) and (not IsQuestComplete(0xE0007BD9A808FE18)))">
-			<UseObject Name="East Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="0" WaitTime="7" XYZ="42.09311,-13.82475,-42.93115" />
+			<UseObject ObjectName="East Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="0" WaitTime="7" XYZ="42.09311,-13.82475,-42.93115" />
 		</If>
 
 		<!-- Agent - The Chronicles -->
 		<If Condition="((HasQuest(0xE000CAA64F472748)) and (not IsQuestComplete(0xE000CAA64F472748)))">
-			<UseObject Name="Chronicle" QuestId="0xE000CAA64F472748" BranchId="1" StepId="2" TaskId="0" IgnoreQuestRelation="True" IgnoreLOS="True" WaitTime="4" XYZ="44.40333,-13.88891,-42.95146" />
+			<UseObject ObjectName="Chronicle" QuestId="0xE000CAA64F472748" BranchId="1" StepId="2" TaskId="0" IgnoreQuestRelation="True" IgnoreLOS="True" WaitTime="4" XYZ="44.40333,-13.88891,-42.95146" />
 		</If>
 		
 		<!-- Inquisitor - Means of Persuasion -->
@@ -1450,7 +1450,7 @@
 		
 		<!-- Deadly Hospital -->
 		<If Condition="((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
-			<UseObject QuestId="0xE00072F4AA9B980E" Name="Kolto Tank" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
+			<UseObject QuestId="0xE00072F4AA9B980E" ObjectName="Kolto Tank" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-39.58758,-12.35555,-36.33255" />
 					<Hotspot Name="My Location" XYZ="-40.59416,-12.34878,-36.71347" />
@@ -1476,12 +1476,12 @@
 		
 		<!-- Agent - The Chronicles -->
 		<If Condition="((HasQuest(0xE000CAA64F472748)) and (not IsQuestComplete(0xE000CAA64F472748)))">
-			<UseObject Name="Chronicle" QuestId="0xE000CAA64F472748" BranchId="1" StepId="2" TaskId="1" IgnoreQuestRelation="True" IgnoreLOS="True" WaitTime="2" XYZ="-53.71435,-14.02303,-59.87668" />
+			<UseObject ObjectName="Chronicle" QuestId="0xE000CAA64F472748" BranchId="1" StepId="2" TaskId="1" IgnoreQuestRelation="True" IgnoreLOS="True" WaitTime="2" XYZ="-53.71435,-14.02303,-59.87668" />
 		</If>
 		
 		<!-- Agent - Hunter and Prey -->
 		<If Condition="((HasQuest(0xE0007BD9A808FE18)) and (not IsQuestComplete(0xE0007BD9A808FE18)))">
-			<UseObject Name="North Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="2" WaitTime="7" XYZ="-51.94987,-14.02654,-63.20689" />
+			<UseObject ObjectName="North Sensor Net" QuestId="0xE0007BD9A808FE18" BranchId="1" StepId="2" TaskId="2" WaitTime="7" XYZ="-51.94987,-14.02654,-63.20689" />
 			<If Condition="HasQuest(0xE0007BD9A808FE18) and not IsBranchStepComplete(0xE0007BD9A808FE18, 1, 3)">
 				<AnswerHolocomCall QuestName="Hunter and Prey" QuestId="0xE0007BD9A808FE18" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -1565,7 +1565,7 @@
 		
 		<!-- Agent - Thieves and Liars -->
 		<If Condition="((HasQuest(0xE000CC415FBDD34F)) and (not IsQuestComplete(0xE000CC415FBDD34F)))">
-			<UseObject Name="Jamming Station" QuestId="0xE000CC415FBDD34F" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="7" XYZ="-100.6765,-18.77019,87.15664" />
+			<UseObject ObjectName="Jamming Station" QuestId="0xE000CC415FBDD34F" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="7" XYZ="-100.6765,-18.77019,87.15664" />
 			<If Condition="HasQuest(0xE000CC415FBDD34F) and not IsBranchStepComplete(0xE000CC415FBDD34F, 1, 3)">
 				<AnswerHolocomCall QuestName="Thieves and Liars" QuestId="0xE000CC415FBDD34F" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1579,8 +1579,8 @@
 	
 		<!-- Interference -->
 		<If Condition="((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
-			<UseObject Name="Orbital Targeting Jammer" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="-195.4539,-16.58494,47.73259" />
-			<UseObject Name="Strike Beacon" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="-190.0794,-18.87259,52.99295" />
+			<UseObject ObjectName="Orbital Targeting Jammer" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="-195.4539,-16.58494,47.73259" />
+			<UseObject ObjectName="Strike Beacon" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="-190.0794,-18.87259,52.99295" />
 			<!-- Clearing the Jam -->
 			<If Condition="(not IsQuestComplete(0xE00067C0D83A1372))">
 				<Grind GrindRef="Clearing the Jam - Defeat Republic Forces" While="(not IsQuestComplete(0xE00067C0D83A1372))" />
@@ -1651,7 +1651,7 @@
 		
 		<!-- Lines of Communication -->
 		<If Condition="((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
-			<UseObject Name="Satellite Array" QuestId="0xE000F2E5D06C9D03" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-161.995,-18.71702,76.264" />
+			<UseObject ObjectName="Satellite Array" QuestId="0xE000F2E5D06C9D03" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-161.995,-18.71702,76.264" />
 			<!-- Com Silence -->
 			<If Condition="(not IsQuestComplete(0xE000E54D210C2423))">
 				<Grind GrindRef="Com Silence - Defeat Republic Communications Post" While="(not IsQuestComplete(0xE000E54D210C2423))" />
@@ -1666,8 +1666,8 @@
 			</If>
 			<!-- Stage 2 - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE000F71AB1CCD112))">
-				<UseObject Name="Republic Walker" QuestId="0xE000F71AB1CCD112" BranchId="1" StepId="4" TaskId="0" IgnoreLOS="True" WaitTime="4" XYZ="-182.7069,-19.88396,71.29176" />
-				<UseObject Name="Republic Shuttle" QuestId="0xE000F71AB1CCD112" BranchId="1" StepId="4" TaskId="1" IgnoreLOS="True" WaitTime="4" XYZ="-178.2989,-19.86616,67.9195" />
+				<UseObject ObjectName="Republic Walker" QuestId="0xE000F71AB1CCD112" BranchId="1" StepId="4" TaskId="0" IgnoreLOS="True" WaitTime="4" XYZ="-182.7069,-19.88396,71.29176" />
+				<UseObject ObjectName="Republic Shuttle" QuestId="0xE000F71AB1CCD112" BranchId="1" StepId="4" TaskId="1" IgnoreLOS="True" WaitTime="4" XYZ="-178.2989,-19.86616,67.9195" />
 			</If>
 			<!-- Stage 3 - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE00017C0CA051CFD))">
@@ -1675,13 +1675,13 @@
 			</If>
 			<!-- Final Stage - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE0002FCEE4708AF8))">
-				<UseObject Name="Republic Database" QuestId="0xE0002FCEE4708AF8" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="-194.3642,-16.5759,45.16115" />
+				<UseObject ObjectName="Republic Database" QuestId="0xE0002FCEE4708AF8" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="-194.3642,-16.5759,45.16115" />
 			</If>
 			<If Condition="HasQuest(0xE000E61C0D7415F1) and not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 2)" >
 				<MoveTo QuestId="1" XYZ="-212.358,-18.09778,60.19555" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<MoveTo QuestId="1" XYZ="-212.358,-18.09778,60.19555" />
-				<UseObject Name="Security Terminal" QuestId="0xE000E61C0D7415F1" BranchId="2" StepId="2" IgnoreLOS="True" IgnoreQuestRelation="True" UseRange="10" WaitTime="3" XYZ="-212.358,-18.09778,60.19555" />
+				<UseObject ObjectName="Security Terminal" QuestId="0xE000E61C0D7415F1" BranchId="2" StepId="2" IgnoreLOS="True" IgnoreQuestRelation="True" UseRange="10" WaitTime="3" XYZ="-212.358,-18.09778,60.19555" />
 			</If>
 			<If Condition="HasQuest(0xE000E61C0D7415F1) and not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 3)">
 				<MoveTo QuestId="0xE000E61C0D7415F1" XYZ="-210.0424,-19.599,50.32295" />
@@ -1758,7 +1758,7 @@
 		
 		<!-- Razing the Researchers -->
 		<If Condition="((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
-			<UseObject QuestId="0xE0004BD346FF4CA9" Name="Rakghoul Research Equipment" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="200" WaitTime="3" >
+			<UseObject QuestId="0xE0004BD346FF4CA9" ObjectName="Rakghoul Research Equipment" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="200" WaitTime="3" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
 				</Hotspots>
@@ -1773,7 +1773,7 @@
 		<!-- Breaking the Mighty Cathar -->
 		<If Condition="((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
 			<If Condition="HasQuest(0xE0001E5C1D1FB742) and not IsStepComplete(0xE0001E5C1D1FB742, 2)">
-				<UseItem Name="Doctor Korvus's Serum" QuestId="0xE0001E5C1D1FB742" OnObject="Cathar Champion" BranchId="1" StepId="2" WaitTime="6" Range="7" InCombat="True" HealthPercent="100" Radius="200" XYZ="78.74837,-19.83746,58.51284" />
+				<UseItem ItemName="Doctor Korvus's Serum" QuestId="0xE0001E5C1D1FB742" OnObject="Cathar Champion" BranchId="1" StepId="2" WaitTime="6" Range="7" InCombat="True" HealthPercent="100" Radius="200" XYZ="78.74837,-19.83746,58.51284" />
 			</If>
 			<!-- Unsettling -->
 			<If Condition="(not IsQuestComplete(0xE00032A43F6F6979))">
@@ -1785,13 +1785,13 @@
 		
 		<!-- Infected Pirates and Turnin -->
 		<If Condition="((HasQuest(0xE000ECFBAA4FB630)) and (not IsQuestComplete(0xE000ECFBAA4FB630)))">
-			<UseObject Name="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="6" XYZ="87.96017,-17.52245,78.54147" />
-			<UseObject Name="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="6" XYZ="88.56207,-17.61843,82.85453" />
+			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="6" XYZ="87.96017,-17.52245,78.54147" />
+			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="6" XYZ="88.56207,-17.61843,82.85453" />
 			<!-- Skullduggery -->
 			<If Condition="(not IsQuestComplete(0xE0009131560D813F))">
 				<Grind GrindRef="Skullduggery - Defeat the Pirate Forces" While="(not IsQuestComplete(0xE0009131560D813F))" />
 			</If>
-			<UseObject Name="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="6" XYZ="98.02028,-17.6095,89.53677" />
+			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="6" XYZ="98.02028,-17.6095,89.53677" />
 			<TurnInQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" TurnInName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" />
 			<CompleteQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" RewardIndex="6" />
 			<!-- Calling all Rakghouls -->
@@ -1800,13 +1800,13 @@
 		<!-- Calling all Rakghouls and Turnin -->
 		<If Condition="((HasQuest(0xE0001127A1A36218)) and (not IsQuestComplete(0xE0001127A1A36218)))">
 			<If Condition="HasQuest(0xE0001127A1A36218) and not IsStepComplete(0xE0001127A1A36218, 2)">
-				<UseItem Item="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="2" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
+				<UseItem ItemName="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="2" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
 			</If>
 			<If Condition="HasQuest(0xE0001127A1A36218) and not IsStepComplete(0xE0001127A1A36218, 3)">
-				<UseItem Item="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="3" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
+				<UseItem ItemName="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="3" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
 			</If>
 			<If Condition="HasQuest(0xE0001127A1A36218) and not IsStepComplete(0xE0001127A1A36218, 4)">
-				<UseItem Item="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="4" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
+				<UseItem ItemName="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="4" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
 			</If>
 			<TurnInQuest QuestName="Calling all Rakghouls" QuestId="0xE0001127A1A36218" TurnInName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" />
 			<CompleteQuest QuestName="Calling all Rakghouls" QuestId="0xE0001127A1A36218" />
@@ -1851,15 +1851,15 @@
 		<!-- Taris: Bonus Series 3 -->
 		<If Condition="((HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<If Condition="HasQuest(0xE0001A1F3A1FFEC9) and not IsTaskComplete(0xE0001A1F3A1FFEC9, 3, 1)">
-				<UseItem Item="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="3" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="80.3298,-19.78874,59.32019" />
+				<UseItem ItemName="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="3" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="80.3298,-19.78874,59.32019" />
 			</If>
 		</If>
 		
 		<!-- All Clear Signal -->
 		<If Condition="((HasQuest(0xE000D2DB6E00A26B)) and (not IsQuestComplete(0xE000D2DB6E00A26B)))">
-			<UseObject Name="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="2" WaitTime="3" XYZ="87.04571,-20.07055,60.82766" />
+			<UseObject ObjectName="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="2" WaitTime="3" XYZ="87.04571,-20.07055,60.82766" />
 			<Grind GrindRef="All Clear Signal - Defeat the Republic Sappers" While="not IsStepComplete(0xE000D2DB6E00A26B, 3)" />
-			<UseObject Name="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="4" WaitTime="4" XYZ="80.70291,-19.4331,69.35531" />
+			<UseObject ObjectName="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="4" WaitTime="4" XYZ="80.70291,-19.4331,69.35531" />
 			<Grind GrindRef="All Clear Signal - Defeat the Republic Forward Recon Squad" While="not IsStepComplete(0xE000D2DB6E00A26B, 5)" />
 			<!-- Scrambled (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00063E2FD1D530C))">
@@ -1876,13 +1876,13 @@
 		<!-- Taris: Bonus Series 4 -->
 		<If Condition="((HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<If Condition="HasQuest(0xE0001A1F3A1FFEC9) and not IsTaskComplete(0xE0001A1F3A1FFEC9, 4, 1)">
-				<UseItem Item="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="4" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="93.83207,-19.119,22.41039" />
+				<UseItem ItemName="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="4" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="93.83207,-19.119,22.41039" />
 			</If>
 		</If>
 		
 		<!-- Trapped by Snipers and Turnin -->
 		<If Condition="((HasQuest(0xE0008CDC2F5A1C8C)) and (not IsQuestComplete(0xE0008CDC2F5A1C8C)))">
-			<UseObject Name="Sniper's Nest" QuestId="0xE0008CDC2F5A1C8C" BranchId="1" StepId="2" WaitTime="4" XYZ="84.12426,-18.43592,11.23055" />
+			<UseObject ObjectName="Sniper's Nest" QuestId="0xE0008CDC2F5A1C8C" BranchId="1" StepId="2" WaitTime="4" XYZ="84.12426,-18.43592,11.23055" />
 			<Grind GrindRef="Trapped by Snipers - Defeat Valhoun Snipers" While="not IsStepComplete(0xE0008CDC2F5A1C8C, 3)" />
 			<TurnInQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" TurnInName="Sergeant Namarr" XYZ="88.6238,-19.04412,23.2912" />
 			<CompleteQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" RewardIndex="1" />
@@ -1890,7 +1890,7 @@
 		
 		<!-- Guerilla Blockade -->
 		<If Condition="((HasQuest(0xE0009556AAB5EE10)) and (not IsQuestComplete(0xE0009556AAB5EE10)))">
-			<UseObject QuestId="0xE0009556AAB5EE10" Name="Explosive Ordinance" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="200" WaitTime="3" >
+			<UseObject QuestId="0xE0009556AAB5EE10" ObjectName="Explosive Ordinance" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="200" WaitTime="3" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="103.6258,-19.98608,33.56426" />
 					<Hotspot Name="Republic Gunnery Droid" XYZ="114.5162,-20.60895,41.6675" />
@@ -1931,7 +1931,7 @@
 		<!-- Taris: Bonus Series 5 -->
 		<If Condition="((HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<If Condition="HasQuest(0xE0001A1F3A1FFEC9) and not IsTaskComplete(0xE0001A1F3A1FFEC9, 5, 1)">
-				<UseItem Item="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="5" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="125.3661,-20.9237,34.78889" />
+				<UseItem ItemName="Reconnaissance Probes" QuestId="0xE0001A1F3A1FFEC9" StepId="5" TaskId="1" WaitTime="4" Range="4" InCombat="False" Radius="3" XYZ="125.3661,-20.9237,34.78889" />
 			</If>
 		</If>
 		
@@ -1946,10 +1946,10 @@
 		
 		<!-- Reclaiming the Outpost -->
 		<If Condition="((HasQuest(0xE000DA874A6484FF)) and (not IsQuestComplete(0xE000DA874A6484FF)))">
-			<UseObject Name="Station Power Terminal" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="6" XYZ="169.1583,-20.55309,32.2562" />
-			<UseObject Name="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="2" IgnoreLOS="True" WaitTime="3" XYZ="182.2063,-20.37639,39.99584" /> <!-- S -->
-			<UseObject Name="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="190.3322,-20.37639,31.98999" /> <!-- E -->
-			<UseObject Name="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="182.3533,-20.37639,20.8045" /> <!-- N -->
+			<UseObject ObjectName="Station Power Terminal" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="6" XYZ="169.1583,-20.55309,32.2562" />
+			<UseObject ObjectName="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="2" IgnoreLOS="True" WaitTime="3" XYZ="182.2063,-20.37639,39.99584" /> <!-- S -->
+			<UseObject ObjectName="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="190.3322,-20.37639,31.98999" /> <!-- E -->
+			<UseObject ObjectName="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="182.3533,-20.37639,20.8045" /> <!-- N -->
 			<!-- Imperial Reclamation -->
 			<If Condition="(not IsQuestComplete(0xE0006877E7788B78))">
 				<Grind GrindRef="Imperial Reclamation - Clear Out the Rakghoul-infested Outpost" While="(not IsQuestComplete(0xE0006877E7788B78))" />
@@ -1958,7 +1958,7 @@
 		
 		<!-- Leading the Pack 3 -->
 		<If Condition="HasQuest(0xE00099B172A024E5) and not IsStepComplete(0xE00099B172A024E5, 3)">
-			<UseItem Item="Rakghoul Alarm Pheromones" QuestId="0xE00099B172A024E5" StepId="3" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="118.506,-20.84634,46.09916" />
+			<UseItem ItemName="Rakghoul Alarm Pheromones" QuestId="0xE00099B172A024E5" StepId="3" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="118.506,-20.84634,46.09916" />
 		</If>
 		
 		<!-- Minefield -->
@@ -1994,14 +1994,14 @@
 		
 		<!-- The Hidden Hangar and Turnin -->
 		<If Condition="((HasQuest(0xE000D82897D9DCC6)) and (not IsQuestComplete(0xE000D82897D9DCC6)))">
-			<UseObject Name="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="122.5451,-17.52505,85.48934" />
-			<UseObject Name="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="3" XYZ="122.5528,-17.52559,72.7188" />
-			<UseObject Name="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="125.7599,-17.52194,79.16397" />
+			<UseObject ObjectName="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="122.5451,-17.52505,85.48934" />
+			<UseObject ObjectName="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="3" XYZ="122.5528,-17.52559,72.7188" />
+			<UseObject ObjectName="Hangar Door" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="125.7599,-17.52194,79.16397" />
 			<If Condition="((HasQuest(0xE000D82897D9DCC6)) and (not IsBranchStepComplete(0xE000D82897D9DCC6, 1, 3)))">
 				<MoveTo QuestId="1" XYZ="102.3019,-17.61936,77.65509" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<MoveTo QuestId="1" XYZ="102.3019,-17.61936,77.65509" />
-				<UseObject Name="Republic Transport" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="3" IgnoreLOS="True" UseRange="20" WaitTime="6" XYZ="102.3019,-17.61936,77.65509" />
+				<UseObject ObjectName="Republic Transport" QuestId="0xE000D82897D9DCC6" BranchId="1" StepId="3" IgnoreLOS="True" UseRange="20" WaitTime="6" XYZ="102.3019,-17.61936,77.65509" />
 			</If>
 			<!-- War of Deception -->
 			<If Condition="(not IsQuestComplete(0xE00064A8991F727C))">
@@ -2109,11 +2109,11 @@
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
 				<!-- Ele going down -->
-				<UseObject Name="Intelligence Archives Door" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="5" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="4" XYZ="12.28219,-2.169,-78.21026" />
-				<UseObject Name="Archive Power Generator" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="22.71117,-2.59953,-85.44096" /> <!-- 2 of these -->
-				<UseObject Name="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="7" IgnoreLOS="True" WaitTime="2" XYZ="22.30805,-2.598466,-93.66188" />
-				<UseObject Name="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="8" IgnoreLOS="True" WaitTime="2" XYZ="8.70772,-2.598466,-84.9425" />
-				<UseObject Name="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="2" XYZ="7.911244,-2.598466,-93.65791" />
+				<UseObject ObjectName="Intelligence Archives Door" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="5" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="4" XYZ="12.28219,-2.169,-78.21026" />
+				<UseObject ObjectName="Archive Power Generator" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="22.71117,-2.59953,-85.44096" /> <!-- 2 of these -->
+				<UseObject ObjectName="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="7" IgnoreLOS="True" WaitTime="2" XYZ="22.30805,-2.598466,-93.66188" />
+				<UseObject ObjectName="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="8" IgnoreLOS="True" WaitTime="2" XYZ="8.70772,-2.598466,-84.9425" />
+				<UseObject ObjectName="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="2" XYZ="7.911244,-2.598466,-93.65791" />
 				<!-- Destroy Archive Droids -->
 				<If Condition="(not IsQuestComplete(0xE00083A0A83B1366))">
 					<Grind GrindRef="Destroy Archive Droids - Defeat Archive Security Droids" While="(not IsQuestComplete(0xE00083A0A83B1366))" />

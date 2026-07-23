@@ -126,7 +126,7 @@
 				<Grind GrindRef="False Paradise Grind 1" While="(not IsStepComplete(0xE00057236AF20B38, 2))"/>
 			</If>	
 			<If Condition="(not IsStepComplete(0xE00057236AF20B38, 3))">
-				<UseItem QuestId="0xE00057236AF20B38" Item="Bioenergy Enhancer" StepId="3" WaitTime="3" Range="1" InCombat="False" Radius="1" /> 
+				<UseItem QuestId="0xE00057236AF20B38" ItemName="Bioenergy Enhancer" StepId="3" WaitTime="3" Range="1" InCombat="False" Radius="1" /> 
 			</If>	
 			<If Condition="(not IsStepComplete(0xE00057236AF20B38, 4))">
 				<MoveTo QuestId="0xE00057236AF20B38" StepId="4" XYZ="-17.4353,1.936847,-52.54634" />

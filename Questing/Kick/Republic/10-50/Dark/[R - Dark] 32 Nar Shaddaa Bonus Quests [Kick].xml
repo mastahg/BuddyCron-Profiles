@@ -112,9 +112,9 @@
 				<PickUpQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" GiverName="Qyzen Fess" XYZ="-0.005899999,0.8005782,3.957" />
 				<CompleteQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" />
 			
-				<UseObject QuestId="1" Name="Galaxy Map" XYZ="0.09486517,1.551,-4.583985" />
+				<UseObject QuestId="1" ObjectName="Galaxy Map" XYZ="0.09486517,1.551,-4.583985" />
 				<!-- Travel to Hutt Space - Nar Shaddaa -->
-				<UseObject QuestId="1" Name="Ship Exit" XYZ="0.009287226,0.5900244,-2.999504" />
+				<UseObject QuestId="1" ObjectName="Ship Exit" XYZ="0.009287226,0.5900244,-2.999504" />
 			</If>
 			<If Condition="Me.Position.Z &lt; -200">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"

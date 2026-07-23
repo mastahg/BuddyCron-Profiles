@@ -837,7 +837,7 @@
 		<!-- Jedi Consular - The Arrival and Turnin -->
 		<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsQuestComplete(0xE0000CB5D481F093)))">
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 3)))">
-				<UseObject QuestId="0xE0000CB5D481F093" Name="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
+				<UseObject QuestId="0xE0000CB5D481F093" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
  
 				<UserDialog Title="CryoGenesis" Message="Use elevator!" />
 			</If>
@@ -873,7 +873,7 @@
 				<If Condition="(not IsQuestComplete(0xE0008A0353510353))">
 					<Grind GrindRef="Street Sweeping (Bonus)" While="(not IsQuestComplete(0xE0008A0353510353))" />
 				</If>
-				<UseObject QuestId="0xE000D7724FAE1B50" Name="Signal Device" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="250.8879,46.701,155.8961" />
+				<UseObject QuestId="0xE000D7724FAE1B50" ObjectName="Signal Device" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="250.8879,46.701,155.8961" />
 			</If>
 			<!-- Branch 3 -->
 			<If Condition="((HasQuest(0xE000D7724FAE1B50)) and (not IsBranchStepComplete(0xE000D7724FAE1B50, 3, 2)))">
@@ -883,7 +883,7 @@
 				<Grind GrindRef="Secret Signals Branch 3 Step 3" While="(IsBranchStepComplete(0xE000D7724FAE1B50, 3, 3))" />
 			</If>
 			<If Condition="((HasQuest(0xE000D7724FAE1B50)) and (not IsBranchStepComplete(0xE000D7724FAE1B50, 3, 4)))">
-				<UseObject QuestId="0xE000D7724FAE1B50" Name="Transport Container" BranchId="3" StepId="4" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="248.9752,46.601,163.7388" />
+				<UseObject QuestId="0xE000D7724FAE1B50" ObjectName="Transport Container" BranchId="3" StepId="4" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="248.9752,46.601,163.7388" />
 			</If>
 			<UserDialog Title="CryoGenesis" Message="Quick Travel to Senate Commercial District!" />
 	
@@ -910,12 +910,12 @@
 			</If>
 			<!-- Skip 3 -->
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 4)))">
-				<UseObject QuestId="0xE0007AC212612015" Name="Medical Supplies" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-357.0098,-131.689,26.11327" />
+				<UseObject QuestId="0xE0007AC212612015" ObjectName="Medical Supplies" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-357.0098,-131.689,26.11327" />
 			</If>
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 5)))">
 				<MoveTo QuestId="0xE0007AC212612015" Name="Black Sun Smuggler" While="(not IsBranchStepComplete(0xE0007AC212612015, 1, 5))" XYZ="-371.2761,-130.699,30.83338" />
 				<UserDialog Title="CryoGenesis" Message="Use the scanner on Smuggler." />
-				<UseItem QuestId="0xE0007AC212612015" StepId="5" Item="Scanner" OnObject="Black Sun Smuggler" WaitTime="3500" Range="4" InCombat="False" XYZ="-371.3012,-130.699,30.9183" />
+				<UseItem QuestId="0xE0007AC212612015" StepId="5" ItemName="Scanner" OnObject="Black Sun Smuggler" WaitTime="3500" Range="4" InCombat="False" XYZ="-371.3012,-130.699,30.9183" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 6)))">
@@ -958,7 +958,7 @@
 			</If>
 			<!-- Skip 3 - cutscene -->
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 4)))">
-				<UseObject QuestId="0xE000EA34B5143847" Name="Noetikon of Secrets" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="85.64085,-104.0938,481.2094" />
+				<UseObject QuestId="0xE000EA34B5143847" ObjectName="Noetikon of Secrets" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="85.64085,-104.0938,481.2094" />
 			</If>
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 5)))">
 				<TalkTo QuestId="0xE000EA34B5143847" Name="Lars Baddeg" XYZ="85.28519,-104.099,484.1765" />
@@ -967,7 +967,7 @@
 				<Grind GrindRef="Shadows 6" While="(not IsStepComplete(0xE000EA34B5143847, 6))" />
 			</If>
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 7)))">
-				<UseObject QuestId="0xE000EA34B5143847" Name="Container" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="86.32851,-104.099,482.4064" />
+				<UseObject QuestId="0xE000EA34B5143847" ObjectName="Container" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="86.32851,-104.099,482.4064" />
 			</If>
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 8)))">
 				<AnswerHolocomCall QuestName="Shadows" QuestId="0xE000EA34B5143847" />

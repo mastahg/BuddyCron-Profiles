@@ -160,7 +160,7 @@
 		IsQuestComplete(0xE000A6DDB6F9A148)
 		IsStepComplete(0xE000A6DDB6F9A148, 3)-->
 		<If Condition="HasQuest(0xE000A6DDB6F9A148) and not IsStepComplete(0xE000A6DDB6F9A148, 3)" >
-			<UseObject Name="Wraith Box"  QuestId="0xE000A6DDB6F9A148" StepId="3" WaitTime="3000" XYZ="-112.5121,19.48314,200.0852" />
+			<UseObject ObjectName="Wraith Box"  QuestId="0xE000A6DDB6F9A148" StepId="3" WaitTime="3000" XYZ="-112.5121,19.48314,200.0852" />
 		</If>
 
 		<!-- 
