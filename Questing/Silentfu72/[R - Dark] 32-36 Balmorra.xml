@@ -1712,7 +1712,7 @@
 			<If Condition="((HasQuest(0xE000DE9C28BEA2C1)) and (not IsStepComplete(0xE000DE9C28BEA2C1, 5)))">			
 				<JumpTo 	QuestId="1" 
 							XYZ="33.01841,11.61476,191.3264"
-							EndX="33.00985" EndY="11.73825" EndZ="191.8675"
+							EndXYZ="33.00985,11.73825,191.8675"
 							JumpRotation="179.0927" />
 				<Grind GrindRef="Executive Order 228 5" While="(not IsStepComplete(0xE000DE9C28BEA2C1, 5))" />
 			</If>
@@ -1731,7 +1731,7 @@
 					<MoveTo QuestId="1" XYZ="33.01991,11.52726,190.9789" />	
 					<JumpTo 	QuestId="1" 
 							XYZ="33.01841,11.61476,191.3264"
-							EndX="33.00985" EndY="11.73825" EndZ="191.8675"
+							EndXYZ="33.00985,11.73825,191.8675"
 							JumpRotation="179.0927" />
 				</If>
 				<If Condition="((HasQuest(0xE000F527578A9865)) and (not IsTaskComplete(0xE000F527578A9865, 2, 2)))">

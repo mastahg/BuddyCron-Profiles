@@ -287,13 +287,13 @@
 				<MoveTo QuestId="0xE000E5AE5E13630E" XYZ="207.7143,-22.66664,-162.4363" />
 				<JumpTo 	QuestId="0xE000E5AE5E13630E" JumpRotation="177,6576" 
 							XYZ="207.7143,-22.66664,-162.4363" 
-							EndX="207.7409" EndY="-22.4837" EndZ="-162.0896" />
+							EndXYZ="207.7409,-22.4837,-162.0896" />
 				<JumpTo 	QuestId="0xE000E5AE5E13630E" JumpRotation="177,6576" 
 							XYZ="207.7409,-22.4837,-162.0896" 
-							EndX="207.7254" EndY="-22.25698" EndZ="-161.707" />
+							EndXYZ="207.7254,-22.25698,-161.707" />
 				<JumpTo 	QuestId="0xE000E5AE5E13630E" JumpRotation="177,6576" 
 							XYZ="207.7254,-22.25698,-161.707" 
-							EndX="207.7023" EndY="-22.17675" EndZ="-161.146" />
+							EndXYZ="207.7023,-22.17675,-161.146" />
 				<MoveTo QuestId="0xE000E5AE5E13630E" XYZ="207.9154,-22.17675,-161.0828" />
 				<UseObject QuestId="0xE000E5AE5E13630E" ObjectName="Republic Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="207.9194,-22.17675,-161.0227" />
  				

@@ -83,7 +83,7 @@
 				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" XYZ="-8.909665,-0.099,10.30387" />
 				<JumpTo 	QuestId="1" JumpRotation="10" 
 								XYZ="-8.909665,-0.099,10.30387"
-								EndX="-8.842566" EndY="0.0009999789" EndZ="9.112076" />	
+								EndXYZ="-8.842566,0.0009999789,9.112076" />	
 				<MoveTo QuestId="0xE000EDF4DDB848B6" Name="Getting out of here" Radius="20" WaitTime="5" XYZ="-3.431461,0.0199999,5.245546" />					
 				<UseObject QuestId="0xE000EDF4DDB848B6" ObjectName="Door Access Panel" BranchId="4" StepId="2" Radius="20" WaitTime="5" XYZ="-3.431461,0.0199999,5.245546" />
 			</If>

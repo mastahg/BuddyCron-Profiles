@@ -1900,7 +1900,7 @@
 				<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" XYZ="-206.3995,-19.259,84.62611" />
 				<JumpTo 	QuestId="1" 
 							XYZ="-206.5343,-19.04475,84.03036" 
-							EndX="-206.6626" EndY="-19.05488" EndZ="83.38588" 
+							EndXYZ="-206.6626,-19.05488,83.38588" 
 							JumpRotation="11.76874" />
 			
 				<MoveTo QuestId="0xE0005896427A1928" IgnoreMesh="True" Name="My Location" XYZ="-206.5785,-19.049,83.68601" />
@@ -1912,7 +1912,7 @@
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-207.6305,-19.049,85.03649" />
 				<JumpTo 	QuestId="1" 
 							XYZ="-207.6375,-19.049,85.03577" 
-							EndX="-206.2685" EndY="-19.259" EndZ="84.83897"
+							EndXYZ="-206.2685,-19.259,84.83897"
 							JumpRotation="-81.81931" />
 			
 			</If>

@@ -1034,7 +1034,7 @@
 				<UseObject QuestId="0xE000ABEA2E64D3CD" ObjectName="Drill Station Central Computer" BranchId="1" StepId="9" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-109.2631,-68.94939,290.0827"  />
 			</If>
 			<If Condition="((not IsStepComplete(0xE0004F4E66432F2E, 4)))">
-				<JumpTo  QuestId="0xE0004F4E66432F2E" JumpRotation="90.6"  XYZ="-47.67991,-66.67366,240.8071" EndX="-48.29053" EndY="-66.35537" EndZ="240.9794"  />
+				<JumpTo  QuestId="0xE0004F4E66432F2E" JumpRotation="90.6"  XYZ="-47.67991,-66.67366,240.8071" EndXYZ="-48.29053,-66.35537,240.9794"  />
 				<MoveTo QuestId="0xE0004F4E66432F2E" XYZ="-53.58944,-66.26193,244.3958" />
 				<UseObject QuestId="0xE0004F4E66432F2E" ObjectName="Communications Interlink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-53.58944,-66.26193,244.3958"  />
 			</If>

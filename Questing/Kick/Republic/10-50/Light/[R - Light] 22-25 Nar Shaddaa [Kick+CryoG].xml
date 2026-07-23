@@ -1363,15 +1363,15 @@
 				<MoveTo QuestId="0xE0002D5C3F11CF18" Name="Drooga the Hutt" XYZ="-308.5918,21.37868,-354.8836" />	
 				<JumpTo 	QuestId="1" JumpRotation="-88,74093" 
 								XYZ="-308.5918,21.37868,-354.8836"
-								EndX="-307.9697" EndY="21.45101" EndZ="-354.8916" />	
+								EndXYZ="-307.9697,21.45101,-354.8916" />	
 				<MoveTo QuestId="0xE0002D5C3F11CF18" Name="Drooga the Hutt" XYZ="-308.0003,21.45101,-354.8664" />	
 				<JumpTo 	QuestId="1" JumpRotation="-88,74093" 
 								XYZ="-308.0003,21.45101,-354.8664"
-								EndX="-307.5055" EndY="21.56241" EndZ="-354.856" />								
+								EndXYZ="-307.5055,21.56241,-354.856" />								
 				<MoveTo QuestId="0xE0002D5C3F11CF18" Name="Drooga the Hutt" XYZ="-307.6704,21.56241,-354.8596" />	
 				<JumpTo 	QuestId="1" JumpRotation="-88,74093" 
 								XYZ="-307.6704,21.56241,-354.8596"
-								EndX="-307.3099" EndY="21.6625" EndZ="-354.8512" />	
+								EndXYZ="-307.3099,21.6625,-354.8512" />	
 				<TalkTo QuestId="0xE0002D5C3F11CF18" Name="Drooga the Hutt" XYZ="-307.1696,21.6648,-354.6942" />	
 			</If>
 			<If Condition="((HasQuest(0xE0002D5C3F11CF18)) and (not IsBranchStepComplete(0xE0002D5C3F11CF18, 1, 7)))">
@@ -1380,7 +1380,7 @@
 			<CompleteQuest QuestName="Party Crasher" QuestId="0xE0002D5C3F11CF18" RewardIndex="0" />
 			<JumpTo 	QuestId="1" JumpRotation="77,83358" 
 							XYZ="-308.0097,21.451,-354.3193"
-							EndX="-308.5455" EndY="21.37868" EndZ="-354.4348" />				
+							EndXYZ="-308.5455,21.37868,-354.4348" />				
 		</If>		
 	
 		<!-- One Fell Swoop -->
@@ -2186,7 +2186,7 @@
 				<MoveTo QuestId="0xE000F01B224C527C" Name="Going to speak to Ga'ram" XYZ="-257.6672,-170.7213,355.3513" />	
 				<JumpTo 	QuestId="1" JumpRotation="158" 
 								XYZ="-257.6672,-170.7213,355.3513"
-								EndX="-257.8766" EndY="-170.6359" EndZ="355.8826" />	
+								EndXYZ="-257.8766,-170.6359,355.8826" />	
 				<MoveTo QuestId="0xE000F01B224C527C" Name="Going to speak to Ga'ram" XYZ="-258.094,-170.6451,356.2474" />					
 				<TalkTo QuestId="0xE000F01B224C527C" Name="Ga'ram" XYZ="-258.094,-170.6451,356.2474" />
 			</If>	
@@ -2584,7 +2584,7 @@
 				<MoveTo QuestId="0xE0003B1575C856CB" Name="Moving to Ga'ram" XYZ="296.2949,-150.9213,271.4106" />	
 				<JumpTo 	QuestId="1" JumpRotation="-94,31033" 
 								XYZ="296.2949,-150.9213,271.4106"
-								EndX="296.7674" EndY="-150.849" EndZ="271.4462" />				
+								EndXYZ="296.7674,-150.849,271.4462" />				
 				<TalkTo QuestId="0xE0003B1575C856CB" Name="Ga'ram" XYZ="297.2003,-150.7376,271.5489" />
 			</If>
 			<If Condition="((HasQuest(0xE0003B1575C856CB)) and (not IsBranchStepComplete(0xE0003B1575C856CB, 13, 3)))">
@@ -2594,12 +2594,12 @@
 				<MoveTo QuestId="0xE0003B1575C856CB" Name="Moving to Drooga the Hutt" XYZ="296.3821,-150.9213,271.0016" />	
 				<JumpTo QuestId="1" JumpRotation="-140,154" 
 								XYZ="296.3821,-150.9213,271.0016"
-								EndX="296.7294" EndY="-150.849" EndZ="271.418" />	
+								EndXYZ="296.7294,-150.849,271.418" />	
 				<WaitTimer QuestId="1" WaitTime="2" />				
 				<MoveTo QuestId="0xE0003B1575C856CB" Name="Moving to Drooga the Hutt" XYZ="296.8879,-150.8451,271.2548" />	
 				<JumpTo QuestId="1" JumpRotation="-140,154" 
 								XYZ="296.8879,-150.8451,271.2548"
-								EndX="297.1488" EndY="-150.7376" EndZ="271.7347" />									
+								EndXYZ="297.1488,-150.7376,271.7347" />									
 				<WaitTimer QuestId="1" WaitTime="2" />				
 				<TalkTo QuestId="0xE0003B1575C856CB" Name="Drooga the Hutt" XYZ="297.6102,-150.6341,272.0039" />
 			</If>
