@@ -1,0 +1,1141 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[REPUBLIC|LIGHT] Taris 17-21 - Recreated by Orlok Raven</Name>
+  
+	<ForceAlignment Type="Light" AutoSkip="True" />
+	
+
+
+	
+	<GrindAreas> 
+	
+		<GrindArea Name="Stage 1 - Surface Problems (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Savage Rakghoul</Mob>
+				<Mob>Bloodthirsty Rakghoul</Mob>
+				<Mob>Vicious Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Bloodthirsty Rakghoul" X="-171.1233" Y="-19.60214" Z="44.76989" />
+				<Hotspot Name="Bloodthirsty Rakghoul" X="-170.6141" Y="-19.91917" Z="48.34605" />
+				<Hotspot Name="Savage Rakghoul" X="-168.9211" Y="-19.5898" Z="52.56879" />
+				<Hotspot Name="Frenzied Rakghoul" X="-169.1834" Y="-19.63321" Z="58.301" />
+				<Hotspot Name="Savage Rakghoul" X="-158.8878" Y="-18.64146" Z="42.63446" />
+				<Hotspot Name="Savage Rakghoul" X="-160.9766" Y="-18.63661" Z="39.56691" />
+				<Hotspot Name="Savage Rakghoul" X="-164.5613" Y="-18.43908" Z="37.73557" />
+				<Hotspot Name="My Location" X="-158.5455" Y="-18.78209" Z="34.43656" />
+				<Hotspot Name="My Location" X="-153.6444" Y="-18.5229" Z="36.75805" />
+				<Hotspot Name="My Location" X="-150.6691" Y="-18.74316" Z="31.94654" />
+				<Hotspot Name="My Location" X="-120.567" Y="-19.28237" Z="16.24443" />
+				<Hotspot Name="My Location" X="-120.5319" Y="-19.21802" Z="9.087916" />
+				<Hotspot Name="My Location" X="-128.7044" Y="-18.882" Z="-0.1887726" />
+				<Hotspot Name="My Location" X="-122.4492" Y="-18.52607" Z="-3.562619" />
+				<Hotspot Name="My Location" X="-154.0613" Y="-24.45086" Z="-8.9217" />
+				<Hotspot Name="My Location" X="-153.0555" Y="-28.84518" Z="-25.59981" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Take Back the Settlement (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Rifleman</Mob>
+				<Mob>Scavenger Cutthroat</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Scavenger Rifleman" X="-113.5007" Y="-18.96645" Z="38.1912" />
+				<Hotspot Name="My Location" X="-113.4313" Y="-18.97771" Z="38.84552" />
+				<Hotspot Name="My Location" X="-104.7471" Y="-18.91481" Z="40.77369" />
+				<Hotspot Name="My Location" X="-110.5344" Y="-18.71955" Z="47.21343" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Secure the Estate (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rogue Sentry Droid</Mob>
+				<Mob>Rogue Attack Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-110.2887" Y="-18.65761" Z="-5.192934" />
+				<Hotspot Name="My Location" X="-108.6346" Y="-18.46622" Z="0.2532319" />
+				<Hotspot Name="My Location" X="-104.1775" Y="-17.95491" Z="0.9991654" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="The Expedition 7">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Ambusher</Mob>
+				<Mob>Pirate Brute</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-131.2602" Y="-17.8243" Z="-12.62324" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Surface Problems (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Skull Eater</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-148.6703" Y="-28.80745" Z="-25.7109" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Last Battle of the Endar Spire 5">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Pistoleer</Mob>
+				<Mob>Scavenger Heavy</Mob>
+				<Mob>Scavenger Junksifter</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-5.654844" Y="-14.499" Z="-2.59095" />
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="Last Battle of the Endar Spire 8">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Brute</Mob>
+				<Mob>Scavenger Brawler</Mob>
+				<Mob>Scavenger Quickshot</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="2.745125" Y="-14.501" Z="-2.718662" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Last Battle of the Endar Spire 11-13">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Junksifter</Mob>
+				<Mob>Scavenger Brawler</Mob>
+				<Mob>Scavenger Scavenger</Mob>
+				<Mob>Scavenger Pistoleer</Mob>
+				<Mob>Scavenger Brute</Mob>
+				<Mob>Scavenger Mastermind</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="11.73578" Y="-14.47374" Z="-1.006786" />
+				<Hotspot Name="My Location" X="10.50814" Y="-14.4991" Z="-2.140622" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Serum Conservation (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Looter</Mob>
+				<Mob>Pirate Crackshot</Mob>
+				<Mob>Pirate Plunderer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Pirate Looter" X="-22.4993" Y="-14.52349" Z="-8.2882" />
+				<Hotspot Name="Pirate Plunderer" X="-22.5807" Y="-14.49248" Z="-7.884" />
+				<Hotspot Name="Pirate Plunderer" X="-15.8203" Y="-14.54395" Z="-12.1586" />
+				<Hotspot Name="Pirate Crackshot" X="-6.2399" Y="-14.51187" Z="-12.6332" />
+				<Hotspot Name="My Location" X="-0.5443304" Y="-14.57919" Z="-18.7383" />
+				<Hotspot Name="My Location" X="3.001297" Y="-14.71891" Z="-16.54384" />
+				<Hotspot Name="My Location" X="10.00011" Y="-14.6268" Z="-19.47159" />
+				<Hotspot Name="My Location" X="12.50302" Y="-15.06822" Z="-23.943" />
+				<Hotspot Name="My Location" X="8.327807" Y="-14.71654" Z="-19.1656" />
+				<Hotspot Name="My Location" X="11.86412" Y="-14.65034" Z="-19.3312" />
+				<Hotspot Name="My Location" X="12.29082" Y="-16.00908" Z="-34.67336" />
+				<Hotspot Name="My Location" X="12.70627" Y="-16.36947" Z="-39.72964" />
+				<Hotspot Name="My Location" X="9.840086" Y="-16.36371" Z="-39.17137" />
+				<Hotspot Name="My Location" X="-1.407006" Y="-17.99179" Z="-34.67779" />
+				<Hotspot Name="My Location" X="0.2945826" Y="-18.00127" Z="-32.92261" />
+				<Hotspot Name="My Location" X="-5.98464" Y="-17.97951" Z="-31.29228" />
+				<Hotspot Name="My Location" X="-10.36617" Y="-17.97131" Z="-32.79724" />
+				<Hotspot Name="My Location" X="-15.0905" Y="-19.58371" Z="-44.28932" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 2 - Serum Conservation (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Armsman</Mob>
+				<Mob>Pirate Fixer</Mob>
+				<Mob>Pirate Backstabber</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="12.29082" Y="-16.00908" Z="-34.67336" />
+				<Hotspot Name="My Location" X="12.70627" Y="-16.36947" Z="-39.72964" />
+				<Hotspot Name="My Location" X="9.840086" Y="-16.36371" Z="-39.17137" />
+				<Hotspot Name="My Location" X="-1.407006" Y="-17.99179" Z="-34.67779" />
+				<Hotspot Name="My Location" X="0.2945826" Y="-18.00127" Z="-32.92261" />
+				<Hotspot Name="My Location" X="-5.98464" Y="-17.97951" Z="-31.29228" />
+				<Hotspot Name="My Location" X="-10.36617" Y="-17.97131" Z="-32.79724" />
+				<Hotspot Name="My Location" X="-15.0905" Y="-19.58371" Z="-44.28932" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Serum Conservation (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Brucce Jo'Dee</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="3.282423" Y="-17.79731" Z="-48.84515" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Dynamet Horrors (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Slavering Rakghoul</Mob>
+				<Mob>Ruthless Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-33.463" Y="-13.40629" Z="-37.42617" />
+				<Hotspot Name="My Location" X="-43.83932" Y="-16.81487" Z="-39.31755" />
+				<Hotspot Name="Gargantuan Rakghoul" X="-47.95966" Y="-16.39622" Z="-37.59528" />
+				<Hotspot Name="Hideous Rakghoul" X="-47.7411" Y="-16.09798" Z="-42.9234" />
+				<Hotspot Name="Slavering Rakghoul" X="-40.07372" Y="-14.7413" Z="-45.51904" />
+				<Hotspot Name="Gargantuan Rakghoul" X="-36.0761" Y="-14.29995" Z="-42.37239" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="A Temporary Reclamation (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Infected Pirate Gunner</Mob>
+				<Mob>Infected Republic Scout</Mob>
+				<Mob>Infected Scavenger Brute</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-43.13551" Y="-13.56032" Z="-37.34007" />
+				<Hotspot Name="Infected Pirate Gunner" X="-43.6718" Y="-13.49807" Z="-39.8988" />
+				<Hotspot Name="Infected Scavenger Brute" X="-40.0971" Y="-12.3566" Z="-40.4994" />
+				<Hotspot Name="Infected Pirate Gunner" X="-42.912" Y="-11.37304" Z="-39.7034" />
+				<Hotspot Name="Infected Republic Scout" X="-40.2235" Y="-11.37253" Z="-34.1615" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Burial Grounds Task 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Slavering Rakghoul</Mob>
+				<Mob>Ruthless Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-33.463" Y="-13.40629" Z="-37.42617" />
+				<Hotspot Name="My Location" X="-43.83932" Y="-16.81487" Z="-39.31755" />
+				<Hotspot Name="Gargantuan Rakghoul" X="-47.95966" Y="-16.39622" Z="-37.59528" />
+				<Hotspot Name="Hideous Rakghoul" X="-47.7411" Y="-16.09798" Z="-42.9234" />
+				<Hotspot Name="Slavering Rakghoul" X="-40.07372" Y="-14.7413" Z="-45.51904" />
+				<Hotspot Name="Gargantuan Rakghoul" X="-36.0761" Y="-14.29995" Z="-42.37239" />
+				<Hotspot Name="Hideous Rakghoul" X="-33.9377" Y="-18.724" Z="-21.6348" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Catalyst 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Ravenous Rakghoul</Mob>
+				<Mob>Ferocious Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-61.97029" Y="-12.74378" Z="-21.3593" />
+				<Hotspot Name="My Location" X="-67.16573" Y="-12.93871" Z="-27.35487" />
+				<Hotspot Name="Ferocious Rakghoul" X="-66.5449" Y="-12.92328" Z="-33.66193" />
+				<Hotspot Name="Ravenous Rakghoul" X="-65.46044" Y="-13.65609" Z="-37.59241" />
+				<Hotspot Name="Ferocious Rakghoul" X="-73.18829" Y="-13.27723" Z="-40.17023" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Clear a Path to the Chemworks (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rogue Disposal Droid</Mob>
+				<Mob>Defective Security Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Defective Security Droid" X="-75.1836" Y="-21.00356" Z="126.423" />
+				<Hotspot Name="Rogue Disposal Droid" X="-80.244" Y="-20.86188" Z="130.5524" />
+				<Hotspot Name="My Location" X="-75.89044" Y="-20.93488" Z="130.1569" />
+				<Hotspot Name="Defective Security Droid" X="-78.4221" Y="-21.00337" Z="126.3218" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Purge the ChemWorks (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Brutish Rakghoul</Mob>
+				<Mob>Putrid Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-82.0519" Y="-21.01426" Z="137.2842" />
+				<Hotspot Name="Putrid Rakghoul" X="-82.44504" Y="-21.44748" Z="142.338" />
+				<Hotspot Name="My Location" X="-82.99586" Y="-21.2961" Z="140.4067" />
+				<Hotspot Name="My Location" X="-82.52985" Y="-21.25149" Z="145.1388" />
+				<Hotspot Name="Putrid Rakghoul" X="-85.531" Y="-22.3076" Z="150.6561" />
+				<Hotspot Name="Putrid Rakghoul" X="-91.38097" Y="-22.43514" Z="149.8251" />
+				<Hotspot Name="Skulking Rakghoul" X="-80.12257" Y="-22.20831" Z="152.174" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Cleanse the Junction (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Frightful Rakghoul</Mob>
+				<Mob>Stalking Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Frightful Rakghoul" X="-110.7413" Y="-32.06877" Z="97.93333" />
+				<Hotspot Name="Stalking Rakghoul" X="-110.341" Y="-32.06877" Z="95.10437" />
+				<Hotspot Name="Prowling Rakghoul" X="-103.1414" Y="-32.07085" Z="94.62357" />
+				<Hotspot Name="Prowling Rakghoul" X="-109.0818" Y="-32.0633" Z="87.4408" />
+				<Hotspot Name="Stalking Rakghoul" X="-98.94952" Y="-32.07085" Z="95.95392" />
+				<Hotspot Name="Prowling Rakghoul" X="-94.12566" Y="-32.07085" Z="100.2057" />
+				<Hotspot Name="Furious Rakghoul" X="-94.2645" Y="-32.06877" Z="105.3968" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="End the Invasion (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Savage Rakghoul</Mob>
+				<Mob>Rakghoul Mangler</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Savage Rakghoul" X="-204.9489" Y="-19.41045" Z="80.01137" />
+				<Hotspot Name="Savage Rakghoul" X="-202.9987" Y="-19.10403" Z="95.47566" />
+				<Hotspot Name="Savage Rakghoul" X="-208.0277" Y="-19.10237" Z="95.39162" />
+				<Hotspot Name="Savage Rakghoul" X="-217.3195" Y="-19.099" Z="95.05534" />
+				<Hotspot Name="Savage Rakghoul" X="-219.1835" Y="-19.08853" Z="98.97794" />
+				<Hotspot Name="Savage Rakghoul" X="-219.6559" Y="-19.10055" Z="99.63468" />
+				<Hotspot Name="Rakghoul Mangler" X="-219.2338" Y="-19.0709" Z="106.3147" />
+				<Hotspot Name="Savage Rakghoul" X="-219.0545" Y="-20.299" Z="107.4054" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Shut Down the Reactor Droids (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rogue Recon Droid</Mob>
+				<Mob>Rogue Patrol Droid</Mob>
+				<Mob>Rogue Protector Droid</Mob>
+				<Mob>Rogue Hunter Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Rogue Recon Droid" X="49.1239" Y="-27.07554" Z="-9.463193" />
+				<Hotspot Name="Rogue Patrol Droid" X="53.49879" Y="-27.04149" Z="-7.728831" />
+				<Hotspot Name="Rogue Recon Droid" X="53.4234" Y="-26.26349" Z="-15.2929" />
+				<Hotspot Name="Rogue Protector Droid" X="50.9176" Y="-26.26349" Z="-14.7541" />
+				<Hotspot Name="Rogue Protector Droid" X="57.8682" Y="-26.26891" Z="-14.68009" />
+				<Hotspot Name="Rogue Hunter Droid" X="58.7324" Y="-26.25032" Z="-19.08927" />
+				<Hotspot Name="Rogue Patrol Droid" X="53.6315" Y="-26.25032" Z="-20.03473" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Super Reactor 2, 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Master Cin Tykan</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Master Cin Tykan" X="56.24223" Y="-25.45085" Z="-26.02337" />
+				<Hotspot Name="Master Cin Tykan" X="56.52219" Y="-25.45085" Z="-27.41886" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Infectious Legacy (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Ravenous Tunnel Rakghoul</Mob>
+				<Mob>Savage Tunnel Rakghoul</Mob>
+				<Mob>Infected Relic Hunter</Mob>
+				<Mob>Infected Guard</Mob>
+				<Mob>Ravenous Tunnel Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Ravenous Tunnel Rakghoul" X="38.9141" Y="-18.37027" Z="-5.713168" />
+				<Hotspot Name="My Location" X="39.05072" Y="-18.31943" Z="-11.55519" />
+				<Hotspot Name="My Location" X="46.28169" Y="-17.43443" Z="-11.22059" />
+				<Hotspot Name="Ravenous Tunnel Rakghoul" X="50.0483" Y="-17.42698" Z="-12.6055" />
+				<Hotspot Name="Savage Tunnel Rakghoul" X="49.72319" Y="-17.41558" Z="-17.0083" />
+				<Hotspot Name="Lurking Tunnel Rakghoul" X="57.85802" Y="-17.49776" Z="-15.15977" />
+				<Hotspot Name="Savage Tunnel Rakghoul" X="58.73811" Y="-18.05179" Z="-9.589282" />
+				<Hotspot Name="Infected Relic Hunter" X="66.9333" Y="-17.90134" Z="-9.006" />
+				<Hotspot Name="Infected Guard" X="69.95821" Y="-17.64689" Z="-9.286678" />
+				<Hotspot Name="Ravenous Tunnel Rakghoul" X="79.1796" Y="-18.25615" Z="-15.6445" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Infectious Legacy (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Monstrous Tunnel Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Monstrous Tunnel Rakghoul" X="98.86337" Y="-17.00742" Z="-34.84572" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Pay Back the Pirates (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Crackshot</Mob>
+				<Mob>Scavenger Marauder</Mob>
+				<Mob>Scavenger Poacher</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Scavenger Crackshot" X="71.2494" Y="-20.06107" Z="60.5864" />
+				<Hotspot Name="Scavenger Marauder" X="72.3583" Y="-20.06107" Z="62.4619" />
+				<Hotspot Name="Scavenger Poacher" X="71.9956" Y="-20.06107" Z="65.23" />
+				<Hotspot Name="Scavenger Marauder" X="79.2418" Y="-18.88866" Z="64.82059" />
+				<Hotspot Name="Scavenger Marauder" X="79.08601" Y="-19.43411" Z="69.6515" />
+				<Hotspot Name="Scavenger Marauder" X="80.9155" Y="-19.4201" Z="74.6772" />
+				<Hotspot Name="Scavenger Marauder" X="94.2438" Y="-19.4251" Z="73.5022" />
+				<Hotspot Name="Scavenger Marauder" X="106.2824" Y="-19.5315" Z="75.0774" />
+				<Hotspot Name="Scavenger Crackshot" X="103.3711" Y="-19.5353" Z="64.2094" />
+				<Hotspot Name="Scavenger Marauder" X="100.08" Y="-19.5353" Z="66.0216" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Beyond Redemption">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Stalker</Mob>
+				<Mob>Pirate Scoundrel</Mob>
+				<Mob>Pirate Enforcer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Pirate Stalker" X="101.4035" Y="-17.6096" Z="80.76182" />
+				<Hotspot Name="Pirate Scoundrel" X="103.4503" Y="-17.6096" Z="82.3202" />
+				<Hotspot Name="Pirate Enforcer" X="104.1682" Y="-17.6088" Z="87.7292" />
+				<Hotspot Name="Pirate Stalker" X="91.1701" Y="-17.6184" Z="79.0848" />
+				<Hotspot Name="Pirate Enforcer" X="90.4593" Y="-17.61843" Z="78.9546" />
+				<Hotspot Name="Pirate Stalker" X="85.8717" Y="-17.61843" Z="80.9231" />
+				<Hotspot Name="Pirate Stalker" X="80.5884" Y="-17.60757" Z="79.4133" />
+				<Hotspot Name="Pirate Enforcer" X="81.961" Y="-17.6083" Z="83.08113" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Pirate Justice (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Stalker</Mob>
+				<Mob>Pirate Scoundrel</Mob>
+				<Mob>Pirate Enforcer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Pirate Stalker" X="101.4035" Y="-17.6096" Z="80.76182" />
+				<Hotspot Name="Pirate Scoundrel" X="103.4503" Y="-17.6096" Z="82.3202" />
+				<Hotspot Name="Pirate Enforcer" X="104.1682" Y="-17.6088" Z="87.7292" />
+				<Hotspot Name="Pirate Stalker" X="91.1701" Y="-17.6184" Z="79.0848" />
+				<Hotspot Name="Pirate Enforcer" X="90.4593" Y="-17.61843" Z="78.9546" />
+				<Hotspot Name="Pirate Stalker" X="85.8717" Y="-17.61843" Z="80.9231" />
+				<Hotspot Name="Pirate Stalker" X="80.5884" Y="-17.60757" Z="79.4133" />
+				<Hotspot Name="Pirate Enforcer" X="81.961" Y="-17.6083" Z="83.08113" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Pirate Justice (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Battlemaster</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Pirate Battlemaster" X="91.4077" Y="-17.51573" Z="84.3741" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Missing Link">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Savage Elder Rakghoul</Mob>
+				<Mob>Festering Elder Rakghoul</Mob>
+				<Mob>Enraged Elder Rakghoul</Mob>
+				<Mob>Infectious Elder Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="95.82141" Y="-17.60682" Z="84.674" />
+				<Hotspot Name="My Location" X="93.15937" Y="-17.54605" Z="83.67854" />
+				<Hotspot Name="Festering Elder Rakghoul" X="98.09399" Y="-17.6088" Z="86.92043" />
+				<Hotspot Name="Enraged Elder Rakghoul" X="97.75029" Y="-17.6088" Z="86.90572" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="95.4226" Y="-17.6046" Z="95.979" />
+				<Hotspot Name="Enraged Elder Rakghoul" X="93.34283" Y="-17.60876" Z="88.66876" />
+				<Hotspot Name="Ghastly Elder Rakghoul" X="89.3417" Y="-17.60876" Z="91.27648" />
+				<Hotspot Name="Enraged Elder Rakghoul" X="90.35683" Y="-17.48468" Z="87.66253" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Threat Assessment (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Festering Elder Rakghoul</Mob>
+				<Mob>Infectious Elder Rakghoul</Mob>
+				<Mob>Monstrous Elder Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Festering Elder Rakghoul" X="93.76263" Y="-17.60876" Z="93.41637" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="95.40253" Y="-17.6046" Z="96.15092" />
+				<Hotspot Name="Monstrous Elder Rakghoul" X="92.62604" Y="-17.59947" Z="96.88946" />
+				<Hotspot Name="Monstrous Elder Rakghoul" X="95.34015" Y="-17.74909" Z="100.1266" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="98.17917" Y="-17.75271" Z="104.408" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="99.63932" Y="-17.12065" Z="108.6277" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="101.5732" Y="-17.37241" Z="111.1071" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="101.8031" Y="-18.76029" Z="109.3725" />
+				<Hotspot Name="Toxic Elder Rakghoul" X="105.8818" Y="-17.37074" Z="111.7809" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="107.5876" Y="-17.10165" Z="108.4724" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="109.3688" Y="-17.54927" Z="111.3704" />
+				<Hotspot Name="Infectious Elder Rakghoul" X="105.9052" Y="-18.77241" Z="105.5841" />
+				<Hotspot Name="Toxic Elder Rakghoul" X="108.153" Y="-18.76872" Z="107.407" />
+				<Hotspot Name="Monstrous Elder Rakghoul" X="100.7559" Y="-18.36911" Z="122.017" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Where Darkness Abides 3">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Nekghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Nekghoul" X="118.3985" Y="-17.14531" Z="116.955" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Operation Rakghoul (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Venomous Rakghoul</Mob>
+				<Mob>Contagious Rakghoul</Mob>
+				<Mob>Noxious Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Venomous Rakghoul" X="57.89151" Y="-20.65611" Z="36.95065" />
+				<Hotspot Name="Noxious Rakghoul" X="58.74325" Y="-20.66408" Z="36.84005" />
+				<Hotspot Name="Noxious Rakghoul" X="51.49568" Y="-20.41817" Z="37.32482" />
+				<Hotspot Name="Contagious Rakghoul" X="53.88029" Y="-20.23901" Z="40.18136" />
+				<Hotspot Name="Noxious Rakghoul" X="58.30935" Y="-19.93946" Z="40.85525" />
+				<Hotspot Name="Noxious Rakghoul" X="47.46616" Y="-21.55076" Z="29.89772" />
+				<Hotspot Name="Noxious Rakghoul" X="48.3024" Y="-20.97537" Z="23.56224" />
+				<Hotspot Name="Noxious Rakghoul" X="52.98423" Y="-19.34166" Z="45.93248" />
+				<Hotspot Name="Noxious Rakghoul" X="50.44632" Y="-19.73303" Z="41.86412" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Trouble at the Highway Ruins (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Gunner</Mob>
+				<Mob>Scavenger Raider</Mob>
+				<Mob>Scavenger Demolitionist</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Scavenger Gunner" X="71.64673" Y="-18.07961" Z="8.300007" />
+				<Hotspot Name="Scavenger Raider" X="67.2297" Y="-18.38057" Z="6.3293" />
+				<Hotspot Name="Scavenger Demolitionist" X="66.06914" Y="-18.27704" Z="2.545802" />
+				<Hotspot Name="Scavenger Gunner" X="72.1784" Y="-18.4894" Z="3.9595" />
+				<Hotspot Name="Scavenger Gunner" X="75.9994" Y="-18.62533" Z="15.2831" />
+				<Hotspot Name="Scavenger Gunner" X="83.0654" Y="-18.72905" Z="15.0741" />
+				<Hotspot Name="Scavenger Raider" X="84.01701" Y="-18.44509" Z="10.5724" />
+				<Hotspot Name="Scavenger Gunner" X="85.8032" Y="-18.67301" Z="18.6668" />
+				<Hotspot Name="Scavenger Raider" X="91.0912" Y="-18.66137" Z="16.696" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Swoop Bike Safari (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Bogstalker Prowler</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="122.5559" Y="-16.63184" Z="18.07435" />
+				<Hotspot Name="Bogstalker Prowler" X="112.582" Y="-18.48756" Z="28.02441" />
+				<Hotspot Name="Bogstalker Prowler" X="108.7347" Y="-18.18941" Z="22.70597" />
+				<Hotspot Name="Bogstalker Prowler" X="119.3401" Y="-16.63633" Z="24.48595" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Blaster Fodder (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Flesh-Eating Rakghoul</Mob>
+				<Mob>Scavenging Rakghoul</Mob>
+				<Mob>Infected Republic Soldier</Mob>
+				<Mob>Gruesome Rakghoul</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="40.97122" Y="-13.91006" Z="-41.27464" />
+				<Hotspot Name="Flesh-Eating Rakghoul" X="48.99661" Y="-14.21062" Z="-44.02174" />
+				<Hotspot Name="Scavenging Rakghoul" X="50.61166" Y="-15.05297" Z="-48.80247" />
+				<Hotspot Name="Infected Republic Soldier" X="44.1757" Y="-15.27044" Z="-50.0227" />
+				<Hotspot Name="Scavenging Rakghoul" X="43.95106" Y="-16.29753" Z="-55.85452" />
+				<Hotspot Name="Gruesome Rakghoul" X="33.9508" Y="-16.08186" Z="-54.6498" />
+				<Hotspot Name="Scavenging Rakghoul" X="33.50932" Y="-17.73394" Z="-59.06566" />
+				<Hotspot Name="Infected Republic Soldier" X="47.1399" Y="-19.81051" Z="-75.7559" />
+				<Hotspot Name="Flesh-Eating Rakghoul" X="51.61768" Y="-19.07903" Z="-71.59836" />
+				<Hotspot Name="Flesh-Eating Rakghoul" X="50.39097" Y="-18.09933" Z="-66.06921" />
+				<Hotspot Name="Flesh-Eating Rakghoul" X="44.75702" Y="-17.26695" Z="-61.35128" />
+			</Hotspots>
+		</GrindArea>    
+
+		<GrindArea Name="Final Stage - Threat Assessment (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rakghoul Behemoth</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Rakghoul Behemoth" X="105.03" Y="-18.7703" Z="108.8733" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Banish the Shadows (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Shadow Operative</Mob>
+				<Mob>Imperial Stalker Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Shadow Operative" X="-97.78103" Y="-19.599" Z="10.52063" />
+				<Hotspot Name="Imperial Shadow Operative" X="-102.7551" Y="-20.10971" Z="9.52005" />
+				<Hotspot Name="Imperial Stalker Droid" X="-100.9101" Y="-22.509" Z="10.1022" />
+				<Hotspot Name="Imperial Stalker Droid" X="-101.1656" Y="-22.50935" Z="12.7406" />
+				<Hotspot Name="Imperial Stalker Droid" X="-100.4613" Y="-22.509" Z="12.7489" />
+				<Hotspot Name="Imperial Shadow Operative" X="-98.16113" Y="-22.4998" Z="12.63439" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="The Architect of Annihilation 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Assassin Droid</Mob>
+				<Mob>Imperial Assassin</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Assassin Droid" X="-92.7144" Y="-23.499" Z="13.4543" />
+				<Hotspot Name="Imperial Assassin Droid" X="-96.1056" Y="-23.50002" Z="13.4453" />
+				<Hotspot Name="Imperial Assassin" X="-94.3857" Y="-23.50692" Z="13.248" />
+			</Hotspots>
+		</GrindArea>
+		
+		<GrindArea Name="The Architect of Annihilation 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Assassin Droid</Mob>
+				<Mob>Imperial Shadow Soldier</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Assassin Droid" X="-93.62429" Y="-23.5071" Z="12.8256" />
+				<Hotspot Name="Imperial Shadow Soldier" X="-94.3724" Y="-23.52765" Z="12.38588" />
+				<Hotspot Name="Imperial Shadow Soldier" X="-94.45566" Y="-23.53581" Z="12.58068" />
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="Clearing Godera's Lab (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Recon Gunner</Mob>
+				<Mob>Imperial Commando Droid</Mob>
+				<Mob>Imperial Recon Officer</Mob>
+				<Mob>Imperial Recon Specialist</Mob>				
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Recon Gunner" X="-42.4358" Y="-21.50326" Z="127.9102" />
+				<Hotspot Name="Imperial Commando Droid" X="-44.6035" Y="-21.32962" Z="130.6522" />
+				<Hotspot Name="Imperial Recon Officer" X="-40.5688" Y="-21.34076" Z="130.0046" />
+				<Hotspot Name="Imperial Recon Gunner" X="-37.7667" Y="-21.1219" Z="132.2514" />
+				<Hotspot Name="Imperial Recon Specialist" X="-38.528" Y="-21.3528" Z="128.9509" />
+				<Hotspot Name="Imperial Commando Droid" X="-39.9284" Y="-21.3441" Z="126.0707" />
+				<Hotspot Name="Imperial Recon Specialist" X="-45.0361" Y="-26.94055" Z="124.1206" />
+				<Hotspot Name="Imperial Recon Specialist" X="-47.48189" Y="-26.94064" Z="124.211" />
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="Catching up with Watcher One 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Shadow Commando</Mob>
+				<Mob>Imperial Shadow Captain</Mob>		
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Shadow Commando" X="-51.3175" Y="-26.92488" Z="141.5571" />
+				<Hotspot Name="Imperial Shadow Commando" X="-50.4533" Y="-26.92488" Z="140.8612" />
+				<Hotspot Name="Watcher One" X="-51.0645" Y="-26.919" Z="141.0966" />
+			</Hotspots>
+		</GrindArea>
+		
+		<GrindArea Name="A More Immediate Concern 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Savage Jurgoran</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Savage Jurgoran" X="-55.99848" Y="-23.76012" Z="34.25516" />
+				<Hotspot Name="Savage Jurgoran" X="-55.5104" Y="-23.76012" Z="33.49899" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="A More Immediate Concern 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rora Seake</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Rora Seake" X="-55.2235" Y="-23.76349" Z="34.1812" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Vanquishing the Vanguard (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Sniper</Mob>	
+				<Mob>Imperial Scout</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Sniper" X="60.7025" Y="-17.44327" Z="-38.9332" />
+				<Hotspot Name="Imperial Sniper" X="59.8648" Y="-17.8346" Z="-32.9374" />
+				<Hotspot Name="Imperial Scout" X="56.14158" Y="-18.25741" Z="-32.15428" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="The Rescue 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Operative</Mob>	
+				<Mob>Watcher One</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Operative" X="51.03449" Y="-18.43885" Z="-29.77417" />
+				<Hotspot Name="Imperial Operative" X="50.11883" Y="-18.42695" Z="-30.3535" />
+				<Hotspot Name="Watcher One" X="50.80866" Y="-18.42695" Z="-30.39873" />
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="Lost and Found 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger Scout</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Scavenger Scout" X="-119.7684" Y="-17.69979" Z="-32.72738" />
+				<Hotspot Name="Scavenger Scout" X="-119.9857" Y="-17.67729" Z="-33.71096" />
+				<Hotspot Name="Scavenger Scout" X="-117.7651" Y="-17.7394" Z="-32.35394" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Clear Out the Pipes (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Ferocious Rakghoul</Mob>
+				<Mob>Ravenous Rakghoul</Mob>	
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-51.11345" Y="-14.43831" Z="-20.46718" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Fallenspire Stronghold 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Kintan Strider</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Kintan Strider" X="33.48101" Y="-25.20428" Z="-43.74421" />
+			</Hotspots>
+		</GrindArea>			
+
+		<GrindArea Name="Not Welcome (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Trooper</Mob>
+				<Mob>Imperial Sergeant</Mob>
+				<Mob>Imperial Defense Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Trooper" X="-50.0664" Y="-19.95302" Z="154.8767" />
+				<Hotspot Name="Imperial Trooper" X="-47.899" Y="-19.80395" Z="157.4326" />
+				<Hotspot Name="Imperial Trooper" X="-49.2355" Y="-19.80173" Z="160.0979" />
+				<Hotspot Name="Imperial Trooper" X="-54.521" Y="-19.8037" Z="151.5047" />
+				<Hotspot Name="Imperial Defense Droid" X="-56.0813" Y="-19.95302" Z="154.0667" />
+				<Hotspot Name="Imperial Defense Droid" X="-54.4571" Y="-19.80352" Z="159.6752" />
+				<Hotspot Name="Imperial Defense Droid" X="-56.1428" Y="-19.80352" Z="157.6801" />
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="Liquidate the Laboratory (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Rifleman</Mob>
+				<Mob>Imperial Sentry</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Sentry" X="139.931" Y="-15.53281" Z="-59.2898" />
+				<Hotspot Name="Imperial Rifleman" X="140.0958" Y="-15.529" Z="-52.4531" />
+				<Hotspot Name="Imperial Sentry" X="144.1781" Y="-15.35518" Z="-52.8132" />
+				<Hotspot Name="My Location" X="143.6013" Y="-15.35518" Z="-58.46457" />
+				<Hotspot Name="Imperial Rifleman" X="147.268" Y="-15.35518" Z="-55.2856" />
+				<Hotspot Name="Imperial Sentry" X="147.2648" Y="-15.35518" Z="-52.49939" />	
+			</Hotspots>
+		</GrindArea>
+
+		<GrindArea Name="The Arrangement 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Needles</Mob>
+				<Mob>Vorzoth</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Needles" X="143.2636" Y="-14.20756" Z="-58.4022" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Scatter the Camp (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Watchman</Mob>
+				<Mob>Pirate Recruit</Mob>
+				<Mob>Pirate Gunner Droid</Mob>
+				<Mob>Pirate Captain</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-5.728185" Y="-12.37922" Z="-49.25962" />
+				<Hotspot Name="Pirate Watchman" X="-2.944971" Y="-12.39875" Z="-49.08487" />
+				<Hotspot Name="Pirate Watchman" X="-4.7853" Y="-12.3933" Z="-45.3997" />
+				<Hotspot Name="Pirate Gunner Droid" X="-6.7464" Y="-12.38241" Z="-43.6809" />
+				<Hotspot Name="Pirate Captain" X="-9.8449" Y="-12.37653" Z="-46.8646" />
+				<Hotspot Name="Pirate Watchman" X="-13.3754" Y="-12.37653" Z="-49.7462" />
+				<Hotspot Name="Pirate Watchman" X="-13.0778" Y="-12.37653" Z="-46.253" />
+				<Hotspot Name="Pirate Recruit" X="-13.6519" Y="-12.38044" Z="-44.3796" />
+				<Hotspot Name="Pirate Watchman" X="-9.699449" Y="-12.38159" Z="-43.07479" />
+			</Hotspots>
+		</GrindArea>	
+		
+		<GrindArea Name="Clear Out Rasaran Storage Facility (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Pirate Hauler Droid</Mob>
+				<Mob>Pirate Tracker</Mob>
+				<Mob>Pirate Ransacker</Mob>
+				<Mob>Pirate Shooter</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Pirate Tracker" X="-74.91418" Y="-23.56826" Z="122.8461" />
+				<Hotspot Name="Pirate Tracker" X="-74.36488" Y="-24.19731" Z="128.6496" />
+				<Hotspot Name="Pirate Tracker" X="-76.92165" Y="-24.20488" Z="131.3804" />
+				<Hotspot Name="Pirate Shooter" X="-80.8391" Y="-24.00708" Z="128.6033" />
+				<Hotspot Name="Pirate Tracker" X="-73.46619" Y="-24.41734" Z="133.4327" />
+				<Hotspot Name="Pirate Ransacker" X="-78.46999" Y="-24.3939" Z="135.5206" />
+				<Hotspot Name="Pirate Shooter" X="-80.36864" Y="-24.20708" Z="132.3016" />
+				<Hotspot Name="Pirate Ransacker" X="-73.8206" Y="-30.80774" Z="142.7413" />
+				<Hotspot Name="Pirate Hauler Droid" X="-76.58438" Y="-30.80437" Z="144.2269" />
+				<Hotspot Name="Pirate Shooter" X="-81.27814" Y="-30.77641" Z="144.9666" />
+				<Hotspot Name="Pirate Tracker" X="-84.3184" Y="-30.77641" Z="144.7284" />
+				<Hotspot Name="Pirate Hauler Droid" X="-88.10069" Y="-30.80352" Z="144.1807" />
+				<Hotspot Name="Pirate Shooter" X="-85.81261" Y="-30.76815" Z="148.043" />
+				<Hotspot Name="Pirate Hauler Droid" X="-87.8602" Y="-30.77641" Z="148.8663" />
+				<Hotspot Name="Pirate Shooter" X="-85.0563" Y="-30.77951" Z="152.7429" />
+				<Hotspot Name="Pirate Hauler Droid" X="-81.7639" Y="-30.79202" Z="153.4846" />
+				<Hotspot Name="Pirate Hauler Droid" X="-75.49641" Y="-30.77951" Z="147.1081" />
+				<Hotspot Name="Pirate Shooter" X="-75.80061" Y="-30.79923" Z="152.3349" />
+			</Hotspots>
+		</GrindArea>	
+
+		<GrindArea Name="Illusions 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Guard Droid</Mob>
+				<Mob>Tyrodall</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Tyrodall" X="-75.2654" Y="-30.802" Z="164.1022" />
+			</Hotspots>
+		</GrindArea>		
+
+		<GrindArea Name="The Vault 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Mercenary</Mob>
+				<Mob>Roksur</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Roksur" X="115.8759" Y="-19.01828" Z="-31.48846" />
+			</Hotspots>
+		</GrindArea>	
+		
+	</GrindAreas>
+
+
+	<Questing>
+	
+
+
+	
+		<!-- Consular - The Expedition 4 -->
+		<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsQuestComplete(0xE000660EC83C3BEF)))">
+		 <If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 4)))">
+		 		<UserDialog Title="Orlok" Message="Get to the hangar and walk out of the elevator." />
+			<MoveTo QuestId="0xE000660EC83C3BEF" Name="My Location" X="-205.2017" Y="-19.259" Z="83.18654" />
+		 </If>
+		 <!-- Skip 5 -->
+		</If>
+		
+		
+		<!-- Consular - The Expedition -->
+		<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsQuestComplete(0xE000660EC83C3BEF)))">
+		 <If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 6)))">
+			<MoveTo QuestId="0xE000660EC83C3BEF" Name="My Location" X="-131.0266" Y="-17.82997" Z="-12.92115" />
+								<UserDialog Title="Orlok" Message="Quick Travel to Taxi and use it." />
+		 </If>
+		 <If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 7)))">
+			<Grind GrindRef="The Expedition 7" While="(not IsStepComplete(0xE000660EC83C3BEF, 7))" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 8)))">
+			<TalkTo QuestId="0xE000660EC83C3BEF" Name="T8-C3" X="-131.2602" Y="-17.8243" Z="-12.62324" />
+		 </If>
+		</If>
+	
+		
+
+
+		
+		
+		<!-- Consular - The Expedition (Bonus) 0xE000660EC83C3BEF 9 -->
+		<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsQuestComplete(0xE000660EC83C3BEF)))">
+			<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 9)))">
+			
+				<MoveTo QuestId="0xE000660EC83C3BEF" Name="Going to find the Missing Expedition" X="-3.015396" Y="-10.62203" Z="-57.75267" />
+			</If>
+			<!-- Auto-skip 10 -->
+			
+			<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 11)))">
+				<AnswerHolocomCall QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" />
+				<WaitTimer QuestId="1" WaitTime="3" />
+			</If>
+
+			<CompleteQuest QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" RewardIndex="1" />
+			<!-- Open Rudimentary Premium Storage Case -->
+			<!-- The Junction 0xE0006977F87F6A5D -->
+		</If>
+		
+		
+		
+		<!-- Consular - The Junction -->
+		<If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsQuestComplete(0xE0006977F87F6A5D)))">
+		 <If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsStepComplete(0xE0006977F87F6A5D, 2)))">
+			<UserDialog Title="Orlok" Message="Manually use elevator." />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Blast Door Controls" X="-105.9348" Y="-32.07085" Z="88.48407" />
+			<Interact Name="Blast Door Controls" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="5" X="-105.9348" Y="-32.07085" Z="88.48407" />
+			<WaitTimer QuestId="1" WaitTime="3" />
+			
+		 </If>
+		 <If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 2)))">
+<UserDialog Title="Orlok" Message="Manually use elevator." />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Blast Door Controls" X="-105.9348" Y="-32.07085" Z="88.48407" />
+			<Interact Name="Blast Door Controls" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="5" X="-105.9348" Y="-32.07085" Z="88.48407" />
+			<WaitTimer QuestId="1" WaitTime="3" />
+		 </If>
+
+		 <While Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 3)))">
+			<!-- Interact with Junction Worker s and then it should disappear -->
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" X="-100.0784" Y="-32.06877" Z="87.152" />
+			<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" X="-100.0784" Y="-32.06877" Z="87.152" />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" X="-101.5725" Y="-32.07087" Z="84.185" />			
+			<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" X="-101.5725" Y="-32.07087" Z="84.185" />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" X="-98.05119" Y="-32.06877" Z="84.2587" />
+			<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" X="-98.05119" Y="-32.06877" Z="84.2587" />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" X="-94.7327" Y="-32.07085" Z="87.9388" />
+			<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" X="-94.7327" Y="-32.07085" Z="87.9388" />
+			<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" X="-99.72209" Y="-32.06877" Z="89.5752" />
+			<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" X="-99.72209" Y="-32.06877" Z="89.5752" />
+		 </While>
+		 <If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 4)))">
+			<!-- Move back to elevator
+			-->
+			<TurnInQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" TurnInName="Security Chief" X="-106.7144" Y="-24.07085" Z="104.5993" />
+			<CompleteQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" RewardIndex="2" />
+			<!-- Auto accept Consular - Rakghoul Invasion (Bonus) 0xE0005896427A1928 -->
+		 </If>
+		</If>
+
+		<!-- Consular - Rakghoul Invasion 2 -->
+		<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsQuestComplete(0xE0005896427A1928)))">
+		 <If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 2)))">
+			<AnswerHolocomCall QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" />
+		 </If>
+		</If>
+		
+		
+
+		
+		<!-- Consular - Rakghoul Invasion -->
+		<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsQuestComplete(0xE0005896427A1928)))">
+
+<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" X="-206.3995" Y="-19.259" Z="84.62611" />
+			<JumpTo 	QuestId="1" 
+							X="-206.5343" Y="-19.04475" Z="84.03036" 
+							EndX="-206.6626" EndY="-19.05488" EndZ="83.38588" 
+							JumpRotation="11.76874" />
+			
+			<MoveTo QuestId="0xE0005896427A1928" IgnoreMesh="True" Name="My Location" X="-206.5785" Y="-19.049" Z="83.68601" />
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-207.2375" Y="-19.05488" Z="83.62514" />
+			
+			<TalkTo QuestId="0xE0005896427A1928" Name="Captain Nelex" X="-207.9778" Y="-19.05488" Z="83.6408" />
+			
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-208.2498" Y="-19.05488" Z="84.86176" />
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-207.6305" Y="-19.049" Z="85.03649" />
+			<JumpTo 	QuestId="1" 
+							X="-207.6375" Y="-19.049" Z="85.03577" 
+							EndX="-206.2685" EndY="-19.259" EndZ="84.83897"
+							JumpRotation="-81.81931" />
+			
+
+		 <If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 4)))">
+		  <While Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 0)))">
+		  <MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-214.9105" Y="-18.864" Z="111.4418" />
+			<UseObject QuestId="0xE0005896427A1928" Name="Eastern Passage" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" X="-214.9105" Y="-18.864" Z="111.4418" />
+		  </While>
+		  <While Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 1)))">
+		  <MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-224.0442" Y="-18.864" Z="111.434" />
+			<UseObject QuestId="0xE0005896427A1928" Name="Western Passage" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" X="-224.0442" Y="-18.864" Z="111.434" />
+		  </While>
+		 </If>
+		 <While Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 5)))">
+			<MoveTo QuestId="0xE0005896427A1928" Name="Ripclaw" X="-222.0614" Y="-20.299" Z="107.5286" />
+			<WaitTimer QuestId="1" WaitTime="3" />
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-221.7444" Y="-20.299" Z="107.4206" />
+			<UseObject QuestId="0xE0005896427A1928" Name="Binary Load Lifter" BranchId="1" StepId="5" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="7" X="-221.7444" Y="-20.299" Z="107.4206" />
+		 </While>
+		 
+		 <If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 6)))">
+			<!-- return to Nelex function -->
+			<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" X="-206.3995" Y="-19.259" Z="84.62611" />
+			<JumpTo 	QuestId="1" 
+							X="-206.5343" Y="-19.04475" Z="84.03036" 
+							EndX="-206.6626" EndY="-19.05488" EndZ="83.38588" 
+							JumpRotation="11.76874" />
+			
+			<MoveTo QuestId="0xE0005896427A1928" IgnoreMesh="True" Name="My Location" X="-206.5785" Y="-19.049" Z="83.68601" />
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-207.2375" Y="-19.05488" Z="83.62514" />
+			
+			<TalkTo QuestId="0xE0005896427A1928" Name="Captain Nelex" X="-207.8715" Y="-19.05" Z="83.7324" />
+
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-208.2498" Y="-19.05488" Z="84.86176" />
+			<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-207.6305" Y="-19.049" Z="85.03649" />
+			<JumpTo 	QuestId="1" 
+							X="-207.6375" Y="-19.049" Z="85.03577" 
+							EndX="-206.2685" EndY="-19.259" EndZ="84.83897"
+							JumpRotation="-81.81931" />			
+		 </If>
+			<CompleteQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" RewardIndex="1" />
+		<UserDialog Title="Orlok" Message="Quick Travel to base and use Taxi." />
+
+			
+	
+<MoveTo QuestId="0xE0005896427A1928" Name="My Location" X="-183.4904" Y="-20.01153" Z="50.9324" />	
+<UserDialog Title="Orlok" Message="Use Taxi." />				
+		</If>
+		
+		<!-- Consular - Super Reactor (Bonus) -->
+		<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsQuestComplete(0xE00072624DFC54F8)))">
+		 <If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 1, 2)))">
+			<!-- Elevator here
+			moveto
+			[18:17:00.321 N] <Hotspot Name="My Location" X="49.39503" Y="-17.493" Z="-7.675207" />
+			top of elevator
+			[18:17:29.539 N] <Hotspot Name="My Location" X="49.40854" Y="-17.52323" Z="-6.682187" />
+			bottom of elevator
+			[18:17:45.522 N] <Hotspot Name="My Location" X="49.40854" Y="-27.03153" Z="-6.682187" />
+			get off and go here
+			[18:17:51.839 N] <Hotspot Name="My Location" X="49.42408" Y="-27.0282" Z="-7.727413" />
+			-->
+			<MoveTo QuestId="0xE00072624DFC54F8" Name="My Location" X="55.1852" Y="-25.74143" Z="-23.72658" />
+		 </If>
+		 <If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 2, 2)))">
+			<Grind GrindRef="Super Reactor 2, 2" While="(not IsBranchStepComplete(0xE00072624DFC54F8, 2, 2))" />
+		 </If>
+		 <If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 2, 3)))">
+			<TalkTo QuestId="0xE00072624DFC54F8" Name="Master Cin Tykan" X="56.24223" Y="-25.45085" Z="-26.02337" />
+		 </If>
+		
+<UserDialog Title="Orlok" Message="USe Quick Travel back to base or go via back up elevator if you want extra XP as bot runs back to base." />
+		</If>
+
+		
+
+		
+		
+		<!-- Consular - Super Reactor -->
+		<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsQuestComplete(0xE00072624DFC54F8)))">
+			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 4, 2)))">
+				<TalkTo QuestId="0xE00072624DFC54F8" Name="Captain Nelex" X="-207.8961" Y="-19.049" Z="83.7295" />
+			</If>
+		</If>
+
+		
+		
+		
+		<!-- Consular - Super Reactor -->
+		<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsQuestComplete(0xE00072624DFC54F8)))">
+			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 8, 2)))">
+				<If Condition="Me.Position.Y &gt; -30">
+<UserDialog Title="Orlok" Message="Move your booty back to your ship to finish this profile! =D Donate if you can! <3." />
+				</If>
+				
+			</If>
+		</If> 
+
+	
+	
+		
+	</Questing>    
+
+</Profile>

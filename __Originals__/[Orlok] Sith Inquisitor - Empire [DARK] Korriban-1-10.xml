@@ -1,0 +1,255 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[EMPIRE|DARK] Korriban 1-10 - Recreated by Orlok Raven</Name>
+<ForceAlignment Type="Dark" AutoSkip="True" />
+<!-- Beginning of Grind References -->	
+<GrindAreas>
+
+<!-- First Grind Reference -->
+<GrindArea Name="Reclaiming the Valley">
+<MinLevel>1</MinLevel>
+<MaxLevel>50</MaxLevel>
+<Mobs>
+<Mob>K'lor'slug Forager</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot X="12.81861" Y="-0.9160324" Z="5.116463" Name="South"/>
+<Hotspot X="7.25055" Y="-1.630702" Z="5.163111" Name="Center"/>
+<Hotspot X="-0.05298621" Y="-1.608829" Z="3.756884" Name="North/West"/>
+<Hotspot X="2.896528" Y="-1.639983" Z="-4.145567" Name="North/East"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Second Grind Reference -->
+<GrindArea Name="Martial Law 4">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Balek</Mob>
+<Mob>Wydr</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Balek" X="-30.84436" Y="3.801014" Z="0.01873569"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Third Grind Reference -->
+<GrindArea Name="Go to Dromund Kaas 2">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Thug</Mob>
+<Mob>Apprentice Ortosin</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Apprentice Ortosin" X="-31.06841" Y="3.801" Z="2.488594"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Fourth Grind Reference -->
+<GrindArea Name="Spindrall's Acolytes">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Spindrall's Acolyte</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="My Location" X="10.60293" Y="-5.22648" Z="19.71964"/>
+<Hotspot Name="My Location" X="10.5957" Y="-5.221856" Z="17.92851"/>
+<Hotspot Name="My Location" X="9.534595" Y="-5.248999" Z="18.25602"/>
+<Hotspot Name="My Location" X="9.453938" Y="-5.248999" Z="19.3616"/>
+</Hotspots>
+</GrindArea>
+<!-- End of Grind References -->
+</GrindAreas>	
+<Questing>
+
+<!--  Inquisitor - Of Mind and Matter  -->
+<If Condition="((HasQuest(0xE000B378BD427FF4)) and (not IsQuestComplete(0xE000B378BD427FF4)))">
+<If Condition="((HasQuest(0xE000B378BD427FF4)) and (not IsBranchStepComplete(0xE000B378BD427FF4, 1, 2)))">
+<TalkTo QuestId="0xE000B378BD427FF4" Name="Overseer Harkun" X="11.4355" Y="-0.8989855" Z="-6.56"/>
+</If>
+<!--  Cleanse the Valley (Bonus)  -->
+<If Condition="(not IsQuestComplete(0xE000F0833C9D2F06))">
+<Grind GrindRef="Reclaiming the Valley" While="(not IsQuestComplete(0xE000F0833C9D2F06))"/>
+</If>
+</If>
+
+
+
+<!--  Inquisitor - Of Mind and Matter  -->
+<If Condition="((HasQuest(0xE000B378BD427FF4)) and (not IsQuestComplete(0xE000B378BD427FF4)))">
+<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 3)">
+<MoveTo QuestId="0xE000B378BD427FF4" X="3.664876" Y="-4.105274" Z="18.69017"/>
+</If>
+<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 4)">
+<TalkTo QuestId="0xE000B378BD427FF4" Name="Spindrall" WaitTime="2000" X="13.30599" Y="-4.627172" Z="18.81192"/>
+</If>
+<Grind GrindRef="Spindrall's Acolytes" While="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 7)"/>
+<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 8)">
+<TalkTo QuestId="0xE000B378BD427FF4" Name="Spindrall" WaitTime="1000" X="13.30599" Y="-4.627172" Z="18.81192"/>
+</If>
+</If>
+
+
+
+<!--  Inq - Pickup A Fighting Chance  -->
+<If Condition="(Me.Class == CharacterClass.Inquisitor)">
+<PickUpQuest QuestName="A Fighting Chance" QuestId="0xE00056D4A2E63353" GiverName="Assistant Overseer Markan" X="-26.6306" Y="1.800007" Z="-0.7163"/>
+<If Condition="((HasQuest(0xE00056D4A2E63353)) and (not IsQuestComplete(0xE00056D4A2E63353)))">
+<TurnInQuest QuestName="A Fighting Chance" TurnInName="Lord Samus" QuestId="0xE00056D4A2E63353" X="-44.1836" Y="3.802763" Z="-2.5856"/>
+<CompleteQuest QuestName="A Fighting Chance" QuestId="0xE00056D4A2E63353"/>
+</If>
+</If>
+<!--  Turnin Inq - Of Mind and Matter  -->
+<If Condition="((HasQuest(0xE000B378BD427FF4)) and (not IsQuestComplete(0xE000B378BD427FF4)))">
+<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 9)">
+<MoveTo QuestId="0xE000B378BD427FF4" X="-27.0801" Y="1.400352" Z="-9.3212"/>
+</If>
+<CompleteQuest QuestName="Of Mind and Matter" QuestId="0xE000B378BD427FF4"/>
+<!--  The Plight Of The Acolyte  -->
+</If>
+<!--  Inq - The Plight Of The Acolyte and Turnin  -->
+<If Condition="((HasQuest(0xE000E1EE4FB80D68)) and (not IsQuestComplete(0xE000E1EE4FB80D68)))">
+<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 2)">
+<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Inquisitor Zyn" WaitTime="2" X="-46.65913" Y="1.803662" Z="-4.127458"/>
+<WaitTimer QuestId="1" WaitTime="3"/>
+</If>
+<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 3)">
+<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Alif" WaitTime="2" X="-46.02026" Y="1.834038" Z="-4.694041"/>
+<WaitTimer QuestId="1" WaitTime="3"/>
+</If>
+<While Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 4)">
+<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Inquisitor Zyn" WaitTime="2" X="-46.65913" Y="1.803662" Z="-4.127458"/>
+<WaitTimer QuestId="1" WaitTime="3"/>
+</While>
+<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 5)">
+<MoveTo QuestId="0xE000E1EE4FB80D68" X="-27.07441" Y="1.400398" Z="-9.58121"/>
+<WaitTimer QuestId="1" WaitTime="3"/>
+</If>
+<CompleteQuest QuestName="The Plight Of The Acolyte" QuestId="0xE000E1EE4FB80D68"/>
+<!--  A Little Knowledge 0xE000936144F2E728  -->
+</If>
+
+
+
+
+<!--  Inquisitor - A Little Knowledge  -->
+<If Condition="((HasQuest(0xE000936144F2E728)) and (not IsQuestComplete(0xE000936144F2E728)))">
+<If Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 3)">
+<UserDialog Title="Orlok Raven" Message="Take Taxi to Lower Wild's."/>
+<MoveTo QuestId="0xE000936144F2E728" X="35.84739" Y="-18.29934" Z="-32.3595"/>
+</If>
+<UseObject QuestId="0xE000936144F2E728" Name="Great Stone Monument" BranchId="1" StepId="4" WaitTime="1" X="31.78556" Y="-17.66019" Z="-32.08852"/>
+<Grind GrindRef="A Little Knowledge 5" While="(not IsBranchStepComplete(0xE000936144F2E728, 1, 5))"/>
+<While Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
+<UserDialog Title="Orlok Raven" Message="You will have to manually shoot lightning at the shard on the second option."/>
+</While>
+</If>
+
+
+
+
+<!--  Inquisitor - A Little Knowledge  -->
+<If Condition="((HasQuest(0xE000936144F2E728)) and (not IsQuestComplete(0xE000936144F2E728)))">
+<UserDialog Title="Orlok Raven" Message="Quick Travel back to Overseer Harkun."/>
+<TurnInQuest QuestName="A Little Knowledge" QuestId="0xE000936144F2E728" TurnInName="Overseer Harkun" X="-26.9008" Y="1.400356" Z="-9.36"/>
+<CompleteQuest QuestName="A Little Knowledge" QuestId="0xE000936144F2E728"/>
+</If>
+
+
+
+
+
+
+<!--  Inquisitor - The Secret of Tulak Hord  -->
+<If Condition="((HasQuest(0xE00058866C3A8657)) and (not IsQuestComplete(0xE00058866C3A8657)))">
+<MoveTo QuestId="0xE00058866C3A8657" X="-4.366779" Y="-0.2077897" Z="29.12634"/>
+<UseObject QuestId="0xE00058866C3A8657" Name="Antechamber Text" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="6000" X="-4.366779" Y="-0.2077897" Z="29.12634"/>
+<MoveTo QuestId="0xE00058866C3A8657" X="4.498157" Y="-3.049044" Z="49.94402"/>
+<UseObject QuestId="0xE00058866C3A8657" Name="Archives Text" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="6000" X="4.498157" Y="-3.049044" Z="49.94402"/>
+<MoveTo QuestId="0xE00058866C3A8657" X="18.05442" Y="2.049957" Z="52.03246"/>
+<UseObject QuestId="0xE00058866C3A8657" Name="Machine Vault Text" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="6000" X="18.05442" Y="2.049957" Z="52.03246"/>
+</If>
+
+
+
+
+
+<!--  Turnin Inquisitor - The Secret of Tulak Hord  -->
+<If Condition="((HasQuest(0xE00058866C3A8657)) and (not IsQuestComplete(0xE00058866C3A8657)))">
+<TurnInQuest QuestName="The Secret of Tulak Hord" QuestId="0xE00058866C3A8657" TurnInName="Overseer Harkun" X="-27.1045" Y="1.40046" Z="-9.9092"/>
+<CompleteQuest QuestName="The Secret of Tulak Hord" QuestId="0xE00058866C3A8657"/>
+</If>
+<!--  Inquisitor - Martial Law  -->
+<If Condition="((HasQuest(0xE00000C202BB39B6)) and (not IsQuestComplete(0xE00000C202BB39B6)))">
+<If Condition="HasQuest(0xE00000C202BB39B6) and not IsStepComplete(0xE00000C202BB39B6, 2)">
+<MoveTo QuestId="0xE00000C202BB39B6" X="-30.71463" Y="3.801014" Z="-0.09478556"/>
+</If>
+<Grind GrindRef="Martial Law 4" While="(not IsBranchStepComplete(0xE00000C202BB39B6, 1, 4))"/>
+<TurnInQuest QuestName="Martial Law" QuestId="0xE00000C202BB39B6" TurnInName="Overseer Harkun" X="-26.87529" Y="1.400401" Z="-9.598235"/>
+<CompleteQuest QuestName="Martial Law" QuestId="0xE00000C202BB39B6"/>
+</If>
+
+
+
+
+<!--  Inquisitor - A Map for the Future  -->
+<If Condition="((HasQuest(0xE000B979D88A5EDB)) and (not IsQuestComplete(0xE000B979D88A5EDB)))">
+<MoveTo QuestId="0xE000B979D88A5EDB" X="-1.701763" Y="-1.215889" Z="-20.64453"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Rod of Hate" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="3000" X="-1.701763" Y="-1.215889" Z="-20.64453"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="-3.43625" Y="-1.9585" Z="-31.96252"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Rod of Fury" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="3000" X="-3.43625" Y="-1.9585" Z="-31.96252"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="2.303378" Y="-3.124015" Z="-38.06258"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Rod of Wrath" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="3000" X="2.303378" Y="-3.124015" Z="-38.06258"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="-1.698115" Y="-3.214857" Z="-36.22374"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Rod of Despair" BranchId="1" StepId="2" TaskId="3" IgnoreLOS="True" WaitTime="3000" X="-1.698115" Y="-3.214857" Z="-36.22374"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="1.456518" Y="-3.219594" Z="-64.76706"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Altar of Hate" BranchId="1" StepId="3" TaskId="1" WaitTime="3000" X="1.456518" Y="-3.219594" Z="-64.76706"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="3.134564" Y="-3.210928" Z="-64.68137"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Altar of Fury" BranchId="1" StepId="3" TaskId="2" WaitTime="3000" X="3.134564" Y="-3.210928" Z="-64.68137"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="3.109254" Y="-3.233682" Z="-63.07813"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Altar of Wrath" BranchId="1" StepId="3" TaskId="3" WaitTime="3000" X="3.109254" Y="-3.233682" Z="-63.07813"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="1.428332" Y="-3.21384" Z="-63.03456"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Altar of Despair" BranchId="1" StepId="3" TaskId="4" WaitTime="3000" X="1.428332" Y="-3.21384" Z="-63.03456"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="2.283235" Y="-3.070905" Z="-63.92459"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Shrine of Agony" BranchId="1" StepId="4" WaitTime="1000" X="2.283235" Y="-3.070905" Z="-63.92459"/>
+
+<While Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 8)">
+<TalkTo QuestId="0xE000B979D88A5EDB" Name="Khem Val" X="2.3303" Y="-3.198093" Z="-57.4871"/>
+</While>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="8.220822" Y="-3.099" Z="-56.94746"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Debris Wall" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="4000" X="8.220822" Y="-3.099" Z="-56.94746"/>
+<MoveTo QuestId="0xE000B979D88A5EDB" X="18.99324" Y="-3.581271" Z="-63.87521"/>
+<UseObject QuestId="0xE000B979D88A5EDB" Name="Naga Sadow's Ancient Map" BranchId="1" StepId="10" IgnoreLOS="True" WaitTime="4000" X="18.99324" Y="-3.581271" Z="-63.87521"/>
+<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 11)">
+<MoveTo QuestId="0xE000B979D88A5EDB" X="-27.12252" Y="1.400353" Z="-9.283878"/>
+</If>
+<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 13)">
+<TalkTo QuestId="0xE000B979D88A5EDB" Name="Lord Zash" X="-29.8994" Y="3.901" Z="6.5851"/>
+</If>
+<CompleteQuest QuestName="A Map for the Future" QuestId="0xE000B979D88A5EDB" RewardIndex="1"/>
+</If>
+
+<!--  Inquisitor - Go to Dromund Kaas 2  -->
+<If Condition="((HasQuest(0xE0008DB4769571D5)) and (not IsQuestComplete(0xE0008DB4769571D5)))">
+<If Condition="((HasQuest(0xE0008DB4769571D5)) and (not IsBranchStepComplete(0xE0008DB4769571D5, 1, 2)))">
+<Grind GrindRef="Go to Dromund Kaas 2" While="(not IsBranchStepComplete(0xE0008DB4769571D5, 1, 2))"/>
+</If>
+</If>
+
+
+
+
+<!--  Travel to Imperial Fleet - Inq, Warrior  -->
+<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE0008DB4769571D5)) and (BuddyTor.Client.AreaID == 0x4000000106296B6D)">
+<MoveTo QuestId="0xE0008DB4769571D5" X="14.21082" Y="0.7897972" Z="12.77711"/>
+<UserDialog Title="Orlok Raven" Message="Manually fly to the Imperial Fleet, thank you for using my profile! Please donate if possible!"/>
+<WaitTimer QuestId="1" WaitTime="30"/>
+</If>
+
+
+
+
+
+</Questing>    
+</Profile>

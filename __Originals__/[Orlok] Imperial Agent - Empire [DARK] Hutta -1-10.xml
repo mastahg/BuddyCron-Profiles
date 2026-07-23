@@ -1,0 +1,380 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[EMPIRE|DARK] Hutta 1-10 - Recreated by Orlok Raven</Name>
+<ForceAlignment Type="Dark" AutoSkip="True" />
+
+<!-- Beginning of Grind References -->	
+<GrindAreas>
+
+<GrindArea Name="Vexx's Safehouse">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Hired Outlaw</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="My Location" X="-41.50456" Y="1.228285" Z="40.63096"/>
+<Hotspot Name="My Location" X="-40.26883" Y="1.227293" Z="38.4526"/>
+<Hotspot Name="My Location" X="-38.35907" Y="1.376182" Z="38.47738"/>
+</Hotspots>
+</GrindArea>
+
+<!-- First Grind References -->	
+<GrindArea Name="Leave No Witnesses">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Fa'athra Thief</Mob>
+<Mob>Fa'athra Master Thief</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="My Location" X="-50.65459" Y="1.32339" Z="39.48941"/>
+<Hotspot Name="My Location" X="-51.95601" Y="1.3994" Z="40.10004"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Second Grind References -->	
+<GrindArea Name="Economies of Scale 7">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>SP-3R Excavation Droid</Mob>
+<Mob>Mining Droid</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="SP-3R Excavation Droid" X="41.18762" Y="3.56582" Z="19.65657"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Third Grind References -->
+<GrindArea Name="Change of Plans 3">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Karrels Javis's Bodyguard</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Karrels Javis's Bodyguard" X="-44.68602" Y="4.40612" Z="62.71418"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Fourth Grind References -->
+<GrindArea Name="The New Truth">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Fa'athra Palace Lieutenant</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="The New Truth" X="54.3559" Y="6.720955" Z="67.50856"/>
+<Hotspot Name="The New Truth" X="57.94603" Y="6.651" Z="67.5161"/>
+<Hotspot Name="The New Truth" X="60.75704" Y="6.661715" Z="67.50939"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Fifth Grind References -->
+<GrindArea Name="Nothing Is Ever Easy 2 2">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>The Red Blade</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="The Red Blade" X="-79.98521" Y="2.3473" Z="50.1678"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Sixth Grind References -->
+<GrindArea Name="Acquiring Disguise">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>Fa'athra Industrial Guard</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Acquiring Disguise" X="27.16055" Y="1.135495" Z="20.15441"/>
+<Hotspot Name="Acquiring Disguise" X="23.84074" Y="1.134742" Z="17.79943"/>
+<Hotspot Name="Acquiring Disguise" X="21.67775" Y="1.136625" Z="15.24883"/>
+</Hotspots>
+</GrindArea>
+
+<!-- Seventh Grind References -->
+<GrindArea Name="Nothing Is Ever Easy 2 2">
+<MinLevel>1</MinLevel>
+<MaxLevel>51</MaxLevel>
+<Mobs>
+<Mob>The Red Blade</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="The Red Blade" X="-79.98521" Y="2.3473" Z="50.1678"/>
+</Hotspots>
+</GrindArea>
+
+<!-- End of Grind References -->
+</GrindAreas>	
+
+	
+<Questing>
+
+<!--  Agent - Claim Your New Identity  -->
+<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 2)">
+<MoveTo QuestId="0xE000DE0B067099C0" X="-43.4214" Y="1.773912" Z="19.77494"/>
+<UseObject Name="Cantina Holoterminal" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="2" UseRange="20" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="1" X="-43.4214" Y="1.773912" Z="19.77494"/>
+</If>
+
+<!--  Agent - Claim Your New Identity and Turnin  -->
+<If Condition="((HasQuest(0xE000DE0B067099C0)) and (not IsQuestComplete(0xE000DE0B067099C0)))">
+<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 3)">
+<WaitTimer WaitTime="5"/>
+<TalkTo QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="3" Name="Jheeg" X="-44.9828" Y="1.218928" Z="31.3568"/>
+</If>
+<If Condition="(not IsQuestComplete(0xE00043C859E34E2F))">
+<Grind GrindRef="Leave No Witnesses" While="(not IsQuestComplete(0xE00043C859E34E2F))"/>
+</If>
+<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 5)">
+<UseObject Name="Stolen Tribute" QuestId="0xE000DE0B067099C0" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="3" X="-52.00552" Y="1.493211" Z="40.5127"/>
+</If>
+<WaitTimer WaitTime="5"/>
+<TurnInQuest QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" TurnInName="Jheeg" X="-44.9828" Y="1.218928" Z="31.3568"/>
+<CompleteQuest QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0"/>
+</If>
+
+
+<!--  Agent - Soiree  -->
+<If Condition="((HasQuest(0xE000A58671E7E58B)) and (not IsQuestComplete(0xE000A58671E7E58B)))">
+<If Condition="HasQuest(0xE000A58671E7E58B) and not IsStepComplete(0xE000A58671E7E58B, 2)">
+<MoveTo QuestId="0xE000A58671E7E58B" X="-45.80542" Y="4.600999" Z="77.357"/>
+</If>
+<If Condition="HasQuest(0xE000A58671E7E58B) and not IsStepComplete(0xE000A58671E7E58B, 4)">
+<MoveTo QuestId="0xE000A58671E7E58B" X="-43.05958" Y="4.401" Z="66.9496"/>
+</If>
+<UseObject QuestId="0xE000A58671E7E58B" BranchId="1" StepId="5" Radius="50" WaitTime="5">
+<Placeables>
+<Placeable>Desk Lamp</Placeable>
+<Placeable>Chess Table</Placeable>
+<Placeable>Short Liquor Bottle</Placeable>
+<Placeable>Door Panel</Placeable>
+<Placeable>Wardrobe</Placeable>
+<Placeable>Stout Liquor Bottle</Placeable>
+<Placeable>Tall Liquor Bottle</Placeable>
+<Placeable>Pazaak Table</Placeable>
+<Placeable>Wall Computer</Placeable>
+</Placeables>
+<Hotspots>
+<Hotspot Name="My Location" X="-43.56411" Y="4.401" Z="67.39282"/>
+<Hotspot Name="My Location" X="-42.00015" Y="4.401" Z="67.22485"/>
+<Hotspot Name="My Location" X="-42.77925" Y="4.466048" Z="65.89707"/>
+</Hotspots>
+</UseObject>
+<WaitTimer WaitTime="5"/>
+<UseObject Name="Suite Holoterminal" QuestId="0xE000A58671E7E58B" BranchId="1" StepId="6" WaitTime="1" X="-42.2309" Y="4.41578" Z="65.73123"/>
+<CompleteQuest QuestName="Soiree" QuestId="0xE000A58671E7E58B"/>
+</If>
+
+
+
+
+
+
+<!--  Agent - Subverting Karrels Javis  -->
+<If Condition="((HasQuest(0xE000E6A2DEE52C26)) and (not IsQuestComplete(0xE000E6A2DEE52C26)))">
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 1, 2)">
+<MoveTo QuestId="0xE000E6A2DEE52C26" X="-46.84477" Y="4.600999" Z="72.02062"/>
+</If>
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 4, 3)">
+<TurnInQuest QuestName="Subverting Karrels Javis" QuestId="0xE000E6A2DEE52C26" BranchId="4" StepId="3" Name="Karrels Javis" WaitTime="1" X="-46.8501" Y="4.603871" Z="75.2981" />
+</If>
+</If>
+
+
+
+<!--  Agent - Subverting Karrels Javis  -->
+<If Condition="((HasQuest(0xE000E6A2DEE52C26)) and (not IsQuestComplete(0xE000E6A2DEE52C26)))">
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 2)">
+<MoveTo QuestId="0xE000E6A2DEE52C26" X="-8.776557" Y="1.155783" Z="49.09171"/>
+</If>
+<While Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 4)">
+<UseObject QuestId="0xE000E6A2DEE52C26" Name="Crate of Ore" BranchId="5" StepId="4" Radius="150" WaitTime="5">
+<Hotspots>
+<Hotspot Name="My Location" X="-20.67951" Y="1.146021" Z="75.6036"/>
+</Hotspots>
+</UseObject>
+</While>
+</If>
+
+
+
+
+
+
+
+<!--  Agent - Subverting Karrels Javis  -->
+<If Condition="((HasQuest(0xE000E6A2DEE52C26)) and (not IsQuestComplete(0xE000E6A2DEE52C26)))">
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 2)">
+<MoveTo QuestId="0xE000E6A2DEE52C26" X="-8.776557" Y="1.155783" Z="49.09171"/>
+</If>
+</If>
+
+<!--  Agent - Subverting Karrels Javis  -->
+<If Condition="((HasQuest(0xE000E6A2DEE52C26)) and (not IsQuestComplete(0xE000E6A2DEE52C26)))">
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 5)">
+<MoveTo QuestId="1" X="-46.85432" Y="4.603951" Z="75.30682"/>
+</If>
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 7)">
+<MoveTo QuestId="1" X="-46.77332" Y="4.600999" Z="75.07892"/>
+</If>
+<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 9)">
+<UseObject Name="Suite Holoterminal" QuestId="0xE000E6A2DEE52C26" BranchId="5" StepId="9" WaitTime="1" X="-42.2309" Y="4.41578" Z="65.73123"/>
+</If>
+<CompleteQuest QuestName="Subverting Karrels Javis" QuestId="0xE000E6A2DEE52C26"/>
+</If>
+
+<!--  Agent - Economies of Scale  -->
+<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 2)">
+<UseObject Name="Smuggled Explosives Crate" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="2" WaitTime="3500" X="-42.95757" Y="4.401" Z="68.25577"/>
+</If>
+</If>
+
+<!--  Agent - Economies of Scale  -->
+<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
+<Grind GrindRef="Acquiring Disguise" While="not IsStepComplete(0xE000A1BCD0F891D3, 3)"/>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 4)">
+<MoveTo QuestId="1" Name="Access Panel" X="45.05133" Y="3.528655" Z="16.91412"/>
+<UserDialog Title="Orlok" Message="Use the guard disguise manually and hit continue if it doesn't do it for you!"/>
+<UseObject Name="Access Panel" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="4" WaitTime="4" X="45.03392" Y="3.536479" Z="17.10564"/>
+</If>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 5)">
+<UseObject Name="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="5" WaitTime="3" X="40.62101" Y="3.565821" Z="18.7508"/>
+</If>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 6)">
+<MoveTo QuestId="0xE000A1BCD0F891D3" X="40.27652" Y="3.565821" Z="19.3739"/>
+<UseObject Name="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" X="40.27652" Y="3.565821" Z="19.3739"/>
+</If>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 7)">
+<Grind GrindRef="Economies of Scale 7" While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))"/>
+</If>
+</If>
+
+<!--  Agent - Economies of Scale and Turnin  -->
+<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 8)">
+<MoveTo QuestId="0xE000A1BCD0F891D3" X="-46.85517" Y="4.604062" Z="75.14394"/>
+</If>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 10)">
+<MoveTo QuestId="0xE000A1BCD0F891D3" X="-42.72708" Y="4.401" Z="66.49088"/>
+</If>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 13)">
+<UseObject Name="Karrel's Gift" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="13" WaitTime="5" X="-43.45744" Y="4.401" Z="66.46796"/>
+</If>
+<CompleteQuest QuestName="Karrels Knife Reward" QuestId="0xE000A5749C0F7DAC"/>
+<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 14)">
+<UseObject Name="Suite Holoterminal" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="14" WaitTime="1" X="-42.36146" Y="4.401" Z="65.78541"/>
+</If>
+<CompleteQuest QuestName="Economies of Scale" QuestId="0xE000A1BCD0F891D3"/>
+</If>
+
+<!--  Agent - Change of Plans  -->
+<If Condition="((HasQuest(0xE000A5E970B33947)) and (not IsQuestComplete(0xE000A5E970B33947)))">
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 2)">
+<UseObject QuestId="0xE000A5E970B33947" Name="Karrels's Suite Security Terminal" BranchId="1" StepId="2" WaitTime="8" X="-48.28339" Y="4.605928" Z="65.66214"/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 3)">
+<Grind GrindRef="Change of Plans 3" While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))"/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 4)">
+<UserDialog Title="Orlok" Message="Talk to Karrel."/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 5)">
+<TalkTo QuestId="0xE000A5E970B33947" Name="Karrels Javis" X="-42.5622" Y="4.401" Z="63.0796"/>
+<WaitTimer WaitTime="10"/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 3, 2)">
+<MoveTo QuestId="0xE000A5E970B33947" X="-42.73815" Y="4.401" Z="63.11591"/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 3, 3)">
+<MoveTo QuestId="0xE000A5E970B33947" X="-47.29374" Y="4.600999" Z="77.73427"/>
+</If>
+<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 4, 2)">
+<MoveTo QuestId="0xE000A5E970B33947" X="-42.28431" Y="4.401" Z="65.82298"/>
+</If>
+<!--  Kaliyo Companion  -->
+<CompleteQuest QuestName="Change of Plans" QuestId="0xE000A5E970B33947" RewardIndex="2"/>
+</If>
+
+
+<!--  Agent - The New Truth  -->
+<If Condition="((HasQuest(0xE000D51D1F07E1A5)) and (not IsQuestComplete(0xE000D51D1F07E1A5)))">
+<!--  Leave No Trace (Bonus)  -->
+<While Condition="not HasQuest(0xE000F7324455002B) and not IsQuestComplete(0xE000F7324455002B)">
+<MoveTo QuestId="1" X="43.96653" Y="4.501" Z="66.6946"/>
+<!--
+<UseObject Name="Fa'athra Security Camera" QuestId="1" WaitTime="5" IgnoreLOS="True" X="43.96653" Y="4.501" Z="66.6946" />
+-->
+<Interact Name="Fa'athra Security Camera" X="43.96653" Y="4.501" Z="66.6946"/>
+</While>
+<If Condition="HasQuest(0xE000F7324455002B) and not IsQuestComplete(0xE000F7324455002B)">
+<UseObject Name="Fa'athra Security Camera" QuestId="0xE000F7324455002B" WaitTime="5" Range="4">
+<Hotspots>
+<Hotspot Name="My Location" X="50.03149" Y="5.746397" Z="71.80301"/>
+<Hotspot Name="My Location" X="53.82891" Y="6.577776" Z="69.80424"/>
+<Hotspot Name="My Location" X="50.22003" Y="5.787531" Z="63.13697"/>
+<Hotspot Name="My Location" X="46.40733" Y="4.952756" Z="65.19333"/>
+<Hotspot Name="My Location" X="46.47425" Y="4.960016" Z="69.56904"/>
+<Hotspot Name="My Location" X="53.78955" Y="6.608372" Z="65.42743"/>
+</Hotspots>
+</UseObject>
+</If>
+<Grind GrindRef="The New Truth" While="(not IsBranchStepComplete(0xE000D51D1F07E1A5, 1, 2))"/>
+</If>
+
+<!--  Agent - The New Truth  -->
+<If Condition="((HasQuest(0xE000D51D1F07E1A5)) and (not IsQuestComplete(0xE000D51D1F07E1A5)))">
+<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 1, 3)">
+<UserDialog Title="Orlok" Message="Use elevator to get to the correct floor!"/>
+<UseObject Name="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="1" StepId="3" WaitTime="3500" X="61.35532" Y="4.501" Z="60.88064"/>
+</If>
+<Grind GrindRef="The New Truth" While="(not IsBranchStepComplete(0xE000D51D1F07E1A5, 4, 2))"/>
+<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 4, 3)">
+<UseObject Name="Fa'athra's Archives" QuestId="0xE000D51D1F07E1A5" BranchId="4" StepId="3" WaitTime="3500" X="61.29214" Y="4.501" Z="60.79504"/>
+</If>
+</If>
+
+
+
+
+<!--  Agent - The New Truth  -->
+<If Condition="((HasQuest(0xE000D51D1F07E1A5)) and (not IsQuestComplete(0xE000D51D1F07E1A5)))">
+<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 5, 2)">
+<UserDialog Title="Orlok" Message="Use elevator to get to appropriate level!"/>
+
+<TalkTo QuestName="The New Truth" QuestId="0xE000D51D1F07E1A5" BranchId="1" StepId="3" Name="Toth'lazhen" X="-47.431" Y="4.600999" Z="77.8784"/>
+</If>
+<If Condition="HasQuest(0xE000D51D1F07E1A5) and not IsBranchStepComplete(0xE000D51D1F07E1A5, 5, 3)">
+<MoveTo QuestId="0xE000D51D1F07E1A5" X="-42.42402" Y="4.401" Z="65.8359"/>
+<TurnInQuest QuestName="The New Truth" QuestId="0xE000D51D1F07E1A5" Type="Placeable" UseRange="20" IgnoreLOS="True" TurnInName="Suite Holoterminal" X="-42.42402" Y="4.401" Z="65.8359"/>
+</If>
+<CompleteQuest QuestName="The New Truth" QuestId="0xE000D51D1F07E1A5"/>
+</If>
+
+
+
+<!--  Agent - Nothing Is Ever Easy  -->
+<If Condition="((HasQuest(0xE00043378E644ABA)) and (not IsQuestComplete(0xE00043378E644ABA)))">
+<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 2)">
+<MoveTo QuestId="0xE00043378E644ABA" X="-66.06929" Y="2.555729" Z="43.92252"/>
+</If>
+<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 3)">
+<AnswerHolocomCall QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA"/>
+</If>
+<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 4)">
+<MoveTo QuestId="0xE00043378E644ABA" X="-79.65849" Y="2.352499" Z="50.16945"/>
+</If>
+<Grind GrindRef="Nothing Is Ever Easy 2 2" While="(not IsBranchStepComplete(0xE00043378E644ABA, 2, 2))"/>
+<TurnInQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" TurnInName="The Red Blade" X="-79.8214" Y="2.352499" Z="50.1687"/>
+<CompleteQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA"/>
+</If>
+
+
+</Questing>    
+
+</Profile>

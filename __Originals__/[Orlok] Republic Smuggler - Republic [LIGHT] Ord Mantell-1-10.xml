@@ -1,0 +1,768 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[REPUBLIC|LIGHT] Ord Mantell 1-10 - Recreated by Orlok Raven</Name>
+<ForceAlignment Type="Light" AutoSkip="True" />
+
+<!-- Beginning of Grind References -->	
+	<GrindAreas> 
+	
+		<GrindArea Name="Security Breach 2 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>4-SEN</Mob>
+				<Mob>Gorry</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="4-SEN" X="73.3782" Y="-1.503708" Z="53.6573" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Level 10">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Commander</Mob>
+				<Mob>Separatist Supervisor</Mob>
+				<Mob>Separatist Vanguard</Mob>
+				<Mob>Separatist Security Droid</Mob>
+				<Mob>Separatist Tech Officer</Mob>
+				<Mob>Separatist Freedom Fighter</Mob>
+				<Mob>Separatist Footman</Mob>
+				<Mob>Separatist Minuteman</Mob>
+				<Mob>Separatist Officer</Mob>
+				<Mob>Separatist Monitor Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-42.18316" Y="9.3233" Z="12.46698" />
+				<Hotspot Name="My Location" X="-75.67677" Y="9.718801" Z="23.68923" />
+				<Hotspot Name="My Location" X="-75.68896" Y="9.517834" Z="13.55517" />
+				<Hotspot Name="My Location" X="-75.9852" Y="10.54762" Z="39.66142" />
+				<Hotspot Name="My Location" X="-76.70775" Y="11.30033" Z="49.11967" />
+				<Hotspot Name="My Location" X="-59.2845" Y="12.10095" Z="48.27443" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Landing Party 6">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Gunner</Mob>
+				<Mob>Separatist Cadet</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Gunner" X="6.9247" Y="1.519971" Z="-48.17" />
+			</Hotspots>
+		</GrindArea>    
+			
+		<GrindArea Name="Take Back Drelliad Village (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Sympathizer</Mob>
+				<Mob>Separatist Scout</Mob>
+				<Mob>Separatist Roughneck</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Scout" X="10.1761" Y="1.49054" Z="-41.82521" />
+				<Hotspot Name="Separatist Sympathizer" X="11.59354" Y="1.311" Z="-44.99833" />
+				<Hotspot Name="Separatist Roughneck" X="12.5594" Y="1.311" Z="-39.2776" />
+				<Hotspot Name="Separatist Heavy Gunner" X="14.4402" Y="1.29785" Z="-45.4736" />
+				<Hotspot Name="Separatist Heavy Gunner" X="14.8582" Y="1.49132" Z="-48.6584" />
+				<Hotspot Name="Separatist Scout" X="11.1796" Y="1.48926" Z="-48.9201" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Snipe Hunt 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Sniper</Mob>
+				<Mob>Separatist Field Scout</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Sniper" X="12.6951" Y="2.45317" Z="-29.0818" />
+				<Hotspot Name="Separatist Sniper" X="17.1431" Y="2.020974" Z="-29.4239" />
+				<Hotspot Name="Separatist Field Scout" X="20.9583" Y="2.265746" Z="-29.194" />
+				<Hotspot Name="Separatist Sniper" X="15.3917" Y="2.362948" Z="-26.0768" />
+				<Hotspot Name="Separatist Field Scout" X="12.7794" Y="2.705041" Z="-24.038" />
+				<Hotspot Name="Separatist Sniper" X="19.0378" Y="2.674649" Z="-23.5658" />
+				<Hotspot Name="Separatist Field Scout" X="19.2677" Y="2.98135" Z="-20.7036" />
+				<Hotspot Name="Separatist Field Scout" X="24.0305" Y="2.62275" Z="-21.0989" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Blinding the Enemy (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Sniper</Mob>
+				<Mob>Separatist Field Scout</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Sniper" X="12.6951" Y="2.45317" Z="-29.0818" />
+				<Hotspot Name="Separatist Sniper" X="17.1431" Y="2.020974" Z="-29.4239" />
+				<Hotspot Name="Separatist Field Scout" X="20.9583" Y="2.265746" Z="-29.194" />
+				<Hotspot Name="Separatist Sniper" X="15.3917" Y="2.362948" Z="-26.0768" />
+				<Hotspot Name="Separatist Field Scout" X="12.7794" Y="2.705041" Z="-24.038" />
+				<Hotspot Name="Separatist Sniper" X="19.0378" Y="2.674649" Z="-23.5658" />
+				<Hotspot Name="Separatist Field Scout" X="19.2677" Y="2.98135" Z="-20.7036" />
+				<Hotspot Name="Separatist Field Scout" X="24.0305" Y="2.62275" Z="-21.0989" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Mercy 3">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Instigator</Mob>
+				<Mob>Separatist Enforcer</Mob>
+				<Mob>Separatist Commando</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Instigator" X="50.6808" Y="2.159124" Z="-6.8939" />
+				<Hotspot Name="Separatist Instigator" X="53.521" Y="0.9457847" Z="-8.1435" />
+				<Hotspot Name="Separatist Enforcer" X="54.179" Y="0.9398916" Z="-10.1623" />
+				<Hotspot Name="Separatist Enforcer" X="56.9762" Y="0.863384" Z="-9.9808" />
+				<Hotspot Name="Separatist Instigator" X="59.856" Y="0.7813675" Z="-7.752921" />
+				<Hotspot Name="Separatist Instigator" X="56.8943" Y="0.911092" Z="-13.2964" />
+				<Hotspot Name="Separatist Commando" X="52.8585" Y="2.478328" Z="-11.3375" />
+				<Hotspot Name="Separatist Commando" X="49.7164" Y="2.403915" Z="-9.617701" />
+				<Hotspot Name="Separatist Commando" X="57.3581" Y="0.7992835" Z="-12.85369" />
+				<Hotspot Name="Separatist Commando" X="59.4032" Y="0.779359" Z="-3.6224" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Clean Up Talloran (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Assault Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="46.87908" Y="2.485007" Z="-10.54571" />
+				<Hotspot Name="Separatist Henchman" X="46.8445" Y="2.490866" Z="-14.5289" />
+				<Hotspot Name="Separatist Henchman" X="45.2287" Y="2.485207" Z="-19.0475" />
+				<Hotspot Name="Separatist Henchman" X="47.9284" Y="2.511" Z="-23.2999" />
+				<Hotspot Name="Separatist Henchman" X="51.2746" Y="2.794518" Z="-14.93786" />
+				<Hotspot Name="Separatist Henchman" X="43.1379" Y="2.701" Z="-19.4559" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Preying on Thieves (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Scavenger</Mob>
+				<Mob>Scavenger Savage</Mob>
+				<Mob>Scavenger Brute</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Scavenger" X="59.3592" Y="1.269279" Z="-33.57362" />
+				<Hotspot Name="Scavenger Savage" X="61.1658" Y="1.110329" Z="-29.6066" />
+				<Hotspot Name="Scavenger Brute" X="62.8594" Y="0.6873002" Z="-33.7081" />
+				<Hotspot Name="Scavenger Savage" X="62.1136" Y="0.8831553" Z="-36.081" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stop the Raiders (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Stalker</Mob>
+				<Mob>Separatist Sentinel</Mob>
+				<Mob>Separatist Lookout</Mob>
+				<Mob>Separatist Raider Chief</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Stalker" X="61.77317" Y="0.8324149" Z="-42.46381" />
+				<Hotspot Name="Separatist Sentinel" X="64.6754" Y="0.7146108" Z="-42.9358" />
+				<Hotspot Name="Separatist Lookout" X="64.865" Y="0.7156624" Z="-43.2271" />
+				<Hotspot Name="Separatist Lookout" X="64.2345" Y="1.493698" Z="-51.27659" />
+				<Hotspot Name="Separatist Raider" X="65.0534" Y="1.804389" Z="-53.7219" />
+				<Hotspot Name="Separatist Raider Chief" X="62.1494" Y="1.996502" Z="-48.3256" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Counter-Insurgency (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Rangefinder</Mob>
+				<Mob>Separatist Monitor</Mob>
+				<Mob>Separatist Patrolman</Mob>
+				<Mob>Separatist Guardian</Mob>
+				<Mob>Separatist Demolitionist</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Rangefinder" X="6.601971" Y="4.359675" Z="-15.37164" />
+				<Hotspot Name="Separatist Monitor" X="2.7044" Y="4.526391" Z="-13.0027" />
+				<Hotspot Name="Separatist Patrolman" X="1.173835" Y="5.037206" Z="-11.90167" />
+				<Hotspot Name="Separatist Patrolman" X="3.0727" Y="5.007828" Z="-10.2493" />
+				<Hotspot Name="Separatist Guardian" X="2.4146" Y="4.197923" Z="-20.3844" />
+				<Hotspot Name="Separatist Demolitionist" X="-1.576736" Y="3.987153" Z="-21.20035" />
+				<Hotspot Name="Separatist Patrolman" X="1.1453" Y="4.342387" Z="-24.4604" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Bridging the Gap 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Rocket Gunner</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Rocket Gunner" X="58.1758" Y="3.101" Z="29.1483" />
+				<Hotspot Name="Separatist Rocket Gunner" X="59.7437" Y="3.567291" Z="27.4758" />
+				<Hotspot Name="Separatist Rocket Gunner" X="61.7861" Y="3.101" Z="25.4106" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Bringing the Battle to Them (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Battler</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Battler" X="52.5752" Y="0.8107361" Z="31.9864" />
+				<Hotspot Name="Separatist Trooper" X="51.1474" Y="0.9877912" Z="34.361" />
+				<Hotspot Name="Separatist Marksman" X="52.3165" Y="1.356064" Z="38.7029" />
+				<Hotspot Name="Separatist Battler" X="55.9411" Y="1.469442" Z="39.5855" />
+				<Hotspot Name="Separatist Marksman" X="60.3944" Y="2.192793" Z="36.7901" />
+				<Hotspot Name="Separatist Battler" X="64.532" Y="3.306" Z="30.52626" />
+				<Hotspot Name="Separatist Rocket Gunner" X="58.1758" Y="3.101" Z="29.1483" />
+				<Hotspot Name="Separatist Rocket Gunner" X="59.7437" Y="3.567291" Z="27.4758" />
+				<Hotspot Name="Separatist Rocket Gunner" X="61.7861" Y="3.101" Z="25.4106" />
+				<Hotspot Name="My Location" X="71.28593" Y="3.297028" Z="27.7449" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Time For Some Payback (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Battler</Mob>
+				<Mob>Separatist Trooper</Mob>
+				<Mob>Separatist Marksman</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Battler" X="52.5752" Y="0.8107361" Z="31.9864" />
+				<Hotspot Name="Separatist Trooper" X="51.1474" Y="0.9877912" Z="34.361" />
+				<Hotspot Name="Separatist Marksman" X="52.3165" Y="1.356064" Z="38.7029" />
+				<Hotspot Name="Separatist Battler" X="55.9411" Y="1.469442" Z="39.5855" />
+				<Hotspot Name="Separatist Marksman" X="60.3944" Y="2.192793" Z="36.7901" />
+				<Hotspot Name="Separatist Battler" X="64.532" Y="3.306" Z="30.52626" />
+				<Hotspot Name="Separatist Rocket Gunner" X="58.1758" Y="3.101" Z="29.1483" />
+				<Hotspot Name="Separatist Rocket Gunner" X="59.7437" Y="3.567291" Z="27.4758" />
+				<Hotspot Name="Separatist Rocket Gunner" X="61.7861" Y="3.101" Z="25.4106" />
+				<Hotspot Name="My Location" X="71.28593" Y="3.297028" Z="27.7449" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Mannett Point 7">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Commander Bol</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Commander Bol" X="88.16478" Y="0.05210005" Z="27.48235" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Punish the Saboteurs (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Saboteur</Mob>
+				<Mob>Separatist Saboteur Leader</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Saboteur" X="-22.27578" Y="4.795093" Z="-8.607878" />
+				<Hotspot Name="Separatist Saboteur Leader" X="-17.8647" Y="4.582402" Z="-8.419" />
+				<Hotspot Name="Separatist Saboteur" X="-16.7189" Y="5.016181" Z="-5.363501" />
+				<Hotspot Name="Separatist Saboteur" X="-18.6467" Y="4.529857" Z="0.3011975" />
+				<Hotspot Name="Separatist Saboteur" X="-29.7756" Y="5.966853" Z="-5.5235" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Oradam Village 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Beach Scavenger</Mob>
+				<Mob>Scavenger Lookout</Mob>
+				<Mob>Scavenger Leader</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Beach Scavenger" X="-59.5559" Y="1.285606" Z="-32.1003" />
+				<Hotspot Name="Beach Scavenger" X="-60.1865" Y="1.242118" Z="-35.2736" />
+				<Hotspot Name="Beach Scavenger" X="-62.7966" Y="1.412389" Z="-33.3964" />
+				<Hotspot Name="Scavenger Leader" X="-62.8623" Y="1.41854" Z="-30.8567" />
+				<Hotspot Name="Scavenger Lookout" X="-57.6041" Y="1.307005" Z="-36.8313" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Weaken the Stronghold (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Freedom Fighter</Mob>
+				<Mob>Separatist Footman</Mob>
+				<Mob>Separatist Minuteman</Mob>
+				<Mob>Separatist Officer</Mob>
+				<Mob>Separatist Monitor Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Freedom Fighter" X="-73.6308" Y="2.400678" Z="-12.0744" />
+				<Hotspot Name="Separatist Footman" X="-76.24844" Y="3.168024" Z="-8.642227" />
+				<Hotspot Name="Separatist Minuteman" X="-82.168" Y="5.297729" Z="2.4314" />
+				<Hotspot Name="Separatist Freedom Fighter" X="-76.49203" Y="6.189122" Z="2.592071" />
+				<Hotspot Name="My Location" X="-57.95497" Y="5.828" Z="3.372443" />
+				<Hotspot Name="Separatist Officer" X="-53.77857" Y="5.825686" Z="3.189599" />
+				<Hotspot Name="My Location" X="-49.9571" Y="5.984435" Z="-3.7638" />
+				<Hotspot Name="Separatist Freedom Fighter" X="-45.1074" Y="5.808488" Z="4.1001" />
+				<Hotspot Name="Separatist Officer" X="-46.5815" Y="5.6135" Z="-2.1971" />
+				<Hotspot Name="Separatist Freedom Fighter" X="-51.4999" Y="5.785769" Z="1.0517" />
+				<Hotspot Name="Separatist Security Droid" X="-50.0551" Y="5.779282" Z="7.9384" />
+				<Hotspot Name="Separatist Minuteman" X="-53.747" Y="5.228789" Z="14.6129" />
+				<Hotspot Name="Separatist Freedom Fighter" X="-54.28535" Y="4.796683" Z="20.27637" />
+				<Hotspot Name="Separatist Monitor Droid" X="-55.70035" Y="4.825171" Z="24.10153" />
+				<Hotspot Name="Separatist Freedom Fighter" X="-55.2161" Y="5.178869" Z="25.1859" />
+				<Hotspot Name="Separatist Security Droid" X="-63.0462" Y="7.298033" Z="14.1185" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Alliance Of Evil 3">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Vanguard</Mob>
+				<Mob>Separatist Leader</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Leader" X="-37.8178" Y="9.792922" Z="18.9744" />
+				<Hotspot Name="Separatist Leader" X="-34.7937" Y="9.992922" Z="18.0629" />
+				<Hotspot Name="Separatist Vanguard" X="-33.95952" Y="9.98654" Z="20.45723" />
+				<Hotspot Name="Separatist Vanguard" X="-33.74722" Y="9.785704" Z="23.83861" />
+				<Hotspot Name="Separatist Vanguard" X="-36.3071" Y="9.60606" Z="26.1208" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="The Separatists' Stronghold 6">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Colonel Vorr</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Colonel Vorr" X="-62.14031" Y="12.59951" Z="35.43547" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Ending the Insurgency (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Militiaman</Mob>
+				<Mob>Separatist Insurgent</Mob>
+				<Mob>Separatist Recruit</Mob>
+				<Mob>Separatist Rocket Gunner</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="48.81097" Y="2.534043" Z="6.854242" />
+				<Hotspot Name="Separatist Militiaman" X="48.2878" Y="3.00289" Z="10.3215" />
+				<Hotspot Name="Separatist Insurgent" X="49.6728" Y="3.096295" Z="13.5475" />
+				<Hotspot Name="Separatist Recruit" X="47.8895" Y="3.100092" Z="16.3637" />
+				<Hotspot Name="Separatist Rocket Gunner" X="46.448" Y="2.536573" Z="18.9062" />
+				<Hotspot Name="Separatist Insurgent" X="42.1548" Y="2.48682" Z="16.627" />
+				<Hotspot Name="Separatist Recruit" X="44.4866" Y="2.662772" Z="22.9339" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="You Can't Hide Forever (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Soldier</Mob>
+				<Mob>Separatist Protector</Mob>
+				<Mob>Separatist Specialist</Mob>
+				<Mob>Separatist Eliminator Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="69.49823" Y="3.327106" Z="46.73525" />
+				<Hotspot Name="Separatist Soldier" X="64.12299" Y="0.9768733" Z="55.8476" />
+				<Hotspot Name="Separatist Specialist" X="66.88021" Y="1.451713" Z="57.57708" />
+				<Hotspot Name="Separatist Soldier" X="64.20895" Y="-0.499" Z="47.75411" />
+				<Hotspot Name="Separatist Protector" X="72.3343" Y="-0.509" Z="47.03252" />
+				<Hotspot Name="Separatist Protector" X="71.092" Y="-0.5001042" Z="53.35371" />
+				<Hotspot Name="Separatist Eliminator Droid" X="74.58427" Y="-0.1989999" Z="51.39605" />
+				<Hotspot Name="Separatist Soldier" X="77.7962" Y="-0.4999469" Z="49.7561" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stop the Weapons Trade (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Arms Dealer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-47.1555" Y="12.1185" Z="44.57342" />
+				<Hotspot Name="Separatist Arms Dealer" X="-47.9652" Y="12.29292" Z="39.3079" />
+				<Hotspot Name="Separatist Arms Dealer" X="-50.71577" Y="11.68442" Z="39.20977" />
+				<Hotspot Name="Separatist Arms Dealer" X="-44.2229" Y="12.0835" Z="43.5569" />
+				<Hotspot Name="Separatist Arms Dealer" X="-45.2723" Y="11.68443" Z="37.2768" />
+				<Hotspot Name="Separatist Arms Dealer" X="-43.40161" Y="11.87103" Z="35.39206" />
+				<Hotspot Name="Separatist Arms Dealer" X="-47.37543" Y="11.99512" Z="37.1566" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Hitting Where it Hurts 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Morant</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Morant" X="-46.8316" Y="11.89044" Z="32.9331" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Chasing Skavak 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Xo'ru</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Xo'ru" X="17.4193" Y="6.0876" Z="31.712" />
+			</Hotspots>
+		</GrindArea>    
+
+		<GrindArea Name="The Untold Story 3 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Separatist Propaganda Officer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Separatist Propaganda Officer" X="69.0318" Y="0.076" Z="32.5431" />
+				<Hotspot Name="Separatist Propaganda Officer" X="66.16502" Y="-0.01052105" Z="40.96442" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Security Breach 4 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Bracco</Mob>
+				<Mob>Thug</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Bracco" X="20.54112" Y="5.7" Z="2.083878" />
+			</Hotspots>
+		</GrindArea>    
+		
+	
+	
+	
+	
+	
+	
+	</GrindAreas>
+
+<!-- End of Grind References -->	
+
+
+
+
+	
+<Questing>
+
+<!-- Smuggler: Landing Party -->
+		<If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsQuestComplete(0xE000AA371AFB8D28)))">
+		 <If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsStepComplete(0xE000AA371AFB8D28, 2)))">
+			<TalkTo QuestId="0xE000AA371AFB8D28" Name="Skavak" X="6.5549" Y="1.519912" Z="-46.8967" />
+		 </If>
+		</If>
+
+<!-- Smuggler: Landing Party 3-4 -->
+		<If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsQuestComplete(0xE000AA371AFB8D28)))">
+		 <If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsStepComplete(0xE000AA371AFB8D28, 3)))">
+			<UseObject QuestId="0xE000AA371AFB8D28" Name="Remote Control Station" BranchId="1" StepId="3" Radius="200" WaitTime="5" >
+			 <Hotspots>
+				<Hotspot Name="My Location" X="9.235978" Y="1.301128" Z="-45.44181" />
+				<Hotspot Name="My Location" X="7.943583" Y="1.4939" Z="-42.44365" />
+				<Hotspot Name="My Location" X="14.76507" Y="1.29785" Z="-45.19629" />
+				<Hotspot Name="My Location" X="12.8005" Y="1.491213" Z="-48.65226" />
+			 </Hotspots>
+			</UseObject>
+		 </If>
+		 <If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsStepComplete(0xE000AA371AFB8D28, 4)))">
+			<MoveTo QuestId="0xE000AA371AFB8D28" X="13.97124" Y="1.501" Z="-41.49333" />
+			<WaitTimer WaitTime="2" />
+			<MoveTo QuestId="0xE000AA371AFB8D28" X="13.97124" Y="1.501" Z="-41.49333" />
+			<MoveTo QuestId="0xE000AA371AFB8D28" IgnoreMesh="True" X="14.67694" Y="1.499423" Z="-41.50478" />
+			<UseObject QuestId="0xE000AA371AFB8D28" Name="Targeting Computer" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="15.77418" Y="2.173217" Z="-41.57758" />
+		 </If>
+		</If>		
+		
+<!-- Turnin Smuggler: Landing Party -->
+		<If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsQuestComplete(0xE000AA371AFB8D28)))">
+		 <If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 5)))">
+			<MoveTo QuestId="0xE000AA371AFB8D28" Name="Hangar" X="7.7839" Y="1.517878" Z="-48.1149" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 6)))">
+			<MoveTo QuestId="0xE000AA371AFB8D28" Name="Hangar" X="7.7839" Y="1.517878" Z="-48.1149" />
+			<Grind GrindRef="Landing Party 6" While="(not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 6))" />
+		 </If>
+	<TurnInQuest QuestName="Landing Party" QuestId="0xE000AA371AFB8D28" TurnInName="Corso Riggs" X="7.7839" Y="1.517878" Z="-48.1149" />
+			<CompleteQuest QuestName="Landing Party" QuestId="0xE000AA371AFB8D28" />
+			<!-- Smuggler: Desperate Times 0xE00084BC03438D83 -->
+		</If>
+
+
+		
+		<!-- Pickup Smuggler: Legitimate Business -->
+		<If Condition="(Me.Class == CharacterClass.Smuggler)">
+	<PickUpQuest QuestName="Legitimate Business" QuestId="0xE0009D3ABD61AF2D" GiverName="Tweeta" X="11.8297" Y="5.613683" Z="-12.0803" />
+		</If>
+
+	<!-- Turnin Smuggler: Legitimate Business -->
+		<If Condition="((HasQuest(0xE0009D3ABD61AF2D)) and (not IsQuestComplete(0xE0009D3ABD61AF2D)))">
+	<TurnInQuest QuestName="Legitimate Business" QuestId="0xE0009D3ABD61AF2D" TurnInName="Wentell Pron" X="10.4412" Y="6.092508" Z="-5.982" />
+			<CompleteQuest QuestName="Legitimate Business" QuestId="0xE0009D3ABD61AF2D" />
+		</If>
+
+
+	<!-- Turnin Smuggler: Desperate Times -->
+		<If Condition="((HasQuest(0xE00084BC03438D83)) and (not IsQuestComplete(0xE00084BC03438D83)))">
+		 <If Condition="((HasQuest(0xE00084BC03438D83)) and (not IsStepComplete(0xE00084BC03438D83, 2)))">
+			<MoveTo QuestId="0xE00084BC03438D83" Name="Viidu" X="25.9835" Y="6.894484" Z="5.1058" />
+			<WaitTimer WaitTime="3" />
+		 </If>
+	<TurnInQuest QuestName="Desperate Times" QuestId="0xE00084BC03438D83" TurnInName="Viidu" X="25.9835" Y="6.894484" Z="5.1058" />
+			<CompleteQuest QuestName="Desperate Times" QuestId="0xE00084BC03438D83" />
+		</If>
+
+
+
+
+	<!-- Smuggler: Hungry for Information -->
+		<If Condition="((HasQuest(0xE000EE1F0FFF444E)) and (not IsQuestComplete(0xE000EE1F0FFF444E)))">
+		 <If Condition="((HasQuest(0xE000EE1F0FFF444E)) and (not IsStepComplete(0xE000EE1F0FFF444E, 2)))">
+			<MoveTo QuestId="0xE000EE1F0FFF444E" Name="Warehouse" X="41.50233" Y="2.378416" Z="-15.32678" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000EE1F0FFF444E)) and (not IsStepComplete(0xE000EE1F0FFF444E, 3)))">
+			<MoveTo QuestId="0xE000EE1F0FFF444E" Name="Reki" X="35.83753" Y="3.301" Z="-13.38533" />
+		 </If>
+		 <!-- skip 4 -->
+		</If>
+
+
+		<!-- Turnin Smuggler: Hungry for Information -->
+		<If Condition="((HasQuest(0xE000EE1F0FFF444E)) and (not IsQuestComplete(0xE000EE1F0FFF444E)))">
+		 <If Condition="((HasQuest(0xE000EE1F0FFF444E)) and (not IsStepComplete(0xE000EE1F0FFF444E, 5)))">
+		 <MoveTo QuestId="0xE000EE1F0FFF444E" X="19.70884" Y="5.701" Z="2.379416" />
+			<MoveTo QuestId="0xE000EE1F0FFF444E" Name="Syreena" X="19.70884" Y="5.701" Z="2.379416" />
+		 </If>
+		 <!-- Skip 6 -->
+	<TurnInQuest QuestName="Hungry for Information" QuestId="0xE000EE1F0FFF444E" Type="Placeable" TurnInName="Viidu" X="25.9835" Y="6.894484" Z="5.1058" />
+			<CompleteQuest QuestName="Hungry for Information" QuestId="0xE000EE1F0FFF444E" />
+			<!-- Smuggler: Security Breach 0xE000546044E2E79F -->
+		</If>
+		
+		
+		
+				<!-- Smuggler: Security Breach -->
+		<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsQuestComplete(0xE000546044E2E79F)))">
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 2)))">
+			<MoveTo QuestId="0xE000546044E2E79F" Name="North Power Relay" X="66.11241" Y="3.297638" Z="28.07062" />
+			<UseObject QuestId="0xE000546044E2E79F" Name="North Power Relay" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" X="66.11241" Y="3.297638" Z="28.07062" /><!-- North Power Relay -->
+			<MoveTo QuestId="0xE000546044E2E79F" Name="East Power Relay" X="78.71508" Y="3.294782" Z="29.06369" />
+			<UseObject QuestId="0xE000546044E2E79F" Name="East Power Relay" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" X="78.71508" Y="3.294782" Z="29.06369" /><!-- East Power Relay -->
+			<MoveTo QuestId="0xE000546044E2E79F" Name="South Power Relay" X="63.20653" Y="3.395595" Z="43.45626" />
+			<UseObject QuestId="0xE000546044E2E79F" Name="South Power Relay" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" X="63.20653" Y="3.395595" Z="43.45626" /><!-- South Power Relay -->
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 3)))">
+			<UseObject QuestId="0xE000546044E2E79F" Name="Treatise on Bird Watching" BranchId="1" StepId="3" IgnoreLOS="True" Radius="20" WaitTime="5" X="66.69677" Y="3.700973" Z="47.31103" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 4)))">
+		 <MoveTo QuestId="0xE000546044E2E79F" Name="Security Door" X="64.98579" Y="3.494355" Z="45.51905" />
+			<UseObject QuestId="0xE000546044E2E79F" Name="Security Door" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="64.98579" Y="3.494355" Z="45.51905" />
+			<MoveTo QuestId="0xE000546044E2E79F" Name="Back Door" X="67.1876" Y="3.499996" Z="47.94877" />
+			<UseObject QuestId="0xE000546044E2E79F" Name="Back Door" X="67.1876" Y="3.499996" Z="47.94877" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 5)))">
+ 		 <If Condition="(Me.Position.X &lt;= 67.5) and (Me.Position.Y &gt;= 3.0)">
+			<UseObject QuestId="1" Name="Back Door" IgnoreLOS="True" UseRange="10" X="67.31035" Y="3.499996" Z="47.91131" />
+		 </If>
+			<MoveTo QuestId="0xE000546044E2E79F" Name="Outside" IgnoreMesh="True" X="68.06834" Y="3.265932" Z="47.94136" /> <!-- Move Outside -->
+			<MoveTo QuestId="0xE000546044E2E79F" Name="Infiltrate Hideout" X="64.41286" Y="0.005856667" Z="50.0224" />
+		 </If>
+		 <!-- You Can't Hide Forever (Bonus) -->
+		 <If Condition="(not IsQuestComplete(0xE000D6C1727239CE))">
+			<Grind GrindRef="You Can't Hide Forever (Bonus)" While="(not IsQuestComplete(0xE000D6C1727239CE))" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 6)))">
+			<UseObject QuestId="0xE000546044E2E79F" Name="Separatist Personnel Database" BranchId="1" StepId="6" Radius="20" WaitTime="5" X="74.31308" Y="-1.506684" Z="53.48226" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 2, 2)))">
+			<Grind GrindRef="Security Breach 2 2" While="(not IsBranchStepComplete(0xE000546044E2E79F, 2, 2))" />
+			<WaitTimer WaitTime="3" />
+		 </If>
+		</If>
+		
+		
+		
+		
+		
+				<!-- Turnin Smuggler: Security Breach -->
+		<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsQuestComplete(0xE000546044E2E79F)))">
+			<!-- move to R someone - what branch/step is that? -->
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 4, 2)))">
+			<MoveTo Name="Bracco" X="20.54112" Y="5.7" Z="2.083878" />
+			<Grind GrindRef="Security Breach 4 2" While="(not IsBranchStepComplete(0xE000546044E2E79F, 4, 2))" />
+		 </If>
+		 <If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 4, 3)))">
+		 <MoveTo QuestId="0xE000EE1F0FFF444E" Name="Syreena" X="19.70884" Y="5.701" Z="2.379416" />
+			<TalkTo QuestId="0xE000546044E2E79F" Name="Syreena" X="20.84014" Y="5.651" Z="2.800316" />
+		 </If>
+	<TurnInQuest QuestName="Security Breach" QuestId="0xE000546044E2E79F" TurnInName="Viidu" X="26.00436" Y="6.894484" Z="5.681563" />
+			<CompleteQuest QuestName="Security Breach" QuestId="0xE000546044E2E79F" />
+			<!-- Smuggler Deadly Delivery 0xE00093D437E3A7B2 -->
+			<!-- Open Medium Credit Box -->
+		</If>
+		
+		<!-- Turnin Smuggler: Deadly Delivery -->
+		<If Condition="((HasQuest(0xE00093D437E3A7B2)) and (not IsQuestComplete(0xE00093D437E3A7B2)))">
+	<TurnInQuest QuestName="Deadly Delivery" QuestId="0xE00093D437E3A7B2" TurnInName="Corso Riggs" X="17.763" Y="6.147429" Z="-0.251503" />
+			<CompleteQuest QuestName="Deadly Delivery" QuestId="0xE00093D437E3A7B2" />
+		</If>
+		
+		<!-- Turnin Smuggler: Item Modification -->
+		<If Condition="((HasQuest(0xE0008AA94DBF08C6)) and (not IsQuestComplete(0xE0008AA94DBF08C6)))">
+	<TurnInQuest QuestName="Item Modification" QuestId="0xE0008AA94DBF08C6" Type="Placeable" UseRange="3" TurnInName="Item Modification" X="15.99216" Y="6.094807" Z="-1.507221" />
+			<CompleteQuest QuestName="Item Modification" QuestId="0xE0008AA94DBF08C6" />
+			<!-- We Receive Fort Mod but we can't put it in until lvl 9 -->
+		</If>
+		
+		
+		
+			<!-- Smuggler: Deadly Delivery -->
+		<If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsQuestComplete(0xE0002C673A9528A6)))">
+		 <If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsStepComplete(0xE0002C673A9528A6, 2)))">
+			<MoveTo QuestId="0xE0002C673A9528A6" Name="My Location" X="-34.70809" Y="1.286418" Z="-46.6581" />
+			<MoveTo QuestId="0xE0002C673A9528A6" IgnoreMesh="True" Name="Trymbo's House" X="-35.13744" Y="1.328129" Z="-46.33978" />
+		 </If>
+		 <If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsStepComplete(0xE0002C673A9528A6, 3)))">
+			<TalkTo QuestId="0xE0002C673A9528A6" Name="Loonda" X="-36.0341" Y="1.31726" Z="-45.5064" />
+			<MoveTo QuestId="0xE0002C673A9528A6" IgnoreMesh="True" Name="My Location" X="-34.70809" Y="1.286418" Z="-46.6581" />
+		 </If>
+		</If>
+		
+		
+		
+		
+		
+		
+				<!-- Smuggler: Deadly Delivery and Turnin -->
+		<If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsQuestComplete(0xE0002C673A9528A6)))">
+		 <If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsStepComplete(0xE0002C673A9528A6, 4)))">
+			<TalkTo QuestId="0xE0002C673A9528A6" Name="Trymbo" X="-77.2816" Y="1.023154" Z="-19.3857" />
+		 </If>
+		 <If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsStepComplete(0xE0002C673A9528A6, 5)))">
+			<UseObject QuestId="0xE0002C673A9528A6" Name="Storage Unit" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="5" X="-77.49902" Y="1.023154" Z="-19.24125" />
+ 
+ 			<UserDialog Title="Orlok" Message="Use the speeder."/>
+
+		 </If>
+	<TurnInQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" TurnInName="Viidu" X="26.0025" Y="6.894484" Z="5.666109" />
+			<CompleteQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" RewardIndex="1" />
+			<!-- Open Medium Credit Box -->
+			<!-- Smuggler now has a Companion, equip companion with Corso Riggs Customization 2 -->
+			<!-- Smuggler: Hitting Where it Hurts 0xE0001F04AA36AF01 -->
+		</If>
+		
+		
+		
+				<!-- Smuggler: Hitting Where it Hurts 2-5 -->
+		<If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsQuestComplete(0xE0001F04AA36AF01)))">
+		 <If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 2)))">
+		 <!-- Stop the Weapons Trade (Bonus) -->
+		 <If Condition="(not IsQuestComplete(0xE0004B19CF6D1376))">
+			<Grind GrindRef="Stop the Weapons Trade (Bonus)" While="(not IsQuestComplete(0xE0004B19CF6D1376))" />
+		 </If>
+			<MoveTo QuestId="0xE0001F04AA36AF01" Name="Morant" X="-46.8316" Y="11.89044" Z="32.9331" />
+		 </If>
+		 <If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 3)))">
+			<Grind GrindRef="Hitting Where it Hurts 4" While="(IsStepComplete(0xE0001F04AA36AF01, 4))" />
+		 </If>
+		 <If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 5)))">
+			<TalkTo QuestId="0xE0001F04AA36AF01" Name="Morant" X="-46.8316" Y="11.89044" Z="32.9331" />
+<UserDialog Title="Orlok" Message="Use speeder!"/>
+
+		 </If>
+			<!-- Auto Skip 5 -->
+			<!-- Quick Travel to Fort Garnik -->
+		</If>
+		
+		<!-- Turnin Smuggler: Hitting Where it Hurts -->
+		<If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsQuestComplete(0xE0001F04AA36AF01)))">
+	<TurnInQuest QuestName="Hitting Where it Hurts" QuestId="0xE0001F04AA36AF01" TurnInName="Syreena" X="25.3981" Y="6.901" Z="6.061401" />
+			<CompleteQuest QuestName="Hitting Where it Hurts" QuestId="0xE0001F04AA36AF01" />
+			<!-- Smuggler: Chasing Skavak 0xE000088232A04F86 -->
+		</If>
+		
+		
+			<!-- Smuggler: Chasing Skavak  -->
+		<If Condition="((HasQuest(0xE000088232A04F86)) and (not IsQuestComplete(0xE000088232A04F86)))">
+		 <If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 2)))">
+			<MoveTo QuestId="0xE000088232A04F86" Name="My Location" X="17.99727" Y="6.086741" Z="30.20877" />
+		 </If>
+		 <!-- Skip 3 -->
+		 <If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 4)))">
+			<Grind GrindRef="Chasing Skavak 4" While="(not IsStepComplete(0xE000088232A04F86, 4))" />
+			<!-- Rez Companion -->
+		 </If>
+		 <If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 5)))">
+		 <If Condition="(BuddyTor.Client.AreaName == &quot;ord_resize&quot;)">
+			<MoveTo QuestId="1" X="26.84871" Y="6.363346" Z="38.12912" />
+			<UserDialog Title="Kick" Message="End of Trial Run.  Please post all bug reports in the designated Beta Testers thread!" />
+			<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
+									X="26.7952" Y="6.311908" Z="38.06977" 
+									ToX="-674.3223" ToY="0.501" ToZ="-472.9456" />
+		 </If>
+		 </If>
+			<CompleteQuest QuestName="Chasing Skavak" QuestId="0xE000088232A04F86" RewardIndex="1" />
+			<!-- Open Corso's Arctic Outfit, click Take All, open companion character tab and equip Corso' Arctic Boots, Pants, Jacket -->
+			<!-- Smuggler: The Gambler 0xE0008E987301305E -->
+		</If>
+
+		<!-- Smuggler: The Gambler -->
+		<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsQuestComplete(0xE0008E987301305E)))">
+		 <If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 2)))">
+ 		 <If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
+			<MoveTo QuestId="1" X="26.84871" Y="6.363346" Z="38.12912" />
+			<UserDialog Title="Orlok" Message="Use transport and head to the Republic Fleet! Thank you for using my profiles, please donate!"/>
+
+		 </If>
+		 </If>
+		</If>
+		
+		
+		
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+</Questing>    
+
+</Profile>

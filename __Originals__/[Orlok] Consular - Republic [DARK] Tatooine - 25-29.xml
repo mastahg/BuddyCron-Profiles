@@ -1,0 +1,1150 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+
+  <Name>[REPUBLIC|DARK] Tatooine 22-25 - Recreated by Orlok Raven</Name>
+	<ForceAlignment Type="Dark" AutoSkip="true" />
+	
+	
+
+	
+	<GrindAreas> 
+	
+		<GrindArea Name="Astromenace 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Worn-out Astromech Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Worn-out Astromech Droid" X="201.9464" Y="43.8672" Z="-360.4223" />
+				<Hotspot Name="Worn-out Astromech Droid" X="207.1378" Y="43.48285" Z="-354.4974" />
+				<Hotspot Name="Worn-out Astromech Droid" X="210.4942" Y="43.32025" Z="-361.0488" />
+				<Hotspot Name="Worn-out Astromech Droid" X="198.6801" Y="44.41631" Z="-354.8642" />
+				<Hotspot Name="Worn-out Astromech Droid" X="185.113" Y="43.79783" Z="-362.2592" />
+				<Hotspot Name="Worn-out Astromech Droid" X="189.8519" Y="43.86382" Z="-367.0302" />
+				<Hotspot Name="Worn-out Astromech Droid" X="199.1537" Y="43.88468" Z="-377.8124" />
+				<Hotspot Name="Worn-out Astromech Droid" X="207.0717" Y="43.86499" Z="-374.4991" />
+				<Hotspot Name="Worn-out Astromech Droid" X="194.68" Y="43.87058" Z="-374.7088" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Hunting the Hunters (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Freelance Battle Droid</Mob>
+				<Mob>Freelance Assassin</Mob>
+				<Mob>Freelance Bounty Hunter</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Freelance Assassin" X="174.3427" Y="43.9783" Z="-367.2643" />
+				<Hotspot Name="Freelance Technician" X="174.8904" Y="43.9783" Z="-367.7334" />
+				<Hotspot Name="Freelance Bounty Hunter" X="170.3869" Y="44.0283" Z="-364.9626" />
+				<Hotspot Name="Freelance Assassin" X="170.1378" Y="44.0283" Z="-368.7529" />
+				<Hotspot Name="Freelance Technician" X="178.012" Y="44.47896" Z="-369.0459" />
+				<Hotspot Name="Freelance Bounty Hunter" X="173.2361" Y="43.9783" Z="-369.9671" />
+				<Hotspot Name="Freelance Assassin" X="170.7768" Y="45.2183" Z="-369.21" />
+			</Hotspots>
+		</GrindArea>   
+
+		<GrindArea Name="Bug Hunt">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Support Drone</Mob>
+				<Mob>Geonosian Fanatic</Mob>
+				<Mob>Geonosian Drone Guardian</Mob>				
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Bug Hunt" X="35.29133" Y="42.451" Z="-256.1458" />
+				<Hotspot Name="Bug Hunt" X="33.93979" Y="42.501" Z="-258.6284" />
+				<Hotspot Name="Bug Hunt" X="35.92017" Y="42.94101" Z="-260.6198" />
+				<Hotspot Name="Bug Hunt" X="33.20219" Y="42.9518" Z="-260.6831" />
+				<Hotspot Name="Bug Hunt" X="32.17231" Y="42.501" Z="-252.3612" />
+				<Hotspot Name="Bug Hunt" X="37.22427" Y="42.501" Z="-251.714" />
+				<Hotspot Name="Bug Hunt" X="37.96894" Y="43.6874" Z="-254.8476" />
+			</Hotspots>
+		</GrindArea> 		
+		
+		<GrindArea Name="The Hunted 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Assassin Ultracommando</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Assassin Ultracommando" X="170.3898" Y="45.2183" Z="-364.0235" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Smuggler's Route 3">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Twin Suns Bruiser</Mob>
+				<Mob>Twin Suns Thief</Mob>
+				<Mob>Twin Suns Sentinel Droid</Mob>
+				<Mob>Twin Suns Enforcer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Twin Suns Bruiser" X="239.6534" Y="43.45325" Z="-373.6583" />
+				<Hotspot Name="Twin Suns Bruiser" X="240.7328" Y="42.951" Z="-370.3416" />
+				<Hotspot Name="Twin Suns Enforcer" X="238.0265" Y="42.951" Z="-369.4608" />
+				<Hotspot Name="Twin Suns Sentinel Droid" X="239.7686" Y="43.001" Z="-371.2805" />
+				<Hotspot Name="Twin Suns Bruiser" X="244.649" Y="43.451" Z="-373.2852" />
+				<Hotspot Name="Twin Suns Bruiser" X="244.3037" Y="43.44101" Z="-369.8734" />
+				<Hotspot Name="Twin Suns Sentinel Droid" X="243.9937" Y="44.18443" Z="-368.1672" />
+				<Hotspot Name="Twin Suns Enforcer" X="238.2949" Y="44.19044" Z="-368.5707" />
+				<Hotspot Name="Twin Suns Thief" X="238.9204" Y="43.001" Z="-365.8689" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Timely Arrival 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Czerka Security Officer</Mob>
+				<Mob>Czerka Strike Team Leader</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Kamus Orden" X="241.7505" Y="33.80465" Z="-382.6757" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Shut Down the Slave Trade (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Twin Suns Maintenance Droid</Mob>
+				<Mob>Twin Suns Supervisor</Mob>
+				<Mob>Twin Suns Engineer</Mob>
+				<Mob>Twin Suns Pilot</Mob>
+				<Mob>Twin Suns Supervisor</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Twin Suns Maintenance Droid" X="169.2459" Y="38.101" Z="-328.7541" />
+				<Hotspot Name="Twin Suns Engineer" X="171.6124" Y="38.101" Z="-332.8431" />
+				<Hotspot Name="Twin Suns Maintenance Droid" X="179.1455" Y="38.11991" Z="-333.1841" />
+				<Hotspot Name="Twin Suns Pilot" X="177.7516" Y="38.08984" Z="-328.6009" />
+				<Hotspot Name="Twin Suns Supervisor" X="182.3307" Y="38.101" Z="-328.1316" />
+				<Hotspot Name="Twin Suns Maintenance Droid" X="179.5149" Y="38.101" Z="-323.2506" />
+				<Hotspot Name="Twin Suns Supervisor" X="184.3104" Y="38.11817" Z="-326.4101" />
+				<Hotspot Name="Twin Suns Supervisor" X="188.3127" Y="38.101" Z="-328.6641" />
+				<Hotspot Name="Twin Suns Supervisor" X="189.5671" Y="38.101" Z="-320.1689" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Smuggler's Route 7">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Twin Suns Slavemaster</Mob>
+				<Mob>Twin Suns Kidnapper</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Twin Suns Slavemaster" X="184.9967" Y="38.071" Z="-322.5477" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="There Goes the Farm (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Czerka Mark 4 Droid</Mob>
+				<Mob>Gamorrean Warrior</Mob>
+				<Mob>Gamorrean Marksman</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="73.6113" Y="42.0222" Z="-201.901" />
+				<Hotspot Name="Czerka Mark 4 Droid" X="72.6031" Y="42.0323" Z="-194.999" />
+				<Hotspot Name="Gamorrean Warrior" X="74.74698" Y="42.00468" Z="-198.8344" />
+				<Hotspot Name="Gamorrean Marksman" X="71.52972" Y="42.01487" Z="-197.9805" />
+				<Hotspot Name="Gamorrean Warrior" X="79.5648" Y="42.00051" Z="-198.9787" />
+				<Hotspot Name="Gamorrean Marksman" X="78.4232" Y="42.37984" Z="-194.4044" />
+				<Hotspot Name="Czerka Mark 4 Droid" X="80.8725" Y="42.11289" Z="-193.9884" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Timely Arrival 8">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Czerka Security Commander</Mob>
+				<Mob>Gamorrean Warlord</Mob>
+				<Mob>Gamorrean Sentry</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Czerka Security Commander" X="82.41418" Y="42.00623" Z="-197.684" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Looking Out for the Little Guy 7">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>War Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="101.0995" Y="44.50776" Z="-269.8101" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Pacify the Perimeter (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Razer</Mob>
+				<Mob>Sand People Bolter</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Razer" X="33.11401" Y="45.09248" Z="-130.5081" />
+				<Hotspot Name="Sand People Bolter" X="36.87372" Y="44.71969" Z="-129.4123" />
+				<Hotspot Name="Sand People Bolter" X="46.76021" Y="44.64922" Z="-132.1498" />
+				<Hotspot Name="Sand People Bolter" X="46.09035" Y="44.55756" Z="-134.0222" />
+				<Hotspot Name="Sand People Razer" X="41.4747" Y="44.53293" Z="-145.454" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Quarry Quandary (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Twin Suns Crackshot</Mob>
+				<Mob>Twin Suns Lifting Droid</Mob>
+				<Mob>Twin Suns Surveyor</Mob>
+				<Mob>Twin Suns Smuggler</Mob>
+				<Mob>Twin Suns Mining Droid</Mob>
+				<Mob>Twin Suns Mercenary</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-4.822834" Y="50.46878" Z="-201.027" />
+				<Hotspot Name="Twin Suns Crackshot" X="-8.238393" Y="50.45217" Z="-203.0876" />
+				<Hotspot Name="Twin Suns Surveyor" X="-1.739896" Y="50.41772" Z="-203.9806" />
+				<Hotspot Name="Twin Suns Smuggler" X="2.702221" Y="50.47127" Z="-203.8053" />
+				<Hotspot Name="Twin Suns Mining Droid" X="-7.716101" Y="50.49654" Z="-206.9056" />
+				<Hotspot Name="Twin Suns Miner" X="-6.719464" Y="49.66679" Z="-211.3002" />
+				<Hotspot Name="Twin Suns Mercenary" X="1.06934" Y="49.74419" Z="-208.1444" />
+				<Hotspot Name="Twin Suns Smuggler" X="5.569825" Y="50.59153" Z="-209.3379" />
+				<Hotspot Name="Twin Suns Smuggler" X="1.039593" Y="50.59225" Z="-213.5955" />
+				<Hotspot Name="My Location" X="3.603832" Y="50.61599" Z="-212.9252" />
+				<Hotspot Name="Twin Suns Smuggler" X="5.506306" Y="50.61599" Z="-210.4006" />
+				<Hotspot Name="My Location" X="-2.218753" Y="49.30283" Z="-214.3839" />
+				<Hotspot Name="Twin Suns Miner" X="-5.105593" Y="49.55544" Z="-218.9439" />
+				<Hotspot Name="Twin Suns Miner" X="-8.179494" Y="49.51432" Z="-220.856" />
+				<Hotspot Name="Twin Suns Smelter" X="-10.9951" Y="49.52038" Z="-219.2371" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Quarry Quandary (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>&quot;Eclipse-Maker&quot; Garthrus</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="&quot;Eclipse-Maker&quot; Garthrus" X="6.424728" Y="53.3904" Z="-225.54" />
+			</Hotspots>
+		</GrindArea>    
+
+		<GrindArea Name="Steady Shot (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Scar-Bearer</Mob>
+				<Mob>Sand People Tamer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-23.33406" Y="50.46183" Z="-196.4918" />
+				<Hotspot Name="Sand People Scar-Bearer" X="-20.7282" Y="50.5687" Z="-194.2914" />
+				<Hotspot Name="Sand People Scar-Bearer" X="-15.415" Y="50.55495" Z="-193.9131" />
+				<Hotspot Name="Sand People Scar-Bearer" X="-18.96529" Y="50.5563" Z="-191.73" />
+				<Hotspot Name="Sand People Scar-Bearer" X="-23.4851" Y="50.24161" Z="-190.7766" />
+				<Hotspot Name="Sand People Tamer" X="-23.44423" Y="47.43483" Z="-188.8417" />
+				<Hotspot Name="Sand People Scar-Bearer" X="-19.9594" Y="47.53022" Z="-187.8436" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Target Practice">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Sharpshooter</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Sharpshooter" X="-26.00331" Y="47.08372" Z="-184.3272" />
+				<Hotspot Name="Sand People Sharpshooter" X="-30.7399" Y="47.39513" Z="-181.2853" />
+				<Hotspot Name="Sand People Sharpshooter" X="-18.8645" Y="47.52471" Z="-181.3075" />
+				<Hotspot Name="Sand People Sharpshooter" X="-26.01439" Y="47.6405" Z="-176.6202" />
+				<Hotspot Name="Sand People Sharpshooter" X="-23.43769" Y="47.20574" Z="-178.7828" />
+				<Hotspot Name="Sand People Sharpshooter" X="-17.26302" Y="47.32957" Z="-177.8879" />
+				<Hotspot Name="Sand People Sharpshooter" X="-13.2233" Y="47.33277" Z="-176.0333" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Defeat the Cave-Dwellers (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Mauler</Mob>
+				<Mob>Sand People Gunner</Mob>
+				<Mob>Sand People Destroyer</Mob>
+				<Mob>Sand People Hunt Lord</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Mauler" X="-27.75202" Y="43.4884" Z="-195.645" />
+				<Hotspot Name="Sand People Gunner" X="-27.33587" Y="43.51733" Z="-195.5374" />
+				<Hotspot Name="Sand People Destroyer" X="-23.49883" Y="43.30976" Z="-198.329" />
+				<Hotspot Name="Sand People Gunner" X="-15.78312" Y="42.84695" Z="-199.7791" />
+				<Hotspot Name="Sand People Destroyer" X="-19.27316" Y="42.83979" Z="-195.407" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Signal to Noise (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Czerka Eliminator Droid</Mob>
+				<Mob>Czerka Assembler Droid</Mob>
+				<Mob>Czerka Observer Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-33.26049" Y="37.09576" Z="-140.6595" />
+				<Hotspot Name="Czerka Eliminator Droid" X="-40.23539" Y="37.09652" Z="-142.3893" />
+				<Hotspot Name="Czerka Assembler Droid" X="-31.6467" Y="36.72018" Z="-153.5357" />
+				<Hotspot Name="Czerka Observer Droid" X="-30.9452" Y="36.72173" Z="-154.3115" />
+				<Hotspot Name="My Location" X="-31.88916" Y="36.71876" Z="-154.3002" />
+				<Hotspot Name="Czerka Assembler Droid" X="-25.0457" Y="35.9311" Z="-155.7971" />
+				<Hotspot Name="Czerka Observer Droid" X="-25.5763" Y="35.94056" Z="-161.3796" />
+				<Hotspot Name="Czerka Eliminator Droid" X="-22.30199" Y="35.91618" Z="-158.1456" />
+				<Hotspot Name="Czerka Assembler Droid" X="-17.5142" Y="35.90411" Z="-159.3651" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Barricaded Farmers (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Scavenger Rill</Mob>
+				<Mob>Sand People Scout</Mob>
+				<Mob>Sand People Warden</Mob>
+				<Mob>Sand People Deepman</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Scout" X="-88.83765" Y="46.95374" Z="-131.2535" />
+				<Hotspot Name="Sand People Warden" X="-87.4513" Y="47.04721" Z="-128.8595" />
+				<Hotspot Name="Sand People Deepman" X="-91.19138" Y="47.11806" Z="-125.9512" />
+				<Hotspot Name="Sand People Scout" X="-86.09971" Y="47.2742" Z="-123.3383" />
+				<Hotspot Name="Sand People Scout" X="-83.23299" Y="45.93842" Z="-128.8784" />
+				<Hotspot Name="Sand People Scout" X="-82.8783" Y="45.96422" Z="-126.6226" />
+				<Hotspot Name="Sand People Warden" X="-79.7221" Y="46.90778" Z="-133.831" />
+				<Hotspot Name="Sand People Scout" X="-82.2989" Y="47.10855" Z="-137.5263" />
+			</Hotspots>
+		</GrindArea>    
+
+		<GrindArea Name="Strike Down the Sand People (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Thrasher</Mob>
+				<Mob>Sand People Tribal</Mob>
+				<Mob>Sand People Manslayer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Thrasher" X="-57.55006" Y="46.09337" Z="-121.1094" />
+				<Hotspot Name="Sand People Tribal" X="-57.4349" Y="46.14571" Z="-120.0905" />		
+				<Hotspot Name="Sand People Manslayer" X="-55.95302" Y="45.74796" Z="-121.0196" />
+				<Hotspot Name="Sand People Tribal" X="-50.79139" Y="44.57838" Z="-112.669" />
+				<Hotspot Name="Sand People Thrasher" X="-54.26229" Y="45.30625" Z="-111.3069" />
+				<Hotspot Name="Sand People Tribal" X="-47.48466" Y="44.54538" Z="-110.3464" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Death in the Dunes 14 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Master Eriz Vossan</Mob>
+				<Mob>Sand People Rager</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Master Eriz Vossan" X="-51.56883" Y="45.30676" Z="-108.1633" />
+				<Hotspot Name="Sand People Rager" X="-51.421" Y="45.30617" Z="-108.4963" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - A Thorough Cleaning (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Reprogrammed Czerka Worker</Mob>
+				<Mob>Reanimated Czerka Guard</Mob>
+				<Mob>Charged Czerka Droid</Mob>
+				<Mob>Rakata Enforcer Unit</Mob>
+				<Mob>Cybernecrotic Czerka Observer</Mob>
+			</Mobs>
+			<Hotspots>
+				<!-- Elevator fucks these first ones up
+				<Hotspot Name="Reprogrammed Czerka Worker" X="-247.8585" Y="37.49815" Z="-32.1383" />
+				<Hotspot Name="Rakata Enforcer Unit" X="-244.4998" Y="37.73008" Z="-30.84598" />
+				<Hotspot Name="Rakata Enforcer Unit" X="-244.4244" Y="36.92025" Z="-17.6753" />
+				<Hotspot Name="Reanimated Czerka Guard" X="-247.4726" Y="36.91418" Z="-19.7082" />
+				<Hotspot Name="Berserk Czerka Droid" X="-246.9563" Y="36.8894" Z="-24.3078" />
+				-->
+				<Hotspot Name="Reanimated Czerka Guard" X="-245.2513" Y="30.89652" Z="-21.014" />
+				<Hotspot Name="Reanimated Czerka Guard" X="-240.7328" Y="30.92939" Z="-20.8518" />
+				<Hotspot Name="Cybernecrotic Czerka Observer" X="-240.8048" Y="30.92939" Z="-24.966" />
+				<Hotspot Name="Rakata Enforcer Unit" X="-239.984" Y="30.89889" Z="-15.06908" />
+				<Hotspot Name="Berserk Czerka Droid" X="-235.4651" Y="30.8959" Z="-18.7662" />
+				<Hotspot Name="Charged Czerka Droid" X="-229.6107" Y="30.7399" Z="-14.3917" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - A Thorough Cleaning (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Cybernecrotic Director Antayen</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Cybernecrotic Director Antayen" X="-202.9696" Y="30.72147" Z="-23.17714" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="The Thing Czerka Found 9">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Mutated Czerka Guard</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Mutated Czerka Guard" X="-200.3036" Y="30.92062" Z="-35.87242" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="The Thing Czerka Found 2 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Gayem Leksende</Mob>
+				<Mob>Czerka Operative</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Gayem Leksende" X="-200.4774" Y="30.92157" Z="-36.1458" />
+				<Hotspot Name="Czerka Operative" X="-200.406" Y="30.92107" Z="-35.9536" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stop the Slavers (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Slave Master</Mob>
+				<Mob>Slave Runner</Mob>
+				<Mob>Slave Guard</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="-218.0149" Y="39.66479" Z="-105.126" />
+				<Hotspot Name="My Location" X="-217.6002" Y="39.76936" Z="-110.8211" />
+				<Hotspot Name="My Location" X="-217.5945" Y="39.71892" Z="-108.8951" />
+				<Hotspot Name="Slave Guard" X="-221.2804" Y="39.79078" Z="-106.6196" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Pre-emptive Strike 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Mandalorian Captain</Mob>
+				<Mob>Mandalorian Hunter</Mob>
+				<Mob>Mandalorian Engineer</Mob>
+				<Mob>Mandalorian Lookout Drone</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Mandalorian Captain" X="-202.3001" Y="43.81783" Z="-184.8885" />
+				<Hotspot Name="Mandalorian Hunter" X="-200.5809" Y="43.82315" Z="-186.9678" />
+				<Hotspot Name="Mandalorian Engineer" X="-199.3407" Y="43.82664" Z="-183.5272" />
+				<Hotspot Name="Mandalorian Captain" X="-196.353" Y="43.85398" Z="-187.552" />
+				<Hotspot Name="Mandalorian Lookout Drone" X="-194.2888" Y="43.81067" Z="-184.6837" />
+				<Hotspot Name="Mandalorian Captain" X="-190.9417" Y="44.35275" Z="-187.2316" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Tatooine: Bonus Series 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Saboteur</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Saboteur" X="98.9845" Y="44.55481" Z="-209.0233" />
+				<Hotspot Name="Imperial Saboteur" X="107.8301" Y="44.44146" Z="-207.7488" />
+				<Hotspot Name="Imperial Saboteur" X="106.1256" Y="44.48618" Z="-216.095" />
+				<Hotspot Name="Imperial Saboteur" X="101.827" Y="43.6823" Z="-218.7885" />
+				<Hotspot Name="Imperial Saboteur" X="100.626" Y="43.67839" Z="-223.8738" />
+				<Hotspot Name="Imperial Saboteur" X="99.85351" Y="43.68034" Z="-222.0801" />
+				<Hotspot Name="Imperial Saboteur" X="96.5878" Y="44.49422" Z="-218.8727" />
+				<Hotspot Name="Imperial Saboteur" X="98.5177" Y="44.53002" Z="-224.4593" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Trail of Ruin 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Lookout</Mob>
+				<Mob>Sand People Invader Rill</Mob>
+				<Mob>Sand People Attacker</Mob>
+				<Mob>Sand People Patriarch</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Lookout" X="152.2431" Y="43.6932" Z="-186.9701" />
+				<Hotspot Name="Sand People Invader Rill" X="151.4864" Y="43.65489" Z="-181.9521" />
+				<Hotspot Name="Sand People Lookout" X="157.5295" Y="43.64053" Z="-185.0543" />
+				<Hotspot Name="Sand People Lookout" X="160.0343" Y="43.66204" Z="-188.5177" />
+				<Hotspot Name="Sand People Attacker" X="160.2026" Y="43.63621" Z="-181.3377" />
+				<Hotspot Name="Sand People Attacker" X="164.9511" Y="42.72754" Z="-186.0366" />
+				<Hotspot Name="Sand People Patriarch" X="156.2527" Y="43.66429" Z="-178.7611" />
+				<Hotspot Name="Sand People Attacker" X="164.975" Y="42.72753" Z="-186.0502" />
+				<Hotspot Name="Sand People Attacker" X="160.6398" Y="43.68889" Z="-188.3386" />
+				<Hotspot Name="Sand People Attacker" X="157.5204" Y="43.63671" Z="-185.5129" />
+				<Hotspot Name="Sand People Lookout" X="156.7359" Y="42.72966" Z="-181.5139" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Militia Training 3">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Terrorizer</Mob>
+				<Mob>Sand People Ambusher</Mob>
+				<Mob>Sand People Farslayer</Mob>
+				<Mob>Sand People Sunmarked</Mob>
+				<Mob>Sand People Raider Rill</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Ambusher" X="120.4891" Y="44.48715" Z="-170.7066" />
+				<Hotspot Name="Sand People Raider Rill" X="119.8385" Y="44.44765" Z="-167.4436" />
+				<Hotspot Name="Sand People Sunmarked" X="122.6849" Y="44.31964" Z="-164.7757" />
+				<Hotspot Name="Sand People Terrorizer" X="124.3603" Y="44.39323" Z="-161.8521" />
+				<Hotspot Name="Sand People Ambusher" X="121.5919" Y="43.39997" Z="-159.4416" />
+				<Hotspot Name="Sand People Raider Rill" X="114.6624" Y="43.44447" Z="-167.5377" />
+				<Hotspot Name="Sand People Ambusher" X="119.0683" Y="44.33356" Z="-152.0094" />
+				<Hotspot Name="Sand People Sunmarked" X="112.8498" Y="44.44859" Z="-160.0848" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Jawa Justice (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Guard Rill</Mob>
+				<Mob>Sand People Slaver</Mob>
+				<Mob>Sand People Pillager</Mob>
+				<Mob>Sand People Combatant</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="136.1744" Y="44.4787" Z="-205.7245" />
+				<Hotspot Name="Sand People Slaver" X="131.9118" Y="44.47195" Z="-201.0999" />
+				<Hotspot Name="Sand People Pillager" X="131.744" Y="44.46566" Z="-208.8477" />
+				<Hotspot Name="Sand People Combatant" X="132.8902" Y="44.23333" Z="-212.2207" />
+				<Hotspot Name="Sand People Pillager" X="129.3546" Y="43.52831" Z="-207.3447" />
+				<Hotspot Name="Sand People Pillager" X="123.6394" Y="43.52726" Z="-203.3542" />
+				<Hotspot Name="Sand People Pillager" X="124.6009" Y="43.51464" Z="-209.0774" />
+				<Hotspot Name="Sand People Guard Rill" X="122.2692" Y="44.51092" Z="-209.5589" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - Geonosian War (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Soldier</Mob>
+				<Mob>Geonosian Drone</Mob>
+				<Mob>Geonosian Drone Commander</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Drone" X="188.1643" Y="42.63848" Z="-148.1776" />
+				<Hotspot Name="Geonosian Soldier" X="187.5818" Y="42.70715" Z="-153.3857" />
+				<Hotspot Name="Geonosian Soldier" X="191.0988" Y="42.59652" Z="-156.7776" />
+				<Hotspot Name="Geonosian Soldier" X="194.1539" Y="42.66798" Z="-161.6138" />
+				<Hotspot Name="Geonosian Soldier" X="199.5075" Y="42.57564" Z="-157.6863" />
+				<Hotspot Name="Geonosian Soldier" X="199.7898" Y="42.5792" Z="-153.1723" />
+				<Hotspot Name="Geonosian Drone" X="196.7284" Y="42.58482" Z="-151.9128" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Militia's Trial 2 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Soldier</Mob>
+				<Mob>Geonosian Drone</Mob>
+				<Mob>Geonosian War Drone</Mob>
+				<Mob>Geonosian Drone Commander</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Drone" X="188.1643" Y="42.63848" Z="-148.1776" />
+				<Hotspot Name="Geonosian Soldier" X="187.5818" Y="42.70715" Z="-153.3857" />
+				<Hotspot Name="Geonosian Soldier" X="191.0988" Y="42.59652" Z="-156.7776" />
+				<Hotspot Name="Geonosian Soldier" X="194.1539" Y="42.66798" Z="-161.6138" />
+				<Hotspot Name="Geonosian Soldier" X="199.5075" Y="42.57564" Z="-157.6863" />
+				<Hotspot Name="Geonosian Soldier" X="199.7898" Y="42.5792" Z="-153.1723" />
+				<Hotspot Name="Geonosian Drone" X="196.7284" Y="42.58482" Z="-151.9128" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 3 - Geonosian War (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Drone Commander</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Drone Commander" X="206.2294" Y="42.401" Z="-139.1366" />
+				<Hotspot Name="Geonosian Drone Commander" X="205.6705" Y="43.591" Z="-140.114" />
+				<Hotspot Name="Geonosian Drone Commander" X="205.5645" Y="42.85826" Z="-146.448" />
+				<Hotspot Name="Geonosian Drone Commander" X="206.9677" Y="42.85826" Z="-148.6314" />
+				<Hotspot Name="Geonosian Drone Commander" X="215.3148" Y="42.86225" Z="-139.8749" />
+				<Hotspot Name="Geonosian Drone Commander" X="206.8128" Y="42.86517" Z="-135.3885" />
+				<Hotspot Name="Geonosian Drone Commander" X="199.8661" Y="42.54198" Z="-152.3098" />
+				<Hotspot Name="Geonosian Drone Commander" X="203.7114" Y="42.85826" Z="-153.6495" />
+				<Hotspot Name="Geonosian Drone Commander" X="207.3822" Y="42.87006" Z="-157.2395" />
+				<Hotspot Name="Geonosian Drone Commander" X="208.9155" Y="42.87081" Z="-159.13" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Final Stage - Geonosian War (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Polarin the War Marshal</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Polarin the War Marshal" X="202.9401" Y="43.601" Z="-135.0236" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Best Served Dry (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Twin Suns Commander</Mob>
+				<Mob>Twin Suns Technician</Mob>
+				<Mob>Twin Suns Ravager</Mob>
+				<Mob>Twin Suns Destroyer Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Twin Suns Commander" X="127.6334" Y="44.66662" Z="-107.2978" />
+				<Hotspot Name="Twin Suns Technician" X="130.7489" Y="44.53963" Z="-104.1974" />
+				<Hotspot Name="Twin Suns Destroyer Droid" X="127.6732" Y="44.51273" Z="-102.0901" />
+				<Hotspot Name="Twin Suns Technician" X="120.0294" Y="45.15482" Z="-106.6056" />
+				<Hotspot Name="Twin Suns Ravager" X="115.3859" Y="45.3814" Z="-107.5624" />
+				<Hotspot Name="Twin Suns Destroyer Droid" X="119.6944" Y="44.51025" Z="-100.3594" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Sand Storm (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Tribesman</Mob>
+				<Mob>Sand People Attack Rill</Mob>
+				<Mob>Sand People Farseer</Mob>
+				<Mob>Sand People Bloodletter</Mob>
+				<Mob>Sand People Pathfinder</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" X="141.3152" Y="41.73835" Z="-88.14469" />
+				<Hotspot Name="Sand People Tribesman" X="143.7141" Y="41.6832" Z="-91.4509" />
+				<Hotspot Name="Sand People Farseer" X="136.7015" Y="41.63438" Z="-92.35899" />
+				<Hotspot Name="Sand People Farseer" X="133.3185" Y="41.55758" Z="-89.27184" />
+				<Hotspot Name="Sand People Farseer" X="134.1542" Y="41.84808" Z="-85.5463" />
+				<Hotspot Name="Sand People Farseer" X="128.7539" Y="41.68925" Z="-89.72614" />
+				<Hotspot Name="Sand People Tribesman" X="136.1262" Y="41.63235" Z="-82.42635" />
+				<Hotspot Name="Sand People Bloodletter" X="150.636" Y="41.40605" Z="-83.1496" />
+				<Hotspot Name="Sand People Pathfinder" X="152.4111" Y="41.41307" Z="-77.4986" />
+				<Hotspot Name="Sand People Bloodletter" X="156.2344" Y="41.34979" Z="-82.22163" />
+				<Hotspot Name="Sand People Bloodletter" X="153.3912" Y="41.60907" Z="-74.0065" />
+				<Hotspot Name="Sand People Pathfinder" X="164.7722" Y="41.68181" Z="-67.68011" />
+				<Hotspot Name="Sand People Pilgrim" X="165.5305" Y="41.62371" Z="-72.88545" />
+				<Hotspot Name="Sand People Bloodletter" X="171.0496" Y="41.70976" Z="-63.0182" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="The Geonosian Eviction (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Soldier</Mob>
+				<Mob>Geonosian Drone</Mob>
+				<Mob>Geonosian War Drone</Mob>
+				<Mob>Geonosian Drone Commander</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Soldier" X="188.9443" Y="42.67169" Z="-147.4348" />
+				<Hotspot Name="Geonosian Drone" X="189.331" Y="42.66003" Z="-147.3402" />
+				<Hotspot Name="Geonosian Drone Commander" X="190.7607" Y="42.63718" Z="-143.8769" />
+				<Hotspot Name="Geonosian Drone" X="193.7909" Y="42.86633" Z="-140.7321" />
+				<Hotspot Name="Geonosian Drone" X="194.6109" Y="42.86391" Z="-146.1351" />
+				<Hotspot Name="Geonosian Soldier" X="187.5818" Y="42.70715" Z="-153.3857" />
+				<Hotspot Name="Geonosian Soldier" X="184.5782" Y="42.70518" Z="-136.9545" />
+				<Hotspot Name="Geonosian War Drone" X="203.1495" Y="42.886" Z="-150.9358" />
+				<Hotspot Name="Geonosian Soldier" X="206.1125" Y="42.85847" Z="-143.7546" />
+				<Hotspot Name="Geonosian Drone Commander" X="206.979" Y="42.85826" Z="-148.6116" />
+				<Hotspot Name="Geonosian Drone" X="205.1769" Y="42.87006" Z="-157.3411" />
+				<Hotspot Name="Geonosian Soldier" X="201.9015" Y="42.66237" Z="-161.5944" />
+				<Hotspot Name="Geonosian Drone" X="195.2898" Y="42.86391" Z="-146.4746" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Break the Sand People (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Dunereader</Mob>
+				<Mob>Sand People Suntracker</Mob>
+				<Mob>Sand People Cleaver</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Dunereader" X="203.2641" Y="47.18019" Z="-99.5548" />
+				<Hotspot Name="Sand People Suntracker" X="203.713" Y="47.0651" Z="-102.634" />
+				<Hotspot Name="Sand People Suntracker" X="205.4926" Y="45.94077" Z="-111.4727" />
+				<Hotspot Name="Sand People Suntracker" X="210.3338" Y="47.1566" Z="-97.347" />
+				<Hotspot Name="Sand People Cleaver" X="204.386" Y="47.14474" Z="-91.072" />
+				<Hotspot Name="Sand People Dunereader" X="195.4953" Y="47.14737" Z="-92.9759" />
+				<Hotspot Name="Sand People Suntracker" X="192.7452" Y="47.15008" Z="-99.5188" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 1 - The Fall of the Sand People (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Assailant</Mob>
+				<Mob>Sand People Brigand</Mob>
+				<Mob>Sand People Sniper</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Assailant" X="212.7094" Y="44.09561" Z="-43.07668" />
+				<Hotspot Name="Sand People Brigand" X="212.3516" Y="44.59003" Z="-39.70296" />
+				<Hotspot Name="Sand People Brigand" X="216.567" Y="44.77147" Z="-36.08736" />
+				<Hotspot Name="Sand People Sniper" X="218.1436" Y="45.24545" Z="-38.93372" />
+				<Hotspot Name="Sand People Brigand" X="214.6294" Y="45.50737" Z="-32.43457" />
+				<Hotspot Name="Sand People Assailant" X="221.5556" Y="44.65447" Z="-28.14196" />
+				<Hotspot Name="Sand People Assailant" X="231.4793" Y="44.50166" Z="-23.22419" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Stage 3 - The Fall of the Sand People (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Chieftain</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Chieftain" X="232.1164" Y="43.33689" Z="1.120792" />	
+				<Hotspot Name="Sand People Chieftain" X="230.7091" Y="43.30635" Z="5.510499" />
+				<Hotspot Name="Sand People Chieftain" X="226.4856" Y="43.18876" Z="0.2272455" />
+				<Hotspot Name="Sand People Chieftain" X="217.1318" Y="44.46889" Z="0.9878067" />
+				<Hotspot Name="Sand People Chieftain" X="212.4081" Y="45.80061" Z="-6.250743" />
+				<Hotspot Name="Sand People Chieftain" X="201.7925" Y="46.52085" Z="-3.428204" />
+				<Hotspot Name="Sand People Chieftain" X="205.128" Y="46.53071" Z="-14.1639" />
+				<Hotspot Name="Sand People Chieftain" X="217.0789" Y="44.46887" Z="0.9570997" />
+				<Hotspot Name="Sand People Chieftain" X="225.4524" Y="43.14622" Z="1.032557" />
+				<Hotspot Name="Sand People Chieftain" X="224.9023" Y="43.75474" Z="10.05192" />
+				<Hotspot Name="Sand People Chieftain" X="226.5668" Y="44.1688" Z="15.1525" />
+				<Hotspot Name="Sand People Chieftain" X="221.3393" Y="46.95447" Z="19.56397" />
+				<Hotspot Name="Sand People Chieftain" X="205.0413" Y="45.35975" Z="26.6036" />
+			</Hotspots>
+		</GrindArea>    
+
+		<GrindArea Name="Rapid Response Droids">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Bomb-Carrying Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Bomb-Carrying Droids" X="230.0021" Y="43.5061" Z="-346.2291" />	
+			</Hotspots>
+		</GrindArea>  	
+
+		<GrindArea Name="Diago's Defenses (Bonus) 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Diago's Scout Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Diago's Scout Droid" X="-124.5359" Y="43.36585" Z="-118.2032" />
+				<Hotspot Name="Diago's Scout Droid" X="-120.4128" Y="42.20807" Z="-116.5345" />
+				<Hotspot Name="Diago's Scout Droid" X="-118.4755" Y="43.1464" Z="-114.2758" />
+				<Hotspot Name="Diago's Scout Droid" X="-119.1004" Y="43.11179" Z="-113.6592" />
+				<Hotspot Name="Diago's Scout Droid" X="-125.2227" Y="39.60583" Z="-111.5544" />
+			</Hotspots>
+		</GrindArea>  	
+
+		<GrindArea Name="Diago's Defenses (Bonus) 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Diago's Assault Droid</Mob>
+				<Mob>Diago's Astromech Droid</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Diago's Droid" X="-133.481" Y="39.79666" Z="-112.8552" />
+				<Hotspot Name="Diago's Droid" X="-133.481" Y="39.79666" Z="-112.8552" />
+				<Hotspot Name="Diago's Droid" X="-135.5656" Y="39.84654" Z="-118.2131" />
+				<Hotspot Name="Diago's Droid" X="-135.7943" Y="39.99324" Z="-122.3117" />	
+			</Hotspots>
+		</GrindArea>  			
+
+		<GrindArea Name="The Lightspring - Diago">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Vaverone Zare</Mob>
+				<Mob>Diago Hixan</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Diago Hixan" X="-138.67" Y="39.76426" Z="-129.372" />
+			</Hotspots>
+		</GrindArea>  		
+		
+		<GrindArea Name="Interception Branch 1 Step 4">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Warrior</Mob>
+				<Mob>Geonosian Elite</Mob>
+				<Mob>Kyvax</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Elite" X="73.81689" Y="42.351" Z="-274.4366" />
+			</Hotspots>
+		</GrindArea>  		
+
+		<GrindArea Name="[AREA] Geonosian Counterattack 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Drone Scout</Mob>
+				<Mob>Geonosian Drone Warrior</Mob>
+				<Mob>Geonosian Drone Champion</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Drone Scout" X="58.83829" Y="44.16922" Z="-262.2121" />
+				<Hotspot Name="Geonosian Drone Warrior" X="59.419" Y="44.00872" Z="-256.7389" />
+				<Hotspot Name="Geonosian Drone Warrior" X="53.3207" Y="44.51801" Z="-260.3163" />
+				<Hotspot Name="Geonosian Drone Scout" X="56.8774" Y="43.9013" Z="-269.5115" />
+				<Hotspot Name="Geonosian Drone Scout" X="64.3139" Y="44.01243" Z="-261.1288" />
+			</Hotspots>
+		</GrindArea> 
+
+		<GrindArea Name="[AREA] Geonosian Counterattack 2">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Hive Commander Brachtor</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Hive Commander Brachtor" X="58.9684" Y="46.23735" Z="-249.737" />
+			</Hotspots>
+		</GrindArea> 		
+		
+		<GrindArea Name="Imperial Shut Down (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Squad Leader</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Squad Leader" X="13.50071" Y="48.71041" Z="-193.4967" />
+				<Hotspot Name="Imperial Squad Leader" X="16.582" Y="48.44447" Z="-184.2519" />
+			</Hotspots>
+		</GrindArea> 
+		
+		<GrindArea Name="Sandstorm 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Commando</Mob>
+				<Mob>Imperial Commando Sergeant</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Commando Sergeant" X="12.46567" Y="48.4882" Z="-182.2178" />
+			</Hotspots>
+		</GrindArea> 	
+
+		<GrindArea Name="Base Offensive (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Delta Squad Rifleman</Mob>
+				<Mob>Delta Squad Grenadier</Mob>
+				<Mob>Imperial Interrogation Drone</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Imperial Scum" X="-193.8932" Y="38.22049" Z="-144.4096" />
+				<Hotspot Name="Imperial Scum" X="-191.1246" Y="38.21357" Z="-144.4313" />
+				<Hotspot Name="Imperial Scum" X="-183.9013" Y="38.2043" Z="-144.057" />
+				<Hotspot Name="Imperial Scum" X="-182.781" Y="37.40989" Z="-150.6486" />
+				<Hotspot Name="Imperial Scum" X="-184.251" Y="37.45008" Z="-156.194" />
+				<Hotspot Name="Imperial Scum" X="-187.6164" Y="37.40116" Z="-154.6224" />
+				<Hotspot Name="Imperial Scum" X="-191.6278" Y="37.41521" Z="-154.8355" />
+			</Hotspots>
+		</GrindArea> 	
+
+		<GrindArea Name="Trooper - Evacuation 1">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Gorik's Personal Guard</Mob>
+				<Mob>Captain Thaban</Mob>
+				<Mob>Colonel Gorik</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Captain Thaban" X="-173.7449" Y="37.4385" Z="-153.8334" />
+			</Hotspots>
+		</GrindArea> 		
+
+		<GrindArea Name="Raiders of the Shock Drum (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand People Outrunner</Mob>
+				<Mob>Sand People Dunescout</Mob>
+				<Mob>Sand People Bloodspiller</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand People Outrunner" X="19.7405" Y="49.0894" Z="-230.5557" />
+				<Hotspot Name="Sand People Bloodspiller" X="22.19023" Y="49.0894" Z="-228.2528" />
+				<Hotspot Name="Sand People Outrunner" X="24.1673" Y="49.1394" Z="-230.3916" />
+				<Hotspot Name="Sand People Bloodspiller" X="22.87132" Y="49.1394" Z="-234.4017" />
+				<Hotspot Name="Sand People Bloodspiller" X="20.2774" Y="49.1394" Z="-233.2805" />
+			</Hotspots>
+		</GrindArea> 		
+
+		<GrindArea Name="No Quarter Given (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Geonosian Drone Worker</Mob>
+				<Mob>Geonosian Drone Champion</Mob>
+				<Mob>Geonosian Drone Scout</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Geonosian Drone Champion" X="65.88273" Y="42.74384" Z="-277.8721" />
+				<Hotspot Name="Geonosian Drone Scout" X="61.7776" Y="42.75098" Z="-277.3893" />
+				<Hotspot Name="Geonosian Drone Champion" X="59.5395" Y="42.75098" Z="-274.1526" />
+				<Hotspot Name="Geonosian Drone Champion" X="62.4535" Y="42.75544" Z="-271.3234" />
+				<Hotspot Name="Geonosian Drone Scout" X="63.2533" Y="43.06036" Z="-266.798" />
+				<Hotspot Name="Geonosian Drone Scout" X="58.1915" Y="43.88282" Z="-268.3932" />
+				<Hotspot Name="Geonosian Drone Scout" X="58.6144" Y="44.17761" Z="-263.0561" />
+				<Hotspot Name="Geonosian Drone Scout" X="53.7862" Y="44.49438" Z="-261.0369" />
+			</Hotspots>
+		</GrindArea> 		
+
+		<GrindArea Name="Desert Duel">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Lord Praven</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Lord Praven" X="-31.57252" Y="48.49091" Z="-224.866" />
+			</Hotspots>
+		</GrindArea> 
+
+		<GrindArea Name="The Sand Demon">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand Demon</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand Demon" X="-93.74091" Y="38.01565" Z="-110.0316" />
+			</Hotspots>
+		</GrindArea> 
+		
+		<GrindArea Name="For Future Generations (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Sand Demon Spawn</Mob>
+				<Mob>Sand Demon Hatchling</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Sand Demon Spawn" X="-106.1321" Y="39.16077" Z="-109.842" />
+				<Hotspot Name="Sand Demon Spawn" X="-98.88111" Y="39.52267" Z="-103.3696" />
+				<Hotspot Name="My Location" X="-101.7117" Y="39.14511" Z="-113.9399" />
+				<Hotspot Name="Sand Demon Hatchling" X="-99.83509" Y="38.34533" Z="-111.1829" /> 
+				<Hotspot Name="Sand Demon Spawn" X="-95.53058" Y="38.07248" Z="-114.9669" />
+				<Hotspot Name="Sand Demon Spawn" X="-92.48912" Y="38.04747" Z="-115.9035" />
+				<Hotspot Name="Sand Demon Spawn" X="-87.91338" Y="37.93024" Z="-115.4974" />
+				<Hotspot Name="Sand Demon Spawn" X="-86.5915" Y="37.95583" Z="-111.7255" />
+				<Hotspot Name="Sand Demon Spawn" X="-88.8413" Y="37.90903" Z="-108.5099" />
+				<Hotspot Name="Sand Demon Spawn" X="-90.86381" Y="37.4298" Z="-102.735" />
+				<Hotspot Name="Sand Demon Spawn" X="-89.12132" Y="37.33975" Z="-101.5863" />
+				<Hotspot Name="Sand Demon Spawn" X="-97.37256" Y="40.06046" Z="-97.34242" />
+				<Hotspot Name="My Location" X="-96.93005" Y="39.03827" Z="-91.30856" />
+			</Hotspots>
+		</GrindArea> 
+		
+		
+		
+	</GrindAreas>
+
+
+	<Questing>
+	
+	
+
+		
+		<!-- Consular - Looking Out for the Little Guy 4-5 -->
+		<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsQuestComplete(0xE000F1A8B5387ABA)))">
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 1, 4)))">
+			<UserDialog Title="Orlok" Message="Use taxi!" />
+				<MoveTo QuestId="0xE000F1A8B5387ABA" Name="My Location" X="81.30491" Y="43.4783" Z="-158.9323" />
+			</If>
+			<!-- Auto skip 5 -->
+		</If>
+
+		
+		<!-- Consular - Looking Out for the Little Guy 6-8 -->
+		<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsQuestComplete(0xE000F1A8B5387ABA)))">
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 1, 6)))">
+				<MoveTo QuestId="0xE000F1A8B5387ABA" Name="Going to speak to Tteek Tlek" X="101.0995" Y="44.50776" Z="-269.8101" />
+			</If>
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 1, 7)))">
+				<Grind GrindRef="Looking Out for the Little Guy 7" While="(not IsStepComplete(0xE000F1A8B5387ABA, 7))" />
+			</If>
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 1, 8)))">
+				<TalkTo QuestId="0xE000F1A8B5387ABA" Name="Tteek Tlek" X="101.1615" Y="44.51018" Z="-269.6116" />
+			</If>
+			<!-- Branch 2, Step 2 -->
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 2)))">
+				<UseObject QuestId="0xE000F1A8B5387ABA" Name="Sandcrawler Parts" BranchId="2" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" X="76.27166" Y="42.96106" Z="-271.6762" />
+						<Hotspot Name="My Location" X="75.56541" Y="43.03675" Z="-268.1158" />
+						<Hotspot Name="My Location" X="69.79334" Y="42.79783" Z="-267.3554" />
+						<Hotspot Name="My Location" X="67.26638" Y="42.79786" Z="-271.3204" />
+						<Hotspot Name="My Location" X="67.07122" Y="42.79692" Z="-271.6992" />
+						<Hotspot Name="My Location" X="64.58489" Y="42.74328" Z="-272.7207" />
+						<Hotspot Name="My Location" X="64.61245" Y="42.75098" Z="-273.5435" />
+						<Hotspot Name="My Location" X="61.57079" Y="42.77307" Z="-273.4285" />
+						<Hotspot Name="Geonosian Drone Scout" X="61.7776" Y="42.75098" Z="-277.3893" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 3)))">
+				<TalkTo QuestId="0xE000F1A8B5387ABA" Name="Tteek Tlek" X="101.1615" Y="44.51018" Z="-269.6116" />
+				<WaitTimer QuestId="1" WaitTime="10" />
+				<CompleteQuest QuestName="Jawa Cloak Reward" QuestId="0xE00036AF15B596B4" />
+			</If>
+		</If>	
+		
+		
+		
+		<!-- Consular - Looking Out for the Little Guy Turnin -->
+		<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsQuestComplete(0xE000F1A8B5387ABA)))">
+			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 4)))">
+				<TalkTo QuestId="0xE000F1A8B5387ABA" Name="Rowan Delk" X="82.86304" Y="43.41175" Z="-158.708" />
+			</If>
+			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" RewardIndex="0" />
+			<!-- Consular - 0=Qyzen's Upgraded Techblade; 1=comms; 2=container -->
+		</If>	
+
+		
+	
+
+		<!-- Consular - Visions in the Sand -->
+		<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsQuestComplete(0xE0004E970935A120)))">
+			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 2)))">
+				<MoveTo QuestId="0xE0004E970935A120" Name="My Location" X="-17.36519" Y="43.53726" Z="-197.5582" />
+			</If>
+			<!-- Defeat the Cave-Dwellers (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE0004058C4F49047))">
+				<Grind GrindRef="Defeat the Cave-Dwellers (Bonus)" While="(not IsQuestComplete(0xE0004058C4F49047))" />
+			</If>
+			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 3)))">
+				<UseObject QuestId="0xE0004E970935A120" Name="Torch" BranchId="1" StepId="3" Radius="20" WaitTime="5" >
+					<Hotspots>
+						<Hotspot Name="My Location" X="-17.36519" Y="43.53726" Z="-197.5582" />
+						<Hotspot Name="My Location" X="-16.76545" Y="43.52993" Z="-198.1105" />
+						<Hotspot Name="My Location" X="-16.51037" Y="43.64622" Z="-197.3822" />
+					</Hotspots>
+				</UseObject>
+			</If>
+			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 4)))">
+				<UseObject QuestId="0xE0004E970935A120" Name="Sand People Carving" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="-16.50815" Y="43.54972" Z="-198.2035" />
+			</If>
+			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 5)))">
+				<AnswerHolocomCall QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
+			</If>
+			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" RewardIndex="2" />
+			<!-- 0=comms; 1=container; 2=Anointed Demicot Lower Robe -->
+		</If>
+
+	
+	
+	
+		<!-- Consular - Death in the Dunes -->
+		<If Condition="((HasQuest(0xE000F56E63DC90D8)) and (not IsQuestComplete(0xE000F56E63DC90D8)))">
+			<!-- Barricaded Farmers (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE000231A354ADBAF))">
+				<Grind GrindRef="Barricaded Farmers (Bonus)" While="(not IsQuestComplete(0xE000231A354ADBAF))" />
+			</If>
+			<If Condition="((HasQuest(0xE000F56E63DC90D8)) and (not IsStepComplete(0xE000F56E63DC90D8, 2)))">
+				<MoveTo QuestId="0xE000F56E63DC90D8" Name="My Location" X="-89.04349" Y="45.90104" Z="-128.6122" />
+			</If>
+			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)">
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="3" />
+			</If>
+			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)">
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="4" />
+			</If>			
+			<!-- 0=comms; 1=Droid; 2=container; 3=Qyzen; 4=Tharan -->
+			<!-- The Ultimate Warriors 0xE000AE4F49390A99-->
+		</If>
+		
+		<!-- Consular - The Ultimate Warriors -->
+		<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsQuestComplete(0xE000AE4F49390A99)))">
+			<!-- Strike Down the Sand People (Bonus) -->
+			<If Condition="(not IsQuestComplete(0xE00005EC775DFA8F))">
+				<Grind GrindRef="Strike Down the Sand People (Bonus)" While="(not IsQuestComplete(0xE00005EC775DFA8F))" />
+			</If>
+			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 2)))">
+				<MoveTo QuestId="0xE000AE4F49390A99" Name="Sand People Rager" X="-51.421" Y="45.30617" Z="-108.4963" />
+			</If>
+			<!-- Autoskip 14, 3 -->
+			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 4)))">
+				<Grind GrindRef="Death in the Dunes 14 4" While="(not IsBranchStepComplete(0xE000AE4F49390A99, 14, 4))" />
+			</If>
+			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 5)))">
+				<TalkTo QuestId="0xE000AE4F49390A99" Name="Master Eriz Vossan" X="-51.40294" Y="45.30584" Z="-108.817" />
+			</If>
+			<!-- 14, 6 - use ships holoterminal -->
+		</If>
+		
+		
+		
+		<!-- Consular - The Ultimate Warriors -->
+		<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsQuestComplete(0xE000AE4F49390A99)))">
+			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 6)))">
+				<If Condition="Me.Position.Y &gt; 40">
+				<MoveTo QuestId="0xE000AE4F49390A99" Name="My Location" X="160.8575" Y="45.19058" Z="-330.4009" />
+							<UserDialog Title="Orlok" Message="This profile is completed!" />	
+				
+			
+			</If>		
+		</If>
+
+	</If>	
+		
+
+
+		
+	</Questing>    
+
+</Profile>

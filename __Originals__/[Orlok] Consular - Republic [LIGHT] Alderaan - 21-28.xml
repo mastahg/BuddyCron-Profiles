@@ -1,0 +1,180 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[REPUBLIC|LIGHT] Alderaan 21-28 - Recreated by Orlok Raven</Name>
+  
+	<ForceAlignment Type="Light" AutoSkip="True" />
+	
+	
+	<GrindAreas> 
+	
+		<GrindArea Name="Repel The Ulgo Attack">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Ulgo Killik Wrangler</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Ulgo Killik Wrangler" X="89.13651" Y="16.5195" Z="148.6907" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Ulgo Champion">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Ulgo Champion</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Ulgo Champion" X="102.5569" Y="19.124" Z="125.7838" />
+			</Hotspots>
+		</GrindArea>    
+		
+		<GrindArea Name="Ulgo Champion">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rist Overseer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Rist Overseer" X="108.709" Y="19.0458" Z="-73.68323" />
+			</Hotspots>
+		</GrindArea>   
+
+		<GrindArea Name="Master Sidonie Garen">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Master Sidonie Garen</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Master Sidonie Garen" X="108.709" Y="19.0458" Z="-73.68323" />
+			</Hotspots>
+		</GrindArea>   		
+		
+	
+		
+	</GrindAreas>
+	
+	
+
+	<Questing>
+
+
+	
+	
+		<!-- Consular - Diplomacy -->
+<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsQuestComplete(0xE00016CC1D921686)))">
+		<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsStepComplete(0xE00016CC1D921686, 4)))">
+				<MoveTo QuestId="0xE00016CC1D921686" Name="My Location" X="-157.7589" Y="-5.809592" Z="151.6073" />
+				<UserDialog Title="Orlok" Message="Use elevator to get to main floor. Hit okay when you've done so." />
+		</If>
+	<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsStepComplete(0xE00016CC1D921686, 5)))">
+				<TalkTo QuestId="0xE00016CC1D921686" Name="Hallam Organa" X="-98.18411" Y="26.00395" Z="78.1847" />
+				<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" RewardIndex="1" />	
+	</If>
+</If>
+<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" RewardIndex="1" />	
+		
+		<!-- Consular - Hostile Negotiations -->
+	
+<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsQuestComplete(0xE000477142135D5E)))">
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsStepComplete(0xE000477142135D5E, 2)))">
+			<MoveTo QuestId="0xE000477142135D5E" Name="House Teral Entrance" X="93.50695" Y="16.43621" Z="152.7959" />
+		</If>
+		
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 3)))">
+				<Grind GrindRef="Repel The Ulgo Attack" While="(not IsStepComplete(0xE000477142135D5E, 3))" />
+		</If>
+</If>
+
+			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 4)))">
+			<MoveTo QuestId="0xE000477142135D5E" Name="Captain Theress" X="86.6289" Y="16.5195" Z="147.1527" />
+			<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" X="86.6289" Y="16.5195" Z="147.1527" />
+		</If>
+
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 5)))">
+			<Grind GrindRef="Repel The Ulgo Attack" While="(not IsQuestComplete(0xE000477142135D5E))" />
+		</If>		
+				
+
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 6)))">
+			<MoveTo QuestId="0xE000477142135D5E" Name="Captain Theress" X="86.6289" Y="16.5195" Z="147.1527" />
+			<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" X="86.6289" Y="16.5195" Z="147.1527" />
+		</If>
+
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 8)))">
+			<MoveTo QuestId="0xE000477142135D5E" Name="Lord Teral" X="78.34587" Y="17.20004" Z="147.0268" />
+			<TalkTo QuestId="0xE000477142135D5E" Name="Lord Teral" X="78.34587" Y="17.20004" Z="147.0268" />
+		</If>
+
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 9)))">
+			<MoveTo QuestId="0xE000477142135D5E" Name="Vox's War Camp" X="95.04343" Y="18.42504" Z="126.9483" />
+		</If>					
+
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 10)))">
+			<TalkTo QuestId="0xE000477142135D5E" Name="Astar Vox" X="102.5616" Y="19.12408" Z="125.948" />
+		</If>		
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 2, 2)))">
+				<Grind GrindRef="Ulgo Champion" While="(not IsQuestComplete(0xE000477142135D5E))" />
+		</If>			
+		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 2, 3)))">
+				<AnswerHolocomCall QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />
+		</If>	
+<CompleteQuest QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" RewardIndex="1" />		
+
+		<!-- Consular - Crisis Situation -->
+	
+<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsQuestComplete(0xE000ECFC36E3348B)))">
+		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 2)))">
+			<MoveTo QuestId="0xE000ECFC36E3348B" Name="MY Location" X="109.0472" Y="19.0458" Z="-73.68259" />
+		</If>
+		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 3)))">
+			<Grind GrindRef="Rist Overseer" While="(not IsQuestComplete(0xE000ECFC36E3348B))" />
+		</If>
+		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 4)))">
+			<UseObject QuestId="0xE000ECFC36E3348B" Name="Control Panel" BranchId="1" StepId="4" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" X="108.8625" Y="19.0458" Z="-73.79199" /> 
+		</If>
+		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 5)))">
+			<UseObject QuestId="0xE000ECFC36E3348B" Name="Holoterminal" BranchId="1" StepId="5" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" X="105.539" Y="19.0343" Z="-56.45261" />
+		</If>		
+		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 6)))">
+			<TalkTo QuestId="0xE000ECFC36E3348B" Name="Lord Teral" X="78.34587" Y="17.20004" Z="147.0268" />			
+		</If>		
+</If>		
+<CompleteQuest QuestName="Crisis Situation" QuestId="0xE000ECFC36E3348B" RewardIndex="1" />	
+
+
+
+		<!-- Consular - The Summit -->
+		
+<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsQuestComplete(0xE0000530981149E2)))">
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsStepComplete(0xE0000530981149E2, 2)))">
+			<MoveTo QuestId="0xE0000530981149E2" Name="MY Location" X="53.38043" Y="17.70949" Z="-54.04822" />
+		</If>
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsStepComplete(0xE0000530981149E2, 3)))">
+		<MoveTo QuestId="0xE0000530981149E2" Name="MY Location" X="49.43738" Y="20.94866" Z="-59.18174" /> 
+			<UserDialog Title="Orlok" Message="Right click Panel and Fly to Sendoth Ruins." />
+		</If>
+
+
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 2, 11)))">
+		<TalkTo QuestId="0xE0000530981149E2" Name="Master Sidonie Garen" X="-62.9625" Y="25.814" Z="-50.4024" />
+		</If>		
+		
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsStepComplete(0xE0000530981149E2, 4)))">
+			<UserDialog Title="Orlok" Message="Talk to Master Sid." />
+		</If>		
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsStepComplete(0xE0000530981149E2, 5)))">
+			<UserDialog Title="Orlok" Message="Head back to Hangar." />
+			<MoveTo QuestId="0xE0000530981149E2" Name="MY Location" X="-158.3583" Y="22.28976" Z="151.5904" />
+			<UserDialog Title="Orlok" Message="Use elevator." />
+		</If>				
+		<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsStepComplete(0xE0000530981149E2, 6)))">
+							<AnswerHolocomCall QuestName="The Summit" QuestId="0xE0000530981149E2" />
+							<UserDialog Title="Orlok" Message="End of this profile! Thank you! " />
+		</If>				
+				
+</If>
+		
+	</Questing>    
+
+</Profile>

@@ -1,0 +1,337 @@
+<Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
+<Name>[REPUBLIC|DARK] Hutta 1-10 - Recreated by Orlok Raven</Name>
+<ForceAlignment Type="Dark" AutoSkip="True" />
+
+	
+<GrindAreas>
+
+<GrindArea Name="Rajivari's Legacy 3">
+<MinLevel>1</MinLevel>
+<MaxLevel>50</MaxLevel>
+<Mobs>
+<Mob>Twi'lek Sentry</Mob>
+<Mob>Twi'lek Guard</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Twi'lek Sentry" X="5.953146" Y="1.432048" Z="28.18005"/>
+</Hotspots>
+</GrindArea>
+
+
+<GrindArea Name="Twi'lek Trouble (Bonus)">
+<MinLevel>1</MinLevel>
+<MaxLevel>50</MaxLevel>
+<Mobs>
+<Mob>Nalen's Follower</Mob>
+<Mob>Nalen's Loyalist</Mob>
+</Mobs>
+<Hotspots>
+<Hotspot Name="Nalen's Follower" X="0.07145009" Y="1.916616" Z="34.91395"/>
+<Hotspot Name="Nalen's Loyalist" X="-0.08419999" Y="1.938989" Z="36.8338"/>
+<Hotspot Name="Nalen's Loyalist" X="3.291482" Y="1.856495" Z="35.99295"/>
+<Hotspot Name="Nalen's Loyalist" X="7.191" Y="0.5260118" Z="32.0662"/>
+<Hotspot Name="Nalen's Follower" X="5.3682" Y="0.4984342" Z="30.9986"/>
+<Hotspot Name="Nalen's Follower" X="3.2528" Y="0.4724905" Z="33.081"/>
+</Hotspots>
+</GrindArea>
+
+</GrindAreas>	
+	
+<Questing>
+
+
+<!--  Consular: The Path of a Jedi  -->
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsQuestComplete(0xE000AADDC6313899)))">
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 2)))">
+<UserDialog Title="Orlok" Message="Welcome to Orlok Raven's 1-10 Profile for the Jedi Consular. A special thanks goes out to Cryogenesis and Metrienne for their previous profiles. It has certainly made it easier to use their profiles as guidelines as to how to get these running to an almost 90% AFKable routine.  "/>
+<TalkTo QuestId="0xE000AADDC6313899" Name="Master Syo Bakarn" X="-58.8284" Y="-6.906225" Z="-133.0678"/>
+</If>
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 3)))">
+<UserDialog Title="Orlok" Message="Use taxi and hit Okay to begin profile!"/>
+</If>
+</If>
+
+
+<!--  Consular: The Path of a Jedi  -->
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsQuestComplete(0xE000AADDC6313899)))">
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 4)))">
+<MoveTo QuestId="0xE000AADDC6313899" Name="Northwest Hologram" X="-1.17877" Y="-3.75082" Z="-110.1511"/>
+<UseObject QuestId="0xE000AADDC6313899" Name="Northwest Hologram" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" X="-1.17877" Y="-3.75082" Z="-110.1511"/>
+<!--  Northwest Hologram, 02  -->
+
+<MoveTo QuestId="0xE000AADDC6313899" Name="Northeast Hologram" X="14.33535" Y="-4.429326" Z="-111.0749"/>
+<UseObject QuestId="0xE000AADDC6313899" Name="Northeast Hologram" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" X="14.33535" Y="-4.429326" Z="-111.0749"/>
+<!--  Northeast Hologram, 01  -->
+
+
+<MoveTo QuestId="0xE000AADDC6313899" Name="Southeast Hologram" X="16.32479" Y="-4.450816" Z="-93.97791"/>
+<UseObject QuestId="0xE000AADDC6313899" Name="Southeast Hologram" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" X="16.32479" Y="-4.450816" Z="-93.97791"/>
+<!--  Southeast Hologram, 03  -->
+
+
+<MoveTo QuestId="0xE000AADDC6313899" Name="Southwest Hologram" X="0.2567409" Y="-4.366278" Z="-91.20907"/>
+<UseObject QuestId="0xE000AADDC6313899" Name="Southwest Hologram" BranchId="1" StepId="4" TaskId="3" Radius="20" WaitTime="5" X="0.2567409" Y="-4.366278" Z="-91.20907"/>
+<!--  Southwest Hologram, 04  -->
+
+</If>
+</If>
+
+
+
+
+
+
+
+<!--  Turnin Consular: The Path of a Jedi  -->
+<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsQuestComplete(0xE000AADDC6313899)))">
+<!--  Go to Jedi Temple and learn Taxi / Bind Point  -->
+<TurnInQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" TurnInName="Master Yuon Par" X="-33.1236" Y="-7.473284" Z="-56.3757"/>
+<CompleteQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899"/>
+<Interact WaitTime="5" Name="Jedi Temple Cantina" X="-37.37989" Y="-7.474587" Z="-34.53466"/>
+<!--  Bind point: Jedi Temple Cantina  -->
+<!--
+ Auto-receive quest: Pilgrims (Bonus), ID: 0xE0009832354DE990, Step: 2 
+-->
+</If>
+
+<!--  Consular - Pilgrims 2 -->
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsQuestComplete(0xE0009832354DE990)))">
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 2)))">
+<MoveTo QuestId="0xE0009832354DE990" Name="Bashenn" X="17.063" Y="-0.833925" Z="-35.303"/>
+<UserDialog Title="Orlok" Message="Press F9 to pause bot, or stop it, then continue...Talk to Bashen and hit F9 to unpause, for some reason the bot's interaction doesn't work with him, will fix soon I hope."/>
+</If>
+</If>
+
+
+
+
+<!--  Consular - Pilgrims  -->
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsQuestComplete(0xE0009832354DE990)))">
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 3)))">
+<MoveTo QuestId="0xE0009832354DE990" Name="Rajivari's Camp" X="57.14337" Y="-0.06794091" Z="-5.44408"/>
+</If>
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 4)))">
+<UseObject QuestId="0xE0009832354DE990" Name="Rajivari's Holocron" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="66.87022" Y="-1.370737" Z="-12.21556"/>
+</If>
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 5)))">
+
+<MoveTo QuestId="0xE0009832354DE990" Name="Outside" X="49.73384" Y="0.3059364" Z="-10.99137"/>
+</If>
+</If>
+
+<!--  Turnin Consular - Pilgrims  -->
+<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsQuestComplete(0xE0009832354DE990)))">
+<!--  Quest Auto Completes after moving into room  -->
+<TurnInQuest QuestName="Pilgrims" QuestId="0xE0009832354DE990" TurnInName="Master Yuon Par" X="-33.1236" Y="-7.473284" Z="-56.3757"/>
+<CompleteQuest QuestName="Pilgrims" QuestId="0xE0009832354DE990"/>
+</If>
+
+
+
+
+
+
+<!--  Consular - Trials in Kaleth 2-5  -->
+<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsQuestComplete(0xE000E027508959A7)))">
+<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 2)))">
+<MoveTo QuestId="0xE000E027508959A7" Name="My Location" X="-33.90204" Y="-2.927929" Z="-3.784983"/>
+<MoveTo QuestId="0xE000E027508959A7" Name="My Location" X="-36.67121" Y="-2.774783" Z="-2.333151"/>
+</While>
+<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 3)))">
+<UserDialog Title="Orlok" Message="Press F9 to pause the bot, or hit stop and interact with the stone. Continue by pressing F9 again, or hit start again on the bot."/>
+</If>
+<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
+<MoveTo QuestId="0xE000E027508959A7" Name="My Location" X="-51.57729" Y="-2.560665" Z="3.149354"/>
+<UseObject QuestId="0xE000E027508959A7" Name="Combat Droid Activator" BranchId="1" StepId="4" Radius="20" WaitTime="5">
+<Hotspots>
+<Hotspot Name="My Location" X="-51.57729" Y="-2.560665" Z="3.149354"/>
+<Hotspot Name="My Location" X="-51.75727" Y="-2.58396" Z="5.68008"/>
+</Hotspots>
+</UseObject>
+</While>
+<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 5)))">
+<UseObject QuestId="0xE000E027508959A7" Name="Mysterious Stone Carving" BranchId="1" StepId="5" Radius="20" WaitTime="5" X="-39.00844" Y="-2.534567" Z="-2.228338"/>
+</If>
+</If>
+
+
+
+<!--  Turnin Consular - Trials in Kaleth  -->
+<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsQuestComplete(0xE000E027508959A7)))">
+<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 6)))">
+<MoveTo QuestId="0xE000E027508959A7" X="-33.35854" Y="-7.474478" Z="-53.48325"/>
+</If>
+<TurnInQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" TurnInName="Master Yuon Par" X="-33.0117" Y="-7.473284" Z="-56.5156"/>
+<CompleteQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" RewardIndex="0"/>
+
+</If>
+
+
+<!--  Consular - Hunter's Eye  -->
+<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsQuestComplete(0xE000A63F64D79501)))">
+<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsStepComplete(0xE000A63F64D79501, 2)))">
+<MoveTo QuestId="0xE000A63F64D79501" Name="Explore Cave" X="22.32521" Y="2.450641" Z="43.67255"/>
+</If>
+<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsStepComplete(0xE000A63F64D79501, 3)))">
+<UseObject QuestId="0xE000A63F64D79501" Name="Stone Marker" BranchId="1" StepId="3" Radius="20" WaitTime="5" X="22.94497" Y="3.218501" Z="48.80195"/>
+</If>
+<!--  Turnin Consular - Hunter's Eye  -->
+<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsQuestComplete(0xE000A63F64D79501)))">
+<TurnInQuest QuestName="Hunter's Eye" QuestId="0xE000A63F64D79501" TurnInName="Master Yuon Par" X="-33.1236" Y="-7.473284" Z="-56.3757"/>
+<CompleteQuest QuestName="Hunter's Eye" QuestId="0xE000A63F64D79501" RewardIndex="0"/>
+</If>
+</If>
+
+<!--  Consular - The Footsteps of the Fallen  -->
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsQuestComplete(0xE0003DC151A4CBEA)))">
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchStepComplete(0xE0003DC151A4CBEA, 1, 2)))">
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 2)))">
+
+<MoveTo QuestId="0xE0003DC151A4CBEA" Name="South Terminal" X="-58.42357" Y="-0.8419659" Z="16.08843"/>
+<UseObject QuestId="0xE0003DC151A4CBEA" Name="South Terminal" BranchId="1" StepId="2" TaskId="2" Radius="20" WaitTime="5" X="-58.42357" Y="-0.8419659" Z="16.08843"/>
+</If>
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 1)))">
+<MoveTo QuestId="0xE0003DC151A4CBEA" Name="West Terminal" X="-62.47458" Y="-0.7850895" Z="5.954663"/>
+<UseObject QuestId="0xE0003DC151A4CBEA" Name="West Terminal" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" X="-62.47458" Y="-0.7850895" Z="5.954663"/>
+</If>
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsBranchTaskComplete(0xE0003DC151A4CBEA, 1, 2, 0)))">
+<MoveTo QuestId="0xE0003DC151A4CBEA" Name="North Terminal Agro Location" X="-60.49426" Y="-0.8026026" Z="-4.394868"/>
+<MoveTo QuestId="0xE0003DC151A4CBEA" Name="North Terminal Hill" X="-60.14793" Y="-0.1135057" Z="-6.514865"/>
+<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" X="-60.65588" Y="-0.1755015" Z="-6.296925"/>
+<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" X="-60.81425" Y="-0.1765015" Z="-4.867237"/>
+<MoveTo QuestId="0xE0003DC151A4CBEA" IgnoreMesh="True" X="-61.25005" Y="-0.1755015" Z="-4.392649"/>
+<UseObject QuestId="0xE0003DC151A4CBEA" Name="North Terminal" BranchId="1" StepId="2" TaskId="0" Radius="20" WaitTime="5" X="-61.22935" Y="-0.1755015" Z="-4.334087"/>
+<MoveTo QuestId="1" IgnoreMesh="True" X="-60.49426" Y="-0.8026026" Z="-4.394868"/>
+</If>
+<UserDialog Title="Orlok" Message="Take taxi or Quick Travel to Jedi Temple."/>
+</If>
+<If Condition="((HasQuest(0xE0003DC151A4CBEA)) and (not IsStepComplete(0xE0003DC151A4CBEA, 3)))">
+<MoveTo QuestId="0xE0003DC151A4CBEA" X="-33.35854" Y="-7.474478" Z="-53.48325"/>
+</If>
+<TurnInQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" TurnInName="Master Yuon Par" X="-33.1236" Y="-7.473284" Z="-56.3757"/>
+<CompleteQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" RewardIndex="0"/>
+
+</If>
+
+
+
+
+
+<!--  Consular - Rajivari's Legacy  -->
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsQuestComplete(0xE000EAC98B7D73C4)))">
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 2)))">
+<UserDialog Title="Orlok" Message="Quick Travel to Elarian Trail and hit OK."/>
+<MoveTo QuestId="0xE000EAC98B7D73C4" X="0.07145009" Y="1.916616" Z="34.91395"/>
+
+
+<If Condition="(not IsQuestComplete(0xE000CC00A8B36EEF))">
+<MoveTo QuestId="1" Name="Nalen's Follower" X="0.07145009" Y="1.916616" Z="34.91395"/>
+<Grind GrindRef="Twi'lek Trouble (Bonus)" While="(not IsQuestComplete(0xE000CC00A8B36EEF))"/>
+</If>
+
+
+<!--  Find Qyzen Fess  -->
+<MoveTo QuestId="0xE000EAC98B7D73C4" Name="Twi'lek Sentry" X="7.685058" Y="1.367599" Z="29.29734"/>
+</If>
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3)))">
+<Grind GrindRef="Rajivari's Legacy 3" While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))"/>
+</If>
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 4)))">
+<UseObject QuestId="0xE000EAC98B7D73C4" Name="Qyzen's Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="5.942243" Y="1.430775" Z="28.59888"/>
+</If>
+<!--  5 Auto Skips and we get Qyzen Fess as a Tank Pet  -->
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 6)))">
+
+<MoveTo QuestId="1" Name="Fount Entrance" X="-4.470964" Y="8.500198" Z="76.97907"/>
+</If>
+
+
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 11)))">
+<!--  Delete this after mesh fix  -->
+
+<MoveTo QuestId="1" Name="Fount Entrance" X="-4.470964" Y="8.500198" Z="76.97907"/>
+<MoveTo QuestId="1" Name="My Location" X="-4.383177" Y="8.480952" Z="76.06064"/>
+<MoveTo QuestId="1" Name="My Location" X="-6.0203" Y="8.013563" Z="76.02013"/>
+<MoveTo QuestId="1" Name="My Location" X="-6.027478" Y="7.446321" Z="74.31561"/>
+<MoveTo QuestId="1" Name="My Location" X="-4.610845" Y="7.035908" Z="74.3208"/>
+<MoveTo QuestId="1" Name="My Location" X="-4.574173" Y="6.621653" Z="75.61106"/>
+</If>
+</If>
+
+<MoveTo QuestId="0xE000EAC98B7D73C4" Name="Fount of Rajivari" X="-7.578536" Y="6.378879" Z="88.51246"/>
+<!--  skip 7  -->
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 8)))">
+<MoveTo QuestId="0xE000EAC98B7D73C4" Name="My Location" X="-11.66828" Y="6.421268" Z="84.00175"/>
+</If>
+<!--  Skip 9  -->
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 10)))">
+<UseObject QuestId="0xE000EAC98B7D73C4" Name="Stone Carving" BranchId="1" StepId="10" Radius="20" WaitTime="5" X="-11.17348" Y="6.47582" Z="80.80685"/>
+</If>
+<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsStepComplete(0xE000EAC98B7D73C4, 11)))">
+<TalkTo QuestId="0xE000EAC98B7D73C4" Name="Master Rajivari" X="-7.2847" Y="6.422899" Z="80.3432"/>
+<WaitTimer QuestId="1" WaitTime="5"/>
+</If>
+<CompleteQuest QuestName="Rajivari's Legacy" QuestId="0xE000EAC98B7D73C4"/>
+<!--  The Forge 0xE000759C2AD0DD3E  -->
+<!--  Moving upstairs and then around an elite  -->
+<MoveTo QuestId="1" Name="My Location" X="-4.574173" Y="6.621653" Z="75.61106"/>
+<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" X="-4.610845" Y="7.035908" Z="74.3208"/>
+<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" X="-6.027478" Y="7.446321" Z="74.31561"/>
+<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" X="-6.0203" Y="8.013563" Z="76.02013"/>
+<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" X="-4.383177" Y="8.480952" Z="76.06064"/>
+<MoveTo QuestId="1" Name="Fount Entrance" IgnoreMesh="True" X="-4.470964" Y="8.500198" Z="76.97907"/>
+<!--  pulldistance 5  -->
+<MoveTo QuestId="1" Name="My Location" X="-2.669183" Y="8.871996" Z="88.04211"/>
+<MoveTo QuestId="1" Name="My Location" X="-2.318623" Y="9.100685" Z="92.34975"/>
+<MoveTo QuestId="1" Name="My Location" X="-4.578813" Y="8.881107" Z="94.80524"/>
+<MoveTo QuestId="1" Name="Crystal Cavern Cleansing (Bonus)" X="-2.447567" Y="10.57969" Z="115.239"/>
+<!--  pulldistance 25  -->
+
+<!--  Consular - The Forge  -->
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsQuestComplete(0xE000759C2AD0DD3E)))">
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 2)))">
+<UseObject QuestId="0xE000759C2AD0DD3E" Name="Crystal Formation" BranchId="1" StepId="2" Radius="20" WaitTime="5" X="4.393589" Y="11.81066" Z="109.9767"/>
+</If>
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 3)))">
+<MoveTo QuestId="1" X="5.812215" Y="11.31335" Z="117.5789"/>
+</If>
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 4)))">
+<MoveTo QuestId="0xE000759C2AD0DD3E" Name="My Location" X="6.055765" Y="15.17534" Z="154.8249"/>
+<UseObject QuestId="0xE000759C2AD0DD3E" Name="The Forge" BranchId="1" StepId="4" Radius="20" WaitTime="5" X="1.558054" Y="17.68657" Z="157.0443"/>
+<WaitTimer QuestId="1" WaitTime="5"/>
+</If>
+<CompleteQuest QuestName="Forged Lightsaber" QuestId="0xE000CD5481FB147A"/>
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 5)))">
+<MoveTo QuestId="0xE000759C2AD0DD3E" Name="Nalen Raloch" X="7.150686" Y="15.24617" Z="154.3306"/>
+<UserDialog Title="Note From Metrienne" Message="Buddy Wing cannot handle scenarios where mobs turn friendly at 1%. Talk to Nalen Raloch, bring him down to 1%, then press OK."/>
+</If>
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 3, 3)))">
+<TalkTo QuestId="0xE000759C2AD0DD3E" Name="Nalen Raloch" X="7.150686" Y="15.24617" Z="154.3306"/>
+<WaitTimer QuestId="1" WaitTime="5"/>
+</If>
+<!--  Turnin Consular - The Forge  -->
+<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsQuestComplete(0xE000759C2AD0DD3E)))">
+<TurnInQuest QuestName="The Forge" QuestId="0xE000759C2AD0DD3E" Type="Placeable" TurnInName="Jedi Council Chambers" IgnoreLOS="True" UseRange="3" X="-42.22441" Y="-5.024616" Z="-44.32361"/>
+<CompleteQuest QuestName="The Forge" QuestId="0xE000759C2AD0DD3E"/>
+</If>
+</If>
+
+<!--  Consular - An Afflicted Master   -->
+<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsQuestComplete(0xE000BEC612EFB6D0)))">
+<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsStepComplete(0xE000BEC612EFB6D0, 2)))">
+<MoveTo QuestId="1" Name="Shuttle" X="-43.59722" Y="-5.060167" Z="-54.38555"/>
+<UserDialog Title="Note From Metrienne" Message="Use shuttle and head to Republic Fleet! Thanks for using my profile! Please donate!"/>
+<WaitTimer QuestId="1" WaitTime="30"/>
+
+</If>
+</If>
+
+
+
+
+
+
+
+</Questing>    
+
+</Profile>

@@ -1,7 +1,10 @@
 # Questing Profiles
 
-This directory contains questing profiles for various level ranges. Please keep in mind that questing may require user interaction from time to time.
+This directory contains questing profiles for various level ranges. Please keep in mind that
+questing may require user interaction from time to time.
 
+These are the profiles to run. They were produced from `../__Originals__/`; see
+[`../README.md`](../README.md) for what differs.
 
 ## Credits
 
