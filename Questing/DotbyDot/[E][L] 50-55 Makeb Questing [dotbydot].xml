@@ -461,18 +461,18 @@
 					<Grind GrindRef="The Lurker" While="(not IsStepComplete(0xE0002343D5F86E09, 2))"/>
 				</If>
 				<If Condition="((not IsBranchStepComplete(0xE0002343D5F86E09, 1, 3)))">
-					<While Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 1)">
+					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 1)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-363.614,-20.94896,-176.7937" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-363.614,-20.94896,-176.7937" />
-					</While>
-					<While Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 2)">
+						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-363.614,-20.94896,-176.7937" />
+					</If>
+					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 2)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-356.1096,-20.149,-190.5007" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-356.1096,-20.149,-190.5007" />
-					</While>
-					<While Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 3)">
+						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-356.1096,-20.149,-190.5007" />
+					</If>
+					<If Condition="HasQuest(0xE0002343D5F86E09) and not IsTaskComplete(0xE0002343D5F86E09, 3, 3)">
 						<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-368.3034,-20.34558,-190.5989" />
-						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-368.3034,-20.34558,-190.5989" />
-					</While>
+						<UseItem Item="Advanced Bioscanner" QuestId="0xE0002343D5F86E09" StepId="3" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-368.3034,-20.34558,-190.5989" />
+					</If>
 				
 				</If>
 				<If Condition="((not IsBranchStepComplete(0xE0002343D5F86E09, 1, 5)))">
@@ -1013,19 +1013,19 @@
 				</UseObject>	
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 5)))">
-				<While Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 1)">
+				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 1)">
 					<MoveTo QuestId="0xE0002343D5F86E09" XYZ="-363.0775,-20.94539,-176.2954" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.884,-69.81491,246.7381" />
-				</While>
-				<While Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 3)">
+					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.884,-69.81491,246.7381" />
+				</If>
+				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 3)">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-110.6657,-69.6965,233.2841" />
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-116.6747,-69.81644,233.8135" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.6747,-69.81644,233.8135" />
-				</While>
-				<While Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 2)">
+					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="3" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-116.6747,-69.81644,233.8135" />
+				</If>
+				<If Condition="HasQuest(0xE000ABEA2E64D3CD) and not IsTaskComplete(0xE000ABEA2E64D3CD, 5, 2)">
 					<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-122.5674,-69.69151,240.2866" />
-					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-122.5674,-69.69151,240.2866" />
-				</While>
+					<UseItem Item="P-20 Seeker Missiles" QuestId="0xE000ABEA2E64D3CD" StepId="5" TaskId="2" WaitTime="2" Range="2" InCombat="False" Radius="3" XYZ="-122.5674,-69.69151,240.2866" />
+				</If>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 6)))">
 				<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-130.9762,-69.75168,240.3324" />

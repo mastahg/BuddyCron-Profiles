@@ -929,33 +929,33 @@
 		<If Condition="((HasQuest(0xE0007CDFF88D6CCF)) and (not IsQuestComplete(0xE0007CDFF88D6CCF)))">
 			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 2)" >
 				<MoveTo QuestId="1" XYZ="78.37565,50.45264,337.5901" />
-				<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 2)">
-					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" OnObject="Cantina Waitress" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
-				</While>
-				<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 1)">
-					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" OnObject="Cantina Patron" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
-				</While>
-				<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 0)">
-					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" OnObject="Cantina Bouncer" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
-				</While>
+				<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 2)">
+					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" StepId="2" TaskId="2" OnObject="Cantina Waitress" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
+				</If>
+				<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 1)">
+					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" StepId="2" TaskId="1" OnObject="Cantina Patron" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
+				</If>
+				<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsTaskComplete(0xE0007CDFF88D6CCF, 2, 0)">
+					<UseItem Name="Electronic Tagging Device" QuestId="0xE0007CDFF88D6CCF" StepId="2" TaskId="0" OnObject="Cantina Bouncer" WaitTime="2" Range="2" InCombat="False" Radius="50" XYZ="78.37565,50.45264,337.5901" />
+				</If>
 			</If>
-			<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 3)" >
+			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 3)" >
 				<TalkTo QuestId="0xE0007CDFF88D6CCF" WaitTime="1" Name="Bartender" XYZ="80.0337,50.45373,336.2259" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Expedition into the Unknown - Speak to Captain Golah -->
 		<If Condition="((HasQuest(0xE000428B3C8095F2)) and (not IsQuestComplete(0xE000428B3C8095F2)))">
-			<While Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 2)" >
+			<If Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 2)" >
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Captain Golah" XYZ="67.5067,51.5606,323.1493" />
-			</While>
+			</If>
 			<!-- Stage 1 - Danger in the Streets -->
 			<If Condition="(not IsQuestComplete(0xE0009A8942348C56))">
 				<Grind GrindRef="Stage 1 - Danger in the Streets" While="(not IsQuestComplete(0xE0009A8942348C56))" />
 			</If>
 			<!-- Stage 2 - Danger in the streets - Access Encrypted Communicators -->
-			<While Condition="HasQuest(0xE00097894234894F) and not IsStepComplete(0xE00097894234894F, 4)" >
-				<UseObject QuestId="0xE00097894234894F" IgnoreLOS="True" Radius="200" WaitTime="5" >
+			<If Condition="HasQuest(0xE00097894234894F) and not IsStepComplete(0xE00097894234894F, 4)" >
+				<UseObject QuestId="0xE00097894234894F" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="5" >
 					<Placeables>
 						<Placeable>Encrypted Communicator</Placeable>
 					</Placeables>
@@ -967,12 +967,12 @@
 						<Hotspot XYZ="50.14709,47.77543,292.5694" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - Danger in the Streets -->
-			<While Condition="HasQuest(0xE0009D894234B37D) and not IsStepComplete(0xE0009D894234B37D, 4)" >
+			<If Condition="HasQuest(0xE0009D894234B37D) and not IsStepComplete(0xE0009D894234B37D, 4)" >
 				<MoveTo QuestId="1" XYZ="63.35281,48.05056,290.7268" />
 				<Interact Name="Communication Station" IgnoreLOS="True" XYZ="63.35281,48.05056,290.7268" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Turnin Danger in the Streets -->
@@ -983,7 +983,7 @@
 	
 		<!-- Plugging the Leak and Turnin -->
 		<If Condition="((HasQuest(0xE0003EB23F608A87)) and (not IsQuestComplete(0xE0003EB23F608A87)))">
-			<While Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 2)">
+			<If Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 2)">
 				<Grind GrindRef="Plugging the Leak - Retrieve a Signaling Device" While="not IsTaskComplete(0xE0003EB23F608A87, 2, 1)" />
 				<UseObject QuestId="0xE0003EB23F608A87" Name="Explosive Chemicals" BranchId="1" StepId="2" TaskId="0" Radius="200" WaitTime="1500" >
 					<Hotspots>
@@ -995,7 +995,7 @@
 						<Hotspot Name="My Location" XYZ="63.79152,51.16941,328.9162" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Sweeping Up - Destroy Exchange Warehouse Droids -->
 			<If Condition="(not IsQuestComplete(0xE000D4797962A18F))">
 				<Grind GrindRef="Sweeping Up - Destroy Exchange Warehouse Droids" While="(not IsQuestComplete(0xE000D4797962A18F))" />
@@ -1003,9 +1003,9 @@
 			<If Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 3)">
 				<MoveTo QuestId="0xE0003EB23F608A87" XYZ="48.70205,48.8016,276.4238" />
 			</If>
-			<While Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 4)">
-				<UseItem Item="Signaling Device" QuestId="0xE0003EB23F608A87" WaitTime="8" Range="2" InCombat="False" Radius="3" XYZ="48.70205,48.8016,276.4238" />
-			</While>
+			<If Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 4)">
+				<UseItem Item="Signaling Device" QuestId="0xE0003EB23F608A87" StepId="4" WaitTime="8" Range="2" InCombat="False" Radius="3" XYZ="48.70205,48.8016,276.4238" />
+			</If>
 			<TurnInQuest QuestName="Plugging the Leak" QuestId="0xE0003EB23F608A87" TurnInName="Lieutenant Trason" XYZ="63.4108,51.44551,350.0164" />
 			<CompleteQuest QuestName="Plugging the Leak" QuestId="0xE0003EB23F608A87" RewardIndex="2" />
 		</If>
@@ -1058,12 +1058,12 @@
 			<If Condition="(not IsQuestComplete(0xE000FAE3F6FAAB70))">
 				<Grind GrindRef="Crush the Palawa - Defeat Palawa Forces" While="(not IsQuestComplete(0xE000FAE3F6FAAB70))" />
 			</If>
-			<While Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 3)" >
+			<If Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 3)" >
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Salvageable Droid" XYZ="100.765,45.80219,241.7639" />
-			</While>
-			<While Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 4)" >
+			</If>
+			<If Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 4)" >
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Broken Down Prototype Droid" XYZ="100.7786,45.65073,217.4087" />
-			</While>
+			</If>
 			<Grind GrindRef="Defeat Freher Wonn" While="not IsBranchStepComplete(0xE000428B3C8095F2, 2, 2)" />
 			<TurnInQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" TurnInName="Darth Silthar" XYZ="67.5409,51.5606,323.588" />
 			<CompleteQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" RewardIndex="4" />
@@ -1079,37 +1079,37 @@
 		
 		<!-- Shaman -->
 		<If Condition="((HasQuest(0xE000039E1A5DF69F)) and (not IsQuestComplete(0xE000039E1A5DF69F)))">
-			<While Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 2)" >
+			<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 2)" >
 				<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Lord Berow" XYZ="56.4134,51.27333,329.0389" />
-			</While>
+			</If>
 			<!-- Thin Out the Training Ground - Eliminate Jawa Forces -->
 			<If Condition="(not IsQuestComplete(0xE000B51AB8F0FDB3))">
 				<Grind GrindRef="Thin Out the Training Ground - Eliminate Jawa Forces" While="(not IsQuestComplete(0xE000B51AB8F0FDB3))" />
 			</If>
 			<Grind GrindRef="Shaman - Defeat the Jawa Shaman" While="not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 3)" />
-			<While Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 4)" >
+			<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 4)" >
 				<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Jawa Shaman" XYZ="125.8521,46.742,334.1693" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 			<Grind GrindRef="Shaman 3 2" While="(not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 2))" />
-			<While Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 4)">
+			<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 4)">
 				<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 3)">
 					<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Jawa Warrior" XYZ="125.2452,46.7107,333.6808" />
 				</If>
 				<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Imperial Lieutenant" XYZ="105.5421,46.71753,335.1636" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Masters of the Desert Machines and Turnin -->
 		<If Condition="((HasQuest(0xE00095906768AA09)) and (not IsQuestComplete(0xE00095906768AA09)))">
-			<While Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 1, 2)" >
+			<If Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 1, 2)" >
 				<TalkTo QuestId="0xE00095906768AA09" WaitTime="1" Name="Trade Master Thint" XYZ="128.9338,53.33856,351.5321" />
-			</While>
+			</If>
 			<Grind GrindRef="Masters of the Desert Machines 2 2" While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 2))" />
 			<Grind GrindRef="Masters of the Desert Machines 2 3" While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 3))" />
-			<While Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 2, 4)" >
+			<If Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 2, 4)" >
 				<TalkTo QuestId="0xE00095906768AA09" WaitTime="1" Name="Trade Master Thint" XYZ="128.8855,53.33946,351.4185" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" TurnInName="Captain Golah" XYZ="67.5067,51.5606,323.1493" />
 			<CompleteQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" RewardIndex="3" />
 		</If>
@@ -1143,8 +1143,8 @@
 			<If Condition="(not IsQuestComplete(0xE000F4EFB90F0176))">
 				<Grind GrindRef="Junkers and Clunkers - Destroy Malfunctioning Droids" While="(not IsQuestComplete(0xE000F4EFB90F0176))" />
 			</If>
-			<While Condition="HasQuest(0xE000DC0315532C4F) and not IsBranchStepComplete(0xE000DC0315532C4F, 1, 3)" >
-				<UseItem Name="Teek's Shield Destabilizer" QuestId="0xE000DC0315532C4F" WaitTime="1" Range="10" InCombat="False" Radius="10">
+			<If Condition="HasQuest(0xE000DC0315532C4F) and not IsBranchStepComplete(0xE000DC0315532C4F, 1, 3)" >
+				<UseItem Name="Teek's Shield Destabilizer" QuestId="0xE000DC0315532C4F" BranchId="1" StepId="3" WaitTime="1" Range="10" InCombat="False" Radius="10">
 					<Mobs>
 						<Mob>Shielded Junk Droid Mark V</Mob>
 					</Mobs>
@@ -1159,7 +1159,7 @@
 						<Hotspot Name="Shielded Junk Droid Mark V" XYZ="111.6835,45.52629,72.1955" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 		</If>
 		
 		<!-- Journey into Dust -->
@@ -1174,39 +1174,39 @@
 				<Grind GrindRef="Stage 2 - Blood on the Sand - Defeat Sand People Forces" While="(not IsQuestComplete(0xE000301F41014046))" />
 			</If>
 			<!-- Stage 3 - Blood on the Sand -->
-			<While Condition="HasQuest(0xE000311F41014E15) and not IsStepComplete(0xE000311F41014E15, 4)">
+			<If Condition="HasQuest(0xE000311F41014E15) and not IsStepComplete(0xE000311F41014E15, 4)">
 				<UseObject QuestId="0xE000311F41014E15" Name="Joroshe Water Supply" BranchId="1" StepId="4" Radius="200" WaitTime="4" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="180.8114,41.7238,71.02283" />
 						<Hotspot Name="My Location" XYZ="190.3816,41.52683,66.64497" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - Blood on the Sand -->
 			<If Condition="(not IsQuestComplete(0xE000361F4101B594))">
 				<Grind GrindRef="Final Stage - Blood on the Sand" While="(not IsQuestComplete(0xE000361F4101B594))" />
 			</If>
-			<While Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 4)">
+			<If Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 4)">
 				<MoveTo QuestId="1" XYZ="197.0593,41.52492,58.19664" />
-				<UseItem Item="Joroshe Compass" QuestId="0xE00054291E242297" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="197.0593,41.52492,58.19664" />
-			</While>
-			<While Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 5)" >
+				<UseItem Item="Joroshe Compass" QuestId="0xE00054291E242297" StepId="4" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="197.0593,41.52492,58.19664" />
+			</If>
+			<If Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 5)" >
 				<TalkTo QuestId="0xE00054291E242297" WaitTime="1" Name="Darth Silthar" XYZ="203.0979,41.02593,95.28889" />
-			</While>
+			</If>
 			<UseObject Name="Sand People's Mural" QuestId="0xE00054291E242297" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="5" XYZ="203.9274,41.32264,85.3574" />
 		</If>
 		
 		<!-- Agent - The Whispering Dust -->
 		<If Condition="((HasQuest(0xE0007CDFF88D6CCF)) and (not IsQuestComplete(0xE0007CDFF88D6CCF)))">
-			<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 4)">
+			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 4)">
 				<MoveTo QuestId="0xE0007CDFF88D6CCF" XYZ="161.6142,41.541,68.23227" />
-			</While>
+			</If>
 			<Grind GrindRef="The Whispering Dust 5" While="(not IsBranchStepComplete(0xE0007CDFF88D6CCF, 1, 5))" />
 			<UseObject Name="Storage Crate" QuestId="0xE0007CDFF88D6CCF" BranchId="1" StepId="6" WaitTime="2" XYZ="165.0817,41.051,68.82475" />
 			<Grind GrindRef="Defeat Ghost Cell Assassins" While="not IsStepComplete(0xE0007CDFF88D6CCF, 7)" />
-			<While Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 8)" >
+			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 8)" >
 				<TalkTo QuestId="0xE0007CDFF88D6CCF" WaitTime="1" Name="Mia Hawkins" XYZ="164.527,41.051,68.4281" />
-			</While>
+			</If>
 			<Grind GrindRef="Defeat the Ghost Cell Elite" While="not IsStepComplete(0xE0007CDFF88D6CCF, 9)" />
 			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 10)">
 				<AnswerHolocomCall QuestName="The Whispering Dust" QuestId="0xE0007CDFF88D6CCF" />
@@ -1269,12 +1269,12 @@
 			<If Condition="(not IsQuestComplete(0xE000C400418BE1EA))">
 				<Grind GrindRef="The Dragon's Teeth - Dispatch Exchange Forces" While="(not IsQuestComplete(0xE000C400418BE1EA))" />
 			</If>
-			<While Condition="HasQuest(0xE0005B96B9F1BB8C) and not IsStepComplete(0xE0005B96B9F1BB8C, 2)">
+			<If Condition="HasQuest(0xE0005B96B9F1BB8C) and not IsStepComplete(0xE0005B96B9F1BB8C, 2)">
 				<MoveTo QuestId="0xE0005B96B9F1BB8C" XYZ="20.28754,49.26955,40.21146" />
-			</While>
-			<While Condition="HasQuest(0xE0005B96B9F1BB8C) and not IsStepComplete(0xE0005B96B9F1BB8C, 3)">
+			</If>
+			<If Condition="HasQuest(0xE0005B96B9F1BB8C) and not IsStepComplete(0xE0005B96B9F1BB8C, 3)">
 				<TalkTo QuestId="1" Name="Isbet Varta" XYZ="20.7734,49.26819,41.23177" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="The Dragon's Tail" QuestId="0xE0005B96B9F1BB8C" TurnInName="Holoprojector" UseRange="2" Type="Placeable" XYZ="3.750175,45.62575,33.39492" />
 			<CompleteQuest QuestName="The Dragon's Tail" QuestId="0xE0005B96B9F1BB8C" RewardIndex="4" />
 			<!-- The Assassin's Fortress -->
@@ -1282,9 +1282,9 @@
 		
 		<!-- Artificial Intelligence -->
 		<If Condition="((HasQuest(0xE0000B93F4205345)) and (not IsQuestComplete(0xE0000B93F4205345)))">
-			<While Condition="HasQuest(0xE0000B93F4205345) and not IsStepComplete(0xE0000B93F4205345, 2)">
+			<If Condition="HasQuest(0xE0000B93F4205345) and not IsStepComplete(0xE0000B93F4205345, 2)">
 				<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Imperial Reclamation Service" XYZ="8.937022,45.51836,28.16057" /> <!-- iN2Fun - LoreObject-->
-				<UseItem Name="Databank Scanner" QuestId="0xE0000B93F4205345" DeadOnly="True" HealthPercent="0" WaitTime="4" Range="2" InCombat="False" Radius="15">
+				<UseItem Name="Databank Scanner" QuestId="0xE0000B93F4205345" StepId="2" DeadOnly="True" HealthPercent="0" WaitTime="4" Range="2" InCombat="False" Radius="15">
 					<Mobs>
 						<Mob>Abberant Battle Droid</Mob>
 						<Mob>Abberant War Droid</Mob>
@@ -1296,7 +1296,7 @@
 						<Hotspot Name="Aberrant Battle Droid" XYZ="-28.52721,44.75858,56.33978" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 		</If>
 		
 		<!-- Weapons Calibration and Turnin -->
@@ -1307,9 +1307,9 @@
 			</If>
 			<Grind GrindRef="Weapons Calibration - Recover the Data Spikes" While="not IsStepComplete(0xE000B9DA7DC3141D, 2)" />
 			<UseObject Name="Wide Area Jammer" QuestId="0xE000B9DA7DC3141D" BranchId="1" StepId="3" WaitTime="1500" IgnoreLOS="True" XYZ="-31.39975,45.90592,71.20812" />
-			<While Condition="HasQuest(0xE000B9DA7DC3141D) and not IsStepComplete(0xE000B9DA7DC3141D, 4)">
-				<UseItem Item="Calibrated Orbital Strike Designator" QuestId="0xE000B9DA7DC3141D" WaitTime="2" Range="2" InCombat="False" Radius="2" XYZ="-18.34405,45.8144,65.43819" />
-			</While>
+			<If Condition="HasQuest(0xE000B9DA7DC3141D) and not IsStepComplete(0xE000B9DA7DC3141D, 4)">
+				<UseItem Item="Calibrated Orbital Strike Designator" QuestId="0xE000B9DA7DC3141D" StepId="4" WaitTime="2" Range="2" InCombat="False" Radius="2" XYZ="-18.34405,45.8144,65.43819" />
+			</If>
 			<TurnInQuest QuestName="Weapons Calibration" QuestId="0xE000B9DA7DC3141D" TurnInName="Specialist Zahn" XYZ="7.147598,45.5083,22.8142" />
 			<CompleteQuest QuestName="Weapons Calibration" QuestId="0xE000B9DA7DC3141D" RewardIndex="4" />
 		</If>
@@ -1347,9 +1347,9 @@
 		
 		<!-- Journey into Dust and Turnin -->
 		<If Condition="((HasQuest(0xE00054291E242297)) and (not IsQuestComplete(0xE00054291E242297)))">
-			<While Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 7)" >
+			<If Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 7)" >
 				<TalkTo QuestId="0xE00054291E242297" WaitTime="1" Name="Captain Golah" XYZ="-47.6441,46.24954,4.036003" />
-			</While>
+			</If>
 			<Grind GrindRef="Defeat the Transformed Forces" While="not IsStepComplete(0xE00054291E242297, 8)" />
 			<TurnInQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" TurnInName="Captain Golah" XYZ="-48.67225,46.24954,3.546862" />
 			<CompleteQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" RewardIndex="3" />
@@ -1360,27 +1360,27 @@
 		
 		<!-- Core Subversion and Turnin -->
 		<If Condition="((HasQuest(0xE0000AFB5927EC07)) and (not IsQuestComplete(0xE0000AFB5927EC07)))">
-			<While Condition="HasQuest(0xE0000AFB5927EC07) and not IsStepComplete(0xE0000AFB5927EC07, 2)" >
-				<UseItem Name="Jeek's Memory Core Stabilizer" QuestId="0xE0000AFB5927EC07" OnObject="Erratic Assassin Droid" HealthPercent="49" WaitTime="2" Range="25" InCombat="True" Radius="20">
+			<If Condition="HasQuest(0xE0000AFB5927EC07) and not IsStepComplete(0xE0000AFB5927EC07, 2)" >
+				<UseItem Name="Jeek's Memory Core Stabilizer" QuestId="0xE0000AFB5927EC07" StepId="2" OnObject="Erratic Assassin Droid" HealthPercent="49" WaitTime="2" Range="25" InCombat="True" Radius="20">
 					<Hotspots>
 						<Hotspot Name="Erratic Assassin Droid" XYZ="-15.539,44.41962,-29.4918" />
 						<Hotspot Name="Erratic Assassin Droid" XYZ="-12.56296,44.45063,-33.43245" />
 						<Hotspot Name="Secondary Repair Droid" XYZ="-21.2317,44.65292,-36.6436" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<TurnInQuest QuestName="Core Subversion" QuestId="0xE0000AFB5927EC07" TurnInName="Jeek" XYZ="-19.3848,45.91769,-26.5791" />
 			<CompleteQuest QuestName="Core Subversion" QuestId="0xE0000AFB5927EC07" RewardIndex="1" />
 		</If>
 		
 		<!-- The Ghosts of the Desert and Turnin -->
 		<If Condition="((HasQuest(0xE000DEF5D7A053EA)) and (not IsQuestComplete(0xE000DEF5D7A053EA)))">
-			<While Condition="HasQuest(0xE000DEF5D7A053EA) and not IsBranchStepComplete(0xE000DEF5D7A053EA, 1, 2)" >
+			<If Condition="HasQuest(0xE000DEF5D7A053EA) and not IsBranchStepComplete(0xE000DEF5D7A053EA, 1, 2)" >
 				<MoveTo QuestId="0xE000DEF5D7A053EA" XYZ="-33.52694,46.10992,-24.86009" />
-			</While>
-			<While Condition="HasQuest(0xE000DEF5D7A053EA) and not IsBranchStepComplete(0xE000DEF5D7A053EA, 1, 3)" >
+			</If>
+			<If Condition="HasQuest(0xE000DEF5D7A053EA) and not IsBranchStepComplete(0xE000DEF5D7A053EA, 1, 3)" >
 				<TalkTo QuestId="0xE000DEF5D7A053EA" WaitTime="1" Name="Palawa Leader" XYZ="-40.31477,46.2177,-9.503084" />
-			</While>
+			</If>
 			<Grind GrindRef="Defeat the Palawa Leader" While="not IsBranchStepComplete(0xE000DEF5D7A053EA, 2, 2)" />
 			<UseObject Name="Central Camp Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="1" WaitTime="3" XYZ="-37.3673,45.79573,-12.91327" />
 			<UseObject Name="Cave Entrance Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="2" WaitTime="3" XYZ="-39.47942,46.15166,-23.31636" />
@@ -1409,9 +1409,9 @@
 			<If Condition="(not IsQuestComplete(0xE000DC589C7E664F))">
 				<Grind GrindRef="See No Evil - Eliminate Exchange Forces" While="(not IsQuestComplete(0xE000DC589C7E664F))" />
 			</If>
-			<While Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 2)">
+			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 2)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-69.44077,43.7254,29.38019" />
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 3)">
 				<UseTransport TransporterName="Cargo Crate" Type="Wonkavator" Option="Hide Inside the Crate" 
 									XYZ="-69.44077,43.7254,29.38019"
@@ -1421,12 +1421,12 @@
 			<If Condition="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
 				<Grind GrindRef="Harsh Lessons - Defeat Ghost Cell Forces" While="(not IsQuestComplete(0xE0005CCA12A2D5AE))" />
 			</If>
-			<While Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 4)">
+			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 4)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-237.3999,38.95087,-214.551" />
-			</While>
-			<While Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 5)" >
+			</If>
+			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 5)" >
 				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.4283,38.95154,-214.609" />
-			</While>
+			</If>
 			<Grind GrindRef="The Assassin's Fortress - Defeat the Old Man" While="not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 6)" />
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 7)" >
 				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.6969,38.95692,-214.6994" />
@@ -1440,7 +1440,7 @@
 		
 		<!-- Bad for Business -->
 		<If Condition="((HasQuest(0xE00041688CAEF345)) and (not IsQuestComplete(0xE00041688CAEF345)))">
-			<While Condition="HasQuest(0xE00041688CAEF345) and not IsStepComplete(0xE00041688CAEF345, 2)">
+			<If Condition="HasQuest(0xE00041688CAEF345) and not IsStepComplete(0xE00041688CAEF345, 2)">
 				<UseObject QuestId="0xE00041688CAEF345" Name="Water Supply Tank" BranchId="1" StepId="2" Radius="20" WaitTime="3" >
 					<Hotspots>
 						<Hotspot Name="Exchange Bandit" XYZ="-112.7617,41.44614,-1.013398" />
@@ -1449,7 +1449,7 @@
 						<Hotspot Name="Exchange Bandit" XYZ="-106.1377,41.54724,0.977038" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 		</If>
 		
 		<!-- Thirst for Glory -->
@@ -1491,9 +1491,9 @@
 		
 		<!-- The Thing Czerka Found -->
 		<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsQuestComplete(0xE0004E36DF9E2E01)))">
-			<While Condition="HasQuest(0xE0004E36DF9E2E01) and not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 2)">
+			<If Condition="HasQuest(0xE0004E36DF9E2E01) and not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 2)">
 				<MoveTo QuestId="0xE0004E36DF9E2E01" XYZ="-123.2912,41.18623,-20.63132" />
-			</While>
+			</If>
 			<UseObject Name="Czerka Technology" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="3" WaitTime="6" XYZ="-123.2823,41.20946,-20.32284" />
 			<!-- Sharing the Blame -->
 			<If Condition="(not IsQuestComplete(0xE0009C9D1645F6C2))">
@@ -1510,7 +1510,7 @@
 				<Grind GrindRef="Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces" While="not IsQuestComplete(0xE00043A05ADFF616) " />
 			</If>
 			<!-- Stage 2 - Archaeology of Opportunity - Recover Excavated Alien Artifacts -->
-			<While Condition="HasQuest(0xE00046A05ADFED0F) and not IsStepComplete(0xE00046A05ADFED0F, 4)">
+			<If Condition="HasQuest(0xE00046A05ADFED0F) and not IsStepComplete(0xE00046A05ADFED0F, 4)">
 				<UseObject QuestId="0xE00046A05ADFED0F" Name="Excavated Alien Artifact" BranchId="1" StepId="4" Radius="200" WaitTime="3" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-230.1044,30.901,-4.831287" />
@@ -1520,7 +1520,7 @@
 						<Hotspot Name="My Location" XYZ="-205.9643,30.90229,-18.21277" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - Archaeology of Opportunity -->
 			<If Condition="not IsQuestComplete(0xE00045A05ADFF370)">
 				<Grind GrindRef="Final Stage - Archaeology of Opportunity" While="not IsQuestComplete(0xE00045A05ADFF370)" />
@@ -1619,17 +1619,17 @@
 		<!-- If we cannot do these first 3 steps... then we might as well not do the bonus quests here -->
 		<!-- Test of the Clan -->
 		<If Condition="((HasQuest(0xE0005613665A0D61)) and (not IsQuestComplete(0xE0005613665A0D61)))">
-			<While Condition="HasQuest(0xE0005613665A0D61) and not IsStepComplete(0xE0005613665A0D61, 4)">
+			<If Condition="HasQuest(0xE0005613665A0D61) and not IsStepComplete(0xE0005613665A0D61, 4)">
 				<UseObject Name="Poison Injector" QuestId="0xE0005613665A0D61" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2500" XYZ="122.1976,43.1654,5.98878" />
 				<UseObject Name="Sand People Shrine" QuestId="0xE0005613665A0D61" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="1500" XYZ="234.3028,47.23645,22.33902" />
-				<UseItem Item="Sand People's Poison Antidote" QuestId="0xE0005613665A0D61" WaitTime="4" Range="2" InCombat="False" Radius="2" XYZ="234.4493,47.22854,22.40755" />
-			</While>
+				<UseItem Item="Sand People's Poison Antidote" QuestId="0xE0005613665A0D61" StepId="4" WaitTime="4" Range="2" InCombat="False" Radius="2" XYZ="234.4493,47.22854,22.40755" />
+			</If>
 			<!-- Stage 1 - Sand Will Fall -->
 			<If Condition="(not IsQuestComplete(0xE00035FC16B9CD41))">
 				<Grind GrindRef="Stage 1 - Sand Will Fall - Defeat Sand People Forces" While="not IsQuestComplete(0xE00035FC16B9CD41)" />
 			</If>
 			<!-- Stage 2 - Sand Will Fall -->
-			<While Condition="(not IsQuestComplete(0xE00032FC16B9C058))">
+			<If Condition="(not IsQuestComplete(0xE00032FC16B9C058))">
 				<UseObject QuestId="0xE00032FC16B9C058" Name="War Totem" Radius="60" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="213.6133,44.6266,24.86771" />
@@ -1637,18 +1637,18 @@
 						<Hotspot Name="My Location" XYZ="233.2228,47.44944,23.7691" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - Sand Will Fall -->
-			<While Condition="(not IsQuestComplete(0xE00030FC16B9C5C2))">
+			<If Condition="(not IsQuestComplete(0xE00030FC16B9C5C2))">
 				<UseObject Name="Herald's Totem" QuestId="0xE00030FC16B9C5C2" WaitTime="2" XYZ="228.5976,44.04667,18.50042" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Stirring Up the Natives -->
 		<If Condition="((HasQuest(0xE00008F3224BFDC5)) and (not IsQuestComplete(0xE00008F3224BFDC5)))">
-			<While Condition="HasQuest(0xE00008F3224BFDC5) and not IsStepComplete(0xE00008F3224BFDC5, 2)">
-				<UseItem Item="Portable Prototype" QuestId="0xE00008F3224BFDC5" WaitTime="7" Range="2" InCombat="False" Radius="2" XYZ="166.7895,44.75889,-13.79544" />
-			</While>
+			<If Condition="HasQuest(0xE00008F3224BFDC5) and not IsStepComplete(0xE00008F3224BFDC5, 2)">
+				<UseItem Item="Portable Prototype" QuestId="0xE00008F3224BFDC5" StepId="2" WaitTime="7" Range="2" InCombat="False" Radius="2" XYZ="166.7895,44.75889,-13.79544" />
+			</If>
 		</If>
 		
 		<!-- Turnin Test of the Clan -->
@@ -1721,13 +1721,13 @@
 		
 		<!-- Three Strikes -->
 		<If Condition="((HasQuest(0xE00069F60DB34EE2)) and (not IsQuestComplete(0xE00069F60DB34EE2)))">
-			<While Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 2)">
+			<If Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 2)">
 				<MoveTo QuestId="0xE00069F60DB34EE2" XYZ="86.76824,42.01099,-10.91451" />
-			</While>
-			<While Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 3)">
+			</If>
+			<If Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 3)">
 				<MoveTo QuestId="1" Name="My Location" XYZ="86.80192,42.01199,-10.99177" />
 				<Interact Name="Special Forces Soldier" UseRange="10" Radius="1" IgnoreLOS="True" WaitTime="4" XYZ="86.79064,42.01199,-10.92371" />
-			</While>
+			</If>
 			<!-- Stage 1 - Enforcing Order - Defeat Exchange Forces -->
 			<If Condition="(not IsQuestComplete(0xE000BD9395ED6CDA))">
 				<Grind GrindRef="Stage 1 - Enforcing Order - Defeat Exchange Forces" While="not IsQuestComplete(0xE000BD9395ED6CDA)" />
@@ -1763,16 +1763,16 @@
 					<Hotspot Name="My Location" XYZ="85.0122,44.61159,-23.88434" />
 				</Hotspots>
 			</UseObject>
-			<While Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 6)">
+			<If Condition="HasQuest(0xE00069F60DB34EE2) and not IsStepComplete(0xE00069F60DB34EE2, 6)">
 				<MoveTo QuestId="1" Name="My Location" XYZ="86.80192,42.01199,-10.99177" />
 				<Interact Name="Special Forces Soldier" UseRange="10" Radius="1" IgnoreLOS="True" WaitTime="4" XYZ="86.79064,42.01199,-10.92371" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Visual Disruption and Turnin -->
 		<If Condition="((HasQuest(0xE000C11B6C1F7A08)) and (not IsQuestComplete(0xE000C11B6C1F7A08)))">
-			<While Condition="HasQuest(0xE000C11B6C1F7A08) and not IsStepComplete(0xE000C11B6C1F7A08, 2)">
-				<UseItem QuestId="0xE000C11B6C1F7A08" Item="Stealth Field Scrambler" WaitTime="5" Range="1" InCombat="False" Radius="1" >
+			<If Condition="HasQuest(0xE000C11B6C1F7A08) and not IsStepComplete(0xE000C11B6C1F7A08, 2)">
+				<UseItem QuestId="0xE000C11B6C1F7A08" StepId="2" Item="Stealth Field Scrambler" WaitTime="5" Range="1" InCombat="False" Radius="1" >
 					<Hotspots>
 						<Hotspot XYZ="56.39664,44.44825,5.745176" />
 						<Hotspot XYZ="52.74389,44.41656,2.870707" />
@@ -1781,7 +1781,7 @@
 						<Hotspot XYZ="52.54588,44.30856,6.091208" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<TurnInQuest QuestName="Visual Disruption" QuestId="0xE000C11B6C1F7A08" TurnInName="Officer Cresken" XYZ="158.9892,44.78786,-58.2352" />
 			<CompleteQuest QuestName="Visual Disruption" QuestId="0xE000C11B6C1F7A08" RewardIndex="4" />
 		</If>

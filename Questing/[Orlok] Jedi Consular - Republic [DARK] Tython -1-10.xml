@@ -133,14 +133,14 @@
 
 		<!--  Consular - Trials in Kaleth 2-5  -->
 		<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsQuestComplete(0xE000E027508959A7)))">
-			<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 2)))">
+			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 2)))">
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-33.90204,-2.927929,-3.784983"/>
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-36.67121,-2.774783,-2.333151"/>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 3)))">
 				<UserDialog Title="Orlok" Message="Press F9 to pause the bot, or hit stop and interact with the stone. Continue by pressing F9 again, or hit start again on the bot."/>
 			</If>
-			<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
+			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-51.57729,-2.560665,3.149354"/>
 				<UseObject QuestId="0xE000E027508959A7" Name="Combat Droid Activator" BranchId="1" StepId="4" Radius="20" WaitTime="5">
 					<Hotspots>
@@ -148,7 +148,7 @@
 						<Hotspot Name="My Location" XYZ="-51.75727,-2.58396,5.68008"/>
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 5)))">
 				<UseObject QuestId="0xE000E027508959A7" Name="Mysterious Stone Carving" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-39.00844,-2.534567,-2.228338"/>
 			</If>

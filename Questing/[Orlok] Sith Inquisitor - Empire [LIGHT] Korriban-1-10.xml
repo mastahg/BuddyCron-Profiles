@@ -118,10 +118,10 @@
 				<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Alif" WaitTime="2" XYZ="-46.02026,1.834038,-4.694041"/>
 				<WaitTimer QuestId="1" WaitTime="3"/>
 			</If>
-			<While Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 4)">
+			<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 4)">
 				<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Inquisitor Zyn" WaitTime="2" XYZ="-46.65913,1.803662,-4.127458"/>
 				<WaitTimer QuestId="1" WaitTime="3"/>
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 5)">
 				<MoveTo QuestId="0xE000E1EE4FB80D68" XYZ="-27.07441,1.400398,-9.58121"/>
 				<WaitTimer QuestId="1" WaitTime="3"/>
@@ -141,9 +141,9 @@
 			</If>
 			<UseObject QuestId="0xE000936144F2E728" Name="Great Stone Monument" BranchId="1" StepId="4" WaitTime="1" XYZ="31.78556,-17.66019,-32.08852"/>
 			<Grind GrindRef="A Little Knowledge 5" While="(not IsBranchStepComplete(0xE000936144F2E728, 1, 5))"/>
-			<While Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
+			<If Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
 				<UserDialog Title="Orlok Raven" Message="You will have to manually shoot lightning at the shard on the second option."/>
-			</While>
+			</If>
 		</If>
 
 
@@ -214,9 +214,9 @@
 			<MoveTo QuestId="0xE000B979D88A5EDB" XYZ="2.283235,-3.070905,-63.92459"/>
 			<UseObject QuestId="0xE000B979D88A5EDB" Name="Shrine of Agony" BranchId="1" StepId="4" WaitTime="1000" XYZ="2.283235,-3.070905,-63.92459"/>
 
-			<While Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 8)">
+			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 8)">
 				<TalkTo QuestId="0xE000B979D88A5EDB" Name="Khem Val" XYZ="2.3303,-3.198093,-57.4871"/>
-			</While>
+			</If>
 			<MoveTo QuestId="0xE000B979D88A5EDB" XYZ="8.220822,-3.099,-56.94746"/>
 			<UseObject QuestId="0xE000B979D88A5EDB" Name="Debris Wall" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="4000" XYZ="8.220822,-3.099,-56.94746"/>
 			<MoveTo QuestId="0xE000B979D88A5EDB" XYZ="18.99324,-3.581271,-63.87521"/>

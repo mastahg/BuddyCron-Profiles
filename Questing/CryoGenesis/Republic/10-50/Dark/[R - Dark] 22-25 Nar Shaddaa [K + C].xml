@@ -1330,7 +1330,7 @@
 				</UseObject>
 			</If>
 			<!-- Stage 2 - Cripple the Kings (Bonus) -->
-			<While Condition="((HasQuest(0xE0004C43A3BF981E)) and (not IsQuestComplete(0xE0004C43A3BF981E)))">
+			<If Condition="((HasQuest(0xE0004C43A3BF981E)) and (not IsQuestComplete(0xE0004C43A3BF981E)))">
 				<UseObject QuestId="0xE0004C43A3BF981E" Name="Fuel Cells" Radius="200" UseRange="5" IgnoreLOS="true" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-340.4378,22.501,-332.6297" />
@@ -1348,7 +1348,7 @@
 					</Hotspots>
 				</UseObject>
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Trooper - The Republic's Finest -->
@@ -1661,7 +1661,7 @@
 		<!-- Stage 2 - Bled Dry (Bonus) -->
 		<If Condition="((HasQuest(0xE000E77FE2BC0FA8)) and (not IsQuestComplete(0xE000E77FE2BC0FA8)))">
 			<If Condition="((HasQuest(0xE000E77FE2BC0FA8)) and (not IsStepComplete(0xE000E77FE2BC0FA8, 4)))">
-				<UseObject QuestId="0xE000E77FE2BC0FA8" Name="Bleeder Shipment" Radius="200" UseRange="5" IgnoreLOS="true" WaitTime="5" >
+				<UseObject QuestId="0xE000E77FE2BC0FA8" StepId="4" Name="Bleeder Shipment" Radius="200" UseRange="5" IgnoreLOS="true" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="311.8279,-313.699,-355.39" />
 						<Hotspot Name="My Location" XYZ="315.7283,-313.699,-355.5954" />
@@ -1778,7 +1778,7 @@
 		<!-- Stage 3 - Bled Dry (Bonus) -->
 		<If Condition="((HasQuest(0xE000E87FE2BC01F7)) and (not IsQuestComplete(0xE000E87FE2BC01F7)))">
 			<If Condition="((HasQuest(0xE000E87FE2BC01F7)) and (not IsStepComplete(0xE000E87FE2BC01F7, 4)))">
-				<UseObject QuestId="0xE000E87FE2BC01F7" Name="Bleeder Vehicle" Radius="200" UseRange="5" IgnoreLOS="true" WaitTime="5" >
+				<UseObject QuestId="0xE000E87FE2BC01F7" StepId="4" Name="Bleeder Vehicle" Radius="200" UseRange="5" IgnoreLOS="true" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="356.215,-314.719,-364.0646" />
 						<Hotspot Name="My Location" XYZ="355.1488,-314.719,-367.7131" />
@@ -1986,7 +1986,7 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 2 - Ending a Better Life (Bonus) -->
-			<While Condition="((HasQuest(0xE000CDE7AF83116C)) and (not IsQuestComplete(0xE000CDE7AF83116C)))">
+			<If Condition="((HasQuest(0xE000CDE7AF83116C)) and (not IsQuestComplete(0xE000CDE7AF83116C)))">
 				<UseObject QuestId="0xE000CDE7AF83116C" Name="Betterlife Technology" BranchId="1" StepId="4" UseRange="5" IgnoreLOS="true" Radius="200" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-239.4982,-167.7633,287.479" />
@@ -2000,7 +2000,7 @@
 					</Hotspots>
 				</UseObject>
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 			<!-- Final Stage - Ending a Better Life (Bonus) -->
 			<If Condition="((HasQuest(0xE000C6E7AF836549)) and (not IsQuestComplete(0xE000C6E7AF836549)))">
 				<Grind GrindRef="Final Stage - Ending a Better Life (Bonus)" While="(HasQuest(0xE000C6E7AF836549))" />

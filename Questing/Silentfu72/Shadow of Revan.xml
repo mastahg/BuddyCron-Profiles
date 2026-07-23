@@ -476,9 +476,9 @@
 					<MoveTo QuestId="1" XYZ="68.5207,-1.216056,-5.380038" />
 					<TalkTo QuestId="0xE000D1BAFADE170A" Name="Gorro" XYZ="68.6803,-1.1881,-5.2308" />
 				</If>
-				<While Condition="((HasQuest(0xE000D1BAFADE170A)) and (not IsBranchStepComplete(0xE000D1BAFADE170A, 1, 3)))">
+				<If Condition="((HasQuest(0xE000D1BAFADE170A)) and (not IsBranchStepComplete(0xE000D1BAFADE170A, 1, 3)))">
 					<Grind GrindRef="Gorro" While="(not IsBranchStepComplete(0xE000D1BAFADE170A, 1, 3))" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000D1BAFADE170A)) and (not IsBranchStepComplete(0xE000D1BAFADE170A, 1, 4)))">
 					<TurnInQuest QuestName="Welcome to Rishi" QuestId="0xE000D1BAFADE170A" TurnInName="Kareena" XYZ="68.9455,-1.1973,-5.4656" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -495,9 +495,9 @@
 					<MoveTo QuestId="1" XYZ="68.5207,-1.216056,-5.380038" />
 					<TalkTo QuestId="0xE0009FC66F3DD7FB" Name="Gorro" XYZ="68.6803,-1.1881,-5.2308" />
 				</If>
-				<While Condition="((HasQuest(0xE0009FC66F3DD7FB)) and (not IsBranchStepComplete(0xE0009FC66F3DD7FB, 1, 3)))">
+				<If Condition="((HasQuest(0xE0009FC66F3DD7FB)) and (not IsBranchStepComplete(0xE0009FC66F3DD7FB, 1, 3)))">
 					<Grind GrindRef="Gorro" While="(not IsBranchStepComplete(0xE0009FC66F3DD7FB, 1, 3))" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE0009FC66F3DD7FB)) and (not IsBranchStepComplete(0xE0009FC66F3DD7FB, 1, 4)))">
 					<TurnInQuest QuestName="Welcome to Rishi" QuestId="0xE0009FC66F3DD7FB" TurnInName="Kareena" XYZ="68.9455,-1.1973,-5.4656" />				
 				</If>
@@ -510,7 +510,7 @@
 				<If Condition="((HasQuest(0xE00047B802D097E9)) and (not IsBranchStepComplete(0xE00047B802D097E9, 1, 2)))">
 					<MoveTo QuestId="1" XYZ="66.42198,-1.174295,-4.858073" />
 				</If>
-				<While Condition="((HasQuest(0xE00047B802D097E9)) and (not IsBranchStepComplete(0xE00047B802D097E9, 1, 2)))">
+				<If Condition="((HasQuest(0xE00047B802D097E9)) and (not IsBranchStepComplete(0xE00047B802D097E9, 1, 2)))">
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.8476,0.06539898,-2.5627" />
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.8476,0.06539898,-2.5627" />
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.5884,0.06539891,-2.4075" />
@@ -531,7 +531,7 @@
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="72.68774,0.3574,-9.124747" />
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="69.77,0.151334,-6.895232" />
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="69.77,0.151334,-6.895232" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00047B802D097E9)) and (not IsBranchStepComplete(0xE00047B802D097E9, 1, 3)))">
 					<TalkTo QuestId="0xE00047B802D097E9" Name="Kai Zykken" Range="5" XYZ="78.3012,1.600385,-14.4871" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -546,7 +546,7 @@
 				<If Condition="((HasQuest(0xE0000F8FE64B7BE6)) and (not IsBranchStepComplete(0xE0000F8FE64B7BE6, 1, 2)))">
 					<MoveTo QuestId="1" XYZ="66.42198,-1.174295,-4.858073" />
 				</If>
-				<While Condition="((HasQuest(0xE0000F8FE64B7BE6)) and (not IsBranchStepComplete(0xE0000F8FE64B7BE6, 1, 2)))">
+				<If Condition="((HasQuest(0xE0000F8FE64B7BE6)) and (not IsBranchStepComplete(0xE0000F8FE64B7BE6, 1, 2)))">
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.8476,0.06539898,-2.5627" />
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.8476,0.06539898,-2.5627" />
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="63.5884,0.06539891,-2.4075" />
@@ -567,7 +567,7 @@
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="72.68774,0.3574,-9.124747" />
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="69.77,0.151334,-6.895232" />
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Corellian Run Scoundrel" Range="5" Radius="20" XYZ="69.77,0.151334,-6.895232" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE0000F8FE64B7BE6)) and (not IsBranchStepComplete(0xE0000F8FE64B7BE6, 1, 3)))">
 					<TalkTo QuestId="0xE0000F8FE64B7BE6" Name="Kai Zykken" Range="5" XYZ="78.3012,1.600385,-14.4871" />
 				</If>
@@ -584,7 +584,7 @@
 				<If Condition="((HasQuest(0xE000380594F90030)) and (not IsBranchStepComplete(0xE000380594F90030, 1, 3)))">
 					<MoveTo QuestId="1" XYZ="81.23716,0.0237,-0.3533133" />
 				</If>
-				<While Condition="((HasQuest(0xE000380594F90030)) and (not IsBranchStepComplete(0xE000380594F90030, 1, 4)))">
+				<If Condition="((HasQuest(0xE000380594F90030)) and (not IsBranchStepComplete(0xE000380594F90030, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="82.02393,0.042,-1.729602" />
 					<TalkTo QuestId="0xE000380594F90030" Name="Kowakian Monkey Lizard" Range="2" Radius="100" XYZ="82.41553,0.04200001,-1.889617" />
 					<MoveTo QuestId="1"  XYZ="82.79144,0.042,-1.082888" />
@@ -607,7 +607,7 @@
 					<TalkTo QuestId="0xE000380594F90030" Name="Kowakian Monkey Lizard" Range="2" Radius="20" XYZ="78.0982,0.034,4.124" />
 					<MoveTo QuestId="1"  XYZ="76.54981,0.034,4.24465" />
 					<TalkTo QuestId="0xE000380594F90030" Name="Kowakian Monkey Lizard" Range="2" Radius="20" XYZ="76.0377,0.2111753,4.2102" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000380594F90030)) and (not IsBranchStepComplete(0xE000380594F90030, 1, 5)))">
 					<UseObject QuestId="0xE000380594F90030" Name="Holoterminal" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="77.39245,0.042,2.454824" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -625,7 +625,7 @@
 				<If Condition="((HasQuest(0xE00071818FFE5BD7)) and (not IsBranchStepComplete(0xE00071818FFE5BD7, 1, 3)))">
 					<MoveTo QuestId="1" XYZ="81.23716,0.0237,-0.3533133" />
 				</If>
-				<While Condition="((HasQuest(0xE00071818FFE5BD7)) and (not IsBranchStepComplete(0xE00071818FFE5BD7, 1, 4)))">
+				<If Condition="((HasQuest(0xE00071818FFE5BD7)) and (not IsBranchStepComplete(0xE00071818FFE5BD7, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="82.02393,0.042,-1.729602" />
 					<TalkTo QuestId="0xE00071818FFE5BD7" Name="Kowakian Monkey Lizard" Range="2" Radius="100" XYZ="82.41553,0.04200001,-1.889617" />
 					<MoveTo QuestId="1"  XYZ="82.79144,0.042,-1.082888" />
@@ -648,7 +648,7 @@
 					<TalkTo QuestId="0xE00071818FFE5BD7" Name="Kowakian Monkey Lizard" Range="2" Radius="20" XYZ="78.0982,0.034,4.124" />
 					<MoveTo QuestId="1"  XYZ="76.54981,0.034,4.24465" />
 					<TalkTo QuestId="0xE00071818FFE5BD7" Name="Kowakian Monkey Lizard" Range="2" Radius="20" XYZ="76.0377,0.2111753,4.2102" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00071818FFE5BD7)) and (not IsBranchStepComplete(0xE00071818FFE5BD7, 1, 5)))">
 					<UseObject QuestId="0xE00071818FFE5BD7" Name="Holoterminal" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="77.39245,0.042,2.454824" />
 				</If>
@@ -709,9 +709,9 @@
 				<If Condition="((HasQuest(0xE000AF31633AA3EF)) and (not IsBranchStepComplete(0xE000AF31633AA3EF, 1, 4)))">
 					<Grind GrindRef="Grumm" While="(not IsBranchStepComplete(0xE000AF31633AA3EF, 1, 4))" />
 				</If>
-				<While Condition="((HasQuest(0xE000AF31633AA3EF)) and (not IsBranchStepComplete(0xE000AF31633AA3EF, 1, 5)))">
+				<If Condition="((HasQuest(0xE000AF31633AA3EF)) and (not IsBranchStepComplete(0xE000AF31633AA3EF, 1, 5)))">
 					<TalkTo QuestId="0xE000AF31633AA3EF" Name="Grumm" Range="50" Radius="50" XYZ="105.7433,1.450999,34.46409" />				
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000AF31633AA3EF)) and (not IsBranchStepComplete(0xE000AF31633AA3EF, 1, 6)))">
 					<TalkTo QuestId="0xE000AF31633AA3EF" Name="Stranger" XYZ="108.2122,1.442376,35.3136" />
 				</If>
@@ -837,8 +837,8 @@
 				</If>
 				<!--Thus Always to Slavers (Bonus)-->
 				<If Condition="((HasQuest(0xE000669018D0CDCF)) and (not IsBranchStepComplete(0xE000669018D0CDCF, 1, 2)))">
-					<While Condition="((HasQuest(0xE000669018D0CDCF)) and (not IsTaskComplete(0xE000669018D0CDCF, 2, 0)))">
-						<UseItem QuestId="0xE000669018D0CDCF" Item="Medical Stim" OnObject="Weakened Slave" Range="5" Radius="200" >
+					<If Condition="((HasQuest(0xE000669018D0CDCF)) and (not IsTaskComplete(0xE000669018D0CDCF, 2, 0)))">
+						<UseItem QuestId="0xE000669018D0CDCF" StepId="2" TaskId="0" Item="Medical Stim" OnObject="Weakened Slave" Range="5" Radius="200" >
 							<Hotspots>
 								<Hotspot Name="Weakened Slave" XYZ="299.6759,0.1485719,-186.827" />
 								<Hotspot Name="Weakened Slave" XYZ="297.9591,0.3220584,-194.5939" />
@@ -851,10 +851,10 @@
 								<Hotspot Name="Weakened Slave" XYZ="309.6894,0.6878556,-183.8928" />
 							</Hotspots>					
 						</UseItem>
-					</While>
-					<While Condition="((HasQuest(0xE000669018D0CDCF)) and (not IsTaskComplete(0xE000669018D0CDCF, 2, 1)))">
+					</If>
+					<If Condition="((HasQuest(0xE000669018D0CDCF)) and (not IsTaskComplete(0xE000669018D0CDCF, 2, 1)))">
 						<Grind GrindRef="The Slavers" While="(not IsTaskComplete(0xE000669018D0CDCF, 2, 1))" />
-					</While>
+					</If>
 				</If>
 				<If Condition="((HasQuest(0xE000402709268179)) and (not IsBranchStepComplete(0xE000402709268179, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="306.196,0.06805419,-177.2967" />
@@ -908,8 +908,8 @@
 				</If>
 				<!--Thus Always to Slavers (Bonus)-->
 				<If Condition="((HasQuest(0xE000281CB9B31C7E)) and (not IsBranchStepComplete(0xE000281CB9B31C7E, 1, 2)))">
-					<While Condition="((HasQuest(0xE000281CB9B31C7E)) and (not IsTaskComplete(0xE000281CB9B31C7E, 2, 0)))">
-						<UseItem QuestId="0xE000281CB9B31C7E" Item="Medical Stim" OnObject="Weakened Slave" Range="5" Radius="200" >
+					<If Condition="((HasQuest(0xE000281CB9B31C7E)) and (not IsTaskComplete(0xE000281CB9B31C7E, 2, 0)))">
+						<UseItem QuestId="0xE000281CB9B31C7E" StepId="2" TaskId="0" Item="Medical Stim" OnObject="Weakened Slave" Range="5" Radius="200" >
 							<Hotspots>
 								<Hotspot Name="Weakened Slave" XYZ="299.6759,0.1485719,-186.827" />
 								<Hotspot Name="Weakened Slave" XYZ="297.9591,0.3220584,-194.5939" />
@@ -922,10 +922,10 @@
 								<Hotspot Name="Weakened Slave" XYZ="309.6894,0.6878556,-183.8928" />
 							</Hotspots>					
 						</UseItem>
-					</While>
-					<While Condition="((HasQuest(0xE000281CB9B31C7E)) and (not IsTaskComplete(0xE000281CB9B31C7E, 2, 1)))">
+					</If>
+					<If Condition="((HasQuest(0xE000281CB9B31C7E)) and (not IsTaskComplete(0xE000281CB9B31C7E, 2, 1)))">
 						<Grind GrindRef="The Slavers" While="(not IsTaskComplete(0xE000281CB9B31C7E, 2, 1))" />
-					</While>
+					</If>
 				</If>
 				<If Condition="((HasQuest(0xE000DFE4821D2A80)) and (not IsBranchStepComplete(0xE000DFE4821D2A80, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="306.196,0.06805419,-177.2967" />
@@ -956,15 +956,15 @@
 				<If Condition="((HasQuest(0xE00073E63CB58A87)) and (not IsBranchStepComplete(0xE00073E63CB58A87, 1, 2)))">
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 				</If>
-				<While Condition="((HasQuest(0xE00073E63CB58A87)) and (not IsBranchStepComplete(0xE00073E63CB58A87, 1, 2)))">
+				<If Condition="((HasQuest(0xE00073E63CB58A87)) and (not IsBranchStepComplete(0xE00073E63CB58A87, 1, 2)))">
 					<UseObject QuestId="0xE00073E63CB58A87" Name="Communications Node" BranchId="1" StepId="2" Radius="5" WaitTime="5" XYZ="-78.87834,0.08633676,-3.347878" />
 					<WaitTimer QuestId="1" WaitTime="3" />
 					<UseObject QuestId="0xE00073E63CB58A87" Name="Communications Node" BranchId="1" StepId="2" Radius="5" WaitTime="5" XYZ="-78.87834,0.08633676,-3.347878" />
-				</While>
+				</If>
 				<!--Breaking the Blades (Bonus)-->
-				<While Condition="((HasQuest(0xE000C2D31F1CA7CE)) and (not IsBranchStepComplete(0xE000C2D31F1CA7CE, 1, 2)))">
+				<If Condition="((HasQuest(0xE000C2D31F1CA7CE)) and (not IsBranchStepComplete(0xE000C2D31F1CA7CE, 1, 2)))">
 					<Grind GrindRef="Breaking the Blades (Bonus)" While="(not IsBranchStepComplete(0xE000C2D31F1CA7CE, 1, 2))" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00073E63CB58A87)) and (not IsBranchStepComplete(0xE00073E63CB58A87, 1, 3)))">
 					<UseObject QuestId="0xE00073E63CB58A87" Name="Access Panel" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-82.4564,-0.08386879,-18.2367" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -979,15 +979,15 @@
 				<If Condition="((HasQuest(0xE000028252D6861E)) and (not IsBranchStepComplete(0xE000028252D6861E, 1, 2)))">
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 				</If>
-				<While Condition="((HasQuest(0xE000028252D6861E)) and (not IsBranchStepComplete(0xE000028252D6861E, 1, 2)))">
+				<If Condition="((HasQuest(0xE000028252D6861E)) and (not IsBranchStepComplete(0xE000028252D6861E, 1, 2)))">
 					<UseObject QuestId="0xE000028252D6861E" Name="Communications Node" BranchId="1" StepId="2" Radius="5" WaitTime="5" XYZ="-78.87834,0.08633676,-3.347878" />
 					<WaitTimer QuestId="1" WaitTime="3" />
 					<UseObject QuestId="0xE000028252D6861E" Name="Communications Node" BranchId="1" StepId="2" Radius="5" WaitTime="5" XYZ="-78.87834,0.08633676,-3.347878" />
-				</While>
+				</If>
 				<!--Breaking the Blades (Bonus)-->
-				<While Condition="((HasQuest(0xE0009FB8658A8449)) and (not IsBranchStepComplete(0xE0009FB8658A8449, 1, 2)))">
+				<If Condition="((HasQuest(0xE0009FB8658A8449)) and (not IsBranchStepComplete(0xE0009FB8658A8449, 1, 2)))">
 					<Grind GrindRef="Breaking the Blades (Bonus)" While="(not IsBranchStepComplete(0xE0009FB8658A8449, 1, 2))" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000028252D6861E)) and (not IsBranchStepComplete(0xE000028252D6861E, 1, 3)))">
 					<UseObject QuestId="0xE000028252D6861E" Name="Access Panel" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-82.4564,-0.08386879,-18.2367" />
 				</If>			
@@ -1097,10 +1097,10 @@
 					</Hotspots>
 				</Interact>
 			</If>
-			<While Condition="((HasQuest(0xE0001E09F1698FAB)) and (not IsBranchStepComplete(0xE0001E09F1698FAB, 1, 5)))">
+			<If Condition="((HasQuest(0xE0001E09F1698FAB)) and (not IsBranchStepComplete(0xE0001E09F1698FAB, 1, 5)))">
 				<MoveTo QuestId="1" XYZ="19.87477,-0.234237,-22.99979" />
 				<UseItem QuestId="0xE0001E09F1698FAB" Item="Meditation Focus" WaitTime="3500" Range="4" InCombat="False" BranchId="1" StepId="5" Radius="200" XYZ="19.87477,-0.234237,-22.99979" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0001E09F1698FAB)) and (not IsBranchStepComplete(0xE0001E09F1698FAB, 1, 6)))">
 				<MoveTo QuestId="1" XYZ="22.39775,4.099561,17.42298" />
 				<Interact QuestId="0xE0001E09F1698FAB" Name="Firepit" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="22.39775,4.099561,17.42298" />
@@ -1151,13 +1151,13 @@
 			</If>
 			<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsBranchStepComplete(0xE000A43535D1112B, 1, 5)))">
 				<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsTaskComplete(0xE000A43535D1112B, 5, 2)))">
-					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" Range="5" WaitTime="5" XYZ="86.44714,1.993572,17.84151" />
+					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" TaskId="2" Range="5" WaitTime="5" XYZ="86.44714,1.993572,17.84151" />
 				</If>
 				<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsTaskComplete(0xE000A43535D1112B, 5, 1)))">
-					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" Range="5" WaitTime="5" XYZ="80.95823,1.533211,8.689409" />
+					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" TaskId="1" Range="5" WaitTime="5" XYZ="80.95823,1.533211,8.689409" />
 				</If>
 				<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsTaskComplete(0xE000A43535D1112B, 5, 3)))">
-					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" Range="5" WaitTime="5" XYZ="77.39348,0.9228274,14.61696" />
+					<UseObject QuestId="0xE000A43535D1112B" Name="Door" BranchId="1" StepId="5" TaskId="3" Range="5" WaitTime="5" XYZ="77.39348,0.9228274,14.61696" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsBranchStepComplete(0xE000A43535D1112B, 1, 6)))">
@@ -1173,7 +1173,7 @@
 				<TalkTo QuestId="0xE00049C2869AD419" Name="Darth Vowrawn" XYZ="89.6447,-1.087014,4.2236" />
 			</If>
 			<If Condition="((HasQuest(0xE00049C2869AD419)) and (not IsBranchStepComplete(0xE00049C2869AD419, 1, 4)))">
-				<UseItem QuestId="0xE00049C2869AD419" Item="Gree Stealth Disruptor" Range="4" Radius="10000" >
+				<UseItem QuestId="0xE00049C2869AD419" BranchId="1" StepId="4" Item="Gree Stealth Disruptor" Range="4" Radius="10000" >
 					<Hotspots>						
 						<Hotspot Name="My Location" XYZ="-14.99579,-0.6586345,-16.86145" />
 						<Hotspot Name="My Location" XYZ="-32.70378,-0.3680915,4.663652" />	
@@ -1332,15 +1332,15 @@
 				<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsBranchStepComplete(0xE000237E4839CC9A, 1, 2)))">
 					<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsTaskComplete(0xE000237E4839CC9A, 2, 2)))">
 						<MoveTo QuestId="1" XYZ="-9.939945,2.7422,-253.7961" />
-						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="-9.939945,2.7422,-253.7961" />
+						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="2" Range="5" Radius="20" WaitTime="5" XYZ="-9.939945,2.7422,-253.7961" />
 					</If>
 					<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsTaskComplete(0xE000237E4839CC9A, 2, 3)))">
 						<MoveTo QuestId="1" XYZ="-3.454752,0.3647462,-300.2055" />
-						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="-3.454752,0.3647462,-300.2055" />
+						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="3" Range="5" Radius="20" WaitTime="5" XYZ="-3.454752,0.3647462,-300.2055" />
 					</If>
 					<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsTaskComplete(0xE000237E4839CC9A, 2, 1)))">
 						<MoveTo QuestId="1" XYZ="2.7966,2.4417,-268.7723" />
-						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="2.7966,2.4417,-268.7723" />
+						<UseObject QuestId="0xE000237E4839CC9A" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="1" Range="5" Radius="20" WaitTime="5" XYZ="2.7966,2.4417,-268.7723" />
 					</If>
 				</If>
 				<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsBranchStepComplete(0xE000237E4839CC9A, 1, 3)))">
@@ -1375,15 +1375,15 @@
 				<If Condition="((HasQuest(0xE000D9ED7B8F3EA8)) and (not IsBranchStepComplete(0xE000D9ED7B8F3EA8, 1, 2)))">
 					<If Condition="((HasQuest(0xE000D9ED7B8F3EA8)) and (not IsTaskComplete(0xE000D9ED7B8F3EA8, 2, 2)))">
 						<MoveTo QuestId="1" XYZ="-9.939945,2.7422,-253.7961" />
-						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="-9.939945,2.7422,-253.7961" />
+						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="2" Range="5" Radius="20" WaitTime="5" XYZ="-9.939945,2.7422,-253.7961" />
 					</If>
 					<If Condition="((HasQuest(0xE000D9ED7B8F3EA8)) and (not IsTaskComplete(0xE000D9ED7B8F3EA8, 2, 3)))">
 						<MoveTo QuestId="1" XYZ="-3.454752,0.3647462,-300.2055" />
-						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="-3.454752,0.3647462,-300.2055" />
+						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="3" Range="5" Radius="20" WaitTime="5" XYZ="-3.454752,0.3647462,-300.2055" />
 					</If>
 					<If Condition="((HasQuest(0xE000D9ED7B8F3EA8)) and (not IsTaskComplete(0xE000D9ED7B8F3EA8, 2, 1)))">
 						<MoveTo QuestId="1" XYZ="2.7966,2.4417,-268.7723" />
-						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" Range="5" Radius="20" WaitTime="5" XYZ="2.7966,2.4417,-268.7723" />
+						<UseObject QuestId="0xE000D9ED7B8F3EA8" Name="Warship Electrical Panel" BranchId="1" StepId="2" TaskId="1" Range="5" Radius="20" WaitTime="5" XYZ="2.7966,2.4417,-268.7723" />
 					</If>
 				</If>
 				<If Condition="((HasQuest(0xE000D9ED7B8F3EA8)) and (not IsBranchStepComplete(0xE000D9ED7B8F3EA8, 1, 3)))">
@@ -1562,7 +1562,7 @@
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000F14973481E72" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />
 				</If>
-				<While Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 4)))">
+				<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 4)))">
 					<If Condition="(Me.Position.X &gt; 320)">
 						<UseTransport TransporterName="Republic Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
 									XYZ="335.1349,39.74633,14.4142"
@@ -1592,11 +1592,11 @@
 						<MoveTo QuestId="1" XYZ="267.7653,15.44802,22.21747" />
 						<UseObject QuestId="0xE000F14973481E72" Name="Perimeter Sensor Base" BranchId="1" StepId="4" TaskId="6" Radius="5" WaitTime="20" XYZ="267.7653,15.44802,22.21747" />
 					</If>
-				</While>
-				<While Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 5)))">
+				</If>
+				<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 5)))">
 					<MoveTo QuestId="1" XYZ="277.2999,15.5709,28.74278" />
 					<UseObject QuestId="0xE000F14973481E72" Name="Perimeter Sensor Hub" BranchId="1" StepId="5" Radius="5" WaitTime="20" XYZ="277.2999,15.5709,28.74278" />
-				</While>			
+				</If>			
 				<!--Savage Jungle (Bonus)-->
 				<If Condition="((HasQuest(0xE00020CEB852C1DD)) and (not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2)))">
 					<Grind GrindRef="Savage Jungle (Bonus)" While="(not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2))" />
@@ -1712,7 +1712,7 @@
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<TalkTo QuestId="0xE000D8D15D9A152C" Name="Darth Marr" XYZ="360.0846,40.05248,11.9717" />
 				</If>
-				<While Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 4)))">				
+				<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 4)))">				
 					<If Condition="(Me.Position.X &gt; 320)">
 						<UseTransport TransporterName="Imperial Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
 											XYZ="335.0037,39.74633,16.3005"
@@ -1742,11 +1742,11 @@
 						<MoveTo QuestId="1" XYZ="272.6001,9.827632,108.7865" />
 						<UseObject QuestId="0xE000D8D15D9A152C" Name="Perimeter Sensor Base" BranchId="1" StepId="4" TaskId="4" Radius="5" WaitTime="20" XYZ="272.6001,9.827632,108.7865" />
 					</If>
-				</While>
-				<While Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 5)))">
+				</If>
+				<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 5)))">
 					<MoveTo QuestId="1" XYZ="270.3887,11.24449,101.8211" />
 					<UseObject QuestId="0xE000D8D15D9A152C" Name="Perimeter Sensor Hub" BranchId="1" StepId="5" Radius="5" WaitTime="20" XYZ="270.3887,11.24449,101.8211" />
-				</While>			
+				</If>			
 				<!--Savage Jungle (Bonus)-->
 				<If Condition="((HasQuest(0xE00020CEB852C1DD)) and (not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2)))">
 					<Grind GrindRef="Savage Jungle (Bonus)" While="(not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2))" />
@@ -1780,7 +1780,7 @@
 					<If Condition="((not HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
 						<UseObject QuestId="1" Name="Revanite Supply Cache" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="243.1336,13.71859,81.50882" />
 					</If>
-					<While Condition="((HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
+					<If Condition="((HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
 						<UseObject QuestId="0xE0009B501EEB67B7" Name="Revanite Supply Cache" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
 							<Hotspots>
 								<Hotspot Name="My Location" XYZ="238.8469,12.89761,91.00957" />
@@ -1795,7 +1795,7 @@
 								<Hotspot Name="My Location" XYZ="244.5475,13.64657,72.42418" />
 							</Hotspots>
 						</UseObject>
-					</While>
+					</If>
 					<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsTaskComplete(0xE000A4A661D5899C, 3, 0)))">
 						<Grind GrindRef="Revanite Overseer" While="(not IsTaskComplete(0xE000A4A661D5899C, 3, 0))" />
 					</If>
@@ -1815,9 +1815,9 @@
 				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 6)))">
 					<Grind GrindRef="Commandant Iven" While="(not IsBranchStepComplete(0xE000A4A661D5899C, 1, 6))" />
 				</If>
-				<While Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 7)))">
+				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 7)))">
 					<TalkTo QuestId="0xE000A4A661D5899C" Name="Commandant Iven" Range="5" Radius="100" XYZ="228.4732,14.86376,67.6489" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 8)))">
 					<If Condition="(Me.Position.X &lt; 320)">		
 						<UseTransport TransporterName="Republic Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
@@ -1848,7 +1848,7 @@
 					<If Condition="((not HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
 						<UseObject QuestId="1" Name="Revanite Supply Cache" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="243.1336,13.71859,81.50882" />
 					</If>
-					<While Condition="((HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
+					<If Condition="((HasQuest(0xE0009B501EEB67B7)) and (not IsBranchStepComplete(0xE0009B501EEB67B7, 1, 2)))">
 						<UseObject QuestId="0xE0009B501EEB67B7" Name="Revanite Supply Cache" BranchId="1" StepId="2" Radius="20" WaitTime="5" >
 							<Hotspots>
 								<Hotspot Name="My Location" XYZ="238.8469,12.89761,91.00957" />
@@ -1863,7 +1863,7 @@
 								<Hotspot Name="My Location" XYZ="244.5475,13.64657,72.42418" />
 							</Hotspots>
 						</UseObject>
-					</While>
+					</If>
 					<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsTaskComplete(0xE000996E2650D4A3, 3, 0)))">
 						<Grind GrindRef="Revanite Overseer" While="(not IsTaskComplete(0xE000996E2650D4A3, 3, 0))" />
 					</If>
@@ -1883,9 +1883,9 @@
 				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 6)))">
 					<Grind GrindRef="Commandant Iven" While="(not IsBranchStepComplete(0xE000996E2650D4A3, 1, 6))" />
 				</If>
-				<While Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 7)))">
+				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 7)))">
 					<TalkTo QuestId="0xE000996E2650D4A3" Name="Commandant Iven" Range="5" Radius="100" XYZ="228.4732,14.86376,67.6489" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 8)))">
 					<If Condition="(Me.Position.X &lt; 320)">	
 						<UseTransport TransporterName="Imperial Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
@@ -1910,7 +1910,7 @@
 					</If>
 					<MoveTo QuestId="1" XYZ="163.5884,15.14632,66.13719" />
 				</If>
-				<While Condition="((HasQuest(0xE00058476DA69D01)) and (not IsBranchStepComplete(0xE00058476DA69D01, 1, 3)))">
+				<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsBranchStepComplete(0xE00058476DA69D01, 1, 3)))">
 					<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsTaskComplete(0xE00058476DA69D01, 3, 3)))">
 						<MoveTo QuestId="1" XYZ="152.7767,15.74232,71.52522" />
 						<UseObject QuestId="0xE00058476DA69D01" Name="Locking Mechanism" BranchId="1" StepId="3" TaskId="3" Radius="5" WaitTime="20" XYZ="152.7767,15.74232,71.52522" />
@@ -1927,7 +1927,7 @@
 						<MoveTo QuestId="1" XYZ="152.0553,15.91244,41.4555" />
 						<UseObject QuestId="0xE00058476DA69D01" Name="Locking Mechanism" BranchId="1" StepId="3" TaskId="1" Radius="5" WaitTime="20" XYZ="152.0553,15.91244,41.4555" />
 					</If>
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsBranchStepComplete(0xE00058476DA69D01, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="160.8037,15.34488,92.14472" />
 					<UserDialog Title="IMPORTANT" Message="Please solve the puzzle by matching the runes with the corresponding pedestals and then click OK on this window to continue." />
@@ -1981,7 +1981,7 @@
 					</If>
 					<MoveTo QuestId="1" XYZ="163.5884,15.14632,66.13719" />
 				</If>
-				<While Condition="((HasQuest(0xE00093446FD1183E)) and (not IsBranchStepComplete(0xE00093446FD1183E, 1, 3)))">
+				<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsBranchStepComplete(0xE00093446FD1183E, 1, 3)))">
 					<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsTaskComplete(0xE00093446FD1183E, 3, 3)))">
 						<MoveTo QuestId="1" XYZ="152.7767,15.74232,71.52522" />
 						<UseObject QuestId="0xE00093446FD1183E" Name="Locking Mechanism" BranchId="1" StepId="3" TaskId="3" Radius="5" WaitTime="20" XYZ="152.7767,15.74232,71.52522" />
@@ -1998,7 +1998,7 @@
 						<MoveTo QuestId="1" XYZ="152.0553,15.91244,41.4555" />
 						<UseObject QuestId="0xE00093446FD1183E" Name="Locking Mechanism" BranchId="1" StepId="3" TaskId="1" Radius="5" WaitTime="20" XYZ="152.0553,15.91244,41.4555" />
 					</If>
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsBranchStepComplete(0xE00093446FD1183E, 1, 4)))">
 					<MoveTo QuestId="1" XYZ="160.8037,15.34488,92.14472" />
 					<UserDialog Title="IMPORTANT" Message="Please solve the puzzle by matching the runes with the corresponding pedestals and then click OK on this window to continue." />
@@ -2198,11 +2198,11 @@
 					</If>
 					<!--[DAILY] Chopping Block-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsQuestComplete(0xE0007EC3F5A3CF10)))">
-						<While Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
+						<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
 							<MoveTo QuestId="1" XYZ="223.6447,13.64251,92.85917" />
 							<!--<UseItem QuestId="0xE0007EC3F5A3CF10" Item="Scanner" WaitTime="3500" Range="4" InCombat="False" BranchId="1" StepId="2" Radius="200" X="223.6447" Y="13.64251" Z="92.85917" />-->
 							<UserDialog Title="IMPORTANT" Message="Please use the scanner to complete mission '[DAILY] Chopping Block' and click OK on this window." />
-						</While>				
+						</If>				
 					</If>
 					<!--Turning in Dailies-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 4)))">
@@ -2400,11 +2400,11 @@
 					</If>
 					<!--[DAILY] Chopping Block-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsQuestComplete(0xE0007EC3F5A3CF10)))">
-						<While Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
+						<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
 							<MoveTo QuestId="1" XYZ="223.6447,13.64251,92.85917" />
 							<!--<UseItem QuestId="0xE0007EC3F5A3CF10" Item="Scanner" WaitTime="3500" Range="4" InCombat="False" BranchId="1" StepId="2" Radius="200" X="223.6447" Y="13.64251" Z="92.85917" />-->
 							<UserDialog Title="IMPORTANT" Message="Please use the scanner to complete mission '[DAILY] Chopping Block' and click OK on this window." />
-						</While>				
+						</If>				
 					</If>
 					<!--Turning in Dailies-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 4)))">

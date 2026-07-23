@@ -791,8 +791,8 @@
 		
 		<!-- A Crushing Blow -->
 		<If Condition="((HasQuest(0xE0000BD87306E3B1)) and (not IsQuestComplete(0xE0000BD87306E3B1)))">
-			<While Condition="HasQuest(0xE0000BD87306E3B1) and not IsBranchTaskComplete(0xE0000BD87306E3B1, 1, 2, 1)">
-				<UseObject QuestId="0xE0000BD87306E3B1" Name="Ukabi Chemical Refinery" Radius="200" WaitTime="2" >
+			<If Condition="HasQuest(0xE0000BD87306E3B1) and not IsBranchTaskComplete(0xE0000BD87306E3B1, 1, 2, 1)">
+				<UseObject QuestId="0xE0000BD87306E3B1" BranchId="1" StepId="2" TaskId="1" Name="Ukabi Chemical Refinery" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-377.1054,22.501,-150.8291" />
 						<Hotspot Name="My Location" XYZ="-375.985,22.501,-148.6525" />
@@ -800,9 +800,9 @@
 						<Hotspot Name="My Location" XYZ="-368.8269,22.501,-143.3503" />
 					</Hotspots>
 				</UseObject>
-			</While>
-			<While Condition="HasQuest(0xE0000BD87306E3B1) and not IsBranchTaskComplete(0xE0000BD87306E3B1, 1, 2, 0)">
-				<UseObject QuestId="0xE0000BD87306E3B1" Name="Ukabi Weapons Cache" Radius="200" WaitTime="2" >
+			</If>
+			<If Condition="HasQuest(0xE0000BD87306E3B1) and not IsBranchTaskComplete(0xE0000BD87306E3B1, 1, 2, 0)">
+				<UseObject QuestId="0xE0000BD87306E3B1" BranchId="1" StepId="2" TaskId="0" Name="Ukabi Weapons Cache" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-347.9866,22.501,-152.7658" />
 						<Hotspot Name="My Location" XYZ="-347.7845,22.501,-160.1323" />
@@ -810,14 +810,14 @@
 						<Hotspot Name="My Location" XYZ="-353.5204,22.481,-156.1461" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Stage 1 - Sending a Message -->
 			<If Condition="(not IsQuestComplete(0xE000E8FA248B2599))">
 				<Grind GrindRef="Stage 1 - Sending a Message" While="(not IsQuestComplete(0xE000E8FA248B2599))" />
 			</If>
 			<!-- Stage 2 - Sending a Message -->
-			<While Condition="HasQuest(0xE000E5FA248B22F0) and not IsStepComplete(0xE000E5FA248B22F0, 4)">
-				<UseObject QuestId="0xE000E5FA248B22F0" Name="Exchange Power Conduit" IgnoreLOS="True" Radius="200" WaitTime="2" BlacklistDuration="60" >
+			<If Condition="HasQuest(0xE000E5FA248B22F0) and not IsStepComplete(0xE000E5FA248B22F0, 4)">
+				<UseObject QuestId="0xE000E5FA248B22F0" StepId="4" Name="Exchange Power Conduit" IgnoreLOS="True" Radius="200" WaitTime="2" BlacklistDuration="60" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-386.0945,23.001,-143.8717" />
 						<Hotspot Name="My Location" XYZ="-385.5188,23.001,-149.2256" />
@@ -825,12 +825,12 @@
 						<Hotspot Name="My Location" XYZ="-369.7294,22.481,-141.8769" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - Sending a Message -->
-			<While Condition="HasQuest(0xE000E6FA248B2003) and not IsStepComplete(0xE000E6FA248B2003, 4)">
+			<If Condition="HasQuest(0xE000E6FA248B2003) and not IsStepComplete(0xE000E6FA248B2003, 4)">
 				<!-- This guy hits hard -->
-				<UseObject Name="Control System" QuestId="0xE000E6FA248B2003" WaitTime="3" XYZ="-374.2651,22.511,-156.0769" />
-			</While>
+				<UseObject Name="Control System" QuestId="0xE000E6FA248B2003" StepId="4" WaitTime="3" XYZ="-374.2651,22.511,-156.0769" />
+			</If>
 		</If>
 		
 		<!-- Turnin Let the Vendor Beware -->
@@ -1021,10 +1021,10 @@
 
 		<!-- Dead Drop -->
 		<If Condition="((HasQuest(0xE0002464A72266E0)) and (not IsQuestComplete(0xE0002464A72266E0)))">
-			<While Condition="HasQuest(0xE0002464A72266E0) and not IsStepComplete(0xE0002464A72266E0, 2)">
+			<If Condition="HasQuest(0xE0002464A72266E0) and not IsStepComplete(0xE0002464A72266E0, 2)">
 				<MoveTo QuestId="0xE0002464A72266E0" XYZ="123.4743,-320.299,-294.2709" />
-				<UseItem Item="Torch" QuestId="0xE0002464A72266E0" WaitTime="3" Range="4" InCombat="False" XYZ="123.4743,-320.299,-294.2709" />
-			</While>
+				<UseItem Item="Torch" QuestId="0xE0002464A72266E0" StepId="2" WaitTime="3" Range="4" InCombat="False" XYZ="123.4743,-320.299,-294.2709" />
+			</If>
 			<!-- Put Down the Riot -->
 			<If Condition="(not IsQuestComplete(0xE000C40716595C8B))">
 				<Grind GrindRef="Put Down the Riot" While="(not IsQuestComplete(0xE000C40716595C8B))" />
@@ -1233,22 +1233,22 @@
 		
 		<!-- Blackout -->
 		<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsQuestComplete(0xE000C044D36CF66A)))">
-			<While Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 2)))">
+			<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 2)))">
 				<MoveTo QuestId="1" XYZ="-236.939,-145.5092,297.8215" />
 				<MoveTo QuestId="1" XYZ="-236.939,-145.5092,297.8215" />
 				<Interact Name="Exchange Reactor" IgnoreLOS="True" UseRange="60" XYZ="-236.939,-145.5092,297.8215" />
 				<!--<UseObject Name="Exchange Reactor" QuestId="0xE000C044D36CF66A" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" IgnoreQuestRelation="True" UseRange="60" WaitTime="3" X="-236.939" Y="-145.5092" Z="297.8215" />-->
-			</While>
+			</If>
 			<!-- Break up the Exchange -->
 			<If Condition="(not IsQuestComplete(0xE000C646FC852ABF))">
 				<Grind GrindRef="Break up the Exchange" While="(not IsQuestComplete(0xE000C646FC852ABF))" />
 			</If>
-			<While Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 0)))">
+			<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 0)))">
 				<MoveTo QuestId="1" XYZ="-209.7048,-144.599,327.463" />
 				<MoveTo QuestId="1" XYZ="-209.7048,-144.599,327.463" />
 				<Interact Name="Republic Reactor" IgnoreLOS="True" UseRange="60" XYZ="-209.7048,-144.599,327.463" />
 				<!--<UseObject Name="Republic Reactor" QuestId="0xE000C044D36CF66A" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="3" X="-209.7048" Y="-144.599" Z="327.463" />-->
-			</While>
+			</If>
 			<!-- Take out Republic Forces -->
 			<If Condition="(not IsQuestComplete(0xE0003FFBAE9B7DAE))">
 				<Grind GrindRef="Take out Republic Forces" While="(not IsQuestComplete(0xE0003FFBAE9B7DAE))" />
@@ -1267,10 +1267,10 @@
 				<TalkTo QuestId="1" Name="General Kligton" XYZ="-215.8972,-144.499,295.4455" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<While Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsBranchStepComplete(0xE000B94A7F5AAE3A, 1, 5)))">
+			<If Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsBranchStepComplete(0xE000B94A7F5AAE3A, 1, 5)))">
 				<UseObject Name="Fuel Tanks" QuestId="0xE000B94A7F5AAE3A" BranchId="1" StepId="5" IgnoreLOS="True" WaitTime="3" XYZ="-212.5977,-144.438,296.8112" />
 				<MoveTo QuestId="1" XYZ="-211.1067,-143.999,296.6551" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsBranchStepComplete(0xE000B94A7F5AAE3A, 1, 7)))">
 				<TalkTo QuestId="1" Name="Commander Naughlen" XYZ="-209.485,-143.999,295.2011" />
 			</If>
@@ -1296,12 +1296,12 @@
 
 		<!-- Blackout - Continued -->
 		<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsQuestComplete(0xE000C044D36CF66A)))">
-			<While Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 1)))">
+			<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsBranchTaskComplete(0xE000C044D36CF66A, 1, 2, 1)))">
 				<MoveTo QuestId="1" XYZ="-264.1499,-144.599,302.3918" />
 				<MoveTo QuestId="1" XYZ="-264.1499,-144.599,302.3918" />
 				<Interact Name="Hutt Cartel Reactor" IgnoreLOS="True" UseRange="60" XYZ="-264.1499,-144.599,302.3918" />
 				<!--<UseObject Name="Hutt Cartel Reactor" QuestId="0xE000C044D36CF66A" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="3" X="-264.1499" Y="-144.599" Z="302.3918" />-->
-			</While>
+			</If>
 			<!-- Shut Down the Hutt Cartel -->
 			<If Condition="(not IsQuestComplete(0xE0000CD3661ADE1C))">
 				<Grind GrindRef="Shut Down the Hutt Cartel" While="(not IsQuestComplete(0xE0000CD3661ADE1C))" />
@@ -1452,10 +1452,10 @@
 			<If Condition="HasQuest(0xE0006776DC457E03) and not IsBranchStepComplete(0xE0006776DC457E03, 1, 2)">
 				<MoveTo QuestId="0xE0006776DC457E03" XYZ="-255.6175,-143.499,343.25" />
 			</If>
-			<While Condition="HasQuest(0xE0006776DC457E03) and not IsBranchStepComplete(0xE0006776DC457E03, 1, 3)" >
-				<UseItem Item="Droid Disguise" QuestId="0xE0006776DC457E03" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="-255.6175,-143.499,343.25" />
+			<If Condition="HasQuest(0xE0006776DC457E03) and not IsBranchStepComplete(0xE0006776DC457E03, 1, 3)" >
+				<UseItem Item="Droid Disguise" QuestId="0xE0006776DC457E03" BranchId="1" StepId="3" WaitTime="4" Range="4" InCombat="False" Radius="5" XYZ="-255.6175,-143.499,343.25" />
 				<UseObject Name="Vervegen ID Scanner" QuestId="0xE0006776DC457E03" BranchId="1" StepId="3" WaitTime="4" XYZ="-255.6175,-143.499,343.25" />
-			</While>
+			</If>
 			<!-- Ele going up -->
 			<If Condition="HasQuest(0xE0006776DC457E03) and not IsBranchStepComplete(0xE0006776DC457E03, 1, 4)">
 				<MoveTo QuestId="0xE0006776DC457E03" XYZ="-247.8391,-139.999,341.0575" />
@@ -1536,17 +1536,17 @@
 		<If Condition="((HasQuest(0xE000D47443EB40A7)) and (not IsQuestComplete(0xE000D47443EB40A7)))">
 			<If Condition="((HasQuest(0xE000D47443EB40A7)) and (not IsBranchStepComplete(0xE000D47443EB40A7, 1, 2)))">
 				<!--<PullDistance Distance="0.5" />-->
-				<While Condition="HasQuest(0xE000D47443EB40A7) and not IsTaskComplete(0xE000D47443EB40A7, 2, 0)" >
-					<UseItem Name="Recording Device" QuestId="0xE000D47443EB40A7" OnObject="Street Skifter Gunslinger" WaitTime="1" Range="28" InCombat="False" Radius="200">
+				<If Condition="HasQuest(0xE000D47443EB40A7) and not IsTaskComplete(0xE000D47443EB40A7, 2, 0)" >
+					<UseItem Name="Recording Device" QuestId="0xE000D47443EB40A7" StepId="2" TaskId="0" OnObject="Street Skifter Gunslinger" WaitTime="1" Range="28" InCombat="False" Radius="200">
 						<Hotspots>
 							<Hotspot Name="My Location" XYZ="140.3644,-155.299,252.9049" />
 							<Hotspot Name="Street Skifter Gunslinger" XYZ="140.914,-155.299,248.7965" />
 							<Hotspot Name="Street Skifter Gunslinger" XYZ="147.3624,-155.299,250.2962" />
 						</Hotspots>
 					</UseItem>
-				</While>
-				<While Condition="HasQuest(0xE000D47443EB40A7) and not IsTaskComplete(0xE000D47443EB40A7, 2, 1)" >
-					<UseItem Name="Recording Device" QuestId="0xE000D47443EB40A7" OnObject="Street Skifter Cutthroat" WaitTime="1" Range="28" InCombat="False" Radius="200">
+				</If>
+				<If Condition="HasQuest(0xE000D47443EB40A7) and not IsTaskComplete(0xE000D47443EB40A7, 2, 1)" >
+					<UseItem Name="Recording Device" QuestId="0xE000D47443EB40A7" StepId="2" TaskId="1" OnObject="Street Skifter Cutthroat" WaitTime="1" Range="28" InCombat="False" Radius="200">
 						<Hotspots>
 							<Hotspot Name="Street Skifter Cutthroat" XYZ="166.613,-155.799,248.0143" />
 							<Hotspot Name="Street Skifter Dealer" XYZ="166.0023,-155.799,240.2568" />
@@ -1557,7 +1557,7 @@
 							<Hotspot Name="Street Skifter Hound" XYZ="179.731,-152.7001,243.1477" />
 						</Hotspots>
 					</UseItem>
-				</While>
+				</If>
 				<!--<PullDistance Distance="1.5" />-->
 			</If>
 			<!-- Gangland Violence -->
@@ -1687,7 +1687,7 @@
 					  XYZ="-6.619065,5.441,-7.501329"
 					  ToX="-6.3733" ToY="-0.05999998" ToZ="-7.4729" />
 				</If>
-				<UseObject Name="Holoterminal Controls" QuestId="0xE0003BE7DB5CEA47" IgnoreLOS="True" WaitTime="5" XYZ="-0.1271026,0.101,-0.5874217" />
+				<UseObject Name="Holoterminal Controls" QuestId="0xE0003BE7DB5CEA47" BranchId="4" StepId="3" IgnoreLOS="True" WaitTime="5" XYZ="-0.1271026,0.101,-0.5874217" />
 			</If>
 			<If Condition="((HasQuest(0xE0003BE7DB5CEA47)) and (not IsBranchStepComplete(0xE0003BE7DB5CEA47, 5, 2)))">
 				<If Condition="(BuddyTor.Client.AreaID == 0x4000000635D26534)">

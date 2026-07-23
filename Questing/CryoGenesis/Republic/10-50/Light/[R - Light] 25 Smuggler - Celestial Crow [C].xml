@@ -57,7 +57,7 @@
 				<MoveTo QuestId="0xE000D8DA630F65DD" Name="Going to Find Feylara" XYZ="-12.55591,-0.3953,0.2325528" />
 			</If>
 			<If Condition="((HasQuest(0xE000D8DA630F65DD)) and (not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 8)))">
-				<UseObject QuestId="0xE000D8DA630F65DD" Name="Cargo Door" Range="20" UseRange="5" IgnoreLOS="true" XYZ="-12.55591,-0.3953,0.2325528" />
+				<UseObject QuestId="0xE000D8DA630F65DD" BranchId="1" StepId="8" Name="Cargo Door" Range="20" UseRange="5" IgnoreLOS="true" XYZ="-12.55591,-0.3953,0.2325528" />
 			</If>
 			<If Condition="((HasQuest(0xE000D8DA630F65DD)) and (not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 9)))">
 				<MoveTo QuestId="0xE000D8DA630F65DD" Name="Going to speak with Feylara" XYZ="-13.3498,-0.3219426,-1.8675" />

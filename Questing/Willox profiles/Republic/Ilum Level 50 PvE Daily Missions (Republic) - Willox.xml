@@ -79,7 +79,7 @@
 		***** UseObject*****
 		QuestName: Jam the Transmissions Step: Disable the Communications Dish-->
 		<If Condition="HasQuest(0xE0009F685FAEA75D) and not IsStepComplete(0xE0009F685FAEA75D, 3)">
-			<UseObject QuestId="0xE0009F685FAEA75D" Name="Communications Dish Console" Radius="20" WaitTime="3000" XYZ="-8.445057,-0.680347,64.00549" />
+			<UseObject QuestId="0xE0009F685FAEA75D" StepId="3" Name="Communications Dish Console" Radius="20" WaitTime="3000" XYZ="-8.445057,-0.680347,64.00549" />
 		</If>
 
 		<!-- 
@@ -139,7 +139,7 @@
 		Object Loc:  X="25.75996" Y="-1.374002" Z="-2.096089" Eastern Ice Shelf - The Road to Glory 
 		Info: Quest Turnin Here -->
 		<If Condition="HasQuest(0xE0000CB5D481F093) and not IsStepComplete(0xE0000CB5D481F093, 3)">
-			<UseObject QuestId="0xE0000CB5D481F093" Name="Customs Terminal" Radius="200" XYZ="-96.88853,154.001,-389.6191" />
+			<UseObject QuestId="0xE0000CB5D481F093" StepId="3" Name="Customs Terminal" Radius="200" XYZ="-96.88853,154.001,-389.6191" />
 		</If>
 
 		<!-- 
@@ -151,7 +151,7 @@
 		Object Loc:  X="-59.0565" Y="3.846299" Z="-16.4307" Eastern Ice Shelf - Western Jedi Ruins
 		-->
 		<If Condition="HasQuest(0xE0007EF27BCF8B18) and not IsStepComplete(0xE0007EF27BCF8B18, 2)">
-			<UseObject QuestId="0xE0007EF27BCF8B18" Name="Ion  Disrupter" Radius="20" XYZ="-59.0565,3.846299,-16.4307" />
+			<UseObject QuestId="0xE0007EF27BCF8B18" StepId="2" Name="Ion  Disrupter" Radius="20" XYZ="-59.0565,3.846299,-16.4307" />
 		</If>
 
 		<!-- 

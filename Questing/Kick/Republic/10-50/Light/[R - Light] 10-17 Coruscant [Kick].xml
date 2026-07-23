@@ -1119,14 +1119,14 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Bonus: Final Stage - Crisis Control (Bonus) 0xE0000D8CEAE31EDC -->
-			<While Condition="((HasQuest(0xE0000D8CEAE31EDC)) and (not IsStepComplete(0xE0000D8CEAE31EDC, 4)))">
+			<If Condition="((HasQuest(0xE0000D8CEAE31EDC)) and (not IsStepComplete(0xE0000D8CEAE31EDC, 4)))">
 				<MoveTo QuestId="1" Name="My Location" XYZ="257.2509,47.201,101.9275" />
 				<MoveTo QuestId="1" Name="My Location" XYZ="256.8885,47.201,103.8387" />
 				<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="255.9435,47.40028,103.6453" />
 				<Interact Name="Dropship Airlock" IgnoreLOS="True" UseRange="30" XYZ="256.0107,47.39936,103.6363" />
 				<!--<UseObject QuestId="0xE0000D8CEAE31EDC" Name="Dropship Airlock" IgnoreLOS="True" IgnoreQuestRelation="True" UseRange="20" StepId="4" X="256.0107" Y="47.39936" Z="103.6363" />-->
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 			<!-- 0xE0004E02DAAD2D91 -->
 		</If>
 		
@@ -1169,10 +1169,10 @@
 				<WaitTimer QuestId="1" WaitTime="10" />
 			</If>
 			<!-- Final Stage - Guild Justice (Bonus) -->
-			<While Condition="((HasQuest(0xE00091AFAE5C7E4F)) and (not IsStepComplete(0xE00091AFAE5C7E4F, 4)))">
+			<If Condition="((HasQuest(0xE00091AFAE5C7E4F)) and (not IsStepComplete(0xE00091AFAE5C7E4F, 4)))">
 				<UseObject QuestId="0xE00091AFAE5C7E4F" Name="Shipping Container" BranchId="1" StepId="4" IgnoreLOS="True" IgnoreQuestRelation="True" XYZ="228.912,45.601,131.4158" />
 				<!--<Grind GrindRef="Final Stage - Guild Justice (Bonus)" While="(not IsStepComplete(0xE00091AFAE5C7E4F, 4))" />-->
-			</While>
+			</If>
 			<!-- Guild Justice 0xE0007877A6879320 -->
 		</If>
 
@@ -1520,11 +1520,11 @@
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 4)))">
 				<UseObject QuestId="0xE0007AC212612015" Name="Medical Supplies" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-357.0098,-131.689,26.11327" />
 			</If>
-			<While Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 5)))">
+			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 5)))">
 				<MoveTo QuestId="0xE0007AC212612015" Name="Black Sun Smuggler" While="(not IsBranchStepComplete(0xE0007AC212612015, 1, 5))" XYZ="-371.2761,-130.699,30.83338" />
-				<UseItem QuestId="0xE0007AC212612015" Item="Scanner" OnObject="Black Sun Smuggler" WaitTime="3500" Range="4" InCombat="False" XYZ="-371.3012,-130.699,30.9183" />
+				<UseItem QuestId="0xE0007AC212612015" StepId="5" Item="Scanner" OnObject="Black Sun Smuggler" WaitTime="3500" Range="4" InCombat="False" XYZ="-371.3012,-130.699,30.9183" />
 				<WaitTimer QuestId="1" WaitTime="3" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 6)))">
 				<AnswerHolocomCall QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			</If>
@@ -1597,10 +1597,10 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Freightskipper Fracas (Bonus) -->
-			<While Condition="(not IsQuestComplete(0xE00020AB94413409))">
+			<If Condition="(not IsQuestComplete(0xE00020AB94413409))">
 				<UseObject QuestId="0xE00020AB94413409" Name="Security Console" BranchId="1" StepId="4" IgnoreLOS="True" IgnoreQuestRelation="True" XYZ="-401.6209,-130.199,34.7847" />
 				<Grind GrindRef="Final Stage - Freightskipper Fracas (Bonus)" While="(not IsStepComplete(0xE00020AB94413409, 5))" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Partial Eclipse -->
@@ -1838,9 +1838,9 @@
 			<If Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 2)))">
 				<Grind GrindRef="Defeat Yuon Par" While="(not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 2))" />
 			</If>
-			<While Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 3)))">
+			<If Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 3)))">
 				<TalkTo QuestId="0xE000CA0AB586CC72" Name="Attros Finn" XYZ="-125.6767,143.6074,-459.8438" />
-			</While>
+			</If>
 			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" RewardIndex="1" />
 			<!-- Shadows 0xE000EA34B5143847 -->
 		</If>
@@ -2030,10 +2030,10 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Justicar Resistance (Bonus) 4 -->
-			<While Condition="((HasQuest(0xE000A1541A296560)) and (not IsQuestComplete(0xE000A1541A296560)))">
+			<If Condition="((HasQuest(0xE000A1541A296560)) and (not IsQuestComplete(0xE000A1541A296560)))">
 				<Interact Name="Justicar Console" IgnoreLOS="True" XYZ="52.15082,-105.194,465.3136" />
 				<!--<Grind GrindRef="Final Stage - Justicar Resistance (Bonus)" While="(HasQuest(0xE000A1541A296560))" />-->
-			</While>
+			</If>
 		</If>
 
 		<!-- Trooper - More Old Friends -->
@@ -2090,9 +2090,9 @@
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 4)))">
 				<UseObject QuestId="0xE000EA34B5143847" Name="Noetikon of Secrets" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="85.64085,-104.0938,481.2094" />
 			</If>
-			<While Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 5)))">
+			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 5)))">
 				<TalkTo QuestId="0xE000EA34B5143847" Name="Lars Baddeg" XYZ="85.28519,-104.099,484.1765" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 6)))">
 				<Grind GrindRef="Shadows 6" While="(not IsStepComplete(0xE000EA34B5143847, 6))" />
 			</If>
@@ -2149,9 +2149,9 @@
 	
 		<!-- Secret Passages -->
 		<If Condition="((HasQuest(0xE000F0BE99AD590B)) and (not IsQuestComplete(0xE000F0BE99AD590B)))">
-			<While Condition="((HasQuest(0xE000F0BE99AD590B)) and (not IsBranchStepComplete(0xE000F0BE99AD590B, 1, 4)))">
+			<If Condition="((HasQuest(0xE000F0BE99AD590B)) and (not IsBranchStepComplete(0xE000F0BE99AD590B, 1, 4)))">
 				<TalkTo QuestId="0xE000F0BE99AD590B" Name="Fieler Dan" XYZ="114.7139,-105.299,417.3705" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Turnin Gree: Ugnaught Saboteurs -->
@@ -2236,10 +2236,10 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Enemy Droid-machines (Bonus)	Id: 0xE000A4FA5A765B9A 4 -->
-			<While Condition="((HasQuest(0xE000A4FA5A765B9A)) and (not IsQuestComplete(0xE000A4FA5A765B9A)))">
+			<If Condition="((HasQuest(0xE000A4FA5A765B9A)) and (not IsQuestComplete(0xE000A4FA5A765B9A)))">
 				<UseObject QuestId="0xE000A4FA5A765B9A" Name="Droid Recharging Station" BranchId="1" StepId="4" Radius="20" WaitTime="5" IgnoreQuestRelation="True" XYZ="97.13242,-227.2603,441.0216" />
 				<!--<Grind GrindRef="Final Stage - Enemy Droid-machines (Bonus)" While="(HasQuest(0xE000A4FA5A765B9A))" />-->
-			</While>
+			</If>
 			<!-- Enemy Droid-machines	Id: 0xE000FB20128A1E40 - turnin that quest now -->
 		</If>
 		 

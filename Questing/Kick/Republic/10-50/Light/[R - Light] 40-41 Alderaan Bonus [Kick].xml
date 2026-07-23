@@ -244,9 +244,9 @@
 		
 		<!-- A Live Specimen and Turnin -->
 		<If Condition="((HasQuest(0xE0004C39EF8D58AE)) and (not IsQuestComplete(0xE0004C39EF8D58AE)))">
-			<While Condition="((HasQuest(0xE0004C39EF8D58AE)) and (not IsBranchStepComplete(0xE0004C39EF8D58AE, 1, 2)))">
+			<If Condition="((HasQuest(0xE0004C39EF8D58AE)) and (not IsBranchStepComplete(0xE0004C39EF8D58AE, 1, 2)))">
 				<!-- at 30% -->
-				<UseItem QuestId="0xE0004C39EF8D58AE" Item="Killik Neutralizer" OnObject="Killik Scrapper" WaitTime="5500" Range="4" InCombat="True" Radius="20" >
+				<UseItem QuestId="0xE0004C39EF8D58AE" BranchId="1" StepId="2" Item="Killik Neutralizer" OnObject="Killik Scrapper" WaitTime="5500" Range="4" InCombat="True" Radius="20" >
 					<Hotspots>
 						<Hotspot Name="Killik Scrapper" XYZ="143.703,17.93116,182.4285" />
 						<Hotspot Name="Killik Scrapper" XYZ="138.5957,17.95238,193.1249" />
@@ -256,7 +256,7 @@
 						<Hotspot Name="Killik Scrapper" XYZ="195.9297,20.96144,185.2705" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<TurnInQuest QuestName="A Live Specimen" QuestId="0xE0004C39EF8D58AE" TurnInName="Doctor Parren" XYZ="132.9342,18.2744,179.4138" />
 			<CompleteQuest QuestName="A Live Specimen" QuestId="0xE0004C39EF8D58AE" RewardIndex="1" />
 		</If>
@@ -395,7 +395,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE00034AA2E840DC8)) and (not IsBranchStepComplete(0xE00034AA2E840DC8, 1, 3)))">
 				<!-- On npc - Baliss Recruit, Baliss Soldier, Baliss Veteran, Baliss Drill Sergeant - 30s cd -->
-				<UseItem QuestId="0xE00034AA2E840DC8" Item="Thul Gas Grenades" OnObject="Baliss Recruit" WaitTime="32" Range="15" InCombat="True" Radius="20" >
+				<UseItem QuestId="0xE00034AA2E840DC8" BranchId="1" StepId="3" Item="Thul Gas Grenades" OnObject="Baliss Recruit" WaitTime="32" Range="15" InCombat="True" Radius="20" >
 					<Hotspots>				
 						<Hotspot Name="Baliss Recruit" XYZ="200.9612,14.84334,112.3415" />
 						<Hotspot Name="Baliss Soldier" XYZ="205.5832,14.97882,114.5478" />
@@ -475,13 +475,13 @@
 		<!-- Consular - Hostile Population -->
 		<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsQuestComplete(0xE000865F87CB1054)))">
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 2)))">
-				<UseObject QuestId="0xE000865F87CB1054" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1048356,1.551,-4.635158" />
+				<UseObject QuestId="0xE000865F87CB1054" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1048356,1.551,-4.635158" />
 				<!-- Distant Outer Rim - Belsavis - Travel Now -->
 			</If>
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 3)))">
-				<UseObject QuestId="0xE000865F87CB1054" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9617708,1.651,2.637682" />
+				<UseObject QuestId="0xE000865F87CB1054" BranchId="1" StepId="3" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9617708,1.651,2.637682" />
 				<!-- Distant Outer Rim - Belsavis - Travel Now -->
-				<UseObject QuestId="0xE000865F87CB1054" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
+				<UseObject QuestId="0xE000865F87CB1054" BranchId="1" StepId="3" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
 			
 				<!-- I am in Airlock  -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Belsavis Orbital Station"

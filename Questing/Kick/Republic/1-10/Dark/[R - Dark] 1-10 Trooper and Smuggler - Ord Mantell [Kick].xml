@@ -737,13 +737,13 @@
 
     <!-- Unsafe Safe Houses -->
     <If Condition="((HasQuest(0xE0000A7633DF7691)) and (not IsQuestComplete(0xE0000A7633DF7691)))">
-      <While Condition="((HasQuest(0xE0000A7633DF7691)) and (not IsStepComplete(0xE0000A7633DF7691, 2)))">
+      <If Condition="((HasQuest(0xE0000A7633DF7691)) and (not IsStepComplete(0xE0000A7633DF7691, 2)))">
         <UseObject QuestId="0xE0000A7633DF7691" Name="Separatist Datalink Alpha" BranchId="1" StepId="2" TaskId="0" Radius="10" WaitTime="5" XYZ="49.0492,2.575765,-13.95401" />
         <!-- 1 -->
         <MoveTo QuestId="1" XYZ="49.58134,2.793435,-22.15952" />
         <UseObject QuestId="0xE0000A7633DF7691" Name="Separatist Datalink Beta" BranchId="1" StepId="2" TaskId="1" UseRange="10" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="49.58134,2.793435,-22.15952" />
         <!-- 2 -->
-      </While>
+      </If>
     </If>
 
     <!-- Smuggler: Hungry for Information -->
@@ -955,14 +955,14 @@
 
     <!-- Victims of War -->
     <If Condition="((HasQuest(0xE0003EF1F32797E3)) and (not IsQuestComplete(0xE0003EF1F32797E3)))">
-      <While Condition="((HasQuest(0xE0003EF1F32797E3)) and (not IsBranchStepComplete(0xE0003EF1F32797E3, 1, 2)))">
+      <If Condition="((HasQuest(0xE0003EF1F32797E3)) and (not IsBranchStepComplete(0xE0003EF1F32797E3, 1, 2)))">
         <MoveTo QuestId="0xE0003EF1F32797E3" Name="Jaen Kett" XYZ="73.8346,4.042799,44.6107" />
 
         <TalkTo QuestId="0xE0003EF1F32797E3" Name="Jaen Kett" XYZ="73.8346,4.042799,44.6107" />
 
 
         <WaitTimer QuestId="1" WaitTime="3" />
-      </While>
+      </If>
     </If>
 
     <!-- Trooper: Mannett Point -->
@@ -1006,7 +1006,7 @@
 
     <!-- Lost Son -->
     <If Condition="((HasQuest(0xE000F766AF41897B)) and (not IsQuestComplete(0xE000F766AF41897B)))">
-      <While Condition="((HasQuest(0xE000F766AF41897B)) and (not IsBranchStepComplete(0xE000F766AF41897B, 1, 2)))">
+      <If Condition="((HasQuest(0xE000F766AF41897B)) and (not IsBranchStepComplete(0xE000F766AF41897B, 1, 2)))">
         <If Condition="Me.Position.Y &gt; 3">
           <MoveTo QuestId="1"  XYZ="87.07934,3.401,41.01107"  />
           <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
@@ -1014,19 +1014,19 @@
                       ToX="86.821" ToY="1.001" ToZ="40.7956" />
         </If>
         <TalkTo QuestId="0xE000F766AF41897B" Name="Paul" XYZ="70.2835,-0.008999144,31.3874" />
-      </While>
+      </If>
     </If>
 
     <!-- The Untold Story and Turnin -->
     <If Condition="((HasQuest(0xE000280490BB04A5)) and (not IsQuestComplete(0xE000280490BB04A5)))">
-      <While Condition="((HasQuest(0xE000280490BB04A5)) and (not IsBranchStepComplete(0xE000280490BB04A5, 1, 2)))">
+      <If Condition="((HasQuest(0xE000280490BB04A5)) and (not IsBranchStepComplete(0xE000280490BB04A5, 1, 2)))">
         <If Condition="Me.Position.Y &gt; 3">
           <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
                        XYZ="87.07934,3.401,41.01107"
                       ToX="86.36693" ToY="0.9902929" ToZ="40.80713" />
         </If>
         <TalkTo QuestId="0xE000280490BB04A5" Name="Waxx" XYZ="75.0227,1.001,30.4752" />
-      </While>
+      </If>
       <If Condition="((HasQuest(0xE000280490BB04A5)) and (not IsBranchStepComplete(0xE000280490BB04A5, 3, 2)))">
         <Grind GrindRef="The Untold Story 3 2" While="(not IsBranchStepComplete(0xE000280490BB04A5, 3, 2))" />
       </If>
@@ -1296,10 +1296,10 @@
     <!-- Trooper: The Separatists' Stronghold 2-3 -->
     <If Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsQuestComplete(0xE0007D71A78F1F0C)))">
       <!-- This guy hits like a fucking Truck, I won't be surprised if we chain-die -->
-      <While Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsStepComplete(0xE0007D71A78F1F0C, 2)))">
+      <If Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsStepComplete(0xE0007D71A78F1F0C, 2)))">
         <MoveTo QuestId="1" XYZ="-59.10819,8.897834,-1.718201" />
         <UseObject QuestId="0xE0007D71A78F1F0C" Name="Communications Console" BranchId="1" StepId="2" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-59.10819,8.897834,-1.718201" />
-      </While>
+      </If>
       <If Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsStepComplete(0xE0007D71A78F1F0C, 3)))">
         <AnswerHolocomCall QuestName="The Separatists' Stronghold (Bonus)" QuestId="0xE0007D71A78F1F0C" />
       </If>
@@ -1343,12 +1343,12 @@
         <UseObject QuestId="0xE0008078B50B6316" Name="Security Terminal" BranchId="1" StepId="3" TaskId="2" Radius="20" WaitTime="5" XYZ="-78.89229,9.690442,24.90522" />
         <!-- 3 - Third Security Terminal -->
       </If>
-      <While Condition="((HasQuest(0xE0008078B50B6316)) and (not IsStepComplete(0xE0008078B50B6316, 4)))">
+      <If Condition="((HasQuest(0xE0008078B50B6316)) and (not IsStepComplete(0xE0008078B50B6316, 4)))">
         <UseObject QuestId="1" Name="Landing Pad Anti Aircraft Gun" IgnoreQuestRelation="True" Radius="5" WaitTime="5" XYZ="-89.57087,9.797071,19.89435" />
         <MoveTo QuestId="1" XYZ="-89.58769,9.797285,21.75598" />
         <UseObject QuestId="1" Name="Landing Pad Anti Aircraft Gun" IgnoreQuestRelation="True" Radius="5" WaitTime="5" XYZ="-89.58769,9.797285,21.75598" />
         <WaitTimer QuestId="1" WaitTime="3" />
-      </While>
+      </If>
     </If>
 
     <!-- Turnin Alliance Of Evil -->

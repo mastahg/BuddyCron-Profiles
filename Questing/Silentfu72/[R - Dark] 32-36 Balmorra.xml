@@ -1171,13 +1171,13 @@
 			</If>
 			<!-- Final Stage - Trade Sanctions (Bonus) -->
 			<If Condition="((HasQuest(0xE000DCE530D527D7)) and (not IsQuestComplete(0xE000DCE530D527D7)))"> 
-				<While Condition="((HasQuest(0xE000DCE530D527D7)) and (not IsStepComplete(0xE000DCE530D527D7, 4)))">
+				<If Condition="((HasQuest(0xE000DCE530D527D7)) and (not IsStepComplete(0xE000DCE530D527D7, 4)))">
 					<MoveTo QuestId="1" XYZ="-164.6453,10.89369,102.7351" />
 					<UseObject QuestId="1" Name="Imperial Shipping Network Terminal" IgnoreQuestRelation="True" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-164.6453,10.89369,102.7351" />
 					<If Condition="((HasQuest(0xE000DCE530D527D7)) and (not IsStepComplete(0xE000DCE530D527D7, 5)))">
 						<Grind GrindRef="Final Stage - Trade Sanctions (Bonus)" />
 					</If>
-				</While>
+				</If>
 			</If>
 		</If>
 		
@@ -1273,9 +1273,9 @@
 
 		<!-- Inside Help -->
 		<If Condition="((HasQuest(0xE0009AB86A70B24F)) and (not IsQuestComplete(0xE0009AB86A70B24F)))">
-			<While Condition="((HasQuest(0xE0009AB86A70B24F)) and (not IsStepComplete(0xE0009AB86A70B24F, 2)))">
+			<If Condition="((HasQuest(0xE0009AB86A70B24F)) and (not IsStepComplete(0xE0009AB86A70B24F, 2)))">
 				<!-- Pulldistance 1 Might have to do this one manually.  When targeting the droids, Joes Combat just kills it instead of using the Transmitter first.-->
-				<UseItem QuestId="0xE0009AB86A70B24F" Item="Transmitter" OnObject="OT-3 Relay Droid" WaitTime="3500" Range="10" InCombat="False" Radius="200"  >
+				<UseItem QuestId="0xE0009AB86A70B24F" StepId="2" Item="Transmitter" OnObject="OT-3 Relay Droid" WaitTime="3500" Range="10" InCombat="False" Radius="200"  >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-91.76694,13.99696,133.2855" />
 						<Hotspot Name="OT-3 Relay Droid" XYZ="-92.90775,14.07104,129.1156" />
@@ -1285,7 +1285,7 @@
 					</Hotspots>
 				</UseItem>
 				<!-- Pulldistance default -->
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0009AB86A70B24F)) and (not IsStepComplete(0xE0009AB86A70B24F, 3)))">
 				<UseObject QuestId="0xE0009AB86A70B24F" Name="Okara Public Access Terminal" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-105.8522,13.53968,153.9505" />
 			</If>
@@ -1506,17 +1506,17 @@
 			<If Condition="((HasQuest(0xE00073D404851181)) and (not IsStepComplete(0xE00073D404851181, 4)))">
 				<UseObject QuestId="0xE00073D404851181" Name="Records Vault Security Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="18.63786,7.683766,180.3913" />
 			</If>
-			<While Condition="((HasQuest(0xE00073D404851181)) and (not IsStepComplete(0xE00073D404851181, 5)))">
-				<While Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 2)))">
+			<If Condition="((HasQuest(0xE00073D404851181)) and (not IsStepComplete(0xE00073D404851181, 5)))">
+				<If Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 2)))">
 					<UseObject QuestId="0xE00073D404851181" Name="Western Supply Cache Terminal" BranchId="1" StepId="5" TaskId="2" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-30.04626,5.696604,117.3448" />
-				</While>
-				<While Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 0)))">
+				</If>
+				<If Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 0)))">
 					<UseObject QuestId="0xE00073D404851181" Name="Northern Supply Cache Terminal" BranchId="1" StepId="5" TaskId="0" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-22.66768,5.586556,92.50425" />
-				</While>
-				<While Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 1)))">
+				</If>
+				<If Condition="((HasQuest(0xE00073D404851181)) and (not IsTaskComplete(0xE00073D404851181, 5, 1)))">
 					<UseObject QuestId="0xE00073D404851181" Name="Eastern Supply Cache Terminal" BranchId="1" StepId="5" TaskId="1" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-1.911509,5.412684,95.942" />
-				</While>
-			</While>
+				</If>
+			</If>
 			<If Condition="((HasQuest(0xE00073D404851181)) and (not IsStepComplete(0xE00073D404851181, 6)))">
 				<TalkTo QuestId="0xE00073D404851181" Name="Benx" XYZ="-16.8449,5.34142,135.2744" />
 			</If>
@@ -1900,15 +1900,15 @@
 		<!-- Critical Sabotage 2-3 -->
 		<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsQuestComplete(0xE000E13EE4AF29CC)))">
 			<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsStepComplete(0xE000E13EE4AF29CC, 2)))">
-				<While Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 0)))"> <!-- S -->
-					<UseItem QuestId="0xE000E13EE4AF29CC" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="130.897,13.9799,118.725" />
-				</While>
-				<While Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 1)))"> <!-- N -->
-					<UseItem QuestId="0xE000E13EE4AF29CC" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="116.0439,13.9344,92.46351" />
-				</While>
-				<While Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 2)))"> <!-- W -->
-					<UseItem QuestId="0xE000E13EE4AF29CC" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="104.4493,14.01582,97.78117" />
-				</While>
+				<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 0)))"> <!-- S -->
+					<UseItem QuestId="0xE000E13EE4AF29CC" StepId="2" TaskId="0" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="130.897,13.9799,118.725" />
+				</If>
+				<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 1)))"> <!-- N -->
+					<UseItem QuestId="0xE000E13EE4AF29CC" StepId="2" TaskId="1" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="116.0439,13.9344,92.46351" />
+				</If>
+				<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsTaskComplete(0xE000E13EE4AF29CC, 2, 2)))"> <!-- W -->
+					<UseItem QuestId="0xE000E13EE4AF29CC" StepId="2" TaskId="2" Item="Comm Scrambler" WaitTime="6500" Range="2" InCombat="False" Radius="2" XYZ="104.4493,14.01582,97.78117" />
+				</If>
 			</If>
 			<!-- Stage 1 - Storming The Front (Bonus) -->
 			<If Condition="((not HasQuest(0xE00018D3EEAD584C)) and (not IsQuestComplete(0xE00018D3EEAD584C)))">
@@ -1924,14 +1924,14 @@
 				<If Condition="((HasQuest(0xE0001BD3EEAD6365)) and (not IsStepComplete(0xE0001BD3EEAD6365, 4)))">
 					<UseObject QuestId="0xE0001BD3EEAD6365" Name="Medical Supply Crate" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="92.87522,13.61573,120.6155" />
 				</If>
-				<While Condition="((HasQuest(0xE0001BD3EEAD6365)) and (not IsStepComplete(0xE0001BD3EEAD6365, 5)))">
-					<UseItem QuestId="0xE0001BD3EEAD6365" Item="Medical Supplies" OnObject="Wounded Republic Defender" WaitTime="3500" Range="2" InCombat="False" Radius="200"  >
+				<If Condition="((HasQuest(0xE0001BD3EEAD6365)) and (not IsStepComplete(0xE0001BD3EEAD6365, 5)))">
+					<UseItem QuestId="0xE0001BD3EEAD6365" StepId="5" Item="Medical Supplies" OnObject="Wounded Republic Defender" WaitTime="3500" Range="2" InCombat="False" Radius="200"  >
 						<Hotspots>
 							<Hotspot Name="My Location" XYZ="91.20693,13.74053,107.2285" />
 							<Hotspot Name="My Location" XYZ="91.88831,13.71123,106.5099" />
 						</Hotspots>
 					</UseItem>
-				</While>
+				</If>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 3 - Storming The Front (Bonus) -->
@@ -1948,11 +1948,11 @@
 						</Hotspots>
 					</UseObject>
 				</If>
-				<While Condition="((HasQuest(0xE0001AD3EEAD652A)) and (not IsStepComplete(0xE0001AD3EEAD652A, 5)))">
+				<If Condition="((HasQuest(0xE0001AD3EEAD652A)) and (not IsStepComplete(0xE0001AD3EEAD652A, 5)))">
 					<UseObject QuestId="1" Name="Captured Republic Walker" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="128.7702,11.08673,89.86847" />
 					<MoveTo QuestId="1" Name="Imperial Protector" XYZ="131.2468,10.55842,89.2501" />
 					<WaitTimer QuestId="1" WaitTime="3" />
-				</While>
+				</If>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Storming The Front (Bonus) -->
@@ -2116,7 +2116,7 @@
 				<Grind GrindRef="Hunting the Mandalorians 3" While="(not IsBranchStepComplete(0xE000D0507F022303, 1, 3))" />
 			</If>
 			<!--This part does not use the items, it will loop trying to use Long Range scanner over and over.  Complete manually and continue.-->
-			<While Condition="((HasQuest(0xE000D0507F022303)) and (not IsBranchStepComplete(0xE000D0507F022303, 1, 4)))">
+			<If Condition="((HasQuest(0xE000D0507F022303)) and (not IsBranchStepComplete(0xE000D0507F022303, 1, 4)))">
 				<UseObject QuestId="1" Name="Resistance Long-range Scanner" Radius="20" UseRange="20" WaitTime="5" XYZ="-60.25471,8.021866,216.5962" />
 				<UseItem QuestId="1" Item="Communications Repair Kit" Radius="20" UseRange="20"  XYZ="-60.25471,8.021866,216.5962" />
 			
@@ -2125,7 +2125,7 @@
 			
 				<UseObject QuestId="1" Name="Resistance Long-range Scanner" Radius="20" WaitTime="5" XYZ="-48.86048,8.051676,218.8613" />
 				<UseItem QuestId="1" Item="Software Repair Kit" Radius="20" UseRange="20"  XYZ="-48.86048,8.051676,218.8613" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Bonuses for Balmorra: Bonus Series 1 -->
@@ -2241,8 +2241,8 @@
 	
 		<!-- Balmorra: Bonus Series 2 -->
 		<If Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsQuestComplete(0xE0000B3B9578D2D6)))">
-			<While Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsBranchStepComplete(0xE0000B3B9578D2D6, 1, 2)))">
-				<UseItem QuestId="0xE0000B3B9578D2D6" Item="Balmorran Memory Bank Scanner" OnObject="Resistance Controlled Droid" WaitTime="3500" Range="4" InCombat="True" Radius="20"  >
+			<If Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsBranchStepComplete(0xE0000B3B9578D2D6, 1, 2)))">
+				<UseItem QuestId="0xE0000B3B9578D2D6" BranchId="1" StepId="2" Item="Balmorran Memory Bank Scanner" OnObject="Resistance Controlled Droid" WaitTime="3500" Range="4" InCombat="True" Radius="20"  >
 					<Hotspots>				
 						<Hotspot Name="Resistance Controlled Droid" XYZ="98.01945,13.36142,143.439" />
 						<Hotspot Name="Resistance Controlled Droid" XYZ="89.03769,13.75642,142.4175" />
@@ -2254,7 +2254,7 @@
 						<Hotspot Name="Resistance Controlled Droid" XYZ="105.1646,13.00941,116.2009" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsBranchStepComplete(0xE0000B3B9578D2D6, 1, 3)))">
 				<TalkTo QuestId="0xE0000B3B9578D2D6" Name="Colonel Hunt" XYZ="153.506,16.75872,123.4008" />
 			</If>
@@ -2296,7 +2296,7 @@
 		
 		<!-- Follow-Up Operations -->
 		<If Condition="((HasQuest(0xE0004489DEAA1A50)) and (not IsQuestComplete(0xE0004489DEAA1A50)))">
-			<While Condition="((HasQuest(0xE0004489DEAA1A50)) and (not IsBranchStepComplete(0xE0004489DEAA1A50, 1, 2)))">
+			<If Condition="((HasQuest(0xE0004489DEAA1A50)) and (not IsBranchStepComplete(0xE0004489DEAA1A50, 1, 2)))">
 				<UseObject QuestId="0xE0004489DEAA1A50" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
 					<Placeables>
 						<Placeable>Crawler Oil Pan</Placeable>
@@ -2312,7 +2312,7 @@
 						<Hotspot XYZ="174.5563,16.66813,63.59568" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 		</If>
 		
 		<!-- The Neutralizer -->

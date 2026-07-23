@@ -978,10 +978,10 @@
 			</If>
 			<!-- Final Stage - Revenge Served Cold (Bonus) -->
 			<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsQuestComplete(0xE00015EBCCB6BBE3)))">
-				<While Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 4)))">
+				<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 4)))">
 					<Interact QuestId="1" Name="Thul Dropship Engine" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="-119.2804,22.66312,203.2528" />
 					<WaitTimer QuestId="1" WaitTime="15" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 7)))">
 					<Grind GrindRef="Final Stage - Revenge Served Cold (Bonus) 7" While="(not IsStepComplete(0xE00015EBCCB6BBE3, 7))" />
 				</If>
@@ -1031,18 +1031,18 @@
 		<!-- Consular - Hostile Negotiations 2-8 -->
 		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsQuestComplete(0xE000477142135D5E)))">
 			<!-- Resets to 2 if we fail the 'defend crap' mission -->
-			<While Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 3)))">
+			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 3)))">
 				<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 2)))">
 					<MoveTo QuestId="0xE000477142135D5E" Name="My Location" XYZ="93.58731,16.51791,151.9694" />
 				</If>
 				<Grind GrindRef="Hostile Negotiations 3" While="(not IsStepComplete(0xE000477142135D5E, 3)) and (IsStepComplete(0xE000477142135D5E, 2))" />
-			</While>
-			<While Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 5)))">
+			</If>
+			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 5)))">
 				<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 4)))">
 					<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" XYZ="86.63162,16.5195,147.1578" />
 				</If>
 				<Grind GrindRef="Hostile Negotiations 3" While="(not IsStepComplete(0xE000477142135D5E, 5)) and (IsStepComplete(0xE000477142135D5E, 4))" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 6)))">
 				<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" XYZ="86.63162,16.5195,147.1578" />
 			</If>
@@ -1055,8 +1055,8 @@
 		<!-- Joining the Battle and Turnin -->
 		<If Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsQuestComplete(0xE000FAA6C55763C0)))">
 			<!-- I need to use this at 50% on an npc, 3 sec cast, wait 2 secs after; set pet to passive -->
-			<While Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsStepComplete(0xE000FAA6C55763C0, 2)))">
-				<UseItem QuestId="0xE000FAA6C55763C0" Item="Killik Tranquilizer" OnObject="Joiner Guardian" HealthPercent="50" WaitTime="6500" Range="4" InCombat="True" Radius="200" >
+			<If Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsStepComplete(0xE000FAA6C55763C0, 2)))">
+				<UseItem QuestId="0xE000FAA6C55763C0" StepId="2" Item="Killik Tranquilizer" OnObject="Joiner Guardian" HealthPercent="50" WaitTime="6500" Range="4" InCombat="True" Radius="200" >
 					<Hotspots>
 						<Hotspot Name="Joiner Guardian" XYZ="97.15846,15.99974,156.887" />
 						<Hotspot Name="Joiner Guardian" XYZ="101.0775,15.97077,157.5351" />
@@ -1065,7 +1065,7 @@
 						<Hotspot Name="Joiner Guardian" XYZ="105.4365,17.75683,148.4504" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<!-- set pet to un-passive -->
 			<TurnInQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" TurnInName="Keikana Herot" XYZ="47.0874,18.57019,170.9198" />
 			<CompleteQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" RewardIndex="2" />
@@ -1328,7 +1328,7 @@
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<!-- Final Stage - Their Own Weapons (Bonus) -->
-				<While Condition="((HasQuest(0xE000A28C0E12261D)) and (not IsQuestComplete(0xE000A28C0E12261D)))">
+				<If Condition="((HasQuest(0xE000A28C0E12261D)) and (not IsQuestComplete(0xE000A28C0E12261D)))">
 					<MoveTo QuestId="1" XYZ="113.8246,28.00051,-127.9555" />
 					<MoveTo QuestId="1" XYZ="108.687,28.00051,-131.8215" />
 					<MoveTo QuestId="1" XYZ="110.0785,28.00051,-130.6656" />
@@ -1336,7 +1336,7 @@
 					<MoveTo QuestId="1" XYZ="110.0785,28.00051,-130.6656" />
 					<Interact QuestId="1" Name="Ammunition Load Lifter" IgnoreQuestRelation="True" Radius="20" WaitTime="5" UseRange="20" IgnoreLOS="True" XYZ="110.0785,28.00051,-130.6656" />
 					<WaitTimer QuestId="1" WaitTime="20" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00083C96853F8D9)) and (not IsTaskComplete(0xE00083C96853F8D9, 2, 1)))">
 					<UseItem QuestId="0xE00083C96853F8D9" Item="Air Strike Triangulation Beacons" WaitTime="3500" Range="4" BranchId="1" StepId="2" TaskId="1" InCombat="False" Radius="2" XYZ="115.1998,23.09589,-97.50856" />
 				</If>
@@ -1603,26 +1603,26 @@
 				<TalkTo QuestId="0xE0000FDDF7B0B055" Name="Bouris Ulgo" XYZ="-281.2591,-26.5069,-38.9069" />
 			</If>
 			<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsStepComplete(0xE0000FDDF7B0B055, 4)))">
-				<While Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 1)))">
+				<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 1)))">
 					<MoveTo QuestId="0xE0000FDDF7B0B055" XYZ="-277.9153,-26.57503,-47.87938" />
 					<Interact QuestId="1" Name="Ulgo Munitions Stockpile" Radius="20" WaitTime="5" XYZ="-277.9153,-26.57503,-47.87938" />
 					<Interact QuestId="1" Name="Throneroom Shield Generator" Radius="20" WaitTime="5" XYZ="-279.1893,-26.62738,-46.1473" />
-				</While>
-				<While Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 2)))">
+				</If>
+				<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 2)))">
 					<MoveTo QuestId="0xE0000FDDF7B0B055" XYZ="-268.4429,-26.57452,-44.26979" />
 					<Interact QuestId="1" Name="Ulgo Munitions Stockpile" Radius="20" WaitTime="5" XYZ="-268.4429,-26.57452,-44.26979" />
 					<Interact QuestId="1" Name="Throneroom Shield Generator" Radius="20" WaitTime="5" XYZ="-268.6084,-26.624,-42.16069" />
-				</While>
-				<While Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 3)))">
+				</If>
+				<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 3)))">
 					<MoveTo QuestId="0xE0000FDDF7B0B055" XYZ="-268.4647,-26.60079,-34.41169" />
 					<Interact QuestId="1" Name="Ulgo Munitions Stockpile" Radius="20" WaitTime="5" XYZ="-268.4647,-26.60079,-34.41169" />
 					<Interact QuestId="1" Name="Throneroom Shield Generator" Radius="20" WaitTime="5" XYZ="-268.5909,-26.62727,-35.68614" />
-				</While>
-				<While Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 4)))">
+				</If>
+				<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsTaskComplete(0xE0000FDDF7B0B055, 4, 4)))">
 					<MoveTo QuestId="0xE0000FDDF7B0B055" XYZ="-280.0361,-26.60103,-31.41183" />
 					<Interact QuestId="1" Name="Ulgo Munitions Stockpile" Radius="20" WaitTime="5" XYZ="-280.0361,-26.60103,-31.41183" />
 					<Interact QuestId="1" Name="Throneroom Shield Generator" Radius="20" WaitTime="5" XYZ="-279.1341,-26.62727,-31.66261" />
-				</While>
+				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsStepComplete(0xE0000FDDF7B0B055, 5)))">
 				<Grind GrindRef="Usurper 5" While="(not IsStepComplete(0xE0000FDDF7B0B055, 5))" />
@@ -1664,7 +1664,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 7)))">
 				<!-- We are now on our ship -->
-				<UseObject QuestId="0xE0000530981149E2" Name="Holoterminal" Radius="20" WaitTime="5" XYZ="-0.009367758,1.676,1.34754" />
+				<UseObject QuestId="0xE0000530981149E2" BranchId="13" StepId="7" Name="Holoterminal" Radius="20" WaitTime="5" XYZ="-0.009367758,1.676,1.34754" />
 			</If>
 			<CompleteQuest QuestName="The Summit" QuestId="0xE0000530981149E2" RewardIndex="3" />
 			<!-- A Return Home - 0xE000009A890B8FDC-->
@@ -1680,9 +1680,9 @@
 		<!-- Consular - A Return Home -->
 		<If Condition="((HasQuest(0xE000009A890B8FDC)) and (not IsQuestComplete(0xE000009A890B8FDC)))">
 			<If Condition="((HasQuest(0xE000009A890B8FDC)) and (not IsBranchStepComplete(0xE000009A890B8FDC, 1, 2)))">
-				<UseObject QuestId="0xE000009A890B8FDC" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.09508023,1.551,-4.576042" />
+				<UseObject QuestId="0xE000009A890B8FDC" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.09508023,1.551,-4.576042" />
 				<!-- Coreware Worlds - Tython - Travel Now -->
-				<UseObject QuestId="0xE000009A890B8FDC" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01147887,0.5900244,-3.001371" />
+				<UseObject QuestId="0xE000009A890B8FDC" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01147887,0.5900244,-3.001371" />
 			</If>
 			<If Condition="((HasQuest(0xE000009A890B8FDC)) and (not IsBranchStepComplete(0xE000009A890B8FDC, 1, 3)))">
 				<If Condition="(Me.Position.Y &lt;= -99.8)">
@@ -1740,9 +1740,9 @@
 		<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsQuestComplete(0xE000B5FB2A4C6C25)))">
 			<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsBranchStepComplete(0xE000B5FB2A4C6C25, 1, 2)))">
 				<!-- We're on our Ship now -->
-				<UseObject QuestId="0xE000B5FB2A4C6C25" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1097141,1.551,-4.62454" />
+				<UseObject QuestId="0xE000B5FB2A4C6C25" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1097141,1.551,-4.62454" />
 				<!-- Distant Outer Rim - Vivicar's Ship - Travel Now -->
-				<UseObject QuestId="0xE000B5FB2A4C6C25" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="0.003596284,0.5900244,-2.934145" />
+				<UseObject QuestId="0xE000B5FB2A4C6C25" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="0.003596284,0.5900244,-2.934145" />
 			</If>
 			<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsBranchStepComplete(0xE000B5FB2A4C6C25, 1, 3)))">
 				<MoveTo QuestId="0xE000B5FB2A4C6C25" Name="My Location" XYZ="3.439718,-0.019,0.8235171" />
@@ -1804,9 +1804,9 @@
 			</If>
 			<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsBranchStepComplete(0xE000B5FB2A4C6C25, 3, 3)))">
 				<!-- Now on Ship -->
-				<UseObject QuestId="0xE000B5FB2A4C6C25" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1090518,1.551,-4.646165" />
+				<UseObject QuestId="0xE000B5FB2A4C6C25" BranchId="3" StepId="3" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1090518,1.551,-4.646165" />
 				<!-- Coreward Worlds - Tython - Travel Now -->
-				<UseObject QuestId="0xE000B5FB2A4C6C25" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005060883,0.5900244,-2.987161" />
+				<UseObject QuestId="0xE000B5FB2A4C6C25" BranchId="3" StepId="3" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005060883,0.5900244,-2.987161" />
 			</If>
 			<If Condition="((HasQuest(0xE000B5FB2A4C6C25)) and (not IsBranchStepComplete(0xE000B5FB2A4C6C25, 3, 4)))">
 				<!-- We're on Tython now -->
@@ -1872,14 +1872,14 @@
 		<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsQuestComplete(0xE000B78F8018628A)))">
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 2)))">
 				<!-- We are on Ship -->
-				<UseObject QuestId="0xE000B78F8018628A" Name="Holoterminal" Radius="20" WaitTime="5" XYZ="-0.02121918,1.676,1.350005" />
+				<UseObject QuestId="0xE000B78F8018628A" BranchId="1" StepId="2" Name="Holoterminal" Radius="20" WaitTime="5" XYZ="-0.02121918,1.676,1.350005" />
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 3)))">
 				<!-- Lets go to Tython -->
-				<UseObject QuestId="0xE000B78F8018628A" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1046679,1.551,-4.641688" />
+				<UseObject QuestId="0xE000B78F8018628A" BranchId="1" StepId="3" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1046679,1.551,-4.641688" />
 				<!-- Coreware Worlds - Tython - Travel Now -->
 				<!-- Travel to Tython - we are on Tython -->
-				<UseObject QuestId="0xE000B78F8018628A" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01369424,0.5900244,-2.980633" />
+				<UseObject QuestId="0xE000B78F8018628A" BranchId="1" StepId="3" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01369424,0.5900244,-2.980633" />
 			
 				<!-- We're back on Tython -->
 				<If Condition="(Me.Position.Y &lt;= -99.8)">
@@ -1920,7 +1920,7 @@
 			<!-- various named mobs, but no bonus quests -->
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 7)))">
 				<MoveTo QuestId="0xE000B78F8018628A" Name="Arrax" XYZ="29.6795,4.101001,6.4559" />
-				<UseObject QuestId="0xE000B78F8018628A" Name="Security Console" StepId="7" Radius="20" WaitTime="5" XYZ="15.50632,4.301,13.37837" />
+				<UseObject QuestId="0xE000B78F8018628A" BranchId="1" Name="Security Console" StepId="7" Radius="20" WaitTime="5" XYZ="15.50632,4.301,13.37837" />
 			</If>
 			<If Condition="((HasQuest(0xE000B78F8018628A)) and (not IsBranchStepComplete(0xE000B78F8018628A, 1, 8)))">
 				<TalkTo QuestId="0xE000B78F8018628A" Name="Arrax" XYZ="29.6795,4.101001,6.4559" />
@@ -1965,10 +1965,10 @@
 		<!-- Consular - Our Points of View -->
 		<If Condition="((HasQuest(0xE000541DD5ACEA32)) and (not IsQuestComplete(0xE000541DD5ACEA32)))">
 			<If Condition="((HasQuest(0xE000541DD5ACEA32)) and (not IsStepComplete(0xE000541DD5ACEA32, 2)))">
-				<UseObject QuestId="0xE000541DD5ACEA32" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.118676,1.551,-4.526165" />
+				<UseObject QuestId="0xE000541DD5ACEA32" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.118676,1.551,-4.526165" />
 				<SpaceTravel Planet="Balmorra" />
 				<!-- Auto Skip 3 (use ships intercom - it auto cutscenes) -->
-				<UseObject QuestId="0xE000541DD5ACEA32" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.008034768,0.5900244,-3.04947" />
+				<UseObject QuestId="0xE000541DD5ACEA32" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.008034768,0.5900244,-3.04947" />
 			
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Balmorra Orbital Station"
 									XYZ="-95.05106,-99.999,9.072119" 

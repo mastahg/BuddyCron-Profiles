@@ -747,9 +747,9 @@
 				<TalkTo QuestId="0xE000AA100879CB52" Name="Marshal Ruger" XYZ="103.4428,24.93309,95.79691" />
 			</If>
 			<Grind GrindRef="The Last of the Law 4" While="(not IsBranchStepComplete(0xE000AA100879CB52, 1, 4))" /> <!-- This guy hits hard -->
-			<While Condition="((HasQuest(0xE000AA100879CB52)) and (not IsBranchStepComplete(0xE000AA100879CB52, 1, 5)))">
+			<If Condition="((HasQuest(0xE000AA100879CB52)) and (not IsBranchStepComplete(0xE000AA100879CB52, 1, 5)))">
 				<TalkTo QuestId="0xE000AA100879CB52" Name="Marshal Ruger" SearchRadius="50" XYZ="103.5054,24.93309,95.07838" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- A Pertinent Find -->
@@ -780,7 +780,7 @@
 		<!-- Catalyzing the Conversion -->
 		<If Condition="((HasQuest(0xE0003BBCBBF7EE6B)) and (not IsQuestComplete(0xE0003BBCBBF7EE6B)))">
 			<If Condition="((HasQuest(0xE0003BBCBBF7EE6B)) and (not IsBranchStepComplete(0xE0003BBCBBF7EE6B, 1, 2)))">
-				<UseItem QuestId="0xE0003BBCBBF7EE6B" Item="Reprogramming Spikes" WaitTime="3" Range="4" InCombat="True" HealthPercent="100" Radius="120" >
+				<UseItem QuestId="0xE0003BBCBBF7EE6B" BranchId="1" StepId="2" Item="Reprogramming Spikes" WaitTime="3" Range="4" InCombat="True" HealthPercent="100" Radius="120" >
 					<Npcs>
 						<Npc>Ancient War Droid</Npc>
 					</Npcs>
@@ -800,10 +800,10 @@
 				<MoveTo QuestId="0xE00002FDF22034F5" Name="Bolan" XYZ="115.312,22.82981,168.7703" />
 			</If>
 			<!-- Skip 7 -->
-			<While Condition="((HasQuest(0xE00002FDF22034F5)) and (not IsBranchStepComplete(0xE00002FDF22034F5, 1, 8)))">
+			<If Condition="((HasQuest(0xE00002FDF22034F5)) and (not IsBranchStepComplete(0xE00002FDF22034F5, 1, 8)))">
 				<MoveTo QuestId="1" XYZ="52.91896,27.01922,163.7485" />
-				<UseItem QuestId="0xE00002FDF22034F5" Item="Galactic Relay" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="52.91896,27.01922,163.7485" />
-			</While>
+				<UseItem QuestId="0xE00002FDF22034F5" BranchId="1" StepId="8" Item="Galactic Relay" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="52.91896,27.01922,163.7485" />
+			</If>
 			<If Condition="((HasQuest(0xE00002FDF22034F5)) and (not IsBranchStepComplete(0xE00002FDF22034F5, 1, 9)))">
 				<MoveTo QuestId="0xE00002FDF22034F5" Name="Bolan" XYZ="115.312,22.82981,168.7703" />
 			</If>
@@ -919,15 +919,15 @@
 			</If>
 			<Grind GrindRef="Strange Science 1 2" While="(not IsBranchStepComplete(0xE0001621F6D817A5, 1, 2))" />
 			<If Condition="((HasQuest(0xE0001621F6D817A5)) and (not IsBranchStepComplete(0xE0001621F6D817A5, 1, 3)))">
-				<UseItem QuestId="0xE0001621F6D817A5" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-60.5776,17.46065,166.6545" />
+				<UseItem QuestId="0xE0001621F6D817A5" BranchId="1" StepId="3" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-60.5776,17.46065,166.6545" />
 			</If>
 			<Grind GrindRef="Strange Science 1 4" While="(not IsBranchStepComplete(0xE0001621F6D817A5, 1, 4))" />
 			<If Condition="((HasQuest(0xE0001621F6D817A5)) and (not IsBranchStepComplete(0xE0001621F6D817A5, 1, 5)))">
-				<UseItem QuestId="0xE0001621F6D817A5" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-46.2273,18.526,177.0823" />
+				<UseItem QuestId="0xE0001621F6D817A5" BranchId="1" StepId="5" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-46.2273,18.526,177.0823" />
 			</If>
 			<Grind GrindRef="Strange Science 1 6" While="(not IsBranchStepComplete(0xE0001621F6D817A5, 1, 6))" />
 			<If Condition="((HasQuest(0xE0001621F6D817A5)) and (not IsBranchStepComplete(0xE0001621F6D817A5, 1, 7)))">
-				<UseItem QuestId="0xE0001621F6D817A5" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-43.0084,18.37635,184.1473" />
+				<UseItem QuestId="0xE0001621F6D817A5" BranchId="1" StepId="7" Item="Datachip" OnObject="Mechasecurity Droid" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="-43.0084,18.37635,184.1473" />
 			</If>
 			<!-- Some Disassembly Required (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00058B9A1424FEA))">
@@ -960,7 +960,7 @@
 		<!-- Information Warfare and Turnin -->
 		<If Condition="((HasQuest(0xE000AD03D64A59C7)) and (not IsQuestComplete(0xE000AD03D64A59C7)))">
 			<If Condition="((HasQuest(0xE000AD03D64A59C7)) and (not IsBranchStepComplete(0xE000AD03D64A59C7, 1, 2)))">
-				<UseItem QuestId="0xE000AD03D64A59C7" Item="Restraining Collars" WaitTime="3" Range="4" InCombat="False" Radius="20" >
+				<UseItem QuestId="0xE000AD03D64A59C7" BranchId="1" StepId="2" Item="Restraining Collars" WaitTime="3" Range="4" InCombat="False" Radius="20" >
 					<Npcs>
 						<Npc>Republic Researcher</Npc>
 					</Npcs>
@@ -1039,7 +1039,7 @@
 		<!-- Agent - Legerdemain and Turnin -->
 		<If Condition="((HasQuest(0xE0003538550FAEFF)) and (not IsQuestComplete(0xE0003538550FAEFF)))">
 			<If Condition="((HasQuest(0xE0003538550FAEFF)) and (not IsBranchStepComplete(0xE0003538550FAEFF, 1, 2)))">
-				<UseItem QuestId="0xE0003538550FAEFF" Item="TJ-262 Security Spike" WaitTime="3" Range="4" InCombat="True" HealthPercent="100" Radius="120" >
+				<UseItem QuestId="0xE0003538550FAEFF" BranchId="1" StepId="2" Item="TJ-262 Security Spike" WaitTime="3" Range="4" InCombat="True" HealthPercent="100" Radius="120" >
 					<Npcs>
 						<Npc>Prime Warden Droid</Npc>
 					</Npcs>
@@ -1303,16 +1303,16 @@
 		<!-- Subject 13 and Turnin -->
 		<If Condition="((HasQuest(0xE000F7475D176C68)) and (not IsQuestComplete(0xE000F7475D176C68)))">
 			<!-- What was step 2? -->
-			<While Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 3)))">
+			<If Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 3)))">
 				<Interact QuestId="0xE000F7475D176C68" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Rakata Mind Trap" XYZ="25.71683,17.1286,-298.7982" />
-			</While>
-			<While Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 4)))">
+			</If>
+			<If Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 4)))">
 				<TalkTo QuestId="0xE000F7475D176C68" Name="Subject 13" XYZ="53.7512,23.38837,-301.3915" />
-			</While>
+			</If>
 			<Grind GrindRef="Subject 13 5" While="(not IsBranchStepComplete(0xE000F7475D176C68, 1, 5))" />
-			<While Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 6)))">
+			<If Condition="((HasQuest(0xE000F7475D176C68)) and (not IsBranchStepComplete(0xE000F7475D176C68, 1, 6)))">
 				<Interact QuestId="0xE000F7475D176C68" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Rakata Mind Trap" XYZ="56.72405,23.38837,-301.3881" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Subject 13" QuestId="0xE000F7475D176C68" Type="Placeable" UseRange="2" TurnInName="Monitoring Station" XYZ="-19.26578,14.79787,-261.0352" />
 			<CompleteQuest QuestName="Subject 13" QuestId="0xE000F7475D176C68" RewardIndex="3" />
 		</If>

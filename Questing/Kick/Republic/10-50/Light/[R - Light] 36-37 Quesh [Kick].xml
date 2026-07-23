@@ -423,10 +423,10 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Break the Cartel (Bonus) -->
-			<While Condition="((HasQuest(0xE0005AC0AB55C04A)) and (not IsQuestComplete(0xE0005AC0AB55C04A)))">
+			<If Condition="((HasQuest(0xE0005AC0AB55C04A)) and (not IsQuestComplete(0xE0005AC0AB55C04A)))">
 				<UseObject QuestId="0xE0005AC0AB55C04A" Name="Security Terminal" Radius="20" WaitTime="5" XYZ="34.05397,9.800097,76.38559" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 3)))">
 				<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Agent Meldo" XYZ="29.5639,9.832342,71.1705" />
 			</If>
@@ -651,7 +651,7 @@
 					<UseObject QuestId="1" Name="Medical Console" IgnoreLOS="True" UseRange="20" Radius="50" WaitTime="5" XYZ="108.6151,4.302556,184.7667" />
 				</If>
 				<If Condition="((HasQuest(0xE00088E6215DEE48)) and (not IsBranchStepComplete(0xE00088E6215DEE48, 1, 3)))">
-					<UseItem QuestId="0xE00088E6215DEE48" Item="Venom Neutralizer" OnObject="Poisoned Worker" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
+					<UseItem QuestId="0xE00088E6215DEE48" BranchId="1" StepId="3" Item="Venom Neutralizer" OnObject="Poisoned Worker" WaitTime="3500" Range="4" InCombat="False" Radius="20"  >
 						<Hotspots>				
 							<Hotspot Name="Poisoned Worker" XYZ="107.2969,4.322295,190.1075" />
 							<Hotspot Name="Poisoned Worker" XYZ="111.122,4.324881,190.724" />
@@ -699,10 +699,10 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Siege Breaker (Bonus) -->
-			<While Condition="((HasQuest(0xE0005947809B116A)) and (not IsQuestComplete(0xE0005947809B116A)))">
+			<If Condition="((HasQuest(0xE0005947809B116A)) and (not IsQuestComplete(0xE0005947809B116A)))">
 				<UseObject QuestId="0xE0005947809B116A" Name="Imperial Siege Computer" Radius="20" WaitTime="5" XYZ="150.1514,4.49411,199.1613" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsBranchStepComplete(0xE000FD8C21F68F0F, 1, 3)))">
 				<UseObject QuestId="0xE000FD8C21F68F0F" Name="Door to Collection Chamber" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="160.2021,4.503222,208.5268" />
 			</If>
@@ -745,7 +745,7 @@
 			
 				<!-- I am on my ship -->
 				<!-- Zenith has a quest for us - Unfamiliar Peace -->
-				<UseObject QuestId="0xE00031F9F4E81A85" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.918385,1.651,2.640365" />
+				<UseObject QuestId="0xE00031F9F4E81A85" BranchId="2" StepId="2" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.918385,1.651,2.640365" />
 			</If>
 			<CompleteQuest QuestName="Attis Station" QuestId="0xE00031F9F4E81A85" RewardIndex="1" />
 			<!-- The Coalition 0xE000B7D990703E28-->
@@ -754,13 +754,13 @@
 		<!-- Consular - The Coalition -->
 		<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsQuestComplete(0xE000B7D990703E28)))">
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 2)))">
-				<UseObject QuestId="0xE000B7D990703E28" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.09747243,1.551,-4.63301" />
+				<UseObject QuestId="0xE000B7D990703E28" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.09747243,1.551,-4.63301" />
 				<!-- Distant Outer Rim - Hoth - Travel Now -->
 			</If>
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
 				<MoveTo QuestId="0xE000B7D990703E28" Name="Intercom" XYZ="-0.06827761,1.651,0.8234286" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-				<UseObject QuestId="0xE000B7D990703E28" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005501892,0.5900244,-2.994692" />
+				<UseObject QuestId="0xE000B7D990703E28" BranchId="1" StepId="3" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005501892,0.5900244,-2.994692" />
 			</If>
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 3)))">
 				<!-- I am in the airlock hangar -->

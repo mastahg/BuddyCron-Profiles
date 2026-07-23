@@ -831,10 +831,10 @@
 		<PickUpQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" GiverName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 		
 		<!-- Combat Leadership: Mark I -->
-		<While Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsStepComplete(0xE000742A9CEC2745, 2)))">
+		<If Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsStepComplete(0xE000742A9CEC2745, 2)))">
 			<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 			<UseObject QuestId="1" Name="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
-		</While>
+		</If>
 		
 		<!-- Turnin Combat Leadership: Mark I -->
 		<If Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsQuestComplete(0xE000742A9CEC2745)))">
@@ -1005,10 +1005,10 @@
 
 		<!-- Combat Leadership: Mark II -->
 		<If Condition="((HasQuest(0xE00016D3F5B7BDCF)) and (not IsQuestComplete(0xE00016D3F5B7BDCF)))">
-			<While Condition="((HasQuest(0xE00016D3F5B7BDCF)) and (not IsStepComplete(0xE00016D3F5B7BDCF, 2)))">
+			<If Condition="((HasQuest(0xE00016D3F5B7BDCF)) and (not IsStepComplete(0xE00016D3F5B7BDCF, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" Name="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Turnin Combat Leadership: Mark II -->
@@ -1051,8 +1051,8 @@
 		
 		<!-- The Last Defenders -->
 		<If Condition="((HasQuest(0xE00081FD7596DD74)) and (not IsQuestComplete(0xE00081FD7596DD74)))">
-			<While Condition="((HasQuest(0xE00081FD7596DD74)) and (not IsStepComplete(0xE00081FD7596DD74, 2)))">
-				<UseItem QuestId="0xE00081FD7596DD74" Item="Droid Scanner" OnObject="Tythonian Seeker" DeadOnly="True" WaitTime="3" Range="4" InCombat="False" Radius="100" >
+			<If Condition="((HasQuest(0xE00081FD7596DD74)) and (not IsStepComplete(0xE00081FD7596DD74, 2)))">
+				<UseItem QuestId="0xE00081FD7596DD74" StepId="2" Item="Droid Scanner" OnObject="Tythonian Seeker" DeadOnly="True" WaitTime="3" Range="4" InCombat="False" Radius="100" >
 					<Hotspots>
 						<Hotspot Name="Tythonian Seeker" XYZ="-34.8499,-2.795992,-3.939597" />
 						<Hotspot Name="My Location" XYZ="-40.41346,-2.551051,0.9126012" />
@@ -1065,7 +1065,7 @@
 						<Hotspot Name="Tythonian Seeker" XYZ="-45.6101,-2.527874,-2.096199" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<!-- Guardians of the Past (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000C8C2411C498))">
 				<Grind GrindRef="Guardians of the Past (Bonus)" While="(not IsQuestComplete(0xE0000C8C2411C498))" />
@@ -1074,14 +1074,14 @@
 		
 		<!-- Consular - Trials in Kaleth 2-5 -->
 		<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsQuestComplete(0xE000E027508959A7)))">
-			<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 2)))">
+			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 2)))">
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-33.90204,-2.927929,-3.784983" />
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-36.67121,-2.774783,-2.333151" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 3)))">
 				<UseObject QuestId="0xE000E027508959A7" Name="Mysterious Stone Carving" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-39.00844,-2.534567,-2.228338" />
 			</If>
-			<While Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
+			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 4)))">
 				<MoveTo QuestId="0xE000E027508959A7" Name="My Location" XYZ="-51.57729,-2.560665,3.149354" />
 				<UseObject QuestId="0xE000E027508959A7" Name="Combat Droid Activator" BranchId="1" StepId="4" Radius="20" WaitTime="5" >
 					<Hotspots>
@@ -1089,7 +1089,7 @@
 						<Hotspot Name="My Location" XYZ="-51.75727,-2.58396,5.68008" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000E027508959A7)) and (not IsStepComplete(0xE000E027508959A7, 5)))">
 				<UseObject QuestId="0xE000E027508959A7" Name="Mysterious Stone Carving" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-39.00844,-2.534567,-2.228338" />
 			</If>
@@ -1179,10 +1179,10 @@
 		
 		<!-- Combat Leadership: Mark III -->
 		<If Condition="((HasQuest(0xE0006E2A873C0E01)) and (not IsQuestComplete(0xE0006E2A873C0E01)))">
-			<While Condition="((HasQuest(0xE0006E2A873C0E01)) and (not IsStepComplete(0xE0006E2A873C0E01, 2)))">
+			<If Condition="((HasQuest(0xE0006E2A873C0E01)) and (not IsStepComplete(0xE0006E2A873C0E01, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" Name="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Turnin Combat Leadership: Mark III -->
@@ -1305,10 +1305,10 @@
 
 		<!-- Combat Leadership: Mark IV -->
 		<If Condition="((HasQuest(0xE000F7D3F5B7F161)) and (not IsQuestComplete(0xE000F7D3F5B7F161)))">
-			<While Condition="((HasQuest(0xE000F7D3F5B7F161)) and (not IsStepComplete(0xE000F7D3F5B7F161, 2)))">
+			<If Condition="((HasQuest(0xE000F7D3F5B7F161)) and (not IsStepComplete(0xE000F7D3F5B7F161, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" Name="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Turnin Combat Leadership: Mark IV -->
@@ -1645,10 +1645,10 @@
 		
 		<!-- Combat Leadership: Mark V and Turnin --> 
 		<If Condition="((HasQuest(0xE000ACDB6951E3FC)) and (not IsQuestComplete(0xE000ACDB6951E3FC)))">
-			<While Condition="((HasQuest(0xE000ACDB6951E3FC)) and (not IsStepComplete(0xE000ACDB6951E3FC, 2)))">
+			<If Condition="((HasQuest(0xE000ACDB6951E3FC)) and (not IsStepComplete(0xE000ACDB6951E3FC, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" Name="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Combat Leadership: Mark V" QuestId="0xE000ACDB6951E3FC" TurnInName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 			<CompleteQuest QuestName="Combat Leadership: Mark V" QuestId="0xE000ACDB6951E3FC" />
 		</If>

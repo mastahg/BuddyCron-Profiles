@@ -743,9 +743,9 @@
 				<UseObject QuestId="0xE0008F3041E8297E" Name="Long-Range Sensor" BranchId="1" StepId="5" TaskId="2" Radius="20" WaitTime="5" XYZ="-303.4057,8.045581,-68.21511" />
 				<UseObject QuestId="0xE0008F3041E8297E" Name="Long-Range Sensor" BranchId="1" StepId="5" TaskId="3" Radius="20" WaitTime="5" XYZ="-300.8102,8.776098,-90.2108" />
 			</If>
-			<While Condition="((HasQuest(0xE0008F3041E8297E)) and (not IsBranchStepComplete(0xE0008F3041E8297E, 1, 6)))">
+			<If Condition="((HasQuest(0xE0008F3041E8297E)) and (not IsBranchStepComplete(0xE0008F3041E8297E, 1, 6)))">
 				<UseObject QuestId="0xE0008F3041E8297E" Name="Communications Control Panel" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-302.2706,8.809705,-106.4406" />
-			</While>
+			</If>
 			<!-- Imperial Interference (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00089830F33C73D))">
 				<Grind GrindRef="Imperial Interference (Bonus)" While="(not IsQuestComplete(0xE00089830F33C73D))" />
@@ -1121,10 +1121,10 @@
 		
 		<!-- Unlikely Allies -->
 		<If Condition="((HasQuest(0xE0009DB535FE39A5)) and (not IsQuestComplete(0xE0009DB535FE39A5)))">
-			<While Condition="((HasQuest(0xE0009DB535FE39A5)) and (not IsBranchStepComplete(0xE0009DB535FE39A5, 1, 3)))">
-				<UseItem QuestId="0xE0009DB535FE39A5" Item="Distress Flare Gun" WaitTime="3500" Range="2" InCombat="False" Radius="2" XYZ="-7.234421,-6.604253,-38.26295" />
+			<If Condition="((HasQuest(0xE0009DB535FE39A5)) and (not IsBranchStepComplete(0xE0009DB535FE39A5, 1, 3)))">
+				<UseItem QuestId="0xE0009DB535FE39A5" BranchId="1" StepId="3" Item="Distress Flare Gun" WaitTime="3500" Range="2" InCombat="False" Radius="2" XYZ="-7.234421,-6.604253,-38.26295" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Out in the Cold -->
@@ -1400,7 +1400,7 @@
 			<UserDialog Title="Test" Message="Stop Bot and do something" />
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 10, 2)))">
 				<!-- I am on my ship now -->
-				<UseObject QuestId="0xE0000CA7A0E3F850" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
+				<UseObject QuestId="0xE0000CA7A0E3F850" BranchId="10" StepId="2" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
 			</If>
 			<CompleteQuest QuestName="Chasing the Legend" QuestId="0xE0000CA7A0E3F850" RewardIndex="3" />
 			<!-- To Serve the King 0xE000F4A78C9A8C2B-->
@@ -1409,9 +1409,9 @@
 		<!-- Consular - To Serve the King -->
 		<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsQuestComplete(0xE000F4A78C9A8C2B)))">
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 1, 2)))">
-				<UseObject QuestId="0xE000F4A78C9A8C2B" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.07849923,1.551,-4.645866" />
+				<UseObject QuestId="0xE000F4A78C9A8C2B" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.07849923,1.551,-4.645866" />
 				<!-- Coreware Worlds - Waypoint Station 3 - Travel now -->
-				<UseObject QuestId="0xE000F4A78C9A8C2B" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
+				<UseObject QuestId="0xE000F4A78C9A8C2B" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
 			</If>
 		</If>
 		
@@ -1443,12 +1443,12 @@
 			</If>
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 3)))">
 				<TalkTo QuestId="0xE000F4A78C9A8C2B" Name="King Sethun" XYZ="4.3111,11.701,2.3139" />
-				<UseObject QuestId="0xE000F4A78C9A8C2B" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="19.739,10.9047,-16.52953" />
+				<UseObject QuestId="0xE000F4A78C9A8C2B" BranchId="4" StepId="3" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="19.739,10.9047,-16.52953" />
 			</If>
 			<UserDialog Title="Test" Message="check steps and verify" />
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 4)))">
 				<!-- I now have a 5th companion - Lt. Iresso.  He has a quest - Going Home -->
-				<UseObject QuestId="0xE000F4A78C9A8C2B" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9610049,1.651,2.642103" />
+				<UseObject QuestId="0xE000F4A78C9A8C2B" BranchId="4" StepId="4" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9610049,1.651,2.642103" />
 			</If>
 			<CompleteQuest QuestName="To Serve the King" QuestId="0xE000F4A78C9A8C2B" RewardIndex="3" />
 			<!-- Consular - Defending the Republic 0xE0002211D4BFCC57 -->
@@ -1458,9 +1458,9 @@
 		<!-- Consular - Counterpoint -->
 		<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsQuestComplete(0xE000C12D408B68A2)))">
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 2)))">
-				<UseObject QuestId="0xE000C12D408B68A2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1056046,1.551,-4.501724" />
+				<UseObject QuestId="0xE000C12D408B68A2" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1056046,1.551,-4.501724" />
 				<!-- Coreware Worlds - Tython - Travel Now -->
-				<UseObject QuestId="0xE000C12D408B68A2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
+				<UseObject QuestId="0xE000C12D408B68A2" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
 			
 				<!-- In Airlock now -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Tython Orbitol Station"
@@ -1483,9 +1483,9 @@
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 4)))">
 				<!-- I am on my ship -->
-				<UseObject QuestId="0xE000C12D408B68A2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1170945,1.551,-4.611201" />
+				<UseObject QuestId="0xE000C12D408B68A2" BranchId="1" StepId="4" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1170945,1.551,-4.611201" />
 				<!-- Distant Outer Rim - Hoth - Travel Now -->
-				<UseObject QuestId="0xE000C12D408B68A2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01424665,0.5900244,-2.924248" />
+				<UseObject QuestId="0xE000C12D408B68A2" BranchId="1" StepId="4" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01424665,0.5900244,-2.924248" />
 			
 				<!-- I am in the Consular Airlock -->
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Hoth Orbital Station"
@@ -1526,7 +1526,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 2, 3)))">
 				<!-- I am on my ship now -->
-				<UseObject QuestId="0xE000C12D408B68A2" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
+				<UseObject QuestId="0xE000C12D408B68A2" BranchId="2" StepId="3" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
 			</If>
 			<CompleteQuest QuestName="Counterpoint" QuestId="0xE000C12D408B68A2" RewardIndex="3" />
 			<!-- Hostile Population 0xE000865F87CB1054 -->
@@ -1535,9 +1535,9 @@
 		<!-- Consular - Defending the Republic -->
 		<If Condition="((HasQuest(0xE0002211D4BFCC57)) and (not IsQuestComplete(0xE0002211D4BFCC57)))">
 			<If Condition="((HasQuest(0xE0002211D4BFCC57)) and (not IsBranchStepComplete(0xE0002211D4BFCC57, 1, 2)))">
-				<UseObject QuestId="0xE0002211D4BFCC57" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1056046,1.551,-4.501724" />
+				<UseObject QuestId="0xE0002211D4BFCC57" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1056046,1.551,-4.501724" />
 				<!-- Coreware Worlds - Republic Fleet - Travel Now -->
-				<UseObject QuestId="0xE0002211D4BFCC57" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
+				<UseObject QuestId="0xE0002211D4BFCC57" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
 			
 				<!-- I am on Carrick Station Now -->
 				<UseTransport TransporterName="Main Level" Type="Wonkavator" Option="Main Level"

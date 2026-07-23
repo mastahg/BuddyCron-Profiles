@@ -592,7 +592,7 @@
 				<MoveTo QuestId="0xE000546044E2E79F" Name="Security Door" XYZ="64.98579,3.494355,45.51905" />
 				<UseObject QuestId="0xE000546044E2E79F" Name="Security Door" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="64.98579,3.494355,45.51905" />
 				<MoveTo QuestId="0xE000546044E2E79F" Name="Back Door" XYZ="67.1876,3.499996,47.94877" />
-				<UseObject QuestId="0xE000546044E2E79F" Name="Back Door" XYZ="67.1876,3.499996,47.94877" />
+				<UseObject QuestId="0xE000546044E2E79F" BranchId="1" StepId="4" Name="Back Door" XYZ="67.1876,3.499996,47.94877" />
 			</If>
 			<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 5)))">
 				<If Condition="(Me.Position.X &lt;= 67.5) and (Me.Position.Y &gt;= 3.0)">

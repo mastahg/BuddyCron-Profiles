@@ -604,10 +604,10 @@
 				<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Alif" WaitTime="2" XYZ="-46.02026,1.834038,-4.694041" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
-			<While Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 4)">
+			<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 4)">
 				<TalkTo QuestId="0xE000E1EE4FB80D68" Name="Inquisitor Zyn" WaitTime="2" XYZ="-46.65913,1.803662,-4.127458" />
 				<WaitTimer QuestId="1" WaitTime="3" />
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE000E1EE4FB80D68) and not IsStepComplete(0xE000E1EE4FB80D68, 5)">
 				<MoveTo QuestId="0xE000E1EE4FB80D68"  XYZ="-27.07441,1.400398,-9.58121" />
 				<WaitTimer QuestId="1" WaitTime="3" />
@@ -657,8 +657,8 @@
 		
 		<!-- Allegiance and Turnin -->
 		<If Condition="((HasQuest(0xE00082787B7B9F63)) and (not IsQuestComplete(0xE00082787B7B9F63)))">
-			<While Condition="HasQuest(0xE00082787B7B9F63) and not IsBranchStepComplete(0xE00082787B7B9F63, 1, 2)">
-				<UseItem QuestId="0xE00082787B7B9F63" Item="ID Scanner" WaitTime="3" Range="4" InCombat="False" Radius="200" >
+			<If Condition="HasQuest(0xE00082787B7B9F63) and not IsBranchStepComplete(0xE00082787B7B9F63, 1, 2)">
+				<UseItem QuestId="0xE00082787B7B9F63" BranchId="1" StepId="2" Item="ID Scanner" WaitTime="3" Range="4" InCombat="False" Radius="200" >
 					<Npcs>
 						<Npc>Acolyte Initiate</Npc>
 					</Npcs>
@@ -668,7 +668,7 @@
 						<Hotspot Name="My Location" XYZ="15.20438,0.480325,10.54301" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<TurnInQuest QuestName="Allegiance" QuestId="0xE00082787B7B9F63" TurnInName="Inquisitor Arzanon" XYZ="-17.23049,0.1965577,-4.186604" />
 			<CompleteQuest QuestName="Allegiance" QuestId="0xE00082787B7B9F63" />
 			
@@ -703,12 +703,12 @@
 	  
 		<!-- Lost Supplies -->
 		<If Condition="((HasQuest(0xE000AE2C3055ADEA)) and (not IsQuestComplete(0xE000AE2C3055ADEA)))">
-			<While Condition="((HasQuest(0xE000AE2C3055ADEA)) and (not IsBranchStepComplete(0xE000AE2C3055ADEA, 1, 2)))">
+			<If Condition="((HasQuest(0xE000AE2C3055ADEA)) and (not IsBranchStepComplete(0xE000AE2C3055ADEA, 1, 2)))">
 				<UseObject QuestId="0xE000AE2C3055ADEA" BranchId="1" StepId="2" TaskId="0" Name="South Code Cylinder" WaitTime="3" XYZ="32.26816,-17.01016,8.890381" />
 				<UseObject QuestId="0xE000AE2C3055ADEA" BranchId="1" StepId="2" TaskId="1" Name="East Code Cylinder" WaitTime="3" XYZ="44.43153,-19.09774,-4.862075" />
 				<UseObject QuestId="0xE000AE2C3055ADEA" BranchId="1" StepId="2" TaskId="2" Name="West Code Cylinder" WaitTime="3" XYZ="28.13202,-19.01866,-5.691923" />
 				<UseObject QuestId="0xE000AE2C3055ADEA" BranchId="1" StepId="2" TaskId="3" Name="North Code Cylinder" WaitTime="3" XYZ="41.4038,-18.40252,-20.17113" />
-			</While>
+			</If>
 			<!-- Clearing the Camps (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000B5B4B2007F3F))">
 				<Grind GrindRef="Clearing the Camps" While="(not IsQuestComplete(0xE000B5B4B2007F3F))" />
@@ -739,14 +739,14 @@
 			</If>
 			<UseObject QuestId="0xE000936144F2E728" Name="Great Stone Monument" BranchId="1" StepId="4" WaitTime="1" XYZ="31.78556,-17.66019,-32.08852" />
 			<Grind GrindRef="A Little Knowledge 5" While="(not IsBranchStepComplete(0xE000936144F2E728, 1, 5))" />
-			<While Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
+			<If Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
 				<UserDialog Title="Test" Message="Press stop; load the combat bot, press start. Interact with the object, select button 2, press stop, load this profile again and press start" />
 				<TempConvoSkip Type="Light" AutoSkip="True">
 					<UseObject QuestId="0xE000936144F2E728" Name="Great Stone Monument" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="1" XYZ="31.78556,-17.66019,-32.08852" />
 					<SelectConvoOption Option="2" />
 				</TempConvoSkip>
 				<!-- Did this TCS work? -->
-			</While>
+			</If>
 		</If>
 		
 		<!-- Warrior - Slaying the Beast -->
@@ -816,10 +816,10 @@
 			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 1, 2)">
 				<MoveTo QuestId="0xE000EAF4516CA07D" XYZ="-30.33541,3.806653,-2.529237" />
 			</If>
-			<While Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 2)">
+			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 2)">
 				<MoveTo XYZ="-29.92155,3.800365,-5.783715" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 4)">
 				<TalkTo QuestName="A New Master" QuestId="0xE000EAF4516CA07D" Name="Overseer Tremel" WaitTime="1000" XYZ="-27.0911,1.400435,9.5801" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -841,12 +841,12 @@
 	  
 		<!-- Purity -->
 		<If Condition="((HasQuest(0xE000FA8BED9688AF)) and (not IsQuestComplete(0xE000FA8BED9688AF)))">
-			<While Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 2)">
+			<If Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 2)">
 				<UseItem Name="Holocron Blood Scanner" OnObject="Overseer Ragate" WaitTime="4" Range="4" Radius="10" XYZ="-32.206,1.801,6.5364" />
-			</While>
-			<While Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 0)">
+			</If>
+			<If Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 0)">
 				<UseItem Name="Holocron Blood Scanner" OnObject="Lord Cestus" WaitTime="4" Range="4" Radius="10" XYZ="-47.81168,3.901,9.902" />
-			</While>
+			</If>
 		</If>
 	  
 		<!-- Jailbreak -->
@@ -861,12 +861,12 @@
 		
 		<!-- Purity -->
 		<If Condition="((HasQuest(0xE000FA8BED9688AF)) and (not IsQuestComplete(0xE000FA8BED9688AF)))">
-			<While Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 3)">
+			<If Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 3)">
 				<UseItem Name="Holocron Blood Scanner" OnObject="Inquisitor Arzanon" WaitTime="4" Range="4" Radius="10" XYZ="-17.2297,0.1965577,-4.1926" />
-			</While>
-			<While Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 1)">
+			</If>
+			<If Condition="HasQuest(0xE000FA8BED9688AF) and not IsTaskComplete(0xE000FA8BED9688AF, 2, 1)">
 				<UseItem Name="Holocron Blood Scanner" OnObject="Lord Solence" WaitTime="3500" Range="4" Radius="10" XYZ="14.3692,0.491,12.2163" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Ignoring H2+ Armed and Dangerous from Mission Board -->
@@ -890,9 +890,9 @@
 	  
 		<!-- Jailbreak -->
 		<If Condition="((HasQuest(0xE000AFE72233CFB8)) and (not IsQuestComplete(0xE000AFE72233CFB8)))">
-			<While Condition="((HasQuest(0xE000AFE72233CFB8)) and (not IsBranchStepComplete(0xE000AFE72233CFB8, 1, 3)))">
+			<If Condition="((HasQuest(0xE000AFE72233CFB8)) and (not IsBranchStepComplete(0xE000AFE72233CFB8, 1, 3)))">
 				<Interact Name="Urn" XYZ="2.218764,0.6632316,43.63364" />
-			</While>
+			</If>
 			<Grind GrindRef="Dorjis Equipment" While="not IsStepComplete(0xE000AFE72233CFB8, 4)" />
 		</If>
 
@@ -983,10 +983,10 @@
 		
 		<!-- Creeping Hunger and Turnin -->
 		<If Condition="((HasQuest(0xE000E45E30458BA2)) and (not IsQuestComplete(0xE000E45E30458BA2)))">
-			<While Condition="HasQuest(0xE000E45E30458BA2) and not IsBranchStepComplete(0xE000E45E30458BA2, 1, 2)">
+			<If Condition="HasQuest(0xE000E45E30458BA2) and not IsBranchStepComplete(0xE000E45E30458BA2, 1, 2)">
 				<TalkTo QuestId="0xE000E45E30458BA2" Name="Overseer Prithor" WaitTime="2000" XYZ="-32.37712,1.801015,-8.697585" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Creeping Hunger" QuestId="0xE000E45E30458BA2" TurnInName="Seh-run" XYZ="3.1141,-1.249048,-17.4995" />
 			<CompleteQuest QuestName="Creeping Hunger" QuestId="0xE000E45E30458BA2" />
 		</If>
@@ -999,12 +999,12 @@
 		
 		<!-- Warrior - The Final Trial -->
 		<If Condition="((HasQuest(0xE000918E60CB3E07)) and (not IsQuestComplete(0xE000918E60CB3E07)))">
-			<While Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 4)">
+			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 4)">
 				<UseObject QuestId="0xE000918E60CB3E07" Name="Statue" BranchId="1" StepId="4" TaskId="1" WaitTime="5000" XYZ="2.290918,-1.130078,-18.69201" />
 				<UseObject QuestId="0xE000918E60CB3E07" Name="Broken Urn" BranchId="1" StepId="4" TaskId="2" WaitTime="5000" XYZ="2.279323,-1.224045,-21.52775" />
 				<UseObject QuestId="0xE000918E60CB3E07" Name="Ruined Sarcophagus" BranchId="1" StepId="4" TaskId="3" WaitTime="5000" XYZ="2.296261,-2.249048,-34.15512" />
 				<UseObject QuestId="0xE000918E60CB3E07" Name="Armor Rack" BranchId="1" StepId="4" TaskId="4" WaitTime="5000" XYZ="2.630058,-3.110106,-38.02135" />
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 6)">
 				<MoveTo QuestId="0xE000918E60CB3E07" XYZ="7.904349,-3.238058,-47.62412" />
 			</If>
@@ -1050,9 +1050,9 @@
 			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 7)">
 				<MoveTo QuestId="0xE000B979D88A5EDB" XYZ="2.303184,-3.198268,-57.88008" />
 			</If>
-			<While Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 8)">
+			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 8)">
 				<TalkTo QuestId="0xE000B979D88A5EDB" Name="Khem Val" XYZ="2.3303,-3.198093,-57.4871" />
-			</While>
+			</If>
 			<UseObject QuestId="0xE000B979D88A5EDB" Name="Debris Wall" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="4000" XYZ="8.220822,-3.099,-56.94746" />
 			<UseObject QuestId="0xE000B979D88A5EDB" Name="Naga Sadow's Ancient Map" BranchId="1" StepId="10" IgnoreLOS="True" WaitTime="4000" XYZ="18.99324,-3.581271,-63.87521" />
 			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 11)">
@@ -1077,17 +1077,17 @@
 			<If Condition="(not IsQuestComplete(0xE000D4CAA641179B))">
 				<Grind GrindRef="Ritual Cleansing" While="(not IsQuestComplete(0xE000D4CAA641179B))" />
 			</If>
-			<While Condition="HasQuest(0xE0005EE8110BA4E6) and not IsStepComplete(0xE0005EE8110BA4E6, 4)">
+			<If Condition="HasQuest(0xE0005EE8110BA4E6) and not IsStepComplete(0xE0005EE8110BA4E6, 4)">
 				<UseObject QuestId="0xE0005EE8110BA4E6" Name="Altar of Bones" BranchId="1" StepId="2" XYZ="-32.43636,1.35561,23.08514"   /> <!-- 2 -->
-				<While Condition="HasQuest(0xE0005EE8110BA4E6) and not IsStepComplete(0xE0005EE8110BA4E6, 3)">
-					<UseItem QuestId="0xE0005EE8110BA4E6" Name="Ritual Skull" WaitTime="4000" Range="2">
+				<If Condition="HasQuest(0xE0005EE8110BA4E6) and not IsStepComplete(0xE0005EE8110BA4E6, 3)">
+					<UseItem QuestId="0xE0005EE8110BA4E6" StepId="3" Name="Ritual Skull" WaitTime="4000" Range="2">
 						<Hotspots>
 							<Hotspot Name="My Location" XYZ="-32.28885,0.8641765,14.7559" />
 						</Hotspots>
 					</UseItem>
-				</While>
+				</If>
 				<!-- <WaitTimer QuestId="1" WaitTime="1000" /> -->
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE0005EE8110BA4E6) and not IsStepComplete(0xE0005EE8110BA4E6, 5)">
 				<TalkTo QuestName="The Blood Legacy" QuestId="0xE0005EE8110BA4E6" Name="Overseer Ragate" WaitTime="1000" XYZ="-32.206,1.801,6.5364" />
 			</If>

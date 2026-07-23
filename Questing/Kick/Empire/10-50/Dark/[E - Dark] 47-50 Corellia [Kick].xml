@@ -1509,15 +1509,15 @@
 			<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchStepComplete(0xE000A82017A8B038, 1, 2)))">
 				<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchTaskComplete(0xE000A82017A8B038, 1, 2, 0)))">
 					<MoveTo QuestId="0xE000A82017A8B038" XYZ="-212.3841,-7.60224,-170.3204" />
-					<UseItem QuestId="0xE000A82017A8B038" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-212.3841,-7.60224,-170.3204" />
+					<UseItem QuestId="0xE000A82017A8B038" BranchId="1" StepId="2" TaskId="0" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-212.3841,-7.60224,-170.3204" />
 				</If>
 				<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchTaskComplete(0xE000A82017A8B038, 1, 2, 1)))">
 					<MoveTo QuestId="0xE000A82017A8B038" XYZ="-231.2568,-9.6002,-141.9978" />
-					<UseItem QuestId="0xE000A82017A8B038" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-231.2568,-9.6002,-141.9978" />
+					<UseItem QuestId="0xE000A82017A8B038" BranchId="1" StepId="2" TaskId="1" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-231.2568,-9.6002,-141.9978" />
 				</If>
 				<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchTaskComplete(0xE000A82017A8B038, 1, 2, 2)))">
 					<MoveTo QuestId="0xE000A82017A8B038" XYZ="-245.5745,-8.89805,-121.6062" />
-					<UseItem QuestId="0xE000A82017A8B038" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-245.5745,-8.89805,-121.6062" />
+					<UseItem QuestId="0xE000A82017A8B038" BranchId="1" StepId="2" TaskId="2" Item="Guidance Beacons" WaitTime="3" Range="2" InCombat="False" Radius="2" XYZ="-245.5745,-8.89805,-121.6062" />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchStepComplete(0xE000A82017A8B038, 1, 3)))">
@@ -1738,7 +1738,7 @@
 			<Grind GrindRef="The Fight for Axial Park 6" While="(not IsBranchStepComplete(0xE000AAB820B04609, 1, 6))" />
 			<If Condition="((HasQuest(0xE000AAB820B04609)) and (not IsBranchStepComplete(0xE000AAB820B04609, 1, 7)))">
 				<MoveTo QuestId="0xE000AAB820B04609" Name="My Location" XYZ="127.73,6.410916,-265.4399" />
-				<UseItem QuestId="0xE000AAB820B04609" Item="Flare Gun" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="127.73,6.410916,-265.4399" />
+				<UseItem QuestId="0xE000AAB820B04609" BranchId="1" StepId="7" Item="Flare Gun" WaitTime="3" Range="4" InCombat="False" Radius="10" XYZ="127.73,6.410916,-265.4399" />
 			</If>
 			<Grind GrindRef="The Fight for Axial Park 8" While="(not IsBranchStepComplete(0xE000AAB820B04609, 1, 8))" />
 			<TurnInQuest QuestName="The Fight for Axial Park" QuestId="0xE000AAB820B04609" TurnInName="Lieutenant Roval" XYZ="144.0454,2.405816,-303.5406" />

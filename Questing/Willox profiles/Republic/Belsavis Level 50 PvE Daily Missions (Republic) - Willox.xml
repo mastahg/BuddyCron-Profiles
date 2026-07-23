@@ -77,18 +77,18 @@
 		QuestStep: 1
 		Goal: Recover Ancient Devices (0/4)
 		-->
-		<While Condition="((HasQuest(0xE000FC279BBFF7C8)) and (not IsStepComplete(0xE000FC279BBFF7C8, 2)))">
+		<If Condition="((HasQuest(0xE000FC279BBFF7C8)) and (not IsStepComplete(0xE000FC279BBFF7C8, 2)))">
 			<Grind GrindRef="Restraining the Darkness and Drive Out the Looters (Bonus)" While="(HasQuest(0xE000FC279BBFF7C8))"/>
-		</While>
+		</If>
 
 		<!-- 
 		***** Finish Bonus Quest *****
 		Quest: Drive Out the Looters (Bonus) (Restraining the Darkness)
 		QuestId: 0xE00089469C386460
 		Goal: Defeat Sith and Imperial Looters (0/15)  -->
-		<While Condition="((HasQuest(0xE00089469C386460)) and (not IsQuestComplete(0xE00089469C386460)))">
+		<If Condition="((HasQuest(0xE00089469C386460)) and (not IsQuestComplete(0xE00089469C386460)))">
 			<Grind GrindRef="Restraining the Darkness and Drive Out the Looters (Bonus)" While="(not IsQuestComplete(0xE00089469C386460))"/>
-		</While>
+		</If>
 
 		<!-- 
 		***** Do QuestStep for Restraining the Darkness *****
@@ -101,9 +101,9 @@
 		</If>
 
 		<!-- Grind: Strengthening The Chain (Kill 3x Rattataki Leader) -->
-		<While Condition="((HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3)))">
+		<If Condition="((HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3)))">
 			<Grind GrindRef="Strengthening The Chain" While="(HasQuest(0xE000830A40E929B3))"/>
-		</While>
+		</If>
 
 		<!-- Use Object: Strengthening The Chain / Munitions Destruction (Bonus) (4x Supplies) 
 		<If Condition="((HasQuest(0xE000830A40E929B3)) and (IsQuestComplete(0xE000830A40E929B3) and (not IsQuestComplete(0xE000BFC5DA500F88)))">
@@ -132,9 +132,9 @@
 		</If>	
 
 		<!-- Grind: Emergent Medicine (Collect 8x Venom Glands) -->
-		<While Condition="((HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7)))">
+		<If Condition="((HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7)))">
 			<Grind GrindRef="Emergent Medicine" While="(HasQuest(0xE0003EBBFCAFDDB7))"/>
-		</While>	
+		</If>	
 
 		<!-- Turn In: Emergent Medicine by Private Lorul -->
 		<If Condition="( (HasQuest(0xE0003EBBFCAFDDB7)) and (IsQuestComplete(0xE0003EBBFCAFDDB7)) )">

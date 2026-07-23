@@ -192,10 +192,10 @@
 			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 1, 2)">
 				<MoveTo QuestId="0xE000EAF4516CA07D" XYZ="-30.33541,3.806653,-2.529237"/>
 			</If>
-			<While Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 2)">
+			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 2)">
 				<MoveTo XYZ="-29.92155,3.800365,-5.783715"/>
 				<WaitTimer QuestId="1" WaitTime="5"/>
-			</While>
+			</If>
 			<If Condition="HasQuest(0xE000EAF4516CA07D) and not IsBranchStepComplete(0xE000EAF4516CA07D, 9, 4)">
 				<TalkTo QuestName="A New Master" QuestId="0xE000EAF4516CA07D" Name="Overseer Tremel" WaitTime="1000" XYZ="-27.0911,1.400435,9.5801"/>
 				<WaitTimer QuestId="1" WaitTime="5"/>
@@ -259,7 +259,7 @@
 
 		<!--  Warrior - The Final Trial  -->
 		<If Condition="((HasQuest(0xE000918E60CB3E07)) and (not IsQuestComplete(0xE000918E60CB3E07)))">
-			<While Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 4)">
+			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 4)">
 
 				<If Condition="HasQuest(0xE000918E60CB3E07) and not IsBranchStepComplete(0xE000918E60CB3E07, 1, 4)">
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.290918,-1.130078,-18.69201"/>
@@ -280,7 +280,7 @@
 					<MoveTo QuestId="0xE000918E60CB3E07" XYZ="2.630058,-3.110106,-38.02135" />
 				</If>
 				<UseObject QuestId="0xE000918E60CB3E07" Name="Armor Rack" BranchId="1" StepId="4" TaskId="4" WaitTime="5000" XYZ="2.630058,-3.110106,-38.02135"/>
-			</While>
+			</If>
 
 			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 6)">
 				<MoveTo QuestId="0xE000918E60CB3E07" XYZ="7.904349,-3.238058,-47.62412"/>

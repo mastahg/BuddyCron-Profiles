@@ -1483,7 +1483,7 @@
 		<!-- Unexpected Assistance -->
 		<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsQuestComplete(0xE00001C0DD51D63A)))">
 			<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsBranchStepComplete(0xE00001C0DD51D63A, 1, 2)))">
-				<UseItem QuestId="0xE00001C0DD51D63A" Item="TM-09's Security Spikes" OnObject="Reprogrammed Warden Droid" WaitTime="3500" Range="28" InCombat="True" Radius="20" >
+				<UseItem QuestId="0xE00001C0DD51D63A" BranchId="1" StepId="2" Item="TM-09's Security Spikes" OnObject="Reprogrammed Warden Droid" WaitTime="3500" Range="28" InCombat="True" Radius="20" >
 					<Hotspots>				
 						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-102.0194,18.19773,-141.3525" />
 						<Hotspot Name="Reprogrammed Warden Droid" XYZ="-99.45829,16.83593,-145.4541" />
@@ -1667,10 +1667,10 @@
 									ToX="62.0006" ToY="-78.00795" ToZ="48.3183" />
 			
 				<!-- If I am on Belsavis: Republic Orbital Station -->
-				<UseObject QuestId="0xE0007866ACA716C2" Name="Ship Entrance" Radius="20" WaitTime="5" XYZ="62.03563,-77.96738,59.19472" />
+				<UseObject QuestId="0xE0007866ACA716C2" BranchId="1" StepId="16" Name="Ship Entrance" Radius="20" WaitTime="5" XYZ="62.03563,-77.96738,59.19472" />
 			
 				<!-- If I am in my Ship -->
-				<UseObject QuestId="0xE0007866ACA716C2" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9778407,1.651,2.675255" />
+				<UseObject QuestId="0xE0007866ACA716C2" BranchId="1" StepId="16" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9778407,1.651,2.675255" />
 			</If>
 			<CompleteQuest QuestName="The Voice From The Tomb" QuestId="0xE0007866ACA716C2" RewardIndex="3" />
 			<!-- Fearless 0xE000EC7E57F1DD17-->
@@ -1684,9 +1684,9 @@
 		<!-- Consular - Fearless -->
 		<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsQuestComplete(0xE000EC7E57F1DD17)))">
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 2)))">
-				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1172609,1.551,-4.558904" />
+				<UseObject QuestId="0xE000EC7E57F1DD17" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1172609,1.551,-4.558904" />
 				<!-- Distant Outer Rim - The Euphony - Travel Now -->
-				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01402321,0.5900244,-2.957375" />
+				<UseObject QuestId="0xE000EC7E57F1DD17" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01402321,0.5900244,-2.957375" />
 				<!-- Summon Nadi Grell Companion -->
 			</If>
 			<!-- Automated Defense (Bonus) -->
@@ -1703,10 +1703,10 @@
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 6)))">
 				<TalkTo QuestId="0xE000EC7E57F1DD17" Name="Senator Grell" XYZ="3.6988,7.910185,-17.483" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="13.80267,7.4047,-25.24387" />
+				<UseObject QuestId="0xE000EC7E57F1DD17" BranchId="1" StepId="6" Name="Airlock to Ship" Radius="20" WaitTime="5" XYZ="13.80267,7.4047,-25.24387" />
 			</If>
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 7)))">
-				<UseObject QuestId="0xE000EC7E57F1DD17" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9420362,1.651,2.678125" />
+				<UseObject QuestId="0xE000EC7E57F1DD17" BranchId="1" StepId="7" Name="Intercom" Radius="20" WaitTime="5" XYZ="-0.9420362,1.651,2.678125" />
 			</If>
 			<CompleteQuest QuestName="Fearless" QuestId="0xE000EC7E57F1DD17" RewardIndex="2" />
 		</If>
@@ -1718,7 +1718,7 @@
 			Lt Iresso - Command Decisions
 			Nadia Grell - Being Composed
 			-->
-				<UseObject QuestId="0xE000484D39EFD2FE" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.08519984,1.551,-4.620997" />
+				<UseObject QuestId="0xE000484D39EFD2FE" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.08519984,1.551,-4.620997" />
 				<!-- Hutt Space - Voss - Travel Now -->
 				<MoveTo QuestId="0xE000484D39EFD2FE" Name="Intercom" XYZ="-0.66154,1.651,2.209565" />
 				<WaitTimer QuestId="1" WaitTime="15" />

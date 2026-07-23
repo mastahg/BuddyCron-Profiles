@@ -65,17 +65,17 @@
         <PickupQuest QuestName="Restraining the Darkness" QuestId="0xE000FC279BBFF7C8" GiverName="Master Korman Reyes" XYZ="-169.5396,30.09319,115.3393" />
       </If>
 
-      <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,2))" >
+      <If Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,2))" >
         <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-160.301,31.16031,132.0279" />
         <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-154.1656,31.36468,136.2118" />
-      </While>
-      <While Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,3))" >
+      </If>
+      <If Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsStepComplete(0xE000FC279BBFF7C8,3))" >
         <MoveTo QuestId="0xE000FC279BBFF7C8" XYZ="-154.767,31.79134,145.8604" />
         <Interact QuestId="0xE000FC279BBFF7C8" Name="Imperial Shuttle" UseRange="10" WaitTime="3" IgnoreLos="True" XYZ="-154.767,31.79134,145.8604" />
-      </While>
+      </If>
 
       <!--<While Condition="HasQuest(0xE000830A40E929B3) and (not IsStepComplete(0xE000830A40E929B3,2))" >-->
-      <While Condition="HasQuest(0xE000BFC5DA500F88) and (not IsStepComplete(0xE000BFC5DA500F88,2))" >
+      <If Condition="HasQuest(0xE000BFC5DA500F88) and (not IsStepComplete(0xE000BFC5DA500F88,2))" >
         <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-138.1343,31.44359,131.577" />
         <Interact QuestId="0xE000BFC5DA500F88" StepId="2" Name="Supplies" UseRange="4" WaitTime="3" IgnoreLos="True" XYZ="-138.1343,31.44359,131.577" />
         <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-140.5337,31.54993,128.9455" />
@@ -85,7 +85,7 @@
         <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-133.1584,31.48729,128.8217" />
         <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-132.2327,31.5056,123.2978" />
         <MoveTo QuestId="0xE000BFC5DA500F88" StepId="2" XYZ="-130.6771,31.50039,123.3093" />
-      </While>
+      </If>
 
       <If Condition="HasQuest(0xE000830A40E929B3) and (not IsQuestComplete(0xE000830A40E929B3))">
         <TurnInQuest QuestId="0xE000830A40E929B3" QuestName="Strengthening the Chain" TurnInName="Major Harris" WaitTime="5" XYZ="-168.9536,30.09492,115.9593" />
@@ -99,12 +99,12 @@
       <If Condition="(not HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))">
         <PickupQuest QuestName="Emergent Medicine" QuestId="0xE0003EBBFCAFDDB7" UseRange="4" GiverName="Sergeant Kayen" XYZ="-163.4987,30.07947,126.2642" />
       </If>
-      <While Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsStepComplete(0xE0003EBBFCAFDDB7,2))">
+      <If Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsStepComplete(0xE0003EBBFCAFDDB7,2))">
         <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-120.4483,30.45424,141.0784" />
         <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-117.786,30.1903,135.368" />
         <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-109.7577,30.43397,138.0925" />
         <MoveTo QuestId="0xE0003EBBFCAFDDB7" XYZ="-101.9457,30.39376,143.7504" />
-      </While>
+      </If>
       <If Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))" >
         <TurnInQuest QuestId="0xE0003EBBFCAFDDB7" QuestName="Emergent Medicine" TurnInName="Private Lorul" XYZ="-131.5907,32.5444,164.2804" />
         <CompleteQuest QuestId="0xE0003EBBFCAFDDB7" RewardIndex="0" />
@@ -118,7 +118,7 @@
       </If>
 
       <!-- 55+ GEARED ONLY HERE -->
-      <While Condition="HasQuest( 0xE000C7B4447005D5) and (not IsStepComplete( 0xE000C7B4447005D5,2))">
+      <If Condition="HasQuest( 0xE000C7B4447005D5) and (not IsStepComplete( 0xE000C7B4447005D5,2))">
         <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" XYZ="-142.1319,30.72998,154.3368" />
         <MoveTo QuestId="0xE000C7B4447005D5" StepId="2" IgnoreMesh="True" XYZ="-142.6694,28.301,169.9356" />
         <!--<UseObject QuestId=" 0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" Radius="100" IgnoreLOS="True" BlacklistDuration="120" >
@@ -145,14 +145,14 @@
         <MoveTo QuestId="0xE000C7B4447005D5" XYZ="-132.6213,27.501,178.5684" />
         <Interact QuestId="0xE000C7B4447005D5" Name="Gand Weapons Crate" UseRange="4" WaitTime="3" IgnoreLos="True" />
         <TalkTo QuestId="0xE000C7B4447005D5" Name="Captured Scientist" UseRange="4" WaitTime="3" IgnoreLos="True" />
-      </While>
-      <While Condition="HasQuest(0xE000AFA93F593BAE) and (not IsStepComplete(0xE000AFA93F593BAE,2))">
+      </If>
+      <If Condition="HasQuest(0xE000AFA93F593BAE) and (not IsStepComplete(0xE000AFA93F593BAE,2))">
         <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
         <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-120.4153,30.62333,152.6161" />
         <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-117.4462,29.8483,153.7693" />
         <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-119.3128,29.84898,154.5434" />
         <MoveTo QuestId="0xE000AFA93F593BAE" XYZ="-114.2481,29.8483,151.0095" />
-      </While>
+      </If>
 
       <If Condition="HasQuest(0xE000C7B4447005D5) and (not IsQuestComplete(0xE000C7B4447005D5))" >
         <TurnInQuest QuestId="0xE000C7B4447005D5" QuestName="A Lesson is Learned" UseRange="4" TurnInName="Doctor Everis" XYZ="-130.6159,32.53959,163.3082" />
@@ -166,12 +166,12 @@
       <If Condition="(not HasQuest(0xE000D8D1668C1A69)) and (not IsQuestComplete(0xE000D8D1668C1A69))">
         <PickupQuest QuestName="Open Communications" QuestId="0xE000D8D1668C1A69" GiverName="Agent Hextal" XYZ="-133.9591,32.55043,164.5069" />
       </If>
-      <While Condition="HasQuest(0xE000D8D1668C1A69) and (not IsStepComplete(0xE000D8D1668C1A69,2))">
+      <If Condition="HasQuest(0xE000D8D1668C1A69) and (not IsStepComplete(0xE000D8D1668C1A69,2))">
         <!--<UseItem Item="Prophylaxis" OnObject="Infected Gen'Dai" InCombat="False" UseRange="20" WaitTime="5" X="-120.4153" Y="30.62333" Z="152.6161" />-->
         <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="1.821777,9.019557,-328.9624" />
         <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="29.23101,5.901,-319.0967" />
         <Interact QuestId="1" Name="Disabled Warden Droid" UseRange="4" WaitTime="4" IgnoreLOS="True" />
-      </While>
+      </If>
 
       <If Condition="(not HasQuest(0xE0007A085412F617)) and (not IsQuestComplete(0xE0007A085412F617))">
         <MoveTo QuestId="1" XYZ="-26.57909,11.1007,-320.9546" />
@@ -187,7 +187,7 @@
       </If>
 
       <!--Sleeping Rakata-->
-      <While Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsStepComplete(0xE000E36A1BEFEF20,4))">
+      <If Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsStepComplete(0xE000E36A1BEFEF20,4))">
         <MoveTo QuestId="1"  XYZ="-14.0966,8.569486,-363.0425" />
         <MoveTo QuestId="1" XYZ="-6.931331,8.775431,-367.5646" />
         <MoveTo QuestId="1" XYZ="-6.858109,8.777105,-370.4995" />
@@ -198,7 +198,7 @@
         <TalkTo QuestId="1" Name="Eishuu" Range="4" WaitTime="5" />
         <MoveTo QuestId="1" XYZ="-17.82755,34.78043,-382.9109" />
         <Interact QuestId="1" Name="Rakata Mind Trap" Range="4" WaitTime="5" />
-      </While>
+      </If>
 
       <!--Unheard Frequencies-->
       <If Condition="HasQuest( 0xE0007A085412F617) and (not IsStepComplete(0xE0007A085412F617,2))">

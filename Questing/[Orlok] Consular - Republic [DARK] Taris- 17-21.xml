@@ -984,7 +984,7 @@
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
 
-			<While Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 3)))">
+			<If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 3)))">
 				<!-- Interact with Junction Worker s and then it should disappear -->
 				<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" XYZ="-100.0784,-32.06877,87.152" />
 				<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" XYZ="-100.0784,-32.06877,87.152" />
@@ -996,7 +996,7 @@
 				<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" XYZ="-94.7327,-32.07085,87.9388" />
 				<MoveTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" XYZ="-99.72209,-32.06877,89.5752" />
 				<TalkTo QuestId="0xE0006977F87F6A5D" Name="Junction Worker" Radius="50" XYZ="-99.72209,-32.06877,89.5752" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 2, 4)))">
 				<!-- Move back to elevator
 			-->
@@ -1039,21 +1039,21 @@
 			
 
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 4)))">
-				<While Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 0)))">
+				<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 0)))">
 					<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-214.9105,-18.864,111.4418" />
 					<UseObject QuestId="0xE0005896427A1928" Name="Eastern Passage" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" XYZ="-214.9105,-18.864,111.4418" />
-				</While>
-				<While Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 1)))">
+				</If>
+				<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsTaskComplete(0xE0005896427A1928, 4, 1)))">
 					<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-224.0442,-18.864,111.434" />
 					<UseObject QuestId="0xE0005896427A1928" Name="Western Passage" BranchId="1" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="-224.0442,-18.864,111.434" />
-				</While>
+				</If>
 			</If>
-			<While Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 5)))">
+			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 5)))">
 				<MoveTo QuestId="0xE0005896427A1928" Name="Ripclaw" XYZ="-222.0614,-20.299,107.5286" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-221.7444,-20.299,107.4206" />
 				<UseObject QuestId="0xE0005896427A1928" Name="Binary Load Lifter" BranchId="1" StepId="5" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="7" XYZ="-221.7444,-20.299,107.4206" />
-			</While>
+			</If>
 		 
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 6)))">
 				<!-- return to Nelex function -->

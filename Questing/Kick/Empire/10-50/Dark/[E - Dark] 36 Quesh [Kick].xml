@@ -391,10 +391,10 @@
 									ToX="18.9452" ToY="16.22682" ToZ="188.8162" />
 			</If>
 			<If Condition="((HasQuest(0xE000F312709657D7)) and (not IsBranchStepComplete(0xE000F312709657D7, 1, 3)))">
-				<While Condition="HasQuest(0xE000F312709657D7) and not IsBranchStepComplete(0xE000F312709657D7, 1, 3)" >
+				<If Condition="HasQuest(0xE000F312709657D7) and not IsBranchStepComplete(0xE000F312709657D7, 1, 3)" >
 					<TalkTo QuestId="0xE000F312709657D7" Name="Moff Dracen" XYZ="31.4874,9.300301,168.4508" />
 					<WaitTimer QuestId="1" WaitTime="8" />
-				</While>
+				</If>
 				<ForceVendor VendorType="Repair" />
 				<ForceVendor VendorType="Train" />
 				<TalkTo QuestId="1" Name="Imperial Garrison Speeder" XYZ="21.0786,8.526,175.2767" />
@@ -414,9 +414,9 @@
 		
 		<!-- Toxic Clash 4-5 -->
 		<If Condition="((HasQuest(0xE000F312709657D7)) and (not IsQuestComplete(0xE000F312709657D7)))">
-			<While Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 4)">
+			<If Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 4)">
 				<MoveTo QuestId="0xE000F312709657D7" XYZ="-32.18953,6.872758,97.1241" />
-			</While>
+			</If>
 			<UseObject QuestId="0xE000F312709657D7" Name="Filtration Unit" BranchId="1" StepId="5" IgnoreLOS="True" Radius="10" WaitTime="2" BlacklistDuration="180" >
 				<Hotspots>
 					<Hotspot Name="Republic Mining Droid" XYZ="-51.4326,6.815551,68.3261" />
@@ -438,12 +438,12 @@
 			<If Condition="((not HasQuest(0xE000FD87F2197DE3)) and (not IsQuestComplete(0xE000FD87F2197DE3)))">
 				<MoveTo QuestId="1" XYZ="-53.8918,6.875942,68.09741" />
 			</If>
-			<While Condition="HasQuest(0xE000FD87F2197DE3) and not IsStepComplete(0xE000FD87F2197DE3, 2)" >
+			<If Condition="HasQuest(0xE000FD87F2197DE3) and not IsStepComplete(0xE000FD87F2197DE3, 2)" >
 				<UseObject Name="Door Controls" QuestId="0xE000FD87F2197DE3" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-64.18794,6.833078,60.89803" />
-			</While>
-			<While Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 7)">
+			</If>
+			<If Condition="HasQuest(0xE000F312709657D7) and not IsStepComplete(0xE000F312709657D7, 7)">
 				<MoveTo QuestId="0xE000F312709657D7" XYZ="-32.06129,6.872758,97.13928" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Walker Tripping and Turnin -->
@@ -490,9 +490,9 @@
 		
 		<!-- Adrenal Shutdown: Selkath Scientists -->
 		<If Condition="((HasQuest(0xE00085050F9F1FF2)) and (not IsQuestComplete(0xE00085050F9F1FF2)))">
-			<While Condition="HasQuest(0xE00085050F9F1FF2) and not IsStepComplete(0xE00085050F9F1FF2, 2)">
+			<If Condition="HasQuest(0xE00085050F9F1FF2) and not IsStepComplete(0xE00085050F9F1FF2, 2)">
 				<MoveTo QuestId="0xE00085050F9F1FF2" XYZ="-15.36941,7.8366,19.95132" />
-			</While>
+			</If>
 			<!-- Ele going down -->
 			<Grind GrindRef="Adrenal Shutdown Selkath Scientists - Defeat the Selkath Head Scientist" While="not IsTaskComplete(0xE00085050F9F1FF2, 3, 1)" />
 			<!-- Ele going up -->
@@ -593,12 +593,12 @@
 		
 		<!-- The Three Families: Charge the Front and Turnin -->
 		<If Condition="((HasQuest(0xE000EE3861F2535B)) and (not IsQuestComplete(0xE000EE3861F2535B)))">
-			<While Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 1)">
-				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.7366,17.25719,-26.92838" />
-			</While>
-			<While Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 0)">
-				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.74851,17.23639,-42.43463" />
-			</While>
+			<If Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 1)">
+				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="1" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.7366,17.25719,-26.92838" />
+			</If>
+			<If Condition="HasQuest(0xE000EE3861F2535B) and not IsTaskComplete(0xE000EE3861F2535B, 2, 0)">
+				<UseItem Item="EMP Charges" QuestId="0xE000EE3861F2535B" StepId="2" TaskId="0" WaitTime="5" Range="2" InCombat="False" Radius="3" XYZ="82.74851,17.23639,-42.43463" />
+			</If>
 			<!-- Stage 1 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000482FF42882E4))">
 				<Grind GrindRef="Stage 1 - A Family Concern - Defeat republic and Three Families Forces" While="(not IsQuestComplete(0xE000482FF42882E4))" />
@@ -608,7 +608,7 @@
 				<Grind GrindRef="Stage 2 - A Family Concern - Defeat republic and Three Families Forces" While="(not IsQuestComplete(0xE000452FF428BF8D))" />
 			</If>
 			<!-- Stage 3 - A Family Concern -->
-			<While Condition="(not IsQuestComplete(0xE000462FF428815E))">
+			<If Condition="(not IsQuestComplete(0xE000462FF428815E))">
 				<UseObject QuestId="0xE000462FF428815E" Name="Republic Supplies" BranchId="1" StepId="4" IgnoreLOS="True" Radius="200" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="77.86804,17.2306,-41.50557" />
@@ -616,11 +616,11 @@
 						<Hotspot Name="My Location" XYZ="79.89714,17.32301,-26.41361" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 			<!-- Final Stage - A Family Concern -->
-			<While Condition="(not IsQuestComplete(0xE000432FF428BA67))">
+			<If Condition="(not IsQuestComplete(0xE000432FF428BA67))">
 				<UseObject Name="Security Station" QuestId="0xE000432FF428BA67" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="92.43005,19.201,-45.33429" />
-			</While>
+			</If>
 			<UseObject Name="Throne Room Console" QuestId="0xE000EE3861F2535B" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="100.0061,19.31233,-34.34623" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="The Three Families: Charge the Front" QuestId="0xE000EE3861F2535B" TurnInName="Throne Room Console" XYZ="100.0061,19.31233,-34.34623" />
 			<CompleteQuest QuestName="The Three Families: Charge the Front" QuestId="0xE000EE3861F2535B" />
@@ -634,10 +634,10 @@
 			<UseObject Name="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
 			<Grind GrindRef="The Three Families - Defeat the Republic Battle Droid" While="not IsBranchStepComplete(0xE000AAA33520D44A, 4, 5)" />
 			<UseObject Name="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
-			<While Condition="HasQuest(0xE000AAA33520D44A) and not IsBranchStepComplete(0xE000AAA33520D44A, 4, 7)" >
+			<If Condition="HasQuest(0xE000AAA33520D44A) and not IsBranchStepComplete(0xE000AAA33520D44A, 4, 7)" >
 				<TalkTo QuestId="0xE000AAA33520D44A" Name="Portho the Hutt" XYZ="106.2824,19.40491,-34.9706" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="The Three Families" QuestId="0xE000AAA33520D44A" TurnInName="Hutt Mainframe" XYZ="105.4758,19.40145,-36.70407" />
 			<CompleteQuest QuestName="The Three Families" QuestId="0xE000AAA33520D44A" RewardIndex="3" />
 			<!-- Quesh Showdown  -->
@@ -689,10 +689,10 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
 			<Grind GrindRef="Quesh Showdown 3 4" While="(not IsBranchStepComplete(0xE000778438467841, 3, 4))" />
-			<While Condition="((HasQuest(0xE000778438467841)) and (not IsBranchStepComplete(0xE000778438467841, 3, 5)))">
+			<If Condition="((HasQuest(0xE000778438467841)) and (not IsBranchStepComplete(0xE000778438467841, 3, 5)))">
 				<TalkTo QuestId="0xE000778438467841" Name="Master Berin Fraal" XYZ="99.67142,9.151001,-94.93866" />
 				<WaitTimer QuestId="1" WaitTime="8" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Turnin A Family Concern -->

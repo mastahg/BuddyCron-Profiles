@@ -712,12 +712,12 @@
 									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
 			</If>
 			<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
-				<While Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
+				<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
 					<MoveTo QuestId="1" XYZ="-7.3017,5.289354,17.6586" />
 					<WaitTimer WaitTime="2" QuestId="1" />
-					<UseItem QuestId="0xE000681C28D22248" Name="Hunter Tag" OnObject="Weng Wrightsyn" WaitTime="2" Range="2" Radius="2" XYZ="-7.3017,5.289354,17.6586" />
+					<UseItem QuestId="0xE000681C28D22248" BranchId="2" StepId="2" Name="Hunter Tag" OnObject="Weng Wrightsyn" WaitTime="2" Range="2" Radius="2" XYZ="-7.3017,5.289354,17.6586" />
 					<WaitTimer WaitTime="5" QuestId="1" />
-				</While>
+				</If>
 			
 				<UseTransport TransporterName="Kaas City Central Taxi" Type="Taxi" Option="Mandalorian Enclave Taxi" 
 									XYZ="-19.3678,4.007462,-1.069131" 
@@ -756,20 +756,20 @@
 			</If>
 			<!-- Understanding Intelligence (Bonus) -->
 			<If Condition="((HasQuest(0xE0007071A7C33BC6)) and (not IsQuestComplete(0xE0007071A7C33BC6)))">
-				<While Condition="HasQuest(0xE0007071A7C33BC6) and not IsStepComplete(0xE0007071A7C33BC6, 2)">
-					<While Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 3)">
+				<If Condition="HasQuest(0xE0007071A7C33BC6) and not IsStepComplete(0xE0007071A7C33BC6, 2)">
+					<If Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 3)">
 						<TalkTo Name="Watcher Two" QuestId="0xE000681C28D22248" WaitTime="1" XYZ="13.04949,3.000431,-87.96174" />
-					</While>
-					<While Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 1)">
+					</If>
+					<If Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 1)">
 						<TalkTo Name="Lodenth Kashar" QuestId="0xE0007071A7C33BC6" WaitTime="1" XYZ="12.78381,2.600966,-84.15816" />
-					</While>
-					<While Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 0)">
+					</If>
+					<If Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 0)">
 						<TalkTo Name="Fixer Twelve" QuestId="0xE0007071A7C33BC6" WaitTime="1" XYZ="13.18864,2.401926,-82.16447" />
-					</While>
-					<While Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 2)">
+					</If>
+					<If Condition="not IsTaskComplete(0xE0007071A7C33BC6, 2, 2)">
 						<TalkTo Name="Watcher Three" QuestId="0xE0007071A7C33BC6" WaitTime="1" XYZ="10.68121,2.400927,-80.64703" />
-					</While>
-				</While>
+					</If>
+				</If>
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
 									XYZ="-33.41899,2.307461,-50.84061" 
 									ToX="-19.42251" ToY="4.007461" ToZ="-1.852924" />
@@ -937,9 +937,9 @@
 				<UseObject QuestId="0xE000EE9DEC6AFF69" Name="Jurithus' Body" BranchId="1" StepId="8" IgnoreLOS="True" WaitTime="6" XYZ="68.67084,8.991939,119.6304" />
 				<WaitTimer WaitTime="2" QuestId="1" />
 			</If>
-			<While Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 9)">
-				<UseItem Name="Encrypted Datapad" QuestId="0xE000EE9DEC6AFF69" WaitTime="7" XYZ="68.72381,8.992099,119.6002" />
-			</While>
+			<If Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 9)">
+				<UseItem Name="Encrypted Datapad" QuestId="0xE000EE9DEC6AFF69" StepId="9" WaitTime="7" XYZ="68.72381,8.992099,119.6002" />
+			</If>
 			<If Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 10)">
 				<AnswerHolocomCall QuestName="The Slave's Secret" QuestId="0xE000EE9DEC6AFF69" />
 			</If>
@@ -1193,12 +1193,12 @@
 		
 		<!-- The Mask of Revan -->
 		<If Condition="((HasQuest(0xE00034374F999EF7)) and (not IsQuestComplete(0xE00034374F999EF7)))">
-			<While Condition="HasQuest(0xE00034374F999EF7) and not IsStepComplete(0xE00034374F999EF7, 2)">
+			<If Condition="HasQuest(0xE00034374F999EF7) and not IsStepComplete(0xE00034374F999EF7, 2)">
 				<TalkTo QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" Name="Ladra" WaitTime="1" XYZ="-82.82812,-2.692862,112.7024" />
-			</While>
-			<While Condition="HasQuest(0xE00034374F999EF7) and not IsStepComplete(0xE00034374F999EF7, 3)">
+			</If>
+			<If Condition="HasQuest(0xE00034374F999EF7) and not IsStepComplete(0xE00034374F999EF7, 3)">
 				<TalkTo QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" Name="Torrun" WaitTime="1" XYZ="-82.49435,-2.716884,109.5793" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Pickup The War Machine -->
@@ -1288,9 +1288,9 @@
 		<!-- Agent - High Society -->
 		<If Condition="((HasQuest(0xE0006DA5A506D94F)) and (not IsQuestComplete(0xE0006DA5A506D94F)))">
 			<UseObject Name="Workshop Access" QuestId="0xE0006DA5A506D94F" BranchId="1" StepId="7" WaitTime="3" XYZ="-68.39583,-9.361499,170.9705" />
-			<While Condition="HasQuest(0xE0006DA5A506D94F) and not IsStepComplete(0xE0006DA5A506D94F, 10)">
+			<If Condition="HasQuest(0xE0006DA5A506D94F) and not IsStepComplete(0xE0006DA5A506D94F, 10)">
 				<MoveTo QuestId="0xE0006DA5A506D94F" XYZ="-72.10496,-9.387749,171.1966" />
-			</While>
+			</If>
 			<UseObject Name="Theovor Mindak's Computer" QuestId="0xE0006DA5A506D94F" BranchId="1" StepId="11" WaitTime="7" XYZ="-72.88319,-9.387749,172.192" />
 			<If Condition="HasQuest(0xE0006DA5A506D94F) and not IsStepComplete(0xE0006DA5A506D94F, 12)">
 				<AnswerHolocomCall QuestName="High Society" QuestId="0xE0006DA5A506D94F" />
@@ -1300,15 +1300,15 @@
 		<!-- Inquisitor - Dismantling the Machine -->
 		<If Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsQuestComplete(0xE000F6DDC719F7E5)))">
 			<UseObject QuestId="0xE000F6DDC719F7E5" Name="Door Panel" BranchId="1" StepId="2" WaitTime="1500" XYZ="-52.81166,-4.681376,158.2621" />
-			<While Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsBranchStepComplete(0xE000F6DDC719F7E5, 1, 3)))">
+			<If Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsBranchStepComplete(0xE000F6DDC719F7E5, 1, 3)))">
 				<TalkTo QuestId="0xE000F6DDC719F7E5" Name="Dorotsech" XYZ="-52.4816,-4.627219,157.0385" />
 				<WaitTimer QuestId="1" WaitTime="8" />
-			</While>
+			</If>
 			<Grind GrindRef="Dismantling the Machine" While="not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 2)" />
 			<UseObject QuestId="0xE000F6DDC719F7E5" Name="Control Panel" BranchId="7" StepId="3" WaitTime="5" XYZ="-46.59051,-10.16156,172.4538" />
-			<While Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 4)))">
+			<If Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 4)))">
 				<MoveTo QuestId="0xE000F6DDC719F7E5" XYZ="-44.73826,-10.16156,172.6008" />
-			</While>
+			</If>
 			<UseObject QuestId="0xE000F6DDC719F7E5" Name="Cyber Neutralizer" BranchId="7" StepId="5" WaitTime="3" XYZ="-46.55738,-10.08252,172.7997" />
 		</If>
 
@@ -1501,12 +1501,12 @@
 				<MoveTo QuestId="0xE000FB4EC7E346DF" XYZ="-1.071403,1.800015,-72.00291" />
 			</If>
 			<!-- this doesn't work properly -->
-			<While Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 3)))">
-				<UseItem QuestId="0xE000FB4EC7E346DF" Name="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="1" XYZ="-0.3750512,1.800021,-72.10003" InCombat="True" Radius="30" />
-			</While>
-			<While Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 4)))">
-				<UseItem QuestId="0xE000FB4EC7E346DF" Name="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="1" XYZ="-0.3750512,1.800021,-72.10003" InCombat="True" Radius="30" />
-			</While>
+			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 3)))">
+				<UseItem QuestId="0xE000FB4EC7E346DF" BranchId="3" StepId="3" Name="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="1" XYZ="-0.3750512,1.800021,-72.10003" InCombat="True" Radius="30" />
+			</If>
+			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 4)))">
+				<UseItem QuestId="0xE000FB4EC7E346DF" BranchId="3" StepId="4" Name="Cyber Neutralizer" OnNpc="Darth Skotia" WaitTime="1" XYZ="-0.3750512,1.800021,-72.10003" InCombat="True" Radius="30" />
+			</If>
 			<If Condition="((HasQuest(0xE000FB4EC7E346DF)) and (not IsBranchStepComplete(0xE000FB4EC7E346DF, 3, 5)))">
 				<TalkTo QuestId="0xE000FB4EC7E346DF" Name="Darth Skotia" XYZ="-0.1026277,1.80003,-71.92362" />
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
@@ -1901,10 +1901,10 @@
 					<TalkTo QuestId="0xE000DD24579D2279" WaitTime="1" Name="Spaceport Security Commander" XYZ="94.9177,-4.21659E-06,52.8066" />
 				</If>
 				<If Condition="(HasQuest(0xE000DD24579D2279)) and (not IsBranchStepComplete(0xE000DD24579D2279, 1, 5))">
-					<UseObject QuestId="0xE000DD24579D2279" Name="Security Door Panel" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="93.44292,-2.798891E-06,53.93103"  />
+					<UseObject QuestId="0xE000DD24579D2279" BranchId="1" StepId="5" Name="Security Door Panel" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="93.44292,-2.798891E-06,53.93103"  />
 				</If>
 				<If Condition="(HasQuest(0xE000DD24579D2279)) and (not IsBranchStepComplete(0xE000DD24579D2279, 1, 6))">
-					<UseObject QuestId="0xE000DD24579D2279" Name="Ship Door" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="97.74674,-0.4601102,64.91581"/>
+					<UseObject QuestId="0xE000DD24579D2279" BranchId="1" StepId="6" Name="Ship Door" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="97.74674,-0.4601102,64.91581"/>
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
 				<CompleteQuest QuestName="Joy Ride" QuestId="0xE000DD24579D2279" RewardIndex="1" />

@@ -1074,11 +1074,11 @@
 			</If>
 			<!-- Final Stage - Revenge Served Cold (Bonus) -->
 			<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsQuestComplete(0xE00015EBCCB6BBE3)))">
-				<While Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 4)))">
+				<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 4)))">
 					<MoveTo QuestId="0xE00015EBCCB6BBE3" Name="Thul Dropship Engine" XYZ="-119.2804,22.66312,203.2528" />
 					<Interact QuestId="0xE00015EBCCB6BBE3" Name="Thul Dropship Engine" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="-119.2804,22.66312,203.2528" />
 					<WaitTimer QuestId="1" WaitTime="15" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 7)))">
 					<Grind GrindRef="Final Stage - Revenge Served Cold (Bonus) 7" While="(not IsStepComplete(0xE00015EBCCB6BBE3, 7))" />
 				</If>
@@ -1183,18 +1183,18 @@
 		<!-- Consular - Hostile Negotiations 2-8 -->
 		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsQuestComplete(0xE000477142135D5E)))">
 			<!-- Resets to 2 if we fail the 'defend crap' mission -->
-			<While Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 3)))">
+			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 3)))">
 				<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 2)))">
 					<MoveTo QuestId="0xE000477142135D5E" Name="My Location" XYZ="93.58731,16.51791,151.9694" />
 				</If>
 				<Grind GrindRef="Hostile Negotiations 3" While="(not IsStepComplete(0xE000477142135D5E, 3)) and (IsStepComplete(0xE000477142135D5E, 2))" />
-			</While>
-			<While Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 5)))">
+			</If>
+			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 5)))">
 				<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 4)))">
 					<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" XYZ="86.63162,16.5195,147.1578" />
 				</If>
 				<Grind GrindRef="Hostile Negotiations 3" While="(not IsStepComplete(0xE000477142135D5E, 5)) and (IsStepComplete(0xE000477142135D5E, 4))" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 1, 6)))">
 				<TalkTo QuestId="0xE000477142135D5E" Name="Captain Theress" XYZ="86.63162,16.5195,147.1578" />
 			</If>
@@ -1207,8 +1207,8 @@
 		<!-- Joining the Battle and Turnin -->
 		<If Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsQuestComplete(0xE000FAA6C55763C0)))">
 			<!-- I need to use this at 50% on an npc, 3 sec cast, wait 2 secs after; set pet to passive -->
-			<While Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsStepComplete(0xE000FAA6C55763C0, 2)))">
-				<UseItem QuestId="0xE000FAA6C55763C0" Item="Killik Tranquilizer" OnObject="Joiner Guardian" HealthPercent="50" WaitTime="6500" Range="4" InCombat="True" Radius="200" >
+			<If Condition="((HasQuest(0xE000FAA6C55763C0)) and (not IsStepComplete(0xE000FAA6C55763C0, 2)))">
+				<UseItem QuestId="0xE000FAA6C55763C0" StepId="2" Item="Killik Tranquilizer" OnObject="Joiner Guardian" HealthPercent="50" WaitTime="6500" Range="4" InCombat="True" Radius="200" >
 					<Hotspots>
 						<Hotspot Name="Joiner Guardian" XYZ="97.15846,15.99974,156.887" />
 						<Hotspot Name="Joiner Guardian" XYZ="101.0775,15.97077,157.5351" />
@@ -1217,7 +1217,7 @@
 						<Hotspot Name="Joiner Guardian" XYZ="105.4365,17.75683,148.4504" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 			<!-- set pet to un-passive -->
 			<TurnInQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" TurnInName="Keikana Herot" XYZ="47.0874,18.57019,170.9198" />
 			<CompleteQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" RewardIndex="2" />
@@ -1520,7 +1520,7 @@
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<!-- Final Stage - Their Own Weapons (Bonus) -->
-				<While Condition="((HasQuest(0xE000A28C0E12261D)) and (not IsQuestComplete(0xE000A28C0E12261D)))">
+				<If Condition="((HasQuest(0xE000A28C0E12261D)) and (not IsQuestComplete(0xE000A28C0E12261D)))">
 					<MoveTo QuestId="1" XYZ="113.8246,28.00051,-127.9555" />
 					<MoveTo QuestId="1" XYZ="108.687,28.00051,-131.8215" />
 					<MoveTo QuestId="1" XYZ="110.0785,28.00051,-130.6656" />
@@ -1528,7 +1528,7 @@
 					<MoveTo QuestId="1" XYZ="110.0785,28.00051,-130.6656" />
 					<Interact QuestId="1" Name="Ammunition Load Lifter" IgnoreQuestRelation="True" Radius="20" WaitTime="5" UseRange="20" IgnoreLOS="True" XYZ="110.0785,28.00051,-130.6656" />
 					<WaitTimer QuestId="1" WaitTime="20" />
-				</While>
+				</If>
 				<If Condition="((HasQuest(0xE00083C96853F8D9)) and (not IsTaskComplete(0xE00083C96853F8D9, 2, 1)))">
 					<UseItem QuestId="0xE00083C96853F8D9" Item="Air Strike Triangulation Beacons" WaitTime="3500" Range="4" BranchId="1" StepId="2" TaskId="1" InCombat="False" Radius="2" XYZ="115.1998,23.09589,-97.50856" />
 				</If>

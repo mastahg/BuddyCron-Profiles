@@ -916,7 +916,7 @@
 		
 		<!-- Bomb Disposal and Turnin -->
 		<If Condition="((HasQuest(0xE00033B23E993D6B)) and (not IsQuestComplete(0xE00033B23E993D6B)))">
-			<While Condition="((HasQuest(0xE00033B23E993D6B)) and (not IsBranchStepComplete(0xE00033B23E993D6B, 1, 4)))">
+			<If Condition="((HasQuest(0xE00033B23E993D6B)) and (not IsBranchStepComplete(0xE00033B23E993D6B, 1, 4)))">
 				<UseObject QuestId="0xE00033B23E993D6B" BranchId="1" StepId="3" IgnoreLOS="True" Radius="200" WaitTime="5" >
 					<Placeables>
 						<Placeable>Undetonated Imperial Bomb</Placeable>
@@ -933,7 +933,7 @@
 			<Interact Name="Bomb Disposal Receptacle" X="104.4663" Y="2.395759" Z="88.49078" />
 			<UseObject QuestId="0xE00033B23E993D6B" Name="Bomb Disposal Receptacle" BranchId="1" StepId="4" IgnoreLOS="True" IgnoreQuestRelation="True" Radius="20" X="104.4663" Y="2.395759" Z="88.49078" />
 			-->
-			</While>
+			</If>
 			<TurnInQuest QuestName="Bomb Disposal" QuestId="0xE00033B23E993D6B" TurnInName="Sergeant Larus" XYZ="84.7856,4.801,89.7961" />
 			<CompleteQuest QuestName="Bomb Disposal" QuestId="0xE00033B23E993D6B" RewardIndex="4" />
 		</If>
@@ -974,12 +974,12 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Running Interference (Bonus) -->
-			<While Condition="(not IsQuestComplete(0xE000AF979D58724C))">
+			<If Condition="(not IsQuestComplete(0xE000AF979D58724C))">
 				<MoveTo QuestId="1" Name="My Location" XYZ="75.41029,-2.552419,167.856" />
 				<MoveTo QuestId="1" Name="My Location" XYZ="74.99043,-2.553934,166.9357" />
 				<UseObject QuestId="0xE000AF979D58724C" Name="Turbolaser" IgnoreLOS="True" IgnoreQuestRelation="True" BranchId="1" StepId="4" UseRange="20" XYZ="74.99043,-2.553934,166.9357" />
 				<!--<Grind GrindRef="Final Stage - Running Interference (Bonus)" While="(not IsQuestComplete(0xE000AF979D58724C))" />-->
-			</While>
+			</If>
 			<TurnInQuest QuestName="Blockade Runner" QuestId="0xE0000BA54604D58A" TurnInName="General Aves" XYZ="47.7975,1.401,143.155" />
 			<CompleteQuest QuestName="Blockade Runner" QuestId="0xE0000BA54604D58A" RewardIndex="4" />
 			<!-- Travel Advisory 0xE000B432EEBDD03C-->
@@ -1366,7 +1366,7 @@
 		<!-- Medic! -->
 		<If Condition="((HasQuest(0xE0005EEDECA56FE7)) and (not IsQuestComplete(0xE0005EEDECA56FE7)))">
 			<If Condition="((HasQuest(0xE0005EEDECA56FE7)) and (not IsBranchStepComplete(0xE0005EEDECA56FE7, 1, 2)))">
-				<UseItem QuestId="0xE0005EEDECA56FE7" Name="Field Medic Kit" OnObject="Wounded Soldier" While="(not IsBranchStepComplete(0xE0005EEDECA56FE7, 1, 2))" WaitTime="3500" Range="4" InCombat="False" Radius="20" >
+				<UseItem QuestId="0xE0005EEDECA56FE7" BranchId="1" StepId="2" Name="Field Medic Kit" OnObject="Wounded Soldier" While="(not IsBranchStepComplete(0xE0005EEDECA56FE7, 1, 2))" WaitTime="3500" Range="4" InCombat="False" Radius="20" >
 					<Hotspots>
 						<Hotspot Name="Wounded Soldier" XYZ="-301.4969,-9.60319,-276.3401" />
 						<Hotspot Name="Wounded Soldier" XYZ="-296.0957,-10.59973,-283.1586" />
@@ -1475,7 +1475,7 @@
 		<!-- Morale Boost -->
 		<If Condition="((HasQuest(0xE0000F54FFC8BD43)) and (not IsQuestComplete(0xE0000F54FFC8BD43)))">
 			<!-- Restore the Statues (Bonus) -->
-			<While Condition="(not IsQuestComplete(0xE000E04541BAFCD4))">
+			<If Condition="(not IsQuestComplete(0xE000E04541BAFCD4))">
 				<UserDialog Title="Test" Message="find out what step / tasks these are" />
 				<UseObject QuestId="1" Name="Holostatue of Bastila Shan" Radius="20" WaitTime="5" XYZ="38.62511,1.483414,-309.5106" />
 				<UseObject QuestId="0xE000E04541BAFCD4" Name="Holostatue of Jolee Bindo" Radius="20" WaitTime="5" XYZ="36.94389,2.029958,-306.9198" />
@@ -1485,7 +1485,7 @@
 				<UseObject QuestId="0xE000E04541BAFCD4" Name="Holostatue of Canderous Ordo" Radius="20" WaitTime="5" XYZ="42.03541,2.204499,-300.3733" />
 				<UseObject QuestId="0xE000E04541BAFCD4" Name="Holostatue of Juhani" Radius="20" WaitTime="5" XYZ="39.94398,1.860818,-298.136" />
 				<UseObject QuestId="0xE000E04541BAFCD4" Name="Holostatue of Revan" Radius="20" WaitTime="5" XYZ="42.5608,1.647275,-296.3633" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0000F54FFC8BD43)) and (not IsBranchStepComplete(0xE0000F54FFC8BD43, 1, 2)))">
 				<Grind GrindRef="Morale Boost 2" While="(not IsBranchStepComplete(0xE0000F54FFC8BD43, 1, 2))" />
 			</If>
@@ -1521,12 +1521,12 @@
 		
 		<!-- Rocket Tram Support -->
 		<If Condition="((HasQuest(0xE0005CDF947D09F0)) and (not IsQuestComplete(0xE0005CDF947D09F0)))">
-			<While Condition="((HasQuest(0xE0005CDF947D09F0)) and (not IsBranchStepComplete(0xE0005CDF947D09F0, 1, 2)))">
+			<If Condition="((HasQuest(0xE0005CDF947D09F0)) and (not IsBranchStepComplete(0xE0005CDF947D09F0, 1, 2)))">
 				<TalkTo QuestId="0xE0005CDF947D09F0" Name="Rocket Tram Support Engineer" XYZ="15.12962,5.265329,-268.7744" />
 				<If Condition="((HasQuest(0xE0005CDF947D09F0)) and (not IsBranchStepComplete(0xE0005CDF947D09F0, 1, 3)))">
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
-			</While>
+			</If>
 		</If>
 		
 		<!-- Green Battleground and Turnin -->
@@ -1944,7 +1944,7 @@
 		
 		<!-- A Disaster in the Making -->
 		<If Condition="((HasQuest(0xE000EC60843ACB9C)) and (not IsQuestComplete(0xE000EC60843ACB9C)))">
-			<While Condition="((HasQuest(0xE000EC60843ACB9C)) and (not IsBranchStepComplete(0xE000EC60843ACB9C, 1, 2)))">
+			<If Condition="((HasQuest(0xE000EC60843ACB9C)) and (not IsBranchStepComplete(0xE000EC60843ACB9C, 1, 2)))">
 				<If Condition="((HasQuest(0xE000EC60843ACB9C)) and (not IsBranchTaskComplete(0xE000EC60843ACB9C, 1, 2, 1)))">
 					<UseObject QuestId="0xE000EC60843ACB9C" Name="Dead Republic Soldier" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" XYZ="289.7079,22.41587,-333.2926" />
 				</If>
@@ -1954,7 +1954,7 @@
 				<If Condition="((HasQuest(0xE000EC60843ACB9C)) and (not IsBranchTaskComplete(0xE000EC60843ACB9C, 1, 2, 3)))">
 					<UseObject QuestId="0xE000EC60843ACB9C" Name="Dead Republic Soldier" BranchId="1" StepId="2" TaskId="3" Radius="20" WaitTime="5" XYZ="266.1057,20.39794,-344.505" />
 				</If>
-			</While>
+			</If>
 			<!-- Averting Further Disaster (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002D0E564263C5))">
 				<Grind GrindRef="Averting Further Disaster (Bonus)" While="(not IsQuestComplete(0xE0002D0E564263C5))" />
@@ -2040,7 +2040,7 @@
 				<UseObject QuestId="0xE000FBB74541F4FE" Name="Intercom" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-0.8575445,1.651,2.549704" />
 			</If>
 			<If Condition="((HasQuest(0xE000FBB74541F4FE)) and (not IsBranchStepComplete(0xE000FBB74541F4FE, 1, 7)))">
-				<UseObject QuestId="0xE000FBB74541F4FE" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1209062,1.551,-4.587646" />
+				<UseObject QuestId="0xE000FBB74541F4FE" BranchId="1" StepId="7" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1209062,1.551,-4.587646" />
 				<!-- Coreware Worlds - Coruscant - Travel Now -->
 				<Interact Name="Ship Exit" XYZ="0.0183009,0.5900244,-2.970241" />
 			</If>
@@ -2055,12 +2055,12 @@
 		<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsQuestComplete(0xE000D5AEB3BF7235)))">
 			<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsBranchStepComplete(0xE000D5AEB3BF7235, 1, 2)))">
 				<!-- Get back on our ship - If we're on Coruscant: -->
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Defender" Radius="20" WaitTime="5" XYZ="-88.65568,146.0985,-363.5058" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="2" Name="Defender" Radius="20" WaitTime="5" XYZ="-88.65568,146.0985,-363.5058" />
 				<!-- If I am on my ship - Travel to Republic Fleet -->
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1340952,1.551,-4.615425" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1340952,1.551,-4.615425" />
 				<!-- Coreware Worlds - Republic Fleet - Travel Now -->
 				<!-- Get off Ship -->
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="0.005505912,0.5900244,-2.931612" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="2" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="0.005505912,0.5900244,-2.931612" />
 			</If>
 			<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsBranchStepComplete(0xE000D5AEB3BF7235, 1, 3)))">
 				<TalkTo QuestId="0xE000D5AEB3BF7235" Name="Lieutenant Ha'laa" XYZ="-472.605,71.00104,-475.2872" />
@@ -2069,13 +2069,13 @@
 									XYZ="-466.0504,71.01118,-473.9888" 
 									ToX="-466.3195" ToY="-109.9902" ToZ="-473.6828" />
 	
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Defender" Radius="20" WaitTime="5" XYZ="-460.4858,-109.4982,-479.5872" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="3" Name="Defender" Radius="20" WaitTime="5" XYZ="-460.4858,-109.4982,-479.5872" />
 			</If>
 			<If Condition="((HasQuest(0xE000D5AEB3BF7235)) and (not IsBranchStepComplete(0xE000D5AEB3BF7235, 1, 4)))">
 				<!-- If I am on my ship - Travel to Ilum -->
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1104325,1.551,-4.591144" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="4" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1104325,1.551,-4.591144" />
 				<!-- Unknown Regions - Ilum - Travel Now -->
-				<UseObject QuestId="0xE000D5AEB3BF7235" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.003384925,0.5900244,-2.898256" />
+				<UseObject QuestId="0xE000D5AEB3BF7235" BranchId="1" StepId="4" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.003384925,0.5900244,-2.898256" />
  
 				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Ilum Orbital Station"
 									XYZ="-95.01503,-100.0039,8.917612" 

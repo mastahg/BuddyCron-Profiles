@@ -228,9 +228,9 @@
 		</If>
 		
 		<!-- Speak to Captain Westro -->
-		<While Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)" >
+		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)" >
 			<TalkTo QuestId="0xE000FA06A85AE58A" Name="Captain Westro" XYZ="-197.7387,-145.499,276.7233" />
-		</While>
+		</If>
 		
 		
 		<!-- Breaking the Cure -->
@@ -242,8 +242,8 @@
 		
 		
 		<!-- Breaking the Cure - Destroy Laboratory Computers -->
-		<While Condition="HasQuest(0xE000728061FD054C) and not IsTaskComplete(0xE000728061FD054C, 2, 0)">
-			<UseObject QuestId="0xE000728061FD054C" Name="Research Computer" Radius="200" WaitTime="2" >
+		<If Condition="HasQuest(0xE000728061FD054C) and not IsTaskComplete(0xE000728061FD054C, 2, 0)">
+			<UseObject QuestId="0xE000728061FD054C" StepId="2" TaskId="0" Name="Research Computer" Radius="200" WaitTime="2" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-185.2003,-145.4796,284.756" />
 					<Hotspot Name="My Location" XYZ="-176.3011,-145.4755,290.1191" />
@@ -252,18 +252,18 @@
 					<Hotspot Name="My Location" XYZ="-169.6644,-143.8603,272.8105" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		
 		<!-- Download the Addiction Cure Formula -->
-		<While Condition="HasQuest(0xE000728061FD054C) and not IsTaskComplete(0xE000728061FD054C, 2, 1)">
-			<UseObject Name="Addiction Cure Formula Sequencer" QuestId="0xE000728061FD054C" WaitTime="5" XYZ="-177.8644,-144.6687,279.7437" />
-		</While>
+		<If Condition="HasQuest(0xE000728061FD054C) and not IsTaskComplete(0xE000728061FD054C, 2, 1)">
+			<UseObject Name="Addiction Cure Formula Sequencer" QuestId="0xE000728061FD054C" StepId="2" TaskId="1" WaitTime="5" XYZ="-177.8644,-144.6687,279.7437" />
+		</If>
 		
 		
 		<!-- Catching Bind Point - Binding it to quest 'Breaking the Cure' -->
 		<If Condition="HasQuest(0xE000728061FD054C) and not IsStepComplete(0xE000728061FD054C, 3)">
 			<!-- Learning Bind Point -->
-			<UseObject Name="Republic Research Division" QuestId="0xE000728061FD054C" WaitTime="3" XYZ="-166.1679,-143.899,259.6846" />
+			<UseObject Name="Republic Research Division" QuestId="0xE000728061FD054C" StepId="3" WaitTime="3" XYZ="-166.1679,-143.899,259.6846" />
 		</If>
 		
 		
@@ -277,8 +277,8 @@
 		
 		
 		<!-- Prototype - Destroy Republic Lab Equipment -->
-		<While Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 2)">
-			<UseObject QuestId="0xE000521C263C8511" Radius="200" WaitTime="3">
+		<If Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 2)">
+			<UseObject QuestId="0xE000521C263C8511" StepId="2" TaskId="2" Radius="200" WaitTime="3">
 				<Placeables>
 					<Value>Republic Chemical Refinery</Value>
 					<Value>Republic Chemical Storage Tank</Value>
@@ -288,10 +288,10 @@
 					<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		<!-- Prototype - Destroy Prototype Sensor Boosters -->
-		<While Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 0)">
-			<UseObject QuestId="0xE000521C263C8511" Radius="200" WaitTime="2">
+		<If Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 0)">
+			<UseObject QuestId="0xE000521C263C8511" StepId="2" TaskId="0" Radius="200" WaitTime="2">
 				<Placeables>
 					<Value>Prototype Sensor Booster</Value>
 				</Placeables>
@@ -300,7 +300,7 @@
 					<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		
 		
 		<!-- Follow The Leaders - Defeat Czerka and Republic Team Leaders -->
@@ -312,8 +312,8 @@
 		
 		
 		<!-- Prototype - Destroy Czerka Lab Equipment -->
-		<While Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 1)">
-			<UseObject QuestId="0xE000521C263C8511" Radius="200" WaitTime="2">
+		<If Condition="HasQuest(0xE000521C263C8511) and not IsTaskComplete(0xE000521C263C8511, 2, 1)">
+			<UseObject QuestId="0xE000521C263C8511" StepId="2" TaskId="1" Radius="200" WaitTime="2">
 				<Placeables>
 					<Value>Czerka Chemical Refinery</Value>
 					<Value>Czerka Chemical Storage Tank</Value>
@@ -325,7 +325,7 @@
 					<Hotspot Name="My Location" XYZ="-189.5152,-143.4708,261.126" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		
 		
 		<!-- Prototype - Return to Lieutenant DeMare -->
@@ -363,28 +363,28 @@
 		<Grind GrindRef="Secret Assets - Defeat Revaak" While="not IsStepComplete(0xE0000456F8B395DA, 2)" />
 		
 		<!-- Download the Republic Documents -->
-		<While Condition="HasQuest(0xE0000456F8B395DA) and not IsStepComplete(0xE0000456F8B395DA, 3)" >
-			<UseObject Name="Computer Terminal" QuestId="0xE0000456F8B395DA" WaitTime="3" XYZ="-177.2964,-164.299,306.9469" />
-		</While>
+		<If Condition="HasQuest(0xE0000456F8B395DA) and not IsStepComplete(0xE0000456F8B395DA, 3)" >
+			<UseObject Name="Computer Terminal" QuestId="0xE0000456F8B395DA" StepId="3" WaitTime="3" XYZ="-177.2964,-164.299,306.9469" />
+		</If>
 		
 		
 		<!-- A Message for the Mercenaries - Destroy Nova Guard Supply Cache -->
-		<While Condition="HasQuest(0xE0006D8E0420E64D) and not IsTaskComplete(0xE0006D8E0420E64D, 2, 0)">
-			<UseObject QuestId="0xE0006D8E0420E64D" Name="Nova Guard Supply Cache" Radius="200" WaitTime="2" >
+		<If Condition="HasQuest(0xE0006D8E0420E64D) and not IsTaskComplete(0xE0006D8E0420E64D, 2, 0)">
+			<UseObject QuestId="0xE0006D8E0420E64D" StepId="2" TaskId="0" Name="Nova Guard Supply Cache" Radius="200" WaitTime="2" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-177.3924,-161.624,306.3584" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		<!-- Destroy Crimson Brotherhood Supply Caches -->
-		<While Condition="HasQuest(0xE0006D8E0420E64D) and not IsTaskComplete(0xE0006D8E0420E64D, 2, 1)">
-			<UseObject QuestId="0xE0006D8E0420E64D" Name="Crimson Brotherhood Supply Cache" Radius="200" WaitTime="2" >
+		<If Condition="HasQuest(0xE0006D8E0420E64D) and not IsTaskComplete(0xE0006D8E0420E64D, 2, 1)">
+			<UseObject QuestId="0xE0006D8E0420E64D" StepId="2" TaskId="1" Name="Crimson Brotherhood Supply Cache" Radius="200" WaitTime="2" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-163.8584,-161.719,309.7047" />
 					<Hotspot Name="My Location" XYZ="-161.8656,-161.719,304.5132" />
 				</Hotspots>
 			</UseObject>
-		</While>
+		</If>
 		
 		
 		<!-- A Message for the Mercenaries - Wonkavator to Eliss Pim -->
@@ -403,9 +403,9 @@
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Speak to DX-AX -->
-		<While Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 5)" >
+		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 5)" >
 			<TalkTo QuestId="0xE000FA06A85AE58A" Name="DX-AX" XYZ="-163.4687,-143.899,256.2814" />
-		</While>
+		</If>
 		
 		
 		<!-- [HEROIC 2+] Botched Interrogation -->
@@ -420,14 +420,14 @@
 		<!-- Catching Bind Point - Binding it to quest 'Nar Shaddaa: Bonus Series' -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)">
 			<!-- Learning Bind Point -->
-			<UseObject Name="Network Security District" QuestId="0xE000FA06A85AE58A" WaitTime="3" XYZ="166.3939,-158.799,281.0514" />
+			<UseObject Name="Network Security District" QuestId="0xE000FA06A85AE58A" StepId="7" WaitTime="3" XYZ="166.3939,-158.799,281.0514" />
 		</If>
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Speak to Narvusin -->
-		<While Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)" >
+		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)" >
 			<TalkTo QuestId="0xE000FA06A85AE58A" Name="Narvusin" XYZ="160.7192,-158.799,282.3236" />
-		</While>
+		</If>
 		
 		
 		<!-- Zero Protocol -->
@@ -439,9 +439,9 @@
 		
 		
 		<!-- Zero Protocol - Spike the First Computer Terminal-->
-		<While Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 2)" >
-			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" WaitTime="4" XYZ="165.6154,-156.299,302.3669" />
-		</While>
+		<If Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 2)" >
+			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" StepId="2" WaitTime="4" XYZ="165.6154,-156.299,302.3669" />
+		</If>
 		
 		
 		<!-- Zero Sum - Terminate Free Enclave Droids -->
@@ -449,9 +449,9 @@
 		
 		
 		<!-- Zero Protocol - Spike the Second Computer Terminal -->
-		<While Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 3)" >
-			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" WaitTime="4" XYZ="185.6356,-158.799,314.6104" />
-		</While>
+		<If Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 3)" >
+			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" StepId="3" WaitTime="4" XYZ="185.6356,-158.799,314.6104" />
+		</If>
 		
 		
 		<!-- Backdoor -->
@@ -463,9 +463,9 @@
 		
 		
 		<!-- Backdoor - Plant Virus on the Republic HoloNet Computer -->
-		<While Condition="HasQuest(0xE000EB72731E314A) and not IsStepComplete(0xE000EB72731E314A, 2)" >
-			<UseObject Name="Republic Holonet Computer" QuestId="0xE000EB72731E314A" WaitTime="4" XYZ="175.8474,-155.299,317.2423" />
-		</While>
+		<If Condition="HasQuest(0xE000EB72731E314A) and not IsStepComplete(0xE000EB72731E314A, 2)" >
+			<UseObject Name="Republic Holonet Computer" QuestId="0xE000EB72731E314A" StepId="2" WaitTime="4" XYZ="175.8474,-155.299,317.2423" />
+		</If>
 		
 		
 		<!-- Backdoor - Return to Kilo Detton -->
@@ -474,9 +474,9 @@
 		
 		
 		<!-- Zero Protocol - Spike the Third Computer Terminal -->
-		<While Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 4)" >
-			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" WaitTime="4" XYZ="196.1272,-156.799,296.1193" />
-		</While>
+		<If Condition="HasQuest(0xE000A8664EBB90AC) and not IsStepComplete(0xE000A8664EBB90AC, 4)" >
+			<UseObject Name="Computer Terminal" QuestId="0xE000A8664EBB90AC" StepId="4" WaitTime="4" XYZ="196.1272,-156.799,296.1193" />
+		</If>
 		
 		
 		<!-- ELEVATOR -->
@@ -531,9 +531,9 @@
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Return to Narvusin -->
-		<While Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 9)" >
+		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 9)" >
 			<TalkTo QuestId="0xE000FA06A85AE58A" Name="Narvusin" XYZ="160.7192,-158.799,282.3236" />
-		</While>
+		</If>
 		
 		
 		<!-- Severance Pay -->
@@ -549,34 +549,34 @@
 		
 		
 		<!-- Spreading the Word - Meet with the Speechmaker -->
-		<While Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 3)" >
-			<While Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 2)" >
+		<If Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 3)" >
+			<If Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 2)" >
 				<TalkTo QuestId="0xE0008AE21A5472EE" Name="Speechmaker" XYZ="156.4339,-156.7879,319.3354" />
-			</While>
+			</If>
 			<!-- <While Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 3)" > -->
 			<!-- Escort not implemented yet -
 			<Escort QuestId="0xE0008AE21A5472EE" While="not IsStepComplete(0xE0008AE21A5472EE, 3)" Name="Speechmaker" X="156.4859" Y="-156.7988" Z="319.407" />
 			-->
 			<!-- </While -->
-		</While>
+		</If>
 		
 		<!-- Speak to the Speechmaker -->
-		<While Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 4)" >
+		<If Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 4)" >
 			<TalkTo QuestId="0xE0008AE21A5472EE" Name="Speechmaker" XYZ="146.6451,-156.822,318.6577" />
-		</While>
+		</If>
 		
 		<!-- Destroy Hutt Security Droids -->
 		<Grind GrindRef="Spreading the Word - Destroy Hutt Security Droids" While="not IsStepComplete(0xE0008AE21A5472EE, 5)" />
 		
 		<!-- Deliver the Speech -->
-		<While Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 6)" >
-			<UseObject Name="Broadcast Terminal" QuestId="0xE0008AE21A5472EE" WaitTime="1500" XYZ="145.3662,-156.822,318.6468" />
-		</While>
+		<If Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 6)" >
+			<UseObject Name="Broadcast Terminal" QuestId="0xE0008AE21A5472EE" StepId="6" WaitTime="1500" XYZ="145.3662,-156.822,318.6468" />
+		</If>
 		
 		
 		<!-- Severance Pay - Find and Defeat the Traitors -->
-		<While Condition="HasQuest(0xE000A88937BF381A) and not IsStepComplete(0xE000A88937BF381A, 2)" >
-			<UseItem Name="Chiiv's Scanner" QuestId="0xE000A88937BF381A" OnObject="Prison Yard Sentry" WaitTime="5" Range="20" InCombat="False" Radius="200">
+		<If Condition="HasQuest(0xE000A88937BF381A) and not IsStepComplete(0xE000A88937BF381A, 2)" >
+			<UseItem Name="Chiiv's Scanner" QuestId="0xE000A88937BF381A" StepId="2" OnObject="Prison Yard Sentry" WaitTime="5" Range="20" InCombat="False" Radius="200">
 				<Hotspots>
 					<Hotspot Name="Prison Yard Sentry" XYZ="185.1758,-157.599,327.3798" />
 					<Hotspot Name="Prison Yard Sentry" XYZ="192.5658,-157.599,334.1384" />
@@ -584,7 +584,7 @@
 					<Hotspot Name="Prison Yard Sentry" XYZ="181.3259,-158.3708,338.7979" />
 				</Hotspots>
 			</UseItem>
-		</While>
+		</If>
 		
 		
 		<!-- Spreading the Word - Return to Minos Porter -->
@@ -622,7 +622,7 @@
 			</If>
 			<!-- Entering Ship -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
-				<UseObject Name="X-70B Phantom" QuestId="0xE000C700544E8F98" WaitTime="30000" XYZ="-212.0615,-6.332781,-210.6347" />
+				<UseObject Name="X-70B Phantom" QuestId="0xE000C700544E8F98" StepId="2" WaitTime="30000" XYZ="-212.0615,-6.332781,-210.6347" />
 			</If>
 			<!-- Use Galaxy Map to Alderaan - Binding it to "Formal Introductions" -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
@@ -633,9 +633,9 @@
 		
 			<!-- Formal Introductions -->
 			<!-- Exit Ship -->
-			<While Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)" >
-				<UseObject Name="Ship Exit" QuestId="0xE000C700544E8F98" WaitTime="90000" XYZ="1.11425,0.8599994,1.776478" />
-			</While>
+			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)" >
+				<UseObject Name="Ship Exit" QuestId="0xE000C700544E8F98" StepId="4" WaitTime="90000" XYZ="1.11425,0.8599994,1.776478" />
+			</If>
 		
 			<!-- Wonkavator to Vector Hyllus -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)">

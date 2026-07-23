@@ -1132,11 +1132,11 @@
 		
 		<!-- The Hunted -->
 		<If Condition="((HasQuest(0xE00099219A9CAE3C)) and (not IsQuestComplete(0xE00099219A9CAE3C)))">
-			<While Condition="((HasQuest(0xE00099219A9CAE3C)) and (not IsStepComplete(0xE00099219A9CAE3C, 2)))">
+			<If Condition="((HasQuest(0xE00099219A9CAE3C)) and (not IsStepComplete(0xE00099219A9CAE3C, 2)))">
 				<MoveTo QuestId="0xE00099219A9CAE3C" Name="Public Holoterminal" BranchId="1" StepId="2" XYZ="203.6384,43.86754,-375.3651" />
 				<UseObject QuestId="0xE00099219A9CAE3C" Name="Public Holoterminal" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="203.6384,43.86754,-375.3651" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE00099219A9CAE3C)) and (not IsStepComplete(0xE00099219A9CAE3C, 3)))">
 				<MoveTo QuestId="0xE00099219A9CAE3C" Name="Going to the Anchorhead Western Warehouse" XYZ="174.0291,44.45753,-362.0706" />
 				<MoveTo QuestId="0xE00099219A9CAE3C" Name="Going to the Anchorhead Western Warehouse" XYZ="174.2615,44.4783,-362.5086" />
@@ -1224,10 +1224,10 @@
 		<!-- Smuggler's Route 4-5 -->
 		<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsQuestComplete(0xE000908AED28019E)))">
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 4)))">
-				<While Condition="((HasQuest(0xE000908AED28019E)) and (not IsTaskComplete(0xE000908AED28019E, 4, 0)))">
+				<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsTaskComplete(0xE000908AED28019E, 4, 0)))">
 					<UseItem QuestId="0xE000908AED28019E" Item="Signaling Device" StepId="4" TaskId="0" WaitTime="10" XYZ="227.6121,42.08057,-364.2615" />
 					<TalkTo QuestId="0xE000908AED28019E" Name="Shenax" XYZ="227.1961,42.09757,-363.7278" />
-				</While>	
+				</If>	
 			</If>
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 5)))">
 				<TalkTo QuestId="0xE000908AED28019E" Name="Shenax" XYZ="227.1961,42.09757,-363.7278" />
@@ -1456,7 +1456,7 @@
 		
 		<!-- Shock Treatment 2 -->
 		<If Condition="((HasQuest(0xE0003BF69E6650DB)) and (not IsQuestComplete(0xE0003BF69E6650DB)))">
-			<While Condition="((HasQuest(0xE0003BF69E6650DB)) and (not IsStepComplete(0xE0003BF69E6650DB, 2)))">
+			<If Condition="((HasQuest(0xE0003BF69E6650DB)) and (not IsStepComplete(0xE0003BF69E6650DB, 2)))">
 				<UseItem QuestId="0xE0003BF69E6650DB" Item="Veek's Modified Ion Gun" StepId="2" WaitTime="10" Range="20" InCombat="True" Radius="200"  >
 					<Npcs>
 						<Npc>Unstable Defense Droid</Npc>
@@ -1468,7 +1468,7 @@
 						<Hotspot Name="Unstable Defense Droid" XYZ="20.60373,49.13436,-196.2677" />
 					</Hotspots>
 				</UseItem>
-			</While>
+			</If>
 		</If>
 		
 		<!-- Knight - The Shock Drum -->
@@ -1487,11 +1487,11 @@
 			<If Condition="((HasQuest(0xE000CC6570F3E830)) and (not IsBranchStepComplete(0xE000CC6570F3E830, 1, 6)))"> 			
 				<MoveTo QuestId="0xE000CC6570F3E830" Name="Searching for Survivors" XYZ="25.0637,50.3294,-230.4035" />
 			</If>	
-			<While Condition="((HasQuest(0xE000CC6570F3E830)) and (not IsBranchStepComplete(0xE000CC6570F3E830, 1, 8)))"> 			
+			<If Condition="((HasQuest(0xE000CC6570F3E830)) and (not IsBranchStepComplete(0xE000CC6570F3E830, 1, 8)))"> 			
 				<UseObject QuestId="0xE000CC6570F3E830" Name="Generator Node Aurek-01 Panel" BranchId="1" StepId="8" TaskId="0" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="17.09851,49.49528,-206.4587" />
 				<UseObject QuestId="0xE000CC6570F3E830" Name="Generator Node Besh-04 Panel" BranchId="1" StepId="8" TaskId="1" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="17.1694,49.52102,-207.5343" />
 				<UseObject QuestId="0xE000CC6570F3E830" Name="Generator Node Cresh-06 Panel" BranchId="1" StepId="8" TaskId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="17.33419,49.59838,-208.6057" />
-			</While>	
+			</If>	
 			<If Condition="((HasQuest(0xE000CC6570F3E830)) and (not IsBranchStepComplete(0xE000CC6570F3E830, 1, 9)))"> 			
 				<TalkTo QuestId="0xE000CC6570F3E830" Name="Seismologist Hare'en" XYZ="25.0637,50.3294,-230.4035" />
 			</If>
@@ -1607,10 +1607,10 @@
 		<!-- Knight - Race Against Doom -->
 		<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsQuestComplete(0xE000589636FE1025)))">
 			<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchStepComplete(0xE000589636FE1025, 1, 2)))"> 	
-				<While Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 0)))"> 
+				<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 0)))"> 
 					<MoveTo QuestId="0xE000589636FE1025" Name="Going to place a Sensor at Bak'arap Farmstead" XYZ="89.59762,42.62013,-238.4814" />
 					<UseItem QuestId="0xE000589636FE1025" Item="Ultrasonic Sensors" BranchId="1" StepId="2" TaskId="0" WaitTime="10" Range="1" InCombat="False" Radius="1" XYZ="89.59762,42.62013,-238.4814" />
-				</While>				
+				</If>				
 			</If>
 		</If>
 		
@@ -1661,18 +1661,18 @@
 		<!-- Knight - Race Against Doom -->
 		<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsQuestComplete(0xE000589636FE1025)))">
 			<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchStepComplete(0xE000589636FE1025, 1, 2)))"> 	
-				<While Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 1)))"> 
+				<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 1)))"> 
 					<MoveTo QuestId="0xE000589636FE1025" Name="Going to place a Sensor at the Northern Windfarm" XYZ="61.4323,42.75684,-275.6011" />
 					<UseItem QuestId="0xE000589636FE1025" Item="Ultrasonic Sensors" BranchId="1" StepId="2" TaskId="1" WaitTime="10" Range="1" InCombat="False" Radius="1" XYZ="61.4323,42.75684,-275.6011" />
-				</While>
+				</If>
 				<!-- No Quarter Given (Bonus) -->
 				<If Condition="((HasQuest(0xE0003AA6997E9B0F)) and (not IsQuestComplete(0xE0003AA6997E9B0F)))">
 					<Grind GrindRef="No Quarter Given (Bonus)" While="(not IsQuestComplete(0xE0003AA6997E9B0F))" />
 				</If>		
-				<While Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 2)))"> 
+				<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchTaskComplete(0xE000589636FE1025, 1, 2, 2)))"> 
 					<MoveTo QuestId="0xE000589636FE1025" Name="Going to place a Sensor at Northern Jundland Plateau" XYZ="38.87753,44.30219,-240.5167" />
 					<UseItem QuestId="0xE000589636FE1025" Item="Ultrasonic Sensors" BranchId="1" StepId="2" TaskId="2" WaitTime="10" Range="1" InCombat="False" Radius="1" XYZ="38.87753,44.30219,-240.5167" />
-				</While>
+				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchStepComplete(0xE000589636FE1025, 1, 3)))"> 	
 				<AnswerHolocomCall QuestName="Race Against Doom" QuestId="0xE000589636FE1025" />
@@ -1889,7 +1889,7 @@
 		</If>
 		<If Condition="((HasQuest(0xE000CEEB0E9EC5E9)) and (not IsQuestComplete(0xE000CEEB0E9EC5E9)))">
 			<If Condition="((HasQuest(0xE000CEEB0E9EC5E9)) and (not IsBranchStepComplete(0xE000CEEB0E9EC5E9, 1, 2)))">
-				<UseObject QuestId="0xE000CEEB0E9EC5E9" Name="Security Door" Radius="20" WaitTime="5" XYZ="-38.96703,50.80582,-194.6957" />
+				<UseObject QuestId="0xE000CEEB0E9EC5E9" BranchId="1" StepId="2" Name="Security Door" Radius="20" WaitTime="5" XYZ="-38.96703,50.80582,-194.6957" />
 			</If>
 			<If Condition="((HasQuest(0xE000CEEB0E9EC5E9)) and (not IsBranchStepComplete(0xE000CEEB0E9EC5E9, 5, 2)))">
 				<TalkTo QuestId="0xE000CEEB0E9EC5E9" Name="Nariel Pridence" XYZ="-43.6035,50.64665,-180.9545" />
@@ -1934,15 +1934,15 @@
 		<!-- Field Trip 2-3 -->
 		<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsQuestComplete(0xE00021D6563620D1)))">
 			<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsStepComplete(0xE00021D6563620D1, 2)))">
-				<While Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 0)))">
-					<UseItem QuestId="0xE00021D6563620D1" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-26.81024,44.12791,-182.0778" />
-				</While>
-				<While Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 1)))">
-					<UseItem QuestId="0xE00021D6563620D1" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-48.01764,48.88681,-151.5781" />
-				</While>
-				<While Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 2)))">
-					<UseItem QuestId="0xE00021D6563620D1" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-16.08807,46.24092,-155.8151" />
-				</While>
+				<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 0)))">
+					<UseItem QuestId="0xE00021D6563620D1" StepId="2" TaskId="0" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-26.81024,44.12791,-182.0778" />
+				</If>
+				<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 1)))">
+					<UseItem QuestId="0xE00021D6563620D1" StepId="2" TaskId="1" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-48.01764,48.88681,-151.5781" />
+				</If>
+				<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsTaskComplete(0xE00021D6563620D1, 2, 2)))">
+					<UseItem QuestId="0xE00021D6563620D1" StepId="2" TaskId="2" Item="Field Scanner" WaitTime="13500" Range="4" InCombat="False" Radius="200" XYZ="-16.08807,46.24092,-155.8151" />
+				</If>
 			</If>
 			<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsStepComplete(0xE00021D6563620D1, 3)))">
 				<!-- Elevator down -->
@@ -2109,10 +2109,10 @@
 					<Grind GrindRef="For Future Generations (Bonus)" While="(not IsQuestComplete(0xE0004C7DB0523615))" />
 				</If>					
 			</If>
-			<While Condition="((HasQuest(0xE000BBDBA66D502F)) and (not IsBranchStepComplete(0xE000BBDBA66D502F, 2, 3)))">
+			<If Condition="((HasQuest(0xE000BBDBA66D502F)) and (not IsBranchStepComplete(0xE000BBDBA66D502F, 2, 3)))">
 				<MoveTo QuestId="0xE000BBDBA66D502F" Name="Going to use the Shock Drum Electro-Code Transmitter" XYZ="-90.48685,38.52878,-83.96887" />
-				<UseItem QuestId="0xE000BBDBA66D502F" Item="Shock Drum Electro-Code Transmitter" WaitTime="10" Range="1" InCombat="False" Radius="1" XYZ="-90.48685,38.52878,-83.96887" />
-			</While>			
+				<UseItem QuestId="0xE000BBDBA66D502F" BranchId="2" StepId="3" Item="Shock Drum Electro-Code Transmitter" WaitTime="10" Range="1" InCombat="False" Radius="1" XYZ="-90.48685,38.52878,-83.96887" />
+			</If>			
 			<If Condition="((HasQuest(0xE000BBDBA66D502F)) and (not IsBranchStepComplete(0xE000BBDBA66D502F, 2, 4)))">
 				<TalkTo QuestId="0xE000BBDBA66D502F" Name="Master Bela Kiwiiks" XYZ="-90.8441,38.52883,-84.6538" />
 			</If>		
@@ -2148,10 +2148,10 @@
 				</If>
 				<!-- Stage 2 - A Thorough Cleaning (Bonus) -->
 				<If Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsQuestComplete(0xE00021EF044BFF42)))">
-					<While Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 0)))">
+					<If Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 0)))">
 						<UseObject QuestId="0xE00021EF044BFF42" Name="Drill Platform Control" BranchId="1" StepId="4" TaskId="0" Radius="20" WaitTime="5" IgnoreLOS="True" XYZ="-230.3389,31.23893,-8.162656" />
-					</While>	
-					<While Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 1)))">
+					</If>	
+					<If Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 1)))">
 						<MoveTo QuestId="1" Name="Walking up the ramp 1" XYZ="-226.0606,30.93493,3.789906" />
 						<MoveTo QuestId="1" Name="Walking up the ramp 2" IgnoreMesh="true" XYZ="-227.8477,31.69941,3.829393" />
 						<MoveTo QuestId="1" Name="Walking up the ramp 3" IgnoreMesh="true" XYZ="-229.1349,31.70749,4.195357" />
@@ -2169,13 +2169,13 @@
 						<MoveTo QuestId="1" Name="Walking down the ramp 3" IgnoreMesh="true" XYZ="-229.1349,31.70749,4.195357" />
 						<MoveTo QuestId="1" Name="Walking down the ramp 2" IgnoreMesh="true" XYZ="-227.8477,31.69941,3.829393" />
 						<MoveTo QuestId="1" Name="Walking down the ramp 1" IgnoreMesh="true" XYZ="-226.0606,30.93493,3.789906" />					
-					</While>	
-					<While Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 2)))">					
+					</If>	
+					<If Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 2)))">					
 						<UseObject QuestId="0xE00021EF044BFF42" Name="Climate Control Substation" BranchId="1" StepId="4" TaskId="2" Radius="20" WaitTime="5" IgnoreLOS="True" XYZ="-215.8549,31.71594,-5.771022" />
-					</While>	
-					<While Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 3)))">					
+					</If>	
+					<If Condition="((HasQuest(0xE00021EF044BFF42)) and (not IsTaskComplete(0xE00021EF044BFF42, 4, 3)))">					
 						<UseObject QuestId="0xE00021EF044BFF42" Name="Facility Power Control Terminal" BranchId="1" StepId="4" TaskId="3" Radius="20" WaitTime="5" IgnoreLOS="True" XYZ="-205.1355,30.93119,-4.172706" />
-					</While>	
+					</If>	
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<!-- Final Stage - A Thorough Cleaning (Bonus) -->
@@ -2272,10 +2272,10 @@
 			<If Condition="((HasQuest(0xE00011F9B1114809)) and (not IsStepComplete(0xE00011F9B1114809, 2)))">
 				<Grind GrindRef="Pre-emptive Strike 2" While="(not IsStepComplete(0xE00011F9B1114809, 2))" />
 			</If>
-			<While Condition="((HasQuest(0xE00011F9B1114809)) and (not IsStepComplete(0xE00011F9B1114809, 3)))">
+			<If Condition="((HasQuest(0xE00011F9B1114809)) and (not IsStepComplete(0xE00011F9B1114809, 3)))">
 				<UseObject QuestId="0xE00011F9B1114809" Name="Port Regulator" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" WaitTime="5" XYZ="-195.3622,43.85203,-187.8113" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-			</While>
+			</If>
 		</If>
 
 		<!-- Turnin Can't Live With 'Em -->
@@ -2388,7 +2388,7 @@
 		<PickUpQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" GiverName="Krikit" XYZ="163.9429,44.1649,-209.9381" />
 
 		<!-- Militia Training -->
-		<While Condition="((HasQuest(0xE00033043A34F770)) and (not IsQuestComplete(0xE00033043A34F770)))">
+		<If Condition="((HasQuest(0xE00033043A34F770)) and (not IsQuestComplete(0xE00033043A34F770)))">
 			<While Condition="((HasQuest(0xE00033043A34F770)) and ((not IsStepComplete(0xE00033043A34F770, 2)) or (not IsStepComplete(0xE00033043A34F770, 3))))">
 				<UseObject QuestId="0xE00033043A34F770" Name="Intercom" BranchId="1" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="166.9438,44.22942,-211.2556" />
 				<Grind GrindRef="Militia Training 3" While="((IsStepComplete(0xE00033043A34F770, 2)) and (not IsStepComplete(0xE00033043A34F770, 3)))" />
@@ -2404,7 +2404,7 @@
 			<!-- Trooper - 0=comms; 1=container; 2=helmet -->
 			<!-- Knight - 0=comms; 1=container; 2=helmet -->
 			<!-- Smuggler - 0=comms; 1=container; 2=deff helmet; 3=dps helmet -->
-		</While>
+		</If>
 		
 		<!-- Ignoring 2+ Breaking the Code -->
 
@@ -2417,7 +2417,7 @@
 			<If Condition="(not IsQuestComplete(0xE0006EC44DAB5D14)) and (HasQuest(0xE000F14A6C5A53A2)) and (not IsQuestComplete(0xE000F14A6C5A53A2))">
 				<Grind GrindRef="Jawa Justice (Bonus)" While="(not IsQuestComplete(0xE0006EC44DAB5D14))" />
 			</If>		 
-			<While Condition="((HasQuest(0xE000F14A6C5A53A2)) and (not IsStepComplete(0xE000F14A6C5A53A2, 2)))">
+			<If Condition="((HasQuest(0xE000F14A6C5A53A2)) and (not IsStepComplete(0xE000F14A6C5A53A2, 2)))">
 				<UseObject QuestId="0xE000F14A6C5A53A2" Name="Jawa Cage" BranchId="1" StepId="2" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="128.8899,43.52245,-209.9625" />
@@ -2429,7 +2429,7 @@
 						<Hotspot Name="Sand People Pillager" XYZ="119.9111,43.57248,-206.7931" />
 					</Hotspots>
 				</UseObject>
-			</While>
+			</If>
 		</If>
 	
 		<PickUpQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" GiverName="Rinnas Edu" XYZ="156.6217,42.67605,-188.6903" />
@@ -2514,9 +2514,9 @@
 
 		<!-- Militia's Trial -->
 		<If Condition="((HasQuest(0xE000A7F9017979A9)) and (not IsQuestComplete(0xE000A7F9017979A9)))">
-			<While Condition="((HasQuest(0xE000A7F9017979A9)) and (not IsBranchStepComplete(0xE000A7F9017979A9, 1, 2)))">
+			<If Condition="((HasQuest(0xE000A7F9017979A9)) and (not IsBranchStepComplete(0xE000A7F9017979A9, 1, 2)))">
 				<TalkTo QuestId="0xE000A7F9017979A9" Name="Vastil" XYZ="194.785,42.7437,-159.6749" />
-			</While>		
+			</If>		
 		</If>
 		
 		<!-- The Geonosian Offensive -->
@@ -2534,12 +2534,12 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsStepComplete(0xE000807CD4DCC6DE, 3)))">
-				<While Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 2)))"> <!-- Power Relay -->
-					<UseItem QuestId="0xE000807CD4DCC6DE" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="191.285,42.87759,-151.5124" />
-				</While>
-				<While Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 0)))"> <!-- Generator -->
-					<UseItem QuestId="0xE000807CD4DCC6DE" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="203.962,42.78537,-161.3266" />
-				</While>				
+				<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 2)))"> <!-- Power Relay -->
+					<UseItem QuestId="0xE000807CD4DCC6DE" StepId="3" TaskId="2" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="191.285,42.87759,-151.5124" />
+				</If>
+				<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 0)))"> <!-- Generator -->
+					<UseItem QuestId="0xE000807CD4DCC6DE" StepId="3" TaskId="0" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="203.962,42.78537,-161.3266" />
+				</If>				
 			</If>	
 		</If>
 
@@ -2576,19 +2576,19 @@
 		<!-- The Geonosian Offensive -->
 		<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsQuestComplete(0xE000807CD4DCC6DE)))">
 			<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsStepComplete(0xE000807CD4DCC6DE, 3)))">
-				<While Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 1)))"> <!-- Mainframe -->
-					<UseItem QuestId="0xE000807CD4DCC6DE" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="206.2871,42.401,-139.0313" />
-				</While>
+				<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsTaskComplete(0xE000807CD4DCC6DE, 3, 1)))"> <!-- Mainframe -->
+					<UseItem QuestId="0xE000807CD4DCC6DE" StepId="3" TaskId="1" Item="Satchel of Militia Explosives" WaitTime="3500" Range="4" InCombat="False" Radius="200" XYZ="206.2871,42.401,-139.0313" />
+				</If>
 			</If>	
 		</If>		
 
 		<!-- Militia's Trial and Turnin -->
 		<If Condition="((HasQuest(0xE000A7F9017979A9)) and (not IsQuestComplete(0xE000A7F9017979A9)))">
 			<!-- Final Stage - Geonosian War (Bonus) -->
-			<While Condition="((HasQuest(0xE000C2F26FFA94AD)) and (not IsQuestComplete(0xE000C2F26FFA94AD)))">
+			<If Condition="((HasQuest(0xE000C2F26FFA94AD)) and (not IsQuestComplete(0xE000C2F26FFA94AD)))">
 				<Grind GrindRef="Final Stage - Geonosian War (Bonus)" While="(HasQuest(0xE000C2F26FFA94AD))" />
 				<!-- 12k Elite -->
-			</While>
+			</If>
 		</If>
 
 		<!-- Militia's Trial -->
@@ -2602,9 +2602,9 @@
 		<!-- The Geonosian Offensive -->
 		<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsQuestComplete(0xE000807CD4DCC6DE)))">
 			<!-- The Geonosian Eviction (Bonus) -->
-			<While Condition="((HasQuest(0xE000F11A1534CB8D)) and (not IsQuestComplete(0xE000F11A1534CB8D)))">
+			<If Condition="((HasQuest(0xE000F11A1534CB8D)) and (not IsQuestComplete(0xE000F11A1534CB8D)))">
 				<Grind GrindRef="The Geonosian Eviction (Bonus)" While="(not IsQuestComplete(0xE000F11A1534CB8D))" />
-			</While>	
+			</If>	
 		</If>
 
 		<!-- Militia's Trial and Turnin -->
@@ -2781,10 +2781,10 @@
 			</If>
 			
 			<!-- Final Stage - The Fall of the Sand People (Bonus) -->
-			<While Condition="((HasQuest(0xE000E944ED9A0E6D)) and (not IsQuestComplete(0xE000E944ED9A0E6D)))">
+			<If Condition="((HasQuest(0xE000E944ED9A0E6D)) and (not IsQuestComplete(0xE000E944ED9A0E6D)))">
 				<UseObject QuestId="0xE000E944ED9A0E6D" Name="Herald's Totem" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="203.748,45.8204,29.48336" />
 				<WaitTimer QuestId="1" WaitTime="15" />
-			</While>
+			</If>
 			<!-- Quick travel to Largona -->
 		</If>
 		

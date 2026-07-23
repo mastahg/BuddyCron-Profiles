@@ -980,7 +980,7 @@
 			Lt Iresso - Command Decisions
 			Nadia Grell - Being Composed
 			-->
-				<UseObject QuestId="0xE000484D39EFD2FE" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.08519984,1.551,-4.620997" />
+				<UseObject QuestId="0xE000484D39EFD2FE" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.08519984,1.551,-4.620997" />
 				<!-- Hutt Space - Voss - Travel Now -->
 				<MoveTo QuestId="0xE000484D39EFD2FE" Name="Intercom" XYZ="-0.66154,1.651,2.209565" />
 				<WaitTimer WaitTime="15" />
@@ -1205,12 +1205,12 @@
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 2)))">
 				<MoveTo QuestId="0xE0005C66E6857665" Name="Corruption" XYZ="-220.3279,-0.09999979,-251.7991" />
 			</If>
-			<While Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 3)))">
+			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 3)))">
 				<UseObject QuestId="0xE0005C66E6857665" Name="Outside Influence" BranchId="10" StepId="3" TaskId="2" Radius="20" WaitTime="5" XYZ="-222.5198,-0.07650181,-252.715" />
 				<UseObject QuestId="0xE0005C66E6857665" Name="Reformation" BranchId="10" StepId="3" TaskId="3" Radius="20" WaitTime="5" XYZ="-222.4857,-0.07654257,-250.9084" />
 				<UseObject QuestId="0xE0005C66E6857665" Name="Divisiveness" BranchId="10" StepId="3" TaskId="0" Radius="20" WaitTime="5" XYZ="-225.6219,-0.02628418,-250.7791" />
 				<UseObject QuestId="0xE0005C66E6857665" Name="The Gormak Heresy" BranchId="10" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="-225.5138,-0.03890586,-252.7948" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 5)))">
 				<Grind GrindRef="The Trials 10 5" While="(not IsBranchStepComplete(0xE0005C66E6857665, 10, 5))" />
 			</If>
@@ -1428,20 +1428,20 @@
 					<Grind GrindRef="AREA] Sabotage the Gormak 3 2" While="(not IsBranchTaskComplete(0xE0001A5AB27E2D66, 1, 3, 2))" />
 				</If>
 			</If>
-			<While Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsBranchStepComplete(0xE0001A5AB27E2D66, 1, 5)))">
+			<If Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsBranchStepComplete(0xE0001A5AB27E2D66, 1, 5)))">
 				<UseObject QuestId="0xE0001A5AB27E2D66" Name="Tech Cache" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="10.05919,23.34718,98.34626" />
 				<WaitTimer WaitTime="5" />
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsBranchStepComplete(0xE0001A5AB27E2D66, 1, 7)))">
 				<MoveTo QuestId="1" XYZ="2.552411,23.27264,99.12405" />
 				<WaitTimer WaitTime="5" />
 				<MoveTo QuestId="1" XYZ="2.552411,23.27264,99.12405" />
 				<UseObject QuestId="0xE0001A5AB27E2D66" Name="Surveillance Station" BranchId="1" StepId="7" Radius="20" UseRange="20" IgnoreLOS="True" WaitTime="5" XYZ="2.6681,23.29218,99.18665" />
 			</If>
-			<While Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsBranchStepComplete(0xE0001A5AB27E2D66, 1, 9)))">
+			<If Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsBranchStepComplete(0xE0001A5AB27E2D66, 1, 9)))">
 				<UseObject QuestId="0xE0001A5AB27E2D66" Name="Dead Republic Commando" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="33.637,22.39967,130.4071" />
 				<WaitTimer WaitTime="5" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- More Clever Than You'd Think -->
@@ -1540,10 +1540,10 @@
 				<WaitTimer WaitTime="15" />
 			</If>
 			<!-- Final Stage - Gormak Dismemberment (Bonus) -->
-			<While Condition="((HasQuest(0xE00051392914246E)) and (not IsQuestComplete(0xE00051392914246E)))">
+			<If Condition="((HasQuest(0xE00051392914246E)) and (not IsQuestComplete(0xE00051392914246E)))">
 				<UseObject QuestId="0xE00051392914246E" Name="Cannon Survey Station" Radius="20" WaitTime="5" XYZ="25.68939,25.29853,227.7575" />
 				<WaitTimer WaitTime="15" />
-			</While>
+			</If>
 		</If>
 		
 		<!-- Consular - Signs and Signifiers 3-5 and Turnin -->
@@ -1641,10 +1641,10 @@
 				<UseObject QuestId="0xE0004D08113A58C8" Name="Craftsman Shrine" BranchId="1" StepId="3" TaskId="2" Radius="6" IgnoreLOS="True" WaitTime="5" XYZ="170.1554,4.886849,87.50185" />
 				<UseObject QuestId="0xE0004D08113A58C8" Name="Craftsman Shrine" BranchId="1" StepId="3" TaskId="3" Radius="6" IgnoreLOS="True" WaitTime="5" XYZ="177.7089,4.708435,73.6088" />
 			</If>
-			<While Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsBranchStepComplete(0xE0004D08113A58C8, 1, 4)))">
+			<If Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsBranchStepComplete(0xE0004D08113A58C8, 1, 4)))">
 				<UseObject QuestId="0xE0004D08113A58C8" Name="Craftsman Shrine" BranchId="1" StepId="4" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="170.1929,4.888209,87.54605" />
 				<WaitTimer WaitTime="15" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Crafting Nightmares" QuestId="0xE0004D08113A58C8" Type="Placeable" TurnInName="Mission Dropbox" UseRange="2" XYZ="114.4125,2.010583,72.61811" />
 			<CompleteQuest QuestName="Crafting Nightmares" QuestId="0xE0004D08113A58C8" RewardIndex="2" />
 		</If>
@@ -1699,7 +1699,7 @@
 				<UseObject QuestId="0xE0003CB046F6D52F" Name="Dark Crystal" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="68.51246,-2.734501,-8.333184" />
 			</If>
 			<If Condition="((HasQuest(0xE0003CB046F6D52F)) and (not IsBranchStepComplete(0xE0003CB046F6D52F, 1, 3)))">
-				<UseItem QuestId="0xE0003CB046F6D52F" Item="Dark Crystal" OnObject="Corrupted Voss" WaitTime="3500" Range="2" InCombat="True" Radius="100" >
+				<UseItem QuestId="0xE0003CB046F6D52F" BranchId="1" StepId="3" Item="Dark Crystal" OnObject="Corrupted Voss" WaitTime="3500" Range="2" InCombat="True" Radius="100" >
 					<Hotspots>
 						<Hotspot Name="Corrupted Voss" XYZ="81.492,-2.029311,-17.7376" />
 						<Hotspot Name="Corrupted Voss" XYZ="74.69138,-2.873498,-23.29395" />
@@ -1758,21 +1758,21 @@
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 3)))">
 				<UseObject QuestId="0xE00022E4A5FC8BA6" Name="Concealing Rock" BranchId="8" StepId="3" Radius="20" WaitTime="5" XYZ="222.4402,-5.699,-29.73541" />
 			</If>
-			<While Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 4)))">
+			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 4)))">
 				<UseObject QuestId="0xE00022E4A5FC8BA6" Name="Altar of Life" BranchId="8" StepId="4" Radius="20" WaitTime="5" XYZ="222.085,-5.603956,-37.25135" />
 				<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 5)))">
 					<WaitTimer WaitTime="15" />
 				</If>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 6)))">
 				<TalkTo QuestId="0xE00022E4A5FC8BA6" Name="Gaden-Ko" XYZ="222.1045,-5.5991,-37.3154" />
 			</If>
-			<While Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 7)))">
+			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 7)))">
 				<UseObject QuestId="0xE00022E4A5FC8BA6" Name="Altar of Duty" BranchId="8" StepId="7" Radius="20" WaitTime="5" XYZ="215.2722,-5.599,-44.21043" />
 				<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 8)))">
 					<WaitTimer WaitTime="15" />
 				</If>
-			</While>
+			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 9)))">
 				<MoveTo QuestId="0xE00022E4A5FC8BA6" Name="Dark Energy" XYZ="215.2862,-5.68853,-49.24099" />
 			</If>
@@ -2184,10 +2184,10 @@
 				<WaitTimer WaitTime="15" />
 			</If>
 			<!-- Final Stage - Beast Takedown (Bonus) -->
-			<While Condition="(not IsQuestComplete(0xE000184CDDA5EA63))">
+			<If Condition="(not IsQuestComplete(0xE000184CDDA5EA63))">
 				<UseObject QuestId="0xE000184CDDA5EA63" Name="Beast Champion's Trophies" Radius="20" WaitTime="5" XYZ="-100.2621,17.60941,-250.0885" />
 				<WaitTimer WaitTime="15" />
-			</While>
+			</If>
 			<TurnInQuest QuestName="Stop the Excavation" QuestId="0xE00049ECA5248CBB" TurnInName="Nodin-Fe" XYZ="-44.947,15.91542,-200.1962" />
 			<CompleteQuest QuestName="Stop the Excavation" QuestId="0xE00049ECA5248CBB" RewardIndex="2" />
 		</If>
@@ -2275,7 +2275,7 @@
 		<!-- Consular - Shattering -->
 		<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsQuestComplete(0xE0004BBDF55CBDBB)))">
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 2)))">
-				<UseObject QuestId="0xE0004BBDF55CBDBB" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1207214,1.551,-4.656696" />
+				<UseObject QuestId="0xE0004BBDF55CBDBB" BranchId="1" StepId="2" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1207214,1.551,-4.656696" />
 				<!-- Coreware Worlds - The Javelin - Travel Now -->
 				<Interact Name="Ship Exit" XYZ="-0.01200936,0.5900244,-3.01807" />
 				<WaitTimer WaitTime="15" />
@@ -2302,7 +2302,7 @@
 				<UseObject QuestId="0xE0004BBDF55CBDBB" Name="Console" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="16.66924,7.501415,14.20578" />
 			</If>
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 10)))">
-				<UseItem QuestId="0xE0004BBDF55CBDBB" Item="Drone Override Module" OnObject="Disabled Imperial Attack Drone" WaitTime="3500" Range="4" InCombat="False" Radius="20" XYZ="21.0577,7.499991,9.0501" />
+				<UseItem QuestId="0xE0004BBDF55CBDBB" BranchId="1" StepId="10" Item="Drone Override Module" OnObject="Disabled Imperial Attack Drone" WaitTime="3500" Range="4" InCombat="False" Radius="20" XYZ="21.0577,7.499991,9.0501" />
 			</If>
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 11)))">
 				<If Condition="(Me.Position.Y &lt;= 8) and (Me.Position.Y &gt;= 7)">
@@ -2334,12 +2334,12 @@
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 17)))">
 				<MoveTo QuestId="0xE0004BBDF55CBDBB" Name="Bridge" XYZ="10.44835,12.00095,2.674487" />
 			</If>
-			<While Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 18)))">
+			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 18)))">
 				<Interact Name="Maintenance Request Station" XYZ="9.628697,11.98458,4.93978" />
 				<MoveTo QuestId="1" Name="My Location" XYZ="9.60298,11.98458,4.435221" />
 				<WaitTimer WaitTime="16" QuestId="1" />
-				<UseItem QuestId="0xE0004BBDF55CBDBB" Item="Drone Override Module" OnObject="Imperial Maintenance Drone" WaitTime="3500" Range="8" InCombat="False" Radius="10" XYZ="11.82956,12.00095,3.261899" />
-			</While>
+				<UseItem QuestId="0xE0004BBDF55CBDBB" BranchId="1" StepId="18" Item="Drone Override Module" OnObject="Imperial Maintenance Drone" WaitTime="3500" Range="8" InCombat="False" Radius="10" XYZ="11.82956,12.00095,3.261899" />
+			</If>
 			<If Condition="((HasQuest(0xE0004BBDF55CBDBB)) and (not IsBranchStepComplete(0xE0004BBDF55CBDBB, 1, 19)))">
 				<UseObject QuestId="0xE0004BBDF55CBDBB" Name="Detonite Charge" BranchId="1" StepId="19" Radius="20" WaitTime="5" XYZ="9.746754,12.001,10.65439" />
 			</If>
