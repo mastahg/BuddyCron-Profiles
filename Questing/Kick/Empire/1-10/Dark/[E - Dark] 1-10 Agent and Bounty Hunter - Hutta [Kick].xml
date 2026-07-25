@@ -632,10 +632,6 @@
 			<CompleteQuest QuestName="Big Chief" QuestId="0xE000F03D0FCDECA7" RewardIndex="1" />
 		</If>
 	
-		<!-- Agent Specific -->
-		<If Condition="(Me.Class == CharacterClass.Agent)">
-			<PickUpQuest QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" GiverName="Linh" XYZ="-51.9848,4.551,66.1401" />
-		</If>
 
 		<!-- Agent - Soiree -->
 		<If Condition="((HasQuest(0xE000A58671E7E58B)) and (not IsQuestComplete(0xE000A58671E7E58B)))">
@@ -677,12 +673,6 @@
 			</If>
 		</If>
 
-		<!-- Agent - Turnin Friends in Common -->
-		<If Condition="((HasQuest(0xE000AB7432DCCA32)) and (not IsQuestComplete(0xE000AB7432DCCA32)))">
-			<TurnInQuest TurnInName="Lycus Mattle" QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" XYZ="-48.7596,1.698124,50.5027" />
-			<CompleteQuest QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" />
-			<ForceVendor VendorType="Train" />
-		</If>
 		
 		<!-- Pickup A Slight Lean -->
 		<If Condition="((not HasQuest(0xE000DE45E4C10CD4)) and (not IsQuestComplete(0xE000DE45E4C10CD4)))">
@@ -1041,6 +1031,18 @@
 			</If>
 			<!-- Kaliyo Companion -->
 			<CompleteQuest QuestName="Change of Plans" QuestId="0xE000A5E970B33947" RewardIndex="2" />
+		</If>
+		
+				<!-- Agent Specific -->
+		<If Condition="(Me.Class == CharacterClass.Agent)">
+			<PickUpQuest QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" GiverName="Linh" XYZ="-51.9848,4.551,66.1401" />
+		</If>
+
+		<!-- Agent - Turnin Friends in Common -->
+		<If Condition="((HasQuest(0xE000AB7432DCCA32)) and (not IsQuestComplete(0xE000AB7432DCCA32)))">
+			<TurnInQuest TurnInName="Lycus Mattle" QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" XYZ="-48.7596,1.698124,50.5027" />
+			<CompleteQuest QuestName="Friends in Common" QuestId="0xE000AB7432DCCA32" />
+			<ForceVendor VendorType="Train" />
 		</If>
 		
 		<PickUpQuest QuestName="The Rancor Egg" QuestId="0xE000EF0E521CB2DE" GiverName="Urgrec" XYZ="-52.061,4.551,68.8646" />
