@@ -981,7 +981,6 @@
 			<ForceVendor VendorType="Repair" />
 			
 			<Interact Name="Toxic Lake Garrison" XYZ="-7.084278,-25.73174,61.141" />
-			<TalkTo QuestId="1" Name="Toxic Lake Garrison Speeder" XYZ="-7.8917,-25.72766,59.3518" />
 			<MoveTo QuestId="1" XYZ="-7.177665,-25.69019,49.75048" />
 			<Interact Name="Command Center Cantina" XYZ="-7.177665,-25.69019,49.75048" />
 		</If>
@@ -1023,7 +1022,6 @@
 		<If Condition="((not HasQuest(0xE000071270A2FE4A)) and (not IsQuestComplete(0xE000071270A2FE4A)))">
 			<PickUpQuest QuestName="Come Out, Come Out" QuestId="0xE000071270A2FE4A" GiverName="Lord Ryvus" XYZ="-80.7,-23.78674,80.3" />
 			<Interact Name="Bomber Command Post" XYZ="-75.87427,-23.79398,79.08045" />
-			<TalkTo QuestId="0xE000071270A2FE4A" Name="Bomber Command Post Speeder" XYZ="-74.3268,-23.71469,79.7078" />
 		</If>
 		
 		<!-- Come Out, Come Out -->
@@ -1121,7 +1119,6 @@
 			<PickUpQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" GiverName="Eton Vok" XYZ="33.2548,-19.65277,51.5048" />
 	
 			<Interact WaitTime="3" Name="Border Assault Post" XYZ="32.2965,-19.65184,50.96929" />
-			<TalkTo QuestId="1" Name="Border Assault Post Speeder" XYZ="33.2249,-19.62142,49.6661" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1546,7 +1543,6 @@
 					<TalkTo QuestId="0xE0001D43BC5B86B9" Name="Lord Shaythin" XYZ="-104.394,-20.7115,54.7671" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<TalkTo QuestId="1" Name="Crater Command Base Speeder" XYZ="-116.9401,-18.79324,44.5439" />
 				<Interact WaitTime="3" Name="Crater Command Base" XYZ="-118.5065,-18.8371,44.42542" />
 				<ForceVendor VendorType="Repair" />
 			</If>
@@ -1737,7 +1733,6 @@
 		<If Condition="((not HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<PickUpQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" GiverName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
 
-			<TalkTo QuestId="1" Name="75th Legion Forward Camp Speeder" XYZ="72.7968,-17.68709,41.6978" />
 			<Interact WaitTime="3" Name="75th Legion Forward Camp" XYZ="71.49591,-17.72487,40.8328" />
 			<!--
 			<TalkTo QuestId="1" Name="Tower Command Station Speeder" X="-73.2982" Y="-12.99559" Z="0.5516" />

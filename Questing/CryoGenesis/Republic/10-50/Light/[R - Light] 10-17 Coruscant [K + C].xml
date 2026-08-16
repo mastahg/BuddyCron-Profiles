@@ -979,7 +979,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<TalkTo QuestId="0xE0000CB5D481F093" Name="Senate Plaza Taxi" XYZ="-114.6167,142.111,-425.4255" /> <!-- Speeder: Senate Plaza Taxi -->
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
 				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->			
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
@@ -1002,7 +1001,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0002021F2CF1FFC)) and (not IsStepComplete(0xE0002021F2CF1FFC, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<TalkTo QuestId="0xE0002021F2CF1FFC" Name="Senate Plaza Taxi" XYZ="-114.6167,142.111,-425.4255" /> <!-- Speeder: Senate Plaza Taxi -->
 				<MoveTo QuestId="0xE0002021F2CF1FFC" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
 				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
@@ -1024,7 +1022,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<TalkTo QuestId="0xE000AE7B9FA6A4D0" Name="Senate Plaza Taxi" XYZ="-114.6167,142.111,-425.4255" /> <!-- Speeder: Senate Plaza Taxi -->
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
 				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
@@ -1047,7 +1044,6 @@
 				</If>
 				<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4)))">
 					<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-					<TalkTo QuestId="0xE0008E987301305E" Name="Senate Plaza Taxi" XYZ="-114.6167,142.111,-425.4255" /> <!-- Speeder: Senate Plaza Taxi -->
 					<MoveTo QuestId="0xE0008E987301305E" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
 					<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 					<MoveTo QuestId="0xE0008E987301305E" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />

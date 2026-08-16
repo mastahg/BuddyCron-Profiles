@@ -552,7 +552,6 @@
 		<!-- Inquisitor -->
 		
 		<!-- Flight Path -->
-		<TalkTo Name="Kaas City Central Taxi" XYZ="-19.5048,4.007461,-1.2225" />
 		
 		<!-- Use Taxi From Kaas City Central Taxi To Citadel Taxi -->
 		<!-- Use Taxi From Kaas City Central Taxi To Citadel Taxi -->
@@ -887,7 +886,6 @@
 		<CompleteQuest QuestName="Initiation" QuestId="0xE000EE33888367C7" />
 		
 		<!-- Flight Path -->
-		<TalkTo Name="Revanite Compound Speeder" WaitTime="1000" XYZ="-79.6927,-2.539633,115.3767" />
 		
 		<!-- Binding Point -->
 		<UseObject QuestId="1" ObjectName="Revanite Compound" WaitTime="3000" XYZ="-80.24611,-2.539633,115.0128" />
@@ -934,7 +932,6 @@
 		<!-- The War Machine -->
 		<If Condition="not IsStepComplete(0xE00069416197EC03, 2)">
 			<!-- Flight Path -->
-			<TalkTo Name="The Wall Speeder" WaitTime="1000" XYZ="-31.8603,-5.86022,113.1545" />
 			
 			<!-- Binding Point -->
 			<UseObject QuestId="1" ObjectName="The Wall" WaitTime="3000" XYZ="-33.27552,-5.859586,112.7479" />
@@ -1296,7 +1293,6 @@
 		
 		<!-- Unauthorized Transmission, Part I -->
 		<If Condition="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)">
-			<TalkTo Name="Kaas City Expansion Speeder" XYZ="-63.5091,2.449646,20.4908" />
 			<UseObject QuestId="0xE0004C2A6B1FB0C5" StepId="2" ObjectName="Kaas City Expansion" WaitTime="4000" XYZ="-63.13832,2.4226,20.88171" />
 			<PickupQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" GiverName="Captain Isen" XYZ="-63.4106,2.401627,24.7758" />
 		</If>
@@ -1341,7 +1337,6 @@
 			<UseObject ObjectName="Outpost Warden" QuestId="0xE000F5F9E56B8C7D" StepId="4" WaitTime="3000" XYZ="-124.9208,5.3,69.30022" />
 			
 			<!-- Taxi  -->
-			<TalkTo Name="Outpost Warden Speeder" QuestId="0xE000F5F9E56B8C7D" WaitTime="1000" XYZ="-123.8997,5.326542,69.4146" />
 		</If>
 		
 		<!-- The Wretch King -->

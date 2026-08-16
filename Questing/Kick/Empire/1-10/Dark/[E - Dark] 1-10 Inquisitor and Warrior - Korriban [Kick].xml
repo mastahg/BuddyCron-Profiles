@@ -571,7 +571,6 @@
 			<TurnInQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" TurnInName="Sergeant Rikel" XYZ="-18.51882,0.2193554,3.761579" />
 			<CompleteQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" RewardIndex="0" />
 			
-			<TalkTo Name="Sith Academy Skyhopper" WaitTime="2" XYZ="-18.90073,0.4588,-4.753269" />
 			<ForceVendor VendorType="Repair" />
 		</If>
 	 
@@ -687,7 +686,6 @@
 			
 			<ForceVendor VendorType="Repair" />
 			<!-- Ele up - this ele needs to be fixt -->
-			<TalkTo QuestId="1" Name="Field Research Area Skyhopper" XYZ="37.5953,-15.20627,27.5524" />
 			<!-- Ele down -->
 		</If>
 	  

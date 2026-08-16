@@ -1244,7 +1244,6 @@
 			<TurnInQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" TurnInName="Teek" XYZ="77.1586,45.25071,61.7944" />
 			<CompleteQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" RewardIndex="2" />
 			
-			<TalkTo QuestId="1" Name="Mos Anek Speeder" XYZ="-3.044205,44.6794,32.8439" />
 			<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Mos Anek" XYZ="-3.136682,44.6794,33.38146" /> <!-- iN2Fun Pick up BindSpot -->
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1392,7 +1391,6 @@
 			<CompleteQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" RewardIndex="1" />
 			<!-- The Thing Czerka Found -->
 			
-			<TalkTo QuestId="1" Name="Outpost Zaroshe Speeder" XYZ="-68.48151,43.80201,-58.2002" />
 			<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Outpost Zaroshe" XYZ="-68.6824,43.80201,-57.66886" /> <!-- iN2Fun BindSpot -->
 		</If>
 		
@@ -1588,7 +1586,6 @@
 			</UseObject>
 			<If Condition="HasQuest(0xE0003D60C6FDE2DC) and not IsStepComplete(0xE0003D60C6FDE2DC, 3)" >
 				<TalkTo QuestId="0xE0003D60C6FDE2DC" WaitTime="5" Name="Randor Mohl" XYZ="121.8452,43.1343,11.9038" />
-				<TalkTo QuestId="1" WaitTime="1" Name="Outpost Rennar Speeder" XYZ="126.4422,44.24474,-7.795799" />
 				<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Outpost Rennar" XYZ="125.6964,44.24474,-7.827894" /> <!-- iN2Fun - BindSpot -->
 			</If>
 		</If>
@@ -1671,7 +1668,6 @@
 			<Grind GrindRef="Vacation's Over - Collect Womp Rat Skulls" While="not IsStepComplete(0xE000646EC6883317, 2)" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Vacation's Over" QuestId="0xE000646EC6883317" TurnInName="Bounty Terminal" XYZ="163.1835,44.80745,-58.39105" />
 			<CompleteQuest QuestName="Vacation's Over" QuestId="0xE000646EC6883317" RewardIndex="4" />
-			<TalkTo QuestId="0xE000646EC6883317" WaitTime="1" Name="Ridgeside Sentry Post Speeder" XYZ="163.463,45.05154,-53.607" />
 		</If>
 		
 		<PickUpQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" GiverName="Lieutenant Berrig" XYZ="161.1453,44.7781,-62.5987" />

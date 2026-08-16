@@ -752,7 +752,6 @@
 			<PickUpQuest QuestName="Word on the Street" QuestId="0xE000BE2C290A2C66" GiverName="Lord Kavaros" XYZ="-29.2974,26.82134,-53.1234" />
 			<CompleteQuest QuestName="Word on the Street" QuestId="0xE000BE2C290A2C66" />
 			
-			<TalkTo QuestId="1" Name="Voss-Ka Imperial District Skyhopper" XYZ="-31.7978,27.09854,-43.6523" />			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -917,7 +916,6 @@
 		<!-- Pickup The Gormak Problem -->
 		<If Condition="((not HasQuest(0xE0003D57A7834936)) and (not IsQuestComplete(0xE0003D57A7834936)))">
 			<PickUpQuest QuestName="The Gormak Problem" QuestId="0xE0003D57A7834936" GiverName="Fadith-Ki" XYZ="-178.8678,-4.218278,-89.3259" />
-			<TalkTo QuestId="1" Name="Pilgrim Retreat Speeder" XYZ="-182.9797,-5.218355,-88.0415" />
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Pilgrim Retreat" XYZ="-182.3864,-5.217898,-87.36084" />
 		</If>
 		

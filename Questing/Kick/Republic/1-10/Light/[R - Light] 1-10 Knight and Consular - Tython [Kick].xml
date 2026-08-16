@@ -838,7 +838,6 @@
 		<If Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsQuestComplete(0xE000742A9CEC2745)))">
 			<TurnInQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" TurnInName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 			<CompleteQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" />
-			<TalkTo QuestId="1" Name="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" />
 			<!-- bindpoint
 			<UseObject QuestId="1" Name="Jedi Temple" Radius="20" WaitTime="5" X="-15.73869" Y="-8.135853" Z="-45.42693" /> -->
 		</If>
@@ -860,7 +859,6 @@
 		<!-- Pickup Lost Pilgrim -->
 		<If Condition="((not HasQuest(0xE0009F5278D8AEE7)) and (not IsQuestComplete(0xE0009F5278D8AEE7)))">
 			<PickUpQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" GiverName="Tazonthe Ghon" XYZ="13.6551,-0.7676925,-32.2149" />
-			<TalkTo QuestId="1" Name="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481" />
 			<!--
 			<UseObject QuestId="1" Name="Kalikori Village" Radius="10" WaitTime="5" UseRange="5" X="16.44411" Y="-0.8247001" Z="-29.66196" /> -->
 		</If>
@@ -1023,7 +1021,6 @@
 			<TurnInQuest QuestName="Hero Worship" QuestId="0xE000B33F09B77069" TurnInName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />
 			<CompleteQuest QuestName="Hero Worship" QuestId="0xE000B33F09B77069" />
 			<!-- The Last Defenders 0xE00081FD7596DD74 -->
-			<TalkTo QuestId="1" Name="Forward Camp Speeder" XYZ="-25.4954,-2.367607,-6.1771" />
 		</If>
 		
 		<PickUpQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" GiverName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />

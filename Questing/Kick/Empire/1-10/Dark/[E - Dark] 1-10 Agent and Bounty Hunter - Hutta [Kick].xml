@@ -498,7 +498,6 @@
 		<!-- Pickup Death Mark: Fa'athra Gang -->
 		<If Condition="((not HasQuest(0xE0006C0FD67EDD52)) and (not IsQuestComplete(0xE0006C0FD67EDD52)))">
 			<PickUpQuest QuestName="Death Mark: Fa'athra Gang" QuestId="0xE0006C0FD67EDD52" GiverName="Nem'ro Bounty Droid" XYZ="-43.538,1.765399,24.4685" />
-			<TalkTo QuestId="1" Name="Poison Pit Speeder" WaitTime="1" XYZ="-44.0267,1.758143,27.9976" />
 		</If>
 		
 		<!-- BH - Gauntlet -->
@@ -544,9 +543,7 @@
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
 			<WaitTimer QuestId="1" WaitTime="3" />
-			<TalkTo Name="Nemro's Palace Speeder" QuestId="1" WaitTime="1" XYZ="-53.3717,2.137235,49.0033" />
 			<WaitTimer QuestId="1" WaitTime="3" />
-			<TalkTo Name="Jiguuna Speeder" QuestId="1" WaitTime="1" XYZ="-31.1284,1.177323,40.7966" />
 			<WaitTimer QuestId="1" WaitTime="3" />
 		</If>
 		
@@ -825,7 +822,6 @@
 			<TurnInQuest QuestName="Subtle Sabotage" QuestId="0xE000BBF5D76FC65D" TurnInName="Peblak" XYZ="25.22769,1.191573,35.39392" />
 			<CompleteQuest QuestName="Subtle Sabotage" QuestId="0xE000BBF5D76FC65D" />
 			
-			<TalkTo Name="Rust Yards Speeder" QuestId="1" WaitTime="1" XYZ="26.89495,1.288419,37.33212" />
 			<ForceVendor VendorType="Repair" />
 		</If>
 	

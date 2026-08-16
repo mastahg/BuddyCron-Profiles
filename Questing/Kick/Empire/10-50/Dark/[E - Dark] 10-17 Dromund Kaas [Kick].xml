@@ -590,7 +590,6 @@
 		<!-- Pickup Warning Sign -->
 		<If Condition="((not HasQuest(0xE0003DF2FAE378A8)) and (not IsQuestComplete(0xE0003DF2FAE378A8)))">
 			<PickUpQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" GiverName="Commander Rilan" XYZ="87.5713,6.360492,34.6972" />
-			<TalkTo Name="Spaceport Speeder" QuestId="1" WaitTime="1" XYZ="88.2997,6.340111,36.3558" />
 		</If>
 		
 		<!-- Warning Sign 2 0 -->
@@ -661,7 +660,6 @@
 		<If Condition="((HasQuest(0xE00088D248EEC6D5)) and (not IsQuestComplete(0xE00088D248EEC6D5)))">
 			<If Condition="HasQuest(0xE00088D248EEC6D5) and not IsStepComplete(0xE00088D248EEC6D5, 2)">
 				<TalkTo QuestName="On The Scent" QuestId="0xE00088D248EEC6D5" Name="Manda" WaitTime="1" XYZ="-34.3368,3.204947,1.5003" />
-				<TalkTo QuestId="1" Name="Kaas City Central Taxi" XYZ="-19.5048,4.007461,-1.2225" />
 			</If>
 			<If Condition="HasQuest(0xE00088D248EEC6D5) and not IsStepComplete(0xE00088D248EEC6D5, 3)">
 				<TalkTo QuestName="On The Scent" QuestId="0xE00088D248EEC6D5" Name="Chiss Security Officer" WaitTime="1" XYZ="1.5341,5.580374,13.7146" />
@@ -834,7 +832,6 @@
 			<TurnInQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" TurnInName="Sergeant Torken" XYZ="-8.7057,1.247094,44.7255" />
 			<CompleteQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" RewardIndex="2" />
 			
-			<TalkTo QuestId="1" Name="Outpost Tempest Speeder" XYZ="28.5524,3.268803,80.1212" />
 		</If>
 		
 		<!-- Ignoring H2+ Personal Challenge from Vort Norman -->
@@ -1153,7 +1150,6 @@
 		<If Condition="((HasQuest(0xE000EE33888367C7)) and (not IsQuestComplete(0xE000EE33888367C7)))">
 			<TurnInQuest QuestName="Initiation" QuestId="0xE000EE33888367C7" TurnInName="Dzoun" XYZ="-79.005,-2.640711,117.2976" />
 			<CompleteQuest QuestName="Initiation" QuestId="0xE000EE33888367C7" />
-			<TalkTo QuestId="1" Name="Revanite Compound Speeder" XYZ="-79.6927,-2.539633,115.3767" />
 			<!-- Death and Life -->
 		</If>
 		
@@ -1181,7 +1177,6 @@
 		<!-- Pickup The War Machine -->
 		<If Condition="((not HasQuest(0xE00069416197EC03)) and (not IsQuestComplete(0xE00069416197EC03)))">
 			<PickUpQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" GiverName="Captain Sarnova" XYZ="-35.10553,-5.904247,118.0219" />
-			<TalkTo QuestId="1" Name="The Wall Speeder" XYZ="-31.8603,-5.86022,113.1545" />
 		</If>
 		<!-- Ignoring 2+ Shadow Spawn from Lord Shalath -->
 		<PickUpQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" GiverName="Captain Bryn" XYZ="-33.8052,-6.095212,132.9172" />
@@ -1518,7 +1513,6 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			<PickUpQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" GiverName="Captain Isen" XYZ="-63.32609,2.401627,24.75672" />
-			<TalkTo QuestId="1" Name="Kaas City Expansion Speeder" XYZ="-63.5091,2.449646,20.4908" />
 		</If>
 		
 		<!-- Unauthorized Transmission, Part I and Turnin -->

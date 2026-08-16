@@ -769,7 +769,6 @@
 		<!-- Pickup An Iron Fist -->
 		<If Condition="((not HasQuest(0xE00025279526F8F3)) and (not IsQuestComplete(0xE00025279526F8F3)))">
 			<PickUpQuest QuestName="An Iron Fist" QuestId="0xE00025279526F8F3" GiverName="Geor Vers" XYZ="19.5226,28.411,-129.9022" />
-			<TalkTo QuestId="1" Name="Rhu Caenus Spaceport Taxi" XYZ="19.8109,28.57548,-140.667" />
 			<!--<TalkTo QuestId="1" Name="House Cortess Taxi" X="-30.6181" Y="28.28497" Z="-111.3201" />-->
 		</If>
 		
@@ -779,7 +778,6 @@
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="37.6475,27.73162,-155.2046" />
 			</If>
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 6)">
-				<TalkTo QuestId="1" Name="House Cortess Taxi" XYZ="-30.6181,28.28497,-111.3201" />
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-23.40208,28.69597,-79.4772" />
 			</If>
 			<UseObject ObjectName="Damaged Cortess Patrol Droid" QuestId="0xE000C700544E8F98" BranchId="1" StepId="8" WaitTime="3" XYZ="-30.43209,29.07104,-163.9363" />
@@ -809,8 +807,6 @@
 		<!-- Pickup The Killik Problem -->
 		<If Condition="((not HasQuest(0xE000E97B55957E74)) and (not IsQuestComplete(0xE000E97B55957E74)))">
 			<PickUpQuest QuestName="The Killik Problem" QuestId="0xE000E97B55957E74" GiverName="Rylan Stallos" XYZ="66.58,28.006,-160.776" />
-			<TalkTo QuestId="0xE000E97B55957E74" Name="House Thul Taxi" XYZ="63.042,28.27721,-160.0131" />
-			<TalkTo QuestId="0xE000E97B55957E74" Name="Thul Palace Taxi" XYZ="72.7796,28.09117,-130.0464" />
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -909,7 +905,6 @@
 		<If Condition="((HasQuest(0xE00010680A939555)) and (not IsQuestComplete(0xE00010680A939555)))">
 			<TurnInQuest QuestName="Vanguard" QuestId="0xE00010680A939555" TurnInName="Stanel Thul" XYZ="175.8851,39.01532,-105.5753" />
 			<CompleteQuest QuestName="Vanguard" QuestId="0xE00010680A939555" />
-			<TalkTo QuestId="1" Name="Outpost Bolym Thranta" XYZ="175.0771,39.00214,-107.1227" />
 		</If>
 	
 		<!-- I can't loot the guys that fall
@@ -1080,7 +1075,6 @@
 			<TurnInQuest QuestName="Dirty Deeds" QuestId="0xE000DC18902DE8F1" TurnInName="Dathis Elgin" XYZ="191.0566,21.67202,80.9779" />
 			<CompleteQuest QuestName="Dirty Deeds" QuestId="0xE000DC18902DE8F1" />
 			<!-- The Assassin's Secret -->
-			<TalkTo QuestId="1" Name="Outpost Talarn Thranta" XYZ="192.1982,22.12099,75.9707" />
 		</If>
 		
 		<!-- [HEROIC 4] Insufficient Staff Sergeant Tegan -->
@@ -1242,7 +1236,6 @@
 			<CompleteQuest QuestName="Kingmaker" QuestId="0xE0009B784E0D69B9" />
 			<!-- Armed Intervention -->
 			
-			<TalkTo QuestId="1" Name="Outpost Ghrent Thranta" XYZ="-69.3442,15.57349,9.5741" />
 		</If>
 		
 		<!-- The Head That Wears the Crown -->
@@ -1328,7 +1321,6 @@
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" TurnInName="Shield Generator Controls" XYZ="-182.5631,12.69015,-1.700998" />
 			<CompleteQuest QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" RewardIndex="4" />
 			
-			<TalkTo QuestId="0xE0004C8E910D42B6" Name="Panteer Hideout Thranta" XYZ="-154.9804,19.88037,8.6088" />
 		</If>
 		
 		<PickUpQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" GiverName="General Gurveer" XYZ="-149.6272,19.65751,10.7364" />

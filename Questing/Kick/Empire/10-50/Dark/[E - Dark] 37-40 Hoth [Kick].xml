@@ -746,7 +746,6 @@
 		<!-- Pickup Tracking the Republic -->
 		<If Condition="((not HasQuest(0xE000680772DCF3B5)) and (not IsQuestComplete(0xE000680772DCF3B5)))">
 			<PickUpQuest QuestName="Tracking the Republic" QuestId="0xE000680772DCF3B5" GiverName="Sergeant Ritter" XYZ="-265.6921,10.2779,92.6427" />
-			<TalkTo QuestId="1" Name="Dorn Base Speeder" XYZ="-264.4821,10.10785,91.4331" />
 			<Interact Name="Dorn Base" IgnoreLOS="True" XYZ="-263.7617,10.10785,91.50032" />
 		</If>
 
@@ -813,7 +812,6 @@
 			<CompleteQuest QuestName="Violent Reprisals" QuestId="0xE000BCDB974A0D81" RewardIndex="2" />
 			<!-- Forcing Their Hand: Retrieval 0xE0001E032B6C7ACC -->
 			
-			<TalkTo QuestId="1" Name="Forward Bunker Speeder" XYZ="-224.9033,7.797752,150.6803" />
 			<Interact Name="Forward Bunker" IgnoreLOS="True" XYZ="-224.7345,7.81164,151.9864" />
 		</If>
 		
@@ -878,7 +876,6 @@
 			<UseTransport TransporterName="Dorn Base Speeder" Type="Taxi" Option="Forward Bunker Speeder" 
 									XYZ="-264.4821,10.10785,91.4331" />
 									
-			<TalkTo QuestId="1" Name="Leth Outpost Speeder" XYZ="-90.0372,4.07985,87.7921" />
 			<Interact Name="Leth Outpost" IgnoreLOS="True" XYZ="-91.28204,3.871496,89.45672" />
 		</If>
 		
@@ -1038,7 +1035,6 @@
 			<CompleteQuest QuestName="Fire in the Hole" QuestId="0xE0003C8212A4E98B" RewardIndex="1" />
 			<!-- Whiteout 0xE0004FE139485AFA-->
 			
-			<TalkTo QuestId="1" Name="Thesh Outpost Speeder" XYZ="-39.8808,5.174891,24.4971" />
 			<Interact Name="Thesh Outpost" XYZ="-42.75188,5.132509,27.74718" />
 		</If>
 
@@ -1183,7 +1179,6 @@
 			<TurnInQuest QuestName="An Icy Grave" QuestId="0xE0008594C0DBA0EB" TurnInName="Fixer 308" XYZ="127.0688,8.742028,52.6018" />
 			<CompleteQuest QuestName="An Icy Grave" QuestId="0xE0008594C0DBA0EB" />
 			
-			<TalkTo QuestId="1" Name="Frostwake Outpost Speeder" XYZ="104.079,10.421,54.715" />
 			<Interact Name="Frostwake Outpost" XYZ="104.9012,10.469,55.27831" />
 			<!-- Breaking the Maw 0xE000F7EBA335CAE9-->
 		</If>
@@ -1806,7 +1801,6 @@
 			<CompleteQuest QuestName="Riot on Belsavis" QuestId="0xE0001821F34D722C" />
 			<!-- Metal Militia -->
 			
-			<TalkTo QuestId="1" Name="Imperial Lodgement Speeder" XYZ="157.0613,31.70794,140.4122" />
 		</If>
 		
 		<LoadProfile Path="[E - Dark] 41-44 Belsavis [Kick].xml" />

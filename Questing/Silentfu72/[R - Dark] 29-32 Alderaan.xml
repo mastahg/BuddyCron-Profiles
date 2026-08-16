@@ -843,7 +843,6 @@
 	
 		<If Condition="((not HasQuest(0xE0004C5EBCA7C6E6)) and (not IsQuestComplete(0xE0004C5EBCA7C6E6)))">
 			<PickUpQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" GiverName="Haley Organa" XYZ="-148.6495,22.601,138.4166" />
-			<TalkTo QuestId="1" Name="Pallista Spaceport Taxi" XYZ="-146.1381,22.48502,135.5366" />
 		</If>
 		
 		<!-- Scorched Planet and Turnin -->
@@ -891,10 +890,8 @@
 			<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsStepComplete(0xE000C4832ED80AB4, 2)))">
 				<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsBranchTaskComplete(0xE000C4832ED80AB4, 1, 2, 0)))">
 					<If Condition="(Me.Position.X &gt; -117) and (Me.Position.X &lt; -79) and (Me.Position.Y &gt; 23) and (Me.Position.Y &lt; 26) and (Me.Position.Z &gt; 77) and (Me.Position.Z &lt; 128)">
-						<TalkTo QuestId="1" Name="Shining Star Taxi" XYZ="-83.0049,25.88653,87.0611" />
 						<ForceVendor VendorType="Train" />
 						<ForceVendor VendorType="Repair" />				
-						<TalkTo QuestId="1" Name="House Organa Taxi" XYZ="-103.6758,23.17954,123.6498" />
 					</If>
 					<MoveTo QuestId="1" Name="Thul Raider" XYZ="-105.0259,22.41456,149.8309" />
 					<Grind GrindRef="Raise the Flag 2 0" While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 0))" />
@@ -1039,7 +1036,6 @@
 		<!--Pickup Quest Infestation-->
 		<If Condition="((not HasQuest(0xE0003487014324DD)) and (not IsQuestComplete(0xE0003487014324DD)))">
 			<MoveTo QuestId="1" XYZ="45.86237,18.57019,169.295" />
-			<TalkTo QuestId="1" Name="Wardpost Duvaal Thranta" XYZ="47.0051,18.68,167.8183" />
 			<ForceVendor VendorType="Repair" />
 			<MoveTo QuestId="1" XYZ="42.09222,18.57019,169.9181" />
 			<PickUpQuest QuestName="Infestation" QuestId="0xE0003487014324DD" GiverName="Alek Teral" XYZ="49.2807,18.55964,167.4458" />
@@ -1252,7 +1248,6 @@
 		<!-- Consular - Crisis Situation -->
 		<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsQuestComplete(0xE000ECFC36E3348B)))">
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 2)))">
-				<TalkTo QuestId="1" Name="Wardpost Landa Thranta" XYZ="75.1248,14.53059,3.4641" />
 				<MoveTo QuestId="0xE000ECFC36E3348B" Name="My Location" XYZ="108.672,19.2543,-70.55622" />
 			</If>
 			<!-- Prison Breaking (Bonus) -->

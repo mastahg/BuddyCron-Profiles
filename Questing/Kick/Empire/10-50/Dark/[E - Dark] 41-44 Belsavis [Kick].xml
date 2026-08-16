@@ -676,7 +676,6 @@
 			<CompleteQuest QuestName="Riot on Belsavis" QuestId="0xE0001821F34D722C" />
 			<!-- Metal Militia -->
 			
-			<TalkTo QuestId="1" Name="Imperial Lodgement Speeder" XYZ="157.0613,31.70794,140.4122" />
 		</If>
 		
 		<!-- Agent - Breakout -->
@@ -730,7 +729,6 @@
 			<CompleteQuest QuestName="Fifth Time's the Charm" QuestId="0xE000A9BE014EEAD8" RewardIndex="1" />
 			<!-- The Last of the Law 0xE000AA100879CB52-->
 			
-			<TalkTo QuestId="1" Name="Resettlement Camps Speeder" XYZ="77.23,27.80738,108.1824" />
 			<MoveTo QuestId="1" XYZ="78.90958,27.84953,115.4856" />
 			<Interact Name="Resettlement Camps" XYZ="78.90958,27.84953,115.4856" />
 		</If>
@@ -823,7 +821,6 @@
 			<CompleteQuest QuestName="Operations Group Four" QuestId="0xE00050D92CB2F12B" />
 			<!-- Breaking the Herd 0xE0009615CE82CD7A-->
 			
-			<TalkTo QuestId="1" Name="Imperial Command Post Speeder" XYZ="-6.577606,25.0657,159.6075" />
 			<Interact Name="Imperial Command Post" XYZ="-6.587926,25.06564,158.3636" />
  
 			<UseTransport TransporterName="Imperial Command Post Speeder" Type="Taxi" Option="Imperial Lodgement Speeder" 
@@ -991,7 +988,6 @@
 			<CompleteQuest QuestName="Esh-kha Containment" QuestId="0xE00029D5E81DC727" />
 			<!-- Erasing the Esh-kha 0xE000B7DFAD56B7ED-->
 			
-			<TalkTo QuestId="1" Name="Imperial Frontline Camp Speeder" XYZ="-146.7104,22.27256,60.1868" />
 			<Interact Name="Imperial Frontline Camp" IgnoreLOS="True" XYZ="-146.1465,22.27259,60.22344" />
 			<ForceVendor VendorType="Repair" />
 		</If>

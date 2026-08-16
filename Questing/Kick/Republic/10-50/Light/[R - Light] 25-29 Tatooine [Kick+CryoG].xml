@@ -1451,7 +1451,6 @@
 		<If Condition="((not HasQuest(0xE000DD72B7EB8B7F)) and (not IsQuestComplete(0xE000DD72B7EB8B7F)))">
 			<PickUpQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" GiverName="Constable Surall" XYZ="11.8835,43.81311,-155.6109" />
 			<Interact Name="Outpost Salara" XYZ="12.01198,43.81671,-155.9229" />	<!-- Bind point: Outpost Salara -->
-			<TalkTo QuestId="0xE000DD72B7EB8B7F" Name="Outpost Salara Speeder" XYZ="12.79561,43.82843,-155.0723" />	<!-- Speeder: Outpost Salara -->	
 		</If>
 		<PickUpQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" GiverName="Raith Bannik" XYZ="4.034607,45.65218,-175.8452" />
 		<!-- Ignoring 2+ Reap the Whirlwind
@@ -1647,7 +1646,6 @@
 				<MoveTo QuestId="0xE000C745A1B9B4D5" Name="Outpost Thorazan QT" XYZ="-112.6852,42.5803,-136.2409" />
 				<Interact Name="Outpost Thorazan" XYZ="-112.6852,42.5803,-136.2409" />	<!-- Bind point: Outpost Thorazan -->
 				<MoveTo QuestId="0xE000C745A1B9B4D5" Name="Outpost Thorazan Speeder" XYZ="-112.9411,42.68666,-138.4537" />
-				<TalkTo QuestId="0xE000C745A1B9B4D5" Name="Outpost Thorazan Speeder" XYZ="-112.9411,42.68666,-138.4537" />	<!-- Speeder: Outpost Thorazan -->			
 				<TalkTo QuestId="0xE000C745A1B9B4D5" TurnInName="Lem Trudo" XYZ="-112.4655,42.2924,-131.471" />
 				<UseObject QuestId="0xE000C745A1B9B4D5" ObjectName="Decryption Tools" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-112.7443,42.31414,-131.3642" />
 			</If>
@@ -1915,7 +1913,6 @@
 			<MoveTo QuestId="0xE000A37B0923E609" Name="Camp Karnori QT" X="168.0885" Y="44.2584" Z="-213.1159" />
 			<Interact Name="Camp Karnori" Object="Placable" Radius="20" UseRange="5" X="168.0564" Y="44.2584" Z="-213.071" />-->	<!-- Bind point: Outpost Thorazan -->
 				<MoveTo QuestId="0xE000A37B0923E609" Name="Espelar Settlement Speeder" XYZ="168.1049,44.20982,-212.1805" />
-				<TalkTo QuestId="0xE000A37B0923E609" Name="Espelar Settlement Speeder" XYZ="168.1049,44.20982,-212.1805" />	<!-- Speeder: Espelar Settlement -->			 
 				<TalkTo QuestId="0xE000A37B0923E609" Name="Mayor Airen" XYZ="172.2136,44.34417,-211.8087" />
 			</If>
 		</If>
@@ -2088,7 +2085,6 @@
 			<MoveTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona QT" XYZ="167.101,44.5762,-108.9746" />
 			<Interact Name="Outpost Largona" Radius="20" UseRange="5" XYZ="167.101,44.5762,-108.9746" />	<!-- Bind point: Outpost Largona -->
 			<MoveTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona Speeder" XYZ="167.8405,44.83727,-110.8722" />
-			<TalkTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona Speeder" XYZ="167.8405,44.83727,-110.8722" />	<!-- Speeder: Outpost Largona -->
 			<TurnInQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" TurnInName="Doctor Aidarro" XYZ="174.5113,45.43246,-112.3777" />
 			<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" RewardIndex="1" />
 		</If>

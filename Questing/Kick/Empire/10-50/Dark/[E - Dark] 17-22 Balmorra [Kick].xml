@@ -729,8 +729,6 @@
 		<!-- Pickup Body of Evidence -->
 		<If Condition="((not HasQuest(0xE0001EE9E968024E)) and (not IsQuestComplete(0xE0001EE9E968024E)))">
 			<PickUpQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" GiverName="Intelligence Officer Breerdin" XYZ="-19.891,5.557197,97.0673" />
-			<TalkTo Name="Sobrik Taxi" QuestId="1" XYZ="-21.79048,5.664198,96.40459" />
-			<TalkTo Name="Sobrik Taxi" QuestId="1" XYZ="-21.79048,5.664198,96.40459" />
 		</If>
 		
 		<!-- Bounty Hunter - Pirrell's Ambitions -->
@@ -856,7 +854,6 @@
 			<TurnInQuest QuestId="0xE00029BD036CC1E5" Type="Placeable" UseRange="2" QuestName="Step Lightly" TurnInName="Mission Dropbox" XYZ="-11.31476,9.186101,184.5074" />
 			<CompleteQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" RewardIndex="2" />
 			
-			<TalkTo Name="Troida Skyhopper" QuestId="1" WaitTime="1" XYZ="-15.2891,9.419992,185.4651" />
 		</If>
 		
 		<PickUpQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" GiverName="Senior Science Officer Sakoal" XYZ="-23.17765,9.4682,182.0676" />
@@ -949,7 +946,6 @@
 		<If Condition="((not HasQuest(0xE000C0623E27C4BE)) and (not IsQuestComplete(0xE000C0623E27C4BE)))">
 			<PickUpQuest QuestName="Data Corruption" QuestId="0xE000C0623E27C4BE" GiverName="Major Tyrus" XYZ="-56.81767,13.79671,154.0114" />
 			
-			<TalkTo Name="Markaran Imperial Outpost Speeder" QuestId="0xE000C530D48D0147" WaitTime="1" XYZ="-57.17976,14.69548,144.9137" />
 		</If>
 		
 		<!-- Coms Away -->
@@ -1110,7 +1106,6 @@
 			<TurnInQuest QuestName="Despair" QuestId="0xE000C59D689B383C" TurnInName="Cavill Arin" XYZ="-1.697877,15.55583,168.0711" />
 			<CompleteQuest QuestName="Despair" QuestId="0xE000C59D689B383C" />
 			
-			<TalkTo Name="Gorinth Imperial Outpost Skyhopper" QuestId="0xE000D0681C6D07BD" XYZ="-10.3593,15.79626,166.5659" />
 		</If>
 		
 		<!-- Ignoring H4 Firestar from Captain Neddis -->
@@ -1279,7 +1274,6 @@
 		<If Condition="((HasQuest(0xE000D0681C6D07BD)) and (not IsQuestComplete(0xE000D0681C6D07BD)))">
 			<TurnInQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" TurnInName="Colonel Vrain" XYZ="86.0523,7.844198,146.8874" />
 			<CompleteQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" RewardIndex="3" />
-			<TalkTo Name="Sundari Imperial Outpost Skyhopper" QuestId="1" WaitTime="1" XYZ="85.89862,14.30889,156.6742" />
 		</If>
 		
 		<!-- Turnin The Governor's Call -->
@@ -1636,7 +1630,6 @@
 			<UseTransport TransporterName="Sobrik Taxi" Option="Markaran Imperial Outpost Speeder" 
 									XYZ="-21.62744,5.664193,96.37432" />
 									
-			<TalkTo QuestId="1" Name="Remote Markaran Outpost Skyhopper" WaitTime="1" XYZ="-115.935,14.50528,96.28073" />
 		</If>
 		
 		<!-- Balmorra: Bonus Series -->
@@ -1672,7 +1665,6 @@
 		<!-- Pickup Downed Pilots -->
 		<If Condition="((not HasQuest(0xE00016956C72A171)) and (not IsQuestComplete(0xE00016956C72A171)))">
 			<PickUpQuest QuestName="Downed Pilots" QuestId="0xE00016956C72A171" GiverName="Lieutenant Heln" XYZ="-164.4497,13.43299,132.1252" />
-			<TalkTo Name="Vanguard Outpost Skyhopper" QuestId="1" WaitTime="1" XYZ="-155.1321,14.10858,128.8103" />
 		</If>
 		<PickUpQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" GiverName="Captain Renzfeil Neuwt" XYZ="-155.0889,14.36972,133.5063" />
 		<PickUpQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" GiverName="Maverse Pontilo" XYZ="-154.0097,14.41033,133.4132" />
@@ -1767,7 +1759,6 @@
 			</UseObject>
 			<TurnInQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" TurnInName="Intelligence Officer Kytoma" XYZ="-113.7808,14.3366,101.0032" />
 			<CompleteQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" RewardIndex="3" />
-			<TalkTo QuestId="1" Name="Remote Markaran Outpost Skyhopper" WaitTime="1" XYZ="-115.935,14.50528,96.28073" />
 		</If>
 		
 		<!-- Turnin Flight Plan -->

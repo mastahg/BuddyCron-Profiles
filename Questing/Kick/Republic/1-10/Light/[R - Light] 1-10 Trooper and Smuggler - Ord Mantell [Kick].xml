@@ -619,7 +619,6 @@
       <If Condition="(not IsQuestComplete(0xE0006A5F9E1AD807))">
         <Grind GrindRef="Blinding the Enemy (Bonus)" While="(not IsQuestComplete(0xE0006A5F9E1AD807))" />
       </If>
-      <TalkTo QuestId="1" Name="Fort Garnik Speeder" XYZ="16.9402,5.880544,-13.348" />
       <MoveTo QuestId="1" Name="Fort Garnik QT" XYZ="17.08154,5.809859,-11.18785" />
       <Interact Name="Fort Garnik" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="17.08154,5.809859,-11.18785" />	<!-- Bind point: Fort Garnik -->		  
       <!-- Learn Taxi, Bindpoint -->
@@ -862,7 +861,6 @@
       <PickUpQuest QuestName="The Untold Story" QuestId="0xE000280490BB04A5" GiverName="Lamalla Rann" XYZ="49.2098,0.8839074,25.8663" />
       <ForceVendor VendorType="Repair" />
       <!-- Learn Taxi, Bindpoint -->
-      <TalkTo QuestId="1" Name="Falks Reach Speeder" XYZ="47.8944,0.8370317,23.8323" />
       <MoveTo QuestId="1" Name="Falks Reach QT" XYZ="48.4165,0.8424824,23.83486" />
       <Interact Name="Falks Reach" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="48.4165,0.8424824,23.83486" />	<!-- Bind point: Falks Reach -->		  
     </If>
@@ -1124,13 +1122,11 @@
       <!-- Go to Oradam Village and learn Taxi, Bindpoint  -->
       <MoveTo QuestId="1" Name="Oradam Village QT" XYZ="-28.91472,1.288211,-57.99572" />
       <Interact Name="Oradam Village" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-28.91472,1.288211,-57.99572" />	<!-- Bind point: Oradam Village -->		  
-      <TalkTo QuestId="1" Name="Oradam Village Speeder" XYZ="-29.187,2.163444,-61.0815" />
       <PickUpQuest QuestName="Hail the Liberators" QuestId="0xE0006D8CCC628E00" GiverName="Odar" XYZ="-39.2903,1.284223,-49.1898" />
       <ForceVendor VendorType="Repair" />
       <!-- Go to Volcano and learn Taxi, Bindpoint -->
       <MoveTo QuestId="1" Name="Volcano Camp QT" XYZ="-69.69902,2.156054,-19.90596" />
       <Interact Name="Volcano Camp" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-69.69902,2.156054,-19.90596" />	<!-- Bind point: Volcano Camp -->	  
-      <TalkTo QuestId="1" Name="Volcano Camp Speeder" XYZ="-68.4418,2.113015,-20.398" />
 
       <If Condition="(Me.Class == CharacterClass.Trooper)">
         <UseTransport TransporterName="Volcano Camp Speeder" Type="Taxi" Option="Fort Garnik Speeder"

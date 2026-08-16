@@ -1266,7 +1266,6 @@
 		<If Condition="((not HasQuest(0xE0009AB86A70B24F)) and (not IsQuestComplete(0xE0009AB86A70B24F)))" >
 			<ForceVendor VendorType="Repair" />
 			<MoveTo QuestId="1" XYZ="-55.19507,14.27531,145.6513" />
-			<TalkTo QuestId="1" Name="Lower Markaran Outpost Skyhopper" XYZ="-56.8356,14.68558,144.8748" />
 			<PickUpQuest QuestName="Inside Help" QuestId="0xE0009AB86A70B24F" GiverName="Sergeant Kejik" XYZ="-54.3102,14.3306,148.3867" />
 		</If>
 
@@ -1613,7 +1612,6 @@
 		
 		<If Condition="((not HasQuest(0xE00042FB860A8495)) and (not IsQuestComplete(0xE00042FB860A8495)))">
 			<MoveTo QuestId="1" XYZ="-8.441856,15.46635,165.0861" />
-			<TalkTo QuestId="1" Name="Gorinth Outpost Skyhopper" XYZ="-10.6984,15.79628,166.882" />
 			<MoveTo QuestId="1" XYZ="-8.441856,15.46635,165.0861" />
 			<ForceVendor VendorType="Repair" />
 			<PickUpQuest QuestName="Fertilizer: Raze the Fields" QuestId="0xE00042FB860A8495" GiverName="Major Sarell" XYZ="-7.1929,15.56477,168.3211" />

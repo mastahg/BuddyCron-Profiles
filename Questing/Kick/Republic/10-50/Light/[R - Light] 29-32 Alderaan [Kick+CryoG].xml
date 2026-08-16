@@ -916,7 +916,6 @@
 			<!--
 			<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="Pallista Spaceport QT" X="-142.691" Y="22.20768" Z="137.9589" />
 			<Interact Name="Pallista Spaceport" Radius="20" UseRange="5" IgnoreLOS="true" X="-142.691" Y="22.20768" Z="137.9589" />-->	<!-- Bind point: Pallista Spaceport -->
-			<TalkTo QuestId="0xE0004C5EBCA7C6E6" Name="Pallista Spaceport Taxi" XYZ="-146.1381,22.48502,135.5366" />	<!-- Speeder: Pallista Spaceport -->	
 			
 			
 		</If>
@@ -943,8 +942,6 @@
 			<If Condition="((HasQuest(0xE0004C5EBCA7C6E6)) and (not IsStepComplete(0xE0004C5EBCA7C6E6, 3)))">
 				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="House Organa QT" XYZ="-106.0047,22.99176,124.2956" />
 				<Interact Name="House Organa" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-106.0047,22.99176,124.2956" />	<!-- Bind point: House Organa -->	
-				<TalkTo QuestId="0xE0004C5EBCA7C6E6" Name="House Organa Taxi" XYZ="-103.6758,23.17954,123.6498" /> <!-- Speeder: House Organa Taxi -->
-				<TalkTo QuestId="0xE0004C5EBCA7C6E6" Name="Shining Star Taxi" XYZ="-83.0049,25.88653,87.0611" /> <!-- Speeder: Shining Star Taxi -->
 				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="Organa Castle" XYZ="-80.47144,25.601,112.991" />
 				<TurnInQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" TurnInName="General Kashim" XYZ="-76.3976,29.2008,103.0247" />
 				<CompleteQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" RewardIndex="0" />
@@ -1115,7 +1112,6 @@
 			<CompleteQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" RewardIndex="0" />
 			<MoveTo QuestId="1" Name="Wardpost Duvaal QT" XYZ="46.117,18.57019,169.1127" />
 			<Interact Name="Wardpost Duvaal" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="46.117,18.57019,169.1127" />	<!-- Bind point: Wardpost Duvaal -->	
-			<TalkTo QuestId="1" Name="Wardpost Duvaal Thranta" XYZ="47.0051,18.68,167.8183" /> <!-- Speeder: House Organa Taxi -->
 			<!-- Learn Bindpoint -->
 			<!-- Force Sell, Repair, Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1380,7 +1376,6 @@
 			<If Condition="((HasQuest(0xE00073E72940C051)) and (not IsStepComplete(0xE00073E72940C051, 4)))">
 				<MoveTo QuestId="0xE00073E72940C051" Name="Wardpost Landa QT" XYZ="74.14213,14.53801,2.819437" />
 				<Interact Name="Wardpost Landa" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="74.14213,14.53801,2.819437" />	<!-- Bind point: Wardpost Landa -->	
-				<TalkTo QuestId="0xE00073E72940C051" Name="Wardpost Landa Thranta" XYZ="75.1248,14.53059,3.4641" /> <!-- Speeder: Wardpost Landa Thranta -->		 
 				<TurnInQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" TurnInName="Captain Alethios" XYZ="65.1462,14.50715,12.8483" />
 				<CompleteQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" RewardIndex="2" />
 			</If>
@@ -1618,7 +1613,6 @@
 			<If Condition="((HasQuest(0xE000FC966C2449A4)) and (not IsStepComplete(0xE000FC966C2449A4, 2)))">
 				<MoveTo QuestId="0xE000FC966C2449A4" Name="Wardpost Hurne QT" XYZ="34.1773,16.701,-49.2518" />
 				<Interact Name="Wardpost Hurne" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="34.1773,16.701,-49.2518" />	<!-- Bind point: Wardpost Hurne -->	
-				<TalkTo QuestId="0xE000FC966C2449A4" Name="Wardpost Hurne Thranta" XYZ="35.4235,16.69025,-47.4791" /> <!-- Speeder: Wardpost Hurne Thranta -->		 
 				<TalkTo QuestId="0xE000FC966C2449A4" Name="Captain Barra" XYZ="25.5218,16.6701,-47.4406" />
 			</If>
 		</If>
@@ -1793,7 +1787,6 @@
 		<If Condition="((HasQuest(0xE00063772D446CA3)) and (not IsQuestComplete(0xE00063772D446CA3)))">
 			<MoveTo QuestId="0xE00063772D446CA3" Name="Panteer Refuge QT" XYZ="-161.9539,16.3456,-64.12511" />
 			<Interact Name="Panteer Refuge" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-161.9539,16.3456,-64.12511" />	<!-- Bind point: Panteer Refuge -->	
-			<TalkTo QuestId="0xE00063772D446CA3" Name="Panteer Refuge Thranta" XYZ="-161.15,16.47614,-64.8442" /> <!-- Speeder: Wardpost Hurne Thranta -->		
 			<TurnInQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" TurnInName="Katei Panteer" XYZ="-146.6605,15.9617,-71.5144" />
 			<CompleteQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" RewardIndex="0" />
 			<!-- Usurper 0xE0000FDDF7B0B055-->

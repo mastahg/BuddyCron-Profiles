@@ -856,7 +856,6 @@
 	
 		<If Condition="((not HasQuest(0xE0004C5EBCA7C6E6)) and (not IsQuestComplete(0xE0004C5EBCA7C6E6)))">
 			<PickUpQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" GiverName="Haley Organa" XYZ="-148.6495,22.601,138.4166" />
-			<TalkTo QuestId="1" Name="Pallista Spaceport Taxi" XYZ="-146.1381,22.48502,135.5366" />
 		</If>
 		
 		<!-- Scorched Planet and Turnin -->
@@ -882,8 +881,6 @@
 			<CompleteQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" RewardIndex="1" />
 			<!-- Raise the Flag 0xE000C4832ED80AB4 -->
 			<!-- Learn FPx2, Bindx2 -->
-			<TalkTo QuestId="1" Name="Shining Star Taxi" XYZ="-83.0049,25.88653,87.0611" />
-			<TalkTo QuestId="1" Name="House Organa Taxi" XYZ="-103.6758,23.17954,123.6498" />
 		</If>
 		
 		<!-- Ignoring 4+ Proof of Treason from Mission Terminal -->
@@ -1016,7 +1013,6 @@
 			</If>
 			<TurnInQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" TurnInName="Brant Organa" XYZ="45.7172,18.55964,167.5337" />
 			<CompleteQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" RewardIndex="1" />
-			<TalkTo QuestId="1" Name="Wardpost Duvaal Thranta" XYZ="47.0051,18.68,167.8183" />
 			<!-- Learn Bindpoint -->
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />

@@ -1073,7 +1073,6 @@
 			<ForceVendor VendorType="Train" />
 			<MoveTo QuestId="1" Name="Lore: Republic Reconstruction" XYZ="-199.655,-19.17183,52.47296" />
 			<Interact Name="Republic Reconstruction" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-199.655,-19.17183,52.47296" />	<!-- Lore: Republic Reconstruction -->
-			<TalkTo QuestId="1" Name="Olaris Reclamation Base Speeder" XYZ="-183.4904,-20.01153,50.9324" />	
 			<ForceVendor VendorType="Repair" />	
 		</If>
 	
@@ -1340,7 +1339,6 @@
 			<!-- Learn Bindpoint, Speeder, Sell / repair -->
 			<MoveTo QuestId="1" Name="Aurek QT" XYZ="-74.25592,-12.99559,1.034851" />
 			<Interact Name="Aurek" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-74.25592,-12.99559,1.034851" />	<!-- Bind point: Aurek -->
-			<TalkTo QuestId="1" Name="Waypoint Station Aurek Speeder" XYZ="-73.2112,-12.99559,0.5226" />	
 			<UseTransport TransporterName="Waypoint Station Aurek Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
 									XYZ="-73.2112,-12.99559,0.5226" />
 		</If>
@@ -1699,7 +1697,6 @@
 			<ForceVendor VendorType="Repair" />	
 			<MoveTo QuestId="1" Name="Draay QT" XYZ="-76.00152,-23.79229,79.04973" />
 			<Interact Name="Draay" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-76.00152,-23.79229,79.04973" />	<!-- Bind point: Draay -->
-			<TalkTo QuestId="1" Name="Waypoint Station Draay Speeder" XYZ="-74.5297,-23.71469,79.3271" />					
 		</If>
 		
 		<!-- Ignoring 4+ Total Elimination -->
@@ -2026,7 +2023,6 @@
 			<!-- Consular - Equip Companion item - Qyzen's Field Jacket /Aric=3; droid=1 -->
 			<MoveTo QuestId="1" Name="Morne QT" XYZ="31.77476,-19.64261,50.58272" />
 			<Interact Name="Morne" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="31.77476,-19.64261,50.58272" />	<!-- Bind point: Morne -->
-			<TalkTo QuestId="1" Name="Waypoint Station Morne Speeder" XYZ="33.3469,-19.6577,49.78" />				
 		</If>
 		
 		<PickUpQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" GiverName="Archivist Wintag" XYZ="28.888,-19.64657,53.0277" />
@@ -2519,7 +2515,6 @@
 		<If Condition="(Me.Position.X &gt; 68) and (Me.Position.X &lt; 74) and (Me.Position.Y &gt; -19) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; 26) and (Me.Position.Z &lt; 31)">
 			<MoveTo QuestId="1" Name="Lytle QT" XYZ="73.42434,-17.72487,40.24296" />
 			<Interact Name="Lytle" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="73.42434,-17.72487,40.24296" />	<!-- Bind point: Lytle -->
-			<TalkTo QuestId="1" Name="Lytle Research Outpost Speeder" XYZ="72.8048,-17.68705,41.6989" />			
 		</If>
 	
 		<!-- The Loudest Bait -->
@@ -2691,7 +2686,6 @@
 		<If Condition="((HasQuest(0xE0006C3ADDC9D1C4)) and (not IsQuestComplete(0xE0006C3ADDC9D1C4)))">
 			<MoveTo QuestId="1" Name="Kanner QT" XYZ="34.96823,-13.37768,-22.12754" />
 			<Interact Name="Kanner" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="34.96823,-13.37768,-22.12754" />	 <!-- Bind point: Kanner -->
-			<TalkTo QuestId="1" Name="Kanner Outpost Speeder" XYZ="34.2049,-13.29579,-20.5859" />			
 			<TurnInQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" TurnInName="Representative Lessah" XYZ="35.2292,-13.30151,-26.6187" />
 			<CompleteQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" RewardIndex="2" />
 			<!-- ConsularSage - Equip Jedi Sage's Headgear -->

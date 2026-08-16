@@ -554,7 +554,6 @@
 		
 			<!-- Taxi -->
 			<If Condition="not IsStepComplete(0xE000299B7B39CC58, 2)" />
-			<TalkTo Name="Sobrik Taxi" QuestId="0xE000299B7B39CC58" WaitTime="1000" XYZ="-21.68375,5.664195,96.40028" />
 		</If>
 
 		<!-- Operation Breaking Point -->
@@ -683,7 +682,6 @@
 	<UseObject ObjectName="Troida Millitary Workshop" QuestId="0xE0007300095B167B" WaitTime="3000" XYZ="-15.61691,9.419967,184.7365" />
 
 	<!-- Learning Taxi Node -->
-	<TalkTo Name="Troida Skyhopper" QuestId="0xE0007300095B167B" WaitTime="1000" XYZ="-15.2891,9.419992,185.4651" />
 </If>
 		
 <!-- Wild Fire -->
@@ -810,7 +808,6 @@
 <!-- Taxi & Bindpoint -->
 <If Condition="not IsBranchStepComplete(0xE00046F1BBD2E6F8, 3, 2)">
 	<!-- Taxi -->
-	<TalkTo Name="Markaran Imperial Outpost Speeder" QuestId="0xE000C530D48D0147" WaitTime="1000"  XYZ="-57.2257,14.69548,144.8979" />
 
 	<!-- Bindpoint -->
 	<UseObject ObjectName="Markaran Imperial Outpost" QuestId="0xE000C530D48D0147" WaitTime="3000" XYZ="-55.63977,14.292,146.4255" />
@@ -987,7 +984,6 @@
 <!-- Despair -->
 <If Condition="not IsStepComplete(0xE000C59D689B383C, 4)">
 	<UseObject ObjectName="Gorinth Imperial Outpost" QuestId="0xE000C59D689B383C" StepId="4" WaitTime="3000" XYZ="-10.66341,15.59683,165.5015" />
-	<TalkTo Name="Gorinth Imperial Outpost Skyhopper" QuestId="0xE000C59D689B383C" WaitTime="1000" XYZ="-10.3593,15.79626,166.5659" />
 	<TurnInQuest QuestName="Despair" QuestId="0xE000C59D689B383C" TurninName="Cavill Arin" XYZ="-1.7234,15.55583,168.1779" />
 </If>
 		
@@ -1163,7 +1159,6 @@
 	<UseObject ObjectName="Sundari Imperial Outpost" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="86.24603,14.15201,155.0487" />
 
 	<!-- Taxi -->
-	<TalkTo Name="Sundari Imperial Outpost Skyhopper" QuestId="0xE000EC98766AD969" WaitTime="1000" XYZ="85.923,14.30889,156.7627" />
 			
 	<!-- Crash Course -->
 	<PickupQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" GiverName="Lieutenant Quisun" XYZ="82.4631,14.03034,156.2781" />
@@ -1527,7 +1522,6 @@
 	<UseObject QuestId="0xE00029E61EADE4B5" StepId="2" ObjectName="Remote Markaran Outpost" WaitTime="3000" XYZ="-114.6419,14.49679,96.50491" />
 			
 	<!-- Taxi -->
-	<TalkTo Name="Remote Markaran Outpost Skyhopper" WaitTime="1000" XYZ="-115.8359,14.50528,96.3506" />
 			
 	<!-- Balmorra: Bonus Series -->
 	<TurnInQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" TurninName="Colonel Proshen" XYZ="-115.8757,14.49667,97.2596"  />
@@ -1680,7 +1674,6 @@
 <!-- Balmorra: Bonus Series -->
 <If Condition="not IsTaskComplete(0xE00029E61EADE4B5, 3, 6)">
 	<!-- Taxi -->
-	<TalkTo QuestId="0xE00029E61EADE4B5" Name="Vanguard Outpost Skyhopper" WaitTime="1000" XYZ="-155.0228,14.10858,128.7553" />
 			
 	<!-- Bindpoint -->
 	<UseObject QuestId="0xE00029E61EADE4B5" StepId="3" TaskId="6" ObjectName="Vanguard Outpost" WaitTime="3000" XYZ="-156.0894,14.12632,130.0515" />

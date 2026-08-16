@@ -1227,7 +1227,6 @@
 		<If Condition="((not HasQuest(0xE000BEA3B2861BAD)) and (not IsQuestComplete(0xE000BEA3B2861BAD)))">
 			<PickUpQuest QuestName="Prized Possessions" QuestId="0xE000BEA3B2861BAD" GiverName="Urana Kiel" XYZ="-182.0635,-19.88307,69.578" />
 	
-			<TalkTo QuestId="1" Name="Olaris Reclamation Base Speeder" XYZ="-183.4904,-20.01153,50.9324" />
 			<!-- Learn Cantina Bind Point -->
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
