@@ -29,59 +29,6 @@
 			</If>
 		</If>
 
-		<If Condition="Me.Class == CharacterClass.Agent">
-			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6" RewardIndex="3"/>
-			<PickUpQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" GiverName="Commander Dorne" XYZ="480.2943,70.211,468.9107" />
-			<If Condition="((HasQuest(0xE0008AB7FB48957A)) and (not IsQuestComplete(0xE0008AB7FB48957A)))">
-				<TurnInQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" TurnInName="Intelligence Quartermaster" XYZ="481.386,69.401,454.2191" />
-				<CompleteQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" RewardIndex="1" />
-
-				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
-				<ForceVendor VendorType="Train" />
-			</If>
-			
-			<If Condition="((not HasQuest(0xE000E511A72BA065)) and (not IsQuestComplete(0xE000E511A72BA065)))">
-				<MoveTo QuestId="1" XYZ="470.079,70.201,467.8111" />
-				<PickUpQuest QuestName="Part of the Team" QuestId="0xE000E511A72BA065" GiverName="Kaliyo" XYZ="470.079,70.201,467.8111" />
-			</If>
-			<CompleteQuest QuestName="Part of the Team" QuestId="0xE000E511A72BA065" />
-		</If>
-
-		<If Condition="Me.Class == CharacterClass.BountyHunter">
-			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC" RewardIndex="3"/>
-			<PickUpQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" GiverName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
-			<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsQuestComplete(0xE0002E80DC508937)))">
-				<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsBranchStepComplete(0xE0002E80DC508937, 1, 2)))">
-					<TalkTo QuestId="0xE0002E80DC508937" Name="Braum &quot;Zakkeg&quot; Bourne" XYZ="482.0164,69.401,456.493" />
-				</If>
-				<TurnInQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" TurnInName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
-				<CompleteQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" RewardIndex="1" />
-				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
-				<ForceVendor VendorType="Train" />
-			</If>
-		</If>
-		
-		<If Condition="Me.Class == CharacterClass.Inquisitor">
-			<CompleteQuest QuestName="Go to Dromund Kaas" QuestId="0xE0008DB4769571D5" />
-			<PickupQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" GiverName="Lord Krillis" XYZ="480.1323,70.211,470.9225" />
-			<If Condition="((HasQuest(0xE00033941096C865)) and (not IsQuestComplete(0xE00033941096C865)))">
-				<TurnInQuest QuestId="0xE00033941096C865" TurnInName="Overseer Kryos" XYZ="485.4571,69.401,458.7404" />
-				<CompleteQuest QuestName="Advanced Training: Sith Inquisitor" QuestId="0xE00033941096C865" />
-				<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
-				<ForceVendor VendorType="Train" />
-			</If>
-		</If>
-		
-		<If Condition="Me.Class == CharacterClass.Warrior">
-			<CompleteQuest QuestName="Leaving Korriban" QuestId="0xE00011DCC3956478" />
-			<PickupQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" GiverName="Lord Lokar" XYZ="480.3184,70.211,471.1013" />
-			<If Condition="((HasQuest(0xE000A1E3667B01B3)) and (not IsQuestComplete(0xE000A1E3667B01B3)))">
-				<TurnInQuest QuestId="0xE000A1E3667B01B3" TurnInName="Lord Krimyn" XYZ="488.557,69.401,463.4848" />
-				<CompleteQuest QuestName="Advanced Training: Sith Warrior" QuestId="0xE000A1E3667B01B3" />
-				<UserDialog Title="Test" Message="Choose spec, train, open companion bag and equip companion with gear - then press OK" />
-				<ForceVendor VendorType="Train" />
-			</If>
-		</If>
 
 		<!-- Agent, BH, Inquisitor, Warrior - Shuttle to Dromund Kaas -->
 		<If Condition="(HasQuest(0xE000D722A9D8E989)) or (HasQuest(0xE0005EC6ED10F90F)) or (HasQuest(0xE0006DA1145988E6)) or (HasQuest(0xE000919D1513AC49))">
