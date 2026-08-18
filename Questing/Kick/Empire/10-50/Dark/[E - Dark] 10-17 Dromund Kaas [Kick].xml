@@ -707,9 +707,8 @@
 			</If>
 			<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
 				<If Condition="HasQuest(0xE000681C28D22248) and not IsBranchStepComplete(0xE000681C28D22248, 2, 2)">
-					<MoveTo QuestId="1" XYZ="-7.3017,5.289354,17.6586" />
-					<WaitTimer WaitTime="2" QuestId="1" />
-					<UseItem QuestId="0xE000681C28D22248" BranchId="2" StepId="2" ItemName="Hunter Tag" OnObject="Weng Wrightsyn" WaitTime="2" Range="2" Radius="2" XYZ="-7.3017,5.289354,17.6586" />
+					<MoveTo QuestId="1" XYZ="-15.182634, 3.396431, 18.539694" />
+					<UseItem QuestId="0xE000681C28D22248" BranchId="2" StepId="2" ItemName="Hunter Tag" OnObject="Weng Wrightsyn" WaitTime="2" Range="2" Radius="2" XYZ="-15.182634, 3.396431, 18.539694" />
 					<WaitTimer WaitTime="5" QuestId="1" />
 				</If>
 			
