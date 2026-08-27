@@ -739,7 +739,7 @@
 		<!-- Agent - The Slave's Secret -->
 		<If Condition="((HasQuest(0xE000EE9DEC6AFF69)) and (not IsQuestComplete(0xE000EE9DEC6AFF69)))">
 			<If Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 2)">
-				<UseObject ObjectName="Equipment Locker" QuestId="0xE000EE9DEC6AFF69" BranchId="1" StepId="2" WaitTime="4" XYZ="6.521629,2.201,-78.23824" />
+				<UseObject ObjectName="Equipment Locker" QuestId="0xE000EE9DEC6AFF69" BranchId="1" StepId="2" WaitTime="4" XYZ="10.130661, 3.0093699, -87.259224" />
 			</If>
 			<If Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 3)">
 				<TalkTo QuestName="The Slave's Secret" QuestId="0xE000EE9DEC6AFF69" Name="Keeper" WaitTime="1" XYZ="13.25734,3.00045,-87.41775" />
