@@ -1242,6 +1242,9 @@
 		</If>
 		
 		<If Condition="(Me.Class == CharacterClass.BountyHunter)">
+			<If Condition="(not IsQuestComplete(0xE00067C34AF53FBC))">
+				<MoveTo QuestId="0xE00067C34AF53FBC" XYZ="-54.329758, 4.5519996, 68.04243" />
+			</If>
 			<PickUpQuest QuestName="Better Days" QuestId="0xE00067C34AF53FBC" GiverName="Mako" XYZ="-52.3477,4.551,66.30225" />
 			<CompleteQuest QuestName="Better Days" QuestId="0xE00067C34AF53FBC" />
 		</If>
