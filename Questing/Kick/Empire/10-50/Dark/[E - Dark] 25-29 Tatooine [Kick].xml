@@ -1119,10 +1119,8 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Mos Ila" XYZ="74.48405,46.27017,279.3965" /> <!-- iN2Fun - BindSpot -->
 			<UseTransport TransporterName="Mos Ila Speeder" Option="Outpost Varath Speeder"
 									XYZ="72.2576,46.50851,280.5351" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Outpost Varath" XYZ="71.65195,45.29301,61.07656" /> <!-- iN2Fun - BindSpot -->
 		</If>
 		
 		<!-- Journey into Dust -->
@@ -1243,7 +1241,6 @@
 			<TurnInQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" TurnInName="Teek" XYZ="77.1586,45.25071,61.7944" />
 			<CompleteQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" RewardIndex="2" />
 			
-			<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Mos Anek" XYZ="-3.136682,44.6794,33.38146" /> <!-- iN2Fun Pick up BindSpot -->
 			<ForceVendor VendorType="Repair" />
 		</If>
 		
@@ -1389,7 +1386,6 @@
 			<CompleteQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" RewardIndex="1" />
 			<!-- The Thing Czerka Found -->
 			
-			<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Outpost Zaroshe" XYZ="-68.6824,43.80201,-57.66886" /> <!-- iN2Fun BindSpot -->
 		</If>
 		
 		<!--Ignoring H2+ Prison Labor from Officer Vengo -->
@@ -1584,7 +1580,6 @@
 			</UseObject>
 			<If Condition="HasQuest(0xE0003D60C6FDE2DC) and not IsStepComplete(0xE0003D60C6FDE2DC, 3)" >
 				<TalkTo QuestId="0xE0003D60C6FDE2DC" WaitTime="5" Name="Randor Mohl" XYZ="121.8452,43.1343,11.9038" />
-				<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Outpost Rennar" XYZ="125.6964,44.24474,-7.827894" /> <!-- iN2Fun - BindSpot -->
 			</If>
 		</If>
 		
