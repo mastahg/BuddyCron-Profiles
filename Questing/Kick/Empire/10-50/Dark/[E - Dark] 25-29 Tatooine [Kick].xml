@@ -1041,7 +1041,7 @@
 		<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsQuestComplete(0xE000B3DB9E8F94EC)))">
 			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 5)))">
 				<MoveTo QuestId="1" XYZ="97.89266,47.98195,262.7581" />
-				<If Condition="(not IsQuestComplete(0xE0007101098C271E)))">
+				<If Condition="(not IsQuestComplete(0xE0007101098C271E))">
 					<Grind GrindRef="Defeat Exchange Forces" While="(not IsQuestComplete(0xE0007101098C271E))" />
 				</If>
 				<MoveTo QuestId="1" XYZ="100.0905,48.1291,260.7183" />
@@ -1279,11 +1279,10 @@
 		<!-- Artificial Intelligence -->
 		<If Condition="((HasQuest(0xE0000B93F4205345)) and (not IsQuestComplete(0xE0000B93F4205345)))">
 			<If Condition="HasQuest(0xE0000B93F4205345) and not IsStepComplete(0xE0000B93F4205345, 2)">
-				<Interact IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="5" Name="Imperial Reclamation Service" XYZ="8.937022,45.51836,28.16057" /> <!-- iN2Fun - LoreObject-->
 				<UseItem ItemName="Databank Scanner" QuestId="0xE0000B93F4205345" StepId="2" DeadOnly="True" HealthPercent="0" WaitTime="4" Range="2" InCombat="False" Radius="15">
 					<Mobs>
-						<Mob>Abberant Battle Droid</Mob>
-						<Mob>Abberant War Droid</Mob>
+						<Mob>Aberrant Battle Droid</Mob>
+						<Mob>Aberrant War Droid</Mob>
 					</Mobs>
 					<Hotspots>
 						<Hotspot Name="Aberrant Battle Droid" XYZ="-25.50524,44.69376,49.69564" />
