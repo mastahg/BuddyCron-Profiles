@@ -2292,9 +2292,7 @@
 					<UseTransport TransporterName="Lower Industry Sector Taxi" Type="Taxi" Option="Shadow Town Taxi" 
 										XYZ="-197.8112,-170.599,284.6895" />
 				</If>
-				<If Condition="(Me.Position.X &gt;= 0)">			 
-					<TalkTo QuestId="0xE0008F74BC4FB843" Name="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
-				</If>	
+				<TalkTo QuestId="0xE0008F74BC4FB843" Name="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
 			</If>
 			<CompleteQuest QuestName="Those Left Behind" QuestId="0xE0008F74BC4FB843" />
 			<!-- Access 0xE000CE33EE3E37BC-->
