@@ -1204,9 +1204,6 @@
 				<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
 					XYZ="189.6707,44.79112,-327.2745" />
 			</If>	
-			<If Condition="(Me.Position.X &gt; 82) and (Me.Position.X &lt; 83) and (Me.Position.Y &gt; 44) and (Me.Position.Y &lt; 45) and (Me.Position.Z &gt; -163) and (Me.Position.Z &lt; -162)">
-				<Interact Name="Dreviad Outpost" XYZ="81.28106,44.64627,-162.1858" />	<!-- Bind point: Dreviad Outpost -->
-			</If>
 		</If>
 	
 		<PickUpQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" GiverName="Veek" XYZ="79.2514,43.56651,-157.4101" />

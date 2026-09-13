@@ -1337,8 +1337,6 @@
 		<If Condition="((not HasQuest(0xE00019F65BB6893C)) and (not IsQuestComplete(0xE00019F65BB6893C)))">
 			<PickUpQuest QuestName="The Corpse Counters" QuestId="0xE00019F65BB6893C" GiverName="Cera" XYZ="-71.20776,-12.99559,4.777747" />
 			<!-- Learn Bindpoint, Speeder, Sell / repair -->
-			<MoveTo QuestId="1" Name="Aurek QT" XYZ="-74.25592,-12.99559,1.034851" />
-			<Interact Name="Aurek" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-74.25592,-12.99559,1.034851" />	<!-- Bind point: Aurek -->
 			<UseTransport TransporterName="Waypoint Station Aurek Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
 									XYZ="-73.2112,-12.99559,0.5226" />
 		</If>
@@ -1695,8 +1693,6 @@
 			<CompleteQuest QuestName="Catalyst" QuestId="0xE000DFBFD200A6CA" RewardIndex="1" />
 			<!-- Open Rudimentary Premium Storage Case -->
 			<ForceVendor VendorType="Repair" />	
-			<MoveTo QuestId="1" Name="Draay QT" XYZ="-76.00152,-23.79229,79.04973" />
-			<Interact Name="Draay" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-76.00152,-23.79229,79.04973" />	<!-- Bind point: Draay -->
 		</If>
 		
 		<!-- Ignoring 4+ Total Elimination -->
@@ -2021,8 +2017,6 @@
 			<TurnInQuest QuestName="AWOL" QuestId="0xE0008E24DEEE7D4E" TurnInName="Commander Yajak" XYZ="29.5905,-19.78193,58.2196" />
 			<CompleteQuest QuestName="AWOL" QuestId="0xE0008E24DEEE7D4E" RewardIndex="3" />
 			<!-- Consular - Equip Companion item - Qyzen's Field Jacket /Aric=3; droid=1 -->
-			<MoveTo QuestId="1" Name="Morne QT" XYZ="31.77476,-19.64261,50.58272" />
-			<Interact Name="Morne" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="31.77476,-19.64261,50.58272" />	<!-- Bind point: Morne -->
 		</If>
 		
 		<PickUpQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" GiverName="Archivist Wintag" XYZ="28.888,-19.64657,53.0277" />
@@ -2353,10 +2347,6 @@
 				<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Brejik's Run Outpost Speeder" 
 										XYZ="-183.4904,-20.01153,50.9324" />
 			</If>	
-			<If Condition="Me.Position.X &gt;= 0">	
-				<MoveTo QuestId="1" Name="Brejik's Run QT" XYZ="121.2625,-21.3594,47.4486" />
-				<Interact Name="Brejik's Run" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="121.2625,-21.3594,47.4486" />	<!-- Bind point: Brejik's Run -->				
-			</If>
 		</If>
 	
 		<!-- Taris: Bonus Series 2 -->
@@ -2512,10 +2502,6 @@
 		<PickUpQuest QuestName="Operation Salvage" QuestId="0xE0000772775BAB20" GiverName="Commander Bhoenn" XYZ="72.7146,-18.70979,25.768" />
 		<PickUpQuest QuestName="The Loudest Bait" QuestId="0xE000E29BE3753F94" GiverName="Foreman Meropta" XYZ="70.8733,-18.70979,29.3904" />
 		
-		<If Condition="(Me.Position.X &gt; 68) and (Me.Position.X &lt; 74) and (Me.Position.Y &gt; -19) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; 26) and (Me.Position.Z &lt; 31)">
-			<MoveTo QuestId="1" Name="Lytle QT" XYZ="73.42434,-17.72487,40.24296" />
-			<Interact Name="Lytle" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="73.42434,-17.72487,40.24296" />	<!-- Bind point: Lytle -->
-		</If>
 	
 		<!-- The Loudest Bait -->
 		<If Condition="((HasQuest(0xE000E29BE3753F94)) and (not IsQuestComplete(0xE000E29BE3753F94)))">
@@ -2684,8 +2670,6 @@
 	
 		<!-- Turnin Disease on a Distant World -->
 		<If Condition="((HasQuest(0xE0006C3ADDC9D1C4)) and (not IsQuestComplete(0xE0006C3ADDC9D1C4)))">
-			<MoveTo QuestId="1" Name="Kanner QT" XYZ="34.96823,-13.37768,-22.12754" />
-			<Interact Name="Kanner" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="34.96823,-13.37768,-22.12754" />	 <!-- Bind point: Kanner -->
 			<TurnInQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" TurnInName="Representative Lessah" XYZ="35.2292,-13.30151,-26.6187" />
 			<CompleteQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" RewardIndex="2" />
 			<!-- ConsularSage - Equip Jedi Sage's Headgear -->

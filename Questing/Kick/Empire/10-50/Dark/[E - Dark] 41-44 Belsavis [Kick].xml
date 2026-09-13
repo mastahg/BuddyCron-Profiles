@@ -729,8 +729,6 @@
 			<CompleteQuest QuestName="Fifth Time's the Charm" QuestId="0xE000A9BE014EEAD8" RewardIndex="1" />
 			<!-- The Last of the Law 0xE000AA100879CB52-->
 			
-			<MoveTo QuestId="1" XYZ="78.90958,27.84953,115.4856" />
-			<Interact Name="Resettlement Camps" XYZ="78.90958,27.84953,115.4856" />
 		</If>
 		
 		<PickUpQuest QuestName="A Pertinent Find" QuestId="0xE000BD337F7C52B6" GiverName="Captain Rago" XYZ="74.9962,27.84953,114.0859" />
@@ -821,7 +819,6 @@
 			<CompleteQuest QuestName="Operations Group Four" QuestId="0xE00050D92CB2F12B" />
 			<!-- Breaking the Herd 0xE0009615CE82CD7A-->
 			
-			<Interact Name="Imperial Command Post" XYZ="-6.587926,25.06564,158.3636" />
  
 			<UseTransport TransporterName="Imperial Command Post Speeder" Type="Taxi" Option="Imperial Lodgement Speeder" 
 									XYZ="-6.577606,25.0657,159.6075" />
@@ -988,7 +985,6 @@
 			<CompleteQuest QuestName="Esh-kha Containment" QuestId="0xE00029D5E81DC727" />
 			<!-- Erasing the Esh-kha 0xE000B7DFAD56B7ED-->
 			
-			<Interact Name="Imperial Frontline Camp" IgnoreLOS="True" XYZ="-146.1465,22.27259,60.22344" />
 			<ForceVendor VendorType="Repair" />
 		</If>
 		
@@ -1214,7 +1210,6 @@
 			<TurnInQuest QuestName="The Dread Masters" QuestId="0xE0009CBA95382E40" Type="Placeable" UseRange="2" TurnInName="Imperial Agent's Corpse" XYZ="-124.413,17.99678,-185.7503" />
 			<CompleteQuest QuestName="The Dread Masters" QuestId="0xE0009CBA95382E40" />
 		
-			<Interact Name="Imperial Remote Post" IgnoreLOS="True" XYZ="-125.4731,17.9686,-184.0643" />
 			<!-- Tracking the Dread Masters 0xE0007747117C6CEA-->
 		</If>
 		

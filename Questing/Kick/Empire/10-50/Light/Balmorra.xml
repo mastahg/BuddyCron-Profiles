@@ -573,13 +573,10 @@
 		<CompleteQuest QuestName="The Defector" QuestId="0xE000B21E1E00007C" />
 		
 		<!-- Body of Evidence -->
-		<If Condition="not IsStepComplete(0xE0001EE9E968024E, 2)" />
-		<!-- Bind Point -->
-		<UseObject ObjectName="Sunken Sarlacc Cantina" QuestId="0xE0001EE9E968024E" WaitTime="3000" XYZ="-21.9628,5.992943,125.9317" />
-			
-		<!-- Body of Evidence -->
-		<TurnInQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" TurnInName="Cantina Doorman" XYZ="-20.03156,5.386763,133.5637" />
-	</If>
+		<If Condition="not IsStepComplete(0xE0001EE9E968024E, 2)" >
+			<!-- Body of Evidence -->
+			<TurnInQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" TurnInName="Cantina Doorman" XYZ="-20.03156,5.386763,133.5637" />
+		</If>
 		
 	<!-- Body of Evidence -->
 	<If Condition="not IsStepComplete(0xE0001EE9E968024E, 3)">
@@ -806,12 +803,6 @@
 </If>
 		
 <!-- Taxi & Bindpoint -->
-<If Condition="not IsBranchStepComplete(0xE00046F1BBD2E6F8, 3, 2)">
-	<!-- Taxi -->
-
-	<!-- Bindpoint -->
-	<UseObject ObjectName="Markaran Imperial Outpost" QuestId="0xE000C530D48D0147" WaitTime="3000" XYZ="-55.63977,14.292,146.4255" />
-</If>
 		
 <!-- Quiet Kill -->
 <If Condition="not IsBranchStepComplete(0xE00046F1BBD2E6F8, 3, 2)">
@@ -983,7 +974,6 @@
 
 <!-- Despair -->
 <If Condition="not IsStepComplete(0xE000C59D689B383C, 4)">
-	<UseObject ObjectName="Gorinth Imperial Outpost" QuestId="0xE000C59D689B383C" StepId="4" WaitTime="3000" XYZ="-10.66341,15.59683,165.5015" />
 	<TurnInQuest QuestName="Despair" QuestId="0xE000C59D689B383C" TurninName="Cavill Arin" XYZ="-1.7234,15.55583,168.1779" />
 </If>
 		
@@ -1155,9 +1145,6 @@
 		
 <!-- Crash Course -->
 <If Condition="not IsStepComplete(0xE000EC98766AD969, 2)"> 
-	<!-- Bindpoint -->
-	<UseObject ObjectName="Sundari Imperial Outpost" QuestId="0xE000EC98766AD969" StepId="2" WaitTime="3000" XYZ="86.24603,14.15201,155.0487" />
-
 	<!-- Taxi -->
 			
 	<!-- Crash Course -->
@@ -1518,9 +1505,6 @@
 		
 <!-- Balmorra: Bonus Series -->
 <If Condition="not IsStepComplete(0xE00029E61EADE4B5, 2)">
-	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00029E61EADE4B5" StepId="2" ObjectName="Remote Markaran Outpost" WaitTime="3000" XYZ="-114.6419,14.49679,96.50491" />
-			
 	<!-- Taxi -->
 			
 	<!-- Balmorra: Bonus Series -->
@@ -1674,9 +1658,6 @@
 <!-- Balmorra: Bonus Series -->
 <If Condition="not IsTaskComplete(0xE00029E61EADE4B5, 3, 6)">
 	<!-- Taxi -->
-			
-	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00029E61EADE4B5" StepId="3" TaskId="6" ObjectName="Vanguard Outpost" WaitTime="3000" XYZ="-156.0894,14.12632,130.0515" />
 			
 	<!-- Balmorra: Bonus Series -->
 	<TurnInQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" TurninName="Captain Renzfeil Neuwt" XYZ="-155.0889,14.36972,133.5063" />
@@ -1893,11 +1874,6 @@
 			<Hotspot Name="Remote Markaran Outpost Skyhopper" X="-115.8359" Y="14.50528" Z="96.3506" />
 			<Hotspot Name="Bugtown Outpost Skyhopper" X="30.6715" Y="1.495295" Z="-3.5652" />
 		-->
-		
-<If Condition="not IsStepComplete(0xE00081033ABE002B, 3)">
-	<!-- Bindpoint -->
-	<UseObject QuestId="0xE00081033ABE002B" StepId="3" ObjectName="Bugtown Outpost" WaitTime="3000" XYZ="26.85787,-0.05343744,-8.183394" />
-</If>
 		
 <!-- Colicoid Expulsion -->
 <PickupQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" GiverName="Captain Augatta" XYZ="28.3404,-0.05312235,-8.9814" />

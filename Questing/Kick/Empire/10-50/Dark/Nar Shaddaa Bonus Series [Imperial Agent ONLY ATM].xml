@@ -260,13 +260,6 @@
 		</If>
 		
 		
-		<!-- Catching Bind Point - Binding it to quest 'Breaking the Cure' -->
-		<If Condition="HasQuest(0xE000728061FD054C) and not IsStepComplete(0xE000728061FD054C, 3)">
-			<!-- Learning Bind Point -->
-			<UseObject ObjectName="Republic Research Division" QuestId="0xE000728061FD054C" StepId="3" WaitTime="3" XYZ="-166.1679,-143.899,259.6846" />
-		</If>
-		
-		
 		<!-- Breaking the Cure - Report to Agent Beshar -->
 		<TurnInQuest QuestName="Breaking the Cure" QuestId="0xE000728061FD054C" TurnInName="Agent Beshar" XYZ="-168.8932,-143.899,257.8778" />
 		<CompleteQuest QuestName="Breaking the Cure" QuestId="0xE000728061FD054C" RewardIndex="3" />
@@ -415,12 +408,6 @@
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Narvusin -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)">
 			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Network Security District" XYZ="-168.259,-145.4901,288.0291" />
-		</If>
-		
-		<!-- Catching Bind Point - Binding it to quest 'Nar Shaddaa: Bonus Series' -->
-		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)">
-			<!-- Learning Bind Point -->
-			<UseObject ObjectName="Network Security District" QuestId="0xE000FA06A85AE58A" StepId="7" WaitTime="3" XYZ="166.3939,-158.799,281.0514" />
 		</If>
 		
 		

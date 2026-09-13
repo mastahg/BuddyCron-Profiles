@@ -887,9 +887,6 @@
 		
 		<!-- Flight Path -->
 		
-		<!-- Binding Point -->
-		<UseObject QuestId="1" ObjectName="Revanite Compound" WaitTime="3000" XYZ="-80.24611,-2.539633,115.0128" />
-		
 		<!-- Death and Life -->
 		<If Condition="not IsStepComplete(0xE0009FC8653EA2A5, 2)">
 			<TurnInQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" TurnInName="Elder Revanite Jhorval" XYZ="-80.4188,-2.698945,112.4929" />
@@ -932,9 +929,6 @@
 		<!-- The War Machine -->
 		<If Condition="not IsStepComplete(0xE00069416197EC03, 2)">
 			<!-- Flight Path -->
-			
-			<!-- Binding Point -->
-			<UseObject QuestId="1" ObjectName="The Wall" WaitTime="3000" XYZ="-33.27552,-5.859586,112.7479" />
 			
 			<!-- The War Machine -->
 			<PickupQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" GiverName="Captain Sarnova" XYZ="-35.1154,-5.904247,118.0605" />
@@ -1293,7 +1287,6 @@
 		
 		<!-- Unauthorized Transmission, Part I -->
 		<If Condition="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)">
-			<UseObject QuestId="0xE0004C2A6B1FB0C5" StepId="2" ObjectName="Kaas City Expansion" WaitTime="4000" XYZ="-63.13832,2.4226,20.88171" />
 			<PickupQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" GiverName="Captain Isen" XYZ="-63.4106,2.401627,24.7758" />
 		</If>
 		
@@ -1332,12 +1325,6 @@
 		</If>
 		
 		<!-- Using The Accursed -->
-		<If Condition="not IsStepComplete(0xE000F5F9E56B8C7D, 4)">
-			<!-- Bind Point -->
-			<UseObject ObjectName="Outpost Warden" QuestId="0xE000F5F9E56B8C7D" StepId="4" WaitTime="3000" XYZ="-124.9208,5.3,69.30022" />
-			
-			<!-- Taxi  -->
-		</If>
 		
 		<!-- The Wretch King -->
 		<If Condition="not IsStepComplete(0xE000ED10A5C9BF7B, 2)">

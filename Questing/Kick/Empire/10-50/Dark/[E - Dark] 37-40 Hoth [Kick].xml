@@ -746,7 +746,6 @@
 		<!-- Pickup Tracking the Republic -->
 		<If Condition="((not HasQuest(0xE000680772DCF3B5)) and (not IsQuestComplete(0xE000680772DCF3B5)))">
 			<PickUpQuest QuestName="Tracking the Republic" QuestId="0xE000680772DCF3B5" GiverName="Sergeant Ritter" XYZ="-265.6921,10.2779,92.6427" />
-			<Interact Name="Dorn Base" IgnoreLOS="True" XYZ="-263.7617,10.10785,91.50032" />
 		</If>
 
 		<!-- The Long Cold Silence -->
@@ -812,7 +811,6 @@
 			<CompleteQuest QuestName="Violent Reprisals" QuestId="0xE000BCDB974A0D81" RewardIndex="2" />
 			<!-- Forcing Their Hand: Retrieval 0xE0001E032B6C7ACC -->
 			
-			<Interact Name="Forward Bunker" IgnoreLOS="True" XYZ="-224.7345,7.81164,151.9864" />
 		</If>
 		
 		<!-- Inquisitor - Scouring the Wastes and Turnin -->
@@ -876,7 +874,6 @@
 			<UseTransport TransporterName="Dorn Base Speeder" Type="Taxi" Option="Forward Bunker Speeder" 
 									XYZ="-264.4821,10.10785,91.4331" />
 									
-			<Interact Name="Leth Outpost" IgnoreLOS="True" XYZ="-91.28204,3.871496,89.45672" />
 		</If>
 		
 		<!-- Turnin Running the Numbers -->
@@ -1035,7 +1032,6 @@
 			<CompleteQuest QuestName="Fire in the Hole" QuestId="0xE0003C8212A4E98B" RewardIndex="1" />
 			<!-- Whiteout 0xE0004FE139485AFA-->
 			
-			<Interact Name="Thesh Outpost" XYZ="-42.75188,5.132509,27.74718" />
 		</If>
 
 		<!-- Turnin Whiteout -->
@@ -1179,7 +1175,6 @@
 			<TurnInQuest QuestName="An Icy Grave" QuestId="0xE0008594C0DBA0EB" TurnInName="Fixer 308" XYZ="127.0688,8.742028,52.6018" />
 			<CompleteQuest QuestName="An Icy Grave" QuestId="0xE0008594C0DBA0EB" />
 			
-			<Interact Name="Frostwake Outpost" XYZ="104.9012,10.469,55.27831" />
 			<!-- Breaking the Maw 0xE000F7EBA335CAE9-->
 		</If>
 		

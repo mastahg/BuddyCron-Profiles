@@ -1047,7 +1047,6 @@
 		<If Condition="((HasQuest(0xE000E1B98755D2B7)) and (not IsQuestComplete(0xE000E1B98755D2B7)))">
 			<If Condition="((HasQuest(0xE000E1B98755D2B7)) and (not IsBranchStepComplete(0xE000E1B98755D2B7, 1, 2)))">
 				<MoveTo QuestId="0xE000E1B98755D2B7" Name="Going to Rendezvous with Jonas Balker" XYZ="-85.73665,50.8049,-68.62038" />
-				<Interact Name="Slippery Slopes Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-85.73665,50.8049,-68.62038" />	<!-- QT: Slippery Slopes Cantina -->
 				<TalkTo QuestId="0xE000E1B98755D2B7" Name="Jonas Balkar" XYZ="-76.8524,50.801,-59.7256" />
 			</If>	
 		</If>
@@ -1758,10 +1757,6 @@
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 										XYZ="-101.73,53.801,-51.77" />		
 			</If>
-			<If Condition="Me.Position.X &lt;= -190">
-				<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-				<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-			</If>			
 		</If>	
 
 		<!-- Trooper - Climbing the Ladder -->
@@ -1773,10 +1768,6 @@
 					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 											XYZ="-101.73,53.801,-51.77" />		
 				</If>
-				<If Condition="(Me.Position.X &gt;= -200) and (Me.Position.X &lt;= -190)">
-					<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-					<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-				</If>	
 			</If>
 		</If>
 
@@ -1789,10 +1780,6 @@
 					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 											XYZ="-101.73,53.801,-51.77" />		
 				</If>
-				<If Condition="(Me.Position.X &gt;= -200) and (Me.Position.X &lt;= -190)">
-					<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-					<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-				</If>	
 			</If>
 		</If>
 		

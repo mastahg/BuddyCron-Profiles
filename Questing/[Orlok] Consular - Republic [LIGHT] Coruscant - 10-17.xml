@@ -842,8 +842,6 @@
 				<UserDialog Title="CryoGenesis" Message="Use elevator!" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
-				<MoveTo QuestId="0xE0000CB5D481F093" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->			
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Garden of Justice" XYZ="-106.9056,143.601,-450.5537" />
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="My Location" XYZ="-125.9681,143.6409,-460.9478" />

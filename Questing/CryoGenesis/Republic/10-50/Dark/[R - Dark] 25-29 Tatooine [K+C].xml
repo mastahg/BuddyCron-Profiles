@@ -1302,9 +1302,6 @@
 				<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
 					XYZ="189.6707,44.79112,-327.2745" />
 			</If>	
-			<If Condition="(Me.Position.X &gt; 82) and (Me.Position.X &lt; 83) and (Me.Position.Y &gt; 44) and (Me.Position.Y &lt; 45) and (Me.Position.Z &gt; -163) and (Me.Position.Z &lt; -162)">
-				<Interact Name="Dreviad Outpost" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="81.28106,44.64627,-162.1858" />	<!-- Bind point: Dreviad Outpost -->
-			</If>
 		</If>
 	
 		<PickUpQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" GiverName="Veek" XYZ="79.2514,43.56651,-157.4101" />
@@ -1712,8 +1709,6 @@
 		<!-- Pickup Target Practice -->
 		<If Condition="((not HasQuest(0xE000DD72B7EB8B7F)) and (not IsQuestComplete(0xE000DD72B7EB8B7F)))">
 			<MoveTo QuestId="1" Name="Picking up Speeder Location: Outpost Salara Speeder" XYZ="12.8318,43.82843,-155.0174" />
-			<MoveTo QuestId="1" Name="Outpost Salara QT" XYZ="12.0272,43.81877,-156.0014" />
-			<Interact Name="Outpost Salara" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="12.0272,43.81877,-156.0014" />	<!-- Bind point: Outpost Salara -->	
 			<PickUpQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" GiverName="Constable Surall" XYZ="11.8835,43.81311,-155.6109" />
 		</If>
 		<PickUpQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" GiverName="Raith Bannik" XYZ="4.034607,45.65218,-175.8452" />
@@ -2006,8 +2001,6 @@
 		<!-- The Thing Czerka Found 2 -->
 		<If Condition="((HasQuest(0xE000C745A1B9B4D5)) and (not IsQuestComplete(0xE000C745A1B9B4D5)))">
 			<If Condition="((HasQuest(0xE000C745A1B9B4D5)) and (not IsStepComplete(0xE000C745A1B9B4D5, 2)))">
-				<MoveTo QuestId="0xE000C745A1B9B4D5" Name="Outpost Thorazan QT" XYZ="-112.8045,42.5803,-136.2227" />
-				<Interact Name="Outpost Thorazan" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="-112.8045,42.5803,-136.2227" />	<!-- Bind point: Outpost Thorazan -->
 				<MoveTo QuestId="0xE000C745A1B9B4D5" Name="Outpost Thorazan Speeder" XYZ="-112.9411,42.68666,-138.4537" />
 				<TalkTo QuestId="0xE000C745A1B9B4D5" TurnInName="Lem Trudo" XYZ="-112.4655,42.2924,-131.471" />
 				<UseObject QuestId="0xE000C745A1B9B4D5" ObjectName="Decryption Tools" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-112.7443,42.31414,-131.3642" />
@@ -2595,8 +2588,6 @@
 		<!-- Militia's Trial and Turnin -->
 		<If Condition="((HasQuest(0xE000A7F9017979A9)) and (not IsQuestComplete(0xE000A7F9017979A9)))">
 			<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsStepComplete(0xE000807CD4DCC6DE, 4)))">
-				<MoveTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona QT" XYZ="167.101,44.5762,-108.9746" />
-				<Interact Name="Outpost Largona" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="167.101,44.5762,-108.9746" />	<!-- Bind point: Outpost Largona -->
 				<MoveTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona Speeder" XYZ="167.8405,44.83727,-110.8722" />
 				<TurnInQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" TurnInName="Doctor Aidarro" XYZ="174.5113,45.43246,-112.3777" />
 				<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" RewardIndex="3" />

@@ -1015,10 +1015,6 @@
 				<MoveTo QuestId="0xE0006111E609853E" Name="Holiday" XYZ="-92.241,51.801,-47.9415" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 	
-				<If Condition="Me.Position.X &lt;= -190">
-					<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-					<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-				</If>				
 			</If>
 		</If>
 

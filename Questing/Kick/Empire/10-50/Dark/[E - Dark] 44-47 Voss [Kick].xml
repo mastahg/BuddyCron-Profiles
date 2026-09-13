@@ -784,14 +784,10 @@
 		<If Condition="((not HasQuest(0xE0000CCCF1F44FA7)) and (not IsQuestComplete(0xE0000CCCF1F44FA7)))">
 			<PickUpQuest QuestName="True Motives" QuestId="0xE0000CCCF1F44FA7" GiverName="Kel-Fi" XYZ="13.4496,26.71061,-20.1105" />
 			<CompleteQuest QuestName="True Motives" QuestId="0xE0000CCCF1F44FA7" />
-			<MoveTo QuestId="1" XYZ="20.6911,27.10099,-9.478715" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Voss-Ka Cantina" XYZ="20.6911,27.10099,-9.478715" />
  
 			<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Fort Kodentha Skyhopper" 
 									XYZ="-31.7978,27.09854,-43.6523" />
 									
-			<MoveTo QuestId="1" XYZ="-140.8075,2.501,48.2085" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Fort Kodentha" XYZ="-140.8075,2.501,48.2085" />
 		</If>
 		
 		<!-- Ignoring H4 - Mission Terminal -->
@@ -916,7 +912,6 @@
 		<!-- Pickup The Gormak Problem -->
 		<If Condition="((not HasQuest(0xE0003D57A7834936)) and (not IsQuestComplete(0xE0003D57A7834936)))">
 			<PickUpQuest QuestName="The Gormak Problem" QuestId="0xE0003D57A7834936" GiverName="Fadith-Ki" XYZ="-178.8678,-4.218278,-89.3259" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Pilgrim Retreat" XYZ="-182.3864,-5.217898,-87.36084" />
 		</If>
 		
 		<!-- Let's See Some Aggression -->
@@ -1110,8 +1105,6 @@
 			
 					<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Outpost Skyline Skyhopper" 
 									XYZ="-31.7978,27.09854,-43.6523" />
-					<MoveTo QuestId="1" XYZ="-65.1713,23.43258,84.50069" />
-					<Interact IgnoreLOS="True" WaitTime="5" Name="Outpost Skyline" XYZ="-65.1713,23.43258,84.50069" />
 				</If>
 			</If>
 		</If>
@@ -1364,7 +1357,6 @@
 				<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Gehn's Overlook Skyhopper" 
 									XYZ="-31.7978,27.09854,-43.6523" />
 									
-				<Interact IgnoreLOS="True" WaitTime="5" Name="Ghen's Overlook" XYZ="118.8246,1.7051,-77.11059" />
 			</If>
 			<TurnInQuest QuestName="The Mad Sith Lord" QuestId="0xE000FF88E50736D5" TurnInName="Murbek Gehn" XYZ="124.4406,5.38887,-74.2388" />
 			<CompleteQuest QuestName="The Mad Sith Lord" QuestId="0xE000FF88E50736D5" />

@@ -713,13 +713,11 @@
 			<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Lower Promenade Taxi" 
 									XYZ="-193.4776,14.501,-179.3555" />
 			
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Promenade" XYZ="-125.4076,53.801,-78.01408" />
 			
 			<If Condition="(Me.Class != CharacterClass.Inquisitor)">
 				<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
 									XYZ="-125.5166,53.801,-78.1966" />
 									
-				<Interact IgnoreLOS="True" WaitTime="5" Name="Corellian Sector" XYZ="-402.202,24.001,-163.8471" />
 			</If>
 		</If>
 		
@@ -738,7 +736,6 @@
 			<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
 									XYZ="-125.5166,53.801,-78.1966" />
 									
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Corellian Sector" XYZ="-402.202,24.001,-163.8471" />
 		</If>
 
 		<PickUpQuest QuestName="Let the Vendor Beware" QuestId="0xE000BADA5BE4E4CA" GiverName="Ghost" XYZ="-398.855,24.001,-166.7804" />
@@ -1146,7 +1143,6 @@
 				<If Condition="(Me.Position.X &lt; -380) and (Me.Position.X &gt; -420)">
 					<UseTransport TransporterName="Corellian Sector Taxi" Option="Upper Industrial Sector Taxi" 
 									XYZ="-403.0259,24.001,-164.1409" />
-					<Interact IgnoreLOS="True" WaitTime="5" Name="Upper Industrial Sector" XYZ="-198.2223,-145.499,275.2301" /> <!-- iN2Fun - Bind Spot -->
 				</If>
 			</If>
 		</If>
@@ -1367,7 +1363,6 @@
 				<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Network Access Taxi" 
 									XYZ="-198.0589,-145.499,274.9999" />
 			</If>
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Imperial Datacenter" XYZ="202.0969,-156.299,246.2601" />
 		</If>
 		
 		<!-- Warrior - Distress Call -->

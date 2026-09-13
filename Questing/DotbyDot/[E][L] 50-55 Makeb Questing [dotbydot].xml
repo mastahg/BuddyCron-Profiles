@@ -285,7 +285,6 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
-					<Interact Name="Gravity Hook Seven" UseRange="4" XYZ="-324.926,-17.14169,-14.6146" /> <!-- Gravity Hook 7 Bindpoint -->
 					<ForceVendor VendorType="Repair" />
 					<ForceVendor VendorType="Train" />
 					<MoveTo QuestId="0xE00084AE8D790227" XYZ="-323.0785,-17.11476,-13.7874" />
@@ -828,8 +827,6 @@
 												XYZ="-330.5677,-17.21365,-13.18888" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
-				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-245.7859,20.88428,168.3134" />
-				<Interact Name="Drill Observation Ring" UseRange="4" XYZ="-245.7859,20.88428,168.3134" /> <!-- Drill Site Control Center Bindpoint -->
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-236.52,20.98863,164.315" />
 				<TurnInQuest QuestName="Descent into the Core" QuestId="0xE000B4C8AD49CEF3" TurnInName="Katha Niar" XYZ="-236.52,20.98863,164.315" />
 				<CompleteQuest QuestName="Descent into the Core" QuestId="0xE000B4C8AD49CEF3" RewardIndex="1" />
@@ -846,9 +843,6 @@
 					<UseTransport TransporterName="Drill Observation Ring Shuttle" Type="Taxi" Option="Perekta Mesa Shuttle"
 														XYZ="-247.0062,20.87449,166.8905" />
 					<WaitTimer QuestId="1" WaitTime="2" />
-				</If>
-				<If Condition="(Me.Position.X &gt; -165) and (Me.Position.X &lt; -160) and (Me.Position.Y &gt; -21) and (Me.Position.Y &lt; -20) and (Me.Position.Z &gt; 417) and (Me.Position.Z &lt; 423)">
-					<Interact Name="Perekta Mesa" UseRange="4" XYZ="-163.608,-20.94457,421.436" /> <!-- Perekta Mesa Bindpoint -->
 				</If>
 				<If Condition="((not IsTaskComplete(0xE00050441AADBBED, 2, 0)))">
 					<MoveTo QuestId="0xE00050441AADBBED" XYZ="-179.6269,-24.11357,434.5703"  />
@@ -956,9 +950,6 @@
 					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Drill Site Shuttle"
 														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
-				</If>
-				<If Condition="(Me.Position.X &gt; -86) and (Me.Position.X &lt; -78) and (Me.Position.Y &gt; -70) and (Me.Position.Y &lt; -68) and (Me.Position.Z &gt; 213) and (Me.Position.Z &lt; 220)">
-					<Interact Name="Cartel Mining Mesa" UseRange="4" XYZ="-84.59476,-69.90721,216.2787" /> <!-- Drill Site Bindpoint -->
 				</If>
 				<Grind GrindRef="Isotope-5 Droids" While="(not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 2))" />
 			</If>
@@ -1077,7 +1068,6 @@
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -109) and (Me.Position.X &lt; -105) and (Me.Position.Y &gt; -15) and (Me.Position.Y &lt; -14) and (Me.Position.Z &gt; -198) and (Me.Position.Z &lt; -192)">
-					<Interact Name="Telemur Mesa" UseRange="4" XYZ="-105.9716,-14.44877,-197.2692" /> <!-- Satellite Control Center Bindpoint -->
 					<MoveTo QuestId="0xE000DDDED5643B06" XYZ="-118.6161,-15.15465,-172.5352" />
 					<MoveTo QuestId="0xE000DDDED5643B06" XYZ="-134.2549,-14.09428,-155.7358" />
 				</If>
@@ -1110,7 +1100,6 @@
 					<MoveTo QuestId="0xE000E74DF274E415" XYZ="-23.65247,-14.96838,-397.5317" />
 					<MoveTo QuestId="0xE000E74DF274E415" XYZ="-23.25512,-14.96838,-397.5583" />
 					<PickUpQuest QuestName="The Backup Plan" QuestId="0xE000D27A47E88928" GiverType="Placeable" UseRange="4" Radius="2" GiverName="Imperial Command Uplink" XYZ="-23.25512,-14.96838,-397.5583" />
-					<Interact Name="Hutt Strongholds" UseRange="4" XYZ="-24.89253,-14.97142,-397.4521" /> <!-- Archon's Estates Bindpoint -->
 				</If>
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-33.36926,-15.28547,-416.5928" />
 				<UseObject QuestId="0xE000E74DF274E415" ObjectName="Holoterminal" BranchId="1" StepId="2" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-33.36926,-15.28547,-416.5928"  />

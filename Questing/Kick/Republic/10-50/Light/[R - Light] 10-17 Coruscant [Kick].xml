@@ -928,8 +928,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE0000CB5D481F093" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->			
 				<!-- Learn Bindpoint
 				<Hotspot Name="Senate Plaza" X="-114.5966" Y="142.8024" Z="-416.0369" />
 				Taxi
@@ -955,8 +953,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0002021F2CF1FFC)) and (not IsStepComplete(0xE0002021F2CF1FFC, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE0002021F2CF1FFC" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="My Location" XYZ="-106.8002,143.6011,-463.6186" />
 				<WaitTimer QuestId="1" WaitTime="7" />
 			</If>
@@ -974,8 +970,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="My Location" XYZ="-102.7924,143.6111,-460.868" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
@@ -993,8 +987,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4))) and (Me.Position.Z &gt; -391)">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE0008E987301305E" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 			</If>
 		</If>
 	
@@ -1260,8 +1252,6 @@
 		<If Condition="((HasQuest(0xE0000942586238DE)) and (not IsQuestComplete(0xE0000942586238DE)))">
 			<!-- Branch 1 -->
 			<If Condition="((HasQuest(0xE0000942586238DE)) and (not IsBranchStepComplete(0xE0000942586238DE, 1, 2)))">
-				<MoveTo QuestId="0xE0000942586238DE" Name="Dealer's Den Cantina QT" XYZ="229.2589,43.21119,66.11561" />
-				<Interact Name="Dealer's Den Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="229.2589,43.21119,66.11561" />	<!-- Bindpoint: Dealer's Den Cantina -->		 
 				<If Condition="(Me.Class == CharacterClass.Consular)">
 					<TalkTo QuestId="0xE0000942586238DE" Name="Qyzen Fess" Radius="50" XYZ="229.0657,43.201,66.16811" /> 
 					<WaitTimer QuestId="0xE0000942586238DE" WaitTime="15" />

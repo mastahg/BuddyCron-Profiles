@@ -1120,7 +1120,6 @@
 		<If Condition="((HasQuest(0xE000E1B98755D2B7)) and (not IsQuestComplete(0xE000E1B98755D2B7)))">
 			<If Condition="((HasQuest(0xE000E1B98755D2B7)) and (not IsBranchStepComplete(0xE000E1B98755D2B7, 1, 2)))">
 				<MoveTo QuestId="0xE000E1B98755D2B7" Name="Going to Rendezvous with Jonas Balker" XYZ="-85.73665,50.8049,-68.62038" />
-				<Interact Name="Slippery Slopes Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-85.73665,50.8049,-68.62038" />	<!-- QT: Slippery Slopes Cantina -->
 				<TalkTo QuestId="0xE000E1B98755D2B7" Name="Jonas Balkar" XYZ="-76.8524,50.801,-59.7256" />
 			</If>	
 		</If>
@@ -1150,15 +1149,9 @@
 			</If>				
 			<!-- Auto Accept Armed and Dangerous 0xE0007A06CCCEBCB8 -->
 			<If Condition="Me.Position.X &gt;= -300">
-				<MoveTo QuestId="1" Name="QT: Promenade" XYZ="-101.4845,53.801,-51.91128" />
-				<Interact Name="Promenade" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-101.4845,53.801,-51.91128" />	<!-- QT: Promenade -->
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Nikto Sector Taxi" 
 										XYZ="-101.73,53.801,-51.77" />		
 			</If>	
-			<If Condition="Me.Position.X &lt;= -300">
-				<MoveTo QuestId="1" Name="QT: Nikto Sector" XYZ="-385.3886,24.001,-311.3091" />
-				<Interact Name="Nikto Sector" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-385.3886,24.001,-311.3091" />	<!-- QT: Nikto Sector -->
-			</If>				
 		</If>
 	
 		<PickUpQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" GiverName="Yeddu" XYZ="-381.6275,24.001,-311.4383" />
@@ -1507,10 +1500,6 @@
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Red Light Sector Taxi" 
 										XYZ="-101.73,53.801,-51.77" />		
 			</If>
-			<If Condition="Me.Position.X &gt;= 200">
-				<MoveTo QuestId="1" Name="QT: Red Light Sector" XYZ="334.7476,-312.499,-306.9825" />
-				<Interact Name="Red Light Sector" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="334.7476,-312.499,-306.9825" />	<!-- QT: Red Light Sector -->
-			</If>			
 		</If>
 
 		<!-- Turnin Waylaid -->
@@ -1576,8 +1565,6 @@
 			<TurnInQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" TurnInName="Lieutenant Rale" XYZ="314.7232,-314.1799,-369.1538" />
 			<CompleteQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" RewardIndex="2" />
 			<!-- Double Negative 0xE000C73014AF2DCC -->
-			<MoveTo QuestId="1" Name="QT: Club Ufora" XYZ="326.6102,-313.6955,-350.1395" />
-			<Interact Name="Club Ufora" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="326.6102,-313.6955,-350.1395" />	<!-- QT: Club Ufora -->			
 		</If>
 
 		<!-- Consular - Running with the Lancers (Bonus) -->
@@ -1860,10 +1847,6 @@
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 										XYZ="-101.73,53.801,-51.77" />		
 			</If>
-			<If Condition="Me.Position.X &lt;= -190">
-				<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-				<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-			</If>				
 		</If>
 
 		<!-- Knight - Striking Back -->
@@ -1900,10 +1883,6 @@
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 										XYZ="-101.73,53.801,-51.77" />		
 			</If>
-			<If Condition="Me.Position.X &lt;= -190">
-				<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-				<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-			</If>			
 		</If>	
 
 		<!-- Trooper - Climbing the Ladder -->
@@ -1915,10 +1894,6 @@
 					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 											XYZ="-101.73,53.801,-51.77" />		
 				</If>
-				<If Condition="(Me.Position.X &gt;= -200) and (Me.Position.X &lt;= -190)">
-					<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-					<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-				</If>	
 			</If>
 		</If>
 
@@ -1931,10 +1906,6 @@
 					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
 											XYZ="-101.73,53.801,-51.77" />		
 				</If>
-				<If Condition="(Me.Position.X &gt;= -200) and (Me.Position.X &lt;= -190)">
-					<MoveTo QuestId="1" Name="QT: Maintenance Access Corridor" XYZ="-198.0555,-170.599,284.8751" />
-					<Interact Name="Maintenance Access Corridor" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-198.0555,-170.599,284.8751" />	<!-- QT: Maintenance Access Corridor -->
-				</If>	
 			</If>
 		</If>
 		
@@ -2321,10 +2292,6 @@
 					<UseTransport TransporterName="Lower Industry Sector Taxi" Type="Taxi" Option="Shadow Town Taxi" 
 										XYZ="-197.8112,-170.599,284.6895" />
 				</If>
-				<If Condition="(Me.Position.X &gt;= 258) and (Me.Position.X &lt;= 261)">
-					<MoveTo QuestId="1" Name="QT: Shadow Town" XYZ="260.5794,-152.799,267.9323" />
-					<Interact Name="Shadow Town" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="260.5794,-152.799,267.9323" />	<!-- QT: Shadow Town -->
-				</If>				
 				<If Condition="(Me.Position.X &gt;= 0)">			 
 					<TalkTo QuestId="0xE0008F74BC4FB843" Name="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
 				</If>	

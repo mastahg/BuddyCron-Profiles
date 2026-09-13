@@ -1093,7 +1093,6 @@
 		<!-- Pickup The Rebel Secrets -->
 		<If Condition="((not HasQuest(0xE00020B6B689534B)) and (not IsQuestComplete(0xE00020B6B689534B)))">
 			<PickUpQuest QuestName="The Rebel Secrets" QuestId="0xE00020B6B689534B" GiverName="G-05" XYZ="-166.7024,2.1063,216.9574" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Incorporated Islands Tram" XYZ="-168.6242,2.1063,218.1649" />
 		</If>
 		
 		<!-- The Rebel Secrets -->
@@ -1382,7 +1381,6 @@
 			<UseTransport TransporterName="Incorporation Islands Tram" Type="Taxi" Option="Imperial War Camp Tram" 
 									XYZ="-170.1035,4.38175,218.119" />
 									
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Imperial War Camp" XYZ="-317.2253,-9.86964,-153.5646" />
 		</If>
 
 		<!-- Ignoring H2+ Wookiee Revlot - Captain Helricks -->
@@ -1587,7 +1585,6 @@
 			<UseTransport TransporterName="Imperial War Camp Tram" Type="Taxi" Option="Axial Park South Tram" 
 									XYZ="-317.204,-7.61825,-154.1093" />
 	
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Axial Park South" XYZ="105.3477,2.1088,-166.7256" />
 		</If>
 
 		<PickUpQuest QuestName="Derailing the Rocket Tram" QuestId="0xE00020B048FB68AB" GiverName="Zyman" XYZ="90.5253,2.410199,-174.8316" />
@@ -1850,7 +1847,6 @@
 									XYZ="105.1889,4.38175,-165.8872" />
 			
 			<ForceVendor VendorType="Repair" />
-			<Interact IgnoreLOS="True" WaitTime="5" Name="Business Sector" XYZ="303.3526,20.11387,-121.6979" />
 		</If>
 		
 		<!-- Ignoring H4 Prison Busting - Moff Tarandon -->

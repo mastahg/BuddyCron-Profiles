@@ -930,8 +930,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE0000CB5D481F093" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->			
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="Garden of Justice" XYZ="-106.9056,143.601,-450.5537" />
 				<MoveTo QuestId="0xE0000CB5D481F093" Name="My Location" XYZ="-125.9681,143.6409,-460.9478" />
@@ -952,8 +950,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE0002021F2CF1FFC)) and (not IsStepComplete(0xE0002021F2CF1FFC, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE0002021F2CF1FFC" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
 				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="Garden of Justice" XYZ="-106.9056,143.601,-450.5537" />			
 				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="My Location" XYZ="-106.8002,143.6011,-463.6186" />
@@ -973,8 +969,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-				<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="Garden of Justice" XYZ="-106.9056,143.601,-450.5537" />			
 				<MoveTo QuestId="0xE000AE7B9FA6A4D0" Name="My Location" XYZ="-102.7924,143.6111,-460.868" />
@@ -995,8 +989,6 @@
 				</If>
 				<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4)))">
 					<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
-					<MoveTo QuestId="0xE0008E987301305E" Name="Senate Commercial District Cantina QT" XYZ="-122.6072,141.5989,-445.1695" />
-					<Interact Name="Senate Commercial District Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-122.6072,141.5989,-445.1695" />	<!-- Bind point: Senate Commercial District Cantina -->	
 					<MoveTo QuestId="0xE0008E987301305E" Name="Garden of Equality" XYZ="-120.6059,143.601,-449.009" />
 					<MoveTo QuestId="0xE0008E987301305E" Name="Garden of Justice" XYZ="-106.9056,143.601,-450.5537" />	
 				</If>			
@@ -1322,8 +1314,6 @@
 		<If Condition="((HasQuest(0xE0000942586238DE)) and (not IsQuestComplete(0xE0000942586238DE)))">
 			<!-- Branch 1 -->
 			<If Condition="((HasQuest(0xE0000942586238DE)) and (not IsBranchStepComplete(0xE0000942586238DE, 1, 2)))">
-				<MoveTo QuestId="0xE0000942586238DE" Name="Dealer's Den Cantina QT" XYZ="229.2589,43.21119,66.11561" />
-				<Interact Name="Dealer's Den Cantina" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="229.2589,43.21119,66.11561" />	<!-- Bindpoint: Dealer's Den Cantina -->		 
 				<If Condition="(Me.Class == CharacterClass.Consular)">
 					<TalkTo QuestId="0xE0000942586238DE" Name="Qyzen Fess" Radius="50" XYZ="229.0657,43.201,66.16811" /> 
 					<WaitTimer QuestId="0xE0000942586238DE" WaitTime="15" />
@@ -1919,10 +1909,6 @@
 				<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Justicar Territory Taxi" 
 										XYZ="-114.6167,142.111,-425.4255" />
 			</If>						
-			<If Condition="(Me.Position.X &gt; 0)">
-				<MoveTo QuestId="1" Name="Justicar Sector QT" XYZ="148.8889,-106.3157,397.4861" />
-				<Interact Name="Justicar Sector" XYZ="148.8889,-106.3157,397.4861" />	<!-- Bind point: Justicar Sector -->
-			</If>							
 		</If>
 	
 		<PickUpQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" GiverName="Agent Jaffkee" XYZ="124.154,-106.299,401.716" />
@@ -2243,8 +2229,6 @@
 										XYZ="124.9157,-105.299,430.7931" />
 			</If>						
 			<If Condition="(Me.Position.Y &lt; -150)">
-				<MoveTo QuestId="1" Name="The Works QT" XYZ="119.5995,-226.2635,430.8347" />
-				<Interact Name="The Works Sector" XYZ="119.5995,-226.2635,430.8347" />	<!-- Bind point: The Works -->
 				<ForceVendor VendorType="Repair" />	
 			</If>
 		</If>
@@ -2395,10 +2379,6 @@
 			<UseTransport TransporterName="The Works Taxi" Type="Taxi" Option="Jedi Temple Taxi" 
 									XYZ="80.1477,-226.6384,484.1165" />
 
-			<If Condition="(Me.Position.X &lt; -200)">							
-				<MoveTo QuestId="1" Name="Jedi Temple QT" XYZ="-277.9892,-245.3954,331.6367" />
-				<Interact Name="Jedi Temple" XYZ="-277.9892,-245.3954,331.6367" />	<!-- Bind point: The Works -->	
-			</If>		
 		</If>
 
 		<!-- Pickup Insult to Injury -->

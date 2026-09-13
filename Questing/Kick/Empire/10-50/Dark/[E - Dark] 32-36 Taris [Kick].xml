@@ -980,9 +980,6 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			
-			<Interact Name="Toxic Lake Garrison" XYZ="-7.084278,-25.73174,61.141" />
-			<MoveTo QuestId="1" XYZ="-7.177665,-25.69019,49.75048" />
-			<Interact Name="Command Center Cantina" XYZ="-7.177665,-25.69019,49.75048" />
 		</If>
 
 		<!-- Agent - Chaos on a Broken World -->
@@ -1021,7 +1018,6 @@
 		<!-- Pickup Come Out, Come Out -->
 		<If Condition="((not HasQuest(0xE000071270A2FE4A)) and (not IsQuestComplete(0xE000071270A2FE4A)))">
 			<PickUpQuest QuestName="Come Out, Come Out" QuestId="0xE000071270A2FE4A" GiverName="Lord Ryvus" XYZ="-80.7,-23.78674,80.3" />
-			<Interact Name="Bomber Command Post" XYZ="-75.87427,-23.79398,79.08045" />
 		</If>
 		
 		<!-- Come Out, Come Out -->
@@ -1118,7 +1114,6 @@
 		<If Condition="((not HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
 			<PickUpQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" GiverName="Eton Vok" XYZ="33.2548,-19.65277,51.5048" />
 	
-			<Interact WaitTime="3" Name="Border Assault Post" XYZ="32.2965,-19.65184,50.96929" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1543,7 +1538,6 @@
 					<TalkTo QuestId="0xE0001D43BC5B86B9" Name="Lord Shaythin" XYZ="-104.394,-20.7115,54.7671" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<Interact WaitTime="3" Name="Crater Command Base" XYZ="-118.5065,-18.8371,44.42542" />
 				<ForceVendor VendorType="Repair" />
 			</If>
 		</If>
@@ -1733,7 +1727,6 @@
 		<If Condition="((not HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<PickUpQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" GiverName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
 
-			<Interact WaitTime="3" Name="75th Legion Forward Camp" XYZ="71.49591,-17.72487,40.8328" />
 			<!--
 			<TalkTo QuestId="1" Name="Tower Command Station Speeder" X="-73.2982" Y="-12.99559" Z="0.5516" />
 			<UseObject WaitTime="5" Name="Tower Command Station" X="-71.81956" Y="-12.99559" Z="0.748356" />

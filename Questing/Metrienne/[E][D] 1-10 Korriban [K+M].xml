@@ -568,8 +568,6 @@
 	
 		<!-- Turnin Imperial Edict -->
 		<If Condition="((HasQuest(0xE0006149372CE12F)) and (not IsQuestComplete(0xE0006149372CE12F)))">
-			<MoveTo QuestId="0xE0006149372CE12F" XYZ="-18.02271,-0.01406272,-1.299351" />
-			<Interact WaitTime="5" Name="Sith Academy" XYZ="-18.02271,-0.01406272,-1.299351" /> <!-- Bind point: Sith Academy -->
 			<TurnInQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" TurnInName="Sergeant Rikel" XYZ="-18.51882,0.2193554,3.761579" />
 			<CompleteQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" RewardIndex="0" />
 			
@@ -676,8 +674,6 @@
 			<ForceVendor VendorType="Repair" />
 			<UseTransport TransporterName="Sith Academy Skyhopper" Type="Taxi" Option="Lower Wilds Taxi" 
 									XYZ="-18.9321,0.4588,-4.8698" />
-			<MoveTo QuestId="1" XYZ="-18.02271,-0.01406272,-1.299351" />						
-			<Interact WaitTime="5" Name="Lower Wilds" XYZ="-18.02271,-0.01406272,-1.299351" /> <!-- Bind point: Lower Wilds -->	
 		</If>
 	  
 		<PickUpQuest QuestName="Experimental Needs" QuestId="0xE00008260B67A738" GiverName="Acolyte Krevan" XYZ="59.9594,-16.69371,-1.6444" />
@@ -690,8 +686,6 @@
 			
 			<ForceVendor VendorType="Repair" />
 			<!-- Ele up - this ele needs to be fixt -->
-			<MoveTo QuestId="1" XYZ="39.53565,-15.20958,26.74116" />	
-			<Interact WaitTime="5" Name="Field Research Area" XYZ="39.53565,-15.20958,26.74116" /> <!-- Bind point: Field Research Area -->	
 			<!-- Ele down -->
 		</If>
 	  

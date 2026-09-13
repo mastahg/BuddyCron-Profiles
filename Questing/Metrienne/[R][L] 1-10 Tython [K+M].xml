@@ -775,7 +775,6 @@
 			</If>
 			<TurnInQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" TurnInName="Master Satele Shan" XYZ="-42.28925,-7.4746,-33.21468" />
 			<CompleteQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" RewardIndex="1" />
-			<Interact Name="Jedi Temple Cantina" XYZ="-37.39037,-7.47459,-34.45747" /> <!-- Bind point: Jedi Temple Cantina -->
 			<!-- Auto-receive new quest: High-Tech Savages 0xE000941AE7D5C4D8 -->
 		</If>
 		
@@ -801,7 +800,6 @@
 			<!-- Go to Jedi Temple and learn Taxi / Bind Point -->
 			<TurnInQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" TurnInName="Master Yuon Par" XYZ="-33.1236,-7.473284,-56.3757" />
 			<CompleteQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" />
-			<Interact WaitTime="5" Name="Jedi Temple Cantina" XYZ="-37.37989,-7.474587,-34.53466" /> <!-- Bind point: Jedi Temple Cantina -->
 			<!-- Auto-receive quest: Pilgrims (Bonus), ID: 0xE0009832354DE990, Step: 2 -->
 		</If>
 		
@@ -841,7 +839,6 @@
 		<If Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsQuestComplete(0xE000742A9CEC2745)))">
 			<TurnInQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" TurnInName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 			<CompleteQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" />
-			<Interact Name="Jedi Temple" XYZ="-15.73499,-8.135677,-45.44588" /> <!-- Bind point: Jedi Temple -->
 		</If>
 	
 		<!-- Consular - Pilgrims 2-->
@@ -861,7 +858,6 @@
 		<!-- Pickup Lost Pilgrim -->
 		<If Condition="((not HasQuest(0xE0009F5278D8AEE7)) and (not IsQuestComplete(0xE0009F5278D8AEE7)))">
 			<PickUpQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" GiverName="Tazonthe Ghon" XYZ="13.6551,-0.7676925,-32.2149" />
-			<Interact WaitTime="5" Name="Kalikori Village" XYZ="16.42264,-0.8247002,-29.56303" /> <!-- Bind point: Kalikori Village -->	
 		</If>
 		<PickUpQuest QuestName="Strength of the Flesh Raiders" QuestId="0xE0000C1ACB99C79A" GiverName="Vederiat Ayon" XYZ="13.8958,-0.04190614,-40.8267" />
 		<PickUpQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" GiverName="Yuleph Phan" XYZ="22.1417,-0.8281062,-36.5877" />
@@ -1027,7 +1023,6 @@
 			<TurnInQuest QuestName="Hero Worship" QuestId="0xE000B33F09B77069" TurnInName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />
 			<CompleteQuest QuestName="Hero Worship" QuestId="0xE000B33F09B77069" />
 			<!-- The Last Defenders 0xE00081FD7596DD74 -->
-			<Interact WaitTime="5" Name="Elarian Trail" XYZ="-24.62783,-2.367607,-5.775639" /> <!-- Bind point - Elarian Trail -->
 		</If>
 		
 		<PickUpQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" GiverName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />

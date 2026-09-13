@@ -940,8 +940,6 @@
 				<Grind GrindRef="Defusing the Situation (Bonus)" While="(not IsQuestComplete(0xE000B8CF9552DE3F))" />
 			</If>
 			<If Condition="((HasQuest(0xE0004C5EBCA7C6E6)) and (not IsStepComplete(0xE0004C5EBCA7C6E6, 3)))">
-				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="House Organa QT" XYZ="-106.0047,22.99176,124.2956" />
-				<Interact Name="House Organa" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-106.0047,22.99176,124.2956" />	<!-- Bind point: House Organa -->	
 				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="Organa Castle" XYZ="-80.47144,25.601,112.991" />
 				<TurnInQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" TurnInName="General Kashim" XYZ="-76.3976,29.2008,103.0247" />
 				<CompleteQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" RewardIndex="0" />
@@ -1026,8 +1024,6 @@
 				<Grind GrindRef="Paladins 3 2" While="(not IsBranchStepComplete(0xE000BC57328A8B42, 3, 2))" />
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 3, 3)))">
-				<MoveTo QuestId="0xE000BC57328A8B42" Name="House Thul Lore" XYZ="-98.349,23.23015,181.4615" />
-				<Interact Name="House Thul" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-98.349,23.23015,181.4615" />	<!-- Lore: House Thul -->			
 				<TalkTo QuestId="0xE000BC57328A8B42" Name="Brant Sonn" XYZ="-94.05575,23.11993,181.9496" />
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 4, 2)))">
@@ -1110,8 +1106,6 @@
 			</If>
 			<TurnInQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" TurnInName="Brant Organa" XYZ="45.7172,18.55964,167.5337" />
 			<CompleteQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" RewardIndex="0" />
-			<MoveTo QuestId="1" Name="Wardpost Duvaal QT" XYZ="46.117,18.57019,169.1127" />
-			<Interact Name="Wardpost Duvaal" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="46.117,18.57019,169.1127" />	<!-- Bind point: Wardpost Duvaal -->	
 			<!-- Learn Bindpoint -->
 			<!-- Force Sell, Repair, Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1374,8 +1368,6 @@
 				<UseObject QuestId="0xE00073E72940C051" ObjectName="Rist Tranceiver" BranchId="1" StepId="3" Radius="50" IgnoreLOS="True" UseRange="50" WaitTime="5" XYZ="138.2545,18.85404,45.02652" />
 			</If>
 			<If Condition="((HasQuest(0xE00073E72940C051)) and (not IsStepComplete(0xE00073E72940C051, 4)))">
-				<MoveTo QuestId="0xE00073E72940C051" Name="Wardpost Landa QT" XYZ="74.14213,14.53801,2.819437" />
-				<Interact Name="Wardpost Landa" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="74.14213,14.53801,2.819437" />	<!-- Bind point: Wardpost Landa -->	
 				<TurnInQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" TurnInName="Captain Alethios" XYZ="65.1462,14.50715,12.8483" />
 				<CompleteQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" RewardIndex="2" />
 			</If>
@@ -1611,8 +1603,6 @@
 		<!-- Tower Defense 2 -->
 		<If Condition="((HasQuest(0xE000FC966C2449A4)) and (not IsQuestComplete(0xE000FC966C2449A4)))">
 			<If Condition="((HasQuest(0xE000FC966C2449A4)) and (not IsStepComplete(0xE000FC966C2449A4, 2)))">
-				<MoveTo QuestId="0xE000FC966C2449A4" Name="Wardpost Hurne QT" XYZ="34.1773,16.701,-49.2518" />
-				<Interact Name="Wardpost Hurne" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="34.1773,16.701,-49.2518" />	<!-- Bind point: Wardpost Hurne -->	
 				<TalkTo QuestId="0xE000FC966C2449A4" Name="Captain Barra" XYZ="25.5218,16.6701,-47.4406" />
 			</If>
 		</If>
@@ -1785,8 +1775,6 @@
 		
 		<!-- Turnin Sudden Death -->
 		<If Condition="((HasQuest(0xE00063772D446CA3)) and (not IsQuestComplete(0xE00063772D446CA3)))">
-			<MoveTo QuestId="0xE00063772D446CA3" Name="Panteer Refuge QT" XYZ="-161.9539,16.3456,-64.12511" />
-			<Interact Name="Panteer Refuge" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-161.9539,16.3456,-64.12511" />	<!-- Bind point: Panteer Refuge -->	
 			<TurnInQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" TurnInName="Katei Panteer" XYZ="-146.6605,15.9617,-71.5144" />
 			<CompleteQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" RewardIndex="0" />
 			<!-- Usurper 0xE0000FDDF7B0B055-->
