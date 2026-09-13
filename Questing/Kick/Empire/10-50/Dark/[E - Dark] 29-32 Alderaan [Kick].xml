@@ -791,7 +791,7 @@
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="37.6475,27.73162,-155.2046" />
 				<WaitTimer WaitTime="5" StatusText="Waiting to make sure we've completed quest." />
 			</If>
-			<CompleteQuest QuestName="Formal Introductions" QuestId="0xE000C700544E8F98" RewardIndex="1" />
+			<CompleteQuest QuestName="Formal Introductions" QuestId="0xE000C700544E8F98" />
 			<!-- The Privileges of Royalty 0xE000F88E819FF5D9 -->
 		</If>
 		
@@ -839,7 +839,7 @@
 				<MoveTo QuestId="0xE00013D2AA380029" XYZ="76.10728,21.16015,-214.9998" />
 			</If>
 			<TurnInQuest Type="Placeable" QuestName="Listening In" QuestId="0xE00013D2AA380029" TurnInName="Organa Comm Relay" UseRange="2" XYZ="78.92178,20.42398,-230.8802" />
-			<CompleteQuest QuestName="Listening In" QuestId="0xE00013D2AA380029" RewardIndex="4" />
+			<CompleteQuest QuestName="Listening In" QuestId="0xE00013D2AA380029" />
 			<!-- Multiple Fronts -->
 		</If>
 		
@@ -872,13 +872,13 @@
 				</Hotspots>
 			</UseObject>
 			<TurnInQuest QuestName="The Killik Problem" QuestId="0xE000E97B55957E74" TurnInName="Rylan Stallos" XYZ="66.58,28.006,-160.776" />
-			<CompleteQuest QuestName="The Killik Problem" QuestId="0xE000E97B55957E74" RewardIndex="1" />
+			<CompleteQuest QuestName="The Killik Problem" QuestId="0xE000E97B55957E74" />
 		</If>
 		
 		<!-- Turnin Multiple Fronts -->
 		<If Condition="((HasQuest(0xE0003ABBF8007EB2)) and (not IsQuestComplete(0xE0003ABBF8007EB2)))">
 			<TurnInQuest QuestName="Multiple Fronts" QuestId="0xE0003ABBF8007EB2" TurnInName="Lord Jorad Thul" XYZ="100.958,29.2449,-132.2032" />
-			<CompleteQuest QuestName="Multiple Fronts" QuestId="0xE0003ABBF8007EB2" RewardIndex="3" />
+			<CompleteQuest QuestName="Multiple Fronts" QuestId="0xE0003ABBF8007EB2" />
 		</If>
 		
 		<!-- Traitor and Turnin -->
@@ -897,7 +897,7 @@
 			</If>
 			<MoveTo QuestId="1" Name="My Location" XYZ="98.38013,29.101,-132.2369" />
 			<TurnInQuest QuestName="Traitor" QuestId="0xE00018C91B02A167" TurnInName="Lord Jorad Thul" XYZ="100.8617,29.2526,-132.2097" />
-			<CompleteQuest QuestName="Traitor" QuestId="0xE00018C91B02A167" RewardIndex="1" />
+			<CompleteQuest QuestName="Traitor" QuestId="0xE00018C91B02A167" />
 			<!-- Vanguard -->
 		</If>
 		
@@ -931,7 +931,7 @@
 			<Grind GrindRef="Pest Control - Defeat Killik Forces" While="(not IsQuestComplete(0xE0009E3081458477))" />
 		 </If>
 	<TurnInQuest QuestName="Bugs and Bombs" QuestId="0xE000EEF9F722A98E" TurnInName="Major Pharoth" X="178.7715" Y="38.57212" Z="-104.017" />
-			<CompleteQuest QuestName="Bugs and Bombs" QuestId="0xE000EEF9F722A98E" RewardIndex="3" />
+			<CompleteQuest QuestName="Bugs and Bombs" QuestId="0xE000EEF9F722A98E" />
 		</If>
 		-->
 		
@@ -989,7 +989,7 @@
 		<!-- Turnin Demoralize and Demolish -->
 		<If Condition="((HasQuest(0xE000C405B3373BCA)) and (not IsQuestComplete(0xE000C405B3373BCA)))">
 			<TurnInQuest Type="Placeable" QuestName="Demoralize and Demolish" QuestId="0xE000C405B3373BCA" TurnInName="Mission Dropbox" UseRange="2" XYZ="176.8821,38.57471,-103.9008" />
-			<CompleteQuest QuestName="Demoralize and Demolish" QuestId="0xE000C405B3373BCA" RewardIndex="2" />
+			<CompleteQuest QuestName="Demoralize and Demolish" QuestId="0xE000C405B3373BCA" />
 			<ForceVendor VendorType="Repair" />
 		</If>
 		
@@ -1010,7 +1010,7 @@
 				<Interact Name="Blast Door Controls" WaitTime="2" XYZ="225.2017,35.751,-76.46489" />
 			</If>
 			<TurnInQuest QuestName="Pre-Emptive Strike" QuestId="0xE000838778AC25BC" TurnInName="Stanel Thul" XYZ="175.8851,39.01532,-105.5753" />
-			<CompleteQuest QuestName="Pre-Emptive Strike" QuestId="0xE000838778AC25BC" RewardIndex="1" />
+			<CompleteQuest QuestName="Pre-Emptive Strike" QuestId="0xE000838778AC25BC" />
 			<!-- Dirty Deeds -->
 		</If>
 		
@@ -1023,7 +1023,7 @@
 									XYZ="175.0771,39.00214,-107.1227" />
 			</If>
 			<TurnInQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" TurnInName="Vector Hyllus" XYZ="37.6141,27.7131,-154.701" />
-			<CompleteQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" RewardIndex="3" />
+			<CompleteQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" />
 			<!-- The Assassin's Prize -->
 		</If>
 		
@@ -1044,7 +1044,7 @@
 									XYZ="175.0771,39.00214,-107.1227" />
 			</If>
 			<TurnInQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" TurnInName="Elana Thul" XYZ="87.3139,29.90325,-142.3869" />
-			<CompleteQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" RewardIndex="2" />
+			<CompleteQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" />
 			<!-- A Woman Scorned 0xE0009870E1D10934-->
  
 			<UseTransport TransporterName="House Cortess Taxi" Type="Taxi" Option="Outpost Bolym Thranta" 
@@ -1067,7 +1067,7 @@
 			</If>
 			<Grind GrindRef="First, Do Harm - Steal Organa Medical Supplies" While="not IsStepComplete(0xE00013AC90C85CB2, 2)" />
 			<TurnInQuest QuestName="First, Do Harm" QuestId="0xE00013AC90C85CB2" TurnInName="Medical Officer Willem" XYZ="181.4691,22.4028,74.96233" />
-			<CompleteQuest QuestName="First, Do Harm" QuestId="0xE00013AC90C85CB2" RewardIndex="1" />
+			<CompleteQuest QuestName="First, Do Harm" QuestId="0xE00013AC90C85CB2" />
 		</If>
 		
 		<!-- Dirty Deeds -->
@@ -1137,7 +1137,7 @@
 				<TalkTo QuestId="0xE0009870E1D10934" Name="Rehanna Rist" XYZ="105.5048,26.60301,103.3992" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="A Woman Scorned" QuestId="0xE0009870E1D10934" RewardIndex="2" />
+			<CompleteQuest QuestName="A Woman Scorned" QuestId="0xE0009870E1D10934" />
 			<!-- Inquisitor - Secret Rendezvous 0xE00004FA73DDD2A6-->
 		</If>
 		
@@ -1151,7 +1151,7 @@
 				<MoveTo QuestId="0xE0000A9FEF50C4DC" XYZ="74.90566,25.95431,96.44998" />
 			</If>
 			<TurnInQuest QuestName="Marked Men" QuestId="0xE0000A9FEF50C4DC" TurnInName="Central Intel Database" Type="Placeable" IgnoreLOS="True" Radius="1" XYZ="74.90566,25.95431,96.44998" />
-			<CompleteQuest QuestName="Marked Men" QuestId="0xE0000A9FEF50C4DC" RewardIndex="2" />
+			<CompleteQuest QuestName="Marked Men" QuestId="0xE0000A9FEF50C4DC" />
 		</If>
 		
 		<!-- Agent - The Assassin's Prize -->
@@ -1173,19 +1173,19 @@
 		<!-- Turnin Tears of the Rist -->
 		<If Condition="((HasQuest(0xE0008F43AD95FDD3)) and (not IsQuestComplete(0xE0008F43AD95FDD3)))">
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Tears of the Rist" QuestId="0xE0008F43AD95FDD3" TurnInName="Mission Terminal" XYZ="182.9353,22.39079,77.31992" />
-			<CompleteQuest QuestName="Tears of the Rist" QuestId="0xE0008F43AD95FDD3" RewardIndex="1" />
+			<CompleteQuest QuestName="Tears of the Rist" QuestId="0xE0008F43AD95FDD3" />
 		</If>
 		
 		<!-- Turnin The Black List -->
 		<If Condition="((HasQuest(0xE00075121BBBAE99)) and (not IsQuestComplete(0xE00075121BBBAE99)))">
 			<TurnInQuest QuestName="The Black List" QuestId="0xE00075121BBBAE99" TurnInName="Officer Jeral Vesk" XYZ="193.3147,21.66519,78.5251" />
-			<CompleteQuest QuestName="The Black List" QuestId="0xE00075121BBBAE99" RewardIndex="4" />
+			<CompleteQuest QuestName="The Black List" QuestId="0xE00075121BBBAE99" />
 		</If>
 		
 		<!-- Turnin Ulgo's Revenge -->
 		<If Condition="((HasQuest(0xE00024B19B70DD53)) and (not IsQuestComplete(0xE00024B19B70DD53)))">
 			<TurnInQuest QuestName="Ulgo's Revenge" QuestId="0xE00024B19B70DD53" TurnInName="Dathis Elgin" XYZ="191.0566,21.67202,80.9779" />
-			<CompleteQuest QuestName="Ulgo's Revenge" QuestId="0xE00024B19B70DD53" RewardIndex="1" />
+			<CompleteQuest QuestName="Ulgo's Revenge" QuestId="0xE00024B19B70DD53" />
 			<!-- Kingmaker -->
 		</If>
 
@@ -1203,7 +1203,7 @@
 				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="41.5512,27.72099,-165.7553" />
 				<WaitTimer WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="The Assassin's Prize" QuestId="0xE000C87E8D37D98E" RewardIndex="2" />
+			<CompleteQuest QuestName="The Assassin's Prize" QuestId="0xE000C87E8D37D98E" />
 			<!-- Agent - The Fall of House Cortess -->
 			
 			<ForceVendor VendorType="Train" />
@@ -1273,7 +1273,7 @@
 				<AnswerHolocomCall QuestName="Secret Rendezvous" QuestId="0xE00004FA73DDD2A6" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Secret Rendezvous" QuestId="0xE00004FA73DDD2A6" RewardIndex="3" />
+			<CompleteQuest QuestName="Secret Rendezvous" QuestId="0xE00004FA73DDD2A6" />
 			<!-- Inquisitor - In the Halls of ElysiumId 0xE0005E1FFACBC743-->
 		</If>
 		
@@ -1319,7 +1319,7 @@
 		<If Condition="((HasQuest(0xE000552551F30AB0)) and (not IsQuestComplete(0xE000552551F30AB0)))">
 			<Grind GrindRef="Illegal Seizure - Acquire the Access Codes" While="not IsStepComplete(0xE000552551F30AB0, 2)" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" TurnInName="Shield Generator Controls" XYZ="-182.5631,12.69015,-1.700998" />
-			<CompleteQuest QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" RewardIndex="4" />
+			<CompleteQuest QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" />
 			
 		</If>
 		
@@ -1328,13 +1328,13 @@
 		<!-- The Head That Wears the Crown -->
 		<If Condition="((HasQuest(0xE0004C8E910D42B6)) and (not IsQuestComplete(0xE0004C8E910D42B6)))">
 			<TurnInQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" TurnInName="Captain Lieber" XYZ="-151.1778,19.75236,18.6544" />
-			<CompleteQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" RewardIndex="4" />
+			<CompleteQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" />
 		</If>
 		
 		<!-- Armed Intervention -->
 		<If Condition="((HasQuest(0xE000470FBF8FF118)) and (not IsQuestComplete(0xE000470FBF8FF118)))">
 			<TurnInQuest QuestName="Armed Intervention" QuestId="0xE000470FBF8FF118" TurnInName="Darth Viktus" XYZ="-150.701,19.71954,20.731" />
-			<CompleteQuest QuestName="Armed Intervention" QuestId="0xE000470FBF8FF118" RewardIndex="1" />
+			<CompleteQuest QuestName="Armed Intervention" QuestId="0xE000470FBF8FF118" />
 		</If>
 		
 		<!-- Savior -->
@@ -1385,7 +1385,7 @@
 				<TalkTo QuestId="0xE000FD36B62573E3" Name="Bouris Ulgo" XYZ="-280.3245,-26.5778,-38.91059" />
 			</If>
 			<TurnInQuest QuestName="Regicide" QuestId="0xE000FD36B62573E3" TurnInName="Queensguard Captain" XYZ="-279.2471,-26.5778,-38.91029" />
-			<CompleteQuest QuestName="Regicide" QuestId="0xE000FD36B62573E3" RewardIndex="3" />
+			<CompleteQuest QuestName="Regicide" QuestId="0xE000FD36B62573E3" />
 			
 			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Castle Panteer"
 									XYZ="-254.5513,-26.44463,-38.79055" />
@@ -1398,7 +1398,7 @@
 									XYZ="-254.5513,-26.44463,-38.79055" />
 			</If>
 			<TurnInQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" TurnInName="General Gurveer" XYZ="-149.6272,19.65751,10.7364" />
-			<CompleteQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" RewardIndex="5" />
+			<CompleteQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" />
 			
 			<UseTransport TransporterName="Panteer Hideout Thranta" Option="Rhu Caenus Spaceport Taxi"
 									XYZ="-154.9804,19.88037,8.6088" />
@@ -1427,7 +1427,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 				</If>
-				<CompleteQuest QuestName="In the Halls of Elysium" QuestId="0xE0005E1FFACBC743" RewardIndex="1" />
+				<CompleteQuest QuestName="In the Halls of Elysium" QuestId="0xE0005E1FFACBC743" />
 			</If>
 		
 			<!-- Inquisitor - Inheritance and Turnin -->
@@ -1490,7 +1490,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 				</If>
-				<CompleteQuest QuestName="Inheritance" QuestId="0xE0008F57DB94F7F1" RewardIndex="2" />
+				<CompleteQuest QuestName="Inheritance" QuestId="0xE0008F57DB94F7F1" />
 				<!-- Inquisitor - Legacy 0xE0002CD3DFA43D6F-->
 			</If>
 
@@ -1532,7 +1532,7 @@
 					<TalkTo QuestId="0xE0002CD3DFA43D6F" Name="Darth Zash" SearchRadius="50" XYZ="-193.5175,19.37909,-53.8732" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<CompleteQuest QuestName="Legacy" QuestId="0xE0002CD3DFA43D6F" RewardIndex="5" />
+				<CompleteQuest QuestName="Legacy" QuestId="0xE0002CD3DFA43D6F" />
 				<!-- Inquisitor - Taking Control 0xE000E7C280E22E2E-->
 			</If>
 
@@ -1632,7 +1632,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.381026,0.8962948,1.676859" />
 				</If>
-				<CompleteQuest QuestName="Sith Hierarchy" QuestId="0xE000F8061758E1A6" RewardIndex="2" />
+				<CompleteQuest QuestName="Sith Hierarchy" QuestId="0xE000F8061758E1A6" />
 				<!-- Inquisitor - The Padawan 0xE0000C952E5E884A-->
 			</If>
 		
@@ -1700,7 +1700,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<TurnInQuest QuestName="The Fall of House Cortess" QuestId="0xE00041FDD9F0A4F6" TurnInName="Holoterminal" Type="Placeable" UseRange="2" XYZ="-0.01562385,1.158004,-0.7607303" />
-				<CompleteQuest QuestName="The Fall of House Cortess" QuestId="0xE00041FDD9F0A4F6" RewardIndex="1" />
+				<CompleteQuest QuestName="The Fall of House Cortess" QuestId="0xE00041FDD9F0A4F6" />
 			</If>
 
 			<!-- Agent - The Eagle's Nest and Turnin -->
@@ -1772,7 +1772,7 @@
 					</If>
 				</If>
 				<TurnInQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" TurnInName="Keeper" XYZ="13.1868,3.0004,-87.7223" />
-				<CompleteQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" RewardIndex="1" />
+				<CompleteQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" />
 			</If>
 		
 			<!-- Agent - Turnin The Calm Before (Bonus) -->
@@ -1840,7 +1840,7 @@
 				</If>
 				<UseObject ObjectName="Eradicator Launch Panel" QuestId="0xE0002CAB0740C1D8" BranchId="8" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="16.55928,5.48102,-16.63952" />
 				<TurnInQuest QuestName="A New Epoch of Fear" QuestId="0xE0002CAB0740C1D8" TurnInName="Darth Jadus" XYZ="18.9885,5.661019,-16.0007" />
-				<CompleteQuest QuestName="A New Epoch of Fear" QuestId="0xE0002CAB0740C1D8" RewardIndex="1" />
+				<CompleteQuest QuestName="A New Epoch of Fear" QuestId="0xE0002CAB0740C1D8" />
 			</If>
 		
 			<!-- Agent - Tyranny Triumphant -->
@@ -1881,7 +1881,7 @@
 				<If Condition="HasQuest(0xE0008E497B81109A) and not IsStepComplete(0xE0008E497B81109A, 4)">
 					<AnswerHolocomCall QuestName="Tyranny Triumphant" QuestId="0xE0008E497B81109A" />
 				</If>
-				<CompleteQuest QuestName="Tyranny Triumphant" QuestId="0xE0008E497B81109A" RewardIndex="1" />
+				<CompleteQuest QuestName="Tyranny Triumphant" QuestId="0xE0008E497B81109A" />
 			</If>
 		
 			<!-- Agent - A Brief Leave of Absence -->
@@ -2016,7 +2016,7 @@
 					</If>
 				</If>
 				<TurnInQuest Type="Placeable" UseRange="2" QuestName="The Master Stratagem" QuestId="0xE00004A21F30E21C" TurnInName="Holoterminal" XYZ="-0.0002999012,1.051001,-1.25649" />
-				<CompleteQuest QuestName="The Master Stratagem" QuestId="0xE00004A21F30E21C" RewardIndex="1" />
+				<CompleteQuest QuestName="The Master Stratagem" QuestId="0xE00004A21F30E21C" />
 			</If>
 		
 			<!-- Agent - Chaos on a Broken World -->

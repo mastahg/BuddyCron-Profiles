@@ -69,10 +69,10 @@
 			</If>
 			<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsStepComplete(0xE00016CC1D921686, 5)))">
 				<TalkTo QuestId="0xE00016CC1D921686" Name="Hallam Organa" XYZ="-98.18411,26.00395,78.1847" />
-				<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" RewardIndex="1" />	
+				<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" />	
 			</If>
 		</If>
-		<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" RewardIndex="1" />	
+		<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" />	
 		
 		<!-- Consular - Hostile Negotiations -->
 	
@@ -119,7 +119,7 @@
 		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 2, 3)))">
 			<AnswerHolocomCall QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />
 		</If>	
-		<CompleteQuest QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" RewardIndex="1" />		
+		<CompleteQuest QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />		
 
 		<!-- Consular - Crisis Situation -->
 	
@@ -140,7 +140,7 @@
 				<TalkTo QuestId="0xE000ECFC36E3348B" Name="Lord Teral" XYZ="78.34587,17.20004,147.0268" />			
 			</If>		
 		</If>		
-		<CompleteQuest QuestName="Crisis Situation" QuestId="0xE000ECFC36E3348B" RewardIndex="1" />	
+		<CompleteQuest QuestName="Crisis Situation" QuestId="0xE000ECFC36E3348B" />	
 
 
 

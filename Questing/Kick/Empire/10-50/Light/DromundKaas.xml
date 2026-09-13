@@ -496,7 +496,7 @@
 		</If>
 		
 		<!-- Warning Sign -->
-		<CompleteQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" RewardIndex="1" />
+		<CompleteQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" />
 		
 		<!-- Status Report -->
 		<If Condition="not IsStepComplete(0xE0004E9D8A102B18, 2)">
@@ -504,7 +504,7 @@
 		</If>
 		
 		<!-- Status Report -->
-		<CompleteQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" RewardIndex="1" />
+		<CompleteQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" />
 		
 		<!-- Use Taxi From Spaceport Speeder To Kaas City Entrance Speeder -->
 		<!-- Use Taxi From Spaceport Speeder To Kaas City Entrance Speeder -->
@@ -598,7 +598,7 @@
 		</If>
 		
 		<!-- Sport Hunting -->
-		<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" RewardIndex="2" />
+		<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" />
 		
 		<!-- Use Taxi From Mandalorian Enclave Taxi to Kaas City Central Taxi -->
 		<!-- Use Taxi From Mandalorian Enclave Taxi to Kaas City Central Taxi -->
@@ -633,7 +633,7 @@
 		</If>
 		
 		<!-- Lightning in a Bottle -->
-		<CompleteQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" RewardIndex="2" />
+		<CompleteQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" />
 		
 		<!-- [HEROIC 2+] Personal Challenge -->
 		<!-- <If Condition="not IsStepComplete(0xE000DCD6D19E73AC, 2)">
@@ -769,7 +769,7 @@
 		</If>
 		
 		<!-- The Slave-Killers -->
-		<CompleteQuest QuestName="The Slave-Killers" QuestId="0xE000FD02EA595E5E" RewardIndex="2" />
+		<CompleteQuest QuestName="The Slave-Killers" QuestId="0xE000FD02EA595E5E" />
 		
 		<!-- Testing Grounds -->
 		<If Condition="not IsStepComplete(0xE00061D4CA98B053, 4)">
@@ -777,7 +777,7 @@
 		</If>
 		
 		<!-- Testing Grounds -->
-		<CompleteQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" RewardIndex="1" />
+		<CompleteQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" />
 		
 		
 		<!-- Inquisitor -->
@@ -794,7 +794,7 @@
 			</If>
 			
 			<!-- Testing Grounds -->
-			<CompleteQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" RewardIndex="1" />
+			<CompleteQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" />
 			
 			<!-- Use Taxi From Citadel Taxi To Kaas City Central Taxi -->
 			<!-- Use Taxi From Citadel Taxi To Kaas City Central Taxi -->
@@ -839,7 +839,7 @@
 		</If>
 		
 		<!-- Into The Maw -->
-		<CompleteQuest QuestName="Into The Maw" QuestId="0xE0008263AD8DB16C" RewardIndex="2" />
+		<CompleteQuest QuestName="Into The Maw" QuestId="0xE0008263AD8DB16C" />
 		
 		<!-- Jungle Hunt -->
 		<If Condition="not IsStepComplete(0xE0005913794AE084, 3)">
@@ -847,7 +847,7 @@
 		</If>
 		
 		<!-- Jungle Hunt -->
-		<CompleteQuest QuestName="Jungle Hunt" QuestId="0xE0005913794AE084" RewardIndex="2" />
+		<CompleteQuest QuestName="Jungle Hunt" QuestId="0xE0005913794AE084" />
 		
 		<!-- Flashes in the Dark -->
 		<If Condition="not IsStepComplete(0xE0000A4D266A453E, 2)">
@@ -874,7 +874,7 @@
 				<Grind GrindRef="Clearing the Kubaz" While="(not IsQuestComplete(0xE00015D2068697DE))" />
 			</If>
 			<TurnInQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" TurnInName="Captain Jeelg" XYZ="-49.8774,-2.515539,69.8032" />
-			<CompleteQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" RewardIndex="1" />
+			<CompleteQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" />
 		</If>
 		
 		<!-- Initiation -->
@@ -903,7 +903,7 @@
 		</If>
 		
 		<!-- Death and Life -->
-		<CompleteQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" RewardIndex="2" />
+		<CompleteQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" />
 		
 		<!-- The Mask of Revan -->
 		<If Condition="not IsStepComplete(0xE00034374F999EF7, 2)">
@@ -1009,7 +1009,7 @@
 		</If>
 		
 		<!-- Black Science -->
-		<CompleteQuest QuestName="Black Science" QuestId="0xE000F79667481DA3" RewardIndex="2" />
+		<CompleteQuest QuestName="Black Science" QuestId="0xE000F79667481DA3" />
 		
 		<!-- Take Elevator to bottom
 		[19:02:55.342 N] <Hotspot Name="My Location" X="-75.62328" Y="-9.31306" Z="163.0424" />
@@ -1085,7 +1085,7 @@
 		</If>
 		
 		<!-- The War Machine -->
-		<CompleteQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" RewardIndex="1" />
+		<CompleteQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" />
 		
 		<!-- Strange Weapons -->
 		<If Condition="not IsBranchStepComplete(0xE000B02AC497B972, 2, 2)">
@@ -1093,7 +1093,7 @@
 		</If>
 		
 		<!-- Strange Weapons -->
-		<CompleteQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" RewardIndex="1" />
+		<CompleteQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" />
 		
 		<!-- Use wall speeder to revenite speeder -->
 		<!-- <Hotspot Name="The Wall Speeder" X="-31.8603" Y="-5.86022" Z="113.1545" />
@@ -1111,7 +1111,7 @@
 		</If>
 		
 		<!-- The Mask of Revan -->
-		<CompleteQuest QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" RewardIndex="1" />
+		<CompleteQuest QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" />
 		
 		<!-- The Pilgrim's Path (Bonus) -->
 		<Grind GrindRef="The Pilgrim's Path" While="not HasQuest(0xE000868B8BB03D5D) and not IsStepComplete(0xE000868B8BB03D5D, 2)" />
@@ -1163,7 +1163,7 @@
 		</If>
 		
 		<!-- Pilgrimage -->
-		<CompleteQuest QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" RewardIndex="1" />
+		<CompleteQuest QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" />
 		
 		<!-- The Master's Secret -->
 		<If Condition="not IsStepComplete(0xE000AB75F2974255, 2)">
@@ -1275,7 +1275,7 @@
 				<MoveTo QuestId="0xE000FB4EC7E346DF" XYZ="-0.1597997,1.800024,-72.02827" />
 			</If>
 			<TurnInQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" TurnInName="Darth Zash" XYZ="-2.9695,1.800257,-68.80499" />
-			<CompleteQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" RewardIndex="1" />
+			<CompleteQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" />
 			
 			<!-- Use taxi - Citadel to city central -->
 			<!-- <Hotspot Name="Citadel Taxi" X="-10.5032" Y="2.307461" Z="-50.798" />
@@ -1299,7 +1299,7 @@
 		</If>
 		
 		<!-- Unauthorized Transmission, Part I -->
-		<CompleteQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" RewardIndex="1" />
+		<CompleteQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" />
 		
 		<!-- Unauthorized Transmission, Part II -->
 		<If Condition="not IsStepComplete(0xE00011B89F255A8D, 2)">
@@ -1351,7 +1351,7 @@
 		</If>
 		
 		<!-- The Accursed -->
-		<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" RewardIndex="3" />
+		<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" />
 		
 		<!-- The Wretch King -->
 		<If Condition="not IsStepComplete(0xE000ED10A5C9BF7B, 2)">
@@ -1407,7 +1407,7 @@
 		</If>
 		
 		<!-- Secret Kinds of Darkness -->
-		<CompleteQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" RewardIndex="1" />
+		<CompleteQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" />
 		
 		<!-- Inquisitor -->
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
@@ -1440,7 +1440,7 @@
 		</If>
 		
 		<!-- Buried Power -->
-		<CompleteQuest QuestName="Buried Power" QuestId="0xE000841377950A97" RewardIndex="3" />
+		<CompleteQuest QuestName="Buried Power" QuestId="0xE000841377950A97" />
 		
 		<!-- The Wretch King -->
 		<If Condition="not IsStepComplete(0xE000ED10A5C9BF7B, 6)">
@@ -1448,7 +1448,7 @@
 		</If>
 		
 		<!-- The Wretch King -->
-		<CompleteQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" RewardIndex="2" />
+		<CompleteQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" />
 		
 		<!-- Inquisitor -->
 		<If Condition="Me.Class == CharacterClass.Inquisitor">
@@ -1465,7 +1465,7 @@
 			</If>
 			
 			<!-- QuestName -->
-			<CompleteQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" RewardIndex="1" />
+			<CompleteQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" />
 			
 			<!-- Taxi -->
 			<!-- <Hotspot Name="Citadel Taxi" X="-10.5032" Y="2.307461" Z="-50.798" />

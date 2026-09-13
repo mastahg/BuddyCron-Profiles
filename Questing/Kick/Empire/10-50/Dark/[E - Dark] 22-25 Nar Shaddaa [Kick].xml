@@ -730,7 +730,7 @@
 			<!-- Skip 3 -->
 			<Grind GrindRef="The Prophet Arrives 4" While="(not IsBranchStepComplete(0xE0002CB06A3D9FAE, 1, 4))" />
 			<TurnInQuest QuestName="The Prophet Arrives" QuestId="0xE0002CB06A3D9FAE" TurnInName="Destris Veran" XYZ="-118.3467,51.801,-74.706" />
-			<CompleteQuest QuestName="The Prophet Arrives" QuestId="0xE0002CB06A3D9FAE" RewardIndex="1" />
+			<CompleteQuest QuestName="The Prophet Arrives" QuestId="0xE0002CB06A3D9FAE" />
 			<!-- The Krayt Gang 0xE000C00DF585581E-->
 			
 			<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
@@ -750,7 +750,7 @@
 				<AnswerHolocomCall QuestName="The Krayt Gang" QuestId="0xE000C00DF585581E" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="The Krayt Gang" QuestId="0xE000C00DF585581E" RewardIndex="3" />
+			<CompleteQuest QuestName="The Krayt Gang" QuestId="0xE000C00DF585581E" />
 			<!-- Manufacturing Miracles 0xE0006484FB280850-->
 		</If>
 		
@@ -767,7 +767,7 @@
 				<TalkTo QuestName="Seek Your Contact" QuestId="0xE0000232FCC11D4A" Name="Halidrell Setsyn" XYZ="-390.1,23.501,-156.4" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Seek Your Contact" QuestId="0xE0000232FCC11D4A" RewardIndex="2" />
+			<CompleteQuest QuestName="Seek Your Contact" QuestId="0xE0000232FCC11D4A" />
 			<!-- Disrupt Negotiations -->
 		</If>
 		
@@ -827,7 +827,7 @@
 		<!-- Turnin Let the Vendor Beware -->
 		<If Condition="((HasQuest(0xE000BADA5BE4E4CA)) and (not IsQuestComplete(0xE000BADA5BE4E4CA)))">
 			<TurnInQuest QuestName="Let the Vendor Beware" QuestId="0xE000BADA5BE4E4CA" TurnInName="Officer Keeling" XYZ="-397.8891,23.501,-147.7107" />
-			<CompleteQuest QuestName="Let the Vendor Beware" QuestId="0xE000BADA5BE4E4CA" RewardIndex="4" />
+			<CompleteQuest QuestName="Let the Vendor Beware" QuestId="0xE000BADA5BE4E4CA" />
 		</If>
 		
 		<PickUpQuest Type="Placeable" UseRange="2" QuestName="Eyes and Ears" QuestId="0xE00048257A31C95F" GiverName="Mission Terminal" XYZ="-391.6237,23.501,-142.1818" />
@@ -836,7 +836,7 @@
 		<If Condition="((HasQuest(0xE00048257A31C95F)) and (not IsQuestComplete(0xE00048257A31C95F)))">
 			<Grind GrindRef="Eyes and Ears" While="not IsStepComplete(0xE00048257A31C95F, 2)" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Eyes and Ears" QuestId="0xE00048257A31C95F" TurnInName="Mission Dropbox" XYZ="-391.4667,23.501,-141.636" />
-			<CompleteQuest QuestName="Eyes and Ears" QuestId="0xE00048257A31C95F" RewardIndex="4" />
+			<CompleteQuest QuestName="Eyes and Ears" QuestId="0xE00048257A31C95F" />
 		</If>
 		
 		<!-- Turnin Sending a Message -->
@@ -848,7 +848,7 @@
 		<!-- Turnin A Crushing Blow -->
 		<If Condition="((HasQuest(0xE0000BD87306E3B1)) and (not IsQuestComplete(0xE0000BD87306E3B1)))">
 			<TurnInQuest QuestName="A Crushing Blow" QuestId="0xE0000BD87306E3B1" TurnInName="Maro Vizhen" XYZ="-394.3606,23.501,-138.7402" />
-			<CompleteQuest QuestName="A Crushing Blow" QuestId="0xE0000BD87306E3B1" RewardIndex="3" />
+			<CompleteQuest QuestName="A Crushing Blow" QuestId="0xE0000BD87306E3B1" />
 		</If>
 		
 		<!-- The Walls Have Ears and Turnin -->
@@ -859,7 +859,7 @@
 			</If>
 			<UseObject ObjectName="Republic Comm Terminal" QuestId="0xE0000E532FD25BD8" BranchId="1" StepId="2" WaitTime="2" XYZ="-360.137,22.6281,-114.213" />
 			<TurnInQuest QuestName="The Walls Have Ears" QuestId="0xE0000E532FD25BD8" TurnInName="Officer Keeling" XYZ="-397.8891,23.501,-147.7107" />
-			<CompleteQuest QuestName="The Walls Have Ears" QuestId="0xE0000E532FD25BD8" RewardIndex="2" />
+			<CompleteQuest QuestName="The Walls Have Ears" QuestId="0xE0000E532FD25BD8" />
 		</If>
 		
 		<PickUpQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" GiverName="B9-D7" XYZ="-394.3502,23.501,-144.4404" />
@@ -886,7 +886,7 @@
 				<Grind GrindRef="Slay the Enhanced Soldiers" While="(not IsQuestComplete(0xE0004662D3F53DA4))" />
 			</If>
 			<TurnInQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" TurnInName="B9-D7" XYZ="-394.3502,23.501,-144.4404" />
-			<CompleteQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" RewardIndex="2" />
+			<CompleteQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" />
 		</If>
 		
 		<!-- Turnin The Exchange Enhancement Facility -->
@@ -920,7 +920,7 @@
 			<If Condition="HasQuest(0xE000539A10248ED1) and not IsBranchStepComplete(0xE000539A10248ED1, 2, 4)">
 				<AnswerHolocomCall QuestName="Closing the Deal" QuestId="0xE000539A10248ED1" />
 			</If>
-			<CompleteQuest QuestName="Closing the Deal" QuestId="0xE000539A10248ED1" RewardIndex="3" />
+			<CompleteQuest QuestName="Closing the Deal" QuestId="0xE000539A10248ED1" />
 			<!-- Contract Negotiations -->
 		</If>
 		
@@ -953,7 +953,7 @@
 			</If>
 			<Grind GrindRef="Tearing Apart the Foe - Ukabi" While="not IsBranchStepComplete(0xE000D040F1BDF795, 6, 7)" />
 			<TurnInQuest QuestName="Tearing Apart the Foe" QuestId="0xE000D040F1BDF795" TurnInName="Maro Vizhen" XYZ="-394.4267,23.5,-139.0942" />
-			<CompleteQuest QuestName="Tearing Apart the Foe" QuestId="0xE000D040F1BDF795" RewardIndex="4" />
+			<CompleteQuest QuestName="Tearing Apart the Foe" QuestId="0xE000D040F1BDF795" />
 			
 			<ForceVendor VendorType="Repair" />
 
@@ -990,7 +990,7 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
  
 				<!-- i missed this qid bc i thought the quest was done!
-			<CompleteQuest QuestName="Manufacturing Miracles" QuestId="0xE0006484FB280850" RewardIndex="1" />
+			<CompleteQuest QuestName="Manufacturing Miracles" QuestId="0xE0006484FB280850" />
 			-->
 			
 				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Duros Sector Taxi" 
@@ -999,7 +999,7 @@
 			<If Condition="((HasQuest(0xE0006484FB280850)) and (not IsBranchStepComplete(0xE0006484FB280850, 1, 6)))">
 				<MoveTo QuestId="0xE0006484FB280850" XYZ="141.6365,-319.199,-311.6246" />
 			</If>
-			<CompleteQuest QuestName="Manufacturing Miracles" QuestId="0xE0006484FB280850" RewardIndex="2" />
+			<CompleteQuest QuestName="Manufacturing Miracles" QuestId="0xE0006484FB280850" />
 			<!-- Inquisitor - The Big Show 0xE000E4237A0FF284-->
 		</If>
 
@@ -1082,12 +1082,12 @@
 		<TurnInQuest Type="Placeable" UseRange="2" QuestName="Absolute Terror" QuestId="0xE0004DBBE56E3B7D" TurnInName="Mission Dropbox" XYZ="159.8463,-318.5988,-253.4428" />
 		<CompleteQuest QuestName="Absolute Terror" QuestId="0xE0004DBBE56E3B7D" />
 		<TurnInQuest Type="Placeable" UseRange="2" QuestName="Deadly Droids" QuestId="0xE000429EDCC07C2D" TurnInName="Mission Dropbox" XYZ="159.8463,-318.5988,-253.4428" />
-		<CompleteQuest QuestName="Deadly Droids" QuestId="0xE000429EDCC07C2D" RewardIndex="2" />
+		<CompleteQuest QuestName="Deadly Droids" QuestId="0xE000429EDCC07C2D" />
 			
 		<!-- Turnin Dead Drop -->
 		<If Condition="((HasQuest(0xE0002464A72266E0)) and (not IsQuestComplete(0xE0002464A72266E0)))">
 			<TurnInQuest QuestName="Dead Drop" QuestId="0xE0002464A72266E0" TurnInName="Agent Madel Felth" XYZ="162.0222,-318.5989,-258.5681" />
-			<CompleteQuest QuestName="Dead Drop" QuestId="0xE0002464A72266E0" RewardIndex="2" />
+			<CompleteQuest QuestName="Dead Drop" QuestId="0xE0002464A72266E0" />
 		</If>
 		
 		<!-- The Flame -->
@@ -1110,7 +1110,7 @@
 				<Grind GrindRef="Snuff Out the Flame's Forces" While="(not IsQuestComplete(0xE00091750BAB6A32))" />
 			</If>
 			<TurnInQuest QuestName="The Flame" QuestId="0xE0007D79BEDD837E" TurnInName="Agent Madel Felth" XYZ="162.0222,-318.5989,-258.5681" />
-			<CompleteQuest QuestName="The Flame" QuestId="0xE0007D79BEDD837E" RewardIndex="2" />
+			<CompleteQuest QuestName="The Flame" QuestId="0xE0007D79BEDD837E" />
 			
 			<If Condition="(Me.Position.X &lt; 250) and (Me.Position.X &gt; 100)">
 				<UseTransport TransporterName="Duros Sector Taxi" Option="Upper Promenade Taxi" 
@@ -1133,7 +1133,7 @@
 									XYZ="-125.5166,53.801,-78.1966" />
 				<TalkTo QuestId="0xE00073956804C0B7" Name="Halidrell Setsyn" XYZ="-390.1,23.501,-156.4" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<CompleteQuest QuestName="Disrupt Negotiations" QuestId="0xE00073956804C0B7" RewardIndex="2" />
+				<CompleteQuest QuestName="Disrupt Negotiations" QuestId="0xE00073956804C0B7" />
 			</If>
 		</If>
 		
@@ -1199,7 +1199,7 @@
 									XYZ="-198.0589,-145.499,274.9999" />
 			</If>
 			<TurnInQuest QuestName="The Big Show" QuestId="0xE000E4237A0FF284" TurnInName="Rylee Dray" XYZ="-82.8044,53.80226,-74.5531" />
-			<CompleteQuest QuestName="The Big Show" QuestId="0xE000E4237A0FF284" RewardIndex="2" />
+			<CompleteQuest QuestName="The Big Show" QuestId="0xE000E4237A0FF284" />
 			<!-- The Final Act 0xE00061035EAE48C8-->
  
 			<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="" 
@@ -1252,7 +1252,7 @@
 			<If Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsBranchStepComplete(0xE000B94A7F5AAE3A, 4, 3)))">
 				<AnswerHolocomCall QuestName="An Army of One" QuestId="0xE000B94A7F5AAE3A" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<CompleteQuest Questname="An Army of One" QuestId="0xE000B94A7F5AAE3A" RewardIndex="5" /> <!-- Turns into Distress Call -->
+				<CompleteQuest Questname="An Army of One" QuestId="0xE000B94A7F5AAE3A" /> <!-- Turns into Distress Call -->
 				<MoveTo QuestId="1" XYZ="-212.2283,-144.2052,296.5278" /> <!-- Help to walk through baracade -->
 			</If>
 		</If>
@@ -1295,13 +1295,13 @@
 		<!-- Turnin Bidding War -->
 		<If Condition="((HasQuest(0xE0006ABC6A0721C3)) and (not IsQuestComplete(0xE0006ABC6A0721C3)))">
 			<TurnInQuest QuestName="Bidding War" QuestId="0xE0006ABC6A0721C3" TurnInName="Factor Jarvus" XYZ="-219.991,-145.499,270.7928" />
-			<CompleteQuest QuestName="Bidding War" QuestId="0xE0006ABC6A0721C3" RewardIndex="3" />
+			<CompleteQuest QuestName="Bidding War" QuestId="0xE0006ABC6A0721C3" />
 		</If>
 	
 		<!-- Turnin Blackout -->
 		<If Condition="((HasQuest(0xE000C044D36CF66A)) and (not IsQuestComplete(0xE000C044D36CF66A)))">
 			<TurnInQuest QuestName="Blackout" QuestId="0xE000C044D36CF66A" TurnInName="General Kolvin" XYZ="-213.7086,-145.3951,264.027" />
-			<CompleteQuest QuestName="Blackout" QuestId="0xE000C044D36CF66A" RewardIndex="3" />
+			<CompleteQuest QuestName="Blackout" QuestId="0xE000C044D36CF66A" />
 			<!-- The Infinite Engine -->
 		</If>
 	
@@ -1354,7 +1354,7 @@
 									
 			</If>
 			<TurnInQuest QuestName="The Infinite Engine" QuestId="0xE00066CA1CE0250E" TurnInName="General Kolvin" XYZ="-213.7062,-145.3951,264.3568" />
-			<CompleteQuest QuestName="The Infinite Engine" QuestId="0xE00066CA1CE0250E" RewardIndex="1" />
+			<CompleteQuest QuestName="The Infinite Engine" QuestId="0xE00066CA1CE0250E" />
 			<!-- Datacenter Raid -->
 			
 			<!-- Do all classes need to go to High Profile Ward? or just Agent? Taking taxi to Network Access (iN2Fun . maybe go to proenade train?)-->
@@ -1405,7 +1405,7 @@
 										XYZ="200.8,-156.299,243.4" />
 			</If>
 			<TurnInQuest QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" TurnInName="Watcher X" XYZ="224.2115,-151.799,331.0908" />
-			<CompleteQuest QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" RewardIndex="2" />
+			<CompleteQuest QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" />
 			<!-- Hostile Takeover -->
 		
 			<UseTransport TransporterName="High Profile Ward Taxi" Option="Upper Industrial Sector Taxi" 
@@ -1429,7 +1429,7 @@
 			<If Condition="HasQuest(0xE0006776DC457E03) and not IsBranchStepComplete(0xE0006776DC457E03, 2, 3)" >
 				<TalkTo QuestId="0xE0006776DC457E03" WaitTime="1" Name="Aphel Jaarn" XYZ="-247.7762,-139.999,341.4845" />
 			</If>
-			<CompleteQuest QuestName="Hostile Takeover" QuestId="0xE0006776DC457E03" RewardIndex="3" />
+			<CompleteQuest QuestName="Hostile Takeover" QuestId="0xE0006776DC457E03" />
 			<!-- Agent - Liquidation -->
 				
 			<UseTransport TransporterName="High Profile Ward Taxi" Option="Network Access Taxi" 
@@ -1457,7 +1457,7 @@
 				<Grind GrindRef="Sliced and Diced" While="(not IsQuestComplete(0xE0001501F126E572))" />
 			</If>
 			<UseObject ObjectName="Data Center Terminal" QuestId="0xE0001DAF606F6BAE" BranchId="1" StepId="4" WaitTime="3" XYZ="141.9796,-156.299,273.1106" />
-			<CompleteQuest QuestName="A Subtle Enemy" QuestId="0xE0001DAF606F6BAE" RewardIndex="2" />
+			<CompleteQuest QuestName="A Subtle Enemy" QuestId="0xE0001DAF606F6BAE" />
 			<!-- Wiping the Slate -->
 		</If>
 		
@@ -1492,7 +1492,7 @@
 				</If>
 				<UseObject ObjectName="Data Center Terminal" QuestId="0xE000E1B61A1BA276" BranchId="1" StepId="6" WaitTime="3" XYZ="141.9396,-156.299,273.1791" />
 			</If>
-			<CompleteQuest QuestName="Wiping the Slate" QuestId="0xE000E1B61A1BA276" RewardIndex="1" />
+			<CompleteQuest QuestName="Wiping the Slate" QuestId="0xE000E1B61A1BA276" />
 		</If>
 		
 		<!-- Quality Assurance -->
@@ -1574,7 +1574,7 @@
 		<!-- Quality Assurance Turnin -->
 		<If Condition="((HasQuest(0xE000D47443EB40A7)) and (not IsQuestComplete(0xE000D47443EB40A7)))">
 			<TurnInQuest QuestName="Quality Assurance" QuestId="0xE000D47443EB40A7" TurnInName="Doctor Proh'ven" XYZ="198.627,-156.799,265.2605" />
-			<CompleteQuest QuestName="Quality Assurance" QuestId="0xE000D47443EB40A7" RewardIndex="3" />
+			<CompleteQuest QuestName="Quality Assurance" QuestId="0xE000D47443EB40A7" />
 			
 			<UseTransport TransporterName="Network Access Taxi" Option="Mezenti Spaceport Taxi" 
 									XYZ="200.8,-156.299,243.4" />
@@ -1595,7 +1595,7 @@
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 					<Interact QuestId="0xE0001780139B48B7" Name="Holoterminal" WaitTime="10" XYZ="0.2869586,0.9987401,2.575448" />
-					<CompleteQuest QuestName="To Kill a Sith Lord" QuestId="0xE0001780139B48B7" RewardIndex="2" />
+					<CompleteQuest QuestName="To Kill a Sith Lord" QuestId="0xE0001780139B48B7" />
 				</If>
 			</If>
 		</If>
@@ -1660,7 +1660,7 @@
 					<Interact QuestId="0xE0003BE7DB5CEA47" Name="Holoterminal" WaitTime="10" XYZ="0.2869586,0.9987401,2.575448" />
 				</If>
 			</If>
-			<CompleteQuest QuestName="A Threat Leveled" QuestId="0xE0003BE7DB5CEA47" RewardIndex="3" /> <!-- 1 for loot box, 3 for implant -->
+			<CompleteQuest QuestName="A Threat Leveled" QuestId="0xE0003BE7DB5CEA47" /> <!-- 1 for loot box, 3 for implant -->
 		</If>
 		
 		<!-- Warrior - Seek Answers -->
@@ -1703,7 +1703,7 @@
 				<Interact Name="Holoterminal" QuestId="0xE000D7A2C9665385" WaitTime="9" XYZ="-0.005310211,1.051,-0.5007078" />
 			</If>
 		
-			<CompleteQuest QuestName="Liquidation" QuestId="0xE000D7A2C9665385" RewardIndex="4" />
+			<CompleteQuest QuestName="Liquidation" QuestId="0xE000D7A2C9665385" />
 			<!-- Agent - Shadow of the Dark Lord -->
 		</If>
 
@@ -1795,7 +1795,7 @@
 				</If>
 				<Interact Name="Holoterminal" XYZ="-0.00581874,1.051,-0.4990843" />
 			</If>
-			<CompleteQuest QuestName="Shadow of the Dark Lord" QuestId="0xE000DCB2762AA893" RewardIndex="3" />
+			<CompleteQuest QuestName="Shadow of the Dark Lord" QuestId="0xE000DCB2762AA893" />
 			<!-- Formal Introductions -->
 			<!-- The Spy Dance -->
 		</If>
@@ -1834,7 +1834,7 @@
 				</If>
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 			</If>
-			<CompleteQuest QuestName="The Final Act" QuestId="0xE00061035EAE48C8" RewardIndex="2" />
+			<CompleteQuest QuestName="The Final Act" QuestId="0xE00061035EAE48C8" />
 			<!-- Preparations 0xE0004F4F887C2A7C-->
 		</If>
 
@@ -1882,7 +1882,7 @@
 				</If>
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 			</If>
-			<CompleteQuest QuestName="Preparations" QuestId="0xE0004F4F887C2A7C" RewardIndex="1" />
+			<CompleteQuest QuestName="Preparations" QuestId="0xE0004F4F887C2A7C" />
 			<!-- Andronikos Revel 0xE0009674CCD5C6FE-->
 			<!-- The Secrets of the Jedi 0xE000D1B7E8AB0DE3-->
 		</If>

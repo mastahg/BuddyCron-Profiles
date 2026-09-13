@@ -1131,7 +1131,7 @@
 			</UseObject>
 			<Grind GrindRef="Corporate Warfare 1 3 0" While="(not IsBranchTaskComplete(0xE000D022C030F619, 1, 3, 0))" />
 			<TurnInQuest QuestName="Corporate Warfare" QuestId="0xE000D022C030F619" TurnInName="Commander Jastal" XYZ="-171.677,-3.594,293.8681" />
-			<CompleteQuest QuestName="Corporate Warfare" QuestId="0xE000D022C030F619" RewardIndex="1" />
+			<CompleteQuest QuestName="Corporate Warfare" QuestId="0xE000D022C030F619" />
 			<!-- Czerka Liquidation 0xE000D4B2E265ABCC-->
 			
 		</If>
@@ -1157,7 +1157,7 @@
 				<MoveTo QuestId="0xE00048A8826BAEA8" XYZ="-149.0783,2.401,210.3914" />
 			</If>
 			<TurnInQuest QuestName="Eve of Destruction" QuestId="0xE00048A8826BAEA8" TurnInName="Secure Holoterminal" XYZ="-149.1632,2.401,210.5117" />
-			<CompleteQuest QuestName="Eve of Destruction" QuestId="0xE00048A8826BAEA8" RewardIndex="1" />
+			<CompleteQuest QuestName="Eve of Destruction" QuestId="0xE00048A8826BAEA8" />
 			<!-- The Sky Burns 0xE000A82017A8B038-->
 		</If>
 		
@@ -1185,7 +1185,7 @@
 				<AnswerHolocomCall QuestName="First Strike" QuestId="0xE0002C3306EB994E" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="First Strike" QuestId="0xE0002C3306EB994E" RewardIndex="3" />
+			<CompleteQuest QuestName="First Strike" QuestId="0xE0002C3306EB994E" />
 			<!-- Inquisitor - Blood and Fire 0xE000C68990DF55BF-->
  
 			<UseTransport TransporterName="Islands Outpost Taxi" Type="Taxi" Option="Incorporation Islands Taxi" 
@@ -1195,13 +1195,13 @@
 		<!-- Turnin The Rebel Secrets -->
 		<If Condition="((HasQuest(0xE00020B6B689534B)) and (not IsQuestComplete(0xE00020B6B689534B)))">
 			<TurnInQuest QuestName="The Rebel Secrets" QuestId="0xE00020B6B689534B" TurnInName="G-05" XYZ="-166.7024,2.1063,216.9574" />
-			<CompleteQuest QuestName="The Rebel Secrets" QuestId="0xE00020B6B689534B" RewardIndex="1" />
+			<CompleteQuest QuestName="The Rebel Secrets" QuestId="0xE00020B6B689534B" />
 		</If>
 
 		<!-- Turnin Workforce Reduction -->
 		<If Condition="((HasQuest(0xE0006DC53B5F1D87)) and (not IsQuestComplete(0xE0006DC53B5F1D87)))">
 			<TurnInQuest QuestName="Workforce Reduction" QuestId="0xE0006DC53B5F1D87" TurnInName="Erin Kaldo" XYZ="-159.7626,4.388665,195.7445" />
-			<CompleteQuest QuestName="Workforce Reduction" QuestId="0xE0006DC53B5F1D87" RewardIndex="1" />
+			<CompleteQuest QuestName="Workforce Reduction" QuestId="0xE0006DC53B5F1D87" />
 		</If>
 
 		<!-- Is this quest avail earlier? -->
@@ -1234,13 +1234,13 @@
 				<Grind GrindRef="Claim the Factory (Bonus)" While="(not IsQuestComplete(0xE0006C27123CFA40))" />
 			</If>
 			<TurnInQuest QuestName="Rooting Out the Drall" QuestId="0xE000B4218B99435B" TurnInName="Lieutenant Veet" XYZ="-206.0184,-3.587206,216.9923" />
-			<CompleteQuest QuestName="Rooting Out the Drall" QuestId="0xE000B4218B99435B" RewardIndex="1" />
+			<CompleteQuest QuestName="Rooting Out the Drall" QuestId="0xE000B4218B99435B" />
 		</If>
 
 		<!-- Turnin Republic Saboteurs -->
 		<If Condition="((HasQuest(0xE0006AC0C77BB5B3)) and (not IsQuestComplete(0xE0006AC0C77BB5B3)))">
 			<TurnInQuest QuestName="Republic Saboteurs" QuestId="0xE0006AC0C77BB5B3" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-156.3938,4.891,192.7568" />
-			<CompleteQuest QuestName="Republic Saboteurs" QuestId="0xE0006AC0C77BB5B3" RewardIndex="2" />
+			<CompleteQuest QuestName="Republic Saboteurs" QuestId="0xE0006AC0C77BB5B3" />
 		</If>
 
 		<!-- Czerka Liquidation and Turnin -->
@@ -1294,7 +1294,7 @@
 					<TalkTo QuestId="0xE000D4B2E265ABCC" Name="Darth Charnus" XYZ="-357.5052,53.0047,38.4511" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<CompleteQuest QuestName="Czerka Liquidation" QuestId="0xE000D4B2E265ABCC" RewardIndex="2" />
+				<CompleteQuest QuestName="Czerka Liquidation" QuestId="0xE000D4B2E265ABCC" />
 				<!-- Engineering Breakdown 0xE000260C3F3F8692-->
 				<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 					<UseTransport TransporterName="Imperial Shuttle" Type="Wonkavator" Option="Darth Charnus's Shuttle Hangar"
@@ -1315,7 +1315,7 @@
 				<Grind GrindRef="Droid Control (Bonus)" While="(not IsQuestComplete(0xE000B0347944D2BD))" />
 			</If>
 			<TurnInQuest QuestName="Engineering Breakdown" QuestId="0xE000260C3F3F8692" Type="Placeable" UseRange="2" TurnInName="Holoterminal" XYZ="-196.3592,-3.5973,185.364" />
-			<CompleteQuest QuestName="Engineering Breakdown" QuestId="0xE000260C3F3F8692" RewardIndex="1" />
+			<CompleteQuest QuestName="Engineering Breakdown" QuestId="0xE000260C3F3F8692" />
 			<!-- Industrial Collapse 0xE000B76EB2CEEDE8-->
 		</If>
 
@@ -1357,7 +1357,7 @@
 			</If>
 			<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
 				<TurnInQuest QuestName="Industrial Collapse" QuestId="0xE000B76EB2CEEDE8" TurnInName="Darth Charnus" XYZ="-357.5799,53.001,38.8081" />
-				<CompleteQuest QuestName="Industrial Collapse" QuestId="0xE000B76EB2CEEDE8" RewardIndex="1" />
+				<CompleteQuest QuestName="Industrial Collapse" QuestId="0xE000B76EB2CEEDE8" />
 			</If>
 			<!-- Into the Fire 0xE000E23C557EA7A4-->
 			<If Condition="(Me.Position.Y &gt; 52) and (Me.Position.Y &lt; 54)">
@@ -1376,7 +1376,7 @@
 		<!-- Turnin Dismantling Czerka -->
 		<If Condition="((HasQuest(0xE000B901085788D1)) and (not IsQuestComplete(0xE000B901085788D1)))">
 			<TurnInQuest QuestName="Dismantling Czerka" QuestId="0xE000B901085788D1" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-168.5962,2.1063,217.0218" />
-			<CompleteQuest QuestName="Dismantling Czerka" QuestId="0xE000B901085788D1" RewardIndex="1" />
+			<CompleteQuest QuestName="Dismantling Czerka" QuestId="0xE000B901085788D1" />
  
 			<UseTransport TransporterName="Incorporation Islands Tram" Type="Taxi" Option="Imperial War Camp Tram" 
 									XYZ="-170.1035,4.38175,218.119" />
@@ -1432,7 +1432,7 @@
 				<AnswerHolocomCall QuestName="Blood and Fire" QuestId="0xE000C68990DF55BF" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Blood and Fire" QuestId="0xE000C68990DF55BF" RewardIndex="2" />
+			<CompleteQuest QuestName="Blood and Fire" QuestId="0xE000C68990DF55BF" />
 			<!-- Inquisitor - Fatal Blow 0xE000A35555F47698-->
 		</If>
 		
@@ -1457,7 +1457,7 @@
 				</Hotspots>
 			</UseObject>
 			<TurnInQuest QuestName="Supply Confiscation" QuestId="0xE0005ABB999F0465" TurnInName="Lieutenant Bregor" XYZ="-265.4254,-7.605385,-194.846" />
-			<CompleteQuest QuestName="Supply Confiscation" QuestId="0xE0005ABB999F0465" RewardIndex="1" />
+			<CompleteQuest QuestName="Supply Confiscation" QuestId="0xE0005ABB999F0465" />
 		</If>
 
 		<!-- An Alien Obstruction -->
@@ -1536,20 +1536,20 @@
 		<!-- Turnin Stardrive Combustion -->
 		<If Condition="((HasQuest(0xE0000DC27DE75BC9)) and (not IsQuestComplete(0xE0000DC27DE75BC9)))">
 			<TurnInQuest QuestName="Stardrive Combustion" QuestId="0xE0000DC27DE75BC9" TurnInName="Corgan Sturm" XYZ="-304.5655,-9.599101,-150.8362" />
-			<CompleteQuest QuestName="Stardrive Combustion" QuestId="0xE0000DC27DE75BC9" RewardIndex="2" />
+			<CompleteQuest QuestName="Stardrive Combustion" QuestId="0xE0000DC27DE75BC9" />
 		</If>
 		
 		<!-- Turnin Into the Fire -->
 		<If Condition="((HasQuest(0xE000E23C557EA7A4)) and (not IsQuestComplete(0xE000E23C557EA7A4)))">
 			<TurnInQuest QuestName="Into the Fire" QuestId="0xE000E23C557EA7A4" TurnInName="Major Tradik" XYZ="-299.7788,-9.5715,-149.3933" />
-			<CompleteQuest QuestName="Into the Fire" QuestId="0xE000E23C557EA7A4" RewardIndex="2" />
+			<CompleteQuest QuestName="Into the Fire" QuestId="0xE000E23C557EA7A4" />
 			<!-- Selonian Uprising 0xE000018DCB3AC235-->
 		</If>
 		
 		<!-- Turnin An Alien Obstruction -->
 		<If Condition="((HasQuest(0xE0006909A63096BE)) and (not IsQuestComplete(0xE0006909A63096BE)))">
 			<TurnInQuest QuestName="An Alien Obstruction" QuestId="0xE0006909A63096BE" TurnInName="Jerris Rez" XYZ="-306.2826,-9.599101,-143.9642" />
-			<CompleteQuest QuestName="An Alien Obstruction" QuestId="0xE0006909A63096BE" RewardIndex="1" />
+			<CompleteQuest QuestName="An Alien Obstruction" QuestId="0xE0006909A63096BE" />
 		</If>
 
 		<PickUpQuest QuestName="Stoking the Inferno" QuestId="0xE0009FF59D8E1D09" GiverName="Lord Velash" XYZ="-305.2143,-9.599101,-142.8214" />
@@ -1574,13 +1574,13 @@
 		<If Condition="((HasQuest(0xE0009FF59D8E1D09)) and (not IsQuestComplete(0xE0009FF59D8E1D09)))">
 			<Grind GrindRef="Stoking the Inferno 2" While="(not IsBranchStepComplete(0xE0009FF59D8E1D09, 1, 2))" />
 			<TurnInQuest QuestName="Stoking the Inferno" QuestId="0xE0009FF59D8E1D09" TurnInName="Lord Velash" XYZ="-305.2143,-9.599101,-142.8214" />
-			<CompleteQuest QuestName="Stoking the Inferno" QuestId="0xE0009FF59D8E1D09" RewardIndex="1" />
+			<CompleteQuest QuestName="Stoking the Inferno" QuestId="0xE0009FF59D8E1D09" />
 		</If>
 
 		<!-- Turnin A Selonian Infestation -->
 		<If Condition="((HasQuest(0xE000CE42E74103D7)) and (not IsQuestComplete(0xE000CE42E74103D7)))">
 			<TurnInQuest QuestName="A Selonian Infestation" QuestId="0xE000CE42E74103D7" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-303.1998,-9.599101,-144.1508" />
-			<CompleteQuest QuestName="A Selonian Infestation" QuestId="0xE000CE42E74103D7" RewardIndex="1" />
+			<CompleteQuest QuestName="A Selonian Infestation" QuestId="0xE000CE42E74103D7" />
  
 			<UseTransport TransporterName="Imperial War Camp Tram" Type="Taxi" Option="Axial Park South Tram" 
 									XYZ="-317.204,-7.61825,-154.1093" />
@@ -1607,14 +1607,14 @@
 				<AnswerHolocomCall QuestName="The Sky Burns" QuestId="0xE000A82017A8B038" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="The Sky Burns" QuestId="0xE000A82017A8B038" RewardIndex="2" />
+			<CompleteQuest QuestName="The Sky Burns" QuestId="0xE000A82017A8B038" />
 			<!-- The Apocalypse Party 0xE000F4815FB0463F-->
 		</If>
 
 		<!-- Turnin Selonian Uprising -->
 		<If Condition="((HasQuest(0xE000018DCB3AC235)) and (not IsQuestComplete(0xE000018DCB3AC235)))">
 			<TurnInQuest QuestName="Selonian Uprising" QuestId="0xE000018DCB3AC235" TurnInName="General Hesker" XYZ="77.7069,2.901,-194.8421" />
-			<CompleteQuest QuestName="Selonian Uprising" QuestId="0xE000018DCB3AC235" RewardIndex="4" />
+			<CompleteQuest QuestName="Selonian Uprising" QuestId="0xE000018DCB3AC235" />
 			<!-- The Fight for Axial Park 0xE000AAB820B04609-->
 		</If>
 
@@ -1639,7 +1639,7 @@
 				<AnswerHolocomCall QuestName="Fatal Blow" QuestId="0xE000A35555F47698" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Fatal Blow" QuestId="0xE000A35555F47698" RewardIndex="3" />
+			<CompleteQuest QuestName="Fatal Blow" QuestId="0xE000A35555F47698" />
 			<!-- Inquisitor - The Duel 0xE0003291A89F588C-->
 		</If>
 		
@@ -1716,7 +1716,7 @@
 			</If>
 			<Grind GrindRef="The Fight for Axial Park 8" While="(not IsBranchStepComplete(0xE000AAB820B04609, 1, 8))" />
 			<TurnInQuest QuestName="The Fight for Axial Park" QuestId="0xE000AAB820B04609" TurnInName="Lieutenant Roval" XYZ="144.0454,2.405816,-303.5406" />
-			<CompleteQuest QuestName="The Fight for Axial Park" QuestId="0xE000AAB820B04609" RewardIndex="5" />
+			<CompleteQuest QuestName="The Fight for Axial Park" QuestId="0xE000AAB820B04609" />
 			<!-- Sacking the Gardens 0xE00098C8F4F7950E-->
 		</If>
 		
@@ -1747,14 +1747,14 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
 			<TurnInQuest QuestName="Sacking the Gardens" QuestId="0xE00098C8F4F7950E" TurnInName="General Hesker" XYZ="77.7069,2.901,-194.8421" />
-			<CompleteQuest QuestName="Sacking the Gardens" QuestId="0xE00098C8F4F7950E" RewardIndex="2" />
+			<CompleteQuest QuestName="Sacking the Gardens" QuestId="0xE00098C8F4F7950E" />
 			<!-- Making History 0xE000474052488525-->
 		</If>
 		
 		<!-- Turnin Jaggalors on the Loose: Cruelty -->
 		<If Condition="((HasQuest(0xE000F4AD8CCE4164)) and (not IsQuestComplete(0xE000F4AD8CCE4164)))">
 			<TurnInQuest QuestName="Jaggalors on the Loose: Cruelty" QuestId="0xE000F4AD8CCE4164" TurnInName="Lieutenant Boonan" XYZ="77.105,4.40284,-195.2406" />
-			<CompleteQuest QuestName="Jaggalors on the Loose: Cruelty" QuestId="0xE000F4AD8CCE4164" RewardIndex="5" />
+			<CompleteQuest QuestName="Jaggalors on the Loose: Cruelty" QuestId="0xE000F4AD8CCE4164" />
 		</If>
 
 		<PickUpQuest QuestName="Sewer Rats" QuestId="0xE000C92ADC1EE25C" GiverName="Lord Kanno" XYZ="76.5118,4.411,-190.6811" />
@@ -1765,13 +1765,13 @@
 		<!-- Turnin Jedi Hunt -->
 		<If Condition="((HasQuest(0xE000E2F72515BD1E)) and (not IsQuestComplete(0xE000E2F72515BD1E)))">
 			<TurnInQuest QuestName="Jedi Hunt" QuestId="0xE000E2F72515BD1E" TurnInName="Grud" XYZ="88.2854,2.38979,-174.1078" />
-			<CompleteQuest QuestName="Jedi Hunt" QuestId="0xE000E2F72515BD1E" RewardIndex="1" />
+			<CompleteQuest QuestName="Jedi Hunt" QuestId="0xE000E2F72515BD1E" />
 		</If>
 		
 		<!-- Turnin Derailing the Rocket Tram -->
 		<If Condition="((HasQuest(0xE00020B048FB68AB)) and (not IsQuestComplete(0xE00020B048FB68AB)))">
 			<TurnInQuest QuestName="Derailing the Rocket Tram" QuestId="0xE00020B048FB68AB" TurnInName="Zyman" XYZ="90.5253,2.410199,-174.8316" />
-			<CompleteQuest QuestName="Derailing the Rocket Tram" QuestId="0xE00020B048FB68AB" RewardIndex="2" />
+			<CompleteQuest QuestName="Derailing the Rocket Tram" QuestId="0xE00020B048FB68AB" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1823,25 +1823,25 @@
 		<If Condition="((HasQuest(0xE000320140426E18)) and (not IsQuestComplete(0xE000320140426E18)))">
 			<UseObject QuestId="0xE000320140426E18" BranchId="1" StepId="3" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Landing Site" XYZ="89.29366,5.376513,-192.0546" />
 			<TurnInQuest QuestName="They Came From the Sky" QuestId="0xE000320140426E18" TurnInName="Thadd" XYZ="77.5506,3.401,-187.329" />
-			<CompleteQuest QuestName="They Came From the Sky" QuestId="0xE000320140426E18" RewardIndex="3" />
+			<CompleteQuest QuestName="They Came From the Sky" QuestId="0xE000320140426E18" />
 		</If>
 		
 		<!-- Turnin Shield Breach -->
 		<If Condition="((HasQuest(0xE0006076652B75DE)) and (not IsQuestComplete(0xE0006076652B75DE)))">
 			<TurnInQuest QuestName="Shield Breach" QuestId="0xE0006076652B75DE" TurnInName="General Dane" XYZ="81.957,3.401,-187.6488" />
-			<CompleteQuest QuestName="Shield Breach" QuestId="0xE0006076652B75DE" RewardIndex="5" />
+			<CompleteQuest QuestName="Shield Breach" QuestId="0xE0006076652B75DE" />
 		</If>
 		
 		<!-- Turnin Sewer Rats -->
 		<If Condition="((HasQuest(0xE000C92ADC1EE25C)) and (not IsQuestComplete(0xE000C92ADC1EE25C)))">
 			<TurnInQuest QuestName="Sewer Rats" QuestId="0xE000C92ADC1EE25C" TurnInName="Lord Kanno" XYZ="76.5118,4.411,-190.6811" />
-			<CompleteQuest QuestName="Sewer Rats" QuestId="0xE000C92ADC1EE25C" RewardIndex="4" />
+			<CompleteQuest QuestName="Sewer Rats" QuestId="0xE000C92ADC1EE25C" />
 		</If>
 		
 		<!-- Turnin Impact Zone -->
 		<If Condition="((HasQuest(0xE0008C96F9C87C1A)) and (not IsQuestComplete(0xE0008C96F9C87C1A)))">
 			<TurnInQuest QuestName="Impact Zone" QuestId="0xE0008C96F9C87C1A" TurnInName="Lieutenant Ogden" XYZ="87.4811,2.38979,-176.18" />
-			<CompleteQuest QuestName="Impact Zone" QuestId="0xE0008C96F9C87C1A" RewardIndex="4" />
+			<CompleteQuest QuestName="Impact Zone" QuestId="0xE0008C96F9C87C1A" />
 
 			<UseTransport TransporterName="Axial Park South Tram" Type="Taxi" Option="Business Sector Tram" 
 									XYZ="105.1889,4.38175,-165.8872" />
@@ -1857,7 +1857,7 @@
 		<!-- Turnin The Apocalypse Party -->
 		<If Condition="((HasQuest(0xE000F4815FB0463F)) and (not IsQuestComplete(0xE000F4815FB0463F)))">
 			<TurnInQuest QuestName="The Apocalypse Party" QuestId="0xE000F4815FB0463F" Type="Placeable" UseRange="2" TurnInName="Secure Holoterminal" XYZ="258.4951,21.401,-157.81" />
-			<CompleteQuest QuestName="The Apocalypse Party" QuestId="0xE000F4815FB0463F" RewardIndex="6" />
+			<CompleteQuest QuestName="The Apocalypse Party" QuestId="0xE000F4815FB0463F" />
 			<!-- Agent - Armageddon 0xE000D780762486C8-->
 		</If>
 
@@ -1920,7 +1920,7 @@
 			</If>
 			<Grind GrindRef="Coronet Arms Massacre 2 0" While="(not IsBranchTaskComplete(0xE000ED6C040DE24D, 1, 2, 0))" />
 			<TurnInQuest QuestName="Coronet Arms Massacre" QuestId="0xE000ED6C040DE24D" TurnInName="Lord Malichose" XYZ="262.0468,21.401,-159.9878" /> 
-			<CompleteQuest QuestName="Coronet Arms Massacre" QuestId="0xE000ED6C040DE24D" RewardIndex="4" />
+			<CompleteQuest QuestName="Coronet Arms Massacre" QuestId="0xE000ED6C040DE24D" />
 		</If>
 
 		<PickUpQuest QuestName="Nowhere to Run" QuestId="0xE000087C48C25579" GiverName="Captain Zender" XYZ="261.1347,21.401,-157.9977" />
@@ -1931,7 +1931,7 @@
 		<If Condition="((HasQuest(0xE000087C48C25579)) and (not IsQuestComplete(0xE000087C48C25579)))">
 			<Grind GrindRef="Nowhere to Run 2" While="(not IsBranchStepComplete(0xE000087C48C25579, 1, 2))" />
 			<TurnInQuest QuestName="Nowhere to Run" QuestId="0xE000087C48C25579" TurnInName="Captain Zender" XYZ="261.1408,21.401,-157.9997" />
-			<CompleteQuest QuestName="Nowhere to Run" QuestId="0xE000087C48C25579" RewardIndex="3" />
+			<CompleteQuest QuestName="Nowhere to Run" QuestId="0xE000087C48C25579" />
 		</If>
 		
 		<!-- Nowhere To Hide -->
@@ -2057,7 +2057,7 @@
 				<TalkTo QuestId="0xE0003291A89F588C" Name="Darth Thanaton" SearchRadius="50" XYZ="335.7049,25.8604,-209.1523" />
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
-			<CompleteQuest QuestName="The Duel" QuestId="0xE0003291A89F588C" RewardIndex="2" />
+			<CompleteQuest QuestName="The Duel" QuestId="0xE0003291A89F588C" />
 			<!-- The Dark Council 0xE000AFA71CDE8549-->
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ground Floor"
@@ -2085,7 +2085,7 @@
 				<AnswerHolocomCall QuestName="Armageddon" QuestId="0xE000D780762486C8" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Armageddon" QuestId="0xE000D780762486C8" RewardIndex="2" />
+			<CompleteQuest QuestName="Armageddon" QuestId="0xE000D780762486C8" />
 			<!-- Agent - The Star Chamber 0xE000E1E86FEB6CBD -->
 			<Interact IgnoreLOS="True" WaitTime="5" Name="Tunnel Entrance" XYZ="311.8754,14.787,-162.7634" />
 		</If>
@@ -2093,24 +2093,24 @@
 		<TurnInQuest QuestName="Break the Lines" QuestId="0xE0003028DA75197D" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="270.1594,20.421,-154.1709" />
 		<CompleteQuest QuestName="Break the Lines" QuestId="0xE0003028DA75197D" />
 		<TurnInQuest QuestName="Green Jedi Purge" QuestId="0xE0001DD202A4252E" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="270.1594,20.421,-154.1709" />
-		<CompleteQuest QuestName="Green Jedi Purge" QuestId="0xE0001DD202A4252E" RewardIndex="6" />
+		<CompleteQuest QuestName="Green Jedi Purge" QuestId="0xE0001DD202A4252E" />
 		
 		<!-- Turnin Nowhere To Hide -->
 		<If Condition="((HasQuest(0xE0003F7A9B953849)) and (not IsQuestComplete(0xE0003F7A9B953849)))">
 			<TurnInQuest QuestName="Nowhere To Hide" QuestId="0xE0003F7A9B953849" TurnInName="Private Shon" XYZ="270.6055,20.401,-156.7126" />
-			<CompleteQuest QuestName="Nowhere To Hide" QuestId="0xE0003F7A9B953849" RewardIndex="4" />
+			<CompleteQuest QuestName="Nowhere To Hide" QuestId="0xE0003F7A9B953849" />
 		</If>
 		
 		<!-- Turnin Interrogation Tactics -->
 		<If Condition="((HasQuest(0xE00074F5DF0242C8)) and (not IsQuestComplete(0xE00074F5DF0242C8)))">
 			<TurnInQuest QuestName="Interrogation Tactics" QuestId="0xE00074F5DF0242C8" TurnInName="Emma Thex" XYZ="262.7184,21.401,-164.3201" />
-			<CompleteQuest QuestName="Interrogation Tactics" QuestId="0xE00074F5DF0242C8" RewardIndex="7" />
+			<CompleteQuest QuestName="Interrogation Tactics" QuestId="0xE00074F5DF0242C8" />
 		</If>
 		
 		<!-- Turnin Precision Strikes -->
 		<If Condition="((HasQuest(0xE000524CA828328F)) and (not IsQuestComplete(0xE000524CA828328F)))">
 			<TurnInQuest QuestName="Precision Strikes" QuestId="0xE000524CA828328F" TurnInName="44-ND" XYZ="258.838,21.401,-167.3862" />
-			<CompleteQuest QuestName="Precision Strikes" QuestId="0xE000524CA828328F" RewardIndex="1" />
+			<CompleteQuest QuestName="Precision Strikes" QuestId="0xE000524CA828328F" />
 		</If>
 		
 		<!-- Turnin Making History -->
@@ -2120,7 +2120,7 @@
 									XYZ="255.7171,21.43809,-160.1701" />
 			</If>
 			<TurnInQuest QuestName="Making History" QuestId="0xE000474052488525" TurnInName="Darth Decimus" XYZ="262.1669,11.7037,-160.4801" />
-			<CompleteQuest QuestName="Making History" QuestId="0xE000474052488525" RewardIndex="6" />
+			<CompleteQuest QuestName="Making History" QuestId="0xE000474052488525" />
 			<!-- The Battle of Corellia 0xE000EEB5E4D24D64-->
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Central Command"
@@ -2149,7 +2149,7 @@
 									XYZ="255.7171,21.43809,-160.1701" />
 			</If>
 			<TurnInQuest QuestName="The Battle of Corellia" QuestId="0xE000EEB5E4D24D64" TurnInName="Darth Decimus" XYZ="262.1983,12.201,-163.5422" />
-			<CompleteQuest QuestName="The Battle of Corellia" QuestId="0xE000EEB5E4D24D64" RewardIndex="1" />
+			<CompleteQuest QuestName="The Battle of Corellia" QuestId="0xE000EEB5E4D24D64" />
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Imperial Central Command"
 									XYZ="262.3943,12.23486,-167.475" />
@@ -2230,7 +2230,7 @@
 				</If>
 				<MoveTo QuestId="0xE000AFA71CDE8549" XYZ="-5.342464,1.801015,-87.44279" /> <!-- this xyz may be wrong -->
 			</If>
-			<CompleteQuest QuestName="The Dark Council" QuestId="0xE000AFA71CDE8549" RewardIndex="1" />
+			<CompleteQuest QuestName="The Dark Council" QuestId="0xE000AFA71CDE8549" />
 			<!-- Inquisitor - First Strike 0xE0003913E4F692A9-->
 		</If>
 		
@@ -2402,7 +2402,7 @@
 			<If Condition="((HasQuest(0xE000E1E86FEB6CBD)) and (not IsBranchStepComplete(0xE000E1E86FEB6CBD, 7, 5)))">
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-0.7512352,1.051,0.9680769" />
 			</If>
-			<CompleteQuest QuestName="The Star Chamber" QuestId="0xE000E1E86FEB6CBD" RewardIndex="1" />
+			<CompleteQuest QuestName="The Star Chamber" QuestId="0xE000E1E86FEB6CBD" />
 			<!-- Agent - First Strike 0xE0003913E4F692A9-->
 		</If>
 		

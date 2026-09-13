@@ -726,7 +726,7 @@
 		<!-- Trooper: The Separatists' Stronghold -->
 		<If Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsQuestComplete(0xE0007D71A78F1F0C)))">
 			<TurnInQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" TurnInName="General Vander" XYZ="7.9919,6.391,1.613899" />
-			<CompleteQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" RewardIndex="1" />
+			<CompleteQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" />
 
 		</If>
 	
@@ -750,7 +750,7 @@
 		   
 					<WaitTimer WaitTime="30" />
 				</If>
-				<CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" RewardIndex="2" />
+				<CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" />
 				<!-- Open Jorgan's Urban Combat Outfit, click Take all button, then fit your companion with the 3 items Jorgan's Scout Pants, Boots, Jacket -->
 				<If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
 					<UserDialog Title="Orlok" Message="Use transport and head to the Republic Fleet! Thank you for using my profiles, please donate!"/>

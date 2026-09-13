@@ -621,7 +621,7 @@
       </If>
       <!-- Learn Taxi, Bindpoint -->
       <TurnInQuest QuestName="Snipe Hunt" QuestId="0xE000B83533224EB7" TurnInName="Commander Vray" XYZ="10.8417,5.598037,-10.12" />
-      <CompleteQuest QuestName="Snipe Hunt" QuestId="0xE000B83533224EB7" RewardIndex="1" />
+      <CompleteQuest QuestName="Snipe Hunt" QuestId="0xE000B83533224EB7" />
     </If>
 
     <!-- PickUp Trooper: Best of the Best -->
@@ -1003,7 +1003,7 @@
     <!-- Turnin Bridging the Gap -->
     <If Condition="((HasQuest(0xE0004DBF76C3CD7C)) and (not IsQuestComplete(0xE0004DBF76C3CD7C)))">
       <TurnInQuest QuestName="Bridging the Gap" QuestId="0xE0004DBF76C3CD7C" TurnInName="Commander Bragan" XYZ="44.671,2.62385,11.178" />
-      <CompleteQuest QuestName="Bridging the Gap" QuestId="0xE0004DBF76C3CD7C" RewardIndex="1" />
+      <CompleteQuest QuestName="Bridging the Gap" QuestId="0xE0004DBF76C3CD7C" />
 
       <UseTransport TransporterName="Falks Reach Speeder" Type="Taxi" Option="Fort Garnik Speeder"
 									XYZ="47.8944,0.8370317,23.8323" />
@@ -1012,7 +1012,7 @@
     <!-- Turnin Lost Son -->
     <If Condition="((HasQuest(0xE000F766AF41897B)) and (not IsQuestComplete(0xE000F766AF41897B)))">
       <TurnInQuest QuestName="Lost Son" QuestId="0xE000F766AF41897B" TurnInName="Ellis" XYZ="25.0329,5.82733,-5.4936" />
-      <CompleteQuest QuestName="Lost Son" QuestId="0xE000F766AF41897B" RewardIndex="1" />
+      <CompleteQuest QuestName="Lost Son" QuestId="0xE000F766AF41897B" />
     </If>
 
     <!-- Turnin Victims of War -->
@@ -1136,7 +1136,7 @@
                     XYZ="-68.4418,2.113015,-20.398" />
       </If>
       <TurnInQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" TurnInName="Viidu" XYZ="26.0025,6.894484,5.666109" />
-      <CompleteQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" RewardIndex="1" />
+      <CompleteQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" />
       <!-- Open Medium Credit Box -->
       <!-- Smuggler now has a Companion, equip companion with Corso Riggs Customization 2 -->
       <!-- Smuggler: Hitting Where it Hurts 0xE0001F04AA36AF01 -->
@@ -1351,7 +1351,7 @@
     <!-- Trooper: The Separatists' Stronghold -->
     <If Condition="((HasQuest(0xE0007D71A78F1F0C)) and (not IsQuestComplete(0xE0007D71A78F1F0C)))">
       <TurnInQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" TurnInName="General Vander" XYZ="7.9919,6.391,1.613899" />
-      <CompleteQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" RewardIndex="1" />
+      <CompleteQuest QuestName="The Separatists' Stronghold" QuestId="0xE0007D71A78F1F0C" />
       <!-- Trooper: New Assignment 0xE00015A1CAEE4F2E -->
       <!-- We now have our companion -->
       <!-- Equip companion with Aric Jorgan Cuztomization 1 -->
@@ -1391,7 +1391,7 @@
                       XYZ="26.7952,6.311908,38.06977" />
         </If>
       </If>
-      <CompleteQuest QuestName="Chasing Skavak" QuestId="0xE000088232A04F86" RewardIndex="1" />
+      <CompleteQuest QuestName="Chasing Skavak" QuestId="0xE000088232A04F86" />
       <!-- Open Corso's Arctic Outfit, click Take All, open companion character tab and equip Corso' Arctic Boots, Pants, Jacket -->
       <!-- Smuggler: The Gambler 0xE0008E987301305E -->
     </If>
@@ -1417,7 +1417,7 @@
 
           <WaitTimer QuestId="1" WaitTime="30" />
         </If>
-        <CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" RewardIndex="2" />
+        <CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" />
         <!-- Open Jorgan's Urban Combat Outfit, click Take all button, then fit your companion with the 3 items Jorgan's Scout Pants, Boots, Jacket -->
         <If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
           <UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"

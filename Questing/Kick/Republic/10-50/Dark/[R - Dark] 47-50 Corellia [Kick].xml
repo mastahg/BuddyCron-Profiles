@@ -931,7 +931,7 @@
 			-->
 			</If>
 			<TurnInQuest QuestName="Bomb Disposal" QuestId="0xE00033B23E993D6B" TurnInName="Sergeant Larus" XYZ="84.7856,4.801,89.7961" />
-			<CompleteQuest QuestName="Bomb Disposal" QuestId="0xE00033B23E993D6B" RewardIndex="4" />
+			<CompleteQuest QuestName="Bomb Disposal" QuestId="0xE00033B23E993D6B" />
 		</If>
 		
 		<!-- Blockade Runner and Turnin -->
@@ -977,7 +977,7 @@
 				<!--<Grind GrindRef="Final Stage - Running Interference (Bonus)" While="(not IsQuestComplete(0xE000AF979D58724C))" />-->
 			</If>
 			<TurnInQuest QuestName="Blockade Runner" QuestId="0xE0000BA54604D58A" TurnInName="General Aves" XYZ="47.7975,1.401,143.155" />
-			<CompleteQuest QuestName="Blockade Runner" QuestId="0xE0000BA54604D58A" RewardIndex="4" />
+			<CompleteQuest QuestName="Blockade Runner" QuestId="0xE0000BA54604D58A" />
 			<!-- Travel Advisory 0xE000B432EEBDD03C-->
 		</If>
 	
@@ -1041,13 +1041,13 @@
 				<Grind GrindRef="Securing CorSec (Bonus)" While="(not IsQuestComplete(0xE0003E35AB6B63CE))" />
 			</If>
 			<TurnInQuest QuestName="Travel Advisory" QuestId="0xE000B432EEBDD03C" Type="Placeable" UseRange="2" TurnInName="Holding Cell Door" XYZ="30.5014,6.526992,93.58625" />
-			<CompleteQuest QuestName="Travel Advisory" QuestId="0xE000B432EEBDD03C" RewardIndex="4" />
+			<CompleteQuest QuestName="Travel Advisory" QuestId="0xE000B432EEBDD03C" />
 		</If>
 		
 		<!-- Turnin Even the Odds -->
 		<If Condition="((HasQuest(0xE000BAC2532581DE)) and (not IsQuestComplete(0xE000BAC2532581DE)))">
 			<TurnInQuest QuestName="Even the Odds" QuestId="0xE000BAC2532581DE" TurnInName="Hannak Vrish" XYZ="52.4667,1.301627,134.8621" />
-			<CompleteQuest QuestName="Even the Odds" QuestId="0xE000BAC2532581DE" RewardIndex="7" />
+			<CompleteQuest QuestName="Even the Odds" QuestId="0xE000BAC2532581DE" />
 		</If>
 		
 		<!-- Consular - Descent 6 -->
@@ -1143,19 +1143,19 @@
 				<UseObject QuestId="0xE000F6A86D6E0A77" ObjectName="Escape Pod" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="98.13319,1.31486,189.8151" />
 			</If>
 			<TurnInQuest QuestName="Hostage Negotiations" QuestId="0xE000F6A86D6E0A77" TurnInName="Agent Halloway" XYZ="7.9773,-1.608699,182.4339" />
-			<CompleteQuest QuestName="Hostage Negotiations" QuestId="0xE000F6A86D6E0A77" RewardIndex="3" />
+			<CompleteQuest QuestName="Hostage Negotiations" QuestId="0xE000F6A86D6E0A77" />
 		</If>
 		
 		<!-- Turnin Local Trouble -->
 		<If Condition="((HasQuest(0xE000A3FA35B408C5)) and (not IsQuestComplete(0xE000A3FA35B408C5)))">
 			<TurnInQuest QuestName="Local Trouble" QuestId="0xE000A3FA35B408C5" TurnInName="Officer Danod" XYZ="8.0109,-1.593553,180.6366" />
-			<CompleteQuest QuestName="Local Trouble" QuestId="0xE000A3FA35B408C5" RewardIndex="4" />
+			<CompleteQuest QuestName="Local Trouble" QuestId="0xE000A3FA35B408C5" />
 		</If>
 		
 		<!-- Turnin Siege Warfare -->
 		<If Condition="((HasQuest(0xE000336162B53832)) and (not IsQuestComplete(0xE000336162B53832)))">
 			<TurnInQuest QuestName="Siege Warfare" QuestId="0xE000336162B53832" TurnInName="Cole Cantarus" XYZ="47.598,1.401,143.0906" />
-			<CompleteQuest QuestName="Siege Warfare" QuestId="0xE000336162B53832" RewardIndex="2" />
+			<CompleteQuest QuestName="Siege Warfare" QuestId="0xE000336162B53832" />
 			<!-- Underground Invasion 0xE00028DC73962B11-->
 		</If>
 	
@@ -1163,7 +1163,7 @@
 		<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsQuestComplete(0xE000253F776474E7)))">
 			<TurnInQuest QuestName="Descent" QuestId="0xE000253F776474E7" TurnInName="Captain Drizan" XYZ="68.4872,1.418158,119.7979" />
 			<WaitTimer QuestId="1" WaitTime="15" />
-			<CompleteQuest QuestName="Descent" QuestId="0xE000253F776474E7" RewardIndex="2" />
+			<CompleteQuest QuestName="Descent" QuestId="0xE000253F776474E7" />
 			<!-- Consular - A Fine Line 0xE000DE1D5C7507D1-->
 		</If>
 	
@@ -1212,14 +1212,14 @@
 			<MoveTo QuestId="1" Name="My Location" XYZ="12.13369,-0.8504059,137.357" />
 			<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" XYZ="11.14404,-1.161952,137.3532" />
 			<TurnInQuest QuestName="Hunting the Hunter" QuestId="0xE000BD8D459D89C4" TurnInName="Lachei" XYZ="4.2889,-1.161951,136.0875" />
-			<CompleteQuest QuestName="Hunting the Hunter" QuestId="0xE000BD8D459D89C4" RewardIndex="4" />
+			<CompleteQuest QuestName="Hunting the Hunter" QuestId="0xE000BD8D459D89C4" />
 			<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" XYZ="4.377458,-2.764115,134.5723" />
 		</If>
 
 		<!-- Turnin Underground Invasion -->
 		<If Condition="((HasQuest(0xE00028DC73962B11)) and (not IsQuestComplete(0xE00028DC73962B11)))">
 			<TurnInQuest QuestName="Underground Invasion" QuestId="0xE00028DC73962B11" TurnInName="General Aves" XYZ="46.1856,1.401,142.2574" />
-			<CompleteQuest QuestName="Underground Invasion" QuestId="0xE00028DC73962B11" RewardIndex="1" />
+			<CompleteQuest QuestName="Underground Invasion" QuestId="0xE00028DC73962B11" />
 			<!-- Factory Recall 0xE00073844A675682-->
 		 
 			<UseTransport TransporterName="Blastfield Shipyards Tram" Type="Taxi" Option="Republic Base Tram" 
@@ -1304,7 +1304,7 @@
 				<Grind GrindRef="Beharen Droid Reservice (Bonus)" While="(not IsQuestComplete(0xE00050CBDD13DBC6))" />
 			</If>
 			<TurnInQuest QuestName="Factory Recall" QuestId="0xE00073844A675682" TurnInName="Supply Grid Controls" XYZ="-414.1657,-8.599,-184.4996" />
-			<CompleteQuest QuestName="Factory Recall" QuestId="0xE00073844A675682" RewardIndex="7" />
+			<CompleteQuest QuestName="Factory Recall" QuestId="0xE00073844A675682" />
 			<!-- Research and Development 0xE0005D43C1511B5E-->
 		</If>
 		
@@ -1351,7 +1351,7 @@
 				<Grind GrindRef="A Fine Line 9" While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 9))" />
 			</If>
 			<TurnInQuest QuestName="A Fine Line" QuestId="0xE000DE1D5C7507D1" Type="Placeable" UseRange="2" TurnInName="Guardian Hold Controls" XYZ="-316.5885,-8.570851,-288.8227" />
-			<CompleteQuest QuestName="A Fine Line" QuestId="0xE000DE1D5C7507D1" RewardIndex="5" />
+			<CompleteQuest QuestName="A Fine Line" QuestId="0xE000DE1D5C7507D1" />
 			<!-- Consular - Old Blood 0xE0004534056039B5-->
 		</If>
 		
@@ -1405,38 +1405,38 @@
 				<Grind GrindRef="Research and Development 4" While="(not IsBranchStepComplete(0xE0005D43C1511B5E, 1, 4))" />
 			</If>
 			<TurnInQuest QuestName="Research and Development" QuestId="0xE0005D43C1511B5E" TurnInName="Danison Varik" XYZ="-331.1187,-6.599,-369.933" />
-			<CompleteQuest QuestName="Research and Development" QuestId="0xE0005D43C1511B5E" RewardIndex="2" />
+			<CompleteQuest QuestName="Research and Development" QuestId="0xE0005D43C1511B5E" />
 			<!-- Green Battleground 0xE00057E7811611E9-->
 		</If>
 		
 		<!-- Turnin Dousing the Flames -->
 		<If Condition="((HasQuest(0xE0005CD0D4DD865D)) and (not IsQuestComplete(0xE0005CD0D4DD865D)))">
 			<TurnInQuest QuestName="Dousing the Flames" QuestId="0xE0005CD0D4DD865D" TurnInName="Lieutenant Kallum" XYZ="-349.2611,-9.6039,-306.2838" />
-			<CompleteQuest QuestName="Dousing the Flames" QuestId="0xE0005CD0D4DD865D" RewardIndex="2" />
+			<CompleteQuest QuestName="Dousing the Flames" QuestId="0xE0005CD0D4DD865D" />
 		</If>
 	
 		<!-- Turnin Medic! -->
 		<If Condition="((HasQuest(0xE0005EEDECA56FE7)) and (not IsQuestComplete(0xE0005EEDECA56FE7)))">
 			<TurnInQuest QuestName="Medic!" QuestId="0xE0005EEDECA56FE7" TurnInName="Captain Ranneth" XYZ="-349.2664,-9.6039,-304.8408" />
-			<CompleteQuest QuestName="Medic!" QuestId="0xE0005EEDECA56FE7" RewardIndex="4" />
+			<CompleteQuest QuestName="Medic!" QuestId="0xE0005EEDECA56FE7" />
 		</If>
 	
 		<!-- Turnin Boiling Point -->
 		<If Condition="((HasQuest(0xE000EB5111FBE3E2)) and (not IsQuestComplete(0xE000EB5111FBE3E2)))">
 			<TurnInQuest QuestName="Boiling Point" QuestId="0xE000EB5111FBE3E2" TurnInName="Doctor Misar" XYZ="-325.9288,-7.598999,-210.6444" />
-			<CompleteQuest QuestName="Boiling Point" QuestId="0xE000EB5111FBE3E2" RewardIndex="4" />
+			<CompleteQuest QuestName="Boiling Point" QuestId="0xE000EB5111FBE3E2" />
 		</If>
 	
 		<!-- Turnin Volatile Chemicals -->
 		<If Condition="((HasQuest(0xE000EBE9F0698FD5)) and (not IsQuestComplete(0xE000EBE9F0698FD5)))">
 			<TurnInQuest QuestName="Volatile Chemicals" QuestId="0xE000EBE9F0698FD5" TurnInName="Lanius Carr" XYZ="-269.5074,-9.600839,-247.3374" />
-			<CompleteQuest QuestName="Volatile Chemicals" QuestId="0xE000EBE9F0698FD5" RewardIndex="4" />
+			<CompleteQuest QuestName="Volatile Chemicals" QuestId="0xE000EBE9F0698FD5" />
 		</If>
 		
 		<!-- Turnin Supply Cache -->
 		<If Condition="((HasQuest(0xE000433B31129A1B)) and (not IsQuestComplete(0xE000433B31129A1B)))">
 			<TurnInQuest QuestName="Supply Cache" QuestId="0xE000433B31129A1B" TurnInName="Palla Mazlin" XYZ="-266.0284,-9.600839,-246.8952" />
-			<CompleteQuest QuestName="Supply Cache" QuestId="0xE000433B31129A1B" RewardIndex="2" />
+			<CompleteQuest QuestName="Supply Cache" QuestId="0xE000433B31129A1B" />
 		 
 			<UseTransport TransporterName="Republic Outpost Tram" Type="Taxi" Option="Axial Park North Tram" 
 									XYZ="-266.0011,-7.61825,-255.5043" />
@@ -1510,7 +1510,7 @@
 			<UserDialog Title="Test" Message="What step is this" />
 			<UseObject QuestId="0xE000498D753FD7D5" ObjectName="Monitor Door Room" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-0.3080282,4.421,-258.2642" />
 			<TurnInQuest QuestName="Reclamation" QuestId="0xE000498D753FD7D5" TurnInName="Monitor Room Door" XYZ="-0.3080282,4.421,-258.2642" />
-			<CompleteQuest QuestName="Reclamation" QuestId="0xE000498D753FD7D5" RewardIndex="5" />
+			<CompleteQuest QuestName="Reclamation" QuestId="0xE000498D753FD7D5" />
 		</If>
 		
 		<!-- Rocket Tram Support -->
@@ -1597,7 +1597,7 @@
 				<Grind GrindRef="Command Clearance (Bonus)" While="(not IsQuestComplete(0xE000BFBE4AEDDF90))" />
 			</If>
 			<TurnInQuest QuestName="Green Battleground" QuestId="0xE00057E7811611E9" TurnInName="Imperial Command Console" XYZ="54.97244,3.411,-199.186" />
-			<CompleteQuest QuestName="Green Battleground" QuestId="0xE00057E7811611E9" RewardIndex="1" />
+			<CompleteQuest QuestName="Green Battleground" QuestId="0xE00057E7811611E9" />
 			<!-- Down In History 0xE0004BCF119B63A4-->
 		</If>
 		
@@ -1623,7 +1623,7 @@
 		<!-- Turnin Trapped -->
 		<If Condition="((HasQuest(0xE000EE835DCF7766)) and (not IsQuestComplete(0xE000EE835DCF7766)))">
 			<TurnInQuest QuestName="Trapped" QuestId="0xE000EE835DCF7766" TurnInName="Walker" XYZ="-10.61813,6.39807,-185.7567" />
-			<CompleteQuest QuestName="Trapped" QuestId="0xE000EE835DCF7766" RewardIndex="6" />
+			<CompleteQuest QuestName="Trapped" QuestId="0xE000EE835DCF7766" />
 		</If>
 		
 		<!-- Consular - Old Blood and Turnin -->
@@ -1663,7 +1663,7 @@
 				<Grind GrindRef="Old Blood 10" While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 10))" />
 			</If>
 			<TurnInQuest QuestName="Old Blood" QuestId="0xE0004534056039B5" TurnInName="General Grann" XYZ="-13.808,4.40284,-258.0724" />
-			<CompleteQuest QuestName="Old Blood" QuestId="0xE0004534056039B5" RewardIndex="6" />
+			<CompleteQuest QuestName="Old Blood" QuestId="0xE0004534056039B5" />
 			<!-- As Above, So Below 0xE000A188AEEF09CD-->
 		</If>
 		
@@ -1679,7 +1679,7 @@
 		<!-- Turnin Manual Override -->
 		<If Condition="((HasQuest(0xE0006102C5A4F909)) and (not IsQuestComplete(0xE0006102C5A4F909)))">
 			<TurnInQuest QuestName="Manual Override" QuestId="0xE0006102C5A4F909" Type="Placeable" UseRange="2" TurnInName="Anti-Aircraft Turret Control Panel" XYZ="43.23433,2.75618,-327.7356" />
-			<CompleteQuest QuestName="Manual Override" QuestId="0xE0006102C5A4F909" RewardIndex="1" />
+			<CompleteQuest QuestName="Manual Override" QuestId="0xE0006102C5A4F909" />
 		</If>
 		
 		<!-- Turnin Front Lines -->
@@ -1691,20 +1691,20 @@
 		<!-- Turnin Down in History -->
 		<If Condition="((HasQuest(0xE0004BCF119B63A4)) and (not IsQuestComplete(0xE0004BCF119B63A4)))">
 			<TurnInQuest QuestName="Down in History" QuestId="0xE0004BCF119B63A4" TurnInName="General Aves" XYZ="90.8949,3.401001,-332.8298" />
-			<CompleteQuest QuestName="Down in History" QuestId="0xE0004BCF119B63A4" RewardIndex="5" />
+			<CompleteQuest QuestName="Down in History" QuestId="0xE0004BCF119B63A4" />
 			<!-- Government Clearance 0xE00026736BE4BC4F-->
 		</If>
 		
 		<!-- Turnin Morale Boost -->
 		<If Condition="((HasQuest(0xE0000F54FFC8BD43)) and (not IsQuestComplete(0xE0000F54FFC8BD43)))">
 			<TurnInQuest QuestName="Morale Boost" QuestId="0xE0000F54FFC8BD43" TurnInName="Lieutenant Rufar" XYZ="92.2475,3.408624,-338.9963" />
-			<CompleteQuest QuestName="Morale Boost" QuestId="0xE0000F54FFC8BD43" RewardIndex="6" />
+			<CompleteQuest QuestName="Morale Boost" QuestId="0xE0000F54FFC8BD43" />
 		</If>
 		
 		<!-- Turnin Rocket Tram Support -->
 		<If Condition="((HasQuest(0xE0005CDF947D09F0)) and (not IsQuestComplete(0xE0005CDF947D09F0)))">
 			<TurnInQuest QuestName="Rocket Tram Support" QuestId="0xE0005CDF947D09F0" TurnInName="Sia Norrin" XYZ="25.7359,3.401,-330.9" />
-			<CompleteQuest QuestName="Rocket Tram Support" QuestId="0xE0005CDF947D09F0" RewardIndex="5" />
+			<CompleteQuest QuestName="Rocket Tram Support" QuestId="0xE0005CDF947D09F0" />
 		 
 			<UseTransport TransporterName="Axial Park North Tram" Type="Taxi" Option="Uptown Tram" 
 									XYZ="21.5141,4.38175,-330.8871" />
@@ -1834,7 +1834,7 @@
 				<Grind GrindRef="Government Clearance 6" While="(not IsBranchStepComplete(0xE00026736BE4BC4F, 1, 6))" />
 			</If>
 			<TurnInQuest QuestName="Government Clearance" QuestId="0xE00026736BE4BC4F" TurnIname="Ion wall Controls" XYZ="274.4265,22.401,-188.2853" />
-			<CompleteQuest QuestName="Government Clearance" QuestId="0xE00026736BE4BC4F" RewardIndex="1" />
+			<CompleteQuest QuestName="Government Clearance" QuestId="0xE00026736BE4BC4F" />
 			<!-- Right to Arms 0xE0002D003D270E0B-->
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coronet City Capitol Square"
@@ -1881,7 +1881,7 @@
 				<UseObject QuestId="0xE0002D003D270E0B" ObjectName="Broadcast Communicator" BranchId="4" StepId="3" Radius="20" WaitTime="5" XYZ="218.4174,20.44979,-133.7996" />
 			</If>
 			<TurnInQuest QuestName="Right to Arms" QuestId="0xE0002D003D270E0B" TurnInName="General Aves" XYZ="215.9841,20.49985,-123.2753" />
-			<CompleteQuest QuestName="Right to Arms" QuestId="0xE0002D003D270E0B" RewardIndex="2" />
+			<CompleteQuest QuestName="Right to Arms" QuestId="0xE0002D003D270E0B" />
 		</If>
 		
 		<!-- Consular - As Above, So Below and Turnin -->
@@ -1900,7 +1900,7 @@
 				<Grind GrindRef="As Above, So Below 8" While="(not IsBranchStepComplete(0xE000A188AEEF09CD, 1, 8))" />
 			</If>
 			<TurnInQuest QuestName="As Above, So Below" QuestId="0xE000A188AEEF09CD" TurnInName="Secretary Nadien" XYZ="207.3867,22.401,-247.4803" />
-			<CompleteQuest QuestName="As Above, So Below" QuestId="0xE000A188AEEF09CD" RewardIndex="1" />
+			<CompleteQuest QuestName="As Above, So Below" QuestId="0xE000A188AEEF09CD" />
 			<!-- Consular - Chaos and Harmony 0xE000FBB74541F4FE-->
 			
 			<UseTransport TransporterName="Hatch" Type="Wonkavator" Option="Cave of the First Son"
@@ -1950,7 +1950,7 @@
 				<Grind GrindRef="Averting Further Disaster (Bonus)" While="(not IsQuestComplete(0xE0002D0E564263C5))" />
 			</If>
 			<TurnInQuest QuestName="A Disaster in the Making" QuestId="0xE000EC60843ACB9C" TurnInName="Rigged Republic Warhead" XYZ="252.1865,20.03988,-365.1401" />
-			<CompleteQuest QuestName="A Disaster in the Making" QuestId="0xE000EC60843ACB9C" RewardIndex="1" />
+			<CompleteQuest QuestName="A Disaster in the Making" QuestId="0xE000EC60843ACB9C" />
 		</If>
 		
 		<!-- Scrambled Signals -->
@@ -1982,31 +1982,31 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<!-- I can't remember which one I picked -->
-			<CompleteQuest QuestName="Droid Hunt" QuestId="0xE00057FB47C00819" RewardIndex="3" />
+			<CompleteQuest QuestName="Droid Hunt" QuestId="0xE00057FB47C00819" />
 		</If>
 		
 		<!-- Turnin Scrambled Signals -->
 		<If Condition="((HasQuest(0xE0006979380E4469)) and (not IsQuestComplete(0xE0006979380E4469)))">
 			<TurnInQuest QuestName="Scrambled Signals" QuestId="0xE0006979380E4469" TurnInName="Private Vekker" XYZ="335.0111,26.411,-307.5294" />
-			<CompleteQuest QuestName="Scrambled Signals" QuestId="0xE0006979380E4469" RewardIndex="1" />
+			<CompleteQuest QuestName="Scrambled Signals" QuestId="0xE0006979380E4469" />
 		</If>
 
 		<!-- Turnin Keeping a Secret -->
 		<If Condition="((HasQuest(0xE000FE94AF8CB220)) and (not IsQuestComplete(0xE000FE94AF8CB220)))">
 			<TurnInQuest QuestName="Keeping a Secret" QuestId="0xE000FE94AF8CB220" TurnInName="Talash" XYZ="335.601,26.401,-224.2668" />
-			<CompleteQuest QuestName="Keeping a Secret" QuestId="0xE000FE94AF8CB220" RewardIndex="2" />
+			<CompleteQuest QuestName="Keeping a Secret" QuestId="0xE000FE94AF8CB220" />
 		</If>
 		
 		<!-- Turnin Shatter The Siege -->
 		<If Condition="((HasQuest(0xE000661082AD4672)) and (not IsQuestComplete(0xE000661082AD4672)))">
 			<TurnInQuest QuestName="Shatter The Siege" QuestId="0xE000661082AD4672" TurnInName="Sergeant Volos" XYZ="348.517,26.39804,-244.1747" />
-			<CompleteQuest QuestName="Shatter The Siege" QuestId="0xE000661082AD4672" RewardIndex="3" />
+			<CompleteQuest QuestName="Shatter The Siege" QuestId="0xE000661082AD4672" />
 		</If>
 		
 		<!-- Turnin Liberation -->
 		<If Condition="((HasQuest(0xE00050925407183F)) and (not IsQuestComplete(0xE00050925407183F)))">
 			<TurnInQuest QuestName="Liberation" QuestId="0xE00050925407183F" TurnInName="Colonel Marclonus" XYZ="351.0007,26.40052,-256.6279" />
-			<CompleteQuest QuestName="Liberation" QuestId="0xE00050925407183F" RewardIndex="1" />
+			<CompleteQuest QuestName="Liberation" QuestId="0xE00050925407183F" />
 		 
 			<UseTransport TransporterName="Uptown Tram" Type="Taxi" Option="Blastfield Shipyards Tram" 
 									XYZ="354.9263,28.38175,-249.596" />
@@ -2031,7 +2031,7 @@
 				<Interact Name="Ship Exit" XYZ="0.0183009,0.5900244,-2.970241" />
 			</If>
 			<TurnInQuest QuestName="Chaos and Harmony" QuestId="0xE000FBB74541F4FE" TurnInName="Supreme Chancellor Saresh" XYZ="-129.5717,147.1009,-488.7249" />
-			<CompleteQuest QuestName="Chaos and Harmony" QuestId="0xE000FBB74541F4FE" RewardIndex="1" />
+			<CompleteQuest QuestName="Chaos and Harmony" QuestId="0xE000FBB74541F4FE" />
 			<!-- Consular - Crystal Ball 0xE000D5AEB3BF7235-->
 			<!-- Get back on our ship - If we're on Coruscant: -->
 			<Interact Name="Defender" XYZ="-88.65568,146.0985,-363.5058" />

@@ -517,7 +517,7 @@
 				<UseObject QuestId="0xE000588220DD0F81" ObjectName="Explosives Detonator" BranchId="1" StepId="2" TaskId="1" WaitTime="3000" XYZ="-12.8033,-5.212422,-12.65853" />
 			</If>
 			<TurnInQuest QuestName="K'lor'slug Infestation" QuestId="0xE000588220DD0F81" TurnInName="Sergeant Cormun" XYZ="-1.5755,-4.205013,-6.5152" />
-			<CompleteQuest QuestName="K'lor'slug Infestation" QuestId="0xE000588220DD0F81" RewardIndex="0" />
+			<CompleteQuest QuestName="K'lor'slug Infestation" QuestId="0xE000588220DD0F81" />
 			<ForceVendor VendorType="Train" />
 		</If>
 
@@ -569,7 +569,7 @@
 		<!-- Turnin Imperial Edict -->
 		<If Condition="((HasQuest(0xE0006149372CE12F)) and (not IsQuestComplete(0xE0006149372CE12F)))">
 			<TurnInQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" TurnInName="Sergeant Rikel" XYZ="-18.51882,0.2193554,3.761579" />
-			<CompleteQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" RewardIndex="0" />
+			<CompleteQuest QuestName="Imperial Edict" QuestId="0xE0006149372CE12F" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -682,7 +682,7 @@
 		<If Condition="((HasQuest(0xE00008260B67A738)) and (not IsQuestComplete(0xE00008260B67A738)))">
 			<Grind GrindRef="Experimental Needs" While="not IsBranchStepComplete(0xE00008260B67A738, 1, 2)" />
 			<TurnInQuest QuestName="Experimental Needs" QuestId="0xE00008260B67A738" TurnInName="Lord Varacen" XYZ="37.5819,-16.90455,24.8093" />
-			<CompleteQuest QuestName="Experimental Needs" QuestId="0xE00008260B67A738" RewardIndex="0" />
+			<CompleteQuest QuestName="Experimental Needs" QuestId="0xE00008260B67A738" />
 			
 			<ForceVendor VendorType="Repair" />
 			<!-- Ele up - this ele needs to be fixt -->
@@ -932,7 +932,7 @@
 				<TalkTo Name="Klemral" QuestId="0xE000E8EA0B8485FC" WaitTime="2000" XYZ="-30.21322,3.807655,-2.583385" />
 			</If>
 			<TurnInQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC" TurnInName="Darth Baras" XYZ="-29.6725,3.901,-6.1584" />
-			<CompleteQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC" RewardIndex="0" />
+			<CompleteQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC" />
 		</If>
 	  
 		<!-- Rogues -->
@@ -989,7 +989,7 @@
 		<!-- Turnin Grave Robbing  -->
 		<If Condition="((HasQuest(0xE0002FD9C650A8B8)) and (not IsQuestComplete(0xE0002FD9C650A8B8)))">
 			<UseObject QuestId="0xE0002FD9C650A8B8" ObjectName="Mysterious Statue" BranchId="2" StepId="2" WaitTime="5000" XYZ="2.268871,-2.212057,-31.58525" />
-			<CompleteQuest QuestName="Grave Robbing" QuestId="0xE0002FD9C650A8B8" RewardIndex="2" />
+			<CompleteQuest QuestName="Grave Robbing" QuestId="0xE0002FD9C650A8B8" />
 		</If>
 		
 		<!-- Warrior - The Final Trial -->
@@ -1027,7 +1027,7 @@
 				<Grind GrindRef="Eliminate the Competition" While="(not IsQuestComplete(0xE000C8E60BE50663))" />
 			</If>
 			<TurnInQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07" TurnInName="Darth Baras" XYZ="-29.9017,3.800352,-5.702" />
-			<CompleteQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07"  RewardIndex="2" />
+			<CompleteQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07" />
 		</If>
 		
 		<!-- Inquisitor - A Map for the Future -->
@@ -1056,7 +1056,7 @@
 			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 13)">
 				<TalkTo QuestId="0xE000B979D88A5EDB" Name="Lord Zash" XYZ="-29.8994,3.901,6.5851" />
 			</If>
-			<CompleteQuest QuestName="A Map for the Future" QuestId="0xE000B979D88A5EDB"  RewardIndex="1" />
+			<CompleteQuest QuestName="A Map for the Future" QuestId="0xE000B979D88A5EDB" />
 		</If>
 		
 		<!-- Inquisitor - Go to Dromund Kaas 2 -->

@@ -1184,10 +1184,10 @@
 			</If>
 			<TurnInQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" TurnInName="Constable Bakishan" XYZ="226.4605,42.10374,-369.1634" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" RewardIndex="2" />
+				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" RewardIndex="3" />
+				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" />
 			</If>			
 			<!-- Consular - 0=comms; 1=container; 2=Anointed demicot bracers -->
 			<!-- Trooper - 2=Phobium Onslaught Vambraces -->
@@ -1198,18 +1198,18 @@
 		<!-- The Hunted Turnin -->
 		<If Condition="((HasQuest(0xE00099219A9CAE3C)) and (not IsQuestComplete(0xE00099219A9CAE3C)))">
 			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
-			<!-- <CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="1" /> -->
+			<!-- <CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" /> -->
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)))">
-				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="0" />
+				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)))">
-				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="1" />
+				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 			</If>	
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)">
-				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="3" />
+				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)))">
-				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="4" />
+				<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 			</If>				
 			<!-- Consular - 0=comms; 1=Tharan; 2=droid; 3=container; 4=Qyzen -->
 			<!-- Smuggler - 0=Bowdaar; 1=comms; 2=Droid; 3=container; 4=Corso -->
@@ -1244,7 +1244,7 @@
 			<If Condition="((HasQuest(0xE000EF0C48B3483F)) and (not IsStepComplete(0xE000EF0C48B3483F, 6)))">
 				<TalkTo QuestId="0xE000EF0C48B3483F" Name="Mayor Klerren" XYZ="207.6605,43.91555,-369.0173" />
 			</If>
-			<CompleteQuest QuestName="Rapid Response" QuestId="0xE000EF0C48B3483F" RewardIndex="3" />
+			<CompleteQuest QuestName="Rapid Response" QuestId="0xE000EF0C48B3483F" />
 		</If>
 		
 		<!-- Smuggler's Route and Turnin -->
@@ -1274,19 +1274,19 @@
 			</If>
 			<TurnInQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" TurnInName="Sheriff Encot" XYZ="176.4121,45.0668,-344.7314" />
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)))">
-				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="0" />
+				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)))">
-				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="1" />
+				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
 			</If>	
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)">
-				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="2" />
+				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
 			</If>			
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)">
-				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="3" />
+				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)))">
-				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="4" />
+				<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
 			</If>				
 			<!-- Trooper ???-->
 			<!-- Consular - 0=Droid; 1=Tharan; 2=Comms; 3=container; 4=Qyzen -->
@@ -1321,7 +1321,7 @@
 			<If Condition="((HasQuest(0xE00025FDC943A8D0)) and (not IsBranchStepComplete(0xE00025FDC943A8D0, 4, 2)))">
 				<TalkTo QuestId="0xE00025FDC943A8D0" Name="Tookreek" BrancheId="4" StepId="2" XYZ="62.9514,43.3031,-168.9352" />
 			</If>
-			<CompleteQuest QuestName="Dry Run" QuestId="0xE00025FDC943A8D0" RewardIndex="1" />
+			<CompleteQuest QuestName="Dry Run" QuestId="0xE00025FDC943A8D0" />
 			<!-- 0=comms; 1=Corso; 2=container -->	
 			<MoveTo QuestId="1" Name="Stairs @ Tookreek" XYZ="65.20636,43.87503,-173.4503" />
 			<MoveTo QuestId="1" Name="Stairs @ Tookreek" IgnoreMesh="true" XYZ="64.73732,44.06685,-173.4585" />			
@@ -1486,10 +1486,10 @@
 				<TalkTo QuestId="0xE000CC6570F3E830" Name="Seismologist Hare'en" XYZ="25.0637,50.3294,-230.4035" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)">
-				<CompleteQuest QuestName="The Shock Drum" QuestId="0xE000CC6570F3E830" RewardIndex="1" />
+				<CompleteQuest QuestName="The Shock Drum" QuestId="0xE000CC6570F3E830" />
 			</If>			
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)">
-				<CompleteQuest QuestName="The Shock Drum" QuestId="0xE000CC6570F3E830" RewardIndex="3" />
+				<CompleteQuest QuestName="The Shock Drum" QuestId="0xE000CC6570F3E830" />
 			</If>
 			<!-- 0=comms; 1=Kira; 2=Container; 3=T7 -->	
 		</If>	
@@ -1500,13 +1500,13 @@
 			<If Condition="((HasQuest(0xE0003BF69E6650DB)) and (not IsStepComplete(0xE0003BF69E6650DB, 3)))">
 				<TurnInQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" TurnInName="Veek" XYZ="79.2514,43.56651,-157.4101" />
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)))"> 
-					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" RewardIndex="1" />
+					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" />
 				</If> 					
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)))"> 
-					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" RewardIndex="3" />
+					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" />
 				</If> 
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)))"> 
-					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" RewardIndex="4" />
+					<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" />
 				</If> 
 				<!-- Trooper: 0=Planetary Comm; 1=Elara; 2=Container; 3=Droid; 4=Jorgan -->
 				<!-- Consular: 0=comms; 1=Qyzen; 2=container; 3=Tharan; 4=Droid -->
@@ -1520,7 +1520,7 @@
 			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 4)))">
 				<TalkTo QuestId="0xE000F1A8B5387ABA" Name="Rowan Delk" XYZ="82.86304,43.41175,-158.708" />
 			</If>
-			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" RewardIndex="0" />
+			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" />
 			<!-- Consular - 0=Qyzen's Upgraded Techblade; 1=comms; 2=container -->
 		</If>	
 			
@@ -1530,16 +1530,16 @@
 				<MoveTo QuestId="0xE0004CEBA35DB5B8" XYZ="81.6279,44.65361,-161.6976"  />
 				<TurnInQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" Type="Placeable" TurnInName="Mission Terminal" XYZ="81.6279,44.65361,-161.6976" />	
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)))">
-					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" RewardIndex="1" />	
+					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" />	
 				</If> 		
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)))">
-					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" RewardIndex="2" />	
+					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" />	
 				</If>
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)))">
-					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" RewardIndex="3" />	
+					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" />	
 				</If> 
 				<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)))">
-					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" RewardIndex="4" />	
+					<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" />	
 				</If>  				
 				<!-- Trooper: 0=Planetary Comm; 1=Container; 2=Droid; 3=Elara; 4=Jorgan -->	
 				<!-- Consular: 0=comms; 1=Tharan; 2=Qyzen; 3=container; 4=droid -->
@@ -1562,12 +1562,12 @@
 				<!-- Elevator up -->
 			</If>
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" RewardIndex="2" />
+				<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" RewardIndex="1" />
+				<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" />
 			</If>				
-			<!--<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" RewardIndex="2" />-->
+			<!--<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" />-->
 			<!-- Consular: 0=comms; 1=container; 2=boots -->
 			<!-- Smuggler: 0=comms; 1=dps boots; 2=container; 3=deff boots;  -->
 			<!-- Knight: 0=comms; 1=container; 2=boots -->
@@ -1578,7 +1578,7 @@
 			<If Condition="((HasQuest(0xE000886F647B8F9E)) and (not IsBranchStepComplete(0xE0001BE578F34B5E, 1, 5)))"> 	
 				<TalkTo QuestId="0xE000886F647B8F9E" Name="Mayor Klerren" XYZ="207.6605,43.91555,-369.0173" />
 			</If>
-			<CompleteQuest QuestName="Interception" QuestId="0xE000886F647B8F9E" RewardIndex="0" />
+			<CompleteQuest QuestName="Interception" QuestId="0xE000886F647B8F9E" />
 		</If>			
 	
 		<!-- Last One Out -->
@@ -1665,7 +1665,7 @@
 			<If Condition="((HasQuest(0xE000589636FE1025)) and (not IsBranchStepComplete(0xE000589636FE1025, 1, 3)))"> 	
 				<AnswerHolocomCall QuestName="Race Against Doom" QuestId="0xE000589636FE1025" />
 			</If>
-			<CompleteQuest QuestName="Race Against Doom" QuestId="0xE000589636FE1025" RewardIndex="2" />
+			<CompleteQuest QuestName="Race Against Doom" QuestId="0xE000589636FE1025" />
 			<!-- Knight - 0=comms; 1=container; 2=pants -->	
 		</If>
 		
@@ -1700,7 +1700,7 @@
 				<Grind GrindRef="Pacify the Perimeter (Bonus)" While="(not IsQuestComplete(0xE000059952E4735E))" />
 			</If>
 			<TurnInQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" TurnInName="Tre Nareves" XYZ="36.467,43.50631,-139.9192" />
-			<CompleteQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" RewardIndex="1" />
+			<CompleteQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" />
 			<!-- Consular - 0=comms; 1=container; 2=Force wielder mod -->
 			<!-- Smuggler - 0=comms; 1=container; 2=Patron mod -->
 			<!-- Knight - 0=comms; 1=container; 2=Guardian mod -->
@@ -1719,19 +1719,19 @@
 		<If Condition="((HasQuest(0xE000CD19F6C033BB)) and (not IsQuestComplete(0xE000CD19F6C033BB)))">
 			<TurnInQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" TurnInName="Fauler" XYZ="0.9972992,45.8427,-175.6832" />
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)"> 
-				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="0" />	
+				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />	
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)"> 
-				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="1" />	
+				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />	
 			</If> 
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Jorgan&quot;)"> 
-				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="2" />	
+				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />	
 			</If> 
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)))"> 
-				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="3" />	
+				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />	
 			</If> 
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)))"> 
-				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="4" />	
+				<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />	
 			</If> 			
 			<!-- Trooper: 0=comms; 1=Container; 3=Droid; 4=Elara; 2=Jorgan -->	
 			<!-- Consular: 0=comms; 1=Qyzen; 2=container; 3=Tharan; 4=Droid -->
@@ -1757,13 +1757,13 @@
 			<If Condition="((HasQuest(0xE00062F6AD016F3F)) and (not IsStepComplete(0xE00062F6AD016F3F, 6)))">
 				<AnswerHolocomCall QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" />
 				<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" RewardIndex="4" />
+					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" />
 				</If> 
 				<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" RewardIndex="2" />	
+					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" />	
 				</If> 
 				<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" RewardIndex="1" />
+					<CompleteQuest QuestName="Sandstorm" QuestId="0xE00062F6AD016F3F" />
 				</If> 				
 				<!-- Trooper: 0=Planetary Comm; 3=Container; 2=Droid; 1=Elara; 4=Jorgan -->	
 			</If>			
@@ -1841,10 +1841,10 @@
 				<AnswerHolocomCall QuestName="Desert Duel" QuestId="0xE000AAAF853C1F37" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)"> 
-				<CompleteQuest QuestName="Desert Duel" QuestId="0xE000AAAF853C1F37" RewardIndex="1"/>
+				<CompleteQuest QuestName="Desert Duel" QuestId="0xE000AAAF853C1F37"/>
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)"> 
-				<CompleteQuest QuestName="Desert Duel" QuestId="0xE000AAAF853C1F37" RewardIndex="2"/>
+				<CompleteQuest QuestName="Desert Duel" QuestId="0xE000AAAF853C1F37"/>
 			</If> 			
 			<!-- Knight 0=comms; 1=T7; 2=Kira; 3=container -->	
 			<MoveTo QuestId="1" Name="Getting the hell out of here" XYZ="-22.9283,50.3806,-209.6348" />
@@ -1869,7 +1869,7 @@
 			<If Condition="((HasQuest(0xE0001BE578F34B5E)) and (not IsStepComplete(0xE0001BE578F34B5E, 3)))">
 				<TalkTo QuestId="0xE0001BE578F34B5E" Name="Tookreek" XYZ="-35.161,50.69167,-194.9605" />
 			</If>
-			<CompleteQuest QuestName="Bugged-Out" QuestId="0xE0001BE578F34B5E" RewardIndex="0"/>
+			<CompleteQuest QuestName="Bugged-Out" QuestId="0xE0001BE578F34B5E"/>
 			<!-- Smuggler: 0=dps pants; 1=comms; 2=container; 3=deff pants -->
 		</If>
 		<If Condition="((HasQuest(0xE000CEEB0E9EC5E9)) and (not IsQuestComplete(0xE000CEEB0E9EC5E9)))">
@@ -1880,10 +1880,10 @@
 				<TalkTo QuestId="0xE000CEEB0E9EC5E9" Name="Nariel Pridence" XYZ="-43.6035,50.64665,-180.9545" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)"> 
-				<CompleteQuest QuestName="A Familiar Face" QuestId="0xE000CEEB0E9EC5E9" RewardIndex="0"/>
+				<CompleteQuest QuestName="A Familiar Face" QuestId="0xE000CEEB0E9EC5E9"/>
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;)"> 
-				<CompleteQuest QuestName="A Familiar Face" QuestId="0xE000CEEB0E9EC5E9" RewardIndex="4"/>
+				<CompleteQuest QuestName="A Familiar Face" QuestId="0xE000CEEB0E9EC5E9"/>
 			</If> 			
 			<!-- Smuggler: 0=corso; 1=comms; 2=droid; 3=container; 4=Bowdaar -->
 		</If>
@@ -1912,7 +1912,7 @@
 			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 5)))">
 				<AnswerHolocomCall QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 			</If>
-			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" RewardIndex="2" />
+			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 			<!-- 0=comms; 1=container; 2=Anointed Demicot Lower Robe -->
 		</If>
 		
@@ -1948,10 +1948,10 @@
 		<If Condition="((HasQuest(0xE000DD72B7EB8B7F)) and (not IsQuestComplete(0xE000DD72B7EB8B7F)))">
 			<TurnInQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" TurnInName="Constable Surall" XYZ="11.8835,43.81311,-155.6109" />
 			<If Condition="((Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" RewardIndex="2" />
+				<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" RewardIndex="1" />
+				<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" />
 			</If>				
 			<!-- Consular - 0=comms; 1=waist; 2=storage -->
 			<!-- Trooper - 0=comm; 1=storage; 2=Waist -->
@@ -1965,10 +1965,10 @@
 		<If Condition="((HasQuest(0xE00052D8372B16AC)) and (not IsQuestComplete(0xE00052D8372B16AC)))">
 			<TurnInQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" TurnInName="Raith Bannik" XYZ="4.034607,45.65218,-175.8452" />
 			<If Condition="((Me.Class == CharacterClass.Consular))">
-				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" RewardIndex="2" />
+				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" />
 			</If>
 			<If Condition="((Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Smuggler))">
-				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" RewardIndex="3" />
+				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" />
 			</If>				
 			<!-- Consular - 0=comm; 1=container; 2=offhand dps; 3=offhand deff -->
 			<!-- Trooper - 0=comm; 1=container; 2=offhand deff; 3=offhand dps -->
@@ -1986,10 +1986,10 @@
 		<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsQuestComplete(0xE00021D6563620D1)))">
 			<TurnInQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" TurnInName="Fauler" XYZ="0.9972992,45.8427,-175.6832" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" RewardIndex="2" />
+				<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" RewardIndex="0" />
+				<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" />
 			</If>				
 			<!-- The Thing Czerka Found 0xE000C745A1B9B4D5-->
 			<!-- Consular - 0=comm; 1=container; 2=implant -->
@@ -2024,10 +2024,10 @@
 				<MoveTo QuestId="0xE000F56E63DC90D8" Name="My Location" XYZ="-89.04349,45.90104,-128.6122" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)">
-				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="3" />
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)">
-				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="4" />
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" />
 			</If>			
 			<!-- 0=comms; 1=Droid; 2=container; 3=Qyzen; 4=Tharan -->
 			<!-- The Ultimate Warriors 0xE000AE4F49390A99-->
@@ -2264,10 +2264,10 @@
 		<If Condition="((HasQuest(0xE000B558D998D568)) and (not IsQuestComplete(0xE000B558D998D568)))">
 			<TurnInQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" TurnInName="Lem Trudo" XYZ="-112.4655,42.2924,-131.471" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" RewardIndex="2" />
+				<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" RewardIndex="3" />
+				<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" />
 			</If>				
 			<!-- Consular - 0=comms; 1=container; 2=Earpiece -->
 			<!-- Trooper - 0=comms; 1=container; 2=Earpiece -->
@@ -2279,10 +2279,10 @@
 		<If Condition="((HasQuest(0xE000A9D54A013CEA)) and (not IsQuestComplete(0xE000A9D54A013CEA)))">
 			<TurnInQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" TurnInName="Tai'ya Rocca" XYZ="-115.578,42.24839,-132.3463" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" RewardIndex="2" />
+				<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" RewardIndex="3" />
+				<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" />
 			</If>				
 			<!-- Consular - 0=comms; 1=container; 2=chest-->
 			<!-- Trooper - 0=comms; 1=container; 2=chest -->
@@ -2294,10 +2294,10 @@
 		<If Condition="((HasQuest(0xE00011F9B1114809)) and (not IsQuestComplete(0xE00011F9B1114809)))">
 			<TurnInQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" TurnInName="Security Chief Barret" XYZ="-114.7605,42.55384,-137.5237" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" RewardIndex="2" />
+				<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Trooper)">
-				<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" RewardIndex="1" />
+				<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" />
 			</If>				
 			<!-- Trooper - 0=comm; 1=container; 2=deff armoring; 3=dps armoring -->
 			<!-- Consular - 0=comms; 1=dps armoring; 2=container; 3=deff armoring -->
@@ -2318,10 +2318,10 @@
 		<If Condition="((HasQuest(0xE000C745A1B9B4D5)) and (not IsQuestComplete(0xE000C745A1B9B4D5)))">
 			<TurnInQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" TurnInName="Fauler" XYZ="1.021805,45.8427,-175.6304" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" RewardIndex="2" />
+				<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" RewardIndex="3" />
+				<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" />
 			</If>				
 			<!-- Consular - 0=2comms; 1=blue container; 2=equippable hands -->
 			<!-- Trooper - 0=2comms; 1=blue container; 2=equippable hands -->
@@ -2373,10 +2373,10 @@
 			</While>
 			<TurnInQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" TurnInName="Junter Galt" XYZ="170.2127,44.25325,-215.7945" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" RewardIndex="2" />
+				<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" RewardIndex="3" />
+				<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" />
 			</If>				
 			<!-- Consular - 0=comms; 1=container; 2=helmet -->
 			<!-- Trooper - 0=comms; 1=container; 2=helmet -->
@@ -2426,12 +2426,12 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" TurnInName="Rinnas Edu" XYZ="156.6217,42.67605,-188.6903" />
-			<!--<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" RewardIndex="0" />-->
+			<!--<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" />-->
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" RewardIndex="1" />
+				<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" />
 			</If>
 			<If Condition="((Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Trooper))">
-				<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" RewardIndex="2" />
+				<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" />
 			</If>				
 			<!-- Trooper - 0=comss; 1=commando barrel 10 (hp); 2=container; 3=reflex barrel 10 (dps) -->
 			<!-- Consular - 0=comms; 1=container; 2=dps hilt; 3=deff hilt -->
@@ -2450,16 +2450,16 @@
 		<If Condition="((HasQuest(0xE000F14A6C5A53A2)) and (not IsQuestComplete(0xE000F14A6C5A53A2)))">
 			<TurnInQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" TurnInName="Krikit" XYZ="163.9429,44.1649,-209.9381" />
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)">
-				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" RewardIndex="1" />
+				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Jorgan&quot;))or (BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)))">
-				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" RewardIndex="2" />
+				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" />
 			</If>	
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;Bowdaar&quot;))or (BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)))">
-				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" RewardIndex="3" />
+				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" />
 			</If>
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;))or (BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Corso&quot;)))">
-				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" RewardIndex="4" />
+				<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" />
 			</If>			
 			<!-- Trooper: 0=comms; 1=Elara hands; 2=Jorgan hands; 3=container; 4=droid parts -->
 			<!-- Consular: 0=comms; 1=container; 2=Qyzen; 3=droid; 4=Tharan -->
@@ -2474,13 +2474,13 @@
 		<If Condition="((HasQuest(0xE0009895549E5043)) and (not IsQuestComplete(0xE0009895549E5043)))">
 			<TurnInQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" TurnInName="Dak Williks" XYZ="166.7408,44.2567,-216.6183" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" RewardIndex="0" />
+				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Trooper)">
-				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" RewardIndex="2" />
+				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" RewardIndex="3" />
+				<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" />
 			</If>				
 			<!-- Consular - 0=hands; 1=comms; 1=container -->
 			<!-- Trooper - 0=comms; 1=container; 2=hands -->
@@ -2590,7 +2590,7 @@
 			<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsStepComplete(0xE000807CD4DCC6DE, 4)))">
 				<MoveTo QuestId="0xE000A7F9017979A9" Name="Outpost Largona Speeder" XYZ="167.8405,44.83727,-110.8722" />
 				<TurnInQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" TurnInName="Doctor Aidarro" XYZ="174.5113,45.43246,-112.3777" />
-				<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" RewardIndex="3" />
+				<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" />
 				<!-- All - 0=comms; 1=fervor enhancement; 2=deff enhancement; 3=container; 4=absorb enhancement; 5=rage enhancement -->
 			</If>	
 		</If>
@@ -2616,7 +2616,7 @@
 		<!-- Turnin The Geonosian Offensive -->
 		<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsQuestComplete(0xE000807CD4DCC6DE)))">
 			<TurnInQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" TurnInName="Renishi" XYZ="163.7186,44.161,-211.4868" />
-			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" RewardIndex="1" />
+			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" />
 			<!-- All - 0=comms; 1=container -->
 			<!-- Usetaxi Espelar (Karnori) to Largona -->
 			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
@@ -2656,7 +2656,7 @@
 				<Grind GrindRef="Sand Storm (Bonus)" While="(not IsQuestComplete(0xE000FB9BB0533EC2))" />
 			</If>
 			<TurnInQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" TurnInName="Militia Officer Jule" XYZ="168.6115,44.64508,-103.4992" />
-			<CompleteQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" RewardIndex="0" />
+			<CompleteQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" />
 			<!-- All - 0=comms; 1=container -->
 		</If>
 	
@@ -2664,10 +2664,10 @@
 		<If Condition="((HasQuest(0xE000E16B1C7FA714)) and (not IsQuestComplete(0xE000E16B1C7FA714)))">
 			<TurnInQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" TurnInName="Dester" XYZ="175.991,45.46436,-106.2573" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" RewardIndex="2" />
+				<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Trooper)">
-				<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" RewardIndex="1" />
+				<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" />
 			</If>				
 			<!-- Trooper - 0=comms; 1=container; 2=commando armoring 11; 3= reflex armoring 11 -->
 			<!-- Consular - 0=comms; 1=reflex armoring; 2=container; 3=force wielder armoring -->
@@ -2764,7 +2764,7 @@
 		<!-- Turnin Show of Force -->
 		<If Condition="((HasQuest(0xE0002220A3FD6F10)) and (not IsQuestComplete(0xE0002220A3FD6F10)))">
 			<TurnInQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" TurnInName="Professor Larcoh" XYZ="168.2221,44.55211,-106.6499" />
-			<CompleteQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" RewardIndex="3" />
+			<CompleteQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" />
 			<!-- All - 0=comms; 1=fervor enhancement; 2=deff enhancement; 3=container; 4=absorb enhancement; 5=rage enhancement -->
 		</If>
 		
@@ -2778,7 +2778,7 @@
 		<!-- Turnin Buried Treasure -->
 		<If Condition="((HasQuest(0xE00051CDBBBB167D)) and (not IsQuestComplete(0xE00051CDBBBB167D)))">
 			<TurnInQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" TurnInName="Fez Burba" XYZ="172.0519,45.4407,-108.7426" />
-			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" RewardIndex="1" />
+			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" />
 			<!-- All - 0=comms; 1=container -->
 			<ForceVendor VendorType="Repair" />
 			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Anchorhead Speeder" 
@@ -2791,10 +2791,10 @@
 			<MoveTo QuestId="0xE000A37B0923E609" Name="Galen Besk" XYZ="172.7207,45.501,-342.2961" />
 			<TurnInQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" TurnInName="Galen Besk" XYZ="170.4086,45.501,-341.3672" />
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" RewardIndex="2" />
+				<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" RewardIndex="1" />
+				<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" />
 			</If>				
 			<!-- Consular - 0=3comms; 1=blue container; 2=Noble Jedi Council Lightsaber -->
 			<!-- Trooper - 0=3comms; 1=blue container; 2=B-306 Bantha Disruptor -->

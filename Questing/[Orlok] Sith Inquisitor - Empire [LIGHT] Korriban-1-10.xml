@@ -227,7 +227,7 @@
 			<If Condition="HasQuest(0xE000B979D88A5EDB) and not IsStepComplete(0xE000B979D88A5EDB, 13)">
 				<TalkTo QuestId="0xE000B979D88A5EDB" Name="Lord Zash" XYZ="-29.8994,3.901,6.5851"/>
 			</If>
-			<CompleteQuest QuestName="A Map for the Future" QuestId="0xE000B979D88A5EDB" RewardIndex="1"/>
+			<CompleteQuest QuestName="A Map for the Future" QuestId="0xE000B979D88A5EDB"/>
 		</If>
 
 		<!--  Inquisitor - Go to Dromund Kaas 2  -->

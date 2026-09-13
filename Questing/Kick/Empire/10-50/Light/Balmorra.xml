@@ -594,7 +594,7 @@
 	</If>
 		
 	<!-- Body of Evidence -->
-	<CompleteQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" RewardIndex="2" />
+	<CompleteQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" />
 		
 		
 	<!-- Inquisitor -->
@@ -692,7 +692,7 @@
 </If>
 		
 <!-- Step Lightly -->
-<CompleteQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" RewardIndex="2" />
+<CompleteQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" />
 		
 <!-- Wild Fire -->
 <If Condition="not IsStepComplete(0xE0007300095B167B, 2)">
@@ -723,7 +723,7 @@
 </If>
 		
 <!-- Wild Fire -->
-<CompleteQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" RewardIndex="2" />
+<CompleteQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" />
 		
 <!-- Use Taxi
 		<Hotspot Name="Troida Skyhopper" X="-15.2891" Y="9.419992" Z="185.4651" />
@@ -741,7 +741,7 @@
 		
 		
 <!-- Scientific Inquiry -->
-<CompleteQuest QuestName="Scientific Inquiry" QuestId="0xE0007C25667A7F93" RewardIndex="2" />
+<CompleteQuest QuestName="Scientific Inquiry" QuestId="0xE0007C25667A7F93" />
 		
 <!-- Big Guns -->
 <If Condition="not IsStepComplete(0xE00020F2827AA9E2, 3)">
@@ -763,7 +763,7 @@
 </If>
 		
 <!-- The Leak -->
-<CompleteQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" RewardIndex="2" />
+<CompleteQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" />
 		
 <!-- Quiet Kill -->
 <If Condition="not IsStepComplete(0xE00046F1BBD2E6F8, 2)">
@@ -810,7 +810,7 @@
 </If>
 		
 <!-- Quiet Kill -->
-<CompleteQuest QuestName="Quiet Kill" QuestId="0xE00046F1BBD2E6F8" RewardIndex="3" />
+<CompleteQuest QuestName="Quiet Kill" QuestId="0xE00046F1BBD2E6F8" />
 		
 <!-- Coms Away -->
 <If Condition="not IsStepComplete(0xE000C530D48D0147, 2)">
@@ -823,7 +823,7 @@
 </If>
 		
 <!-- Big Guns -->
-<CompleteQuest QuestName="Big Guns" QuestId="0xE00020F2827AA9E2" RewardIndex="2" />
+<CompleteQuest QuestName="Big Guns" QuestId="0xE00020F2827AA9E2" />
 		
 <!-- Coms Away -->
 <If Condition="not IsBranchStepComplete(0xE000C530D48D0147, 2, 2)">
@@ -857,7 +857,7 @@
 	</If>
 			
 	<!-- Extraction -->
-	<CompleteQuest QuestName="Extraction" QuestId="0xE00039AC90781146" RewardIndex="2" />
+	<CompleteQuest QuestName="Extraction" QuestId="0xE00039AC90781146" />
 </If>
 <!-- Inquisitor -->
 		
@@ -876,7 +876,7 @@
 </If>
 		
 <!-- Coms Away -->
-<CompleteQuest QuestName="Coms Away" QuestId="0xE000C530D48D0147" RewardIndex="3" />
+<CompleteQuest QuestName="Coms Away" QuestId="0xE000C530D48D0147" />
 		
 <!-- Calling All Droids -->
 <Grind GrindRef="Calling All Droids" While="not IsStepComplete(0xE000AECBD4C2E34C, 3)" />
@@ -1014,7 +1014,7 @@
 </If>
 		
 <!-- Secret of Cave 52 -->
-<CompleteQuest QuestName="Secret of Cave 52" QuestId="0xE000AF0CFE57BD2D" RewardIndex="3" />
+<CompleteQuest QuestName="Secret of Cave 52" QuestId="0xE000AF0CFE57BD2D" />
 		
 		
 <!-- Inquisitor -->
@@ -1091,7 +1091,7 @@
 </If>
 		
 <!-- Disguises -->
-<CompleteQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" RewardIndex="2" />
+<CompleteQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" />
 		
 <!-- Use elevator up
 		[12:10:25.076 N] My Location: <84.56274, 7.8754, 150.066>
@@ -1168,7 +1168,7 @@
 </If>
 		
 <!-- Crash Course -->
-<CompleteQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" RewardIndex="2" />
+<CompleteQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" />
 		
 <!-- On The Line -->
 <PickupQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" GiverName="Sergeant Tulsar" XYZ="115.3918,13.07989,130.2271" />
@@ -1278,7 +1278,7 @@
 </If>
 		
 <!-- The Siege of Balmorran Arms -->
-<CompleteQuest QuestName="The Siege of Balmorran Arms" QuestId="0xE0005DCACE239D7A" RewardIndex="2" />
+<CompleteQuest QuestName="The Siege of Balmorran Arms" QuestId="0xE0005DCACE239D7A" />
 		
 <!-- Use Lift Up
 		[19:52:13.948 N] My Location: <148.7223, 13.57767, 34.80612>
@@ -1394,7 +1394,7 @@
 </If>
 		
 <!-- On The Line -->
-<CompleteQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" RewardIndex="4" />
+<CompleteQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" />
 		
 <!-- The Missing Agent -->
 <If Condition="not IsStepComplete(0xE000BB5C67376E8F, 5)">
@@ -1402,7 +1402,7 @@
 </If>
 		
 <!-- The Missing Agent -->
-<CompleteQuest QuestName="The Missing Agent" QuestId="0xE000BB5C67376E8F" RewardIndex="3" />
+<CompleteQuest QuestName="The Missing Agent" QuestId="0xE000BB5C67376E8F" />
 		
 <!-- Use elevator down
 		[21:02:33.462 N] My Location: <80.70043, 12.81704, 150.2074>
@@ -1444,7 +1444,7 @@
 </If>
 		
 <!-- Repelling Invasion -->
-<CompleteQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" RewardIndex="4" />
+<CompleteQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" />
 		
 <!-- Elevator down
 		[21:06:16.114 N] <Hotspot Name="Darth Lachris" X="86.6669" Y="9.833219" Z="150.7751" />
@@ -1485,7 +1485,7 @@
 </If>
 		
 <!-- Breaking the Resistance -->
-<CompleteQuest QuestName="Breaking the Resistance" QuestId="0xE0001E7C002236E6" RewardIndex="2" />
+<CompleteQuest QuestName="Breaking the Resistance" QuestId="0xE0001E7C002236E6" />
 		
 <!-- Inquisitor -->
 <If Condition="Me.Class == CharacterClass.Inquisitor">
@@ -1732,7 +1732,7 @@
 </If>
 		
 <!-- Salting the Fields -->
-<CompleteQuest QuestName="Salting the Fields" QuestId="0xE000A87997FBCE07" RewardIndex="3" />
+<CompleteQuest QuestName="Salting the Fields" QuestId="0xE000A87997FBCE07" />
 		
 <!-- Downed Pilots -->
 <If Condition="not IsStepComplete(0xE00016956C72A171, 3)">
@@ -1748,7 +1748,7 @@
 </If>
 		
 <!-- Over the Top -->
-<CompleteQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" RewardIndex="2" />
+<CompleteQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" />
 		
 <!-- Hidden Crimes -->
 <If Condition="not IsStepComplete(0xE000DA8E50137300, 2)">
@@ -1756,7 +1756,7 @@
 </If>
 		
 <!-- Hidden Crimes -->
-<CompleteQuest QuestName="Hidden Crimes" QuestId="0xE000DA8E50137300" RewardIndex="2" />
+<CompleteQuest QuestName="Hidden Crimes" QuestId="0xE000DA8E50137300" />
 		
 <!-- Use Taxi
 		<Hotspot Name="Vanguard Outpost Skyhopper" X="-155.0228" Y="14.10858" Z="128.7553" />
@@ -1776,7 +1776,7 @@
 </If>
 		
 <!-- Boom Town -->
-<CompleteQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" RewardIndex="3" />
+<CompleteQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" />
 		
 <!-- Escape and Evade -->
 <PickUpQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" GiverName="Holorecording" Type="Placeable" XYZ="-79.4059,13.73511,64.43076" />
@@ -1844,7 +1844,7 @@
 </If>
 		
 <!-- Escape and Evade -->
-<CompleteQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" RewardIndex="2" />
+<CompleteQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" />
 		
 <!--
 			Use Taxi
@@ -1859,7 +1859,7 @@
 		
 <!-- The Guns Of Traken-4 -->
 <!-- errr Dunno WTF happened here
-		<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" RewardIndex="2" /> -->
+		<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" /> -->
 		
 <!-- The Guns Of Traken-4 -->
 <If Condition="not IsStepComplete(0xE000CB2018BCB691, 5)">
@@ -1867,7 +1867,7 @@
 </If>
 		
 <!-- The Guns Of Traken-4 -->
-<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" RewardIndex="2" />
+<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" />
 		
 <!--
 			Use Taxi
@@ -1927,7 +1927,7 @@
 </If>
 		
 <!-- Colicoid Expulsion -->
-<CompleteQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" RewardIndex="4" />
+<CompleteQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" />
 		
 <!--
 			Use Taxi
@@ -1941,7 +1941,7 @@
 </If>
 		
 <!-- Colicoid Feast -->
-<CompleteQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" RewardIndex="2" />
+<CompleteQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" />
 		
 <!--
 			Use Taxi

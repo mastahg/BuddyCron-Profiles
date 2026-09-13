@@ -89,11 +89,11 @@
 
       <If Condition="HasQuest(0xE000830A40E929B3) and (not IsQuestComplete(0xE000830A40E929B3))">
         <TurnInQuest QuestId="0xE000830A40E929B3" QuestName="Strengthening the Chain" TurnInName="Major Harris" WaitTime="5" XYZ="-168.9536,30.09492,115.9593" />
-        <CompleteQuest QuestId="0xE000830A40E929B3" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE000830A40E929B3" />
       </If>
       <If Condition="HasQuest(0xE000FC279BBFF7C8) and (not IsQuestComplete(0xE000FC279BBFF7C8))">
         <TurnInQuest QuestId="0xE000FC279BBFF7C8" QuestName="Restraining the Darkness" TurnInName="Master Korman Reyes" XYZ="-169.5396,30.09319,115.3393" />
-        <CompleteQuest QuestId="0xE000FC279BBFF7C8" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE000FC279BBFF7C8" />
       </If>
 
       <If Condition="(not HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))">
@@ -107,7 +107,7 @@
       </If>
       <If Condition="HasQuest(0xE0003EBBFCAFDDB7) and (not IsQuestComplete(0xE0003EBBFCAFDDB7))" >
         <TurnInQuest QuestId="0xE0003EBBFCAFDDB7" QuestName="Emergent Medicine" TurnInName="Private Lorul" XYZ="-131.5907,32.5444,164.2804" />
-        <CompleteQuest QuestId="0xE0003EBBFCAFDDB7" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE0003EBBFCAFDDB7" />
       </If>
 
       <If Condition="(not HasQuest(0xE000C7B4447005D5)) and (not IsQuestComplete(0xE000C7B4447005D5))">
@@ -156,11 +156,11 @@
 
       <If Condition="HasQuest(0xE000C7B4447005D5) and (not IsQuestComplete(0xE000C7B4447005D5))" >
         <TurnInQuest QuestId="0xE000C7B4447005D5" QuestName="A Lesson is Learned" UseRange="4" TurnInName="Doctor Everis" XYZ="-130.6159,32.53959,163.3082" />
-        <CompleteQuest QuestId="0xE000C7B4447005D5" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE000C7B4447005D5" />
       </If>
       <If Condition="HasQuest(0xE000AFA93F593BAE) and (not IsQuestComplete(0xE000AFA93F593BAE))">
         <TurnInQuest QuestName="The Perfect Carrier: Curing Gen'Dai" QuestId="0xE000AFA93F593BAE" UseRange="4" TurnInName="Doctor Fash" XYZ="-133.8321,32.54752,165.2574" />
-        <CompleteQuest QuestId="0xE000AFA93F593BAE" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE000AFA93F593BAE" />
       </If>
 
       <If Condition="(not HasQuest(0xE000D8D1668C1A69)) and (not IsQuestComplete(0xE000D8D1668C1A69))">
@@ -183,7 +183,7 @@
       <If Condition="HasQuest(0xE000D8D1668C1A69) and (not IsQuestComplete(0xE000D8D1668C1A69))">
         <MoveTo QuestId="0xE000D8D1668C1A69" XYZ="-26.36607,11.1007,-321.4893" />
         <Interact QuestId="0xE000D8D1668C1A69" Name="Broadcast Station" Range="6" WaitTime="3" />
-        <CompleteQuest QuestId="0xE000D8D1668C1A69" RewardIndex="0" />
+        <CompleteQuest QuestId="0xE000D8D1668C1A69" />
       </If>
 
       <!--Sleeping Rakata-->
@@ -211,12 +211,12 @@
       <If Condition="HasQuest( 0xE0007A085412F617) and (not IsQuestComplete(0xE0007A085412F617))">
         <MoveTo QuestId="0xE0007A085412F617" XYZ="-26.49216,11.1007,-320.9391" />
         <Interact QuestId="0xE0007A085412F617" Name="Monitoring Station" Range="2" WaitTime="3" />
-        <CompleteQuest QuestId="0xE0007A085412F617" RewardIndex="0"/>
+        <CompleteQuest QuestId="0xE0007A085412F617"/>
       </If>
       <If Condition="HasQuest(0xE000E36A1BEFEF20) and (not IsQuestComplete(0xE000E36A1BEFEF20))">
         <MoveTo QuestId="0xE000E36A1BEFEF20" XYZ="-25.84078,11.1007,-320.9447" />
         <Interact QuestId="0xE000E36A1BEFEF20" Name="Monitoring Station Console" Range="2" WaitTime="3" />
-        <CompleteQuest QuestId="0xE000E36A1BEFEF20" RewardIndex="0"/>
+        <CompleteQuest QuestId="0xE000E36A1BEFEF20"/>
       </If>
     
       <UserDialog Title="End" Message="End" />

@@ -30,11 +30,11 @@
 		</If>
 
 		<If Condition="Me.Class == CharacterClass.Agent">
-			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6" RewardIndex="3"/>
+			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6"/>
 			<PickUpQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" GiverName="Commander Dorne" XYZ="480.2943,70.211,468.9107" />
 			<If Condition="((HasQuest(0xE0008AB7FB48957A)) and (not IsQuestComplete(0xE0008AB7FB48957A)))">
 				<TurnInQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" TurnInName="Intelligence Quartermaster" XYZ="481.386,69.401,454.2191" />
-				<CompleteQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" RewardIndex="1" />
+				<CompleteQuest QuestName="Advanced Training: Agent" QuestId="0xE0008AB7FB48957A" />
 
 				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
 				<ForceVendor VendorType="Train" />
@@ -48,14 +48,14 @@
 		</If>
 
 		<If Condition="Me.Class == CharacterClass.BountyHunter">
-			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC" RewardIndex="3"/>
+			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC"/>
 			<PickUpQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" GiverName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
 			<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsQuestComplete(0xE0002E80DC508937)))">
 				<If Condition="((HasQuest(0xE0002E80DC508937)) and (not IsBranchStepComplete(0xE0002E80DC508937, 1, 2)))">
 					<TalkTo QuestId="0xE0002E80DC508937" Name="Braum &quot;Zakkeg&quot; Bourne" XYZ="482.0164,69.401,456.493" />
 				</If>
 				<TurnInQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" TurnInName="Rally Master Merrk Kelborn" XYZ="480.1538,70.211,469.114" />
-				<CompleteQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" RewardIndex="1" />
+				<CompleteQuest QuestName="Advanced Training: Bounty Hunter" QuestId="0xE0002E80DC508937" />
 				<UserDialog Title="Test" Message="Choose spec, train, open the gear bag and equip the items, open companion bag and equip companion with gear" />
 				<ForceVendor VendorType="Train" />
 			</If>

@@ -678,7 +678,7 @@
 		<!-- Turnin When Diplomacy Fails -->
 		<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsQuestComplete(0xE000BB1B620A30F6)))">
 			<TurnInQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" TurnInName="Ambassador Averdon" XYZ="-91.6545,53.8049,-89.7298" />
-			<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" RewardIndex="3" />
+			<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" />
 			<!-- Armed and Dangerous 0xE0007A06CCCEBCB8 -->
 			<!-- Learn Upper Promenade Bindpoint and Taxi -->
  
@@ -713,7 +713,7 @@
 		<!-- Turnin Armed and Dangerous -->
 		<If Condition="((HasQuest(0xE0007A06CCCEBCB8)) and (not IsQuestComplete(0xE0007A06CCCEBCB8)))">
 			<TurnInQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" TurnInName="Nurkolas" XYZ="-362.2916,22.501,-343.0348" />
-			<CompleteQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" RewardIndex="2" />
+			<CompleteQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" />
 			<!-- Slave Raiding 0xE0000CF61EB0D8FA -->
 			<!-- Force Sell / Repair -->
 		</If>
@@ -730,7 +730,7 @@
 			<If Condition="((HasQuest(0xE0000B22F094CB77)) and (not IsStepComplete(0xE0000B22F094CB77, 9)))">
 				<TalkTo QuestId="0xE0000B22F094CB77" Name="Tharan Cedrax" XYZ="-347.9652,22.501,-316.9206" />
 			</If>
-			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" RewardIndex="3" />
+			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" />
 			<!-- Running with the Lancers 0xE0006111E609853E -->
 		</If>
 		
@@ -755,7 +755,7 @@
 				<Grind GrindRef="Shut Down the Slave Market (Bonus)" While="(not IsQuestComplete(0xE0000068BA12EAC2))" />
 			</If>
 			<TurnInQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" Type="Placeable" TurnInName="Slaver Control Console" XYZ="-315.9904,17.30449,-272.9549" />
-			<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" RewardIndex="4" />
+			<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" />
 			<!-- Strike the Mountain Asunder 0xE00092996437ED01 -->
  
 			<If Condition="Me.Position.Y &lt;= 18">
@@ -871,7 +871,7 @@
 		<!-- Turnin One Fell Swoop -->
 		<If Condition="((HasQuest(0xE000293EFA7BE055)) and (not IsQuestComplete(0xE000293EFA7BE055)))">
 			<TurnInQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" TurnInName="Yeddu" XYZ="-381.6275,24.001,-311.4383" />
-			<CompleteQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" RewardIndex="2" />
+			<CompleteQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" />
 			
 			<UseTransport TransporterName="Nikto Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
 									XYZ="-385.6628,24.001,-311.3946" />
@@ -882,7 +882,7 @@
 		<!-- Turnin Strike the Mountain Asunder -->
 		<If Condition="((HasQuest(0xE00092996437ED01)) and (not IsQuestComplete(0xE00092996437ED01)))">
 			<TurnInQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" TurnInName="Ambassador Averdon" XYZ="-91.6545,53.8049,-89.7298" />
-			<CompleteQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" RewardIndex="2" />
+			<CompleteQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" />
 			<!-- Waylaid 0xE000699B77CFB2AE -->
  
 			<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Red Light Sector Taxi" 
@@ -894,7 +894,7 @@
 		<!-- Turnin Waylaid -->
 		<If Condition="((HasQuest(0xE000699B77CFB2AE)) and (not IsQuestComplete(0xE000699B77CFB2AE)))">
 			<TurnInQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" TurnInName="Ilox" XYZ="336.3257,-313.699,-320.1411" />
-			<CompleteQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" RewardIndex="1" />
+			<CompleteQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" />
 			<!-- Shore Leave 0xE0001D76D02DEDBB -->
 		</If>
 		
@@ -931,7 +931,7 @@
 				<UseObject QuestId="0xE0001D76D02DEDBB" ObjectName="Prison Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="315.0818,-314.199,-368.9495" />
 			</If>
 			<TurnInQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" TurnInName="Lieutenant Rale" XYZ="314.7232,-314.1799,-369.1538" />
-			<CompleteQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" RewardIndex="3" />
+			<CompleteQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" />
 			<!-- Double Negative 0xE000C73014AF2DCC -->
 		</If>
 	
@@ -981,14 +981,14 @@
 		<!-- Turnin Cleansing The Spice Trade -->
 		<If Condition="((HasQuest(0xE000450CFDBC05DE)) and (not IsQuestComplete(0xE000450CFDBC05DE)))">
 			<TurnInQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" TurnInName="Malahan" XYZ="333.491,-313.699,-348.8943" />
-			<CompleteQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" RewardIndex="1" />
+			<CompleteQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" />
 			<!-- Open Simple Small Credit Case -->
 		</If>
 		
 		<!-- Turnin Double Negative -->
 		<If Condition="((HasQuest(0xE000C73014AF2DCC)) and (not IsQuestComplete(0xE000C73014AF2DCC)))">
 			<TurnInQuest QuestName="" QuestId="0xE000C73014AF2DCC" TurnInName="Ilox" XYZ="336.3257,-313.699,-320.1411" />
-			<CompleteQuest QuestName="Double Negative" QuestId="0xE000C73014AF2DCC" RewardIndex="1" />
+			<CompleteQuest QuestName="Double Negative" QuestId="0xE000C73014AF2DCC" />
 			<!-- Genocide 0xE000339439E602CD -->
  
 			<!-- Turnin Consular quest -->
@@ -1002,7 +1002,7 @@
 				<MoveTo QuestId="0xE0006111E609853E" Name="Holiday" XYZ="-92.241,51.801,-47.9415" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Running with the Lancers (Bonus)" QuestId="0xE0006111E609853E" RewardIndex="2" />
+			<CompleteQuest QuestName="Running with the Lancers (Bonus)" QuestId="0xE0006111E609853E" />
 			<!-- Authorized for Sabotage 0xE000398CBAC8EDD9 -->
 			<!-- Force Train, Repair, Sell, Mail -->
  
@@ -1064,7 +1064,7 @@
 		<!-- Turnin Tempting Fate -->
 		<If Condition="((HasQuest(0xE0006C042193203C)) and (not IsQuestComplete(0xE0006C042193203C)))">
 			<TurnInQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" TurnInName="Damrosch the Hutt" XYZ="-217.9558,-171.2914,288.3214" />
-			<CompleteQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" RewardIndex="2" />
+			<CompleteQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" />
 			<!-- Fate's Wrath 0xE0007FCD3DA7DADF -->
 		</If>
 		
@@ -1088,7 +1088,7 @@
 			<If Condition="((HasQuest(0xE000EEDF2298D82A)) and (not IsStepComplete(0xE000EEDF2298D82A, 2)))">
 				<UseObject QuestId="0xE000EEDF2298D82A" ObjectName="Chemical Plant Mainframe" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-264.2849,-172.939,262.6573" />
 			</If>
-			<CompleteQuest QuestName="Chemical Agent" QuestId="0xE000EEDF2298D82A" RewardIndex="2" />
+			<CompleteQuest QuestName="Chemical Agent" QuestId="0xE000EEDF2298D82A" />
 			<!-- Extermination 0xE000807DC3BB1477-->
 		</If>
 		
@@ -1119,7 +1119,7 @@
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 8)))">
 				<TalkTo QuestId="0xE000807DC3BB1477" Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
 			</If>
-			<CompleteQuest QuestName="Extermination" QuestId="0xE000807DC3BB1477" RewardIndex="3" />
+			<CompleteQuest QuestName="Extermination" QuestId="0xE000807DC3BB1477" />
 			<If Condition="Me.Position.Y &lt;= -172">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
 									XYZ="-221.3322,-172.1603,275.5911" />
@@ -1173,7 +1173,7 @@
 					<AnswerHolocomCall QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" />
 				</TempConvoSkip>
 			</If>
-			<CompleteQuest QuestName="Authorized for Sabotage" QuestId="0xE000398CBAC8EDD9" RewardIndex="4" />
+			<CompleteQuest QuestName="Authorized for Sabotage" QuestId="0xE000398CBAC8EDD9" />
 			<!-- Consular - The Master 0xE000581244AEE1B0 -->
 			<If Condition="Me.Position.Y &gt;= -167">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
@@ -1184,7 +1184,7 @@
 		<!-- Turnin Fate's Wrath -->
 		<If Condition="((HasQuest(0xE0007FCD3DA7DADF)) and (not IsQuestComplete(0xE0007FCD3DA7DADF)))">
 			<TurnInQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" TurnInName="Damrosch the Hutt" XYZ="-217.9558,-171.2914,288.3214" />
-			<CompleteQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" RewardIndex="3" />
+			<CompleteQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" />
 			<!-- Force Sell / Repair -->
  
 			<UseTransport TransporterName="Lower Industry Sector Taxi" Type="Taxi" Option="Red Light Sector Taxi" 
@@ -1206,7 +1206,7 @@
 				</TempConvoSkip>
 			</If>
 			<TurnInQuest QuestName="The Master" QuestId="0xE000581244AEE1B0" Type="Placeable" TurnInName="Holoterminal" XYZ="323.3947,-313.6966,-335.1982" />
-			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" RewardIndex="3" />
+			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" />
 			<!-- Shadow Town 0xE00066F2E7E7CB3E -->
  
 			<UseTransport TransporterName="Red Light Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
@@ -1322,7 +1322,7 @@
 		<!-- Turnin Access -->
 		<If Condition="((HasQuest(0xE000CE33EE3E37BC)) and (not IsQuestComplete(0xE000CE33EE3E37BC)))">
 			<TurnInQuest QuestName="Access" QuestId="0xE000CE33EE3E37BC" TurnInName="Security Console" XYZ="230.2321,-154.799,304.4912" />
-			<CompleteQuest QuestName="Access" QuestId="0xE000CE33EE3E37BC" RewardIndex="2" />
+			<CompleteQuest QuestName="Access" QuestId="0xE000CE33EE3E37BC" />
 			<!-- Captive 0xE000E0554184FFE0 -->
 		</If>
 		
@@ -1373,13 +1373,13 @@
 				<TalkTo QuestId="0xE00046BD22457EBC" Name="Kesler" XYZ="250.5562,-155.299,312.1106" />
 			</If>
 			<TurnInQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" TurnInName="Agent Alys" XYZ="254.4654,-153.799,280.5685" />
-			<CompleteQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" RewardIndex="3" />
+			<CompleteQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" />
 		</If>
 		
 		<!-- Turnin Captive -->
 		<If Condition="((HasQuest(0xE000E0554184FFE0)) and (not IsQuestComplete(0xE000E0554184FFE0)))">
 			<TurnInQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" TurnInName="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
-			<CompleteQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" RewardIndex="1" />
+			<CompleteQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" />
 			<!-- Force Sell / Repair -->
  
 			<UseTransport TransporterName="Shadow Town Taxi" Type="Taxi" Option="Deucalon Spaceport Taxi" 
@@ -1403,7 +1403,7 @@
 				<!-- If I am on my Ship -->
 			</If>
 			<TurnInQuest QuestName="Shadow Town" QuestId="0xE00066F2E7E7CB3E" TurnInName="Holoterminal" XYZ="-0.01666032,1.676,1.432441" />
-			<CompleteQuest QuestName="Shadow Town" QuestId="0xE00066F2E7E7CB3E" RewardIndex="3" />
+			<CompleteQuest QuestName="Shadow Town" QuestId="0xE00066F2E7E7CB3E" />
 			<!-- Distress Call 0xE000EDF4DDB848B6 -->
 		</If>
 		
@@ -1451,7 +1451,7 @@
 			</If>
 			<!-- If I am on my ship -->
 			<TurnInQuest QuestName="Distress Call" QuestId="0xE000EDF4DDB848B6" TurnInName="Holoterminal" XYZ="-0.009702696,1.676,1.391142" />
-			<CompleteQuest QuestName="Distress Call" QuestId="0xE000EDF4DDB848B6" RewardIndex="2" />
+			<CompleteQuest QuestName="Distress Call" QuestId="0xE000EDF4DDB848B6" />
 			<!-- Diplomacy - 0xE00016CC1D921686 -->
 			<!-- Looking Out for the Little Guy 0xE000F1A8B5387ABA -->
 			<!-- Tharan has a quest for us - Free From Care -->

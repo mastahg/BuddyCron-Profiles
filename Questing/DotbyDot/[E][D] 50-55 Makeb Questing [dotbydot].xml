@@ -182,7 +182,7 @@
 			<TurnInQuest QuestName="Countdown to Doomsday" QuestId="0xE000A0FD35D57C53" TurnInName="R-C92" XYZ="-324.2257,-55.82335,-4.3963" />
 		</If>
 		<If Condition="((IsQuestComplete(0xE000A0FD35D57C53)))">
-			<CompleteQuest QuestName="Countdown to Doomsday" QuestId="0xE000A0FD35D57C53" RewardIndex="1" />
+			<CompleteQuest QuestName="Countdown to Doomsday" QuestId="0xE000A0FD35D57C53" />
 		</If>
 
 
@@ -245,7 +245,7 @@
 				<UseObject QuestId="0xE000527599ECF7B8" ObjectName="Imperial Command Uplink" BranchId="1" StepId="4" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-333.4644,-24.26608,-10.62825" />
 			</If>
 			<If Condition="((IsQuestComplete(0xE000527599ECF7B8)))">
-				<CompleteQuest QuestName="Defensive Data" QuestId="0xE000527599ECF7B8" RewardIndex="1" />
+				<CompleteQuest QuestName="Defensive Data" QuestId="0xE000527599ECF7B8" />
 			</If>
 
 			<!-- To Pierce the Heavens Finish -->
@@ -271,7 +271,7 @@
 		
 
 		<If Condition="((IsQuestComplete(0xE00043B41935779B)))">
-			<CompleteQuest QuestName="To Pierce the Heavens" QuestId="0xE00043B41935779B" RewardIndex="1" />
+			<CompleteQuest QuestName="To Pierce the Heavens" QuestId="0xE00043B41935779B" />
 		</If>
 
 		<!-- The Monstrous Mesa of Solida Hesk -->
@@ -384,7 +384,7 @@
 			<UseObject QuestId="0xE000523308FEDE51" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.9603,-24.49372,-241.8997" />
 			<CompleteQuest QuestName="Private Access" QuestId="0xE000523308FEDE51" />
 			<UseObject QuestId="0xE000329FD64A6328" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.2459,-24.50338,-242.1894" />
-			<CompleteQuest QuestName="Hesk's Hospitality" QuestId="0xE000329FD64A6328" RewardIndex="1" />
+			<CompleteQuest QuestName="Hesk's Hospitality" QuestId="0xE000329FD64A6328" />
 			<If Condition="(Me.Position.Y &gt; -25) and (Me.Position.Y &lt; -24)">
 				<UseTransport TransporterName="Solida Hesk's Estate Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
 									XYZ="-317.9326,-24.50653,-242.5705" />
@@ -402,7 +402,7 @@
 			</If>
 			<MoveTo QuestId="0xE00084AE8D790227" XYZ="-330.6583,132.411,12.83975" />
 			<TurnInQuest QuestName="The Monstrous Mesa of Solida Hesk" QuestId="0xE00084AE8D790227" TurnInName="Katha Niar" XYZ="-330.7191,132.411,13.2022" />
-			<CompleteQuest QuestName="The Monstrous Mesa of Solida Hesk" QuestId="0xE00084AE8D790227" RewardIndex="1" />
+			<CompleteQuest QuestName="The Monstrous Mesa of Solida Hesk" QuestId="0xE00084AE8D790227" />
 			
 		</If>
 
@@ -506,14 +506,14 @@
 			</If>
 			<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 				<TurnInQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" TurnInName="Captain Hanthor" XYZ="-325.1853,-17.14256,-15.5067" />
-				<CompleteQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" RewardIndex="1" />
+				<CompleteQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" />
 				<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring" 
 												XYZ="-330.5677,-17.21365,-13.18888" />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 			<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-330.5801,132.411,13.75595" />
 			<TurnInQuest QuestName="A Word Aflame" QuestId="0xE000680B73FBCF77" TurnInName="Katha Niar" XYZ="-330.5644,132.411,13.8726" />
-			<CompleteQuest QuestName="A Word Aflame" QuestId="0xE000680B73FBCF77" RewardIndex="1" />
+			<CompleteQuest QuestName="A Word Aflame" QuestId="0xE000680B73FBCF77" />
 			
 		</If>	
 		
@@ -710,7 +710,7 @@
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-330.5801,132.411,13.75595" />
 				<TurnInQuest QuestName="Stealing Thunder" QuestId="0xE0001DC83CC34F75" TurnInName="Katha Niar" XYZ="-330.5644,132.411,13.8726" />
-				<CompleteQuest QuestName="Stealing Thunder" QuestId="0xE0001DC83CC34F75" RewardIndex="1" />
+				<CompleteQuest QuestName="Stealing Thunder" QuestId="0xE0001DC83CC34F75" />
 			</If>
 		</If>
 	
@@ -816,7 +816,7 @@
 				<If Condition="(Me.Position.X &gt; -262) and (Me.Position.X &lt; -249) and (Me.Position.Y &gt; 8) and (Me.Position.Y &lt; 10) and (Me.Position.Z &gt; 150) and (Me.Position.Z &lt; 168)">
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-258.1245,9.065324,154.6232"  />
 					<UseObject QuestId="0xE00025EA0B9C72C2" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.1245,9.065324,154.6232" />
-					<CompleteQuest QuestName="Non-Routine Maintenance" QuestId="0xE00025EA0B9C72C2" RewardIndex="1" />
+					<CompleteQuest QuestName="Non-Routine Maintenance" QuestId="0xE00025EA0B9C72C2" />
 					<UseTransport TransporterName="Abandoned Mining Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
 														XYZ="-258.319,9.058147,154.239" />
 					<WaitTimer QuestId="1" WaitTime="2" />
@@ -829,7 +829,7 @@
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-236.52,20.98863,164.315" />
 				<TurnInQuest QuestName="Descent into the Core" QuestId="0xE000B4C8AD49CEF3" TurnInName="Katha Niar" XYZ="-236.52,20.98863,164.315" />
-				<CompleteQuest QuestName="Descent into the Core" QuestId="0xE000B4C8AD49CEF3" RewardIndex="1" />
+				<CompleteQuest QuestName="Descent into the Core" QuestId="0xE000B4C8AD49CEF3" />
 			</If>						
 		</If>
 		
@@ -928,7 +928,7 @@
 				</If>
 				<MoveTo QuestId="0xE00050441AADBBED" XYZ="-236.52,20.98863,164.315" />
 				<TurnInQuest QuestName="Recruitment Day" QuestId="0xE00050441AADBBED" TurnInName="Katha Niar" XYZ="-236.52,20.98863,164.315" />
-				<CompleteQuest QuestName="Recruitment Day" QuestId="0xE00050441AADBBED" RewardIndex="1" />
+				<CompleteQuest QuestName="Recruitment Day" QuestId="0xE00050441AADBBED" />
 			</If>
 		</If>
 
@@ -1037,12 +1037,12 @@
 				<MoveTo QuestId="0xE000E6434FCA6D43" XYZ="-82.89151,-69.89246,213.8902" />
 				<UseObject QuestId="0xE000E6434FCA6D43" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-82.89151,-69.89246,213.8902"  />
 			</If>
-			<CompleteQuest QuestName="Archon's Armageddon" QuestId="0xE000E6434FCA6D43" RewardIndex="1" />
+			<CompleteQuest QuestName="Archon's Armageddon" QuestId="0xE000E6434FCA6D43" />
 			<If Condition="((not IsStepComplete(0xE000D3ADE65222E8, 3)))">
 				<MoveTo QuestId="0xE000D3ADE65222E8" XYZ="-84.2561,-69.90645,216.9453" />
 				<UseObject QuestId="0xE000D3ADE65222E8" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-84.2561,-69.90645,216.9453" />
 			</If>
-			<CompleteQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" RewardIndex="1" />
+			<CompleteQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" />
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 10)))">
 				<If Condition="(Me.Position.X &gt; -86) and (Me.Position.X &lt; -78) and (Me.Position.Y &gt; -70) and (Me.Position.Y &lt; -68) and (Me.Position.Z &gt; 213) and (Me.Position.Z &lt; 220)">
 					<UseTransport TransporterName="Cartel Mining Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
@@ -1055,7 +1055,7 @@
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 11)))">
 				<TurnInQuest QuestName="A Cure for Armageddon" QuestId="0xE000ABEA2E64D3CD" TurnInName="Nadrin" XYZ="-236.3938,20.98863,164.1104" />
 			</If>
-			<CompleteQuest QuestName="A Cure for Armageddon" QuestId="0xE000ABEA2E64D3CD" RewardIndex="1" />	
+			<CompleteQuest QuestName="A Cure for Armageddon" QuestId="0xE000ABEA2E64D3CD" />	
 		</If>
 
 		<!-- Retribution from Above -->
@@ -1085,7 +1085,7 @@
 				<TalkTo QuestName="Retribution from Above" QuestId="0xE000DDDED5643B06" Name="Kai Teyun" WaitTime="1" XYZ="-139.2137,-11.6254,-148.6064" />
 			</If>
 		</If>
-		<CompleteQuest QuestName="Retribution from Above" QuestId="0xE000DDDED5643B06" RewardIndex="1" />
+		<CompleteQuest QuestName="Retribution from Above" QuestId="0xE000DDDED5643B06" />
 
 		<!-- Revenge of the Archon -->
 
@@ -1146,7 +1146,7 @@
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-24.23833,-14.97505,-397.6061" />
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-23.09138,-14.96838,-397.5682" />
 					<UseObject QuestId="0xE000D27A47E88928" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-23.09138,-14.96838,-397.5682"  />
-					<CompleteQuest QuestName="The Backup Plan" QuestId="0xE000D27A47E88928" RewardIndex="1" />
+					<CompleteQuest QuestName="The Backup Plan" QuestId="0xE000D27A47E88928" />
 					<UseTransport TransporterName="Hutt Strongholds Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
 														XYZ="-24.3611,-14.97505,-396.5716" />
 					<WaitTimer QuestId="1" WaitTime="2" />
@@ -1165,7 +1165,7 @@
 				<TurnInQuest QuestName="Revenge of the Archon" QuestId="0xE000E74DF274E415" TurnInName="Darth Marr" XYZ="-330.5949,-55.64102,-7.0734" />
 			</If>
 		</If>
-		<CompleteQuest QuestName="Revenge of the Archon" QuestId="0xE000E74DF274E415" RewardIndex="1" />
+		<CompleteQuest QuestName="Revenge of the Archon" QuestId="0xE000E74DF274E415" />
 
 		<If Condition="(Me.Position.X &gt; -334) and (Me.Position.X &lt; -327) and (Me.Position.Y &gt; -56) and (Me.Position.Y &lt; -55) and (Me.Position.Z &gt; -11) and (Me.Position.Z &lt; -4)">
 			<MoveTo QuestId="1" IgnoreMesh="True" XYZ="-327.0209,-55.8515,-6.921111" />

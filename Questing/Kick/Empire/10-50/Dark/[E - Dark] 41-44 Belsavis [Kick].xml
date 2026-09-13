@@ -695,7 +695,7 @@
 		<If Condition="((HasQuest(0xE0004CF11A432759)) and (not IsQuestComplete(0xE0004CF11A432759)))">
 			<Grind GrindRef="Metal Militia 2" While="(not IsBranchStepComplete(0xE0004CF11A432759, 1, 2))" />
 			<TurnInQuest QuestName="Metal Militia" QuestId="0xE0004CF11A432759" TurnInName="Lord Medechas" XYZ="172.4505,33.78457,143.3098" />
-			<CompleteQuest QuestName="Metal Militia" QuestId="0xE0004CF11A432759" RewardIndex="1" />
+			<CompleteQuest QuestName="Metal Militia" QuestId="0xE0004CF11A432759" />
 			<!-- The Carbon Gallery 0xE000535E0F8BAE85-->
 		</If>
 		
@@ -718,7 +718,7 @@
 			<Grind GrindRef="The Carbon Gallery 3" While="(not IsBranchStepComplete(0xE000535E0F8BAE85, 1, 3))" />
 			<UseObject QuestId="0xE000535E0F8BAE85" BranchId="1" StepId="4" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Carbon Gallery Control Panel" XYZ="139.591,27.636,190.6171" />
 			<TurnInQuest QuestName="The Carbon Gallery" QuestId="0xE000535E0F8BAE85" TurnInName="Lord Medechas" XYZ="172.4505,33.78457,143.3098" />
-			<CompleteQuest QuestName="The Carbon Gallery" QuestId="0xE000535E0F8BAE85" RewardIndex="2" />
+			<CompleteQuest QuestName="The Carbon Gallery" QuestId="0xE000535E0F8BAE85" />
 			<!-- Fifth Time's the Charm 0xE000A9BE014EEAD8-->
 		</If>
 
@@ -726,7 +726,7 @@
 		<If Condition="((HasQuest(0xE000A9BE014EEAD8)) and (not IsQuestComplete(0xE000A9BE014EEAD8)))">
 			<UseObject QuestId="0xE000A9BE014EEAD8" BranchId="1" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Gholan's supplies" XYZ="99.16049,28.01783,123.088" />
 			<TurnInQuest QuestName="Fifth Time's the Charm" QuestId="0xE000A9BE014EEAD8" Type="Placeable" UseRange="2" Radius="5" TurnInName="Imperial Holoterminal" XYZ="74.99806,27.84953,116.3188" />
-			<CompleteQuest QuestName="Fifth Time's the Charm" QuestId="0xE000A9BE014EEAD8" RewardIndex="1" />
+			<CompleteQuest QuestName="Fifth Time's the Charm" QuestId="0xE000A9BE014EEAD8" />
 			<!-- The Last of the Law 0xE000AA100879CB52-->
 			
 		</If>
@@ -755,7 +755,7 @@
 		<!-- Turnin The Last of the Law -->
 		<If Condition="((HasQuest(0xE000AA100879CB52)) and (not IsQuestComplete(0xE000AA100879CB52)))">
 			<TurnInQuest QuestName="The Last of the Law" QuestId="0xE000AA100879CB52" TurnInName="Lord Medechas" XYZ="172.4505,33.78457,143.3098" />
-			<CompleteQuest QuestName="The Last of the Law" QuestId="0xE000AA100879CB52" RewardIndex="4" />
+			<CompleteQuest QuestName="The Last of the Law" QuestId="0xE000AA100879CB52" />
 			<!-- Operations Group Four 0xE00050D92CB2F12B-->
 			<ForceVendor VendorType="Repair" />
 
@@ -766,7 +766,7 @@
 		<!-- Turnin A Pertinent Find -->
 		<If Condition="((HasQuest(0xE000BD337F7C52B6)) and (not IsQuestComplete(0xE000BD337F7C52B6)))">
 			<TurnInQuest QuestName="A Pertinent Find" QuestId="0xE000BD337F7C52B6" TurnInName="Captain Rago" XYZ="74.9962,27.84953,114.0859" />
-			<CompleteQuest QuestName="A Pertinent Find" QuestId="0xE000BD337F7C52B6" RewardIndex="3" />
+			<CompleteQuest QuestName="A Pertinent Find" QuestId="0xE000BD337F7C52B6" />
 		</If>
 		
 		<!-- Catalyzing the Conversion -->
@@ -799,7 +799,7 @@
 			<If Condition="((HasQuest(0xE00002FDF22034F5)) and (not IsBranchStepComplete(0xE00002FDF22034F5, 1, 9)))">
 				<MoveTo QuestId="0xE00002FDF22034F5" Name="Bolan" XYZ="115.312,22.82981,168.7703" />
 			</If>
-			<CompleteQuest QuestName="Prison Break" QuestId="0xE00002FDF22034F5" RewardIndex="3" />
+			<CompleteQuest QuestName="Prison Break" QuestId="0xE00002FDF22034F5" />
 			<!-- Inquisitor - Strange Science 0xE0001621F6D817A5-->
 		</If>
 		
@@ -809,7 +809,7 @@
 				<TalkTo QuestId="0xE0000459DFC70FDC" Name="Kanjon Slyke" XYZ="19.72141,27.1375,138.89" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Breakout" QuestId="0xE0000459DFC70FDC" RewardIndex="2" />
+			<CompleteQuest QuestName="Breakout" QuestId="0xE0000459DFC70FDC" />
 			<!-- Agent - The Scorpio Sanctions 0xE000CBBE63F5B4E1-->
 		</If>
 	
@@ -827,7 +827,7 @@
 		<!-- Turnin Catalyzing the Conversion -->
 		<If Condition="((HasQuest(0xE0003BBCBBF7EE6B)) and (not IsQuestComplete(0xE0003BBCBBF7EE6B)))">
 			<TurnInQuest QuestName="Catalyzing the Conversion" QuestId="0xE0003BBCBBF7EE6B" TurnInName="Master Sergeant Korum" XYZ="165.7597,33.2397,137.977" />
-			<CompleteQuest QuestName="Catalyzing the Conversion" QuestId="0xE0003BBCBBF7EE6B" RewardIndex="3" />
+			<CompleteQuest QuestName="Catalyzing the Conversion" QuestId="0xE0003BBCBBF7EE6B" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -919,7 +919,7 @@
 				<Grind GrindRef="Some Disassembly Required (Bonus)" While="(not IsQuestComplete(0xE00058B9A1424FEA))" />
 			</If>
 			<UseObject QuestId="0xE0001621F6D817A5" BranchId="1" StepId="8" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Rakata Machine" XYZ="-42.80053,17.97843,190.2194" />
-			<CompleteQuest QuestName="Strange Science" QuestId="0xE0001621F6D817A5" RewardIndex="3" />
+			<CompleteQuest QuestName="Strange Science" QuestId="0xE0001621F6D817A5" />
 			<!-- Inquisitor - Ghosts in the Walls 0xE000508B107EE542-->
 			
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
@@ -929,13 +929,13 @@
 		<!-- Turnin Breaking the Herd -->
 		<If Condition="((HasQuest(0xE0009615CE82CD7A)) and (not IsQuestComplete(0xE0009615CE82CD7A)))">
 			<TurnInQuest QuestName="Breaking the Herd" QuestId="0xE0009615CE82CD7A" TurnInName="Captain Vandorn" XYZ="-6.356995,25.03061,153.0174" />
-			<CompleteQuest QuestName="Breaking the Herd" QuestId="0xE0009615CE82CD7A" RewardIndex="4" />
+			<CompleteQuest QuestName="Breaking the Herd" QuestId="0xE0009615CE82CD7A" />
 		</If>
 		
 		<!-- Turnin Gearing Up -->
 		<If Condition="((HasQuest(0xE00076D51D44CA71)) and (not IsQuestComplete(0xE00076D51D44CA71)))">
 			<TurnInQuest QuestName="Gearing Up" QuestId="0xE00076D51D44CA71" TurnInName="Captain Habbaz" XYZ="-12.2592,25.03061,158.8453" />
-			<CompleteQuest QuestName="Gearing Up" QuestId="0xE00076D51D44CA71" RewardIndex="2" />
+			<CompleteQuest QuestName="Gearing Up" QuestId="0xE00076D51D44CA71" />
 			<!-- Strength of Many 0xE00084F03A434AC2-->
 		</If>
 		
@@ -959,7 +959,7 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Information Warfare" QuestId="0xE000AD03D64A59C7" TurnInName="Operative Bator" XYZ="-9.0639,25.03061,155.5323" />
-			<CompleteQuest QuestName="Information Warfare" QuestId="0xE000AD03D64A59C7" RewardIndex="3" />
+			<CompleteQuest QuestName="Information Warfare" QuestId="0xE000AD03D64A59C7" />
 		</If>
 		
 		<!-- Strength of Many and Turnin -->
@@ -975,7 +975,7 @@
 			<If Condition="((HasQuest(0xE00084F03A434AC2)) and (not IsBranchStepComplete(0xE00084F03A434AC2, 1, 6)))">
 				<TalkTo QuestId="0xE00084F03A434AC2" Name="Ssevrek" XYZ="-225.0023,22.00455,90.4262" />
 			</If>
-			<CompleteQuest QuestName="Strength of Many" QuestId="0xE00084F03A434AC2" RewardIndex="1" />
+			<CompleteQuest QuestName="Strength of Many" QuestId="0xE00084F03A434AC2" />
 			<!-- Esh-kha Containment 0xE00029D5E81DC727-->
 		</If>
 		
@@ -1004,7 +1004,7 @@
 			<UseObject QuestId="0xE000508B107EE542" BranchId="1" StepId="4" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Rakata Device" XYZ="-178.1634,18.4094,88.66639" />
 			<Grind GrindRef="Ghosts in the Walls 1 5" While="(not IsBranchStepComplete(0xE000508B107EE542, 1, 5))" />
 			<UseObject QuestId="0xE000508B107EE542" BranchId="1" StepId="6" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Rakata Device" XYZ="-178.1634,18.4094,88.66639" />
-			<CompleteQuest QuestName="Ghosts in the Walls" QuestId="0xE000508B107EE542" RewardIndex="1" />
+			<CompleteQuest QuestName="Ghosts in the Walls" QuestId="0xE000508B107EE542" />
 			<!-- Inquisitor - Mother 0xE000F50CD0ECB7BB-->
 		</If>
 		
@@ -1014,7 +1014,7 @@
 				<MoveTo QuestId="0xE000CBBE63F5B4E1" Name="Paarkos" XYZ="-150.0592,22.4149,26.4816" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="The Scorpio Sanctions" QuestId="0xE000CBBE63F5B4E1" RewardIndex="2" />
+			<CompleteQuest QuestName="The Scorpio Sanctions" QuestId="0xE000CBBE63F5B4E1" />
 			<!-- Agent - Legerdemain 0xE0003538550FAEFF-->
 		</If>
 		
@@ -1051,7 +1051,7 @@
 				<MoveTo QuestId="0xE0003538550FAEFF" Name="Paarkos" XYZ="-150.0592,22.4149,26.4816" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Legerdemain" QuestId="0xE0003538550FAEFF" RewardIndex="3" />
+			<CompleteQuest QuestName="Legerdemain" QuestId="0xE0003538550FAEFF" />
 			<!-- Agent - Heist 0xE000DD23FD180C6F -->
 		</If>
 		
@@ -1063,7 +1063,7 @@
 			</If>
 			<UseObject QuestId="0xE0008C506B501024" BranchId="1" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Cell Block Control" XYZ="-213.2495,24.8956,14.80895" />
 			<TurnInQuest QuestName="Wrong Savior" QuestId="0xE0008C506B501024" TurnInName="Sergeant Tark" XYZ="-142.7552,22.18833,60.5204" />
-			<CompleteQuest QuestName="Wrong Savior" QuestId="0xE0008C506B501024" RewardIndex="3" />
+			<CompleteQuest QuestName="Wrong Savior" QuestId="0xE0008C506B501024" />
 		</If>
 		
 		<PickUpQuest QuestName="Once and Future" QuestId="0xE000E5BB25B629CD" Type="Placeable" UseRange="2" GiverName="Imperial Soldier's Corpse" XYZ="-239.0147,19.03464,-109.0581" />
@@ -1085,7 +1085,7 @@
 			</If>
 			<UseObject QuestId="0xE000B7DFAD56B7ED" BranchId="1" StepId="7" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Astromech Droid" XYZ="-253.8292,12.80101,-93.22972" />
 			<TurnInQuest QuestName="Erasing the Esh-kha" QuestId="0xE000B7DFAD56B7ED" Type="Placeable" UseRange="2" TurnInName="Portable Holoterminal" XYZ="-254.1212,12.80783,-93.00368" />
-			<CompleteQuest QuestName="Erasing the Esh-kha" QuestId="0xE000B7DFAD56B7ED" RewardIndex="2" />
+			<CompleteQuest QuestName="Erasing the Esh-kha" QuestId="0xE000B7DFAD56B7ED" />
 			<!-- Key to the Vaults 0xE0009962C76D7C85-->
 		</If>
 		
@@ -1107,7 +1107,7 @@
 				<Grind GrindRef="Guardians of the Past (Bonus)" While="(not IsQuestComplete(0xE000409CE749B73E))" />
 			</If>
 			<TurnInQuest QuestName="Once and Future" QuestId="0xE000E5BB25B629CD" Type="Placeable" UseRange="2" TurnInName="Stasis Cell Controls" XYZ="-279.4594,19.9363,-85.60793" />
-			<CompleteQuest QuestName="Once and Future" QuestId="0xE000E5BB25B629CD" RewardIndex="5" />
+			<CompleteQuest QuestName="Once and Future" QuestId="0xE000E5BB25B629CD" />
 		</If>
 		
 		<!-- Key to the Vaults -->
@@ -1128,13 +1128,13 @@
 									XYZ="-229.1814,19.7047,-111.3999" />
 			</If>
 			<TurnInQuest QuestName="Carving a Path" QuestId="0xE00057044DE63F9C" TurnInName="Captain Suladi" XYZ="-143.8959,22.19817,59.6493" />
-			<CompleteQuest QuestName="Carving a Path" QuestId="0xE00057044DE63F9C" RewardIndex="1" />
+			<CompleteQuest QuestName="Carving a Path" QuestId="0xE00057044DE63F9C" />
 		</If>
 		
 		<!-- Turnin Key to the Vaults -->
 		<If Condition="((HasQuest(0xE0009962C76D7C85)) and (not IsQuestComplete(0xE0009962C76D7C85)))">
 			<TurnInQuest QuestName="Key to the Vaults" QuestId="0xE0009962C76D7C85" TurnInName="Colonel Grang" XYZ="-143.2563,22.18833,58.8192" />
-			<CompleteQuest QuestName="Key to the Vaults" QuestId="0xE0009962C76D7C85" RewardIndex="2" />
+			<CompleteQuest QuestName="Key to the Vaults" QuestId="0xE0009962C76D7C85" />
 			<!-- The Dread Masters 0xE0009CBA95382E40-->
 
 			<UseTransport TransporterName="Rakata Transporter" Type="Taxi" Option="Rakata Transport Center" 
@@ -1200,9 +1200,9 @@
 		<!-- Turnin [AREA] The Esh-kha Sanctuary and The Scar -->
 		<If Condition="(HasQuest(0xE000111A32353A35)) or (HasQuest(0xE00087D711D2A711))">
 			<TurnInQuest QuestName="[AREA] The Scar" QuestId="0xE00087D711D2A711" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-125.6701,18.0423,-187.1131" />
-			<CompleteQuest QuestName="[AREA] The Scar" QuestId="0xE00087D711D2A711" RewardIndex="4" />
+			<CompleteQuest QuestName="[AREA] The Scar" QuestId="0xE00087D711D2A711" />
 			<TurnInQuest QuestName="[AREA] The Esh-kha Sanctuary" QuestId="0xE000111A32353A35" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-125.6701,18.0423,-187.1131" />
-			<CompleteQuest QuestName="[AREA] The Esh-kha Sanctuary" QuestId="0xE000111A32353A35" RewardIndex="2" />
+			<CompleteQuest QuestName="[AREA] The Esh-kha Sanctuary" QuestId="0xE000111A32353A35" />
 		</If>
 		
 		<!-- Turnin The Dread Masters -->
@@ -1225,7 +1225,7 @@
 				<Grind GrindRef="Eliminate the Esh-kha Horde (Bonus)" While="(not IsQuestComplete(0xE0000D724E96A26B))" />
 			</If>
 			<TurnInQuest QuestName="Tracking the Dread Masters" QuestId="0xE0007747117C6CEA" Type="Placeable" UseRange="2" TurnInName="Security Console" XYZ="-126.0911,16.30385,-154.4103" />
-			<CompleteQuest QuestName="Tracking the Dread Masters" QuestId="0xE0007747117C6CEA" RewardIndex="2" />
+			<CompleteQuest QuestName="Tracking the Dread Masters" QuestId="0xE0007747117C6CEA" />
 			<!-- Terror in the Flesh 0xE00044C8615FD84B-->
 		</If>
 		
@@ -1294,7 +1294,7 @@
 				<Interact QuestId="0xE000F7475D176C68" IgnoreLOS="True" Radius="5" WaitTime="5" Name="Rakata Mind Trap" XYZ="56.72405,23.38837,-301.3881" />
 			</If>
 			<TurnInQuest QuestName="Subject 13" QuestId="0xE000F7475D176C68" Type="Placeable" UseRange="2" TurnInName="Monitoring Station" XYZ="-19.26578,14.79787,-261.0352" />
-			<CompleteQuest QuestName="Subject 13" QuestId="0xE000F7475D176C68" RewardIndex="3" />
+			<CompleteQuest QuestName="Subject 13" QuestId="0xE000F7475D176C68" />
 		</If>
 
 		<!-- Agent - Heist -->
@@ -1332,7 +1332,7 @@
 		<!-- Turnin The Bigger They Are -->
 		<If Condition="((HasQuest(0xE000EF0D2489AA29)) and (not IsQuestComplete(0xE000EF0D2489AA29)))">
 			<TurnInQuest QuestName="The Bigger They Are" QuestId="0xE000EF0D2489AA29" Type="Placeable" UseRange="2" TurnInName="Rakata Mind Trap" XYZ="-93.93887,15.28628,-178.1201" />
-			<CompleteQuest QuestName="The Bigger They Are" QuestId="0xE000EF0D2489AA29" RewardIndex="2" />
+			<CompleteQuest QuestName="The Bigger They Are" QuestId="0xE000EF0D2489AA29" />
 		</If>
 		
 		<!-- Agent - Heist -->
@@ -1362,7 +1362,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Terror in the Flesh" QuestId="0xE00044C8615FD84B" TurnInName="Commander Calum" XYZ="256.4411,-77.599,43.3798" />
-			<CompleteQuest QuestName="Terror in the Flesh" QuestId="0xE00044C8615FD84B" RewardIndex="2" />
+			<CompleteQuest QuestName="Terror in the Flesh" QuestId="0xE00044C8615FD84B" />
 		</If>
 		
 		<!-- Inquisitor - Belsavis to Voss -->
@@ -1387,7 +1387,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.370085,0.8962948,1.644378" />
 				</If>
-				<CompleteQuest QuestName="Mother" QuestId="0xE000F50CD0ECB7BB" RewardIndex="2" />
+				<CompleteQuest QuestName="Mother" QuestId="0xE000F50CD0ECB7BB" />
 			</If>
 		
 			<!-- Inquisitor - Building a Power Base and Turnin -->
@@ -1456,7 +1456,7 @@
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<CompleteQuest QuestName="Building a Power Base" QuestId="0xE00001948E78D284" RewardIndex="1" />
+				<CompleteQuest QuestName="Building a Power Base" QuestId="0xE00001948E78D284" />
 				<!-- Inquisitor - Visions and Visionaries 0xE000490AC1FCA8C5-->
 			</If>
 		
@@ -1532,7 +1532,7 @@
 						<WaitTimer QuestId="1" WaitTime="8" />
 					</If>
 				</If>
-				<CompleteQuest QuestName="Heist" QuestId="0xE000DD23FD180C6F" RewardIndex="4" />
+				<CompleteQuest QuestName="Heist" QuestId="0xE000DD23FD180C6F" />
 				<!-- Agent - The Watchful Eye 0xE00059BB2A778080-->
 			</If>
 		
@@ -1602,7 +1602,7 @@
 					</If>
 					<Interact Name="Holoterminal" IgnoreLOS="True" WaitTime="5" XYZ="-0.005652264,1.158703,-0.7875819" />
 				</If>
-				<CompleteQuest QuestName="The Watchful Eye" QuestId="0xE00059BB2A778080" RewardIndex="1" />
+				<CompleteQuest QuestName="The Watchful Eye" QuestId="0xE00059BB2A778080" />
 			</If>
 		
 			<!-- Agent - Paying Respects -->

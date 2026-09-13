@@ -1043,13 +1043,13 @@
 		<!-- Turnin The Senator's Stolen Goods-->
 		<If Condition="((HasQuest(0xE0009ECBE9AD9669)) and (not IsQuestComplete(0xE0009ECBE9AD9669)))">
 			<TurnInQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" TurnInName="Captain Denal-Zon" XYZ="224.9588,43.201,83.4084" />
-			<CompleteQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" RewardIndex="1" />
+			<CompleteQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" />
 		</If>
 
 		<!-- Turnin For Better or Worse -->
 		<If Condition="((HasQuest(0xE000932D76E0265A)) and (not IsQuestComplete(0xE000932D76E0265A)))">
 			<TurnInQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" TurnInName="Nik Deleru" XYZ="235.2605,43.211,81.4729" />
-			<CompleteQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" RewardIndex="2" />
+			<CompleteQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" />
 		</If>
 	
 		<!-- Guild Justice or Crisis Control -->
@@ -1111,13 +1111,13 @@
 		<!-- Knight - Turnin Stolen Secrets -->
 		<If Condition="((HasQuest(0xE000E209ED442C1B)) and (not IsQuestComplete(0xE000E209ED442C1B)))">
 			<TurnInQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" TurnInName="Agent Galen" XYZ="-130.945,144.001,-469.7042" />
-			<CompleteQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" RewardIndex="2" />
+			<CompleteQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" />
 		</If>
 		
 		<!-- Consular - Secret Signals -->
 		<If Condition="((HasQuest(0xE000D7724FAE1B50)) and (not IsQuestComplete(0xE000D7724FAE1B50)))">
 			<TurnInQuest QuestName="Secret Signals" QuestId="0xE000D7724FAE1B50" TurnInName="Attros Finn" XYZ="-128.1289,146.801,-473.1759" />
-			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" RewardIndex="2" />
+			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" />
 			<!-- The Flow of Goods 0xE0007AC212612015 -->
 			<!-- Force train, sell, repair, mail -->
 		</If>
@@ -1125,7 +1125,7 @@
 		<!-- Turnin The Politics of Dissent -->
 		<If Condition="((HasQuest(0xE000A244D911F0B5)) and (not IsQuestComplete(0xE000A244D911F0B5)))">
 			<TurnInQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" TurnInName="Spirakris Zarem" XYZ="-113.8765,142.701,-433.5812" />
-			<CompleteQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" RewardIndex="1" />
+			<CompleteQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" />
 		</If>
 	
 		<!-- Pickup The Freightskippers -->
@@ -1201,7 +1201,7 @@
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 6)))">
 				<AnswerHolocomCall QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			</If>
-			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" RewardIndex="2" />
+			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			<!-- The Coming Darkness 0xE000CA0AB586CC72 -->
 		</If>
 	
@@ -1320,7 +1320,7 @@
 		<!-- TurnIn Boom -->
 		<If Condition="((HasQuest(0xE000A0B1444F9516)) and (not IsQuestComplete(0xE000A0B1444F9516)))">
 			<TurnInQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" TurnInName="Captain Theraguin" XYZ="-365.0376,-132.699,-18.3224" />
-			<CompleteQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" RewardIndex="2" />
+			<CompleteQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" />
 		</If>
 		
 		<!-- TurnIn Freightskipper Fracas -->
@@ -1332,7 +1332,7 @@
 		<!--  TurnIn The Pickup -->
 		<If Condition="((HasQuest(0xE000C94346CC588B)) and (not IsQuestComplete(0xE000C94346CC588B)))">
 			<TurnInQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" TurnInName="Dooce Everton" XYZ="-330.853,-127.099,-32.6137" />
-			<CompleteQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" RewardIndex="1" />
+			<CompleteQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" />
 		</If>
 		
 		<!-- Pickup Secret Passages -->
@@ -1346,7 +1346,7 @@
 		<!-- Turnin The Freightskippers -->
 		<If Condition="((HasQuest(0xE0003775DB998EEA)) and (not IsQuestComplete(0xE0003775DB998EEA)))">
 			<TurnInQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" TurnInName="Agent Nurls Yorksin" XYZ="-115.2399,142.701,-431.7927" />
-			<CompleteQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" RewardIndex="2" />
+			<CompleteQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" />
 		</If>
 	
 		<!-- Consular - The Coming Darkness -->
@@ -1360,14 +1360,14 @@
 			<If Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 3)))">
 				<TalkTo QuestId="0xE000CA0AB586CC72" Name="Attros Finn" XYZ="-125.6767,143.6074,-459.8438" />
 			</If>
-			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" RewardIndex="1" />
+			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" />
 			<!-- Shadows 0xE000EA34B5143847 -->
 		</If>
 		
 		<!-- Gree: Hydrosupply Leak -->
 		<If Condition="((HasQuest(0xE000C066640EF83A)) and (not IsQuestComplete(0xE000C066640EF83A)))">
 			<TurnInQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" TurnInName="Nam-aK" XYZ="-107.4732,143.601,-469.7384" />
-			<CompleteQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" RewardIndex="2" />
+			<CompleteQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" />
 			<!-- Gree: Repairing Coruscant 0xE000B69EFF85EC77 -->
 		</If>
 		
@@ -1418,13 +1418,13 @@
 		</If>
 		<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 6, 3)))">
 			<TurnInQuest QuestName="Hot Pursuit" QuestId="0xE000D0A7D6B0A490" TurnInName="Darmas Pollaran" XYZ="218.0887,43.3009,71.9353" />
-			<CompleteQuest QuestName="Hot Pursuit" QuestId="0xE000D0A7D6B0A490" RewardIndex="2" />
+			<CompleteQuest QuestName="Hot Pursuit" QuestId="0xE000D0A7D6B0A490" />
 		</If>
 		
 		<!-- Turnin Partial Eclipse -->
 		<If Condition="((HasQuest(0xE00028080811E924)) and (not IsQuestComplete(0xE00028080811E924)))">
 			<TurnInQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" TurnInName="Nizkif" XYZ="224.6823,42.941,62.9208" />
-			<CompleteQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" RewardIndex="2" />
+			<CompleteQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" />
  
 			<UseTransport TransporterName="Galactic Market Taxi" Type="Taxi" Option="Justicar Territory Taxi" 
 									XYZ="246.0565,44.401,61.6166" />
@@ -1463,7 +1463,7 @@
 		<!-- TurnIn White Noise -->
 		<If Condition="((HasQuest(0xE000722E606A22EC)) and (not IsQuestComplete(0xE000722E606A22EC)))">
 			<TurnInQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" TurnInName="Agent Jaffkee" XYZ="124.154,-106.299,401.716" />
-			<CompleteQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" RewardIndex="2" />
+			<CompleteQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" />
 		</If>
 	
 		<!-- Secret Passages Bonus 1 -->
@@ -1534,7 +1534,7 @@
 				<TalkTo QuestId="0xE0004B2073D9A6BC" Name="Miel Muwn" XYZ="104.0115,-106.1803,439.6025" />
 			</If>
 			<TurnInQuest QuestName="Due Process" QuestId="0xE0004B2073D9A6BC" TurnInName="Jiik" XYZ="103.9751,-106.1801,436.3846" />
-			<CompleteQuest QuestName="Due Process" QuestId="0xE0004B2073D9A6BC" RewardIndex="1" />
+			<CompleteQuest QuestName="Due Process" QuestId="0xE0004B2073D9A6BC" />
 		</If>
 	 
 		<!-- Killed in Custody -->
@@ -1604,7 +1604,7 @@
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 8)))">
 				<AnswerHolocomCall QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 			</If>
-			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" RewardIndex="2" />
+			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 			<!-- Open - Rudimentary Premium Storage Case -->
 			<!-- Ancient Secrets 0xE00053DFB0207384 -->
 		</If>
@@ -1612,19 +1612,19 @@
 		<!-- Turnin A Diverting Assignment	-->
 		<If Condition="((HasQuest(0xE000F27CD57F5313)) and (not IsQuestComplete(0xE000F27CD57F5313)))">
 			<TurnInQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" TurnInName="Reid Gandon" XYZ="109.8725,-106.299,406.3755" />
-			<CompleteQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" RewardIndex="3" />
+			<CompleteQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" />
 		</If>
 	
 		<!-- Turnin Killed in Custody -->
 		<If Condition="((HasQuest(0xE0003A635B548550)) and (not IsQuestComplete(0xE0003A635B548550)))">
 			<TurnInQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" TurnInName="Paus" XYZ="111.435,-106.299,407.2402" />
-			<CompleteQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" RewardIndex="2" />
+			<CompleteQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" />
 		</If>
 
 		<!-- Turnin Justicar Injustice -->
 		<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsQuestComplete(0xE000E6BFD5F03C51)))">
 			<TurnInQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" TurnInName="Renalda Agareth" XYZ="123.7442,-105.2548,413.374" />
-			<CompleteQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" RewardIndex="1" />
+			<CompleteQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" />
 		</If>
 	
 		<!-- Turnin Justicar Resistance -->
@@ -1643,7 +1643,7 @@
 		<!-- Turnin Gree: Ugnaught Saboteurs -->
 		<If Condition="((HasQuest(0xE0005D6EEB46C12F)) and (not IsQuestComplete(0xE0005D6EEB46C12F)))">
 			<TurnInQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" TurnInName="Gree Console" Type="Placeable" XYZ="117.9152,-105.299,421.9393" />
-			<CompleteQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" RewardIndex="2" />
+			<CompleteQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" />
 			<!-- Gree: Power Outage 0xE0006C7A2D49F7A7 -->
 		</If>
 	
@@ -1737,7 +1737,7 @@
 				<Grind GrindRef="Core Complications (Bonus)" While="(not IsQuestComplete(0xE000B0F6AC0FDC4B))" />
 			</If>
 			<TurnInQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" Type="Placeable" UseRange="2" TurnInName="Drop Site" XYZ="83.75269,-226.7723,485.892" />
-			<CompleteQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" RewardIndex="2" />
+			<CompleteQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" />
 		</If>
 		
 		<!-- Turnin Enemy Droid-machines -->
@@ -1806,7 +1806,7 @@
 		<!-- Turnin Planetary Checkup -->
 		<If Condition="((HasQuest(0xE00011CDB88B88CF)) and (not IsQuestComplete(0xE00011CDB88B88CF)))">
 			<TurnInQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" TurnInName="Fez Burba" XYZ="124.9898,-105.299,428.6593" />
-			<CompleteQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" RewardIndex="1" />
+			<CompleteQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" />
 			<!-- Open Rudimentary Premium Storage Case -->
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
@@ -1820,7 +1820,7 @@
 									XYZ="124.9337,-105.299,430.7395" />
 			</If>
 			<TurnInQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" TurnInName="Ozurist" XYZ="120.8,-226.2636,429.6701" />
-			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" RewardIndex="2" />
+			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" />
  
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Territory"
 									XYZ="122.3554,-226.2697,429.9664" />
@@ -1832,7 +1832,7 @@
 		<!-- Turnin Secret Passages -->
 		<If Condition="((HasQuest(0xE000F0BE99AD590B)) and (not IsQuestComplete(0xE000F0BE99AD590B)))">
 			<TurnInQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" TurnInName="Lieutenant Doorn" XYZ="-329.2979,-127.0957,-30.1709" />
-			<CompleteQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" RewardIndex="2" />
+			<CompleteQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" />
  
 			<UseTransport TransporterName="Black Sun Territory Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
 									XYZ="-331.6994,-127.099,-30.0932" />
@@ -1850,7 +1850,7 @@
 		<!-- Turnin Insult to Injury -->
 		<If Condition="((HasQuest(0xE00039C476F69322)) and (not IsQuestComplete(0xE00039C476F69322)))">
 			<TurnInQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" TurnInName="Senator Starsnow" XYZ="-120.7241,146.8039,-473.1175" />
-			<CompleteQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" RewardIndex="2" />
+			<CompleteQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" />
 			
 			<ForceVendor VendorType="Train" />
 			<WaitTimer QuestId="1" WaitTime="5" />
@@ -1887,10 +1887,10 @@
 				</If>
 			</If>
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Sage)">
-				<CompleteQuest QuestName="Ancient Secrets" QuestId="0xE00053DFB0207384" RewardIndex="1" />
+				<CompleteQuest QuestName="Ancient Secrets" QuestId="0xE00053DFB0207384" />
 			</If>
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Shadow)">
-				<CompleteQuest QuestName="Ancient Secrets" QuestId="0xE00053DFB0207384" RewardIndex="3" />
+				<CompleteQuest QuestName="Ancient Secrets" QuestId="0xE00053DFB0207384" />
 			</If>
 			<CompleteQuest QuestName="Introducting C2N2" QuestId="0xE0004CEEE4D1C836" />
 			<!-- 

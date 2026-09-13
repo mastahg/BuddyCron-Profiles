@@ -849,7 +849,7 @@
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 8)))">
 				<UseObject QuestId="0xE000865F87CB1054" ObjectName="Identification Card" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="40.85533,25.04757,66.05173" />
 			</If>
-			<CompleteQuest QuestName="Hostile Population" QuestId="0xE000865F87CB1054" RewardIndex="1" />
+			<CompleteQuest QuestName="Hostile Population" QuestId="0xE000865F87CB1054" />
 			<!-- Consular - Category Ten 0xE000B1192853D0EC-->
 		</If>
 		
@@ -873,7 +873,7 @@
 			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 5)))">
 				<UseObject QuestId="0xE000B93790BD61B9" ObjectName="Generator Control Panel" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="121.6967,29.49462,96.10966" />
 			</If>
-			<CompleteQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" RewardIndex="3" />
+			<CompleteQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" />
 		</If>
 		
 		<!-- The Magnetar Rifles and Turnin -->
@@ -902,14 +902,14 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" TurnInName="Assistant Warden Graal" XYZ="92.4476,28.576,14.2511" />
-			<CompleteQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" RewardIndex="4" />
+			<CompleteQuest QuestName="The Magnetar Rifles" QuestId="0xE00034350E9223A5" />
 			<!-- Crisis Prevention 0xE00028183F7D7C46-->
 		</If>
 		
 		<!-- Turnin For Want of a Droid -->
 		<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsQuestComplete(0xE00085A5F97528A5)))">
 			<TurnInQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" TurnInName="Officer Narong" XYZ="122.008,30.55272,22.5167" />
-			<CompleteQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" RewardIndex="3" />
+			<CompleteQuest QuestName="For Want of a Droid" QuestId="0xE00085A5F97528A5" />
 		</If>
 		
 		<PickUpQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" GiverName="Officer Vempor" XYZ="125.1363,30.55048,26.5369" />
@@ -925,7 +925,7 @@
 			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 4)))">
 				<TalkTo QuestId="0xE000E72A70C485D1" Name="Family Member" XYZ="49.6298,30.74063,5.865002" />
 			</If>
-			<CompleteQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" RewardIndex="1" />
+			<CompleteQuest QuestName="Evacuation" QuestId="0xE000E72A70C485D1" />
 		</If>
 		
 		<!-- Ignoring [HEROIC 2+] Jungle Flight -->
@@ -948,7 +948,7 @@
 			<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 4)))">
 				<UseObject QuestId="0xE00028183F7D7C46" ObjectName="Computer Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="16.38093,24.4047,124.5264" />
 			</If>
-			<CompleteQuest QuestName="Crisis Prevention" QuestId="0xE00028183F7D7C46" RewardIndex="1" />
+			<CompleteQuest QuestName="Crisis Prevention" QuestId="0xE00028183F7D7C46" />
 			<!-- Riot in the Warden's Station 0xE0008EB9032A851C-->
  
 			<UseTransport TransporterName="Republic Guardpost Beta Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
@@ -979,7 +979,7 @@
 			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 7)))">
 				<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" XYZ="86.7851,28.501,19.6893" />
 			</If>
-			<CompleteQuest QuestName="Riot in the Warden's Station" QuestId="0xE0008EB9032A851C" RewardIndex="1" />
+			<CompleteQuest QuestName="Riot in the Warden's Station" QuestId="0xE0008EB9032A851C" />
 			<!-- Anointed Vine-silk Sash -->
 			<!-- Maximum Security 0xE000399E31A55E10-->
  
@@ -1003,7 +1003,7 @@
 				<UseObject QuestId="0xE0001D9E984EDB4F" ObjectName="Power Core Bomb" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="8.197211,19.78205,69.98881" />
 			</If>
 			<TurnInQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" TurnInName="Colonel Hauer" XYZ="0.8195953,26.25956,58.6236" />
-			<CompleteQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" RewardIndex="1" />
+			<CompleteQuest QuestName="Countdown to Jailbreak" QuestId="0xE0001D9E984EDB4F" />
 			<!-- War Games 0xE000635999CDCE6E-->
 		</If>
 		
@@ -1036,13 +1036,13 @@
 				<UseObject QuestId="0xE00043688F135798" ObjectName="Generator" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-110.2513,22.84684,52.67648" />
 			</If>
 			<TurnInQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" TurnInName="Major Camren" XYZ="-4.476593,24.00509,56.4015" />
-			<CompleteQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" RewardIndex="1" />
+			<CompleteQuest QuestName="Explosive Entrance" QuestId="0xE00043688F135798" />
 		</If>
 		
 		<!-- Turnin Speaking Their Language -->
 		<If Condition="((HasQuest(0xE000F9CDBDF826FA)) and (not IsQuestComplete(0xE000F9CDBDF826FA)))">
 			<TurnInQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" TurnInName="Officer Serik" XYZ="-5.941101,24.00608,55.9897" />
-			<CompleteQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" RewardIndex="1" />
+			<CompleteQuest QuestName="Speaking Their Language" QuestId="0xE000F9CDBDF826FA" />
 		</If>
 	
 		<!-- War Games -->
@@ -1155,7 +1155,7 @@
 				<MoveTo QuestId="1" XYZ="-88.09993,21.901,-85.85752" />
 				<UseObject QuestId="0xE000B1192853D0EC" ObjectName="Destroyed Rataka Terminal" BranchId="1" StepId="6" UseRange="20" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="-88.09993,21.901,-85.85752" />
 			</If>
-			<CompleteQuest QuestName="Category Ten" QuestId="0xE000B1192853D0EC" RewardIndex="1" />
+			<CompleteQuest QuestName="Category Ten" QuestId="0xE000B1192853D0EC" />
 			<!-- Taking on the Asylum 0xE00062AF4E3B5FD6-->
 		</If>
 		
@@ -1168,7 +1168,7 @@
 		<!-- Turnin War Games -->
 		<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsQuestComplete(0xE000635999CDCE6E)))">
 			<TurnInQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" TurnInName="Colonel Hauer" XYZ="0.8195953,26.25956,58.6236" />
-			<CompleteQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" RewardIndex="1" />
+			<CompleteQuest QuestName="War Games" QuestId="0xE000635999CDCE6E" />
 			<!-- The Deep Prisons 0xE0002D2D285F5275-->
 		</If>
 		
@@ -1238,7 +1238,7 @@
 			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 6)))">
 				<TalkTo QuestId="0xE00062AF4E3B5FD6" Name="Lhunu" XYZ="-155.012,19.98414,-85.8068" />
 			</If>
-			<CompleteQuest QuestName="Taking on the Asylum" QuestId="0xE00062AF4E3B5FD6" RewardIndex="3" />
+			<CompleteQuest QuestName="Taking on the Asylum" QuestId="0xE00062AF4E3B5FD6" />
 			<!-- The Voice From The Tomb 0xE0007866ACA716C2-->
 		</If>
 		
@@ -1331,19 +1331,19 @@
 									XYZ="-174.6815,21.6929,-81.38072" />
 			</If>
 			<TurnInQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" TurnInName="Lora" XYZ="-146.113,26.97806,-32.1348" />
-			<CompleteQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" RewardIndex="1" />
+			<CompleteQuest QuestName="Forging a Path" QuestId="0xE0007947BCE4DEBE" />
 		</If>
 		
 		<!-- Turnin Friendly Fire -->
 		<If Condition="((HasQuest(0xE000B8DEE6A887BB)) and (not IsQuestComplete(0xE000B8DEE6A887BB)))">
 			<TurnInQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" TurnInName="Sergeant Nerrick" XYZ="-147.5913,26.98019,-28.0786" />
-			<CompleteQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" RewardIndex="3" />
+			<CompleteQuest QuestName="Friendly Fire" QuestId="0xE000B8DEE6A887BB" />
 		</If>
 		
 		<!-- Turnin Shadows from the Past: Esh-kha Leaders -->
 		<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsQuestComplete(0xE00044AC51F792D7)))">
 			<TurnInQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" TurnInName="General Skylast" XYZ="-147.991,27.291,-36.98882" />
-			<CompleteQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" RewardIndex="2" />
+			<CompleteQuest QuestName="Shadows from the Past: Esh-kha Leaders" QuestId="0xE00044AC51F792D7" />
 			<!-- Striking the Esh-kha 0xE000EDD86673B47E-->
 			
 			<UseTransport TransporterName="Rataka Transporter" Type="Taxi" InteractRange="0.1" Option="Outer Tomb Transport Center" 
@@ -1450,13 +1450,13 @@
 				<MoveTo QuestId="1" XYZ="-127.3402,17.68954,-103.4796" />
 				<UseObject QuestId="0xE000EDD86673B47E" ObjectName="Rakata Holoterminal" BranchId="1" StepId="6" IgnoreLOS="True" UseRange="20" Radius="20" WaitTime="5" XYZ="-127.3392,17.69643,-103.4697" />
 			</If>
-			<CompleteQuest QuestName="Striking the Esh-kha" QuestId="0xE000EDD86673B47E" RewardIndex="1" />
+			<CompleteQuest QuestName="Striking the Esh-kha" QuestId="0xE000EDD86673B47E" />
 		</If>
 		
 		<!-- Turnin Prison Power Outage -->
 		<If Condition="((HasQuest(0xE000FF345DE28FB7)) and (not IsQuestComplete(0xE000FF345DE28FB7)))">
 			<TurnInQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" Type="Placeable" UseRange="2" TurnInName="Monitor Station" XYZ="-104.4601,17.56783,-131.4975" />
-			<CompleteQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" RewardIndex="3" />
+			<CompleteQuest QuestName="Prison Power Outage" QuestId="0xE000FF345DE28FB7" />
 		</If>
 		
 		<!-- Turnin Secrets of the Deep -->
@@ -1512,13 +1512,13 @@
 				<Grind GrindRef="This is Sabotage (Bonus)" While="(not IsQuestComplete(0xE000E943EF0DFBFD))" />
 			</If>
 			<TurnInQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" TurnInName="Rakata Computer" XYZ="-93.09548,16.311,-149.7126" />
-			<CompleteQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" RewardIndex="1" />
+			<CompleteQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" />
 		</If>
 		
 		<!-- Turnin Unexpected Assistance -->
 		<If Condition="((HasQuest(0xE00001C0DD51D63A)) and (not IsQuestComplete(0xE00001C0DD51D63A)))">
 			<TurnInQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" TurnInName="TM-09" XYZ="-104.8652,17.5657,-132.216" />
-			<CompleteQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" RewardIndex="3" />
+			<CompleteQuest QuestName="Unexpected Assistance" QuestId="0xE00001C0DD51D63A" />
 		</If>
 		<CompleteQuest QuestName="Esh-Kha Proofing" QuestId="0xE000FFCFA4164C14" /> <!-- Where does this go? -->
 	
@@ -1537,7 +1537,7 @@
 			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 4)))">
 				<UseObject QuestId="0xE000ED82CBAE2C0E" ObjectName="Stasis Chamber" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-28.12756,9.7431,-122.4022" />
 			</If>
-			<CompleteQuest QuestName="Failsafe" QuestId="0xE000ED82CBAE2C0E" RewardIndex="3" />
+			<CompleteQuest QuestName="Failsafe" QuestId="0xE000ED82CBAE2C0E" />
 			<!-- The World Razer 0xE000FBCE093C560A-->
 		</If>
 		
@@ -1635,7 +1635,7 @@
 		<!-- Turnin The World Razer -->
 		<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsQuestComplete(0xE000FBCE093C560A)))">
 			<TurnInQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" TurnInName="General Skylast" XYZ="-147.991,27.291,-36.97638" />
-			<CompleteQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" RewardIndex="1" />
+			<CompleteQuest QuestName="The World Razer" QuestId="0xE000FBCE093C560A" />
  
 			<UseTransport TransporterName="Republic Ops Center Speeder" Type="Taxi" Option="Prison Administration Center Speeder" 
 									XYZ="-156.3876,27.07195,-34.3323" />
@@ -1661,7 +1661,7 @@
 				<!-- If I am in my Ship -->
 				<UseObject QuestId="0xE0007866ACA716C2" BranchId="1" StepId="16" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9778407,1.651,2.675255" />
 			</If>
-			<CompleteQuest QuestName="The Voice From The Tomb" QuestId="0xE0007866ACA716C2" RewardIndex="3" />
+			<CompleteQuest QuestName="The Voice From The Tomb" QuestId="0xE0007866ACA716C2" />
 			<!-- Fearless 0xE000EC7E57F1DD17-->
 		</If>
 		
@@ -1697,7 +1697,7 @@
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 7)))">
 				<UseObject QuestId="0xE000EC7E57F1DD17" BranchId="1" StepId="7" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9420362,1.651,2.678125" />
 			</If>
-			<CompleteQuest QuestName="Fearless" QuestId="0xE000EC7E57F1DD17" RewardIndex="2" />
+			<CompleteQuest QuestName="Fearless" QuestId="0xE000EC7E57F1DD17" />
 		</If>
 
 		<!-- Consular - A Thorny Path -->

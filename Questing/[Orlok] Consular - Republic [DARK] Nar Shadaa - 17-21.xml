@@ -975,7 +975,7 @@
 			<If Condition="((HasQuest(0xE0000B22F094CB77)) and (not IsStepComplete(0xE0000B22F094CB77, 9)))">
 				<TalkTo QuestId="0xE0000B22F094CB77" Name="Tharan Cedrax" XYZ="-347.9652,22.501,-316.9206" />
 			</If>
-			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" RewardIndex="2" />
+			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" />
 			<!-- Auto Accept Consular Running with the Lancers (Bonus) 0xE0006111E609853E -->
 		</If>
 		
@@ -1052,7 +1052,7 @@
 					<AnswerHolocomCall QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" />
 				</TempConvoSkip>
 			</If>
-			<CompleteQuest QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" RewardIndex="2" />
+			<CompleteQuest QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" />
 			<!-- Consular - The Master (Bonus) 0xE000581244AEE1B0 -->
 			<If Condition="(Me.Position.X &lt;= -250) and (Me.Position.Z &lt;= 301)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
@@ -1085,7 +1085,7 @@
 			<If Condition="((HasQuest(0xE000581244AEE1B0)) and (not IsStepComplete(0xE000581244AEE1B0, 6)))">
 				<UseObject QuestId="0xE000581244AEE1B0" ObjectName="Holoterminal" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="323.3947,-313.6966,-335.1982" />
 			</If>
-			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" RewardIndex="3" />
+			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" />
 			<!-- Consular - Shadow Town (Bonus) 0xE00066F2E7E7CB3E-->
 			<!-- Equip Companion Item - Qyzen's Reinforced Jacket -->
 			<MoveTo QuestId="0xE000581244AEE1B0" Name="Defender" Radius="20" WaitTime="5" XYZ="334.5021,-312.499,-306.8633" />

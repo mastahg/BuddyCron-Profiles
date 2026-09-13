@@ -918,7 +918,7 @@
 				<Grind GrindRef="The Hunted 4" While="(not IsStepComplete(0xE00099219A9CAE3C, 4))" />
 			</If>
 			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
-			<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" RewardIndex="5" />
+			<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 		</If>
 	
 		<!-- Smuggler's Route 2-5 -->
@@ -961,7 +961,7 @@
 				<TalkTo QuestId="0xE000E6769E03941D" Name="Izink" XYZ="217.337,43.37689,-400.7302" />
 			</If>
 			<TurnInQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" TurnInName="Constable Bakishan" XYZ="226.4605,42.10374,-369.1634" />
-			<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" RewardIndex="3" />
+			<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" />
 		</If>
 		
 		<!-- Smuggler's Route and Turnin -->
@@ -988,7 +988,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" TurnInName="Sheriff Encot" XYZ="176.4121,45.0668,-344.7314" />
-			<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" RewardIndex="2" />
+			<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
  
 			<!-- We should be 25 by now -->
 			<!-- Forcetrain -->
@@ -1069,7 +1069,7 @@
 				<TalkTo QuestId="0xE000F1A8B5387ABA"	Name="Tteek Tlek" XYZ="101.1615,44.51018,-269.6116" />
 			</If>
 			<TurnInQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" TurnInName="Rowan Delk" XYZ="82.829,43.41175,-158.6738" />
-			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" RewardIndex="1" />
+			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" />
 			<!-- Consular - Visions in the Sand 0xE0004E970935A120-->
 			<!-- Consular - Equip Companion with Qyzen's Upgraded Techblade -->
 		</If>
@@ -1077,7 +1077,7 @@
 		<!-- Turnin [AREA] Geonosian Counterattack -->
 		<If Condition="((HasQuest(0xE0004CEBA35DB5B8)) and (not IsQuestComplete(0xE0004CEBA35DB5B8)))">
 			<TurnInQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" Type="Placeable" TurnInName="Mission Terminal" XYZ="81.6785,44.65361,-161.5599" />
-			<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" RewardIndex="1" />
+			<CompleteQuest QuestName="[AREA] Geonosian Counterattack" QuestId="0xE0004CEBA35DB5B8" />
 		</If>
 
 		<!-- Shock Treatment 2 -->
@@ -1094,7 +1094,7 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" TurnInName="Veek" XYZ="79.2514,43.56651,-157.4101" />
-			<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" RewardIndex="3" />
+			<CompleteQuest QuestName="Shock Treatment" QuestId="0xE0003BF69E6650DB" />
 		</If>
 		
 		<!-- Ignoring 4+ Search and Rescue -->
@@ -1116,7 +1116,7 @@
 				<Grind GrindRef="Pacify the Perimeter (Bonus)" While="(not IsQuestComplete(0xE000059952E4735E))" />
 			</If>
 			<TurnInQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" TurnInName="Tre Nareves" XYZ="36.467,43.50631,-139.9192" />
-			<CompleteQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" RewardIndex="3" />
+			<CompleteQuest QuestName="Goodwill" QuestId="0xE000CF4567AECE61" />
 		</If>
 		
 		<!-- Pickup Target Practice -->
@@ -1140,7 +1140,7 @@
 				<TalkTo QuestId="0xE00092A1D0D46728" Name="Fauler" XYZ="237.84,34.18792,-377.7356" />
 				<!-- Elevator up -->
 			</If>
-			<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" RewardIndex="3" />
+			<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" />
 			<!-- Last One Out 0xE000CD19F6C033BB -->
 		 
 			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
@@ -1175,7 +1175,7 @@
 				<MoveTo QuestId="0xE000CD19F6C033BB" Name="Grommik Kurthson" XYZ="100.1075,43.31841,-246.7044" />
 			</If>
 			<TurnInQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" TurnInName="Fauler" XYZ="0.9972992,45.8427,-175.6832" />
-			<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" RewardIndex="4" />
+			<CompleteQuest QuestName="Last One Out" QuestId="0xE000CD19F6C033BB" />
 		</If>
 		
 		<!-- Penalty for Theft -->
@@ -1254,7 +1254,7 @@
 					<AnswerHolocomCall QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 				</TempConvoSkip>
 			</If>
-			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" RewardIndex="2" />
+			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 			<!-- Consular - Death in the Dunes 0xE000F56E63DC90D8 -->
 		</If>
 		
@@ -1287,10 +1287,10 @@
 		<If Condition="((HasQuest(0xE00052D8372B16AC)) and (not IsQuestComplete(0xE00052D8372B16AC)))">
 			<TurnInQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" TurnInName="Raith Bannik" XYZ="4.034607,45.65218,-175.8452" />
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Sage)">
-				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" RewardIndex="3" />
+				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" />
 			</If>
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Shadow)">
-				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" RewardIndex="4" />
+				<CompleteQuest QuestName="Penalty for Theft" QuestId="0xE00052D8372B16AC" />
 			</If>
 		</If>
 		
@@ -1303,14 +1303,14 @@
 		<!-- Turnin Field Trip -->
 		<If Condition="((HasQuest(0xE00021D6563620D1)) and (not IsQuestComplete(0xE00021D6563620D1)))">
 			<TurnInQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" TurnInName="Fauler" XYZ="0.9972992,45.8427,-175.6832" />
-			<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" RewardIndex="3" />
+			<CompleteQuest QuestName="Field Trip" QuestId="0xE00021D6563620D1" />
 			<!-- The Thing Czerka Found 0xE000C745A1B9B4D5 -->
 		</If>
 		
 		<!-- Turnin Target Practice -->
 		<If Condition="((HasQuest(0xE000DD72B7EB8B7F)) and (not IsQuestComplete(0xE000DD72B7EB8B7F)))">
 			<TurnInQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" TurnInName="Constable Surall" XYZ="11.8835,43.81311,-155.6109" />
-			<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" RewardIndex="1" />
+			<CompleteQuest QuestName="Target Practice" QuestId="0xE000DD72B7EB8B7F" />
 		</If>
 		
 		<!-- The Thing Czerka Found 2 -->
@@ -1338,7 +1338,7 @@
 				<MoveTo QuestId="0xE000F56E63DC90D8" Name="My Location" XYZ="-89.04349,45.90104,-128.6122" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
-			<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="5" />
+			<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" />
 			<!-- The Ultimate Warriors 0xE000AE4F49390A99-->
 		</If>
 		
@@ -1456,19 +1456,19 @@
 		<!-- Turnin Can't Live With 'Em -->
 		<If Condition="((HasQuest(0xE000B558D998D568)) and (not IsQuestComplete(0xE000B558D998D568)))">
 			<TurnInQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" TurnInName="Lem Trudo" XYZ="-112.4655,42.2924,-131.471" />
-			<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" RewardIndex="3" />
+			<CompleteQuest QuestName="Can't Live With 'Em" QuestId="0xE000B558D998D568" />
 		</If>
 		
 		<!-- Turnin Desert Raid -->
 		<If Condition="((HasQuest(0xE000A9D54A013CEA)) and (not IsQuestComplete(0xE000A9D54A013CEA)))">
 			<TurnInQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" TurnInName="Tai'ya Rocca" XYZ="-115.578,42.24839,-132.3463" />
-			<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" RewardIndex="2" />
+			<CompleteQuest QuestName="Desert Raid" QuestId="0xE000A9D54A013CEA" />
 		</If>
 		
 		<!-- Turnin Pre-emptive Strike -->
 		<If Condition="((HasQuest(0xE00011F9B1114809)) and (not IsQuestComplete(0xE00011F9B1114809)))">
 			<TurnInQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" TurnInName="Security Chief Barret" XYZ="-114.7605,42.55384,-137.5237" />
-			<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" RewardIndex="3" />
+			<CompleteQuest QuestName="Pre-emptive Strike" QuestId="0xE00011F9B1114809" />
 		</If>
 		
 		<!-- Turnin A Thorough Cleaning -->
@@ -1483,7 +1483,7 @@
 		<!-- Turnin The Thing Czerka Found -->
 		<If Condition="((HasQuest(0xE000C745A1B9B4D5)) and (not IsQuestComplete(0xE000C745A1B9B4D5)))">
 			<TurnInQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" TurnInName="Fauler" XYZ="1.021805,45.8427,-175.6304" />
-			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" RewardIndex="1" />
+			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" />
 			<!-- Force Sell / Repair / Mail -->
 		 
 			<UseTransport TransporterName="Outpost Salara Speeder" Type="Taxi" Option="Anchorhead Speeder" 
@@ -1522,7 +1522,7 @@
 				<Grind GrindRef="Militia Training 3" While="(not IsStepComplete(0xE00033043A34F770, 3))" />
 			</If>
 			<TurnInQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" TurnInName="Junter Galt" XYZ="170.2127,44.25325,-215.7945" />
-			<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" RewardIndex="3" />
+			<CompleteQuest QuestName="Militia Training" QuestId="0xE00033043A34F770" />
 			<!-- Militia's Trial 0xE000A7F9017979A9-->
 		</If>
 		
@@ -1569,7 +1569,7 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" TurnInName="Rinnas Edu" XYZ="156.6217,42.67605,-188.6903" />
-			<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" RewardIndex="3" />
+			<CompleteQuest QuestName="New Neighbors" QuestId="0xE000F9AFDD555042" />
 		</If>
 		
 		<!-- Trail of Ruin -->
@@ -1620,7 +1620,7 @@
 				<!-- 12k Elite -->
 			</If>
 			<TurnInQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" TurnInName="Doctor Aidarro" XYZ="174.5113,45.43246,-112.3777" />
-			<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" RewardIndex="4" />
+			<CompleteQuest QuestName="Militia's Trial" QuestId="0xE000A7F9017979A9" />
 			<!-- Learn Taxi, Bindpoint -->
 			<!-- Sell, Repair, Mail -->
 		 
@@ -1637,7 +1637,7 @@
 		<!-- Turnin Malicious Persecution -->
 		<If Condition="((HasQuest(0xE000F14A6C5A53A2)) and (not IsQuestComplete(0xE000F14A6C5A53A2)))">
 			<TurnInQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" TurnInName="Krikit" XYZ="163.9429,44.1649,-209.9381" />
-			<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" RewardIndex="5" />
+			<CompleteQuest QuestName="Malicious Persecution" QuestId="0xE000F14A6C5A53A2" />
 		</If>
 		
 		<!-- upon reflow, see if this quest is available before now -->
@@ -1646,7 +1646,7 @@
 		<!-- Turnin Trail of Ruin -->
 		<If Condition="((HasQuest(0xE0009895549E5043)) and (not IsQuestComplete(0xE0009895549E5043)))">
 			<TurnInQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" TurnInName="Dak Williks" XYZ="166.7408,44.2567,-216.6183" />
-			<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" RewardIndex="1" />
+			<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" />
 			<!-- Force Sell / Repair / Mail -->
 		 
 			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
@@ -1693,7 +1693,7 @@
 		<!-- Turnin The Geonosian Offensive -->
 		<If Condition="((HasQuest(0xE000807CD4DCC6DE)) and (not IsQuestComplete(0xE000807CD4DCC6DE)))">
 			<TurnInQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" TurnInName="Renishi" XYZ="163.7186,44.161,-211.4868" />
-			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" RewardIndex="2" />
+			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" />
 			<!-- Open Reinforced Small Credit Case -->
 		 
 			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
@@ -1750,14 +1750,14 @@
 		<!-- Turnin Quality Insurance -->
 		<If Condition="((HasQuest(0xE00085E99FE46892)) and (not IsQuestComplete(0xE00085E99FE46892)))">
 			<TurnInQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" TurnInName="Militia Officer Jule" XYZ="168.6115,44.64508,-103.4992" />
-			<CompleteQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" RewardIndex="1" />
+			<CompleteQuest QuestName="Quality Insurance" QuestId="0xE00085E99FE46892" />
 			<!-- Open Reinforced Small Credit Case -->
 		</If>
 		
 		<!-- Turnin The Water Pirates -->
 		<If Condition="((HasQuest(0xE000E16B1C7FA714)) and (not IsQuestComplete(0xE000E16B1C7FA714)))">
 			<TurnInQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" TurnInName="Dester" XYZ="175.991,45.46436,-106.2573" />
-			<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" RewardIndex="3" />
+			<CompleteQuest QuestName="The Water Pirates" QuestId="0xE000E16B1C7FA714" />
 		</If>
 	
 		<!-- Ignore 4+ - A Jawa's Concern -->
@@ -1831,7 +1831,7 @@
 		<!-- Turnin Show of Force -->
 		<If Condition="((HasQuest(0xE0002220A3FD6F10)) and (not IsQuestComplete(0xE0002220A3FD6F10)))">
 			<TurnInQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" TurnInName="Professor Larcoh" XYZ="168.2221,44.55211,-106.6499" />
-			<CompleteQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" RewardIndex="4" />
+			<CompleteQuest QuestName="Show of Force" QuestId="0xE0002220A3FD6F10" />
 		</If>
 		
 		<!-- Turnin The Fall of the Sand People -->
@@ -1843,7 +1843,7 @@
 		<!-- Turnin Buried Treasure -->
 		<If Condition="((HasQuest(0xE00051CDBBBB167D)) and (not IsQuestComplete(0xE00051CDBBBB167D)))">
 			<TurnInQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" TurnInName="Fez Burba" XYZ="172.0519,45.4407,-108.7426" />
-			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" RewardIndex="2" />
+			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" />
 			<!-- Open Reinforced Small Credit Case -->
  
 			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Anchorhead Speeder" 
@@ -1853,7 +1853,7 @@
 		<!-- Turnin Tatooine: Bonus Series -->
 		<If Condition="((HasQuest(0xE000A37B0923E609)) and (not IsQuestComplete(0xE000A37B0923E609)))">
 			<TurnInQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" TurnInName="Galen Besk" XYZ="170.4086,45.501,-341.3672" />
-			<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" RewardIndex="2" />
+			<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" />
 			<!-- Force Sell / Repair / Mail / Train -->
 		</If>
 		
@@ -1867,7 +1867,7 @@
 				<Interact QuestId="1" Name="Defender" Radius="20" WaitTime="5" XYZ="166.4718,38.56984,-315.5696" />
 			</If>
 			<TurnInQuest QuestName="The Ultimate Warriors" QuestId="0xE000AE4F49390A99" Type="Placeable" TurnInName="Holoterminal" XYZ="-0.01485645,1.676,1.386945" /> <!-- on ship -->
-			<CompleteQuest QuestName="The Ultimate Warriors" QuestId="0xE000AE4F49390A99" RewardIndex="2" />
+			<CompleteQuest QuestName="The Ultimate Warriors" QuestId="0xE000AE4F49390A99" />
 		</If>
 		
 		<!-- Consular - Diplomacy -->

@@ -262,7 +262,7 @@
 		
 		<!-- Breaking the Cure - Report to Agent Beshar -->
 		<TurnInQuest QuestName="Breaking the Cure" QuestId="0xE000728061FD054C" TurnInName="Agent Beshar" XYZ="-168.8932,-143.899,257.8778" />
-		<CompleteQuest QuestName="Breaking the Cure" QuestId="0xE000728061FD054C" RewardIndex="3" />
+		<CompleteQuest QuestName="Breaking the Cure" QuestId="0xE000728061FD054C" />
 		
 		
 		<!-- Prototype -->
@@ -323,7 +323,7 @@
 		
 		<!-- Prototype - Return to Lieutenant DeMare -->
 		<TurnInQuest QuestName="Prototype" QuestId="0xE000521C263C8511" TurnInName="Lieutenant DeMare" XYZ="-165.7047,-143.099,254.677" />
-		<CompleteQuest QuestName="Prototype" QuestId="0xE000521C263C8511" RewardIndex="2" />
+		<CompleteQuest QuestName="Prototype" QuestId="0xE000521C263C8511" />
 		
 		
 		<!-- Secret Assets -->
@@ -392,7 +392,7 @@
 		
 		<!-- Secret Assets -->
 		<TurnInQuest QuestName="Secret Assets" QuestId="0xE0000456F8B395DA" TurnInName="Cathan Dru" XYZ="-165.9888,-143.099,252.8359" />
-		<CompleteQuest QuestName="Secret Assets" QuestId="0xE0000456F8B395DA" RewardIndex="2" />
+		<CompleteQuest QuestName="Secret Assets" QuestId="0xE0000456F8B395DA" />
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Speak to DX-AX -->
@@ -514,7 +514,7 @@
 		
 		<!-- Zero Protocol -->
 		<TurnInQuest QuestName="Zero Protocol" QuestId="0xE000A8664EBB90AC" TurnInName="Commander Stron" XYZ="161.7546,-158.799,285.6277" />
-		<CompleteQuest QuestName="Zero Protocol" QuestId="0xE000A8664EBB90AC" RewardIndex="1" />
+		<CompleteQuest QuestName="Zero Protocol" QuestId="0xE000A8664EBB90AC" />
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Return to Narvusin -->
@@ -576,12 +576,12 @@
 		
 		<!-- Spreading the Word - Return to Minos Porter -->
 		<TurnInQuest QuestName="Spreading the Word" QuestId="0xE0008AE21A5472EE" TurnInName="Minos Porter" XYZ="170.813,-158.799,282.443" />
-		<CompleteQuest QuestName="Spreading the Word" QuestId="0xE0008AE21A5472EE" RewardIndex="3" />
+		<CompleteQuest QuestName="Spreading the Word" QuestId="0xE0008AE21A5472EE" />
 		
 		
 		<!-- Severance Pay - Return to Chiiv -->
 		<TurnInQuest QuestName="Severance Pay" QuestId="0xE000A88937BF381A" TurnInName="Chiiv" XYZ="161.5037,-158.799,284.1956" />
-		<CompleteQuest QuestName="Severance Pay" QuestId="0xE000A88937BF381A" RewardIndex="1" />
+		<CompleteQuest QuestName="Severance Pay" QuestId="0xE000A88937BF381A" />
 		
 		
 		<!-- Perhaps take Quick Travel to -->
@@ -600,7 +600,7 @@
 		<If Condition="Me.Class == CharacterClass.Agent">
 			<!-- Nar Shaddaa: Bonus Series -->
 			<TurnInQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE000FA06A85AE58A" TurnInName="Colonel Harok" XYZ="-217.6802,14.501,-181.0018" />
-			<CompleteQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE000FA06A85AE58A" RewardIndex="1" />
+			<CompleteQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE000FA06A85AE58A" />
 		
 		
 			<!-- Traveling to Alderaan - Binding it to "Formal Introductions" -->

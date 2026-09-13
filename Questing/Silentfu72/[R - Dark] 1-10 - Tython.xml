@@ -841,7 +841,7 @@
 				<AnswerHolocomCall QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" />
 			</If>
 			<TurnInQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" TurnInName="Master Satele Shan" XYZ="-42.28925,-7.4746,-33.21468" />
-			<CompleteQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" RewardIndex="1" />
+			<CompleteQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" />
 			<!-- Equip Apprentice's Vest -->
 			<!-- Auto-receive new quest: High-Tech Savages 0xE000941AE7D5C4D8 -->
 		</If>
@@ -867,7 +867,7 @@
 					<Grind GrindRef="Clear the Path to the Jedi Temple (Bonus)" While="(not IsQuestComplete(0xE000500EECAA6741))" />
 				</If>
 				<TurnInQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" TurnInName="Master Yuon Par" XYZ="-33.1236,-7.473284,-56.3757" />
-				<CompleteQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" RewardIndex="0" />
+				<CompleteQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" />
 				<!-- Auto-receive quest: Pilgrims (Bonus), ID: 0xE0009832354DE990, Step: 2 -->
 			</If>
 		</If>
@@ -893,7 +893,7 @@
 		<!-- Turnin Knight: The Arm That Holds the Saber -->
 		<If Condition="((HasQuest(0xE000241B683145EE)) and (not IsQuestComplete(0xE000241B683145EE)))">
 			<TurnInQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" TurnInName="Master Muheeda" XYZ="-33.6843,-5.12366,-37.3864" />
-			<CompleteQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" RewardIndex="1" />
+			<CompleteQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" />
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -962,7 +962,7 @@
 				<Grind GrindRef="Clear The Mountain Path (Bonus)" While="(not IsQuestComplete(0xE000E0842FB1E8D2))" />
 			</If>
 			<TurnInQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" TurnInName="Kolovish" XYZ="31.8411,9.224839,-51.7898" />
-			<CompleteQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" RewardIndex="1" />
+			<CompleteQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" />
 			<!-- Force Mail -->
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1040,11 +1040,11 @@
 			<!-- Quick Travel to Kalikori Village -->
 			<If Condition="(Me.Class == CharacterClass.Consular)">
 				<TurnInQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" TurnInName="Tazonthe Ghon" XYZ="13.6551,-0.7676925,-32.2149" />
-				<CompleteQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" RewardIndex="0" />
+				<CompleteQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Knight)">
 				<TurnInQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" TurnInName="Tazonthe Ghon" XYZ="13.6551,-0.7676925,-32.2149" />
-				<CompleteQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" RewardIndex="1" />
+				<CompleteQuest QuestName="Lost Pilgrim" QuestId="0xE0009F5278D8AEE7" />
 			</If>
 		</If>
 
@@ -1216,11 +1216,11 @@
 		<If Condition="((HasQuest(0xE00081FD7596DD74)) and (not IsQuestComplete(0xE00081FD7596DD74)))">
 			<If Condition="(Me.Class == CharacterClass.Consular)">
 				<TurnInQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" TurnInName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />
-				<CompleteQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" RewardIndex="0" />
+				<CompleteQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Knight)">
 				<TurnInQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" TurnInName="Jedi Till'in" XYZ="-23.7722,-2.569115,-5.7087" />
-				<CompleteQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" RewardIndex="1" />
+				<CompleteQuest QuestName="The Last Defenders" QuestId="0xE00081FD7596DD74" />
 			</If>
 			<!-- Force Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1266,7 +1266,7 @@
 				<MoveTo QuestId="0xE000E027508959A7" XYZ="-33.35854,-7.474478,-53.48325" />
 			</If>
 			<TurnInQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" TurnInName="Master Yuon Par" XYZ="-33.0117,-7.473284,-56.5156" />
-			<CompleteQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" RewardIndex="0" />
+			<CompleteQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" />
 			<!-- Hunter's Eye 0xE000A63F64D79501 -->
 			<!-- Open Medium Credit Box -->
 		</If>
@@ -1363,7 +1363,7 @@
 		<!-- Turnin Flesh Raider Fact-finding -->
 		<If Condition="((HasQuest(0xE000DB8D5F9EB7DC)) and (not IsQuestComplete(0xE000DB8D5F9EB7DC)))">
 			<TurnInQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" TurnInName="Master Meeb Wix" XYZ="13.7071,-0.7828179,-31.4855" />
-			<CompleteQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" RewardIndex="1" />
+			<CompleteQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" />
 		</If>
 	
 		<!-- Turnin New Recruit -->
@@ -1473,7 +1473,7 @@
 			<UseTransport TransporterName="Forward Camp Speeder" XYZ="-25.4954,-2.367607,-6.1771" 
 									Option="Jedi Temple Speeder" />
 			<TurnInQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" TurnInName="Master Yuon Par" XYZ="-33.1236,-7.473284,-56.3757" />
-			<CompleteQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" RewardIndex="0" />
+			<CompleteQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" />
 			<!-- Rajivari's Legacy 0xE000EAC98B7D73C4 -->
 			<!-- Open Medium Credit Box -->
 			<ForceVendor VendorType="Train" />
@@ -1518,7 +1518,7 @@
 			<If Condition="((HasQuest(0xE000A9CB998FEBA9)) and (not IsBranchStepComplete(0xE000A9CB998FEBA9, 12, 3)))">
 				<AnswerHolocomCall QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9" />
 			</If>
-			<CompleteQuest QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9" RewardIndex="1" />
+			<CompleteQuest QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9" />
 			<!-- Weapon of the Jedi 0xE000CBD20FC5289B -->
 			<!-- open character tab, press companion tab, Equip Item: T7 Customization 2 -->
 			
@@ -1792,7 +1792,7 @@
 									XYZ="-43.54809,-5.122989,-54.29406" />
 				</While>									
 				<WaitTimer QuestId="1" WaitTime="60" />
-				<CompleteQuest QuestName="An Afflicted Master" QuestId="0xE000BEC612EFB6D0" RewardIndex="2" />
+				<CompleteQuest QuestName="An Afflicted Master" QuestId="0xE000BEC612EFB6D0" />
 				<!-- Open Qyzen's Civilian Outfit, press Take All, equip them on companion (C, companion pane, equip items: Qyzen's Rugged Pants, Jacket, Boots) -->
 				<!-- The Arrival 0xE0000CB5D481F093 -->
  			

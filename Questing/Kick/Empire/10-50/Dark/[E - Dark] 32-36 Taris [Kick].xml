@@ -1054,7 +1054,7 @@
 		<!-- Turnin Barrage -->
 		<If Condition="((HasQuest(0xE00097EFF57035D7)) and (not IsQuestComplete(0xE00097EFF57035D7)))">
 			<TurnInQuest QuestName="Barrage" QuestId="0xE00097EFF57035D7" TurnInName="Darth Gravus" XYZ="-0.0625,-25.85179,44.998" />
-			<CompleteQuest QuestName="Barrage" QuestId="0xE00097EFF57035D7" RewardIndex="2" />
+			<CompleteQuest QuestName="Barrage" QuestId="0xE00097EFF57035D7" />
 			<!-- Militia Stomping -->
 		</If>
 		
@@ -1084,13 +1084,13 @@
 		<!-- Turnin Tainted Water -->
 		<If Condition="((HasQuest(0xE000269D4534988B)) and (not IsQuestComplete(0xE000269D4534988B)))">
 			<TurnInQuest QuestName="Tainted Water" QuestId="0xE000269D4534988B" TurnInName="Mission Dropbox" Type="Placeable" UseRange="2" XYZ="-5.294188,-25.72718,59.04303" />
-			<CompleteQuest QuestName="Tainted Water" QuestId="0xE000269D4534988B" RewardIndex="1" />
+			<CompleteQuest QuestName="Tainted Water" QuestId="0xE000269D4534988B" />
 		</If>
 		
 		<!-- Turnin Militia Stomping - Return to Darth Gravus -->
 		<If Condition="((HasQuest(0xE00036FB524C9F08)) and (not IsQuestComplete(0xE00036FB524C9F08)))">
 			<TurnInQuest QuestName="Militia Stomping" QuestId="0xE00036FB524C9F08" TurnInName="Darth Gravus" XYZ="-0.0625,-25.85179,44.998" />
-			<CompleteQuest QuestName="Militia Stomping" QuestId="0xE00036FB524C9F08" RewardIndex="3" />
+			<CompleteQuest QuestName="Militia Stomping" QuestId="0xE00036FB524C9F08" />
 			<!-- Bombing the Walkers -->
 		</If>
 		
@@ -1102,7 +1102,7 @@
 			</If>
 			<Grind GrindRef="Bombing the Walkers - Obtain Walker Coordinates" While="not IsStepComplete(0xE00002048AFDB926, 2)" />
 			<TurnInQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" TurnInName="Major Nost" XYZ="-75.4651,-23.66943,81.4684" />
-			<CompleteQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" RewardIndex="4" />
+			<CompleteQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" />
 			<!-- Race for the Kill -->
 			
 			<UseTransport TransporterName="Bomber Command Post Speeder" Option="Toxic Lake Garrison Speeder" 
@@ -1139,7 +1139,7 @@
 			<If Condition="HasQuest(0xE000E743C2981279) and not IsBranchStepComplete(0xE000E743C2981279, 2, 3)">
 				<AnswerHolocomCall QuestName="Race for the Kill" QuestId="0xE000E743C2981279" />
 			</If>
-			<CompleteQuest QuestName="Race for the Kill" QuestId="0xE000E743C2981279" RewardIndex="3" />
+			<CompleteQuest QuestName="Race for the Kill" QuestId="0xE000E743C2981279" />
 		</If>
 		
 		<!-- Rakghoul Roundup -->
@@ -1251,14 +1251,14 @@
 		<!-- Turnin Rakghoul Observation -->
 		<If Condition="((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
 			<TurnInQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" TurnInName="Eton Vok" XYZ="33.2548,-19.65277,51.5048" />
-			<CompleteQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" RewardIndex="1" />
+			<CompleteQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" />
 			<!-- Culling the Nekghouls -->
 		</If>
 		
 		<!-- Turnin Rakghoul Roundup -->
 		<If Condition="((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
 			<TurnInQuest QuestName="Rakghoul Roundup" QuestId="0xE0004AB030885F4C" TurnInName="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
-			<CompleteQuest QuestName="Rakghoul Roundup" QuestId="0xE0004AB030885F4C" RewardIndex="4" />
+			<CompleteQuest QuestName="Rakghoul Roundup" QuestId="0xE0004AB030885F4C" />
 		</If>
 		
 		<!-- Turnin Rakghoul Rampage -->
@@ -1286,7 +1286,7 @@
 				<AnswerHolocomCall QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" RewardIndex="1" />
+			<CompleteQuest QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" />
 			<!-- Inquisitor - Means of Persuasion 0xE0007472FBC796BE-->
 		</If>
 
@@ -1324,7 +1324,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Culling the Nekghouls" QuestId="0xE000B2EF0F026708" TurnInName="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
-			<CompleteQuest QuestName="Culling the Nekghouls" QuestId="0xE000B2EF0F026708" RewardIndex="3" />
+			<CompleteQuest QuestName="Culling the Nekghouls" QuestId="0xE000B2EF0F026708" />
 		</If>
 		
 		<!-- Agent - The Cult of Ki Sazen -->
@@ -1498,13 +1498,13 @@
 		<!-- Turnin Deadly Hospital -->
 		<If Condition="((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
 			<TurnInQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" TurnInName="Captain Pandorr" XYZ="-83.9129,-12.41901,20.776" />
-			<CompleteQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" RewardIndex="1" />
+			<CompleteQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" />
 		</If>
 		
 		<!-- Turnin Friends of the Republic -->
 		<If Condition="((HasQuest(0xE0002EAC805ADA1F)) and (not IsQuestComplete(0xE0002EAC805ADA1F)))">
 			<TurnInQuest QuestName="Friends of the Republic" QuestId="0xE0002EAC805ADA1F" TurnInName="General Farvin" XYZ="-82.338,-12.41901,21.2051" />
-			<CompleteQuest QuestName="Friends of the Republic" QuestId="0xE0002EAC805ADA1F" RewardIndex="1" />
+			<CompleteQuest QuestName="Friends of the Republic" QuestId="0xE0002EAC805ADA1F" />
 			<!-- Cathar Assassination -->
 		</If>
 		
@@ -1527,7 +1527,7 @@
 				<MoveTo QuestId="0xE000FBCF0FF5088F" XYZ="-73.2916,-12.94481,3.668252" />
 			</If>
 			<TurnInQuest QuestName="Cathar Assassination" QuestId="0xE000FBCF0FF5088F" TurnInName="General Farvin" XYZ="-82.338,-12.41901,21.2051" />
-			<CompleteQuest QuestName="Cathar Assassination" QuestId="0xE000FBCF0FF5088F" RewardIndex="2" />
+			<CompleteQuest QuestName="Cathar Assassination" QuestId="0xE000FBCF0FF5088F" />
 			<!-- Routing the Republic -->
 		</If>
 
@@ -1618,13 +1618,13 @@
 		<!-- Turnin Interference -->
 		<If Condition="((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
 			<TurnInQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" TurnInName="Agent Brayso" XYZ="-113.6277,-18.85155,35.8201" />
-			<CompleteQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" RewardIndex="1" />
+			<CompleteQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" />
 		</If>
 		
 		<!-- Turnin Routing the Republic -->
 		<If Condition="((HasQuest(0xE0001D43BC5B86B9)) and (not IsQuestComplete(0xE0001D43BC5B86B9)))">
 			<TurnInQuest QuestName="Routing the Republic" QuestId="0xE0001D43BC5B86B9" TurnInName="Lord Shaythin" XYZ="-104.394,-20.7115,54.7671" />
-			<CompleteQuest QuestName="Routing the Republic" QuestId="0xE0001D43BC5B86B9" RewardIndex="4" />
+			<CompleteQuest QuestName="Routing the Republic" QuestId="0xE0001D43BC5B86B9" />
 			<!-- No Escape -->
 		</If>
 		
@@ -1692,7 +1692,7 @@
 			</If>
 			<Grind GrindRef="No Escape - Defeat Thana Vesh" While="not IsBranchStepComplete(0xE000E61C0D7415F1, 3, 2)" />
 			<TurnInQuest QuestName="No Escape" QuestId="0xE000E61C0D7415F1" TurnInName="Lord Shaythin" XYZ="-104.394,-20.7115,54.7671" />
-			<CompleteQuest QuestName="No Escape" QuestId="0xE000E61C0D7415F1" RewardIndex="2" />
+			<CompleteQuest QuestName="No Escape" QuestId="0xE000E61C0D7415F1" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1706,7 +1706,7 @@
 		<!-- Turnin Lines of Communication -->
 		<If Condition="((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
 			<TurnInQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" TurnInName="Lieutenant Trace" XYZ="-105.2406,-20.71469,62.0342" />
-			<CompleteQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" RewardIndex="1" />
+			<CompleteQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" />
  
 			<UseTransport TransporterName="Crater Command Base Speeder" Type="Taxi" Option="Toxic Lake Garrison Speeder" 
 									XYZ="-116.9401,-18.79324,44.5439" />
@@ -1771,7 +1771,7 @@
 			</If>
 			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="6" XYZ="98.02028,-17.6095,89.53677" />
 			<TurnInQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" TurnInName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" />
-			<CompleteQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" RewardIndex="6" />
+			<CompleteQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" />
 			<!-- Calling all Rakghouls -->
 		</If>
 		
@@ -1793,13 +1793,13 @@
 		<!-- Turnin Breaking the Mighty Cathar -->
 		<If Condition="((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
 			<TurnInQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" TurnInName="Doctor Korvus" XYZ="70.9494,-18.70979,31.6972" />
-			<CompleteQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" RewardIndex="1" />
+			<CompleteQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" />
 		</If>
 		
 		<!-- Turnin Razing the Researchers -->
 		<If Condition="((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<TurnInQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" TurnInName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
-			<CompleteQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" RewardIndex="1" />
+			<CompleteQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" />
 			
 			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder"
 									XYZ="72.7968,-17.68709,41.6978" />
@@ -1842,7 +1842,7 @@
 				<Grind GrindRef="Scrambled - Defeat Republic Forces around the Signal Relays" While="(not IsQuestComplete(0xE00063E2FD1D530C))" />
 			</If>
 			<TurnInQuest QuestName="All Clear Signal" QuestId="0xE000D2DB6E00A26B" TurnInName="Captain Lantikus" XYZ="70.7824,-18.70979,29.8051" />
-			<CompleteQuest QuestName="All Clear Signal" QuestId="0xE000D2DB6E00A26B" RewardIndex="1" />
+			<CompleteQuest QuestName="All Clear Signal" QuestId="0xE000D2DB6E00A26B" />
 		</If>
 		
 		<PickUpQuest QuestName="Guerilla Blockade" QuestId="0xE0009556AAB5EE10" GiverName="Lieutenant Borgin" XYZ="80.3366,-17.73269,33.6634" />
@@ -1861,7 +1861,7 @@
 			<UseObject ObjectName="Sniper's Nest" QuestId="0xE0008CDC2F5A1C8C" BranchId="1" StepId="2" WaitTime="4" XYZ="84.12426,-18.43592,11.23055" />
 			<Grind GrindRef="Trapped by Snipers - Defeat Valhoun Snipers" While="not IsStepComplete(0xE0008CDC2F5A1C8C, 3)" />
 			<TurnInQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" TurnInName="Sergeant Namarr" XYZ="88.6238,-19.04412,23.2912" />
-			<CompleteQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" RewardIndex="1" />
+			<CompleteQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" />
 		</If>
 		
 		<!-- Guerilla Blockade -->
@@ -1891,13 +1891,13 @@
 				<TalkTo QuestId="0xE000A5325231D3C6" Name="Republic Survivor" XYZ="129.1351,-16.508,12.81775" />
 			</If>
 			<TurnInQuest QuestName="Escape Pods Down" QuestId="0xE000A5325231D3C6" TurnInName="Colonel Valda" XYZ="88.8008,-19.05907,24.9798" />
-			<CompleteQuest QuestName="Escape Pods Down" QuestId="0xE000A5325231D3C6" RewardIndex="1" />
+			<CompleteQuest QuestName="Escape Pods Down" QuestId="0xE000A5325231D3C6" />
 		</If>
 
 		<!-- Turnin Guerilla Blockade -->
 		<If Condition="((HasQuest(0xE0009556AAB5EE10)) and (not IsQuestComplete(0xE0009556AAB5EE10)))">
 			<TurnInQuest QuestName="Guerilla Blockade" QuestId="0xE0009556AAB5EE10" TurnInName="Lieutenant Borgin" XYZ="80.3366,-17.73269,33.6634" />
-			<CompleteQuest QuestName="Guerilla Blockade" QuestId="0xE0009556AAB5EE10" RewardIndex="1" />
+			<CompleteQuest QuestName="Guerilla Blockade" QuestId="0xE0009556AAB5EE10" />
 		</If>
 	
 		<PickUpQuest QuestName="Reclaiming the Outpost" QuestId="0xE000DA874A6484FF" GiverName="Lieutenant Synnoran" XYZ="79.3988,-17.7317,31.0384" />
@@ -1955,13 +1955,13 @@
 		<!-- Turnin Leading the Pack -->
 		<If Condition="((HasQuest(0xE00099B172A024E5)) and (not IsQuestComplete(0xE00099B172A024E5)))">
 			<TurnInQuest QuestName="Leading the Pack" QuestId="0xE00099B172A024E5" TurnInName="Doctor Wylenn" XYZ="124.9738,-20.87917,40.7627" />
-			<CompleteQuest QuestName="Leading the Pack" QuestId="0xE00099B172A024E5" RewardIndex="4" />
+			<CompleteQuest QuestName="Leading the Pack" QuestId="0xE00099B172A024E5" />
 		</If>
 		
 		<!-- Turnin Reclaiming the Outpost -->
 		<If Condition="((HasQuest(0xE000DA874A6484FF)) and (not IsQuestComplete(0xE000DA874A6484FF)))">
 			<TurnInQuest QuestName="Reclaiming the Outpost" QuestId="0xE000DA874A6484FF" TurnInName="Lieutenant Synnoran" XYZ="79.3988,-17.7317,31.0384" />
-			<CompleteQuest QuestName="Reclaiming the Outpost" QuestId="0xE000DA874A6484FF" RewardIndex="6" />
+			<CompleteQuest QuestName="Reclaiming the Outpost" QuestId="0xE000DA874A6484FF" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1984,7 +1984,7 @@
 				<Grind GrindRef="War of Deception - Defeat Republic Forces" While="(not IsQuestComplete(0xE00064A8991F727C))" />
 			</If>
 			<TurnInQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" TurnInName="Lord Vago" XYZ="73.0722,-18.70979,26.1403" />
-			<CompleteQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" RewardIndex="1" />
+			<CompleteQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" />
 			
 			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder" 
 									XYZ="72.78806,-17.6871,41.60294" />
@@ -1993,7 +1993,7 @@
 		<!-- Taris: Bonus Series -->
 		<If Condition="((HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<TurnInQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" TurnInName="Colonel Surab" XYZ="-6.6689,-25.45396,65.1455" />
-			<CompleteQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" RewardIndex="4" />
+			<CompleteQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -2012,7 +2012,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.393141,0.8962948,1.641828" />
 				</If>
-				<CompleteQuest QuestName="The Apprentice" QuestId="0xE00013817B6E485D" RewardIndex="4" />
+				<CompleteQuest QuestName="The Apprentice" QuestId="0xE00013817B6E485D" />
 				<!-- Inquisitor - Thanaton Strikes Back 0xE000BE72DB8AD93D-->
 			</If>
 		
@@ -2048,7 +2048,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<TurnInQuest QuestName="Thieves and Liars" QuestId="0xE000CC415FBDD34F" TurnInName="Holoterminal" Type="Placeable" UseRange="2" XYZ="-0.02615856,1.051,-0.5315959" />
-				<CompleteQuest QuestName="Thieves and Liars" QuestId="0xE000CC415FBDD34F" RewardIndex="3" />
+				<CompleteQuest QuestName="Thieves and Liars" QuestId="0xE000CC415FBDD34F" />
 				<!-- Agent - The Mind Trap -->
 			</If>
 

@@ -533,9 +533,9 @@
 			<If Condition="(not IsQuestComplete(0xE0006C0FD67EDD52))">
 				<Grind GrindRef="Death Mark: Fa'athra Gang" While="(not IsQuestComplete(0xE0006C0FD67EDD52))" />
 			</If>
-			<CompleteQuest QuestName="Death Mark: Fa'athra Gang" QuestId="0xE0006C0FD67EDD52" RewardIndex="1" />
+			<CompleteQuest QuestName="Death Mark: Fa'athra Gang" QuestId="0xE0006C0FD67EDD52" />
 			<TurnInQuest QuestName="Gang Warfare" TurnInName="Lew Brell" QuestId="0xE00025FE6BB8CE39" XYZ="-42.3377,1.765399,24.301" />
-			<CompleteQuest QuestName="Gang Warfare" QuestId="0xE00025FE6BB8CE39" RewardIndex="1" />
+			<CompleteQuest QuestName="Gang Warfare" QuestId="0xE00025FE6BB8CE39" />
 		</If>
 		
 		<!-- Pickup Dreams of Korriban -->
@@ -553,7 +553,7 @@
 			<If Condition="HasQuest(0xE0003A3DB752B5B9) and not IsStepComplete(0xE0003A3DB752B5B9, 4)">
 				<MoveTo QuestId="0xE0003A3DB752B5B9" XYZ="-38.9413,1.772284,23.49513" />
 			</If>
-			<CompleteQuest QuestName="Gauntlet" QuestId="0xE0003A3DB752B5B9" RewardIndex="1" />
+			<CompleteQuest QuestName="Gauntlet" QuestId="0xE0003A3DB752B5B9" />
 		</If>
 		
 		<!-- BH - Tools of the Trade -->
@@ -624,7 +624,7 @@
 				<MoveTo QuestId="0xE000F03D0FCDECA7" XYZ="-50.61213,4.606859,74.68941" />
 			</If>
 			<TurnInQuest QuestName="Big Chief" QuestId="0xE000F03D0FCDECA7" TurnInName="Nem'ro the Hutt" UseRange="8" XYZ="-50.2264,4.707439,74.5467" />
-			<CompleteQuest QuestName="Big Chief" QuestId="0xE000F03D0FCDECA7" RewardIndex="1" />
+			<CompleteQuest QuestName="Big Chief" QuestId="0xE000F03D0FCDECA7" />
 		</If>
 	
 
@@ -680,7 +680,7 @@
 		<!-- Turnin A Slight Lean -->
 		<If Condition="((HasQuest(0xE000DE45E4C10CD4)) and (not IsQuestComplete(0xE000DE45E4C10CD4)))">
 			<TurnInQuest QuestName="A Slight Lean" QuestId="0xE000DE45E4C10CD4" TurnInName="Chief Enforcer" XYZ="-16.7873,1.079752,52.7251" />
-			<CompleteQuest QuestName="A Slight Lean" QuestId="0xE000DE45E4C10CD4" RewardIndex="1" />
+			<CompleteQuest QuestName="A Slight Lean" QuestId="0xE000DE45E4C10CD4" />
 		</If>
 		
 		<!-- Ignoring - [HEROIC 2+] The Man with the Steel Voice from Geric -->
@@ -1038,7 +1038,7 @@
 				<MoveTo QuestId="0xE000A5E970B33947" XYZ="-42.28431,4.401,65.82298" />
 			</If>
 			<!-- Kaliyo Companion -->
-			<CompleteQuest QuestName="Change of Plans" QuestId="0xE000A5E970B33947" RewardIndex="2" />
+			<CompleteQuest QuestName="Change of Plans" QuestId="0xE000A5E970B33947" />
 		</If>
 		
 				<!-- Agent Specific -->
@@ -1252,7 +1252,7 @@
 				<MoveTo QuestId="0xE000FC4495BE6904" XYZ="-50.61213,4.606859,74.68941" />
 				<TalkTo QuestId="0xE000FC4495BE6904" Name="Nem'ro the Hutt" UseRange="8" XYZ="-50.2264,4.707439,74.5467" />
 			</If>
-			<CompleteQuest QuestName="My Sponsorship" QuestId="0xE000FC4495BE6904" RewardIndex="2" />
+			<CompleteQuest QuestName="My Sponsorship" QuestId="0xE000FC4495BE6904" />
 			<!-- Equip Mod -->
 		</If>
 		
@@ -1313,7 +1313,7 @@
 										
 				<WaitTimer WaitTime="15" />
 			</If>
-			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC" RewardIndex="3"/>
+			<CompleteQuest QuestName="Escaping Hutta" QuestId="0xE0003E4B705AF1EC"/>
 			<!-- Open stuff and put it on companion -->
 		</If>
 
@@ -1325,7 +1325,7 @@
 				
 				<WaitTimer WaitTime="15" />
 			</If>
-			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6" RewardIndex="3"/>
+			<CompleteQuest QuestName="Leaving Hutta" QuestId="0xE000A0A580DFAEF6"/>
 			<!-- Open stuff and put it on companion -->
 		</If>
 	

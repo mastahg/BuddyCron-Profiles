@@ -497,7 +497,7 @@
 		<!-- Turnin Extracting the Scientist -->
 		<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsQuestComplete(0xE00004D9B7BBFFF8)))">
 			<TurnInQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" TurnInName="Agent Suria" XYZ="84.3202,7.372199,7.7194" />
-			<CompleteQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" RewardIndex="1" />
+			<CompleteQuest QuestName="Extracting the Scientist" QuestId="0xE00004D9B7BBFFF8" />
 		</If>
 
 		<!-- Turnin Drilling For Imps -->
@@ -511,7 +511,7 @@
 		<!-- Turnin Venom Safeguards -->
 		<If Condition="((HasQuest(0xE000A825B453531A)) and (not IsQuestComplete(0xE000A825B453531A)))">
 			<TurnInQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" TurnInName="Major Treeg" XYZ="51.0112,12.2525,137.7646" />
-			<CompleteQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" RewardIndex="1" />
+			<CompleteQuest QuestName="Venom Safeguards" QuestId="0xE000A825B453531A" />
 			<!-- Cartel Crushing 0xE000998CE5AAB098 - Branch 3, Step 2 -->
 		</If>
 			
@@ -565,7 +565,7 @@
 		<!-- Turnin Cartel Crushing -->
 		<If Condition="((HasQuest(0xE000998CE5AAB098)) and (not IsQuestComplete(0xE000998CE5AAB098)))">
 			<TurnInQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" TurnInName="Major Treeg" XYZ="51.0112,12.2525,137.7646" />
-			<CompleteQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" RewardIndex="1" />
+			<CompleteQuest QuestName="Cartel Crushing" QuestId="0xE000998CE5AAB098" />
 			<!-- Storm the Sewers 0xE000FD4E9F10A29D-->
 		</If>
 
@@ -644,7 +644,7 @@
 		<!-- Turnin Venom Cleanup -->
 		<If Condition="((HasQuest(0xE0009E916585B668)) and (not IsQuestComplete(0xE0009E916585B668)))">
 			<TurnInQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" TurnInName="Goonawaro" XYZ="56.8688,12.15308,120.4958" />
-			<CompleteQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" RewardIndex="1" />
+			<CompleteQuest QuestName="Venom Cleanup" QuestId="0xE0009E916585B668" />
 		</If>
 		
 		<!-- The Republic Strikes Back and Turnin -->
@@ -658,7 +658,7 @@
 			<If Condition="((HasQuest(0xE000946DAB35974A)) and (not IsBranchStepComplete(0xE000946DAB35974A, 4, 7)))">
 				<TalkTo QuestId="0xE000946DAB35974A" Name="Roshal Bek" XYZ="50.4095,12.2525,137.9926" />
 			</If>
-			<CompleteQuest QuestName="The Republic Strikes Back" QuestId="0xE000946DAB35974A" RewardIndex="1" />
+			<CompleteQuest QuestName="The Republic Strikes Back" QuestId="0xE000946DAB35974A" />
 			<!-- Reclaiming Quesh 0xE000FD8C21F68F0F -->
 		</If>
 		
@@ -750,7 +750,7 @@
 		<!-- Turnin Reclaiming Quesh -->
 		<If Condition="((HasQuest(0xE000FD8C21F68F0F)) and (not IsQuestComplete(0xE000FD8C21F68F0F)))">
 			<TurnInQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" TurnInName="General Korvan" XYZ="84.1907,7.6844,14.2459" />
-			<CompleteQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" RewardIndex="1" />
+			<CompleteQuest QuestName="Reclaiming Quesh" QuestId="0xE000FD8C21F68F0F" />
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -767,7 +767,7 @@
 				<!-- Zenith has a quest for us - Unfamiliar Peace -->
 				<UseObject QuestId="0xE00031F9F4E81A85" BranchId="2" StepId="2" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.918385,1.651,2.640365" />
 			</If>
-			<CompleteQuest QuestName="Attis Station" QuestId="0xE00031F9F4E81A85" RewardIndex="1" />
+			<CompleteQuest QuestName="Attis Station" QuestId="0xE00031F9F4E81A85" />
 			<!-- The Coalition 0xE000B7D990703E28-->
 		</If>
 		

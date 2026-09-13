@@ -118,7 +118,7 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-0.003681187,1.676,1.428787" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.003681187,1.676,1.428787" />
-					<CompleteQuest QuestName="The Carida" QuestId="0xE000EDF4DDB848B6" RewardIndex="1" />
+					<CompleteQuest QuestName="The Carida" QuestId="0xE000EDF4DDB848B6" />
 				</If>
 			</If>
 		</If>

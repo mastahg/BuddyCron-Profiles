@@ -247,7 +247,7 @@
 				<TalkTo Name="Klemral" QuestId="0xE000E8EA0B8485FC" WaitTime="2000" XYZ="-30.21322,3.807655,-2.583385"/>
 			</If>
 			<TurnInQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC" TurnInName="Darth Baras" XYZ="-29.6725,3.901,-6.1584"/>
-			<CompleteQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC" RewardIndex="0"/>
+			<CompleteQuest QuestName="Sith Arithmetic" QuestId="0xE000E8EA0B8485FC"/>
 		</If>
 
 		<!--  Warrior - The Final Trial  -->
@@ -309,7 +309,7 @@
 			</If>
 
 			<TurnInQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07" TurnInName="Darth Baras" XYZ="-29.9017,3.800352,-5.702"/>
-			<CompleteQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07" RewardIndex="2"/>
+			<CompleteQuest QuestName="The Final Trial" QuestId="0xE000918E60CB3E07"/>
 		</If>
 
 		<!--  Travel to Imperial Fleet - Inq, Warrior  -->

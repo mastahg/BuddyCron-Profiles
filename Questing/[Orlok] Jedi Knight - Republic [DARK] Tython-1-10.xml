@@ -160,7 +160,7 @@
         <AnswerHolocomCall QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4"/>
       </If>
       <TurnInQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" TurnInName="Master Satele Shan" XYZ="-42.28925,-7.4746,-33.21468"/>
-      <CompleteQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" RewardIndex="1"/>
+      <CompleteQuest QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4"/>
     </If>
     <!--  Knight: High-Tech Savages  -->
     <If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsQuestComplete(0xE000941AE7D5C4D8)))">
@@ -312,7 +312,7 @@
         <AnswerHolocomCall QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9"/>
         <WaitTimer QuestId="1" WaitTime="3"/>
       </If>
-      <CompleteQuest QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9" RewardIndex="1"/>
+      <CompleteQuest QuestName="Dark Temptations" QuestId="0xE000A9CB998FEBA9"/>
       <!--  Weapon of the Jedi 0xE000CBD20FC5289B  -->
       <!--
  open character tab, press companion tab, Equip Item: T7 Customization 2 

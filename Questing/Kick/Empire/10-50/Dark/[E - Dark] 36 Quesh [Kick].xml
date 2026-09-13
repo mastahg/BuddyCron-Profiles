@@ -453,7 +453,7 @@
 				<Grind GrindRef="Breaker Breaker - Defeat Republic Convoy Forces" While="(not IsQuestComplete(0xE00008ACEABC5917))" />
 			</If>
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" TurnInName="Holoterminal" XYZ="-8.687485,6.2963,52.59349" />
-			<CompleteQuest QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" RewardIndex="2" />
+			<CompleteQuest QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" />
 			
 			
 			<UseTransport TransporterName="Imperial Waystation Speeder" Option="Imperial Base Speeder"
@@ -463,7 +463,7 @@
 		<!-- Turnin Toxic Clash -->
 		<If Condition="((HasQuest(0xE000F312709657D7)) and (not IsQuestComplete(0xE000F312709657D7)))">
 			<TurnInQuest QuestName="Toxic Clash" QuestId="0xE000F312709657D7" TurnInName="Moff Dracen" XYZ="31.6622,9.300301,168.0151" />
-			<CompleteQuest QuestName="Toxic Clash" QuestId="0xE000F312709657D7" RewardIndex="1" />
+			<CompleteQuest QuestName="Toxic Clash" QuestId="0xE000F312709657D7" />
 			
 			<UseTransport TransporterName="Imperial Garrison Speeder" Option="Imperial Waystation Speeder" 
 									XYZ="20.97402,8.526,175.2507" />
@@ -477,7 +477,7 @@
 			<Grind GrindRef="Blood and Venom - Sentry" While="not IsTaskComplete(0xE00006051DEE068B, 2, 1)" />
 			<Grind GrindRef="Blood and Venom - Riflemen" While="not IsTaskComplete(0xE00006051DEE068B, 2, 0)" />
 			<TurnInQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" TurnInName="Sergeant Molvar" XYZ="-7.4672,6.280286,55.372" />
-			<CompleteQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" RewardIndex="1" />
+			<CompleteQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" />
 		</If>
 		
 		<!-- Adrenal Shutdown: Selkath Scientists -->
@@ -551,7 +551,7 @@
 		<!-- Turnin Adrenal Appropriation -->
 		<If Condition="((HasQuest(0xE00048E78F6B713D)) and (not IsQuestComplete(0xE00048E78F6B713D)))">
 			<TurnInQuest QuestName="Adrenal Appropriation" QuestId="0xE00048E78F6B713D" TurnInName="Captain Franges" XYZ="-8.0133,6.280286,53.4737" />
-			<CompleteQuest QuestName="Adrenal Appropriation" QuestId="0xE00048E78F6B713D" RewardIndex="2" />
+			<CompleteQuest QuestName="Adrenal Appropriation" QuestId="0xE00048E78F6B713D" />
 			
 			<UseTransport TransporterName="Imperial Waystation Speeder" Option="Imperial Base Speeder" 
 									XYZ="-8.7859,6.3053,54.8327" />
@@ -566,7 +566,7 @@
 		<!-- Turnin Adrenal Shutdown: Selkath Scientists -->
 		<If Condition="((HasQuest(0xE00085050F9F1FF2)) and (not IsQuestComplete(0xE00085050F9F1FF2)))">
 			<TurnInQuest QuestName="Adrenal Shutdown: Selkath Scientists" QuestId="0xE00085050F9F1FF2" TurnInName="Moff Dracen" XYZ="32.1439,9.310301,168.1429" />
-			<CompleteQuest QuestName="Adrenal Shutdown: Selkath Scientists" QuestId="0xE00085050F9F1FF2" RewardIndex="2" />
+			<CompleteQuest QuestName="Adrenal Shutdown: Selkath Scientists" QuestId="0xE00085050F9F1FF2" />
 			
 			<UseTransport TransporterName="Imperial Garrison Speeder" Option="Imperial Waystation Speeder" 
 									XYZ="20.97402,8.526,175.2507" />
@@ -629,7 +629,7 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="The Three Families" QuestId="0xE000AAA33520D44A" TurnInName="Hutt Mainframe" XYZ="105.4758,19.40145,-36.70407" />
-			<CompleteQuest QuestName="The Three Families" QuestId="0xE000AAA33520D44A" RewardIndex="3" />
+			<CompleteQuest QuestName="The Three Families" QuestId="0xE000AAA33520D44A" />
 			<!-- Quesh Showdown  -->
 		</If>
 		
@@ -703,7 +703,7 @@
 		<!-- Turnin Quesh Showdown -->
 		<If Condition="((HasQuest(0xE000778438467841)) and (not IsQuestComplete(0xE000778438467841)))">
 			<TurnInQuest QuestName="Quesh Showdown" QuestId="0xE000778438467841" TurnInName="Moff Dracen" XYZ="30.9851,9.300301,168.1351" />
-			<CompleteQuest QuestName="Quesh Showdown" QuestId="0xE000778438467841" RewardIndex="2" />
+			<CompleteQuest QuestName="Quesh Showdown" QuestId="0xE000778438467841" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -747,7 +747,7 @@
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.390735,0.8962948,1.672736" />
 				<WaitTimer QuestId="1" WaitTime="10" />
 			</If>
-			<CompleteQuest QuestName="Thanaton Strikes Back" QuestId="0xE000BE72DB8AD93D" RewardIndex="1" />
+			<CompleteQuest QuestName="Thanaton Strikes Back" QuestId="0xE000BE72DB8AD93D" />
 			<!-- Inquisitor - Scouring the Wastes 0xE000E41066E5C252-->
 		</If>
 		
@@ -782,7 +782,7 @@
 				</If>
 				<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="0.0001704059,1.159496,-0.8179933" />
 			</If>
-			<CompleteQuest QuestName="The Mind Trap" QuestId="0xE0007FA16B96ABE7" RewardIndex="1" />
+			<CompleteQuest QuestName="The Mind Trap" QuestId="0xE0007FA16B96ABE7" />
 		</If>
 
 		<!-- Agent - Frigid Expedition -->

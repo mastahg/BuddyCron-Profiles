@@ -915,7 +915,7 @@
 			<If Condition="HasQuest(0xE000F1803B97A0CE) and not IsStepComplete(0xE000F1803B97A0CE, 7)" >
 				<MoveTo QuestId="0xE000F1803B97A0CE" XYZ="50.14825,47.75885,297.0823" />
 			</If>
-			<CompleteQuest QuestName="The Spy Dance" QuestId="0xE000F1803B97A0CE" RewardIndex="1" />
+			<CompleteQuest QuestName="The Spy Dance" QuestId="0xE000F1803B97A0CE" />
 			<!-- The Whispering Dust -->
 			
 			<ForceVendor VendorType="Repair" />
@@ -1004,7 +1004,7 @@
 				<UseItem ItemName="Signaling Device" QuestId="0xE0003EB23F608A87" StepId="4" WaitTime="8" Range="2" InCombat="False" Radius="3" XYZ="48.70205,48.8016,276.4238" />
 			</If>
 			<TurnInQuest QuestName="Plugging the Leak" QuestId="0xE0003EB23F608A87" TurnInName="Lieutenant Trason" XYZ="63.4108,51.44551,350.0164" />
-			<CompleteQuest QuestName="Plugging the Leak" QuestId="0xE0003EB23F608A87" RewardIndex="2" />
+			<CompleteQuest QuestName="Plugging the Leak" QuestId="0xE0003EB23F608A87" />
 		</If>
 		
 		<!-- New Threats -->
@@ -1033,7 +1033,7 @@
 			</If>
 			<UseObject QuestId="0xE000C39387AE075F" ObjectName="Machine" BranchId="1" StepId="2" Radius="200" WaitTime="1500" XYZ="119.9711,47.20663,289.153" />
 			<TurnInQuest QuestName="Wreaking Havoc" QuestId="0xE000C39387AE075F" TurnInName="Major Veir" XYZ="73.3343,46.50851,283.0314" />
-			<CompleteQuest QuestName="Wreaking Havoc" QuestId="0xE000C39387AE075F" RewardIndex="2" />
+			<CompleteQuest QuestName="Wreaking Havoc" QuestId="0xE000C39387AE075F" />
 		</If>
 		
 		<!-- Warrior - Seek Answers -->
@@ -1045,7 +1045,7 @@
 				</If>
 				<MoveTo QuestId="1" XYZ="100.0905,48.1291,260.7183" />
 				<WaitTimer QuestId="1" WaitTime="3" />
-				<CompleteQuest QuestName="Seek Answers" QuestId="0xE000B3DB9E8F94EC" RewardIndex="3" />
+				<CompleteQuest QuestName="Seek Answers" QuestId="0xE000B3DB9E8F94EC" />
 			</If>
 		</If>
 		
@@ -1063,13 +1063,13 @@
 			</If>
 			<Grind GrindRef="Defeat Freher Wonn" While="not IsBranchStepComplete(0xE000428B3C8095F2, 2, 2)" />
 			<TurnInQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" TurnInName="Darth Silthar" XYZ="67.5409,51.5606,323.588" />
-			<CompleteQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" RewardIndex="4" />
+			<CompleteQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" />
 		</If>
 		
 		<!-- Turnin New Threats -->
 		<If Condition="((HasQuest(0xE0008F080295965B)) and (not IsQuestComplete(0xE0008F080295965B)))">
 			<TurnInQuest QuestName="New Threats" QuestId="0xE0008F080295965B" TurnInName="Commander Vilos" XYZ="84.4806,49.83815,311.6246" />
-			<CompleteQuest QuestName="New Threats" QuestId="0xE0008F080295965B" RewardIndex="4" />
+			<CompleteQuest QuestName="New Threats" QuestId="0xE0008F080295965B" />
 		</If>
 		
 		<!-- Ignoring H4 Jawa Trade from Lana Corrs -->
@@ -1108,13 +1108,13 @@
 				<TalkTo QuestId="0xE00095906768AA09" WaitTime="1" Name="Trade Master Thint" XYZ="128.8855,53.33946,351.4185" />
 			</If>
 			<TurnInQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" TurnInName="Captain Golah" XYZ="67.5067,51.5606,323.1493" />
-			<CompleteQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" RewardIndex="3" />
+			<CompleteQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" />
 		</If>
 		
 		<!-- Shaman -->
 		<If Condition="((HasQuest(0xE000039E1A5DF69F)) and (not IsQuestComplete(0xE000039E1A5DF69F)))">
 			<TurnInQuest QuestName="Shaman" QuestId="0xE000039E1A5DF69F" TurnInName="Commander Vilos" XYZ="84.4806,49.83815,311.6246" />
-			<CompleteQuest QuestName="Shaman" QuestId="0xE000039E1A5DF69F" RewardIndex="4" />
+			<CompleteQuest QuestName="Shaman" QuestId="0xE000039E1A5DF69F" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1232,14 +1232,14 @@
 			</If>
 			<If Condition="((HasQuest(0xE0005EB05591FAFD)) and (not IsBranchStepComplete(0xE0005EB05591FAFD, 5, 4)))">
 				<Interact Name="Skull" IgnoreLOS="True" WaitTime="5" UseRange="3" XYZ="184.6373,40.73542,28.92673" />
-				<CompleteQuest QuestName="Demon's Blood" QuestId="0xE0005EB05591FAFD" RewardIndex="1" /> <!-- Changes to Oasis -->
+				<CompleteQuest QuestName="Demon's Blood" QuestId="0xE0005EB05591FAFD" /> <!-- Changes to Oasis -->
 			</If>
 		</If>
 		
 		<!-- Turnin Shields Down -->
 		<If Condition="((HasQuest(0xE000DC0315532C4F)) and (not IsQuestComplete(0xE000DC0315532C4F)))">
 			<TurnInQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" TurnInName="Teek" XYZ="77.1586,45.25071,61.7944" />
-			<CompleteQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" RewardIndex="2" />
+			<CompleteQuest QuestName="Shields Down" QuestId="0xE000DC0315532C4F" />
 			
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -1247,7 +1247,7 @@
 		<!-- Agent - Turnin Whispering Dust -->
 		<If Condition="((HasQuest(0xE0007CDFF88D6CCF)) and (not IsQuestComplete(0xE0007CDFF88D6CCF)))">
 			<TurnInQuest QuestName="The Whispering Dust" QuestId="0xE0007CDFF88D6CCF" TurnInName="Mia Hawkins" XYZ="3.484299,45.62575,33.2141" />
-			<CompleteQuest QuestName="The Whispering Dust" QuestId="0xE0007CDFF88D6CCF" RewardIndex="3" />
+			<CompleteQuest QuestName="The Whispering Dust" QuestId="0xE0007CDFF88D6CCF" />
 			<!-- Agent - The Dragon's Tail -->
 		</If>
 		
@@ -1268,7 +1268,7 @@
 				<TalkTo QuestId="1" Name="Isbet Varta" XYZ="20.7734,49.26819,41.23177" />
 			</If>
 			<TurnInQuest QuestName="The Dragon's Tail" QuestId="0xE0005B96B9F1BB8C" TurnInName="Holoprojector" UseRange="2" Type="Placeable" XYZ="3.750175,45.62575,33.39492" />
-			<CompleteQuest QuestName="The Dragon's Tail" QuestId="0xE0005B96B9F1BB8C" RewardIndex="4" />
+			<CompleteQuest QuestName="The Dragon's Tail" QuestId="0xE0005B96B9F1BB8C" />
 			<!-- The Assassin's Fortress -->
 		</If>
 		
@@ -1302,13 +1302,13 @@
 				<UseItem ItemName="Calibrated Orbital Strike Designator" QuestId="0xE000B9DA7DC3141D" StepId="4" WaitTime="2" Range="2" InCombat="False" Radius="2" XYZ="-18.34405,45.8144,65.43819" />
 			</If>
 			<TurnInQuest QuestName="Weapons Calibration" QuestId="0xE000B9DA7DC3141D" TurnInName="Specialist Zahn" XYZ="7.147598,45.5083,22.8142" />
-			<CompleteQuest QuestName="Weapons Calibration" QuestId="0xE000B9DA7DC3141D" RewardIndex="4" />
+			<CompleteQuest QuestName="Weapons Calibration" QuestId="0xE000B9DA7DC3141D" />
 		</If>
 		
 		<!-- Turnin Artificial Intelligence -->
 		<If Condition="((HasQuest(0xE0000B93F4205345)) and (not IsQuestComplete(0xE0000B93F4205345)))">
 			<TurnInQuest QuestName="Artificial Intelligence" QuestId="0xE0000B93F4205345" TurnInName="Lieutenant Whist" XYZ="8.935394,45.51836,27.9899" />
-			<CompleteQuest QuestName="Artificial Intelligence" QuestId="0xE0000B93F4205345" RewardIndex="1" />
+			<CompleteQuest QuestName="Artificial Intelligence" QuestId="0xE0000B93F4205345" />
 		</If>
 		
 		<!-- Warrior - Oasis -->
@@ -1326,7 +1326,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000624769E3186C)) and (not IsBranchStepComplete(0xE000624769E3186C, 5, 3)))">
 				<TalkTo QuestId="0xE000624769E3186C" WaitTime="5" SearchRadius="50" Name="Reflection" XYZ="-62.01283,44.52904,52.50038" /> <!-- May be in random spot due to fight -->
-				<CompleteQuest QuestName="Oasis" QuestId="0xE000624769E3186C" RewardIndex="3" /> <!-- Quinn armor -->
+				<CompleteQuest QuestName="Oasis" QuestId="0xE000624769E3186C" /> <!-- Quinn armor -->
 			</If> <!-- changes to Guru in the Dunes -->
 		</If>
 		
@@ -1343,7 +1343,7 @@
 			</If>
 			<Grind GrindRef="Defeat the Transformed Forces" While="not IsStepComplete(0xE00054291E242297, 8)" />
 			<TurnInQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" TurnInName="Captain Golah" XYZ="-48.67225,46.24954,3.546862" />
-			<CompleteQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" RewardIndex="3" />
+			<CompleteQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" />
 			<!-- The Ghosts of the Desert -->
 		</If>
 		
@@ -1361,7 +1361,7 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Core Subversion" QuestId="0xE0000AFB5927EC07" TurnInName="Jeek" XYZ="-19.3848,45.91769,-26.5791" />
-			<CompleteQuest QuestName="Core Subversion" QuestId="0xE0000AFB5927EC07" RewardIndex="1" />
+			<CompleteQuest QuestName="Core Subversion" QuestId="0xE0000AFB5927EC07" />
 		</If>
 		
 		<!-- The Ghosts of the Desert and Turnin -->
@@ -1383,7 +1383,7 @@
 			</If>
 			<UseObject ObjectName="Palawa Chamber Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="0" Radius="15" WaitTime="3" XYZ="-54.83269,45.74515,-22.88047" />
 			<TurnInQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" TurnInName="Captain Golah" XYZ="-43.5607,45.12094,1.3178" />
-			<CompleteQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" RewardIndex="1" />
+			<CompleteQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" />
 			<!-- The Thing Czerka Found -->
 			
 		</If>
@@ -1530,7 +1530,7 @@
 		<If Condition="((HasQuest(0xE00041688CAEF345)) and (not IsQuestComplete(0xE00041688CAEF345)))">
 			<ForceVendor VendorType="Repair" />
 			<TurnInQuest QuestName="Bad for Business" QuestId="0xE00041688CAEF345" TurnInName="Shayl Tasao" XYZ="-69.8835,44.99133,-64.3038" />
-			<CompleteQuest QuestName="Bad for Business" QuestId="0xE00041688CAEF345" RewardIndex="2" />
+			<CompleteQuest QuestName="Bad for Business" QuestId="0xE00041688CAEF345" />
 		</If>
 		
 		<!-- Turnin Archaeology of Opportunity -->
@@ -1542,13 +1542,13 @@
 		<!-- Turnin Thirst for Glory -->
 		<If Condition="((HasQuest(0xE000B60B1707452F)) and (not IsQuestComplete(0xE000B60B1707452F)))">
 			<TurnInQuest QuestName="Thirst for Glory" QuestId="0xE000B60B1707452F" TurnInName="Major Brega" XYZ="-60.5005,44.42117,-60.9716" />
-			<CompleteQuest QuestName="Thirst for Glory" QuestId="0xE000B60B1707452F" RewardIndex="4" />
+			<CompleteQuest QuestName="Thirst for Glory" QuestId="0xE000B60B1707452F" />
 		</If>
 	
 		<!-- Turnin The Thing Czerka Found -->
 		<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsQuestComplete(0xE0004E36DF9E2E01)))">
 			<TurnInQuest QuestName="The Thing Czerka Found" QuestId="0xE0004E36DF9E2E01" TurnInName="Captain Golah" XYZ="-48.6998,46.24954,3.5408" />
-			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE0004E36DF9E2E01" RewardIndex="3" />
+			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE0004E36DF9E2E01" />
 			
 			<UseTransport TransporterName="Mos Anek Speeder" Option="Mos Ila Speeder"
 									XYZ="-3.044205,44.6794,32.8439" />
@@ -1594,7 +1594,7 @@
 				<Grind GrindRef="Raid the Defenses - Defeat Gamorrean Forces" While="(not IsQuestComplete(0xE00050360F3355C5))" />
 			</If>
 			<TurnInQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" TurnInName="Zola Arvannus" XYZ="124.4105,43.05461,13.3592" />
-			<CompleteQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" RewardIndex="4" />
+			<CompleteQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" />
 		</If>
 		
 		<PickUpQuest QuestName="Test of the Clan" QuestId="0xE0005613665A0D61" GiverName="Roggar Den" XYZ="122.0759,43.1654,5.8666" />
@@ -1637,7 +1637,7 @@
 		<!-- Turnin Test of the Clan -->
 		<If Condition="((HasQuest(0xE0005613665A0D61)) and (not IsQuestComplete(0xE0005613665A0D61)))">
 			<TurnInQuest QuestName="Test of the Clan" QuestId="0xE0005613665A0D61" TurnInName="Roggar Den" XYZ="122.0759,43.1654,5.8666" />
-			<CompleteQuest QuestName="Test of the Clan" QuestId="0xE0005613665A0D61" RewardIndex="2" />
+			<CompleteQuest QuestName="Test of the Clan" QuestId="0xE0005613665A0D61" />
 		</If>
 		
 		<!-- Turnin Sand Will Fall -->
@@ -1651,7 +1651,7 @@
 		<!-- Turnin Stirring Up the Natives -->
 		<If Condition="((HasQuest(0xE00008F3224BFDC5)) and (not IsQuestComplete(0xE00008F3224BFDC5)))">
 			<TurnInQuest QuestName="Stirring Up the Natives" QuestId="0xE00008F3224BFDC5" TurnInName="Geris Paelid" XYZ="124.2027,43.20512,9.062798" />
-			<CompleteQuest QuestName="Stirring Up the Natives" QuestId="0xE00008F3224BFDC5" RewardIndex="4" />
+			<CompleteQuest QuestName="Stirring Up the Natives" QuestId="0xE00008F3224BFDC5" />
 		</If>
 		
 		<PickUpQuest QuestName="Vacation's Over" QuestId="0xE000646EC6883317" GiverName="Governor's Bounty Board" Type="Placeable" UseRange="2" XYZ="124.856,43.05082,6.126068" />
@@ -1660,7 +1660,7 @@
 		<If Condition="((HasQuest(0xE000646EC6883317)) and (not IsQuestComplete(0xE000646EC6883317)))">
 			<Grind GrindRef="Vacation's Over - Collect Womp Rat Skulls" While="not IsStepComplete(0xE000646EC6883317, 2)" />
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Vacation's Over" QuestId="0xE000646EC6883317" TurnInName="Bounty Terminal" XYZ="163.1835,44.80745,-58.39105" />
-			<CompleteQuest QuestName="Vacation's Over" QuestId="0xE000646EC6883317" RewardIndex="4" />
+			<CompleteQuest QuestName="Vacation's Over" QuestId="0xE000646EC6883317" />
 		</If>
 		
 		<PickUpQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" GiverName="Lieutenant Berrig" XYZ="161.1453,44.7781,-62.5987" />
@@ -1687,13 +1687,13 @@
 			</If>
 			<Grind GrindRef="Trespassing - Defeat Republic Archaeologists" While="not IsStepComplete(0xE0002EC2AFC6E8BE, 2)" />
 			<TurnInQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" TurnInName="Lieutenant Berrig" XYZ="161.1453,44.7781,-62.5987" />
-			<CompleteQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" RewardIndex="1" />
+			<CompleteQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" />
 		</If>
 		
 		<!-- Turnin Cannon Fodder -->
 		<If Condition="((HasQuest(0xE000062A3FF6ED5E)) and (not IsQuestComplete(0xE000062A3FF6ED5E)))">
 			<TurnInQuest QuestName="Cannon Fodder" QuestId="0xE000062A3FF6ED5E" TurnInName="Commander Vames" XYZ="164.813,44.8766,-61.6998" />
-			<CompleteQuest QuestName="Cannon Fodder" QuestId="0xE000062A3FF6ED5E" RewardIndex="2" />
+			<CompleteQuest QuestName="Cannon Fodder" QuestId="0xE000062A3FF6ED5E" />
 		</If>
 		
 		<!-- [HEROIC 4] War on Spice Captain Reskin -->
@@ -1765,7 +1765,7 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Visual Disruption" QuestId="0xE000C11B6C1F7A08" TurnInName="Officer Cresken" XYZ="158.9892,44.78786,-58.2352" />
-			<CompleteQuest QuestName="Visual Disruption" QuestId="0xE000C11B6C1F7A08" RewardIndex="4" />
+			<CompleteQuest QuestName="Visual Disruption" QuestId="0xE000C11B6C1F7A08" />
 		</If>
 		
 		<!-- Turnin Enforcing Order -->
@@ -1777,7 +1777,7 @@
 		<!-- Turnin Three Strikes -->
 		<If Condition="((HasQuest(0xE00069F60DB34EE2)) and (not IsQuestComplete(0xE00069F60DB34EE2)))">
 			<TurnInQuest QuestName="Three Strikes" QuestId="0xE00069F60DB34EE2" TurnInName="Captain Tremont" XYZ="163.5028,44.79177,-57.8458" />
-			<CompleteQuest QuestName="Three Strikes" QuestId="0xE00069F60DB34EE2" RewardIndex="4" />
+			<CompleteQuest QuestName="Three Strikes" QuestId="0xE00069F60DB34EE2" />
 		
 			<UseTransport TransporterName="Ridgeside Sentry Post Speeder" Option="Mos Ila Speeder"
 									XYZ="163.3215,45.05154,-53.6032" />
@@ -1789,7 +1789,7 @@
 		<!-- Tatooine: Bonus Series -->
 		<If Condition="((HasQuest(0xE0003D60C6FDE2DC)) and (not IsQuestComplete(0xE0003D60C6FDE2DC)))">
 			<TurnInQuest QuestName="Tatooine: Bonus Series" QuestId="0xE0003D60C6FDE2DC" TurnInName="Sergeant Charnso" XYZ="61.7212,51.901,355.5105" />
-			<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE0003D60C6FDE2DC" RewardIndex="3" />
+			<CompleteQuest QuestName="Tatooine: Bonus Series" QuestId="0xE0003D60C6FDE2DC" />
 		</If>
 		
 		<!-- Warrior - Get off Tatooine and go to Alderaan -->
@@ -1814,7 +1814,7 @@
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x40000007A66F6499)">
 						<Interact QuestId="0xE000AE60C7EE2F0C" Name="Holoterminal" WaitTime="5" XYZ="0.3576343,1.000212,2.572119" />
-						<CompleteQuest QuestId="0xE000AE60C7EE2F0C" Name="Guru in the Dunes" RewardIndex="4" />
+						<CompleteQuest QuestId="0xE000AE60C7EE2F0C" Name="Guru in the Dunes" />
 					</If>
 				</If>
 			</If>
@@ -1859,7 +1859,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<TurnInQuest QuestName="The Assassin's Fortress" QuestId="0xE0009853C75EF6D9" TurnInName="Holoterminal" Type="Placeable" UseRange="2" XYZ="-0.0002999008,1.051001,-1.25649" />
-				<CompleteQuest QuestName="The Assassin's Fortress" QuestId="0xE0009853C75EF6D9" RewardIndex="4" />
+				<CompleteQuest QuestName="The Assassin's Fortress" QuestId="0xE0009853C75EF6D9" />
 			</If>
 		
 			<!-- Agent - Formal Introductions -->

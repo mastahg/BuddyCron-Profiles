@@ -1041,7 +1041,7 @@
 				<Grind GrindRef="Impress This (Bonus)" While="(not IsQuestComplete(0xE0008F5DE749C87A))" />
 			</If>
 			<TurnInQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" TurnInName="Ambassador Jannik" XYZ="-142.1079,-7.3363,-60.232" />
-			<CompleteQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" RewardIndex="1" />
+			<CompleteQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" />
 			<!-- Damage Control 0xE0007D25909F2D6C -->
 		</If>
 		
@@ -1065,7 +1065,7 @@
 			<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 9)))">
 				<TalkTo QuestId="0xE000484D39EFD2FE" Name="Gaden-Ko" XYZ="-241.3106,-1.35561,14.0398" />
 			</If>
-			<CompleteQuest QuestName="A Thorny Path" QuestId="0xE000484D39EFD2FE" RewardIndex="3" />
+			<CompleteQuest QuestName="A Thorny Path" QuestId="0xE000484D39EFD2FE" />
 			<!-- Consular - Marked 0xE000469E2F970402 -->
 		</If>
 		
@@ -1109,7 +1109,7 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="Baiting the Trap" QuestId="0xE000ACCF8914A10B" TurnInName="Doctor Forrod" XYZ="-135.0428,-7.910232,-57.8158" />
-			<CompleteQuest QuestName="Baiting the Trap" QuestId="0xE000ACCF8914A10B" RewardIndex="1" />
+			<CompleteQuest QuestName="Baiting the Trap" QuestId="0xE000ACCF8914A10B" />
 		</If>
 		
 		<!-- Turnin Damage Control -->
@@ -1127,7 +1127,7 @@
 			<If Condition="((HasQuest(0xE0000007C613D4C4)) and (not IsBranchStepComplete(0xE0000007C613D4C4, 1, 3)))">
 				<UseObject QuestId="0xE0000007C613D4C4" ObjectName="Sith Comm Station" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-73.24644,0.09463074,-51.86419" />
 			</If>
-			<CompleteQuest QuestName="Tempting Fate" QuestId="0xE0000007C613D4C4" RewardIndex="2" />
+			<CompleteQuest QuestName="Tempting Fate" QuestId="0xE0000007C613D4C4" />
 			<!-- Visionary 0xE0006E3E4653FAC9-->
 		</If>
 		
@@ -1150,7 +1150,7 @@
 				<!-- Use Ele back up -->
 			</If>
 			<TurnInQuest QuestName="Visionary" QuestId="0xE0006E3E4653FAC9" TurnInName="Ambassador Jannik" XYZ="-142.1079,-7.3363,-60.232" />
-			<CompleteQuest QuestName="Visionary" QuestId="0xE0006E3E4653FAC9" RewardIndex="2" />
+			<CompleteQuest QuestName="Visionary" QuestId="0xE0006E3E4653FAC9" />
 			<!-- A Mystic's Path 0xE000AE7F1827E6BC-->
 		</If>
 		
@@ -1181,7 +1181,7 @@
 		<!-- Turnin Roadblock -->
 		<If Condition="((HasQuest(0xE00017FF7499C26F)) and (not IsQuestComplete(0xE00017FF7499C26F)))">
 			<TurnInQuest QuestName="Roadblock" QuestId="0xE00017FF7499C26F" TurnInName="Garel-Mo" XYZ="-191.6706,-2.9946,-189.0603" />
-			<CompleteQuest QuestName="Roadblock" QuestId="0xE00017FF7499C26F" RewardIndex="1" />
+			<CompleteQuest QuestName="Roadblock" QuestId="0xE00017FF7499C26F" />
 			<!-- The Trials 0xE0005C66E6857665-->
 		</If>
 		
@@ -1253,7 +1253,7 @@
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 15)))">
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="Vision Tablet" BranchId="10" StepId="15" Radius="20" WaitTime="5" XYZ="-188.5558,-0.899,-202.0911" />
 			</If>
-			<CompleteQuest QuestName="The Trials" QuestId="0xE0005C66E6857665" RewardIndex="2" />
+			<CompleteQuest QuestName="The Trials" QuestId="0xE0005C66E6857665" />
 			<!-- Gormak Country 0xE000FF0C5F0A6EAD-->
 		</If>
 		
@@ -1360,14 +1360,14 @@
 			<If Condition="((HasQuest(0xE000469E2F970402)) and (not IsBranchStepComplete(0xE000469E2F970402, 1, 9)))">
 				<TalkTo QuestId="0xE000469E2F970402" Name="Orin-Va" XYZ="-174.3398,-5.799,-206.9836" />
 			</If>
-			<CompleteQuest QuestName="Marked" QuestId="0xE000469E2F970402" RewardIndex="3" />
+			<CompleteQuest QuestName="Marked" QuestId="0xE000469E2F970402" />
 			<!-- Consular - Signs and Signifiers 0xE0001C85CB3CFBA8-->
 		</If>
 		
 		<!-- Turnin Walking the Line -->
 		<If Condition="((HasQuest(0xE0009E0190326661)) and (not IsQuestComplete(0xE0009E0190326661)))">
 			<TurnInQuest QuestName="Walking the Line" QuestId="0xE0009E0190326661" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-193.8486,-2.990629,-185.2227" />
-			<CompleteQuest QuestName="Walking the Line" QuestId="0xE0009E0190326661" RewardIndex="1" />
+			<CompleteQuest QuestName="Walking the Line" QuestId="0xE0009E0190326661" />
 			<CompleteQuest QuestName="Gormak Payback" QuestId="0xE0004FC513FFFBB1" />
  
 			<UseTransport TransporterName="Pilgrim Retreat Speeder" Type="Taxi" Option="Camp Talanis Skyhopper" 
@@ -1487,7 +1487,7 @@
 				<Grind GrindRef="Gormak Monstrosities 3" While="(not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 3))" />
 			</If>
 			<TurnInQuest QuestName="Gormak Monstrosities" QuestId="0xE0001C94A9B4274C" TurnInName="Private Ozer" XYZ="55.2232,18.79136,138.997" />
-			<CompleteQuest QuestName="Gormak Monstrosities" QuestId="0xE0001C94A9B4274C" RewardIndex="1" />
+			<CompleteQuest QuestName="Gormak Monstrosities" QuestId="0xE0001C94A9B4274C" />
 		</If>
 		
 		<!-- Consular - Signs and Signifiers 2 -->
@@ -1557,7 +1557,7 @@
 				<UseObject QuestId="0xE0001C85CB3CFBA8" ObjectName="Giant Crystal" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-8.108956,24.03059,293.9718" />
 			</If>
 			<TurnInQuest QuestName="Signs and Signifiers" QuestId="0xE0001C85CB3CFBA8" TurnInName="Jenar-Sei" XYZ="72.8464,25.31002,261.574" />
-			<CompleteQuest QuestName="Signs and Signifiers" QuestId="0xE0001C85CB3CFBA8" RewardIndex="1" />
+			<CompleteQuest QuestName="Signs and Signifiers" QuestId="0xE0001C85CB3CFBA8" />
 			<!-- Consular - Nightmares 0xE0003D265148A68C-->
 		</If>
 		
@@ -1567,7 +1567,7 @@
 				<UseObject QuestId="0xE000C6B6E286C060" ObjectName="Sonic Detonator" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="0.8936459,23.22108,220.0208" />
 			</If>
 			<TurnInQuest QuestName="In the Crosshairs" QuestId="0xE000C6B6E286C060" TurnInName="Pevthak-Fra" XYZ="6.1448,22.99602,154.3424" />
-			<CompleteQuest QuestName="In the Crosshairs" QuestId="0xE000C6B6E286C060" RewardIndex="1" />
+			<CompleteQuest QuestName="In the Crosshairs" QuestId="0xE000C6B6E286C060" />
 		</If>
 		
 		<!-- Ignoring Heroic 4 - Savage Connections -->
@@ -1586,14 +1586,14 @@
 		<!-- Turnin More Clever Than You'd Think -->
 		<If Condition="((HasQuest(0xE00050DFA94CB023)) and (not IsQuestComplete(0xE00050DFA94CB023)))">
 			<TurnInQuest QuestName="More Clever Than You'd Think" QuestId="0xE00050DFA94CB023" TurnInName="Sergeant Usser" XYZ="74.6405,21.28464,83.4021" />
-			<CompleteQuest QuestName="More Clever Than You'd Think" QuestId="0xE00050DFA94CB023" RewardIndex="3" />
+			<CompleteQuest QuestName="More Clever Than You'd Think" QuestId="0xE00050DFA94CB023" />
 		</If>
 		
 		<!-- Turnin [AREA] Sabotage the Gormak -->
 		<If Condition="((HasQuest(0xE0001A5AB27E2D66)) and (not IsQuestComplete(0xE0001A5AB27E2D66)))">
 			<TurnInQuest QuestName="[AREA] Sabotage the Gormak" QuestId="0xE0001A5AB27E2D66" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="75.78357,21.3603,85.13759" />
 		</If>
-		<CompleteQuest QuestName="[AREA] Sabotage the Gormak" QuestId="0xE0001A5AB27E2D66" RewardIndex="1" />
+		<CompleteQuest QuestName="[AREA] Sabotage the Gormak" QuestId="0xE0001A5AB27E2D66" />
 		
 		<!-- Turnin Gormak Dismemberment -->
 		<If Condition="((HasQuest(0xE00038D2F804A899)) and (not IsQuestComplete(0xE00038D2F804A899)))">
@@ -1604,7 +1604,7 @@
 		<!-- Turnin Traps Are Meant To Be Sprung -->
 		<If Condition="((HasQuest(0xE000B0FA7E4C3EAA)) and (not IsQuestComplete(0xE000B0FA7E4C3EAA)))">
 			<TurnInQuest QuestName="Traps Are Meant To Be Sprung" QuestId="0xE000B0FA7E4C3EAA" TurnInName="Shar-Da" XYZ="80.9403,21.691,76.9794" />
-			<CompleteQuest QuestName="Traps Are Meant To Be Sprung" QuestId="0xE000B0FA7E4C3EAA" RewardIndex="1" />
+			<CompleteQuest QuestName="Traps Are Meant To Be Sprung" QuestId="0xE000B0FA7E4C3EAA" />
 		</If>
 		
 		<!-- Did I miss a quest? There's only a class quest left that takes me to Commando Outpost -->
@@ -1640,7 +1640,7 @@
 				<WaitTimer WaitTime="15" />
 			</If>
 			<TurnInQuest QuestName="Crafting Nightmares" QuestId="0xE0004D08113A58C8" Type="Placeable" TurnInName="Mission Dropbox" UseRange="2" XYZ="114.4125,2.010583,72.61811" />
-			<CompleteQuest QuestName="Crafting Nightmares" QuestId="0xE0004D08113A58C8" RewardIndex="2" />
+			<CompleteQuest QuestName="Crafting Nightmares" QuestId="0xE0004D08113A58C8" />
 		</If>
 		
 		<PickUpQuest QuestName="Darker Than Dark" QuestId="0xE0008F53AD0C9225" GiverName="Master Kelthan" XYZ="132.9709,4.839765,20.8092" />
@@ -1719,13 +1719,13 @@
 		<!-- Turnin Darker Than Dark -->
 		<If Condition="((HasQuest(0xE0008F53AD0C9225)) and (not IsQuestComplete(0xE0008F53AD0C9225)))">
 			<TurnInQuest QuestName="Darker Than Dark" QuestId="0xE0008F53AD0C9225" TurnInName="Master Kelthan" XYZ="132.9709,4.839765,20.8092" />
-			<CompleteQuest QuestName="Darker Than Dark" QuestId="0xE0008F53AD0C9225" RewardIndex="3" />
+			<CompleteQuest QuestName="Darker Than Dark" QuestId="0xE0008F53AD0C9225" />
 		</If>
 		
 		<!-- Turnin Consular - Nightmares -->
 		<If Condition="((HasQuest(0xE0003D265148A68C)) and (not IsQuestComplete(0xE0003D265148A68C)))">
 			<TurnInQuest QuestName="Nightmares" QuestId="0xE0003D265148A68C" TurnInName="Lefry" XYZ="131.8265,4.98956,16.917" />
-			<CompleteQuest QuestName="Nightmares" QuestId="0xE0003D265148A68C" RewardIndex="1" />
+			<CompleteQuest QuestName="Nightmares" QuestId="0xE0003D265148A68C" />
 		</If>
 		
 		<!-- Dark Ambitions 4 and Turnin -->
@@ -1734,14 +1734,14 @@
 				<UseObject QuestId="0xE0003CB046F6D52F" ObjectName="Meditation Altar" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="160.1098,5.2554,62.14369" />
 			</If>
 			<TurnInQuest QuestName="Dark Ambitions" QuestId="0xE0003CB046F6D52F" TurnInName="Talan-De" XYZ="114.3444,2.010583,73.906" />
-			<CompleteQuest QuestName="Dark Ambitions" QuestId="0xE0003CB046F6D52F" RewardIndex="1" />
+			<CompleteQuest QuestName="Dark Ambitions" QuestId="0xE0003CB046F6D52F" />
 			<!-- Dark - Primary Target 0xE000764752516D58 -->
 		</If>
 		
 		<!-- Turnin Nightmare Predator -->
 		<If Condition="((HasQuest(0xE0001CE14C7CEF57)) and (not IsQuestComplete(0xE0001CE14C7CEF57)))">
 			<TurnInQuest QuestName="Nightmare Predator" QuestId="0xE0001CE14C7CEF57" TurnInName="Goren-Bo" XYZ="120.1137,1.89595,88.1653" />
-			<CompleteQuest QuestName="Nightmare Predator" QuestId="0xE0001CE14C7CEF57" RewardIndex="2" />
+			<CompleteQuest QuestName="Nightmare Predator" QuestId="0xE0001CE14C7CEF57" />
 		</If>
 		
 		<!-- Consular - Deep Cradle, Dark Heart 8-12 -->
@@ -1843,7 +1843,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Primary Target" QuestId="0xE000764752516D58" TurnInName="Laryn-Ki" XYZ="-7.3762,25.58664,-1.2375" />
-			<CompleteQuest QuestName="Primary Target" QuestId="0xE000764752516D58" RewardIndex="2" />
+			<CompleteQuest QuestName="Primary Target" QuestId="0xE000764752516D58" />
 		</If>
 		
 		<!-- Turnin Consular - Deep Cradle, Dark Heart -->
@@ -1964,31 +1964,31 @@
 		<!-- Turnin Findsman -->
 		<If Condition="((HasQuest(0xE000D47660687B94)) and (not IsQuestComplete(0xE000D47660687B94)))">
 			<TurnInQuest QuestName="Findsman" QuestId="0xE000D47660687B94" TurnInName="Findsman" XYZ="63.0659,5.536407,-135.7861" />
-			<CompleteQuest QuestName="Findsman" QuestId="0xE000D47660687B94" RewardIndex="1" />
+			<CompleteQuest QuestName="Findsman" QuestId="0xE000D47660687B94" />
 		</If>
 		
 		<!-- Turnin All Animals Deserve a Chance -->
 		<If Condition="((HasQuest(0xE000404219073BAA)) and (not IsQuestComplete(0xE000404219073BAA)))">
 			<TurnInQuest QuestName="All Animals Deserve a Chance" QuestId="0xE000404219073BAA" TurnInName="Dagus Parral" XYZ="62.2007,5.531677,-132.8023" />
-			<CompleteQuest QuestName="All Animals Deserve a Chance" QuestId="0xE000404219073BAA" RewardIndex="2" />
+			<CompleteQuest QuestName="All Animals Deserve a Chance" QuestId="0xE000404219073BAA" />
 		</If>
 		
 		<!-- Turnin A Potential Problem: Staying Lost -->
 		<If Condition="((HasQuest(0xE000FD68A7FA2D2D)) and (not IsQuestComplete(0xE000FD68A7FA2D2D)))">
 			<TurnInQuest QuestName="A Potential Problem: Staying Lost" QuestId="0xE000FD68A7FA2D2D" TurnInName="Knight Wen" XYZ="62.6799,5.531668,-130.7239" />
-			<CompleteQuest QuestName="A Potential Problem: Staying Lost" QuestId="0xE000FD68A7FA2D2D" RewardIndex="3" />
+			<CompleteQuest QuestName="A Potential Problem: Staying Lost" QuestId="0xE000FD68A7FA2D2D" />
 		</If>
 		
 		<!-- Turnin Forbidden -->
 		<If Condition="((HasQuest(0xE000C47443146D09)) and (not IsQuestComplete(0xE000C47443146D09)))">
 			<TurnInQuest QuestName="Forbidden" QuestId="0xE000C47443146D09" TurnInName="Padawan Kosh" XYZ="65.8013,5.521912,-130.5157" />
-			<CompleteQuest QuestName="Forbidden" QuestId="0xE000C47443146D09" RewardIndex="3" />
+			<CompleteQuest QuestName="Forbidden" QuestId="0xE000C47443146D09" />
 		</If>
 		
 		<!-- Voss: Bonus Series - 1 -->
 		<If Condition="((HasQuest(0xE000119D7B57E3A1)) and (not IsQuestComplete(0xE000119D7B57E3A1)))">
 			<TurnInQuest QuestName="Voss: Bonus Series - 1" QuestId="0xE000119D7B57E3A1" TurnInName="Master Halykus" XYZ="59.8129,5.5432,-131.9028" />
-			<CompleteQuest QuestName="Voss: Bonus Series - 1" QuestId="0xE000119D7B57E3A1" RewardIndex="1" />
+			<CompleteQuest QuestName="Voss: Bonus Series - 1" QuestId="0xE000119D7B57E3A1" />
 			<!-- Voss: Bonus Series - 2 0xE0000E19E72A9981-->
 		</If>
 		
@@ -2050,7 +2050,7 @@
 		<!-- Turnin Fishing Facade -->
 		<If Condition="((HasQuest(0xE000EAB5B96A693B)) and (not IsQuestComplete(0xE000EAB5B96A693B)))">
 			<TurnInQuest QuestName="Fishing Facade" QuestId="0xE000EAB5B96A693B" TurnInName="Kelnu Velus" XYZ="68.8684,16.16797,-224.3637" />
-			<CompleteQuest QuestName="Fishing Facade" QuestId="0xE000EAB5B96A693B" RewardIndex="1" />
+			<CompleteQuest QuestName="Fishing Facade" QuestId="0xE000EAB5B96A693B" />
 			<!-- Power Armor 0xE0006FDE421BB227-->
 		</If>
 
@@ -2071,19 +2071,19 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="Power Armor" QuestId="0xE0006FDE421BB227" TurnInName="Kelnu Velus" XYZ="68.8684,16.16797,-224.3637" />
-			<CompleteQuest QuestName="Power Armor" QuestId="0xE0006FDE421BB227" RewardIndex="2" />
+			<CompleteQuest QuestName="Power Armor" QuestId="0xE0006FDE421BB227" />
 		</If>
 		
 		<!-- Turnin Stolen Treasure -->
 		<If Condition="((HasQuest(0xE000300772987140)) and (not IsQuestComplete(0xE000300772987140)))">
 			<TurnInQuest QuestName="Stolen Treasure" QuestId="0xE000300772987140" TurnInName="Doctor Chull" XYZ="62.6458,5.526697,-134.3098" />
-			<CompleteQuest QuestName="Stolen Treasure" QuestId="0xE000300772987140" RewardIndex="1" />
+			<CompleteQuest QuestName="Stolen Treasure" QuestId="0xE000300772987140" />
 		</If>
 
 		<!-- Turnin Death from Below -->
 		<If Condition="((HasQuest(0xE000DEE0622053D0)) and (not IsQuestComplete(0xE000DEE0622053D0)))">
 			<TurnInQuest QuestName="Death from Below" QuestId="0xE000DEE0622053D0" TurnInName="Beryl" XYZ="64.6343,5.526825,-132.6245" />
-			<CompleteQuest QuestName="Death from Below" QuestId="0xE000DEE0622053D0" RewardIndex="3" />
+			<CompleteQuest QuestName="Death from Below" QuestId="0xE000DEE0622053D0" />
 		</If>
 
 		<!-- Voss: Bonus Series - 2 -->
@@ -2178,19 +2178,19 @@
 				<WaitTimer WaitTime="15" />
 			</If>
 			<TurnInQuest QuestName="Stop the Excavation" QuestId="0xE00049ECA5248CBB" TurnInName="Nodin-Fe" XYZ="-44.947,15.91542,-200.1962" />
-			<CompleteQuest QuestName="Stop the Excavation" QuestId="0xE00049ECA5248CBB" RewardIndex="2" />
+			<CompleteQuest QuestName="Stop the Excavation" QuestId="0xE00049ECA5248CBB" />
 		</If>
 		
 		<!-- Turnin Silencing the Gormak -->
 		<If Condition="((HasQuest(0xE000711FC6E52315)) and (not IsQuestComplete(0xE000711FC6E52315)))">
 			<TurnInQuest QuestName="Silencing the Gormak" QuestId="0xE000711FC6E52315" TurnInName="Ethen Wessiri" XYZ="-42.646,16.05303,-206.1458" />
-			<CompleteQuest QuestName="Silencing the Gormak" QuestId="0xE000711FC6E52315" RewardIndex="1" />
+			<CompleteQuest QuestName="Silencing the Gormak" QuestId="0xE000711FC6E52315" />
 		</If>
 		
 		<!-- Turnin Cyber Beasts are Bad Enough -->
 		<If Condition="((HasQuest(0xE0009BF29C36A135)) and (not IsQuestComplete(0xE0009BF29C36A135)))">
 			<TurnInQuest QuestName="Cyber Beasts are Bad Enough" QuestId="0xE0009BF29C36A135" TurnInName="Sachal Kand" XYZ="-40.6967,16.05303,-205.9014" />
-			<CompleteQuest QuestName="Cyber Beasts are Bad Enough" QuestId="0xE0009BF29C36A135" RewardIndex="3" />
+			<CompleteQuest QuestName="Cyber Beasts are Bad Enough" QuestId="0xE0009BF29C36A135" />
 		</If>
 		
 		<!-- Voss: Bonus Series - 2 -->
@@ -2215,7 +2215,7 @@
 		<!-- Turnin Voss: Bonus Series - 2 -->
 		<If Condition="((HasQuest(0xE0000E19E72A9981)) and (not IsQuestComplete(0xE0000E19E72A9981)))">
 			<TurnInQuest QuestName="Voss: Bonus Series - 2" QuestId="0xE0000E19E72A9981" TurnInName="Lieutenant Randa" XYZ="-25.4206,27.38585,26.6846" />
-			<CompleteQuest QuestName="Voss: Bonus Series - 2" QuestId="0xE0000E19E72A9981" RewardIndex="1" />
+			<CompleteQuest QuestName="Voss: Bonus Series - 2" QuestId="0xE0000E19E72A9981" />
 
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -2253,7 +2253,7 @@
 				<UseObject QuestId="0xE00022E4A5FC8BA6" ObjectName="Intercom" IgnoreLOS="True" IgnoreQuestRelation="True" Branch="4" Step="8" Radius="20" WaitTime="5" XYZ="-0.9750548,1.651,2.618074" />
 				<WaitTimer WaitTime="15" />
 			</If>
-			<CompleteQuest QuestName="Deep Cradle, Dark Heart" QuestId="0xE00022E4A5FC8BA6" RewardIndex="2" />
+			<CompleteQuest QuestName="Deep Cradle, Dark Heart" QuestId="0xE00022E4A5FC8BA6" />
 			<!-- Consular - Shattering 0xE0004BBDF55CBDBB-->
 		</If>
 		
@@ -2353,7 +2353,7 @@
 				</While>
 				<UseObject QuestId="0xE0004BBDF55CBDBB" ObjectName="Intercom" BranchId="1" StepId="25" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="-0.9352071,1.651,2.614125" />
 			</If>
-			<CompleteQuest QuestName="Shattering" QuestId="0xE0004BBDF55CBDBB" RewardIndex="1" />
+			<CompleteQuest QuestName="Shattering" QuestId="0xE0004BBDF55CBDBB" />
 			<!-- Consular - Descent 0xE000253F776474E7-->
 		</If>
 		

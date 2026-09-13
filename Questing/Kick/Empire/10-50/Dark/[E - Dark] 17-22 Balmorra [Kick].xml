@@ -737,7 +737,7 @@
 				<TalkTo QuestName="Pirrell's Ambitions" QuestId="0xE0002941C61FA0E2" Name="ODX-9" XYZ="-2.1786,5.447909,93.7171" />
 			</If>
 			<TurnInQuest QuestName="Pirrell's Ambitions" QuestId="0xE0002941C61FA0E2" TurnInName="Lieutenant Major Pirrell" XYZ="-1.992757,5.4477,94.49992" />
-			<CompleteQuest QuestName="Pirrell's Ambitions" QuestId="0xE0002941C61FA0E2" RewardIndex="1" />
+			<CompleteQuest QuestName="Pirrell's Ambitions" QuestId="0xE0002941C61FA0E2" />
 		</If>
 		
 		<!-- Turnin Operation Breaking Point -->
@@ -777,7 +777,7 @@
 			</If>
 			<UseObject ObjectName="Computer Console" QuestId="0xE0001EE9E968024E" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="6" XYZ="-17.22209,5.400877,136.377" />
 			<TurnInQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" TurnInName="Intelligence Officer Breerdin" XYZ="-19.891,5.557197,97.0673" />
-			<CompleteQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" RewardIndex="2" />
+			<CompleteQuest QuestName="Body of Evidence" QuestId="0xE0001EE9E968024E" />
 		</If>
 		
 		<!-- Warrior - Contact Made turnin -->
@@ -852,7 +852,7 @@
 		<!-- Turnin Step Lightly -->
 		<If Condition="((HasQuest(0xE00029BD036CC1E5)) and (not IsQuestComplete(0xE00029BD036CC1E5)))">
 			<TurnInQuest QuestId="0xE00029BD036CC1E5" Type="Placeable" UseRange="2" QuestName="Step Lightly" TurnInName="Mission Dropbox" XYZ="-11.31476,9.186101,184.5074" />
-			<CompleteQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" RewardIndex="2" />
+			<CompleteQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" />
 			
 		</If>
 		
@@ -887,7 +887,7 @@
 				<Interact Name="RCH-01 Shielded Cannon" QuestId="0xE0007300095B167B" WaitTime="3" XYZ="-28.66231,9.505085,164.8928" />
 			</If>
 			<TurnInQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" TurnInName="Engineer Mucdermon" XYZ="-9.116968,9.186101,183.2975" />
-			<CompleteQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" RewardIndex="4" />
+			<CompleteQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" />
 			
 			<UseTransport TransporterName="Troida Skyhopper" Type="Taxi" Option="Sobrik Speeder" 
 									XYZ="-15.29482,9.41999,185.3959" />
@@ -898,7 +898,7 @@
 			<If Condition="((HasQuest(0xE0007C25667A7F93)) and (not IsBranchStepComplete(0xE0007C25667A7F93, 1, 4)))">
 				<MoveTo QuestId="0xE0007C25667A7F93" XYZ="-8.935089,5.4105,92.20869" />
 			</If>
-			<CompleteQuest QuestName="Scientific Inquiry" QuestId="0xE0007C25667A7F93" RewardIndex="3" />
+			<CompleteQuest QuestName="Scientific Inquiry" QuestId="0xE0007C25667A7F93" />
 			<!-- Extraction -->
 		</If>
 		
@@ -918,7 +918,7 @@
 									XYZ="-21.71545,5.664196,96.41971" />
 			</If>
 			<TurnInQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" TurnInName="Senior Science Officer Sakoal" XYZ="-23.19461,9.4682,182.0577" />
-			<CompleteQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" RewardIndex="2" />
+			<CompleteQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" />
 		</If>
 		
 		<!-- Quiet Kill and Turnin  -  Escort quest or something
@@ -935,7 +935,7 @@
 			<UseObject Name="Surveillance Console" QuestId="0xE00046F1BBD2E6F8" BranchId="1" StepId="4" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="1" X="-38.26356" Y="9.3861" Z="163.4529" />
 		 </If>
 	<TurnInQuest QuestName="Quiet Kill" QuestId="0xE00046F1BBD2E6F8" TurnInName="Science Officer Garboza" X="-54.35042" Y="14.30231" Z="147.7915" />
-			<CompleteQuest QuestName="Quiet Kill" QuestId="0xE00046F1BBD2E6F8" RewardIndex="4" />
+			<CompleteQuest QuestName="Quiet Kill" QuestId="0xE00046F1BBD2E6F8" />
 			
 			<TalkTo Name="Markaran Imperial Outpost Speeder" QuestId="0xE000C530D48D0147" WaitTime="1" X="-57.17976" Y="14.69548" Z="144.9137" />
 		</If>
@@ -956,7 +956,7 @@
 		<!-- Turnin Big Guns -->
 		<If Condition="((HasQuest(0xE00020F2827AA9E2)) and (not IsQuestComplete(0xE00020F2827AA9E2)))">
 			<TurnInQuest QuestName="Big Guns" QuestId="0xE00020F2827AA9E2" TurnInName="Lieutenant Thorpe" XYZ="-64.68041,14.35347,152.2437" />
-			<CompleteQuest QuestName="Big Guns" QuestId="0xE00020F2827AA9E2" RewardIndex="1" />
+			<CompleteQuest QuestName="Big Guns" QuestId="0xE00020F2827AA9E2" />
 		</If>
 		
 		<!-- Warrior - Erase the Past -->
@@ -967,7 +967,7 @@
 				<AnswerHolocomCall QuestName="Erase the Past" QuestId="0xE000666F467724FE" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Erase the past" QuestId="0xE000666F467724FE" RewardIndex="1" />
+			<CompleteQuest QuestName="Erase the past" QuestId="0xE000666F467724FE" />
 		</If>
 		
 		<!-- Coms Away -->
@@ -983,7 +983,7 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="Coms Away" QuestId="0xE000C530D48D0147" TurnInName="Fixer 66" XYZ="-55.63356,13.79547,153.3819" />
-			<CompleteQuest QuestName="Coms Away" QuestId="0xE000C530D48D0147" RewardIndex="3" />
+			<CompleteQuest QuestName="Coms Away" QuestId="0xE000C530D48D0147" />
 		</If>
 		
 		<!-- Despair -->
@@ -1003,7 +1003,7 @@
 				<AnswerHolocomCall QuestName="Extraction" QuestId="0xE00039AC90781146" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Extraction" QuestId="0xE00039AC90781146" RewardIndex="3" />
+			<CompleteQuest QuestName="Extraction" QuestId="0xE00039AC90781146" />
 			<!-- Inq - The Path to Power -->
 		</If>
 		
@@ -1092,13 +1092,13 @@
 		<!-- Agent - Be the Enemy -->
 		<If Condition="((HasQuest(0xE000DE1D7172F979)) and (not IsQuestComplete(0xE000DE1D7172F979)))">
 			<TurnInQuest QuestName="Be the Enemy" QuestId="0xE000DE1D7172F979" TurnInName="Chemish Or" XYZ="-2.121398,10.13651,167.566" />
-			<CompleteQuest QuestName="Be the Enemy" QuestId="0xE000DE1D7172F979" RewardIndex="2" />
+			<CompleteQuest QuestName="Be the Enemy" QuestId="0xE000DE1D7172F979" />
 		</If>			
 		
 		<!-- Bounty Hunter - Chaos at the Droid Factory Turnin -->
 		<If Condition="((HasQuest(0xE00037D6E63CF179)) and (not IsQuestComplete(0xE00037D6E63CF179)))">
 			<TurnInQuest QuestName="Chaos at the Droid Factory" QuestId="0xE00037D6E63CF179" TurnInName="Lieutenant Major Pirrell" XYZ="-1.992757,5.4477,94.49992" />
-			<CompleteQuest QuestName="Chaos at the Droid Factory" QuestId="0xE00037D6E63CF179" RewardIndex="3" />
+			<CompleteQuest QuestName="Chaos at the Droid Factory" QuestId="0xE00037D6E63CF179" />
 		</If>
 		
 		<!-- Turnin Despair -->
@@ -1173,7 +1173,7 @@
 		<!-- Secret of Cave 52 and Turnin -->
 		<If Condition="((HasQuest(0xE000AF0CFE57BD2D)) and (not IsQuestComplete(0xE000AF0CFE57BD2D)))">
 			<TurnInQuest QuestName="Secret of Cave 52" QuestId="0xE000AF0CFE57BD2D" TurnInName="Surveillance Officer Trecht" XYZ="8.0931,14.83347,183.9966" />
-			<CompleteQuest QuestName="Secret of Cave 52" QuestId="0xE000AF0CFE57BD2D" RewardIndex="2" />
+			<CompleteQuest QuestName="Secret of Cave 52" QuestId="0xE000AF0CFE57BD2D" />
 		</If>
 		
 		<!-- Disguises -->
@@ -1186,7 +1186,7 @@
 		<!-- Bounty Hunter - Down with the Queen Turnin -->
 		<If Condition="((HasQuest(0xE0006FF534DE5CC2)) and (not IsQuestComplete(0xE0006FF534DE5CC2)))">
 			<TurnInQuest QuestName="Down with the Queen" QuestId="0xE0006FF534DE5CC2" TurnInName="Lieutenant Major Pirrell" XYZ="-1.992757,5.4477,94.49992" />
-			<CompleteQuest QuestName="Down with the Queen" QuestId="0xE0006FF534DE5CC2" RewardIndex="2" />
+			<CompleteQuest QuestName="Down with the Queen" QuestId="0xE0006FF534DE5CC2" />
 		</If>
 
 		<!-- Agent - Know the Enemy and Turnin -->
@@ -1200,7 +1200,7 @@
 			<If Condition="HasQuest(0xE00075F1E243147B) and not IsBranchStepComplete(0xE00075F1E243147B, 3, 2)">
 				<TalkTo QuestName="Know the Enemy" QuestId="0xE00075F1E243147B" Name="Chemish Or" XYZ="-2.121398,10.13651,167.566" />
 			</If>
-			<CompleteQuest QuestName="Know the Enemy" QuestId="0xE00075F1E243147B" RewardIndex="4" />
+			<CompleteQuest QuestName="Know the Enemy" QuestId="0xE00075F1E243147B" />
 		</If>			
 		
 		<!-- Inquisitor - The Path to Power -->
@@ -1251,7 +1251,7 @@
 		<If Condition="((HasQuest(0xE0007B5CB6C115B3)) and (not IsQuestComplete(0xE0007B5CB6C115B3)))">
 			<If Condition="((HasQuest(0xE0007B5CB6C115B3)) and (not IsBranchStepComplete(0xE0007B5CB6C115B3, 2, 2)))">
 				<TurnInQuest QuestName="Silence the Son" QuestId="0xE0007B5CB6C115B3" TurnInName="Lieutenant Malavai Quinn" XYZ="-6.4289,5.0825,106.5026" />
-				<CompleteQuest QuestName="Silence the Son" QuestId="0xE0007B5CB6C115B3" RewardIndex="1" />
+				<CompleteQuest QuestName="Silence the Son" QuestId="0xE0007B5CB6C115B3" />
 			</If>
 		</If>
 		
@@ -1273,7 +1273,7 @@
 		<!-- Turnin Disguises -->
 		<If Condition="((HasQuest(0xE000D0681C6D07BD)) and (not IsQuestComplete(0xE000D0681C6D07BD)))">
 			<TurnInQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" TurnInName="Colonel Vrain" XYZ="86.0523,7.844198,146.8874" />
-			<CompleteQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" RewardIndex="3" />
+			<CompleteQuest QuestName="Disguises" QuestId="0xE000D0681C6D07BD" />
 		</If>
 		
 		<!-- Turnin The Governor's Call -->
@@ -1289,7 +1289,7 @@
 			<UseObject ObjectName="Datapad" QuestId="0xE000EC98766AD969" BranchId="1" StepId="2" WaitTime="3" XYZ="121.5498,13.35153,142.8205" />
 			<Grind GrindRef="Crash Course" While="not IsBranchStepComplete(0xE000EC98766AD969, 1, 3)" />
 			<TurnInQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" TurnInName="Agent Nianla" XYZ="116.3165,13.12894,128.3636" />
-			<CompleteQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" RewardIndex="2" />
+			<CompleteQuest QuestName="Crash Course" QuestId="0xE000EC98766AD969" />
 		</If>
 		
 		<PickUpQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" GiverName="Sergeant Tulsar" XYZ="115.4333,13.08086,130.3019" />
@@ -1310,7 +1310,7 @@
 				<Grind GrindRef="Clear the Line" While="(not IsQuestComplete(0xE00086C2CA7DC901))" />
 			</If>
 			<TurnInQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" TurnInName="Sergeant Tulsar" XYZ="115.4224,13.07987,130.1893" />
-			<CompleteQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" RewardIndex="4" />
+			<CompleteQuest QuestName="On The Line" QuestId="0xE0007023CA4DE6C9" />
 		</If>
 		
 		<!-- The Missing Agent -->
@@ -1389,7 +1389,7 @@
 			<UseObject ObjectName="Barricade Controls" QuestId="0xE0005DCACE239D7A" BranchId="1" StepId="3" WaitTime="4" XYZ="154.42,13.44988,31.99109" />
 			<Grind GrindRef="Ralon Nys" While="not IsStepComplete(0xE0005DCACE239D7A, 4)"/>
 			<UseObject ObjectName="Barricade Controls" QuestId="0xE0005DCACE239D7A" BranchId="1" StepId="5" WaitTime="4" XYZ="154.42,13.44988,31.99109" />
-			<CompleteQuest QuestName="The Siege of Balmorran Arms" QuestId="0xE0005DCACE239D7A" RewardIndex="2" />
+			<CompleteQuest QuestName="The Siege of Balmorran Arms" QuestId="0xE0005DCACE239D7A" />
 			<!-- Repelling Invasion -->
 		</If>
 		
@@ -1534,7 +1534,7 @@
 		<!-- The Missing Agent -->
 		<If Condition="((HasQuest(0xE000BB5C67376E8F)) and (not IsQuestComplete(0xE000BB5C67376E8F)))">
 			<TurnInQuest QuestName="The Missing Agent" QuestId="0xE000BB5C67376E8F" TurnInName="Watcher Eight" XYZ="87.93116,14.13191,154.9398" />
-			<CompleteQuest QuestName="The Missing Agent" QuestId="0xE000BB5C67376E8F" RewardIndex="3" />
+			<CompleteQuest QuestName="The Missing Agent" QuestId="0xE000BB5C67376E8F" />
 		</If>
 		
 		<!-- Breaking the Resistance -->
@@ -1548,7 +1548,7 @@
 		<If Condition="((HasQuest(0xE000615560B84386)) and (not IsQuestComplete(0xE000615560B84386)))">
 			<!-- Ele up -->
 			<TurnInQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" TurnInName="Darth Lachris" XYZ="86.56073,9.833219,150.8058" />
-			<CompleteQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" RewardIndex="4" />
+			<CompleteQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" />
 			<!-- Ele down -->
 			
 			<UseTransport TransporterName="Sundari Imperial Outpost Skyhopper" Option="Sobrik Speeder" 
@@ -1567,13 +1567,13 @@
 		<!-- Bounty Hunter - Bait and Switch - Turnin B1S5-->
 		<If Condition="((HasQuest(0xE000E17C39EABB97)) and (not IsQuestComplete(0xE000E17C39EABB97)))">
 			<TurnInQuest QuestName="Bait and Switch" QuestId="0xE000E17C39EABB97" TurnInName="Lieutenant Major Pirrell" XYZ="-1.992757,5.4477,94.49992" />
-			<CompleteQuest QuestName="Bait and Switch" QuestId="0xE000E17C39EABB97" RewardIndex="2" />
+			<CompleteQuest QuestName="Bait and Switch" QuestId="0xE000E17C39EABB97" />
 		</If>
 
 		<!-- Turnin Breaking the Resistance -->
 		<If Condition="((HasQuest(0xE0001E7C002236E6)) and (not IsQuestComplete(0xE0001E7C002236E6)))">
 			<TurnInQuest QuestName="Breaking the Resistance" QuestId="0xE0001E7C002236E6" TurnInName="Captain Rigel" XYZ="-16.92157,6.011,84.91911" />
-			<CompleteQuest QuestName="Breaking the Resistance" QuestId="0xE0001E7C002236E6" RewardIndex="1" />
+			<CompleteQuest QuestName="Breaking the Resistance" QuestId="0xE0001E7C002236E6" />
 			
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -1695,7 +1695,7 @@
 				<Grind GrindRef="Flush Out the Snipers" While="(not IsQuestComplete(0xE000E625E3D69F30))" />
 			</If>
 			<TurnInQuest QuestName="Downed Pilots" QuestId="0xE00016956C72A171" TurnInName="Lieutenant Heln" XYZ="-164.4497,13.43299,132.1252" />
-			<CompleteQuest QuestName="Downed Pilots" QuestId="0xE00016956C72A171"  RewardIndex="1"/>
+			<CompleteQuest QuestName="Downed Pilots" QuestId="0xE00016956C72A171"/>
 		</If>
 		
 		<!-- Boom Town -->
@@ -1758,7 +1758,7 @@
 				</Hotspots>
 			</UseObject>
 			<TurnInQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" TurnInName="Intelligence Officer Kytoma" XYZ="-113.7808,14.3366,101.0032" />
-			<CompleteQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" RewardIndex="3" />
+			<CompleteQuest QuestName="Boom Town" QuestId="0xE000E2352105255E" />
 		</If>
 		
 		<!-- Turnin Flight Plan -->
@@ -1809,13 +1809,13 @@
 				<Grind GrindRef="Take Out the Rebel Rabble - Resistance Campainer" While="not IsTaskComplete(0xE0006CBA7D2586FC, 2, 1)" />
 			</If>
 			<TurnInQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" TurnInName="Colonel Teeg" XYZ="-111.8631,14.40703,97.1288" />
-			<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" RewardIndex="3" />
+			<CompleteQuest QuestName="The Guns Of Traken-4" QuestId="0xE000CB2018BCB691" />
 		</If>
 		
 		<!-- Turnin Biohazard -->
 		<If Condition="((HasQuest(0xE000C014A6AF06EB)) and (not IsQuestComplete(0xE000C014A6AF06EB)))">
 			<TurnInQuest QuestName="Biohazard" QuestId="0xE000C014A6AF06EB" TurnInName="Captain Jaggard" XYZ="-114.3568,14.39025,98.3371" />
-			<CompleteQuest QuestName="Biohazard" QuestId="0xE000C014A6AF06EB" RewardIndex="1" />
+			<CompleteQuest QuestName="Biohazard" QuestId="0xE000C014A6AF06EB" />
 		
 			<UseTransport TransporterName="Remote Markaran Outpost Skyhopper" Option="Vanguard Outpost Skyhopper"
 									XYZ="-115.8359,14.50528,96.3506" />
@@ -1824,14 +1824,14 @@
 		<!-- Turnin Escape and Evade -->
 		<If Condition="((HasQuest(0xE0009966107D487A)) and (not IsQuestComplete(0xE0009966107D487A)))">
 			<TurnInQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" TurnInName="Captain Labe" XYZ="-158.2846,15.70476,133.2177" />
-			<CompleteQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" RewardIndex="3" />
+			<CompleteQuest QuestName="Escape and Evade" QuestId="0xE0009966107D487A" />
 		</If>
 		
 		<!-- Over the Top and Turnin -->
 		<If Condition="((HasQuest(0xE0008037C3C9808B)) and (not IsQuestComplete(0xE0008037C3C9808B)))">
 			<Grind GrindRef="Over the Top" While="not IsStepComplete(0xE0008037C3C9808B, 2)" />
 			<TurnInQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" TurnInName="Maverse Pontilo" XYZ="-154.0097,14.41033,133.4132" />
-			<CompleteQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" RewardIndex="3" />
+			<CompleteQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" />
 			
 			<UseTransport TransporterName="Vanguard Outpost Skyhopper" Option="Bugtown Outpost Skyhopper"
 									XYZ="-155.0228,14.10858,128.7553" />
@@ -1874,7 +1874,7 @@
 				<UseItem ItemName="Target Marker" QuestId="0xE00096FE13A3C207" StepId="2" TaskId="1" WaitTime="2" Range="2" InCombat="False" Radius="2" XYZ="-14.15069,0.4704292,-45.28909" />
 			</If>
 			<TurnInQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" TurnInName="Captain Augatta" XYZ="28.3404,-0.05312235,-8.9814" />
-			<CompleteQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" RewardIndex="2" />
+			<CompleteQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" />
 		
 			<UseTransport TransporterName="Bugtown Outpost Skyhopper" Option="Vanguard Outpost Skyhopper" 
 									XYZ="30.6715,1.495295,-3.5652" />
@@ -1883,7 +1883,7 @@
 		<!-- Turnin Colicoid Feast -->
 		<If Condition="((HasQuest(0xE0005D3BD4CFC5CB)) and (not IsQuestComplete(0xE0005D3BD4CFC5CB)))">
 			<TurnInQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" TurnInName="Captain Renzfeil Neuwt" XYZ="-155.0889,14.36972,133.5063" />
-			<CompleteQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" RewardIndex="4" />
+			<CompleteQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" />
 		
 			<UseTransport TransporterName="Vanguard Outpost Skyhopper" Option="Sobrik Speeder" 
 									XYZ="-155.0228,14.10858,128.7553" />
@@ -1892,7 +1892,7 @@
 		<!-- Turnin Balmorra: Bonus Series -->
 		<If Condition="((HasQuest(0xE00029E61EADE4B5)) and (not IsQuestComplete(0xE00029E61EADE4B5)))">
 			<TurnInQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" TurnInName="Captain Laverse" XYZ="-16.0342,6.001,87.8824" />
-			<CompleteQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" RewardIndex="1" />
+			<CompleteQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1915,7 +1915,7 @@
 				</If>
 				<Interact QuestId="0xE00062183D8F80DE" Name="Holoterminal" WaitTime="10" XYZ="0.008884223,1.051,-0.474171" />
 			</If>
-			<CompleteQuest QuestName="Destroy the Enemy" QuestId="0xE00062183D8F80DE" RewardIndex="2" />
+			<CompleteQuest QuestName="Destroy the Enemy" QuestId="0xE00062183D8F80DE" />
 		</If>
 
 		<!-- Agent - Be the Enemy -->
@@ -1949,7 +1949,7 @@
 			<UseObject QuestId="0xE0001E0A9C716DDD" ObjectName="D5-Mantis" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="-3.764766,-22.0681,101.8464" />
 			<WaitTimer QuestId="1" WaitTime="90" />
 			<UseObject QuestId="0xE0001E0A9C716DDD" ObjectName="Holoterminal" BranchId="5" StepId="2" IgnoreQuestRelation="True" WaitTime="1" XYZ="-0.2284363,1.401,0.7807257" />
-			<CompleteQuest QuestName="Meet the Admiral" QuestId="0xE0001E0A9C716DDD" RewardIndex="3" />
+			<CompleteQuest QuestName="Meet the Admiral" QuestId="0xE0001E0A9C716DDD" />
 		</If>
 		
 		<!-- Inquisitor - Into the Pit -->
@@ -1969,7 +1969,7 @@
 				</If>
 				<Interact Name="Holoterminal" WaitTime="10" IgnoreLOS="True" XYZ="0.3965371,1.000215,2.587663" />
 			</If>
-			<CompleteQuest QuestName="Into the Pit" QuestId="0xE00081033ABE002B" RewardIndex="1" />
+			<CompleteQuest QuestName="Into the Pit" QuestId="0xE00081033ABE002B" />
 		</If>
 		
 		<!-- Inquisitor - The Call -->
@@ -2016,7 +2016,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<Interact QuestId="0xE00016DD20D96D29" Name="Holoterminal" WaitTime="10" XYZ="0.2869586,0.9987401,2.575448" />
-				<CompleteQuest QuestName="To Kill a Legend" QuestId="0xE00016DD20D96D29" RewardIndex="3" />
+				<CompleteQuest QuestName="To Kill a Legend" QuestId="0xE00016DD20D96D29" />
 			</If>
 		</If>
 		

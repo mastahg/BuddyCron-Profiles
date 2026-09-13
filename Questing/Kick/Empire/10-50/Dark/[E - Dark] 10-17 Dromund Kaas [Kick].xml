@@ -613,13 +613,13 @@
 				<Grind GrindRef="Call of the Wild" While="(not IsQuestComplete(0xE000FF73C1476653))" />
 			</If>
 			<TurnInQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" TurnInName="Commander Rilan" XYZ="87.5713,6.360492,34.6972" />
-			<CompleteQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" RewardIndex="1" />
+			<CompleteQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" />
 		</If>
    
 		<!-- Turnin Status Report -->
 		<If Condition="((HasQuest(0xE0004E9D8A102B18)) and (not IsQuestComplete(0xE0004E9D8A102B18)))">
 			<TurnInQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" TurnInName="Captain Tolto" XYZ="88.9459,6.303787,34.8848" />
-			<CompleteQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" RewardIndex="0" />
+			<CompleteQuest QuestName="Status Report" QuestId="0xE0004E9D8A102B18" />
  
 			<UseTransport TransporterName="Spaceport Speeder" Type="Taxi" Option="Kaas City Entrance Speeder" 
 									XYZ="88.2997,6.340111,36.3558" />
@@ -716,7 +716,7 @@
 									XYZ="-19.3678,4.007462,-1.069131" />
 			</If>
 			<TurnInQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" TurnInName="Renegin" XYZ="-34.31099,2.307461,-51.37895" />
-			<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" RewardIndex="2" />
+			<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" />
 			
 			<If Condition="(Me.Class == CharacterClass.Agent)">
 				<UseTransport TransporterName="Mandalorian Enclave Taxi" Option="Intelligence Headquarters Taxi" 
@@ -808,7 +808,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="The Transporter" QuestId="0xE0007F1907D8A21D" TurnInName="Darth Baras" XYZ="-2.3059,1.40001,-82.6698" />
-			<CompleteQuest QuestName="The Transporter" QuestId="0xE0007F1907D8A21D" RewardIndex="3" />
+			<CompleteQuest QuestName="The Transporter" QuestId="0xE0007F1907D8A21D" />
 			<!-- Pull the Plug 0xE00056E9960E4824-->
 
 			<UseTransport TransporterName="Mandalorian Enclave Taxi" Type="Taxi" Option="Kaas City Central Taxi"
@@ -829,7 +829,7 @@
 				<!--<UseObject QuestId="0xE000A5FAA2C0CC0C" Name="Access Panel" BranchId="1" StepId="3" UseRange="20" IgnoreLOS="True" WaitTime="3" X="-6.727573" Y="0.2276181" Z="76.17809" />-->
 			</If>
 			<TurnInQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" TurnInName="Sergeant Torken" XYZ="-8.7057,1.247094,44.7255" />
-			<CompleteQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" RewardIndex="2" />
+			<CompleteQuest QuestName="Lightning in a Bottle" QuestId="0xE000A5FAA2C0CC0C" />
 			
 		</If>
 		
@@ -925,7 +925,7 @@
 			<If Condition="HasQuest(0xE000EE9DEC6AFF69) and not IsStepComplete(0xE000EE9DEC6AFF69, 10)">
 				<AnswerHolocomCall QuestName="The Slave's Secret" QuestId="0xE000EE9DEC6AFF69" />
 			</If>
-			<CompleteQuest QuestName="The Slave's Secret" QuestId="0xE000EE9DEC6AFF69" RewardIndex="3" />
+			<CompleteQuest QuestName="The Slave's Secret" QuestId="0xE000EE9DEC6AFF69" />
 		</If>
 		
 		<!-- Inquisitor - At the Foot of the Colossus -->
@@ -960,13 +960,13 @@
 		<!-- Turnin The Slave-Killers -->
 		<If Condition="((HasQuest(0xE000FD02EA595E5E)) and (not IsQuestComplete(0xE000FD02EA595E5E)))">
 			<TurnInQuest QuestName="The Slave-Killers" QuestId="0xE000FD02EA595E5E" TurnInName="Ensign Corian Shye" XYZ="38.6516,7.206583,104.3229" />
-			<CompleteQuest QuestName="Testing Grounds" QuestId="0xE000FD02EA595E5E" RewardIndex="1" />
+			<CompleteQuest QuestName="Testing Grounds" QuestId="0xE000FD02EA595E5E" />
 		</If>
 		
 		<!-- Turnin Testing Grounds -->
 		<If Condition="((HasQuest(0xE00061D4CA98B053)) and (not IsQuestComplete(0xE00061D4CA98B053)))">
 			<TurnInQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" TurnInName="Lord Drowl" XYZ="13.3524,5.223302,88.96" />
-			<CompleteQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" RewardIndex="3" />
+			<CompleteQuest QuestName="Testing Grounds" QuestId="0xE00061D4CA98B053" />
 			
 			<UseTransport TransporterName="Outpost Tempest Speeder" Type="Taxi" Option="Kaas City Entrance Speeder" 
 									XYZ="28.51099,3.268803,80.00479" />
@@ -981,7 +981,7 @@
                     XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="Pull the Plug" QuestId="0xE00056E9960E4824" TurnInName="Darth Baras" XYZ="-2.1115,1.400012,-82.5195" />
-			<CompleteQuest QuestName="Pull the Plug" QuestId="0xE00056E9960E4824" RewardIndex="1" />
+			<CompleteQuest QuestName="Pull the Plug" QuestId="0xE00056E9960E4824" />
         
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
 										XYZ="-10.62671,2.307461,-50.81066" />
@@ -1010,7 +1010,7 @@
 										XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" TurnInName="Lord Zash" XYZ="-13.2876,2.200412,-90.7578" />
-			<CompleteQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" RewardIndex="1" />
+			<CompleteQuest QuestName="At the Foot of the Colossus" QuestId="0xE0003CFF4A6A17F4" />
 				
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
 										XYZ="-10.62671,2.307461,-50.81066" />
@@ -1072,7 +1072,7 @@
 				<UseObject ObjectName="Bomb Disposal Device" QuestId="0xE0003EA372434FEE" BranchId="1" StepId="2" WaitTime="3" XYZ="-30.51664,2.416488,18.55046" />
 			</If>
 			<TurnInQuest QuestName="Explosive Discontent" QuestId="0xE0003EA372434FEE" Type="Placeable" UseRange="2" Radius="2" TurnInName="Mission Dropbox" XYZ="-12.11567,3.396814,9.012636" />
-			<CompleteQuest QuestName="Explosive Discontent" QuestId="0xE0003EA372434FEE" RewardIndex="2" />
+			<CompleteQuest QuestName="Explosive Discontent" QuestId="0xE0003EA372434FEE" />
 		</If>
 		
 		<!-- Agent - High Society -->
@@ -1111,13 +1111,13 @@
 		<!-- Turnin Into The Maw -->
 		<If Condition="((HasQuest(0xE0008263AD8DB16C)) and (not IsQuestComplete(0xE0008263AD8DB16C)))">
 			<TurnInQuest QuestName="Into The Maw" QuestId="0xE0008263AD8DB16C" TurnInName="Research Assistant Starforth" XYZ="17.19838,1.415656,43.05821" />
-			<CompleteQuest QuestName="Into The Maw" QuestId="0xE0008263AD8DB16C" RewardIndex="1" />
+			<CompleteQuest QuestName="Into The Maw" QuestId="0xE0008263AD8DB16C" />
 		</If>
 		
 		<!-- Turnin Jungle Hunt -->
 		<If Condition="((HasQuest(0xE0005913794AE084)) and (not IsQuestComplete(0xE0005913794AE084)))">
 			<TurnInQuest QuestName="Jungle Hunt" QuestId="0xE0005913794AE084" TurnInName="Administrator Reese" XYZ="-45.24534,2.357968,12.37295" />
-			<CompleteQuest QuestName="Jungle Hunt" QuestId="0xE0005913794AE084" RewardIndex="3" />
+			<CompleteQuest QuestName="Jungle Hunt" QuestId="0xE0005913794AE084" />
 		</If>
 		
 		<PickupQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" GiverName="Captain Jeelg" XYZ="-49.8774,-2.515539,69.8032" />
@@ -1142,7 +1142,7 @@
 				<Grind GrindRef="Clearing the Kubaz" While="(not IsQuestComplete(0xE00015D2068697DE))" />
 			</If>
 			<TurnInQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" TurnInName="Captain Jeelg" XYZ="-49.8774,-2.515539,69.8032" />
-			<CompleteQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" RewardIndex="1" />
+			<CompleteQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" />
 		</If>
 		
 		<!-- Turnin Initiation -->
@@ -1159,7 +1159,7 @@
 			</If>
 			<UseObject QuestId="0xE0009FC8653EA2A5" ObjectName="Revanite Altar" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="3" XYZ="-110.2775,0.9418153,149.9073" />
 			<TurnInQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" TurnInName="Elder Revanite Jhorval" XYZ="-80.41172,-2.698945,112.5736" />
-			<CompleteQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" RewardIndex="2" />
+			<CompleteQuest QuestName="Death and Life" QuestId="0xE0009FC8653EA2A5" />
 			<!--The Mask of Revan -->
 		</If>
 		
@@ -1220,7 +1220,7 @@
 			<UseObject ObjectName="Remote Terminal G16" QuestId="0xE000F79667481DA3" BranchId="1" StepId="2" TaskId="1" WaitTime="5" XYZ="-63.9203,-4.242202,146.1702" />
 			<UseObject ObjectName="Main Computer Console" QuestId="0xE000F79667481DA3" BranchId="1" StepId="3" WaitTime="4" XYZ="-33.03992,-4.789,154.8367" />
 			<TurnInQuest QuestName="Black Science" QuestId="0xE000F79667481DA3" TurnInName="Ismar Brengle" XYZ="-59.16711,-4.869727,163.5309" />
-			<CompleteQuest QuestName="Black Science" QuestId="0xE000F79667481DA3" RewardIndex="2" />
+			<CompleteQuest QuestName="Black Science" QuestId="0xE000F79667481DA3" />
 		</If>
 		
 		<!-- Warrior - Laying Waste -->
@@ -1320,13 +1320,13 @@
 		<!-- Turnin Strange Weapons -->
 		<If Condition="((HasQuest(0xE000B02AC497B972)) and (not IsQuestComplete(0xE000B02AC497B972)))">
 			<TurnInQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" TurnInName="Captain Bryn" XYZ="-33.69012,-6.094995,133.0004" />
-			<CompleteQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" RewardIndex="2" />
+			<CompleteQuest QuestName="Strange Weapons" QuestId="0xE000B02AC497B972" />
 		</If>
 		
 		<!-- The War Machine -->
 		<If Condition="((HasQuest(0xE00069416197EC03)) and (not IsQuestComplete(0xE00069416197EC03)))">
 			<TurnInQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" TurnInName="Captain Sarnova" XYZ="-35.10553,-5.904247,118.0219" />
-			<CompleteQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" RewardIndex="2" />
+			<CompleteQuest QuestName="The War Machine" QuestId="0xE00069416197EC03" />
 		</If>
 		
 		<!-- Grathan Assault -->
@@ -1344,7 +1344,7 @@
 				<TalkTo QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" Name="Ladra" WaitTime="1" XYZ="-82.68985,-2.674178,112.8265" />
 			</If>
 			<TurnInQuest QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" TurnInName="Raymon" XYZ="-84.70087,-2.659268,112.7321" />
-			<CompleteQuest QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" RewardIndex="2" />
+			<CompleteQuest QuestName="The Mask of Revan" QuestId="0xE00034374F999EF7" />
 		</If>
 		
 		<!-- Pilgrimage -->
@@ -1381,7 +1381,7 @@
 				<TalkTo QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" Name="Raymon" WaitTime="1" XYZ="-84.70087,-2.659268,112.7321" />
 			</If>
 			<TurnInQuest QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" TurnInName="Dzoun" XYZ="-79.005,-2.640711,117.2976" />
-			<CompleteQuest QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" RewardIndex="1" />
+			<CompleteQuest QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" />
 			<!-- The Master's Secret -->
 		</If>
 		
@@ -1394,7 +1394,7 @@
 									XYZ="-79.73012,-2.539633,115.3169" />
 			</If>
 			<TurnInQuest QuestName="The Master's Secret" QuestId="0xE000AB75F2974255" TurnInName="Sandor" XYZ="-18.08327,3.398767,2.071999" />
-			<CompleteQuest QuestName="The Master's Secret" QuestId="0xE000AB75F2974255" RewardIndex="1" />
+			<CompleteQuest QuestName="The Master's Secret" QuestId="0xE000AB75F2974255" />
 			
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -1420,7 +1420,7 @@
 				<TalkTo QuestName="Family Cleansing" QuestId="0xE000B405E6F6F7B1" Name="Crysta Markon" WaitTime="1" XYZ="-25.9326,1.400012,-70.4624" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Family Cleansing" QuestId="0xE000B405E6F6F7B1" RewardIndex="1" />
+			<CompleteQuest QuestName="Family Cleansing" QuestId="0xE000B405E6F6F7B1" />
 		</If>
 		
 		<!-- BH - The Spy Game -->
@@ -1442,7 +1442,7 @@
 									XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="High Society" QuestId="0xE0006DA5A506D94F" TurnInName="Keeper" XYZ="12.19512,2.680449,-83.05063" />
-			<CompleteQuest QuestName="High Society" QuestId="0xE0006DA5A506D94F" RewardIndex="2" />
+			<CompleteQuest QuestName="High Society" QuestId="0xE0006DA5A506D94F" />
 			
 			<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
 									XYZ="12.3486,1.799503,-56.93169" />
@@ -1487,7 +1487,7 @@
 				<TalkTo QuestId="0xE000FB4EC7E346DF" Name="Darth Zash" XYZ="-2.9695,1.800257,-68.80499" />
 			</If>
 			<TurnInQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" TurnInName="Darth Zash" XYZ="-2.9695,1.800257,-68.80499" />
-			<CompleteQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" RewardIndex="1" />
+			<CompleteQuest QuestName="Giant Killer" QuestId="0xE000FB4EC7E346DF" />
 			
 			<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
 									XYZ="12.3486,1.799503,-56.93169" />
@@ -1501,7 +1501,7 @@
                     XYZ="-19.6445,4.007461,-1.152719" />
 			</If>
 			<TurnInQuest QuestName="Laying Waste" QuestId="0xE0009FF7D4D67CE5" TurnInName="Darth Baras" XYZ="-2.1115,1.400012,-82.5195" />
-			<CompleteQuest QuestName="Laying Waste" QuestId="0xE0009FF7D4D67CE5" RewardIndex="1" />
+			<CompleteQuest QuestName="Laying Waste" QuestId="0xE0009FF7D4D67CE5" />
         
 			<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
 										XYZ="-10.62671,2.307461,-50.81066" />
@@ -1518,7 +1518,7 @@
 		<If Condition="((HasQuest(0xE0004C2A6B1FB0C5)) and (not IsQuestComplete(0xE0004C2A6B1FB0C5)))">
 			<Grind GrindRef="Unauthorized Transmission, Part I" While="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)" />
 			<TurnInQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" TurnInName="Captain Isen" XYZ="-63.32609,2.401627,24.75672" />
-			<CompleteQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" RewardIndex="2" />
+			<CompleteQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" />
 			<!-- Unauthorized Transmission, Part II 0xE00011B89F255A8D -->
 		</If>
 		
@@ -1532,7 +1532,7 @@
 			<UseObject ObjectName="Archaeologists' Holopad" QuestId="0xE000F5F9E56B8C7D" BranchId="1" StepId="3"  WaitTime="3" XYZ="-123.1503,0.6662074,60.85196" />
 			<Grind GrindRef="The Accursed" While="not IsStepComplete(0xE000F5F9E56B8C7D, 4)" />
 			<TurnInQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" TurnInName="Lord Duen" XYZ="-127.4197,5.284007,68.15165" />
-			<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" RewardIndex="3" />
+			<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" />
 			
 			<UseTransport TransporterName="Outpost Warden Speeder" Type="Taxi" Option="Kaas City Central Taxi" 
 									XYZ="-124.0459,5.308574,69.62733" />
@@ -1603,7 +1603,7 @@
 				<Grind GrindRef="Clearing the Dark Path" While="(not IsQuestComplete(0xE0007DBC9ABE66F2))" />
 			</If>
 			<TurnInQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" TurnInName="Lord Pharshol" XYZ="-189.0582,17.83919,-24.35106" />
-			<CompleteQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" RewardIndex="2" />
+			<CompleteQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" />
 		</If>
 		
 		<!-- Inquisitor - In the Halls of Traitors -->
@@ -1639,13 +1639,13 @@
 				<Grind GrindRef="Bury the Insane" While="(not IsQuestComplete(0xE000C36B40AB83F5))" />
 			</If>
 			<TurnInQuest QuestName="Buried Power" QuestId="0xE000841377950A97" TurnInName="Lord Alaric" XYZ="-128.1287,5.33877,70.6148" />
-			<CompleteQuest QuestName="Buried Power" QuestId="0xE000841377950A97" RewardIndex="2" />
+			<CompleteQuest QuestName="Buried Power" QuestId="0xE000841377950A97" />
 		</If>
 	
 		<!-- Turnin The Wretch King -->
 		<If Condition="((HasQuest(0xE000ED10A5C9BF7B)) and (not IsQuestComplete(0xE000ED10A5C9BF7B)))">
 			<TurnInQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" TurnInName="Captain Fizik" XYZ="-125.1758,5.289473,68.51226" />
-			<CompleteQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" RewardIndex="2" />
+			<CompleteQuest QuestName="The Wretch King" QuestId="0xE000ED10A5C9BF7B" />
 			
 			<UseTransport TransporterName="Outpost Warden Speeder" Type="Taxi" Option="Intelligence Headquarters Taxi"
 									XYZ="-124.0295,5.318403,69.44215" />
@@ -1660,7 +1660,7 @@
 				<If Condition="HasQuest(0xE000B824C3135EF5) and not IsBranchStepComplete(0xE000B824C3135EF5, 2, 2)">
 					<MoveTo QuestId="0xE000B824C3135EF5" XYZ="12.12979,2.680449,-83.6628" />
 				</If>
-				<CompleteQuest QuestName="Doom and the Dark Temple" QuestId="0xE000B824C3135EF5" RewardIndex="1" />
+				<CompleteQuest QuestName="Doom and the Dark Temple" QuestId="0xE000B824C3135EF5" />
 			
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
 									XYZ="12.37518,1.799497,-56.9724" />
@@ -1688,7 +1688,7 @@
 										XYZ="-19.6445,4.007461,-1.152719" />
 				</If>
 				<TurnInQuest QuestName="Cleaning Up the Mess" QuestId="0xE000A23E5571DC48" TurnInName="Keeper" XYZ="12.34972,2.680449,-83.43895" />
-				<CompleteQuest QuestName="Cleaning Up the Mess" QuestId="0xE000A23E5571DC48" RewardIndex="3" />
+				<CompleteQuest QuestName="Cleaning Up the Mess" QuestId="0xE000A23E5571DC48" />
 				<If Condition="(Me.Position.Z &lt;= -25)">
 					<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Expansion Speeder"
 										XYZ="12.37518,1.799497,-56.9724" />
@@ -1757,7 +1757,7 @@
 					</If>
 					<UseObject QuestId="0xE00025962C222D52" ObjectName="Holoterminal" BranchId="1" StepId="7" IgnoreQuestRelation="True" WaitTime="1" XYZ="-0.00859607,1.051,-0.5351526" />
 				</If>
-				<CompleteQuest QuestName="Darth Zhorrid Arrives" QuestId="0xE00025962C222D52" RewardIndex="2" />
+				<CompleteQuest QuestName="Darth Zhorrid Arrives" QuestId="0xE00025962C222D52" />
 				<!-- Closing the Deal -->
 				<!-- Be the Enemy -->
 			</If>
@@ -1847,7 +1847,7 @@
 					<UseObject QuestId="0xE000DD24579D2279" BranchId="1" StepId="6" ObjectName="Ship Door" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="97.74674,-0.4601102,64.91581"/>
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
-				<CompleteQuest QuestName="Joy Ride" QuestId="0xE000DD24579D2279" RewardIndex="1" />
+				<CompleteQuest QuestName="Joy Ride" QuestId="0xE000DD24579D2279" />
 				<MoveTo QuestId="1" Name="My Location" XYZ="-0.1044444,1.550649,-3.272946"/>
 				<CompleteQuest QuestName="Introducing 2V-R8" QuestId="0xE000801BFCEA37D3" />
 			</If>
@@ -1886,7 +1886,7 @@
 									XYZ="-19.6445,4.007461,-1.152719" />
 				</If>
 				<TurnInQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" TurnInName="Darth Zash" XYZ="-3.037,1.800402,-68.1395" />
-				<CompleteQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" RewardIndex="1" />
+				<CompleteQuest QuestName="In the Halls of Traitors" QuestId="0xE000487ED22B2414" />
 			
 				<UseTransport TransporterName="Imperial Taxi" Type="Taxi" Option="Kaas City Central Taxi" 
 									XYZ="12.37518,1.799497,-56.9724" />
@@ -1940,7 +1940,7 @@
 					<MoveTo QuestId="1" XYZ="-2.1115,1.400012,-82.5195" />
 				</If>
 				<TurnInQuest QuestName="Laying Waste" QuestId="0xE0008CB858EB11F7" TurnInName="Darth Baras" XYZ="-2.1115,1.400012,-82.5195" />
-				<CompleteQuest QuestName="An Ancient Answer" QuestId="0xE0008CB858EB11F7" RewardIndex="1" />
+				<CompleteQuest QuestName="An Ancient Answer" QuestId="0xE0008CB858EB11F7" />
         
 				<UseTransport TransporterName="Citadel Taxi" Type="Taxi" Option="Kaas City Central Taxi"
 										XYZ="-10.62671,2.307461,-50.81066" />
@@ -1971,7 +1971,7 @@
 			<MoveTo QuestID="1" X="0.338518" Y="1.000212" Z="2.545781" />
 			<Interact QuestId="0xE000EA4805AC703A" Name="Holoterminal" BranchId="1" StepId="5" UseRange="20" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="100" X="0.338518" Y="1.000212" Z="2.545781" />
 			<WaitTimer QuestId="1" WaitTime="5" />
-			<CompleteQuest QuestName="Leaving Dromund Kaas" QuestId="0xE000EA4805AC703A" RewardIndex="1" />
+			<CompleteQuest QuestName="Leaving Dromund Kaas" QuestId="0xE000EA4805AC703A" />
 		</If>
 		<If Condition="((HasQuest(0xE0009AFFC1139B71)) and (not IsQuestComplete(0xE0009AFFC1139B71)))">
 			<If Condition="((HasQuest (0xE0009AFFC1139B71)) and (not IsBranchStepComplete (0xE0009AFFC1139B71, 1, 2)))">

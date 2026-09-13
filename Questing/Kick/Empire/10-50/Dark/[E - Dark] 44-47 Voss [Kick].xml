@@ -833,7 +833,7 @@
 				<Grind GrindRef="Tech Hunt (Bonus)" While="(not IsQuestComplete(0xE000680E70920DAE))" />
 			</If>
 			<TurnInQuest QuestName="New Test Markets" QuestId="0xE0007E83B3715813" TurnInName="Treemo" XYZ="-125.2992,1.586594,54.7517" />
-			<CompleteQuest QuestName="New Test Markets" QuestId="0xE0007E83B3715813" RewardIndex="3" />
+			<CompleteQuest QuestName="New Test Markets" QuestId="0xE0007E83B3715813" />
 		</If>
 		
 		<!-- Agent - Turnin Paying Respects -->
@@ -845,7 +845,7 @@
 				</If>
 				<MoveTo QuestId="0xE0007712DE2FEA33" Name="Bas-Ton's Hut" XYZ="13.96014,26.201,-31.60148" />
 			</If>
-			<CompleteQuest QuestName="Paying Respects" QuestId="0xE0007712DE2FEA33" RewardIndex="4" />
+			<CompleteQuest QuestName="Paying Respects" QuestId="0xE0007712DE2FEA33" />
 			<!-- Agent - The Wellspring of Healing 0xE000FF1CA8DCA295-->
  
 			<UseTransport TransporterName="Voss-Ka Imperial District Skyhopper" Type="Taxi" Option="Fort Kodentha Skyhopper" 
@@ -961,7 +961,7 @@
 		<!-- Turnin Let's See Some Aggression -->
 		<If Condition="((HasQuest(0xE00038ACE3C72E2A)) and (not IsQuestComplete(0xE00038ACE3C72E2A)))">
 			<TurnInQuest QuestName="Let's See Some Aggression" QuestId="0xE00038ACE3C72E2A" TurnInName="Velan-Raz" XYZ="-196.9508,-2.345673,-165.3506" />
-			<CompleteQuest QuestName="Let's See Some Aggression" QuestId="0xE00038ACE3C72E2A" RewardIndex="2" />
+			<CompleteQuest QuestName="Let's See Some Aggression" QuestId="0xE00038ACE3C72E2A" />
 		</If>
 		
 		<!-- Ignoring 4H The First Commando's Call - Mission Terminal -->
@@ -980,7 +980,7 @@
 			<UseObject QuestId="0xE000DE25E9ED2E1D" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Writings of Lelo-Vo" XYZ="-180.8158,-3.281457,-137.9995" />
 			<UseObject QuestId="0xE000DE25E9ED2E1D" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Writings of Medo-Ja" XYZ="-180.6172,-3.266803,-144.6596" />
 			<TurnInQuest QuestName="March of Time" QuestId="0xE000DE25E9ED2E1D" TurnInName="Ker-Na" XYZ="-196.7506,-2.348473,-165.9713" />
-			<CompleteQuest QuestName="March of Time" QuestId="0xE000DE25E9ED2E1D" RewardIndex="4" />
+			<CompleteQuest QuestName="March of Time" QuestId="0xE000DE25E9ED2E1D" />
 		</If>
 		
 		<!-- Agent - The Wellspring of Healing -->
@@ -995,7 +995,7 @@
 		<!-- Inquisitor - Turnin Visions and Visionaries -->
 		<If Condition="((HasQuest(0xE000490AC1FCA8C5)) and (not IsQuestComplete(0xE000490AC1FCA8C5)))">
 			<TurnInQuest QuestName="Visions and Visionaries" QuestId="0xE000490AC1FCA8C5" TurnInName="Char-Le" XYZ="-204.5836,-5.7923,-229.8995" />
-			<CompleteQuest QuestName="Visions and Visionaries" QuestId="0xE000490AC1FCA8C5" RewardIndex="4" />
+			<CompleteQuest QuestName="Visions and Visionaries" QuestId="0xE000490AC1FCA8C5" />
 			<!-- Inquisitor - Secrets of the Force 0xE000E14F308AF2B6-->
 		</If>
 		
@@ -1014,7 +1014,7 @@
 		<!-- Turnin History is What You Make It -->
 		<If Condition="((HasQuest(0xE000A66083B4B5F0)) and (not IsQuestComplete(0xE000A66083B4B5F0)))">
 			<TurnInQuest QuestName="History is What You Make It" QuestId="0xE000A66083B4B5F0" GiverName="Sergeant Darrst" XYZ="-177.9341,-4.291044,-85.2625" />
-			<CompleteQuest QuestName="History is What You Make It" QuestId="0xE000A66083B4B5F0" RewardIndex="2" />
+			<CompleteQuest QuestName="History is What You Make It" QuestId="0xE000A66083B4B5F0" />
 		</If>
 
 		<!-- Turnin The Gormak Problem -->
@@ -1023,7 +1023,7 @@
 				<TalkTo QuestId="0xE0003D57A7834936" Name="Fadith-Ki" XYZ="-178.8678,-4.218278,-89.3259" />
 			</If>
 			<TurnInQuest QuestName="The Gormak Problem" QuestId="0xE0003D57A7834936" TurnInName="Dalga-Wo" XYZ="-199.0045,-2.989007,-189.4392" />
-			<CompleteQuest QuestName="The Gormak Problem" QuestId="0xE0003D57A7834936" RewardIndex="4" />
+			<CompleteQuest QuestName="The Gormak Problem" QuestId="0xE0003D57A7834936" />
 			<!-- The Trials 0xE0001CF8157DFCD6-->
 		</If>
 
@@ -1063,7 +1063,7 @@
 				<MoveTo QuestId="0xE0001CF8157DFCD6" Name="Vision Tablet" XYZ="-188.4804,-0.899,-202.1026" />
 			</If>
 			<UseObject QuestId="0xE0001CF8157DFCD6" ObjectName="Vision Tablet" BranchId="6" StepId="15" Radius="20" WaitTime="5" XYZ="-188.5558,-0.899,-202.0911" />
-			<CompleteQuest QuestName="The Trials" QuestId="0xE0001CF8157DFCD6" RewardIndex="3" />
+			<CompleteQuest QuestName="The Trials" QuestId="0xE0001CF8157DFCD6" />
 			<!-- The Gormak War 0xE000C704F6747026-->
  
 			<UseTransport TransporterName="Pilgrim Retreat Speeder" Type="Taxi" Option="Voss-Ka Imperial District Skyhopper" 
@@ -1075,7 +1075,7 @@
 			<If Condition="((HasQuest(0xE000FF1CA8DCA295)) and (not IsBranchStepComplete(0xE000FF1CA8DCA295, 4, 2)))">
 				<MoveTo QuestId="0xE000FF1CA8DCA295" Name="My Location" XYZ="13.97347,26.26008,-31.86348" />
 			</If>
-			<CompleteQuest QuestName="The Wellspring of Healing" QuestId="0xE000FF1CA8DCA295" RewardIndex="5" />
+			<CompleteQuest QuestName="The Wellspring of Healing" QuestId="0xE000FF1CA8DCA295" />
 			<!-- Finding Vengeance 0xE000B03DC0F4C7F1-->
 			
 			<MoveTo QuestId="1" Name="Voss-Ka Imperial District Skyhopper" XYZ="-31.7978,27.09854,-43.6523" />
@@ -1092,7 +1092,7 @@
 				<TalkTo QuestId="0xE000E14F308AF2B6" Name="Athelis Kallis" XYZ="-28.7797,26.60099,-16.9813" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Secrets of the Force" QuestId="0xE000E14F308AF2B6" RewardIndex="2" />
+			<CompleteQuest QuestName="Secrets of the Force" QuestId="0xE000E14F308AF2B6" />
 			<!-- Inquisitor - Necessary Sacrifice 0xE000DE2585EAE695-->
 		</If>
 
@@ -1246,7 +1246,7 @@
 				<AnswerHolocomCall QuestName="Necessary Sacrifice" QuestId="0xE000DE2585EAE695" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Necessary Sacrifice" QuestId="0xE000DE2585EAE695" RewardIndex="1" />
+			<CompleteQuest QuestName="Necessary Sacrifice" QuestId="0xE000DE2585EAE695" />
 			<!-- The Ritual 0xE0001C8CE2FA848E-->
 		</If>
 		
@@ -1287,7 +1287,7 @@
 				<UseObject QuestId="0xE000CEC56571FBE9" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Ship Survey Station" XYZ="-22.65993,26.10812,257.2479" />
 			</If>
 			<TurnInQuest QuestName="Space Race" QuestId="0xE0009F2E0C4FF637" TurnInName="Telsin-Fal" XYZ="5.9413,23.05886,152.768" />
-			<CompleteQuest QuestName="Space Race" QuestId="0xE0009F2E0C4FF637" RewardIndex="2" />
+			<CompleteQuest QuestName="Space Race" QuestId="0xE0009F2E0C4FF637" />
 			<!-- The Gormak King 0xE000F8C7E45BA27C-->
 		</If>
 		
@@ -1318,10 +1318,10 @@
 		
 		<!--
 	<TurnInQuest QuestName="Gormak War Camps" QuestId="0xE0007DE97A9BD942" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" X="-60.57412" Y="23.4262" Z="86.83067" />
-			<CompleteQuest QuestName="Gormak War Camps" QuestId="0xE0007DE97A9BD942" RewardIndex="2" />
+			<CompleteQuest QuestName="Gormak War Camps" QuestId="0xE0007DE97A9BD942" />
 		-->
 		<TurnInQuest QuestName="Signal Fires" QuestId="0xE00094D57B570B7D" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-60.57412,23.4262,86.83067" />
-		<CompleteQuest QuestName="Signal Fires" QuestId="0xE00094D57B570B7D" RewardIndex="1" />
+		<CompleteQuest QuestName="Signal Fires" QuestId="0xE00094D57B570B7D" />
 		<!-- I need the correct ID from this dropbox turnin 
 			<UserDialog Title="Test" Message="I need to know what questid Gormak Deconstruction is" />
 	<TurnInQuest QuestName="Gormak Deconstruction" QuestId="0xE000F8C7E45BA27C" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" X="-60.57412" Y="23.4262" Z="86.83067" />
@@ -1335,7 +1335,7 @@
 									XYZ="-66.3337,23.42929,84.9562" />
 			</If>
 			<TurnInQuest QuestName="The Gormak King" QuestId="0xE000F8C7E45BA27C" TurnInName="Darth Serevin" XYZ="-10.328,27.58654,-31.2122" />
-			<CompleteQuest QuestName="The Gormak King" QuestId="0xE000F8C7E45BA27C" RewardIndex="2" />
+			<CompleteQuest QuestName="The Gormak King" QuestId="0xE000F8C7E45BA27C" />
 			<!-- The Mad Sith Lord 0xE000FF88E50736D5-->
 		</If>
 		
@@ -1344,7 +1344,7 @@
 			<If Condition="((HasQuest(0xE000B03DC0F4C7F1)) and (not IsBranchStepComplete(0xE000B03DC0F4C7F1, 6, 2)))">	
 				<MoveTo QuestId="0xE000B03DC0F4C7F1" Name="My Location" XYZ="13.98958,26.26007,-31.8743" />
 			</If>
-			<CompleteQuest QuestName="Finding Vengeance" QuestId="0xE000B03DC0F4C7F1" RewardIndex="3" />
+			<CompleteQuest QuestName="Finding Vengeance" QuestId="0xE000B03DC0F4C7F1" />
 			<!-- Agent - The Prophecy of the Shining Man 0xE0000119FFEA85BD-->
 			
 			<ForceVendor VendorType="Train" />
@@ -1391,7 +1391,7 @@
 				<Grind GrindRef="Possession (Bonus)" While="(not IsQuestComplete(0xE00098B9F8BCFAD9))" />
 			</If>
 			<TurnInQuest QuestName="Covetous" QuestId="0xE000815AA8670542" TurnInName="Lord Korek" XYZ="120.8945,1.604614,-82.7045" />
-			<CompleteQuest QuestName="Covetous" QuestId="0xE000815AA8670542" RewardIndex="3" />
+			<CompleteQuest QuestName="Covetous" QuestId="0xE000815AA8670542" />
 		</If>
 
 		<!-- Dark Rites: Dark Mastery -->
@@ -1470,26 +1470,26 @@
 		<!-- Turnin Dark Rites: Dark Mastery -->
 		<If Condition="((HasQuest(0xE0000AFD8473A60B)) and (not IsQuestComplete(0xE0000AFD8473A60B)))">
 			<TurnInQuest QuestName="Dark Rites: Dark Mastery" QuestId="0xE0000AFD8473A60B" TurnInName="Murbek Gehn" XYZ="124.4406,5.38887,-74.2388" />
-			<CompleteQuest QuestName="Dark Rites: Dark Mastery" QuestId="0xE0000AFD8473A60B" RewardIndex="2" />
+			<CompleteQuest QuestName="Dark Rites: Dark Mastery" QuestId="0xE0000AFD8473A60B" />
 			<!-- A Long Forgotten Evil 0xE0003449D2726424-->
 		</If>
 		
 		<!-- Turnin Tapping Corruption -->
 		<If Condition="((HasQuest(0xE000239831F59D40)) and (not IsQuestComplete(0xE000239831F59D40)))">
 			<TurnInQuest QuestName="Tapping Corruption" QuestId="0xE000239831F59D40" TurnInName="Doctor Olkav" XYZ="119.2115,1.640509,-82.1519" />
-			<CompleteQuest QuestName="Tapping Corruption" QuestId="0xE000239831F59D40" RewardIndex="3" />
+			<CompleteQuest QuestName="Tapping Corruption" QuestId="0xE000239831F59D40" />
 		</If>
 		
 		<!-- Turnin Hard Lessons -->
 		<If Condition="((HasQuest(0xE000D53BF10AA4E5)) and (not IsQuestComplete(0xE000D53BF10AA4E5)))">
 			<TurnInQuest QuestName="Hard Lessons" QuestId="0xE000D53BF10AA4E5" Type="Placeable" UseRange="2" TurnInName="Secure Container" XYZ="119.243,1.429665,-77.82124" />
-			<CompleteQuest QuestName="Hard Lessons" QuestId="0xE000D53BF10AA4E5" RewardIndex="5" />
+			<CompleteQuest QuestName="Hard Lessons" QuestId="0xE000D53BF10AA4E5" />
 		</If>
 		
 		<!-- Turnin Project Chimera -->
 		<If Condition="((HasQuest(0xE000577CEF90599F)) and (not IsQuestComplete(0xE000577CEF90599F)))">
 			<TurnInQuest QuestName="Project Chimera" QuestId="0xE000577CEF90599F" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="116.6465,1.75789,-79.38153" />
-			<CompleteQuest QuestName="Project Chimera" QuestId="0xE000577CEF90599F" RewardIndex="5" />
+			<CompleteQuest QuestName="Project Chimera" QuestId="0xE000577CEF90599F" />
 		</If>
 		
 		<!-- Inquisitor - The Ritual -->
@@ -1569,7 +1569,7 @@
 									XYZ="117.4049,1.6967,-76.9431" />
 			</If>
 			<TurnInQuest QuestName="A Long Forgotten Evil" QuestId="0xE0003449D2726424" TurnInName="Darth Serevin" XYZ="-10.328,27.58654,-31.2122" />
-			<CompleteQuest QuestName="A Long Forgotten Evil" QuestId="0xE0003449D2726424" RewardIndex="3" />
+			<CompleteQuest QuestName="A Long Forgotten Evil" QuestId="0xE0003449D2726424" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1602,7 +1602,7 @@
 					</If>
 					<MoveTo QuestId="0xE0001C8CE2FA848E" Name="Rul Jophen" XYZ="104.9656,-100.0007,14.5899" />
 				</If>
-				<CompleteQuest QuestName="The Ritual" QuestId="0xE0001C8CE2FA848E" RewardIndex="1" />
+				<CompleteQuest QuestName="The Ritual" QuestId="0xE0001C8CE2FA848E" />
 				<!-- Inquisitor - Testing 0xE000EBE8843F1D67-->
 			</If>
 		
@@ -1669,7 +1669,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 				</If>
-				<CompleteQuest QuestName="Testing" QuestId="0xE000EBE8843F1D67" RewardIndex="1" />
+				<CompleteQuest QuestName="Testing" QuestId="0xE000EBE8843F1D67" />
 				<!-- Inquisitor - First Strike 0xE0002C3306EB994E-->
 			</If>
 
@@ -1714,7 +1714,7 @@
 					</If>
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="-0.01273832,1.15845,-0.7778677" />
 				</If>
-				<CompleteQuest QuestName="The Prophecy of the Shining Man" QuestId="0xE0000119FFEA85BD" RewardIndex="2" />
+				<CompleteQuest QuestName="The Prophecy of the Shining Man" QuestId="0xE0000119FFEA85BD" />
 				<!-- Agent - The Road to Ruin 0xE000AD89F260835D-->
 			</If>
 		
@@ -1764,7 +1764,7 @@
 					</If>
 					<Interact Name="Holoterminal" IgnoreLOS="True" WaitTime="5" XYZ="-0.005652264,1.158703,-0.7875819" />
 				</If>
-				<CompleteQuest QuestName="The Road to Ruin" QuestId="0xE000AD89F260835D" RewardIndex="2" />
+				<CompleteQuest QuestName="The Road to Ruin" QuestId="0xE000AD89F260835D" />
 				<!-- Eve of Destruction 0xE00048A8826BAEA8-->
 			</If>
 	

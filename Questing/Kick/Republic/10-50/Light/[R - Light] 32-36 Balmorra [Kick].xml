@@ -1036,7 +1036,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Food Chain" QuestId="0xE0006BFEE3F53952" TurnInName="Sergeant Mannes" XYZ="24.0571,0.05940131,-13.0694" />
-			<CompleteQuest QuestName="Food Chain" QuestId="0xE0006BFEE3F53952" RewardIndex="1" />
+			<CompleteQuest QuestName="Food Chain" QuestId="0xE0006BFEE3F53952" />
 		</If>
 		
 		<!-- Turnin Insecticide -->
@@ -1078,7 +1078,7 @@
 			<If Condition="((HasQuest(0xE000F4761F77E64E)) and (not IsStepComplete(0xE000F4761F77E64E, 6)))">
 				<UseObject QuestId="0xE000F4761F77E64E" ObjectName="Holoterminal" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-112.9911,14.3919,96.5788" />
 			</If>
-			<CompleteQuest QuestName="From the Wreckage" QuestId="0xE000F4761F77E64E" RewardIndex="1" />
+			<CompleteQuest QuestName="From the Wreckage" QuestId="0xE000F4761F77E64E" />
 			<!-- A Native Speaker 0xE0003F81FA37A90E-->
 		</If>
 		
@@ -1156,13 +1156,13 @@
 			</If>
 			<!-- Quicktravel to Upper Markaran -->
 			<TurnInQuest QuestName="A Native Speaker" QuestId="0xE0003F81FA37A90E" Type="Placeable" UseRange="2" TurnInName="Holoterminal" XYZ="-113.0279,14.3782,96.62081" />
-			<CompleteQuest QuestName="A Native Speaker" QuestId="0xE0003F81FA37A90E" RewardIndex="1" />
+			<CompleteQuest QuestName="A Native Speaker" QuestId="0xE0003F81FA37A90E" />
 		</If>
 		
 		<!-- Turnin Grounded -->
 		<If Condition="((HasQuest(0xE000FD18C3E4B453)) and (not IsQuestComplete(0xE000FD18C3E4B453)))">
 			<TurnInQuest QuestName="Grounded" QuestId="0xE000FD18C3E4B453" TurnInName="Sergeant Jolis" XYZ="-115.4707,14.35881,98.3894" />
-			<CompleteQuest QuestName="Grounded" QuestId="0xE000FD18C3E4B453" RewardIndex="1" />
+			<CompleteQuest QuestName="Grounded" QuestId="0xE000FD18C3E4B453" />
 		</If>
 
 		<!-- Turnin Trade Sanctions -->
@@ -1189,7 +1189,7 @@
 			<If Condition="((HasQuest(0xE000E19DC382753C)) and (not IsStepComplete(0xE000E19DC382753C, 4)))">
 				<UseObject QuestId="0xE000E19DC382753C" ObjectName="Satellite Control Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-53.02997,12.67825,119.0769" />
 			</If>
-			<CompleteQuest QuestName="Clearing a Path" QuestId="0xE000E19DC382753C" RewardIndex="1" />
+			<CompleteQuest QuestName="Clearing a Path" QuestId="0xE000E19DC382753C" />
 			<!-- Necessary Detour: Hawkeye Rescue 0xE000473F0131FF4F-->
 		</If>
 		
@@ -1214,7 +1214,7 @@
 				<Grind GrindRef="Covering the Tracks (Bonus)" While="(not IsQuestComplete(0xE00004C65F64906B))" />
 			</If>
 			<TurnInQuest QuestName="Recovery Plan" QuestId="0xE00090327625F74D" TurnInName="Sergeant Durren" XYZ="-60.9984,14.95045,155.5717" />
-			<CompleteQuest QuestName="Recovery Plan" QuestId="0xE00090327625F74D" RewardIndex="1" />
+			<CompleteQuest QuestName="Recovery Plan" QuestId="0xE00090327625F74D" />
 		</If>
 		
 		<PickUpQuest QuestName="Inside Help" QuestId="0xE0009AB86A70B24F" GiverName="Sergeant Kejik" XYZ="-54.3102,14.3306,148.3867" />
@@ -1327,7 +1327,7 @@
 		<!-- Turnin Inside Help -->
 		<If Condition="((HasQuest(0xE0009AB86A70B24F)) and (not IsQuestComplete(0xE0009AB86A70B24F)))">
 			<TurnInQuest QuestName="Inside Help" QuestId="0xE0009AB86A70B24F" TurnInName="Natho" XYZ="-82.2371,13.82413,138.902" />
-			<CompleteQuest QuestName="Inside Help" QuestId="0xE0009AB86A70B24F" RewardIndex="1" />
+			<CompleteQuest QuestName="Inside Help" QuestId="0xE0009AB86A70B24F" />
 		</If>
 		
 		<!-- Turnin Factory Meltdown -->
@@ -1349,7 +1349,7 @@
 		<!-- Turnin Necessary Detour: Hawkeye Rescue -->
 		<If Condition="((HasQuest(0xE000473F0131FF4F)) and (not IsQuestComplete(0xE000473F0131FF4F)))">
 			<TurnInQuest QuestName="Necessary Detour: Hawkeye Rescue" QuestId="0xE000473F0131FF4F" TurnInName="Commander Madine" XYZ="36.1524,0.1496173,-23.1437" />
-			<CompleteQuest QuestName="Necessary Detour: Hawkeye Rescue" QuestId="0xE000473F0131FF4F" RewardIndex="1" />
+			<CompleteQuest QuestName="Necessary Detour: Hawkeye Rescue" QuestId="0xE000473F0131FF4F" />
 			<!-- Shield Shattering 0xE000051B56A39137-->
 			<!-- Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1485,7 +1485,7 @@
 		<!-- Turnin Hazardous Recovery -->
 		<If Condition="((HasQuest(0xE0002CD28F97EB6A)) and (not IsQuestComplete(0xE0002CD28F97EB6A)))">
 			<TurnInQuest QuestName="Hazardous Recovery" QuestId="0xE0002CD28F97EB6A" TurnInName="Sergeant Carness" XYZ="-17.2112,9.55835,172.5899" />
-			<CompleteQuest QuestName="Hazardous Recovery" QuestId="0xE0002CD28F97EB6A" RewardIndex="2" />
+			<CompleteQuest QuestName="Hazardous Recovery" QuestId="0xE0002CD28F97EB6A" />
 		</If>
 		
 		<!-- Turnin A Clean Sweep -->
@@ -1502,7 +1502,7 @@
 			<If Condition="((HasQuest(0xE00051B6A771E1BE)) and (not IsStepComplete(0xE00051B6A771E1BE, 7)))">
 				<UseObject QuestId="0xE00051B6A771E1BE" ObjectName="Holoterminal" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="-2.115649,10.13651,168.0178" />
 			</If>
-			<CompleteQuest QuestName="Liberating Sobrik" QuestId="0xE00051B6A771E1BE" RewardIndex="3" />
+			<CompleteQuest QuestName="Liberating Sobrik" QuestId="0xE00051B6A771E1BE" />
 			<!-- Proper Identification 0xE0009514661DAD39 -->
 		</If>
 		
@@ -1522,7 +1522,7 @@
 									XYZ="-10.6984,15.79628,166.882" />
 			</If>
 			<TurnInQuest QuestName="Watchers" QuestId="0xE00073D404851181" TurnInName="Tai Cordan" XYZ="-5.1411,0.3909587,-15.3106" />
-			<CompleteQuest QuestName="Watchers" QuestId="0xE00073D404851181" RewardIndex="1" />
+			<CompleteQuest QuestName="Watchers" QuestId="0xE00073D404851181" />
 			<!-- Consular - Executive Order 228 0xE000DE9C28BEA2C1-->
  
 			<UseTransport TransporterName="Farnel Skyhopper" Type="Taxi" Option="Gorinth Outpost Skyhopper" 
@@ -1612,19 +1612,19 @@
 				<Grind GrindRef="Wreckage Reclamation (Bonus)" While="(not IsQuestComplete(0xE0001EC0979F098F))" />
 			</If>
 			<TurnInQuest QuestName="Lost Love" QuestId="0xE000F527578A9865" TurnInName="Ari Skyff" XYZ="21.8675,13.80184,178.6482" />
-			<CompleteQuest QuestName="Lost Love" QuestId="0xE000F527578A9865" RewardIndex="1" />
+			<CompleteQuest QuestName="Lost Love" QuestId="0xE000F527578A9865" />
 		</If>
 		
 		<!-- Turnin Fertilizer: Save the Fields -->
 		<If Condition="((HasQuest(0xE00087E9A5846F56)) and (not IsQuestComplete(0xE00087E9A5846F56)))">
 			<TurnInQuest QuestName="Fertilizer: Save the Fields" QuestId="0xE00087E9A5846F56" TurnInName="Major Sarell" XYZ="-7.1929,15.56477,168.3211" />
-			<CompleteQuest QuestName="Fertilizer: Save the Fields" QuestId="0xE00087E9A5846F56" RewardIndex="1" />
+			<CompleteQuest QuestName="Fertilizer: Save the Fields" QuestId="0xE00087E9A5846F56" />
 		</If>
 		
 		<!-- Turnin Proper Identification -->
 		<If Condition="((HasQuest(0xE0009514661DAD39)) and (not IsQuestComplete(0xE0009514661DAD39)))">
 			<TurnInQuest QuestName="Proper Identification" QuestId="0xE0009514661DAD39" TurnInName="Wes Durga" XYZ="-10.1781,15.57594,159.5239" />
-			<CompleteQuest QuestName="Proper Identification" QuestId="0xE0009514661DAD39" RewardIndex="1" />
+			<CompleteQuest QuestName="Proper Identification" QuestId="0xE0009514661DAD39" />
 			<!-- Prison Break 0xE000313E6A996846-->
 		</If>
 		
@@ -1675,7 +1675,7 @@
 			</If>
 			<!-- Branch 3, Step 2 -->
 			<TurnInQuest QuestName="Prison Break" QuestId="0xE000313E6A996846" TurnInName="Wes Durga" XYZ="-10.1781,15.57594,159.5239" />
-			<CompleteQuest QuestName="Prison Break" QuestId="0xE000313E6A996846" RewardIndex="1" />
+			<CompleteQuest QuestName="Prison Break" QuestId="0xE000313E6A996846" />
 			<!-- Inside Job 0xE0001D5B1620D32D-->
 		</If>
 
@@ -1728,7 +1728,7 @@
 			<If Condition="((HasQuest(0xE0001D5B1620D32D)) and (not IsStepComplete(0xE0001D5B1620D32D, 4)))">
 				<UseObject QuestId="0xE0001D5B1620D32D" ObjectName="Primary Sensor Grid Terminal" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="120.867,11.18695,104.2282" />
 			</If>
-			<CompleteQuest QuestName="Inside Job" QuestId="0xE0001D5B1620D32D" RewardIndex="3" />
+			<CompleteQuest QuestName="Inside Job" QuestId="0xE0001D5B1620D32D" />
 			<!-- Sacrifices 0xE00010BAB88BD836-->
 		</If>
 		
@@ -1885,7 +1885,7 @@
 		<!-- Turnin Critical Sabotage -->
 		<If Condition="((HasQuest(0xE000E13EE4AF29CC)) and (not IsQuestComplete(0xE000E13EE4AF29CC)))">
 			<TurnInQuest QuestName="Critical Sabotage" QuestId="0xE000E13EE4AF29CC" TurnInName="Silas Jarrde" XYZ="86.5392,14.0325,157.1075" />
-			<CompleteQuest QuestName="Critical Sabotage" QuestId="0xE000E13EE4AF29CC" RewardIndex="2" />
+			<CompleteQuest QuestName="Critical Sabotage" QuestId="0xE000E13EE4AF29CC" />
 		</If>
 		
 		<!-- Turnin Storming The Front -->
@@ -1900,7 +1900,7 @@
 		<!-- Turnin Sacrifices -->
 		<If Condition="((HasQuest(0xE00010BAB88BD836)) and (not IsQuestComplete(0xE00010BAB88BD836)))">
 			<TurnInQuest QuestName="Sacrifices" QuestId="0xE00010BAB88BD836" TurnInName="Commander Madine" XYZ="36.1524,0.1496173,-23.1437" />
-			<CompleteQuest QuestName="Sacrifices" QuestId="0xE00010BAB88BD836" RewardIndex="1" />
+			<CompleteQuest QuestName="Sacrifices" QuestId="0xE00010BAB88BD836" />
 			<ForceVendor VendorType="Train" />
 		</If>
 		
@@ -2018,19 +2018,19 @@
 		<!-- Turnin Clearing the Roads -->
 		<If Condition="((HasQuest(0xE0000308B51C7BF0)) and (not IsQuestComplete(0xE0000308B51C7BF0)))">
 			<TurnInQuest QuestName="Clearing the Roads" QuestId="0xE0000308B51C7BF0" TurnInName="Sheed" XYZ="-53.8021,8.043612,177.5013" />
-			<CompleteQuest QuestName="Clearing the Roads" QuestId="0xE0000308B51C7BF0" RewardIndex="1" />
+			<CompleteQuest QuestName="Clearing the Roads" QuestId="0xE0000308B51C7BF0" />
 		</If>
 	
 		<!-- Turnin Hasty Exit -->
 		<If Condition="((HasQuest(0xE0007A551948C311)) and (not IsQuestComplete(0xE0007A551948C311)))">
 			<TurnInQuest QuestName="Hasty Exit" QuestId="0xE0007A551948C311" TurnInName="Taya Rinn" XYZ="-52.4174,7.89512,162.1134" />
-			<CompleteQuest QuestName="Hasty Exit" QuestId="0xE0007A551948C311" RewardIndex="3" />
+			<CompleteQuest QuestName="Hasty Exit" QuestId="0xE0007A551948C311" />
 		</If>
 	
 		<!-- Turnin Hunting the Mandalorians -->
 		<If Condition="((HasQuest(0xE000D0507F022303)) and (not IsQuestComplete(0xE000D0507F022303)))">
 			<TurnInQuest QuestName="Hunting the Mandalorians" QuestId="0xE000D0507F022303" TurnInName="Rond Berrin" XYZ="-50.3816,7.701,166.6396" />
-			<CompleteQuest QuestName="Hunting the Mandalorians" QuestId="0xE000D0507F022303" RewardIndex="1" />
+			<CompleteQuest QuestName="Hunting the Mandalorians" QuestId="0xE000D0507F022303" />
 		</If>
 	
 		<PickUpQuest QuestName="Endangered Passengers" QuestId="0xE00073084E7A2F45" GiverName="Daven Tam" XYZ="-51.4376,8.052127,176.9725" />
@@ -2060,13 +2060,13 @@
 					<TalkTo QuestId="0xE00073084E7A2F45" Name="Daven Tam" XYZ="-51.4376,8.052127,176.9725" />
 				</If>
 			</If>
-			<CompleteQuest QuestName="Endangered Passengers" QuestId="0xE00073084E7A2F45" RewardIndex="1" />
+			<CompleteQuest QuestName="Endangered Passengers" QuestId="0xE00073084E7A2F45" />
 		</If>
 		
 		<!-- Balmorra: Bonus Series 1 -->
 		<If Condition="((HasQuest(0xE0005C9E33E8ED5D)) and (not IsQuestComplete(0xE0005C9E33E8ED5D)))">
 			<TurnInQuest QuestName="Balmorra: Bonus Series 1" QuestId="0xE0005C9E33E8ED5D" TurnInName="Wixx" XYZ="-51.608,7.895119,164.7734" />
-			<CompleteQuest QuestName="Balmorra: Bonus Series 1" QuestId="0xE0005C9E33E8ED5D" RewardIndex="1" />
+			<CompleteQuest QuestName="Balmorra: Bonus Series 1" QuestId="0xE0005C9E33E8ED5D" />
  
 			<UseTransport TransporterName="Moraine Outpost Skyhopper" Type="Taxi" Option="Lower Sundari Outpost Skyhopper" 
 									XYZ="-55.7543,8.593284,181.5154" />
@@ -2199,20 +2199,20 @@
 			<If Condition="((HasQuest(0xE0002B89FF4F9D09)) and (not IsBranchStepComplete(0xE0002B89FF4F9D09, 1, 5)))">
 				<TalkTo QuestId="0xE0002B89FF4F9D09" Name="Sergeant Jojames" XYZ="153.7781,16.5014,57.6301" />
 			</If>
-			<CompleteQuest QuestName="Nowhere to Run" QuestId="0xE0002B89FF4F9D09" RewardIndex="2" />
+			<CompleteQuest QuestName="Nowhere to Run" QuestId="0xE0002B89FF4F9D09" />
 			<!-- QT to Upper Sundari -->
 		</If>
 
 		<!-- Turnin Follow-Up Operations -->
 		<If Condition="((HasQuest(0xE0004489DEAA1A50)) and (not IsQuestComplete(0xE0004489DEAA1A50)))">
 			<TurnInQuest QuestName="Follow-Up Operations" QuestId="0xE0004489DEAA1A50" TurnInName="Agent Jaylla Noh" XYZ="151.6093,16.81067,127.5691" />
-			<CompleteQuest QuestName="Follow-Up Operations" QuestId="0xE0004489DEAA1A50" RewardIndex="1" />
+			<CompleteQuest QuestName="Follow-Up Operations" QuestId="0xE0004489DEAA1A50" />
 		</If>
 		
 		<!-- Turnin The Neutralizer -->
 		<If Condition="((HasQuest(0xE000BA57E52D16EC)) and (not IsQuestComplete(0xE000BA57E52D16EC)))">
 			<TurnInQuest QuestName="The Neutralizer" QuestId="0xE000BA57E52D16EC" TurnInName="Major Garik" XYZ="152.2691,16.77444,123.8439" />
-			<CompleteQuest QuestName="The Neutralizer" QuestId="0xE000BA57E52D16EC" RewardIndex="2" />
+			<CompleteQuest QuestName="The Neutralizer" QuestId="0xE000BA57E52D16EC" />
 		</If>
 		
 		<!-- Turnin Balmorra: Bonus Series 2 -->
@@ -2229,7 +2229,7 @@
 			<If Condition="((HasQuest(0xE0000B3B9578D2D6)) and (not IsBranchStepComplete(0xE0000B3B9578D2D6, 1, 6)))">
 				<TalkTo QuestId="0xE0000B3B9578D2D6" Name="Gabe Dovaro" XYZ="27.0677,0.7341935,-4.8385" />
 			</If>
-			<CompleteQuest QuestName="Balmorra: Bonus Series 2" QuestId="0xE0000B3B9578D2D6" RewardIndex="1" />
+			<CompleteQuest QuestName="Balmorra: Bonus Series 2" QuestId="0xE0000B3B9578D2D6" />
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
 		</If>
@@ -2251,7 +2251,7 @@
 				<!-- I am now on my ship -->
 				<UseObject QuestId="1" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9448403,1.651,2.644027" />
 			</If>
-			<CompleteQuest QuestName="Passing the Torch" QuestId="0xE000602538AF1859" RewardIndex="1" />
+			<CompleteQuest QuestName="Passing the Torch" QuestId="0xE000602538AF1859" />
 			<!-- We now have Zenith Companion -->
 			<!-- Attis Station 0xE00031F9F4E81A85-->
 		</If>

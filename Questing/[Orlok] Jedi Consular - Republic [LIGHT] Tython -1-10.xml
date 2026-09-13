@@ -161,7 +161,7 @@
 				<MoveTo QuestId="0xE000E027508959A7" XYZ="-33.35854,-7.474478,-53.48325"/>
 			</If>
 			<TurnInQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" TurnInName="Master Yuon Par" XYZ="-33.0117,-7.473284,-56.5156"/>
-			<CompleteQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7" RewardIndex="0"/>
+			<CompleteQuest QuestName="Trials in Kaleth" QuestId="0xE000E027508959A7"/>
 
 		</If>
 
@@ -177,7 +177,7 @@
 			<!--  Turnin Consular - Hunter's Eye  -->
 			<If Condition="((HasQuest(0xE000A63F64D79501)) and (not IsQuestComplete(0xE000A63F64D79501)))">
 				<TurnInQuest QuestName="Hunter's Eye" QuestId="0xE000A63F64D79501" TurnInName="Master Yuon Par" XYZ="-33.1236,-7.473284,-56.3757"/>
-				<CompleteQuest QuestName="Hunter's Eye" QuestId="0xE000A63F64D79501" RewardIndex="0"/>
+				<CompleteQuest QuestName="Hunter's Eye" QuestId="0xE000A63F64D79501"/>
 			</If>
 		</If>
 
@@ -208,7 +208,7 @@
 				<MoveTo QuestId="0xE0003DC151A4CBEA" XYZ="-33.35854,-7.474478,-53.48325"/>
 			</If>
 			<TurnInQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" TurnInName="Master Yuon Par" XYZ="-33.1236,-7.473284,-56.3757"/>
-			<CompleteQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA" RewardIndex="0"/>
+			<CompleteQuest QuestName="The Footsteps of the Fallen" QuestId="0xE0003DC151A4CBEA"/>
 
 		</If>
 

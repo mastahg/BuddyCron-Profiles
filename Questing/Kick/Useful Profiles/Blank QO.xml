@@ -128,12 +128,12 @@
 		<!-- Turnin 
 		<If Condition="((HasQuest()) and (not IsQuestComplete()))">
 	<TurnInQuest QuestName="" QuestId="" TurnIn
-			<CompleteQuest QuestName="" QuestId="" RewardIndex="1" />
+			<CompleteQuest QuestName="" QuestId="" />
 		</If>
 			<CompleteQuest QuestName="" QuestId="" />
 		
 	<TurnInQuest QuestName="" QuestId="" Type="Placeable" UseRange="2" TurnInName="" 
-			<CompleteQuest QuestName="" QuestId="" RewardIndex="1" />
+			<CompleteQuest QuestName="" QuestId="" />
 	
 			<TalkTo QuestId="" 
 			<WaitTimer QuestId="1" WaitTime="8" />
@@ -312,9 +312,9 @@
 
 			
 			<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Trooper) or (Me.Class == CharacterClass.Knight))">
-				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" RewardIndex="2" />
+				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" />
 			</If>
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" RewardIndex="3" />
+				<CompleteQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" />
 			</If>	
 -->

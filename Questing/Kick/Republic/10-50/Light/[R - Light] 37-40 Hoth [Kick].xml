@@ -750,7 +750,7 @@
 				<Grind GrindRef="Imperial Interference (Bonus)" While="(not IsQuestComplete(0xE00089830F33C73D))" />
 			</If>
 			<TurnInQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" TurnInName="Lieutenant Laskin" XYZ="-343.4508,9.236703,-131.5768" />
-			<CompleteQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" RewardIndex="3" />
+			<CompleteQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" />
 			<!-- Relay Race 0xE00020690F822E12-->
 		</If>
 		
@@ -771,7 +771,7 @@
 			<If Condition="((HasQuest(0xE00020690F822E12)) and (not IsBranchStepComplete(0xE00020690F822E12, 1, 4)))">
 				<UseObject QuestId="0xE00020690F822E12" ObjectName="Communications Relay" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-297.1779,8.034109,-125.0553" />
 			</If>
-			<CompleteQuest QuestName="Relay Race" QuestId="0xE00020690F822E12" RewardIndex="2" />
+			<CompleteQuest QuestName="Relay Race" QuestId="0xE00020690F822E12" />
 			<!-- Freeing Crescent Canyon 0xE000B1AE4BA5A44F-->
 		</If>
 		
@@ -811,7 +811,7 @@
 			<If Condition="((HasQuest(0xE000B1AE4BA5A44F)) and (not IsBranchStepComplete(0xE000B1AE4BA5A44F, 1, 3)))">
 				<UseObject QuestId="0xE000B1AE4BA5A44F" ObjectName="Communications Terminal" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-222.3426,3.754703,-119.6047" />
 			</If>
-			<CompleteQuest QuestName="Freeing Crescent Canyon" QuestId="0xE000B1AE4BA5A44F" RewardIndex="2" />
+			<CompleteQuest QuestName="Freeing Crescent Canyon" QuestId="0xE000B1AE4BA5A44F" />
 			<!-- Exploding Mines 0xE000F588520EB45C -->
 		</If>
 		
@@ -886,13 +886,13 @@
 		<!-- Turnin Togruta Rescue -->
 		<If Condition="((HasQuest(0xE000BBDECD4F0DA4)) and (not IsQuestComplete(0xE000BBDECD4F0DA4)))">
 			<TurnInQuest QuestName="Togruta Rescue" QuestId="0xE000BBDECD4F0DA4" TurnInName="Lodish" XYZ="-340.0164,9.124195,-125.8137" />
-			<CompleteQuest QuestName="Togruta Rescue" QuestId="0xE000BBDECD4F0DA4" RewardIndex="3" />
+			<CompleteQuest QuestName="Togruta Rescue" QuestId="0xE000BBDECD4F0DA4" />
 		</If>
 		
 		<!-- Turnin Exploding Mines -->
 		<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsQuestComplete(0xE000F588520EB45C)))">
 			<TurnInQuest QuestName="Exploding Mines" QuestId="0xE000F588520EB45C" TurnInName="Lieutenant Laskin" XYZ="-343.4354,9.236703,-131.5615" />
-			<CompleteQuest QuestName="Exploding Mines" QuestId="0xE000F588520EB45C" RewardIndex="3" />
+			<CompleteQuest QuestName="Exploding Mines" QuestId="0xE000F588520EB45C" />
 			<!-- Shades of Blue 0xE0006468681BAB87-->
 
 			<ForceVendor VendorType="Repair" />
@@ -902,20 +902,20 @@
 		<!-- Turnin Consular - The Coalition -->
 		<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsQuestComplete(0xE000B7D990703E28)))">
 			<TurnInQuest QuestName="The Coalition" QuestId="0xE000B7D990703E28" TurnInName="Lieutenant Iresso" XYZ="-346.3585,9.236703,-140.4955" />
-			<CompleteQuest QuestName="The Coalition" QuestId="0xE000B7D990703E28" RewardIndex="3" />
+			<CompleteQuest QuestName="The Coalition" QuestId="0xE000B7D990703E28" />
 			<!-- Into the White 0xE000EFA31F5F9DEA-->
 		</If>
 		
 		<!-- Turnin Seismic Raiders -->
 		<If Condition="((HasQuest(0xE000D02C97153A84)) and (not IsQuestComplete(0xE000D02C97153A84)))">
 			<TurnInQuest QuestName="Seismic Raiders" QuestId="0xE000D02C97153A84" TurnInName="Nolan Pars" XYZ="-262.1735,7.234108,-108.0687" />
-			<CompleteQuest QuestName="Seismic Raiders" QuestId="0xE000D02C97153A84" RewardIndex="2" />
+			<CompleteQuest QuestName="Seismic Raiders" QuestId="0xE000D02C97153A84" />
 		</If>
 		
 		<!-- Shades of Blue -->
 		<If Condition="((HasQuest(0xE0006468681BAB87)) and (not IsQuestComplete(0xE0006468681BAB87)))">
 			<TurnInQuest QuestName="Shades of Blue" QuestId="0xE0006468681BAB87" TurnInName="Major Vinson" XYZ="-206.85,7.433774,-105.129" />
-			<CompleteQuest QuestName="Shades of Blue" QuestId="0xE0006468681BAB87" RewardIndex="1" />
+			<CompleteQuest QuestName="Shades of Blue" QuestId="0xE0006468681BAB87" />
 			<!-- Questionable Sources 0xE000B6C12FA7D407-->
 		</If>
 		
@@ -960,7 +960,7 @@
 		<!-- Turnin [AREA] Spy Droids -->
 		<If Condition="((HasQuest(0xE000D8B77E9888C6)) and (not IsQuestComplete(0xE000D8B77E9888C6)))">
 			<TurnInQuest QuestName="[AREA] Spy Droids" QuestId="0xE000D8B77E9888C6" Type="Placeable" UseRange="2" TurnInName="Drop Box" XYZ="-65.48639,2.943728,-88.04324" />
-			<CompleteQuest QuestName="[AREA] Spy Droids" QuestId="0xE000D8B77E9888C6" RewardIndex="4" />
+			<CompleteQuest QuestName="[AREA] Spy Droids" QuestId="0xE000D8B77E9888C6" />
  
 			<UseTransport TransporterName="Outpost Senth Speeder" Type="Taxi" Option="Outpost Cresh Speeder" 
 									XYZ="-87.8932,4.953951,-92.5085" />
@@ -969,7 +969,7 @@
 		<!-- Turnin Questionable Sources -->
 		<If Condition="((HasQuest(0xE000B6C12FA7D407)) and (not IsQuestComplete(0xE000B6C12FA7D407)))">
 			<TurnInQuest QuestName="Questionable Sources" QuestId="0xE000B6C12FA7D407" TurnInName="Major Vinson" XYZ="-206.85,7.433774,-105.129" />
-			<CompleteQuest QuestName="Questionable Sources" QuestId="0xE000B6C12FA7D407" RewardIndex="4" />
+			<CompleteQuest QuestName="Questionable Sources" QuestId="0xE000B6C12FA7D407" />
 			<!-- Scorched Earth 0xE000CF30976EEEC3 -->
 		</If>
 		
@@ -1085,20 +1085,20 @@
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 8)))">
 				<TalkTo QuestId="0xE000EFA31F5F9DEA" Name="Lieutenant Iresso" XYZ="-175.8301,1.936703,-113.0369" />
 			</If>
-			<CompleteQuest QuestName="Into the White" QuestId="0xE000EFA31F5F9DEA" RewardIndex="3" />
+			<CompleteQuest QuestName="Into the White" QuestId="0xE000EFA31F5F9DEA" />
 			<!-- Cracks in the Armor 0xE000BF160D9D1420-->
 		</If>
 		
 		<!-- Turnin One Thing or Another -->
 		<If Condition="((HasQuest(0xE00092BF8777768B)) and (not IsQuestComplete(0xE00092BF8777768B)))">
 			<TurnInQuest QuestName="One Thing or Another " QuestId="0xE00092BF8777768B" TurnInName="Supply Officer Brundle" XYZ="-203.777,7.405004,-103.9694" />
-			<CompleteQuest QuestName="One Thing or Another " QuestId="0xE00092BF8777768B" RewardIndex="3" />
+			<CompleteQuest QuestName="One Thing or Another " QuestId="0xE00092BF8777768B" />
 		</If>
 	
 		<!-- Turnin Scorched Earth -->
 		<If Condition="((HasQuest(0xE000CF30976EEEC3)) and (not IsQuestComplete(0xE000CF30976EEEC3)))">
 			<TurnInQuest QuestName="Scorched Earth" QuestId="0xE000CF30976EEEC3" TurnInName="Major Vinson" XYZ="-206.85,7.433774,-105.129" />
-			<CompleteQuest QuestName="Scorched Earth" QuestId="0xE000CF30976EEEC3" RewardIndex="1" />
+			<CompleteQuest QuestName="Scorched Earth" QuestId="0xE000CF30976EEEC3" />
 			<!-- Allied Forces 0xE00067DCD14BE141-->
 
 			<UseTransport TransporterName="Outpost Cresh Speeder" Type="Taxi" Option="Outpost Senth Speeder" 
@@ -1108,7 +1108,7 @@
 		<!-- Turnin Allied Forces -->
 		<If Condition="((HasQuest(0xE00067DCD14BE141)) and (not IsQuestComplete(0xE00067DCD14BE141)))">
 			<TurnInQuest QuestName="Allied Forces" QuestId="0xE00067DCD14BE141" TurnInName="Lieutenant Kieral" XYZ="-75.7013,2.736703,-82.3442" />
-			<CompleteQuest QuestName="Allied Forces" QuestId="0xE00067DCD14BE141" RewardIndex="2" />
+			<CompleteQuest QuestName="Allied Forces" QuestId="0xE00067DCD14BE141" />
 			<!-- Unlikely Allies 0xE0009DB535FE39A5-->
 
 			<ForceVendor VendorType="Repair" />
@@ -1177,21 +1177,21 @@
 			<If Condition="((HasQuest(0xE000BF160D9D1420)) and (not IsBranchStepComplete(0xE000BF160D9D1420, 4, 5)))">
 				<TalkTo QuestId="0xE000BF160D9D1420" Name="Lieutenant Iresso" XYZ="15.5649,1.729217,-105.7125" />
 			</If>
-			<CompleteQuest QuestName="Cracks in the Armor" QuestId="0xE000BF160D9D1420" RewardIndex="4" />
+			<CompleteQuest QuestName="Cracks in the Armor" QuestId="0xE000BF160D9D1420" />
 			<!-- Consular - Chasing the Legend 0xE0000CA7A0E3F850-->
 		</If>
 		
 		<!-- Turnin Unlikely Allies -->
 		<If Condition="((HasQuest(0xE0009DB535FE39A5)) and (not IsQuestComplete(0xE0009DB535FE39A5)))">
 			<TurnInQuest QuestName="Unlikely Allies" QuestId="0xE0009DB535FE39A5" TurnInName="Lieutenant Kieral" XYZ="-75.7013,2.736703,-82.3442" />
-			<CompleteQuest QuestName="Unlikely Allies" QuestId="0xE0009DB535FE39A5" RewardIndex="3" />
+			<CompleteQuest QuestName="Unlikely Allies" QuestId="0xE0009DB535FE39A5" />
 			<!-- Give Them An Inch 0xE000E2DEB51ACF1C-->
 		</If>
 
 		<!-- Turnin Out in the Cold -->
 		<If Condition="((HasQuest(0xE000713F0AD54583)) and (not IsQuestComplete(0xE000713F0AD54583)))">
 			<TurnInQuest QuestName="Out in the Cold" QuestId="0xE000713F0AD54583" TurnInName="Corporal Loovi" XYZ="-77.5246,2.736703,-82.1447" />
-			<CompleteQuest QuestName="Out in the Cold" QuestId="0xE000713F0AD54583" RewardIndex="2" />
+			<CompleteQuest QuestName="Out in the Cold" QuestId="0xE000713F0AD54583" />
 		</If>
 		
 		<!-- Give Them An Inch and Turnin -->
@@ -1214,7 +1214,7 @@
 			</If>
 			<!-- QT to Senth -->
 			<TurnInQuest QuestName="Give Them An Inch" QuestId="0xE000E2DEB51ACF1C" TurnInName="Lieutenant Kieral" XYZ="-75.7013,2.736703,-82.3442" />
-			<CompleteQuest QuestName="Give Them An Inch" QuestId="0xE000E2DEB51ACF1C" RewardIndex="1" />
+			<CompleteQuest QuestName="Give Them An Inch" QuestId="0xE000E2DEB51ACF1C" />
 			<!-- Cold War 0xE000AAA348E9A90A-->
 		</If>
 		
@@ -1224,7 +1224,7 @@
 		<!-- Turnin Cold War -->
 		<If Condition="((HasQuest(0xE000AAA348E9A90A)) and (not IsQuestComplete(0xE000AAA348E9A90A)))">
 			<TurnInQuest QuestName="Cold War " QuestId="0xE000AAA348E9A90A" TurnInName="Admiral Revald" XYZ="125.0413,-0.8632973,-10.0598" />
-			<CompleteQuest QuestName="Cold War " QuestId="0xE000AAA348E9A90A" RewardIndex="2" />
+			<CompleteQuest QuestName="Cold War " QuestId="0xE000AAA348E9A90A" />
 			<!-- Arms Race 0xE00008D96B722752-->
 		</If>
 		
@@ -1257,7 +1257,7 @@
 			<If Condition="((HasQuest(0xE00008D96B722752)) and (not IsBranchStepComplete(0xE00008D96B722752, 1, 3)))">
 				<UseObject QuestId="0xE00008D96B722752" ObjectName="Pirate Terminal" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="197.1076,-8.753158,60.54549" />
 			</If>
-			<CompleteQuest QuestName="Arms Race" QuestId="0xE00008D96B722752" RewardIndex="1" />
+			<CompleteQuest QuestName="Arms Race" QuestId="0xE00008D96B722752" />
 			<!-- The Null Cannon 0xE000C8BE076A5769-->
 		</If>
 		
@@ -1359,7 +1359,7 @@
 		<!-- Turnin Top Secret -->
 		<If Condition="((HasQuest(0xE0005A1ADB8EE393)) and (not IsQuestComplete(0xE0005A1ADB8EE393)))">
 			<TurnInQuest QuestName="Top Secret " QuestId="0xE0005A1ADB8EE393" TurnInName="Elias Inkari" XYZ="121.8441,-1.173188,-37.2564" />
-			<CompleteQuest QuestName="Top Secret " QuestId="0xE0005A1ADB8EE393" RewardIndex="2" />
+			<CompleteQuest QuestName="Top Secret " QuestId="0xE0005A1ADB8EE393" />
 		</If>
 		
 		<!-- Turnin Keeping Secrets -->
@@ -1371,7 +1371,7 @@
 		<!-- Turnin The Null Cannon -->
 		<If Condition="((HasQuest(0xE000C8BE076A5769)) and (not IsQuestComplete(0xE000C8BE076A5769)))">
 			<TurnInQuest QuestName="Null Cannon" QuestId="0xE000C8BE076A5769" TurnInName="Admiral Revald" XYZ="125.0413,-0.8632973,-10.0598" />
-			<CompleteQuest QuestName="Null Cannon" QuestId="0xE000C8BE076A5769" RewardIndex="2" />
+			<CompleteQuest QuestName="Null Cannon" QuestId="0xE000C8BE076A5769" />
 		</If>
 		
 		<!-- Consular - Chasing the Legend -->
@@ -1393,7 +1393,7 @@
 				<!-- I am on my ship now -->
 				<UseObject QuestId="0xE0000CA7A0E3F850" BranchId="10" StepId="2" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
 			</If>
-			<CompleteQuest QuestName="Chasing the Legend" QuestId="0xE0000CA7A0E3F850" RewardIndex="3" />
+			<CompleteQuest QuestName="Chasing the Legend" QuestId="0xE0000CA7A0E3F850" />
 			<!-- To Serve the King 0xE000F4A78C9A8C2B-->
 		</If>
 		
@@ -1440,7 +1440,7 @@
 				<!-- I now have a 5th companion - Lt. Iresso.  He has a quest - Going Home -->
 				<UseObject QuestId="0xE000F4A78C9A8C2B" BranchId="4" StepId="4" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9610049,1.651,2.642103" />
 			</If>
-			<CompleteQuest QuestName="To Serve the King" QuestId="0xE000F4A78C9A8C2B" RewardIndex="3" />
+			<CompleteQuest QuestName="To Serve the King" QuestId="0xE000F4A78C9A8C2B" />
 			<!-- Consular - Defending the Republic 0xE0002211D4BFCC57 -->
 			<!-- Consular - Counterpoint 0xE000C12D408B68A2-->
 		</If>
@@ -1526,7 +1526,7 @@
 				<!-- I am on my ship now -->
 				<UseObject QuestId="0xE000C12D408B68A2" BranchId="3" StepId="3" ObjectName="Intercom" Radius="20" WaitTime="5" XYZ="-0.9210278,1.651,2.614587" />
 			</If>
-			<CompleteQuest QuestName="Counterpoint" QuestId="0xE000C12D408B68A2" RewardIndex="3" />
+			<CompleteQuest QuestName="Counterpoint" QuestId="0xE000C12D408B68A2" />
 			<!-- Hostile Population 0xE000865F87CB1054-->
 		</If>
 		

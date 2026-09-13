@@ -783,20 +783,20 @@
 				<MoveTo QuestId="0xE00045EE560E5F68" Name="Ensign Temple" XYZ="-291.2816,-1.179256,206.0058" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<CompleteQuest QuestName="Frigid Expedition" QuestId="0xE00045EE560E5F68" RewardIndex="3" />
+			<CompleteQuest QuestName="Frigid Expedition" QuestId="0xE00045EE560E5F68" />
 			<!-- Buried in Ice -->
 		</If>
 		
 		<!-- Turnin Tracking the Republic -->
 		<If Condition="((HasQuest(0xE000680772DCF3B5)) and (not IsQuestComplete(0xE000680772DCF3B5)))">
 			<TurnInQuest QuestName="Tracking the Republic" QuestId="0xE000680772DCF3B5" TurnInName="Sergeant Ritter" XYZ="-265.6921,10.2779,92.6427" />
-			<CompleteQuest QuestName="Tracking the Republic" QuestId="0xE000680772DCF3B5" RewardIndex="2" />
+			<CompleteQuest QuestName="Tracking the Republic" QuestId="0xE000680772DCF3B5" />
 		</If>
 		
 		<!-- Turnin The Long Cold Silence -->
 		<If Condition="((HasQuest(0xE0005E6763F15EB3)) and (not IsQuestComplete(0xE0005E6763F15EB3)))">
 			<TurnInQuest QuestName="The Long Cold Silence" QuestId="0xE0005E6763F15EB3" TurnInName="Commander Tritan" XYZ="-260.5331,-0.2632974,82.0486" />
-			<CompleteQuest QuestName="The Long Cold Silence" QuestId="0xE0005E6763F15EB3" RewardIndex="2" />
+			<CompleteQuest QuestName="The Long Cold Silence" QuestId="0xE0005E6763F15EB3" />
 			<!-- Violent Reprisals 0xE000BCDB974A0D81 -->
 		</If>
 		
@@ -808,7 +808,7 @@
 				<Grind GrindRef="Violent Reprisals 2" While="(not IsQuestComplete(0xE00054FE93E18793))" />
 			</If>
 			<TurnInQuest QuestName="Violent Reprisals" QuestId="0xE000BCDB974A0D81" Type="Placeable" UseRange="2" IgnoreLOS="True" TurnInName="Holoterminal" XYZ="-232.1725,7.336703,147.5726" />
-			<CompleteQuest QuestName="Violent Reprisals" QuestId="0xE000BCDB974A0D81" RewardIndex="2" />
+			<CompleteQuest QuestName="Violent Reprisals" QuestId="0xE000BCDB974A0D81" />
 			<!-- Forcing Their Hand: Retrieval 0xE0001E032B6C7ACC -->
 			
 		</If>
@@ -832,7 +832,7 @@
 				<UseItem QuestId="0xE000E41066E5C252" BranchId="1" StepId="8" ItemName="Shalora Probe Droid" WaitTime="3" Range="1" InCombat="False" Radius="1" XYZ="-163.0176,5.105494,111.0661" />
 			</If>
 			<TurnInQuest QuestName="Scouring the Wastes" QuestId="0xE000E41066E5C252" Type="Placeable" UseRange="2" TurnInName="Distress Beacon" XYZ="-161.9881,5.455239,90.21671" />
-			<CompleteQuest QuestName="Scouring the Wastes" QuestId="0xE000E41066E5C252" RewardIndex="4" />
+			<CompleteQuest QuestName="Scouring the Wastes" QuestId="0xE000E41066E5C252" />
 			<!-- Bitter Rivalries 0xE000C5050429AA21-->
 		</If>
 		
@@ -846,7 +846,7 @@
 				<Grind GrindRef="Forced In (Bonus)" While="(not IsQuestComplete(0xE0000A39601D4282))" />
 			</If>
 			<TurnInQuest QuestName="Forcing Their Hand: Retrieval" QuestId="0xE0001E032B6C7ACC" Type="Placeable" UseRange="2" IgnoreLOS="True" TurnInName="Holoterminal" XYZ="-232.1725,7.336703,147.5726" />
-			<CompleteQuest QuestName="Forcing Their Hand: Retrieval" QuestId="0xE0001E032B6C7ACC" RewardIndex="2" />
+			<CompleteQuest QuestName="Forcing Their Hand: Retrieval" QuestId="0xE0001E032B6C7ACC" />
 			<!-- The Killing Blow 0xE000F7F22510F7CB -->
 		</If>
 		
@@ -868,7 +868,7 @@
 				<TalkTo QuestId="0xE000F7F22510F7CB" Name="Lieutenant Orawn" XYZ="-330.6279,0.8360279,168.4048" />
 			</If>
 			<TurnInQuest QuestName="The Killing Blow" QuestId="0xE000F7F22510F7CB" TurnInName="Commander Tritan" XYZ="-260.5331,-0.2632972,82.0486" />
-			<CompleteQuest QuestName="The Killing Blow" QuestId="0xE000F7F22510F7CB" RewardIndex="3" />
+			<CompleteQuest QuestName="The Killing Blow" QuestId="0xE000F7F22510F7CB" />
 			<!-- Running the Numbers -->
 			
 			<UseTransport TransporterName="Dorn Base Speeder" Type="Taxi" Option="Forward Bunker Speeder" 
@@ -896,7 +896,7 @@
 				<Grind GrindRef="Reduction Plan (Bonus)" While="(not IsQuestComplete(0xE0000B05882CA289))" />
 			</If>
 			<TurnInQuest QuestName="Running the Numbers" QuestId="0xE00053D70C6C90E7" TurnInName="Captain Revar" XYZ="-79.5199,2.531228,95.3557" />
-			<CompleteQuest QuestName="Running the Numbers" QuestId="0xE00053D70C6C90E7" RewardIndex="3" />
+			<CompleteQuest QuestName="Running the Numbers" QuestId="0xE00053D70C6C90E7" />
 			<!-- Fire in the Hole 0xE0003C8212A4E98B-->
 		</If>
 		
@@ -933,7 +933,7 @@
 		<!-- Turnin Tapping What is Ours -->
 		<If Condition="((HasQuest(0xE000ECF9437123BA)) and (not IsQuestComplete(0xE000ECF9437123BA)))">
 			<TurnInQuest QuestName="Tapping What is Ours" QuestId="0xE000ECF9437123BA" TurnInName="Lieutenant Rajiss" XYZ="-74.1741,2.484404,94.0186" />
-			<CompleteQuest QuestName="Tapping What is Ours" QuestId="0xE000ECF9437123BA" RewardIndex="1" />
+			<CompleteQuest QuestName="Tapping What is Ours" QuestId="0xE000ECF9437123BA" />
 		</If>
 		
 		<!-- Agent - Adrenal Secretions -->
@@ -1010,14 +1010,14 @@
 			</If>
 			<Grind GrindRef="Buried in Ice 4 7" While="(not IsBranchStepComplete(0xE0008FE91472E5B4, 4, 7))" />
 			<TurnInQuest QuestName="Buried in Ice" QuestId="0xE0008FE91472E5B4" TurnInName="Ensign Temple" XYZ="-57.71416,-0.7983,7.89517" />
-			<CompleteQuest QuestName="Buried in Ice" QuestId="0xE0008FE91472E5B4" RewardIndex="1" />
+			<CompleteQuest QuestName="Buried in Ice" QuestId="0xE0008FE91472E5B4" />
 			<!-- Agent - The Bone Pits 0xE000408D0EA64CE0-->
 		</If>
 
 		<!-- Agent - Turnin Adrenal Secretions -->
 		<If Condition="((HasQuest(0xE00041861C76601E)) and (not IsQuestComplete(0xE00041861C76601E)))">
 			<TurnInQuest QuestName="Adrenal Secretions" QuestId="0xE00041861C76601E" TurnInName="Doctor Oslom" XYZ="-80.4248,2.542928,89.6621" />
-			<CompleteQuest QuestName="Adrenal Secretions" QuestId="0xE00041861C76601E" RewardIndex="2" />
+			<CompleteQuest QuestName="Adrenal Secretions" QuestId="0xE00041861C76601E" />
 		</If>
 
 		<!-- Turnin Killing Them Slowly -->
@@ -1029,7 +1029,7 @@
 		<!-- Turnin Fire in the Hole -->
 		<If Condition="((HasQuest(0xE0003C8212A4E98B)) and (not IsQuestComplete(0xE0003C8212A4E98B)))">
 			<TurnInQuest QuestName="Fire in the Hole" QuestId="0xE0003C8212A4E98B" TurnInName="Captain Revar" XYZ="-79.5199,2.531228,95.3557" />
-			<CompleteQuest QuestName="Fire in the Hole" QuestId="0xE0003C8212A4E98B" RewardIndex="1" />
+			<CompleteQuest QuestName="Fire in the Hole" QuestId="0xE0003C8212A4E98B" />
 			<!-- Whiteout 0xE0004FE139485AFA-->
 			
 		</If>
@@ -1049,7 +1049,7 @@
 			<If Condition="((HasQuest(0xE000C5050429AA21)) and (not IsBranchStepComplete(0xE000C5050429AA21, 1, 3)))">
 				<MoveTo QuestId="0xE000C5050429AA21" Name="Talos" XYZ="-47.16132,5.334108,37.99348" />
 			</If>
-			<CompleteQuest QuestName="Bitter Rivalries" QuestId="0xE000C5050429AA21" RewardIndex="2" />
+			<CompleteQuest QuestName="Bitter Rivalries" QuestId="0xE000C5050429AA21" />
 			<!-- Into the Assassin Temple 0xE0006C091701E06C-->
 		</If>
 
@@ -1138,13 +1138,13 @@
 		<!-- Turnin Financing the Enemy  -->
 		<If Condition="((HasQuest(0xE000192966233E24)) and (not IsQuestComplete(0xE000192966233E24)))">
 			<TurnInQuest QuestName="Financing the Enemy" QuestId="0xE000192966233E24" TurnInName="B2-44" XYZ="-53.6726,5.536703,27.7081" />
-			<CompleteQuest QuestName="Financing the Enemy" QuestId="0xE000192966233E24" RewardIndex="3" />
+			<CompleteQuest QuestName="Financing the Enemy" QuestId="0xE000192966233E24" />
 		</If>
 		
 		<!-- Turnin The Hailstorm Brotherhood -->
 		<If Condition="((HasQuest(0xE000CAB03126E03B)) and (not IsQuestComplete(0xE000CAB03126E03B)))">
 			<TurnInQuest QuestName="The Hailstorm Brotherhood" QuestId="0xE000CAB03126E03B" TurnInName="Captain Eth" XYZ="-56.4518,5.526,30.4749" />
-			<CompleteQuest QuestName="The Hailstorm Brotherhood" QuestId="0xE000CAB03126E03B" RewardIndex="1" />
+			<CompleteQuest QuestName="The Hailstorm Brotherhood" QuestId="0xE000CAB03126E03B" />
 			<!-- Razing the Ice Fortress 0xE00046DB23025FFD-->
 		</If>
 		
@@ -1166,7 +1166,7 @@
 			</If>
 			<Grind GrindRef="Razing the Ice Fortress 5" While="(not IsBranchStepComplete(0xE00046DB23025FFD, 2, 2))" />
 			<TurnInQuest QuestName="Razing the Ice Fortress" QuestId="0xE00046DB23025FFD" TurnInName="Captain Eth" XYZ="-56.4518,5.526,30.4749" />
-			<CompleteQuest QuestName="Razing the Ice Fortress" QuestId="0xE00046DB23025FFD" RewardIndex="3" />
+			<CompleteQuest QuestName="Razing the Ice Fortress" QuestId="0xE00046DB23025FFD" />
 			<!-- An Icy Grave 0xE0008594C0DBA0EB-->
 		</If>
 		
@@ -1181,7 +1181,7 @@
 		<!-- Inquisitor - Turnin Into the Assassin Temple -->
 		<If Condition="((HasQuest(0xE0006C091701E06C)) and (not IsQuestComplete(0xE0006C091701E06C)))">
 			<TurnInQuest QuestName="Into the Assassin Temple" QuestId="0xE0006C091701E06C" TurnInName="Ancient Droid Husk" XYZ="135.1181,8.926936,54.8917" />
-			<CompleteQuest QuestName="Into the Assassin Temple" QuestId="0xE0006C091701E06C" RewardIndex="1" />
+			<CompleteQuest QuestName="Into the Assassin Temple" QuestId="0xE0006C091701E06C" />
 			<!-- The Fallen Dreadnought 0xE0004D6FF99245EA-->
 		</If>
 	
@@ -1196,7 +1196,7 @@
 			<If Condition="((HasQuest(0xE000408D0EA64CE0)) and (not IsBranchStepComplete(0xE000408D0EA64CE0, 1, 6)))">
 				<MoveTo QuestId="1" Name="My Location" XYZ="129.8991,8.036703,63.24454" />
 			</If>
-			<CompleteQuest QuestName="The Bone Pits" QuestId="0xE000408D0EA64CE0" RewardIndex="3" />
+			<CompleteQuest QuestName="The Bone Pits" QuestId="0xE000408D0EA64CE0" />
 			<!-- Agent - Assault on the Starbreeze 0xE0007B9D9ACB0AA9-->
 		</If>
 
@@ -1219,7 +1219,7 @@
 			</If>
 			<Grind GrindRef="Breaking the Maw 2 2" While="(not IsBranchStepComplete(0xE000F7EBA335CAE9, 2, 2))" />
 			<TurnInQuest QuestName="Breaking the Maw" QuestId="0xE000F7EBA335CAE9" Type="Placeable" UseRange="2" TurnInName="Security Panel" XYZ="372.9902,-8.163297,206.4341" />
-			<CompleteQuest QuestName="Breaking the Maw" QuestId="0xE000F7EBA335CAE9" RewardIndex="3" />
+			<CompleteQuest QuestName="Breaking the Maw" QuestId="0xE000F7EBA335CAE9" />
 			<!-- Spoils to the Victor 0xE000D9FD4C9A1488-->
 			
 			<UseTransport TransporterName="Shuttle door" Type="Wonkavator" Option="The Starship Graveyard"
@@ -1320,19 +1320,19 @@
 		<!-- Turnin The Icy Road to Victory -->
 		<If Condition="((HasQuest(0xE000C603E3B0D252)) and (not IsQuestComplete(0xE000C603E3B0D252)))">
 			<TurnInQuest QuestName="The Icy Road to Victory" QuestId="0xE000C603E3B0D252" TurnInName="Captain Kanen" XYZ="111.9119,10.38918,56.8913" />
-			<CompleteQuest QuestName="The Icy Road to Victory" QuestId="0xE000C603E3B0D252" RewardIndex="3" />
+			<CompleteQuest QuestName="The Icy Road to Victory" QuestId="0xE000C603E3B0D252" />
 		</If>
 		
 		<!-- Agent - Turnin Hand of Jadus: The Emperor's Secret -->
 		<If Condition="((HasQuest(0xE0004063A8DC413D)) and (not IsQuestComplete(0xE0004063A8DC413D)))">
 			<TurnInQuest QuestName="Hand of Jadus: The Emperor's Secret" QuestId="0xE0004063A8DC413D" TurnInName="Lalya Verron" XYZ="128.5437,8.831228,57.018" />
-			<CompleteQuest QuestName="Hand of Jadus: The Emperor's Secret" QuestId="0xE0004063A8DC413D" RewardIndex="1" />
+			<CompleteQuest QuestName="Hand of Jadus: The Emperor's Secret" QuestId="0xE0004063A8DC413D" />
 		</If>
 		
 		<!-- Turnin Spoils to the Victor -->
 		<If Condition="((HasQuest(0xE000D9FD4C9A1488)) and (not IsQuestComplete(0xE000D9FD4C9A1488)))">
 			<TurnInQuest QuestName="Spoils to the Victor" QuestId="0xE000D9FD4C9A1488" TurnInName="Fixer 308" XYZ="127.0688,8.742028,52.6018" />
-			<CompleteQuest QuestName="Spoils to the Victor" QuestId="0xE000D9FD4C9A1488" RewardIndex="3" />
+			<CompleteQuest QuestName="Spoils to the Victor" QuestId="0xE000D9FD4C9A1488" />
  
 			<UseTransport TransporterName="Frostwake Outpost Speeder" Type="Taxi" Option="Dorn Base Speeder" 
 									XYZ="104.079,10.421,54.715" />
@@ -1371,7 +1371,7 @@
 					<MoveTo QuestId="1" XYZ="-3.370085,0.8962948,1.644378" />
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.370085,0.8962948,1.644378" />
 				</If>
-				<CompleteQuest QuestName="The Fallen Dreadnought" QuestId="0xE0004D6FF99245EA" RewardIndex="4" />
+				<CompleteQuest QuestName="The Fallen Dreadnought" QuestId="0xE0004D6FF99245EA" />
 			</If>
 
 			<!-- Inquisitor - Conflagration and Turnin -->
@@ -1406,7 +1406,7 @@
 					<TalkTo QuestId="0xE0000C9E0B16F1AE" Name="Darth Thanaton" XYZ="3.6393,1.640999,-90.0369" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<CompleteQuest QuestName="Conflagration" QuestId="0xE0000C9E0B16F1AE" RewardIndex="3" />
+				<CompleteQuest QuestName="Conflagration" QuestId="0xE0000C9E0B16F1AE" />
 				<!-- Inquisitor - Battles to Be Won 0xE000928065B3D6FD-->
 			</If>
 		
@@ -1421,7 +1421,7 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<TurnInQuest QuestName="Battles to Be Won" QuestId="0xE000928065B3D6FD" TurnInName="Lord Saviel" XYZ="487.075,69.40077,460.6647" />
-				<CompleteQuest QuestName="Battles to Be Won" QuestId="0xE000928065B3D6FD" RewardIndex="1" />
+				<CompleteQuest QuestName="Battles to Be Won" QuestId="0xE000928065B3D6FD" />
 				<!-- The Price of Power 0xE000313F88BC5C54-->
 			</If>
 		
@@ -1503,7 +1503,7 @@
 					<MoveTo QuestId="1" XYZ="-3.370085,0.8962948,1.644378" />
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Intercom" XYZ="-3.370085,0.8962948,1.644378" />
 				</If>
-				<CompleteQuest QuestName="The Price of Power" QuestId="0xE000313F88BC5C54" RewardIndex="2" />
+				<CompleteQuest QuestName="The Price of Power" QuestId="0xE000313F88BC5C54" />
 				<!-- Inquisitor - Prison Break 0xE00002FDF22034F5-->
 			</If>
 		
@@ -1543,7 +1543,7 @@
 					</If>
 					<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="-0.01938132,1.157783,-0.7522627" />
 				</If>
-				<CompleteQuest QuestName="Assault on the Starbreeze" QuestId="0xE0007B9D9ACB0AA9" RewardIndex="3" />
+				<CompleteQuest QuestName="Assault on the Starbreeze" QuestId="0xE0007B9D9ACB0AA9" />
 				<!-- The Shadow Arsenal 0xE00036E5383866C4--> 
 				<!-- Saganu's Parting Words 0xE000552B8D50D10A-->
 			</If>
@@ -1619,7 +1619,7 @@
 					</If>
 					<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="0.0001704059,1.159496,-0.8179933" />
 				</If>
-				<CompleteQuest QuestName="The Shadow Arsenal" QuestId="0xE00036E5383866C4" RewardIndex="2" />
+				<CompleteQuest QuestName="The Shadow Arsenal" QuestId="0xE00036E5383866C4" />
 				<!-- Resumption of Hostilities 0xE000BC5B317995A4-->
 			</If>
 
@@ -1756,7 +1756,7 @@
 						<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="-0.1559009,1.051,-0.5690275" />
 					</If>
 				</If>
-				<CompleteQuest QuestName="The Hidden Throne" QuestId="0xE000CD85247B79F1" RewardIndex="1" />
+				<CompleteQuest QuestName="The Hidden Throne" QuestId="0xE000CD85247B79F1" />
 			</If>
 		
 			<!-- Agent - Breakout -->

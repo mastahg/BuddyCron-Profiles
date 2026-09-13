@@ -257,13 +257,13 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="A Live Specimen" QuestId="0xE0004C39EF8D58AE" TurnInName="Doctor Parren" XYZ="132.9342,18.2744,179.4138" />
-			<CompleteQuest QuestName="A Live Specimen" QuestId="0xE0004C39EF8D58AE" RewardIndex="1" />
+			<CompleteQuest QuestName="A Live Specimen" QuestId="0xE0004C39EF8D58AE" />
 		</If>
 		
 		<!-- Turnin Observatory -->
 		<If Condition="((HasQuest(0xE000F1FC42F09105)) and (not IsQuestComplete(0xE000F1FC42F09105)))">
 			<TurnInQuest QuestName="Observatory" QuestId="0xE000F1FC42F09105" TurnInName="General Linel Organa" XYZ="134.0466,18.24955,179.1632" />
-			<CompleteQuest QuestName="Observatory" QuestId="0xE000F1FC42F09105" RewardIndex="1" />
+			<CompleteQuest QuestName="Observatory" QuestId="0xE000F1FC42F09105" />
 		</If>
 
 		<!-- Ignoring [HEROIC 2+] Into the Killik Warrens -->
@@ -340,7 +340,7 @@
 		<!-- Turnin Disarming House Ulgo -->
 		<If Condition="((HasQuest(0xE0004A037515D493)) and (not IsQuestComplete(0xE0004A037515D493)))">
 			<TurnInQuest QuestName="Disarming House Ulgo" QuestId="0xE0004A037515D493" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="191.4913,14.91239,145.3365" />
-			<CompleteQuest QuestName="Disarming House Ulgo" QuestId="0xE0004A037515D493" RewardIndex="3" />
+			<CompleteQuest QuestName="Disarming House Ulgo" QuestId="0xE0004A037515D493" />
 		</If>
 		
 		<!-- Alderaan: Bonus Series 8 -->
@@ -404,7 +404,7 @@
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Trouble at House Baliss" QuestId="0xE00034AA2E840DC8" TurnInName="Noch" XYZ="292.6839,18.52916,56.2392" />
-			<CompleteQuest QuestName="Trouble at House Baliss" QuestId="0xE00034AA2E840DC8" RewardIndex="1" />
+			<CompleteQuest QuestName="Trouble at House Baliss" QuestId="0xE00034AA2E840DC8" />
 		</If>
 		
 		<PickUpQuest QuestName="The Missing Holocron" QuestId="0xE000121C736BE5EE" GiverName="Lieutenant Weeznod" XYZ="289.0835,18.60237,58.1816" />
@@ -428,7 +428,7 @@
 				<Grind GrindRef="A Spy in House Organa 3" While="(not IsBranchStepComplete(0xE00034BA9FA95173, 1, 3))" />
 			</If>
 			<TurnInQuest QuestName="A Spy in House Organa" QuestId="0xE00034BA9FA95173" TurnInName="Agent Tyuth" XYZ="307.4517,18.45979,47.4694" />
-			<CompleteQuest QuestName="A Spy in House Organa" QuestId="0xE00034BA9FA95173" RewardIndex="1" />
+			<CompleteQuest QuestName="A Spy in House Organa" QuestId="0xE00034BA9FA95173" />
 		</If>
 		
 		<!-- The Missing Holocron and Turnin -->
@@ -455,7 +455,7 @@
 									XYZ="300.0786,18.41762,53.691" />
 			</If>
 			<TurnInQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" TurnInName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
-			<CompleteQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" RewardIndex="1" />
+			<CompleteQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" />
 			
 			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Pallista Spaceport Taxi" 
 									XYZ="-103.6758,23.17954,123.6498" />

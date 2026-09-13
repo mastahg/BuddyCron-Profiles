@@ -892,7 +892,7 @@
 		<!-- Consular - Secret Signals -->
 		<If Condition="((HasQuest(0xE000D7724FAE1B50)) and (not IsQuestComplete(0xE000D7724FAE1B50)))">
 			<TurnInQuest QuestName="Secret Signals" QuestId="0xE000D7724FAE1B50" TurnInName="Attros Finn" XYZ="-128.1289,146.801,-473.1759" />
-			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" RewardIndex="1" />
+			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" />
 			<!-- The Flow of Goods 0xE0007AC212612015 -->
 			<!-- Force train, sell, repair, mail -->
 		</If>
@@ -920,7 +920,7 @@
 				<AnswerHolocomCall QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			</If>
 			<UserDialog Title="CryoGenesis" Message="Use taxi." />
-			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" RewardIndex="1" />
+			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			<!-- The Coming Darkness 0xE000CA0AB586CC72 -->
 		</If>
 	
@@ -938,7 +938,7 @@
 			<If Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 3)))">
 				<TalkTo QuestId="0xE000CA0AB586CC72" Name="Attros Finn" XYZ="-125.6767,143.6074,-459.8438" />
 			</If>
-			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" RewardIndex="0" />
+			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" />
 			<!-- Shadows 0xE000EA34B5143847 -->
 		</If>
 		
@@ -970,7 +970,7 @@
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 8)))">
 				<AnswerHolocomCall QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 			</If>
-			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" RewardIndex="1" />
+			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 		</If>
 
 

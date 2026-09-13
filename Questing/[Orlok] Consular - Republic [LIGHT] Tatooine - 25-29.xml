@@ -1051,7 +1051,7 @@
 			<If Condition="((HasQuest(0xE000F1A8B5387ABA)) and (not IsBranchStepComplete(0xE000F1A8B5387ABA, 2, 4)))">
 				<TalkTo QuestId="0xE000F1A8B5387ABA" Name="Rowan Delk" XYZ="82.86304,43.41175,-158.708" />
 			</If>
-			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" RewardIndex="0" />
+			<CompleteQuest QuestName="Looking Out for the Little Guy" QuestId="0xE000F1A8B5387ABA" />
 			<!-- Consular - 0=Qyzen's Upgraded Techblade; 1=comms; 2=container -->
 		</If>	
 
@@ -1082,7 +1082,7 @@
 			<If Condition="((HasQuest(0xE0004E970935A120)) and (not IsStepComplete(0xE0004E970935A120, 5)))">
 				<AnswerHolocomCall QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 			</If>
-			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" RewardIndex="2" />
+			<CompleteQuest QuestName="Visions in the Sand" QuestId="0xE0004E970935A120" />
 			<!-- 0=comms; 1=container; 2=Anointed Demicot Lower Robe -->
 		</If>
 
@@ -1099,10 +1099,10 @@
 				<MoveTo QuestId="0xE000F56E63DC90D8" Name="My Location" XYZ="-89.04349,45.90104,-128.6122" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Qyzen&quot;)">
-				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="3" />
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Tharan&quot;)">
-				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" RewardIndex="4" />
+				<CompleteQuest QuestName="Death in the Dunes" QuestId="0xE000F56E63DC90D8" />
 			</If>			
 			<!-- 0=comms; 1=Droid; 2=container; 3=Qyzen; 4=Tharan -->
 			<!-- The Ultimate Warriors 0xE000AE4F49390A99-->

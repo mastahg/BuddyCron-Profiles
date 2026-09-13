@@ -942,7 +942,7 @@
 			<If Condition="((HasQuest(0xE0004C5EBCA7C6E6)) and (not IsStepComplete(0xE0004C5EBCA7C6E6, 3)))">
 				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="Organa Castle" XYZ="-80.47144,25.601,112.991" />
 				<TurnInQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" TurnInName="General Kashim" XYZ="-76.3976,29.2008,103.0247" />
-				<CompleteQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" RewardIndex="0" />
+				<CompleteQuest QuestName="Scorched Planet" QuestId="0xE0004C5EBCA7C6E6" />
 				<!-- Raise the Flag 0xE000C4832ED80AB4 -->
 			</If>	
 		</If>
@@ -964,7 +964,7 @@
 			<If Condition="((HasQuest(0xE000B69D2A64732A)) and (not IsStepComplete(0xE000B69D2A64732A, 6)))">
 				<UseObject QuestId="0xE000B69D2A64732A" ObjectName="Holding Cell Access Panel" BranchId="1" StepId="6" IgnoreLOS="true" Radius="20" WaitTime="5" XYZ="-79.15275,27.201,94.8531" />
 			</If>
-			<CompleteQuest QuestName="Prisoner of War" QuestId="0xE000B69D2A64732A" RewardIndex="2" />
+			<CompleteQuest QuestName="Prisoner of War" QuestId="0xE000B69D2A64732A" />
 		</If>
 		 
 		<!-- Trooper - Hidden Weapon -->
@@ -980,7 +980,7 @@
 			<If Condition="((HasQuest(0xE00016CC1D921686)) and (not IsStepComplete(0xE00016CC1D921686, 4)))">
 				<MoveTo QuestId="0xE00016CC1D921686" Name="My Location" XYZ="-96.58062,26.001,78.11602" />
 			</If>
-			<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" RewardIndex="3" />
+			<CompleteQuest QuestName="Diplomacy" QuestId="0xE00016CC1D921686" />
 			<!-- Hostile Negotiations 0xE000477142135D5E -->
 		</If>
 		
@@ -1001,7 +1001,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Raise the Flag" QuestId="0xE000C4832ED80AB4" TurnInName="Duke Charle Organa" XYZ="-76.3657,29.201,103.1245" />
-			<CompleteQuest QuestName="Raise the Flag" QuestId="0xE000C4832ED80AB4" RewardIndex="4" />
+			<CompleteQuest QuestName="Raise the Flag" QuestId="0xE000C4832ED80AB4" />
 			<!-- Paladins 0xE000BC57328A8B42 -->
 		</If>
 		
@@ -1074,7 +1074,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Frozen Assets" QuestId="0xE00091D297136B88" TurnInName="Aza Gundo" XYZ="-103.9066,22.22038,142.4016" />
-			<CompleteQuest QuestName="Frozen Assets" QuestId="0xE00091D297136B88" RewardIndex="3" />
+			<CompleteQuest QuestName="Frozen Assets" QuestId="0xE00091D297136B88" />
 		</If>
 		
 		<!-- Turnin Revenge Served Cold -->
@@ -1088,7 +1088,7 @@
 		<!-- Turnin Paladins -->
 		<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsQuestComplete(0xE000BC57328A8B42)))">
 			<TurnInQuest QuestName="Paladins" QuestId="0xE000BC57328A8B42" TurnInName="Duke Charle Organa" XYZ="-76.3657,29.201,103.1245" />
-			<CompleteQuest QuestName="Paladins" QuestId="0xE000BC57328A8B42" RewardIndex="0" />
+			<CompleteQuest QuestName="Paladins" QuestId="0xE000BC57328A8B42" />
 			<!-- Hostile Negotiations -->
 		</If>
 		
@@ -1105,7 +1105,7 @@
 				<UseItem QuestId="0xE0009CFAD9C26C61" ItemName="Flare Gun" WaitTime="3500" Range="4" InCombat="False" BranchId="1" StepId="3" Radius="200" XYZ="12.57216,20.67472,180.538" />
 			</If>
 			<TurnInQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" TurnInName="Brant Organa" XYZ="45.7172,18.55964,167.5337" />
-			<CompleteQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" RewardIndex="0" />
+			<CompleteQuest QuestName="Coastal Safeguards" QuestId="0xE0009CFAD9C26C61" />
 			<!-- Learn Bindpoint -->
 			<!-- Force Sell, Repair, Mail -->
 			<ForceVendor VendorType="Repair" />
@@ -1207,7 +1207,7 @@
 			</If>
 			<!-- set pet to un-passive -->
 			<TurnInQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" TurnInName="Keikana Herot" XYZ="47.0874,18.57019,170.9198" />
-			<CompleteQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" RewardIndex="2" />
+			<CompleteQuest QuestName="Joining the Battle" QuestId="0xE000FAA6C55763C0" />
 		</If>
 		
 		<PickUpQuest QuestName="From the Brink" QuestId="0xE0006C22906566F1" GiverName="Skohani Ren" XYZ="41.3342,18.57019,172.9817" />
@@ -1265,7 +1265,7 @@
 			<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 3, 4)))">
 				<AnswerHolocomCall QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />
 			</If>
-			<CompleteQuest QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" RewardIndex="2" />
+			<CompleteQuest QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />
 			<!-- Crisis Situation 0xE000ECFC36E3348B-->
 		</If>
 		
@@ -1314,19 +1314,19 @@
 			<!-- Branch 5, Step 2 -->
 			<!-- I Quicktraveled to Wardpost Duvaal -->
 			<TurnInQuest QuestName="Ulgo's Secret" QuestId="0xE0008578FDC35929" TurnInName="Keikana Herot" XYZ="47.0874,18.57019,170.9198" />
-			<CompleteQuest QuestName="Ulgo's Secret" QuestId="0xE0008578FDC35929" RewardIndex="2" />
+			<CompleteQuest QuestName="Ulgo's Secret" QuestId="0xE0008578FDC35929" />
 		</If>
 		
 		<!-- Turnin Infestation -->
 		<If Condition="((HasQuest(0xE0003487014324DD)) and (not IsQuestComplete(0xE0003487014324DD)))">
 			<TurnInQuest QuestName="Infestation" QuestId="0xE0003487014324DD" TurnInName="Alek Teral" XYZ="49.2807,18.55964,167.4458" />
-			<CompleteQuest QuestName="Infestation" QuestId="0xE0003487014324DD" RewardIndex="0" />
+			<CompleteQuest QuestName="Infestation" QuestId="0xE0003487014324DD" />
 		</If>s
 
 		<!-- Turnin From the Brink -->
 		<If Condition="((HasQuest(0xE0006C22906566F1)) and (not IsQuestComplete(0xE0006C22906566F1)))">
 			<TurnInQuest QuestName="From the Brink" QuestId="0xE0006C22906566F1" TurnInName="Skohani Ren" XYZ="41.3342,18.57019,172.9817" />
-			<CompleteQuest QuestName="From the Brink" QuestId="0xE0006C22906566F1" RewardIndex="2" />
+			<CompleteQuest QuestName="From the Brink" QuestId="0xE0006C22906566F1" />
 		</If>
 
 		<PickUpQuest QuestName="A Historic Endeavor" QuestId="0xE0003303659D31D1" GiverName="Maelrich Alde" XYZ="137.906,19.38979,125.3053" />
@@ -1347,7 +1347,7 @@
 				<UseObject QuestId="0xE0003303659D31D1" ObjectName="Rist Satellite Relay" BranchId="1" StepId="3" IgnoreLOS="True" UseRange="10" Radius="10" WaitTime="5" XYZ="158.0686,27.52548,134.499" />
 			</If>
 			<TurnInQuest QuestName="A Historic Endeavor" QuestId="0xE0003303659D31D1" TurnInName="Maelrich Alde" XYZ="137.906,19.38979,125.3053" />
-			<CompleteQuest QuestName="A Historic Endeavor" QuestId="0xE0003303659D31D1" RewardIndex="0" />
+			<CompleteQuest QuestName="A Historic Endeavor" QuestId="0xE0003303659D31D1" />
 			<!-- Blinding the Rist 0xE00073E72940C051-->
 		</If>
 		
@@ -1369,7 +1369,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE00073E72940C051)) and (not IsStepComplete(0xE00073E72940C051, 4)))">
 				<TurnInQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" TurnInName="Captain Alethios" XYZ="65.1462,14.50715,12.8483" />
-				<CompleteQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" RewardIndex="2" />
+				<CompleteQuest QuestName="Blinding the Rist" QuestId="0xE00073E72940C051" />
 			</If>
 		</If>
 
@@ -1386,7 +1386,7 @@
 			<If Condition="((HasQuest(0xE000A4CFA4F7738A)) and (not IsStepComplete(0xE000A4CFA4F7738A, 8)))">
 				<TalkTo QuestId="0xE000A4CFA4F7738A" Name="Captain Cormac" XYZ="-77.8456,27.2,94.84137" />
 			</If>
-			<CompleteQuest QuestName="Hidden Weapon" QuestId="0xE000A4CFA4F7738A" RewardIndex="0" />	<!-- Jorgan=2; Droid=3; Elara=4 -->
+			<CompleteQuest QuestName="Hidden Weapon" QuestId="0xE000A4CFA4F7738A" />	<!-- Jorgan=2; Droid=3; Elara=4 -->
 			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Wardpost Landa Thranta" 
 				XYZ="-103.6758,23.17954,123.6498" />	
 		</If>	
@@ -1539,7 +1539,7 @@
 			<!-- Quicktravel to Wardpost Landa -->
 			<TurnInQuest QuestName="Fire in the Landing Zone" QuestId="0xE00083C96853F8D9" Type="Placeable" TurnInName="Drop Box" XYZ="69.95163,14.49928,4.207736" />
 		</If>
-		<CompleteQuest QuestName="Fire in the Landing Zone" QuestId="0xE00083C96853F8D9" RewardIndex="0" /> <!-- Elara 0; Jorgan 2; Droid 3; -->
+		<CompleteQuest QuestName="Fire in the Landing Zone" QuestId="0xE00083C96853F8D9" /> <!-- Elara 0; Jorgan 2; Droid 3; -->
 		
 		<!-- Turnin Their Own Weapons -->
 		<If Condition="((HasQuest(0xE0002BE7E9276BBC)) and (not IsQuestComplete(0xE0002BE7E9276BBC)))">
@@ -1551,7 +1551,7 @@
 		<!-- Turnin The Servant Girl -->
 		<If Condition="((HasQuest(0xE000864A57709643)) and (not IsQuestComplete(0xE000864A57709643)))">
 			<TurnInQuest QuestName="The Servant Girl" QuestId="0xE000864A57709643" TurnInName="Major Cressen" XYZ="70.3879,14.4286,-1.6545" />
-			<CompleteQuest QuestName="The Servant Girl" QuestId="0xE000864A57709643" RewardIndex="2" />
+			<CompleteQuest QuestName="The Servant Girl" QuestId="0xE000864A57709643" />
 			<ForceVendor VendorType="Repair" />
 			<!-- Bridge Bombers 0xE0000FEAC0BD03B1-->
 		</If>
@@ -1595,7 +1595,7 @@
 				</UseObject>
 			</If>
 			<TurnInQuest QuestName="Bridge Bombers" QuestId="0xE0000FEAC0BD03B1" TurnInName="Major Cressen" XYZ="70.3879,14.4286,-1.6545" />
-			<CompleteQuest QuestName="Bridge Bombers" QuestId="0xE0000FEAC0BD03B1" RewardIndex="2" /> <!-- Droid 2; Jorgan 3; Elara 4; -->
+			<CompleteQuest QuestName="Bridge Bombers" QuestId="0xE0000FEAC0BD03B1" /> <!-- Droid 2; Jorgan 3; Elara 4; -->
 		</If>
 		
 		<PickUpQuest QuestName="Tower Defense" QuestId="0xE000FC966C2449A4" GiverName="Captain Cahill" XYZ="71.645,14.51171,-3.3358" />
@@ -1639,7 +1639,7 @@
 				</If>	
 				<TalkTo QuestId="0xE000ECFC36E3348B" Name="Lord Teral" XYZ="78.1765,17.20003,147.0994" />
 			</If>
-			<CompleteQuest QuestName="Crisis Situation" QuestId="0xE000ECFC36E3348B" RewardIndex="3" />
+			<CompleteQuest QuestName="Crisis Situation" QuestId="0xE000ECFC36E3348B" />
 			<!-- Consular - The Summit 0xE0000530981149E2-->
 			<If Condition="(Me.Position.X &gt; 40) and (Me.Position.Y &gt; 17) and (Me.Position.Z &gt; 140)">
 				<UseTransport TransporterName="Wardpost Duvaal Thranta" Type="Taxi" Option="Wardpost Hurne Thranta" 
@@ -1715,7 +1715,7 @@
 			</If>
 			<!-- Quicktravel to Hurne -->
 			<TurnInQuest QuestName="Tower Defense" QuestId="0xE000FC966C2449A4" TurnInName="Captain Barra" XYZ="25.5218,16.6701,-47.4406" />
-			<CompleteQuest QuestName="Tower Defense" QuestId="0xE000FC966C2449A4" RewardIndex="0" />
+			<CompleteQuest QuestName="Tower Defense" QuestId="0xE000FC966C2449A4" />
 		</If>
 		
 		<!-- Turnin Thwarting House Thul -->
@@ -1748,7 +1748,7 @@
 			</If>
 			<!-- Quicktravel to Hurne -->
 			<TurnInQuest QuestName="Sith Among the Ruins" QuestId="0xE0000D0CF2E38FFD" Type="Placeable" TurnInName="Mission Dropbox" XYZ="31.69144,16.701,-52.6535" />
-			<CompleteQuest QuestName="Sith Among the Ruins" QuestId="0xE0000D0CF2E38FFD" RewardIndex="2" />
+			<CompleteQuest QuestName="Sith Among the Ruins" QuestId="0xE0000D0CF2E38FFD" />
 		</If>
 		
 		<!-- Sudden Death 3 -->
@@ -1770,13 +1770,13 @@
 				<Grind GrindRef="Wipe Out the War Camp (Bonus)" While="(not IsQuestComplete(0xE000BEDBA1075E26))" />
 			</If>
 			<TurnInQuest QuestName="Bomb on Board" QuestId="0xE000D76E110CC483" TurnInName="Selia Antares" XYZ="-173.9182,13.4959,-62.0556" />
-			<CompleteQuest QuestName="Bomb on Board" QuestId="0xE000D76E110CC483" RewardIndex="0" />
+			<CompleteQuest QuestName="Bomb on Board" QuestId="0xE000D76E110CC483" />
 		</If>
 		
 		<!-- Turnin Sudden Death -->
 		<If Condition="((HasQuest(0xE00063772D446CA3)) and (not IsQuestComplete(0xE00063772D446CA3)))">
 			<TurnInQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" TurnInName="Katei Panteer" XYZ="-146.6605,15.9617,-71.5144" />
-			<CompleteQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" RewardIndex="0" />
+			<CompleteQuest QuestName="Sudden Death" QuestId="0xE00063772D446CA3" />
 			<!-- Usurper 0xE0000FDDF7B0B055-->
 		</If>
 
@@ -1831,7 +1831,7 @@
 				<Grind GrindRef="Usurper 5" While="(not IsStepComplete(0xE0000FDDF7B0B055, 5))" />
 			</If>
 			<TurnInQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" TurnInName="Bouris Ulgo" Radius="30" UseRange="2" XYZ="-279.8767,-26.5778,-38.40318" />
-			<CompleteQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" RewardIndex="2" />
+			<CompleteQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" />
 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Castle Panteer"
 									XYZ="-254.553,-26.44463,-38.79814" />
 			<!-- Quicktravel to to Panteer Refuge -->
@@ -1840,7 +1840,7 @@
 		<!-- Turnin The Coming Storm -->
 		<If Condition="((HasQuest(0xE000BF6F7D728668)) and (not IsQuestComplete(0xE000BF6F7D728668)))">
 			<TurnInQuest QuestName="The Coming Storm" QuestId="0xE000BF6F7D728668" TurnInName="Andon Organa" XYZ="-143.2018,15.91278,-74.8083" />
-			<CompleteQuest QuestName="The Coming Storm" QuestId="0xE000BF6F7D728668" RewardIndex="2" />
+			<CompleteQuest QuestName="The Coming Storm" QuestId="0xE000BF6F7D728668" />
 			<UseTransport TransporterName="Panteer Refuge Thranta" Type="Taxi" Option="House Organa Taxi" 
 									XYZ="-161.15,16.47614,-64.8442" />
 			<!-- Mail -->

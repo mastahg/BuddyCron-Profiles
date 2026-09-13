@@ -1349,14 +1349,14 @@
 		<!-- The Senator's Stolen Goods	4 -->
 		<If Condition="((HasQuest(0xE0009ECBE9AD9669)) and (not IsQuestComplete(0xE0009ECBE9AD9669)))">
 			<TurnInQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" TurnInName="Captain Denal-Zon" XYZ="224.9588,43.201,83.4084" />
-			<CompleteQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" RewardIndex="0" />
+			<CompleteQuest QuestName="The Senator's Stolen Goods" QuestId="0xE0009ECBE9AD9669" />
 			<!-- Consular: Equip Consular's Sash -->
 		</If>
 				
 		<!-- For Better or Worse 4 -->
 		<If Condition="((HasQuest(0xE000932D76E0265A)) and (not IsQuestComplete(0xE000932D76E0265A)))">
 			<TurnInQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" TurnInName="Nik Deleru" XYZ="235.2605,43.211,81.4729" />
-			<CompleteQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" RewardIndex="1" />
+			<CompleteQuest QuestName="For Better or Worse" QuestId="0xE000932D76E0265A" />
 			<!-- Consular - Equip Consular's Bracers -->
 		</If>
 		
@@ -1386,7 +1386,7 @@
 				<TalkTo QuestId="0xE0005DFD996485DA" Name="Darmas Pollaran" XYZ="218.0887,43.3009,71.9353" /> 
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Identity Crisis" QuestId="0xE0005DFD996485DA" RewardIndex="2" />
+			<CompleteQuest QuestName="Identity Crisis" QuestId="0xE0005DFD996485DA" />
 		</If>
 		
 		<!-- Cantina Contusions -->
@@ -1453,19 +1453,19 @@
 		<!-- Trooper - Turnin Destroying the War Droids -->
 		<If Condition="((HasQuest(0xE0007BA116E48BC0)) and (not IsQuestComplete(0xE0007BA116E48BC0)))">
 			<TurnInQuest QuestName="Destroying the War Droids" QuestId="0xE0007BA116E48BC0" TurnInName="General Garza" XYZ="-128.5276,144.001,-485.8488" />
-			<CompleteQuest QuestName="Destroying the War Droids" QuestId="0xE0007BA116E48BC0" RewardIndex="1" />
+			<CompleteQuest QuestName="Destroying the War Droids" QuestId="0xE0007BA116E48BC0" />
 		</If>
 		
 		<!-- Knight - Turnin Stolen Secrets -->
 		<If Condition="((HasQuest(0xE000E209ED442C1B)) and (not IsQuestComplete(0xE000E209ED442C1B)))">
 			<TurnInQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" TurnInName="Agent Galen" XYZ="-130.945,144.001,-469.7042" />
-			<CompleteQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" RewardIndex="2" />
+			<CompleteQuest QuestName="Stolen Secrets" QuestId="0xE000E209ED442C1B" />
 		</If>
 		
 		<!-- Consular - Secret Signals -->
 		<If Condition="((HasQuest(0xE000D7724FAE1B50)) and (not IsQuestComplete(0xE000D7724FAE1B50)))">
 			<TurnInQuest QuestName="Secret Signals" QuestId="0xE000D7724FAE1B50" TurnInName="Attros Finn" XYZ="-128.1289,146.801,-473.1759" />
-			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" RewardIndex="1" />
+			<CompleteQuest QuestName="Secret Signals (Bonus)" QuestId="0xE000D7724FAE1B50" />
 			<!-- The Flow of Goods 0xE0007AC212612015 -->
 			<!-- Force train, sell, repair, mail -->
 			<ForceVendor VendorType="Train" />
@@ -1478,7 +1478,7 @@
 			<If Condition="((HasQuest(0xE000A244D911F0B5)) and (not IsBranchStepComplete(0xE000A244D911F0B5, 2, 2)))">
 				<TurnInQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" TurnInName="Spirakris Zarem" XYZ="-113.8765,142.701,-433.5812" />
 			</If>
-			<CompleteQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" RewardIndex="0" />
+			<CompleteQuest QuestName="The Politics of Dissent" QuestId="0xE000A244D911F0B5" />
 		</If>
 
 		<!-- Knight - Kidnapped! -->
@@ -1522,7 +1522,7 @@
 					<WaitTimer QuestId="0xE000D291CE32CB12" WaitTime="10" />
 				</If>		
 			</If>
-			<CompleteQuest QuestName="Kidnapped!" QuestId="0xE000D291CE32CB12" RewardIndex="0" /> <!-- 0 planetary comm; 1 sentinels gloves; 2 Peacekeeper Gloves -->
+			<CompleteQuest QuestName="Kidnapped!" QuestId="0xE000D291CE32CB12" /> <!-- 0 planetary comm; 1 sentinels gloves; 2 Peacekeeper Gloves -->
 		</If>
 
 		
@@ -1631,7 +1631,7 @@
 			<If Condition="((HasQuest(0xE0007AC212612015)) and (not IsStepComplete(0xE0007AC212612015, 6)))">
 				<AnswerHolocomCall QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			</If>
-			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" RewardIndex="1" />
+			<CompleteQuest QuestName="The Flow of Goods" QuestId="0xE0007AC212612015" />
 			<!-- The Coming Darkness 0xE000CA0AB586CC72 -->
 		</If>
 	
@@ -1783,7 +1783,7 @@
 		<!-- TurnIn Partial Eclipse -->
 		<If Condition="((HasQuest(0xE00028080811E924)) and (not IsQuestComplete(0xE00028080811E924)))">
 			<TurnInQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" TurnInName="Agent Folaris" XYZ="-387.7063,-129.6959,28.0432" />
-			<CompleteQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" RewardIndex="0" />
+			<CompleteQuest QuestName="Partial Eclipse" QuestId="0xE00028080811E924" />
 			<!-- Consular - Equip Traditional Nylite Bracers -->
 		</If>
 		
@@ -1804,13 +1804,13 @@
 			<If Condition="((HasQuest(0xE00019223A688B83)) and (not IsBranchStepComplete(0xE00019223A688B83, 4, 2)))">
 				<AnswerHolocomCall QuestName="The Black Sun's Poison" QuestId="0xE00019223A688B83" />
 			</If>
-			<CompleteQuest QuestName="The Black Sun's Poison" QuestId="0xE00019223A688B83" RewardIndex="1" />
+			<CompleteQuest QuestName="The Black Sun's Poison" QuestId="0xE00019223A688B83" />
 		</If>			
 		
 		<!-- TurnIn Boom -->
 		<If Condition="((HasQuest(0xE000A0B1444F9516)) and (not IsQuestComplete(0xE000A0B1444F9516)))">
 			<TurnInQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" TurnInName="Captain Theraguin" XYZ="-365.0376,-132.699,-18.3224" />
-			<CompleteQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" RewardIndex="1" />
+			<CompleteQuest QuestName="Boom" QuestId="0xE000A0B1444F9516" />
 			<!-- Consular - Equip item on companion Qyzen Fess.  Item = Qyzen's Layered Bracers -->
 		</If>
 	
@@ -1823,7 +1823,7 @@
 		<!--  TurnIn The Pickup -->
 		<If Condition="((HasQuest(0xE000C94346CC588B)) and (not IsQuestComplete(0xE000C94346CC588B)))">
 			<TurnInQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" TurnInName="Dooce Everton" XYZ="-330.853,-127.099,-32.6137" />
-			<CompleteQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" RewardIndex="0" />
+			<CompleteQuest QuestName="The Pickup" QuestId="0xE000C94346CC588B" />
 		</If>
 		
 		<!-- Pickup Secret Passages -->
@@ -1889,7 +1889,7 @@
 				<TalkTo QuestId="0xE000D0A7D6B0A490" Name="Darmas Pollaran" XYZ="218.0887,43.3009,71.9353" /> 
 				<WaitTimer QuestId="1" WaitTime="5" />				
 			</If>
-			<CompleteQuest QuestName="Hot Pursuit" QuestId="0xE000D0A7D6B0A490" RewardIndex="0" />		
+			<CompleteQuest QuestName="Hot Pursuit" QuestId="0xE000D0A7D6B0A490" />		
 		</If>
 
 		<!-- Smuggler - Due Process -->
@@ -1910,7 +1910,7 @@
 		<!-- The Freightskippers -->
 		<If Condition="((HasQuest(0xE0003775DB998EEA)) and (not IsQuestComplete(0xE0003775DB998EEA)))">
 			<TurnInQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" TurnInName="Agent Nurls Yorksin" XYZ="-115.2399,142.701,-431.7927" />
-			<CompleteQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" RewardIndex="1" />
+			<CompleteQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" />
 			<!-- Equip Consular pet Qyzen Fess Companion Item - Qyzen's Layered Pants -->
 		</If>
 
@@ -1937,7 +1937,7 @@
 			<If Condition="((HasQuest(0xE000CA0AB586CC72)) and (not IsBranchStepComplete(0xE000CA0AB586CC72, 2, 3)))">
 				<TalkTo QuestId="0xE000CA0AB586CC72" Name="Attros Finn" XYZ="-125.6767,143.6074,-459.8438" />
 			</If>
-			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" RewardIndex="0" />
+			<CompleteQuest QuestName="The Coming Darkness" QuestId="0xE000CA0AB586CC72" />
 			<!-- Shadows 0xE000EA34B5143847 -->
 		</If>
 		
@@ -1946,7 +1946,7 @@
 			<If Condition="((HasQuest(0xE0005F548DC72F5B)) and (not IsBranchStepComplete(0xE0005F548DC72F5B, 1, 8)))">
 				<TalkTo QuestId="0xE0005F548DC72F5B" Name="General Var Suthra" XYZ="-130.7996,144.001,-469.4907" />
 			</If>
-			<CompleteQuest QuestName="The Rescue" QuestId="0xE0005F548DC72F5B" RewardIndex="1" /> <!-- 0 is crap gear; 1 planetary comm; 2 Knight guardian; 3 Knight Sentinel -->
+			<CompleteQuest QuestName="The Rescue" QuestId="0xE0005F548DC72F5B" /> <!-- 0 is crap gear; 1 planetary comm; 2 Knight guardian; 3 Knight Sentinel -->
 		</If>	
 			
 		<!-- Gree: Hydrosupply Leak -->
@@ -1954,7 +1954,7 @@
 			<If Condition="((HasQuest(0xE000C066640EF83A)) and (not IsBranchStepComplete(0xE000C066640EF83A, 2, 2)))">
 				<TurnInQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" TurnInName="Nam-aK" XYZ="-107.4732,143.601,-469.7384" />
 			</If>
-			<CompleteQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" RewardIndex="1" />
+			<CompleteQuest QuestName="Gree: Hydrosupply Leak" QuestId="0xE000C066640EF83A" />
 			<!-- Consular - Equip Consular's Vestments -->
 			<!-- Auto Accept Quest Gree: Repairing Coruscant 0xE000B69EFF85EC77 -->
 		</If>
@@ -2023,7 +2023,7 @@
 		<!-- White Noise -->
 		<If Condition="((HasQuest(0xE000722E606A22EC)) and (not IsQuestComplete(0xE000722E606A22EC)))">
 			<TurnInQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" TurnInName="Agent Jaffkee" XYZ="124.154,-106.299,401.716" />
-			<CompleteQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" RewardIndex="1" />
+			<CompleteQuest QuestName="White Noise" QuestId="0xE000722E606A22EC" />
 			<!-- Consular - Equip Traditional Nylite Sash -->
 		</If>
 	
@@ -2110,7 +2110,7 @@
 				<TalkTo QuestId="0xE0004B2073D9A6BC" Name="Jiik" XYZ="103.9751,-106.18,436.3846" />
 				<WaitTimer QuestId="0xE0004B2073D9A6BC" WaitTime="5" />			
 			</If>	
-			<CompleteQuest QuestName="Due Process" QuestId="0xE0004B2073D9A6BC" RewardIndex="1" />
+			<CompleteQuest QuestName="Due Process" QuestId="0xE0004B2073D9A6BC" />
 		</If> 	
 		
 		
@@ -2169,7 +2169,7 @@
 			<If Condition="((HasQuest(0xE00038BCDDBE2E53)) and (not IsStepComplete(0xE00038BCDDBE2E53, 8)))">
 				<AnswerHolocomCall QuestName="More Old Friends" QuestId="0xE00038BCDDBE2E53" />
 			</If>
-			<CompleteQuest QuestName="More Old Friends" QuestId="0xE00038BCDDBE2E53" RewardIndex="1" />	
+			<CompleteQuest QuestName="More Old Friends" QuestId="0xE00038BCDDBE2E53" />	
 		</If>	
 		
 		<!-- Justicar Injustice 3-5 -->
@@ -2218,7 +2218,7 @@
 			<If Condition="((HasQuest(0xE000EA34B5143847)) and (not IsStepComplete(0xE000EA34B5143847, 8)))">
 				<AnswerHolocomCall QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 			</If>
-			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" RewardIndex="1" />
+			<CompleteQuest QuestName="Shadows" QuestId="0xE000EA34B5143847" />
 			<!-- Consular - Equip Companion Item - Qyzen's DY-35 Shield Generator -->
 			<!-- Open - Rudimentary Premium Storage Case -->
 			<!-- Consular - Ancient Secrets (Bonus) 0xE00053DFB0207384 Step 2 -->
@@ -2234,21 +2234,21 @@
 			<If Condition="((HasQuest(0xE000CF0D1A652243)) and (not IsBranchStepComplete(0xE000CF0D1A652243, 1, 4)))">
 				<UseObject QuestId="0xE000CF0D1A652243" ObjectName="Computer Console" BranchId="1" StepId="4" IgnoreLOS="True" Radius="50" UseRange="5" IgnoreQuestRelation="true" WaitTime="5" XYZ="109.3476,-105.9389,460.1543" />
 			</If>
-			<CompleteQuest QuestName="Tracking Down the Traitor" QuestId="0xE000CF0D1A652243" RewardIndex="2" /> <!-- 0 Planetary Comm; 1 Offhand Kira Carsen; 2 Droid Gear -->
+			<CompleteQuest QuestName="Tracking Down the Traitor" QuestId="0xE000CF0D1A652243" /> <!-- 0 Planetary Comm; 1 Offhand Kira Carsen; 2 Droid Gear -->
 		</If>		
 		
 		<!-- When walking back -->
 		<!-- A Diverting Assignment	-->
 		<If Condition="((HasQuest(0xE000F27CD57F5313)) and (not IsQuestComplete(0xE000F27CD57F5313)))">
 			<TurnInQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" TurnInName="Reid Gandon" XYZ="109.8725,-106.299,406.3755" />
-			<CompleteQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" RewardIndex="2" />
+			<CompleteQuest QuestName="A Diverting Assignment" QuestId="0xE000F27CD57F5313" />
 			<!-- Consular - Equip Consular's Headgear -->
 		</If>
 
 		<!-- Killed in Custody Current Step: 2	Current Branch: 3 -->
 		<If Condition="((HasQuest(0xE0003A635B548550)) and (not IsQuestComplete(0xE0003A635B548550)))">
 			<TurnInQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" TurnInName="Paus" XYZ="111.435,-106.299,407.2402" />
-			<CompleteQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" RewardIndex="1" />
+			<CompleteQuest QuestName="Killed in Custody" QuestId="0xE0003A635B548550" />
 			<!-- Consular - Equip Traditional Nylite Boots -->
 		</If>
 		
@@ -2261,7 +2261,7 @@
 		<!-- Justicar Injustice -->
 		<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsQuestComplete(0xE000E6BFD5F03C51)))">
 			<TurnInQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" TurnInName="Renalda Agareth" XYZ="123.7442,-105.2548,413.374" />
-			<CompleteQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" RewardIndex="1" /> <!-- Sage index="1" Shadow index="2" -->
+			<CompleteQuest QuestName="Justicar Injustice" QuestId="0xE000E6BFD5F03C51" /> <!-- Sage index="1" Shadow index="2" -->
 		</If>
 
 		<!-- Secret Passages -->
@@ -2275,7 +2275,7 @@
 		<If Condition="((HasQuest(0xE0005D6EEB46C12F)) and (not IsQuestComplete(0xE0005D6EEB46C12F)))">
 			<MoveTo QuestId="0xE0005D6EEB46C12F" XYZ="117.9152,-105.299,421.9393" />
 			<TurnInQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" TurnInName="Gree Console" UseRange="2" Type="Placeable" XYZ="117.9152,-105.299,421.9393" />
-			<CompleteQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" RewardIndex="1" />
+			<CompleteQuest QuestName="Gree: Ugnaught Saboteurs" QuestId="0xE0005D6EEB46C12F" />
 			<!-- Gree: Power Outage 0xE0006C7A2D49F7A7 -->
 		</If>		
 
@@ -2437,7 +2437,7 @@
 				<Grind GrindRef="Core Complications (Bonus)" While="(not IsQuestComplete(0xE000B0F6AC0FDC4B))" />
 			</If>
 			<TurnInQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" Type="Placeable" UseRange="2" TurnInName="Drop Site" XYZ="83.75269,-226.7723,485.892" />
-			<CompleteQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" RewardIndex="1" />
+			<CompleteQuest QuestName="Core Dump" QuestId="0xE000E51184F53DB4" />
 		</If>
 		
 		<!-- Turnin Enemy Droid-machines -->
@@ -2536,7 +2536,7 @@
 									XYZ="-277.4109,-245.2109,334.6139" />									
 			</If>
 			<TurnInQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" TurnInName="Ozurist" XYZ="120.9255,-226.2636,429.8125" />
-			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" RewardIndex="1" />
+			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" />
 			<!-- Consular - Equip Traditional Nylite Vestments -->
 		</If>
 		
@@ -2548,7 +2548,7 @@
 										XYZ="122.3455,-226.2697,431.2736" />
 			</If>
 			<TurnInQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" TurnInName="Fez Burba" XYZ="124.813,-105.299,428.4864" />
-			<CompleteQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" RewardIndex="0" />
+			<CompleteQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" />
 		</If>
 	
 		<!-- Usetransport Justicar Territory Taxi to Black Sun Territory Taxi and turnin quest Secret Passages -->
@@ -2561,7 +2561,7 @@
 			</If>	
 			<MoveTo QuestId="0xE000F0BE99AD590B" Name="Safespot" XYZ="-329.6785,-127.099,-30.90592" />
 			<TurnInQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" TurnInName="Lieutenant Doorn" XYZ="-329.2979,-127.0957,-30.1709" />
-			<CompleteQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" RewardIndex="1" />
+			<CompleteQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" />
 			<MoveTo QuestId="0xE000F0BE99AD590B" Name="Safespot" XYZ="-329.6785,-127.099,-30.90592" />
 			<!-- Consular - Equip Companion: Qyzen's Layered Belt -->					
 		</If>
@@ -2589,7 +2589,7 @@
 			<Interact Name="Republic Government" IgnoreLOS="True" IgnoreQuestRelation="True" Radius="50" UseRange="50" WaitTime="5" XYZ="-133.2494,144.001,-480.85" />
 			<MoveTo QuestId="0xE00039C476F69322" Name="Insult to Injury" XYZ="-120.7241,146.8039,-473.1175" />
 			<TurnInQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" TurnInName="Senator Starsnow" XYZ="-120.7241,146.8039,-473.1175" />
-			<CompleteQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" RewardIndex="0" />
+			<CompleteQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" />
 			<!-- Reward:
 			Plannetary Comm = 0 (- 1 for Trooper)
 			Sentinel;Shadow;Scoundrel = 1 (- 0 for DPS Trooper)

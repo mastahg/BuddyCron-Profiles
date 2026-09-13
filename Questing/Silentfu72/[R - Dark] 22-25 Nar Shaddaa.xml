@@ -1191,16 +1191,16 @@
 		<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsQuestComplete(0xE000BB1B620A30F6)))">
 			<TurnInQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" TurnInName="Ambassador Averdon" XYZ="-91.6545,53.8049,-89.7298" />
 			<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" RewardIndex="2" />
+				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" />
 			</If>	
 			<If Condition="(Me.Class == CharacterClass.Knight)">
-				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" RewardIndex="1" />
+				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" />
 			</If>	
 			<If Condition="(Me.Class == CharacterClass.Smuggler)">
-				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" RewardIndex="0" />
+				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" />
 			</If>	
 			<If Condition="(Me.Class == CharacterClass.Trooper)">
-				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" RewardIndex="1" />
+				<CompleteQuest QuestName="When Diplomacy Fails" QuestId="0xE000BB1B620A30F6" />
 			</If>				
 			<!-- Auto Accept Armed and Dangerous 0xE0007A06CCCEBCB8 -->
 			<If Condition="Me.Position.X &gt;= -300">
@@ -1248,7 +1248,7 @@
 		<!-- Turnin Armed and Dangerous -->
 		<If Condition="((HasQuest(0xE0007A06CCCEBCB8)) and (not IsQuestComplete(0xE0007A06CCCEBCB8)))">
 			<TurnInQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" TurnInName="Nurkolas" XYZ="-362.2916,22.501,-343.0348" />
-			<CompleteQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" RewardIndex="2" />
+			<CompleteQuest QuestName="Armed and Dangerous" QuestId="0xE0007A06CCCEBCB8" />
 			<!-- Auto Accept Slave Raiding 0xE0000CF61EB0D8FA -->
 			<!-- Knight: Kira=2;Droid=3 -->
 			<ForceVendor VendorType="Repair" />	
@@ -1266,7 +1266,7 @@
 			<If Condition="((HasQuest(0xE0000B22F094CB77)) and (not IsStepComplete(0xE0000B22F094CB77, 9)))">
 				<TalkTo QuestId="0xE0000B22F094CB77" Name="Tharan Cedrax" XYZ="-347.9652,22.501,-316.9206" />
 			</If>
-			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" RewardIndex="2" />
+			<CompleteQuest QuestName="The Professor" QuestId="0xE0000B22F094CB77" />
 			<!-- Auto Accept Consular Running with the Lancers (Bonus) 0xE0006111E609853E -->
 		</If>
 		
@@ -1294,7 +1294,7 @@
 			<If Condition="((HasQuest(0xE0000CF61EB0D8FA)) and (not IsStepComplete(0xE0000CF61EB0D8FA, 3)))">
 				<MoveTo QuestId="0xE0000CF61EB0D8FA" Name="Slaver Control Console" XYZ="-315.9969,17.30449,-272.9499" />	
 				<TurnInQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" Type="Placeable" TurnInName="Slaver Control Console" XYZ="-315.9969,17.30449,-272.9499" />
-				<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" RewardIndex="0" />
+				<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" />
 				<!-- Strike the Mountain Asunder 0xE00092996437ED01 -->
 			</If>
  
@@ -1393,7 +1393,7 @@
 				<AnswerHolocomCall QuestName="The Republic's Finest" QuestId="0xE000E1B98755D2B7" />
 				<WaitTimer QuestId="1" WaitTime="5" />	
 			</If>
-			<CompleteQuest QuestName="The Republic's Finest" QuestId="0xE000E1B98755D2B7" RewardIndex="2" />
+			<CompleteQuest QuestName="The Republic's Finest" QuestId="0xE000E1B98755D2B7" />
 		</If>
 
 		<!-- Smuggler - Party Crasher -->
@@ -1425,7 +1425,7 @@
 			<If Condition="((HasQuest(0xE0002D5C3F11CF18)) and (not IsBranchStepComplete(0xE0002D5C3F11CF18, 1, 7)))">
 				<TalkTo QuestId="0xE0002D5C3F11CF18" Name="Ga'ram" XYZ="-307.7672,21.4549,-354.2976" />	
 			</If>					
-			<CompleteQuest QuestName="Party Crasher" QuestId="0xE0002D5C3F11CF18" RewardIndex="0" />
+			<CompleteQuest QuestName="Party Crasher" QuestId="0xE0002D5C3F11CF18" />
 			<JumpTo 	QuestId="1" JumpRotation="77,83358" 
 							XYZ="-308.0097,21.451,-354.3193"
 							EndXYZ="-308.5455,21.37868,-354.4348" />				
@@ -1521,7 +1521,7 @@
 			<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsBranchStepComplete(0xE000D421C466388C, 1, 9)))">
 				<UseObject QuestId="0xE000D421C466388C" ObjectName="Containment Cell Controls" BranchId="1" StepId="9" Radius="20" WaitTime="5" IgnoreLOS="true" UseRange="5" XYZ="-374.149,23.501,-337.031" />
 			</If>
-			<CompleteQuest QuestName="The Search for Agent Galen" QuestId="0xE000D421C466388C" RewardIndex="2" />	
+			<CompleteQuest QuestName="The Search for Agent Galen" QuestId="0xE000D421C466388C" />	
 		</If>	
 		
 		<!-- Turnin Cripple the Kings -->
@@ -1533,7 +1533,7 @@
 		<!-- Turnin One Fell Swoop -->
 		<If Condition="((HasQuest(0xE000293EFA7BE055)) and (not IsQuestComplete(0xE000293EFA7BE055)))">
 			<TurnInQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" TurnInName="Yeddu" XYZ="-381.6275,24.001,-311.4383" />
-			<CompleteQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" RewardIndex="2" />
+			<CompleteQuest QuestName="One Fell Swoop" QuestId="0xE000293EFA7BE055" />
 			<!-- Consular - Equip Companion Item Qyzen's Reinforced Bracers -->
 		</If>
 		
@@ -1545,7 +1545,7 @@
 							XYZ="-385.6628,24.001,-311.3946" />	
 			</If>				
 			<TurnInQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" TurnInName="Ambassador Averdon" XYZ="-91.6545,53.8049,-89.7298" />
-			<CompleteQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" RewardIndex="2" />
+			<CompleteQuest QuestName="Strike the Mountain Asunder" QuestId="0xE00092996437ED01" />
 			<!-- Consular - Equip Traditional Lashaa Silk Sash -->
 			<!-- Waylaid - 0xE000699B77CFB2AE -->
 			<ForceVendor VendorType="Train" />
@@ -1560,7 +1560,7 @@
 		<!-- Turnin Waylaid -->
 		<If Condition="((HasQuest(0xE000699B77CFB2AE)) and (not IsQuestComplete(0xE000699B77CFB2AE)))">
 			<TurnInQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" TurnInName="Ilox" XYZ="336.3257,-313.699,-320.1411" />
-			<CompleteQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" RewardIndex="1" />
+			<CompleteQuest QuestName="Waylaid" QuestId="0xE000699B77CFB2AE" />
 			<!-- Shore Leave 0xE0001D76D02DEDBB -->
 		</If>
 
@@ -1618,7 +1618,7 @@
 				<UseObject QuestId="0xE0001D76D02DEDBB" ObjectName="Prison Cage" BranchId="1" StepId="4" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="315.0818,-314.199,-368.9495" />
 			</If>
 			<TurnInQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" TurnInName="Lieutenant Rale" XYZ="314.7232,-314.1799,-369.1538" />
-			<CompleteQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" RewardIndex="2" />
+			<CompleteQuest QuestName="Shore Leave" QuestId="0xE0001D76D02DEDBB" />
 			<!-- Double Negative 0xE000C73014AF2DCC -->
 		</If>
 
@@ -1770,7 +1770,7 @@
 			<If Condition="((HasQuest(0xE000708045334152)) and (not IsBranchStepComplete(0xE000708045334152, 1, 9)))">
 				<AnswerHolocomCall QuestName="Red Light, Black Heart" QuestId="0xE000708045334152" />
 			</If>	
-			<CompleteQuest QuestName="Red Light, Black Heart" QuestId="0xE000708045334152" RewardIndex="1" />	
+			<CompleteQuest QuestName="Red Light, Black Heart" QuestId="0xE000708045334152" />	
 		</If>					
 		
 		<!-- Smuggler - Eco-Terrorists -->
@@ -1840,7 +1840,7 @@
 		<!-- Turnin Cleansing The Spice Trade -->
 		<If Condition="((HasQuest(0xE000450CFDBC05DE)) and (not IsQuestComplete(0xE000450CFDBC05DE)))">
 			<TurnInQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" TurnInName="Malahan" XYZ="333.491,-313.699,-348.8943" />
-			<CompleteQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" RewardIndex="0" />
+			<CompleteQuest QuestName="Cleansing The Spice Trade" QuestId="0xE000450CFDBC05DE" />
 			<!-- Consular - Equip Companion Item - Qyzen's Reinforced Techblade -->
 			<!-- Open Simple Small Credit Case -->
 		</If>		
@@ -1848,7 +1848,7 @@
 		<!-- Turnin Back Ally -->
 		<If Condition="((HasQuest(0xE000DFB770AC7960)) and (not IsQuestComplete(0xE000DFB770AC7960)))">
 			<TurnInQuest QuestName="Back Ally" QuestId="0xE000DFB770AC7960" TurnInName="Chief Rarkgah" XYZ="333.6374,-311.719,-338.4996" />
-			<CompleteQuest QuestName="Back Ally" QuestId="0xE000DFB770AC7960" RewardIndex="2" />
+			<CompleteQuest QuestName="Back Ally" QuestId="0xE000DFB770AC7960" />
 		</If>
 		
 		<!-- Turnin Bled Dry -->
@@ -1863,23 +1863,23 @@
 				<TalkTo QuestId="0xE00080B4CBEAE9BE" Name="Jonas Balkar" XYZ="344.396,-312.699,-318.6328" />	
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" RewardIndex="3" />
+				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" />
 			</If> 
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" RewardIndex="1" />
+				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" />
 			</If> 
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Elara&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" RewardIndex="4" />
+				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" />
 			</If> 	
 			<If Condition="IsQuestComplete(0xE00080B4CBEAE9BE)">
-				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" RewardIndex="0" />
+				<CompleteQuest QuestName="Reaching Out" QuestId="0xE00080B4CBEAE9BE" />
 			</If> 			
 		</If>		
 	
 		<!-- Turnin Double Negative -->
 		<If Condition="((HasQuest(0xE000C73014AF2DCC)) and (not IsQuestComplete(0xE000C73014AF2DCC)))">
 			<TurnInQuest QuestName="Double Negative" QuestId="0xE000C73014AF2DCC" TurnInName="Ilox" XYZ="336.3257,-313.699,-320.1411" />
-			<CompleteQuest QuestName="Double Negative" QuestId="0xE000C73014AF2DCC" RewardIndex="2" />
+			<CompleteQuest QuestName="Double Negative" QuestId="0xE000C73014AF2DCC" />
 			<!-- Genocide 0xE000339439E602CD -->
  
 			<!-- Turnin Class quest -->
@@ -1893,7 +1893,7 @@
 				<MoveTo QuestId="0xE0006111E609853E" Name="Holiday" XYZ="-92.241,51.801,-47.9415" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="Running with the Lancers (Bonus)" QuestId="0xE0006111E609853E" RewardIndex="0" />
+			<CompleteQuest QuestName="Running with the Lancers (Bonus)" QuestId="0xE0006111E609853E" />
 			<!-- Consular - Authorized for Sabotage (Bonus) 0xE000398CBAC8EDD9 -->
 			<!-- Force Train, Repair, Sell, Mail -->
 			<ForceVendor VendorType="Train" />
@@ -1923,10 +1923,10 @@
 				<TalkTo QuestId="0xE000D598E2AAEDAD" Name="Special Agent Tander" XYZ="-113.9182,48.601,-103.0805" />
 			</If>
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)"> <!-- Primary stat: Aim; Secundary stat: Endurance -->
-				<CompleteQuest QuestName="Striking Back" QuestId="0xE000D598E2AAEDAD" RewardIndex="1" />
+				<CompleteQuest QuestName="Striking Back" QuestId="0xE000D598E2AAEDAD" />
 			</If> 
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)"> <!-- Primary stat: Willpower; Secundary stat: Endurance -->
-				<CompleteQuest QuestName="Striking Back" QuestId="0xE000D598E2AAEDAD" RewardIndex="3" />
+				<CompleteQuest QuestName="Striking Back" QuestId="0xE000D598E2AAEDAD" />
 			</If>
 			<If Condition="Me.Position.Z &lt; -100">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
@@ -2027,7 +2027,7 @@
 		<!-- Turnin Tempting Fate -->
 		<If Condition="((HasQuest(0xE0006C042193203C)) and (not IsQuestComplete(0xE0006C042193203C)))">
 			<TurnInQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" TurnInName="Damrosch the Hutt" XYZ="-217.9558,-171.2914,288.3214" />
-			<CompleteQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" RewardIndex="2" />
+			<CompleteQuest QuestName="Ending a Better Life" QuestId="0xE0006C042193203C" />
 			<!-- Fate's Wrath 0xE0007FCD3DA7DADF -->
 			<!-- Consular - Equip Synthesized Force Focus -->
 		</If>
@@ -2054,7 +2054,7 @@
 			<If Condition="((HasQuest(0xE000EEDF2298D82A)) and (not IsStepComplete(0xE000EEDF2298D82A, 2)))">
 				<UseObject QuestId="0xE000EEDF2298D82A" ObjectName="Chemical Plant Mainframe" BranchId="1" StepId="2" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="-264.2849,-172.939,262.6573" />
 			</If>
-			<CompleteQuest QuestName="Chemical Agent" QuestId="0xE000EEDF2298D82A" RewardIndex="0" />
+			<CompleteQuest QuestName="Chemical Agent" QuestId="0xE000EEDF2298D82A" />
 			<!-- Extermination 0xE000807DC3BB1477-->
 		</If>
 		
@@ -2085,7 +2085,7 @@
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 8)))">
 				<TalkTo QuestId="0xE000807DC3BB1477" Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
 			</If>
-			<CompleteQuest QuestName="Extermination" QuestId="0xE000807DC3BB1477" RewardIndex="2" />
+			<CompleteQuest QuestName="Extermination" QuestId="0xE000807DC3BB1477" />
 			<!-- Consular - Equip Synthesized Resolve Relay -->
 			<If Condition="(Me.Position.Z &lt;= 300)">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
@@ -2139,7 +2139,7 @@
 				<AnswerHolocomCall QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" />
 			</TempConvoSkip>
 		 </If>
-			<CompleteQuest QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" RewardIndex="2" /> 
+			<CompleteQuest QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" /> 
 		</If>-->
 			
 		<!--Authorized for Destruction - Consular-->
@@ -2154,7 +2154,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE00017D70AB7B6AD)) and (not IsStepComplete(0xE00017D70AB7B6AD, 3)))">
 				<AnswerHolocomCall QuestName="Authorized for Destruction" QuestId="0xE00017D70AB7B6AD" />
-				<CompleteQuest QuestName="Authorized for Destruction" QuestId="0xE00017D70AB7B6AD" RewardIndex="0" />
+				<CompleteQuest QuestName="Authorized for Destruction" QuestId="0xE00017D70AB7B6AD" />
 			</If>
 		</If>
 					
@@ -2237,7 +2237,7 @@
 			</If>	
 			<If Condition="((HasQuest(0xE00049598AB3A42D)) and (not IsBranchStepComplete(0xE00049598AB3A42D, 1, 3)))">
 				<!-- Completing Eco-Terrorists -->
-				<CompleteQuest QuestName="Eco-Terrorists" QuestId="0xE000F01B224C527C" RewardIndex="3" />
+				<CompleteQuest QuestName="Eco-Terrorists" QuestId="0xE000F01B224C527C" />
 				<TalkTo QuestId="0xE00049598AB3A42D" Name="Bowdaar" XYZ="-255.9916,-170.7213,354.5437" />
 			</If>			
 		</If>
@@ -2250,7 +2250,7 @@
 										XYZ="-255.0624,-167.7633,296.8357" />
 			</If>	
 			<TurnInQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" TurnInName="Damrosch the Hutt" XYZ="-217.9558,-171.2914,288.3214" />
-			<CompleteQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" RewardIndex="2" />
+			<CompleteQuest QuestName="Fate's Wrath" QuestId="0xE0007FCD3DA7DADF" />
 			<!-- Consular - Equip Synthesized Resolve System -->
 			<!-- Force Sell / Repair -->
 			<ForceVendor VendorType="Repair" />			
@@ -2287,7 +2287,7 @@
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 2, 2)))">		
 				<AnswerHolocomCall QuestName="Climbing the Ladder" QuestId="0xE000EF8382BCC725" />
 			</If>
-			<CompleteQuest QuestName="Climbing the Ladder" QuestId="0xE000EF8382BCC725" RewardIndex="0" />	
+			<CompleteQuest QuestName="Climbing the Ladder" QuestId="0xE000EF8382BCC725" />	
 		</If>
 		
 		<!-- Trooper - Overloaded -->
@@ -2332,7 +2332,7 @@
 			<If Condition="((HasQuest(0xE000581244AEE1B0)) and (not IsStepComplete(0xE000581244AEE1B0, 6)))">
 				<UseObject QuestId="0xE000581244AEE1B0" ObjectName="Holoterminal" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="323.3947,-313.6966,-335.1982" />
 			</If>
-			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" RewardIndex="3" />
+			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" />
 			<!-- Consular - Shadow Town (Bonus) 0xE00066F2E7E7CB3E-->
 			<!-- Equip Companion Item - Qyzen's Reinforced Jacket -->
 			<UseTransport TransporterName="Red Light Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
@@ -2448,7 +2448,7 @@
 				<MoveTo QuestId="0xE000CE33EE3E37BC" Name="Security Console" XYZ="230.2321,-154.799,304.4912" />
 				<UseObject QuestId="0xE000CE33EE3E37BC" ObjectName="Security Console" BranchId="1" StepId="4" Radius="20" UseRange="5" IgnoreLOS="true" WaitTime="5" XYZ="230.2321,-154.799,304.4912" />
 			</If>
-			<CompleteQuest QuestName="Access" QuestId="0xE000CE33EE3E37BC" RewardIndex="0" />
+			<CompleteQuest QuestName="Access" QuestId="0xE000CE33EE3E37BC" />
 			<!-- Captive 0xE000E0554184FFE0 -->
 		</If>
 		
@@ -2601,7 +2601,7 @@
 				</If>
 				<TalkTo QuestId="0xE00049598AB3A42D" Name="Lazhae" XYZ="240.2528,-153.799,286.0212" />		
 			</If>
-			<CompleteQuest QuestName="Lab Work" QuestId="0xE00049598AB3A42D" RewardIndex="1" />
+			<CompleteQuest QuestName="Lab Work" QuestId="0xE00049598AB3A42D" />
 		</If>
 
 		<!-- Turnin A Tough Sell -->
@@ -2610,14 +2610,14 @@
 				<TalkTo QuestId="0xE00046BD22457EBC" Name="Kesler" XYZ="250.5562,-155.299,312.1106" />
 			</If>
 			<TurnInQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" TurnInName="Agent Alys" XYZ="254.4654,-153.799,280.5685" />
-			<CompleteQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" RewardIndex="2" />
+			<CompleteQuest QuestName="A Tough Sell" QuestId="0xE00046BD22457EBC" />
 			<!-- Consular - Equip Companion with Qyzen's LS-62 Shield Generator -->
 		</If>
 		
 		<!-- Turnin Captive 5, 2 -->
 		<If Condition="((HasQuest(0xE000E0554184FFE0)) and (not IsQuestComplete(0xE000E0554184FFE0)))">
 			<TurnInQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" TurnInName="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
-			<CompleteQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" RewardIndex="0" />
+			<CompleteQuest QuestName="Captive" QuestId="0xE000E0554184FFE0" />
 			<!-- Force Sell / Repair -->
 			<ForceVendor VendorType="Repair" />	
 		</If>
@@ -2687,7 +2687,7 @@
 					<MoveTo QuestId="1" XYZ="0.01878826,0.6900402,-2.614157" />
 					<MoveTo QuestId="1" XYZ="0.01732085,1.676,1.430504" />
 					<Interact QuestId="0xE00066F2E7E7CB3E" Name="Holoterminal" Radius="20" UseRange="20" WaitTime="5" XYZ="-0.05295352,1.676,1.393657" />
-					<CompleteQuest QuestName="Shadow Town" QuestId="0xE00066F2E7E7CB3E" RewardIndex="2" />
+					<CompleteQuest QuestName="Shadow Town" QuestId="0xE00066F2E7E7CB3E" />
 				</If>
 			</If>
 		</If>
@@ -2793,7 +2793,7 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F4E7C)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-0.003681187,1.676,1.428787" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.003681187,1.676,1.428787" />
-					<CompleteQuest QuestName="The Carida" QuestId="0xE000EDF4DDB848B6" RewardIndex="1" />
+					<CompleteQuest QuestName="The Carida" QuestId="0xE000EDF4DDB848B6" />
 				</If>
 			</If>
 		</If>

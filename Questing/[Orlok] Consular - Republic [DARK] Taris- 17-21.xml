@@ -961,7 +961,7 @@
 				<WaitTimer QuestId="1" WaitTime="3" />
 			</If>
 
-			<CompleteQuest QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" RewardIndex="1" />
+			<CompleteQuest QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" />
 			<!-- Open Rudimentary Premium Storage Case -->
 			<!-- The Junction 0xE0006977F87F6A5D -->
 		</If>
@@ -1001,7 +1001,7 @@
 				<!-- Move back to elevator
 			-->
 				<TurnInQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" TurnInName="Security Chief" XYZ="-106.7144,-24.07085,104.5993" />
-				<CompleteQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" RewardIndex="2" />
+				<CompleteQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" />
 				<!-- Auto accept Consular - Rakghoul Invasion (Bonus) 0xE0005896427A1928 -->
 			</If>
 		</If>
@@ -1075,7 +1075,7 @@
 							EndXYZ="-206.2685,-19.259,84.83897"
 							JumpRotation="-81.81931" />			
 			</If>
-			<CompleteQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" RewardIndex="1" />
+			<CompleteQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" />
 			<UserDialog Title="Orlok" Message="Quick Travel to base and use Taxi." />
 
 			

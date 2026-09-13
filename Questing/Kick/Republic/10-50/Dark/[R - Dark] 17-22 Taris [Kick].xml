@@ -1012,7 +1012,7 @@
 				<If Condition="(Core.Player.AreaId == 0x4000000814AD5B38)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-2.315407,1.313712,0.4038134" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="-2.315407,1.313712,0.4038134" />
-					<CompleteQuest QuestName="Public Relations" QuestId="0xE00069E92FF50D39" RewardIndex="1" />
+					<CompleteQuest QuestName="Public Relations" QuestId="0xE00069E92FF50D39" />
 				</If>
 			</If>
 		</If>
@@ -1039,7 +1039,7 @@
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
 									XYZ="-211.2298,-40.60616,72.27157" />
 					<TalkTo QuestId="0xE000D638F590B66F" Name="Colonel Gaff" XYZ="-190.0917,-19.509,79.043" />
-					<CompleteQuest QuestName="Welcome Party" QuestId="0xE000D638F590B66F" RewardIndex="1" />
+					<CompleteQuest QuestName="Welcome Party" QuestId="0xE000D638F590B66F" />
 		
 				</If>
 			</If>
@@ -1098,7 +1098,7 @@
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
 									XYZ="-213.5681,-33.60661,48.12357"  />
 					<TalkTo QuestId="0xE000E919187067A6" Name="Beryl Thorne" XYZ="-182.1259,-19.07482,62.8673" />
-					<CompleteQuest QuestName="Beryl's Bargain" QuestId="0xE000E919187067A6" RewardIndex="2" />						
+					<CompleteQuest QuestName="Beryl's Bargain" QuestId="0xE000E919187067A6" />						
 				</If>
 				<!--Finished Beryls Bargain and Got Early Warning -->
 			</If>
@@ -1183,7 +1183,7 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6081)">
 					<MoveTo QuestId="1" XYZ="0.03432441,1.676,1.465115" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="0.03432441,1.676,1.465115" />
-					<CompleteQuest QuestName="New Intelligence" QuestId="0xE000DDE90A0F682E" RewardIndex="1" />
+					<CompleteQuest QuestName="New Intelligence" QuestId="0xE000DDE90A0F682E" />
 				
 				</If>
 			</If>
@@ -1268,7 +1268,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000256AF258551C)) and (not IsBranchStepComplete(0xE000256AF258551C, 1, 5)))">
 				<AnswerHolocomCall QuestName="Early Warning" QuestId="0xE000256AF258551C" />
-				<CompleteQuest QuestName="Early Warning" QuestId="0xE000256AF258551C" RewardIndex="3" />
+				<CompleteQuest QuestName="Early Warning" QuestId="0xE000256AF258551C" />
 			</If>
 		</If>
 		
@@ -1295,7 +1295,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0007E48C418F725)) and (not IsBranchStepComplete(0xE0007E48C418F725, 1, 8)))">
 				<UseObject QuestId="0xE0007E48C418F725" ObjectName="Locked Crate" BranchId="1" StepId="8" Radius="5" WaitTime="5"  XYZ="-119.1795,-17.74086,-33.07335" />
-				<CompleteQuest QuestName="Lost and Found" QuestId="0xE0007E48C418F725" RewardIndex="1" />
+				<CompleteQuest QuestName="Lost and Found" QuestId="0xE0007E48C418F725" />
 			</If>
 		</If>
 		 
@@ -1345,7 +1345,7 @@
 			<!--The Architect of Annihilation - 0xE00072B324D177F2 - Step: 8 - Branch: 1-->
 			<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsBranchStepComplete(0xE00072B324D177F2, 1, 8)))">
 				<TalkTo QuestId="0xE00072B324D177F2" Name="RE-M0" XYZ="-94.4842,-23.50791,11.5621" />
-				<CompleteQuest QuestName="The Architect of Annihilation" QuestId="0xE00072B324D177F2" RewardIndex="1" />
+				<CompleteQuest QuestName="The Architect of Annihilation" QuestId="0xE00072B324D177F2" />
 			</If>
 		</If>
 		<!--end-->
@@ -1424,19 +1424,19 @@
 		<!-- Turnin Prized Possessions -->
 		<If Condition="((HasQuest(0xE000BEA3B2861BAD)) and (not IsQuestComplete(0xE000BEA3B2861BAD)))">
 			<TurnInQuest QuestName="Prized Possessions" QuestId="0xE000BEA3B2861BAD" TurnInName="Urana Kiel" XYZ="-182.301,-19.88412,69.54985" />
-			<CompleteQuest QuestName="Prized Possessions" QuestId="0xE000BEA3B2861BAD" RewardIndex="3" />
+			<CompleteQuest QuestName="Prized Possessions" QuestId="0xE000BEA3B2861BAD" />
 		</If>
 
 		<!-- Turnin Reconstruction Efforts -->
 		<If Condition="((HasQuest(0xE0002D8266C6E2AC)) and (not IsQuestComplete(0xE0002D8266C6E2AC)))">
 			<TurnInQuest QuestName="Reconstruction Efforts" QuestId="0xE0002D8266C6E2AC" TurnInName="Governor Saresh" XYZ="-178.3406,-19.09385,81.23418" />
-			<CompleteQuest QuestName="Reconstruction Efforts" QuestId="0xE0002D8266C6E2AC" RewardIndex="2" />
+			<CompleteQuest QuestName="Reconstruction Efforts" QuestId="0xE0002D8266C6E2AC" />
 		</If>
 		
 		<!-- Turnin Reclaiming What's Ours -->
 		<If Condition="((HasQuest(0xE000303A4C23DF7F)) and (not IsQuestComplete(0xE000303A4C23DF7F)))">
 			<TurnInQuest QuestName="Reclaiming What's Ours" QuestId="0xE000303A4C23DF7F" TurnInName="Relus Poh" XYZ="-195.6867,-20.05815,61.5112" />
-			<CompleteQuest QuestName="Reclaiming What's Ours" QuestId="0xE000303A4C23DF7F" RewardIndex="1" />
+			<CompleteQuest QuestName="Reclaiming What's Ours" QuestId="0xE000303A4C23DF7F" />
 			<!-- Wake of the Spire 0xE000AC5B6DD93272 -->
 			<!-- Force Vendor, Repair, Mail -->
  
@@ -1489,7 +1489,7 @@
 				<AnswerHolocomCall QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<CompleteQuest QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" RewardIndex="2" />
+			<CompleteQuest QuestName="The Expedition" QuestId="0xE000660EC83C3BEF" />
 			<!-- The Junction 0xE0006977F87F6A5D -->
 		</If>
 		<!-- Knight - Catching up with Watcher One - 0xE000CFB188BBF286 - Step: 2 - Branch: 1 -->
@@ -1545,7 +1545,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE0003FDFA6CEDFC2)) and (not IsBranchStepComplete(0xE0003FDFA6CEDFC2, 1, 6)))">
 				<TalkTo QuestId="0xE0003FDFA6CEDFC2" Name="Ensign Tane"  XYZ="32.26692,-25.2012,-43.71287" />
-				<CompleteQuest QuestName="Fallenspire Stronghold" QuestId="0xE0003FDFA6CEDFC2" RewardIndex="1" />
+				<CompleteQuest QuestName="Fallenspire Stronghold" QuestId="0xE0003FDFA6CEDFC2" />
 			</If>
 		</If>
 		<!--End-->
@@ -1616,7 +1616,7 @@
 		<!-- Turnin Legacy of Death -->
 		<If Condition="((HasQuest(0xE00051E8467AE558)) and (not IsQuestComplete(0xE00051E8467AE558)))">
 			<TurnInQuest QuestName="Legacy of Death" QuestId="0xE00051E8467AE558" TurnInName="Doctor Synoda" XYZ="-61.1405,-12.94493,-13.5003" />
-			<CompleteQuest QuestName="Legacy of Death" QuestId="0xE00051E8467AE558" RewardIndex="1" />
+			<CompleteQuest QuestName="Legacy of Death" QuestId="0xE00051E8467AE558" />
 		</If>
 
 		<!-- Turnin Serum Conservation -->
@@ -1628,20 +1628,20 @@
 		<!-- Turnin Corpse Counters -->
 		<If Condition="((HasQuest(0xE00019F65BB6893C)) and (not IsQuestComplete(0xE00019F65BB6893C)))">
 			<TurnInQuest QuestName="Corpse Counters" QuestId="0xE00019F65BB6893C" TurnInName="Cera" XYZ="-71.4049,-12.99647,4.8067" />
-			<CompleteQuest QuestName="" QuestId="0xE00019F65BB6893C" RewardIndex="4" />
+			<CompleteQuest QuestName="" QuestId="0xE00019F65BB6893C" />
 			<!-- Burial Grounds 0xE000E6023F4D0CFA -->
 		</If>
 
 		<!-- Turnin Last Battle of the Endar Spire -->
 		<If Condition="((HasQuest(0xE000D609EBFB157F)) and (not IsQuestComplete(0xE000D609EBFB157F)))">
 			<TurnInQuest QuestName="Last Battle of the Endar Spire" QuestId="0xE000D609EBFB157F" TurnInName="Commander Viqui" XYZ="-78.8618,-11.03167,8.594" />
-			<CompleteQuest QuestName="Last Battle of the Endar Spire" QuestId="0xE000D609EBFB157F" RewardIndex="2" />
+			<CompleteQuest QuestName="Last Battle of the Endar Spire" QuestId="0xE000D609EBFB157F" />
 		</If>
 
 		<!-- Turnin Pirate Medicine -->
 		<If Condition="((HasQuest(0xE000E66C2F11D944)) and (not IsQuestComplete(0xE000E66C2F11D944)))">
 			<TurnInQuest QuestName="Pirate Medicine" QuestId="0xE000E66C2F11D944" TurnInName="Doctor Ianna Cel" XYZ="-75.5252,-12.93113,-0.9916" />
-			<CompleteQuest QuestName="Pirate Medicine" QuestId="0xE000E66C2F11D944" RewardIndex="1" />
+			<CompleteQuest QuestName="Pirate Medicine" QuestId="0xE000E66C2F11D944" />
 			<!-- Catalyst 0xE000DFBFD200A6CA -->
 		</If>
 	
@@ -1677,7 +1677,7 @@
 				</If>
 			</If>
 			<TurnInQuest QuestName="Burial Grounds" QuestId="0xE000E6023F4D0CFA" TurnInName="Cera" XYZ="-71.4049,-12.99647,4.8067" />
-			<CompleteQuest QuestName="Burial Grounds" QuestId="0xE000E6023F4D0CFA" RewardIndex="2" />
+			<CompleteQuest QuestName="Burial Grounds" QuestId="0xE000E6023F4D0CFA" />
 		</If>
 		
 		<!--Smuggler - Illusions - 0xE0003BDD52123B85 - Step: 5 - Branch: 1-->
@@ -1691,7 +1691,7 @@
 		<!-- Turnin Catalyst -->
 		<If Condition="((HasQuest(0xE000DFBFD200A6CA)) and (not IsQuestComplete(0xE000DFBFD200A6CA)))">
 			<TurnInQuest QuestName="Catalyst" QuestId="0xE000DFBFD200A6CA" TurnInName="CB-08-4" XYZ="-80.3634,-23.78191,74.9646" />
-			<CompleteQuest QuestName="Catalyst" QuestId="0xE000DFBFD200A6CA" RewardIndex="4" />
+			<CompleteQuest QuestName="Catalyst" QuestId="0xE000DFBFD200A6CA" />
 			<!-- Force Sell / Repair / Mail -->
 			<ForceVendor VendorType="Repair" />
 			<!-- Learn Bindpoint, Taxi -->
@@ -1725,7 +1725,7 @@
 			<If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 3, 3)))">
 				<!-- Move back to elevator -->
 				<TurnInQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" TurnInName="Security Chief" XYZ="-106.7144,-24.07085,104.5993" />
-				<CompleteQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" RewardIndex="3" />
+				<CompleteQuest QuestName="The Junction" QuestId="0xE0006977F87F6A5D" />
 				<!-- Rakghoul Invasion 0xE0005896427A1928 -->
 			</If>
 		</If>
@@ -1802,7 +1802,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000CFB188BBF286)) and (not IsBranchStepComplete(0xE000CFB188BBF286, 1, 9)))">
 				<TurnInQuest QuestName="Catching up with Watcher One" QuestId="0xE000CFB188BBF286" TurnInName="RE-M0" XYZ="-51.7864,-26.9271,141.2185" />
-				<CompleteQuest QuestName="Catching up with Watcher One" QuestId="0xE000CFB188BBF286" RewardIndex="1" />
+				<CompleteQuest QuestName="Catching up with Watcher One" QuestId="0xE000CFB188BBF286" />
 			</If>
 		</If>
 		<!--An Opportunity Too Good to Pass Up - 0xE000378110228EED - Step: 2 - Branch: 1-->
@@ -1813,7 +1813,7 @@
 			<!--Current Step: 2 - Current Branch: 11 - it skipped to branch 11-->
 			<If Condition="((HasQuest(0xE000378110228EED)) and (not IsBranchStepComplete(0xE000378110228EED, 11, 2)))">
 				<UseObject QuestId="0xE000378110228EED" ObjectName="Jedi Covenant Artifacts" BranchId="11" StepId="2" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="-97.51121,-30.75832,156.0173" />
-				<CompleteQuest QuestName="An Opportunity Too Good to Pass Up" QuestId="0xE000378110228EED" RewardIndex="0" />
+				<CompleteQuest QuestName="An Opportunity Too Good to Pass Up" QuestId="0xE000378110228EED" />
 			</If>
 		</If>
 		<!--end-->
@@ -1835,20 +1835,20 @@
 		<GrindArea Name="Purge the ChemWorks (Bonus)"/>
 		-->
 			<TurnInQuest QuestName="Burnoff" QuestId="0xE0006625D159345F" TurnInName="Kon Yel" XYZ="-77.8277,-23.78592,72.752" />
-			<CompleteQuest QuestName="Burnoff" QuestId="0xE0006625D159345F" RewardIndex="3" />
+			<CompleteQuest QuestName="Burnoff" QuestId="0xE0006625D159345F" />
 		</If>
 
 		<!-- Turnin Supplies and Demands -->
 		<If Condition="((HasQuest(0xE000725998ECC56F)) and (not IsQuestComplete(0xE000725998ECC56F)))">
 			<TurnInQuest QuestName="Supplies and Demands" QuestId="0xE000725998ECC56F" TurnInName="Kahrin Wek" XYZ="-81.4104,-23.77958,76.4253" />
-			<CompleteQuest QuestName="Supplies and Demands" QuestId="0xE000725998ECC56F" RewardIndex="2" />
+			<CompleteQuest QuestName="Supplies and Demands" QuestId="0xE000725998ECC56F" />
 			<!-- AWOL 0xE0008E24DEEE7D4E -->
 		</If>
 			
 		<!-- Turnin Toxic Heirlooms -->
 		<If Condition="((HasQuest(0xE0004D1C739DA6EA)) and (not IsQuestComplete(0xE0004D1C739DA6EA)))">
 			<TurnInQuest QuestName="Toxic Heirlooms" QuestId="0xE0004D1C739DA6EA" TurnInName="Agent Welkins" XYZ="-81.2004,-23.79414,77.6274" />
-			<CompleteQuest QuestName="Toxic Heirlooms" QuestId="0xE0004D1C739DA6EA" RewardIndex="2" />
+			<CompleteQuest QuestName="Toxic Heirlooms" QuestId="0xE0004D1C739DA6EA" />
 		</If>
 		<!--Tropper - An Imperial Presence - 0xE0004A5DD1C1BD45 - Step: 2 - Branch: 1-->
 		<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsQuestComplete(0xE0004A5DD1C1BD45)))">
@@ -1876,7 +1876,7 @@
 				<TalkTo QuestId="0xE0008E24DEEE7D4E" Name="Gilroh" XYZ="23.3358,-23.41802,91.3443" />
 			</If>
 			<TurnInQuest QuestName="AWOL" QuestId="0xE0008E24DEEE7D4E" TurnInName="Commander Yajak" XYZ="29.5905,-19.78193,58.2196" />
-			<CompleteQuest QuestName="AWOL" QuestId="0xE0008E24DEEE7D4E" RewardIndex="3" />
+			<CompleteQuest QuestName="AWOL" QuestId="0xE0008E24DEEE7D4E" />
 		</If>
 		
 		<PickUpQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" GiverName="Archivist Wintag" XYZ="28.888,-19.64657,53.0277" />
@@ -1888,7 +1888,7 @@
 				<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
 									XYZ="33.3469,-19.6577,49.78" />
 				<TalkTo QuestId="0xE0004A5DD1C1BD45" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
-				<CompleteQuest QuestName="An Imperial Presence" QuestId="0xE0004A5DD1C1BD45" RewardIndex="2" />
+				<CompleteQuest QuestName="An Imperial Presence" QuestId="0xE0004A5DD1C1BD45" />
 				<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder"
 									XYZ="-183.4904,-20.01153,50.9324" />
 			</If>
@@ -1952,7 +1952,7 @@
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-207.2375,-19.05488,83.62514" />
 			
 				<TurnInQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" TurnInName="Captain Nelex" XYZ="-207.9778,-19.05488,83.6408" />
-				<CompleteQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" RewardIndex="2" />
+				<CompleteQuest QuestName="Rakghoul Invasion" QuestId="0xE0005896427A1928" />
 			
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-208.2498,-19.05488,84.86176" />
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-207.6305,-19.049,85.03649" />
@@ -2153,20 +2153,20 @@ Room: int_h4g_Transport5_smuggler_room08
 		<If Condition="((HasQuest(0xE00023E5FBEC5BF5)) and (not IsQuestComplete(0xE00023E5FBEC5BF5)))">
 			<TurnInQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" TurnInName="Ashwyn Tejera" XYZ="-185.5489,-19.52939,76.9635" />
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Sage)">
-				<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" RewardIndex="3" />
+				<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" />
 			</If>
 			<If Condition="(Me.AdvancedClass == AdvancedClass.Shadow)">
-				<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" RewardIndex="2" />
+				<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" />
 			</If>
 			<!--added a normal complete quest for other classes - dosnt look like its importaint as the two advanced ones you have there -->
-			<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" RewardIndex="1" />
+			<CompleteQuest QuestName="Chasing History" QuestId="0xE00023E5FBEC5BF5" />
 		 
 		</If>
 		
 		<!-- Turnin The Archive -->
 		<If Condition="((HasQuest(0xE0009B761B2951EA)) and (not IsQuestComplete(0xE0009B761B2951EA)))">
 			<TurnInQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" TurnInName="Tiffan Nye" XYZ="-192.0943,-19.52531,77.5372" />
-			<CompleteQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" RewardIndex="1" />
+			<CompleteQuest QuestName="The Archive" QuestId="0xE0009B761B2951EA" />
 		</If>
 		
 	
@@ -2184,7 +2184,7 @@ Room: int_h4g_Transport5_smuggler_room08
 		<If Condition="((HasQuest(0xE00062250D5CFE7E)) and (not IsQuestComplete(0xE00062250D5CFE7E)))">
 			<If Condition="((HasQuest(0xE00062250D5CFE7E)) and (not IsBranchStepComplete(0xE00062250D5CFE7E, 3, 2)))">
 				<TalkTo QuestId="0xE00062250D5CFE7E" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
-				<CompleteQuest QuestName="The Arrangement" QuestId="0xE00062250D5CFE7E" RewardIndex="1" />
+				<CompleteQuest QuestName="The Arrangement" QuestId="0xE00062250D5CFE7E" />
 			</If>
 		</If>
 		<!--A New Ally - 0xE000B01A245DF2CC - Step: 2 - Branch: 1 -->
@@ -2278,13 +2278,13 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Turnin Making Trouble -->
 		<If Condition="((HasQuest(0xE0005F73B7491925)) and (not IsQuestComplete(0xE0005F73B7491925)))">
 			<TurnInQuest QuestName="Making Trouble" QuestId="0xE0005F73B7491925" TurnInName="Co'overma" XYZ="85.7827,-20.13219,61.5155" />
-			<CompleteQuest QuestName="Making Trouble" QuestId="0xE0005F73B7491925" RewardIndex="2" />
+			<CompleteQuest QuestName="Making Trouble" QuestId="0xE0005F73B7491925" />
 		</If>
 		
 		<!-- Turnin Missing Link -->
 		<If Condition="((HasQuest(0xE00093414E087CF8)) and (not IsQuestComplete(0xE00093414E087CF8)))">
 			<TurnInQuest QuestName="Missing Link" QuestId="0xE00093414E087CF8" TurnInName="Mola Haxtor" XYZ="88.3435,-20.13219,59.0977" />
-			<CompleteQuest QuestName="Missing Link" QuestId="0xE00093414E087CF8" RewardIndex="3" />
+			<CompleteQuest QuestName="Missing Link" QuestId="0xE00093414E087CF8" />
 		</If>
 		
 		<!-- Where Darkness Abides and Turnin -->
@@ -2326,7 +2326,7 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Turnin Beyond Redemption -->
 		<If Condition="((HasQuest(0xE00006BC5E641CBC)) and (not IsQuestComplete(0xE00006BC5E641CBC)))">
 			<TurnInQuest QuestName="Beyond Redemption" QuestId="0xE00006BC5E641CBC" TurnInName="Dana Hunt" XYZ="122.7616,-21.40151,49.0424" />
-			<CompleteQuest QuestName="Beyond Redemption" QuestId="0xE00006BC5E641CBC" RewardIndex="2" />
+			<CompleteQuest QuestName="Beyond Redemption" QuestId="0xE00006BC5E641CBC" />
 		</If>
 		
 		<PickUpQuest QuestName="Future Threat" QuestId="0xE0001F4BB8B688D1" Type="Placeable" GiverName="Mission Board" XYZ="121.5103,-21.40228,51.06622" />
@@ -2430,19 +2430,19 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Turnin The Thrill of Discovery -->
 		<If Condition="((HasQuest(0xE00047CD3B722CBC)) and (not IsQuestComplete(0xE00047CD3B722CBC)))">
 			<TurnInQuest QuestName="The Thrill of Discovery" QuestId="0xE00047CD3B722CBC" TurnInName="Tarkos Sund" XYZ="81.2715,-20.8675,43.3722" />
-			<CompleteQuest QuestName="The Thrill of Discovery" QuestId="0xE00047CD3B722CBC" RewardIndex="2" />
+			<CompleteQuest QuestName="The Thrill of Discovery" QuestId="0xE00047CD3B722CBC" />
 		</If>
 
 		<!-- Turnin Operation Salvage -->
 		<If Condition="((HasQuest(0xE0000772775BAB20)) and (not IsQuestComplete(0xE0000772775BAB20)))">
 			<TurnInQuest QuestName="Operation Salvage" QuestId="0xE0000772775BAB20" TurnInName="Commander Bhoenn" XYZ="72.7146,-18.70979,25.768" />
-			<CompleteQuest QuestName="Operation Salvage" QuestId="0xE0000772775BAB20" RewardIndex="4" />
+			<CompleteQuest QuestName="Operation Salvage" QuestId="0xE0000772775BAB20" />
 		</If>
 
 		<!-- Turnin The Loudest Bait -->
 		<If Condition="((HasQuest(0xE000E29BE3753F94)) and (not IsQuestComplete(0xE000E29BE3753F94)))">
 			<TurnInQuest QuestName="The Loudest Bait" QuestId="0xE000E29BE3753F94" TurnInName="Foreman Meropta" XYZ="70.8733,-18.70979,29.3904" />
-			<CompleteQuest QuestName="The Loudest Bait" QuestId="0xE000E29BE3753F94" RewardIndex="3" />
+			<CompleteQuest QuestName="The Loudest Bait" QuestId="0xE000E29BE3753F94" />
 		</If>
 
 		<PickUpQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" GiverName="Senaru" XYZ="71.0799,-18.70979,30.0331" />
@@ -2450,13 +2450,13 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Turnin Future Threat -->
 		<If Condition="((HasQuest(0xE0001F4BB8B688D1)) and (not IsQuestComplete(0xE0001F4BB8B688D1)))">
 			<TurnInQuest QuestName="Future Threat" QuestId="0xE0001F4BB8B688D1" TurnInName="Agent Weller" XYZ="70.715,-18.70977,31.9091" />
-			<CompleteQuest QuestName="Future Threat" QuestId="0xE0001F4BB8B688D1" RewardIndex="2" />
+			<CompleteQuest QuestName="Future Threat" QuestId="0xE0001F4BB8B688D1" />
 		</If>
 
 		<!-- Turnin Power Flux -->
 		<If Condition="((HasQuest(0xE00009A29EFAF56A)) and (not IsQuestComplete(0xE00009A29EFAF56A)))">
 			<TurnInQuest QuestName="Power Flux" QuestId="0xE00009A29EFAF56A" TurnInName="Engineer Ferron" XYZ="80.7353,-17.73121,33.1092" />
-			<CompleteQuest QuestName="Power Flux" QuestId="0xE00009A29EFAF56A" RewardIndex="2" />
+			<CompleteQuest QuestName="Power Flux" QuestId="0xE00009A29EFAF56A" />
 		</If>
 
 		<!-- Disease on a Distant World and Turnin -->
@@ -2487,7 +2487,7 @@ Room: int_h4g_Transport5_smuggler_room08
 				</UseItem>
 			</If>
 			<TurnInQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" TurnInName="Representative Lessah" XYZ="35.2292,-13.30151,-26.6187" />
-			<CompleteQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" RewardIndex="2" />
+			<CompleteQuest QuestName="Disease on a Distant World" QuestId="0xE0006C3ADDC9D1C4" />
 			<!-- Learn Bindpoint, Taxi - Force Sell Repair Mail -->
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -2535,13 +2535,13 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Turnin Indelicate Operation -->
 		<If Condition="((HasQuest(0xE000F8F5B749C675)) and (not IsQuestComplete(0xE000F8F5B749C675)))">
 			<TurnInQuest QuestName="Indelicate Operation" QuestId="0xE000F8F5B749C675" TurnInName="Devon Race" XYZ="41.8604,-18.31187,-67.6251" />
-			<CompleteQuest QuestName="Indelicate Operation" QuestId="0xE000F8F5B749C675" RewardIndex="2" />
+			<CompleteQuest QuestName="Indelicate Operation" QuestId="0xE000F8F5B749C675" />
 		</If>
 		
 		<!-- Turnin Suicide Mission -->
 		<If Condition="((HasQuest(0xE00073024E775BA0)) and (not IsQuestComplete(0xE00073024E775BA0)))">
 			<TurnInQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" TurnInName="Sergeant Mack" XYZ="41.0542,-13.39721,-20.6292" />
-			<CompleteQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" RewardIndex="3" />
+			<CompleteQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" />
  
 			<UseTransport TransporterName="Kanner Outpost Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder"
 									XYZ="34.2049,-13.29579,-20.5859" />
@@ -2565,7 +2565,7 @@ Room: int_h4g_Transport5_smuggler_room08
 				<If Condition="(Core.Player.AreaId == 0x4000000814AD5B38)"> <!-- Our Ship -->
 					<MoveTo QuestId="1" XYZ="-2.315407,1.313712,0.4038134" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" XYZ="-2.315407,1.313712,0.4038134" />
-					<CompleteQuest QuestName="A New Ally" QuestId="0xE000B01A245DF2CC" RewardIndex="1" />
+					<CompleteQuest QuestName="A New Ally" QuestId="0xE000B01A245DF2CC" />
 					<SpaceTravel Planet="NarShaddaa" />
 				</If>
 		  
@@ -2586,7 +2586,7 @@ Room: int_h4g_Transport5_smuggler_room08
 				</If>
 				<!-- If I am in my ship -->
 				<TurnInQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" TurnInName="Holoterminal" XYZ="0.001393818,1.676,1.439556" />
-				<CompleteQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" RewardIndex="2" />
+				<CompleteQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" />
 			</If>
 			<!-- Qyzen has a quest for us, but it won't dump - Memory's Claw -->
 		</If>
@@ -2614,7 +2614,7 @@ Room: int_h4g_Transport5_smuggler_room08
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6081)">
 					<MoveTo QuestId="1" XYZ="-0.05295352,1.676,1.393657" />
 					<Interact Name="Holoterminal" IgnoreLOS="True" UseRange="30" XYZ="-0.05295352,1.676,1.393657" />
-					<CompleteQuest QuestName="The Rescue" QuestId="0xE000437B1D0CE17C" RewardIndex="1" />
+					<CompleteQuest QuestName="The Rescue" QuestId="0xE000437B1D0CE17C" />
 					<SpaceTravel Planet="NarShaddaa" />
 				</If>
 			</If>

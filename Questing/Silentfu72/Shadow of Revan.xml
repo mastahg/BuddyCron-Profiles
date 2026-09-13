@@ -453,10 +453,10 @@
 					<TalkTo QuestId="0xE000B476B7FFAA2B" Name="Qaraah" XYZ="98.6682,1.151336,47.9979" />
 				</If>			
 				<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Chapter 5: Shadow of Revan" QuestId="0xE000B476B7FFAA2B" RewardIndex="1" />
+				<CompleteQuest QuestName="Chapter 5: Shadow of Revan" QuestId="0xE000B476B7FFAA2B" />
 			</If>-->
 			</If>
-			<CompleteQuest QuestName="Chapter 5: Shadow of Revan" QuestId="0xE000B476B7FFAA2B" RewardIndex="1"/> 
+			<CompleteQuest QuestName="Chapter 5: Shadow of Revan" QuestId="0xE000B476B7FFAA2B"/> 
 		</If>
 		<!--Imp-->
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
@@ -485,7 +485,7 @@
 				
 				</If>-->
 				</If>
-			</If><CompleteQuest QuestName="Welcome to Rishi" QuestId="0xE000D1BAFADE170A" RewardIndex="0" />
+			</If><CompleteQuest QuestName="Welcome to Rishi" QuestId="0xE000D1BAFADE170A" />
 		</If>
 		<!--Imp-->
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
@@ -538,7 +538,7 @@
 				
 				</If>-->
 				</If>
-			</If><CompleteQuest QuestName="A Scoundrel's Debt" QuestId="0xE00047B802D097E9" RewardIndex="0" />
+			</If><CompleteQuest QuestName="A Scoundrel's Debt" QuestId="0xE00047B802D097E9" />
 		</If>
 		<!--Imp-->
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
@@ -611,7 +611,7 @@
 				<If Condition="((HasQuest(0xE000380594F90030)) and (not IsBranchStepComplete(0xE000380594F90030, 1, 5)))">
 					<UseObject QuestId="0xE000380594F90030" ObjectName="Holoterminal" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="77.39245,0.042,2.454824" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Monkey-Lizard Business" QuestId="0xE000380594F90030" RewardIndex="1" />
+				<CompleteQuest QuestName="Monkey-Lizard Business" QuestId="0xE000380594F90030" />
 				</If>-->
 				</If>
 			</If>
@@ -692,7 +692,7 @@
 				<If Condition="((HasQuest(0xE000E14403425D09)) and (not IsBranchStepComplete(0xE000E14403425D09, 1, 6)))">
 					<TalkTo QuestId="0xE000E14403425D09" Name="Theron Shan" XYZ="111.2914,1.543695,35.8501" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="In Plain Sight" QuestId="0xE000E14403425D09" RewardIndex="1" />
+				<CompleteQuest QuestName="In Plain Sight" QuestId="0xE000E14403425D09" />
 				</If>-->
 				</If>
 			</If>
@@ -760,7 +760,7 @@
 					<MoveTo QuestId="1" XYZ="-19.29546,-0.03221534,-30.48202" />
 					<UseObject QuestId="0xE0000BC3C3692DAC" ObjectName="Holoterminal" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="-19.29546,-0.03221534,-30.48202" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Making a Mark" QuestId="0xE0000BC3C3692DAC" RewardIndex="1" />
+				<CompleteQuest QuestName="Making a Mark" QuestId="0xE0000BC3C3692DAC" />
 				</If>-->
 				</If>
 			</If>
@@ -874,7 +874,7 @@
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 					<TalkTo QuestId="0xE000402709268179" Name="Theron Shan" XYZ="111.2914,1.543695,35.8501" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="The Slavers" QuestId="0xE000402709268179" RewardIndex="1" />
+				<CompleteQuest QuestName="The Slavers" QuestId="0xE000402709268179" />
 				</If>-->
 				</If>
 			</If>
@@ -964,7 +964,7 @@
 				<If Condition="((HasQuest(0xE00073E63CB58A87)) and (not IsBranchStepComplete(0xE00073E63CB58A87, 1, 3)))">
 					<UseObject QuestId="0xE00073E63CB58A87" ObjectName="Access Panel" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-82.4564,-0.08386879,-18.2367" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Broken Blades" QuestId="0xE00073E63CB58A87" RewardIndex="1" />
+				<CompleteQuest QuestName="Broken Blades" QuestId="0xE00073E63CB58A87" />
 				</If>-->
 				</If>			
 			</If>
@@ -1028,7 +1028,7 @@
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 					<TalkTo QuestId="0xE000D4B566CE6F5D" Name="Theron Shan" XYZ="111.2914,1.543695,35.8501" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Heart of the Aggressor" QuestId="0xE000D4B566CE6F5D" RewardIndex="1" />
+				<CompleteQuest QuestName="Heart of the Aggressor" QuestId="0xE000D4B566CE6F5D" />
 				</If>-->
 				</If>
 			</If>
@@ -1104,7 +1104,7 @@
 			<If Condition="((HasQuest(0xE0001E09F1698FAB)) and (not IsBranchStepComplete(0xE0001E09F1698FAB, 1, 7)))">
 				<MoveTo QuestId="1" XYZ="58.77422,0.8686129,-15.51975" />
 				<TalkTo QuestId="0xE0001E09F1698FAB" Name="Master Kutri O'a" XYZ="58.8425,0.8726577,-15.7644" />
-				<!--<CompleteQuest QuestName="Barsen'thor's Legacy" QuestId="0xE0001E09F1698FAB" RewardIndex="1" />-->
+				<!--<CompleteQuest QuestName="Barsen'thor's Legacy" QuestId="0xE0001E09F1698FAB" />-->
 			</If>			
 		</If>
 		
@@ -1203,7 +1203,7 @@
 				<If Condition="((HasQuest(0xE0005D9102CAE596)) and (not IsBranchStepComplete(0xE0005D9102CAE596, 1, 5)))">
 					<TalkTo QuestId="0xE0005D9102CAE596" Name="Lana Beniko" XYZ="112.9642,1.544951,36.0554" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Torch's Flame" QuestId="0xE0005D9102CAE596" RewardIndex="1" />
+				<CompleteQuest QuestName="Torch's Flame" QuestId="0xE0005D9102CAE596" />
 				</If>-->
 				</If>
 			</If>
@@ -1240,7 +1240,7 @@
 					</If>
 					<TalkTo QuestId="0xE0006ABD17BC2AF4" Name="Arankau" XYZ="22.1604,10.95924,-179.4751" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="The Revanites Revealed" QuestId="0xE0006ABD17BC2AF4" RewardIndex="1" />
+				<CompleteQuest QuestName="The Revanites Revealed" QuestId="0xE0006ABD17BC2AF4" />
 				</If>-->
 				</If>
 			</If>
@@ -1267,7 +1267,7 @@
 			<If Condition="((HasQuest(0xE000C44F7EFEA4E6)) and (not IsBranchStepComplete(0xE000C44F7EFEA4E6, 1, 3)))">
 				<TalkTo QuestId="0xE000C44F7EFEA4E6" Name="Captain Milenec" XYZ="-68.2568,-1.0377,-193.7668" />
 				<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Path of Betrayal" QuestId="0xE000C44F7EFEA4E6" RewardIndex="1" />
+				<CompleteQuest QuestName="Path of Betrayal" QuestId="0xE000C44F7EFEA4E6" />
 				</If>-->
 			</If>			
 		</If>
@@ -1291,7 +1291,7 @@
 			<If Condition="((HasQuest(0xE0003FEC71535B5F)) and (not IsBranchStepComplete(0xE0003FEC71535B5F, 2, 4)))">
 				<TalkTo QuestId="0xE0003FEC71535B5F" Name="Lana Beniko" XYZ="25.4326,11.97441,-181.5912" />
 				<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Lingering Hate" QuestId="0xE0003FEC71535B5F" RewardIndex="1" />
+				<CompleteQuest QuestName="Lingering Hate" QuestId="0xE0003FEC71535B5F" />
 				</If>-->
 			</If>			
 		</If>
@@ -1358,7 +1358,7 @@
 				<If Condition="((HasQuest(0xE000237E4839CC9A)) and (not IsBranchStepComplete(0xE000237E4839CC9A, 1, 7)))">
 					<MoveTo QuestId="1" XYZ="25.4326,11.97441,-181.5912" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="To Disrupt the Order" QuestId="0xE000237E4839CC9A" RewardIndex="1" />
+				<CompleteQuest QuestName="To Disrupt the Order" QuestId="0xE000237E4839CC9A" />
 				</If>-->
 				</If>			
 			</If>
@@ -1424,7 +1424,7 @@
 				<If Condition="((HasQuest(0xE0004C197ECB9FA0)) and (not IsBranchStepComplete(0xE0004C197ECB9FA0, 1, 5)))">
 					<TalkTo QuestId="0xE0004C197ECB9FA0" Name="Satele Shan" XYZ="112.4948,1.544843,36.0373" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Frontal Assault" QuestId="0xE0004C197ECB9FA0" RewardIndex="1" />
+				<CompleteQuest QuestName="Frontal Assault" QuestId="0xE0004C197ECB9FA0" />
 				</If>-->
 				</If>			
 			</If>
@@ -1596,7 +1596,7 @@
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000F14973481E72" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />	
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Confederacy" QuestId="0xE000F14973481E72" RewardIndex="1" />
+				<CompleteQuest QuestName="Confederacy" QuestId="0xE000F14973481E72" />
 				</If>-->
 				</If>
 			</If>
@@ -1805,7 +1805,7 @@
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000A4A661D5899C" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />	
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="The Devoted Ones" QuestId="0xE000A4A661D5899C" RewardIndex="1" />
+				<CompleteQuest QuestName="The Devoted Ones" QuestId="0xE000A4A661D5899C" />
 				</If>-->
 				</If>			
 			</If>
@@ -1940,7 +1940,7 @@
 					<MoveTo QuestId="1" XYZ="155.4045,10.21229,56.65564" />
 					<Interact QuestId="0xE00058476DA69D01" Name="Locking Mechanism" BranchId="1" StepId="5" WaitTime="5" XYZ="155.4045,10.21229,56.65564" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
-				<CompleteQuest QuestName="Fates Unsealed" QuestId="0xE00058476DA69D01" RewardIndex="1" />
+				<CompleteQuest QuestName="Fates Unsealed" QuestId="0xE00058476DA69D01" />
 				</If>-->
 				</If>			
 			</If>
