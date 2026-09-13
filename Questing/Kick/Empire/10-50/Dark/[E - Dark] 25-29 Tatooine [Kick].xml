@@ -1,7 +1,7 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
 	<Name>[E - Dark] 25-28 Tatooine [Kick]</Name>
   
-	<ForceAlignment Type="Dark" AutoSkip="True" />
+	<ForceAlignment Type="Light" AutoSkip="True" />
   
 	<Vendors>
 		<Hotspot Name="Imperial Medical Droid" XYZ="143.9771,44.40549,58.8818" />
@@ -31,30 +31,6 @@
 		<Hotspot Name="Mailbox" XYZ="125.8373,43.07957,-1.770748" /> <!-- Outpost Rennar -->
 		<Hotspot Name="Mailbox" XYZ="162.5062,44.84389,-59.83265" /> <!-- Ridgeside Sentry Post -->
 	</Mailboxes>
-	
-	<Trainers>
-		<Trainer Class="Agent" Name="Agent Akindra" X="83.4433" Y="47.77328" Z="324.2136" />
-		<Trainer Class="BountyHunter" Name="Corbro Stanch" X="80.4298" Y="47.7723" Z="327.5645" />
-		<Trainer Class="Inquisitor" Name="Lord Vajar" X="82.6178" Y="49.79213" Z="312.1785" />
-		<Trainer Class="Warrior" Name="Lord Undaara" X="86.5826" Y="49.79213" Z="314.4844" />
-	</Trainers>
- 
-	<Taxis>
-		<Hotspot Name="Mos Ila Speeder" XYZ="72.2576,46.50851,280.5351" /> <!-- Mos Ila -->
-		<Hotspot Name="Mos Anek Speeder" XYZ="-3.044205,44.6794,32.8439" /> <!-- Mos Anek Speeder -->
-		<Hotspot Name="Outpost Zaroshe Speeder" XYZ="-68.48151,43.80201,-58.2002" /> <!-- Outpost Zaroshe Speeder -->
-		<Hotspot Name="Outpost Rennar Speeder" XYZ="126.4422,44.24474,-7.795799" /> <!-- Outpost Rennar Speeder -->
-		<Hotspot Name="Ridgeside Sentry Post Speeder" XYZ="163.3215,45.05154,-53.6032" /> <!-- Ridgeside Sentry Post Speeder -->
-	</Taxis>
-  
-	<BindPoints>
-		<Hotspot Name="Mos Ila" XYZ="74.34445,46.27643,279.584" /> <!-- Mos Ila -->
-		<Hotspot Name="Outpost Varath" XYZ="71.62868,45.30013,61.0564" /> <!-- Outpost Varath -->
-		<Hotspot Name="Mos Anek" XYZ="-3.110615,44.6794,33.36226" /> <!-- Mos Anek -->
-		<Hotspot Name="Outpost Zaroshe" XYZ="-68.70028,43.80201,-57.64342" /> <!-- Outpost Zaroshe -->
-		<Hotspot Name="Outpost Rennar" XYZ="125.6972,44.24474,-7.901161" /> <!-- Outpost Rennar -->
-		<Hotspot Name="Ridgeside Sentry Post" XYZ="163.7594,45.05154,-53.83438" /> <!-- Ridgeside Sentry Post -->
-	</BindPoints>
 	
 	<!--
 	<AvoidMobs>
@@ -831,12 +807,12 @@
 	</GrindAreas>
 	
 	<Questing>
-		
+		<!--
 		<If Condition="(Me.Class == CharacterClass.BountyHunter)">
 			<UserDialog Title="Kick" Message="This profile cannot currently be used by a Bounty Hunter.  You can use it for BH, but it completes 0 class quests for BH's! Feel free to give correctly developed profile syntax and specific places to put said syntax at!" />
 		</If>
 		
-		<!-- Speeder Vendor 
+		 Speeder Vendor 
 		<Hotspot Name="Londrod" X="71.1083" Y="46.50851" Z="281.9264" />
 		
 		Speeder names:

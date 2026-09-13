@@ -18,33 +18,7 @@
 		<Hotspot Name="Forward Camp" XYZ="-24.60999,-2.367607,-6.613682" />
 	</Mailboxes>
 	
-	<Trainers>
-		<!-- The Gnarls -->
-		<Hotspot Name="Master Liv'trai" Class="Consular" XYZ="-13.9862,-2.704312,-99.4795" />
-		<Hotspot Name="Master Travin" Class="Knight" XYZ="-13.9887,-2.704312,-98.2971" />
-		
-		<!-- Jedi Temple -->
-		<Hotspot Name="Master Wettle" Class="Consular" XYZ="-36.6993,-5.12366,-36.1476" />
-		<Hotspot Name="Master Muheeda" Class="Knight" XYZ="-33.6843,-5.12366,-37.3864" />
-	</Trainers>
-	
 	<!--
-	<Taxis>
-		<Hotspot Name="Masters' Retreat Taxi" X="-53.4878" Y="-7.713922" Z="-125.4795" />
-		<Hotspot Name="Gnarls Outpost Speeder" X="-17.2731" Y="-2.403527" Z="-100.9103" />
-		<Hotspot Name="Jedi Temple Speeder" X="-13.1076" Y="-7.968236" Z="-45.234" />
-		<Hotspot Name="Kalikori Village Speeder" X="16.9777" Y="-0.7802001" Z="-29.4481" />
-		<Hotspot Name="Forward Camp Speeder" X="-25.4954" Y="-2.367607" Z="-6.1771" />
-	</Taxis>
-	
-	<BindPoints>
-		<Hotspot Name="The Gnarls" X="-16.141" Y="-2.403527" Z="-100.2854" />
-		<Hotspot Name="Jedi Temple" X="-15.78059" Y="-8.138837" Z="-45.43372" />
-		<Hotspot Name="Jedi Temple Cantina" X="-37.37531" Y="-7.474588" Z="-34.51973" />
-		<Hotspot Name="Kalikori Village" X="16.41992" Y="-0.8247002" Z="-29.58422" />
-		<Hotspot Name="Forward Camp" X="-24.60612" Y="-2.367607" Z="-5.804324" />
-	</BindPoints>
-	
 	<AvoidMobs>
 		<Mob Name="Mar'gavrok" X="33.93664" Y="6.628803" Z="-48.9367" />
 		<Mob Name="Grand Chieftan Keshk" X="-3.285645" Y="8.917768" Z="90.22495" />

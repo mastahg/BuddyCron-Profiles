@@ -24,29 +24,6 @@
 	
 	</Mailboxes>
 
-	<Trainers>
-		<Trainer Name="Lieutenant Lanai" Class="Agent" X="72.9675" Y="28.27477" Z="-138.5177" />
-		<Trainer Name="Marl Dak'win" Class="BountyHunter" X="72.1226" Y="28.27477" Z="-136.7883" />
-		<Trainer Name="Lord Melana" Class="Inquisitor" X="74.6335" Y="28.27541" Z="-137.368" />
-		<Trainer Name="Lord Virena" Class="Warrior" X="74.3714" Y="28.27477" Z="-138.5277" />
-	</Trainers>
-  
-	<Taxis>
-		<Taxi Name="Rhu Caenus Spaceport Taxi" X="19.8109" Y="28.57548" Z="-140.667" /> <!-- Rhu Caenus Spaceport -->
-		<Taxi Name="House Cortess Taxi" X="-30.6181" Y="28.28497" Z="-111.3201" /> <!-- House Cortess -->
-		<Taxi Name="House Thul Taxi" X="63.042" Y="28.27721" Z="-160.0131" /> <!-- House Thul -->
-		<Taxi Name="Thul Palace Taxi" X="72.7796" Y="28.09117" Z="-130.0464" /> <!-- House Thul -->
-		<Taxi Name="Outpost Bolym Thranta" X="175.0771" Y="39.00214" Z="-107.1227" /> <!-- Outpost Bolym -->
-	</Taxis>
-  
-	<BindPoints>
-		<BindPoint Name="House Cortess" X="-31.64071" Y="28.28497" Z="-112.721" /> <!-- House Cortess -->
-		<BindPoint Name="Rhu Caenus Spaceport" X="18.98159" Y="28.3067" Z="-142.6181" /> <!-- Rhu Caenus Spaceport -->
-		<BindPoint Name="House Thul" X="65.34126" Y="28.0177" Z="-159.3149" /> <!-- House Thul -->
-		<BindPoint Name="Outpost Bolym" X="176.6429" Y="38.601" Z="-103.92" /> <!-- Outpost Bolym -->
-		<BindPoint Name="Outpost Talarn" X="189.5582" Y="21.701" Z="78.08847" /> <!-- Outpost Talarn -->
-	</BindPoints>
-	
 	<!--
   <AvoidMobs>
   </AvoidMobs>
@@ -963,8 +940,6 @@
 			</If>
 			<!-- Final Stage - Demoralize and Demolish -->
 			<If Condition="(not IsQuestComplete(0xE000A157C03B187D))">
-				<!--
-			-->
 				<MoveTo QuestId="1" XYZ="165.4906,22.99858,-9.319366" />
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<MoveTo QuestId="1" XYZ="165.4906,22.99858,-9.319366" />

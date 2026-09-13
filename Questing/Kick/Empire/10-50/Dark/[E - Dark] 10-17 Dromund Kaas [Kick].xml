@@ -27,30 +27,7 @@
 		<Hotspot Name="Outpost Warden" XYZ="-128.6208,5.3694,70.56881" />
 	</Mailboxes>
 
-	<Trainers>
-		<Trainer Name="Wildra Selin" Class="Agent" X="-3.6669" Y="5.606056" Z="8.5061" />
-		<Trainer Name="Zain Quelrak" Class="Inquisitor" X="-5.3191" Y="5.601874" Z="8.3087" />
-		<Trainer Name="Savess" Class="Warrior" X="-7.5994" Y="5.60346" Z="8.738" />
-		<Trainer Name="Bosann Lor'kor" Class="BountyHunter" X="-1.3346" Y="5.606058" Z="8.7423" />
-	</Trainers>
-  
 	<!--
-  <Taxis>
-    <Hotspot Name="Spaceport Speeder" X="88.2997" Y="6.340111" Z="36.3558" />
-    <Hotspot Name="Kaas City Entrance Speeder" X="-8.4563" Y="4.1061" Z="31.0347" />
-    <Hotspot Name="Kaas City Central Taxi" X="-19.5048" Y="4.007461" Z="-1.2225" />
-    <Hotspot Name="Citadel Taxi" X="-10.5032" Y="2.307461" Z="-50.798" />
-    <Hotspot Name="Mandalorian Enclave Taxi" X="-33.2951" Y="2.307461" Z="-50.8012" />
-    <Hotspot Name="Outpost Tempest Speeder" X="28.5524" Y="3.268803" Z="80.1212" />
-    <Hotspot Name="Revanite Compound Speeder" X="-79.6927" Y="-2.539633" Z="115.3767" />
-  </Taxis>
-  
-  <BindPoints>
-    <Hotspot Name="Dromund Kaas Spaceport" X="89.69238" Y="6.597899" Z="35.34665" />
-    <Hotspot Name="Kaas City" X="-10.03049" Y="4.109" Z="32.69603" />
-    <Hotspot Name="Nexus Room Cantina" X="-31.16848" Y="3.793041" Z="1.674763" />
-  </BindPoints>
-
   <AvoidMobs>
   <Mob Name="Palawa Advanced Battle Droid" X="103.1591" Y="45.601" Z="219.1386" />
   </AvoidMobs>
