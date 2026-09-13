@@ -704,10 +704,10 @@
 		
 		<!-- Captured Padawns - Free 6 Padawans -->
 		<If Condition="((HasQuest(0xE00073A18DCED739)) and (not IsQuestComplete(0xE00073A18DCED739)))">
-			<!-- The Flesh Raider Menace (Bonus) -->
+			<!-- The Flesh Raider Menace (Bonus) 
 			<If Condition="(not IsQuestComplete(0xE000962990EE5841))">
 				<Grind GrindRef="The Flesh Raider Menace (Bonus)" While="(not IsQuestComplete(0xE000962990EE5841))" />
-			</If>
+			</If>-->
 			<UseObject QuestId="0xE00073A18DCED739" ObjectName="Fleshraider Cage" BranchId="1" StepId="2" Radius="50" BlacklistDuration="70" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="7.064587,-5.010141,-109.343" />
