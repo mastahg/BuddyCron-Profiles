@@ -34,54 +34,6 @@
 	
 	<GrindAreas> 
 	
-		<GrindArea Name="When Diplomacy Fails 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Kintan Kings Enforcer</Mob>
-				<Mob>Kintan Kings Pusher</Mob>
-				<Mob>Kintan Kings Warrior</Mob>
-				<Mob>Kintan Kings Pickpocket</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-234.5869,64.511,-177.879" />
-				<Hotspot Name="Kintan Kings Warrior" XYZ="-237.7428,64.501,-173.895" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-236.889,64.501,-179.3853" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-237.5862,64.501,-177.9378" />
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-238.1763,64.501,-187.1016" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-239.7283,64.501,-183.1253" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-242.6161,64.501,-185.3667" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-244.195,64.52058,-181.6842" />
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-240.4919,64.501,-171.7884" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-231.1828,66.501,-178.1304" />
-				<Hotspot Name="Kintan Kings Warrior" XYZ="-247.9158,66.501,-178.9322" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="In Defense of Deucalon (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Kintan Kings Enforcer</Mob>
-				<Mob>Kintan Kings Pusher</Mob>
-				<Mob>Kintan Kings Warrior</Mob>
-				<Mob>Kintan Kings Pickpocket</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-234.5869,64.511,-177.879" />
-				<Hotspot Name="Kintan Kings Warrior" XYZ="-237.7428,64.501,-173.895" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-236.889,64.501,-179.3853" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-237.5862,64.501,-177.9378" />
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-238.1763,64.501,-187.1016" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-239.7283,64.501,-183.1253" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-242.6161,64.501,-185.3667" />
-				<Hotspot Name="Kintan Kings Enforcer" XYZ="-244.195,64.52058,-181.6842" />
-				<Hotspot Name="Kintan Kings Pusher" XYZ="-240.4919,64.501,-171.7884" />
-				<Hotspot Name="Kintan Kings Pickpocket" XYZ="-231.1828,66.501,-178.1304" />
-				<Hotspot Name="Kintan Kings Warrior" XYZ="-247.9158,66.501,-178.9322" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Stage 1 - Cripple the Kings (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -108,187 +60,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="The Professor 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Nikto Boss</Mob>
-				<Mob>Nikto Gangster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nikto Boss" XYZ="-348.225,22.501,-316.9209" />
-				<Hotspot Name="Nikto Gangster" XYZ="-348.5609,22.501,-317.1541" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Final Stage - Cripple the Kings (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Kintan Ringleader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kintan Ringleader" XYZ="-350.0319,22.501,-297.7016" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Shut Down the Slave Market (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Kintan Kings Slave Warden</Mob>
-				<Mob>Kintan Kings Overseer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kintan Kings Slave Warden" XYZ="-322.7921,17.301,-266.69" />
-				<Hotspot Name="Kintan Kings Overseer" XYZ="-322.5663,17.40219,-263.0747" />
-				<Hotspot Name="Kintan Kings Slave Warden" XYZ="-324.2992,17.301,-270.0002" />
-				<Hotspot Name="Kintan Kings Overseer" XYZ="-319.1592,17.301,-266.463" />
-				<Hotspot Name="Kintan Kings Slave Warden" XYZ="-322.5821,17.39978,-269.3185" />
-				<Hotspot Name="My Location" XYZ="-316.0645,17.301,-267.1043" />
-				<Hotspot Name="Kintan Kings Overseer" XYZ="-315.9904,17.30449,-272.9549" />
-				<Hotspot Name="Kintan Kings Slave Warden" XYZ="-324.1463,17.301,-269.739" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Strike the Mountain Asunder 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>The Mountain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Mountain" XYZ="-351.0189,11.83968,-271.4482" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Crackdown at Club Ufora (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Bouncer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="326.4175,-314.199,-365.8315" />
-				<Hotspot Name="Bouncer" XYZ="324.0985,-314.1998,-365.8373" />
-				<Hotspot Name="Bouncer" XYZ="320.8572,-314.199,-366.4316" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Shore Leave 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Club Ufora Security Guard</Mob>
-				<Mob>Club Ufora Owner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Club Ufora Owner" XYZ="321.606,-314.1979,-369.3529" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Going Clean (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Bleeder Spice Supervisor</Mob>
-				<Mob>Bleeder Spice Lab Sifter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bleeder Spice Supervisor" XYZ="330.6573,-315.199,-354.1594" />
-				<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="330.7759,-315.199,-350.8099" />
-				<Hotspot Name="Bleeder Spice Supervisor" XYZ="371.8816,-313.699,-364.8861" />
-				<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="369.8055,-313.699,-365.029" />
-				<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="368.6503,-313.699,-363.3885" />
-				<Hotspot XYZ="321.7768,-315.1931,-336.0704" /> 
-				<Hotspot XYZ="300.6425,-315.1852,-346.3445" /> 
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Imperial Lab Raid (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Lab Supervisor</Mob>
-				<Mob>Industrial Lab Security</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Lab Supervisor" XYZ="234.6753,-319.179,-335.1384" />
-				<Hotspot Name="Industrial Lab Security" XYZ="226.3249,-321.199,-335.8616" />
-				<Hotspot Name="Imperial Lab Security" XYZ="228.4716,-321.199,-333.5388" />
-				<Hotspot Name="Imperial Lab Security" XYZ="232.6778,-321.199,-335.2982" />
-				<Hotspot Name="Imperial Lab Supervisor" XYZ="233.6538,-321.199,-339.0745" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Bad Chemistry (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Supervisor</Mob>
-				<Mob>Imperial Factory Security</Mob>
-				<Mob>Injection Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Supervisor" XYZ="-240.9811,-172.9688,265.5695" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-243.143,-172.9603,265.0846" />
-				<Hotspot Name="Injection Droid" XYZ="-243.262,-172.9603,265.3022" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-244.3601,-173.019,268.7768" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-249.875,-172.9689,268.1069" />
-				<Hotspot Name="Imperial Supervisor" XYZ="-240.1804,-172.9688,262.0043" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-250.1257,-172.9689,268.1119" />
-				<Hotspot Name="Injection Droid" XYZ="-255.4608,-172.9688,262.5626" />
-				<Hotspot Name="Injection Droid" XYZ="-259.4055,-172.9688,262.0013" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-259.2764,-172.9603,265.617" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-259.0488,-172.9603,268.1922" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-271.5568,-172.9487,262.6709" />
-				<Hotspot Name="Imperial Factory Security" XYZ="-268.5119,-172.9603,271.7123" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Exterminate the Wardens (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Warden</Mob>
-				<Mob>Imperial Prison Guard</Mob>
-				<Mob>Imperial Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Warden" XYZ="-243.604,-172.9603,252.9212" />
-				<Hotspot Name="Imperial Prison Guard" XYZ="-236.8836,-172.9601,253.6655" />
-				<Hotspot Name="Imperial Captain" XYZ="-236.0651,-172.9603,249.2288" />
-				<Hotspot Name="Imperial Captain" XYZ="-236.8259,-172.9772,247.0343" />
-				<Hotspot Name="Imperial Warden" XYZ="-239.8493,-172.9678,245.9288" />
-				<Hotspot Name="Imperial Captain" XYZ="-233.7682,-172.9688,245.0414" />
-				<Hotspot Name="Imperial Warden" XYZ="-233.0563,-172.9688,242.5083" />
-				<Hotspot Name="Imperial Warden" XYZ="-240.4643,-172.9688,243.3568" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Extermination 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Prison Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Prison Guard" XYZ="-236.8836,-172.9601,253.6655" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Extermination 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Commander Vergost</Mob>
-				<Mob>Imperial Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Stage 1 - Ending a Better Life (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -308,188 +79,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Final Stage - Ending a Better Life (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>BetterLife Security Chief</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="BetterLife Security Chief" XYZ="-245.4071,-167.7708,291.5562" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Tempting Fate 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>BetterLife Security Lieutenant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-247.2263,-167.7708,292.288" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-251.0004,-167.7708,291.403" />
-				<Hotspot Name="BetterLife Security Guard" XYZ="-244.603,-168.5633,294.0491" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-240.575,-167.7633,295.6859" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-239.0452,-167.7708,291.7917" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-240.7145,-167.7633,286.9591" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-235.0235,-168.5633,291.6575" />
-				<Hotspot Name="BetterLife Security Lieutenant" XYZ="-253.5304,-168.5688,291.1892" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="An Unpleasant Fate (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Warehouse Officer</Mob>
-				<Mob>Industrial Site Guard Droid MC-1K</Mob>
-				<Mob>Imperial Warehouse Guard</Mob>
-				<Mob>Imperial Warehouse Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-231.548,-170.619,312.2667" />
-				<Hotspot Name="Imperial Warehouse Officer" XYZ="-233.731,-170.5709,314.6116" />
-				<Hotspot Name="Imperial Warehouse Guard" XYZ="-233.0388,-170.599,319.353" />
-				<Hotspot Name="Imperial Warehouse Officer" XYZ="-229.8808,-170.599,319.2747" />
-				<Hotspot Name="Imperial Warehouse Trooper" XYZ="-235.8967,-170.599,321.3995" />
-				<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-239.3882,-170.599,319.3144" />
-				<Hotspot Name="Imperial Warehouse Trooper" XYZ="-242.3524,-170.599,319.2973" />
-				<Hotspot Name="Imperial Warehouse Guard" XYZ="-241.3712,-169.7533,317.0339" />
-				<Hotspot Name="Imperial Warehouse Officer" XYZ="-244.5254,-170.599,325.3884" />
-				<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-248.224,-170.619,319.5449" />
-				<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-254.1354,-168.9603,313.3047" />
-				<Hotspot Name="Imperial Warehouse Guard" XYZ="-253.3148,-168.9608,309.5991" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Master 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Morgukai</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Morgukai" XYZ="323.1857,-313.699,-335.5184" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Street Sweeper (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prison Watchman</Mob>
-				<Mob>Prison Guard</Mob>
-				<Mob>Subsystem Warden</Mob>
-				<Mob>Chief Warden</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prison Watchman" XYZ="256.6871,-154.799,295.7824" />
-				<Hotspot Name="Prison Watchman" XYZ="252.8382,-154.799,290.5523" />
-				<Hotspot Name="Prison Guard" XYZ="253.0471,-154.799,293.0036" />
-				<Hotspot Name="Prison Guard" XYZ="259.2636,-154.799,298.3982" />
-				<Hotspot Name="Subsystem Warden" XYZ="256.8183,-154.799,295.9505" />
-				<Hotspot Name="Prison Watchman" XYZ="263.5317,-154.799,287.7927" />
-				<Hotspot Name="My Location" XYZ="261.2739,-155.299,290.6963" />
-				<Hotspot Name="Prison Guard" XYZ="261.0666,-155.299,295.7766" />
-				<Hotspot Name="Prison Watchman" XYZ="265.2303,-155.299,295.0709" />
-				<Hotspot Name="Prison Guard" XYZ="261.7494,-155.319,300.1781" />
-				<Hotspot Name="Chief Warden" XYZ="264.5189,-155.299,300.5213" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Access 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prison Watchman</Mob>
-				<Mob>Prison Guard</Mob>
-				<Mob>Subsystem Warden</Mob>
-				<Mob>Chief Warden</Mob>
-				<Mob>Security Warden</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prison Watchman" XYZ="256.6871,-154.799,295.7824" />
-				<Hotspot Name="Prison Watchman" XYZ="252.8382,-154.799,290.5523" />
-				<Hotspot Name="Prison Guard" XYZ="253.0471,-154.799,293.0036" />
-				<Hotspot Name="Prison Guard" XYZ="259.2636,-154.799,298.3982" />
-				<Hotspot Name="Subsystem Warden" XYZ="256.8183,-154.799,295.9505" />
-				<Hotspot Name="Prison Watchman" XYZ="263.5317,-154.799,287.7927" />
-				<Hotspot Name="My Location" XYZ="261.2739,-155.299,290.6963" />
-				<Hotspot Name="Prison Guard" XYZ="261.0666,-155.299,295.7766" />
-				<Hotspot Name="Prison Watchman" XYZ="265.2303,-155.299,295.0709" />
-				<Hotspot Name="Prison Guard" XYZ="261.7494,-155.319,300.1781" />
-				<Hotspot Name="Chief Warden" XYZ="264.5189,-155.299,300.5213" />
-				<Hotspot Name="Security Warden" XYZ="263.5862,-155.299,305.2614" />
-				<Hotspot Name="Subsystem Warden" XYZ="250.2257,-154.799,292.9834" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Shadow Town 5 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Checkpoint Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Checkpoint Guard" XYZ="258.8085,-155.799,308.5815" />
-				<Hotspot Name="My Location" XYZ="258.4361,-155.799,305.8631" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Cleaning up Shadow Town (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prison Provost</Mob>
-				<Mob>Prison Enforcer</Mob>
-				<Mob>Prison Sentry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prison Provost" XYZ="216.1619,-154.799,306.2443" />
-				<Hotspot Name="Prison Enforcer" XYZ="222.6728,-154.799,306.3698" />
-				<Hotspot Name="Prison Provost" XYZ="226.047,-154.799,309.0928" />
-				<Hotspot Name="Prison Enforcer" XYZ="219.4907,-155.799,298.0591" />
-				<Hotspot Name="Prison Enforcer" XYZ="221.379,-155.819,294.3592" />
-				<Hotspot Name="My Location" XYZ="222.5754,-155.799,299.2207" />
-				<Hotspot Name="Prison Sentry" XYZ="226.1304,-155.819,298.0607" />
-				<Hotspot Name="Prison Enforcer" XYZ="228.1412,-155.799,300.0831" />
-				<Hotspot Name="Prison Enforcer" XYZ="227.1407,-155.799,293.9297" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="A Tough Sell 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prison Provost</Mob>
-				<Mob>Prison Enforcer</Mob>
-				<Mob>Prison Sentry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prison Provost" XYZ="216.1619,-154.799,306.2443" />
-				<Hotspot Name="Prison Enforcer" XYZ="222.6728,-154.799,306.3698" />
-				<Hotspot Name="Prison Provost" XYZ="226.047,-154.799,309.0928" />
-				<Hotspot Name="Prison Enforcer" XYZ="219.4907,-155.799,298.0591" />
-				<Hotspot Name="Prison Enforcer" XYZ="221.379,-155.819,294.3592" />
-				<Hotspot Name="My Location" XYZ="222.5754,-155.799,299.2207" />
-				<Hotspot Name="Prison Sentry" XYZ="226.1304,-155.819,298.0607" />
-				<Hotspot Name="Prison Enforcer" XYZ="228.1412,-155.799,300.0831" />
-				<Hotspot Name="Prison Enforcer" XYZ="227.1407,-155.799,293.9297" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Shadow Town 7 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Duras Fain</Mob>
-				<Mob>Fain's Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Duras Fain" XYZ="241.3986,-160.799,308.5699" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Jailbreak (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -511,83 +100,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Captive 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ako Domi</Mob>
-				<Mob>Sith Apprentice</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ako Domi" XYZ="269.9021,-157.3598,340.3195" />
-				<Hotspot Name="Sith Apprentice" XYZ="269.2735,-157.3598,339.7567" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Hacked Resistance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Guard Droid</Mob>
-				<Mob>Reprogrammed Sentry Droid</Mob>
-				<Mob>Reprogrammed Attack Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-6.045681,0.0009999508,5.570472" />
-				<Hotspot Name="Reprogrammed Sentry Droid" XYZ="-9.262007,0.004999884,4.462798" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-8.788818,0.001005429,6.474269" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-6.422,0.001000138,8.5423" />
-				<Hotspot Name="Reprogrammed Guard Droid" XYZ="-7.496,-0.099,12.0174" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.6163,0.001000203,10.3673" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Distress Call 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Laranna Fain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Authorized for Sabotage 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Hutt Cartel Sentry Droid</Mob>
-				<Mob>Hutt Cartel Guard Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hutt Cartel Guard Droid" XYZ="-248.4601,-167.7688,298.9634" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Shadow Town 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Hutt Cartel Enforcer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hutt Cartel Enforcer" XYZ="-90.9242,51.8109,-49.8128" />
-			</Hotspots>
-		</GrindArea>    
-		
-
-
-
-
-
-
-
-
-
-
-
-	
 	</GrindAreas>
 	
 	<!--
@@ -625,11 +137,59 @@
 		<!-- When Diplomacy Fails -->
 		<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsQuestComplete(0xE000BB1B620A30F6)))">
 			<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsStepComplete(0xE000BB1B620A30F6, 2)))">
-				<Grind GrindRef="When Diplomacy Fails 2" While="(not IsStepComplete(0xE000BB1B620A30F6, 2))" /> 
+				<Grind While="(not IsStepComplete(0xE000BB1B620A30F6, 2))">
+					<GrindArea Name="When Diplomacy Fails 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Kintan Kings Enforcer</Mob>
+							<Mob>Kintan Kings Pusher</Mob>
+							<Mob>Kintan Kings Warrior</Mob>
+							<Mob>Kintan Kings Pickpocket</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-234.5869,64.511,-177.879" />
+							<Hotspot Name="Kintan Kings Warrior" XYZ="-237.7428,64.501,-173.895" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-236.889,64.501,-179.3853" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-237.5862,64.501,-177.9378" />
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-238.1763,64.501,-187.1016" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-239.7283,64.501,-183.1253" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-242.6161,64.501,-185.3667" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-244.195,64.52058,-181.6842" />
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-240.4919,64.501,-171.7884" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-231.1828,66.501,-178.1304" />
+							<Hotspot Name="Kintan Kings Warrior" XYZ="-247.9158,66.501,-178.9322" />
+						</Hotspots>
+					</GrindArea>
+				</Grind> 
 			</If>
 			<!-- In Defense of Deucalon (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000EA2BE54517CA))">
-				<Grind GrindRef="In Defense of Deucalon (Bonus)" While="(not IsQuestComplete(0xE000EA2BE54517CA))" />
+				<Grind While="(not IsQuestComplete(0xE000EA2BE54517CA))">
+					<GrindArea Name="In Defense of Deucalon (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Kintan Kings Enforcer</Mob>
+							<Mob>Kintan Kings Pusher</Mob>
+							<Mob>Kintan Kings Warrior</Mob>
+							<Mob>Kintan Kings Pickpocket</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-234.5869,64.511,-177.879" />
+							<Hotspot Name="Kintan Kings Warrior" XYZ="-237.7428,64.501,-173.895" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-236.889,64.501,-179.3853" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-237.5862,64.501,-177.9378" />
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-238.1763,64.501,-187.1016" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-239.7283,64.501,-183.1253" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-242.6161,64.501,-185.3667" />
+							<Hotspot Name="Kintan Kings Enforcer" XYZ="-244.195,64.52058,-181.6842" />
+							<Hotspot Name="Kintan Kings Pusher" XYZ="-240.4919,64.501,-171.7884" />
+							<Hotspot Name="Kintan Kings Pickpocket" XYZ="-231.1828,66.501,-178.1304" />
+							<Hotspot Name="Kintan Kings Warrior" XYZ="-247.9158,66.501,-178.9322" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsStepComplete(0xE000BB1B620A30F6, 3)))">
 				<!-- If I am on Lower Promenade -->
@@ -698,7 +258,20 @@
 			</If>
 			<!-- Auto Skip 7 -->
 			<If Condition="((HasQuest(0xE0000B22F094CB77)) and (not IsStepComplete(0xE0000B22F094CB77, 8)))">
-				<Grind GrindRef="The Professor 8" While="(not IsStepComplete(0xE0000B22F094CB77, 8))" />
+				<Grind While="(not IsStepComplete(0xE0000B22F094CB77, 8))">
+					<GrindArea Name="The Professor 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Nikto Boss</Mob>
+							<Mob>Nikto Gangster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Nikto Boss" XYZ="-348.225,22.501,-316.9209" />
+							<Hotspot Name="Nikto Gangster" XYZ="-348.5609,22.501,-317.1541" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000B22F094CB77)) and (not IsStepComplete(0xE0000B22F094CB77, 9)))">
 				<TalkTo QuestId="0xE0000B22F094CB77" Name="Tharan Cedrax" XYZ="-347.9652,22.501,-316.9206" />
@@ -725,7 +298,26 @@
 			</If>
 			<!-- Shut Down the Slave Market (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000068BA12EAC2))">
-				<Grind GrindRef="Shut Down the Slave Market (Bonus)" While="(not IsQuestComplete(0xE0000068BA12EAC2))" />
+				<Grind While="(not IsQuestComplete(0xE0000068BA12EAC2))">
+					<GrindArea Name="Shut Down the Slave Market (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Kintan Kings Slave Warden</Mob>
+							<Mob>Kintan Kings Overseer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kintan Kings Slave Warden" XYZ="-322.7921,17.301,-266.69" />
+							<Hotspot Name="Kintan Kings Overseer" XYZ="-322.5663,17.40219,-263.0747" />
+							<Hotspot Name="Kintan Kings Slave Warden" XYZ="-324.2992,17.301,-270.0002" />
+							<Hotspot Name="Kintan Kings Overseer" XYZ="-319.1592,17.301,-266.463" />
+							<Hotspot Name="Kintan Kings Slave Warden" XYZ="-322.5821,17.39978,-269.3185" />
+							<Hotspot Name="My Location" XYZ="-316.0645,17.301,-267.1043" />
+							<Hotspot Name="Kintan Kings Overseer" XYZ="-315.9904,17.30449,-272.9549" />
+							<Hotspot Name="Kintan Kings Slave Warden" XYZ="-324.1463,17.301,-269.739" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" Type="Placeable" TurnInName="Slaver Control Console" XYZ="-315.9904,17.30449,-272.9549" />
 			<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" />
@@ -783,7 +375,18 @@
 			</If>
 			<!-- Final Stage - Cripple the Kings (Bonus) -->
 			<If Condition="((HasQuest(0xE0004F43A3BFA307)) and (not IsQuestComplete(0xE0004F43A3BFA307)))">
-				<Grind GrindRef="Final Stage - Cripple the Kings (Bonus)" While="(HasQuest(0xE0004F43A3BFA307))" />
+				<Grind While="(HasQuest(0xE0004F43A3BFA307))">
+					<GrindArea Name="Final Stage - Cripple the Kings (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Kintan Ringleader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kintan Ringleader" XYZ="-350.0319,22.501,-297.7016" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -820,7 +423,18 @@
 				<TalkTo QuestId="0xE00092996437ED01" Name="The Mountain" XYZ="-351.0189,11.83968,-271.4482" />
 			</If>
 			<If Condition="((HasQuest(0xE00092996437ED01)) and (not IsStepComplete(0xE00092996437ED01, 4)))">
-				<Grind GrindRef="Strike the Mountain Asunder 4" While="(not IsStepComplete(0xE00092996437ED01, 4))" />
+				<Grind While="(not IsStepComplete(0xE00092996437ED01, 4))">
+					<GrindArea Name="Strike the Mountain Asunder 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>The Mountain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="The Mountain" XYZ="-351.0189,11.83968,-271.4482" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00092996437ED01)) and (not IsStepComplete(0xE00092996437ED01, 5)))">
 				<UseObject QuestId="0xE00092996437ED01" ObjectName="Remote Detonation Switch" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-348.5493,11.8552,-271.4721" />
@@ -892,13 +506,38 @@
 		<If Condition="((HasQuest(0xE0001D76D02DEDBB)) and (not IsQuestComplete(0xE0001D76D02DEDBB)))">
 			<!-- Crackdown at Club Ufora (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000EF9CFAE62E87))">
-				<Grind GrindRef="Crackdown at Club Ufora (Bonus)" While="(not IsQuestComplete(0xE000EF9CFAE62E87))" />
+				<Grind While="(not IsQuestComplete(0xE000EF9CFAE62E87))">
+					<GrindArea Name="Crackdown at Club Ufora (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Bouncer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="326.4175,-314.199,-365.8315" />
+							<Hotspot Name="Bouncer" XYZ="324.0985,-314.1998,-365.8373" />
+							<Hotspot Name="Bouncer" XYZ="320.8572,-314.199,-366.4316" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001D76D02DEDBB)) and (not IsStepComplete(0xE0001D76D02DEDBB, 2)))">
 				<MoveTo QuestId="0xE0001D76D02DEDBB" Name="My Location" XYZ="321.4044,-314.199,-365.9689" />
 			</If>
 			<If Condition="((HasQuest(0xE0001D76D02DEDBB)) and (not IsStepComplete(0xE0001D76D02DEDBB, 3)))">
-				<Grind GrindRef="Shore Leave 3" While="(not IsStepComplete(0xE0001D76D02DEDBB, 3))" />
+				<Grind While="(not IsStepComplete(0xE0001D76D02DEDBB, 3))">
+					<GrindArea Name="Shore Leave 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Club Ufora Security Guard</Mob>
+							<Mob>Club Ufora Owner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Club Ufora Owner" XYZ="321.606,-314.1979,-369.3529" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001D76D02DEDBB)) and (not IsStepComplete(0xE0001D76D02DEDBB, 4)))">
 				<UseObject QuestId="0xE0001D76D02DEDBB" ObjectName="Prison Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="315.0818,-314.199,-368.9495" />
@@ -925,7 +564,25 @@
 			</If>
 			<!-- Going Clean (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000A2BFB6CDD01D))">
-				<Grind GrindRef="Going Clean (Bonus)" While="(not IsQuestComplete(0xE000A2BFB6CDD01D))" />
+				<Grind While="(not IsQuestComplete(0xE000A2BFB6CDD01D))">
+					<GrindArea Name="Going Clean (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Bleeder Spice Supervisor</Mob>
+							<Mob>Bleeder Spice Lab Sifter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Bleeder Spice Supervisor" XYZ="330.6573,-315.199,-354.1594" />
+							<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="330.7759,-315.199,-350.8099" />
+							<Hotspot Name="Bleeder Spice Supervisor" XYZ="371.8816,-313.699,-364.8861" />
+							<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="369.8055,-313.699,-365.029" />
+							<Hotspot Name="Bleeder Spice Lab Sifter" XYZ="368.6503,-313.699,-363.3885" />
+							<Hotspot XYZ="321.7768,-315.1931,-336.0704" /> 
+							<Hotspot XYZ="300.6425,-315.1852,-346.3445" /> 
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -943,7 +600,23 @@
 			</If>
 			<!-- Imperial Lab Raid (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E9814E87E0F3))">
-				<Grind GrindRef="Imperial Lab Raid (Bonus)" While="(not IsQuestComplete(0xE000E9814E87E0F3))" />
+				<Grind While="(not IsQuestComplete(0xE000E9814E87E0F3))">
+					<GrindArea Name="Imperial Lab Raid (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Lab Supervisor</Mob>
+							<Mob>Industrial Lab Security</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Lab Supervisor" XYZ="234.6753,-319.179,-335.1384" />
+							<Hotspot Name="Industrial Lab Security" XYZ="226.3249,-321.199,-335.8616" />
+							<Hotspot Name="Imperial Lab Security" XYZ="228.4716,-321.199,-333.5388" />
+							<Hotspot Name="Imperial Lab Security" XYZ="232.6778,-321.199,-335.2982" />
+							<Hotspot Name="Imperial Lab Supervisor" XYZ="233.6538,-321.199,-339.0745" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="Me.Position.Y &lt;= -314">
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Red Light Sector"
@@ -1016,10 +689,39 @@
 			</If>
 			<!-- Final Stage - Ending a Better Life (Bonus) -->
 			<If Condition="((HasQuest(0xE000C6E7AF836549)) and (not IsQuestComplete(0xE000C6E7AF836549)))">
-				<Grind GrindRef="Final Stage - Ending a Better Life (Bonus)" While="(HasQuest(0xE000C6E7AF836549))" />
+				<Grind While="(HasQuest(0xE000C6E7AF836549))">
+					<GrindArea Name="Final Stage - Ending a Better Life (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>BetterLife Security Chief</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="BetterLife Security Chief" XYZ="-245.4071,-167.7708,291.5562" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0006C042193203C)) and (not IsStepComplete(0xE0006C042193203C, 2)))">
-				<Grind GrindRef="Tempting Fate 2" While="(not IsStepComplete(0xE0006C042193203C, 2))" />
+				<Grind While="(not IsStepComplete(0xE0006C042193203C, 2))">
+					<GrindArea Name="Tempting Fate 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>BetterLife Security Lieutenant</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-247.2263,-167.7708,292.288" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-251.0004,-167.7708,291.403" />
+							<Hotspot Name="BetterLife Security Guard" XYZ="-244.603,-168.5633,294.0491" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-240.575,-167.7633,295.6859" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-239.0452,-167.7708,291.7917" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-240.7145,-167.7633,286.9591" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-235.0235,-168.5633,291.6575" />
+							<Hotspot Name="BetterLife Security Lieutenant" XYZ="-253.5304,-168.5688,291.1892" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE0006C042193203C" ObjectName="Security Terminal" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-248.8097,-167.7633,287.2243" />
 			<UseObject QuestId="0xE0006C042193203C" ObjectName="Terminal J" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-253.896,-168.5688,291.3795" />
@@ -1056,7 +758,32 @@
 		<If Condition="((HasQuest(0xE000EEDF2298D82A)) and (not IsQuestComplete(0xE000EEDF2298D82A)))">
 			<!-- Bad Chemistry (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0008E5B8321C64A))">
-				<Grind GrindRef="Bad Chemistry (Bonus)" While="(not IsQuestComplete(0xE0008E5B8321C64A))" />
+				<Grind While="(not IsQuestComplete(0xE0008E5B8321C64A))">
+					<GrindArea Name="Bad Chemistry (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Supervisor</Mob>
+							<Mob>Imperial Factory Security</Mob>
+							<Mob>Injection Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Supervisor" XYZ="-240.9811,-172.9688,265.5695" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-243.143,-172.9603,265.0846" />
+							<Hotspot Name="Injection Droid" XYZ="-243.262,-172.9603,265.3022" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-244.3601,-173.019,268.7768" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-249.875,-172.9689,268.1069" />
+							<Hotspot Name="Imperial Supervisor" XYZ="-240.1804,-172.9688,262.0043" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-250.1257,-172.9689,268.1119" />
+							<Hotspot Name="Injection Droid" XYZ="-255.4608,-172.9688,262.5626" />
+							<Hotspot Name="Injection Droid" XYZ="-259.4055,-172.9688,262.0013" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-259.2764,-172.9603,265.617" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-259.0488,-172.9603,268.1922" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-271.5568,-172.9487,262.6709" />
+							<Hotspot Name="Imperial Factory Security" XYZ="-268.5119,-172.9603,271.7123" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EEDF2298D82A)) and (not IsStepComplete(0xE000EEDF2298D82A, 2)))">
 				<UseObject QuestId="0xE000EEDF2298D82A" ObjectName="Chemical Plant Mainframe" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-264.2849,-172.939,262.6573" />
@@ -1071,7 +798,18 @@
 				<MoveTo QuestId="0xE000807DC3BB1477" Name="My Location" XYZ="-243.0009,-172.9603,254.1551" />
 			</If>
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 3)))">
-				<Grind GrindRef="Extermination 3" While="(not IsStepComplete(0xE000807DC3BB1477, 3))" />
+				<Grind While="(not IsStepComplete(0xE000807DC3BB1477, 3))">
+					<GrindArea Name="Extermination 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Prison Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Prison Guard" XYZ="-236.8836,-172.9601,253.6655" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 4)))">
 				<TalkTo QuestId="0xE000807DC3BB1477" Name="Kalda Biss" XYZ="-236.6314,-172.9603,253.4246" />
@@ -1081,13 +819,45 @@
 			</If>
 			<!-- Exterminate the Wardens (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000B60D93894C2D))">
-				<Grind GrindRef="Exterminate the Wardens (Bonus)" While="(not IsQuestComplete(0xE000B60D93894C2D))" />
+				<Grind While="(not IsQuestComplete(0xE000B60D93894C2D))">
+					<GrindArea Name="Exterminate the Wardens (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Warden</Mob>
+							<Mob>Imperial Prison Guard</Mob>
+							<Mob>Imperial Captain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Warden" XYZ="-243.604,-172.9603,252.9212" />
+							<Hotspot Name="Imperial Prison Guard" XYZ="-236.8836,-172.9601,253.6655" />
+							<Hotspot Name="Imperial Captain" XYZ="-236.0651,-172.9603,249.2288" />
+							<Hotspot Name="Imperial Captain" XYZ="-236.8259,-172.9772,247.0343" />
+							<Hotspot Name="Imperial Warden" XYZ="-239.8493,-172.9678,245.9288" />
+							<Hotspot Name="Imperial Captain" XYZ="-233.7682,-172.9688,245.0414" />
+							<Hotspot Name="Imperial Warden" XYZ="-233.0563,-172.9688,242.5083" />
+							<Hotspot Name="Imperial Warden" XYZ="-240.4643,-172.9688,243.3568" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 6)))">
 				<TalkTo QuestId="0xE000807DC3BB1477" Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
 			</If>
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 7)))">
-				<Grind GrindRef="Extermination 7" While="(not IsStepComplete(0xE000807DC3BB1477, 7))" />
+				<Grind While="(not IsStepComplete(0xE000807DC3BB1477, 7))">
+					<GrindArea Name="Extermination 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Commander Vergost</Mob>
+							<Mob>Imperial Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000807DC3BB1477)) and (not IsStepComplete(0xE000807DC3BB1477, 8)))">
 				<TalkTo QuestId="0xE000807DC3BB1477" Name="Commander Vergost" XYZ="-236.6531,-172.9688,241.8722" />
@@ -1122,7 +892,32 @@
 			</If>
 			<!-- An Unpleasant Fate (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000383C6F09B241))">
-				<Grind GrindRef="An Unpleasant Fate (Bonus)" While="(not IsQuestComplete(0xE000383C6F09B241))" />
+				<Grind While="(not IsQuestComplete(0xE000383C6F09B241))">
+					<GrindArea Name="An Unpleasant Fate (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Warehouse Officer</Mob>
+							<Mob>Industrial Site Guard Droid MC-1K</Mob>
+							<Mob>Imperial Warehouse Guard</Mob>
+							<Mob>Imperial Warehouse Trooper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-231.548,-170.619,312.2667" />
+							<Hotspot Name="Imperial Warehouse Officer" XYZ="-233.731,-170.5709,314.6116" />
+							<Hotspot Name="Imperial Warehouse Guard" XYZ="-233.0388,-170.599,319.353" />
+							<Hotspot Name="Imperial Warehouse Officer" XYZ="-229.8808,-170.599,319.2747" />
+							<Hotspot Name="Imperial Warehouse Trooper" XYZ="-235.8967,-170.599,321.3995" />
+							<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-239.3882,-170.599,319.3144" />
+							<Hotspot Name="Imperial Warehouse Trooper" XYZ="-242.3524,-170.599,319.2973" />
+							<Hotspot Name="Imperial Warehouse Guard" XYZ="-241.3712,-169.7533,317.0339" />
+							<Hotspot Name="Imperial Warehouse Officer" XYZ="-244.5254,-170.599,325.3884" />
+							<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-248.224,-170.619,319.5449" />
+							<Hotspot Name="Industrial Site Guard Droid MC-1K" XYZ="-254.1354,-168.9603,313.3047" />
+							<Hotspot Name="Imperial Warehouse Guard" XYZ="-253.3148,-168.9608,309.5991" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1139,7 +934,19 @@
 				<UseObject QuestId="0xE000398CBAC8EDD9" ObjectName="Primary Control" BranchId="3" StepId="2" Radius="20" WaitTime="5" XYZ="-247.8324,-167.7688,300.3526" />
 			</If>
 			<If Condition="((HasQuest(0xE000398CBAC8EDD9)) and (not IsBranchStepComplete(0xE000398CBAC8EDD9, 4, 2)))">
-				<Grind GrindRef="Authorized for Sabotage 4 2" While="(not IsBranchStepComplete(0xE000398CBAC8EDD9, 4, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000398CBAC8EDD9, 4, 2))">
+					<GrindArea Name="Authorized for Sabotage 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Hutt Cartel Sentry Droid</Mob>
+							<Mob>Hutt Cartel Guard Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Hutt Cartel Guard Droid" XYZ="-248.4601,-167.7688,298.9634" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000398CBAC8EDD9)) and (not IsBranchStepComplete(0xE000398CBAC8EDD9, 4, 3)))">
 				<TempConvoSkip Type="Dark" AutoSkip="True">
@@ -1171,7 +978,18 @@
 			</If>
 			<!-- Auto skip 3 -->
 			<If Condition="((HasQuest(0xE000581244AEE1B0)) and (not IsStepComplete(0xE000581244AEE1B0, 4)))">
-				<Grind GrindRef="The Master 4" While="(not IsStepComplete(0xE000581244AEE1B0, 4))" />
+				<Grind While="(not IsStepComplete(0xE000581244AEE1B0, 4))">
+					<GrindArea Name="The Master 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Morgukai</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Morgukai" XYZ="323.1857,-313.699,-335.5184" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000581244AEE1B0)) and (not IsStepComplete(0xE000581244AEE1B0, 5)))">
 				<TempConvoSkip Type="Dark" AutoSkip="True">
@@ -1192,7 +1010,18 @@
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" Name="Tharan Cedrax" XYZ="-90.7247,51.80398,-49.8218" />
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 2, 2)))">
-				<Grind GrindRef="Shadow Town 2 2" While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 2, 2))">
+					<GrindArea Name="Shadow Town 2 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Hutt Cartel Enforcer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Hutt Cartel Enforcer" XYZ="-90.9242,51.8109,-49.8128" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 2, 3)))">
 				<TalkTo QuestId="0xE00066F2E7E7CB3E" Name="Tharan Cedrax" XYZ="-90.7247,51.80398,-49.8218" />
@@ -1225,7 +1054,19 @@
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" XYZ="258.5707,-155.799,308.7102" />
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 5, 2)))">
-				<Grind GrindRef="Shadow Town 5 2" While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 5, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 5, 2))">
+					<GrindArea Name="Shadow Town 5 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Checkpoint Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Checkpoint Guard" XYZ="258.8085,-155.799,308.5815" />
+							<Hotspot Name="My Location" XYZ="258.4361,-155.799,305.8631" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 5, 3)))">
 				<UseObject QuestId="0xE00066F2E7E7CB3E" ObjectName="Power Junction Terminal" BranchId="5" StepId="3" Radius="20" WaitTime="5" XYZ="258.1322,-155.799,305.4032" />
@@ -1236,11 +1077,62 @@
 		<!-- Access -->
 		<If Condition="((HasQuest(0xE000CE33EE3E37BC)) and (not IsQuestComplete(0xE000CE33EE3E37BC)))">
 			<If Condition="((HasQuest(0xE000CE33EE3E37BC)) and (not IsStepComplete(0xE000CE33EE3E37BC, 2)))">
-				<Grind GrindRef="Access 2" While="(not IsStepComplete(0xE000CE33EE3E37BC, 2))" />
+				<Grind While="(not IsStepComplete(0xE000CE33EE3E37BC, 2))">
+					<GrindArea Name="Access 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prison Watchman</Mob>
+							<Mob>Prison Guard</Mob>
+							<Mob>Subsystem Warden</Mob>
+							<Mob>Chief Warden</Mob>
+							<Mob>Security Warden</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prison Watchman" XYZ="256.6871,-154.799,295.7824" />
+							<Hotspot Name="Prison Watchman" XYZ="252.8382,-154.799,290.5523" />
+							<Hotspot Name="Prison Guard" XYZ="253.0471,-154.799,293.0036" />
+							<Hotspot Name="Prison Guard" XYZ="259.2636,-154.799,298.3982" />
+							<Hotspot Name="Subsystem Warden" XYZ="256.8183,-154.799,295.9505" />
+							<Hotspot Name="Prison Watchman" XYZ="263.5317,-154.799,287.7927" />
+							<Hotspot Name="My Location" XYZ="261.2739,-155.299,290.6963" />
+							<Hotspot Name="Prison Guard" XYZ="261.0666,-155.299,295.7766" />
+							<Hotspot Name="Prison Watchman" XYZ="265.2303,-155.299,295.0709" />
+							<Hotspot Name="Prison Guard" XYZ="261.7494,-155.319,300.1781" />
+							<Hotspot Name="Chief Warden" XYZ="264.5189,-155.299,300.5213" />
+							<Hotspot Name="Security Warden" XYZ="263.5862,-155.299,305.2614" />
+							<Hotspot Name="Subsystem Warden" XYZ="250.2257,-154.799,292.9834" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Street Sweeper (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00098F672F0C593))">
-				<Grind GrindRef="Street Sweeper (Bonus)" While="(not IsQuestComplete(0xE00098F672F0C593))" />
+				<Grind While="(not IsQuestComplete(0xE00098F672F0C593))">
+					<GrindArea Name="Street Sweeper (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prison Watchman</Mob>
+							<Mob>Prison Guard</Mob>
+							<Mob>Subsystem Warden</Mob>
+							<Mob>Chief Warden</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prison Watchman" XYZ="256.6871,-154.799,295.7824" />
+							<Hotspot Name="Prison Watchman" XYZ="252.8382,-154.799,290.5523" />
+							<Hotspot Name="Prison Guard" XYZ="253.0471,-154.799,293.0036" />
+							<Hotspot Name="Prison Guard" XYZ="259.2636,-154.799,298.3982" />
+							<Hotspot Name="Subsystem Warden" XYZ="256.8183,-154.799,295.9505" />
+							<Hotspot Name="Prison Watchman" XYZ="263.5317,-154.799,287.7927" />
+							<Hotspot Name="My Location" XYZ="261.2739,-155.299,290.6963" />
+							<Hotspot Name="Prison Guard" XYZ="261.0666,-155.299,295.7766" />
+							<Hotspot Name="Prison Watchman" XYZ="265.2303,-155.299,295.0709" />
+							<Hotspot Name="Prison Guard" XYZ="261.7494,-155.319,300.1781" />
+							<Hotspot Name="Chief Warden" XYZ="264.5189,-155.299,300.5213" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000CE33EE3E37BC)) and (not IsStepComplete(0xE000CE33EE3E37BC, 3)))">
 				<TalkTo QuestId="0xE000CE33EE3E37BC" Name="Zan Loren" XYZ="251.7913,-153.799,280.7876" />
@@ -1255,11 +1147,53 @@
 				<TalkTo QuestId="0xE00046BD22457EBC" Name="Kesler" XYZ="250.5562,-155.299,312.1106" />
 			</If>
 			<If Condition="((HasQuest(0xE00046BD22457EBC)) and (not IsStepComplete(0xE00046BD22457EBC, 3)))">
-				<Grind GrindRef="A Tough Sell 3" While="(not IsStepComplete(0xE00046BD22457EBC, 3))" />
+				<Grind While="(not IsStepComplete(0xE00046BD22457EBC, 3))">
+					<GrindArea Name="A Tough Sell 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prison Provost</Mob>
+							<Mob>Prison Enforcer</Mob>
+							<Mob>Prison Sentry</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prison Provost" XYZ="216.1619,-154.799,306.2443" />
+							<Hotspot Name="Prison Enforcer" XYZ="222.6728,-154.799,306.3698" />
+							<Hotspot Name="Prison Provost" XYZ="226.047,-154.799,309.0928" />
+							<Hotspot Name="Prison Enforcer" XYZ="219.4907,-155.799,298.0591" />
+							<Hotspot Name="Prison Enforcer" XYZ="221.379,-155.819,294.3592" />
+							<Hotspot Name="My Location" XYZ="222.5754,-155.799,299.2207" />
+							<Hotspot Name="Prison Sentry" XYZ="226.1304,-155.819,298.0607" />
+							<Hotspot Name="Prison Enforcer" XYZ="228.1412,-155.799,300.0831" />
+							<Hotspot Name="Prison Enforcer" XYZ="227.1407,-155.799,293.9297" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Cleaning up Shadow Town (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000B445707564D2))">
-				<Grind GrindRef="Cleaning up Shadow Town (Bonus)" While="(not IsQuestComplete(0xE000B445707564D2))" />
+				<Grind While="(not IsQuestComplete(0xE000B445707564D2))">
+					<GrindArea Name="Cleaning up Shadow Town (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prison Provost</Mob>
+							<Mob>Prison Enforcer</Mob>
+							<Mob>Prison Sentry</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prison Provost" XYZ="216.1619,-154.799,306.2443" />
+							<Hotspot Name="Prison Enforcer" XYZ="222.6728,-154.799,306.3698" />
+							<Hotspot Name="Prison Provost" XYZ="226.047,-154.799,309.0928" />
+							<Hotspot Name="Prison Enforcer" XYZ="219.4907,-155.799,298.0591" />
+							<Hotspot Name="Prison Enforcer" XYZ="221.379,-155.819,294.3592" />
+							<Hotspot Name="My Location" XYZ="222.5754,-155.799,299.2207" />
+							<Hotspot Name="Prison Sentry" XYZ="226.1304,-155.819,298.0607" />
+							<Hotspot Name="Prison Enforcer" XYZ="228.1412,-155.799,300.0831" />
+							<Hotspot Name="Prison Enforcer" XYZ="227.1407,-155.799,293.9297" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1277,7 +1211,19 @@
 				<MoveTo QuestId="0xE00066F2E7E7CB3E" Name="Duras Fain" XYZ="241.3986,-160.799,308.5699" />
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 7, 5)))">
-				<Grind GrindRef="Shadow Town 7 5" While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 7, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE00066F2E7E7CB3E, 7, 5))">
+					<GrindArea Name="Shadow Town 7 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Duras Fain</Mob>
+							<Mob>Fain's Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Duras Fain" XYZ="241.3986,-160.799,308.5699" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00066F2E7E7CB3E)) and (not IsBranchStepComplete(0xE00066F2E7E7CB3E, 7, 6)))">
 				<TalkTo QuestId="0xE00066F2E7E7CB3E" Name="Duras Fain" XYZ="240.9776,-160.799,308.4295" />
@@ -1329,7 +1275,20 @@
 				<TalkTo QuestId="0xE000E0554184FFE0" Name="Imperial Interrogator" XYZ="269.7126,-157.3598,340.313" />
 			</If>
 			<If Condition="((HasQuest(0xE000E0554184FFE0)) and (not IsStepComplete(0xE000E0554184FFE0, 4)))">
-				<Grind GrindRef="Captive 4" While="(not IsStepComplete(0xE000E0554184FFE0, 4))" />
+				<Grind While="(not IsStepComplete(0xE000E0554184FFE0, 4))">
+					<GrindArea Name="Captive 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ako Domi</Mob>
+							<Mob>Sith Apprentice</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ako Domi" XYZ="269.9021,-157.3598,340.3195" />
+							<Hotspot Name="Sith Apprentice" XYZ="269.2735,-157.3598,339.7567" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000E0554184FFE0)) and (not IsStepComplete(0xE000E0554184FFE0, 5)))">
 				<TalkTo QuestId="0xE000E0554184FFE0" Name="Ako Domi" XYZ="268.3451,-157.3598,339.9666" />
@@ -1401,12 +1360,41 @@
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 6)))">
 				<!-- Hacked Resistance (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE0006DB518096937))">
-					<Grind GrindRef="Hacked Resistance (Bonus)" While="(not IsQuestComplete(0xE0006DB518096937))" />
+					<Grind While="(not IsQuestComplete(0xE0006DB518096937))">
+						<GrindArea Name="Hacked Resistance (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Reprogrammed Guard Droid</Mob>
+								<Mob>Reprogrammed Sentry Droid</Mob>
+								<Mob>Reprogrammed Attack Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-6.045681,0.0009999508,5.570472" />
+								<Hotspot Name="Reprogrammed Sentry Droid" XYZ="-9.262007,0.004999884,4.462798" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-8.788818,0.001005429,6.474269" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-6.422,0.001000138,8.5423" />
+								<Hotspot Name="Reprogrammed Guard Droid" XYZ="-7.496,-0.099,12.0174" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.6163,0.001000203,10.3673" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsStepComplete(0xE000EDF4DDB848B6, 7)))">
-				<Grind GrindRef="Distress Call 7" While="(not IsStepComplete(0xE000EDF4DDB848B6, 7))" />
+				<Grind While="(not IsStepComplete(0xE000EDF4DDB848B6, 7))">
+					<GrindArea Name="Distress Call 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Laranna Fain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsStepComplete(0xE000EDF4DDB848B6, 8)))">
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />

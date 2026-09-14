@@ -36,24 +36,6 @@
 	<GrindAreas>
 
 	
-		<GrindArea Name="The Melee">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Iopiane Ratle</Mob>
-				<Mob>Partogg</Mob>
-				<Mob>Zeeba</Mob>
-				<Mob>Ory Lam</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Iopiane Ratle" XYZ="-33.3677,2.0877,-80.92471" />
-				<Hotspot Name="Partogg" XYZ="-34.0263,2.093756,-82.2535" />
-				<Hotspot Name="Zeeba" XYZ="-32.6255,2.08942,-82.3154" />
-				<Hotspot Name="Ory Lam" XYZ="-32.30612,2.0877,-81.38083" />
-				<Hotspot Name="Shada Hsskhor" XYZ="-34.07055,2.077452,-81.4278" />
-			</Hotspots>
-		</GrindArea>
-    
 		<GrindArea Name="The Spy Game - Capt Medle">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -66,125 +48,6 @@
 			</Hotspots>
 		</GrindArea>
 
-		<GrindArea Name="The Spy Game - ID Tags">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Possessed Assault Trooper</Mob>
-				<Mob>Possessed Heavy Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-187.3921,14.851,-4.591012" />
-				<Hotspot Name="My Location" XYZ="-187.4091,14.801,-8.876393" />
-				<Hotspot Name="My Location" XYZ="-187.4084,14.801,-12.97207" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Transporter 2 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>TuMarr Thug</Mob>
-				<Mob>Slestack Thug</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="TuMarr Thug" XYZ="9.795112,-3.661558,10.96503" />
-				<Hotspot Name="Slestack Thug" XYZ="13.67653,-3.661558,11.29134" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="The Transporter 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Grathan Agent</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="TuMarr" XYZ="11.57609,-3.661557,11.63573" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Dismantling the Machine">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Grathan Patrol Droid</Mob>
-				<Mob>Grathan Apprentice</Mob>
-				<Mob>Grathan Agent</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-58.31891,-4.883002,156.815" />
-				<Hotspot Name="My Location" XYZ="-62.24325,-4.796071,159.1091" />
-				<Hotspot Name="My Location" XYZ="-64.51812,-4.76022,157.6019" />
-				<Hotspot Name="My Location" XYZ="-62.76091,-4.366013,165.845" />
-				<Hotspot Name="My Location" XYZ="-55.233,-4.856046,157.0348" />
-				<Hotspot Name="My Location" XYZ="-64.52048,-4.760204,157.6214" />
-				<Hotspot Name="My Location" XYZ="-62.88258,-4.778412,159.5505" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Darth Zhorrid Arrives 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Commander Jakker</Mob>
-				<Mob>Dark Council Bodyguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Commander Jakker" XYZ="-39.8374,8.601532,-2.2968" />
-				<Hotspot Name="Dark Council Bodyguard" XYZ="-39.6784,8.601563,-1.955" />
-			</Hotspots>
-		</GrindArea>
-    
-		<GrindArea Name="A Minor Inconvenience">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Mercenary Commando</Mob>
-				<Mob>Mercenary Terrorist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="11.02175,-0.09003787,8.402247" />
-				<Hotspot Name="Mercenary Commando" XYZ="12.1673,-0.06155786,16.1941" />
-				<Hotspot Name="Mercenary Terrorist" XYZ="11.4575,-0.06155786,13.7233" />
-				<Hotspot Name="Mercenary Technician" XYZ="11.69149,-0.06155786,19.0975" />
-			</Hotspots>
-		</GrindArea>
-    
-		<GrindArea Name="Clearing the Dark Path">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Dark Path Assassin</Mob>
-				<Mob>Dark Path Adept</Mob>
-				<Mob>Dark Path Inquisitor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-175.2497,19.001,-16.88895" />
-				<Hotspot Name="Dark Path Adept" XYZ="-164.8949,19.001,-20.9067" />
-			</Hotspots>
-		</GrindArea>
-    
-		<GrindArea Name="Call of the Wild">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Vine Cat Packrunner</Mob>
-				<Mob>Yozusk</Mob>
-				<Mob>Wine Cat</Mob>
-				<Mob>Gundark Stalker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="74.45115,4.542293,40.14137" />
-				<Hotspot Name="My Location" XYZ="77.50175,5.090528,35.38788" />
-				<Hotspot Name="My Location" XYZ="80.40154,6.564261,43.89779" />
-				<Hotspot Name="My Location" XYZ="83.23756,6.353612,38.24849" />
-				<Hotspot Name="My Location" XYZ="80.08226,6.563732,41.04" />
-				<Hotspot Name="My Location" XYZ="78.14059,8.082583,48.48526" />
-				<Hotspot Name="My Location" XYZ="80.57264,9.042473,50.45413" />
-			</Hotspots>
-		</GrindArea>
-    
 		<GrindArea Name="Lightning in a Bottle">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -201,24 +64,6 @@
 			</Hotspots>
 		</GrindArea>
   
-		<GrindArea Name="The Direct Approach">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Rebel Slave Sentry</Mob>
-				<Mob>Rebel Slave Worker</Mob>
-				<Mob>Rebel Slave Lookout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="18.75373,4.944923,94.3235" />
-				<Hotspot Name="My Location" XYZ="16.81797,6.122194,104.6305" />
-				<Hotspot Name="My Location" XYZ="19.02399,6.155854,109.1252" />
-				<Hotspot Name="My Location" XYZ="12.13076,6.290791,107.2176" />
-				<Hotspot Name="My Location" XYZ="2.234039,6.243936,108.5112" />
-				<Hotspot Name="My Location" XYZ="-5.465647,5.204388,99.92167" />
-			</Hotspots>
-		</GrindArea>
-    
 		<!-- Put the Rebels to Rest -->
 		<!-- At the Foot of the Colossus -->
 		<GrindArea Name="Colossus and Rebels">
@@ -239,56 +84,6 @@
 				<Hotspot Name="My Location" XYZ="54.71693,7.667985,111.277" />
 				<Hotspot Name="My Location" XYZ="58.87513,7.644048,113.2356" />
 				<Hotspot Name="My Location" XYZ="64.22455,7.73194,113.2909" />
-			</Hotspots>
-		</GrindArea>
-    
-		<GrindArea Name="The Slave-Killers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Slave Cultist</Mob>
-				<Mob>Slave Cutthroat</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="59.70729,7.755378,109.9173" />
-				<Hotspot Name="My Location" XYZ="59.86169,7.805445,106.9774" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Bunker Busting">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Bunker Guardian Droid</Mob>
-				<Mob>Bunker Commander</Mob>
-				<Mob>B4 Maintenance Droid</Mob>
-				<Mob>Apprentice Irex</Mob>
-				<Mob>Bunker Sentry</Mob>
-				<Mob>Apprentice Satik</Mob>
-				<Mob>Apprentice Dumat</Mob>
-				<Mob>Skotia Acolyte</Mob>
-				<Mob>Apprentice Quilon</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="63.75291,6.519472,146.6275" />
-				<Hotspot Name="My Location" XYZ="67.5234,6.537735,148.4645" />
-				<Hotspot Name="My Location" XYZ="60.9112,6.520942,146.5128" />
-				<Hotspot Name="My Location" XYZ="62.4067,6.520942,151.0032" />
-				<Hotspot Name="My Location" XYZ="60.59663,6.520942,150.2455" />
-				<Hotspot Name="My Location" XYZ="68.40511,7.649542,149.4585" />
-				<Hotspot Name="My Location" XYZ="66.3281,7.646223,148.4351" />
-				<Hotspot Name="My Location" XYZ="67.16713,7.191552,144.9807" />
-				<Hotspot Name="My Location" XYZ="57.1264,6.536864,147.4561" />
-				<Hotspot Name="My Location" XYZ="53.1569,6.524733,147.5816" />
-				<Hotspot Name="My Location" XYZ="53.4148,6.516357,144.8887" />
-				<Hotspot Name="My Location" XYZ="52.3074,6.529915,143.5315" />
-				<Hotspot Name="My Location" XYZ="51.0064,6.506,151.4946" />
-				<Hotspot Name="My Location" XYZ="51.8438,6.527198,155.0547" />
-				<Hotspot Name="My Location" XYZ="55.7814,6.525134,154.9886" />
-				<Hotspot Name="My Location" XYZ="51.3284,6.527348,158.9161" />
-				<Hotspot Name="My Location" XYZ="50.8248,6.509915,161.6119" />
-				<Hotspot Name="My Location" XYZ="51.6453,6.533247,163.1355" />
-				<Hotspot Name="My Location" XYZ="46.634,6.530481,155.1958" />
 			</Hotspots>
 		</GrindArea>
     
@@ -316,84 +111,6 @@
 			</Hotspots>
 		</GrindArea>
     
-		<GrindArea Name="Jungle Hunt">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Vicious Vine Cat</Mob>
-				<Mob>Yozusk Bonebreaker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="2.165814,3.626011,42.50157" />
-				<Hotspot Name="My Location" XYZ="3.833208,2.14672,45.97134" />
-				<Hotspot Name="My Location" XYZ="-3.417388,1.482072,53.08778" />
-				<Hotspot Name="My Location" XYZ="-5.046458,1.512547,54.61742" />
-				<Hotspot Name="My Location" XYZ="-7.669755,0.9450563,51.9477" />
-				<Hotspot Name="My Location" XYZ="-8.288381,1.172786,60.5658" />
-				<Hotspot Name="My Location" XYZ="-10.12447,1.307766,57.8854" />
-				<Hotspot Name="My Location" XYZ="-9.377419,1.07522,57.82633" />
-				<Hotspot Name="My Location" XYZ="-11.51423,1.266825,55.41301" />
-				<Hotspot Name="My Location" XYZ="-12.96092,1.39814,50.8517" />
-				<Hotspot Name="My Location" XYZ="-10.40151,1.170882,48.62445" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Unauthorized Transmission, Part I">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Malfunctioning Hauler Droid</Mob>
-				<Mob>Damaged Welding Droid</Mob>
-				<Mob>Glitched Labor Droid</Mob>
-				<Mob>Sliced Security Droid</Mob>
-				<Mob>Haywire Precision Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-74.34171,0.8573836,34.08661" />
-				<Hotspot Name="My Location" XYZ="-74.05505,0.8580909,30.88307" />
-				<Hotspot Name="My Location" XYZ="-73.82774,0.8580909,24.55543" />
-				<Hotspot Name="My Location" XYZ="-74.37296,0.8580909,19.58983" />
-				<Hotspot Name="My Location" XYZ="-75.9211,0.8624305,21.14837" />
-				<Hotspot Name="My Location" XYZ="-76.29818,0.8648,15.82926" />
-				<Hotspot Name="My Location" XYZ="-77.49434,1.00604,30.51224" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Accursed">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Possesed Worker</Mob>
-				<Mob>Possesed Field Commander</Mob>
-				<Mob>Possesed Foreman</Mob>
-				<Mob>Possesed Sith Initiate</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-136.923,5.579666,72.39245" />
-				<Hotspot Name="My Location" XYZ="-136.8431,5.838198,78.01939" />
-				<Hotspot Name="My Location" XYZ="-141.8307,5.657104,72.79772" />
-				<Hotspot Name="My Location" XYZ="-150.9846,5.302949,78.6376" />
-				<Hotspot Name="Possessed Foreman" XYZ="-137.8128,6.005634,80.3208" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Clearing the Kubaz">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Kubaz Spotter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kubaz Spotter" XYZ="-61.4993,-0.23901,65.6588" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-73.26389,0.3245302,71.8103" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-75.0461,0.3276813,69.6328" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-66.5196,-0.2290844,72.6797" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-66.8039,0.1658342,65.8997" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-62.5882,-0.4383885,75.037" />
-				<Hotspot Name="Kubaz Spotter" XYZ="-59.4251,-1.758794,79.4278" />
-			</Hotspots>
-		</GrindArea>
-	
 		<GrindArea Name="Grathan Assault">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -419,62 +136,6 @@
 			</Hotspots>
 		</GrindArea>
 	
-		<GrindArea Name="The Pilgrim's Path">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Lethargic Sleen</Mob>
-				<Mob>Savage Vine Cat</Mob>
-				<Mob>Yozusk Stonehorn</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-63.54967,-5.98732,95.87931" />
-				<Hotspot Name="My Location" XYZ="-60.79538,-5.768511,98.72026" />
-				<Hotspot Name="My Location" XYZ="-51.04599,-6.675368,96.59527" />
-				<Hotspot Name="My Location" XYZ="-47.3091,-6.679057,96.91717" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Pilgrimage - Kill Mandalorians">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Mandalorian Greenhorn</Mob>
-				<Mob>Mandalorian Mercenary</Mob>
-				<Mob>Mandalorian Champion</Mob>
-				<Mob>Mandalorian Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-32.446,-7.513472,92.7914" />
-				<Hotspot Name="My Location" XYZ="-21.0913,-9.264622,107.9668" />
-				<Hotspot Name="My Location" XYZ="-21.0913,-9.264622,107.9668" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Bury the Insane">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Possesed Worker</Mob>
-				<Mob>Possesed Field Commander</Mob>
-				<Mob>Possesed Foreman</Mob>
-				<Mob>Possesed Sith Initiate</Mob>
-				<Mob>Hallucinating Trooper</Mob>
-				<Mob>Paranoid Archaeologist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-136.923,5.579666,72.39245" />
-				<Hotspot Name="My Location" XYZ="-136.8431,5.838198,78.01939" />
-				<Hotspot Name="My Location" XYZ="-141.8307,5.657104,72.79772" />
-				<Hotspot Name="My Location" XYZ="-150.9846,5.302949,78.6376" />
-				<Hotspot Name="My Location" XYZ="-153.8763,6.846207,69.77128" />
-				<Hotspot Name="My Location" XYZ="-166.5199,8.381474,58.88526" />
-				<Hotspot Name="My Location" XYZ="-171.6882,10.2491,51.04688" />
-				<Hotspot Name="My Location" XYZ="-176.3214,10.31703,46.29727" />
-				<Hotspot Name="My Location" XYZ="-185.3162,11.72519,39.80635" />
-			</Hotspots>
-		</GrindArea>
-	
 		<GrindArea Name="The Wretch King - Symbols">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -493,43 +154,6 @@
 			</Hotspots>
 		</GrindArea>
 	
-		<GrindArea Name="Clean Up the Temple">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Crazed Terrorist</Mob>
-				<Mob>Terrorist Commander</Mob>
-				<Mob>Terrorist Saboteur</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Clean that fucking shit" XYZ="-191.4368,10.49669,-16.39875" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Grind to level 16 - Dark Temple">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Possesed Worker</Mob>
-				<Mob>Possesed Field Commander</Mob>
-				<Mob>Possesed Foreman</Mob>
-				<Mob>Possesed Sith Initiate</Mob>
-				<Mob>Hallucinating Trooper</Mob>
-				<Mob>Paranoid Archaeologist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-136.923,5.579666,72.39245" />
-				<Hotspot Name="My Location" XYZ="-136.8431,5.838198,78.01939" />
-				<Hotspot Name="My Location" XYZ="-141.8307,5.657104,72.79772" />
-				<Hotspot Name="My Location" XYZ="-150.9846,5.302949,78.6376" />
-				<Hotspot Name="My Location" XYZ="-153.8763,6.846207,69.77128" />
-				<Hotspot Name="My Location" XYZ="-166.5199,8.381474,58.88526" />
-				<Hotspot Name="My Location" XYZ="-171.6882,10.2491,51.04688" />
-				<Hotspot Name="My Location" XYZ="-176.3214,10.31703,46.29727" />
-				<Hotspot Name="My Location" XYZ="-185.3162,11.72519,39.80635" />
-			</Hotspots>
-		</GrindArea>
-
 	</GrindAreas>
 
 	<Questing>
@@ -587,7 +211,27 @@
 				<UseObject QuestId="0xE0003DF2FAE378A8" ObjectName="Landing Beacon Dorn" BranchId="1" StepId="2" TaskId="2" WaitTime="3" XYZ="67.4297,10.95953,64.47352" />
 			</If>
 			<If Condition="(not IsQuestComplete(0xE000FF73C1476653))"> <!-- Bonus -->
-				<Grind GrindRef="Call of the Wild" While="(not IsQuestComplete(0xE000FF73C1476653))" />
+				<Grind While="(not IsQuestComplete(0xE000FF73C1476653))">
+					<GrindArea Name="Call of the Wild">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Vine Cat Packrunner</Mob>
+							<Mob>Yozusk</Mob>
+							<Mob>Wine Cat</Mob>
+							<Mob>Gundark Stalker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="74.45115,4.542293,40.14137" />
+							<Hotspot Name="My Location" XYZ="77.50175,5.090528,35.38788" />
+							<Hotspot Name="My Location" XYZ="80.40154,6.564261,43.89779" />
+							<Hotspot Name="My Location" XYZ="83.23756,6.353612,38.24849" />
+							<Hotspot Name="My Location" XYZ="80.08226,6.563732,41.04" />
+							<Hotspot Name="My Location" XYZ="78.14059,8.082583,48.48526" />
+							<Hotspot Name="My Location" XYZ="80.57264,9.042473,50.45413" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" TurnInName="Commander Rilan" XYZ="87.5713,6.360492,34.6972" />
 			<CompleteQuest QuestName="Warning Sign" QuestId="0xE0003DF2FAE378A8" />
@@ -769,11 +413,35 @@
 				</If>
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="The Transporter 2 2" While="(not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 2))">
+				<GrindArea Name="The Transporter 2 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Grathan Agent</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="TuMarr" XYZ="11.57609,-3.661557,11.63573" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE0007F1907D8A21D)) and (not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 3)))">
 				<TalkTo QuestId="0xE0007F1907D8A21D" Name="Commander Lanklyn"  XYZ="11.69178,-3.661558,13.10321" />
 			</If>
-			<Grind GrindRef="The Transporter 2 4" While="(not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 4))" />
+			<Grind While="(not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 4))">
+				<GrindArea Name="The Transporter 2 4">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>TuMarr Thug</Mob>
+						<Mob>Slestack Thug</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="TuMarr Thug" XYZ="9.795112,-3.661558,10.96503" />
+						<Hotspot Name="Slestack Thug" XYZ="13.67653,-3.661558,11.29134" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE0007F1907D8A21D)) and (not IsBranchStepComplete(0xE0007F1907D8A21D, 2, 5)))">
 				<If Condition="(Me.Position.Y &lt; -3)">
 					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Kaas City"
@@ -838,7 +506,25 @@
 				</Hotspots>
 			</UseObject>
 			<If Condition="(not IsQuestComplete(0xE000377F7906D885))">
-				<Grind GrindRef="The Direct Approach" While="(not IsQuestComplete(0xE000377F7906D885))" />
+				<Grind While="(not IsQuestComplete(0xE000377F7906D885))">
+					<GrindArea Name="The Direct Approach">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Rebel Slave Sentry</Mob>
+							<Mob>Rebel Slave Worker</Mob>
+							<Mob>Rebel Slave Lookout</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="18.75373,4.944923,94.3235" />
+							<Hotspot Name="My Location" XYZ="16.81797,6.122194,104.6305" />
+							<Hotspot Name="My Location" XYZ="19.02399,6.155854,109.1252" />
+							<Hotspot Name="My Location" XYZ="12.13076,6.290791,107.2176" />
+							<Hotspot Name="My Location" XYZ="2.234039,6.243936,108.5112" />
+							<Hotspot Name="My Location" XYZ="-5.465647,5.204388,99.92167" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -868,7 +554,20 @@
 			<If Condition="(not IsQuestComplete(0xE0003FF05AC3E02B))">
 				<Grind GrindRef="Colossus and Rebels" While="(not IsQuestComplete(0xE0003FF05AC3E02B))" />
 			</If>
-			<Grind GrindRef="The Slave-Killers" While="(not IsBranchStepComplete(0xE000FD02EA595E5E, 1, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE000FD02EA595E5E, 1, 2))">
+				<GrindArea Name="The Slave-Killers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Slave Cultist</Mob>
+						<Mob>Slave Cutthroat</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="59.70729,7.755378,109.9173" />
+						<Hotspot Name="My Location" XYZ="59.86169,7.805445,106.9774" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject QuestId="0xE000FD02EA595E5E" ObjectName="Signal Fire" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="1" XYZ="61.01816,7.717918,105.2278" />
 		</If>
 		
@@ -913,7 +612,44 @@
 			</If>
 			<!-- Bunker Busting (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000DEECE7CFC849))">
-				<Grind GrindRef="Bunker Busting" While="(not IsQuestComplete(0xE000DEECE7CFC849))" />
+				<Grind While="(not IsQuestComplete(0xE000DEECE7CFC849))">
+					<GrindArea Name="Bunker Busting">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Bunker Guardian Droid</Mob>
+							<Mob>Bunker Commander</Mob>
+							<Mob>B4 Maintenance Droid</Mob>
+							<Mob>Apprentice Irex</Mob>
+							<Mob>Bunker Sentry</Mob>
+							<Mob>Apprentice Satik</Mob>
+							<Mob>Apprentice Dumat</Mob>
+							<Mob>Skotia Acolyte</Mob>
+							<Mob>Apprentice Quilon</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="63.75291,6.519472,146.6275" />
+							<Hotspot Name="My Location" XYZ="67.5234,6.537735,148.4645" />
+							<Hotspot Name="My Location" XYZ="60.9112,6.520942,146.5128" />
+							<Hotspot Name="My Location" XYZ="62.4067,6.520942,151.0032" />
+							<Hotspot Name="My Location" XYZ="60.59663,6.520942,150.2455" />
+							<Hotspot Name="My Location" XYZ="68.40511,7.649542,149.4585" />
+							<Hotspot Name="My Location" XYZ="66.3281,7.646223,148.4351" />
+							<Hotspot Name="My Location" XYZ="67.16713,7.191552,144.9807" />
+							<Hotspot Name="My Location" XYZ="57.1264,6.536864,147.4561" />
+							<Hotspot Name="My Location" XYZ="53.1569,6.524733,147.5816" />
+							<Hotspot Name="My Location" XYZ="53.4148,6.516357,144.8887" />
+							<Hotspot Name="My Location" XYZ="52.3074,6.529915,143.5315" />
+							<Hotspot Name="My Location" XYZ="51.0064,6.506,151.4946" />
+							<Hotspot Name="My Location" XYZ="51.8438,6.527198,155.0547" />
+							<Hotspot Name="My Location" XYZ="55.7814,6.525134,154.9886" />
+							<Hotspot Name="My Location" XYZ="51.3284,6.527348,158.9161" />
+							<Hotspot Name="My Location" XYZ="50.8248,6.509915,161.6119" />
+							<Hotspot Name="My Location" XYZ="51.6453,6.533247,163.1355" />
+							<Hotspot Name="My Location" XYZ="46.634,6.530481,155.1958" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0003CFF4A6A17F4)) and (not IsBranchStepComplete(0xE0003CFF4A6A17F4, 1, 4)))">
 				<MoveTo QuestId="0xE0003CFF4A6A17F4" XYZ="64.60138,6.506,140.2739" />
@@ -1082,7 +818,29 @@
 		
 		<!-- Jungle Hunt -->
 		<If Condition="((HasQuest(0xE0005913794AE084)) and (not IsQuestComplete(0xE0005913794AE084)))">
-			<Grind GrindRef="Jungle Hunt" While="not IsStepComplete(0xE0005913794AE084, 2)" />
+			<Grind While="not IsStepComplete(0xE0005913794AE084, 2)">
+				<GrindArea Name="Jungle Hunt">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Vicious Vine Cat</Mob>
+						<Mob>Yozusk Bonebreaker</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="2.165814,3.626011,42.50157" />
+						<Hotspot Name="My Location" XYZ="3.833208,2.14672,45.97134" />
+						<Hotspot Name="My Location" XYZ="-3.417388,1.482072,53.08778" />
+						<Hotspot Name="My Location" XYZ="-5.046458,1.512547,54.61742" />
+						<Hotspot Name="My Location" XYZ="-7.669755,0.9450563,51.9477" />
+						<Hotspot Name="My Location" XYZ="-8.288381,1.172786,60.5658" />
+						<Hotspot Name="My Location" XYZ="-10.12447,1.307766,57.8854" />
+						<Hotspot Name="My Location" XYZ="-9.377419,1.07522,57.82633" />
+						<Hotspot Name="My Location" XYZ="-11.51423,1.266825,55.41301" />
+						<Hotspot Name="My Location" XYZ="-12.96092,1.39814,50.8517" />
+						<Hotspot Name="My Location" XYZ="-10.40151,1.170882,48.62445" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Turnin Into The Maw -->
@@ -1116,7 +874,24 @@
 			</UseObject>
 			<!-- Clearing the Kubaz (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00015D2068697DE))">
-				<Grind GrindRef="Clearing the Kubaz" While="(not IsQuestComplete(0xE00015D2068697DE))" />
+				<Grind While="(not IsQuestComplete(0xE00015D2068697DE))">
+					<GrindArea Name="Clearing the Kubaz">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Kubaz Spotter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kubaz Spotter" XYZ="-61.4993,-0.23901,65.6588" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-73.26389,0.3245302,71.8103" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-75.0461,0.3276813,69.6328" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-66.5196,-0.2290844,72.6797" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-66.8039,0.1658342,65.8997" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-62.5882,-0.4383885,75.037" />
+							<Hotspot Name="Kubaz Spotter" XYZ="-59.4251,-1.758794,79.4278" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" TurnInName="Captain Jeelg" XYZ="-49.8774,-2.515539,69.8032" />
 			<CompleteQuest QuestName="Flashes in the Dark" QuestId="0xE0000A4D266A453E" />
@@ -1252,7 +1027,26 @@
 				<TalkTo QuestId="0xE000F6DDC719F7E5" Name="Dorotsech" XYZ="-52.4816,-4.627219,157.0385" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Dismantling the Machine" While="not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 2)">
+				<GrindArea Name="Dismantling the Machine">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Grathan Patrol Droid</Mob>
+						<Mob>Grathan Apprentice</Mob>
+						<Mob>Grathan Agent</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-58.31891,-4.883002,156.815" />
+						<Hotspot Name="My Location" XYZ="-62.24325,-4.796071,159.1091" />
+						<Hotspot Name="My Location" XYZ="-64.51812,-4.76022,157.6019" />
+						<Hotspot Name="My Location" XYZ="-62.76091,-4.366013,165.845" />
+						<Hotspot Name="My Location" XYZ="-55.233,-4.856046,157.0348" />
+						<Hotspot Name="My Location" XYZ="-64.52048,-4.760204,157.6214" />
+						<Hotspot Name="My Location" XYZ="-62.88258,-4.778412,159.5505" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject QuestId="0xE000F6DDC719F7E5" ObjectName="Control Panel" BranchId="7" StepId="3" WaitTime="5" XYZ="-46.59051,-10.16156,172.4538" />
 			<If Condition="((HasQuest(0xE000F6DDC719F7E5)) and (not IsBranchStepComplete(0xE000F6DDC719F7E5, 7, 4)))">
 				<MoveTo QuestId="0xE000F6DDC719F7E5" XYZ="-44.73826,-10.16156,172.6008" />
@@ -1332,13 +1126,45 @@
 			</If>
 			<!-- The Pilgrim's Path (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000868B8BB03D5D))">
-				<Grind GrindRef="The Pilgrim's Path" While="(not IsQuestComplete(0xE000868B8BB03D5D))" />
+				<Grind While="(not IsQuestComplete(0xE000868B8BB03D5D))">
+					<GrindArea Name="The Pilgrim's Path">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Lethargic Sleen</Mob>
+							<Mob>Savage Vine Cat</Mob>
+							<Mob>Yozusk Stonehorn</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-63.54967,-5.98732,95.87931" />
+							<Hotspot Name="My Location" XYZ="-60.79538,-5.768511,98.72026" />
+							<Hotspot Name="My Location" XYZ="-51.04599,-6.675368,96.59527" />
+							<Hotspot Name="My Location" XYZ="-47.3091,-6.679057,96.91717" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000551DC2B4032F) and not IsBranchStepComplete(0xE000551DC2B4032F, 3, 2)">
 				<TalkTo QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" Name="Ceta Farr" WaitTime="1" XYZ="-32.92471,-7.438274,93.4441" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Pilgrimage - Kill Mandalorians" While="not IsBranchStepComplete(0xE000551DC2B4032F, 6, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE000551DC2B4032F, 6, 2)">
+				<GrindArea Name="Pilgrimage - Kill Mandalorians">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Mandalorian Greenhorn</Mob>
+						<Mob>Mandalorian Mercenary</Mob>
+						<Mob>Mandalorian Champion</Mob>
+						<Mob>Mandalorian Hunter</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-32.446,-7.513472,92.7914" />
+						<Hotspot Name="My Location" XYZ="-21.0913,-9.264622,107.9668" />
+						<Hotspot Name="My Location" XYZ="-21.0913,-9.264622,107.9668" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000551DC2B4032F) and not IsBranchStepComplete(0xE000551DC2B4032F, 6, 3)">
 				<TalkTo QuestName="Pilgrimage" QuestId="0xE000551DC2B4032F" Name="Ceta Farr" WaitTime="1" XYZ="-32.92471,-7.438274,93.4441" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -1493,7 +1319,28 @@
 		
 		<!-- Unauthorized Transmission, Part I and Turnin -->
 		<If Condition="((HasQuest(0xE0004C2A6B1FB0C5)) and (not IsQuestComplete(0xE0004C2A6B1FB0C5)))">
-			<Grind GrindRef="Unauthorized Transmission, Part I" While="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)" />
+			<Grind While="not IsStepComplete(0xE0004C2A6B1FB0C5, 2)">
+				<GrindArea Name="Unauthorized Transmission, Part I">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Malfunctioning Hauler Droid</Mob>
+						<Mob>Damaged Welding Droid</Mob>
+						<Mob>Glitched Labor Droid</Mob>
+						<Mob>Sliced Security Droid</Mob>
+						<Mob>Haywire Precision Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-74.34171,0.8573836,34.08661" />
+						<Hotspot Name="My Location" XYZ="-74.05505,0.8580909,30.88307" />
+						<Hotspot Name="My Location" XYZ="-73.82774,0.8580909,24.55543" />
+						<Hotspot Name="My Location" XYZ="-74.37296,0.8580909,19.58983" />
+						<Hotspot Name="My Location" XYZ="-75.9211,0.8624305,21.14837" />
+						<Hotspot Name="My Location" XYZ="-76.29818,0.8648,15.82926" />
+						<Hotspot Name="My Location" XYZ="-77.49434,1.00604,30.51224" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" TurnInName="Captain Isen" XYZ="-63.32609,2.401627,24.75672" />
 			<CompleteQuest QuestName="Unauthorized Transmission, Part I" QuestId="0xE0004C2A6B1FB0C5" />
 			<!-- Unauthorized Transmission, Part II 0xE00011B89F255A8D -->
@@ -1507,7 +1354,25 @@
 				<MoveTo QuestId="0xE000F5F9E56B8C7D" XYZ="-123.1774,0.6282942,60.68263" />
 			</If>
 			<UseObject ObjectName="Archaeologists' Holopad" QuestId="0xE000F5F9E56B8C7D" BranchId="1" StepId="3"  WaitTime="3" XYZ="-123.1503,0.6662074,60.85196" />
-			<Grind GrindRef="The Accursed" While="not IsStepComplete(0xE000F5F9E56B8C7D, 4)" />
+			<Grind While="not IsStepComplete(0xE000F5F9E56B8C7D, 4)">
+				<GrindArea Name="The Accursed">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Possesed Worker</Mob>
+						<Mob>Possesed Field Commander</Mob>
+						<Mob>Possesed Foreman</Mob>
+						<Mob>Possesed Sith Initiate</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-136.923,5.579666,72.39245" />
+						<Hotspot Name="My Location" XYZ="-136.8431,5.838198,78.01939" />
+						<Hotspot Name="My Location" XYZ="-141.8307,5.657104,72.79772" />
+						<Hotspot Name="My Location" XYZ="-150.9846,5.302949,78.6376" />
+						<Hotspot Name="Possessed Foreman" XYZ="-137.8128,6.005634,80.3208" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" TurnInName="Lord Duen" XYZ="-127.4197,5.284007,68.15165" />
 			<CompleteQuest QuestName="The Accursed" QuestId="0xE000F5F9E56B8C7D" />
 			
@@ -1548,7 +1413,21 @@
 		
 		<!-- BH - The Spy Game -->
 		<If Condition="((HasQuest(0xE000DC7A795B6F2F)) and (not IsQuestComplete(0xE000DC7A795B6F2F)))">
-			<Grind GrindRef="The Spy Game - ID Tags" While="not IsBranchStepComplete(0xE000DC7A795B6F2F, 1, 3)" />
+			<Grind While="not IsBranchStepComplete(0xE000DC7A795B6F2F, 1, 3)">
+				<GrindArea Name="The Spy Game - ID Tags">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Possessed Assault Trooper</Mob>
+						<Mob>Possessed Heavy Trooper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-187.3921,14.851,-4.591012" />
+						<Hotspot Name="My Location" XYZ="-187.4091,14.801,-8.876393" />
+						<Hotspot Name="My Location" XYZ="-187.4084,14.801,-12.97207" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE000DC7A795B6F2F)) and (not IsBranchStepComplete(0xE000DC7A795B6F2F, 1, 5)))">
 				<TalkTo QuestName="The Spy Game" QuestId="0xE000DC7A795B6F2F" Name="Commander Gargun" WaitTime="1" XYZ="-167.1824,14.87091,-30.7763" />
 			</If>
@@ -1558,7 +1437,20 @@
 		<If Condition="((HasQuest(0xE000B824C3135EF5)) and (not IsQuestComplete(0xE000B824C3135EF5)))">
 			<!-- Clean Up the Temple -->
 			<If Condition="(not IsQuestComplete(0xE00010D22E8074B6))">
-				<Grind GrindRef="Clean Up the Temple" While="(not IsQuestComplete(0xE00010D22E8074B6))" />
+				<Grind While="(not IsQuestComplete(0xE00010D22E8074B6))">
+					<GrindArea Name="Clean Up the Temple">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Crazed Terrorist</Mob>
+							<Mob>Terrorist Commander</Mob>
+							<Mob>Terrorist Saboteur</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Clean that fucking shit" XYZ="-191.4368,10.49669,-16.39875" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE000B824C3135EF5" ObjectName="Detonator Charge" BranchId="1" StepId="2" TaskId="2" WaitTime="4" XYZ="-192.0955,10.52828,-18.23439" />
 			<UseObject QuestId="0xE000B824C3135EF5" ObjectName="Detonator Charge" BranchId="1" StepId="2" TaskId="1" WaitTime="4" XYZ="-188.3543,10.91001,-20.41428" />
@@ -1577,7 +1469,21 @@
 			</If>
 			<!-- Clearing the Dark Path (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007DBC9ABE66F2))">
-				<Grind GrindRef="Clearing the Dark Path" While="(not IsQuestComplete(0xE0007DBC9ABE66F2))" />
+				<Grind While="(not IsQuestComplete(0xE0007DBC9ABE66F2))">
+					<GrindArea Name="Clearing the Dark Path">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Dark Path Assassin</Mob>
+							<Mob>Dark Path Adept</Mob>
+							<Mob>Dark Path Inquisitor</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-175.2497,19.001,-16.88895" />
+							<Hotspot Name="Dark Path Adept" XYZ="-164.8949,19.001,-20.9067" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" TurnInName="Lord Pharshol" XYZ="-189.0582,17.83919,-24.35106" />
 			<CompleteQuest QuestName="Secret Kinds of Darkness" QuestId="0xE00033AA1246BFF5" />
@@ -1613,7 +1519,31 @@
 			<UseObject QuestId="0xE000841377950A97" ObjectName="Third Chamber Door" BranchId="1" StepId="5" WaitTime="5" XYZ="-196.4042,18.201,-9.478045" />
 			<!-- Bury the Insane (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C36B40AB83F5))">
-				<Grind GrindRef="Bury the Insane" While="(not IsQuestComplete(0xE000C36B40AB83F5))" />
+				<Grind While="(not IsQuestComplete(0xE000C36B40AB83F5))">
+					<GrindArea Name="Bury the Insane">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Possesed Worker</Mob>
+							<Mob>Possesed Field Commander</Mob>
+							<Mob>Possesed Foreman</Mob>
+							<Mob>Possesed Sith Initiate</Mob>
+							<Mob>Hallucinating Trooper</Mob>
+							<Mob>Paranoid Archaeologist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-136.923,5.579666,72.39245" />
+							<Hotspot Name="My Location" XYZ="-136.8431,5.838198,78.01939" />
+							<Hotspot Name="My Location" XYZ="-141.8307,5.657104,72.79772" />
+							<Hotspot Name="My Location" XYZ="-150.9846,5.302949,78.6376" />
+							<Hotspot Name="My Location" XYZ="-153.8763,6.846207,69.77128" />
+							<Hotspot Name="My Location" XYZ="-166.5199,8.381474,58.88526" />
+							<Hotspot Name="My Location" XYZ="-171.6882,10.2491,51.04688" />
+							<Hotspot Name="My Location" XYZ="-176.3214,10.31703,46.29727" />
+							<Hotspot Name="My Location" XYZ="-185.3162,11.72519,39.80635" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Buried Power" QuestId="0xE000841377950A97" TurnInName="Lord Alaric" XYZ="-128.1287,5.33877,70.6148" />
 			<CompleteQuest QuestName="Buried Power" QuestId="0xE000841377950A97" />
@@ -1652,7 +1582,22 @@
 					</If>
 					<!-- A Minor Inconvenience -->
 					<If Condition="(not IsQuestComplete(0xE000AA5B4390BC91))">
-						<Grind GrindRef="A Minor Inconvenience" While="(not IsQuestComplete(0xE000AA5B4390BC91))" />
+						<Grind While="(not IsQuestComplete(0xE000AA5B4390BC91))">
+							<GrindArea Name="A Minor Inconvenience">
+								<MinLevel>1</MinLevel>
+								<MaxLevel>51</MaxLevel>
+								<Mobs>
+									<Mob>Mercenary Commando</Mob>
+									<Mob>Mercenary Terrorist</Mob>
+								</Mobs>
+								<Hotspots>
+									<Hotspot Name="My Location" XYZ="11.02175,-0.09003787,8.402247" />
+									<Hotspot Name="Mercenary Commando" XYZ="12.1673,-0.06155786,16.1941" />
+									<Hotspot Name="Mercenary Terrorist" XYZ="11.4575,-0.06155786,13.7233" />
+									<Hotspot Name="Mercenary Technician" XYZ="11.69149,-0.06155786,19.0975" />
+								</Hotspots>
+							</GrindArea>
+						</Grind>
 					</If>
 					<UseObject QuestId="0xE000A23E5571DC48" ObjectName="Cargo" BranchId="1" StepId="2" WaitTime="4" XYZ="12.922,-0.08043796,14.41046" />
 					<If Condition="(Me.Position.Y &lt;= 1)">
@@ -1713,7 +1658,20 @@
 					<TalkTo QuestName="Darth Zhorrid Arrives" QuestId="0xE00025962C222D52" Name="Darth Zhorrid" XYZ="-39.7916,8.601561,-2.498202" />
 				</If>
 				<If Condition="HasQuest(0xE00025962C222D52) and not IsStepComplete(0xE00025962C222D52, 5)">
-					<Grind GrindRef="Darth Zhorrid Arrives 5" While="(not IsBranchStepComplete(0xE00025962C222D52, 1, 5))" />
+					<Grind While="(not IsBranchStepComplete(0xE00025962C222D52, 1, 5))">
+						<GrindArea Name="Darth Zhorrid Arrives 5">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>51</MaxLevel>
+							<Mobs>
+								<Mob>Commander Jakker</Mob>
+								<Mob>Dark Council Bodyguard</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Commander Jakker" XYZ="-39.8374,8.601532,-2.2968" />
+								<Hotspot Name="Dark Council Bodyguard" XYZ="-39.6784,8.601563,-1.955" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="HasQuest(0xE00025962C222D52) and not IsStepComplete(0xE00025962C222D52, 6)">
 					<TalkTo QuestName="Darth Zhorrid Arrives" QuestId="0xE00025962C222D52" Name="Darth Zhorrid" XYZ="-39.7916,8.601561,-2.498202" />

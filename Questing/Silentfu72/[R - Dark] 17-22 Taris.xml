@@ -63,21 +63,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Take Back the Settlement (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Rifleman</Mob>
-				<Mob>Scavenger Cutthroat</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Scavenger Rifleman" XYZ="-113.5007,-18.96645,38.1912" />
-				<Hotspot Name="My Location" XYZ="-113.4313,-18.97771,38.84552" />
-				<Hotspot Name="My Location" XYZ="-104.7471,-18.91481,40.77369" />
-				<Hotspot Name="My Location" XYZ="-110.5344,-18.71955,47.21343" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Secure the Estate (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -92,18 +77,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="The Expedition 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Pirate Ambusher</Mob>
-				<Mob>Pirate Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-131.2602,-17.8243,-12.62324" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Final Stage - Surface Problems (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -112,32 +85,6 @@
 			</Mobs>
 			<Hotspots>
 				<Hotspot Name="My Location" XYZ="-148.6703,-28.80745,-25.7109" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Last Battle of the Endar Spire 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Pistoleer</Mob>
-				<Mob>Scavenger Heavy</Mob>
-				<Mob>Scavenger Junksifter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-5.654844,-14.499,-2.59095" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Last Battle of the Endar Spire 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Brute</Mob>
-				<Mob>Scavenger Brawler</Mob>
-				<Mob>Scavenger Quickshot</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="2.745125,-14.501,-2.718662" />
 			</Hotspots>
 		</GrindArea>    
 		
@@ -188,187 +135,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Stage 2 - Serum Conservation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Pirate Armsman</Mob>
-				<Mob>Pirate Fixer</Mob>
-				<Mob>Pirate Backstabber</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="12.29082,-16.00908,-34.67336" />
-				<Hotspot Name="My Location" XYZ="12.70627,-16.36947,-39.72964" />
-				<Hotspot Name="My Location" XYZ="9.840086,-16.36371,-39.17137" />
-				<Hotspot Name="My Location" XYZ="-1.407006,-17.99179,-34.67779" />
-				<Hotspot Name="My Location" XYZ="0.2945826,-18.00127,-32.92261" />
-				<Hotspot Name="My Location" XYZ="-5.98464,-17.97951,-31.29228" />
-				<Hotspot Name="My Location" XYZ="-10.36617,-17.97131,-32.79724" />
-				<Hotspot Name="My Location" XYZ="-15.0905,-19.58371,-44.28932" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Final Stage - Serum Conservation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brucce Jo'Dee</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="3.282423,-17.79731,-48.84515" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="KILL Kintan Strider">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Kintan Strider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kintan Strider" XYZ="32.71877,-25.20327,-43.77738" />
-			</Hotspots>
-		</GrindArea>  
-		
-		
-		<GrindArea Name="Dynamet Horrors (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Slavering Rakghoul</Mob>
-				<Mob>Ruthless Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-33.463,-13.40629,-37.42617" />
-				<Hotspot Name="My Location" XYZ="-43.83932,-16.81487,-39.31755" />
-				<Hotspot Name="Gargantuan Rakghoul" XYZ="-47.95966,-16.39622,-37.59528" />
-				<Hotspot Name="Hideous Rakghoul" XYZ="-47.7411,-16.09798,-42.9234" />
-				<Hotspot Name="Slavering Rakghoul" XYZ="-40.07372,-14.7413,-45.51904" />
-				<Hotspot Name="Gargantuan Rakghoul" XYZ="-36.0761,-14.29995,-42.37239" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="A Temporary Reclamation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Infected Pirate Gunner</Mob>
-				<Mob>Infected Republic Scout</Mob>
-				<Mob>Infected Scavenger Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-43.13551,-13.56032,-37.34007" />
-				<Hotspot Name="Infected Pirate Gunner" XYZ="-43.6718,-13.49807,-39.8988" />
-				<Hotspot Name="Infected Scavenger Brute" XYZ="-40.0971,-12.3566,-40.4994" />
-				<Hotspot Name="Infected Pirate Gunner" XYZ="-42.912,-11.37304,-39.7034" />
-				<Hotspot Name="Infected Republic Scout" XYZ="-40.2235,-11.37253,-34.1615" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Burial Grounds Task 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Slavering Rakghoul</Mob>
-				<Mob>Ruthless Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-33.463,-13.40629,-37.42617" />
-				<Hotspot Name="My Location" XYZ="-43.83932,-16.81487,-39.31755" />
-				<Hotspot Name="Gargantuan Rakghoul" XYZ="-47.95966,-16.39622,-37.59528" />
-				<Hotspot Name="Hideous Rakghoul" XYZ="-47.7411,-16.09798,-42.9234" />
-				<Hotspot Name="Slavering Rakghoul" XYZ="-40.07372,-14.7413,-45.51904" />
-				<Hotspot Name="Gargantuan Rakghoul" XYZ="-36.0761,-14.29995,-42.37239" />
-				<Hotspot Name="Hideous Rakghoul" XYZ="-33.9377,-18.724,-21.6348" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Catalyst 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ravenous Rakghoul</Mob>
-				<Mob>Ferocious Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-61.97029,-12.74378,-21.3593" />
-				<Hotspot Name="My Location" XYZ="-67.16573,-12.93871,-27.35487" />
-				<Hotspot Name="Ferocious Rakghoul" XYZ="-66.5449,-12.92328,-33.66193" />
-				<Hotspot Name="Ravenous Rakghoul" XYZ="-65.46044,-13.65609,-37.59241" />
-				<Hotspot Name="Ferocious Rakghoul" XYZ="-73.18829,-13.27723,-40.17023" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clear a Path to the Chemworks (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rogue Disposal Droid</Mob>
-				<Mob>Defective Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Defective Security Droid" XYZ="-75.1836,-21.00356,126.423" />
-				<Hotspot Name="Rogue Disposal Droid" XYZ="-80.244,-20.86188,130.5524" />
-				<Hotspot Name="My Location" XYZ="-75.89044,-20.93488,130.1569" />
-				<Hotspot Name="Defective Security Droid" XYZ="-78.4221,-21.00337,126.3218" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Purge the ChemWorks (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brutish Rakghoul</Mob>
-				<Mob>Putrid Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-82.0519,-21.01426,137.2842" />
-				<Hotspot Name="Putrid Rakghoul" XYZ="-82.44504,-21.44748,142.338" />
-				<Hotspot Name="My Location" XYZ="-82.99586,-21.2961,140.4067" />
-				<Hotspot Name="My Location" XYZ="-82.52985,-21.25149,145.1388" />
-				<Hotspot Name="Putrid Rakghoul" XYZ="-85.531,-22.3076,150.6561" />
-				<Hotspot Name="Putrid Rakghoul" XYZ="-91.38097,-22.43514,149.8251" />
-				<Hotspot Name="Skulking Rakghoul" XYZ="-80.12257,-22.20831,152.174" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Cleanse the Junction (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Frightful Rakghoul</Mob>
-				<Mob>Stalking Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Frightful Rakghoul" XYZ="-110.7413,-32.06877,97.93333" />
-				<Hotspot Name="Stalking Rakghoul" XYZ="-110.341,-32.06877,95.10437" />
-				<Hotspot Name="Prowling Rakghoul" XYZ="-103.1414,-32.07085,94.62357" />
-				<Hotspot Name="Prowling Rakghoul" XYZ="-109.0818,-32.0633,87.4408" />
-				<Hotspot Name="Stalking Rakghoul" XYZ="-98.94952,-32.07085,95.95392" />
-				<Hotspot Name="Prowling Rakghoul" XYZ="-94.12566,-32.07085,100.2057" />
-				<Hotspot Name="Furious Rakghoul" XYZ="-94.2645,-32.06877,105.3968" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="End the Invasion (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Savage Rakghoul</Mob>
-				<Mob>Rakghoul Mangler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Savage Rakghoul" XYZ="-204.9489,-19.41045,80.01137" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-202.9987,-19.10403,95.47566" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-208.0277,-19.10237,95.39162" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-217.3195,-19.099,95.05534" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-219.1835,-19.08853,98.97794" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-219.6559,-19.10055,99.63468" />
-				<Hotspot Name="Rakghoul Mangler" XYZ="-219.2338,-19.0709,106.3147" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-219.0545,-20.299,107.4054" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Shut Down the Reactor Droids (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -386,17 +152,6 @@
 				<Hotspot Name="Rogue Protector Droid" XYZ="57.8682,-26.26891,-14.68009" />
 				<Hotspot Name="Rogue Hunter Droid" XYZ="58.7324,-26.25032,-19.08927" />
 				<Hotspot Name="Rogue Patrol Droid" XYZ="53.6315,-26.25032,-20.03473" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Super Reactor 2, 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Cin Tykan</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Cin Tykan" XYZ="56.24223,-25.45085,-26.02337" />
 			</Hotspots>
 		</GrindArea>    
 		
@@ -424,59 +179,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Final Stage - Infectious Legacy (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Monstrous Tunnel Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Monstrous Tunnel Rakghoul" XYZ="98.86337,-17.00742,-34.84572" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Pay Back the Pirates (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Crackshot</Mob>
-				<Mob>Scavenger Marauder</Mob>
-				<Mob>Scavenger Poacher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Scavenger Crackshot" XYZ="71.2494,-20.06107,60.5864" />
-				<Hotspot Name="Scavenger Marauder" XYZ="72.3583,-20.06107,62.4619" />
-				<Hotspot Name="Scavenger Poacher" XYZ="71.9956,-20.06107,65.23" />
-				<Hotspot Name="Scavenger Marauder" XYZ="79.2418,-18.88866,64.82059" />
-				<Hotspot Name="Scavenger Marauder" XYZ="79.08601,-19.43411,69.6515" />
-				<Hotspot Name="Scavenger Marauder" XYZ="80.9155,-19.4201,74.6772" />
-				<Hotspot Name="Scavenger Marauder" XYZ="94.2438,-19.4251,73.5022" />
-				<Hotspot Name="Scavenger Marauder" XYZ="106.2824,-19.5315,75.0774" />
-				<Hotspot Name="Scavenger Crackshot" XYZ="103.3711,-19.5353,64.2094" />
-				<Hotspot Name="Scavenger Marauder" XYZ="100.08,-19.5353,66.0216" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Beyond Redemption">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Pirate Stalker</Mob>
-				<Mob>Pirate Scoundrel</Mob>
-				<Mob>Pirate Enforcer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Pirate Stalker" XYZ="101.4035,-17.6096,80.76182" />
-				<Hotspot Name="Pirate Scoundrel" XYZ="103.4503,-17.6096,82.3202" />
-				<Hotspot Name="Pirate Enforcer" XYZ="104.1682,-17.6088,87.7292" />
-				<Hotspot Name="Pirate Stalker" XYZ="91.1701,-17.6184,79.0848" />
-				<Hotspot Name="Pirate Enforcer" XYZ="90.4593,-17.61843,78.9546" />
-				<Hotspot Name="Pirate Stalker" XYZ="85.8717,-17.61843,80.9231" />
-				<Hotspot Name="Pirate Stalker" XYZ="80.5884,-17.60757,79.4133" />
-				<Hotspot Name="Pirate Enforcer" XYZ="81.961,-17.6083,83.08113" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Stage 1 - Pirate Justice (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -494,38 +196,6 @@
 				<Hotspot Name="Pirate Stalker" XYZ="85.8717,-17.61843,80.9231" />
 				<Hotspot Name="Pirate Stalker" XYZ="80.5884,-17.60757,79.4133" />
 				<Hotspot Name="Pirate Enforcer" XYZ="81.961,-17.6083,83.08113" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Final Stage - Pirate Justice (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Pirate Battlemaster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Pirate Battlemaster" XYZ="91.4077,-17.51573,84.3741" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Missing Link">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Savage Elder Rakghoul</Mob>
-				<Mob>Festering Elder Rakghoul</Mob>
-				<Mob>Enraged Elder Rakghoul</Mob>
-				<Mob>Infectious Elder Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="95.82141,-17.60682,84.674" />
-				<Hotspot Name="My Location" XYZ="93.15937,-17.54605,83.67854" />
-				<Hotspot Name="Festering Elder Rakghoul" XYZ="98.09399,-17.6088,86.92043" />
-				<Hotspot Name="Enraged Elder Rakghoul" XYZ="97.75029,-17.6088,86.90572" />
-				<Hotspot Name="Infectious Elder Rakghoul" XYZ="95.4226,-17.6046,95.979" />
-				<Hotspot Name="Enraged Elder Rakghoul" XYZ="93.34283,-17.60876,88.66876" />
-				<Hotspot Name="Ghastly Elder Rakghoul" XYZ="89.3417,-17.60876,91.27648" />
-				<Hotspot Name="Enraged Elder Rakghoul" XYZ="90.35683,-17.48468,87.66253" />
 			</Hotspots>
 		</GrindArea>    
 		
@@ -555,149 +225,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Where Darkness Abides 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Nekghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nekghoul" XYZ="118.3985,-17.14531,116.955" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Operation Rakghoul (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Venomous Rakghoul</Mob>
-				<Mob>Contagious Rakghoul</Mob>
-				<Mob>Noxious Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Venomous Rakghoul" XYZ="57.89151,-20.65611,36.95065" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="58.74325,-20.66408,36.84005" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="51.49568,-20.41817,37.32482" />
-				<Hotspot Name="Contagious Rakghoul" XYZ="53.88029,-20.23901,40.18136" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="58.30935,-19.93946,40.85525" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="47.46616,-21.55076,29.89772" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="48.3024,-20.97537,23.56224" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="52.98423,-19.34166,45.93248" />
-				<Hotspot Name="Noxious Rakghoul" XYZ="50.44632,-19.73303,41.86412" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Trouble at the Highway Ruins (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Gunner</Mob>
-				<Mob>Scavenger Raider</Mob>
-				<Mob>Scavenger Demolitionist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Scavenger Gunner" XYZ="71.64673,-18.07961,8.300007" />
-				<Hotspot Name="Scavenger Raider" XYZ="67.2297,-18.38057,6.3293" />
-				<Hotspot Name="Scavenger Demolitionist" XYZ="66.06914,-18.27704,2.545802" />
-				<Hotspot Name="Scavenger Gunner" XYZ="72.1784,-18.4894,3.9595" />
-				<Hotspot Name="Scavenger Gunner" XYZ="75.9994,-18.62533,15.2831" />
-				<Hotspot Name="Scavenger Gunner" XYZ="83.0654,-18.72905,15.0741" />
-				<Hotspot Name="Scavenger Raider" XYZ="84.01701,-18.44509,10.5724" />
-				<Hotspot Name="Scavenger Gunner" XYZ="85.8032,-18.67301,18.6668" />
-				<Hotspot Name="Scavenger Raider" XYZ="91.0912,-18.66137,16.696" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Swoop Bike Safari (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Bogstalker Prowler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="122.5559,-16.63184,18.07435" />
-				<Hotspot Name="Bogstalker Prowler" XYZ="112.582,-18.48756,28.02441" />
-				<Hotspot Name="Bogstalker Prowler" XYZ="108.7347,-18.18941,22.70597" />
-				<Hotspot Name="Bogstalker Prowler" XYZ="119.3401,-16.63633,24.48595" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Blaster Fodder (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Flesh-Eating Rakghoul</Mob>
-				<Mob>Scavenging Rakghoul</Mob>
-				<Mob>Infected Republic Soldier</Mob>
-				<Mob>Gruesome Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="40.97122,-13.91006,-41.27464" />
-				<Hotspot Name="Flesh-Eating Rakghoul" XYZ="48.99661,-14.21062,-44.02174" />
-				<Hotspot Name="Scavenging Rakghoul" XYZ="50.61166,-15.05297,-48.80247" />
-				<Hotspot Name="Infected Republic Soldier" XYZ="44.1757,-15.27044,-50.0227" />
-				<Hotspot Name="Scavenging Rakghoul" XYZ="43.95106,-16.29753,-55.85452" />
-				<Hotspot Name="Gruesome Rakghoul" XYZ="33.9508,-16.08186,-54.6498" />
-				<Hotspot Name="Scavenging Rakghoul" XYZ="33.50932,-17.73394,-59.06566" />
-				<Hotspot Name="Infected Republic Soldier" XYZ="47.1399,-19.81051,-75.7559" />
-				<Hotspot Name="Flesh-Eating Rakghoul" XYZ="51.61768,-19.07903,-71.59836" />
-				<Hotspot Name="Flesh-Eating Rakghoul" XYZ="50.39097,-18.09933,-66.06921" />
-				<Hotspot Name="Flesh-Eating Rakghoul" XYZ="44.75702,-17.26695,-61.35128" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clear Out the Pipes (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ferocious Rakghoul</Mob>
-				<Mob>Ravenous Rakghoul</Mob>
-				<Mob>Rakghoul Stalker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-51.16933,-14.43794,-18.18381" />
-				<Hotspot Name="Ferocious Rakghoul" XYZ="-51.30942,-14.43831,-21.01073" />
-				<Hotspot Name="Rakghoul Stalker" XYZ="-46.1694,-13.33993,-27.7325" />
-				<Hotspot Name="Ravenous Rakghoul" XYZ="-53.92041,-12.8862,-28.21245" />
-				<Hotspot Name="Ravenous Rakghoul" XYZ="-55.83945,-13.19633,-21.607" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Final Stage - Threat Assessment (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rakghoul Behemoth</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rakghoul Behemoth" XYZ="87.70914,-17.74873,104.8874" />
-			</Hotspots>
-		</GrindArea>    
-
-
-		<GrindArea Name="Going Dark (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Recruit</Mob>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Recruit" XYZ="-17.71442,-4.5865,-98.223" />
-				<Hotspot Name="Imperial Soldier" XYZ="-18.55338,-4.592989,-98.38142" />
-				<Hotspot Name="Imperial Recruit" XYZ="-20.47334,-4.374,-92.6659" />
-				<Hotspot Name="Imperial Soldier" XYZ="-20.18354,-4.374,-93.22838" />
-				<Hotspot Name="Imperial Captain" XYZ="-22.5385,-4.374,-89.43805" />
-				<Hotspot Name="Imperial Recruit" XYZ="-23.69214,-4.212831,-91.98601" />
-				<Hotspot Name="Imperial Recruit" XYZ="-26.16617,-4.3865,-85.18415" />
-				<Hotspot Name="Imperial Recruit" XYZ="-24.57809,-4.374,-89.00313" />
-				<Hotspot Name="Imperial Recruit" XYZ="-28.2074,-4.407835,-79.8716" />
-				<Hotspot Name="Imperial Recruit" XYZ="-28.56399,-4.409558,-93.38232" />
-				<Hotspot Name="Imperial Soldier" XYZ="-30.9801,-4.360724,-89.8319" />
-			</Hotspots>
-		</GrindArea>   
-
 		<GrindArea Name="Kill Lieutenant Marcovic">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -710,189 +237,6 @@
 		</GrindArea> 
 
 
-		<GrindArea Name="Kill Inquisitor Ferav">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lieutenant Marcovic</Mob>
-				<Mob>Sith Acolyte</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Inquisitor Ferav" XYZ="-105.0627,-99.999,15.02472" />
-				<Hotspot Name="Sith Acolyte" XYZ="-105.3981,-100.0074,15.46922" />
-				<Hotspot Name="Sith Acolyte" XYZ="-105.3981,-100.0074,15.46922" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="Banish the Shadows (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Shadow Operative</Mob>
-				<Mob>Imperial Intelligence Officer</Mob>
-				<Mob>Imperial Stalker Droid"</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Shadow Operative" XYZ="-102.672,-20.10971,10.16826" />
-				<Hotspot Name="Imperial Stalker Droid" XYZ="-97.82401,-19.599,9.374599" />
-				<Hotspot Name="Imperial Stalker Droid" XYZ="-100.9101,-22.509,10.1022" />
-				<Hotspot Name="Imperial Intelligence Officer" XYZ="-101.4788,-22.499,9.6154" />
-				<Hotspot Name="Imperial Stalker Droid" XYZ="-100.4613,-22.509,12.7489" />
-				<Hotspot Name="Imperial Stalker Droid" XYZ="-101.1656,-22.50935,12.7406" />
-				<Hotspot Name="Imperial Shadow Operative" XYZ="-100.4098,-22.499,13.57803" />
-				<Hotspot Name="Imperial Shadow Operative" XYZ="-98.14742,-22.4998,12.65804" />
-				<Hotspot Name="Imperial Shadow Operative" XYZ="-97.6185,-22.43399,12.8128" />
-				<Hotspot Name="Imperial Intelligence Officer" XYZ="-91.16684,-22.5,13.18371" />
-				<Hotspot Name="Imperial Stalker Droid" XYZ="-98.16,-22.49999,9.8062" />
-
-			</Hotspots>
-
-		</GrindArea> 
-
-
-
-		<GrindArea Name="Kill Needles">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Needles</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Needles" XYZ="143.2636,-14.20756,-58.4022" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="Lost And Found Ambush">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-119.3127,-17.74086,-32.912" />
-				<Hotspot Name="Scavenger Scout" XYZ="-117.7636,-17.73893,-32.35797" />
-			</Hotspots>
-		</GrindArea> 
-
-
-		<GrindArea Name="The Architect of Annihilation (Ambush)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Assassin</Mob>
-				<Mob>Imperial Assassin Droid</Mob>
-				
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Assassin" XYZ="-94.3857,-23.50692,13.248" />
-				<Hotspot Name="Imperial Assassin Droid" XYZ="-92.7144,-23.499,13.4543" />
-				<Hotspot Name="Imperial Assassin Droid" XYZ="-96.1056,-23.50002,13.4453" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="The Architect of Annihilation (Ambush) 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Assassin</Mob>
-				<Mob>Imperial Assassin Droid</Mob>	
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Assassin Droid" XYZ="-93.6101,-23.50005,12.8409" />
-				<Hotspot Name="Imperial Assassin Droid" XYZ="-95.53951,-23.50118,12.866" />
-			</Hotspots>
-		</GrindArea> 
-
-
-		<GrindArea Name="Kill Watcher One">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Shadow Captain</Mob>
-				<Mob>Imperial Shadow Commando</Mob>	
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Shadow Captain" XYZ="-51.15228,-26.92,141.1446" />
-				<Hotspot Name="Imperial Shadow Commando" XYZ="-50.4533,-26.92488,140.8612" />
-				<Hotspot Name="Imperial Shadow Commando" XYZ="-51.3175,-26.92488,141.5571" />
-			</Hotspots>
-		</GrindArea> 
-
-
-		<GrindArea Name="Vanquishing the Vanguard (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Sniper</Mob>
-				<Mob>Imperial Scout</Mob>	
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Sniper" XYZ="62.48985,-17.44375,-37.8436" />
-				<Hotspot Name="My Location" XYZ="60.93518,-17.44373,-39.38099" />
-				<Hotspot Name="Imperial Sniper" XYZ="61.2893,-17.8346,-32.9039" />
-				<Hotspot Name="Imperial Sniper" XYZ="59.86479,-17.8346,-32.93737" />
-				<Hotspot Name="Imperial Scout" XYZ="59.5661,-17.8346,-32.8197" />
-				<Hotspot Name="Imperial Sniper" XYZ="56.30118,-18.16048,-30.91031" />
-				<Hotspot Name="Imperial Scout" XYZ="56.08619,-18.24741,-32.16912" />
-				<Hotspot Name="Imperial Sniper" XYZ="55.93562,-18.26489,-31.13363" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="Kill Watcher One For Real this time">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Watcher One</Mob>
-				<Mob>Imperial Operative</Mob>	
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Watcher One" XYZ="50.77835,-18.4273,-30.21095" />
-				<Hotspot Name="Imperial Operative" XYZ="51.00975,-18.43884,-30.73938" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="The Price of Betrayal (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Treacherous Republic Soldier</Mob>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="-6.9845,0.001,5.0986" />
-				<Hotspot Name="Imperial Soldier" XYZ="-2.8399,0.006099997,5.321" />
-				<Hotspot Name="Imperial Commando" XYZ="-5.0938,0.001,8.1146" />
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="-1.8387,0.00100019,5.3416" />
-				<Hotspot Name="Imperial Soldier" XYZ="-7.5477,0.009968718,3.4828" />
-				<Hotspot Name="Reprogrammed Combat Droid" XYZ="-8.312036,0.001,10.42471" />
-				<Hotspot Name="Imperial Commando" XYZ="-4.5614,0.001,14.1402" />
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="1.1956,0.001000161,5.8747" />
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="1.862113,0.001,8.936999" />
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="1.9794,0.008952392,11.0571" />
-			</Hotspots>
-		</GrindArea> 	
-		
-		
-		<GrindArea Name="Public Relations - Defeat Minons">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Treacherous Republic Soldier</Mob>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="3.223,0.003700236,-9.117599" />
-				<Hotspot Name="Imperial Soldier" XYZ="2.884875,0.001000174,-8.469398" />
-				<Hotspot Name="Imperial Commando" XYZ="4.309127,0.001000028,-11.02777" />
-				<Hotspot Name="Treacherous Republic Recruit" XYZ="0.6902,0.001,-10.7245" />
-				<Hotspot Name="Treacherous Republic Soldier" XYZ="0.3476536,0.0009999981,-9.067101" />
-			</Hotspots>
-		</GrindArea>
-		
-		
-	
 	</GrindAreas>
 	
 	<!--
@@ -939,14 +283,53 @@
 			</If>
 			<!--The Price of Betrayal (Bonus) - 0xE000363C40CC773B - Step: 2 - Branch: 1-->
 			<If Condition="(not IsQuestComplete(0xE000363C40CC773B))">
-				<Grind GrindRef="The Price of Betrayal (Bonus)" While="(not IsQuestComplete(0xE000363C40CC773B))" />
+				<Grind While="(not IsQuestComplete(0xE000363C40CC773B))">
+					<GrindArea Name="The Price of Betrayal (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Treacherous Republic Soldier</Mob>
+							<Mob>Imperial Soldier</Mob>
+							<Mob>Imperial Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="-6.9845,0.001,5.0986" />
+							<Hotspot Name="Imperial Soldier" XYZ="-2.8399,0.006099997,5.321" />
+							<Hotspot Name="Imperial Commando" XYZ="-5.0938,0.001,8.1146" />
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="-1.8387,0.00100019,5.3416" />
+							<Hotspot Name="Imperial Soldier" XYZ="-7.5477,0.009968718,3.4828" />
+							<Hotspot Name="Reprogrammed Combat Droid" XYZ="-8.312036,0.001,10.42471" />
+							<Hotspot Name="Imperial Commando" XYZ="-4.5614,0.001,14.1402" />
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="1.1956,0.001000161,5.8747" />
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="1.862113,0.001,8.936999" />
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="1.9794,0.008952392,11.0571" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 1, 4)))">
 				<MoveTo QuestId="1" XYZ="7.342719,0.01000001,-8.619471" />
 			</If>
 			<!--Current Step: 7 - Current Branch: 1-->
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 1, 7)))">
-				<Grind GrindRef="Public Relations - Defeat Minons" While="(not IsBranchStepComplete(0xE00069E92FF50D39, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE00069E92FF50D39, 1, 7))">
+					<GrindArea Name="Public Relations - Defeat Minons">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Treacherous Republic Soldier</Mob>
+							<Mob>Imperial Soldier</Mob>
+							<Mob>Imperial Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="3.223,0.003700236,-9.117599" />
+							<Hotspot Name="Imperial Soldier" XYZ="2.884875,0.001000174,-8.469398" />
+							<Hotspot Name="Imperial Commando" XYZ="4.309127,0.001000028,-11.02777" />
+							<Hotspot Name="Treacherous Republic Recruit" XYZ="0.6902,0.001,-10.7245" />
+							<Hotspot Name="Treacherous Republic Soldier" XYZ="0.3476536,0.0009999981,-9.067101" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>		
 			<If Condition="((HasQuest(0xE00069E92FF50D39)) and (not IsBranchStepComplete(0xE00069E92FF50D39, 1, 8)))">
 				<TalkTo QuestId="0xE00069E92FF50D39" Name="Senator Krasul" XYZ="3.1178,0.0037,-9.6187" />
@@ -1107,7 +490,30 @@
 				<UseObject QuestId="0xE000DDE90A0F682E" ObjectName="Hydraulic Gearbox" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-15.53798,-4.579555,-98.61019"  />
 			</If>
 			<If Condition="(not IsQuestComplete(0xE000F0697247572F))">
-				<Grind GrindRef="Going Dark (Bonus)" While="(not IsQuestComplete(0xE000F0697247572F))" />
+				<Grind While="(not IsQuestComplete(0xE000F0697247572F))">
+					<GrindArea Name="Going Dark (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Recruit</Mob>
+							<Mob>Imperial Soldier</Mob>
+							<Mob>Imperial Captain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Recruit" XYZ="-17.71442,-4.5865,-98.223" />
+							<Hotspot Name="Imperial Soldier" XYZ="-18.55338,-4.592989,-98.38142" />
+							<Hotspot Name="Imperial Recruit" XYZ="-20.47334,-4.374,-92.6659" />
+							<Hotspot Name="Imperial Soldier" XYZ="-20.18354,-4.374,-93.22838" />
+							<Hotspot Name="Imperial Captain" XYZ="-22.5385,-4.374,-89.43805" />
+							<Hotspot Name="Imperial Recruit" XYZ="-23.69214,-4.212831,-91.98601" />
+							<Hotspot Name="Imperial Recruit" XYZ="-26.16617,-4.3865,-85.18415" />
+							<Hotspot Name="Imperial Recruit" XYZ="-24.57809,-4.374,-89.00313" />
+							<Hotspot Name="Imperial Recruit" XYZ="-28.2074,-4.407835,-79.8716" />
+							<Hotspot Name="Imperial Recruit" XYZ="-28.56399,-4.409558,-93.38232" />
+							<Hotspot Name="Imperial Soldier" XYZ="-30.9801,-4.360724,-89.8319" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 8)))">
 				<Grind GrindRef="Kill Lieutenant Marcovic" While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 8))" />
@@ -1136,7 +542,21 @@
 				<MoveTo QuestId="1" XYZ="-104.976,-100.0024,15.0418"/>											 
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15)))">
-				<Grind GrindRef="Kill Inquisitor Ferav" While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15))">
+					<GrindArea Name="Kill Inquisitor Ferav">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Lieutenant Marcovic</Mob>
+							<Mob>Sith Acolyte</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Inquisitor Ferav" XYZ="-105.0627,-99.999,15.02472" />
+							<Hotspot Name="Sith Acolyte" XYZ="-105.3981,-100.0074,15.46922" />
+							<Hotspot Name="Sith Acolyte" XYZ="-105.3981,-100.0074,15.46922" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 16)))">
 				<TalkTo QuestId="0xE000DDE90A0F682E" Name="Kira Carsen" XYZ="-104.9751,-100.0022,15.0088" />
@@ -1218,7 +638,22 @@
 			</If>
 			<!-- Take Back the Settlement (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000090F8920D362))">
-				<Grind GrindRef="Take Back the Settlement (Bonus)" While="(not IsQuestComplete(0xE000090F8920D362))" />
+				<Grind While="(not IsQuestComplete(0xE000090F8920D362))">
+					<GrindArea Name="Take Back the Settlement (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Rifleman</Mob>
+							<Mob>Scavenger Cutthroat</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Scavenger Rifleman" XYZ="-113.5007,-18.96645,38.1912" />
+							<Hotspot Name="My Location" XYZ="-113.4313,-18.97771,38.84552" />
+							<Hotspot Name="My Location" XYZ="-104.7471,-18.91481,40.77369" />
+							<Hotspot Name="My Location" XYZ="-110.5344,-18.71955,47.21343" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		<!--Smuggler - Early Warning - 0xE000256AF258551C - Step: 2 - Branch: 1-->
@@ -1260,7 +695,19 @@
 				<MoveTo QuestId="0xE0007E48C418F725" Name="My Location" XYZ="-119.3014,-17.74086,-33.00338"  />
 			</If>
 			<If Condition="((HasQuest(0xE0007E48C418F725)) and (not IsBranchStepComplete(0xE0007E48C418F725, 1, 7)))">
-				<Grind GrindRef="Lost And Found Ambush" While="(not IsBranchStepComplete(0xE0007E48C418F725, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE0007E48C418F725, 1, 7))">
+					<GrindArea Name="Lost And Found Ambush">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Scout</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-119.3127,-17.74086,-32.912" />
+							<Hotspot Name="Scavenger Scout" XYZ="-117.7636,-17.73893,-32.35797" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007E48C418F725)) and (not IsBranchStepComplete(0xE0007E48C418F725, 1, 8)))">
 				<UseObject QuestId="0xE0007E48C418F725" ObjectName="Locked Crate" BranchId="1" StepId="8" Radius="5" WaitTime="5"  XYZ="-119.1795,-17.74086,-33.07335" />
@@ -1289,7 +736,19 @@
 				<MoveTo QuestId="0xE000660EC83C3BEF" Name="My Location" XYZ="-131.0266,-17.82997,-12.92115" />
 			</If>
 			<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 7)))">
-				<Grind GrindRef="The Expedition 7" While="(not IsStepComplete(0xE000660EC83C3BEF, 7))" />
+				<Grind While="(not IsStepComplete(0xE000660EC83C3BEF, 7))">
+					<GrindArea Name="The Expedition 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Pirate Ambusher</Mob>
+							<Mob>Pirate Brute</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-131.2602,-17.8243,-12.62324" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000660EC83C3BEF)) and (not IsStepComplete(0xE000660EC83C3BEF, 8)))">
 				<TalkTo QuestId="0xE000660EC83C3BEF" Name="T8-C3" XYZ="-131.2602,-17.8243,-12.62324" />
@@ -1300,16 +759,69 @@
 		<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsQuestComplete(0xE00072B324D177F2)))">
 			<If Condition="((HasQuest(0xE00065C2CBE1B47F)) and (not IsQuestComplete(0xE00065C2CBE1B47F)))">
 				<!-- Banish the Shadows (Bonus) - 0xE00065C2CBE1B47F - Step: 2 - Branch: 1-->
-				<Grind GrindRef="Banish the Shadows (Bonus)" While="(not IsQuestComplete(0xE00065C2CBE1B47F))" />
+				<Grind While="(not IsQuestComplete(0xE00065C2CBE1B47F))">
+					<GrindArea Name="Banish the Shadows (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Shadow Operative</Mob>
+							<Mob>Imperial Intelligence Officer</Mob>
+							<Mob>Imperial Stalker Droid"</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Shadow Operative" XYZ="-102.672,-20.10971,10.16826" />
+							<Hotspot Name="Imperial Stalker Droid" XYZ="-97.82401,-19.599,9.374599" />
+							<Hotspot Name="Imperial Stalker Droid" XYZ="-100.9101,-22.509,10.1022" />
+							<Hotspot Name="Imperial Intelligence Officer" XYZ="-101.4788,-22.499,9.6154" />
+							<Hotspot Name="Imperial Stalker Droid" XYZ="-100.4613,-22.509,12.7489" />
+							<Hotspot Name="Imperial Stalker Droid" XYZ="-101.1656,-22.50935,12.7406" />
+							<Hotspot Name="Imperial Shadow Operative" XYZ="-100.4098,-22.499,13.57803" />
+							<Hotspot Name="Imperial Shadow Operative" XYZ="-98.14742,-22.4998,12.65804" />
+							<Hotspot Name="Imperial Shadow Operative" XYZ="-97.6185,-22.43399,12.8128" />
+							<Hotspot Name="Imperial Intelligence Officer" XYZ="-91.16684,-22.5,13.18371" />
+							<Hotspot Name="Imperial Stalker Droid" XYZ="-98.16,-22.49999,9.8062" />
+
+						</Hotspots>
+
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsBranchStepComplete(0xE00072B324D177F2, 1, 5)))">
-				<Grind GrindRef="The Architect of Annihilation (Ambush)" While="(not IsBranchStepComplete(0xE00072B324D177F2, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE00072B324D177F2, 1, 5))">
+					<GrindArea Name="The Architect of Annihilation (Ambush)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Assassin</Mob>
+							<Mob>Imperial Assassin Droid</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Assassin" XYZ="-94.3857,-23.50692,13.248" />
+							<Hotspot Name="Imperial Assassin Droid" XYZ="-92.7144,-23.499,13.4543" />
+							<Hotspot Name="Imperial Assassin Droid" XYZ="-96.1056,-23.50002,13.4453" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsBranchStepComplete(0xE00072B324D177F2, 1, 6)))">
 				<UseObject QuestId="0xE00072B324D177F2" ObjectName="Holoterminal" BranchId="1" StepId="6"  Radius="20" WaitTime="5" XYZ="-94.3576,-23.50686,13.31924" /> 
 			</If>
 			<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsBranchStepComplete(0xE00072B324D177F2, 1, 7)))">
-				<Grind GrindRef="The Architect of Annihilation (Ambush) 2" While="(not IsBranchStepComplete(0xE00072B324D177F2, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE00072B324D177F2, 1, 7))">
+					<GrindArea Name="The Architect of Annihilation (Ambush) 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Assassin</Mob>
+							<Mob>Imperial Assassin Droid</Mob>	
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Assassin Droid" XYZ="-93.6101,-23.50005,12.8409" />
+							<Hotspot Name="Imperial Assassin Droid" XYZ="-95.53951,-23.50118,12.866" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!--The Architect of Annihilation - 0xE00072B324D177F2 - Step: 8 - Branch: 1-->
 			<If Condition="((HasQuest(0xE00072B324D177F2)) and (not IsBranchStepComplete(0xE00072B324D177F2, 1, 8)))">
@@ -1427,7 +939,24 @@
 			</If>
 			<!-- Clear Out the Pipes (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C6ED4FAE20E7))">
-				<Grind GrindRef="Clear Out the Pipes (Bonus)" While="(not IsQuestComplete(0xE000C6ED4FAE20E7))" />
+				<Grind While="(not IsQuestComplete(0xE000C6ED4FAE20E7))">
+					<GrindArea Name="Clear Out the Pipes (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ferocious Rakghoul</Mob>
+							<Mob>Ravenous Rakghoul</Mob>
+							<Mob>Rakghoul Stalker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-51.16933,-14.43794,-18.18381" />
+							<Hotspot Name="Ferocious Rakghoul" XYZ="-51.30942,-14.43831,-21.01073" />
+							<Hotspot Name="Rakghoul Stalker" XYZ="-46.1694,-13.33993,-27.7325" />
+							<Hotspot Name="Ravenous Rakghoul" XYZ="-53.92041,-12.8862,-28.21245" />
+							<Hotspot Name="Ravenous Rakghoul" XYZ="-55.83945,-13.19633,-21.607" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1479,13 +1008,44 @@
 			</If>
 			<!-- Stage 2 - Serum Conservation -->
 			<If Condition="((HasQuest(0xE0008D8FD4222C49)) and (not IsQuestComplete(0xE0008D8FD4222C49)))">
-				<Grind GrindRef="Stage 2 - Serum Conservation (Bonus)" While="(HasQuest(0xE0008D8FD4222C49))" />
+				<Grind While="(HasQuest(0xE0008D8FD4222C49))">
+					<GrindArea Name="Stage 2 - Serum Conservation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Pirate Armsman</Mob>
+							<Mob>Pirate Fixer</Mob>
+							<Mob>Pirate Backstabber</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="12.29082,-16.00908,-34.67336" />
+							<Hotspot Name="My Location" XYZ="12.70627,-16.36947,-39.72964" />
+							<Hotspot Name="My Location" XYZ="9.840086,-16.36371,-39.17137" />
+							<Hotspot Name="My Location" XYZ="-1.407006,-17.99179,-34.67779" />
+							<Hotspot Name="My Location" XYZ="0.2945826,-18.00127,-32.92261" />
+							<Hotspot Name="My Location" XYZ="-5.98464,-17.97951,-31.29228" />
+							<Hotspot Name="My Location" XYZ="-10.36617,-17.97131,-32.79724" />
+							<Hotspot Name="My Location" XYZ="-15.0905,-19.58371,-44.28932" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Final Stage - Serum Conservation -->
 			<If Condition="((HasQuest(0xE0008E8FD422229E)) and (not IsQuestComplete(0xE0008E8FD422229E)))">
 				<MoveTo QuestId="1" XYZ="3.285542,-17.79731,-48.84473" />
 				<Interact QuestId="0xE0008E8FD422229E" Name="Rakghoul Specimen" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="3.072563,-17.66422,-48.93079" />
-				<Grind GrindRef="Final Stage - Serum Conservation (Bonus)" While="(HasQuest(0xE0008E8FD422229E))" />
+				<Grind While="(HasQuest(0xE0008E8FD422229E))">
+					<GrindArea Name="Final Stage - Serum Conservation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Brucce Jo'Dee</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="3.282423,-17.79731,-48.84515" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1495,7 +1055,18 @@
 				<MoveTo QuestId="0xE0003FDFA6CEDFC2" Name="Prison" XYZ="32.71877,-25.20327,-43.77738" />
 			</If>
 			<If Condition="((HasQuest(0xE0003FDFA6CEDFC2)) and (not IsBranchStepComplete(0xE0003FDFA6CEDFC2, 1, 4)))">
-				<Grind GrindRef="KILL Kintan Strider" While="(IsBranchStepComplete(0xE0003FDFA6CEDFC2, 1, 4))" />
+				<Grind While="(IsBranchStepComplete(0xE0003FDFA6CEDFC2, 1, 4))">
+					<GrindArea Name="KILL Kintan Strider">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Kintan Strider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kintan Strider" XYZ="32.71877,-25.20327,-43.77738" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0003FDFA6CEDFC2)) and (not IsBranchStepComplete(0xE0003FDFA6CEDFC2, 1, 5)))">
 				<UseObject QuestId="0xE0003FDFA6CEDFC2" ObjectName="Force Field Control" BranchId="1" StepId="5" Radius="6" WaitTime="5" XYZ="33.76784,-25.02946,-46.7832" />
@@ -1519,7 +1090,20 @@
 				<MoveTo QuestId="0xE000D609EBFB157F" Name="Scavengers" XYZ="-5.654844,-14.499,-2.59095" />
 			</If>
 			<If Condition="((HasQuest(0xE000D609EBFB157F)) and (not IsStepComplete(0xE000D609EBFB157F, 5)))">
-				<Grind GrindRef="Last Battle of the Endar Spire 5" While="(not IsStepComplete(0xE000D609EBFB157F, 5))" />
+				<Grind While="(not IsStepComplete(0xE000D609EBFB157F, 5))">
+					<GrindArea Name="Last Battle of the Endar Spire 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Pistoleer</Mob>
+							<Mob>Scavenger Heavy</Mob>
+							<Mob>Scavenger Junksifter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-5.654844,-14.499,-2.59095" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000D609EBFB157F)) and (not IsStepComplete(0xE000D609EBFB157F, 6)))">
 				<MoveTo QuestId="1" XYZ="-4.067047,-14.479,-1.36656" />
@@ -1529,7 +1113,20 @@
 				<MoveTo QuestId="0xE000D609EBFB157F" Name="Power 2" XYZ="2.831532,-14.479,-1.266659" />
 			</If>
 			<If Condition="((HasQuest(0xE000D609EBFB157F)) and (not IsStepComplete(0xE000D609EBFB157F, 8)))">
-				<Grind GrindRef="Last Battle of the Endar Spire 8" While="(not IsStepComplete(0xE000D609EBFB157F, 8))" />
+				<Grind While="(not IsStepComplete(0xE000D609EBFB157F, 8))">
+					<GrindArea Name="Last Battle of the Endar Spire 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Brute</Mob>
+							<Mob>Scavenger Brawler</Mob>
+							<Mob>Scavenger Quickshot</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="2.745125,-14.501,-2.718662" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000D609EBFB157F)) and (not IsStepComplete(0xE000D609EBFB157F, 9)))">
 				<MoveTo QuestId="1" XYZ="2.105196,-14.47975,-3.619657" />
@@ -1605,7 +1202,23 @@
 		<If Condition="((HasQuest(0xE000DFBFD200A6CA)) and (not IsQuestComplete(0xE000DFBFD200A6CA)))">
 			<If Condition="((HasQuest(0xE000DFBFD200A6CA)) and (not IsStepComplete(0xE000DFBFD200A6CA, 2)))">
 				<!-- we need our pet to be passive here so we can get diseased -->
-				<Grind GrindRef="Catalyst 2" While="(not IsStepComplete(0xE000DFBFD200A6CA, 2))" />
+				<Grind While="(not IsStepComplete(0xE000DFBFD200A6CA, 2))">
+					<GrindArea Name="Catalyst 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ravenous Rakghoul</Mob>
+							<Mob>Ferocious Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-61.97029,-12.74378,-21.3593" />
+							<Hotspot Name="My Location" XYZ="-67.16573,-12.93871,-27.35487" />
+							<Hotspot Name="Ferocious Rakghoul" XYZ="-66.5449,-12.92328,-33.66193" />
+							<Hotspot Name="Ravenous Rakghoul" XYZ="-65.46044,-13.65609,-37.59241" />
+							<Hotspot Name="Ferocious Rakghoul" XYZ="-73.18829,-13.27723,-40.17023" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<!-- unpassive now -->
 			</If>
 		</If>
@@ -1629,7 +1242,25 @@
 					</UseObject>
 				</If>
 				<If Condition="((HasQuest(0xE000E6023F4D0CFA)) and (not IsTaskComplete(0xE000E6023F4D0CFA, 2, 0)))">
-					<Grind GrindRef="Burial Grounds Task 1" While="(not IsTaskComplete(0xE000E6023F4D0CFA, 2, 0))" />
+					<Grind While="(not IsTaskComplete(0xE000E6023F4D0CFA, 2, 0))">
+						<GrindArea Name="Burial Grounds Task 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Slavering Rakghoul</Mob>
+								<Mob>Ruthless Rakghoul</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-33.463,-13.40629,-37.42617" />
+								<Hotspot Name="My Location" XYZ="-43.83932,-16.81487,-39.31755" />
+								<Hotspot Name="Gargantuan Rakghoul" XYZ="-47.95966,-16.39622,-37.59528" />
+								<Hotspot Name="Hideous Rakghoul" XYZ="-47.7411,-16.09798,-42.9234" />
+								<Hotspot Name="Slavering Rakghoul" XYZ="-40.07372,-14.7413,-45.51904" />
+								<Hotspot Name="Gargantuan Rakghoul" XYZ="-36.0761,-14.29995,-42.37239" />
+								<Hotspot Name="Hideous Rakghoul" XYZ="-33.9377,-18.724,-21.6348" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<TurnInQuest QuestName="Burial Grounds" QuestId="0xE000E6023F4D0CFA" TurnInName="Cera" XYZ="-71.4049,-12.99647,4.8067" />
@@ -1677,7 +1308,25 @@
 			</If>
 			<!-- Cleanse the Junction (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007EBF8159F048))">
-				<Grind GrindRef="Cleanse the Junction (Bonus)" While="(not IsQuestComplete(0xE0007EBF8159F048))" />
+				<Grind While="(not IsQuestComplete(0xE0007EBF8159F048))">
+					<GrindArea Name="Cleanse the Junction (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Frightful Rakghoul</Mob>
+							<Mob>Stalking Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Frightful Rakghoul" XYZ="-110.7413,-32.06877,97.93333" />
+							<Hotspot Name="Stalking Rakghoul" XYZ="-110.341,-32.06877,95.10437" />
+							<Hotspot Name="Prowling Rakghoul" XYZ="-103.1414,-32.07085,94.62357" />
+							<Hotspot Name="Prowling Rakghoul" XYZ="-109.0818,-32.0633,87.4408" />
+							<Hotspot Name="Stalking Rakghoul" XYZ="-98.94952,-32.07085,95.95392" />
+							<Hotspot Name="Prowling Rakghoul" XYZ="-94.12566,-32.07085,100.2057" />
+							<Hotspot Name="Furious Rakghoul" XYZ="-94.2645,-32.06877,105.3968" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0006977F87F6A5D)) and (not IsBranchStepComplete(0xE0006977F87F6A5D, 3, 3)))">
 				<!-- Move back to elevator -->
@@ -1744,7 +1393,22 @@
 			</If>
 			<!-- Clear a Path to the Chemworks (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000F41212F76DF4))">
-				<Grind GrindRef="Clear a Path to the Chemworks (Bonus)" While="(not IsQuestComplete(0xE000F41212F76DF4))" />
+				<Grind While="(not IsQuestComplete(0xE000F41212F76DF4))">
+					<GrindArea Name="Clear a Path to the Chemworks (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rogue Disposal Droid</Mob>
+							<Mob>Defective Security Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Defective Security Droid" XYZ="-75.1836,-21.00356,126.423" />
+							<Hotspot Name="Rogue Disposal Droid" XYZ="-80.244,-20.86188,130.5524" />
+							<Hotspot Name="My Location" XYZ="-75.89044,-20.93488,130.1569" />
+							<Hotspot Name="Defective Security Droid" XYZ="-78.4221,-21.00337,126.3218" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		<!--Knight - Catching up with Watcher One - 0xE000CFB188BBF286 - Step: 6 - Branch: 1-->
@@ -1756,7 +1420,21 @@
 				<TalkTo QuestId="0xE000CFB188BBF286" Name="Watcher One" XYZ="-51.0645,-26.919,141.0966" />
 			</If>
 			<If Condition="((HasQuest(0xE000CFB188BBF286)) and (not IsBranchStepComplete(0xE000CFB188BBF286, 1, 7)))">
-				<Grind GrindRef="Kill Watcher One" While="(not IsBranchStepComplete(0xE000CFB188BBF286, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000CFB188BBF286, 1, 7))">
+					<GrindArea Name="Kill Watcher One">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Shadow Captain</Mob>
+							<Mob>Imperial Shadow Commando</Mob>	
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Shadow Captain" XYZ="-51.15228,-26.92,141.1446" />
+							<Hotspot Name="Imperial Shadow Commando" XYZ="-50.4533,-26.92488,140.8612" />
+							<Hotspot Name="Imperial Shadow Commando" XYZ="-51.3175,-26.92488,141.5571" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000CFB188BBF286)) and (not IsBranchStepComplete(0xE000CFB188BBF286, 1, 9)))">
 				<TurnInQuest QuestName="Catching up with Watcher One" QuestId="0xE000CFB188BBF286" TurnInName="RE-M0" XYZ="-51.7864,-26.9271,141.2185" />
@@ -1898,7 +1576,26 @@
 			</If>
 			<!-- End the Invasion (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00085507B146F0E))">
-				<Grind GrindRef="End the Invasion (Bonus)" While="(not IsQuestComplete(0xE00085507B146F0E))" />
+				<Grind While="(not IsQuestComplete(0xE00085507B146F0E))">
+					<GrindArea Name="End the Invasion (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Savage Rakghoul</Mob>
+							<Mob>Rakghoul Mangler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Savage Rakghoul" XYZ="-204.9489,-19.41045,80.01137" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-202.9987,-19.10403,95.47566" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-208.0277,-19.10237,95.39162" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-217.3195,-19.099,95.05534" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-219.1835,-19.08853,98.97794" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-219.6559,-19.10055,99.63468" />
+							<Hotspot Name="Rakghoul Mangler" XYZ="-219.2338,-19.0709,106.3147" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-219.0545,-20.299,107.4054" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 6)))">
 				<!-- return to Nelex function -->
@@ -1951,7 +1648,18 @@
 				<MoveTo QuestId="0xE00072624DFC54F8" Name="My Location" XYZ="55.1852,-25.74143,-23.72658" />
 			</If>
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 2, 2)))">
-				<Grind GrindRef="Super Reactor 2, 2" While="(not IsBranchStepComplete(0xE00072624DFC54F8, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00072624DFC54F8, 2, 2))">
+					<GrindArea Name="Super Reactor 2, 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Master Cin Tykan</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Master Cin Tykan" XYZ="56.24223,-25.45085,-26.02337" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 2, 3)))">
 				<MoveTo QuestId="1" XYZ="56.49065,-25.45085,-27.18383" />
@@ -1969,13 +1677,45 @@
 		<!--Knight - The Rescue - 0xE000437B1D0CE17C - Step: 2 - Branch: 4--> 
 		<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsQuestComplete(0xE000437B1D0CE17C)))">
 			<If Condition="(not IsQuestComplete(0xE000DBCF7D50C09F))">
-				<Grind GrindRef="Vanquishing the Vanguard (Bonus)" While="(not IsQuestComplete(0xE000DBCF7D50C09F))" />
+				<Grind While="(not IsQuestComplete(0xE000DBCF7D50C09F))">
+					<GrindArea Name="Vanquishing the Vanguard (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Sniper</Mob>
+							<Mob>Imperial Scout</Mob>	
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Sniper" XYZ="62.48985,-17.44375,-37.8436" />
+							<Hotspot Name="My Location" XYZ="60.93518,-17.44373,-39.38099" />
+							<Hotspot Name="Imperial Sniper" XYZ="61.2893,-17.8346,-32.9039" />
+							<Hotspot Name="Imperial Sniper" XYZ="59.86479,-17.8346,-32.93737" />
+							<Hotspot Name="Imperial Scout" XYZ="59.5661,-17.8346,-32.8197" />
+							<Hotspot Name="Imperial Sniper" XYZ="56.30118,-18.16048,-30.91031" />
+							<Hotspot Name="Imperial Scout" XYZ="56.08619,-18.24741,-32.16912" />
+							<Hotspot Name="Imperial Sniper" XYZ="55.93562,-18.26489,-31.13363" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 2)))">
 				<TalkTo QuestId="0xE000437B1D0CE17C" Name="Doctor Godera" XYZ="52.436,-18.41866,-33.5506" />
 			</If>
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 4)))">
-				<Grind GrindRef="Kill Watcher One For Real this time" While="(not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 4))">
+					<GrindArea Name="Kill Watcher One For Real this time">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Watcher One</Mob>
+							<Mob>Imperial Operative</Mob>	
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Watcher One" XYZ="50.77835,-18.4273,-30.21095" />
+							<Hotspot Name="Imperial Operative" XYZ="51.00975,-18.43884,-30.73938" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 5)))">
 				<!-- it wouldnt talk to him im not sure why tried a turn in as well and still nothing. -->
@@ -2079,7 +1819,18 @@ Room: int_h4g_Transport5_smuggler_room08
 				<TalkTo QuestId="0xE00062250D5CFE7E" Name="Needles" XYZ="143.2636,-14.20756,-58.4022" />
 			</If>
 			<If Condition="((HasQuest(0xE00062250D5CFE7E)) and (not IsBranchStepComplete(0xE00062250D5CFE7E, 1, 4)))">
-				<Grind GrindRef="Kill Needles" While="(IsBranchStepComplete(0xE00062250D5CFE7E, 1, 4))" />
+				<Grind While="(IsBranchStepComplete(0xE00062250D5CFE7E, 1, 4))">
+					<GrindArea Name="Kill Needles">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Needles</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Needles" XYZ="143.2636,-14.20756,-58.4022" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00062250D5CFE7E)) and (not IsBranchStepComplete(0xE00062250D5CFE7E, 1, 5)))">
 				<UseObject QuestId="0xE00062250D5CFE7E" ObjectName="Needles's Disease Samples" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="143.7785,-14.22287,-55.49529" />
@@ -2198,14 +1949,56 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Pay Back the Pirates (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0008D9A929093AE))">
-				<Grind GrindRef="Pay Back the Pirates (Bonus)" While="(not IsQuestComplete(0xE0008D9A929093AE))" />
+				<Grind While="(not IsQuestComplete(0xE0008D9A929093AE))">
+					<GrindArea Name="Pay Back the Pirates (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Crackshot</Mob>
+							<Mob>Scavenger Marauder</Mob>
+							<Mob>Scavenger Poacher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Scavenger Crackshot" XYZ="71.2494,-20.06107,60.5864" />
+							<Hotspot Name="Scavenger Marauder" XYZ="72.3583,-20.06107,62.4619" />
+							<Hotspot Name="Scavenger Poacher" XYZ="71.9956,-20.06107,65.23" />
+							<Hotspot Name="Scavenger Marauder" XYZ="79.2418,-18.88866,64.82059" />
+							<Hotspot Name="Scavenger Marauder" XYZ="79.08601,-19.43411,69.6515" />
+							<Hotspot Name="Scavenger Marauder" XYZ="80.9155,-19.4201,74.6772" />
+							<Hotspot Name="Scavenger Marauder" XYZ="94.2438,-19.4251,73.5022" />
+							<Hotspot Name="Scavenger Marauder" XYZ="106.2824,-19.5315,75.0774" />
+							<Hotspot Name="Scavenger Crackshot" XYZ="103.3711,-19.5353,64.2094" />
+							<Hotspot Name="Scavenger Marauder" XYZ="100.08,-19.5353,66.0216" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Beyond Redemption -->
 		<If Condition="((HasQuest(0xE00006BC5E641CBC)) and (not IsQuestComplete(0xE00006BC5E641CBC)))">
 			<If Condition="((HasQuest(0xE00006BC5E641CBC)) and (not IsStepComplete(0xE00006BC5E641CBC, 2)))">
-				<Grind GrindRef="Beyond Redemption" While="(not IsStepComplete(0xE00006BC5E641CBC, 2))" />
+				<Grind While="(not IsStepComplete(0xE00006BC5E641CBC, 2))">
+					<GrindArea Name="Beyond Redemption">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Pirate Stalker</Mob>
+							<Mob>Pirate Scoundrel</Mob>
+							<Mob>Pirate Enforcer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Pirate Stalker" XYZ="101.4035,-17.6096,80.76182" />
+							<Hotspot Name="Pirate Scoundrel" XYZ="103.4503,-17.6096,82.3202" />
+							<Hotspot Name="Pirate Enforcer" XYZ="104.1682,-17.6088,87.7292" />
+							<Hotspot Name="Pirate Stalker" XYZ="91.1701,-17.6184,79.0848" />
+							<Hotspot Name="Pirate Enforcer" XYZ="90.4593,-17.61843,78.9546" />
+							<Hotspot Name="Pirate Stalker" XYZ="85.8717,-17.61843,80.9231" />
+							<Hotspot Name="Pirate Stalker" XYZ="80.5884,-17.60757,79.4133" />
+							<Hotspot Name="Pirate Enforcer" XYZ="81.961,-17.6083,83.08113" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- I missed stage 1
 		 <If Condition="((HasQuest()) and (not IsQuestComplete()))">
@@ -2225,14 +2018,46 @@ Room: int_h4g_Transport5_smuggler_room08
 			<If Condition="((HasQuest(0xE00009AD2B62D7A8)) and (not IsQuestComplete(0xE00009AD2B62D7A8)))">
 				<MoveTo QuestId="1" XYZ="90.61472,-17.56916,83.17904" />
 				<Interact QuestId="0xE00009AD2B62D7A8" Name="Munitions Supply" BranchId="1" StepId="4" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="90.46648,-17.40497,83.13552" />
-				<Grind GrindRef="Final Stage - Pirate Justice (Bonus)" While="(HasQuest(0xE00009AD2B62D7A8))" />
+				<Grind While="(HasQuest(0xE00009AD2B62D7A8))">
+					<GrindArea Name="Final Stage - Pirate Justice (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Pirate Battlemaster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Pirate Battlemaster" XYZ="91.4077,-17.51573,84.3741" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Missing Link -->
 		<If Condition="((HasQuest(0xE00093414E087CF8)) and (not IsQuestComplete(0xE00093414E087CF8)))">
 			<If Condition="((HasQuest(0xE00093414E087CF8)) and (not IsStepComplete(0xE00093414E087CF8, 2)))">
-				<Grind GrindRef="Missing Link" While="(not IsStepComplete(0xE00093414E087CF8, 2))" />
+				<Grind While="(not IsStepComplete(0xE00093414E087CF8, 2))">
+					<GrindArea Name="Missing Link">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Savage Elder Rakghoul</Mob>
+							<Mob>Festering Elder Rakghoul</Mob>
+							<Mob>Enraged Elder Rakghoul</Mob>
+							<Mob>Infectious Elder Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="95.82141,-17.60682,84.674" />
+							<Hotspot Name="My Location" XYZ="93.15937,-17.54605,83.67854" />
+							<Hotspot Name="Festering Elder Rakghoul" XYZ="98.09399,-17.6088,86.92043" />
+							<Hotspot Name="Enraged Elder Rakghoul" XYZ="97.75029,-17.6088,86.90572" />
+							<Hotspot Name="Infectious Elder Rakghoul" XYZ="95.4226,-17.6046,95.979" />
+							<Hotspot Name="Enraged Elder Rakghoul" XYZ="93.34283,-17.60876,88.66876" />
+							<Hotspot Name="Ghastly Elder Rakghoul" XYZ="89.3417,-17.60876,91.27648" />
+							<Hotspot Name="Enraged Elder Rakghoul" XYZ="90.35683,-17.48468,87.66253" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2274,7 +2099,18 @@ Room: int_h4g_Transport5_smuggler_room08
 				<UseObject QuestId="0xE000D46F175BC164" ObjectName="Bones" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="5" XYZ="104.7849,-18.77241,108.6212" />
 			</If>
 			<If Condition="((HasQuest(0xE000BD7E0821E9B1)) and (not IsStepComplete(0xE000BD7E0821E9B1, 3)))">
-				<Grind GrindRef="Where Darkness Abides 3" While="(not IsStepComplete(0xE000BD7E0821E9B1, 3))" />
+				<Grind While="(not IsStepComplete(0xE000BD7E0821E9B1, 3))">
+					<GrindArea Name="Where Darkness Abides 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Nekghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Nekghoul" XYZ="118.3985,-17.14531,116.955" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BD7E0821E9B1)) and (not IsStepComplete(0xE000BD7E0821E9B1, 4)))">
 				<MoveTo QuestId="1" XYZ="118.7108,-17.14531,116.9689" />
@@ -2345,7 +2181,28 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Operation Rakghoul (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000A9F355DACC0F))">
-				<Grind GrindRef="Operation Rakghoul (Bonus)" While="(not IsQuestComplete(0xE000A9F355DACC0F))" />
+				<Grind While="(not IsQuestComplete(0xE000A9F355DACC0F))">
+					<GrindArea Name="Operation Rakghoul (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Venomous Rakghoul</Mob>
+							<Mob>Contagious Rakghoul</Mob>
+							<Mob>Noxious Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Venomous Rakghoul" XYZ="57.89151,-20.65611,36.95065" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="58.74325,-20.66408,36.84005" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="51.49568,-20.41817,37.32482" />
+							<Hotspot Name="Contagious Rakghoul" XYZ="53.88029,-20.23901,40.18136" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="58.30935,-19.93946,40.85525" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="47.46616,-21.55076,29.89772" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="48.3024,-20.97537,23.56224" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="52.98423,-19.34166,45.93248" />
+							<Hotspot Name="Noxious Rakghoul" XYZ="50.44632,-19.73303,41.86412" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2362,7 +2219,28 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Trouble at the Highway Ruins (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0001978537C3444))">
-				<Grind GrindRef="Trouble at the Highway Ruins (Bonus)" While="(not IsQuestComplete(0xE0001978537C3444))" />
+				<Grind While="(not IsQuestComplete(0xE0001978537C3444))">
+					<GrindArea Name="Trouble at the Highway Ruins (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scavenger Gunner</Mob>
+							<Mob>Scavenger Raider</Mob>
+							<Mob>Scavenger Demolitionist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Scavenger Gunner" XYZ="71.64673,-18.07961,8.300007" />
+							<Hotspot Name="Scavenger Raider" XYZ="67.2297,-18.38057,6.3293" />
+							<Hotspot Name="Scavenger Demolitionist" XYZ="66.06914,-18.27704,2.545802" />
+							<Hotspot Name="Scavenger Gunner" XYZ="72.1784,-18.4894,3.9595" />
+							<Hotspot Name="Scavenger Gunner" XYZ="75.9994,-18.62533,15.2831" />
+							<Hotspot Name="Scavenger Gunner" XYZ="83.0654,-18.72905,15.0741" />
+							<Hotspot Name="Scavenger Raider" XYZ="84.01701,-18.44509,10.5724" />
+							<Hotspot Name="Scavenger Gunner" XYZ="85.8032,-18.67301,18.6668" />
+							<Hotspot Name="Scavenger Raider" XYZ="91.0912,-18.66137,16.696" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2383,7 +2261,21 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Swoop Bike Safari (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000DE2541297A13))">
-				<Grind GrindRef="Swoop Bike Safari (Bonus)" While="(not IsQuestComplete(0xE000DE2541297A13))" />
+				<Grind While="(not IsQuestComplete(0xE000DE2541297A13))">
+					<GrindArea Name="Swoop Bike Safari (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Bogstalker Prowler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="122.5559,-16.63184,18.07435" />
+							<Hotspot Name="Bogstalker Prowler" XYZ="112.582,-18.48756,28.02441" />
+							<Hotspot Name="Bogstalker Prowler" XYZ="108.7347,-18.18941,22.70597" />
+							<Hotspot Name="Bogstalker Prowler" XYZ="119.3401,-16.63633,24.48595" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2486,7 +2378,31 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Blaster Fodder (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000862F81BC926C))">
-				<Grind GrindRef="Blaster Fodder (Bonus)" While="(not IsQuestComplete(0xE000862F81BC926C))" />
+				<Grind While="(not IsQuestComplete(0xE000862F81BC926C))">
+					<GrindArea Name="Blaster Fodder (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Flesh-Eating Rakghoul</Mob>
+							<Mob>Scavenging Rakghoul</Mob>
+							<Mob>Infected Republic Soldier</Mob>
+							<Mob>Gruesome Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="40.97122,-13.91006,-41.27464" />
+							<Hotspot Name="Flesh-Eating Rakghoul" XYZ="48.99661,-14.21062,-44.02174" />
+							<Hotspot Name="Scavenging Rakghoul" XYZ="50.61166,-15.05297,-48.80247" />
+							<Hotspot Name="Infected Republic Soldier" XYZ="44.1757,-15.27044,-50.0227" />
+							<Hotspot Name="Scavenging Rakghoul" XYZ="43.95106,-16.29753,-55.85452" />
+							<Hotspot Name="Gruesome Rakghoul" XYZ="33.9508,-16.08186,-54.6498" />
+							<Hotspot Name="Scavenging Rakghoul" XYZ="33.50932,-17.73394,-59.06566" />
+							<Hotspot Name="Infected Republic Soldier" XYZ="47.1399,-19.81051,-75.7559" />
+							<Hotspot Name="Flesh-Eating Rakghoul" XYZ="51.61768,-19.07903,-71.59836" />
+							<Hotspot Name="Flesh-Eating Rakghoul" XYZ="50.39097,-18.09933,-66.06921" />
+							<Hotspot Name="Flesh-Eating Rakghoul" XYZ="44.75702,-17.26695,-61.35128" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		

@@ -29,53 +29,6 @@
 
 	<GrindAreas>
 		
-		<GrindArea Name="Stage 3 - Hesk's Hospitality (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Khobisho Beast-Handler</Mob>
-				<Mob>Hesk Security Battledroid</Mob>
-				<Mob>Manju Slaver Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Khobisho Beast-Handler" XYZ="-289.5649,-23.1897,-257.5907" />
-				<Hotspot Name="Hesk Security Battledroid" XYZ="-295.0101,-22.91434,-258.9418" />
-				<Hotspot Name="Hesk Security Battledroid" XYZ="-295.3418,-22.91237,-254.1421" />
-				<Hotspot Name="Hesk Security Battledroid" XYZ="-299.6166,-22.91237,-253.6104" />
-				<Hotspot Name="Manju Slaver Brute" XYZ="-291.3965,-23.98117,-243.1678" />
-				<Hotspot Name="My Location" XYZ="-245.4969,6.850893,173.5061" />
-			
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Mercenary Hovertanks">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Hover Tank</Mob>
-			
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hover Tank" XYZ="-413.9881,-22.29283,-173.1212" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="To Even The Odds">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Regulator Heavy Field Support</Mob>
-			
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-385.8305,-22.02652,-175.3454" />
-				<Hotspot Name="My Location" XYZ="-394.4202,-22.81941,-166.417" />
-				<Hotspot Name="My Location" XYZ="-393.9836,-23.07402,-159.8943" />
-				<Hotspot Name="My Location" XYZ="-389.2915,-22.73564,-160.2857" />
-				<Hotspot Name="My Location" XYZ="-393.1391,-23.0008,-154.5116" />
-			</Hotspots>
-		</GrindArea>
-
 		<GrindArea Name="The Lurker">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>100</MaxLevel>
@@ -93,20 +46,6 @@
 			</Hotspots>
 		</GrindArea>
 
-		<GrindArea Name="Isotope-5 Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Rudimentary Isotope-5 Droid</Mob>
-			
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-77.8741,-70.82447,233.8985" />
-				<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-78.8618,-70.28159,239.2766" />
-				<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-83.6789,-70.84019,234.9307" />
-			</Hotspots>
-		</GrindArea>
-
 		<GrindArea Name="Satellite Surveillance Droid">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>100</MaxLevel>
@@ -120,35 +59,6 @@
 				<Hotspot Name="Satellite Surveillance Droid" XYZ="-124.0301,-12.00672,-150.5619" />
 				<Hotspot Name="Satellite Surveillance Droid" XYZ="-120.8989,-13.06401,-150.7865" />
 				<Hotspot Name="Satellite Surveillance Droid" XYZ="-126.9557,-11.59727,-146.9317" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="The Backup Plan">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Hutt Security Enforcer</Mob>
-			
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-26.68256,-15.1973,-402.4035" />
-				<Hotspot Name="My Location" XYZ="-31.83756,-15.18923,-408.5471" />
-				<Hotspot Name="My Location" XYZ="-38.27819,-14.93066,-408.6795" />
-				<Hotspot Name="My Location" XYZ="-39.97698,-15.19335,-405.7448" />
-				<Hotspot Name="My Location" XYZ="-35.07177,-15.20622,-413.0183" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="The Stuff of Nightmares (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Underworld Nightmare Beast</Mob>
-			
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Underworld Nightmare Beast" XYZ="-256.6679,-25.53194,245.5606" />
-				<Hotspot Name="Underworld Nightmare Beast" XYZ="-260.7624,-25.42487,273.6867" />
 			</Hotspots>
 		</GrindArea>
 
@@ -352,7 +262,26 @@
 			</If>
 			<!-- Stage 3 - Hesk's Hospitality (Bonus) -->
 			<If Condition="((HasQuest(0xE0003240F24CF1EA)) and (not IsStepComplete(0xE0003240F24CF1EA, 4)))">
-				<Grind GrindRef="Stage 3 - Hesk's Hospitality (Bonus)" While="(not IsStepComplete(0xE0003240F24CF1EA, 4))"/>
+				<Grind While="(not IsStepComplete(0xE0003240F24CF1EA, 4))">
+					<GrindArea Name="Stage 3 - Hesk's Hospitality (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Khobisho Beast-Handler</Mob>
+							<Mob>Hesk Security Battledroid</Mob>
+							<Mob>Manju Slaver Brute</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Khobisho Beast-Handler" XYZ="-289.5649,-23.1897,-257.5907" />
+							<Hotspot Name="Hesk Security Battledroid" XYZ="-295.0101,-22.91434,-258.9418" />
+							<Hotspot Name="Hesk Security Battledroid" XYZ="-295.3418,-22.91237,-254.1421" />
+							<Hotspot Name="Hesk Security Battledroid" XYZ="-299.6166,-22.91237,-253.6104" />
+							<Hotspot Name="Manju Slaver Brute" XYZ="-291.3965,-23.98117,-243.1678" />
+							<Hotspot Name="My Location" XYZ="-245.4969,6.850893,173.5061" />
+
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 4 - Hesk's Hospitality (Bonus) -->
 			<If Condition="((HasQuest(0xE0003540F24CF403)) and (not IsStepComplete(0xE0003540F24CF403, 4)))">
@@ -411,7 +340,19 @@
 				<PickUpQuest QuestName="To Even The Odds" QuestId="0xE0005D8285FA7C71" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Imperial Command Uplink" XYZ="-380.1827,-21.30313,-169.9807" />
 				<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-402.012,-22.68539,-188.5692" />
 				<UserDialog Title="BuddyWing needs your help!" Message="Bot can't handle killing these tanks because of their small hit box and they have collision. Ranged classes can handle killing them but will keep running into the tank trying to loot it. Melee won't even be able to kill them at all since they won't be able to get in range to kill them. Warriors might be the only class that might not have problems if they can keep on top of the tank via force leap/charge. Anyways kill 3 hover tanks and then click ok. " />
-				<Grind GrindRef="Mercenary Hovertanks" While="(not IsStepComplete(0xE000680B73FBCF77, 2))"/>
+				<Grind While="(not IsStepComplete(0xE000680B73FBCF77, 2))">
+					<GrindArea Name="Mercenary Hovertanks">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Hover Tank</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Hover Tank" XYZ="-413.9881,-22.29283,-173.1212" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((not IsStepComplete(0xE000680B73FBCF77, 3)))">
 				<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-404.7485,-22.97453,-169.8235" />
@@ -474,7 +415,23 @@
 				
 			
 			<If Condition="((not IsStepComplete(0xE0005D8285FA7C71, 2)))">
-				<Grind GrindRef="To Even The Odds" While="(not IsStepComplete(0xE0005D8285FA7C71, 2))"/>
+				<Grind While="(not IsStepComplete(0xE0005D8285FA7C71, 2))">
+					<GrindArea Name="To Even The Odds">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Regulator Heavy Field Support</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-385.8305,-22.02652,-175.3454" />
+							<Hotspot Name="My Location" XYZ="-394.4202,-22.81941,-166.417" />
+							<Hotspot Name="My Location" XYZ="-393.9836,-23.07402,-159.8943" />
+							<Hotspot Name="My Location" XYZ="-389.2915,-22.73564,-160.2857" />
+							<Hotspot Name="My Location" XYZ="-393.1391,-23.0008,-154.5116" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005D8285FA7C71)) and (not IsStepComplete(0xE0005D8285FA7C71, 3)))">
 				<MoveTo QuestId="0xE0005D8285FA7C71" XYZ="-380.1716,-21.30587,-170.119" />
@@ -563,7 +520,20 @@
 			<!-- The Stuff of Nightmares (Bonus) -->
 			//If Condition="(Me.AdvancedClass != AdvancedClass.Operative)">
 			<If Condition="((not IsStepComplete(0xE0000A315C1201E4, 2)))">
-				<Grind GrindRef="The Stuff of Nightmares (Bonus)" While="(not IsStepComplete(0xE0000A315C1201E4, 2))"/>
+				<Grind While="(not IsStepComplete(0xE0000A315C1201E4, 2))">
+					<GrindArea Name="The Stuff of Nightmares (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Underworld Nightmare Beast</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Underworld Nightmare Beast" XYZ="-256.6679,-25.53194,245.5606" />
+							<Hotspot Name="Underworld Nightmare Beast" XYZ="-260.7624,-25.42487,273.6867" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			//If>
 			
@@ -936,7 +906,21 @@
 														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
-				<Grind GrindRef="Isotope-5 Droids" While="(not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 2))">
+					<GrindArea Name="Isotope-5 Droids">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Rudimentary Isotope-5 Droid</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-77.8741,-70.82447,233.8985" />
+							<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-78.8618,-70.28159,239.2766" />
+							<Hotspot Name="Rudimentary Isotope-5 Droid" XYZ="-83.6789,-70.84019,234.9307" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 3)))">
 				<PickUpQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Datapad" XYZ="-72.78675,-70.51324,232.839" />
@@ -1123,7 +1107,23 @@
 				<TalkTo QuestName="Revenge of the Archon" QuestId="0xE000E74DF274E415" Name="The Archon" WaitTime="1" XYZ="-21.2011,-11.4919,-473.4531" />
 			</If>
 			<If Condition="((not IsStepComplete(0xE000D27A47E88928, 2)))">
-				<Grind GrindRef="The Backup Plan" While="(not IsStepComplete(0xE000D27A47E88928, 2))"/>
+				<Grind While="(not IsStepComplete(0xE000D27A47E88928, 2))">
+					<GrindArea Name="The Backup Plan">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Hutt Security Enforcer</Mob>
+
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-26.68256,-15.1973,-402.4035" />
+							<Hotspot Name="My Location" XYZ="-31.83756,-15.18923,-408.5471" />
+							<Hotspot Name="My Location" XYZ="-38.27819,-14.93066,-408.6795" />
+							<Hotspot Name="My Location" XYZ="-39.97698,-15.19335,-405.7448" />
+							<Hotspot Name="My Location" XYZ="-35.07177,-15.20622,-413.0183" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000E74DF274E415, 1, 10)))">
 				<If Condition="(Me.Position.X &gt; -37) and (Me.Position.X &lt; -9) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -11) and (Me.Position.Z &gt; -477) and (Me.Position.Z &lt; -391)">

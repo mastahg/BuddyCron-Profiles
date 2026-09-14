@@ -37,237 +37,6 @@
 	
 	<GrindAreas> 
 
-		<GrindArea Name="Impress This (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Sniper</Mob>
-				<Mob>Imperial Commando</Mob>
-				<Mob>Imperial Shocktrooper</Mob>
-				<Mob>Imperial Chief Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Sniper" XYZ="-111.3402,-4.785575,-55.8443" />
-				<Hotspot Name="Imperial Shocktrooper" XYZ="-110.0152,-5.134033,-52.5984" />
-				<Hotspot Name="Imperial Chief Gunner" XYZ="-103.4045,-5.090299,-52.1123" />
-				<Hotspot Name="Imperial Sniper" XYZ="-105.6353,-4.223913,-56.6793" />
-				<Hotspot Name="Imperial Shocktrooper" XYZ="-111.3903,-4.747698,-64.3093" />
-				<Hotspot Name="Imperial Commando" XYZ="-103.9306,-3.918515,-64.09966" />
-				<Hotspot Name="Imperial Commando" XYZ="-100.3937,-3.296041,-69.96992" />
-				<Hotspot Name="Imperial Shocktrooper" XYZ="-97.0073,-2.893552,-69.0851" />
-				<Hotspot Name="Imperial Sniper" XYZ="-98.5359,-2.555998,-75.31039" />
-				<Hotspot Name="Imperial Commando" XYZ="-103.9348,-3.110291,-77.9733" />
-				<Hotspot Name="Imperial Sniper" XYZ="-107.7246,-3.640844,-77.62358" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Prowler Prey (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prowling Shaclaw Stalker</Mob>
-				<Mob>Prowling Shaclaw Infant</Mob>
-				<Mob>Prowling Shaclaw Gnasher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prowling Shaclaw Stalker" XYZ="-227.043,-1.210431,-5.566301" />
-				<Hotspot Name="Prowling Shaclaw Infant" XYZ="-230.6537,-1.756082,-0.997522" />
-				<Hotspot Name="Prowling Shaclaw Gnasher" XYZ="-228.4245,-1.770646,4.428387" />
-				<Hotspot Name="Prowling Shaclaw Infant" XYZ="-233.9255,-1.581605,2.797454" />
-				<Hotspot Name="Prowling Shaclaw Stalker" XYZ="-241.0387,-1.404873,9.861374" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="A Thorny Path">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Shaclaw Alpha</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Shaclaw Alpha" XYZ="-240.9437,-1.487784,12.49102" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Dusk Hunt (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Dusk Squadron Rifleman</Mob>
-				<Mob>Dusk Squadron Soldier</Mob>
-				<Mob>Dusk Squadron Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dusk Squadron Rifleman" XYZ="-199.9187,-4.143004,25.95116" />
-				<Hotspot Name="Dusk Squadron Captain" XYZ="-201.8354,-4.234441,33.30235" />
-				<Hotspot Name="Dusk Squadron Soldier" XYZ="-199.6671,-4.189685,31.73247" />
-				<Hotspot Name="Dusk Squadron Rifleman" XYZ="-194.4871,-4.112819,32.0157" />
-				<Hotspot Name="Dusk Squadron Captain" XYZ="-197.2253,-4.233834,32.54497" />
-				<Hotspot Name="Dusk Squadron Captain" XYZ="-204.8052,-4.169617,33.1091" />
-				<Hotspot Name="Dusk Squadron Soldier" XYZ="-179.7372,-5.669146,25.0049" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Taking the Bait (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Ambusher</Mob>
-				<Mob>Imperial Scout</Mob>
-				<Mob>Imperial Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Ambusher" XYZ="-169.7789,-0.1457142,54.68896" />
-				<Hotspot Name="Imperial Scout" XYZ="-169.6184,-0.09149887,55.18972" />
-				<Hotspot Name="Imperial Raider" XYZ="-177.0134,-0.7532519,61.6205" />
-				<Hotspot Name="Imperial Ambusher" XYZ="-182.9346,-0.45022,62.30082" />
-				<Hotspot Name="Imperial Ambusher" XYZ="-187.9156,-0.4437729,63.5715" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Lack of Vision (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Auxiliary Troop</Mob>
-				<Mob>Sith Acolyte</Mob>
-				<Mob>Sith Assassin</Mob>
-				<Mob>Sith Acolyte</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith Acolyte" XYZ="-46.95845,2.015081,1.001566" />
-				<Hotspot Name="Sith Assassin" XYZ="-41.59212,2.001,2.899001" />
-				<Hotspot Name="Sith Assassin" XYZ="-38.91223,2.000999,-1.446408" />
-				<Hotspot Name="Imperial Auxiliary Troop" XYZ="-41.1837,2.011,6.2219" />
-				<Hotspot Name="Sith Assassin" XYZ="-31.4268,1.211,4.2553" />
-				<Hotspot Name="Sith Assassin" XYZ="-31.6418,1.201,-0.1643481" />
-				<Hotspot Name="Sith Assassin" XYZ="-27.27469,-5.199,3.914545" />
-				<Hotspot Name="Imperial Auxiliary Troop" XYZ="-31.6645,-5.199,1.7863" />
-				<Hotspot Name="Sith Assassin" XYZ="-27.53088,-5.051012,-3.421692" />
-				<Hotspot Name="Sith Assassin" XYZ="-29.57176,-5.199,-3.158634" />
-				<Hotspot Name="Sith Assassin" XYZ="-34.84967,-5.199,-10.67226" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Visionary 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lord Beldiss</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Beldiss" XYZ="-42.8577,-5.19401,-11.0178" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Road to Healing (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Ambusher</Mob>
-				<Mob>Gormak Shrine Raider</Mob>
-				<Mob>Gormak Tech Champion</Mob>
-				<Mob>Gormak Bruiser</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Ambusher" XYZ="-196.159,-4.873553,-141.0194" />
-				<Hotspot Name="Gormak Tech Champion" XYZ="-186.3191,-3.817807,-143.6395" />
-				<Hotspot Name="Gormak Bruiser" XYZ="-185.6631,-3.789106,-148.7808" />
-				<Hotspot Name="Gormak Bruiser" XYZ="-183.1069,-3.290364,-140.59" />
-				<Hotspot Name="Gormak Tech Champion" XYZ="-181.9659,-3.227436,-144.2426" />
-				<Hotspot Name="Gormak Tech Champion" XYZ="-177.0107,-2.788301,-145.4282" />
-				<Hotspot Name="Gormak Shrine Raider" XYZ="-177.9913,-2.339916,-157.8535" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Trials 7 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Spirit Guardian</Mob>
-				<Mob>Spirit Beast</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-215.0578,0.5033925,-239.7076" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Trials 10 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Corruption</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corruption" XYZ="-224.1165,0.0009996201,-251.7919" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Prove Yourself (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Proving Grounds Nightmare</Mob>
-				<Mob>Proving Grounds Phantom</Mob>
-				<Mob>Proving Grounds Vision</Mob>
-				<Mob>Proving Grounds Terror</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Proving Grounds Nightmare" XYZ="-217.6388,0.7010008,-245.3996" />
-				<Hotspot Name="Proving Grounds Terror" XYZ="-217.6422,-0.1000004,-251.778" />
-				<Hotspot Name="Proving Grounds Terror" XYZ="-231.2833,-0.09900038,-251.7172" />
-				<Hotspot Name="Proving Grounds Vision" XYZ="-237.5473,-1.099,-252.0353" />
-				<Hotspot Name="Proving Grounds Nightmare" XYZ="-258.6238,-1.09012,-251.486" />
-				<Hotspot Name="Proving Grounds Terror" XYZ="-257.9961,-1.099,-239.8371" />
-				<Hotspot Name="Proving Grounds Phantom" XYZ="-250.8167,-1.099,-235.1107" />
-				<Hotspot Name="Proving Grounds Terror" XYZ="-238.8076,0.5136044,-244.3162" />
-				<Hotspot Name="Proving Grounds Nightmare" XYZ="-232.2175,0.520749,-243.2001" />
-				<Hotspot Name="Proving Grounds Vision" XYZ="-245.3679,0.5000249,-228.1952" />
-				<Hotspot Name="Proving Grounds Phantom" XYZ="-238.9889,0.5000384,-228.4085" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Trials 10 12">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Warrior" XYZ="-239.6639,-1.081078,-236.1806" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Broken Relics (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ancient Droid Sentry</Mob>
-				<Mob>Ancient Sentinel Droid</Mob>
-				<Mob>Ancient Support Droid</Mob>
-				<Mob>Rogue Ancient Battledroid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-220.1311,-6.20363,-141.1913" />
-				<Hotspot Name="Ancient Sentinel Droid" XYZ="-221.8944,-6.197776,-143.3944" />
-				<Hotspot Name="Ancient Support Droid" XYZ="-226.0219,-6.403302,-143.5408" />
-				<Hotspot Name="Ancient Sentinel Droid" XYZ="-230.547,-6.403303,-146.6901" />
-				<Hotspot Name="Ancient Support Droid" XYZ="-226.9741,-6.404307,-149.5768" />
-				<Hotspot Name="Rogue Ancient Battledroid" XYZ="-230.2395,-6.403303,-151.1291" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Marked 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lord Shendan</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Shendan" XYZ="-227.8339,-6.403303,-152.8997" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Stage 1 - Gormak Payback (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -284,99 +53,6 @@
 				<Hotspot Name="My Location" XYZ="-267.9478,-6.9317,-85.36033" />
 				<Hotspot Name="Gormak Tech Tracker" XYZ="-269.8441,-6.939788,-89.75072" />
 				<Hotspot Name="Gormak Tech Tracker" XYZ="-267.9771,-7.860673,-95.38756" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Gormak Country 4 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Striker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Striker" XYZ="-264.9994,-6.952043,-82.7909" />
-				<Hotspot Name="Gormak Striker" XYZ="-260.5745,-6.871853,-75.7847" />
-				<Hotspot Name="Gormak Striker" XYZ="-251.3428,-5.878901,-84.894" />
-				<Hotspot Name="Gormak Striker" XYZ="-277.1292,-8.999,-100.3581" />
-				<Hotspot Name="Gormak Striker" XYZ="-257.6825,-6.997561,-99.9729" />
-				<Hotspot Name="Gormak Striker" XYZ="-252.6439,-7.927613,-98.3688" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="[AREA] Sabotage the Gormak 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Raid Scout</Mob>
-				<Mob>Gormak Raid Duelist</Mob>
-				<Mob>Gormak Raid Lookout</Mob>
-				<Mob>Gormak Raid Spy</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Raid Scout" XYZ="34.02145,23.67463,89.53934" />
-				<Hotspot Name="Gormak Raid Duelist" XYZ="33.6514,23.51217,91.9521" />
-				<Hotspot Name="Gormak Raid Lookout" XYZ="32.09297,23.13457,96.05856" />
-				<Hotspot Name="Gormak Raid Lookout" XYZ="27.74251,23.13359,103.15" />
-				<Hotspot Name="Gormak Raid Lookout" XYZ="25.15645,23.35915,93.71234" />
-				<Hotspot Name="Gormak Raid Lookout" XYZ="22.1465,23.13359,99.508" />
-				<Hotspot Name="Gormak Raid Spy" XYZ="24.0918,23.18918,107.6672" />
-				<Hotspot Name="Gormak Raid Duelist" XYZ="13.7461,23.17605,103.6532" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Gormak Monstrosities 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Immature Cyber Vorantikus</Mob>
-				<Mob>Gormak Beast Trainer</Mob>
-				<Mob>Cyber Vorantikus</Mob>
-				<Mob>Gormak Gunner</Mob>
-				<Mob>Gormak Beast Trainer</Mob>
-				<Mob>Gormak Beast Master</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="76.62077,25.92073,159.0231" />
-				<Hotspot Name="Immature Cyber Vorantikus" XYZ="81.2961,26.08751,155.5019" />
-				<Hotspot Name="Gormak Gunner" XYZ="79.679,26.04914,151.4368" />
-				<Hotspot Name="Gormak Beast Trainer" XYZ="88.9237,26.10753,138.3327" />
-				<Hotspot Name="Cyber Vorantikus" XYZ="92.7908,26.04824,137.3596" />
-				<Hotspot Name="Gormak Gunner" XYZ="101.5214,26.02423,131.8178" />
-				<Hotspot Name="Immature Cyber Vorantikus" XYZ="104.7207,26.32997,144.4416" />
-				<Hotspot Name="Immature Cyber Vorantikus" XYZ="108.5143,24.89605,138.6088" />
-				<Hotspot Name="Gormak Beast Trainer" XYZ="116.4701,24.76861,132.6098" />
-				<Hotspot Name="Immature Cyber Vorantikus" XYZ="115.9932,24.38607,143.3211" />
-				<Hotspot Name="Immature Cyber Vorantikus" XYZ="116.3092,24.76056,133.7765" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Gormak Monstrosities 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Mature Cyber Vorantikus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mature Cyber Vorantikus" XYZ="105.8545,25.99962,130.1931" />
-				<Hotspot Name="Mature Cyber Vorantikus" XYZ="121.0736,25.17715,132.2685" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Vanquish the Vanguard (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Vanguard Sentinel</Mob>
-				<Mob>Gormak Chieftain</Mob>
-				<Mob>Gormak Vanguard Gunner</Mob>
-				<Mob>Gormak Vanguard Slasher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-6.588374,17.85382,178.9206" />
-				<Hotspot Name="Gormak Vanguard Gunner" XYZ="-0.8501999,18.18064,176.0084" />
-				<Hotspot Name="Gormak Vanguard Slasher" XYZ="-7.3547,18.11804,187.069" />
-				<Hotspot Name="Gormak Vanguard Sentinel" XYZ="10.2637,18.18611,185.3117" />
-				<Hotspot Name="Gormak Vanguard Sentinel" XYZ="7.1765,18.18364,178.6434" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -406,297 +82,6 @@
 			</Hotspots>
 		</GrindArea>    
 
-		<GrindArea Name="Defang the Beasts (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Enraged Mawvorr</Mob>
-				<Mob>Cyber Abomination</Mob>
-				<Mob>Alpha Cyber Abomination</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Enraged Mawvorr" XYZ="7.521214,25.701,291.2852" />
-				<Hotspot Name="Cyber Abomination" XYZ="3.408076,25.50001,291.1658" />
-				<Hotspot Name="Enraged Mawvorr" XYZ="-8.44128,24.0601,295.9139" />
-				<Hotspot Name="Enraged Mawvorr" XYZ="-9.502687,24.03383,293.8589" />
-				<Hotspot Name="Alpha Cyber Abomination" XYZ="-12.71259,24.03192,294.9585" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Crafting Nightmares 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Craftsman Imperial Fanatic</Mob>
-				<Mob>Craftsman Republic Builder</Mob>
-				<Mob>Craftsman Republic Follower</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Craftsman Imperial Fanatic" XYZ="138.3987,2.588899,93.091" />
-				<Hotspot Name="Craftsman Republic Builder" XYZ="138.1275,2.597197,93.691" />
-				<Hotspot Name="Craftsman Republic Follower" XYZ="147.0563,3.398479,89.5125" />
-				<Hotspot Name="Craftsman Imperial Follower" XYZ="147.9537,3.340285,95.739" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Felidae Hunter (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Corrupted Nexu Ripper</Mob>
-				<Mob>Corrupted Nexu Bloodclaw</Mob>
-				<Mob>Corrupted Nexu Mauler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corrupted Nexu Ripper" XYZ="168.7736,1.175325,19.29" />
-				<Hotspot Name="Corrupted Nexu Bloodclaw" XYZ="164.7755,0.3786213,32.8082" />
-				<Hotspot Name="Corrupted Nexu Ripper" XYZ="160.7508,0.30979,29.8605" />
-				<Hotspot Name="Corrupted Nexu Mauler" XYZ="161.2331,0.237649,37.7472" />
-				<Hotspot Name="Corrupted Nexu Mauler" XYZ="154.0575,0.2698772,36.8708" />
-				<Hotspot Name="Corrupted Nexu Bloodclaw" XYZ="165.8938,0.3558221,36.7303" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Nightmare Predator 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Grellik</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Grellik" XYZ="159.1461,0.1980619,34.87739" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Nightmares 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Doctor Kerrian</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Doctor Kerrian" XYZ="139.4082,-0.5477628,-7.462269" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stamp Out Corruption (Bonus) 2 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Corrupted Vorantikus Matriarch</Mob>
-				<Mob>Corrupted Vorantikus Young</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corrupted Vorantikus Young" XYZ="74.5293,-2.885218,-3.7263" />
-				<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="70.0148,-2.876166,-8.1093" />
-				<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="75.851,-2.918144,-16.1593" />
-				<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="74.7239,-2.957273,-21.0148" />
-				<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="65.29681,-2.893238,-17.9563" />
-				<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="63.4792,-2.417951,-36.1595" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stamp Out Corruption (Bonus) 2 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Vorantikus Crusher</Mob>
-				<Mob>Vorantikus Gnasher</Mob>
-				<Mob>Corrupted Vorantikus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Enraged Vorantikus" XYZ="101.6885,-0.3837258,-3.153969" />
-				<Hotspot Name="Enraged Vorantikus" XYZ="84.43775,1.53101,1.573097" />
-				<Hotspot Name="Enraged Vorantikus" XYZ="88.37673,1.37545,-1.580949" />
-				<Hotspot Name="Enraged Vorantikus" XYZ="90.53574,1.847746,-4.855776" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Deformation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Deformed Crysfang</Mob>
-				<Mob>Deformed Mawvorr</Mob>
-				<Mob>Deformed Shaclaw</Mob>
-				<Mob>Deformed Vorantikus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Deformed Crysfang" XYZ="197.5218,2.057969,24.0641" />
-				<Hotspot Name="Deformed Shaclaw" XYZ="198.5135,1.87122,35.9383" />
-				<Hotspot Name="Deformed Vorantikus" XYZ="195.5019,1.834168,30.7404" />
-				<Hotspot Name="Deformed Vorantikus" XYZ="203.262,1.851281,31.2909" />
-				<Hotspot Name="Deformed Shaclaw" XYZ="205.5232,1.844613,40.4734" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Dark Hollow 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Avatar of Sel-Makor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Avatar of Sel-Makor" XYZ="215.4176,-0.7026504,36.8855" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Deep Cradle, Dark Heart 10">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Dark Heart Abomination</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dark Heart Abomination" XYZ="215.451,-5.692786,-49.44855" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Droid Cleanup (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Timeworn Defender</Mob>
-				<Mob>Timeworn Sentry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Timeworn Defender" XYZ="217.6665,-5.699,-26.79543" />
-				<Hotspot Name="Timeworn Defender" XYZ="221.8682,-5.699,-34.2205" />
-				<Hotspot Name="Timeworn Defender" XYZ="221.8699,-5.686826,-53.6214" />
-				<Hotspot Name="Timeworn Sentinel" XYZ="226.9388,-5.699,-41.2609" />
-				<Hotspot Name="Timeworn Defender" XYZ="229.6472,-5.699,-44.9474" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Tame the Crysfang (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Aged Crysfang Hunter</Mob>
-				<Mob>Crysfang Packrunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-9.915593,1.552835,-105.3978" />
-				<Hotspot Name="Aged Crysfang Hunter" XYZ="-6.144365,1.191009,-107.0034" />
-				<Hotspot Name="Crysfang Leaper" XYZ="-15.03623,1.754422,-111.6958" />
-				<Hotspot Name="Crysfang Packrunner" XYZ="3.835008,1.62608,-111.0066" />
-				<Hotspot Name="Crysfang Packrunner" XYZ="13.7443,1.379542,-110.5865" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Findsman 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ellrak Raider</Mob>
-				<Mob>Ellrak</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ellrak" XYZ="-18.5144,0.7903612,-92.503" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Vorantikus Vengeance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Creature Master</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Creature Master" XYZ="-8.846689,6.830919,-158.3463" />
-				<Hotspot Name="Gormak Creature Master" XYZ="-1.738439,7.178659,-161.9566" />
-				<Hotspot Name="Gormak Creature Master" XYZ="0.4177,6.415231,-155.8261" />
-				<Hotspot Name="Gormak Creature Master" XYZ="-1.768717,6.638187,-154.2472" />
-				<Hotspot Name="Gormak Creature Master" XYZ="-9.9068,6.806917,-150.9877" />
-				<Hotspot Name="Gormak Creature Master" XYZ="-17.0274,7.050215,-161.7257" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Sith Infestation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Artifact Master</Mob>
-				<Mob>Sith Force Adept</Mob>
-				<Mob>Imperial Artifact Guard</Mob>
-				<Mob>Imperial Artifact Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="17.25865,13.52511,-201.3357" />
-				<Hotspot Name="Sith Artifact Hunter" XYZ="22.1485,13.8207,-203.6598" />
-				<Hotspot Name="Sith Force Adept" XYZ="19.19334,13.65173,-196.8672" />
-				<Hotspot Name="Imperial Artifact Guard" XYZ="23.18843,13.67966,-195.7158" />
-				<Hotspot Name="Sith Artifact Master" XYZ="28.2993,13.66208,-195.9492" />
-				<Hotspot Name="Sith Artifact Master" XYZ="32.8512,13.59289,-195.8015" />
-				<Hotspot Name="Imperial Artifact Guard" XYZ="34.2201,13.56989,-200.073" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Forbidden 2 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Cryo Scout</Mob>
-				<Mob>Gormak Fearless</Mob>
-				<Mob>Gormak Chief Gearhead</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Cryo Scout" XYZ="-5.4053,13.76604,-196.6811" />
-				<Hotspot Name="Gormak Chief Gearhead" XYZ="-6.8103,14.17826,-201.0511" />
-				<Hotspot Name="Gormak Fearless" XYZ="-9.772152,13.73968,-199.1304" />
-				<Hotspot Name="Gormak Chief Gearhead" XYZ="-6.398365,13.74266,-193.2143" />
-				<Hotspot Name="Gormak Chief Gearhead" XYZ="-8.3336,13.8385,-189.8446" />
-				<Hotspot Name="Gormak Cryo Scout" XYZ="-17.2039,13.741,-188.9994" />
-				<Hotspot Name="Gormak Chief Gearhead" XYZ="-18.50817,13.66772,-195.2072" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Defeat the Gormak Leader (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Leader" XYZ="2.8219,11.6967,-201.7971" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="It's Never Easy (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Cryo Warrior</Mob>
-				<Mob>Gormak War Shaman</Mob>
-				<Mob>Gormak Builder</Mob>
-				<Mob>Gormak Master Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak War Shaman" XYZ="66.79207,11.97477,-235.1419" />
-				<Hotspot Name="Gormak Cryo Warrior" XYZ="65.74081,12.03218,-240.7683" />
-				<Hotspot Name="Gormak Builder" XYZ="61.1118,11.9984,-243.7104" />
-				<Hotspot Name="Gormak War Shaman" XYZ="68.0951,10.46221,-250.1441" />
-				<Hotspot Name="Gormak Cryo Warrior" XYZ="60.5805,12.01013,-253.309" />
-				<Hotspot Name="Gormak Master Raider" XYZ="69.88744,10.54841,-254.2196" />
-				<Hotspot Name="Gormak Master Raider" XYZ="92.441,11.40446,-275.2178" />
-				<Hotspot Name="Gormak War Shaman" XYZ="101.0478,11.11788,-273.1317" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Closing the Floodgates (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Sacrificer</Mob>
-				<Mob>Gormak Eradictor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="105.693,10.67108,-248.4137" />
-				<Hotspot Name="Gormak Sacrificer" XYZ="114.7534,10.7076,-250.4225" />
-				<Hotspot Name="Gormak Sacrificer" XYZ="126.7848,11.50866,-249.0699" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Chain of Command (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -713,206 +98,6 @@
 				<Hotspot Name="Gormak Warleader" XYZ="-79.6365,14.61098,-199.8666" />
 			</Hotspots>
 		</GrindArea>    
-
-		<GrindArea Name="Lakkna's Elite Gormak (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Light Warrior</Mob>
-				<Mob>Gormak Inciter</Mob>
-				<Mob>Gormak Aggressor</Mob>
-				<Mob>Ancient Sith War Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Light Warrior" XYZ="-124.2349,16.68976,-215.6919" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-126.738,16.53386,-220.3391" />
-				<Hotspot Name="Gormak Aggressor" XYZ="-128.7465,16.47971,-222.2103" />
-				<Hotspot Name="Gormak Inciter" XYZ="-123.2195,16.5061,-224.3222" />
-				<Hotspot Name="Gormak Aggressor" XYZ="-123.8747,16.42849,-229.2519" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-132.1646,16.47584,-226.3897" />
-				<Hotspot Name="Gormak Inciter" XYZ="-118.204,17.73895,-219.5916" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-130.7926,18.22589,-244.1191" />
-				<Hotspot Name="Gormak Aggressor" XYZ="-124.5493,18.49463,-247.5355" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Cyber Beasts are Bad Enough 2 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ancient Sith War Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-126.738,16.53386,-220.3391" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-127.9813,16.59922,-229.7387" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-130.4832,16.40348,-227.3952" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-132.1646,16.47584,-226.3897" />
-				<Hotspot Name="Ancient Sith War Droid" XYZ="-130.7926,18.22589,-244.1191" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Cyber Beasts are Bad Enough 2 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lakkna, Gormak Paragon</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lakkna, Gormak Paragon" XYZ="-118.6966,20.43847,-254.6" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 1 - Beast Takedown (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Beast Handler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
-				<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
-				<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
-				<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
-				<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
-				<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-93.9989,16.08521,-234.8061" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-88.6843,15.71352,-240.4406" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-88.28719,15.71352,-244.9657" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-84.63531,15.715,-241.4461" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-84.3749,15.7156,-246.0534" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 2 - Beast Takedown (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Cyber-Enhanced Vorantikus</Mob>
-				<Mob>Augmented Vorantikus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
-				<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
-				<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-93.9989,16.08521,-234.8061" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-88.6843,15.71352,-240.4406" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-88.28719,15.71352,-244.9657" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-84.63531,15.715,-241.4461" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-84.3749,15.7156,-246.0534" />
-				<Hotspot Name="Augmented Vorantikus" XYZ="-74.3295,17.17123,-253.2079" />
-				<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-76.02093,17.16116,-247.9704" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Deep Cradle, Dark Heart 4 6">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sophia Farash</Mob>
-				<Mob>Sith Apprentice</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sophia Farash" XYZ="-95.09379,-100.0074,13.08796" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Blunting the Edge (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Crewman</Mob>
-				<Mob>Javelin Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="8.040492,7.481,9.942133" />
-				<Hotspot Name="Imperial Crewman" XYZ="13.87934,7.481,8.963719" />
-				<Hotspot Name="Imperial Crewman" XYZ="13.5893,7.501,14.0365" />
-				<Hotspot Name="Imperial Soldier" XYZ="17.2354,7.501,13.0552" />
-				<Hotspot Name="Javelin Security Droid" XYZ="20.0046,7.481,13.5502" />
-				<Hotspot Name="Imperial Attack Drone" XYZ="19.3921,7.481,9.1632" />
-				<Hotspot Name="Javelin Security Droid" XYZ="19.6951,17.381,6.5409" />
-				<Hotspot Name="Emergency Response Droid" XYZ="20.34434,17.381,4.33377" />
-				<Hotspot Name="Javelin Security Droid" XYZ="18.6539,12.02116,-5.94" />
-				<Hotspot Name="My Location" XYZ="15.18474,12.001,-5.373382" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Primary Target 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Warrior</Mob>
-				<Mob>Gormak Combatant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Warrior" XYZ="-8.813917,20.001,233.8667" />
-				<Hotspot Name="Gormak Combatant" XYZ="-7.693302,20.001,233.5133" />
-				<Hotspot Name="Gormak Warrior" XYZ="-9.4327,20.001,231.8049" />
-				<Hotspot Name="Gormak Warrior" XYZ="-9.4753,20.001,234.8397" />
-			</Hotspots>
-		</GrindArea>   
-
-		<GrindArea Name="Primary Target 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gormak Prison Guard</Mob>
-				<Mob>Gormak Chief Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Prison Guard" XYZ="-25.5777,20.00132,239.3591" />
-				<Hotspot Name="Gormak Prison Guard" XYZ="-25.6584,20.001,240.6526" />
-				<Hotspot Name="Gormak Prison Guard" XYZ="-27.72574,19.80292,237.2902" />
-				<Hotspot Name="Gormak Prison Guard" XYZ="-29.6842,20.001,239.7886" />
-				<Hotspot Name="Gormak Prison Guard" XYZ="-30.8734,20.01508,239.2288" />
-				<Hotspot Name="Gormak Prison Guard" XYZ="-30.3539,20.001,235.696" />
-				<Hotspot Name="Gormak Chief Guard" XYZ="-30.86902,20.001,235.7471" />
-			</Hotspots>
-		</GrindArea>   			
-
-		<GrindArea Name="Secondary Targets (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>"Gormak Eradicator</Mob>
-				<Mob>Gormak Raider</Mob>
-				<Mob>Gormak Invader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gormak Eradicator" XYZ="-27,20.0565,242.2" />
-				<Hotspot Name="Gormak Eradicator" XYZ="-30.10967,20.001,241.9098" />
-				<Hotspot Name="Gormak Raider" XYZ="-31.8,20.06138,243.9564" />
-				<Hotspot Name="Gormak Eradicator" XYZ="-33.9128,20.02883,241.7889" />
-				<Hotspot Name="Gormak Eradicator" XYZ="-33.3027,20.01508,238.8512" />
-				<Hotspot Name="Gormak Invader" XYZ="-33.4233,20.001,235.6597" />
-				<Hotspot Name="Gormak Eradicator" XYZ="-31.79098,20.001,229.8647" />
-				<Hotspot Name="Gormak Invader" XYZ="-30.5,20.03521,225.6999" />
-			</Hotspots>
-		</GrindArea> 		
-
-		<GrindArea Name="Primary Target 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Jokull's Bodyguard</Mob>
-				<Mob>Jokull</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Jokull's Bodyguard" XYZ="-15.4405,19.15899,227.9" />
-				<Hotspot Name="Jokull's Bodyguard" XYZ="-15.4537,19.18133,228.6852" />
-				<Hotspot Name="Jokull" XYZ="-15.905,19.15899,228.2585" />
-			</Hotspots>
-		</GrindArea>   			
-			
-			
-			
-		
-			
-			
-			
-			
-			
 
 	</GrindAreas>
 
@@ -1012,7 +197,31 @@
 			</If>
 			<!-- Impress This (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0008F5DE749C87A))">
-				<Grind GrindRef="Impress This (Bonus)" While="(not IsQuestComplete(0xE0008F5DE749C87A))" />
+				<Grind While="(not IsQuestComplete(0xE0008F5DE749C87A))">
+					<GrindArea Name="Impress This (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Sniper</Mob>
+							<Mob>Imperial Commando</Mob>
+							<Mob>Imperial Shocktrooper</Mob>
+							<Mob>Imperial Chief Gunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Sniper" XYZ="-111.3402,-4.785575,-55.8443" />
+							<Hotspot Name="Imperial Shocktrooper" XYZ="-110.0152,-5.134033,-52.5984" />
+							<Hotspot Name="Imperial Chief Gunner" XYZ="-103.4045,-5.090299,-52.1123" />
+							<Hotspot Name="Imperial Sniper" XYZ="-105.6353,-4.223913,-56.6793" />
+							<Hotspot Name="Imperial Shocktrooper" XYZ="-111.3903,-4.747698,-64.3093" />
+							<Hotspot Name="Imperial Commando" XYZ="-103.9306,-3.918515,-64.09966" />
+							<Hotspot Name="Imperial Commando" XYZ="-100.3937,-3.296041,-69.96992" />
+							<Hotspot Name="Imperial Shocktrooper" XYZ="-97.0073,-2.893552,-69.0851" />
+							<Hotspot Name="Imperial Sniper" XYZ="-98.5359,-2.555998,-75.31039" />
+							<Hotspot Name="Imperial Commando" XYZ="-103.9348,-3.110291,-77.9733" />
+							<Hotspot Name="Imperial Sniper" XYZ="-107.7246,-3.640844,-77.62358" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" TurnInName="Ambassador Jannik" XYZ="-142.1079,-7.3363,-60.232" />
 			<CompleteQuest QuestName="Need to Impress" QuestId="0xE0002FDF6B0BCB8A" />
@@ -1029,13 +238,41 @@
 			</If>
 			<!-- Prowler Prey (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00018C6EAF66642))">
-				<Grind GrindRef="Prowler Prey (Bonus)" While="(not IsQuestComplete(0xE00018C6EAF66642))" />
+				<Grind While="(not IsQuestComplete(0xE00018C6EAF66642))">
+					<GrindArea Name="Prowler Prey (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prowling Shaclaw Stalker</Mob>
+							<Mob>Prowling Shaclaw Infant</Mob>
+							<Mob>Prowling Shaclaw Gnasher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prowling Shaclaw Stalker" XYZ="-227.043,-1.210431,-5.566301" />
+							<Hotspot Name="Prowling Shaclaw Infant" XYZ="-230.6537,-1.756082,-0.997522" />
+							<Hotspot Name="Prowling Shaclaw Gnasher" XYZ="-228.4245,-1.770646,4.428387" />
+							<Hotspot Name="Prowling Shaclaw Infant" XYZ="-233.9255,-1.581605,2.797454" />
+							<Hotspot Name="Prowling Shaclaw Stalker" XYZ="-241.0387,-1.404873,9.861374" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 7)))">
 				<MoveTo QuestId="0xE000484D39EFD2FE" Name="Gaden-Ko" XYZ="-241.3106,-1.35561,14.0398" />
 			</If>
 			<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 8)))">
-				<Grind GrindRef="A Thorny Path" While="(not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 8))">
+					<GrindArea Name="A Thorny Path">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Shaclaw Alpha</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Shaclaw Alpha" XYZ="-240.9437,-1.487784,12.49102" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000484D39EFD2FE)) and (not IsBranchStepComplete(0xE000484D39EFD2FE, 1, 9)))">
 				<TalkTo QuestId="0xE000484D39EFD2FE" Name="Gaden-Ko" XYZ="-241.3106,-1.35561,14.0398" />
@@ -1048,7 +285,26 @@
 		<If Condition="((HasQuest(0xE0007D25909F2D6C)) and (not IsQuestComplete(0xE0007D25909F2D6C)))">
 			<!-- Dusk Hunt (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000787D6BFDCE50))">
-				<Grind GrindRef="Dusk Hunt (Bonus)" While="(not IsQuestComplete(0xE000787D6BFDCE50))" />
+				<Grind While="(not IsQuestComplete(0xE000787D6BFDCE50))">
+					<GrindArea Name="Dusk Hunt (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Dusk Squadron Rifleman</Mob>
+							<Mob>Dusk Squadron Soldier</Mob>
+							<Mob>Dusk Squadron Captain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Dusk Squadron Rifleman" XYZ="-199.9187,-4.143004,25.95116" />
+							<Hotspot Name="Dusk Squadron Captain" XYZ="-201.8354,-4.234441,33.30235" />
+							<Hotspot Name="Dusk Squadron Soldier" XYZ="-199.6671,-4.189685,31.73247" />
+							<Hotspot Name="Dusk Squadron Rifleman" XYZ="-194.4871,-4.112819,32.0157" />
+							<Hotspot Name="Dusk Squadron Captain" XYZ="-197.2253,-4.233834,32.54497" />
+							<Hotspot Name="Dusk Squadron Captain" XYZ="-204.8052,-4.169617,33.1091" />
+							<Hotspot Name="Dusk Squadron Soldier" XYZ="-179.7372,-5.669146,25.0049" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007D25909F2D6C)) and (not IsBranchStepComplete(0xE0007D25909F2D6C, 1, 2)))">
 				<MoveTo QuestId="0xE0007D25909F2D6C" Name="Dusk Squadron Soldier" XYZ="-179.7372,-5.669146,25.0049" />
@@ -1065,7 +321,24 @@
 		<If Condition="((HasQuest(0xE000ACCF8914A10B)) and (not IsQuestComplete(0xE000ACCF8914A10B)))">
 			<!-- Taking the Bait (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0005BE09E4DE752))">
-				<Grind GrindRef="Taking the Bait (Bonus)" While="(not IsQuestComplete(0xE0005BE09E4DE752))" />
+				<Grind While="(not IsQuestComplete(0xE0005BE09E4DE752))">
+					<GrindArea Name="Taking the Bait (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Ambusher</Mob>
+							<Mob>Imperial Scout</Mob>
+							<Mob>Imperial Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Ambusher" XYZ="-169.7789,-0.1457142,54.68896" />
+							<Hotspot Name="Imperial Scout" XYZ="-169.6184,-0.09149887,55.18972" />
+							<Hotspot Name="Imperial Raider" XYZ="-177.0134,-0.7532519,61.6205" />
+							<Hotspot Name="Imperial Ambusher" XYZ="-182.9346,-0.45022,62.30082" />
+							<Hotspot Name="Imperial Ambusher" XYZ="-187.9156,-0.4437729,63.5715" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ACCF8914A10B)) and (not IsBranchStepComplete(0xE000ACCF8914A10B, 1, 2)))">
 				<MoveTo QuestId="0xE000ACCF8914A10B" Name="My Location" XYZ="-181.5892,-0.3890943,62.13107" />
@@ -1110,14 +383,49 @@
 		<If Condition="((HasQuest(0xE0006E3E4653FAC9)) and (not IsQuestComplete(0xE0006E3E4653FAC9)))">
 			<!-- Lack of Vision (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007DDBB0F2E226))">
-				<Grind GrindRef="Lack of Vision (Bonus)" While="(not IsQuestComplete(0xE0007DDBB0F2E226))" />
+				<Grind While="(not IsQuestComplete(0xE0007DDBB0F2E226))">
+					<GrindArea Name="Lack of Vision (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Auxiliary Troop</Mob>
+							<Mob>Sith Acolyte</Mob>
+							<Mob>Sith Assassin</Mob>
+							<Mob>Sith Acolyte</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith Acolyte" XYZ="-46.95845,2.015081,1.001566" />
+							<Hotspot Name="Sith Assassin" XYZ="-41.59212,2.001,2.899001" />
+							<Hotspot Name="Sith Assassin" XYZ="-38.91223,2.000999,-1.446408" />
+							<Hotspot Name="Imperial Auxiliary Troop" XYZ="-41.1837,2.011,6.2219" />
+							<Hotspot Name="Sith Assassin" XYZ="-31.4268,1.211,4.2553" />
+							<Hotspot Name="Sith Assassin" XYZ="-31.6418,1.201,-0.1643481" />
+							<Hotspot Name="Sith Assassin" XYZ="-27.27469,-5.199,3.914545" />
+							<Hotspot Name="Imperial Auxiliary Troop" XYZ="-31.6645,-5.199,1.7863" />
+							<Hotspot Name="Sith Assassin" XYZ="-27.53088,-5.051012,-3.421692" />
+							<Hotspot Name="Sith Assassin" XYZ="-29.57176,-5.199,-3.158634" />
+							<Hotspot Name="Sith Assassin" XYZ="-34.84967,-5.199,-10.67226" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0006E3E4653FAC9)) and (not IsBranchStepComplete(0xE0006E3E4653FAC9, 1, 2)))">
 				<!-- Ele going down -->
 				<TalkTo QuestId="0xE0006E3E4653FAC9" Name="Lord Beldiss" XYZ="-42.8577,-5.19401,-11.0178" />
 			</If>
 			<If Condition="((HasQuest(0xE0006E3E4653FAC9)) and (not IsBranchStepComplete(0xE0006E3E4653FAC9, 3, 2)))">
-				<Grind GrindRef="Visionary 3 2" While="(not IsBranchStepComplete(0xE0006E3E4653FAC9, 3, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0006E3E4653FAC9, 3, 2))">
+					<GrindArea Name="Visionary 3 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Lord Beldiss</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Beldiss" XYZ="-42.8577,-5.19401,-11.0178" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0006E3E4653FAC9)) and (not IsBranchStepComplete(0xE0006E3E4653FAC9, 3, 3)))">
 				<MoveTo QuestId="0xE0006E3E4653FAC9" Name="My Location" XYZ="-42.80001,-5.184918,-10.77195" />
@@ -1146,7 +454,27 @@
 			<UseObject QuestId="0xE00017FF7499C26F" ObjectName="Voss Shrine" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="-181.7152,-2.307884,-160.5444" />
 			<!-- The Road to Healing (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E1942E2BCCD3))">
-				<Grind GrindRef="The Road to Healing (Bonus)" While="(not IsQuestComplete(0xE000E1942E2BCCD3))" />
+				<Grind While="(not IsQuestComplete(0xE000E1942E2BCCD3))">
+					<GrindArea Name="The Road to Healing (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Ambusher</Mob>
+							<Mob>Gormak Shrine Raider</Mob>
+							<Mob>Gormak Tech Champion</Mob>
+							<Mob>Gormak Bruiser</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Ambusher" XYZ="-196.159,-4.873553,-141.0194" />
+							<Hotspot Name="Gormak Tech Champion" XYZ="-186.3191,-3.817807,-143.6395" />
+							<Hotspot Name="Gormak Bruiser" XYZ="-185.6631,-3.789106,-148.7808" />
+							<Hotspot Name="Gormak Bruiser" XYZ="-183.1069,-3.290364,-140.59" />
+							<Hotspot Name="Gormak Tech Champion" XYZ="-181.9659,-3.227436,-144.2426" />
+							<Hotspot Name="Gormak Tech Champion" XYZ="-177.0107,-2.788301,-145.4282" />
+							<Hotspot Name="Gormak Shrine Raider" XYZ="-177.9913,-2.339916,-157.8535" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1169,7 +497,19 @@
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="Meditation Altar" BranchId="4" StepId="3" Radius="20" WaitTime="5" XYZ="-185.3074,0.5704738,-213.1929" />
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 7, 2)))">
-				<Grind GrindRef="The Trials 7 2" While="(not IsBranchStepComplete(0xE0005C66E6857665, 7, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0005C66E6857665, 7, 2))">
+					<GrindArea Name="The Trials 7 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Spirit Guardian</Mob>
+							<Mob>Spirit Beast</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-215.0578,0.5033925,-239.7076" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 7, 3)))">
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="Trial Chamber Door" BranchId="7" StepId="3" Radius="20" WaitTime="5" XYZ="-217.6966,0.701,-243.507" />
@@ -1184,7 +524,18 @@
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="The Gormak Heresy" BranchId="10" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="-225.5138,-0.03890586,-252.7948" />
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 5)))">
-				<Grind GrindRef="The Trials 10 5" While="(not IsBranchStepComplete(0xE0005C66E6857665, 10, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE0005C66E6857665, 10, 5))">
+					<GrindArea Name="The Trials 10 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Corruption</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corruption" XYZ="-224.1165,0.0009996201,-251.7919" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 6)))">
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="Trial Chamber Door" BranchId="10" StepId="6" Radius="20" WaitTime="5" XYZ="-245.4188,-1.099,-251.7781" />
@@ -1214,10 +565,45 @@
 			</If>
 			<!-- Prove Yourself (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C0BC48C2B972))">
-				<Grind GrindRef="Prove Yourself (Bonus)" While="(not IsQuestComplete(0xE000C0BC48C2B972))" />
+				<Grind While="(not IsQuestComplete(0xE000C0BC48C2B972))">
+					<GrindArea Name="Prove Yourself (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Proving Grounds Nightmare</Mob>
+							<Mob>Proving Grounds Phantom</Mob>
+							<Mob>Proving Grounds Vision</Mob>
+							<Mob>Proving Grounds Terror</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Proving Grounds Nightmare" XYZ="-217.6388,0.7010008,-245.3996" />
+							<Hotspot Name="Proving Grounds Terror" XYZ="-217.6422,-0.1000004,-251.778" />
+							<Hotspot Name="Proving Grounds Terror" XYZ="-231.2833,-0.09900038,-251.7172" />
+							<Hotspot Name="Proving Grounds Vision" XYZ="-237.5473,-1.099,-252.0353" />
+							<Hotspot Name="Proving Grounds Nightmare" XYZ="-258.6238,-1.09012,-251.486" />
+							<Hotspot Name="Proving Grounds Terror" XYZ="-257.9961,-1.099,-239.8371" />
+							<Hotspot Name="Proving Grounds Phantom" XYZ="-250.8167,-1.099,-235.1107" />
+							<Hotspot Name="Proving Grounds Terror" XYZ="-238.8076,0.5136044,-244.3162" />
+							<Hotspot Name="Proving Grounds Nightmare" XYZ="-232.2175,0.520749,-243.2001" />
+							<Hotspot Name="Proving Grounds Vision" XYZ="-245.3679,0.5000249,-228.1952" />
+							<Hotspot Name="Proving Grounds Phantom" XYZ="-238.9889,0.5000384,-228.4085" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 12)))">
-				<Grind GrindRef="The Trials 10 12" While="(not IsBranchStepComplete(0xE0005C66E6857665, 10, 12))" />
+				<Grind While="(not IsBranchStepComplete(0xE0005C66E6857665, 10, 12))">
+					<GrindArea Name="The Trials 10 12">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Warrior</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Warrior" XYZ="-239.6639,-1.081078,-236.1806" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005C66E6857665)) and (not IsBranchStepComplete(0xE0005C66E6857665, 10, 13)))">
 				<UseObject QuestId="0xE0005C66E6857665" ObjectName="Trial Chamber Door" BranchId="10" StepId="13" Radius="20" WaitTime="5" XYZ="-227.673,0.5271437,-236.6315" />
@@ -1252,10 +638,40 @@
 			</If>
 			<!-- Skip 3 -->
 			<If Condition="((HasQuest(0xE000469E2F970402)) and (not IsBranchStepComplete(0xE000469E2F970402, 1, 4)))">
-				<Grind GrindRef="Marked 4" While="(not IsBranchStepComplete(0xE000469E2F970402, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000469E2F970402, 1, 4))">
+					<GrindArea Name="Marked 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Lord Shendan</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Shendan" XYZ="-227.8339,-6.403303,-152.8997" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<!-- Broken Relics (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE0008CF9525FFA72))">
-					<Grind GrindRef="Broken Relics (Bonus)" While="(not IsQuestComplete(0xE0008CF9525FFA72))" />
+					<Grind While="(not IsQuestComplete(0xE0008CF9525FFA72))">
+						<GrindArea Name="Broken Relics (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Ancient Droid Sentry</Mob>
+								<Mob>Ancient Sentinel Droid</Mob>
+								<Mob>Ancient Support Droid</Mob>
+								<Mob>Rogue Ancient Battledroid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-220.1311,-6.20363,-141.1913" />
+								<Hotspot Name="Ancient Sentinel Droid" XYZ="-221.8944,-6.197776,-143.3944" />
+								<Hotspot Name="Ancient Support Droid" XYZ="-226.0219,-6.403302,-143.5408" />
+								<Hotspot Name="Ancient Sentinel Droid" XYZ="-230.547,-6.403303,-146.6901" />
+								<Hotspot Name="Ancient Support Droid" XYZ="-226.9741,-6.404307,-149.5768" />
+								<Hotspot Name="Rogue Ancient Battledroid" XYZ="-230.2395,-6.403303,-151.1291" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000469E2F970402)) and (not IsBranchStepComplete(0xE000469E2F970402, 1, 5)))">
@@ -1306,7 +722,23 @@
 						<WaitTimer QuestId="1" WaitTime="15" />
 					</If>
 					<If Condition="((HasQuest(0xE000E52C2C897712)) and (not IsBranchTaskComplete(0xE000E52C2C897712, 1, 4, 1)))">
-						<Grind GrindRef="Gormak Country 4 1" While="(not IsBranchTaskComplete(0xE000E52C2C897712, 1, 4, 1))" />
+						<Grind While="(not IsBranchTaskComplete(0xE000E52C2C897712, 1, 4, 1))">
+							<GrindArea Name="Gormak Country 4 1">
+								<MinLevel>1</MinLevel>
+								<MaxLevel>50</MaxLevel>
+								<Mobs>
+									<Mob>Gormak Striker</Mob>
+								</Mobs>
+								<Hotspots>
+									<Hotspot Name="Gormak Striker" XYZ="-264.9994,-6.952043,-82.7909" />
+									<Hotspot Name="Gormak Striker" XYZ="-260.5745,-6.871853,-75.7847" />
+									<Hotspot Name="Gormak Striker" XYZ="-251.3428,-5.878901,-84.894" />
+									<Hotspot Name="Gormak Striker" XYZ="-277.1292,-8.999,-100.3581" />
+									<Hotspot Name="Gormak Striker" XYZ="-257.6825,-6.997561,-99.9729" />
+									<Hotspot Name="Gormak Striker" XYZ="-252.6439,-7.927613,-98.3688" />
+								</Hotspots>
+							</GrindArea>
+						</Grind>
 					</If>
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
@@ -1461,10 +893,48 @@
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0001C94A9B4274C)) and (not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 2)))">
-				<Grind GrindRef="Gormak Monstrosities 2" While="(not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 2))">
+					<GrindArea Name="Gormak Monstrosities 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Immature Cyber Vorantikus</Mob>
+							<Mob>Gormak Beast Trainer</Mob>
+							<Mob>Cyber Vorantikus</Mob>
+							<Mob>Gormak Gunner</Mob>
+							<Mob>Gormak Beast Trainer</Mob>
+							<Mob>Gormak Beast Master</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="76.62077,25.92073,159.0231" />
+							<Hotspot Name="Immature Cyber Vorantikus" XYZ="81.2961,26.08751,155.5019" />
+							<Hotspot Name="Gormak Gunner" XYZ="79.679,26.04914,151.4368" />
+							<Hotspot Name="Gormak Beast Trainer" XYZ="88.9237,26.10753,138.3327" />
+							<Hotspot Name="Cyber Vorantikus" XYZ="92.7908,26.04824,137.3596" />
+							<Hotspot Name="Gormak Gunner" XYZ="101.5214,26.02423,131.8178" />
+							<Hotspot Name="Immature Cyber Vorantikus" XYZ="104.7207,26.32997,144.4416" />
+							<Hotspot Name="Immature Cyber Vorantikus" XYZ="108.5143,24.89605,138.6088" />
+							<Hotspot Name="Gormak Beast Trainer" XYZ="116.4701,24.76861,132.6098" />
+							<Hotspot Name="Immature Cyber Vorantikus" XYZ="115.9932,24.38607,143.3211" />
+							<Hotspot Name="Immature Cyber Vorantikus" XYZ="116.3092,24.76056,133.7765" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001C94A9B4274C)) and (not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 3)))">
-				<Grind GrindRef="Gormak Monstrosities 3" While="(not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE0001C94A9B4274C, 1, 3))">
+					<GrindArea Name="Gormak Monstrosities 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Mature Cyber Vorantikus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mature Cyber Vorantikus" XYZ="105.8545,25.99962,130.1931" />
+							<Hotspot Name="Mature Cyber Vorantikus" XYZ="121.0736,25.17715,132.2685" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Gormak Monstrosities" QuestId="0xE0001C94A9B4274C" TurnInName="Private Ozer" XYZ="55.2232,18.79136,138.997" />
 			<CompleteQuest QuestName="Gormak Monstrosities" QuestId="0xE0001C94A9B4274C" />
@@ -1481,7 +951,25 @@
 			</If>
 			<!-- Vanquish the Vanguard (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007E6E8E8F1E58))">
-				<Grind GrindRef="Vanquish the Vanguard (Bonus)" While="(not IsQuestComplete(0xE0007E6E8E8F1E58))" />
+				<Grind While="(not IsQuestComplete(0xE0007E6E8E8F1E58))">
+					<GrindArea Name="Vanquish the Vanguard (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Vanguard Sentinel</Mob>
+							<Mob>Gormak Chieftain</Mob>
+							<Mob>Gormak Vanguard Gunner</Mob>
+							<Mob>Gormak Vanguard Slasher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-6.588374,17.85382,178.9206" />
+							<Hotspot Name="Gormak Vanguard Gunner" XYZ="-0.8501999,18.18064,176.0084" />
+							<Hotspot Name="Gormak Vanguard Slasher" XYZ="-7.3547,18.11804,187.069" />
+							<Hotspot Name="Gormak Vanguard Sentinel" XYZ="10.2637,18.18611,185.3117" />
+							<Hotspot Name="Gormak Vanguard Sentinel" XYZ="7.1765,18.18364,178.6434" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1530,7 +1018,24 @@
 			</If>
 			<!-- Defang the Beasts (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D0BEEC1F19F6))">
-				<Grind GrindRef="Defang the Beasts (Bonus)" While="(not IsQuestComplete(0xE000D0BEEC1F19F6))" />
+				<Grind While="(not IsQuestComplete(0xE000D0BEEC1F19F6))">
+					<GrindArea Name="Defang the Beasts (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Enraged Mawvorr</Mob>
+							<Mob>Cyber Abomination</Mob>
+							<Mob>Alpha Cyber Abomination</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Enraged Mawvorr" XYZ="7.521214,25.701,291.2852" />
+							<Hotspot Name="Cyber Abomination" XYZ="3.408076,25.50001,291.1658" />
+							<Hotspot Name="Enraged Mawvorr" XYZ="-8.44128,24.0601,295.9139" />
+							<Hotspot Name="Enraged Mawvorr" XYZ="-9.502687,24.03383,293.8589" />
+							<Hotspot Name="Alpha Cyber Abomination" XYZ="-12.71259,24.03192,294.9585" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001C85CB3CFBA8)) and (not IsBranchStepComplete(0xE0001C85CB3CFBA8, 1, 4)))">
 				<UseObject QuestId="0xE0001C85CB3CFBA8" ObjectName="Drill Console" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-11.58291,24.04027,298.0954" />
@@ -1572,13 +1077,46 @@
 				<MoveTo QuestId="0xE000764752516D58" Name="Meeting Rade Sa" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-5.080015,20.01772,233.9198" />
 			</If>
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 1, 3)))">
-				<Grind GrindRef="Primary Target 1" While="(not IsBranchStepComplete(0xE000764752516D58, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000764752516D58, 1, 3))">
+					<GrindArea Name="Primary Target 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Warrior</Mob>
+							<Mob>Gormak Combatant</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Warrior" XYZ="-8.813917,20.001,233.8667" />
+							<Hotspot Name="Gormak Combatant" XYZ="-7.693302,20.001,233.5133" />
+							<Hotspot Name="Gormak Warrior" XYZ="-9.4327,20.001,231.8049" />
+							<Hotspot Name="Gormak Warrior" XYZ="-9.4753,20.001,234.8397" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 1, 4)))">
 				<TalkTo QuestId="0xE000764752516D58" Name="Rade Sa" XYZ="-7.4497,20.001,233.5163" />
 			</If>
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 2, 2)))">
-				<Grind GrindRef="Primary Target 2" While="(not IsBranchStepComplete(0xE000764752516D58, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000764752516D58, 2, 2))">
+					<GrindArea Name="Primary Target 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Prison Guard</Mob>
+							<Mob>Gormak Chief Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Prison Guard" XYZ="-25.5777,20.00132,239.3591" />
+							<Hotspot Name="Gormak Prison Guard" XYZ="-25.6584,20.001,240.6526" />
+							<Hotspot Name="Gormak Prison Guard" XYZ="-27.72574,19.80292,237.2902" />
+							<Hotspot Name="Gormak Prison Guard" XYZ="-29.6842,20.001,239.7886" />
+							<Hotspot Name="Gormak Prison Guard" XYZ="-30.8734,20.01508,239.2288" />
+							<Hotspot Name="Gormak Prison Guard" XYZ="-30.3539,20.001,235.696" />
+							<Hotspot Name="Gormak Chief Guard" XYZ="-30.86902,20.001,235.7471" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>	
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 2, 3)))">
 				<MoveTo QuestId="0xE000764752516D58" Name="Cage Release Console" BranchId="2" StepId="3" XYZ="-29.00492,20.01005,233.6406" />
@@ -1587,13 +1125,47 @@
 			</If>
 			<!-- Secondary Targets (Bonus) -->
 			<If Condition="((HasQuest(0xE0008BB67B54A826)) and (not IsQuestComplete(0xE0008BB67B54A826)))">
-				<Grind GrindRef="Secondary Targets (Bonus)" While="(not IsQuestComplete(0xE0008BB67B54A826))" />
+				<Grind While="(not IsQuestComplete(0xE0008BB67B54A826))">
+					<GrindArea Name="Secondary Targets (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>"Gormak Eradicator</Mob>
+							<Mob>Gormak Raider</Mob>
+							<Mob>Gormak Invader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Eradicator" XYZ="-27,20.0565,242.2" />
+							<Hotspot Name="Gormak Eradicator" XYZ="-30.10967,20.001,241.9098" />
+							<Hotspot Name="Gormak Raider" XYZ="-31.8,20.06138,243.9564" />
+							<Hotspot Name="Gormak Eradicator" XYZ="-33.9128,20.02883,241.7889" />
+							<Hotspot Name="Gormak Eradicator" XYZ="-33.3027,20.01508,238.8512" />
+							<Hotspot Name="Gormak Invader" XYZ="-33.4233,20.001,235.6597" />
+							<Hotspot Name="Gormak Eradicator" XYZ="-31.79098,20.001,229.8647" />
+							<Hotspot Name="Gormak Invader" XYZ="-30.5,20.03521,225.6999" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 4, 2)))">
 				<TalkTo QuestId="0xE000764752516D58" Name="Jokull" XYZ="-15.905,19.15899,228.2585" />
 			</If>	
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 4, 3)))">
-				<Grind GrindRef="Primary Target 3" While="(not IsBranchStepComplete(0xE000764752516D58, 2, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000764752516D58, 2, 5))">
+					<GrindArea Name="Primary Target 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Jokull's Bodyguard</Mob>
+							<Mob>Jokull</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Jokull's Bodyguard" XYZ="-15.4405,19.15899,227.9" />
+							<Hotspot Name="Jokull's Bodyguard" XYZ="-15.4537,19.18133,228.6852" />
+							<Hotspot Name="Jokull" XYZ="-15.905,19.15899,228.2585" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>	
 			<If Condition="((HasQuest(0xE000764752516D58)) and (not IsBranchStepComplete(0xE000764752516D58, 4, 4)))">
 				<TalkTo QuestId="0xE000764752516D58" Name="Jokull" XYZ="-15.905,19.15899,228.2585" />
@@ -1676,7 +1248,23 @@
 		<!-- Crafting Nightmares and Turnin -->
 		<If Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsQuestComplete(0xE0004D08113A58C8)))">
 			<If Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsBranchStepComplete(0xE0004D08113A58C8, 1, 2)))">
-				<Grind GrindRef="Crafting Nightmares 2" While="(not IsBranchStepComplete(0xE0004D08113A58C8, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0004D08113A58C8, 1, 2))">
+					<GrindArea Name="Crafting Nightmares 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Craftsman Imperial Fanatic</Mob>
+							<Mob>Craftsman Republic Builder</Mob>
+							<Mob>Craftsman Republic Follower</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Craftsman Imperial Fanatic" XYZ="138.3987,2.588899,93.091" />
+							<Hotspot Name="Craftsman Republic Builder" XYZ="138.1275,2.597197,93.691" />
+							<Hotspot Name="Craftsman Republic Follower" XYZ="147.0563,3.398479,89.5125" />
+							<Hotspot Name="Craftsman Imperial Follower" XYZ="147.9537,3.340285,95.739" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsBranchStepComplete(0xE0004D08113A58C8, 1, 3)))"> <!-- Smuggler pos -->
 				<If Condition="((HasQuest(0xE0004D08113A58C8)) and (not IsBranchTaskComplete(0xE0004D08113A58C8, 1, 3, 0)))">
@@ -1734,11 +1322,40 @@
 		<!-- Nightmare Predator -->
 		<If Condition="((HasQuest(0xE0001CE14C7CEF57)) and (not IsQuestComplete(0xE0001CE14C7CEF57)))">
 			<If Condition="((HasQuest(0xE0001CE14C7CEF57)) and (not IsBranchStepComplete(0xE0001CE14C7CEF57, 1, 2)))">
-				<Grind GrindRef="Nightmare Predator 2" While="(not IsBranchStepComplete(0xE0001CE14C7CEF57, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0001CE14C7CEF57, 1, 2))">
+					<GrindArea Name="Nightmare Predator 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Grellik</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Grellik" XYZ="159.1461,0.1980619,34.87739" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Felidae Hunter (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00066B32D76E021))">
-				<Grind GrindRef="Felidae Hunter (Bonus)" While="(not IsQuestComplete(0xE00066B32D76E021))" />
+				<Grind While="(not IsQuestComplete(0xE00066B32D76E021))">
+					<GrindArea Name="Felidae Hunter (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Corrupted Nexu Ripper</Mob>
+							<Mob>Corrupted Nexu Bloodclaw</Mob>
+							<Mob>Corrupted Nexu Mauler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corrupted Nexu Ripper" XYZ="168.7736,1.175325,19.29" />
+							<Hotspot Name="Corrupted Nexu Bloodclaw" XYZ="164.7755,0.3786213,32.8082" />
+							<Hotspot Name="Corrupted Nexu Ripper" XYZ="160.7508,0.30979,29.8605" />
+							<Hotspot Name="Corrupted Nexu Mauler" XYZ="161.2331,0.237649,37.7472" />
+							<Hotspot Name="Corrupted Nexu Mauler" XYZ="154.0575,0.2698772,36.8708" />
+							<Hotspot Name="Corrupted Nexu Bloodclaw" XYZ="165.8938,0.3558221,36.7303" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 	
@@ -1759,7 +1376,18 @@
 				<MoveTo QuestId="0xE0003D265148A68C" Name="Doctor Kerrian" XYZ="139.4082,-0.5477628,-7.462269" />
 			</If>
 			<If Condition="((HasQuest(0xE0003D265148A68C)) and (not IsBranchStepComplete(0xE0003D265148A68C, 1, 7)))">
-				<Grind GrindRef="Nightmares 7" While="(not IsBranchStepComplete(0xE0003D265148A68C, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE0003D265148A68C, 1, 7))">
+					<GrindArea Name="Nightmares 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Doctor Kerrian</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Doctor Kerrian" XYZ="139.4082,-0.5477628,-7.462269" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 	
@@ -1784,10 +1412,43 @@
 			<!-- Stamp Out Corruption (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000750B0FF3F613))">
 				<If Condition="((HasQuest(0xE000750B0FF3F613)) and (not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 0)))">
-					<Grind GrindRef="Stamp Out Corruption (Bonus) 2 0" While="(not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 0))" />
+					<Grind While="(not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 0))">
+						<GrindArea Name="Stamp Out Corruption (Bonus) 2 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Corrupted Vorantikus Matriarch</Mob>
+								<Mob>Corrupted Vorantikus Young</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Corrupted Vorantikus Young" XYZ="74.5293,-2.885218,-3.7263" />
+								<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="70.0148,-2.876166,-8.1093" />
+								<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="75.851,-2.918144,-16.1593" />
+								<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="74.7239,-2.957273,-21.0148" />
+								<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="65.29681,-2.893238,-17.9563" />
+								<Hotspot Name="Corrupted Vorantikus Matriarch" XYZ="63.4792,-2.417951,-36.1595" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000750B0FF3F613)) and (not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 1)))">
-					<Grind GrindRef="Stamp Out Corruption (Bonus) 2 1" While="(not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 1))" />
+					<Grind While="(not IsBranchTaskComplete(0xE000750B0FF3F613, 1, 2, 1))">
+						<GrindArea Name="Stamp Out Corruption (Bonus) 2 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Vorantikus Crusher</Mob>
+								<Mob>Vorantikus Gnasher</Mob>
+								<Mob>Corrupted Vorantikus</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Enraged Vorantikus" XYZ="101.6885,-0.3837258,-3.153969" />
+								<Hotspot Name="Enraged Vorantikus" XYZ="84.43775,1.53101,1.573097" />
+								<Hotspot Name="Enraged Vorantikus" XYZ="88.37673,1.37545,-1.580949" />
+								<Hotspot Name="Enraged Vorantikus" XYZ="90.53574,1.847746,-4.855776" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 		</If>
@@ -1848,14 +1509,41 @@
 				<MoveTo QuestId="0xE00022E4A5FC8BA6" Name="Dark Energy" XYZ="215.2862,-5.68853,-49.24099" />
 			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 10)))">
-				<Grind GrindRef="Deep Cradle, Dark Heart 10" While="(not IsBranchStepComplete(0xE00022E4A5FC8BA6, 1, 10))" />
+				<Grind While="(not IsBranchStepComplete(0xE00022E4A5FC8BA6, 1, 10))">
+					<GrindArea Name="Deep Cradle, Dark Heart 10">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Dark Heart Abomination</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Dark Heart Abomination" XYZ="215.451,-5.692786,-49.44855" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 11)))">
 				<TalkTo QuestId="0xE00022E4A5FC8BA6" Name="Gaden-Ko" XYZ="215.2846,-5.5991,-44.1408" />
 			</If>
 			<!-- Droid Cleanup (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E860E2674FDA))">
-				<Grind GrindRef="Droid Cleanup (Bonus)" While="(not IsQuestComplete(0xE000E860E2674FDA))" />
+				<Grind While="(not IsQuestComplete(0xE000E860E2674FDA))">
+					<GrindArea Name="Droid Cleanup (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Timeworn Defender</Mob>
+							<Mob>Timeworn Sentry</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Timeworn Defender" XYZ="217.6665,-5.699,-26.79543" />
+							<Hotspot Name="Timeworn Defender" XYZ="221.8682,-5.699,-34.2205" />
+							<Hotspot Name="Timeworn Defender" XYZ="221.8699,-5.686826,-53.6214" />
+							<Hotspot Name="Timeworn Sentinel" XYZ="226.9388,-5.699,-41.2609" />
+							<Hotspot Name="Timeworn Defender" XYZ="229.6472,-5.699,-44.9474" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 8, 12)))">
 				<UseObject QuestId="0xE00022E4A5FC8BA6" ObjectName="Altar of Death" BranchId="8" StepId="12" Radius="20" WaitTime="5" XYZ="223.3074,-5.499018,-54.12022" />
@@ -1871,7 +1559,25 @@
 		<If Condition="((HasQuest(0xE0001C3385B21A3B)) and (not IsQuestComplete(0xE0001C3385B21A3B)))">
 			<!-- Deformation (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C252111D06E5))">
-				<Grind GrindRef="Deformation (Bonus)" While="(not IsQuestComplete(0xE000C252111D06E5))" />
+				<Grind While="(not IsQuestComplete(0xE000C252111D06E5))">
+					<GrindArea Name="Deformation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Deformed Crysfang</Mob>
+							<Mob>Deformed Mawvorr</Mob>
+							<Mob>Deformed Shaclaw</Mob>
+							<Mob>Deformed Vorantikus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Deformed Crysfang" XYZ="197.5218,2.057969,24.0641" />
+							<Hotspot Name="Deformed Shaclaw" XYZ="198.5135,1.87122,35.9383" />
+							<Hotspot Name="Deformed Vorantikus" XYZ="195.5019,1.834168,30.7404" />
+							<Hotspot Name="Deformed Vorantikus" XYZ="203.262,1.851281,31.2909" />
+							<Hotspot Name="Deformed Shaclaw" XYZ="205.5232,1.844613,40.4734" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001C3385B21A3B)) and (not IsBranchStepComplete(0xE0001C3385B21A3B, 1, 2)))">
 				<MoveTo QuestId="0xE0001C3385B21A3B" Name="The Dark Hollow" XYZ="214.888,0.544223,39.79901" />
@@ -1880,7 +1586,18 @@
 				<UseObject QuestId="0xE0001C3385B21A3B" ObjectName="Artifact" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="215.3734,-0.6797903,36.81967" />
 			</If>
 			<If Condition="((HasQuest(0xE0001C3385B21A3B)) and (not IsBranchStepComplete(0xE0001C3385B21A3B, 1, 4)))">
-				<Grind GrindRef="The Dark Hollow 4" While="(not IsBranchStepComplete(0xE0001C3385B21A3B, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE0001C3385B21A3B, 1, 4))">
+					<GrindArea Name="The Dark Hollow 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Avatar of Sel-Makor</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Avatar of Sel-Makor" XYZ="215.4176,-0.7026504,36.8855" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001C3385B21A3B)) and (not IsBranchStepComplete(0xE0001C3385B21A3B, 1, 5)))">
 				<TalkTo QuestId="0xE0001C3385B21A3B" Name="Avatar of Sel-Makor" XYZ="215.4176,-0.7026517,36.8855" />
@@ -1937,11 +1654,39 @@
 				<TalkTo QuestId="0xE000D47660687B94" Name="Ellrak" XYZ="-18.5144,0.7903612,-92.503" />
 			</If>
 			<If Condition="((HasQuest(0xE000D47660687B94)) and (not IsBranchStepComplete(0xE000D47660687B94, 1, 5)))">
-				<Grind GrindRef="Findsman 5" While="(not IsBranchStepComplete(0xE000D47660687B94, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000D47660687B94, 1, 5))">
+					<GrindArea Name="Findsman 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ellrak Raider</Mob>
+							<Mob>Ellrak</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ellrak" XYZ="-18.5144,0.7903612,-92.503" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Tame the Crysfang (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BBE22E6382D9))">
-				<Grind GrindRef="Tame the Crysfang (Bonus)" While="(not IsQuestComplete(0xE000BBE22E6382D9))" />
+				<Grind While="(not IsQuestComplete(0xE000BBE22E6382D9))">
+					<GrindArea Name="Tame the Crysfang (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Aged Crysfang Hunter</Mob>
+							<Mob>Crysfang Packrunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-9.915593,1.552835,-105.3978" />
+							<Hotspot Name="Aged Crysfang Hunter" XYZ="-6.144365,1.191009,-107.0034" />
+							<Hotspot Name="Crysfang Leaper" XYZ="-15.03623,1.754422,-111.6958" />
+							<Hotspot Name="Crysfang Packrunner" XYZ="3.835008,1.62608,-111.0066" />
+							<Hotspot Name="Crysfang Packrunner" XYZ="13.7443,1.379542,-110.5865" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1959,7 +1704,23 @@
 			</If>
 			<!-- Vorantikus Vengeance (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002EDA4D8BD24D))">
-				<Grind GrindRef="Vorantikus Vengeance (Bonus)" While="(not IsQuestComplete(0xE0002EDA4D8BD24D))" />
+				<Grind While="(not IsQuestComplete(0xE0002EDA4D8BD24D))">
+					<GrindArea Name="Vorantikus Vengeance (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Creature Master</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Creature Master" XYZ="-8.846689,6.830919,-158.3463" />
+							<Hotspot Name="Gormak Creature Master" XYZ="-1.738439,7.178659,-161.9566" />
+							<Hotspot Name="Gormak Creature Master" XYZ="0.4177,6.415231,-155.8261" />
+							<Hotspot Name="Gormak Creature Master" XYZ="-1.768717,6.638187,-154.2472" />
+							<Hotspot Name="Gormak Creature Master" XYZ="-9.9068,6.806917,-150.9877" />
+							<Hotspot Name="Gormak Creature Master" XYZ="-17.0274,7.050215,-161.7257" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1970,7 +1731,27 @@
 			</If>
 			<!-- Sith Infestation (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00079F99250DDBC))">
-				<Grind GrindRef="Sith Infestation (Bonus)" While="(not IsQuestComplete(0xE00079F99250DDBC))" />
+				<Grind While="(not IsQuestComplete(0xE00079F99250DDBC))">
+					<GrindArea Name="Sith Infestation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Artifact Master</Mob>
+							<Mob>Sith Force Adept</Mob>
+							<Mob>Imperial Artifact Guard</Mob>
+							<Mob>Imperial Artifact Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="17.25865,13.52511,-201.3357" />
+							<Hotspot Name="Sith Artifact Hunter" XYZ="22.1485,13.8207,-203.6598" />
+							<Hotspot Name="Sith Force Adept" XYZ="19.19334,13.65173,-196.8672" />
+							<Hotspot Name="Imperial Artifact Guard" XYZ="23.18843,13.67966,-195.7158" />
+							<Hotspot Name="Sith Artifact Master" XYZ="28.2993,13.66208,-195.9492" />
+							<Hotspot Name="Sith Artifact Master" XYZ="32.8512,13.59289,-195.8015" />
+							<Hotspot Name="Imperial Artifact Guard" XYZ="34.2201,13.56989,-200.073" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000FD68A7FA2D2D)) and (not IsBranchStepComplete(0xE000FD68A7FA2D2D, 1, 3)))">
 				<MoveTo QuestId="0xE000FD68A7FA2D2D" Name="Chasm" XYZ="4.238523,15.65457,-220.028" />
@@ -1982,11 +1763,41 @@
 		<If Condition="((HasQuest(0xE000C47443146D09)) and (not IsQuestComplete(0xE000C47443146D09)))">
 			<If Condition="((HasQuest(0xE000C47443146D09)) and (not IsBranchStepComplete(0xE000C47443146D09, 1, 2)))">
 				<If Condition="((HasQuest(0xE000C47443146D09)) and (not IsBranchTaskComplete(0xE000C47443146D09, 1, 2, 0)))">
-					<Grind GrindRef="Forbidden 2 0" While="(not IsBranchTaskComplete(0xE000C47443146D09, 1, 2, 0))" />
+					<Grind While="(not IsBranchTaskComplete(0xE000C47443146D09, 1, 2, 0))">
+						<GrindArea Name="Forbidden 2 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Gormak Cryo Scout</Mob>
+								<Mob>Gormak Fearless</Mob>
+								<Mob>Gormak Chief Gearhead</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Gormak Cryo Scout" XYZ="-5.4053,13.76604,-196.6811" />
+								<Hotspot Name="Gormak Chief Gearhead" XYZ="-6.8103,14.17826,-201.0511" />
+								<Hotspot Name="Gormak Fearless" XYZ="-9.772152,13.73968,-199.1304" />
+								<Hotspot Name="Gormak Chief Gearhead" XYZ="-6.398365,13.74266,-193.2143" />
+								<Hotspot Name="Gormak Chief Gearhead" XYZ="-8.3336,13.8385,-189.8446" />
+								<Hotspot Name="Gormak Cryo Scout" XYZ="-17.2039,13.741,-188.9994" />
+								<Hotspot Name="Gormak Chief Gearhead" XYZ="-18.50817,13.66772,-195.2072" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<!-- Defeat the Gormak Leader (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE00085771F81B6EC))">
-					<Grind GrindRef="Defeat the Gormak Leader (Bonus)" While="(not IsQuestComplete(0xE00085771F81B6EC))" />
+					<Grind While="(not IsQuestComplete(0xE00085771F81B6EC))">
+						<GrindArea Name="Defeat the Gormak Leader (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Gormak Leader</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Gormak Leader" XYZ="2.8219,11.6967,-201.7971" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000C47443146D09)) and (not IsBranchTaskComplete(0xE000C47443146D09, 1, 2, 1)))">
 					<UseObject QuestId="0xE000C47443146D09" ObjectName="Ancient Jedi Technology" BranchId="1" StepId="2" TaskId="1" Radius="50" WaitTime="5" >
@@ -2068,7 +1879,28 @@
 			</If>
 			<!-- It's Never Easy (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000F2CFD1DD87B8))">
-				<Grind GrindRef="It's Never Easy (Bonus)" While="(not IsQuestComplete(0xE000F2CFD1DD87B8))" />
+				<Grind While="(not IsQuestComplete(0xE000F2CFD1DD87B8))">
+					<GrindArea Name="It's Never Easy (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Cryo Warrior</Mob>
+							<Mob>Gormak War Shaman</Mob>
+							<Mob>Gormak Builder</Mob>
+							<Mob>Gormak Master Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak War Shaman" XYZ="66.79207,11.97477,-235.1419" />
+							<Hotspot Name="Gormak Cryo Warrior" XYZ="65.74081,12.03218,-240.7683" />
+							<Hotspot Name="Gormak Builder" XYZ="61.1118,11.9984,-243.7104" />
+							<Hotspot Name="Gormak War Shaman" XYZ="68.0951,10.46221,-250.1441" />
+							<Hotspot Name="Gormak Cryo Warrior" XYZ="60.5805,12.01013,-253.309" />
+							<Hotspot Name="Gormak Master Raider" XYZ="69.88744,10.54841,-254.2196" />
+							<Hotspot Name="Gormak Master Raider" XYZ="92.441,11.40446,-275.2178" />
+							<Hotspot Name="Gormak War Shaman" XYZ="101.0478,11.11788,-273.1317" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2088,7 +1920,21 @@
 			</If>
 			<!-- Closing the Floodgates (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007085CE94B354))">
-				<Grind GrindRef="Closing the Floodgates (Bonus)" While="(not IsQuestComplete(0xE0007085CE94B354))" />
+				<Grind While="(not IsQuestComplete(0xE0007085CE94B354))">
+					<GrindArea Name="Closing the Floodgates (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Sacrificer</Mob>
+							<Mob>Gormak Eradictor</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="105.693,10.67108,-248.4137" />
+							<Hotspot Name="Gormak Sacrificer" XYZ="114.7534,10.7076,-250.4225" />
+							<Hotspot Name="Gormak Sacrificer" XYZ="126.7848,11.50866,-249.0699" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2172,15 +2018,63 @@
 		<If Condition="((HasQuest(0xE0009BF29C36A135)) and (not IsQuestComplete(0xE0009BF29C36A135)))">
 			<If Condition="((HasQuest(0xE0009BF29C36A135)) and (not IsBranchStepComplete(0xE0009BF29C36A135, 1, 2)))">
 				<If Condition="((HasQuest(0xE0009BF29C36A135)) and (not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 0)))">
-					<Grind GrindRef="Cyber Beasts are Bad Enough 2 0" While="(not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 0))" />
+					<Grind While="(not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 0))">
+						<GrindArea Name="Cyber Beasts are Bad Enough 2 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Lakkna, Gormak Paragon</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Lakkna, Gormak Paragon" XYZ="-118.6966,20.43847,-254.6" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE0009BF29C36A135)) and (not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 1)))">
-					<Grind GrindRef="Cyber Beasts are Bad Enough 2 1" While="(not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 1))" />
+					<Grind While="(not IsBranchTaskComplete(0xE0009BF29C36A135, 1, 2, 1))">
+						<GrindArea Name="Cyber Beasts are Bad Enough 2 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Ancient Sith War Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Ancient Sith War Droid" XYZ="-126.738,16.53386,-220.3391" />
+								<Hotspot Name="Ancient Sith War Droid" XYZ="-127.9813,16.59922,-229.7387" />
+								<Hotspot Name="Ancient Sith War Droid" XYZ="-130.4832,16.40348,-227.3952" />
+								<Hotspot Name="Ancient Sith War Droid" XYZ="-132.1646,16.47584,-226.3897" />
+								<Hotspot Name="Ancient Sith War Droid" XYZ="-130.7926,18.22589,-244.1191" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<!-- Lakkna's Elite Gormak (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0001EE4B1D536BD))">
-				<Grind GrindRef="Lakkna's Elite Gormak (Bonus)" While="(not IsQuestComplete(0xE0001EE4B1D536BD))" />
+				<Grind While="(not IsQuestComplete(0xE0001EE4B1D536BD))">
+					<GrindArea Name="Lakkna's Elite Gormak (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Light Warrior</Mob>
+							<Mob>Gormak Inciter</Mob>
+							<Mob>Gormak Aggressor</Mob>
+							<Mob>Ancient Sith War Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Light Warrior" XYZ="-124.2349,16.68976,-215.6919" />
+							<Hotspot Name="Ancient Sith War Droid" XYZ="-126.738,16.53386,-220.3391" />
+							<Hotspot Name="Gormak Aggressor" XYZ="-128.7465,16.47971,-222.2103" />
+							<Hotspot Name="Gormak Inciter" XYZ="-123.2195,16.5061,-224.3222" />
+							<Hotspot Name="Gormak Aggressor" XYZ="-123.8747,16.42849,-229.2519" />
+							<Hotspot Name="Ancient Sith War Droid" XYZ="-132.1646,16.47584,-226.3897" />
+							<Hotspot Name="Gormak Inciter" XYZ="-118.204,17.73895,-219.5916" />
+							<Hotspot Name="Ancient Sith War Droid" XYZ="-130.7926,18.22589,-244.1191" />
+							<Hotspot Name="Gormak Aggressor" XYZ="-124.5493,18.49463,-247.5355" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -2196,12 +2090,54 @@
 			</If>
 			<!-- Stage 1 - Beast Takedown (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000134CDDA5E2DC))">
-				<Grind GrindRef="Stage 1 - Beast Takedown (Bonus)" While="(not IsQuestComplete(0xE000134CDDA5E2DC))" />
+				<Grind While="(not IsQuestComplete(0xE000134CDDA5E2DC))">
+					<GrindArea Name="Stage 1 - Beast Takedown (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gormak Beast Handler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
+							<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
+							<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
+							<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
+							<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
+							<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-93.9989,16.08521,-234.8061" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-88.6843,15.71352,-240.4406" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-88.28719,15.71352,-244.9657" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-84.63531,15.715,-241.4461" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-84.3749,15.7156,-246.0534" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 2 - Beast Takedown (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000164CDDA5E9C5))">
-				<Grind GrindRef="Stage 2 - Beast Takedown (Bonus)" While="(not IsQuestComplete(0xE000164CDDA5E9C5))" />
+				<Grind While="(not IsQuestComplete(0xE000164CDDA5E9C5))">
+					<GrindArea Name="Stage 2 - Beast Takedown (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Cyber-Enhanced Vorantikus</Mob>
+							<Mob>Augmented Vorantikus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gormak Beast Handler" XYZ="-113.1511,16.42973,-235.4516" />
+							<Hotspot Name="Gormak Beast Handler" XYZ="-104.62,16.55846,-230.7712" />
+							<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-98.1948,16.63232,-236.3303" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-93.9989,16.08521,-234.8061" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-88.6843,15.71352,-240.4406" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-88.28719,15.71352,-244.9657" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-84.63531,15.715,-241.4461" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-84.3749,15.7156,-246.0534" />
+							<Hotspot Name="Augmented Vorantikus" XYZ="-74.3295,17.17123,-253.2079" />
+							<Hotspot Name="Cyber-Enhanced Vorantikus" XYZ="-76.02093,17.16116,-247.9704" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 3 - Beast Takedown (Bonus) -->
@@ -2285,7 +2221,19 @@
 				<TalkTo QuestId="0xE00022E4A5FC8BA6" Name="Sophia Farash" XYZ="-94.99841,-100.0016,13.4001" />
 			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 4, 6)))">
-				<Grind GrindRef="Deep Cradle, Dark Heart 4 6" While="(not IsBranchStepComplete(0xE00022E4A5FC8BA6, 4, 6))" />
+				<Grind While="(not IsBranchStepComplete(0xE00022E4A5FC8BA6, 4, 6))">
+					<GrindArea Name="Deep Cradle, Dark Heart 4 6">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sophia Farash</Mob>
+							<Mob>Sith Apprentice</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sophia Farash" XYZ="-95.09379,-100.0074,13.08796" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00022E4A5FC8BA6)) and (not IsBranchStepComplete(0xE00022E4A5FC8BA6, 4, 7)))">
 				<TalkTo QuestId="0xE00022E4A5FC8BA6" Name="Sophia Farash" XYZ="-95.04622,-100.0022,13.03289" />

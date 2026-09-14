@@ -1,50 +1,6 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
 	<Name>Trooper - The Future of War</Name>
 
-	<GrindAreas>
-		<GrindArea Name="Gearbox's Garrison (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Observer</Mob>
-				<Mob>Imperial Rifleman</Mob>
-				<Mob>Imperial Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Observer" XYZ="-30.18007,9.125998,-84.8104" />
-				<Hotspot Name="Imperial Rifleman" XYZ="-29.64676,9.101432,-89.06548" />
-				<Hotspot Name="Imperial Commander" XYZ="-27.4017,9.29799,-86.77779" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="The Future of War - Defending the generator">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Observer</Mob>
-				<Mob>Imperial Rifleman</Mob>
-				<Mob>Imperial Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-25.96566,9.125999,-89.00726" />
-				<Hotspot Name="My Location" XYZ="-30.01845,9.125999,-84.99914" />
-			</Hotspots>
-		</GrindArea>		
-
-		<GrindArea Name="The Future of War - Kill Gearbox and Droid">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Experimental Armored Walker</Mob>
-				<Mob>Gearbox</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Experimental Armored Walker" XYZ="4.129993,25.74126,-85.29963" />
-				<Hotspot Name="Gearbox" XYZ="3.004294,25.74076,-85.06347" />
-			</Hotspots>
-		</GrindArea>			
-	</GrindAreas>	 
-  
 	<Questing>
 		<!-- Trooper - The Future of War -->
 		<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsQuestComplete(0xE000F3534C0434DC)))">
@@ -64,7 +20,21 @@
 				</If>	
 			</If>
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 4)))">
-				<Grind GrindRef="The Future of War - Defending the generator" While="(not IsStepComplete(0xE000525FC34FA588, 4))" />	
+				<Grind While="(not IsStepComplete(0xE000525FC34FA588, 4))">
+					<GrindArea Name="The Future of War - Defending the generator">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Observer</Mob>
+							<Mob>Imperial Rifleman</Mob>
+							<Mob>Imperial Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-25.96566,9.125999,-89.00726" />
+							<Hotspot Name="My Location" XYZ="-30.01845,9.125999,-84.99914" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>	
 			</If>	
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 5)))">
 				<If Condition="(Me.Position.Y &lt; 15)">
@@ -76,14 +46,42 @@
 				</If>		
 			</If>
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 7)))">
-				<Grind GrindRef="The Future of War - Kill Gearbox and Droid" While="(not IsStepComplete(0xE000525FC34FA588, 7))" />	
+				<Grind While="(not IsStepComplete(0xE000525FC34FA588, 7))">
+					<GrindArea Name="The Future of War - Kill Gearbox and Droid">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Experimental Armored Walker</Mob>
+							<Mob>Gearbox</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Experimental Armored Walker" XYZ="4.129993,25.74126,-85.29963" />
+							<Hotspot Name="Gearbox" XYZ="3.004294,25.74076,-85.06347" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>	
 			</If>				
 		</If>	
 
 		<!-- Trooper - Gearbox's Garrison (Bonus) -->
 		<If Condition="((HasQuest(0xE000525FC34FA588)) and (not IsQuestComplete(0xE000525FC34FA588)))">
 			<If Condition="((HasQuest(0xE000525FC34FA588)) and (not IsStepComplete(0xE000525FC34FA588, 2)))">
-				<Grind GrindRef="Gearbox's Garrison (Bonus)" While="(not IsStepComplete(0xE000525FC34FA588, 2))" />
+				<Grind While="(not IsStepComplete(0xE000525FC34FA588, 2))">
+					<GrindArea Name="Gearbox's Garrison (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Observer</Mob>
+							<Mob>Imperial Rifleman</Mob>
+							<Mob>Imperial Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Observer" XYZ="-30.18007,9.125998,-84.8104" />
+							<Hotspot Name="Imperial Rifleman" XYZ="-29.64676,9.101432,-89.06548" />
+							<Hotspot Name="Imperial Commander" XYZ="-27.4017,9.29799,-86.77779" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>	
 

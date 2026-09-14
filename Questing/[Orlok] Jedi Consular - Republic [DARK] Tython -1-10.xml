@@ -3,40 +3,6 @@
 	<ForceAlignment Type="Dark" AutoSkip="True" />
 
 	
-	<GrindAreas>
-
-		<GrindArea Name="Rajivari's Legacy 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Twi'lek Sentry</Mob>
-				<Mob>Twi'lek Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Twi'lek Sentry" XYZ="5.953146,1.432048,28.18005"/>
-			</Hotspots>
-		</GrindArea>
-
-
-		<GrindArea Name="Twi'lek Trouble (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Nalen's Follower</Mob>
-				<Mob>Nalen's Loyalist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395"/>
-				<Hotspot Name="Nalen's Loyalist" XYZ="-0.08419999,1.938989,36.8338"/>
-				<Hotspot Name="Nalen's Loyalist" XYZ="3.291482,1.856495,35.99295"/>
-				<Hotspot Name="Nalen's Loyalist" XYZ="7.191,0.5260118,32.0662"/>
-				<Hotspot Name="Nalen's Follower" XYZ="5.3682,0.4984342,30.9986"/>
-				<Hotspot Name="Nalen's Follower" XYZ="3.2528,0.4724905,33.081"/>
-			</Hotspots>
-		</GrindArea>
-
-	</GrindAreas>	
-	
 	<Questing>
 
 
@@ -225,7 +191,24 @@
 
 				<If Condition="(not IsQuestComplete(0xE000CC00A8B36EEF))">
 					<MoveTo QuestId="1" Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395"/>
-					<Grind GrindRef="Twi'lek Trouble (Bonus)" While="(not IsQuestComplete(0xE000CC00A8B36EEF))"/>
+					<Grind While="(not IsQuestComplete(0xE000CC00A8B36EEF))">
+						<GrindArea Name="Twi'lek Trouble (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Nalen's Follower</Mob>
+								<Mob>Nalen's Loyalist</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395"/>
+								<Hotspot Name="Nalen's Loyalist" XYZ="-0.08419999,1.938989,36.8338"/>
+								<Hotspot Name="Nalen's Loyalist" XYZ="3.291482,1.856495,35.99295"/>
+								<Hotspot Name="Nalen's Loyalist" XYZ="7.191,0.5260118,32.0662"/>
+								<Hotspot Name="Nalen's Follower" XYZ="5.3682,0.4984342,30.9986"/>
+								<Hotspot Name="Nalen's Follower" XYZ="3.2528,0.4724905,33.081"/>
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 
 
@@ -233,7 +216,19 @@
 				<MoveTo QuestId="0xE000EAC98B7D73C4" Name="Twi'lek Sentry" XYZ="7.685058,1.367599,29.29734"/>
 			</If>
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3)))">
-				<Grind GrindRef="Rajivari's Legacy 3" While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))"/>
+				<Grind While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))">
+					<GrindArea Name="Rajivari's Legacy 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Twi'lek Sentry</Mob>
+							<Mob>Twi'lek Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Twi'lek Sentry" XYZ="5.953146,1.432048,28.18005"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 4)))">
 				<UseObject QuestId="0xE000EAC98B7D73C4" ObjectName="Qyzen's Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="5.942243,1.430775,28.59888"/>

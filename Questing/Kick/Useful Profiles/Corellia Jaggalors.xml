@@ -2,8 +2,7 @@
 	<Name>Jaggalors on the Loose: Cruelty 2</Name>
   
 	
-	<GrindAreas>
-	
+	<Grind While="Me.Level &gt;= 1">
 		<GrindArea Name="Jaggalors on the Loose: Cruelty 2">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -24,13 +23,8 @@
 				<Hotspot Name="Jaggalor" XYZ="62.0196,4.454011,-251.2985" />
 				<Hotspot Name="Jaggalor" XYZ="69.9617,4.783249,-246.5806" />
 			</Hotspots>
-		</GrindArea>    
-
-	</GrindAreas>
-	
-
-
-	<Grind GrindRef="Jaggalors on the Loose: Cruelty 2" While="Me.Level &gt;= 1" />
+		</GrindArea>
+	</Grind>
 
 	
 

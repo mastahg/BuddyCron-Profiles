@@ -19,8 +19,7 @@
 		<Hotspot Name="Supply Officer Threco" XYZ="160.78,44.74827,-61.066" /> <!-- Ridgeside Sentry Post -->
 	</Vendors>
 	
-	<GrindAreas> 
-	
+	<Grind While="True">
 		<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -51,11 +50,7 @@
 				<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />		
 			</Hotspots>
 		</GrindArea>
-
-	</GrindAreas>
-
-		
-	<Grind GrindRef="Stage 1 - Enforcing Order - Defeat Exchange Forces" While="True" />
+	</Grind>
 
 
 </Profile>

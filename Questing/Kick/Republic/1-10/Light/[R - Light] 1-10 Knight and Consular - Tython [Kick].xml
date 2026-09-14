@@ -27,26 +27,6 @@
 	
 	<GrindAreas> 
 	
-		<GrindArea Name="Level 10">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Horranth Matriarch</Mob>
-				<Mob>Horranth Patriarch</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-5.922328,-2.607257,10.95154" />
-				<Hotspot Name="My Location" XYZ="-0.4706642,-1.838756,13.91766" />
-				<Hotspot Name="My Location" XYZ="0.1576558,-2.104338,11.90617" />
-				<Hotspot Name="My Location" XYZ="3.308071,-1.446679,14.71237" />
-				<Hotspot Name="Horranth Matriarch" XYZ="4.9128,0.4084214,18.4768" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-25.1667,3.389722,15.057" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-27.1086,3.548226,9.6214" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-28.1189,3.708139,14.5044" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-30.6823,4.248525,9.9901" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="The Flesh Raider Menace (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -67,41 +47,6 @@
 			</Hotspots>
 		</GrindArea>    
 	
-		<GrindArea Name="Attack of the Flesh Raiders 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>3</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Scout</Mob>
-				<Mob>Flesh Raider Hunter</Mob>
-				<Mob>Flesh Raider Bloodletter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Hunter" XYZ="-8.957046,-3.274314,-99.07837" />
-				<Hotspot Name="Flesh Raider Scout" XYZ="-6.4218,-3.484634,-100.4231" />
-				<Hotspot Name="Flesh Raider Hunter" XYZ="-8.473801,-3.306393,-101.872" />
-				<Hotspot Name="Flesh Raider Scout" XYZ="-1.3614,-4.013114,-104.9115" />
-				<Hotspot Name="Flesh Raider Scout" XYZ="-1.827752,-4.159701,-100.181" />
-				<Hotspot Name="Flesh Raider Scout" XYZ="-3.3478,-4.265152,-98.5755" />
-				<Hotspot Name="Flesh Raider Hunter" XYZ="0.3049,-3.855632,-102.9328" />
-				<Hotspot Name="My Location" XYZ="24.88696,-5.379164,-119.9835" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Halt the Assault (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>5</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Ravager</Mob>
-				<Mob>Flesh Raider Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Brute" XYZ="30.35947,-5.862119,-76.97369" />
-				<Hotspot Name="Flesh Raider Ravager" XYZ="37.70578,-6.854006,-76.92126" />
-				<Hotspot Name="My Location" XYZ="42.73677,-8.30991,-82.18724" />
-				<Hotspot Name="Flesh Raider Brute" XYZ="39.90929,-8.289795,-79.63228" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Attack of the Flesh Raiders 7-8">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>5</MaxLevel>
@@ -130,487 +75,6 @@
 				<Hotspot Name="Flesh Raider Lurker" XYZ="0.0387,-0.3826405,-61.4106" />
 			</Hotspots>
 		</GrindArea>    
-		
-		<GrindArea Name="Combat Leadership: Mark I">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>5</MaxLevel>
-			<Mobs>
-				<Mob>Mark I Training Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mark I Training Droid" XYZ="-18.9595,-7.960167,-49.7071" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clear The Mountain Path (Bonus)">
-			<MinLevel>3</MinLevel>
-			<MaxLevel>5</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Slaver</Mob>
-				<Mob>Flesh Raider Slavemaster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Slaver" XYZ="42.3,5.905145,-51.5" />
-				<Hotspot Name="Enslaved Cthon" XYZ="38.20007,5.893455,-51.20004" />
-				<Hotspot Name="Flesh Raider Slaver" XYZ="43.1,5.678569,-57.69993" />
-				<Hotspot Name="Flesh Raider Slaver" XYZ="39.7,5.904101,-60.3" />
-				<Hotspot Name="Flesh Raider Slaver" XYZ="40.8297,6.244856,-64.1426" />
-				<Hotspot Name="Flesh Raider Slavemaster" XYZ="37.29253,6.306173,-65.9616" />
-				<Hotspot Name="Flesh Raider Slavemaster" XYZ="30.2,4.628956,-67.19998" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Thin the Flesh Raider Ranks (Bonus)">
-			<MinLevel>3</MinLevel>
-			<MaxLevel>6</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Stalker</Mob>
-				<Mob>Flesh Raider Pillager</Mob>
-				<Mob>Flesh Raider Loreseeker</Mob>
-				<Mob>Flesh Raider Salvager</Mob>
-				<Mob>Flesh Raider Tech Salvager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Stalker" XYZ="21.9674,0.5871694,-28" />
-				<Hotspot Name="Flesh Raider Pillager" XYZ="23.55397,0.8520655,-27.82022" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="26.38745,-3.514936,-12.54061" />
-				<Hotspot Name="Flesh Raider Tech Salvager" XYZ="31.58759,-3.607875,-11.78759" />
-				<Hotspot Name="Flesh Raider Salvager" XYZ="33.17172,-3.076517,-14.54137" />
-				<Hotspot Name="Flesh Raider Stalker" XYZ="36.38931,-3.647701,-12.75494" />
-				<Hotspot Name="Flesh Raider Beast Handler" XYZ="40.95205,-1.460363,-14.7401" />
-				<Hotspot Name="Flesh Raider Shaman" XYZ="38.4,-1.180024,-6.4" />
-				<Hotspot Name="My Location" XYZ="38.47871,-1.202698,-16.99549" />
-				<Hotspot Name="Flesh Raider Tech Salvager" XYZ="46.24964,-1.318422,-16.43253" />
-				<Hotspot Name="My Location" XYZ="47.25857,-1.373355,-19.98298" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="46.34,-0.2165156,-12.08" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="44.1,1.015183,-9.200001" />
-				<Hotspot Name="Flesh Raider Chief Shaman" XYZ="44.02,1.338866,-4.62" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Low-Tech Methods (Bonus)">
-			<MinLevel>3</MinLevel>
-			<MaxLevel>6</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Stalker</Mob>
-				<Mob>Flesh Raider Pillager</Mob>
-				<Mob>Flesh Raider Loreseeker</Mob>
-				<Mob>Flesh Raider Salvager</Mob>
-				<Mob>Flesh Raider Tech Salvager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Stalker" XYZ="21.9674,0.5871694,-28" />
-				<Hotspot Name="Flesh Raider Pillager" XYZ="23.55397,0.8520655,-27.82022" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="26.38745,-3.514936,-12.54061" />
-				<Hotspot Name="Flesh Raider Tech Salvager" XYZ="31.58759,-3.607875,-11.78759" />
-				<Hotspot Name="Flesh Raider Salvager" XYZ="33.17172,-3.076517,-14.54137" />
-				<Hotspot Name="Flesh Raider Stalker" XYZ="36.38931,-3.647701,-12.75494" />
-				<Hotspot Name="Flesh Raider Beast Handler" XYZ="40.95205,-1.460363,-14.7401" />
-				<Hotspot Name="Flesh Raider Shaman" XYZ="38.4,-1.180024,-6.4" />
-				<Hotspot Name="My Location" XYZ="38.47871,-1.202698,-16.99549" />
-				<Hotspot Name="Flesh Raider Tech Salvager" XYZ="46.24964,-1.318422,-16.43253" />
-				<Hotspot Name="My Location" XYZ="47.25857,-1.373355,-19.98298" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="46.34,-0.2165156,-12.08" />
-				<Hotspot Name="Flesh Raider Loreseeker" XYZ="44.1,1.015183,-9.200001" />
-				<Hotspot Name="Flesh Raider Chief Shaman" XYZ="44.02,1.338866,-4.62" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="High-Tech Savages 5">
-			<MinLevel>4</MinLevel>
-			<MaxLevel>6</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Warmaster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Warmaster" XYZ="31.56553,-3.993451,-45.13751" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Combat Leadership: Mark II">
-			<MinLevel>3</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Mark II Training Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mark II Training Droid" XYZ="-18.9595,-7.960167,-49.7071" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Guardians of the Past (Bonus)">
-			<MinLevel>2</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Tythonian Seeker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Tythonian Seeker" XYZ="-34.8499,-2.795992,-3.939597" />
-				<Hotspot Name="My Location" XYZ="-40.41346,-2.551051,0.9126012" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-43.8794,-2.563375,2.965502" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-47.29293,-2.550953,0.5979921" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-49.5036,-2.574455,0.02900144" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-49.4526,-2.519504,-5.051098" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-46.6916,-2.539383,7.785102" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-49.4261,-2.53538,8.568899" />
-				<Hotspot Name="Tythonian Seeker" XYZ="-45.6101,-2.527874,-2.096199" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Flesh Eating Baby">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Greater Guid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-38.33634,0.02863244,-15.61154" />
-				<Hotspot Name="My Location" XYZ="-42.06294,0.1640819,-16.86979" />
-				<Hotspot Name="My Location" XYZ="-41.49896,0.05728705,-13.23805" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Guards of the Leader (Bonus)">
-			<MinLevel>5</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Adept Initiate</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-49.65767,-2.332731,-17.27827" />
-				<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-56.95201,-1.138881,-17.19567" />
-				<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-62.7731,0.01768817,-18.8607" />
-				<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-68.1724,1.786512,-20.4078" />
-				<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-68.83911,1.310369,-14.6156" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Combat Leadership: Mark III">
-			<MinLevel>5</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Mark II Training Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mark III Training Droid" XYZ="-18.9595,-7.960167,-49.7071" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Pilgrim Medicine">
-			<MinLevel>4</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Deathwatcher</Mob>
-				<Mob>Flesh Raider Scavenger</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="22.55794,-2.17979,-7.86595" />
-				<Hotspot Name="My Location" XYZ="19.69905,-2.980156,-3.030854" />
-				<Hotspot Name="My Location" XYZ="23.09305,-1.047164,6.008859" />
-				<Hotspot Name="My Location" XYZ="26.1124,-0.8620752,9.700072" />
-				<Hotspot Name="My Location" XYZ="31.3649,-1.126334,12.0343" />
-				<Hotspot Name="Wingmaw Bonecleaner" XYZ="39.71962,-2.274112,14.71805" />
-				<Hotspot Name="My Location" XYZ="35.38911,-0.2665095,19.59171" />
-				<Hotspot Name="Wingmaw Bonecleaner" XYZ="20.93362,-2.4132,17.37353" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clear Out Tythos Ridge (Bonus)" >
-			<MinLevel>4</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Deathwatcher</Mob>
-				<Mob>Flesh Raider Scavenger</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="22.55794,-2.17979,-7.86595" />
-				<Hotspot Name="My Location" XYZ="19.69905,-2.980156,-3.030854" />
-				<Hotspot Name="My Location" XYZ="23.09305,-1.047164,6.008859" />
-				<Hotspot Name="My Location" XYZ="26.1124,-0.8620752,9.700072" />
-				<Hotspot Name="My Location" XYZ="31.3649,-1.126334,12.0343" />
-				<Hotspot Name="Wingmaw Bonecleaner" XYZ="39.71962,-2.274112,14.71805" />
-				<Hotspot Name="My Location" XYZ="35.38911,-0.2665095,19.59171" />
-				<Hotspot Name="Wingmaw Bonecleaner" XYZ="20.93362,-2.4132,17.37353" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Combat Leadership: Mark IV">
-			<MinLevel>5</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Mark IV Training Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mark IV Training Droid" XYZ="-18.9595,-7.960167,-49.7071" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Scars of the Dark Side (Bonus)">
-			<MinLevel>7</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Savage Adept</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-42.87069,-2.036721,26.84647" />
-				<Hotspot Name="Flesh Raider Savage Adept" XYZ="-42.2033,-2.411096,31.8365" />
-				<Hotspot Name="Flesh Raider Savage Adept" XYZ="-40.1029,-2.394503,33.5955" />
-				<Hotspot Name="Flesh Raider Savage Adept" XYZ="-37.0239,-2.067572,32.8562" />
-				<Hotspot Name="Flesh Raider Savage Adept" XYZ="-46.6918,-2.417198,31.64279" />
-				<Hotspot Name="My Location" XYZ="-43.53875,-1.695117,34.10836" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Horranth Egg Matriarchs">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>9</MaxLevel>
-			<Mobs>
-				<Mob>Horranth Matriarch</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-5.922328,-2.607257,10.95154" />
-				<Hotspot Name="My Location" XYZ="-0.4706642,-1.838756,13.91766" />
-				<Hotspot Name="My Location" XYZ="0.1576558,-2.104338,11.90617" />
-				<Hotspot Name="My Location" XYZ="3.308071,-1.446679,14.71237" />
-				<Hotspot Name="Horranth Matriarch" XYZ="4.9128,0.4084214,18.4768" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Horranth Egg Patriarchs">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>9</MaxLevel>
-			<Mobs>
-				<Mob>Horranth Patriarch</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Horranth Patriarch" XYZ="-25.1667,3.389722,15.057" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-27.1086,3.548226,9.6214" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-28.1189,3.708139,14.5044" />
-				<Hotspot Name="Horranth Patriarch" XYZ="-30.6823,4.248525,9.9901" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Remnants Invasion (Bonus)">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Trial Droid</Mob>
-				<Mob>Flesh Raider Tech Savant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-13.62543,2.914632,38.41223" />
-				<Hotspot Name="My Location" XYZ="2.864636,3.456003,42.22021" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-4.1858,4.112668,54.0078" />
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-4.9449,3.950331,49.7909" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-8.9067,3.985461,50.9585" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-12.4393,3.861729,54.9979" />
-				<Hotspot Name="Flesh Raider Marauder" XYZ="-9.9735,5.701253,60.9878" />
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-6.5863,5.819502,59.9215" />
-				<Hotspot Name="Flesh Raider Marauder" XYZ="-2.840965,5.705625,62.9189" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Remnants Incursion (Bonus)">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Trial Droid</Mob>
-				<Mob>Flesh Raider Tech Savant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-13.62543,2.914632,38.41223" />
-				<Hotspot Name="My Location" XYZ="2.864636,3.456003,42.22021" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-4.1858,4.112668,54.0078" />
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-4.9449,3.950331,49.7909" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-8.9067,3.985461,50.9585" />
-				<Hotspot Name="Flesh Raider Tech Savant" XYZ="-12.4393,3.861729,54.9979" />
-				<Hotspot Name="Flesh Raider Marauder" XYZ="-9.9735,5.701253,60.9878" />
-				<Hotspot Name="Reprogrammed Trial Droid" XYZ="-6.5863,5.819502,59.9215" />
-				<Hotspot Name="Flesh Raider Marauder" XYZ="-2.840965,5.705625,62.9189" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Forge Ahead (Bonus)">
-			<MinLevel>6</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Feral Adept"</Mob>
-				<Mob>Force-Wielding Flesh Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-17.96008,11.96701,118.9897" />
-				<Hotspot Name="Flesh Raider Feral Adept" XYZ="-13.98875,12.52966,119.1656" />
-				<Hotspot Name="Force-Wielding Flesh Raider" XYZ="-12.6144,12.76285,121.0139" />
-				<Hotspot Name="My Location" XYZ="-16.38116,13.42026,124.2808" />
-				<Hotspot Name="My Location" XYZ="-17.2067,13.98009,131.5208" />
-				<Hotspot Name="Flesh Raider Feral Adept" XYZ="-21.7235,13.92761,133.643" />
-				<Hotspot Name="Flesh Raider Feral Adept" XYZ="-25.8887,14.77615,135.841" />
-				<Hotspot Name="My Location" XYZ="-29.47035,16.20988,141.3018" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Weapon of the Jedi 5">
-			<MinLevel>7</MinLevel>
-			<MaxLevel>11</MaxLevel>
-			<Mobs>
-				<Mob>Bengel Morr</Mob>
-				<Mob>Flesh Raider Bodyguard Adept</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bengel Morr" XYZ="-24.36744,16.99446,150.634" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Putting Your New Weapon to Use (Bonus)">
-			<MinLevel>7</MinLevel>
-			<MaxLevel>11</MaxLevel>
-			<Mobs>
-				<Mob>Bengel Morr</Mob>
-				<Mob>Flesh Raider Bodyguard Adept</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Forge Guardian" XYZ="-24.36744,16.99446,150.634" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Combat Leadership: Mark V">
-			<MinLevel>5</MinLevel>
-			<MaxLevel>10</MaxLevel>
-			<Mobs>
-				<Mob>Mark V Training Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mark V Training Droid" XYZ="-18.9595,-7.960167,-49.7071" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clear the Path to the Jedi Temple (Bonus)">
-			<MinLevel>2</MinLevel>
-			<MaxLevel>5</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Lurker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-9.4622,-2.099293,-79.6216" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-14.1946,-2.208942,-80.7238" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-12.7541,-2.067433,-77.21391" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-8.7098,-1.169552,-70.45869" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-5.2798,-1.764485,-72.3183" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="-4.8563,-1.036177,-65.636" />
-				<Hotspot Name="Flesh Raider Lurker" XYZ="0.8457,-1.038101,-63.5696" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Survival of the Fittest (Bonus)">
-			<MinLevel>2</MinLevel>
-			<MaxLevel>6</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider Cave Dweller</Mob>
-				<Mob>Flesh Raider Seeker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="68.50956,-1.537271,-11.0458" />
-				<Hotspot Name="My Location" XYZ="68.50956,-1.537271,-11.0458" />
-				<Hotspot Name="My Location" XYZ="63.9623,-2.303569,-7.471728" />	
-				<Hotspot Name="My Location" XYZ="50.48028,0.1462553,-6.040652" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Twi'lek Trouble (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Nalen's Follower</Mob>
-				<Mob>Nalen's Loyalist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395" />
-				<Hotspot Name="Nalen's Loyalist" XYZ="-0.08419999,1.938989,36.8338" />
-				<Hotspot Name="Nalen's Loyalist" XYZ="3.291482,1.856495,35.99295" />
-				<Hotspot Name="Nalen's Loyalist" XYZ="7.191,0.5260118,32.0662" />
-				<Hotspot Name="Nalen's Follower" XYZ="5.3682,0.4984342,30.9986" />
-				<Hotspot Name="Nalen's Follower" XYZ="3.2528,0.4724905,33.081" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Rajivari's Legacy 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Twi'lek Sentry</Mob>
-				<Mob>Twi'lek Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Twi'lek Sentry" XYZ="5.953146,1.432048,28.18005" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Hunting High and Low (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Flesh Raider High Shaman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-4.461895,6.622425,77.26942" />
-				<Hotspot Name="Flesh Raider High Shaman" XYZ="-3.153755,6.632525,80.12088" />
-				<Hotspot Name="My Location" XYZ="2.538943,6.424302,82.00801" />
-				<Hotspot Name="Flesh Raider High Shaman" XYZ="6.0063,6.422897,82.6428" />
-				<Hotspot Name="Flesh Raider High Shaman" XYZ="5.8574,6.422896,86.74081" />
-				<Hotspot Name="Flesh Raider High Shaman" XYZ="2.5066,6.422896,90.434" />
-				<Hotspot Name="Flesh Raider High Shaman" XYZ="3.2488,7.377337,84.80769" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Crystal Cavern Cleansing (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Cavern Horranth</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-2.447567,10.57969,115.239" />
-				<Hotspot Name="Cavern Horranth" XYZ="3.7988,10.95002,119.9549" />
-				<Hotspot Name="Cavern Horranth" XYZ="5.7763,11.2556,115.8556" />
-				<Hotspot Name="Cavern Horranth" XYZ="7.318108,11.03418,107.148" />
-				<Hotspot Name="Cavern Horranth" XYZ="13.9635,11.41494,111.0913" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Forge 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Dark Beast</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="4.812031,11.699,111.1099" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Forge 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Nalen Raloch</Mob>
-				<Mob>Henni</Mob>
-				<Mob>Keth</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nalen Raloch" XYZ="6.632139,15.24617,154.6232" />
-			</Hotspots>
-		</GrindArea>    
-		
-
-		
-			
-			
-			
-			
-			
-			
-			
-
 		
 	</GrindAreas>
 	
@@ -715,7 +179,27 @@
 		<!-- Knight: Attack of the Flesh Raiders 4-11 -->
 		<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsQuestComplete(0xE000D8E514C906C4)))">
 			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 4)))">
-				<Grind GrindRef="Attack of the Flesh Raiders 4" While="(not IsBranchStepComplete(0xE000D8E514C906C4, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000D8E514C906C4, 1, 4))">
+					<GrindArea Name="Attack of the Flesh Raiders 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>3</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Scout</Mob>
+							<Mob>Flesh Raider Hunter</Mob>
+							<Mob>Flesh Raider Bloodletter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Flesh Raider Hunter" XYZ="-8.957046,-3.274314,-99.07837" />
+							<Hotspot Name="Flesh Raider Scout" XYZ="-6.4218,-3.484634,-100.4231" />
+							<Hotspot Name="Flesh Raider Hunter" XYZ="-8.473801,-3.306393,-101.872" />
+							<Hotspot Name="Flesh Raider Scout" XYZ="-1.3614,-4.013114,-104.9115" />
+							<Hotspot Name="Flesh Raider Scout" XYZ="-1.827752,-4.159701,-100.181" />
+							<Hotspot Name="Flesh Raider Scout" XYZ="-3.3478,-4.265152,-98.5755" />
+							<Hotspot Name="Flesh Raider Hunter" XYZ="0.3049,-3.855632,-102.9328" />
+							<Hotspot Name="My Location" XYZ="24.88696,-5.379164,-119.9835" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 5)))">
 				<AnswerHolocomCall QuestName="Attack of the Flesh Raiders" QuestId="0xE000D8E514C906C4" />
@@ -723,7 +207,22 @@
 			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 6)))">
 				<!-- Halt the Assault (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000C99074E53EFF))">
-					<Grind GrindRef="Halt the Assault (Bonus)" While="(not IsQuestComplete(0xE000C99074E53EFF))" />
+					<Grind While="(not IsQuestComplete(0xE000C99074E53EFF))">
+						<GrindArea Name="Halt the Assault (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>5</MaxLevel>
+							<Mobs>
+								<Mob>Flesh Raider Ravager</Mob>
+								<Mob>Flesh Raider Brute</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Flesh Raider Brute" XYZ="30.35947,-5.862119,-76.97369" />
+								<Hotspot Name="Flesh Raider Ravager" XYZ="37.70578,-6.854006,-76.92126" />
+								<Hotspot Name="My Location" XYZ="42.73677,-8.30991,-82.18724" />
+								<Hotspot Name="Flesh Raider Brute" XYZ="39.90929,-8.289795,-79.63228" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="0xE000D8E514C906C4" Name="Callef" XYZ="42.67798,-7.356068,-84.98225" />
 			</If>
@@ -859,7 +358,25 @@
 			</If>
 			<!-- Clear The Mountain Path (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E0842FB1E8D2))">
-				<Grind GrindRef="Clear The Mountain Path (Bonus)" While="(not IsQuestComplete(0xE000E0842FB1E8D2))" />
+				<Grind While="(not IsQuestComplete(0xE000E0842FB1E8D2))">
+					<GrindArea Name="Clear The Mountain Path (Bonus)">
+						<MinLevel>3</MinLevel>
+						<MaxLevel>5</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Slaver</Mob>
+							<Mob>Flesh Raider Slavemaster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Flesh Raider Slaver" XYZ="42.3,5.905145,-51.5" />
+							<Hotspot Name="Enslaved Cthon" XYZ="38.20007,5.893455,-51.20004" />
+							<Hotspot Name="Flesh Raider Slaver" XYZ="43.1,5.678569,-57.69993" />
+							<Hotspot Name="Flesh Raider Slaver" XYZ="39.7,5.904101,-60.3" />
+							<Hotspot Name="Flesh Raider Slaver" XYZ="40.8297,6.244856,-64.1426" />
+							<Hotspot Name="Flesh Raider Slavemaster" XYZ="37.29253,6.306173,-65.9616" />
+							<Hotspot Name="Flesh Raider Slavemaster" XYZ="30.2,4.628956,-67.19998" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" TurnInName="Kolovish" XYZ="31.8411,9.224839,-51.7898" />
 			<CompleteQuest QuestName="The Thousand Steps" QuestId="0xE0001361588F63DF" />
@@ -889,7 +406,35 @@
 			</If>
 			<!-- Thin the Flesh Raider Ranks (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000CBC28BB765A))">
-				<Grind GrindRef="Thin the Flesh Raider Ranks (Bonus)" While="(not IsQuestComplete(0xE0000CBC28BB765A))" />
+				<Grind While="(not IsQuestComplete(0xE0000CBC28BB765A))">
+					<GrindArea Name="Thin the Flesh Raider Ranks (Bonus)">
+						<MinLevel>3</MinLevel>
+						<MaxLevel>6</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Stalker</Mob>
+							<Mob>Flesh Raider Pillager</Mob>
+							<Mob>Flesh Raider Loreseeker</Mob>
+							<Mob>Flesh Raider Salvager</Mob>
+							<Mob>Flesh Raider Tech Salvager</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Flesh Raider Stalker" XYZ="21.9674,0.5871694,-28" />
+							<Hotspot Name="Flesh Raider Pillager" XYZ="23.55397,0.8520655,-27.82022" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="26.38745,-3.514936,-12.54061" />
+							<Hotspot Name="Flesh Raider Tech Salvager" XYZ="31.58759,-3.607875,-11.78759" />
+							<Hotspot Name="Flesh Raider Salvager" XYZ="33.17172,-3.076517,-14.54137" />
+							<Hotspot Name="Flesh Raider Stalker" XYZ="36.38931,-3.647701,-12.75494" />
+							<Hotspot Name="Flesh Raider Beast Handler" XYZ="40.95205,-1.460363,-14.7401" />
+							<Hotspot Name="Flesh Raider Shaman" XYZ="38.4,-1.180024,-6.4" />
+							<Hotspot Name="My Location" XYZ="38.47871,-1.202698,-16.99549" />
+							<Hotspot Name="Flesh Raider Tech Salvager" XYZ="46.24964,-1.318422,-16.43253" />
+							<Hotspot Name="My Location" XYZ="47.25857,-1.373355,-19.98298" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="46.34,-0.2165156,-12.08" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="44.1,1.015183,-9.200001" />
+							<Hotspot Name="Flesh Raider Chief Shaman" XYZ="44.02,1.338866,-4.62" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -904,10 +449,49 @@
 		<If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsQuestComplete(0xE000941AE7D5C4D8)))">
 			<!-- Low-Tech Methods (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000113DB45B801A))">
-				<Grind GrindRef="Low-Tech Methods (Bonus)" While="(not IsQuestComplete(0xE000113DB45B801A))" />
+				<Grind While="(not IsQuestComplete(0xE000113DB45B801A))">
+					<GrindArea Name="Low-Tech Methods (Bonus)">
+						<MinLevel>3</MinLevel>
+						<MaxLevel>6</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Stalker</Mob>
+							<Mob>Flesh Raider Pillager</Mob>
+							<Mob>Flesh Raider Loreseeker</Mob>
+							<Mob>Flesh Raider Salvager</Mob>
+							<Mob>Flesh Raider Tech Salvager</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Flesh Raider Stalker" XYZ="21.9674,0.5871694,-28" />
+							<Hotspot Name="Flesh Raider Pillager" XYZ="23.55397,0.8520655,-27.82022" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="26.38745,-3.514936,-12.54061" />
+							<Hotspot Name="Flesh Raider Tech Salvager" XYZ="31.58759,-3.607875,-11.78759" />
+							<Hotspot Name="Flesh Raider Salvager" XYZ="33.17172,-3.076517,-14.54137" />
+							<Hotspot Name="Flesh Raider Stalker" XYZ="36.38931,-3.647701,-12.75494" />
+							<Hotspot Name="Flesh Raider Beast Handler" XYZ="40.95205,-1.460363,-14.7401" />
+							<Hotspot Name="Flesh Raider Shaman" XYZ="38.4,-1.180024,-6.4" />
+							<Hotspot Name="My Location" XYZ="38.47871,-1.202698,-16.99549" />
+							<Hotspot Name="Flesh Raider Tech Salvager" XYZ="46.24964,-1.318422,-16.43253" />
+							<Hotspot Name="My Location" XYZ="47.25857,-1.373355,-19.98298" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="46.34,-0.2165156,-12.08" />
+							<Hotspot Name="Flesh Raider Loreseeker" XYZ="44.1,1.015183,-9.200001" />
+							<Hotspot Name="Flesh Raider Chief Shaman" XYZ="44.02,1.338866,-4.62" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5)))">
-				<Grind GrindRef="High-Tech Savages 5" While="(not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5))">
+					<GrindArea Name="High-Tech Savages 5">
+						<MinLevel>4</MinLevel>
+						<MaxLevel>6</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Warmaster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Flesh Raider Warmaster" XYZ="31.56553,-3.993451,-45.13751" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 6)))">
 				<UseObject QuestId="0xE000941AE7D5C4D8" ObjectName="Door Control Panel" BranchId="1" StepId="6" Radius="20" XYZ="30.85593,-3.996245,-45.29167" />
@@ -929,7 +513,22 @@
 			<If Condition="((HasQuest(0xE0009832354DE990)) and (not IsStepComplete(0xE0009832354DE990, 5)))">
 				<!-- Survival of the Fittest (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000BC60B408D5BD))">
-					<Grind GrindRef="Survival of the Fittest (Bonus)" While="(not IsQuestComplete(0xE000BC60B408D5BD))" />
+					<Grind While="(not IsQuestComplete(0xE000BC60B408D5BD))">
+						<GrindArea Name="Survival of the Fittest (Bonus)">
+							<MinLevel>2</MinLevel>
+							<MaxLevel>6</MaxLevel>
+							<Mobs>
+								<Mob>Flesh Raider Cave Dweller</Mob>
+								<Mob>Flesh Raider Seeker</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="68.50956,-1.537271,-11.0458" />
+								<Hotspot Name="My Location" XYZ="68.50956,-1.537271,-11.0458" />
+								<Hotspot Name="My Location" XYZ="63.9623,-2.303569,-7.471728" />	
+								<Hotspot Name="My Location" XYZ="50.48028,0.1462553,-6.040652" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="0xE0009832354DE990" Name="Outside" XYZ="49.73384,0.3059364,-10.99137" />
 			</If>
@@ -1011,7 +610,20 @@
 		<!-- Flesh Eating Baby -->
 		<If Condition="((HasQuest(0xE0000D9E8F9E2EF8)) and (not IsQuestComplete(0xE0000D9E8F9E2EF8)))">
 			<If Condition="((HasQuest(0xE0000D9E8F9E2EF8)) and (not IsBranchStepComplete(0xE0000D9E8F9E2EF8, 1, 2)))">
-				<Grind GrindRef="Flesh Eating Baby" While="(not IsBranchStepComplete(0xE0000D9E8F9E2EF8, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000D9E8F9E2EF8, 1, 2))">
+					<GrindArea Name="Flesh Eating Baby">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Greater Guid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-38.33634,0.02863244,-15.61154" />
+							<Hotspot Name="My Location" XYZ="-42.06294,0.1640819,-16.86979" />
+							<Hotspot Name="My Location" XYZ="-41.49896,0.05728705,-13.23805" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000D9E8F9E2EF8)) and (not IsBranchStepComplete(0xE0000D9E8F9E2EF8, 1, 3)))">
 				<UseObject QuestId="0xE0000D9E8F9E2EF8" ObjectName="Flesh Raider Backpack" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="-43.39979,-1.286471,-10.15371" />
@@ -1037,7 +649,26 @@
 			</If>
 			<!-- Guardians of the Past (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000C8C2411C498))">
-				<Grind GrindRef="Guardians of the Past (Bonus)" While="(not IsQuestComplete(0xE0000C8C2411C498))" />
+				<Grind While="(not IsQuestComplete(0xE0000C8C2411C498))">
+					<GrindArea Name="Guardians of the Past (Bonus)">
+						<MinLevel>2</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Tythonian Seeker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Tythonian Seeker" XYZ="-34.8499,-2.795992,-3.939597" />
+							<Hotspot Name="My Location" XYZ="-40.41346,-2.551051,0.9126012" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-43.8794,-2.563375,2.965502" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-47.29293,-2.550953,0.5979921" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-49.5036,-2.574455,0.02900144" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-49.4526,-2.519504,-5.051098" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-46.6916,-2.539383,7.785102" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-49.4261,-2.53538,8.568899" />
+							<Hotspot Name="Tythonian Seeker" XYZ="-45.6101,-2.527874,-2.096199" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1068,7 +699,22 @@
 		<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsQuestComplete(0xE000F7755A02B770)))">
 			<!-- Guards of the Leader (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00086539673A062))">
-				<Grind GrindRef="Guards of the Leader (Bonus)" While="(not IsQuestComplete(0xE00086539673A062))" />
+				<Grind While="(not IsQuestComplete(0xE00086539673A062))">
+					<GrindArea Name="Guards of the Leader (Bonus)">
+						<MinLevel>5</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Adept Initiate</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-49.65767,-2.332731,-17.27827" />
+							<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-56.95201,-1.138881,-17.19567" />
+							<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-62.7731,0.01768817,-18.8607" />
+							<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-68.1724,1.786512,-20.4078" />
+							<Hotspot Name="Flesh Raider Adept Initiate" XYZ="-68.83911,1.310369,-14.6156" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsStepComplete(0xE000F7755A02B770, 2)))">
 				<MoveTo QuestId="0xE000F7755A02B770" XYZ="-74.4893,1.221992,-17.089" />
@@ -1182,14 +828,52 @@
 			</If>
 			<!-- Clear Out Tythos Ridge (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000FC7BDEEDA93E))">
-				<Grind GrindRef="Clear Out Tythos Ridge (Bonus)" While="(not IsQuestComplete(0xE000FC7BDEEDA93E))" />
+				<Grind While="(not IsQuestComplete(0xE000FC7BDEEDA93E))">
+					<GrindArea Name="Clear Out Tythos Ridge (Bonus)" >
+						<MinLevel>4</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Deathwatcher</Mob>
+							<Mob>Flesh Raider Scavenger</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="22.55794,-2.17979,-7.86595" />
+							<Hotspot Name="My Location" XYZ="19.69905,-2.980156,-3.030854" />
+							<Hotspot Name="My Location" XYZ="23.09305,-1.047164,6.008859" />
+							<Hotspot Name="My Location" XYZ="26.1124,-0.8620752,9.700072" />
+							<Hotspot Name="My Location" XYZ="31.3649,-1.126334,12.0343" />
+							<Hotspot Name="Wingmaw Bonecleaner" XYZ="39.71962,-2.274112,14.71805" />
+							<Hotspot Name="My Location" XYZ="35.38911,-0.2665095,19.59171" />
+							<Hotspot Name="Wingmaw Bonecleaner" XYZ="20.93362,-2.4132,17.37353" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Pilgrim Medicine -->
 		<If Condition="((HasQuest(0xE00090E5E21BD7DF)) and (not IsQuestComplete(0xE00090E5E21BD7DF)))">
 			<If Condition="((HasQuest(0xE00090E5E21BD7DF)) and (not IsStepComplete(0xE00090E5E21BD7DF, 2)))">
-				<Grind GrindRef="Pilgrim Medicine" While="(not IsBranchStepComplete(0xE00090E5E21BD7DF, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00090E5E21BD7DF, 1, 2))">
+					<GrindArea Name="Pilgrim Medicine">
+						<MinLevel>4</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Deathwatcher</Mob>
+							<Mob>Flesh Raider Scavenger</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="22.55794,-2.17979,-7.86595" />
+							<Hotspot Name="My Location" XYZ="19.69905,-2.980156,-3.030854" />
+							<Hotspot Name="My Location" XYZ="23.09305,-1.047164,6.008859" />
+							<Hotspot Name="My Location" XYZ="26.1124,-0.8620752,9.700072" />
+							<Hotspot Name="My Location" XYZ="31.3649,-1.126334,12.0343" />
+							<Hotspot Name="Wingmaw Bonecleaner" XYZ="39.71962,-2.274112,14.71805" />
+							<Hotspot Name="My Location" XYZ="35.38911,-0.2665095,19.59171" />
+							<Hotspot Name="Wingmaw Bonecleaner" XYZ="20.93362,-2.4132,17.37353" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1362,7 +1046,23 @@
 				<WaitTimer QuestId="1" WaitTime="3" />
 				<!-- Scars of the Dark Side (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000A025C5285596))"> <!-- got stuck here ... had to stop/start and it's fine -->
-					<Grind GrindRef="Scars of the Dark Side (Bonus)" While="(not IsQuestComplete(0xE000A025C5285596))" />
+					<Grind While="(not IsQuestComplete(0xE000A025C5285596))">
+						<GrindArea Name="Scars of the Dark Side (Bonus)">
+							<MinLevel>7</MinLevel>
+							<MaxLevel>10</MaxLevel>
+							<Mobs>
+								<Mob>Flesh Raider Savage Adept</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-42.87069,-2.036721,26.84647" />
+								<Hotspot Name="Flesh Raider Savage Adept" XYZ="-42.2033,-2.411096,31.8365" />
+								<Hotspot Name="Flesh Raider Savage Adept" XYZ="-40.1029,-2.394503,33.5955" />
+								<Hotspot Name="Flesh Raider Savage Adept" XYZ="-37.0239,-2.067572,32.8562" />
+								<Hotspot Name="Flesh Raider Savage Adept" XYZ="-46.6918,-2.417198,31.64279" />
+								<Hotspot Name="My Location" XYZ="-43.53875,-1.695117,34.10836" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000A9CB998FEBA9)) and (not IsBranchStepComplete(0xE000A9CB998FEBA9, 1, 5)))">
@@ -1425,10 +1125,39 @@
 			</If>
 			<If Condition="((HasQuest(0xE000E38952561706)) and (not IsStepComplete(0xE000E38952561706, 2)))">
 				<If Condition="((HasQuest(0xE000E38952561706)) and (not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 0)))">
-					<Grind GrindRef="Horranth Egg Matriarchs" While="(not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 0))" />
+					<Grind While="(not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 0))">
+						<GrindArea Name="Horranth Egg Matriarchs">
+							<MinLevel>6</MinLevel>
+							<MaxLevel>9</MaxLevel>
+							<Mobs>
+								<Mob>Horranth Matriarch</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-5.922328,-2.607257,10.95154" />
+								<Hotspot Name="My Location" XYZ="-0.4706642,-1.838756,13.91766" />
+								<Hotspot Name="My Location" XYZ="0.1576558,-2.104338,11.90617" />
+								<Hotspot Name="My Location" XYZ="3.308071,-1.446679,14.71237" />
+								<Hotspot Name="Horranth Matriarch" XYZ="4.9128,0.4084214,18.4768" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000E38952561706)) and (not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 1)))">
-					<Grind GrindRef="Horranth Egg Patriarchs" While="(not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 1))" />
+					<Grind While="(not IsBranchTaskComplete(0xE000E38952561706, 1, 2, 1))">
+						<GrindArea Name="Horranth Egg Patriarchs">
+							<MinLevel>6</MinLevel>
+							<MaxLevel>9</MaxLevel>
+							<Mobs>
+								<Mob>Horranth Patriarch</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Horranth Patriarch" XYZ="-25.1667,3.389722,15.057" />
+								<Hotspot Name="Horranth Patriarch" XYZ="-27.1086,3.548226,9.6214" />
+								<Hotspot Name="Horranth Patriarch" XYZ="-28.1189,3.708139,14.5044" />
+								<Hotspot Name="Horranth Patriarch" XYZ="-30.6823,4.248525,9.9901" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="1" Name="My Location" XYZ="-5.692137,-1.448557,4.326969" />
 			</If>
@@ -1443,13 +1172,42 @@
 				<!-- Twi'lek Trouble (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000CC00A8B36EEF))">
 					<MoveTo QuestId="1" Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395" />
-					<Grind GrindRef="Twi'lek Trouble (Bonus)" While="(not IsQuestComplete(0xE000CC00A8B36EEF))" />
+					<Grind While="(not IsQuestComplete(0xE000CC00A8B36EEF))">
+						<GrindArea Name="Twi'lek Trouble (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Nalen's Follower</Mob>
+								<Mob>Nalen's Loyalist</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Nalen's Follower" XYZ="0.07145009,1.916616,34.91395" />
+								<Hotspot Name="Nalen's Loyalist" XYZ="-0.08419999,1.938989,36.8338" />
+								<Hotspot Name="Nalen's Loyalist" XYZ="3.291482,1.856495,35.99295" />
+								<Hotspot Name="Nalen's Loyalist" XYZ="7.191,0.5260118,32.0662" />
+								<Hotspot Name="Nalen's Follower" XYZ="5.3682,0.4984342,30.9986" />
+								<Hotspot Name="Nalen's Follower" XYZ="3.2528,0.4724905,33.081" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<!-- Find Qyzen Fess -->
 				<MoveTo QuestId="0xE000EAC98B7D73C4" Name="Twi'lek Sentry" XYZ="7.685058,1.367599,29.29734" />
 			</If>
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3)))">
-				<Grind GrindRef="Rajivari's Legacy 3" While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 3))">
+					<GrindArea Name="Rajivari's Legacy 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Twi'lek Sentry</Mob>
+							<Mob>Twi'lek Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Twi'lek Sentry" XYZ="5.953146,1.432048,28.18005" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EAC98B7D73C4)) and (not IsBranchStepComplete(0xE000EAC98B7D73C4, 1, 4)))">
 				<UseObject QuestId="0xE000EAC98B7D73C4" ObjectName="Qyzen's Cage" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="5.942243,1.430775,28.59888" />
@@ -1459,7 +1217,27 @@
 				<!-- Remnants Incursion (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000A430CEE584EA))">
 					<MoveTo QuestId="1" Name="Reprogrammed Trial Droid" XYZ="-13.62543,2.914632,38.41223" />
-					<Grind GrindRef="Remnants Incursion (Bonus)" While="(not IsQuestComplete(0xE000A430CEE584EA))" />
+					<Grind While="(not IsQuestComplete(0xE000A430CEE584EA))">
+						<GrindArea Name="Remnants Incursion (Bonus)">
+							<MinLevel>6</MinLevel>
+							<MaxLevel>10</MaxLevel>
+							<Mobs>
+								<Mob>Reprogrammed Trial Droid</Mob>
+								<Mob>Flesh Raider Tech Savant</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-13.62543,2.914632,38.41223" />
+								<Hotspot Name="My Location" XYZ="2.864636,3.456003,42.22021" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-4.1858,4.112668,54.0078" />
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-4.9449,3.950331,49.7909" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-8.9067,3.985461,50.9585" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-12.4393,3.861729,54.9979" />
+								<Hotspot Name="Flesh Raider Marauder" XYZ="-9.9735,5.701253,60.9878" />
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-6.5863,5.819502,59.9215" />
+								<Hotspot Name="Flesh Raider Marauder" XYZ="-2.840965,5.705625,62.9189" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 					<ForceVendor VendorType="Repair" />
 					<MoveTo QuestId="1" Name="Fount Entrance" XYZ="-4.470964,8.500198,76.97907" />
 				</If>
@@ -1476,7 +1254,24 @@
 				<!-- Hunting High and Low (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE00051A87856BA48))">
 					<MoveTo QuestId="1" Name="Bonus" XYZ="-3.231432,6.632525,80.07596" />
-					<Grind GrindRef="Hunting High and Low (Bonus)" While="(not IsQuestComplete(0xE00051A87856BA48))" />
+					<Grind While="(not IsQuestComplete(0xE00051A87856BA48))">
+						<GrindArea Name="Hunting High and Low (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Flesh Raider High Shaman</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-4.461895,6.622425,77.26942" />
+								<Hotspot Name="Flesh Raider High Shaman" XYZ="-3.153755,6.632525,80.12088" />
+								<Hotspot Name="My Location" XYZ="2.538943,6.424302,82.00801" />
+								<Hotspot Name="Flesh Raider High Shaman" XYZ="6.0063,6.422897,82.6428" />
+								<Hotspot Name="Flesh Raider High Shaman" XYZ="5.8574,6.422896,86.74081" />
+								<Hotspot Name="Flesh Raider High Shaman" XYZ="2.5066,6.422896,90.434" />
+								<Hotspot Name="Flesh Raider High Shaman" XYZ="3.2488,7.377337,84.80769" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="0xE000EAC98B7D73C4" Name="Fount of Rajivari" XYZ="-7.578536,6.378879,88.51246" />
 			</If>
@@ -1514,13 +1309,39 @@
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 2)))">
 				<!-- Crystal Cavern Cleansing (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000D89DCB7C295F))">
-					<Grind GrindRef="Crystal Cavern Cleansing (Bonus)" While="(not IsQuestComplete(0xE000D89DCB7C295F))" />
+					<Grind While="(not IsQuestComplete(0xE000D89DCB7C295F))">
+						<GrindArea Name="Crystal Cavern Cleansing (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Cavern Horranth</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-2.447567,10.57969,115.239" />
+								<Hotspot Name="Cavern Horranth" XYZ="3.7988,10.95002,119.9549" />
+								<Hotspot Name="Cavern Horranth" XYZ="5.7763,11.2556,115.8556" />
+								<Hotspot Name="Cavern Horranth" XYZ="7.318108,11.03418,107.148" />
+								<Hotspot Name="Cavern Horranth" XYZ="13.9635,11.41494,111.0913" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<UseObject QuestId="0xE000759C2AD0DD3E" ObjectName="Crystal Formation" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="4.393589,11.81066,109.9767" />
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 3)))">
 				<!-- This guy is an elite and we need to stand at max range and cast at him or we keep getting hit by fire and back punted -->
-				<Grind GrindRef="The Forge 3" While="(not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 3))">
+					<GrindArea Name="The Forge 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Dark Beast</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="4.812031,11.699,111.1099" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 1, 4)))">
 				<MoveTo QuestId="0xE000759C2AD0DD3E" Name="My Location" XYZ="6.055765,15.17534,154.8249" />
@@ -1531,7 +1352,20 @@
 				<TalkTo QuestId="0xE000759C2AD0DD3E" Name="Nalen Raloch" XYZ="7.150686,15.24617,154.3306" />
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 3, 2)))">
-				<Grind GrindRef="The Forge 2 2" While="(not IsBranchStepComplete(0xE000759C2AD0DD3E, 3, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000759C2AD0DD3E, 3, 2))">
+					<GrindArea Name="The Forge 2 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Nalen Raloch</Mob>
+							<Mob>Henni</Mob>
+							<Mob>Keth</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Nalen Raloch" XYZ="6.632139,15.24617,154.6232" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000759C2AD0DD3E)) and (not IsBranchStepComplete(0xE000759C2AD0DD3E, 3, 3)))">
 				<TalkTo QuestId="0xE000759C2AD0DD3E" Name="Nalen Raloch" XYZ="7.150686,15.24617,154.3306" />
@@ -1544,7 +1378,27 @@
 			<If Condition="((HasQuest(0xE000CBD20FC5289B)) and (not IsStepComplete(0xE000CBD20FC5289B, 2)))">
 				<!-- Remnants Invasion (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE0000A350F007337))">
-					<Grind GrindRef="Remnants Invasion (Bonus)" While="(not IsQuestComplete(0xE0000A350F007337))" />
+					<Grind While="(not IsQuestComplete(0xE0000A350F007337))">
+						<GrindArea Name="Remnants Invasion (Bonus)">
+							<MinLevel>6</MinLevel>
+							<MaxLevel>10</MaxLevel>
+							<Mobs>
+								<Mob>Reprogrammed Trial Droid</Mob>
+								<Mob>Flesh Raider Tech Savant</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-13.62543,2.914632,38.41223" />
+								<Hotspot Name="My Location" XYZ="2.864636,3.456003,42.22021" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-4.1858,4.112668,54.0078" />
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-4.9449,3.950331,49.7909" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-8.9067,3.985461,50.9585" />
+								<Hotspot Name="Flesh Raider Tech Savant" XYZ="-12.4393,3.861729,54.9979" />
+								<Hotspot Name="Flesh Raider Marauder" XYZ="-9.9735,5.701253,60.9878" />
+								<Hotspot Name="Reprogrammed Trial Droid" XYZ="-6.5863,5.819502,59.9215" />
+								<Hotspot Name="Flesh Raider Marauder" XYZ="-2.840965,5.705625,62.9189" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="Me.Position.X &gt; -10">
 					<MoveTo QuestId="1" Name="My Location" XYZ="-2.669183,8.871996,88.04211" />
@@ -1555,7 +1409,26 @@
 				<MoveTo QuestId="1"  Name="Flesh Raider Feral Adept" XYZ="-29.26691,16.14262,140.8868" />
 				<!-- Forge Ahead (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000B32ECD87F3B5))">
-					<Grind GrindRef="Forge Ahead (Bonus)" While="(not IsQuestComplete(0xE000B32ECD87F3B5))" />
+					<Grind While="(not IsQuestComplete(0xE000B32ECD87F3B5))">
+						<GrindArea Name="Forge Ahead (Bonus)">
+							<MinLevel>6</MinLevel>
+							<MaxLevel>10</MaxLevel>
+							<Mobs>
+								<Mob>Flesh Raider Feral Adept"</Mob>
+								<Mob>Force-Wielding Flesh Raider</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-17.96008,11.96701,118.9897" />
+								<Hotspot Name="Flesh Raider Feral Adept" XYZ="-13.98875,12.52966,119.1656" />
+								<Hotspot Name="Force-Wielding Flesh Raider" XYZ="-12.6144,12.76285,121.0139" />
+								<Hotspot Name="My Location" XYZ="-16.38116,13.42026,124.2808" />
+								<Hotspot Name="My Location" XYZ="-17.2067,13.98009,131.5208" />
+								<Hotspot Name="Flesh Raider Feral Adept" XYZ="-21.7235,13.92761,133.643" />
+								<Hotspot Name="Flesh Raider Feral Adept" XYZ="-25.8887,14.77615,135.841" />
+								<Hotspot Name="My Location" XYZ="-29.47035,16.20988,141.3018" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			
 				<MoveTo QuestId="0xE000CBD20FC5289B" Name="My Location" XYZ="-19.78895,13.90266,132.6724" />
@@ -1565,7 +1438,19 @@
 			</If>
 			<!-- 4 - Cutscene -->
 			<If Condition="((HasQuest(0xE000CBD20FC5289B)) and (not IsStepComplete(0xE000CBD20FC5289B, 5)))">
-				<Grind GrindRef="Weapon of the Jedi 5" While="(not IsBranchStepComplete(0xE000CBD20FC5289B, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000CBD20FC5289B, 1, 5))">
+					<GrindArea Name="Weapon of the Jedi 5">
+						<MinLevel>7</MinLevel>
+						<MaxLevel>11</MaxLevel>
+						<Mobs>
+							<Mob>Bengel Morr</Mob>
+							<Mob>Flesh Raider Bodyguard Adept</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Bengel Morr" XYZ="-24.36744,16.99446,150.634" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000CBD20FC5289B)) and (not IsStepComplete(0xE000CBD20FC5289B, 6)))">
 				<TalkTo QuestId="0xE000CBD20FC5289B" Name="Bengel Morr" XYZ="-24.29413,16.99446,150.7354" />
@@ -1590,7 +1475,19 @@
 			
 			<!-- Putting Your New Weapon to Use (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00005F866127411))">
-				<Grind GrindRef="Putting Your New Weapon to Use (Bonus)" While="(not IsQuestComplete(0xE00005F866127411))" />
+				<Grind While="(not IsQuestComplete(0xE00005F866127411))">
+					<GrindArea Name="Putting Your New Weapon to Use (Bonus)">
+						<MinLevel>7</MinLevel>
+						<MaxLevel>11</MaxLevel>
+						<Mobs>
+							<Mob>Bengel Morr</Mob>
+							<Mob>Flesh Raider Bodyguard Adept</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Forge Guardian" XYZ="-24.36744,16.99446,150.634" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<!-- Make sure we rez pet -->
 			</If>
 			<!-- Hearth to Jedi Temple -->
@@ -1638,7 +1535,27 @@
 		</If>
 
 		<While Condition="Me.Level &lt; 10">
-			<Grind GrindRef="Level 10" While="Me.Level &lt; 10" />
+			<Grind While="Me.Level &lt; 10">
+				<GrindArea Name="Level 10">
+					<MinLevel>6</MinLevel>
+					<MaxLevel>10</MaxLevel>
+					<Mobs>
+						<Mob>Horranth Matriarch</Mob>
+						<Mob>Horranth Patriarch</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-5.922328,-2.607257,10.95154" />
+						<Hotspot Name="My Location" XYZ="-0.4706642,-1.838756,13.91766" />
+						<Hotspot Name="My Location" XYZ="0.1576558,-2.104338,11.90617" />
+						<Hotspot Name="My Location" XYZ="3.308071,-1.446679,14.71237" />
+						<Hotspot Name="Horranth Matriarch" XYZ="4.9128,0.4084214,18.4768" />
+						<Hotspot Name="Horranth Patriarch" XYZ="-25.1667,3.389722,15.057" />
+						<Hotspot Name="Horranth Patriarch" XYZ="-27.1086,3.548226,9.6214" />
+						<Hotspot Name="Horranth Patriarch" XYZ="-28.1189,3.708139,14.5044" />
+						<Hotspot Name="Horranth Patriarch" XYZ="-30.6823,4.248525,9.9901" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</While>
 		
 		<If Condition="(Me.Class == CharacterClass.Consular)">

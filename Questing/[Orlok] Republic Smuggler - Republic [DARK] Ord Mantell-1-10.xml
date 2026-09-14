@@ -3,475 +3,6 @@
 	<ForceAlignment Type="Dark" AutoSkip="True" />
 
 	<!-- Beginning of Grind References -->	
-	<GrindAreas> 
-	
-		<GrindArea Name="Security Breach 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>4-SEN</Mob>
-				<Mob>Gorry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="4-SEN" XYZ="73.3782,-1.503708,53.6573" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Level 10">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Commander</Mob>
-				<Mob>Separatist Supervisor</Mob>
-				<Mob>Separatist Vanguard</Mob>
-				<Mob>Separatist Security Droid</Mob>
-				<Mob>Separatist Tech Officer</Mob>
-				<Mob>Separatist Freedom Fighter</Mob>
-				<Mob>Separatist Footman</Mob>
-				<Mob>Separatist Minuteman</Mob>
-				<Mob>Separatist Officer</Mob>
-				<Mob>Separatist Monitor Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-42.18316,9.3233,12.46698" />
-				<Hotspot Name="My Location" XYZ="-75.67677,9.718801,23.68923" />
-				<Hotspot Name="My Location" XYZ="-75.68896,9.517834,13.55517" />
-				<Hotspot Name="My Location" XYZ="-75.9852,10.54762,39.66142" />
-				<Hotspot Name="My Location" XYZ="-76.70775,11.30033,49.11967" />
-				<Hotspot Name="My Location" XYZ="-59.2845,12.10095,48.27443" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Landing Party 6">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Gunner</Mob>
-				<Mob>Separatist Cadet</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Gunner" XYZ="6.9247,1.519971,-48.17" />
-			</Hotspots>
-		</GrindArea>    
-			
-		<GrindArea Name="Take Back Drelliad Village (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Sympathizer</Mob>
-				<Mob>Separatist Scout</Mob>
-				<Mob>Separatist Roughneck</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Scout" XYZ="10.1761,1.49054,-41.82521" />
-				<Hotspot Name="Separatist Sympathizer" XYZ="11.59354,1.311,-44.99833" />
-				<Hotspot Name="Separatist Roughneck" XYZ="12.5594,1.311,-39.2776" />
-				<Hotspot Name="Separatist Heavy Gunner" XYZ="14.4402,1.29785,-45.4736" />
-				<Hotspot Name="Separatist Heavy Gunner" XYZ="14.8582,1.49132,-48.6584" />
-				<Hotspot Name="Separatist Scout" XYZ="11.1796,1.48926,-48.9201" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Snipe Hunt 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Sniper</Mob>
-				<Mob>Separatist Field Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Sniper" XYZ="12.6951,2.45317,-29.0818" />
-				<Hotspot Name="Separatist Sniper" XYZ="17.1431,2.020974,-29.4239" />
-				<Hotspot Name="Separatist Field Scout" XYZ="20.9583,2.265746,-29.194" />
-				<Hotspot Name="Separatist Sniper" XYZ="15.3917,2.362948,-26.0768" />
-				<Hotspot Name="Separatist Field Scout" XYZ="12.7794,2.705041,-24.038" />
-				<Hotspot Name="Separatist Sniper" XYZ="19.0378,2.674649,-23.5658" />
-				<Hotspot Name="Separatist Field Scout" XYZ="19.2677,2.98135,-20.7036" />
-				<Hotspot Name="Separatist Field Scout" XYZ="24.0305,2.62275,-21.0989" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Blinding the Enemy (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Sniper</Mob>
-				<Mob>Separatist Field Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Sniper" XYZ="12.6951,2.45317,-29.0818" />
-				<Hotspot Name="Separatist Sniper" XYZ="17.1431,2.020974,-29.4239" />
-				<Hotspot Name="Separatist Field Scout" XYZ="20.9583,2.265746,-29.194" />
-				<Hotspot Name="Separatist Sniper" XYZ="15.3917,2.362948,-26.0768" />
-				<Hotspot Name="Separatist Field Scout" XYZ="12.7794,2.705041,-24.038" />
-				<Hotspot Name="Separatist Sniper" XYZ="19.0378,2.674649,-23.5658" />
-				<Hotspot Name="Separatist Field Scout" XYZ="19.2677,2.98135,-20.7036" />
-				<Hotspot Name="Separatist Field Scout" XYZ="24.0305,2.62275,-21.0989" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Mercy 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Instigator</Mob>
-				<Mob>Separatist Enforcer</Mob>
-				<Mob>Separatist Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Instigator" XYZ="50.6808,2.159124,-6.8939" />
-				<Hotspot Name="Separatist Instigator" XYZ="53.521,0.9457847,-8.1435" />
-				<Hotspot Name="Separatist Enforcer" XYZ="54.179,0.9398916,-10.1623" />
-				<Hotspot Name="Separatist Enforcer" XYZ="56.9762,0.863384,-9.9808" />
-				<Hotspot Name="Separatist Instigator" XYZ="59.856,0.7813675,-7.752921" />
-				<Hotspot Name="Separatist Instigator" XYZ="56.8943,0.911092,-13.2964" />
-				<Hotspot Name="Separatist Commando" XYZ="52.8585,2.478328,-11.3375" />
-				<Hotspot Name="Separatist Commando" XYZ="49.7164,2.403915,-9.617701" />
-				<Hotspot Name="Separatist Commando" XYZ="57.3581,0.7992835,-12.85369" />
-				<Hotspot Name="Separatist Commando" XYZ="59.4032,0.779359,-3.6224" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Clean Up Talloran (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Assault Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="46.87908,2.485007,-10.54571" />
-				<Hotspot Name="Separatist Henchman" XYZ="46.8445,2.490866,-14.5289" />
-				<Hotspot Name="Separatist Henchman" XYZ="45.2287,2.485207,-19.0475" />
-				<Hotspot Name="Separatist Henchman" XYZ="47.9284,2.511,-23.2999" />
-				<Hotspot Name="Separatist Henchman" XYZ="51.2746,2.794518,-14.93786" />
-				<Hotspot Name="Separatist Henchman" XYZ="43.1379,2.701,-19.4559" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Preying on Thieves (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Scavenger</Mob>
-				<Mob>Scavenger Savage</Mob>
-				<Mob>Scavenger Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Scavenger" XYZ="59.3592,1.269279,-33.57362" />
-				<Hotspot Name="Scavenger Savage" XYZ="61.1658,1.110329,-29.6066" />
-				<Hotspot Name="Scavenger Brute" XYZ="62.8594,0.6873002,-33.7081" />
-				<Hotspot Name="Scavenger Savage" XYZ="62.1136,0.8831553,-36.081" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Stop the Raiders (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Stalker</Mob>
-				<Mob>Separatist Sentinel</Mob>
-				<Mob>Separatist Lookout</Mob>
-				<Mob>Separatist Raider Chief</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Stalker" XYZ="61.77317,0.8324149,-42.46381" />
-				<Hotspot Name="Separatist Sentinel" XYZ="64.6754,0.7146108,-42.9358" />
-				<Hotspot Name="Separatist Lookout" XYZ="64.865,0.7156624,-43.2271" />
-				<Hotspot Name="Separatist Lookout" XYZ="64.2345,1.493698,-51.27659" />
-				<Hotspot Name="Separatist Raider" XYZ="65.0534,1.804389,-53.7219" />
-				<Hotspot Name="Separatist Raider Chief" XYZ="62.1494,1.996502,-48.3256" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Counter-Insurgency (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Rangefinder</Mob>
-				<Mob>Separatist Monitor</Mob>
-				<Mob>Separatist Patrolman</Mob>
-				<Mob>Separatist Guardian</Mob>
-				<Mob>Separatist Demolitionist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Rangefinder" XYZ="6.601971,4.359675,-15.37164" />
-				<Hotspot Name="Separatist Monitor" XYZ="2.7044,4.526391,-13.0027" />
-				<Hotspot Name="Separatist Patrolman" XYZ="1.173835,5.037206,-11.90167" />
-				<Hotspot Name="Separatist Patrolman" XYZ="3.0727,5.007828,-10.2493" />
-				<Hotspot Name="Separatist Guardian" XYZ="2.4146,4.197923,-20.3844" />
-				<Hotspot Name="Separatist Demolitionist" XYZ="-1.576736,3.987153,-21.20035" />
-				<Hotspot Name="Separatist Patrolman" XYZ="1.1453,4.342387,-24.4604" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Bridging the Gap 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Rocket Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="58.1758,3.101,29.1483" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="59.7437,3.567291,27.4758" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="61.7861,3.101,25.4106" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Bringing the Battle to Them (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Battler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Battler" XYZ="52.5752,0.8107361,31.9864" />
-				<Hotspot Name="Separatist Trooper" XYZ="51.1474,0.9877912,34.361" />
-				<Hotspot Name="Separatist Marksman" XYZ="52.3165,1.356064,38.7029" />
-				<Hotspot Name="Separatist Battler" XYZ="55.9411,1.469442,39.5855" />
-				<Hotspot Name="Separatist Marksman" XYZ="60.3944,2.192793,36.7901" />
-				<Hotspot Name="Separatist Battler" XYZ="64.532,3.306,30.52626" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="58.1758,3.101,29.1483" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="59.7437,3.567291,27.4758" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="61.7861,3.101,25.4106" />
-				<Hotspot Name="My Location" XYZ="71.28593,3.297028,27.7449" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Time For Some Payback (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Battler</Mob>
-				<Mob>Separatist Trooper</Mob>
-				<Mob>Separatist Marksman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Battler" XYZ="52.5752,0.8107361,31.9864" />
-				<Hotspot Name="Separatist Trooper" XYZ="51.1474,0.9877912,34.361" />
-				<Hotspot Name="Separatist Marksman" XYZ="52.3165,1.356064,38.7029" />
-				<Hotspot Name="Separatist Battler" XYZ="55.9411,1.469442,39.5855" />
-				<Hotspot Name="Separatist Marksman" XYZ="60.3944,2.192793,36.7901" />
-				<Hotspot Name="Separatist Battler" XYZ="64.532,3.306,30.52626" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="58.1758,3.101,29.1483" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="59.7437,3.567291,27.4758" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="61.7861,3.101,25.4106" />
-				<Hotspot Name="My Location" XYZ="71.28593,3.297028,27.7449" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Mannett Point 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Commander Bol</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Commander Bol" XYZ="88.16478,0.05210005,27.48235" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Punish the Saboteurs (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Saboteur</Mob>
-				<Mob>Separatist Saboteur Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Saboteur" XYZ="-22.27578,4.795093,-8.607878" />
-				<Hotspot Name="Separatist Saboteur Leader" XYZ="-17.8647,4.582402,-8.419" />
-				<Hotspot Name="Separatist Saboteur" XYZ="-16.7189,5.016181,-5.363501" />
-				<Hotspot Name="Separatist Saboteur" XYZ="-18.6467,4.529857,0.3011975" />
-				<Hotspot Name="Separatist Saboteur" XYZ="-29.7756,5.966853,-5.5235" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Oradam Village 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Beach Scavenger</Mob>
-				<Mob>Scavenger Lookout</Mob>
-				<Mob>Scavenger Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Beach Scavenger" XYZ="-59.5559,1.285606,-32.1003" />
-				<Hotspot Name="Beach Scavenger" XYZ="-60.1865,1.242118,-35.2736" />
-				<Hotspot Name="Beach Scavenger" XYZ="-62.7966,1.412389,-33.3964" />
-				<Hotspot Name="Scavenger Leader" XYZ="-62.8623,1.41854,-30.8567" />
-				<Hotspot Name="Scavenger Lookout" XYZ="-57.6041,1.307005,-36.8313" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Weaken the Stronghold (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Freedom Fighter</Mob>
-				<Mob>Separatist Footman</Mob>
-				<Mob>Separatist Minuteman</Mob>
-				<Mob>Separatist Officer</Mob>
-				<Mob>Separatist Monitor Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-73.6308,2.400678,-12.0744" />
-				<Hotspot Name="Separatist Footman" XYZ="-76.24844,3.168024,-8.642227" />
-				<Hotspot Name="Separatist Minuteman" XYZ="-82.168,5.297729,2.4314" />
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-76.49203,6.189122,2.592071" />
-				<Hotspot Name="My Location" XYZ="-57.95497,5.828,3.372443" />
-				<Hotspot Name="Separatist Officer" XYZ="-53.77857,5.825686,3.189599" />
-				<Hotspot Name="My Location" XYZ="-49.9571,5.984435,-3.7638" />
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-45.1074,5.808488,4.1001" />
-				<Hotspot Name="Separatist Officer" XYZ="-46.5815,5.6135,-2.1971" />
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-51.4999,5.785769,1.0517" />
-				<Hotspot Name="Separatist Security Droid" XYZ="-50.0551,5.779282,7.9384" />
-				<Hotspot Name="Separatist Minuteman" XYZ="-53.747,5.228789,14.6129" />
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-54.28535,4.796683,20.27637" />
-				<Hotspot Name="Separatist Monitor Droid" XYZ="-55.70035,4.825171,24.10153" />
-				<Hotspot Name="Separatist Freedom Fighter" XYZ="-55.2161,5.178869,25.1859" />
-				<Hotspot Name="Separatist Security Droid" XYZ="-63.0462,7.298033,14.1185" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Alliance Of Evil 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Vanguard</Mob>
-				<Mob>Separatist Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Leader" XYZ="-37.8178,9.792922,18.9744" />
-				<Hotspot Name="Separatist Leader" XYZ="-34.7937,9.992922,18.0629" />
-				<Hotspot Name="Separatist Vanguard" XYZ="-33.95952,9.98654,20.45723" />
-				<Hotspot Name="Separatist Vanguard" XYZ="-33.74722,9.785704,23.83861" />
-				<Hotspot Name="Separatist Vanguard" XYZ="-36.3071,9.60606,26.1208" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Separatists' Stronghold 6">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Colonel Vorr</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Colonel Vorr" XYZ="-62.14031,12.59951,35.43547" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Ending the Insurgency (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Militiaman</Mob>
-				<Mob>Separatist Insurgent</Mob>
-				<Mob>Separatist Recruit</Mob>
-				<Mob>Separatist Rocket Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="48.81097,2.534043,6.854242" />
-				<Hotspot Name="Separatist Militiaman" XYZ="48.2878,3.00289,10.3215" />
-				<Hotspot Name="Separatist Insurgent" XYZ="49.6728,3.096295,13.5475" />
-				<Hotspot Name="Separatist Recruit" XYZ="47.8895,3.100092,16.3637" />
-				<Hotspot Name="Separatist Rocket Gunner" XYZ="46.448,2.536573,18.9062" />
-				<Hotspot Name="Separatist Insurgent" XYZ="42.1548,2.48682,16.627" />
-				<Hotspot Name="Separatist Recruit" XYZ="44.4866,2.662772,22.9339" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="You Can't Hide Forever (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Soldier</Mob>
-				<Mob>Separatist Protector</Mob>
-				<Mob>Separatist Specialist</Mob>
-				<Mob>Separatist Eliminator Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="69.49823,3.327106,46.73525" />
-				<Hotspot Name="Separatist Soldier" XYZ="64.12299,0.9768733,55.8476" />
-				<Hotspot Name="Separatist Specialist" XYZ="66.88021,1.451713,57.57708" />
-				<Hotspot Name="Separatist Soldier" XYZ="64.20895,-0.499,47.75411" />
-				<Hotspot Name="Separatist Protector" XYZ="72.3343,-0.509,47.03252" />
-				<Hotspot Name="Separatist Protector" XYZ="71.092,-0.5001042,53.35371" />
-				<Hotspot Name="Separatist Eliminator Droid" XYZ="74.58427,-0.1989999,51.39605" />
-				<Hotspot Name="Separatist Soldier" XYZ="77.7962,-0.4999469,49.7561" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Stop the Weapons Trade (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Arms Dealer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-47.1555,12.1185,44.57342" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-47.9652,12.29292,39.3079" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-50.71577,11.68442,39.20977" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-44.2229,12.0835,43.5569" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-45.2723,11.68443,37.2768" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-43.40161,11.87103,35.39206" />
-				<Hotspot Name="Separatist Arms Dealer" XYZ="-47.37543,11.99512,37.1566" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Hitting Where it Hurts 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Morant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Morant" XYZ="-46.8316,11.89044,32.9331" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Chasing Skavak 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Xo'ru</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Xo'ru" XYZ="17.4193,6.0876,31.712" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Untold Story 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Separatist Propaganda Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Separatist Propaganda Officer" XYZ="69.0318,0.076,32.5431" />
-				<Hotspot Name="Separatist Propaganda Officer" XYZ="66.16502,-0.01052105,40.96442" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Security Breach 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Bracco</Mob>
-				<Mob>Thug</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bracco" XYZ="20.54112,5.7,2.083878" />
-			</Hotspots>
-		</GrindArea>    
-		
-	
-	
-	
-	
-	
-	
-	</GrindAreas>
-
 	<!-- End of Grind References -->	
 
 
@@ -515,7 +46,19 @@
 			</If>
 			<If Condition="((HasQuest(0xE000AA371AFB8D28)) and (not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 6)))">
 				<MoveTo QuestId="0xE000AA371AFB8D28" Name="Hangar" XYZ="7.7839,1.517878,-48.1149" />
-				<Grind GrindRef="Landing Party 6" While="(not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 6))" />
+				<Grind While="(not IsBranchStepComplete(0xE000AA371AFB8D28, 1, 6))">
+					<GrindArea Name="Landing Party 6">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Separatist Gunner</Mob>
+							<Mob>Separatist Cadet</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Separatist Gunner" XYZ="6.9247,1.519971,-48.17" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Landing Party" QuestId="0xE000AA371AFB8D28" TurnInName="Corso Riggs" XYZ="7.7839,1.517878,-48.1149" />
 			<CompleteQuest QuestName="Landing Party" QuestId="0xE000AA371AFB8D28" />
@@ -603,13 +146,46 @@
 			</If>
 			<!-- You Can't Hide Forever (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D6C1727239CE))">
-				<Grind GrindRef="You Can't Hide Forever (Bonus)" While="(not IsQuestComplete(0xE000D6C1727239CE))" />
+				<Grind While="(not IsQuestComplete(0xE000D6C1727239CE))">
+					<GrindArea Name="You Can't Hide Forever (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Separatist Soldier</Mob>
+							<Mob>Separatist Protector</Mob>
+							<Mob>Separatist Specialist</Mob>
+							<Mob>Separatist Eliminator Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="69.49823,3.327106,46.73525" />
+							<Hotspot Name="Separatist Soldier" XYZ="64.12299,0.9768733,55.8476" />
+							<Hotspot Name="Separatist Specialist" XYZ="66.88021,1.451713,57.57708" />
+							<Hotspot Name="Separatist Soldier" XYZ="64.20895,-0.499,47.75411" />
+							<Hotspot Name="Separatist Protector" XYZ="72.3343,-0.509,47.03252" />
+							<Hotspot Name="Separatist Protector" XYZ="71.092,-0.5001042,53.35371" />
+							<Hotspot Name="Separatist Eliminator Droid" XYZ="74.58427,-0.1989999,51.39605" />
+							<Hotspot Name="Separatist Soldier" XYZ="77.7962,-0.4999469,49.7561" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 1, 6)))">
 				<UseObject QuestId="0xE000546044E2E79F" ObjectName="Separatist Personnel Database" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="74.31308,-1.506684,53.48226" />
 			</If>
 			<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 2, 2)))">
-				<Grind GrindRef="Security Breach 2 2" While="(not IsBranchStepComplete(0xE000546044E2E79F, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000546044E2E79F, 2, 2))">
+					<GrindArea Name="Security Breach 2 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>4-SEN</Mob>
+							<Mob>Gorry</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="4-SEN" XYZ="73.3782,-1.503708,53.6573" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer WaitTime="3" />
 			</If>
 		</If>
@@ -623,7 +199,19 @@
 			<!-- move to R someone - what branch/step is that? -->
 			<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 4, 2)))">
 				<MoveTo Name="Bracco" XYZ="20.54112,5.7,2.083878" />
-				<Grind GrindRef="Security Breach 4 2" While="(not IsBranchStepComplete(0xE000546044E2E79F, 4, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000546044E2E79F, 4, 2))">
+					<GrindArea Name="Security Breach 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Bracco</Mob>
+							<Mob>Thug</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Bracco" XYZ="20.54112,5.7,2.083878" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000546044E2E79F)) and (not IsBranchStepComplete(0xE000546044E2E79F, 4, 3)))">
 				<MoveTo QuestId="0xE000EE1F0FFF444E" Name="Syreena" XYZ="19.70884,5.701,2.379416" />
@@ -692,12 +280,40 @@
 			<If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 2)))">
 				<!-- Stop the Weapons Trade (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE0004B19CF6D1376))">
-					<Grind GrindRef="Stop the Weapons Trade (Bonus)" While="(not IsQuestComplete(0xE0004B19CF6D1376))" />
+					<Grind While="(not IsQuestComplete(0xE0004B19CF6D1376))">
+						<GrindArea Name="Stop the Weapons Trade (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Separatist Arms Dealer</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-47.1555,12.1185,44.57342" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-47.9652,12.29292,39.3079" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-50.71577,11.68442,39.20977" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-44.2229,12.0835,43.5569" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-45.2723,11.68443,37.2768" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-43.40161,11.87103,35.39206" />
+								<Hotspot Name="Separatist Arms Dealer" XYZ="-47.37543,11.99512,37.1566" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="0xE0001F04AA36AF01" Name="Morant" XYZ="-46.8316,11.89044,32.9331" />
 			</If>
 			<If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 3)))">
-				<Grind GrindRef="Hitting Where it Hurts 4" While="(IsStepComplete(0xE0001F04AA36AF01, 4))" />
+				<Grind While="(IsStepComplete(0xE0001F04AA36AF01, 4))">
+					<GrindArea Name="Hitting Where it Hurts 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Morant</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Morant" XYZ="-46.8316,11.89044,32.9331" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001F04AA36AF01)) and (not IsStepComplete(0xE0001F04AA36AF01, 5)))">
 				<TalkTo QuestId="0xE0001F04AA36AF01" Name="Morant" XYZ="-46.8316,11.89044,32.9331" />
@@ -723,7 +339,18 @@
 			</If>
 			<!-- Skip 3 -->
 			<If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 4)))">
-				<Grind GrindRef="Chasing Skavak 4" While="(not IsStepComplete(0xE000088232A04F86, 4))" />
+				<Grind While="(not IsStepComplete(0xE000088232A04F86, 4))">
+					<GrindArea Name="Chasing Skavak 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Xo'ru</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Xo'ru" XYZ="17.4193,6.0876,31.712" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<!-- Rez Companion -->
 			</If>
 			<If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 5)))">

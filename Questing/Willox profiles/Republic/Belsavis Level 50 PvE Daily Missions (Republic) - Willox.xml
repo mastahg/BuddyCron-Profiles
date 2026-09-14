@@ -93,7 +93,19 @@
 
 		<!-- Grind: Strengthening The Chain (Kill 3x Rattataki Leader) -->
 		<If Condition="((HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3)))">
-			<Grind GrindRef="Strengthening The Chain" While="(HasQuest(0xE000830A40E929B3))"/>
+			<Grind While="(HasQuest(0xE000830A40E929B3))">
+				<GrindArea Name="Strengthening The Chain">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Rattataki Leader</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-138.9859,31.49022,129.1961" />
+						<Hotspot Name="My Location" XYZ="-134.5629,31.52971,124.26" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 
 		<!-- Use Object: Strengthening The Chain / Munitions Destruction (Bonus) (4x Supplies) 
@@ -124,7 +136,21 @@
 
 		<!-- Grind: Emergent Medicine (Collect 8x Venom Glands) -->
 		<If Condition="((HasQuest(0xE0003EBBFCAFDDB7)) and (not IsQuestComplete(0xE0003EBBFCAFDDB7)))">
-			<Grind GrindRef="Emergent Medicine" While="(HasQuest(0xE0003EBBFCAFDDB7))"/>
+			<Grind While="(HasQuest(0xE0003EBBFCAFDDB7))">
+				<GrindArea Name="Emergent Medicine">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Poisonous Rift Lurker</Mob>
+						<Mob>Venomous Rift Lurker</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-151.1819,29.78367,125.4774" />
+						<Hotspot Name="My Location" XYZ="-149.499,29.83046,127.975" />
+						<Hotspot Name="My Location" XYZ="-147.8028,29.82543,130.216" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>	
 
 		<!-- Turn In: Emergent Medicine by Private Lorul -->
@@ -157,9 +183,44 @@
 
 
 		<!-- Grind: For Quest Riot Task 0: Defeat Esh-kha Forces 15 x -->
-		<Grind GrindRef="Riot1" While="(not IsTaskComplete(0xE000A00C97E77968, 2, 0))" />
+		<Grind While="(not IsTaskComplete(0xE000A00C97E77968, 2, 0))">
+			<GrindArea Name="Riot1">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Esh-kha Maniac</Mob>
+					<Mob>Esh-kha Rioter</Mob>
+					<Mob>Esh-kha Thinker</Mob>
+					<Mob>Esh-kha Huntling</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Esh-kha Rioter" XYZ="-3.884803,9.521783,-304.079" />
+					<Hotspot Name="Esh-kha Huntling" XYZ="-0.2357061,9.600768,-301.2235" />
+					<Hotspot Name="Esh-kha Rioter" XYZ="3.693405,9.520932,-301.4937" />
+					<Hotspot Name="Esh-kha Rioter" XYZ="12.87201,9.53041,-302.1917" />
+					<Hotspot Name="Esh-kha Thinker" XYZ="19.12393,9.586931,-302.1245" />
+					<Hotspot Name="Esh-kha Maniac" XYZ="22.4643,9.556027,-301.6782" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		<!-- Grind: For Quest Riot Task 1: Rescue Captured Scouts 4 x (Kill Mobs @ HotSpots)-->
-		<Grind GrindRef="Riot2" While="(not IsTaskComplete(0xE000A00C97E77968, 2, 1))" />
+		<Grind While="(not IsTaskComplete(0xE000A00C97E77968, 2, 1))">
+			<GrindArea Name="Riot2">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Esh-kha Maniac</Mob>
+					<Mob>Esh-kha Rioter</Mob>
+					<Mob>Esh-kha Thinker</Mob>
+					<Mob>Esh-kha Huntling</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Esh-kha Maniac" XYZ="18.02442,9.54427,-307.239" />
+					<Hotspot Name="Esh-kha Thinker" XYZ="17.66451,9.554676,-310.7609" />
+					<Hotspot Name="Esh-kha Rioter" XYZ="11.9343,9.538894,-313.5158" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		<!-- Turn In Quest: Riot -->
 		<If Condition="((HasQuest(0xE000A00C97E77968)) and (IsStepComplete(0xE000A00C97E77968, 3)))">
 			<TurnInQuest QuestName="Riot" QuestId="0xE000A00C97E77968" TurninName="Captain Devlin"  XYZ="-13.74049,10.65677,-312.2661" />
@@ -203,7 +264,26 @@
 		</If>
 
 		<!-- Grind: Prison Repairs Task 0: Defeat Esh-kha Forces 15 x -->
-		<Grind GrindRef="Prison Repairs" While="(not IsTaskComplete(0xE000F2B7135F9F3D, 2, 0))" />
+		<Grind While="(not IsTaskComplete(0xE000F2B7135F9F3D, 2, 0))">
+			<GrindArea Name="Prison Repairs">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Esh-kha Sniper</Mob>
+					<Mob>Esh-kha Lifetaker</Mob>
+					<Mob>Esh-kha Shatterer</Mob>
+					<Mob>Esh-kha Fang</Mob>
+
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Esh-kha Sniper" XYZ="-85.4837,8.009054,-340.2772" />
+					<Hotspot Name="Esh-kha Lifetaker" XYZ="-88.0771,8.001,-337.9275" />
+					<Hotspot Name="Esh-kha Sniper" XYZ="-87.8728,8.009712,-341.9845" />
+					<Hotspot Name="My Location" XYZ="-97.3505,6.384139,-340.9385" />
+					<Hotspot Name="Esh-kha Shatterer" XYZ="-102.5725,6.401,-341.1814" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		<!-- UseObject: Prison Repairs Task 1: Deactivate the Transporter Controls -->
 		<If Condition="(not HasQuest( 0xE000F2B7135F9F3D))) and (not IsTaskComplete(0xE000F2B7135F9F3D, 2, 1)))">
 			<UseObject ObjectName="Transporter Controls" WaitTime="3000" XYZ="-103.1706,6.411,-341.069" />
@@ -211,14 +291,46 @@
 
 
 		<!-- Grind: Unheard Frequencies / Colect Memory Cores 0/5      in stasis vault 113-->
-		<Grind GrindRef="Unheard Frequencies" While="(not IsQuestComplete(0xE0007A085412F617))" />
+		<Grind While="(not IsQuestComplete(0xE0007A085412F617))">
+			<GrindArea Name="Unheard Frequencies">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Primeval Combat Droid</Mob>
+					<Mob>Primeval Defense Droid</Mob>
+					<Mob>Primeval Security Droid</Mob>
+
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-34.52321,6.502499,-382.537" />
+					<Hotspot Name="My Location" XYZ="-35.99133,6.499999,-390.8407" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 		<!-- Enter Phase To Quest: Sleeping Rakata -->
 		<If Condition="( ((HasQuest(0xE000E36A1BEFEF20)) and (not IsQuestComplete(0xE000E36A1BEFEF20)))">
 			<MoveTo  XYZ="-16.77925,8.709181,-362.0529" />
 		</If>
 		<!-- Grind: Quest: Sleeping Rakata / Evils Worst Nightnmare (Bonus) 0/15  UEBERPRUEFEN!!!!!!!-->
-		<Grind GrindRef="Sleeping Rakata (Bonus)" While="(not IsQuestComplete(0xE0007A085412F617))" />
+		<Grind While="(not IsQuestComplete(0xE0007A085412F617))">
+			<GrindArea Name="Sleeping Rakata (Bonus)">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Elshuu's Minion</Mob>
+					<Mob>Elshuu's Acolyte</Mob>
+					<Mob>Elshuu's Flesh Raider</Mob>
+
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Elshuu's Flesh Raider" XYZ="-8.649851,8.705111,-369.4078" />
+					<Hotspot Name="My Location" XYZ="-7.192486,8.781192,-369.889" />
+					<Hotspot Name="My Location" XYZ="-3.047469,8.815858,-369.1771" />
+					<Hotspot Name="My Location" XYZ="2.171923,8.767305,-369.5723" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 
 		<!-- GoTo Location" X="3.038036" Y="8.439768" Z="-381.8166" Start Event Quest: Sleeping Rakata  Mobs are now attackable -->
@@ -332,138 +444,6 @@
 
 
 	</Questing>
-
-
-	<GrindAreas>
-		<GrindArea Name="Restraining the Darkness">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Bodyguard</Mob>
-				<Mob>Imperial Excavator</Mob>
-				<Mob>Imperial Survey Drone</Mob>
-				<Mob>Sith Seekerr</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-161.9555,31.25561,134.8032" />
-				<Hotspot Name="My Location" XYZ="-159.5513,31.21098,130.7047" />
-				<Hotspot Name="My Location" XYZ="-157.1608,31.64281,134.4766" />
-				<Hotspot Name="My Location" XYZ="-152.7813,31.38931,134.4976" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Strengthening The Chain">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Rattataki Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-138.9859,31.49022,129.1961" />
-				<Hotspot Name="My Location" XYZ="-134.5629,31.52971,124.26" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Emergent Medicine">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Poisonous Rift Lurker</Mob>
-				<Mob>Venomous Rift Lurker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-151.1819,29.78367,125.4774" />
-				<Hotspot Name="My Location" XYZ="-149.499,29.83046,127.975" />
-				<Hotspot Name="My Location" XYZ="-147.8028,29.82543,130.216" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Riot1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Maniac</Mob>
-				<Mob>Esh-kha Rioter</Mob>
-				<Mob>Esh-kha Thinker</Mob>
-				<Mob>Esh-kha Huntling</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Rioter" XYZ="-3.884803,9.521783,-304.079" />
-				<Hotspot Name="Esh-kha Huntling" XYZ="-0.2357061,9.600768,-301.2235" />
-				<Hotspot Name="Esh-kha Rioter" XYZ="3.693405,9.520932,-301.4937" />
-				<Hotspot Name="Esh-kha Rioter" XYZ="12.87201,9.53041,-302.1917" />
-				<Hotspot Name="Esh-kha Thinker" XYZ="19.12393,9.586931,-302.1245" />
-				<Hotspot Name="Esh-kha Maniac" XYZ="22.4643,9.556027,-301.6782" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Riot2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Maniac</Mob>
-				<Mob>Esh-kha Rioter</Mob>
-				<Mob>Esh-kha Thinker</Mob>
-				<Mob>Esh-kha Huntling</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Maniac" XYZ="18.02442,9.54427,-307.239" />
-				<Hotspot Name="Esh-kha Thinker" XYZ="17.66451,9.554676,-310.7609" />
-				<Hotspot Name="Esh-kha Rioter" XYZ="11.9343,9.538894,-313.5158" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Prison Repairs">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Sniper</Mob>
-				<Mob>Esh-kha Lifetaker</Mob>
-				<Mob>Esh-kha Shatterer</Mob>
-				<Mob>Esh-kha Fang</Mob>
-
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Sniper" XYZ="-85.4837,8.009054,-340.2772" />
-				<Hotspot Name="Esh-kha Lifetaker" XYZ="-88.0771,8.001,-337.9275" />
-				<Hotspot Name="Esh-kha Sniper" XYZ="-87.8728,8.009712,-341.9845" />
-				<Hotspot Name="My Location" XYZ="-97.3505,6.384139,-340.9385" />
-				<Hotspot Name="Esh-kha Shatterer" XYZ="-102.5725,6.401,-341.1814" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Unheard Frequencies">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Primeval Combat Droid</Mob>
-				<Mob>Primeval Defense Droid</Mob>
-				<Mob>Primeval Security Droid</Mob>
-
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-34.52321,6.502499,-382.537" />
-				<Hotspot Name="My Location" XYZ="-35.99133,6.499999,-390.8407" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Sleeping Rakata (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Elshuu's Minion</Mob>
-				<Mob>Elshuu's Acolyte</Mob>
-				<Mob>Elshuu's Flesh Raider</Mob>
-
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Elshuu's Flesh Raider" XYZ="-8.649851,8.705111,-369.4078" />
-				<Hotspot Name="My Location" XYZ="-7.192486,8.781192,-369.889" />
-				<Hotspot Name="My Location" XYZ="-3.047469,8.815858,-369.1771" />
-				<Hotspot Name="My Location" XYZ="2.171923,8.767305,-369.5723" />
-			</Hotspots>
-		</GrindArea>
-	</GrindAreas>
 
 
 </Profile>

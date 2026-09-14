@@ -8,39 +8,6 @@
 	</Vendors>
 
 	
-	<GrindAreas> 
-		
-		<GrindArea Name="Hacked Resistance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Guard Droid</Mob>
-				<Mob>Reprogrammed Sentry Droid</Mob>
-				<Mob>Reprogrammed Attack Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-6.045681,0.0009999508,5.570472" />
-				<Hotspot Name="Reprogrammed Sentry Droid" XYZ="-9.262007,0.004999884,4.462798" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-8.788818,0.001005429,6.474269" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-6.422,0.001000138,8.5423" />
-				<Hotspot Name="Reprogrammed Guard Droid" XYZ="-7.496,-0.099,12.0174" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.6163,0.001000203,10.3673" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Distress Call 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Laranna Fain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
-			</Hotspots>
-		</GrindArea>    
-	
-	</GrindAreas>
-
 	<Questing>
 	
 		<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -63,12 +30,41 @@
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 6)))">
 				<!-- Hacked Resistance (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE0006DB518096937))">
-					<Grind GrindRef="Hacked Resistance (Bonus)" While="(not IsQuestComplete(0xE0006DB518096937))" />
+					<Grind While="(not IsQuestComplete(0xE0006DB518096937))">
+						<GrindArea Name="Hacked Resistance (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Reprogrammed Guard Droid</Mob>
+								<Mob>Reprogrammed Sentry Droid</Mob>
+								<Mob>Reprogrammed Attack Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-6.045681,0.0009999508,5.570472" />
+								<Hotspot Name="Reprogrammed Sentry Droid" XYZ="-9.262007,0.004999884,4.462798" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-8.788818,0.001005429,6.474269" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-6.422,0.001000138,8.5423" />
+								<Hotspot Name="Reprogrammed Guard Droid" XYZ="-7.496,-0.099,12.0174" />
+								<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.6163,0.001000203,10.3673" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7)))">
-				<Grind GrindRef="Distress Call 7" While="(not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7))">
+					<GrindArea Name="Distress Call 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Laranna Fain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 8)))">
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />

@@ -9,8 +9,7 @@
 		<Hotspot Name="Republic Medical Droid" XYZ="-0.2154,3.977503,47.8403" /> <!-- The Forge (S. Tython) -->
 	</Vendors>
 	
-	<GrindAreas> 
-
+	<Grind While="Me.Level &lt; 10">
 		<GrindArea Name="Flesh Raiders">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>9</MaxLevel>
@@ -37,12 +36,8 @@
 				<Hotspot Name="Flesh Raider Loreseeker" XYZ="44.1,1.015183,-9.200001" />
 				<Hotspot Name="Flesh Raider Chief Shaman" XYZ="44.02,1.338866,-4.62" />
 			</Hotspots>
-		</GrindArea>    
-
-	</GrindAreas>
-
-		
-	<Grind GrindRef="Flesh Raiders" While="Me.Level &lt; 10" />
+		</GrindArea>
+	</Grind>
 
 
 </Profile>

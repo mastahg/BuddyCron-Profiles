@@ -34,859 +34,6 @@
 	</AvoidMobs>
 	-->
 	
-	<GrindAreas>
-
-	
-
-	
-		<GrindArea Name="The Apprentice 6 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Elios Maliss</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Elios Maliss" XYZ="-151.4582,-25.52427,1.713614" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Apprentice 6 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Master Ocera</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Ocera" XYZ="-147.6471,-25.609,2.434227" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Means of Persuasion 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Anathemos's Assassin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Anathemos's Assassin" XYZ="-3.993432,-10.62203,-58.80169" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Means of Persuasion 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Assault Droid</Mob>
-				<Mob>Republic Patrolman</Mob>
-				<Mob>Republic Ambusher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Assault Droid" XYZ="-1.3605,-10.62713,-54.4868" />
-				<Hotspot Name="Republic Patrolman" XYZ="3.9509,-10.61671,-55.4305" />
-				<Hotspot Name="Republic Assault Droid" XYZ="1.7591,-10.59103,-59.3008" />
-				<Hotspot Name="Republic Ambusher" XYZ="-2.3059,-10.62204,-58.5988" />
-				<Hotspot Name="Republic Patrolman" XYZ="0.6981647,-10.48759,-63.6133" />
-				<Hotspot Name="Republic Assault Droid" XYZ="-5.247,-10.59612,-59.1476" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Laying the Trap 7 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Rifleman</Mob>
-				<Mob>Republic Armsmaster</Mob>
-				<Mob>Republic Colony Guard Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Colony Guard Droid" XYZ="27.1512,-19.00365,14.3177" />
-				<Hotspot Name="Republic Rifleman" XYZ="28.4662,-17.73785,7.9617" />
-				<Hotspot Name="Republic Armsmaster" XYZ="23.0744,-18.27594,9.3972" />
-				<Hotspot Name="Republic Colony Guard Droid" XYZ="23.0932,-18.0443,12.9351" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="War of Deception - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Hangar Guardian</Mob>
-				<Mob>Republic Hangar Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot XYZ="122.5451,-17.52505,85.48934" />
-				<Hotspot XYZ="122.5528,-17.52559,72.7188" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Nikto Bounty - Defeat Nikto Warriors">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Morgukai Berserker</Mob>
-				<Mob>Morgukai Blood Warrior</Mob>
-				<Mob>Nikto Cultist</Mob>
-				<Mob>Nikto Defender</Mob>
-				<Mob>Nikto Devotee</Mob>
-				<Mob>Nikto Disciple</Mob>
-				<Mob>Nikto Fanatic</Mob>
-				<Mob>Nikto Guard</Mob>
-				<Mob>Nikto Neutralizer</Mob>
-				<Mob>Nikto Pacifier</Mob>
-				<Mob>Nikto Peacekeeper</Mob>
-				<Mob>Nikto Preacher</Mob>
-				<Mob>Nikto Rabblerouser</Mob>
-				<Mob>Nikto Radical</Mob>
-				<Mob>Nikto Reaver</Mob>
-				<Mob>Nikto Sentry</Mob>
-				<Mob>Nikto Supporter</Mob>
-				<Mob>Nikto Warrior</Mob>
-				<Mob>Nikto Zealot</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nikto Peacekeeper" XYZ="-41.5456,-13.7954,12.458" />
-				<Hotspot Name="Morgukai Blood Warrior" XYZ="-40.1378,-13.72049,4.460214" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 3 - Rakghoul Rampage">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Infected Republic Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Infected Republic Commando" XYZ="109.0898,-16.64931,-44.0325" />
-				<Hotspot Name="Infected Republic Commando" XYZ="107.2359,-15.75279,-55.2252" />
-				<Hotspot Name="Infected Republic Commando" XYZ="60.7967,-17.44203,-38.0875" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Destroy Archive Droids - Defeat Archive Security Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Archive Guardian Droid</Mob>
-				<Mob>Archive Sentinel Droid</Mob>
-				<Mob>Imperial Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Security Droid" XYZ="22.7085,-2.587532,-89.8169" />
-				<Hotspot Name="Archive Sentinel Droid" XYZ="8.907902,-2.6,-89.33848" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Minefield - Defeat Valhoun's Vultures">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jedi Apprentice</Mob>
-				<Mob>Republic Hangar Captain</Mob>
-				<Mob>Republic Hangar Guardian</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="107.13,-17.61936,79.19471" />
-				<Hotspot Name="My Location" XYZ="118.9112,-17.52322,79.22105" />
-				<Hotspot Name="My Location" XYZ="118.3818,-17.51859,73.19958" />
-				<Hotspot Name="Republic Hangar Guardian" XYZ="118.8537,-17.51873,85.037" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Minefield - Defeat Valhoun's Vultures">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Commander Valhoun</Mob>
-				<Mob>Republic Ambush Commando</Mob>
-				<Mob>Republic Ambush Commando</Mob>
-				<Mob>Republic Captain</Mob>
-				<Mob>Republic Vulture Scout</Mob>
-				<Mob>Republic Vulture Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="118.7402,-20.82986,45.5729" />
-				<Hotspot Name="Republic Ambush Commando" XYZ="112.536,-20.8053,47.3235" />
-				<Hotspot Name="Republic Vulture Scout" XYZ="121.076,-21.40492,49.95691" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Man Behind the Vultures - Defeat Commander Valhoun">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Commander Valhoun</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Commander Valhoun" XYZ="121.6856,-21.40315,51.6383" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Imperial Reclamation - Clear Out the Rakghoul-infested Outpost">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nekghoul Horde Leader</Mob>
-				<Mob>Slavering Rakghoul</Mob>
-				<Mob>Vicious Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Slavering Rakghoul" XYZ="170.6805,-20.55275,28.82779" />
-				<Hotspot Name="Slavering Rakghoul" XYZ="181.956,-20.40051,39.65264" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Leading the Pack - Defeat Alpha Rakghouls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Alpha Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="132.3572,-20.60178,33.95243" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Punishing The Pack">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Alpha Rakghoul</Mob>
-				<Mob>Frightful Rakghoul</Mob>
-				<Mob>Ravenous Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Frightful Rakghoul" XYZ="140.8464,-20.97331,32.11356" />
-				<Hotspot Name="Frightful Rakghoul" XYZ="142.9221,-21.09611,36.79672" />
-				<Hotspot Name="Ravenous Rakghoul" XYZ="147.5227,-21.0227,29.3668" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Escape Pods Down - Subdue the First Republic Survivor">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Survivor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="117.9452,-16.61278,21.8568" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Reaping the Rescuers - Defeat the Republic Rescue Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Deadeye</Mob>
-				<Mob>Republic Field Medic</Mob>
-				<Mob>Republic Rescue Operative</Mob>
-				<Mob>Trained Rescue Akk Dog</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="116.354,-17.19846,25.23756" />
-				<Hotspot Name="My Location" XYZ="119.0416,-16.63279,22.36832" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Guerilla Blockade - Defeat Republic Special Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Grenadier</Mob>
-				<Mob>Republic Gunnery Droid</Mob>
-				<Mob>Republic Shock Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="103.6258,-19.98608,33.56426" />
-				<Hotspot Name="Republic Gunnery Droid" XYZ="114.5162,-20.60895,41.6675" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Trapped by Snipers - Defeat Valhoun Snipers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Valhoun Sniper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="83.79964,-18.45526,11.33471" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="All Clear Signal - Defeat the Republic Forward Recon Squad">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Commando</Mob>
-				<Mob>Republic Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="81.35237,-19.4302,69.02635" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="All Clear Signal - Defeat the Republic Sappers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Sapper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="86.6,-20.13596,61.47364" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Scrambled - Defeat Republic Forces around the Signal Relays">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Armed Cathar Settler</Mob>
-				<Mob>Republic Rak-Hunter Droid</Mob>
-				<Mob>Tactical Republic Assault Droid</Mob>
-				<Mob>Trained Swamp Bonegnasher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Tactical Republic Assault Droid" XYZ="86.65089,-20.0638,60.9054" />
-				<Hotspot Name="Armed Cathar Settler" XYZ="71.43097,-20.06107,59.38414" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Com Silence - Defeat Republic Communications Post">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Communications Officer</Mob>
-				<Mob>Republic Satcom Defender</Mob>
-				<Mob>Republic Satcom Drone</Mob>
-				<Mob>Republic Satcom Guard Droid</Mob>
-				<Mob>Republic Satcom Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Satcom Drone" XYZ="-153.9647,-19.04067,76.8636" />
-				<Hotspot Name="Republic Satcom Drone" XYZ="-144.436,-19.12653,78.7025" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="No Escape - Defeat Thana Vesh">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Thana Vesh</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thana Vesh" XYZ="-213.9062,-18.15758,60.13841" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="No Escape - Defeat Master Cerik">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Master Cerik</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Cerik" XYZ="-208.4123,-39.8,78.58669" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 3 - The Siege of Olaris - Defeat Republic Supply Officers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Supply Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Supply Officer" XYZ="-182.5367,-19.94779,55.4674" />
-				<Hotspot Name="Republic Supply Officer" XYZ="-183.6088,-19.65021,61.1128" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 1 - The Siege of Olaris - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jedi Knight</Mob>
-				<Mob>Republic Astromech</Mob>
-				<Mob>Republic Astromech Droid</Mob>
-				<Mob>Republic Gunner</Mob>
-				<Mob>Republic Rocket Commando</Mob>
-				<Mob>Republic Security Droid</Mob>
-				<Mob>Republic Sentinel Droid</Mob>
-				<Mob>Republic Soldier</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Soldier" XYZ="-196.5534,-20.0589,58.432" />
-				<Hotspot Name="Republic Soldier" XYZ="-182.0833,-19.88332,70.2482" />
-				<Hotspot Name="Republic Sentinel Droid" XYZ="-188.2081,-19.52813,76.419" />
-			</Hotspots>
-		</GrindArea>
-	
-	
-		<GrindArea Name="Defeat Ki Sazen - Defeat Fhentar - Defeat i Sazen's Followers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ki Sazen</Mob>
-				<Mob>Fhentar</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ki Sazen" XYZ="-219.535,-18.74319,112.347" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Cultist Extermination - Defeat Nikto Fanatics">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nikto Fanatic</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-203.5052,-19.09458,89.22978" />
-				<Hotspot Name="Nikto Fanatic" XYZ="-210.9162,-19.09822,95.30141" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Clearing the Jam - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Astromech</Mob>
-				<Mob>Republic Rocket Commando</Mob>
-				<Mob>Republic Sentinel Droid</Mob>
-				<Mob>Republic Soldier</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Soldier" XYZ="-181.6855,-20.06035,52.0967" />
-				<Hotspot Name="Republic Soldier" XYZ="-191.7893,-20.05778,59.9402" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Routing the Republic - Defeat Olaris Forward Base Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jedi Defense Commander</Mob>
-				<Mob>Republic Base Commando</Mob>
-				<Mob>Republic Combat Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Trained Alpha Akk Dog" XYZ="-158.9344,-18.78418,33.6684" />
-				<Hotspot Name="Republic Base Commando" XYZ="-159.6575,-18.64355,39.2404" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Defeat Bashun - Defeat Morgukai">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Bashun</Mob>
-				<Mob>Morgukai Berserker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bashun" XYZ="-31.61895,-22.92897,-36.87946" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Intensive Treatment - Defeat the Rakghouls around Dynamet General">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Corrupted Rakghoul</Mob>
-				<Mob>Marauder Rakghoul</Mob>
-				<Mob>Stalker Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-35.67585,-13.42282,-37.68307" />
-				<Hotspot Name="Stalker Rakghoul" XYZ="-42.94994,-13.56032,-38.44268" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Hospital Carnage - Destroy Dynamet Quarantine Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Dynamet Quarantine Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dynamet Renewal Droid" XYZ="-36.05819,-18.808,-23.71442" />
-				<Hotspot Name="Dynamet Quarantine Droid" XYZ="-37.14939,-17.91157,-20.59831" />
-				<Hotspot Name="Dynamet Renewal Droid" XYZ="-33.11866,-17.599,-23.76713" />
-				<Hotspot Name="Dynamet Security Droid" XYZ="-35.7234,-17.78994,-27.1846" />
-				<Hotspot Name="My Location" XYZ="-37.26758,-18.799,-23.70879" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Skullduggery - Defeat the Pirate Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Pirate Crackshot</Mob>
-				<Mob>Pirate Cutthroat</Mob>
-				<Mob>Pirate Master Gunner</Mob>
-				<Mob>Trained Veractyl</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="89.69767,-17.61843,80.9255" />
-				<Hotspot Name="Trained Veractyl" XYZ="93.1356,-17.61059,90.6756" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="RAndD - Defeat Republic Rak-hunter Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Rak-Hunter Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Rak-Hunter Droid" XYZ="96.0606,-19.90909,59.5494" />
-				<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
-				<Hotspot Name="Republic Researcher" XYZ="91.584,-19.97936,60.3514" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Razing the Researchers - Defeat Republic Researchers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Researcher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Researcher" XYZ="99.48899,-20.12775,60.29516" />
-				<Hotspot Name="Republic Rak-Hunter Droid" XYZ="96.0606,-19.90909,59.5494" />
-				<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
-				<Hotspot Name="Republic Researcher" XYZ="91.584,-19.97936,60.3514" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Unsettling - Defeat Cathar Settlers and Their Protectors">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Cathar Marksman</Mob>
-				<Mob>Armed Cathar Settler</Mob>
-				<Mob>Cathar Enforcer</Mob>
-				<Mob>Trained Swamp Bonegnasher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="78.74837,-19.83746,58.51284" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 1 - Unwelcome Alliance - Defeat Cathar Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Cathar Marksman</Mob>
-				<Mob>Cathar Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-10.41204,-14.35907,-11.10238" />
-				<Hotspot Name="My Location" XYZ="1.679296,-14.70605,-17.76196" />
-				<Hotspot Name="My Location" XYZ="12.09887,-14.71772,-20.95077" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Blood Sport - Loot Staffs from Morgukai Blood Warriors">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Morgukai Berserker</Mob>
-				<Mob>Morgukai Blood Warrior</Mob>
-				<Mob>Nikto Cultist</Mob>
-				<Mob>Nikto Defender</Mob>
-				<Mob>Nikto Devotee</Mob>
-				<Mob>Nikto Disciple</Mob>
-				<Mob>Nikto Fanatic</Mob>
-				<Mob>Nikto Guard</Mob>
-				<Mob>Nikto Neutralizer</Mob>
-				<Mob>Nikto Pacifier</Mob>
-				<Mob>Nikto Peacekeeper</Mob>
-				<Mob>Nikto Preacher</Mob>
-				<Mob>Nikto Rabblerouser</Mob>
-				<Mob>Nikto Radical</Mob>
-				<Mob>Nikto Reaver</Mob>
-				<Mob>Nikto Sentry</Mob>
-				<Mob>Nikto Supporter</Mob>
-				<Mob>Nikto Warrior</Mob>
-				<Mob>Nikto Zealot</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nikto Peacekeeper" XYZ="-41.5456,-13.7954,12.458" />
-				<Hotspot Name="Morgukai Blood Warrior" XYZ="-40.1378,-13.72049,4.460214" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Blood Sport - Loot Staffs from Morgukai Blood Warriors">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Morgukai Blood Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nikto Peacekeeper" XYZ="-41.5456,-13.7954,12.458" />
-				<Hotspot Name="Morgukai Blood Warrior" XYZ="-40.1378,-13.72049,4.460214" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Cult of Ki Sazen - Defeat Chevuk - Defeat Nikto Zealot">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Chevuk</Mob>
-				<Mob>Nikto Zealot</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Chevuk" XYZ="143.4171,-14.23566,-55.62387" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Destroy the Cult - Defeat Nikto Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nikto Defender</Mob>
-				<Mob>Nikto Warrior</Mob>
-				<Mob>Nikto Zealot</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="128.3471,-16.4065,-51.2328" />
-				<Hotspot Name="Nikto Zealot" XYZ="135.9352,-16.16728,-56.6185" />
-				<Hotspot Name="My Location" XYZ="140.5423,-15.53,-55.66673" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Culling the Nekghouls - Defeat Master Sulan">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Master Sulan</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="117.3628,-17.1415,116.6663" />
-				<Hotspot Name="Master Sulan" XYZ="111.8522,-17.3221,117.2821" />
-				<Hotspot Name="Master Sulan" XYZ="115.7177,-17.14299,121.5457" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Culling the Nekghouls - Destroy the Security Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Security Droid" XYZ="106.3855,-18.77241,106.3355" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Deadly Abominations - Defeat Nekghouls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nekghoul Berserker</Mob>
-				<Mob>Nekghoul Fleshripper</Mob>
-				<Mob>Nekghoul Savage</Mob>
-				<Mob>Nekghoul Tormentor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="117.3367,-17.1411,116.4072" />
-				<Hotspot Name="My Location" XYZ="99.76077,-17.55206,104.7303" />
-				<Hotspot Name="Nekghoul Berserker" XYZ="105.603,-17.37241,111.1739" />
-				<Hotspot Name="Nekghoul Fleshripper" XYZ="105.8922,-17.55403,104.8109" />
-				<Hotspot Name="Nekghoul Berserker" XYZ="101.4843,-18.77077,109.6643" />
-				<Hotspot Name="Nekghoul Berserker" XYZ="113.7538,-17.35711,115.9833" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 1 - Rakghoul Rampage - Kill Swamp Rakghouls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Brutal Swamp Rakghoul</Mob>
-				<Mob>Savage Swamp Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="47.91415,-17.43288,-12.44929" />
-				<Hotspot Name="My Location" XYZ="52.13885,-17.41557,-16.88342" />
-				<Hotspot Name="My Location" XYZ="58.96233,-17.59139,-15.45291" />
-				<Hotspot Name="My Location" XYZ="59.08071,-17.5574,-24.72513" />
-				<Hotspot Name="Skulking Rakghoul" XYZ="69.61344,-17.65559,-24.80988" />
-				<Hotspot Name="Skulking Rakghoul" XYZ="67.23307,-17.44688,-40.36903" />
-				<Hotspot Name="My Location" XYZ="78.23238,-17.45328,-37.23383" />
-				<Hotspot Name="My Location" XYZ="80.39096,-17.5656,-46.12909" />
-				<Hotspot Name="Brutal Swamp Rakghoul" XYZ="40.00157,-21.51068,33.69086" />
-				<Hotspot Name="Savage Swamp Rakghoul" XYZ="50.40266,-21.54881,31.77091" />
-				<Hotspot Name="Brutal Swamp Rakghoul" XYZ="52.37251,-21.55076,26.79801" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Rakghoul Observation - Kill Berserker Rakghouls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Berserker Swamp Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="45.16471,-20.33363,42.22695" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Race for the Kill - Defeat Kom Orda - Defeat Kom Orda's Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Kom Orda</Mob>
-				<Mob>Orda's Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kom Orda" XYZ="7.010581,-19.6676,13.65588" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Healthy Competition - Eliminate Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Sniper</Mob>
-				<Mob>Republic Defender</Mob>
-				<Mob>Republic Officer</Mob>
-				<Mob>Republic Sentry Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="7.448267,-19.66152,27.82892" />
-				<Hotspot Name="Trained Akk Dog" XYZ="7.979012,-19.67085,20.40368" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Shadow Support - Defeat Republic Protection Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Sniper</Mob>
-				<Mob>Republic Watcher Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-79.27434,-23.72404,41.57648" />
-				<Hotspot Name="Republic Watcher Droid" XYZ="-80.73595,-23.72346,47.42842" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Bombing the Walkers - Obtain Walker Coordinates">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Shadow Operative</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-79.27434,-23.72404,41.57648" />
-				<Hotspot Name="Republic Watcher Droid" XYZ="-80.73595,-23.72346,47.42842" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Tainted Water - Defeat the Republic Reclamation Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Defender Droid</Mob>
-				<Mob>Republic Reclamation Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="44.62545,-22.18831,75.87648" />
-				<Hotspot Name="My Location" XYZ="46.92102,-22.01874,64.80423" />
-				<Hotspot Name="My Location" XYZ="47.71745,-21.99814,56.9471" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Off The Overseer - Defeat the Republic Oversee Droid">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Overseer Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Overseer Droid" XYZ="48.0948,-21.99304,53.399" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Militia Stomping - Defeat Cathar Settlers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Cathar Cadet</Mob>
-				<Mob>Cathar Recruit</Mob>
-				<Mob>Cathar Trainee</Mob>
-				<Mob>Trained Swamp Snarler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Cathar Cadet" XYZ="20.8201,-23.41602,90.6708" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Rakghoul Problem - Defeat Savage Rakghouls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Savage Rakghoul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-55.90522,-27.09795,128.3322" />
-				<Hotspot Name="My Location" XYZ="-40.8718,-21.34673,125.7415" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-38.29239,-21.1231,131.9864" />
-				<Hotspot Name="Foul Rakghoul" XYZ="-38.22375,-21.34412,126.0682" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-46.90457,-26.99452,121.9449" />
-				<Hotspot Name="Foul Rakghoul" XYZ="-48.7906,-26.94124,125.4644" />
-				<Hotspot Name="Savage Rakghoul" XYZ="-56.22288,-27.0975,130.8725" />
-				<Hotspot XYZ="-51.45436,-26.92488,141.6553" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Come Out, Come Out - Defeat Tarisian Militia Watch Commander">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Tarisian Militia Watch Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Tarisian Militia Watch Commander" XYZ="-53.83606,-23.32541,98.94327" />
-				<Hotspot Name="My Location" XYZ="-52.34483,-23.56013,106.2411" />
-				<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Come Out, Come Out - Defeat Tarisian Militia Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Tarisian Militia Guard Droid</Mob>
-				<Mob>Tarisian Militia Infantry</Mob>
-				<Mob>Tarisian Militia Watch Commander</Mob>
-				<Mob>Trained Guard Dog</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Tarisian Militia Watch Commander" XYZ="-53.83606,-23.32541,98.94327" />
-				<Hotspot Name="My Location" XYZ="-52.34483,-23.56013,106.2411" />
-				<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
-				<Hotspot Name="Tarisian Militia Infantry" XYZ="-55.1562,-23.55571,102.3152" />
-				<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Artillery Teams - Defeat Republic Artillery Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Artillery Guard Droid</Mob>
-				<Mob>Republic Artillery Soldier</Mob>
-				<Mob>Republic Forward Observer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-51.50068,-23.7009,92.65106" />
-				<Hotspot Name="Republic Artillery Soldier" XYZ="-43.5192,-22.76552,94.6335" />
-				<Hotspot Name="Republic Artillery Soldier" XYZ="-30.7552,-23.56678,89.12309" />
-			</Hotspots>
-		</GrindArea>
-	
-	</GrindAreas>
-	
 	<Questing>
 		
 		<If Condition="(Me.Class == CharacterClass.BountyHunter)">
@@ -990,7 +137,22 @@
 			<UseObject ObjectName="Republic Artillery" QuestId="0xE00097EFF57035D7" BranchId="1" StepId="2" TaskId="2" Radius="5" IgnoreLOS="True" WaitTime="3" XYZ="-54.01978,-23.57765,90.98615" />
 			<!-- Artillery Teams - Defeat Republic Artillery Forces -->
 			<If Condition="(not IsQuestComplete(0xE0004D5DCC5F1E0C))"> <!-- is this qid wrong? -->
-				<Grind GrindRef="Artillery Teams - Defeat Republic Artillery Forces" While="(not IsQuestComplete(0xE0004D5DCC5F1E0C))" />
+				<Grind While="(not IsQuestComplete(0xE0004D5DCC5F1E0C))">
+					<GrindArea Name="Artillery Teams - Defeat Republic Artillery Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Artillery Guard Droid</Mob>
+							<Mob>Republic Artillery Soldier</Mob>
+							<Mob>Republic Forward Observer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-51.50068,-23.7009,92.65106" />
+							<Hotspot Name="Republic Artillery Soldier" XYZ="-43.5192,-22.76552,94.6335" />
+							<Hotspot Name="Republic Artillery Soldier" XYZ="-30.7552,-23.56678,89.12309" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -1002,8 +164,39 @@
 		
 		<!-- Come Out, Come Out -->
 		<If Condition="((HasQuest(0xE000071270A2FE4A)) and (not IsQuestComplete(0xE000071270A2FE4A)))">
-			<Grind GrindRef="Come Out, Come Out - Defeat Tarisian Militia Forces" While="not IsStepComplete(0xE000071270A2FE4A, 2)" />
-			<Grind GrindRef="Come Out, Come Out - Defeat Tarisian Militia Watch Commander" While="not IsStepComplete(0xE000071270A2FE4A, 3)" />
+			<Grind While="not IsStepComplete(0xE000071270A2FE4A, 2)">
+				<GrindArea Name="Come Out, Come Out - Defeat Tarisian Militia Forces">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Tarisian Militia Guard Droid</Mob>
+						<Mob>Tarisian Militia Infantry</Mob>
+						<Mob>Tarisian Militia Watch Commander</Mob>
+						<Mob>Trained Guard Dog</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Tarisian Militia Watch Commander" XYZ="-53.83606,-23.32541,98.94327" />
+						<Hotspot Name="My Location" XYZ="-52.34483,-23.56013,106.2411" />
+						<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
+						<Hotspot Name="Tarisian Militia Infantry" XYZ="-55.1562,-23.55571,102.3152" />
+						<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
+			<Grind While="not IsStepComplete(0xE000071270A2FE4A, 3)">
+				<GrindArea Name="Come Out, Come Out - Defeat Tarisian Militia Watch Commander">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Tarisian Militia Watch Commander</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Tarisian Militia Watch Commander" XYZ="-53.83606,-23.32541,98.94327" />
+						<Hotspot Name="My Location" XYZ="-52.34483,-23.56013,106.2411" />
+						<Hotspot Name="Tarisian Militia Guard Droid" XYZ="-55.4108,-23.78744,112.5256" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Distress Beacon" QuestId="0xE000071270A2FE4A" BranchId="1" StepId="4" WaitTime="4" XYZ="-52.76336,-23.56352,102.8849" />
 		</If>
 		
@@ -1012,7 +205,25 @@
 			<!-- Ele going down -->
 			<!-- The Rakghoul Problem -->
 			<If Condition="(not IsQuestComplete(0xE00024E4007190B6))">
-				<Grind GrindRef="The Rakghoul Problem - Defeat Savage Rakghouls" While="(not IsQuestComplete(0xE00024E4007190B6))" />
+				<Grind While="(not IsQuestComplete(0xE00024E4007190B6))">
+					<GrindArea Name="The Rakghoul Problem - Defeat Savage Rakghouls">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Savage Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-55.90522,-27.09795,128.3322" />
+							<Hotspot Name="My Location" XYZ="-40.8718,-21.34673,125.7415" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-38.29239,-21.1231,131.9864" />
+							<Hotspot Name="Foul Rakghoul" XYZ="-38.22375,-21.34412,126.0682" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-46.90457,-26.99452,121.9449" />
+							<Hotspot Name="Foul Rakghoul" XYZ="-48.7906,-26.94124,125.4644" />
+							<Hotspot Name="Savage Rakghoul" XYZ="-56.22288,-27.0975,130.8725" />
+							<Hotspot XYZ="-51.45436,-26.92488,141.6553" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000E8C684E2D18B) and not IsBranchStepComplete(0xE000E8C684E2D18B, 1, 6)">
 				<MoveTo QuestId="0xE000E8C684E2D18B" XYZ="-51.45436,-26.92488,141.6553" />
@@ -1042,7 +253,21 @@
 		
 		<!-- Militia Stomping -->
 		<If Condition="((HasQuest(0xE00036FB524C9F08)) and (not IsQuestComplete(0xE00036FB524C9F08)))">
-			<Grind GrindRef="Militia Stomping - Defeat Cathar Settlers" While="not IsStepComplete(0xE00036FB524C9F08, 2)" />
+			<Grind While="not IsStepComplete(0xE00036FB524C9F08, 2)">
+				<GrindArea Name="Militia Stomping - Defeat Cathar Settlers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Cathar Cadet</Mob>
+						<Mob>Cathar Recruit</Mob>
+						<Mob>Cathar Trainee</Mob>
+						<Mob>Trained Swamp Snarler</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Cathar Cadet" XYZ="20.8201,-23.41602,90.6708" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Tainted Water -->
@@ -1054,10 +279,35 @@
 					<Hotspot Name="My Location" XYZ="47.71745,-21.99814,56.9471" />
 				</Hotspots>
 			</UseObject>
-			<Grind GrindRef="Tainted Water - Defeat the Republic Reclamation Droids" While="not IsTaskComplete(0xE000269D4534988B, 2, 1)" />
+			<Grind While="not IsTaskComplete(0xE000269D4534988B, 2, 1)">
+				<GrindArea Name="Tainted Water - Defeat the Republic Reclamation Droids">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Defender Droid</Mob>
+						<Mob>Republic Reclamation Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="44.62545,-22.18831,75.87648" />
+						<Hotspot Name="My Location" XYZ="46.92102,-22.01874,64.80423" />
+						<Hotspot Name="My Location" XYZ="47.71745,-21.99814,56.9471" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Off The Overseer -->
 			<If Condition="(not IsQuestComplete(0xE0002AAFB4647B46))">
-				<Grind GrindRef="Off The Overseer - Defeat the Republic Oversee Droid" While="(not IsQuestComplete(0xE0002AAFB4647B46))" />
+				<Grind While="(not IsQuestComplete(0xE0002AAFB4647B46))">
+					<GrindArea Name="Off The Overseer - Defeat the Republic Oversee Droid">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Overseer Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Overseer Droid" XYZ="48.0948,-21.99304,53.399" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1078,9 +328,34 @@
 		<If Condition="((HasQuest(0xE00002048AFDB926)) and (not IsQuestComplete(0xE00002048AFDB926)))">
 			<!-- The Shadow Support (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000B17A965B3935))">
-				<Grind GrindRef="The Shadow Support - Defeat Republic Protection Forces" While="(not IsQuestComplete(0xE000B17A965B3935))" />
+				<Grind While="(not IsQuestComplete(0xE000B17A965B3935))">
+					<GrindArea Name="The Shadow Support - Defeat Republic Protection Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Sniper</Mob>
+							<Mob>Republic Watcher Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-79.27434,-23.72404,41.57648" />
+							<Hotspot Name="Republic Watcher Droid" XYZ="-80.73595,-23.72346,47.42842" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
-			<Grind GrindRef="Bombing the Walkers - Obtain Walker Coordinates" While="not IsStepComplete(0xE00002048AFDB926, 2)" />
+			<Grind While="not IsStepComplete(0xE00002048AFDB926, 2)">
+				<GrindArea Name="Bombing the Walkers - Obtain Walker Coordinates">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Shadow Operative</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-79.27434,-23.72404,41.57648" />
+						<Hotspot Name="Republic Watcher Droid" XYZ="-80.73595,-23.72346,47.42842" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" TurnInName="Major Nost" XYZ="-75.4651,-23.66943,81.4684" />
 			<CompleteQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" />
 			<!-- Race for the Kill -->
@@ -1102,7 +377,22 @@
 		<If Condition="((HasQuest(0xE000E743C2981279)) and (not IsQuestComplete(0xE000E743C2981279)))">
 			<!-- Healthy Competition - Eliminate Republic Forces -->
 			<If Condition="(not IsQuestComplete(0xE000239A03777427))">
-				<Grind GrindRef="Healthy Competition - Eliminate Republic Forces" While="(not IsQuestComplete(0xE000239A03777427))" />
+				<Grind While="(not IsQuestComplete(0xE000239A03777427))">
+					<GrindArea Name="Healthy Competition - Eliminate Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Sniper</Mob>
+							<Mob>Republic Defender</Mob>
+							<Mob>Republic Officer</Mob>
+							<Mob>Republic Sentry Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="7.448267,-19.66152,27.82892" />
+							<Hotspot Name="Trained Akk Dog" XYZ="7.979012,-19.67085,20.40368" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000E743C2981279) and not IsBranchStepComplete(0xE000E743C2981279, 1, 2)">
 				<MoveTo QuestId="0xE000E743C2981279" XYZ="7.007733,-19.66691,17.73848" />
@@ -1158,14 +448,47 @@
 		
 		<!-- Rakghoul Observation -->
 		<If Condition="((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
-			<Grind GrindRef="Rakghoul Observation - Kill Berserker Rakghouls" While="not IsBranchStepComplete(0xE0008FA905C7BA04, 1, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE0008FA905C7BA04, 1, 2)">
+				<GrindArea Name="Rakghoul Observation - Kill Berserker Rakghouls">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Berserker Swamp Rakghoul</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="45.16471,-20.33363,42.22695" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Rakghoul Roundup Bonuses -->
 		<If Condition="((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
 			<!-- Stage 1 - Rakghoul Rampage -->
 			<If Condition="(not IsQuestComplete(0xE0007D319FA72E69))">
-				<Grind GrindRef="Stage 1 - Rakghoul Rampage - Kill Swamp Rakghouls" While="(not IsQuestComplete(0xE0007D319FA72E69))" />
+				<Grind While="(not IsQuestComplete(0xE0007D319FA72E69))">
+					<GrindArea Name="Stage 1 - Rakghoul Rampage - Kill Swamp Rakghouls">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Brutal Swamp Rakghoul</Mob>
+							<Mob>Savage Swamp Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="47.91415,-17.43288,-12.44929" />
+							<Hotspot Name="My Location" XYZ="52.13885,-17.41557,-16.88342" />
+							<Hotspot Name="My Location" XYZ="58.96233,-17.59139,-15.45291" />
+							<Hotspot Name="My Location" XYZ="59.08071,-17.5574,-24.72513" />
+							<Hotspot Name="Skulking Rakghoul" XYZ="69.61344,-17.65559,-24.80988" />
+							<Hotspot Name="Skulking Rakghoul" XYZ="67.23307,-17.44688,-40.36903" />
+							<Hotspot Name="My Location" XYZ="78.23238,-17.45328,-37.23383" />
+							<Hotspot Name="My Location" XYZ="80.39096,-17.5656,-46.12909" />
+							<Hotspot Name="Brutal Swamp Rakghoul" XYZ="40.00157,-21.51068,33.69086" />
+							<Hotspot Name="Savage Swamp Rakghoul" XYZ="50.40266,-21.54881,31.77091" />
+							<Hotspot Name="Brutal Swamp Rakghoul" XYZ="52.37251,-21.55076,26.79801" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Rakghoul Rampage -->
 			<If Condition="(not IsQuestComplete(0xE0007C319FA729A4))">
@@ -1187,7 +510,20 @@
 			</If>
 			<!-- Stage 3 - Rakghoul Rampage -->
 			<If Condition="(not IsQuestComplete(0xE0007B319FA72BF7))">
-				<Grind GrindRef="Stage 3 - Rakghoul Rampage" While="(not IsQuestComplete(0xE0007B319FA72BF7))" />
+				<Grind While="(not IsQuestComplete(0xE0007B319FA72BF7))">
+					<GrindArea Name="Stage 3 - Rakghoul Rampage">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Infected Republic Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Infected Republic Commando" XYZ="109.0898,-16.64931,-44.0325" />
+							<Hotspot Name="Infected Republic Commando" XYZ="107.2359,-15.75279,-55.2252" />
+							<Hotspot Name="Infected Republic Commando" XYZ="60.7967,-17.44203,-38.0875" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Final Stage - Rakghoul Rampage -->
 			<If Condition="(not IsQuestComplete(0xE0007A319FA71542))">
@@ -1213,12 +549,39 @@
 		<If Condition="((HasQuest(0xE0002E56F56839FB)) and (not IsQuestComplete(0xE0002E56F56839FB)))">
 			<!-- Destroy the Cult - Defeat Nikto Forces -->
 			<If Condition="(not IsQuestComplete(0xE00037156D3AA618))">
-				<Grind GrindRef="Destroy the Cult - Defeat Nikto Forces" While="(not IsQuestComplete(0xE00037156D3AA618))" />
+				<Grind While="(not IsQuestComplete(0xE00037156D3AA618))">
+					<GrindArea Name="Destroy the Cult - Defeat Nikto Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Nikto Defender</Mob>
+							<Mob>Nikto Warrior</Mob>
+							<Mob>Nikto Zealot</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="128.3471,-16.4065,-51.2328" />
+							<Hotspot Name="Nikto Zealot" XYZ="135.9352,-16.16728,-56.6185" />
+							<Hotspot Name="My Location" XYZ="140.5423,-15.53,-55.66673" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0002E56F56839FB)) and (not IsBranchStepComplete(0xE0002E56F56839FB, 1, 7)))">
 				<MoveTo QuestId="0xE0002E56F56839FB" Name="Chevuk" XYZ="143.4007,-14.23566,-55.5929" />
 			</If>
-			<Grind GrindRef="The Cult of Ki Sazen - Defeat Chevuk - Defeat Nikto Zealot" While="not IsBranchStepComplete(0xE0002E56F56839FB, 1, 9)" />
+			<Grind While="not IsBranchStepComplete(0xE0002E56F56839FB, 1, 9)">
+				<GrindArea Name="The Cult of Ki Sazen - Defeat Chevuk - Defeat Nikto Zealot">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Chevuk</Mob>
+						<Mob>Nikto Zealot</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Chevuk" XYZ="143.4171,-14.23566,-55.62387" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE0002E56F56839FB) and not IsBranchStepComplete(0xE0002E56F56839FB, 1, 10)" >
 				<TalkTo QuestId="0xE0002E56F56839FB" Name="Chevuk" XYZ="143.6467,-14.23566,-55.88409" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -1261,7 +624,23 @@
 				<AnswerHolocomCall QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Laying the Trap 7 2" While="(not IsBranchStepComplete(0xE000BA656636FDB4, 7, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE000BA656636FDB4, 7, 2))">
+				<GrindArea Name="Laying the Trap 7 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Rifleman</Mob>
+						<Mob>Republic Armsmaster</Mob>
+						<Mob>Republic Colony Guard Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Colony Guard Droid" XYZ="27.1512,-19.00365,14.3177" />
+						<Hotspot Name="Republic Rifleman" XYZ="28.4662,-17.73785,7.9617" />
+						<Hotspot Name="Republic Armsmaster" XYZ="23.0744,-18.27594,9.3972" />
+						<Hotspot Name="Republic Colony Guard Droid" XYZ="23.0932,-18.0443,12.9351" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE000BA656636FDB4)) and (not IsBranchStepComplete(0xE000BA656636FDB4, 7, 3)))">
 				<AnswerHolocomCall QuestName="Laying the Trap" QuestId="0xE000BA656636FDB4" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1282,10 +661,40 @@
 				<MoveTo QuestId="0xE000B2EF0F026708" XYZ="108.1851,-17.36107,111.5085" />
 			</If>
 			<UseObject ObjectName="Security Console" QuestId="0xE000B2EF0F026708" BranchId="1" StepId="3" WaitTime="3" XYZ="104.3055,-18.7704,106.6638" />
-			<Grind GrindRef="Culling the Nekghouls - Destroy the Security Droids" While="not IsBranchStepComplete(0xE000B2EF0F026708, 1, 4)" />
+			<Grind While="not IsBranchStepComplete(0xE000B2EF0F026708, 1, 4)">
+				<GrindArea Name="Culling the Nekghouls - Destroy the Security Droids">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Security Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Security Droid" XYZ="106.3855,-18.77241,106.3355" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Deadly Abominations - Defeat Nekghouls -->
 			<If Condition="(not IsQuestComplete(0xE00001070A1D61D4))">
-				<Grind GrindRef="Deadly Abominations - Defeat Nekghouls" While="(not IsQuestComplete(0xE00001070A1D61D4))" />
+				<Grind While="(not IsQuestComplete(0xE00001070A1D61D4))">
+					<GrindArea Name="Deadly Abominations - Defeat Nekghouls">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Nekghoul Berserker</Mob>
+							<Mob>Nekghoul Fleshripper</Mob>
+							<Mob>Nekghoul Savage</Mob>
+							<Mob>Nekghoul Tormentor</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="117.3367,-17.1411,116.4072" />
+							<Hotspot Name="My Location" XYZ="99.76077,-17.55206,104.7303" />
+							<Hotspot Name="Nekghoul Berserker" XYZ="105.603,-17.37241,111.1739" />
+							<Hotspot Name="Nekghoul Fleshripper" XYZ="105.8922,-17.55403,104.8109" />
+							<Hotspot Name="Nekghoul Berserker" XYZ="101.4843,-18.77077,109.6643" />
+							<Hotspot Name="Nekghoul Berserker" XYZ="113.7538,-17.35711,115.9833" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 5)">
 				<MoveTo QuestId="0xE000B2EF0F026708" XYZ="117.4894,-17.14191,116.5411" />
@@ -1293,7 +702,20 @@
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 6)" >
 				<TalkTo QuestId="0xE000B2EF0F026708" Name="Master Sulan" XYZ="117.5194,-17.14531,116.5941" />
 			</If>
-			<Grind GrindRef="Culling the Nekghouls - Defeat Master Sulan" While="not IsBranchStepComplete(0xE000B2EF0F026708, 1, 7)" />
+			<Grind While="not IsBranchStepComplete(0xE000B2EF0F026708, 1, 7)">
+				<GrindArea Name="Culling the Nekghouls - Defeat Master Sulan">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Master Sulan</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="117.3628,-17.1415,116.6663" />
+						<Hotspot Name="Master Sulan" XYZ="111.8522,-17.3221,117.2821" />
+						<Hotspot Name="Master Sulan" XYZ="115.7177,-17.14299,121.5457" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 8)" >
 				<TalkTo QuestId="0xE000B2EF0F026708" Name="Master Sulan" XYZ="117.3101,-17.14345,116.6335" />
 			</If>
@@ -1324,10 +746,70 @@
 		
 		<!-- Blood Sport -->
 		<If Condition="((HasQuest(0xE00004B64322517B)) and (not IsQuestComplete(0xE00004B64322517B)))">
-			<Grind GrindRef="Blood Sport - Loot Staffs from Morgukai Blood Warriors" While="not IsStepComplete(0xE00004B64322517B, 2)" />
+			<Grind While="not IsStepComplete(0xE00004B64322517B, 2)">
+				<GrindArea Name="Blood Sport - Loot Staffs from Morgukai Blood Warriors">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Morgukai Berserker</Mob>
+						<Mob>Morgukai Blood Warrior</Mob>
+						<Mob>Nikto Cultist</Mob>
+						<Mob>Nikto Defender</Mob>
+						<Mob>Nikto Devotee</Mob>
+						<Mob>Nikto Disciple</Mob>
+						<Mob>Nikto Fanatic</Mob>
+						<Mob>Nikto Guard</Mob>
+						<Mob>Nikto Neutralizer</Mob>
+						<Mob>Nikto Pacifier</Mob>
+						<Mob>Nikto Peacekeeper</Mob>
+						<Mob>Nikto Preacher</Mob>
+						<Mob>Nikto Rabblerouser</Mob>
+						<Mob>Nikto Radical</Mob>
+						<Mob>Nikto Reaver</Mob>
+						<Mob>Nikto Sentry</Mob>
+						<Mob>Nikto Supporter</Mob>
+						<Mob>Nikto Warrior</Mob>
+						<Mob>Nikto Zealot</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Nikto Peacekeeper" XYZ="-41.5456,-13.7954,12.458" />
+						<Hotspot Name="Morgukai Blood Warrior" XYZ="-40.1378,-13.72049,4.460214" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Nikto Bounty (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0005AD05C2A7E84))">
-				<Grind GrindRef="Nikto Bounty - Defeat Nikto Warriors" While="(not IsQuestComplete(0xE0005AD05C2A7E84))" />
+				<Grind While="(not IsQuestComplete(0xE0005AD05C2A7E84))">
+					<GrindArea Name="Nikto Bounty - Defeat Nikto Warriors">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Morgukai Berserker</Mob>
+							<Mob>Morgukai Blood Warrior</Mob>
+							<Mob>Nikto Cultist</Mob>
+							<Mob>Nikto Defender</Mob>
+							<Mob>Nikto Devotee</Mob>
+							<Mob>Nikto Disciple</Mob>
+							<Mob>Nikto Fanatic</Mob>
+							<Mob>Nikto Guard</Mob>
+							<Mob>Nikto Neutralizer</Mob>
+							<Mob>Nikto Pacifier</Mob>
+							<Mob>Nikto Peacekeeper</Mob>
+							<Mob>Nikto Preacher</Mob>
+							<Mob>Nikto Rabblerouser</Mob>
+							<Mob>Nikto Radical</Mob>
+							<Mob>Nikto Reaver</Mob>
+							<Mob>Nikto Sentry</Mob>
+							<Mob>Nikto Supporter</Mob>
+							<Mob>Nikto Warrior</Mob>
+							<Mob>Nikto Zealot</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Nikto Peacekeeper" XYZ="-41.5456,-13.7954,12.458" />
+							<Hotspot Name="Morgukai Blood Warrior" XYZ="-40.1378,-13.72049,4.460214" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1352,7 +834,21 @@
 			</UseObject>
 			<!-- Stage 1 - Unwelcome Alliance -->
 			<If Condition="(not IsQuestComplete(0xE000E261904FAF70))">
-				<Grind GrindRef="Stage 1 - Unwelcome Alliance - Defeat Cathar Forces" While="(not IsQuestComplete(0xE000E261904FAF70))" />
+				<Grind While="(not IsQuestComplete(0xE000E261904FAF70))">
+					<GrindArea Name="Stage 1 - Unwelcome Alliance - Defeat Cathar Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Cathar Marksman</Mob>
+							<Mob>Cathar Warrior</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-10.41204,-14.35907,-11.10238" />
+							<Hotspot Name="My Location" XYZ="1.679296,-14.70605,-17.76196" />
+							<Hotspot Name="My Location" XYZ="12.09887,-14.71772,-20.95077" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 Absolute Terror -->
 			<If Condition="(not IsQuestComplete(0xE000E161904FB105))">
@@ -1385,12 +881,41 @@
 			<If Condition="((HasQuest(0xE0007472FBC796BE)) and (not IsBranchStepComplete(0xE0007472FBC796BE, 1, 2)))">
 				<MoveTo QuestId="0xE0007472FBC796BE" XYZ="2.218365,-10.71863,-53.8912" />
 			</If>
-			<Grind GrindRef="Means of Persuasion 3" While="(not IsBranchStepComplete(0xE0007472FBC796BE, 1, 3))" />
+			<Grind While="(not IsBranchStepComplete(0xE0007472FBC796BE, 1, 3))">
+				<GrindArea Name="Means of Persuasion 3">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Assault Droid</Mob>
+						<Mob>Republic Patrolman</Mob>
+						<Mob>Republic Ambusher</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Assault Droid" XYZ="-1.3605,-10.62713,-54.4868" />
+						<Hotspot Name="Republic Patrolman" XYZ="3.9509,-10.61671,-55.4305" />
+						<Hotspot Name="Republic Assault Droid" XYZ="1.7591,-10.59103,-59.3008" />
+						<Hotspot Name="Republic Ambusher" XYZ="-2.3059,-10.62204,-58.5988" />
+						<Hotspot Name="Republic Patrolman" XYZ="0.6981647,-10.48759,-63.6133" />
+						<Hotspot Name="Republic Assault Droid" XYZ="-5.247,-10.59612,-59.1476" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE0007472FBC796BE)) and (not IsBranchStepComplete(0xE0007472FBC796BE, 1, 4)))">
 				<TalkTo QuestId="0xE0007472FBC796BE" Name="Ashara Zavros" XYZ="-10.2732,-10.67364,-59.1141" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Means of Persuasion 4 2" While="(not IsBranchStepComplete(0xE0007472FBC796BE, 4, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE0007472FBC796BE, 4, 2))">
+				<GrindArea Name="Means of Persuasion 4 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Anathemos's Assassin</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Anathemos's Assassin" XYZ="-3.993432,-10.62203,-58.80169" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE0007472FBC796BE)) and (not IsBranchStepComplete(0xE0007472FBC796BE, 4, 3)))">
 				<TalkTo QuestId="0xE0007472FBC796BE" Name="Ashara Zavros" XYZ="-10.2732,-10.67364,-59.1141" />
 				<WaitTimer QuestId="1" WaitTime="8" />
@@ -1425,7 +950,21 @@
 			</UseObject>
 			<!-- Intensive Treatment -->
 			<If Condition="(not IsQuestComplete(0xE00052F8B068F7B0))">
-				<Grind GrindRef="Intensive Treatment - Defeat the Rakghouls around Dynamet General" While="(not IsQuestComplete(0xE00052F8B068F7B0))" />
+				<Grind While="(not IsQuestComplete(0xE00052F8B068F7B0))">
+					<GrindArea Name="Intensive Treatment - Defeat the Rakghouls around Dynamet General">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Corrupted Rakghoul</Mob>
+							<Mob>Marauder Rakghoul</Mob>
+							<Mob>Stalker Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-35.67585,-13.42282,-37.68307" />
+							<Hotspot Name="Stalker Rakghoul" XYZ="-42.94994,-13.56032,-38.44268" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1456,7 +995,22 @@
 			</If>
 			<!-- Hospital Carnage - Destroy Dynamet Quarantine Droids -->
 			<If Condition="(not IsQuestComplete(0xE00044D78B5C5087))">
-				<Grind GrindRef="Hospital Carnage - Destroy Dynamet Quarantine Droids" While="(not IsQuestComplete(0xE00044D78B5C5087))" />
+				<Grind While="(not IsQuestComplete(0xE00044D78B5C5087))">
+					<GrindArea Name="Hospital Carnage - Destroy Dynamet Quarantine Droids">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Dynamet Quarantine Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Dynamet Renewal Droid" XYZ="-36.05819,-18.808,-23.71442" />
+							<Hotspot Name="Dynamet Quarantine Droid" XYZ="-37.14939,-17.91157,-20.59831" />
+							<Hotspot Name="Dynamet Renewal Droid" XYZ="-33.11866,-17.599,-23.76713" />
+							<Hotspot Name="Dynamet Security Droid" XYZ="-35.7234,-17.78994,-27.1846" />
+							<Hotspot Name="My Location" XYZ="-37.26758,-18.799,-23.70879" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0007BD9A808FE18) and not IsBranchStepComplete(0xE0007BD9A808FE18, 2, 2)" >
 				<TalkTo QuestId="0xE0007BD9A808FE18" Name="Doctor Ianna Cel" XYZ="-39.6792,-17.79995,-26.6308" />
@@ -1498,7 +1052,19 @@
 				<TalkTo QuestId="0xE000FBCF0FF5088F" Name="Bashun" XYZ="-31.6522,-22.92897,-36.83" />
 			</If>
 			<!--  - This guy hits too fucking hard -->
-			<Grind GrindRef="Defeat Bashun - Defeat Morgukai" While="not IsBranchStepComplete(0xE000FBCF0FF5088F, 1, 4)" />
+			<Grind While="not IsBranchStepComplete(0xE000FBCF0FF5088F, 1, 4)">
+				<GrindArea Name="Defeat Bashun - Defeat Morgukai">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Bashun</Mob>
+						<Mob>Morgukai Berserker</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Bashun" XYZ="-31.61895,-22.92897,-36.87946" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000FBCF0FF5088F) and not IsBranchStepComplete(0xE000FBCF0FF5088F, 1, 5)" >
 				<TalkTo QuestId="0xE000FBCF0FF5088F" Name="Bashun" XYZ="-30.74087,-22.92897,-36.79251" />
 				<WaitTimer QuestId="1" WaitTime="5" />
@@ -1536,7 +1102,21 @@
 		
 		<!-- Routing the Republic -->
 		<If Condition="((HasQuest(0xE0001D43BC5B86B9)) and (not IsQuestComplete(0xE0001D43BC5B86B9)))">
-			<Grind GrindRef="Routing the Republic - Defeat Olaris Forward Base Forces" While="not IsBranchStepComplete(0xE0001D43BC5B86B9, 3, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE0001D43BC5B86B9, 3, 2)">
+				<GrindArea Name="Routing the Republic - Defeat Olaris Forward Base Forces">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jedi Defense Commander</Mob>
+						<Mob>Republic Base Commando</Mob>
+						<Mob>Republic Combat Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Trained Alpha Akk Dog" XYZ="-158.9344,-18.78418,33.6684" />
+						<Hotspot Name="Republic Base Commando" XYZ="-159.6575,-18.64355,39.2404" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 	
 		<!-- Interference -->
@@ -1545,7 +1125,22 @@
 			<UseObject ObjectName="Strike Beacon" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="-190.0794,-18.87259,52.99295" />
 			<!-- Clearing the Jam -->
 			<If Condition="(not IsQuestComplete(0xE00067C0D83A1372))">
-				<Grind GrindRef="Clearing the Jam - Defeat Republic Forces" While="(not IsQuestComplete(0xE00067C0D83A1372))" />
+				<Grind While="(not IsQuestComplete(0xE00067C0D83A1372))">
+					<GrindArea Name="Clearing the Jam - Defeat Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Astromech</Mob>
+							<Mob>Republic Rocket Commando</Mob>
+							<Mob>Republic Sentinel Droid</Mob>
+							<Mob>Republic Soldier</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Soldier" XYZ="-181.6855,-20.06035,52.0967" />
+							<Hotspot Name="Republic Soldier" XYZ="-191.7893,-20.05778,59.9402" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -1565,12 +1160,36 @@
 			</If>
 			<!-- Cultist Extermination -->
 			<If Condition="(not IsQuestComplete(0xE0004D5DCC5F1E0C))"> <!-- is this bonus questid wrong? -->
-				<Grind GrindRef="Cultist Extermination - Defeat Nikto Fanatics" While="(not IsQuestComplete(0xE0004D5DCC5F1E0C))" />
+				<Grind While="(not IsQuestComplete(0xE0004D5DCC5F1E0C))">
+					<GrindArea Name="Cultist Extermination - Defeat Nikto Fanatics">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Nikto Fanatic</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-203.5052,-19.09458,89.22978" />
+							<Hotspot Name="Nikto Fanatic" XYZ="-210.9162,-19.09822,95.30141" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000CC415FBDD34F) and not IsBranchStepComplete(0xE000CC415FBDD34F, 1, 6)">
 				<MoveTo QuestId="0xE000CC415FBDD34F" XYZ="-219.5198,-18.864,111.5803" />
 			</If>
-			<Grind GrindRef="Defeat Ki Sazen - Defeat Fhentar - Defeat i Sazen's Followers" While="not IsBranchStepComplete(0xE000CC415FBDD34F, 1, 8)" />
+			<Grind While="not IsBranchStepComplete(0xE000CC415FBDD34F, 1, 8)">
+				<GrindArea Name="Defeat Ki Sazen - Defeat Fhentar - Defeat i Sazen's Followers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Ki Sazen</Mob>
+						<Mob>Fhentar</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Ki Sazen" XYZ="-219.535,-18.74319,112.347" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000CC415FBDD34F) and not IsBranchStepComplete(0xE000CC415FBDD34F, 1, 9)" >
 				<TalkTo QuestId="0xE000CC415FBDD34F" Name="Ki Sazen" XYZ="-219.6078,-18.864,111.6793" />
 			</If>
@@ -1586,12 +1205,34 @@
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
 			<!-- Skip 6 4 -->
-			<Grind GrindRef="The Apprentice 6 5" While="(not IsBranchStepComplete(0xE00013817B6E485D, 6, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE00013817B6E485D, 6, 5))">
+				<GrindArea Name="The Apprentice 6 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Master Ocera</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Master Ocera" XYZ="-147.6471,-25.609,2.434227" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE00013817B6E485D)) and (not IsBranchStepComplete(0xE00013817B6E485D, 6, 6)))">
 				<TalkTo QuestId="0xE00013817B6E485D" Name="Ashara Zavros" XYZ="-147.3831,-25.609,2.4909" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="The Apprentice 6 7" While="(not IsBranchStepComplete(0xE00013817B6E485D, 6, 7))" />
+			<Grind While="(not IsBranchStepComplete(0xE00013817B6E485D, 6, 7))">
+				<GrindArea Name="The Apprentice 6 7">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Elios Maliss</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Elios Maliss" XYZ="-151.4582,-25.52427,1.713614" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Use Ships Intercom -->
 		</If>
 		
@@ -1616,7 +1257,23 @@
 			<UseObject ObjectName="Satellite Array" QuestId="0xE000F2E5D06C9D03" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-161.995,-18.71702,76.264" />
 			<!-- Com Silence -->
 			<If Condition="(not IsQuestComplete(0xE000E54D210C2423))">
-				<Grind GrindRef="Com Silence - Defeat Republic Communications Post" While="(not IsQuestComplete(0xE000E54D210C2423))" />
+				<Grind While="(not IsQuestComplete(0xE000E54D210C2423))">
+					<GrindArea Name="Com Silence - Defeat Republic Communications Post">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Communications Officer</Mob>
+							<Mob>Republic Satcom Defender</Mob>
+							<Mob>Republic Satcom Drone</Mob>
+							<Mob>Republic Satcom Guard Droid</Mob>
+							<Mob>Republic Satcom Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Satcom Drone" XYZ="-153.9647,-19.04067,76.8636" />
+							<Hotspot Name="Republic Satcom Drone" XYZ="-144.436,-19.12653,78.7025" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1624,7 +1281,27 @@
 		<If Condition="((HasQuest(0xE000E61C0D7415F1)) and (not IsQuestComplete(0xE000E61C0D7415F1)))">
 			<!-- Stage 1 - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE0007B2ABEBAC3E8))">
-				<Grind GrindRef="Stage 1 - The Siege of Olaris - Defeat Republic Forces" While="(not IsQuestComplete(0xE0007B2ABEBAC3E8))" />
+				<Grind While="(not IsQuestComplete(0xE0007B2ABEBAC3E8))">
+					<GrindArea Name="Stage 1 - The Siege of Olaris - Defeat Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Jedi Knight</Mob>
+							<Mob>Republic Astromech</Mob>
+							<Mob>Republic Astromech Droid</Mob>
+							<Mob>Republic Gunner</Mob>
+							<Mob>Republic Rocket Commando</Mob>
+							<Mob>Republic Security Droid</Mob>
+							<Mob>Republic Sentinel Droid</Mob>
+							<Mob>Republic Soldier</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Soldier" XYZ="-196.5534,-20.0589,58.432" />
+							<Hotspot Name="Republic Soldier" XYZ="-182.0833,-19.88332,70.2482" />
+							<Hotspot Name="Republic Sentinel Droid" XYZ="-188.2081,-19.52813,76.419" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE000F71AB1CCD112))">
@@ -1633,7 +1310,19 @@
 			</If>
 			<!-- Stage 3 - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE00017C0CA051CFD))">
-				<Grind GrindRef="Stage 3 - The Siege of Olaris - Defeat Republic Supply Officers" While="(not IsQuestComplete(0xE00017C0CA051CFD))" />
+				<Grind While="(not IsQuestComplete(0xE00017C0CA051CFD))">
+					<GrindArea Name="Stage 3 - The Siege of Olaris - Defeat Republic Supply Officers">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Supply Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Supply Officer" XYZ="-182.5367,-19.94779,55.4674" />
+							<Hotspot Name="Republic Supply Officer" XYZ="-183.6088,-19.65021,61.1128" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Final Stage - The Siege of Olaris -->
 			<If Condition="(not IsQuestComplete(0xE0002FCEE4708AF8))">
@@ -1666,11 +1355,33 @@
 				<Interact Name="Blast Door" IgnoreLOS="True" WaitTime="4" UseRange="10" XYZ="-211.6174,-40.599,79.2874" />
 			</If>
 			<!-- Cerik and Thana hit kinda hard -->
-			<Grind GrindRef="No Escape - Defeat Master Cerik" While="not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 8)" />
+			<Grind While="not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 8)">
+				<GrindArea Name="No Escape - Defeat Master Cerik">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Master Cerik</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Master Cerik" XYZ="-208.4123,-39.8,78.58669" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000E61C0D7415F1) and not IsBranchStepComplete(0xE000E61C0D7415F1, 2, 9)">
 				<TalkTo QuestId="0xE000E61C0D7415F1" Name="Thana Vesh" XYZ="-207.8244,-39.791,78.3397" />
 			</If>
-			<Grind GrindRef="No Escape - Defeat Thana Vesh" While="not IsBranchStepComplete(0xE000E61C0D7415F1, 3, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE000E61C0D7415F1, 3, 2)">
+				<GrindArea Name="No Escape - Defeat Thana Vesh">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Thana Vesh</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Thana Vesh" XYZ="-213.9062,-18.15758,60.13841" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="No Escape" QuestId="0xE000E61C0D7415F1" TurnInName="Lord Shaythin" XYZ="-104.394,-20.7115,54.7671" />
 			<CompleteQuest QuestName="No Escape" QuestId="0xE000E61C0D7415F1" />
 			
@@ -1721,10 +1432,37 @@
 					<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
 				</Hotspots>
 			</UseObject>
-			<Grind GrindRef="Razing the Researchers - Defeat Republic Researchers" While="not IsTaskComplete(0xE0004BD346FF4CA9, 2, 1)" />
+			<Grind While="not IsTaskComplete(0xE0004BD346FF4CA9, 2, 1)">
+				<GrindArea Name="Razing the Researchers - Defeat Republic Researchers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Researcher</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Researcher" XYZ="99.48899,-20.12775,60.29516" />
+						<Hotspot Name="Republic Rak-Hunter Droid" XYZ="96.0606,-19.90909,59.5494" />
+						<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
+						<Hotspot Name="Republic Researcher" XYZ="91.584,-19.97936,60.3514" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- R&D - Defeat Republic Rak-hunter Droids -->
 			<If Condition="(not IsQuestComplete(0xE0004688D4727FAE))">
-				<Grind GrindRef="RAndD - Defeat Republic Rak-hunter Droids" While="(not IsQuestComplete(0xE0004688D4727FAE))" />
+				<Grind While="(not IsQuestComplete(0xE0004688D4727FAE))">
+					<GrindArea Name="RAndD - Defeat Republic Rak-hunter Droids">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Rak-Hunter Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Rak-Hunter Droid" XYZ="96.0606,-19.90909,59.5494" />
+							<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
+							<Hotspot Name="Republic Researcher" XYZ="91.584,-19.97936,60.3514" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -1735,7 +1473,21 @@
 			</If>
 			<!-- Unsettling -->
 			<If Condition="(not IsQuestComplete(0xE00032A43F6F6979))">
-				<Grind GrindRef="Unsettling - Defeat Cathar Settlers and Their Protectors" While="(not IsQuestComplete(0xE00032A43F6F6979))" />
+				<Grind While="(not IsQuestComplete(0xE00032A43F6F6979))">
+					<GrindArea Name="Unsettling - Defeat Cathar Settlers and Their Protectors">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Cathar Marksman</Mob>
+							<Mob>Armed Cathar Settler</Mob>
+							<Mob>Cathar Enforcer</Mob>
+							<Mob>Trained Swamp Bonegnasher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="78.74837,-19.83746,58.51284" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1747,7 +1499,22 @@
 			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="6" XYZ="88.56207,-17.61843,82.85453" />
 			<!-- Skullduggery -->
 			<If Condition="(not IsQuestComplete(0xE0009131560D813F))">
-				<Grind GrindRef="Skullduggery - Defeat the Pirate Forces" While="(not IsQuestComplete(0xE0009131560D813F))" />
+				<Grind While="(not IsQuestComplete(0xE0009131560D813F))">
+					<GrindArea Name="Skullduggery - Defeat the Pirate Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Pirate Crackshot</Mob>
+							<Mob>Pirate Cutthroat</Mob>
+							<Mob>Pirate Master Gunner</Mob>
+							<Mob>Trained Veractyl</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="89.69767,-17.61843,80.9255" />
+							<Hotspot Name="Trained Veractyl" XYZ="93.1356,-17.61059,90.6756" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="6" XYZ="98.02028,-17.6095,89.53677" />
 			<TurnInQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" TurnInName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" />
@@ -1814,12 +1581,50 @@
 		<!-- All Clear Signal -->
 		<If Condition="((HasQuest(0xE000D2DB6E00A26B)) and (not IsQuestComplete(0xE000D2DB6E00A26B)))">
 			<UseObject ObjectName="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="2" WaitTime="3" XYZ="87.04571,-20.07055,60.82766" />
-			<Grind GrindRef="All Clear Signal - Defeat the Republic Sappers" While="not IsStepComplete(0xE000D2DB6E00A26B, 3)" />
+			<Grind While="not IsStepComplete(0xE000D2DB6E00A26B, 3)">
+				<GrindArea Name="All Clear Signal - Defeat the Republic Sappers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Sapper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="86.6,-20.13596,61.47364" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Republic Signal Relay" QuestId="0xE000D2DB6E00A26B" BranchId="1" StepId="4" WaitTime="4" XYZ="80.70291,-19.4331,69.35531" />
-			<Grind GrindRef="All Clear Signal - Defeat the Republic Forward Recon Squad" While="not IsStepComplete(0xE000D2DB6E00A26B, 5)" />
+			<Grind While="not IsStepComplete(0xE000D2DB6E00A26B, 5)">
+				<GrindArea Name="All Clear Signal - Defeat the Republic Forward Recon Squad">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Commando</Mob>
+						<Mob>Republic Scout</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="81.35237,-19.4302,69.02635" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Scrambled (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00063E2FD1D530C))">
-				<Grind GrindRef="Scrambled - Defeat Republic Forces around the Signal Relays" While="(not IsQuestComplete(0xE00063E2FD1D530C))" />
+				<Grind While="(not IsQuestComplete(0xE00063E2FD1D530C))">
+					<GrindArea Name="Scrambled - Defeat Republic Forces around the Signal Relays">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Armed Cathar Settler</Mob>
+							<Mob>Republic Rak-Hunter Droid</Mob>
+							<Mob>Tactical Republic Assault Droid</Mob>
+							<Mob>Trained Swamp Bonegnasher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Tactical Republic Assault Droid" XYZ="86.65089,-20.0638,60.9054" />
+							<Hotspot Name="Armed Cathar Settler" XYZ="71.43097,-20.06107,59.38414" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="All Clear Signal" QuestId="0xE000D2DB6E00A26B" TurnInName="Captain Lantikus" XYZ="70.7824,-18.70979,29.8051" />
 			<CompleteQuest QuestName="All Clear Signal" QuestId="0xE000D2DB6E00A26B" />
@@ -1839,7 +1644,18 @@
 		<!-- Trapped by Snipers and Turnin -->
 		<If Condition="((HasQuest(0xE0008CDC2F5A1C8C)) and (not IsQuestComplete(0xE0008CDC2F5A1C8C)))">
 			<UseObject ObjectName="Sniper's Nest" QuestId="0xE0008CDC2F5A1C8C" BranchId="1" StepId="2" WaitTime="4" XYZ="84.12426,-18.43592,11.23055" />
-			<Grind GrindRef="Trapped by Snipers - Defeat Valhoun Snipers" While="not IsStepComplete(0xE0008CDC2F5A1C8C, 3)" />
+			<Grind While="not IsStepComplete(0xE0008CDC2F5A1C8C, 3)">
+				<GrindArea Name="Trapped by Snipers - Defeat Valhoun Snipers">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Valhoun Sniper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="83.79964,-18.45526,11.33471" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" TurnInName="Sergeant Namarr" XYZ="88.6238,-19.04412,23.2912" />
 			<CompleteQuest QuestName="Trapped by Snipers" QuestId="0xE0008CDC2F5A1C8C" />
 		</If>
@@ -1852,7 +1668,21 @@
 					<Hotspot Name="Republic Gunnery Droid" XYZ="114.5162,-20.60895,41.6675" />
 				</Hotspots>
 			</UseObject>
-			<Grind GrindRef="Guerilla Blockade - Defeat Republic Special Forces" While="not IsTaskComplete(0xE0009556AAB5EE10, 2, 0)" />
+			<Grind While="not IsTaskComplete(0xE0009556AAB5EE10, 2, 0)">
+				<GrindArea Name="Guerilla Blockade - Defeat Republic Special Forces">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Grenadier</Mob>
+						<Mob>Republic Gunnery Droid</Mob>
+						<Mob>Republic Shock Trooper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="103.6258,-19.98608,33.56426" />
+						<Hotspot Name="Republic Gunnery Droid" XYZ="114.5162,-20.60895,41.6675" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Escape Pods Down and Turnin -->
@@ -1893,10 +1723,36 @@
 		
 		<!-- Leading the Pack 2 -->
 		<If Condition="((HasQuest(0xE00099B172A024E5)) and (not IsQuestComplete(0xE00099B172A024E5)))">
-			<Grind GrindRef="Leading the Pack - Defeat Alpha Rakghouls" While="not IsStepComplete(0xE00099B172A024E5, 2)" />
+			<Grind While="not IsStepComplete(0xE00099B172A024E5, 2)">
+				<GrindArea Name="Leading the Pack - Defeat Alpha Rakghouls">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Alpha Rakghoul</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="132.3572,-20.60178,33.95243" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Punishing The Pack -->
 			<If Condition="(not IsQuestComplete(0xE0005F6540CA4028))">
-				<Grind GrindRef="Punishing The Pack" While="(not IsQuestComplete(0xE0005F6540CA4028))" />
+				<Grind While="(not IsQuestComplete(0xE0005F6540CA4028))">
+					<GrindArea Name="Punishing The Pack">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Alpha Rakghoul</Mob>
+							<Mob>Frightful Rakghoul</Mob>
+							<Mob>Ravenous Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Frightful Rakghoul" XYZ="140.8464,-20.97331,32.11356" />
+							<Hotspot Name="Frightful Rakghoul" XYZ="142.9221,-21.09611,36.79672" />
+							<Hotspot Name="Ravenous Rakghoul" XYZ="147.5227,-21.0227,29.3668" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1908,7 +1764,21 @@
 			<UseObject ObjectName="Self Destruct Override" QuestId="0xE000DA874A6484FF" BranchId="1" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="182.3533,-20.37639,20.8045" /> <!-- N -->
 			<!-- Imperial Reclamation -->
 			<If Condition="(not IsQuestComplete(0xE0006877E7788B78))">
-				<Grind GrindRef="Imperial Reclamation - Clear Out the Rakghoul-infested Outpost" While="(not IsQuestComplete(0xE0006877E7788B78))" />
+				<Grind While="(not IsQuestComplete(0xE0006877E7788B78))">
+					<GrindArea Name="Imperial Reclamation - Clear Out the Rakghoul-infested Outpost">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Nekghoul Horde Leader</Mob>
+							<Mob>Slavering Rakghoul</Mob>
+							<Mob>Vicious Rakghoul</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Slavering Rakghoul" XYZ="170.6805,-20.55275,28.82779" />
+							<Hotspot Name="Slavering Rakghoul" XYZ="181.956,-20.40051,39.65264" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1921,9 +1791,36 @@
 		<If Condition="((HasQuest(0xE0006C9A02373949)) and (not IsQuestComplete(0xE0006C9A02373949)))">
 			<!-- The Man Behind the Vultures (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BB1604CD0A19))">
-				<Grind GrindRef="The Man Behind the Vultures - Defeat Commander Valhoun" While="(not IsQuestComplete(0xE000BB1604CD0A19))" />
+				<Grind While="(not IsQuestComplete(0xE000BB1604CD0A19))">
+					<GrindArea Name="The Man Behind the Vultures - Defeat Commander Valhoun">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Commander Valhoun</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Commander Valhoun" XYZ="121.6856,-21.40315,51.6383" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
-			<Grind GrindRef="Minefield - Defeat Valhoun's Vultures" While="not IsStepComplete(0xE0006C9A02373949, 2)" />
+			<Grind While="not IsStepComplete(0xE0006C9A02373949, 2)">
+				<GrindArea Name="Minefield - Defeat Valhoun's Vultures">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jedi Apprentice</Mob>
+						<Mob>Republic Hangar Captain</Mob>
+						<Mob>Republic Hangar Guardian</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="107.13,-17.61936,79.19471" />
+						<Hotspot Name="My Location" XYZ="118.9112,-17.52322,79.22105" />
+						<Hotspot Name="My Location" XYZ="118.3818,-17.51859,73.19958" />
+						<Hotspot Name="Republic Hangar Guardian" XYZ="118.8537,-17.51873,85.037" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Turnin Minefield -->
@@ -1961,7 +1858,20 @@
 			</If>
 			<!-- War of Deception -->
 			<If Condition="(not IsQuestComplete(0xE00064A8991F727C))">
-				<Grind GrindRef="War of Deception - Defeat Republic Forces" While="(not IsQuestComplete(0xE00064A8991F727C))" />
+				<Grind While="(not IsQuestComplete(0xE00064A8991F727C))">
+					<GrindArea Name="War of Deception - Defeat Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Hangar Guardian</Mob>
+							<Mob>Republic Hangar Captain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot XYZ="122.5451,-17.52505,85.48934" />
+							<Hotspot XYZ="122.5528,-17.52559,72.7188" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" TurnInName="Lord Vago" XYZ="73.0722,-18.70979,26.1403" />
 			<CompleteQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" />
@@ -2065,7 +1975,21 @@
 				<UseObject ObjectName="Intelligence Archive Terminal" QuestId="0xE0007FA16B96ABE7" BranchId="1" StepId="9" IgnoreLOS="True" WaitTime="2" XYZ="7.911244,-2.598466,-93.65791" />
 				<!-- Destroy Archive Droids -->
 				<If Condition="(not IsQuestComplete(0xE00083A0A83B1366))">
-					<Grind GrindRef="Destroy Archive Droids - Defeat Archive Security Droids" While="(not IsQuestComplete(0xE00083A0A83B1366))" />
+					<Grind While="(not IsQuestComplete(0xE00083A0A83B1366))">
+						<GrindArea Name="Destroy Archive Droids - Defeat Archive Security Droids">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>51</MaxLevel>
+							<Mobs>
+								<Mob>Archive Guardian Droid</Mob>
+								<Mob>Archive Sentinel Droid</Mob>
+								<Mob>Imperial Security Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Imperial Security Droid" XYZ="22.7085,-2.587532,-89.8169" />
+								<Hotspot Name="Archive Sentinel Droid" XYZ="8.907902,-2.6,-89.33848" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="HasQuest(0xE0007FA16B96ABE7) and not IsStepComplete(0xE0007FA16B96ABE7, 10)">
 					<MoveTo QuestId="0xE0007FA16B96ABE7" XYZ="9.9891,2.601,-78.3955" />

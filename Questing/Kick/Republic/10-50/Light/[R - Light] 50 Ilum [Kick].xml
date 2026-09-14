@@ -22,43 +22,6 @@
 	</AvoidMobs>
 	-->
 	
-	<GrindAreas> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</GrindAreas>
-
-	<GrindArea Name="">
-		<MinLevel>1</MinLevel>
-		<MaxLevel>50</MaxLevel>
-		<Mobs>
-			<Mob></Mob>
-			<Mob></Mob>
-			<Mob></Mob>
-			<Mob></Mob>
-			<Mob></Mob>
-			<Mob></Mob>
-		</Mobs>
-		<Hotspots>
-				
-				
-				
-				
-				
-		</Hotspots>
-	</GrindArea>    
-
 	<Questing>
 	
 		<If Condition="not (Me.Class == CharacterClass.Consular)">

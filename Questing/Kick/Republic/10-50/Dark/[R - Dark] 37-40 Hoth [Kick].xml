@@ -32,168 +32,6 @@
 	
 	<GrindAreas> 
 
-		<GrindArea Name="Imperial Interference (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Arctic Sniper</Mob>
-				<Mob>Imperial Arctic Scout</Mob>
-				<Mob>Imperial Arctic Specialist</Mob>
-				<Mob>Imperial Arctic Veteran</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Arctic Sniper" XYZ="-341.9472,11.32711,-78.143" />
-				<Hotspot Name="Imperial Arctic Scout" XYZ="-335.3549,10.27491,-79.60243" />
-				<Hotspot Name="Imperial Arctic Scout" XYZ="-339.4959,11.02711,-75.05398" />
-				<Hotspot Name="Imperial Arctic Specialist" XYZ="-341.7039,10.98581,-83.2307" />
-				<Hotspot Name="Imperial Arctic Sniper" XYZ="-340.0917,10.21827,-85.8044" />
-				<Hotspot Name="Imperial Arctic Veteran" XYZ="-343.0594,11.77456,-75.8322" />
-				<Hotspot Name="Imperial Arctic Sniper" XYZ="-325.7649,10.00942,-78.58801" />
-				<Hotspot Name="Imperial Arctic Scout" XYZ="-318.6079,9.415222,-74.5705" />
-				<Hotspot Name="Imperial Arctic Sniper" XYZ="-309.9166,8.890047,-71.9126" />
-				<Hotspot Name="Imperial Arctic Sniper" XYZ="-304.4238,8.513743,-80.0092" />
-				<Hotspot Name="Imperial Arctic Specialist" XYZ="-301.2467,8.767122,-89.93581" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Sabotage (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Marksman</Mob>
-				<Mob>Imperial Trench Gunner</Mob>
-				<Mob>Imperial Blocker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Marksman" XYZ="-296.4627,7.691163,-129.3394" />
-				<Hotspot Name="Imperial Trench Gunner" XYZ="-298.2786,7.737585,-129.9185" />
-				<Hotspot Name="Imperial Trench Gunner" XYZ="-305.2211,7.53884,-127.7371" />
-				<Hotspot Name="Imperial Blocker" XYZ="-290.9265,7.273616,-125.947" />
-				<Hotspot Name="Imperial Trench Gunner" XYZ="-294.1647,8.289332,-119.2913" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Clearing Crescent Canyon (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Battle Droid</Mob>
-				<Mob>Imperial Heavy Trooper</Mob>
-				<Mob>Imperial Tech Ops</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Heavy Trooper" XYZ="-255.4632,3.578824,-121.8466" />
-				<Hotspot Name="Imperial Battle Droid" XYZ="-250.6239,3.437914,-117.556" />
-				<Hotspot Name="Imperial Tech Ops" XYZ="-238.5729,2.720169,-112.8052" />
-				<Hotspot Name="Imperial Battle Droid" XYZ="-249.1814,2.336703,-108.5157" />
-				<Hotspot Name="Imperial Tech Ops" XYZ="-243.9407,2.736703,-109.1393" />
-				<Hotspot Name="Imperial Heavy Trooper" XYZ="-238.091,2.736703,-103.264" />
-				<Hotspot Name="Imperial Tech Ops" XYZ="-232.5472,2.731228,-104.7536" />
-				<Hotspot Name="Imperial Tech Ops" XYZ="-225.1519,2.731228,-107.5298" />
-				<Hotspot Name="Imperial Battle Droid" XYZ="-216.6923,2.726,-105.8496" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Clearance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Forward Observer</Mob>
-				<Mob>Imperial Communications Trooper</Mob>
-				<Mob>Imperial Relay Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Forward Observer" XYZ="-266.6923,6.701708,-147.6645" />
-				<Hotspot Name="Imperial Communications Trooper" XYZ="-270.3946,6.683021,-146.0604" />
-				<Hotspot Name="Imperial Relay Officer" XYZ="-273.8671,6.453856,-154.6439" />
-				<Hotspot Name="Imperial Relay Officer" XYZ="-280.5797,6.492406,-154.2881" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Exploding Mines 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Shock Trooper</Mob>
-				<Mob>Private Falk</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Private Falk" XYZ="-276.9085,11.416,-52.03497" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Crescent Canyon Cleanup (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Droid Operator</Mob>
-				<Mob>Imperial Demolition Droid</Mob>
-				<Mob>Imperial Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Demolition Droid" XYZ="-279.1565,5.636703,-62.3508" />
-				<Hotspot Name="Imperial Droid Operator" XYZ="-271.9849,5.636703,-62.8286" />
-				<Hotspot Name="Imperial Gunner" XYZ="-275.202,5.836703,-64.4199" />
-				<Hotspot Name="Imperial Gunner" XYZ="-283.5729,5.852228,-68.9883" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Exploding Mines 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Korl Torin</Mob>
-				<Mob>Imperial Shock Troop</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Korl Torin" XYZ="-283.1328,5.853352,-62.0731" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="White Maw Meltdown (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Gunslinger</Mob>
-				<Mob>White Maw Skinner</Mob>
-				<Mob>White Maw Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Gunslinger" XYZ="-225.4226,8.201275,-20.4039" />
-				<Hotspot Name="White Maw Raider" XYZ="-234.7334,7.236703,-20.7377" />
-				<Hotspot Name="White Maw Gunslinger" XYZ="-230.4066,6.651328,-32.0837" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="The Coalition 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Captain Valon</Mob>
-				<Mob>Valon's Pirate</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Captain Valon" XYZ="-233.8344,6.650028,-34.6598" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Seismic Disruption (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Cold Assault Corporal</Mob>
-				<Mob>Imperial Cold Assault Droid</Mob>
-				<Mob>Imperial Cold Assault Reserve</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Cold Assault Corporal" XYZ="-223.2855,9.340726,-38.11762" />
-				<Hotspot Name="Imperial Cold Assault Droid" XYZ="-219.1466,10.0604,-40.6561" />
-				<Hotspot Name="Imperial Cold Assault Droid" XYZ="-219.4143,11.38273,-45.1354" />
-				<Hotspot Name="Imperial Cold Assault Droid" XYZ="-221.0028,9.386614,-33.0876" />
-				<Hotspot Name="Imperial Cold Assault Droid" XYZ="-234.2853,9.053351,-39.50534" />
-			</Hotspots>
-		</GrindArea>    
-	
 		<GrindArea Name="[AREA] Spy Droids">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -214,32 +52,6 @@
 				<Hotspot Name="Imperial Scout Droid" XYZ="-108.428,4.677218,-111.541" />
 				<Hotspot Name="Imperial Scout Droid" XYZ="-104.5125,4.732553,-115.2983" />
 				<Hotspot Name="Imperial Scout Droid" XYZ="-102.016,4.791896,-117.3524" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="[AREA] Spy Droids 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Operations Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-111.7201,4.609376,-104.2348" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Cold Assault (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Scorcher</Mob>
-				<Mob>Imperial Cryo Gunner</Mob>
-				<Mob>Imperial Cryo Sniper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Scorcher" XYZ="-131.9405,4.623634,-76.39031" />
-				<Hotspot Name="Imperial Scorcher" XYZ="-144.6171,6.067854,-69.42924" />
-				<Hotspot Name="Imperial Scorcher" XYZ="-136.5091,5.246555,-82.54269" />
 			</Hotspots>
 		</GrindArea>    
 	
@@ -269,213 +81,6 @@
 			</Hotspots>
 		</GrindArea>    
 	
-		<GrindArea Name="Exchanging Blows (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Rifleman</Mob>
-				<Mob>White Maw Pyro Tech</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Rifleman" XYZ="-87.8,-3.694853,67.5" />
-				<Hotspot Name="White Maw Pyro Tech" XYZ="-87.1125,-3.487856,68.5379" />
-				<Hotspot Name="White Maw Rifleman" XYZ="-88.95166,-3.492108,69.53596" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Into the White 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Engineer</Mob>
-				<Mob>Imperial Commando Leader</Mob>
-				<Mob>Imperial Soldier</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Engineer" XYZ="-87.6148,-3.675124,73.8038" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Ice and Fire (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Thermal Droid</Mob>
-				<Mob>White Maw Mechanic</Mob>
-				<Mob>White Maw Anarchist</Mob>
-				<Mob>Elite Imperial Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Thermal Droid" XYZ="-69.1844,-1.490128,35.2383" />
-				<Hotspot Name="White Maw Anarchist" XYZ="-63.7205,-2.294405,35.6769" />
-				<Hotspot Name="White Maw Mechanic" XYZ="-63.2092,-2.088536,40.3359" />
-				<Hotspot Name="White Maw Thermal Droid" XYZ="-62.74281,-2.098999,45.04906" />
-				<Hotspot Name="White Maw Anarchist" XYZ="-60.0524,-0.7317717,43.8883" />
-				<Hotspot Name="White Maw Mechanic" XYZ="-62.62727,-2.111989,51.01323" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Scorched Earth 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Trooper" XYZ="-66.0529,-2.099312,54.0586" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Into the White 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Valon's Pirate</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Valon's Pirate" XYZ="-175.4758,1.932612,-111.1186" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Fissure Storm (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Hailstorm Brawler</Mob>
-				<Mob>Hailstorm Warrior</Mob>
-				<Mob>Hailstorm Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hailstorm Warrior" XYZ="-5.096435,-6.508209,-32.66964" />
-				<Hotspot Name="Hailstorm Hunter" XYZ="2.0891,-6.500863,-38.21" />
-				<Hotspot Name="Hailstorm Warrior" XYZ="-0.07366676,-6.593391,-24.81766" />
-				<Hotspot Name="Hailstorm Brawler" XYZ="5.0834,-6.44854,-25.7588" />
-				<Hotspot Name="Hailstorm Hunter" XYZ="4.7581,-6.509807,-19.8424" />
-				<Hotspot Name="Hailstorm Warrior" XYZ="8.558735,-6.717369,-37.31746" />
-				<Hotspot Name="My Location" XYZ="15.02248,-6.596488,-37.08427" />
-				<Hotspot Name="Hailstorm Warrior" XYZ="28.3263,-6.657397,-32.8356" />
-				<Hotspot Name="Hailstorm Warrior" XYZ="9.189516,-6.481037,4.897765" />
-				<Hotspot Name="Hailstorm Warrior" XYZ="27.19718,-5.839732,33.95436" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Secret Lab Surprise (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Lab Sentry</Mob>
-				<Mob>Imperial Lab Officer</Mob>
-				<Mob>Imperial Lab Guard</Mob>
-				<Mob>Imperial Lab Watchman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Lab Sentry" XYZ="60.58838,5.218851,82.45128" />
-				<Hotspot Name="Imperial Lab Sentry" XYZ="57.7708,5.236702,85.9791" />
-				<Hotspot Name="Imperial Lab Guard" XYZ="64.3336,5.236702,86.52361" />
-				<Hotspot Name="Imperial Lab Guard" XYZ="60.87919,5.236702,88.0295" />
-				<Hotspot Name="Imperial Lab Officer" XYZ="60.4388,-4.363297,93.2463" />
-				<Hotspot Name="Imperial Lab Guard" XYZ="68.0308,-4.563297,97.0996" />
-				<Hotspot Name="Imperial Lab Guard" XYZ="51.3789,-4.372349,96.5012" />
-				<Hotspot Name="Imperial Lab Guard" XYZ="55.5027,-4.371285,101.1662" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Combing the Cave (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Vicious White Maw Hoodlum</Mob>
-				<Mob>Vicious White Maw Brawler</Mob>
-				<Mob>Vicious White Maw Arbiter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Vicious White Maw Hoodlum" XYZ="8.6615,1.777967,-89.4726" />
-				<Hotspot Name="Vicious White Maw Arbiter" XYZ="14.4557,1.805187,-92.6109" />
-				<Hotspot Name="Vicious White Maw Brawler" XYZ="17.9812,1.670719,-100.8424" />
-				<Hotspot Name="Vicious White Maw Brawler" XYZ="12.2615,1.640712,-99.69209" />
-				<Hotspot Name="Vicious White Maw Arbiter" XYZ="22.9115,1.782337,-100.0402" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Cracks in the Armor 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Vicious White Maw Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Vicious White Maw Leader" XYZ="12.5325,1.7369,-106.5825" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Inching Forward (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Hailstorm Raider</Mob>
-				<Mob>Hailstorm Brute</Mob>
-				<Mob>Hailstorm Mauler</Mob>
-				<Mob>Hailstorm Spotter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hailstorm Raider" XYZ="36.16363,7.992575,-16.54489" />
-				<Hotspot Name="Hailstorm Spotter" XYZ="40.59186,7.993208,-17.59805" />
-				<Hotspot Name="Hailstorm Spotter" XYZ="43.5055,7.993208,-11.96128" />
-				<Hotspot Name="Hailstorm Raider" XYZ="23.53837,7.988878,-7.586725" />
-				<Hotspot Name="Hailstorm Mauler" XYZ="24.81968,7.974252,-0.4203593" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Give Them An Inch 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Sav</Mob>
-				<Mob>Master Sav's Servant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Sav" XYZ="40.0868,7.975135,-1.0045" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Arms Race 2 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Cruel White Maw Marauder</Mob>
-				<Mob>Greedy White Maw Thief</Mob>
-				<Mob>Cold Assault Defense Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="144.9453,-4.298745,-36.09531" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="150.5104,-4.167885,-37.1099" />
-				<Hotspot Name="Greedy White Maw Thief" XYZ="160.4641,-4.652738,-31.25318" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="170.2279,-4.151564,-34.3018" />
-				<Hotspot Name="Cold Assault Defense Droid" XYZ="190.9706,-0.9670838,-15.9064" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="199.4225,-4.459855,34.2685" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="193.8637,-4.505672,36.1065" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Disarm (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Cruel White Maw Marauder</Mob>
-				<Mob>Greedy White Maw Thief</Mob>
-				<Mob>Cold Assault Defense Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="144.9453,-4.298745,-36.09531" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="150.5104,-4.167885,-37.1099" />
-				<Hotspot Name="Greedy White Maw Thief" XYZ="160.4641,-4.652738,-31.25318" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="170.2279,-4.151564,-34.3018" />
-				<Hotspot Name="Cold Assault Defense Droid" XYZ="190.9706,-0.9670838,-15.9064" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="199.4225,-4.459855,34.2685" />
-				<Hotspot Name="Cruel White Maw Marauder" XYZ="193.8637,-4.505672,36.1065" />
-			</Hotspots>
-		</GrindArea>    
-	
 		<GrindArea Name="Stage 1 - Keeping Secrets (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -496,162 +101,6 @@
 			</Hotspots>
 		</GrindArea>    
 	
-		<GrindArea Name="Null and Void (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Defense Droid</Mob>
-				<Mob>White Maw Weapon Technician</Mob>
-				<Mob>White Maw Mauler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Weapon Technician" XYZ="252.6898,-0.8238266,66.486" />
-				<Hotspot Name="White Maw Mauler" XYZ="249.1437,-0.942956,73.62136" />
-				<Hotspot Name="White Maw Weapon Technician" XYZ="259.1925,-0.8755932,74.3968" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="251.325,-0.8582664,77.8322" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="251.4148,-0.6853721,86.4962" />
-				<Hotspot Name="White Maw Mauler" XYZ="255.7471,-0.6830974,85.9291" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="250.1513,-0.4901,90.6862" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="252.6378,-0.4664487,93.55991" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="247.5006,-0.5009487,93.8718" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="260.211,-0.5009487,93.8352" />
-				<Hotspot Name="White Maw Weapon Technician" XYZ="266.6629,-0.5085224,93.31699" />
-				<Hotspot Name="White Maw Defense Droid" XYZ="265.1401,-0.5188,97.4232" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="The Null Cannon 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Captain Sero</Mob>
-				<Mob>Pirate Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Captain Sero" XYZ="264.0351,-0.4830974,106.5369" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Stage 3 - Keeping Secrets (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Technician</Mob>
-				<Mob>White Maw Mate</Mob>
-				<Mob>White Maw Commando</Mob>
-				<Mob>White Maw Marine</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Technician" XYZ="296.7344,-5.242878,43.67154" />
-				<Hotspot Name="White Maw Technician" XYZ="304.7535,-5.301,47.03512" />
-				<Hotspot Name="White Maw Technician" XYZ="320.3748,-4.799,43.06918" />
-				<Hotspot Name="White Maw Commando" XYZ="323.4688,-4.189374,46.3932" />
-				<Hotspot Name="White Maw Technician" XYZ="328.6957,-3.799,47.5811" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Final Stage - Keeping Secrets (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Controller</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Controller" XYZ="324.025,-2.299,48.6092" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Chasing the Legend 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Lieutenant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Lieutenant" XYZ="316.0993,-4.801,36.9544" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Captain Valon's White Maw (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Valon's White Maw Duellist</Mob>
-				<Mob>Valon's White Maw Brawler</Mob>
-				<Mob>Valon's White Maw Gunner</Mob>
-				<Mob>Valon's White Maw Buccaneer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Valon's White Maw Brawler" XYZ="313.4392,-4.7928,37.53657" />
-				<Hotspot Name="Valon's White Maw Buccaneer" XYZ="306.5291,-4.799,32.53691" />
-				<Hotspot Name="Valon's White Maw Buccaneer" XYZ="309.2894,-3.799,39.769" />
-				<Hotspot Name="Valon's White Maw Gunner" XYZ="305.5974,-4.799,29.226" />
-				<Hotspot Name="Valon's White Maw Duellist" XYZ="312.4355,-4.799,22.2149" />
-				<Hotspot Name="Valon's White Maw Buccaneer" XYZ="316.09,-4.799,30.89" />
-				<Hotspot Name="Valon's White Maw Buccaneer" XYZ="318.8832,-4.799,16.39976" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Chasing the Legend 9">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>White Maw Captain</Mob>
-				<Mob>Captain Valon</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="White Maw Captain" XYZ="318.2841,-3.799,14.3204" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Hostile Remnant (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Damaged Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Damaged Security Droid" XYZ="3.766979,11.701,-15.04044" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="To Serve the King 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lord Kyrus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Kyrus" XYZ="4.089798,11.701,2.346159" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="To Serve the King 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Blaesus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Kyrus" XYZ="4.089798,11.701,2.346159" />
-			</Hotspots>
-		</GrindArea>    
-	
-		<GrindArea Name="Counterpoint 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Elite Rakata Guardian Droid</Mob>
-				<Mob>Rakata Guardian Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Elite Rakata Guardian Droid" XYZ="110.8592,5.297254,-73.62916" />
-			</Hotspots>
-		</GrindArea>    
-	
-
-
 	</GrindAreas>
 
 	<!--
@@ -725,7 +174,31 @@
 			</If>
 			<!-- Imperial Interference (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00089830F33C73D))">
-				<Grind GrindRef="Imperial Interference (Bonus)" While="(not IsQuestComplete(0xE00089830F33C73D))" />
+				<Grind While="(not IsQuestComplete(0xE00089830F33C73D))">
+					<GrindArea Name="Imperial Interference (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Arctic Sniper</Mob>
+							<Mob>Imperial Arctic Scout</Mob>
+							<Mob>Imperial Arctic Specialist</Mob>
+							<Mob>Imperial Arctic Veteran</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Arctic Sniper" XYZ="-341.9472,11.32711,-78.143" />
+							<Hotspot Name="Imperial Arctic Scout" XYZ="-335.3549,10.27491,-79.60243" />
+							<Hotspot Name="Imperial Arctic Scout" XYZ="-339.4959,11.02711,-75.05398" />
+							<Hotspot Name="Imperial Arctic Specialist" XYZ="-341.7039,10.98581,-83.2307" />
+							<Hotspot Name="Imperial Arctic Sniper" XYZ="-340.0917,10.21827,-85.8044" />
+							<Hotspot Name="Imperial Arctic Veteran" XYZ="-343.0594,11.77456,-75.8322" />
+							<Hotspot Name="Imperial Arctic Sniper" XYZ="-325.7649,10.00942,-78.58801" />
+							<Hotspot Name="Imperial Arctic Scout" XYZ="-318.6079,9.415222,-74.5705" />
+							<Hotspot Name="Imperial Arctic Sniper" XYZ="-309.9166,8.890047,-71.9126" />
+							<Hotspot Name="Imperial Arctic Sniper" XYZ="-304.4238,8.513743,-80.0092" />
+							<Hotspot Name="Imperial Arctic Specialist" XYZ="-301.2467,8.767122,-89.93581" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" TurnInName="Lieutenant Laskin" XYZ="-343.4508,9.236703,-131.5768" />
 			<CompleteQuest QuestName="Power Vacuum" QuestId="0xE0008F3041E8297E" />
@@ -744,7 +217,24 @@
 			</If>
 			<!-- Sabotage (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D33C545739B0))">
-				<Grind GrindRef="Sabotage (Bonus)" While="(not IsQuestComplete(0xE000D33C545739B0))" />
+				<Grind While="(not IsQuestComplete(0xE000D33C545739B0))">
+					<GrindArea Name="Sabotage (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Marksman</Mob>
+							<Mob>Imperial Trench Gunner</Mob>
+							<Mob>Imperial Blocker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Marksman" XYZ="-296.4627,7.691163,-129.3394" />
+							<Hotspot Name="Imperial Trench Gunner" XYZ="-298.2786,7.737585,-129.9185" />
+							<Hotspot Name="Imperial Trench Gunner" XYZ="-305.2211,7.53884,-127.7371" />
+							<Hotspot Name="Imperial Blocker" XYZ="-290.9265,7.273616,-125.947" />
+							<Hotspot Name="Imperial Trench Gunner" XYZ="-294.1647,8.289332,-119.2913" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00020690F822E12)) and (not IsBranchStepComplete(0xE00020690F822E12, 1, 4)))">
 				<UseObject QuestId="0xE00020690F822E12" ObjectName="Communications Relay" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-297.1779,8.034109,-125.0553" />
@@ -770,7 +260,23 @@
 			</If>
 			<!-- Clearance (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00005C99ABC0AA4))">
-				<Grind GrindRef="Clearance (Bonus)" While="(not IsQuestComplete(0xE00005C99ABC0AA4))" />
+				<Grind While="(not IsQuestComplete(0xE00005C99ABC0AA4))">
+					<GrindArea Name="Clearance (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Forward Observer</Mob>
+							<Mob>Imperial Communications Trooper</Mob>
+							<Mob>Imperial Relay Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Forward Observer" XYZ="-266.6923,6.701708,-147.6645" />
+							<Hotspot Name="Imperial Communications Trooper" XYZ="-270.3946,6.683021,-146.0604" />
+							<Hotspot Name="Imperial Relay Officer" XYZ="-273.8671,6.453856,-154.6439" />
+							<Hotspot Name="Imperial Relay Officer" XYZ="-280.5797,6.492406,-154.2881" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -781,7 +287,28 @@
 		<If Condition="((HasQuest(0xE000B1AE4BA5A44F)) and (not IsQuestComplete(0xE000B1AE4BA5A44F)))">
 			<!-- Clearing Crescent Canyon (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007835827BF664))">
-				<Grind GrindRef="Clearing Crescent Canyon (Bonus)" While="(not IsQuestComplete(0xE0007835827BF664))" />
+				<Grind While="(not IsQuestComplete(0xE0007835827BF664))">
+					<GrindArea Name="Clearing Crescent Canyon (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Battle Droid</Mob>
+							<Mob>Imperial Heavy Trooper</Mob>
+							<Mob>Imperial Tech Ops</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Heavy Trooper" XYZ="-255.4632,3.578824,-121.8466" />
+							<Hotspot Name="Imperial Battle Droid" XYZ="-250.6239,3.437914,-117.556" />
+							<Hotspot Name="Imperial Tech Ops" XYZ="-238.5729,2.720169,-112.8052" />
+							<Hotspot Name="Imperial Battle Droid" XYZ="-249.1814,2.336703,-108.5157" />
+							<Hotspot Name="Imperial Tech Ops" XYZ="-243.9407,2.736703,-109.1393" />
+							<Hotspot Name="Imperial Heavy Trooper" XYZ="-238.091,2.736703,-103.264" />
+							<Hotspot Name="Imperial Tech Ops" XYZ="-232.5472,2.731228,-104.7536" />
+							<Hotspot Name="Imperial Tech Ops" XYZ="-225.1519,2.731228,-107.5298" />
+							<Hotspot Name="Imperial Battle Droid" XYZ="-216.6923,2.726,-105.8496" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B1AE4BA5A44F)) and (not IsBranchStepComplete(0xE000B1AE4BA5A44F, 1, 2)))">
 				<UseObject QuestId="0xE000B1AE4BA5A44F" ObjectName="Door" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-226.2137,3.754703,-120.4034" />
@@ -802,7 +329,19 @@
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Private Falk" XYZ="-277.1939,11.41011,-52.0314" />
 			</If>
 			<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsBranchStepComplete(0xE000F588520EB45C, 1, 4)))">
-				<Grind GrindRef="Exploding Mines 4" While="(not IsBranchStepComplete(0xE000F588520EB45C, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F588520EB45C, 1, 4))">
+					<GrindArea Name="Exploding Mines 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Shock Trooper</Mob>
+							<Mob>Private Falk</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Private Falk" XYZ="-276.9085,11.416,-52.03497" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsBranchStepComplete(0xE000F588520EB45C, 1, 5)))">
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Private Falk" XYZ="-277.1939,11.41011,-52.0314" />
@@ -812,7 +351,23 @@
 			</If>
 			<!-- Crescent Canyon Cleanup (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003F8892A56188))">
-				<Grind GrindRef="Crescent Canyon Cleanup (Bonus)" While="(not IsQuestComplete(0xE0003F8892A56188))" />
+				<Grind While="(not IsQuestComplete(0xE0003F8892A56188))">
+					<GrindArea Name="Crescent Canyon Cleanup (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Droid Operator</Mob>
+							<Mob>Imperial Demolition Droid</Mob>
+							<Mob>Imperial Gunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Demolition Droid" XYZ="-279.1565,5.636703,-62.3508" />
+							<Hotspot Name="Imperial Droid Operator" XYZ="-271.9849,5.636703,-62.8286" />
+							<Hotspot Name="Imperial Gunner" XYZ="-275.202,5.836703,-64.4199" />
+							<Hotspot Name="Imperial Gunner" XYZ="-283.5729,5.852228,-68.9883" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsBranchStepComplete(0xE000F588520EB45C, 1, 6)))">
 				<MoveTo QuestId="0xE000F588520EB45C" Name="Korl Torin" XYZ="-283.1328,5.853352,-62.0731" />
@@ -821,7 +376,19 @@
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Korl Torin" XYZ="-283.1328,5.853352,-62.0731" />
 			</If>
 			<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsBranchStepComplete(0xE000F588520EB45C, 1, 8)))">
-				<Grind GrindRef="Exploding Mines 8" While="(not IsBranchStepComplete(0xE000F588520EB45C, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F588520EB45C, 1, 8))">
+					<GrindArea Name="Exploding Mines 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Korl Torin</Mob>
+							<Mob>Imperial Shock Troop</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Korl Torin" XYZ="-283.1328,5.853352,-62.0731" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F588520EB45C)) and (not IsBranchStepComplete(0xE000F588520EB45C, 1, 9)))">
 				<TalkTo QuestId="0xE000F588520EB45C" Name="Republic Squad Leader" XYZ="-282.4919,5.853352,-62.63512" />
@@ -838,7 +405,24 @@
 			</If>
 			<!-- Seismic Disruption (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000354A12667527))">
-				<Grind GrindRef="Seismic Disruption (Bonus)" While="(not IsQuestComplete(0xE000354A12667527))" />
+				<Grind While="(not IsQuestComplete(0xE000354A12667527))">
+					<GrindArea Name="Seismic Disruption (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Cold Assault Corporal</Mob>
+							<Mob>Imperial Cold Assault Droid</Mob>
+							<Mob>Imperial Cold Assault Reserve</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Cold Assault Corporal" XYZ="-223.2855,9.340726,-38.11762" />
+							<Hotspot Name="Imperial Cold Assault Droid" XYZ="-219.1466,10.0604,-40.6561" />
+							<Hotspot Name="Imperial Cold Assault Droid" XYZ="-219.4143,11.38273,-45.1354" />
+							<Hotspot Name="Imperial Cold Assault Droid" XYZ="-221.0028,9.386614,-33.0876" />
+							<Hotspot Name="Imperial Cold Assault Droid" XYZ="-234.2853,9.053351,-39.50534" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -846,14 +430,41 @@
 		<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsQuestComplete(0xE000B7D990703E28)))">
 			<!-- White Maw Meltdown (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002AA8D50D75FF))">
-				<Grind GrindRef="White Maw Meltdown (Bonus)" While="(not IsQuestComplete(0xE0002AA8D50D75FF))" />
+				<Grind While="(not IsQuestComplete(0xE0002AA8D50D75FF))">
+					<GrindArea Name="White Maw Meltdown (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Gunslinger</Mob>
+							<Mob>White Maw Skinner</Mob>
+							<Mob>White Maw Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Gunslinger" XYZ="-225.4226,8.201275,-20.4039" />
+							<Hotspot Name="White Maw Raider" XYZ="-234.7334,7.236703,-20.7377" />
+							<Hotspot Name="White Maw Gunslinger" XYZ="-230.4066,6.651328,-32.0837" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 6)))">
 				<MoveTo QuestId="0xE000B7D990703E28" Name="Captain Valon" XYZ="-233.8344,6.650028,-34.6598" />
 			</If>
 			<!-- Skip 7 -->
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 8)))">
-				<Grind GrindRef="The Coalition 8" While="(not IsBranchStepComplete(0xE000B7D990703E28, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE000B7D990703E28, 1, 8))">
+					<GrindArea Name="The Coalition 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Captain Valon</Mob>
+							<Mob>Valon's Pirate</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Captain Valon" XYZ="-233.8344,6.650028,-34.6598" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B7D990703E28)) and (not IsBranchStepComplete(0xE000B7D990703E28, 1, 9)))">
 				<UseObject QuestId="0xE000B7D990703E28" ObjectName="Thermal Bore" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="-234.5126,6.650028,-34.58541" />
@@ -906,7 +517,22 @@
 			</If>
 			<!-- Cold Assault (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00023685B22D1A3))">
-				<Grind GrindRef="Cold Assault (Bonus)" While="(not IsQuestComplete(0xE00023685B22D1A3))" />
+				<Grind While="(not IsQuestComplete(0xE00023685B22D1A3))">
+					<GrindArea Name="Cold Assault (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Scorcher</Mob>
+							<Mob>Imperial Cryo Gunner</Mob>
+							<Mob>Imperial Cryo Sniper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Scorcher" XYZ="-131.9405,4.623634,-76.39031" />
+							<Hotspot Name="Imperial Scorcher" XYZ="-144.6171,6.067854,-69.42924" />
+							<Hotspot Name="Imperial Scorcher" XYZ="-136.5091,5.246555,-82.54269" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -930,7 +556,18 @@
 			<If Condition="((HasQuest(0xE000D8B77E9888C6)) and (not IsBranchStepComplete(0xE000D8B77E9888C6, 1, 7)))">
 				<UseObject QuestId="0xE000D8B77E9888C6" ObjectName="Imperial Relay Tower" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="-111.7201,4.609376,-104.2348" />
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<Grind GrindRef="[AREA] Spy Droids 7" While="(not IsBranchStepComplete(0xE000D8B77E9888C6, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000D8B77E9888C6, 1, 7))">
+					<GrindArea Name="[AREA] Spy Droids 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Operations Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-111.7201,4.609376,-104.2348" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 		</If>
@@ -1015,7 +652,26 @@
 			</If>
 			<!-- Ice and Fire (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00042E4C0A20AA7))">
-				<Grind GrindRef="Ice and Fire (Bonus)" While="(not IsQuestComplete(0xE00042E4C0A20AA7))" />
+				<Grind While="(not IsQuestComplete(0xE00042E4C0A20AA7))">
+					<GrindArea Name="Ice and Fire (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Thermal Droid</Mob>
+							<Mob>White Maw Mechanic</Mob>
+							<Mob>White Maw Anarchist</Mob>
+							<Mob>Elite Imperial Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Thermal Droid" XYZ="-69.1844,-1.490128,35.2383" />
+							<Hotspot Name="White Maw Anarchist" XYZ="-63.7205,-2.294405,35.6769" />
+							<Hotspot Name="White Maw Mechanic" XYZ="-63.2092,-2.088536,40.3359" />
+							<Hotspot Name="White Maw Thermal Droid" XYZ="-62.74281,-2.098999,45.04906" />
+							<Hotspot Name="White Maw Anarchist" XYZ="-60.0524,-0.7317717,43.8883" />
+							<Hotspot Name="White Maw Mechanic" XYZ="-62.62727,-2.111989,51.01323" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000CF30976EEEC3)) and (not IsBranchStepComplete(0xE000CF30976EEEC3, 3, 2)))">
 				<MoveTo QuestId="1" XYZ="-70.39077,-1.423982,39.03875" />
@@ -1042,20 +698,58 @@
 			</If>
 			<!-- Exchanging Blows (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D9113160876A))">
-				<Grind GrindRef="Exchanging Blows (Bonus)" While="(not IsQuestComplete(0xE000D9113160876A))" />
+				<Grind While="(not IsQuestComplete(0xE000D9113160876A))">
+					<GrindArea Name="Exchanging Blows (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Rifleman</Mob>
+							<Mob>White Maw Pyro Tech</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Rifleman" XYZ="-87.8,-3.694853,67.5" />
+							<Hotspot Name="White Maw Pyro Tech" XYZ="-87.1125,-3.487856,68.5379" />
+							<Hotspot Name="White Maw Rifleman" XYZ="-88.95166,-3.492108,69.53596" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 4)))">
 				<UseObject QuestId="0xE000EFA31F5F9DEA" ObjectName="Detonation Controller" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-87.85956,-3.691245,74.45361" />
 			</If>
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 5)))">
-				<Grind GrindRef="Into the White 5" While="(not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 5))">
+					<GrindArea Name="Into the White 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Engineer</Mob>
+							<Mob>Imperial Commando Leader</Mob>
+							<Mob>Imperial Soldier</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Engineer" XYZ="-87.6148,-3.675124,73.8038" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 6)))">
 				<TalkTo QuestId="0xE000EFA31F5F9DEA" Name="Imperial Engineer" XYZ="-87.6148,-3.675124,73.8038" />
 			</If>
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 7)))">
 				<!-- Ele going down	 at Upper Pass -->
-				<Grind GrindRef="Into the White 7" While="(not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 7))">
+					<GrindArea Name="Into the White 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Valon's Pirate</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Valon's Pirate" XYZ="-175.4758,1.932612,-111.1186" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EFA31F5F9DEA)) and (not IsBranchStepComplete(0xE000EFA31F5F9DEA, 1, 8)))">
 				<TalkTo QuestId="0xE000EFA31F5F9DEA" Name="Lieutenant Iresso" XYZ="-175.8301,1.936703,-113.0369" />
@@ -1121,7 +815,29 @@
 			</If>
 			<!-- Fissure Storm (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000CAE6DAB1E858))">
-				<Grind GrindRef="Fissure Storm (Bonus)" While="(not IsQuestComplete(0xE000CAE6DAB1E858))" />
+				<Grind While="(not IsQuestComplete(0xE000CAE6DAB1E858))">
+					<GrindArea Name="Fissure Storm (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Hailstorm Brawler</Mob>
+							<Mob>Hailstorm Warrior</Mob>
+							<Mob>Hailstorm Hunter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Hailstorm Warrior" XYZ="-5.096435,-6.508209,-32.66964" />
+							<Hotspot Name="Hailstorm Hunter" XYZ="2.0891,-6.500863,-38.21" />
+							<Hotspot Name="Hailstorm Warrior" XYZ="-0.07366676,-6.593391,-24.81766" />
+							<Hotspot Name="Hailstorm Brawler" XYZ="5.0834,-6.44854,-25.7588" />
+							<Hotspot Name="Hailstorm Hunter" XYZ="4.7581,-6.509807,-19.8424" />
+							<Hotspot Name="Hailstorm Warrior" XYZ="8.558735,-6.717369,-37.31746" />
+							<Hotspot Name="My Location" XYZ="15.02248,-6.596488,-37.08427" />
+							<Hotspot Name="Hailstorm Warrior" XYZ="28.3263,-6.657397,-32.8356" />
+							<Hotspot Name="Hailstorm Warrior" XYZ="9.189516,-6.481037,4.897765" />
+							<Hotspot Name="Hailstorm Warrior" XYZ="27.19718,-5.839732,33.95436" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1132,7 +848,28 @@
 				<MoveTo QuestId="0xE000BF160D9D1420" Name="Doctor Jurnak" XYZ="63.7936,-4.358397,100.0968" />
 				<!-- Secret Lab Surprise (Bonus) - i don't know if this was in dark -->
 				<If Condition="(not IsQuestComplete(0xE000573D4F891162))">
-					<Grind GrindRef="Secret Lab Surprise (Bonus)" While="(not IsQuestComplete(0xE000573D4F891162))" />
+					<Grind While="(not IsQuestComplete(0xE000573D4F891162))">
+						<GrindArea Name="Secret Lab Surprise (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Imperial Lab Sentry</Mob>
+								<Mob>Imperial Lab Officer</Mob>
+								<Mob>Imperial Lab Guard</Mob>
+								<Mob>Imperial Lab Watchman</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Imperial Lab Sentry" XYZ="60.58838,5.218851,82.45128" />
+								<Hotspot Name="Imperial Lab Sentry" XYZ="57.7708,5.236702,85.9791" />
+								<Hotspot Name="Imperial Lab Guard" XYZ="64.3336,5.236702,86.52361" />
+								<Hotspot Name="Imperial Lab Guard" XYZ="60.87919,5.236702,88.0295" />
+								<Hotspot Name="Imperial Lab Officer" XYZ="60.4388,-4.363297,93.2463" />
+								<Hotspot Name="Imperial Lab Guard" XYZ="68.0308,-4.563297,97.0996" />
+								<Hotspot Name="Imperial Lab Guard" XYZ="51.3789,-4.372349,96.5012" />
+								<Hotspot Name="Imperial Lab Guard" XYZ="55.5027,-4.371285,101.1662" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<!-- Use Ele Back up -->
@@ -1141,13 +878,41 @@
 			</If>
 			<!-- Combing the Cave (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002457A9CD4A41))">
-				<Grind GrindRef="Combing the Cave (Bonus)" While="(not IsQuestComplete(0xE0002457A9CD4A41))" />
+				<Grind While="(not IsQuestComplete(0xE0002457A9CD4A41))">
+					<GrindArea Name="Combing the Cave (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Vicious White Maw Hoodlum</Mob>
+							<Mob>Vicious White Maw Brawler</Mob>
+							<Mob>Vicious White Maw Arbiter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Vicious White Maw Hoodlum" XYZ="8.6615,1.777967,-89.4726" />
+							<Hotspot Name="Vicious White Maw Arbiter" XYZ="14.4557,1.805187,-92.6109" />
+							<Hotspot Name="Vicious White Maw Brawler" XYZ="17.9812,1.670719,-100.8424" />
+							<Hotspot Name="Vicious White Maw Brawler" XYZ="12.2615,1.640712,-99.69209" />
+							<Hotspot Name="Vicious White Maw Arbiter" XYZ="22.9115,1.782337,-100.0402" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BF160D9D1420)) and (not IsBranchStepComplete(0xE000BF160D9D1420, 4, 3)))">
 				<MoveTo QuestId="0xE000BF160D9D1420" Name="Pirate Leader" XYZ="15.53298,1.744652,-106.0816" />
 			</If>
 			<If Condition="((HasQuest(0xE000BF160D9D1420)) and (not IsBranchStepComplete(0xE000BF160D9D1420, 4, 4)))">
-				<Grind GrindRef="Cracks in the Armor 4" While="(not IsBranchStepComplete(0xE000BF160D9D1420, 4, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BF160D9D1420, 4, 4))">
+					<GrindArea Name="Cracks in the Armor 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Vicious White Maw Leader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Vicious White Maw Leader" XYZ="12.5325,1.7369,-106.5825" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BF160D9D1420)) and (not IsBranchStepComplete(0xE000BF160D9D1420, 4, 5)))">
 				<TalkTo QuestId="0xE000BF160D9D1420" Name="Lieutenant Iresso" XYZ="15.5649,1.729217,-105.7125" />
@@ -1176,13 +941,43 @@
 			</If>
 			<!-- Inching Forward (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000116E3971F9E0))">
-				<Grind GrindRef="Inching Forward (Bonus)" While="(not IsQuestComplete(0xE000116E3971F9E0))" />
+				<Grind While="(not IsQuestComplete(0xE000116E3971F9E0))">
+					<GrindArea Name="Inching Forward (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Hailstorm Raider</Mob>
+							<Mob>Hailstorm Brute</Mob>
+							<Mob>Hailstorm Mauler</Mob>
+							<Mob>Hailstorm Spotter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Hailstorm Raider" XYZ="36.16363,7.992575,-16.54489" />
+							<Hotspot Name="Hailstorm Spotter" XYZ="40.59186,7.993208,-17.59805" />
+							<Hotspot Name="Hailstorm Spotter" XYZ="43.5055,7.993208,-11.96128" />
+							<Hotspot Name="Hailstorm Raider" XYZ="23.53837,7.988878,-7.586725" />
+							<Hotspot Name="Hailstorm Mauler" XYZ="24.81968,7.974252,-0.4203593" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000E2DEB51ACF1C)) and (not IsBranchStepComplete(0xE000E2DEB51ACF1C, 1, 3)))">
 				<TalkTo QuestId="0xE000E2DEB51ACF1C" Name="Master Sav" XYZ="40.0868,7.975135,-1.0045" />
 			</If>
 			<If Condition="((HasQuest(0xE000E2DEB51ACF1C)) and (not IsBranchStepComplete(0xE000E2DEB51ACF1C, 1, 4)))">
-				<Grind GrindRef="Give Them An Inch 4" While="(not IsBranchStepComplete(0xE000E2DEB51ACF1C, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000E2DEB51ACF1C, 1, 4))">
+					<GrindArea Name="Give Them An Inch 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Master Sav</Mob>
+							<Mob>Master Sav's Servant</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Master Sav" XYZ="40.0868,7.975135,-1.0045" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000E2DEB51ACF1C)) and (not IsBranchStepComplete(0xE000E2DEB51ACF1C, 1, 5)))">
 				<TalkTo QuestId="0xE000E2DEB51ACF1C" Name="Sergeant Katcho" XYZ="38.6785,7.976983,-2.0146" />
@@ -1226,12 +1021,50 @@
 					<UseObject QuestId="0xE00008D96B722752" ObjectName="Null Cannon Power Coupling" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="195.9407,-2.181406,43.26321" />
 				</If>
 				<If Condition="((HasQuest(0xE00008D96B722752)) and (not IsBranchTaskComplete(0xE00008D96B722752, 1, 2, 3)))">
-					<Grind GrindRef="Arms Race 2 3" While="(not IsBranchTaskComplete(0xE00008D96B722752, 1, 2, 3))" />
+					<Grind While="(not IsBranchTaskComplete(0xE00008D96B722752, 1, 2, 3))">
+						<GrindArea Name="Arms Race 2 3">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Cruel White Maw Marauder</Mob>
+								<Mob>Greedy White Maw Thief</Mob>
+								<Mob>Cold Assault Defense Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Cruel White Maw Marauder" XYZ="144.9453,-4.298745,-36.09531" />
+								<Hotspot Name="Cruel White Maw Marauder" XYZ="150.5104,-4.167885,-37.1099" />
+								<Hotspot Name="Greedy White Maw Thief" XYZ="160.4641,-4.652738,-31.25318" />
+								<Hotspot Name="Cruel White Maw Marauder" XYZ="170.2279,-4.151564,-34.3018" />
+								<Hotspot Name="Cold Assault Defense Droid" XYZ="190.9706,-0.9670838,-15.9064" />
+								<Hotspot Name="Cruel White Maw Marauder" XYZ="199.4225,-4.459855,34.2685" />
+								<Hotspot Name="Cruel White Maw Marauder" XYZ="193.8637,-4.505672,36.1065" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<!-- Disarm (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000EC5CD679E8AD))">
-				<Grind GrindRef="Disarm (Bonus)" While="(not IsQuestComplete(0xE000EC5CD679E8AD))" />
+				<Grind While="(not IsQuestComplete(0xE000EC5CD679E8AD))">
+					<GrindArea Name="Disarm (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Cruel White Maw Marauder</Mob>
+							<Mob>Greedy White Maw Thief</Mob>
+							<Mob>Cold Assault Defense Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Cruel White Maw Marauder" XYZ="144.9453,-4.298745,-36.09531" />
+							<Hotspot Name="Cruel White Maw Marauder" XYZ="150.5104,-4.167885,-37.1099" />
+							<Hotspot Name="Greedy White Maw Thief" XYZ="160.4641,-4.652738,-31.25318" />
+							<Hotspot Name="Cruel White Maw Marauder" XYZ="170.2279,-4.151564,-34.3018" />
+							<Hotspot Name="Cold Assault Defense Droid" XYZ="190.9706,-0.9670838,-15.9064" />
+							<Hotspot Name="Cruel White Maw Marauder" XYZ="199.4225,-4.459855,34.2685" />
+							<Hotspot Name="Cruel White Maw Marauder" XYZ="193.8637,-4.505672,36.1065" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00008D96B722752)) and (not IsBranchStepComplete(0xE00008D96B722752, 1, 3)))">
 				<UseObject QuestId="0xE00008D96B722752" ObjectName="Pirate Terminal" BranchId="1" StepId="3" Radius="20" WaitTime="5" XYZ="197.1076,-8.753158,60.54549" />
@@ -1275,13 +1108,42 @@
 			</If>
 			<!-- Stage 3 - Keeping Secrets (Bonus) -->
 			<If Condition="((HasQuest(0xE000E5184166D3FD)) and (not IsQuestComplete(0xE000E5184166D3FD)))">
-				<Grind GrindRef="Stage 3 - Keeping Secrets (Bonus)" While="(HasQuest(0xE000E5184166D3FD))" />
+				<Grind While="(HasQuest(0xE000E5184166D3FD))">
+					<GrindArea Name="Stage 3 - Keeping Secrets (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Technician</Mob>
+							<Mob>White Maw Mate</Mob>
+							<Mob>White Maw Commando</Mob>
+							<Mob>White Maw Marine</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Technician" XYZ="296.7344,-5.242878,43.67154" />
+							<Hotspot Name="White Maw Technician" XYZ="304.7535,-5.301,47.03512" />
+							<Hotspot Name="White Maw Technician" XYZ="320.3748,-4.799,43.06918" />
+							<Hotspot Name="White Maw Commando" XYZ="323.4688,-4.189374,46.3932" />
+							<Hotspot Name="White Maw Technician" XYZ="328.6957,-3.799,47.5811" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Keeping Secrets (Bonus) -->
 			<If Condition="((HasQuest(0xE000EC184166CFD8)) and (not IsQuestComplete(0xE000EC184166CFD8)))">
 				<!-- Ele going up -->
-				<Grind GrindRef="Final Stage - Keeping Secrets (Bonus)" While="(HasQuest(0xE000EC184166CFD8))" />
+				<Grind While="(HasQuest(0xE000EC184166CFD8))">
+					<GrindArea Name="Final Stage - Keeping Secrets (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Controller</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Controller" XYZ="324.025,-2.299,48.6092" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1295,20 +1157,64 @@
 			</If>
 			<!-- Skip 4 -->
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 5)))">
-				<Grind GrindRef="Chasing the Legend 5" While="(not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 5))">
+					<GrindArea Name="Chasing the Legend 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Soldier</Mob>
+							<Mob>Imperial Lieutenant</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Lieutenant" XYZ="316.0993,-4.801,36.9544" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 6)))">
 				<UseObject QuestId="0xE0000CA7A0E3F850" ObjectName="Dreadnought Door" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="315.0223,-4.799,37.04959" />
 			</If>
 			<!-- Captain Valon's White Maw (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D2851811D2BB))">
-				<Grind GrindRef="Captain Valon's White Maw (Bonus)" While="(not IsQuestComplete(0xE000D2851811D2BB))" />
+				<Grind While="(not IsQuestComplete(0xE000D2851811D2BB))">
+					<GrindArea Name="Captain Valon's White Maw (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Valon's White Maw Duellist</Mob>
+							<Mob>Valon's White Maw Brawler</Mob>
+							<Mob>Valon's White Maw Gunner</Mob>
+							<Mob>Valon's White Maw Buccaneer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Valon's White Maw Brawler" XYZ="313.4392,-4.7928,37.53657" />
+							<Hotspot Name="Valon's White Maw Buccaneer" XYZ="306.5291,-4.799,32.53691" />
+							<Hotspot Name="Valon's White Maw Buccaneer" XYZ="309.2894,-3.799,39.769" />
+							<Hotspot Name="Valon's White Maw Gunner" XYZ="305.5974,-4.799,29.226" />
+							<Hotspot Name="Valon's White Maw Duellist" XYZ="312.4355,-4.799,22.2149" />
+							<Hotspot Name="Valon's White Maw Buccaneer" XYZ="316.09,-4.799,30.89" />
+							<Hotspot Name="Valon's White Maw Buccaneer" XYZ="318.8832,-4.799,16.39976" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 7)))">
 				<MoveTo QuestId="0xE0000CA7A0E3F850" Name="Captain Valon" XYZ="318.2508,-3.799,14.1348" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 9)))">
-				<Grind GrindRef="Chasing the Legend 9" While="(not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 9))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 9))">
+					<GrindArea Name="Chasing the Legend 9">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Captain</Mob>
+							<Mob>Captain Valon</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Captain" XYZ="318.2841,-3.799,14.3204" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000CA7A0E3F850)) and (not IsBranchStepComplete(0xE0000CA7A0E3F850, 1, 10)))">
 				<TalkTo QuestId="0xE0000CA7A0E3F850" Name="Captain Valon" XYZ="318.2508,-3.799,14.1348" />
@@ -1324,14 +1230,50 @@
 				<TalkTo QuestId="0xE000C8BE076A5769" Name="Captain Sero" XYZ="264.0351,-0.4830974,106.5369" />
 			</If>
 			<If Condition="((HasQuest(0xE000C8BE076A5769)) and (not IsBranchStepComplete(0xE000C8BE076A5769, 1, 4)))">
-				<Grind GrindRef="The Null Cannon 4" While="(not IsBranchStepComplete(0xE000C8BE076A5769, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000C8BE076A5769, 1, 4))">
+					<GrindArea Name="The Null Cannon 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Captain Sero</Mob>
+							<Mob>Pirate Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Captain Sero" XYZ="264.0351,-0.4830974,106.5369" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000C8BE076A5769)) and (not IsBranchStepComplete(0xE000C8BE076A5769, 1, 5)))">
 				<TalkTo QuestId="0xE000C8BE076A5769" Name="Chief Engineer Arim" XYZ="263.9807,-0.484405,105.6718" />
 			</If>
 			<!-- Null and Void (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0001CAB6E14C6AC))">
-				<Grind GrindRef="Null and Void (Bonus)" While="(not IsQuestComplete(0xE0001CAB6E14C6AC))" />
+				<Grind While="(not IsQuestComplete(0xE0001CAB6E14C6AC))">
+					<GrindArea Name="Null and Void (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>White Maw Defense Droid</Mob>
+							<Mob>White Maw Weapon Technician</Mob>
+							<Mob>White Maw Mauler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="White Maw Weapon Technician" XYZ="252.6898,-0.8238266,66.486" />
+							<Hotspot Name="White Maw Mauler" XYZ="249.1437,-0.942956,73.62136" />
+							<Hotspot Name="White Maw Weapon Technician" XYZ="259.1925,-0.8755932,74.3968" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="251.325,-0.8582664,77.8322" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="251.4148,-0.6853721,86.4962" />
+							<Hotspot Name="White Maw Mauler" XYZ="255.7471,-0.6830974,85.9291" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="250.1513,-0.4901,90.6862" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="252.6378,-0.4664487,93.55991" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="247.5006,-0.5009487,93.8718" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="260.211,-0.5009487,93.8352" />
+							<Hotspot Name="White Maw Weapon Technician" XYZ="266.6629,-0.5085224,93.31699" />
+							<Hotspot Name="White Maw Defense Droid" XYZ="265.1401,-0.5188,97.4232" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1392,7 +1334,18 @@
 		</If>
 		<!-- Hostile Remnant (Bonus) -->
 		<If Condition="((HasQuest(0xE000DEC01E78EDFE)) and (not IsQuestComplete(0xE000DEC01E78EDFE)))">
-			<Grind GrindRef="Hostile Remnant (Bonus)" While="(HasQuest(0xE000DEC01E78EDFE))" />
+			<Grind While="(HasQuest(0xE000DEC01E78EDFE))">
+				<GrindArea Name="Hostile Remnant (Bonus)">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>50</MaxLevel>
+					<Mobs>
+						<Mob>Damaged Security Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Damaged Security Droid" XYZ="3.766979,11.701,-15.04044" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Consular - To Serve the King -->
@@ -1404,13 +1357,35 @@
 				<TalkTo QuestId="0xE000F4A78C9A8C2B" Name="Blaesus" XYZ="3.928557,11.701,2.174931" />
 			</If>
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 2, 2)))">
-				<Grind GrindRef="To Serve the King 3 2" While="(not IsBranchStepComplete(0xE000F4A78C9A8C2B, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F4A78C9A8C2B, 2, 2))">
+					<GrindArea Name="To Serve the King 3 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Lord Kyrus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Kyrus" XYZ="4.089798,11.701,2.346159" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 3, 3)))">
 				<TalkTo QuestId="0xE000F4A78C9A8C2B" Name="Blaesus" XYZ="3.928557,11.701,2.174931" />
 			</If>
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 2)))">
-				<Grind GrindRef="To Serve the King 4 2" While="(not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 2))">
+					<GrindArea Name="To Serve the King 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Blaesus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Kyrus" XYZ="4.089798,11.701,2.346159" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F4A78C9A8C2B)) and (not IsBranchStepComplete(0xE000F4A78C9A8C2B, 4, 3)))">
 				<TalkTo QuestId="0xE000F4A78C9A8C2B" Name="King Sethun" XYZ="4.3111,11.701,2.3139" />
@@ -1473,7 +1448,19 @@
 			</If>
 			<!-- Skip 6 -->
 			<If Condition="((HasQuest(0xE000C12D408B68A2)) and (not IsBranchStepComplete(0xE000C12D408B68A2, 1, 7)))">
-				<Grind GrindRef="Counterpoint 7" While="(not IsBranchStepComplete(0xE000C12D408B68A2, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000C12D408B68A2, 1, 7))">
+					<GrindArea Name="Counterpoint 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Elite Rakata Guardian Droid</Mob>
+							<Mob>Rakata Guardian Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Elite Rakata Guardian Droid" XYZ="110.8592,5.297254,-73.62916" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE000C12D408B68A2" ObjectName="Rakata Monument" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="112.8057,5.535225,-74.18616" />
 			<UseObject QuestId="0xE000C12D408B68A2" ObjectName="Rakata Monument" BranchId="1" StepId="9" Radius="20" WaitTime="5" XYZ="112.8057,5.535225,-74.18616" />

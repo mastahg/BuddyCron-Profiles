@@ -18,173 +18,6 @@
 		<!-- None -->
 	</AvoidMobs>
 
-	<GrindAreas>
-
-		<GrindArea Name="Spreading the Word - Destroy Hutt Security Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Hutt Support Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Hutt Security Droid" XYZ="146.8625,-156.8208,318.8297" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Zero Protocol - Defeat Zero">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Zero</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="202.4638,-154.799,279.9815" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Zero Protocol - Destroy Zero's Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Zero's Assassin Droid</Mob>
-				<Mob>Zero's Heavy Assault Droid</Mob>
-				<Mob>Zero's Heavy War Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Zero's Assassin Droid" XYZ="202.5574,-154.799,280.3562" />
-				<Hotspot Name="Zero's Heavy Assault Droid" XYZ="200.0282,-154.799,275.8539" />
-				<Hotspot Name="Zero's Heavy Assault Droid" XYZ="199.3553,-154.0043,281.8719" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Tower Defense - Defeat Broadcast Tower Defenders">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Broadcast Tower Defender</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="188.0335,-156.7794,315.5158" />
-				<Hotspot Name="Republic Commando" XYZ="183.0045,-155.799,318.0432" />
-				<Hotspot Name="Broadcast Tower Defender" XYZ="174.5925,-155.299,319.3271" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Zero Sum - Terminate Free Enclave Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Renegade Assassin Droid</Mob>
-				<Mob>Renegade Astromech Droid</Mob>
-				<Mob>Renegade Battle Droid</Mob>
-				<Mob>Renegade Industrial Droid</Mob>
-				<Mob>Renegade Security Droid</Mob>
-				<Mob>Renegade War Droid</Mob>
-				<Mob>Zero's Assassin Droid</Mob>
-				<Mob>Zero's Heavy Assault Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Renegade Industrial Droid" XYZ="168.0783,-156.299,304.158" />
-				<Hotspot Name="Renegade Astromech Droid" XYZ="162.4201,-156.799,308.12" />
-				<Hotspot Name="Renegade Battle Droid" XYZ="175.4,-156.799,318.6" />
-				<Hotspot Name="Renegade Battle Droid" XYZ="185.383,-158.799,307.6185" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Secret Assets - Defeat Revaak">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Revaak</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-177.1656,-164.299,306.617" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Removing Revaak's Assets - Defeat Revaak's Mercenaries and Thugs">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Revaak's Mercenary</Mob>
-				<Mob>Revaak's Thug</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-176.9765,-164.299,303.5979" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Getting the Message Across - Defeat the Nova Guard and Crimson Brotherhood">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Crimson Brotherhood Mercenary</Mob>
-				<Mob>Crimson Brotherhood Ringleader</Mob>
-				<Mob>Nova Guard Mercenary</Mob>
-				<Mob>Nova Guard Ringleader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nova Guard Recruit" XYZ="-179.5772,-164.299,296.7852" />
-				<Hotspot Name="My Location" XYZ="-175.2518,-164.299,295.9508" />
-				<Hotspot Name="Nova Guard Initiate" XYZ="-174.3032,-164.299,312.5847" />
-				<Hotspot Name="Nova Guard Initiate" XYZ="-181.0935,-164.299,311.8898" />
-				<Hotspot Name="Nova Guard Enforcer" XYZ="-176.2696,-163.299,303.1662" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Technological Difficulties - Defeat Czerka and Republic Scientists">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Czerka Chemist</Mob>
-				<Mob>Czerka Engineer</Mob>
-				<Mob>Republic Biochemist</Mob>
-				<Mob>Republic Mechanical Engineer</Mob>
-				<Mob>Republic Supervisor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-176.5777,-143.4708,263.7307" />
-				<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
-				<Hotspot Name="My Location" XYZ="-183.2452,-143.4644,266.8404" />
-				<Hotspot Name="Czerka Engineer" XYZ="-191.0514,-143.4635,266.9086" />
-				<Hotspot Name="My Location" XYZ="-194.6984,-143.4863,263.5794" />
-				<Hotspot Name="My Location" XYZ="-189.5152,-143.4708,261.126" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Follow The Leaders - Defeat Czerka and Republic Team Leaders">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Czerka Team Leader</Mob>
-				<Mob>Republic Team Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-176.5777,-143.4708,263.7307" />
-				<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Breaking their Spirit - Defeat the MediCure Labs Science Division">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Biologist</Mob>
-				<Mob>Republic Engineer</Mob>
-				<Mob>Republic Lab Guard</Mob>
-				<Mob>Republic Monitor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-185.2003,-145.4796,284.756" />
-				<Hotspot Name="My Location" XYZ="-176.3011,-145.4755,290.1191" />
-				<Hotspot Name="My Location" XYZ="-173.3778,-145.4635,292.3417" />
-				<Hotspot Name="My Location" XYZ="-170.4687,-144.6755,281.3091" />
-				<Hotspot Name="My Location" XYZ="-169.6644,-143.8603,272.8105" />
-			</Hotspots>
-		</GrindArea>
-	
-	</GrindAreas>
-	
 	<Questing>
 		
 		<If Condition="(Me.Class != CharacterClass.Agent)">
@@ -217,7 +50,25 @@
 		
 		
 		<!-- Breaking their Spirit - Defeat the MediCure Labs Science Division -->
-		<Grind GrindRef="Breaking their Spirit - Defeat the MediCure Labs Science Division" While="not HasQuest(0xE000F67C1D9BE502) and not IsQuestComplete(0xE000F67C1D9BE502) or HasQuest(0xE000F67C1D9BE502) and not IsStepComplete(0xE000F67C1D9BE502, 2)" />
+		<Grind While="not HasQuest(0xE000F67C1D9BE502) and not IsQuestComplete(0xE000F67C1D9BE502) or HasQuest(0xE000F67C1D9BE502) and not IsStepComplete(0xE000F67C1D9BE502, 2)">
+			<GrindArea Name="Breaking their Spirit - Defeat the MediCure Labs Science Division">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Republic Biologist</Mob>
+					<Mob>Republic Engineer</Mob>
+					<Mob>Republic Lab Guard</Mob>
+					<Mob>Republic Monitor</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-185.2003,-145.4796,284.756" />
+					<Hotspot Name="My Location" XYZ="-176.3011,-145.4755,290.1191" />
+					<Hotspot Name="My Location" XYZ="-173.3778,-145.4635,292.3417" />
+					<Hotspot Name="My Location" XYZ="-170.4687,-144.6755,281.3091" />
+					<Hotspot Name="My Location" XYZ="-169.6644,-143.8603,272.8105" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Breaking the Cure - Destroy Laboratory Computers -->
@@ -276,11 +127,44 @@
 		
 		
 		<!-- Follow The Leaders - Defeat Czerka and Republic Team Leaders -->
-		<Grind GrindRef="Follow The Leaders - Defeat Czerka and Republic Team Leaders" While="not HasQuest(0xE000EB87BF873D5C) and not IsQuestComplete(0xE000EB87BF873D5C) or HasQuest(0xE000EB87BF873D5C) and not IsStepComplete(0xE000EB87BF873D5C, 2)" />
+		<Grind While="not HasQuest(0xE000EB87BF873D5C) and not IsQuestComplete(0xE000EB87BF873D5C) or HasQuest(0xE000EB87BF873D5C) and not IsStepComplete(0xE000EB87BF873D5C, 2)">
+			<GrindArea Name="Follow The Leaders - Defeat Czerka and Republic Team Leaders">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Czerka Team Leader</Mob>
+					<Mob>Republic Team Leader</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-176.5777,-143.4708,263.7307" />
+					<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Technological Difficulties - Defeat Czerka and Republic Scientists -->
-		<Grind GrindRef="Technological Difficulties - Defeat Czerka and Republic Scientists" While="not HasQuest(0xE000EE1F68DA4646) and not IsQuestComplete(0xE000EE1F68DA4646) or HasQuest(0xE000EE1F68DA4646) and not IsStepComplete(0xE000EE1F68DA4646, 2)" />
+		<Grind While="not HasQuest(0xE000EE1F68DA4646) and not IsQuestComplete(0xE000EE1F68DA4646) or HasQuest(0xE000EE1F68DA4646) and not IsStepComplete(0xE000EE1F68DA4646, 2)">
+			<GrindArea Name="Technological Difficulties - Defeat Czerka and Republic Scientists">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Czerka Chemist</Mob>
+					<Mob>Czerka Engineer</Mob>
+					<Mob>Republic Biochemist</Mob>
+					<Mob>Republic Mechanical Engineer</Mob>
+					<Mob>Republic Supervisor</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-176.5777,-143.4708,263.7307" />
+					<Hotspot Name="My Location" XYZ="-173.479,-143.4865,264.6352" />
+					<Hotspot Name="My Location" XYZ="-183.2452,-143.4644,266.8404" />
+					<Hotspot Name="Czerka Engineer" XYZ="-191.0514,-143.4635,266.9086" />
+					<Hotspot Name="My Location" XYZ="-194.6984,-143.4863,263.5794" />
+					<Hotspot Name="My Location" XYZ="-189.5152,-143.4708,261.126" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Prototype - Destroy Czerka Lab Equipment -->
@@ -324,15 +208,56 @@
 		
 		
 		<!-- Getting the Message Across - Defeat the Nova Guard and Crimson Brotherhood -->
-		<Grind GrindRef="Getting the Message Across - Defeat the Nova Guard and Crimson Brotherhood" While="not HasQuest(0xE000C15BCE0BF4DE) and not IsQuestComplete(0xE000C15BCE0BF4DE) or HasQuest(0xE000C15BCE0BF4DE) and not IsStepComplete(0xE000C15BCE0BF4DE, 2)" />
+		<Grind While="not HasQuest(0xE000C15BCE0BF4DE) and not IsQuestComplete(0xE000C15BCE0BF4DE) or HasQuest(0xE000C15BCE0BF4DE) and not IsStepComplete(0xE000C15BCE0BF4DE, 2)">
+			<GrindArea Name="Getting the Message Across - Defeat the Nova Guard and Crimson Brotherhood">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Crimson Brotherhood Mercenary</Mob>
+					<Mob>Crimson Brotherhood Ringleader</Mob>
+					<Mob>Nova Guard Mercenary</Mob>
+					<Mob>Nova Guard Ringleader</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Nova Guard Recruit" XYZ="-179.5772,-164.299,296.7852" />
+					<Hotspot Name="My Location" XYZ="-175.2518,-164.299,295.9508" />
+					<Hotspot Name="Nova Guard Initiate" XYZ="-174.3032,-164.299,312.5847" />
+					<Hotspot Name="Nova Guard Initiate" XYZ="-181.0935,-164.299,311.8898" />
+					<Hotspot Name="Nova Guard Enforcer" XYZ="-176.2696,-163.299,303.1662" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Removing Revaak's Assets - Defeat Revaak's Mercenaries and Thugs -->
-		<Grind GrindRef="Removing Revaak's Assets - Defeat Revaak's Mercenaries and Thugs" While="not HasQuest(0xE00022F3251F5708) and not IsQuestComplete(0xE00022F3251F5708) or HasQuest(0xE00022F3251F5708) and not IsStepComplete(0xE00022F3251F5708, 2)" />
+		<Grind While="not HasQuest(0xE00022F3251F5708) and not IsQuestComplete(0xE00022F3251F5708) or HasQuest(0xE00022F3251F5708) and not IsStepComplete(0xE00022F3251F5708, 2)">
+			<GrindArea Name="Removing Revaak's Assets - Defeat Revaak's Mercenaries and Thugs">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Revaak's Mercenary</Mob>
+					<Mob>Revaak's Thug</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-176.9765,-164.299,303.5979" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Secret Assets - Defeat Revaak -->
-		<Grind GrindRef="Secret Assets - Defeat Revaak" While="not IsStepComplete(0xE0000456F8B395DA, 2)" />
+		<Grind While="not IsStepComplete(0xE0000456F8B395DA, 2)">
+			<GrindArea Name="Secret Assets - Defeat Revaak">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Revaak</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="-177.1656,-164.299,306.617" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		<!-- Download the Republic Documents -->
 		<If Condition="HasQuest(0xE0000456F8B395DA) and not IsStepComplete(0xE0000456F8B395DA, 3)" >
@@ -411,7 +336,28 @@
 		
 		
 		<!-- Zero Sum - Terminate Free Enclave Droids -->
-		<Grind GrindRef="Zero Sum - Terminate Free Enclave Droids" While="not HasQuest(0xE000060D4BF99632) and not IsQuestComplete(0xE000060D4BF99632) or HasQuest(0xE000060D4BF99632) and not IsStepComplete(0xE000060D4BF99632, 2)" />
+		<Grind While="not HasQuest(0xE000060D4BF99632) and not IsQuestComplete(0xE000060D4BF99632) or HasQuest(0xE000060D4BF99632) and not IsStepComplete(0xE000060D4BF99632, 2)">
+			<GrindArea Name="Zero Sum - Terminate Free Enclave Droids">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Renegade Assassin Droid</Mob>
+					<Mob>Renegade Astromech Droid</Mob>
+					<Mob>Renegade Battle Droid</Mob>
+					<Mob>Renegade Industrial Droid</Mob>
+					<Mob>Renegade Security Droid</Mob>
+					<Mob>Renegade War Droid</Mob>
+					<Mob>Zero's Assassin Droid</Mob>
+					<Mob>Zero's Heavy Assault Droid</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Renegade Industrial Droid" XYZ="168.0783,-156.299,304.158" />
+					<Hotspot Name="Renegade Astromech Droid" XYZ="162.4201,-156.799,308.12" />
+					<Hotspot Name="Renegade Battle Droid" XYZ="175.4,-156.799,318.6" />
+					<Hotspot Name="Renegade Battle Droid" XYZ="185.383,-158.799,307.6185" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Zero Protocol - Spike the Second Computer Terminal -->
@@ -425,7 +371,20 @@
 		
 		
 		<!-- Tower Defense - Defeat Broadcast Tower Defenders -->
-		<Grind GrindRef="Tower Defense - Defeat Broadcast Tower Defenders" While="not HasQuest(0xE0001223E82E1DE1) and not IsQuestComplete(0xE0001223E82E1DE1) or HasQuest(0xE0001223E82E1DE1) and not IsStepComplete(0xE0001223E82E1DE1, 2)" />
+		<Grind While="not HasQuest(0xE0001223E82E1DE1) and not IsQuestComplete(0xE0001223E82E1DE1) or HasQuest(0xE0001223E82E1DE1) and not IsStepComplete(0xE0001223E82E1DE1, 2)">
+			<GrindArea Name="Tower Defense - Defeat Broadcast Tower Defenders">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Broadcast Tower Defender</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="188.0335,-156.7794,315.5158" />
+					<Hotspot Name="Republic Commando" XYZ="183.0045,-155.799,318.0432" />
+					<Hotspot Name="Broadcast Tower Defender" XYZ="174.5925,-155.299,319.3271" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Backdoor - Plant Virus on the Republic HoloNet Computer -->
@@ -485,10 +444,36 @@
 		<!-- </END ELEVATOR CODE -->
 		
 		<!-- Zero Protocol - Destroy Zero's Droids -->
-		<Grind GrindRef="Zero Protocol - Destroy Zero's Droids" While="not IsTaskComplete(0xE000A8664EBB90AC, 5, 1)" />
+		<Grind While="not IsTaskComplete(0xE000A8664EBB90AC, 5, 1)">
+			<GrindArea Name="Zero Protocol - Destroy Zero's Droids">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Zero's Assassin Droid</Mob>
+					<Mob>Zero's Heavy Assault Droid</Mob>
+					<Mob>Zero's Heavy War Droid</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Zero's Assassin Droid" XYZ="202.5574,-154.799,280.3562" />
+					<Hotspot Name="Zero's Heavy Assault Droid" XYZ="200.0282,-154.799,275.8539" />
+					<Hotspot Name="Zero's Heavy Assault Droid" XYZ="199.3553,-154.0043,281.8719" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		<!-- Defeat Zero -->
-		<Grind GrindRef="Zero Protocol - Defeat Zero" While="not IsTaskComplete(0xE000A8664EBB90AC, 5, 0)" />
+		<Grind While="not IsTaskComplete(0xE000A8664EBB90AC, 5, 0)">
+			<GrindArea Name="Zero Protocol - Defeat Zero">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Zero</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="202.4638,-154.799,279.9815" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		
 		<!-- Zero Protocol -->
@@ -532,7 +517,18 @@
 		</If>
 		
 		<!-- Destroy Hutt Security Droids -->
-		<Grind GrindRef="Spreading the Word - Destroy Hutt Security Droids" While="not IsStepComplete(0xE0008AE21A5472EE, 5)" />
+		<Grind While="not IsStepComplete(0xE0008AE21A5472EE, 5)">
+			<GrindArea Name="Spreading the Word - Destroy Hutt Security Droids">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Hutt Support Droid</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Hutt Security Droid" XYZ="146.8625,-156.8208,318.8297" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 		
 		<!-- Deliver the Speech -->
 		<If Condition="HasQuest(0xE0008AE21A5472EE) and not IsStepComplete(0xE0008AE21A5472EE, 6)" >

@@ -6,73 +6,6 @@
 		<Hotspot Name="Republic Medical Droid" XYZ="-61.5,8.800674,1.71" /> <!-- CZ-198 Republic Landing Zone -->
 	</Vendors> 
 	
-	<GrindAreas>
-		<GrindArea Name="False Paradise Grind 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Dread Guard Beast Lord Acolyte</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-25.52906,1.163671,-30.7955" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-27.47198,1.083912,-36.93719" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-19.79318,2.402291,-30.94858" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-13.87732,1.32581,-30.46921" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-11.24477,1.566398,-27.06726" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-19.92173,1.103703,-26.07987" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-26.55079,0.1594526,-19.05379" />
-				<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-25.72483,0.05557886,-13.64122" />		
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="False Paradise Grind 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Summoned Tentacle</Mob>
-				<Mob>Corrupted Bothrium Beast</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corrupted Bothrium Beast" XYZ="-11.5193,0.6217982,-69.75809" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Dread Engines Grind 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Corrupted Elder Subteroth</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corrupted Elder Subteroth" XYZ="-10.78795,0.5566845,62.0708" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Power of Dread Grind 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Corrupted Subteroth</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corrupted Subteroth" XYZ="-16.25516,0.9567933,36.79689" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Watchtower Watchers Grind 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Dread Guard Defender</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dread Guard Defender" XYZ="-28.26462,11.90863,5.490693" />
-			</Hotspots>
-		</GrindArea>		
-	</GrindAreas>		
-	
-	
-  
 	<Questing>
 		<!-- Pickup Quests -->
 		<If Condition="((not HasQuest(0xE00001B055A99E2B)) and (not IsQuestComplete(0xE00001B055A99E2B)) )">
@@ -123,7 +56,25 @@
 		<!-- [DAILY] False Paradise --> 
 		<If Condition="((HasQuest(0xE00057236AF20B38)) and (not IsQuestComplete(0xE00057236AF20B38)) )">
 			<If Condition="(not IsStepComplete(0xE00057236AF20B38, 2))">
-				<Grind GrindRef="False Paradise Grind 1" While="(not IsStepComplete(0xE00057236AF20B38, 2))"/>
+				<Grind While="(not IsStepComplete(0xE00057236AF20B38, 2))">
+					<GrindArea Name="False Paradise Grind 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Dread Guard Beast Lord Acolyte</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-25.52906,1.163671,-30.7955" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-27.47198,1.083912,-36.93719" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-19.79318,2.402291,-30.94858" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-13.87732,1.32581,-30.46921" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-11.24477,1.566398,-27.06726" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-19.92173,1.103703,-26.07987" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-26.55079,0.1594526,-19.05379" />
+							<Hotspot Name="Dread Guard Beast Lord Acolyte" XYZ="-25.72483,0.05557886,-13.64122" />		
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>	
 			<If Condition="(not IsStepComplete(0xE00057236AF20B38, 3))">
 				<UseItem QuestId="0xE00057236AF20B38" ItemName="Bioenergy Enhancer" StepId="3" WaitTime="3" Range="1" InCombat="False" Radius="1" /> 
@@ -132,7 +83,19 @@
 				<MoveTo QuestId="0xE00057236AF20B38" StepId="4" XYZ="-17.4353,1.936847,-52.54634" />
 			</If>
 			<If Condition="(not IsStepComplete(0xE00057236AF20B38, 5))">
-				<Grind GrindRef="False Paradise Grind 2" While="(not IsStepComplete(0xE00057236AF20B38, 5))"/>
+				<Grind While="(not IsStepComplete(0xE00057236AF20B38, 5))">
+					<GrindArea Name="False Paradise Grind 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Summoned Tentacle</Mob>
+							<Mob>Corrupted Bothrium Beast</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corrupted Bothrium Beast" XYZ="-11.5193,0.6217982,-69.75809" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>				
 		</If>
 
@@ -166,7 +129,18 @@
 				</UseObject> 	
 			</If>
 			<If Condition="(not IsStepComplete(0xE000F85E33CCE6DD, 4))">
-				<Grind GrindRef="Dread Engines Grind 1" While="(not IsStepComplete(0xE000F85E33CCE6DD, 4))"/>
+				<Grind While="(not IsStepComplete(0xE000F85E33CCE6DD, 4))">
+					<GrindArea Name="Dread Engines Grind 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Corrupted Elder Subteroth</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corrupted Elder Subteroth" XYZ="-10.78795,0.5566845,62.0708" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="(not IsStepComplete(0xE000F85E33CCE6DD, 5))">
 				<UseObject QuestId="0xE000F85E33CCE6DD" BranchId="1" StepId="5" IgnoreLOS="True" Radius="20" UseRange="5" WaitTime="5" >
@@ -194,7 +168,18 @@
 				</UseObject> 	
 			</If>
 			<If Condition="(not IsStepComplete(0xE0006202361A4C71, 4))">
-				<Grind GrindRef="Power of Dread Grind 1" While="(not IsStepComplete(0xE0006202361A4C71, 4))"/>
+				<Grind While="(not IsStepComplete(0xE0006202361A4C71, 4))">
+					<GrindArea Name="Power of Dread Grind 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Corrupted Subteroth</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corrupted Subteroth" XYZ="-16.25516,0.9567933,36.79689" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -249,7 +234,18 @@
 			</If>
 			<If Condition="(not IsStepComplete(0xE0009768A8665D68, 4))">
 				<If Condition="(Me.Position.Z &gt; -2)">
-					<Grind GrindRef="Watchtower Watchers Grind 1" While="(not IsStepComplete(0xE0009768A8665D68, 4))"/>
+					<Grind While="(not IsStepComplete(0xE0009768A8665D68, 4))">
+						<GrindArea Name="Watchtower Watchers Grind 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>100</MaxLevel>
+							<Mobs>
+								<Mob>Dread Guard Defender</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Dread Guard Defender" XYZ="-28.26462,11.90863,5.490693" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>	
 			</If>
 

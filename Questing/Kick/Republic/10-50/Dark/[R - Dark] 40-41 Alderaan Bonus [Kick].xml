@@ -34,118 +34,6 @@
 	
 	-->
 	
-	<GrindAreas> 
-
-		<GrindArea Name="Clearing the Air (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Killik Scrapper</Mob>
-				<Mob>Killik Seer</Mob>
-				<Mob>Killik Trooper</Mob>
-				<Mob>Killik Patroller</Mob>
-				<Mob>Hostile Killik Larvae</Mob>
-				<Mob>Killik Preserver</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Killik Scrapper" XYZ="143.703,17.93116,182.4285" />
-				<Hotspot Name="Killik Scrapper" XYZ="138.5957,17.95238,193.1249" />
-				<Hotspot Name="Killik Scrapper" XYZ="138.5957,17.95238,193.1249" />
-				<Hotspot Name="Killik Patroller" XYZ="147.3203,17.67661,189.1222" />
-				<Hotspot Name="Hostile Killik Larvae" XYZ="156.5568,18.26588,184.0778" />
-				<Hotspot Name="Killik Preserver" XYZ="165.8965,18.92165,185.5781" />
-				<Hotspot Name="Killik Preserver" XYZ="180.1735,20.19925,184.005" />
-				<Hotspot Name="Killik Scrapper" XYZ="195.9297,20.96144,185.2705" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Raider Retribution (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Instigator</Mob>
-				<Mob>Ulgo Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Instigator" XYZ="205.4936,21.49676,160.2695" />
-				<Hotspot Name="Ulgo Instigator" XYZ="204.9659,21.18125,154.7844" />
-				<Hotspot Name="Ulgo Instigator" XYZ="209.231,20.77186,166.5018" />
-				<Hotspot Name="Ulgo Officer" XYZ="218.8473,20.0444,169.8754" />
-				<Hotspot Name="Ulgo Infiltration Droid" XYZ="220.6076,20.04444,167.1945" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Undermining Ulgo (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Supply Overseer</Mob>
-				<Mob>Ulgo Supply Monitor</Mob>
-				<Mob>Ulgo Supply Guard</Mob>
-				<Mob>Ulgo Supply Tracker</Mob>
-				<Mob>Ulgo Supply Quartermaster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Supply Overseer" XYZ="250.9176,13.44574,134.2725" />
-				<Hotspot Name="Ulgo Supply Monitor" XYZ="255.4199,13.42132,134.217" />
-				<Hotspot Name="Ulgo Supply Tracker" XYZ="255.5338,13.60066,137.6582" />
-				<Hotspot Name="Ulgo Supply Guard" XYZ="261.5681,11.201,117.3566" />
-				<Hotspot Name="Ulgo Supply Tracker" XYZ="265.1207,11.001,110.3587" />
-				<Hotspot Name="Ulgo Supply Monitor" XYZ="260.7411,11.001,114.0926" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Explosive Situation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Veteran</Mob>
-				<Mob>Thul Grenadier</Mob>
-				<Mob>Thul Xenochemist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Grenadier" XYZ="204.6811,15.71888,90.8751" />
-				<Hotspot Name="Thul Grenadier" XYZ="207.0598,15.8219,98.3968" />
-				<Hotspot Name="Thul Xenochemist" XYZ="203.3437,15.99373,97.15479" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="A Spy in House Organa 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Spy</Mob>
-				<Mob>Elric Organa</Mob>
-				<Mob>Elric Organa's Bodyguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Spy" XYZ="311.6061,18.401,41.00134" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Missing Holocron">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Lord Brakar</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith Lord Brakar" XYZ="288.6027,18.74416,27.775" />
-			</Hotspots>
-		</GrindArea>    
-
-
-
-
-
-
-
-
-
-
-
-	</GrindAreas>
-
 	<!--
 		<GrindArea Name="">
 			<MinLevel>1</MinLevel>
@@ -205,7 +93,30 @@
 			</If>
 			<!-- Clearing the Air (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0008091BA126DB3))">
-				<Grind GrindRef="Clearing the Air (Bonus)" While="(not IsQuestComplete(0xE0008091BA126DB3))" />
+				<Grind While="(not IsQuestComplete(0xE0008091BA126DB3))">
+					<GrindArea Name="Clearing the Air (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Killik Scrapper</Mob>
+							<Mob>Killik Seer</Mob>
+							<Mob>Killik Trooper</Mob>
+							<Mob>Killik Patroller</Mob>
+							<Mob>Hostile Killik Larvae</Mob>
+							<Mob>Killik Preserver</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Killik Scrapper" XYZ="143.703,17.93116,182.4285" />
+							<Hotspot Name="Killik Scrapper" XYZ="138.5957,17.95238,193.1249" />
+							<Hotspot Name="Killik Scrapper" XYZ="138.5957,17.95238,193.1249" />
+							<Hotspot Name="Killik Patroller" XYZ="147.3203,17.67661,189.1222" />
+							<Hotspot Name="Hostile Killik Larvae" XYZ="156.5568,18.26588,184.0778" />
+							<Hotspot Name="Killik Preserver" XYZ="165.8965,18.92165,185.5781" />
+							<Hotspot Name="Killik Preserver" XYZ="180.1735,20.19925,184.005" />
+							<Hotspot Name="Killik Scrapper" XYZ="195.9297,20.96144,185.2705" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -254,7 +165,23 @@
 			</If>
 			<!-- Raider Retribution (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BF8DA743E0A5))">
-				<Grind GrindRef="Raider Retribution (Bonus)" While="(not IsQuestComplete(0xE000BF8DA743E0A5))" />
+				<Grind While="(not IsQuestComplete(0xE000BF8DA743E0A5))">
+					<GrindArea Name="Raider Retribution (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Instigator</Mob>
+							<Mob>Ulgo Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Instigator" XYZ="205.4936,21.49676,160.2695" />
+							<Hotspot Name="Ulgo Instigator" XYZ="204.9659,21.18125,154.7844" />
+							<Hotspot Name="Ulgo Instigator" XYZ="209.231,20.77186,166.5018" />
+							<Hotspot Name="Ulgo Officer" XYZ="218.8473,20.0444,169.8754" />
+							<Hotspot Name="Ulgo Infiltration Droid" XYZ="220.6076,20.04444,167.1945" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000A9CA0310C5C)) and (not IsBranchStepComplete(0xE0000A9CA0310C5C, 1, 6)))">
 				<TalkTo QuestId="0xE0000A9CA0310C5C" Name="Jeren Organa" XYZ="190.1376,14.81051,142.1121" />
@@ -295,7 +222,27 @@
 			</If>
 			<!-- Undermining Ulgo (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BD69C4403E45))">
-				<Grind GrindRef="Undermining Ulgo (Bonus)" While="(not IsQuestComplete(0xE000BD69C4403E45))" />
+				<Grind While="(not IsQuestComplete(0xE000BD69C4403E45))">
+					<GrindArea Name="Undermining Ulgo (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Supply Overseer</Mob>
+							<Mob>Ulgo Supply Monitor</Mob>
+							<Mob>Ulgo Supply Guard</Mob>
+							<Mob>Ulgo Supply Tracker</Mob>
+							<Mob>Ulgo Supply Quartermaster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Supply Overseer" XYZ="250.9176,13.44574,134.2725" />
+							<Hotspot Name="Ulgo Supply Monitor" XYZ="255.4199,13.42132,134.217" />
+							<Hotspot Name="Ulgo Supply Tracker" XYZ="255.5338,13.60066,137.6582" />
+							<Hotspot Name="Ulgo Supply Guard" XYZ="261.5681,11.201,117.3566" />
+							<Hotspot Name="Ulgo Supply Tracker" XYZ="265.1207,11.001,110.3587" />
+							<Hotspot Name="Ulgo Supply Monitor" XYZ="260.7411,11.001,114.0926" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -358,7 +305,22 @@
 			</If>
 			<!-- Explosive Situation (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0001D31CB9103AA))">
-				<Grind GrindRef="Explosive Situation (Bonus)" While="(not IsQuestComplete(0xE0001D31CB9103AA))" />
+				<Grind While="(not IsQuestComplete(0xE0001D31CB9103AA))">
+					<GrindArea Name="Explosive Situation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thul Veteran</Mob>
+							<Mob>Thul Grenadier</Mob>
+							<Mob>Thul Xenochemist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thul Grenadier" XYZ="204.6811,15.71888,90.8751" />
+							<Hotspot Name="Thul Grenadier" XYZ="207.0598,15.8219,98.3968" />
+							<Hotspot Name="Thul Xenochemist" XYZ="203.3437,15.99373,97.15479" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00034AA2E840DC8)) and (not IsBranchStepComplete(0xE00034AA2E840DC8, 1, 3)))">
 				<!-- On npc - Baliss Recruit, Baliss Soldier, Baliss Veteran, Baliss Drill Sergeant - 30s cd -->
@@ -393,7 +355,20 @@
 				<TalkTo QuestId="0xE00034BA9FA95173" Name="Elric Organa" XYZ="311.157,18.401,40.66664" />
 			</If>
 			<If Condition="((HasQuest(0xE00034BA9FA95173)) and (not IsBranchStepComplete(0xE00034BA9FA95173, 1, 3)))">
-				<Grind GrindRef="A Spy in House Organa 3" While="(not IsBranchStepComplete(0xE00034BA9FA95173, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE00034BA9FA95173, 1, 3))">
+					<GrindArea Name="A Spy in House Organa 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thul Spy</Mob>
+							<Mob>Elric Organa</Mob>
+							<Mob>Elric Organa's Bodyguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thul Spy" XYZ="311.6061,18.401,41.00134" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="A Spy in House Organa" QuestId="0xE00034BA9FA95173" TurnInName="Agent Tyuth" XYZ="307.4517,18.45979,47.4694" />
 			<CompleteQuest QuestName="A Spy in House Organa" QuestId="0xE00034BA9FA95173" />
@@ -405,7 +380,18 @@
 				<MoveTo QuestId="0xE000121C736BE5EE" Name="Sith Lord Brakar" XYZ="288.6027,18.74416,27.775" />
 			</If>
 			<If Condition="((HasQuest(0xE000121C736BE5EE)) and (not IsBranchStepComplete(0xE000121C736BE5EE, 1, 3)))">
-				<Grind GrindRef="The Missing Holocron" While="(not IsBranchStepComplete(0xE000121C736BE5EE, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000121C736BE5EE, 1, 3))">
+					<GrindArea Name="The Missing Holocron">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Lord Brakar</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith Lord Brakar" XYZ="288.6027,18.74416,27.775" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000121C736BE5EE)) and (not IsBranchStepComplete(0xE000121C736BE5EE, 1, 4)))">
 				<UseObject QuestId="0xE000121C736BE5EE" ObjectName="Jedi Holocron" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="288.6587,18.74416,27.75342" />

@@ -2,65 +2,6 @@
 	<Name>[EMPIRE|DARK] Korriban 1-10 - Recreated by Orlok Raven</Name>
 	<ForceAlignment Type="Dark" AutoSkip="True" />
 	<!-- Beginning of Grind References -->	
-	<GrindAreas>
-
-		<!-- First Grind Reference -->
-		<GrindArea Name="Reclaiming the Valley">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>K'lor'slug Forager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot XYZ="12.81861,-0.9160324,5.116463" Name="South"/>
-				<Hotspot XYZ="7.25055,-1.630702,5.163111" Name="Center"/>
-				<Hotspot XYZ="-0.05298621,-1.608829,3.756884" Name="North/West"/>
-				<Hotspot XYZ="2.896528,-1.639983,-4.145567" Name="North/East"/>
-			</Hotspots>
-		</GrindArea>
-
-		<!-- Second Grind Reference -->
-		<GrindArea Name="Martial Law 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Balek</Mob>
-				<Mob>Wydr</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Balek" XYZ="-30.84436,3.801014,0.01873569"/>
-			</Hotspots>
-		</GrindArea>
-
-		<!-- Third Grind Reference -->
-		<GrindArea Name="Go to Dromund Kaas 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Thug</Mob>
-				<Mob>Apprentice Ortosin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Apprentice Ortosin" XYZ="-31.06841,3.801,2.488594"/>
-			</Hotspots>
-		</GrindArea>
-
-		<!-- Fourth Grind Reference -->
-		<GrindArea Name="Spindrall's Acolytes">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Spindrall's Acolyte</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="10.60293,-5.22648,19.71964"/>
-				<Hotspot Name="My Location" XYZ="10.5957,-5.221856,17.92851"/>
-				<Hotspot Name="My Location" XYZ="9.534595,-5.248999,18.25602"/>
-				<Hotspot Name="My Location" XYZ="9.453938,-5.248999,19.3616"/>
-			</Hotspots>
-		</GrindArea>
-		<!-- End of Grind References -->
-	</GrindAreas>	
 	<Questing>
 
 		<!--  Inquisitor - Of Mind and Matter  -->
@@ -70,7 +11,21 @@
 			</If>
 			<!--  Cleanse the Valley (Bonus)  -->
 			<If Condition="(not IsQuestComplete(0xE000F0833C9D2F06))">
-				<Grind GrindRef="Reclaiming the Valley" While="(not IsQuestComplete(0xE000F0833C9D2F06))"/>
+				<Grind While="(not IsQuestComplete(0xE000F0833C9D2F06))">
+					<GrindArea Name="Reclaiming the Valley">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>K'lor'slug Forager</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot XYZ="12.81861,-0.9160324,5.116463" Name="South"/>
+							<Hotspot XYZ="7.25055,-1.630702,5.163111" Name="Center"/>
+							<Hotspot XYZ="-0.05298621,-1.608829,3.756884" Name="North/West"/>
+							<Hotspot XYZ="2.896528,-1.639983,-4.145567" Name="North/East"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -84,7 +39,21 @@
 			<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 4)">
 				<TalkTo QuestId="0xE000B378BD427FF4" Name="Spindrall" WaitTime="2000" XYZ="13.30599,-4.627172,18.81192"/>
 			</If>
-			<Grind GrindRef="Spindrall's Acolytes" While="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 7)"/>
+			<Grind While="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 7)">
+				<GrindArea Name="Spindrall's Acolytes">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Spindrall's Acolyte</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="10.60293,-5.22648,19.71964"/>
+						<Hotspot Name="My Location" XYZ="10.5957,-5.221856,17.92851"/>
+						<Hotspot Name="My Location" XYZ="9.534595,-5.248999,18.25602"/>
+						<Hotspot Name="My Location" XYZ="9.453938,-5.248999,19.3616"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000B378BD427FF4) and not IsStepComplete(0xE000B378BD427FF4, 8)">
 				<TalkTo QuestId="0xE000B378BD427FF4" Name="Spindrall" WaitTime="1000" XYZ="13.30599,-4.627172,18.81192"/>
 			</If>
@@ -185,7 +154,19 @@
 			<If Condition="HasQuest(0xE00000C202BB39B6) and not IsStepComplete(0xE00000C202BB39B6, 2)">
 				<MoveTo QuestId="0xE00000C202BB39B6" XYZ="-30.71463,3.801014,-0.09478556"/>
 			</If>
-			<Grind GrindRef="Martial Law 4" While="(not IsBranchStepComplete(0xE00000C202BB39B6, 1, 4))"/>
+			<Grind While="(not IsBranchStepComplete(0xE00000C202BB39B6, 1, 4))">
+				<GrindArea Name="Martial Law 4">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Balek</Mob>
+						<Mob>Wydr</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Balek" XYZ="-30.84436,3.801014,0.01873569"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Martial Law" QuestId="0xE00000C202BB39B6" TurnInName="Overseer Harkun" XYZ="-26.87529,1.400401,-9.598235"/>
 			<CompleteQuest QuestName="Martial Law" QuestId="0xE00000C202BB39B6"/>
 		</If>
@@ -233,7 +214,19 @@
 		<!--  Inquisitor - Go to Dromund Kaas 2  -->
 		<If Condition="((HasQuest(0xE0008DB4769571D5)) and (not IsQuestComplete(0xE0008DB4769571D5)))">
 			<If Condition="((HasQuest(0xE0008DB4769571D5)) and (not IsBranchStepComplete(0xE0008DB4769571D5, 1, 2)))">
-				<Grind GrindRef="Go to Dromund Kaas 2" While="(not IsBranchStepComplete(0xE0008DB4769571D5, 1, 2))"/>
+				<Grind While="(not IsBranchStepComplete(0xE0008DB4769571D5, 1, 2))">
+					<GrindArea Name="Go to Dromund Kaas 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Thug</Mob>
+							<Mob>Apprentice Ortosin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Apprentice Ortosin" XYZ="-31.06841,3.801,2.488594"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 

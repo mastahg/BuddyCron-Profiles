@@ -17,41 +17,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Ulgo Champion">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Champion</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Champion" XYZ="102.5569,19.124,125.7838" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Ulgo Champion">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Overseer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Overseer" XYZ="108.709,19.0458,-73.68323" />
-			</Hotspots>
-		</GrindArea>   
-
-		<GrindArea Name="Master Sidonie Garen">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Sidonie Garen</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Sidonie Garen" XYZ="108.709,19.0458,-73.68323" />
-			</Hotspots>
-		</GrindArea>   		
-		
-	
-		
 	</GrindAreas>
 	
 	
@@ -114,7 +79,18 @@
 			<TalkTo QuestId="0xE000477142135D5E" Name="Astar Vox" XYZ="102.5616,19.12408,125.948" />
 		</If>		
 		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 2, 2)))">
-			<Grind GrindRef="Ulgo Champion" While="(not IsQuestComplete(0xE000477142135D5E))" />
+			<Grind While="(not IsQuestComplete(0xE000477142135D5E))">
+				<GrindArea Name="Ulgo Champion">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>50</MaxLevel>
+					<Mobs>
+						<Mob>Ulgo Champion</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Ulgo Champion" XYZ="102.5569,19.124,125.7838" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>			
 		<If Condition="((HasQuest(0xE000477142135D5E)) and (not IsBranchStepComplete(0xE000477142135D5E, 2, 3)))">
 			<AnswerHolocomCall QuestName="Hostile Negotiations" QuestId="0xE000477142135D5E" />
@@ -128,7 +104,18 @@
 				<MoveTo QuestId="0xE000ECFC36E3348B" Name="MY Location" XYZ="109.0472,19.0458,-73.68259" />
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 3)))">
-				<Grind GrindRef="Rist Overseer" While="(not IsQuestComplete(0xE000ECFC36E3348B))" />
+				<Grind While="(not IsQuestComplete(0xE000ECFC36E3348B))">
+					<GrindArea Name="Rist Overseer">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Overseer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Overseer" XYZ="108.709,19.0458,-73.68323" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 4)))">
 				<UseObject QuestId="0xE000ECFC36E3348B" ObjectName="Control Panel" BranchId="1" StepId="4" Radius="200" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="108.8625,19.0458,-73.79199" /> 

@@ -7,22 +7,6 @@
 		<Hotspot Name="Medical Droid" XYZ="0.3815,0.0037,-6.9829" />
 	</Vendors>
 
-	<GrindAreas> 
-		
-		<GrindArea Name="The Defector 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Valis</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Valis" XYZ="1.958833,0.000998685,9.50685" />
-			</Hotspots>
-		</GrindArea>    
-  
-	
-	</GrindAreas>
-
 	<Questing>
 
 		<If Condition="(TorMap.CurrentAreaName == &quot;Abandoned Mining Facility&quot;)">
@@ -41,7 +25,18 @@
 					<TalkTo QuestId="0xE000D3C32C78003D" Name="Valis" XYZ="2.128344,0.001,9.66376" />
 				</If>
 				<If Condition="((HasQuest(0xE000D3C32C78003D)) and (not IsBranchStepComplete(0xE000D3C32C78003D, 1, 5)))">
-					<Grind GrindRef="The Defector 1" While="(not IsBranchStepComplete(0xE000D3C32C78003D, 1, 5))" />
+					<Grind While="(not IsBranchStepComplete(0xE000D3C32C78003D, 1, 5))">
+						<GrindArea Name="The Defector 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Valis</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Valis" XYZ="1.958833,0.000998685,9.50685" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000D3C32C78003D)) and (not IsBranchStepComplete(0xE000D3C32C78003D, 1, 6)))">
 					<MoveTo QuestId="0xE000D3C32C78003D" Name="Defender - Airlock to Ship" Radius="20" WaitTime="5" XYZ="-16.02484,0.003700007,12.61585" />

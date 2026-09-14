@@ -28,30 +28,6 @@
 	</AvoidMobs>
 	-->
 	
-	<GrindAreas>
-		<GrindArea Name="Toborro's Best">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Regulator Sharpshooter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sharpshooter Loc. 1" XYZ="32.61469,-11.14649,-463.6656" />
-				<Hotspot Name="Sharpshooter Loc. 2" XYZ="35.23322,-11.14812,-461.0986" />
-				<Hotspot Name="Sharpshooter Loc. 3" XYZ="28.4765,-11.14828,-460.3694" />
-				<Hotspot Name="Sharpshooter Loc. 4" XYZ="30.73238,-11.38851,-458.2828" />
-				<Hotspot Name="Sharpshooter Loc. 5" XYZ="26.3201,-11.37098,-456.6731" />			
-				<Hotspot Name="Sharpshooter Loc. 6" XYZ="26.5463,-11.70275,-451.809" />	
-				<Hotspot Name="Sharpshooter Loc. 7" XYZ="22.4786,-10.99984,-450.9525" />			
-				<Hotspot Name="Sharpshooter Loc. 8" XYZ="19.1763,-11.34296,-450.7561"  />			
-				<Hotspot Name="Sharpshooter Loc. 9" XYZ="21.1618,-11.67646,-453.8333" />			
-				<Hotspot Name="Sharpshooter Loc. 10" XYZ="22.07952,-10.70472,-447.682" />			
-				<Hotspot Name="Sharpshooter Loc. 11" XYZ="26.4995,-10.60144,-446.1643" />	
-				<Hotspot Name="Sharpshooter Loc. 12" XYZ="30.42515,-10.89441,-447.6404" />	
-			</Hotspots>
-		</GrindArea>	
-	</GrindAreas>	
-
 	<Questing>
 		<!--
  		<UserDialog Title="Hey!" Message="I'm starting at Avesta's Plantation!" />
@@ -463,7 +439,29 @@
 		<!-- [DAILY] Toborro's Best -->
 		<If Condition="((HasQuest(0xE000CAD2F83AB6DB)) and (not IsQuestComplete(0xE000CAD2F83AB6DB)) )">
 			<If Condition="(not IsStepComplete(0xE000CAD2F83AB6DB, 2))">
-				<Grind GrindRef="Toborro's Best" While="(not IsStepComplete(0xE000CAD2F83AB6DB, 2))"/>
+				<Grind While="(not IsStepComplete(0xE000CAD2F83AB6DB, 2))">
+					<GrindArea Name="Toborro's Best">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Regulator Sharpshooter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sharpshooter Loc. 1" XYZ="32.61469,-11.14649,-463.6656" />
+							<Hotspot Name="Sharpshooter Loc. 2" XYZ="35.23322,-11.14812,-461.0986" />
+							<Hotspot Name="Sharpshooter Loc. 3" XYZ="28.4765,-11.14828,-460.3694" />
+							<Hotspot Name="Sharpshooter Loc. 4" XYZ="30.73238,-11.38851,-458.2828" />
+							<Hotspot Name="Sharpshooter Loc. 5" XYZ="26.3201,-11.37098,-456.6731" />			
+							<Hotspot Name="Sharpshooter Loc. 6" XYZ="26.5463,-11.70275,-451.809" />	
+							<Hotspot Name="Sharpshooter Loc. 7" XYZ="22.4786,-10.99984,-450.9525" />			
+							<Hotspot Name="Sharpshooter Loc. 8" XYZ="19.1763,-11.34296,-450.7561"  />			
+							<Hotspot Name="Sharpshooter Loc. 9" XYZ="21.1618,-11.67646,-453.8333" />			
+							<Hotspot Name="Sharpshooter Loc. 10" XYZ="22.07952,-10.70472,-447.682" />			
+							<Hotspot Name="Sharpshooter Loc. 11" XYZ="26.4995,-10.60144,-446.1643" />	
+							<Hotspot Name="Sharpshooter Loc. 12" XYZ="30.42515,-10.89441,-447.6404" />	
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="(not IsStepComplete(0xE000CAD2F83AB6DB, 3))">			
 				<MoveTo QuestId="0xE000CAD2F83AB6DB" XYZ="33.01517,-11.18327,-472.6186" />

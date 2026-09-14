@@ -7,34 +7,6 @@
 	</Vendors>
 
 	<GrindAreas>
-		<GrindArea Name="[AREA] Criminal Crackdown 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Torvix Bruiser</Mob>
-				<Mob>Torvix Demolisher</Mob>
-				<Mob>Torvix Cannoneer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Torvix Bruiser" XYZ="21.9561,1.913948,-52.0914" />
-				<Hotspot Name="Torvix Demolisher" XYZ="23.0531,1.866013,-52.1841" />
-				<Hotspot Name="Torvix Cannoneer" XYZ="25.5298,1.895311,-50.3952" />
-				<Hotspot Name="Torvix Bruiser" XYZ="25.2173,1.895311,-49.8833" />
-				<Hotspot Name="Torvix Bruiser" XYZ="24.7916,1.885514,-55.2472" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="[AREA] Criminal Crackdown 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Quick-Shot Quarl</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Quick-Shot Quarl" XYZ="-10.5185,1.897177,-32.1236" />
-			</Hotspots>
-		</GrindArea>		
-
 		<GrindArea Name="[DAILY] Counter Eco-Terrorism 1">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>100</MaxLevel>
@@ -142,7 +114,24 @@
 		<!-- [AREA] Criminal Crackdown -->
 		<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsQuestComplete(0xE0009A6887C8FC9F)))">
 			<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 3)))">
-				<Grind GrindRef="[AREA] Criminal Crackdown 1" While="(not IsStepComplete(0xE0009A6887C8FC9F, 3))"/>
+				<Grind While="(not IsStepComplete(0xE0009A6887C8FC9F, 3))">
+					<GrindArea Name="[AREA] Criminal Crackdown 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Torvix Bruiser</Mob>
+							<Mob>Torvix Demolisher</Mob>
+							<Mob>Torvix Cannoneer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Torvix Bruiser" XYZ="21.9561,1.913948,-52.0914" />
+							<Hotspot Name="Torvix Demolisher" XYZ="23.0531,1.866013,-52.1841" />
+							<Hotspot Name="Torvix Cannoneer" XYZ="25.5298,1.895311,-50.3952" />
+							<Hotspot Name="Torvix Bruiser" XYZ="25.2173,1.895311,-49.8833" />
+							<Hotspot Name="Torvix Bruiser" XYZ="24.7916,1.885514,-55.2472" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 5)))">
 				<UseObject QuestId="0xE0009A6887C8FC9F" BranchId="1" StepId="5" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
@@ -198,7 +187,18 @@
 			<If Condition="((HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 7)))">
 				<MoveTo QuestId="0xE0009A6887C8FC9F" Name="Going to Sensor Hub" XYZ="-10.34794,1.897177,-33.00782" /> 
 				<UseObject QuestId="0xE0009A6887C8FC9F" ObjectName="Sensor Hub" BranchId="1" StepId="7" IgnoreLOS="True" Radius="10" UseRange="5" WaitTime="5" XYZ="-10.34794,1.897177,-33.00782" /> 
-				<Grind GrindRef="[AREA] Criminal Crackdown 2" While="(not IsStepComplete(0xE0009A6887C8FC9F, 7))"/>
+				<Grind While="(not IsStepComplete(0xE0009A6887C8FC9F, 7))">
+					<GrindArea Name="[AREA] Criminal Crackdown 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Quick-Shot Quarl</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Quick-Shot Quarl" XYZ="-10.5185,1.897177,-32.1236" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>		
 		</If>
 

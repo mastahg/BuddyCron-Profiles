@@ -39,773 +39,6 @@
 	</AvoidMobs>
 	-->
 	
-	<GrindAreas>
-		
-		<GrindArea Name="Defeat the Palawa Leader">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Palawa Leader</Mob>
-				<Mob>Palawa Follower</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Palawa Leader" XYZ="-40.3198,46.20502,-9.492437" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="The Whispering Dust 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Plunderer</Mob>
-				<Mob>Sand People Salvager</Mob>
-				<Mob>Sand People Looter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Salvager" XYZ="161.5384,41.546,72.81561" />
-				<Hotspot Name="Sand People Plunderer" XYZ="165.9634,41.55279,72.3634" />
-				<Hotspot Name="Sand People Looter" XYZ="167.7794,41.101,64.53809" />
-				<Hotspot Name="Sand People Plunderer" XYZ="162.5889,41.101,63.0672" />
-				<Hotspot Name="Sand People Salvager" XYZ="167.7869,42.301,64.5965" />
-				<Hotspot Name="Sand People Looter" XYZ="162.2784,42.291,63.79391" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Masters of the Desert Machines 2 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Protector</Mob>
-				<Mob>Trade Master Thint</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Trade Master Thint" XYZ="128.9388,53.33852,351.5408" />
-				<Hotspot Name="My Location" XYZ="127.9086,53.30486,345.8182" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Masters of the Desert Machines 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Protector</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Jawa Protector" XYZ="127.4208,53.30708,351.6089" />
-				<Hotspot Name="Jawa Protector" XYZ="129.6067,53.31213,350.2549" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Shaman 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Warrior</Mob>
-				<Mob>Jawa Defender</Mob>
-				<Mob>Jawa Sentry</Mob>
-				<Mob>Jawa Shaman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Jawa Warrior" XYZ="125.2795,46.70572,333.6439" />
-				<Hotspot Name="Jawa Defender" XYZ="125.8824,46.72346,334.4738" />
-				<Hotspot Name="Jawa Sentry" XYZ="125.5542,46.71909,334.575" />
-				<Hotspot Name="Jawa Shaman" XYZ="125.4478,46.6998,333.2722" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Final Stage - Enforcing Order - Retrieve Exchange Shipping Records from Exchange Division Commander">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Division Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Division Commander" XYZ="68.31181,42.0803,-11.79397" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 3 - Enforcing Order">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Assault Droid</Mob>
-				<Mob>Exchange Elite Guard</Mob>
-				<Mob>Exchange Quartermaster</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
-				<Hotspot Name="My Location" XYZ="86.6192,42.09088,-3.703967" />
-				<Hotspot Name="My Location" XYZ="94.43649,42.37826,-0.9193409" />
-				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
-				<Hotspot Name="Exchange Sentry" XYZ="79.4231,44.84555,-15.7237" />
-				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
-				<Hotspot Name="Exchange Raider" XYZ="63.3857,42.04995,-8.873597" />
-				<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Anti-Aircraft Gunner</Mob>
-				<Mob>Exchange Assault Droid</Mob>
-				<Mob>Exchange Droid Technician</Mob>
-				<Mob>Exchange Investigation Drone</Mob>
-				<Mob>Exchange Quartermaster</Mob>
-				<Mob>Exchange Raider</Mob>
-				<Mob>Exchange Raider</Mob>
-				<Mob>Exchange Sentry</Mob>
-				<Mob>Exchange Slicer</Mob>
-				<Mob>Exchange Supply Runner</Mob>
-				<Mob>Exchange Tech-Runner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="90.29421,42.04658,-9.047235" />
-				<Hotspot Name="Exchange Supply Runner" XYZ="99.5886,43.669,-16.3968" />
-				<Hotspot Name="Exchange Raider" XYZ="84.38779,42.09078,2.251667" />
-				<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
-				<Hotspot Name="My Location" XYZ="86.6192,42.09088,-3.703967" />
-				<Hotspot Name="My Location" XYZ="94.43649,42.37826,-0.9193409" />
-				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
-				<Hotspot Name="Exchange Sentry" XYZ="79.4231,44.84555,-15.7237" />
-				<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
-				<Hotspot Name="Exchange Raider" XYZ="63.3857,42.04995,-8.873597" />
-				<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />		
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Mandalorian Submission - Eliminate Mandalorian Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Mandalorian Obliterator Droid</Mob>
-				<Mob>Mandalorian Scout</Mob>
-				<Mob>Mandalorian Sentinel</Mob>
-				<Mob>Mandalorian Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="115.6428,45.81217,-57.34566" />
-				<Hotspot Name="Mandalorian Warrior" XYZ="114.7647,44.18621,-71.63461" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Trespassing - Defeat Republic Archaeologists">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Archaeologist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Archaeologist Escort" XYZ="94.14003,44.03234,-51.8562" />
-				<Hotspot Name="Republic Archaeologist" XYZ="86.7373,44.31664,-50.023" />
-				<Hotspot Name="Republic Specialist" XYZ="87.1486,44.02336,-41.7514" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Armed Escort - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Specialist</Mob>
-				<Mob>RX-77 Defense Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Archaeologist Escort" XYZ="94.14003,44.03234,-51.8562" />
-				<Hotspot Name="Republic Archaeologist" XYZ="86.7373,44.31664,-50.023" />
-				<Hotspot Name="Republic Specialist" XYZ="87.1486,44.02336,-41.7514" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Vacation's Over - Collect Womp Rat Skulls">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ravenous Womp Rat</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ravenous Womp Rat" XYZ="159.8664,44.45905,-16.96957" />
-				<Hotspot Name="Ravenous Womp Rat" XYZ="151.9365,44.46115,-15.0324" />
-				<Hotspot Name="Ravenous Womp Rat" XYZ="146.0388,44.55016,-8.582593" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Stage 1 - Sand Will Fall - Defeat Sand People Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Gamorrean Brawler</Mob>
-				<Mob>Sand People Chieftain</Mob>
-				<Mob>Sand People Deathwhisperer</Mob>
-				<Mob>Sand People Marauder</Mob>
-				<Mob>Sand People Raider</Mob>
-				<Mob>Sand People Sentry Rill</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Deathwhisperer" XYZ="223.5609,47.31212,25.6284" />
-				<Hotspot Name="Sand People Marauder" XYZ="226.2787,44.15707,15.70713" />
-				<Hotspot Name="Sand People Deathwhisperer" XYZ="228.2013,43.33723,6.989104" />
-				<Hotspot Name="Sand People Marauder" XYZ="218.4033,44.29581,25.62724" />
-				<Hotspot Name="Sand People Deathwhisperer" XYZ="211.0645,44.78148,21.8056" />
-				<Hotspot Name="Sand People Raider" XYZ="210.0849,44.08512,31.42842" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Raid the Defenses - Defeat Gamorrean Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Gamorrean Brawler</Mob>
-				<Mob>Gamorrean Deadeye</Mob>
-				<Mob>Gamorrean Mauler</Mob>
-				<Mob>Gamorrean Tusker</Mob>
-				<Mob>Reprogrammed Guard Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gamorrean Mauler" XYZ="152.3116,44.5523,15.919" />
-				<Hotspot Name="Gamorrean Tusker" XYZ="156.1609,44.101,9.293745" />
-				<Hotspot Name="Gamorrean Mauler" XYZ="153.1273,45.29433,6.341197" />
-				<Hotspot Name="Gamorrean Deadeye" XYZ="156.1277,45.291,9.343643" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="The Assassin's Fortress - Defeat the Old Man">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>The Old Man</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Old Man" XYZ="-237.7604,38.9552,-214.8695" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Harsh Lessons - Defeat Ghost Cell Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ghost Cell Espionage Droid</Mob>
-				<Mob>Ghost Cell Interrogation Drone</Mob>
-				<Mob>Ghost Cell Master Assassin</Mob>
-				<Mob>Ghost Cell Operative</Mob>
-				<Mob>Ghost Cell Sniper</Mob>
-				<Mob>Ghost Cell Terrorist</Mob>
-				<Mob>Ghost Cell Trainee</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ghost Cell Interrogation Drone" XYZ="-235.9029,38.11755,-206.7778" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="See No Evil - Eliminate Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Carrier Droid</Mob>
-				<Mob>Exchange Coordinator Drone</Mob>
-				<Mob>Exchange Defender</Mob>
-				<Mob>Exchange Overseer</Mob>
-				<Mob>Exchange Sentinel Droid</Mob>
-				<Mob>Exchange Watchman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Coordinator Drone" XYZ="-71.09905,43.2223,26.96628" />
-				<Hotspot Name="Exchange Coordinator Drone" XYZ="-67.70535,43.87571,26.36662" />
-				<Hotspot Name="Exchange Carrier Droid" XYZ="-72.69382,43.01148,26.52889" />
-				<Hotspot Name="Exchange Sentinel Droid" XYZ="-76.9437,43.13176,22.8403" />
-				<Hotspot Name="Exchange Carrier Droid" XYZ="-71.2467,44.2168,18.2021" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="The Thing Czerka Found - Defeat the Imprisoned One's Ambush">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Mutated Czerka Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mutated Czerka Guard" XYZ="-200.0969,30.91985,-35.0676" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Final Stage - Archaeology of Opportunity">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Cybernecrotic Director Antayen</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Cybernecrotic Director Antayen" XYZ="-202.9696,30.72147,-23.17714" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Berserk Czerka Droid</Mob>
-				<Mob>Charged Czerka Droid</Mob>
-				<Mob>Cybernecrotic Czerka Observer</Mob>
-				<Mob>Cybernecrotic Czerka Soldier</Mob>
-				<Mob>Rakata Enforcer Unit</Mob>
-				<Mob>Reanimated Czerka Guard</Mob>
-				<Mob>Reprogrammed Czerka Worker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-243.6358,37.71009,-31.19582" />
-				<Hotspot Name="Cybernecrotic Czerka Observer" XYZ="-244.9848,36.91859,-20.961" />
-				<Hotspot Name="Cybernecrotic Czerka Observer" XYZ="-244.84,30.88753,-21.0524" />
-				<Hotspot Name="Reanimated Czerka Guard" XYZ="-240.7398,30.91546,-15.3759" />
-				<Hotspot Name="Rakata Enforcer Unit" XYZ="-238.095,30.92528,-6.782582" />
-				<Hotspot Name="Reprogrammed Czerka Worker" XYZ="-237.4144,30.91764,-2.179597" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Thirst for Glory - Defeat Sand People Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Bonebreaker</Mob>
-				<Mob>Sand People Brute</Mob>
-				<Mob>Sand People Gatekeeper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Bonebreaker" XYZ="-218.5518,44.22432,-68.3346" />
-				<Hotspot Name="Sand People Bonebreaker" XYZ="-228.0713,43.86726,-67.79019" />
-				<Hotspot Name="Sand People Gatekeeper" XYZ="-236.3046,41.44257,-72.4722" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Sharing the Blame - Eliminate Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Transformed Perrin</Mob>
-				<Mob>Exchange Bandit</Mob>
-				<Mob>Exchange Bodyguard</Mob>
-				<Mob>Exchange Gunner</Mob>
-				<Mob>Exchange Patrol Droid</Mob>
-				<Mob>Exchange Scrounger</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Bandit" XYZ="-112.7617,41.44614,-1.013398" />
-				<Hotspot Name="Exchange Scrounger" XYZ="-103.8731,41.62349,-5.271643" />
-				<Hotspot Name="Exchange Bandit" XYZ="-104.2389,41.52208,-0.4812855" />
-				<Hotspot Name="Exchange Bandit" XYZ="-106.1377,41.54724,0.977038" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat the Transformed Perrin">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Transformed Perrin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Transformed Perrin" XYZ="-55.3052,45.70635,-22.6108" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat the Infected Palawa">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Infected Palawa Defender</Mob>
-				<Mob>Infected Palawa Leader</Mob>
-				<Mob>Infected Palawa Overlord</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-45.00381,46.20234,-12.87426" />
-				<Hotspot Name="My Location" XYZ="-48.67903,45.87878,-17.58916" />
-				<Hotspot Name="My Location" XYZ="-51.16454,45.67956,-23.85044" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Burn It Out - Defeat Non-Infected Palawa">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Palawa Brawler</Mob>
-				<Mob>Palawa Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-38.82282,45.80495,-12.41521" />
-				<Hotspot Name="My Location" XYZ="-39.47942,46.15166,-23.31636" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat the Transformed Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Transformed Keighlah</Mob>
-				<Mob>Transformed Archaeologist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-49.38709,46.24954,3.345078" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Combat Advantage - Dispatch Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Weapons Specialist</Mob>
-				<Mob>Exchange Attack Droid</Mob>
-				<Mob>Exchange Captain</Mob>
-				<Mob>Exchange Enforcer</Mob>
-				<Mob>Exchange Gun Technician</Mob>
-				<Mob>Exchange Informer</Mob>
-				<Mob>Exchange Surveyor</Mob>
-				<Mob>Exchange Weapon Tester</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Weapons Specialist" XYZ="-22.33845,45.74397,64.16488" />
-				<Hotspot Name="My Location" XYZ="-28.03979,45.53493,63.49699" />
-				<Hotspot Name="My Location" XYZ="-30.35781,45.91379,68.53695" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Weapons Calibration - Recover the Data Spikes">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Weapons Specialist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Weapons Specialist" XYZ="-22.33845,45.74397,64.16488" />
-				<Hotspot Name="My Location" XYZ="-28.03979,45.53493,63.49699" />
-				<Hotspot Name="My Location" XYZ="-30.35781,45.91379,68.53695" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="The Dragon's Teeth - Dispatch Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Assassin</Mob>
-				<Mob>Exchange Eliminator</Mob>
-				<Mob>Exchange Garrison</Mob>
-				<Mob>Exchange Lookout</Mob>
-				<Mob>Exchange Shocker Drone</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="27.69472,48.11877,36.7242" />
-				<Hotspot Name="Exchange Eliminator" XYZ="29.7026,47.93571,42.362" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat the Ghost Cell Elite">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ghost Cell Elite</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="164.5296,41.051,68.26904" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat Ghost Cell Assassins">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ghost Cell Assassin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="164.8426,41.051,68.24911" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Final Stage - Blood on the Sand">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Kortawa the Hunt Master</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kortawa the Hunt Master" XYZ="197.2585,41.49528,55.6539" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 2 - Blood on the Sand - Defeat Sand People Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Guide</Mob>
-				<Mob>Sand People Cave Keeper</Mob>
-				<Mob>Sand People Guide</Mob>
-				<Mob>Sand People Poisonous Rill</Mob>
-				<Mob>Sand People Ravager</Mob>
-				<Mob>Sand People Rifleman</Mob>
-				<Mob>Sand People Stalker</Mob>
-				<Mob>Sand People Vanguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
-				<Hotspot Name="Sand People Guide" XYZ="155.2766,41.8518,62.3051" />
-				<Hotspot Name="Sand People Stalker" XYZ="156.4103,41.59692,70.81053" />
-				<Hotspot Name="Sand People Rifleman" XYZ="165.5653,41.82872,75.57439" />
-				<Hotspot Name="Sand People Rifleman" XYZ="178.2739,41.49809,69.31779" />
-				<Hotspot Name="Sand People Stalker" XYZ="166.5475,40.40388,58.3198" />
-				<Hotspot Name="Sand People Rifleman" XYZ="179.5944,42.02792,78.75652" />
-				<Hotspot Name="Sand People Guide" XYZ="194.5261,41.56016,61.5405" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 1 - Blood on the Sand - Defeat Sand People Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Guide</Mob>
-				<Mob>Sand People Cave Keeper</Mob>
-				<Mob>Sand People Guide</Mob>
-				<Mob>Sand People Poisonous Rill</Mob>
-				<Mob>Sand People Ravager</Mob>
-				<Mob>Sand People Rifleman</Mob>
-				<Mob>Sand People Stalker</Mob>
-				<Mob>Sand People Vanguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
-				<Hotspot Name="Sand People Guide" XYZ="155.2766,41.8518,62.3051" />
-				<Hotspot Name="Sand People Stalker" XYZ="156.4103,41.59692,70.81053" />
-				<Hotspot Name="Sand People Rifleman" XYZ="165.5653,41.82872,75.57439" />
-				<Hotspot Name="Sand People Rifleman" XYZ="178.2739,41.49809,69.31779" />
-				<Hotspot Name="Sand People Stalker" XYZ="166.5475,40.40388,58.3198" />
-				<Hotspot Name="Sand People Rifleman" XYZ="179.5944,42.02792,78.75652" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Journey into Dust - Get a Compass from Sand People Guides">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Guide</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Junkers and Clunkers - Destroy Malfunctioning Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Malfunctioning Junk Droid</Mob>
-				<Mob>Malfunctioning Probe Droid</Mob>
-				<Mob>Malfunctioning Repair Droid</Mob>
-				<Mob>Modified Junk Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="100.3987,45.59102,68.9481" />
-				<Hotspot Name="Malfunctioning Probe Droid" XYZ="106.6399,45.47429,62.0688" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Shaman - Defeat the Jawa Shaman">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Shaman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Jawa Shaman" XYZ="125.4408,46.70143,333.2686" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Thin Out the Training Ground - Eliminate Jawa Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Demolitionist</Mob>
-				<Mob>Jawa Scavenger</Mob>
-				<Mob>Jawa Soothsayer</Mob>
-				<Mob>Jawa Spelunking Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="109.6899,46.7318,335.0517" />
-				<Hotspot Name="My Location" XYZ="111.3773,46.80237,339.2421" />
-				<Hotspot Name="My Location" XYZ="118.0945,46.73105,340.2725" />
-				<Hotspot Name="My Location" XYZ="122.3303,46.71958,340.2816" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="New Threats - Acquire the Code Cipher from a Jawa Guardian">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Forager</Mob>
-				<Mob>Jawa Guardian</Mob>
-				<Mob>Jawa Scavenger Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="109.1998,47.31427,273.3712" />
-				<Hotspot Name="My Location" XYZ="115.1156,47.46357,275.8809" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Jawa Dropping - Defeat Jawa Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jawa Forager</Mob>
-				<Mob>Jawa Guardian</Mob>
-				<Mob>Jawa Scavenger Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="109.1998,47.31427,273.3712" />
-				<Hotspot Name="My Location" XYZ="115.1156,47.46357,275.8809" />
-				<Hotspot Name="Jawa Guardian" XYZ="123.0108,47.92204,273.1021" />
-				<Hotspot Name="Jawa Forager" XYZ="121.7141,47.99735,277.5749" />
-				<Hotspot Name="Jawa Guardian" XYZ="119.0106,47.31469,275.4286" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Defeat Freher Wonn">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Freher Wonn</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Freher Wonn" XYZ="101.729,45.6147,218.0103" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Crush the Palawa - Defeat Palawa Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Palawa Battle Droid</Mob>
-				<Mob>Palawa Bruiser</Mob>
-				<Mob>Palawa Combat Droid</Mob>
-				<Mob>Palawa Crusader Droid</Mob>
-				<Mob>Palawa Guardian</Mob>
-				<Mob>Palawa Scanning Drone</Mob>
-				<Mob>Palawa Subordinate</Mob>
-				<Mob>Palawa Superior</Mob>
-				<Mob>Palawa Technician</Mob>
-				<Mob>Weathered Palawa Battle Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="111.6595,46.80883,245.5517" />
-				<Hotspot Name="My Location" XYZ="103.6197,45.85417,241.9093" />
-				<Hotspot Name="My Location" XYZ="102.1012,45.43977,235.1834" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Exchange Roundup - Defeat Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Assassin Droid</Mob>
-				<Mob>Exchange Bounty Hunter</Mob>
-				<Mob>Exchange Informer</Mob>
-				<Mob>Exchange Sentry Drone</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Exchange Informer" XYZ="110.7515,46.72477,285.6073" />
-				<Hotspot Name="Exchange Sentry Drone" XYZ="118.2346,47.06644,289.0938" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Sweeping Up - Destroy Exchange Warehouse Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Warehouse Battledroid</Mob>
-				<Mob>Exchange Warehouse Droid</Mob>
-				<Mob>Exchange Warehouse Inventory Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="51.48183,48.05161,284.0996" />
-				<Hotspot Name="Exchange Warehouse Battledroid" XYZ="48.69813,47.6116,277.7266" />
-				<Hotspot Name="Exchange Warehouse Battledroid" XYZ="54.2656,48.79797,278.8324" />
-				<Hotspot Name="My Location" XYZ="51.33102,47.98737,283.7009" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Plugging the Leak - Retrieve a Signaling Device">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Suspicious Transient</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
-				<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
-				<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
-				<Hotspot Name="My Location" XYZ="55.00733,48.4569,307.607" />
-				<Hotspot Name="My Location" XYZ="58.89988,48.457,300.5053" />
-				<Hotspot Name="My Location" XYZ="75.8835,47.83695,319.5172" />
-				<Hotspot Name="My Location" XYZ="63.79152,51.16941,328.9162" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stage 1 - Danger in the Streets">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Infiltrator</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
-				<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
-				<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
-				<Hotspot Name="My Location" XYZ="55.00733,48.4569,307.607" />
-				<Hotspot Name="My Location" XYZ="58.89988,48.457,300.5053" />
-				<Hotspot Name="My Location" XYZ="63.79152,51.16941,328.9162" />
-				<Hotspot Name="My Location" XYZ="46.72267,51.16698,317.1642" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="The Spy Dance - Recover Security Droid Holocams">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
-				<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
-				<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Defeat Exchange Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Exchange Brawler</Mob>
-				<Mob>Exchange Thug</Mob>
-			</Mobs>
-			<HotSpots>
-				<HotSpot Name="Exchange Thug" XYZ="100.6544,47.94371,265.221" />
-				<HotSpot Name="Exchange Brawler" XYZ="104.5353,47.9293,265.9701" />
-				<HotSpot Name="Exchange Brawler" XYZ="94.9198,47.78873,263.8568" />
-				<HotSpot Name="Exchange Brawler" XYZ="101.2981,47.97087,270.2771" />
-			</HotSpots>
-		</GrindArea>
-
-		<GrindArea Name="Bleed the Wound">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Sand People Firewalker</Mob>
-				<Mob>Sand People Assault Rill</Mob>
-				<Mob>Sand People Gunner</Mob>
-			</Mobs>
-			<HotSpots>
-				<HotSpot Name="Sand People Gunner" XYZ="-38.78614,45.36166,36.41507" />
-				<HotSpot Name="Sand People Firewalker" XYZ="-40.18617,45.56287,40.2383" />
-				<HotSpot Name="Sand People Gunner" XYZ="-41.04989,45.87774,46.9468" />
-				<HotSpot Name="Sand People Firewalker" XYZ="-47.51869,45.20315,45.8449" />
-			</HotSpots>
-		</GrindArea>
-		
-	</GrindAreas>
-	
 	<Questing>
 		<!--
 		<If Condition="(Me.Class == CharacterClass.BountyHunter)">
@@ -884,7 +117,20 @@
 		<!-- Agent - The Spy Dance -->
 		<If Condition="((HasQuest(0xE000F1803B97A0CE)) and (not IsQuestComplete(0xE000F1803B97A0CE)))">
 			<UseObject ObjectName="Public Holocom Terminal" QuestId="0xE000F1803B97A0CE" BranchId="1" StepId="4" WaitTime="3" XYZ="58.17363,51.21539,334.2404" />
-			<Grind GrindRef="The Spy Dance - Recover Security Droid Holocams" While="not IsStepComplete(0xE000F1803B97A0CE, 5)" />
+			<Grind While="not IsStepComplete(0xE000F1803B97A0CE, 5)">
+				<GrindArea Name="The Spy Dance - Recover Security Droid Holocams">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Security Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
+						<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
+						<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000F1803B97A0CE) and not IsStepComplete(0xE000F1803B97A0CE, 6)" >
 				<TalkTo QuestId="0xE000F1803B97A0CE" WaitTime="1" Name="Datto Wys" XYZ="51.8488,48.48854,309.7374" />
 			</If>
@@ -924,7 +170,24 @@
 			</If>
 			<!-- Stage 1 - Danger in the Streets -->
 			<If Condition="(not IsQuestComplete(0xE0009A8942348C56))">
-				<Grind GrindRef="Stage 1 - Danger in the Streets" While="(not IsQuestComplete(0xE0009A8942348C56))" />
+				<Grind While="(not IsQuestComplete(0xE0009A8942348C56))">
+					<GrindArea Name="Stage 1 - Danger in the Streets">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Infiltrator</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
+							<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
+							<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
+							<Hotspot Name="My Location" XYZ="55.00733,48.4569,307.607" />
+							<Hotspot Name="My Location" XYZ="58.89988,48.457,300.5053" />
+							<Hotspot Name="My Location" XYZ="63.79152,51.16941,328.9162" />
+							<Hotspot Name="My Location" XYZ="46.72267,51.16698,317.1642" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Danger in the streets - Access Encrypted Communicators -->
 			<If Condition="HasQuest(0xE00097894234894F) and not IsStepComplete(0xE00097894234894F, 4)" >
@@ -957,7 +220,24 @@
 		<!-- Plugging the Leak and Turnin -->
 		<If Condition="((HasQuest(0xE0003EB23F608A87)) and (not IsQuestComplete(0xE0003EB23F608A87)))">
 			<If Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 2)">
-				<Grind GrindRef="Plugging the Leak - Retrieve a Signaling Device" While="not IsTaskComplete(0xE0003EB23F608A87, 2, 1)" />
+				<Grind While="not IsTaskComplete(0xE0003EB23F608A87, 2, 1)">
+					<GrindArea Name="Plugging the Leak - Retrieve a Signaling Device">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Suspicious Transient</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
+							<Hotspot Name="My Location" XYZ="52.96801,51.16391,320.2919" />
+							<Hotspot Name="My Location" XYZ="46.78575,50.84621,315.5414" />
+							<Hotspot Name="My Location" XYZ="55.00733,48.4569,307.607" />
+							<Hotspot Name="My Location" XYZ="58.89988,48.457,300.5053" />
+							<Hotspot Name="My Location" XYZ="75.8835,47.83695,319.5172" />
+							<Hotspot Name="My Location" XYZ="63.79152,51.16941,328.9162" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<UseObject QuestId="0xE0003EB23F608A87" ObjectName="Explosive Chemicals" BranchId="1" StepId="2" TaskId="0" Radius="200" WaitTime="1500" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="58.79965,51.20755,325.9948" />
@@ -971,7 +251,23 @@
 			</If>
 			<!-- Sweeping Up - Destroy Exchange Warehouse Droids -->
 			<If Condition="(not IsQuestComplete(0xE000D4797962A18F))">
-				<Grind GrindRef="Sweeping Up - Destroy Exchange Warehouse Droids" While="(not IsQuestComplete(0xE000D4797962A18F))" />
+				<Grind While="(not IsQuestComplete(0xE000D4797962A18F))">
+					<GrindArea Name="Sweeping Up - Destroy Exchange Warehouse Droids">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Warehouse Battledroid</Mob>
+							<Mob>Exchange Warehouse Droid</Mob>
+							<Mob>Exchange Warehouse Inventory Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="51.48183,48.05161,284.0996" />
+							<Hotspot Name="Exchange Warehouse Battledroid" XYZ="48.69813,47.6116,277.7266" />
+							<Hotspot Name="Exchange Warehouse Battledroid" XYZ="54.2656,48.79797,278.8324" />
+							<Hotspot Name="My Location" XYZ="51.33102,47.98737,283.7009" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0003EB23F608A87) and not IsStepComplete(0xE0003EB23F608A87, 3)">
 				<MoveTo QuestId="0xE0003EB23F608A87" XYZ="48.70205,48.8016,276.4238" />
@@ -987,7 +283,24 @@
 		<If Condition="((HasQuest(0xE0008F080295965B)) and (not IsQuestComplete(0xE0008F080295965B)))">
 			<!-- Jawa Dropping - Defeat Jawa Forces -->
 			<If Condition="(not IsQuestComplete(0xE000982D86CA9024))">
-				<Grind GrindRef="Jawa Dropping - Defeat Jawa Forces" While="(not IsQuestComplete(0xE000982D86CA9024))" />
+				<Grind While="(not IsQuestComplete(0xE000982D86CA9024))">
+					<GrindArea Name="Jawa Dropping - Defeat Jawa Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Jawa Forager</Mob>
+							<Mob>Jawa Guardian</Mob>
+							<Mob>Jawa Scavenger Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="109.1998,47.31427,273.3712" />
+							<Hotspot Name="My Location" XYZ="115.1156,47.46357,275.8809" />
+							<Hotspot Name="Jawa Guardian" XYZ="123.0108,47.92204,273.1021" />
+							<Hotspot Name="Jawa Forager" XYZ="121.7141,47.99735,277.5749" />
+							<Hotspot Name="Jawa Guardian" XYZ="119.0106,47.31469,275.4286" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE0008F080295965B" ObjectName="Communications Relay" BranchId="1" StepId="2" TaskId="0" Radius="200" WaitTime="3" >
 				<Hotspots>
@@ -998,14 +311,43 @@
 					<Hotspot Name="Jawa Guardian" XYZ="119.0106,47.31469,275.4286" />
 				</Hotspots>
 			</UseObject>
-			<Grind GrindRef="New Threats - Acquire the Code Cipher from a Jawa Guardian" While="not IsTaskComplete(0xE0008F080295965B, 2, 1)" />
+			<Grind While="not IsTaskComplete(0xE0008F080295965B, 2, 1)">
+				<GrindArea Name="New Threats - Acquire the Code Cipher from a Jawa Guardian">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jawa Forager</Mob>
+						<Mob>Jawa Guardian</Mob>
+						<Mob>Jawa Scavenger Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="109.1998,47.31427,273.3712" />
+						<Hotspot Name="My Location" XYZ="115.1156,47.46357,275.8809" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Wreaking Havoc and Turnin -->
 		<If Condition="((HasQuest(0xE000C39387AE075F)) and (not IsQuestComplete(0xE000C39387AE075F)))">
 			<!-- Exchange Roundup -->
 			<If Condition="(not IsQuestComplete(0xE000B9D23D268058))">
-				<Grind GrindRef="Exchange Roundup - Defeat Exchange Forces" While="(not IsQuestComplete(0xE000B9D23D268058))" />
+				<Grind While="(not IsQuestComplete(0xE000B9D23D268058))">
+					<GrindArea Name="Exchange Roundup - Defeat Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Assassin Droid</Mob>
+							<Mob>Exchange Bounty Hunter</Mob>
+							<Mob>Exchange Informer</Mob>
+							<Mob>Exchange Sentry Drone</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Exchange Informer" XYZ="110.7515,46.72477,285.6073" />
+							<Hotspot Name="Exchange Sentry Drone" XYZ="118.2346,47.06644,289.0938" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE000C39387AE075F" ObjectName="Machine" BranchId="1" StepId="2" Radius="200" WaitTime="1500" XYZ="119.9711,47.20663,289.153" />
 			<TurnInQuest QuestName="Wreaking Havoc" QuestId="0xE000C39387AE075F" TurnInName="Major Veir" XYZ="73.3343,46.50851,283.0314" />
@@ -1017,7 +359,22 @@
 			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 5)))">
 				<MoveTo QuestId="1" XYZ="97.89266,47.98195,262.7581" />
 				<If Condition="(not IsQuestComplete(0xE0007101098C271E))">
-					<Grind GrindRef="Defeat Exchange Forces" While="(not IsQuestComplete(0xE0007101098C271E))" />
+					<Grind While="(not IsQuestComplete(0xE0007101098C271E))">
+						<GrindArea Name="Defeat Exchange Forces">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>51</MaxLevel>
+							<Mobs>
+								<Mob>Exchange Brawler</Mob>
+								<Mob>Exchange Thug</Mob>
+							</Mobs>
+							<HotSpots>
+								<HotSpot Name="Exchange Thug" XYZ="100.6544,47.94371,265.221" />
+								<HotSpot Name="Exchange Brawler" XYZ="104.5353,47.9293,265.9701" />
+								<HotSpot Name="Exchange Brawler" XYZ="94.9198,47.78873,263.8568" />
+								<HotSpot Name="Exchange Brawler" XYZ="101.2981,47.97087,270.2771" />
+							</HotSpots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<MoveTo QuestId="1" XYZ="100.0905,48.1291,260.7183" />
 				<WaitTimer QuestId="1" WaitTime="3" />
@@ -1029,7 +386,29 @@
 		<If Condition="((HasQuest(0xE000428B3C8095F2)) and (not IsQuestComplete(0xE000428B3C8095F2)))">
 			<!-- Crush the Palawa - Defeat Palawa Forces -->
 			<If Condition="(not IsQuestComplete(0xE000FAE3F6FAAB70))">
-				<Grind GrindRef="Crush the Palawa - Defeat Palawa Forces" While="(not IsQuestComplete(0xE000FAE3F6FAAB70))" />
+				<Grind While="(not IsQuestComplete(0xE000FAE3F6FAAB70))">
+					<GrindArea Name="Crush the Palawa - Defeat Palawa Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Palawa Battle Droid</Mob>
+							<Mob>Palawa Bruiser</Mob>
+							<Mob>Palawa Combat Droid</Mob>
+							<Mob>Palawa Crusader Droid</Mob>
+							<Mob>Palawa Guardian</Mob>
+							<Mob>Palawa Scanning Drone</Mob>
+							<Mob>Palawa Subordinate</Mob>
+							<Mob>Palawa Superior</Mob>
+							<Mob>Palawa Technician</Mob>
+							<Mob>Weathered Palawa Battle Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="111.6595,46.80883,245.5517" />
+							<Hotspot Name="My Location" XYZ="103.6197,45.85417,241.9093" />
+							<Hotspot Name="My Location" XYZ="102.1012,45.43977,235.1834" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 3)" >
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Salvageable Droid" XYZ="100.765,45.80219,241.7639" />
@@ -1037,7 +416,18 @@
 			<If Condition="HasQuest(0xE000428B3C8095F2) and not IsBranchStepComplete(0xE000428B3C8095F2, 1, 4)" >
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Broken Down Prototype Droid" XYZ="100.7786,45.65073,217.4087" />
 			</If>
-			<Grind GrindRef="Defeat Freher Wonn" While="not IsBranchStepComplete(0xE000428B3C8095F2, 2, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE000428B3C8095F2, 2, 2)">
+				<GrindArea Name="Defeat Freher Wonn">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Freher Wonn</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Freher Wonn" XYZ="101.729,45.6147,218.0103" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" TurnInName="Darth Silthar" XYZ="67.5409,51.5606,323.588" />
 			<CompleteQuest QuestName="Expedition into the Unknown" QuestId="0xE000428B3C8095F2" />
 		</If>
@@ -1057,14 +447,59 @@
 			</If>
 			<!-- Thin Out the Training Ground - Eliminate Jawa Forces -->
 			<If Condition="(not IsQuestComplete(0xE000B51AB8F0FDB3))">
-				<Grind GrindRef="Thin Out the Training Ground - Eliminate Jawa Forces" While="(not IsQuestComplete(0xE000B51AB8F0FDB3))" />
+				<Grind While="(not IsQuestComplete(0xE000B51AB8F0FDB3))">
+					<GrindArea Name="Thin Out the Training Ground - Eliminate Jawa Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Jawa Demolitionist</Mob>
+							<Mob>Jawa Scavenger</Mob>
+							<Mob>Jawa Soothsayer</Mob>
+							<Mob>Jawa Spelunking Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="109.6899,46.7318,335.0517" />
+							<Hotspot Name="My Location" XYZ="111.3773,46.80237,339.2421" />
+							<Hotspot Name="My Location" XYZ="118.0945,46.73105,340.2725" />
+							<Hotspot Name="My Location" XYZ="122.3303,46.71958,340.2816" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
-			<Grind GrindRef="Shaman - Defeat the Jawa Shaman" While="not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 3)" />
+			<Grind While="not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 3)">
+				<GrindArea Name="Shaman - Defeat the Jawa Shaman">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jawa Shaman</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Jawa Shaman" XYZ="125.4408,46.70143,333.2686" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 1, 4)" >
 				<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Jawa Shaman" XYZ="125.8521,46.742,334.1693" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
-			<Grind GrindRef="Shaman 3 2" While="(not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 2))">
+				<GrindArea Name="Shaman 3 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jawa Warrior</Mob>
+						<Mob>Jawa Defender</Mob>
+						<Mob>Jawa Sentry</Mob>
+						<Mob>Jawa Shaman</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Jawa Warrior" XYZ="125.2795,46.70572,333.6439" />
+						<Hotspot Name="Jawa Defender" XYZ="125.8824,46.72346,334.4738" />
+						<Hotspot Name="Jawa Sentry" XYZ="125.5542,46.71909,334.575" />
+						<Hotspot Name="Jawa Shaman" XYZ="125.4478,46.6998,333.2722" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 4)">
 				<If Condition="HasQuest(0xE000039E1A5DF69F) and not IsBranchStepComplete(0xE000039E1A5DF69F, 3, 3)">
 					<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Jawa Warrior" XYZ="125.2452,46.7107,333.6808" />
@@ -1078,8 +513,33 @@
 			<If Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 1, 2)" >
 				<TalkTo QuestId="0xE00095906768AA09" WaitTime="1" Name="Trade Master Thint" XYZ="128.9338,53.33856,351.5321" />
 			</If>
-			<Grind GrindRef="Masters of the Desert Machines 2 2" While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 2))" />
-			<Grind GrindRef="Masters of the Desert Machines 2 3" While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 3))" />
+			<Grind While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 2))">
+				<GrindArea Name="Masters of the Desert Machines 2 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jawa Protector</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Jawa Protector" XYZ="127.4208,53.30708,351.6089" />
+						<Hotspot Name="Jawa Protector" XYZ="129.6067,53.31213,350.2549" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
+			<Grind While="(not IsBranchStepComplete(0xE00095906768AA09, 2, 3))">
+				<GrindArea Name="Masters of the Desert Machines 2 3">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Jawa Protector</Mob>
+						<Mob>Trade Master Thint</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Trade Master Thint" XYZ="128.9388,53.33852,351.5408" />
+						<Hotspot Name="My Location" XYZ="127.9086,53.30486,345.8182" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE00095906768AA09) and not IsBranchStepComplete(0xE00095906768AA09, 2, 4)" >
 				<TalkTo QuestId="0xE00095906768AA09" WaitTime="1" Name="Trade Master Thint" XYZ="128.8855,53.33946,351.4185" />
 			</If>
@@ -1111,7 +571,22 @@
 			<UseObject ObjectName="Ramshackle Generator" QuestId="0xE000DC0315532C4F" BranchId="1" StepId="2" WaitTime="1500" XYZ="108.1248,45.43859,66.83623" />
 			<!-- Junkers and Clunkers -->
 			<If Condition="(not IsQuestComplete(0xE000F4EFB90F0176))">
-				<Grind GrindRef="Junkers and Clunkers - Destroy Malfunctioning Droids" While="(not IsQuestComplete(0xE000F4EFB90F0176))" />
+				<Grind While="(not IsQuestComplete(0xE000F4EFB90F0176))">
+					<GrindArea Name="Junkers and Clunkers - Destroy Malfunctioning Droids">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Malfunctioning Junk Droid</Mob>
+							<Mob>Malfunctioning Probe Droid</Mob>
+							<Mob>Malfunctioning Repair Droid</Mob>
+							<Mob>Modified Junk Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="100.3987,45.59102,68.9481" />
+							<Hotspot Name="Malfunctioning Probe Droid" XYZ="106.6399,45.47429,62.0688" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000DC0315532C4F) and not IsBranchStepComplete(0xE000DC0315532C4F, 1, 3)" >
 				<UseItem ItemName="Teek's Shield Destabilizer" QuestId="0xE000DC0315532C4F" BranchId="1" StepId="3" WaitTime="1" Range="10" InCombat="False" Radius="10">
@@ -1134,14 +609,74 @@
 		
 		<!-- Journey into Dust -->
 		<If Condition="((HasQuest(0xE00054291E242297)) and (not IsQuestComplete(0xE00054291E242297)))">
-			<Grind GrindRef="Journey into Dust - Get a Compass from Sand People Guides" While="not IsStepComplete(0xE00054291E242297, 3)" />
+			<Grind While="not IsStepComplete(0xE00054291E242297, 3)">
+				<GrindArea Name="Journey into Dust - Get a Compass from Sand People Guides">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Sand People Guide</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Stage 1 - Blood on the Sand -->
 			<If Condition="(not IsQuestComplete(0xE000331F41014B7F))">
-				<Grind GrindRef="Stage 1 - Blood on the Sand - Defeat Sand People Forces" While="(not IsQuestComplete(0xE000331F41014B7F))" />
+				<Grind While="(not IsQuestComplete(0xE000331F41014B7F))">
+					<GrindArea Name="Stage 1 - Blood on the Sand - Defeat Sand People Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Sand People Guide</Mob>
+							<Mob>Sand People Cave Keeper</Mob>
+							<Mob>Sand People Guide</Mob>
+							<Mob>Sand People Poisonous Rill</Mob>
+							<Mob>Sand People Ravager</Mob>
+							<Mob>Sand People Rifleman</Mob>
+							<Mob>Sand People Stalker</Mob>
+							<Mob>Sand People Vanguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
+							<Hotspot Name="Sand People Guide" XYZ="155.2766,41.8518,62.3051" />
+							<Hotspot Name="Sand People Stalker" XYZ="156.4103,41.59692,70.81053" />
+							<Hotspot Name="Sand People Rifleman" XYZ="165.5653,41.82872,75.57439" />
+							<Hotspot Name="Sand People Rifleman" XYZ="178.2739,41.49809,69.31779" />
+							<Hotspot Name="Sand People Stalker" XYZ="166.5475,40.40388,58.3198" />
+							<Hotspot Name="Sand People Rifleman" XYZ="179.5944,42.02792,78.75652" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Blood on the Sand -->
 			<If Condition="(not IsQuestComplete(0xE000301F41014046))">
-				<Grind GrindRef="Stage 2 - Blood on the Sand - Defeat Sand People Forces" While="(not IsQuestComplete(0xE000301F41014046))" />
+				<Grind While="(not IsQuestComplete(0xE000301F41014046))">
+					<GrindArea Name="Stage 2 - Blood on the Sand - Defeat Sand People Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Sand People Guide</Mob>
+							<Mob>Sand People Cave Keeper</Mob>
+							<Mob>Sand People Guide</Mob>
+							<Mob>Sand People Poisonous Rill</Mob>
+							<Mob>Sand People Ravager</Mob>
+							<Mob>Sand People Rifleman</Mob>
+							<Mob>Sand People Stalker</Mob>
+							<Mob>Sand People Vanguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sand People Guide" XYZ="150.2336,41.85912,62.58552" />
+							<Hotspot Name="Sand People Guide" XYZ="155.2766,41.8518,62.3051" />
+							<Hotspot Name="Sand People Stalker" XYZ="156.4103,41.59692,70.81053" />
+							<Hotspot Name="Sand People Rifleman" XYZ="165.5653,41.82872,75.57439" />
+							<Hotspot Name="Sand People Rifleman" XYZ="178.2739,41.49809,69.31779" />
+							<Hotspot Name="Sand People Stalker" XYZ="166.5475,40.40388,58.3198" />
+							<Hotspot Name="Sand People Rifleman" XYZ="179.5944,42.02792,78.75652" />
+							<Hotspot Name="Sand People Guide" XYZ="194.5261,41.56016,61.5405" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 3 - Blood on the Sand -->
 			<If Condition="HasQuest(0xE000311F41014E15) and not IsStepComplete(0xE000311F41014E15, 4)">
@@ -1154,7 +689,18 @@
 			</If>
 			<!-- Final Stage - Blood on the Sand -->
 			<If Condition="(not IsQuestComplete(0xE000361F4101B594))">
-				<Grind GrindRef="Final Stage - Blood on the Sand" While="(not IsQuestComplete(0xE000361F4101B594))" />
+				<Grind While="(not IsQuestComplete(0xE000361F4101B594))">
+					<GrindArea Name="Final Stage - Blood on the Sand">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Kortawa the Hunt Master</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kortawa the Hunt Master" XYZ="197.2585,41.49528,55.6539" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 4)">
 				<MoveTo QuestId="1" XYZ="197.0593,41.52492,58.19664" />
@@ -1171,13 +717,53 @@
 			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 4)">
 				<MoveTo QuestId="0xE0007CDFF88D6CCF" XYZ="161.6142,41.541,68.23227" />
 			</If>
-			<Grind GrindRef="The Whispering Dust 5" While="(not IsBranchStepComplete(0xE0007CDFF88D6CCF, 1, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE0007CDFF88D6CCF, 1, 5))">
+				<GrindArea Name="The Whispering Dust 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Sand People Plunderer</Mob>
+						<Mob>Sand People Salvager</Mob>
+						<Mob>Sand People Looter</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Sand People Salvager" XYZ="161.5384,41.546,72.81561" />
+						<Hotspot Name="Sand People Plunderer" XYZ="165.9634,41.55279,72.3634" />
+						<Hotspot Name="Sand People Looter" XYZ="167.7794,41.101,64.53809" />
+						<Hotspot Name="Sand People Plunderer" XYZ="162.5889,41.101,63.0672" />
+						<Hotspot Name="Sand People Salvager" XYZ="167.7869,42.301,64.5965" />
+						<Hotspot Name="Sand People Looter" XYZ="162.2784,42.291,63.79391" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Storage Crate" QuestId="0xE0007CDFF88D6CCF" BranchId="1" StepId="6" WaitTime="2" XYZ="165.0817,41.051,68.82475" />
-			<Grind GrindRef="Defeat Ghost Cell Assassins" While="not IsStepComplete(0xE0007CDFF88D6CCF, 7)" />
+			<Grind While="not IsStepComplete(0xE0007CDFF88D6CCF, 7)">
+				<GrindArea Name="Defeat Ghost Cell Assassins">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Ghost Cell Assassin</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="164.8426,41.051,68.24911" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 8)" >
 				<TalkTo QuestId="0xE0007CDFF88D6CCF" WaitTime="1" Name="Mia Hawkins" XYZ="164.527,41.051,68.4281" />
 			</If>
-			<Grind GrindRef="Defeat the Ghost Cell Elite" While="not IsStepComplete(0xE0007CDFF88D6CCF, 9)" />
+			<Grind While="not IsStepComplete(0xE0007CDFF88D6CCF, 9)">
+				<GrindArea Name="Defeat the Ghost Cell Elite">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Ghost Cell Elite</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="164.5296,41.051,68.26904" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE0007CDFF88D6CCF) and not IsStepComplete(0xE0007CDFF88D6CCF, 10)">
 				<AnswerHolocomCall QuestName="The Whispering Dust" QuestId="0xE0007CDFF88D6CCF" />
 			</If>
@@ -1235,7 +821,23 @@
 		<If Condition="((HasQuest(0xE0005B96B9F1BB8C)) and (not IsQuestComplete(0xE0005B96B9F1BB8C)))">
 			<!-- The Dragon's Teeth - Dispatch Exchange Forces -->
 			<If Condition="(not IsQuestComplete(0xE000C400418BE1EA))">
-				<Grind GrindRef="The Dragon's Teeth - Dispatch Exchange Forces" While="(not IsQuestComplete(0xE000C400418BE1EA))" />
+				<Grind While="(not IsQuestComplete(0xE000C400418BE1EA))">
+					<GrindArea Name="The Dragon's Teeth - Dispatch Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Assassin</Mob>
+							<Mob>Exchange Eliminator</Mob>
+							<Mob>Exchange Garrison</Mob>
+							<Mob>Exchange Lookout</Mob>
+							<Mob>Exchange Shocker Drone</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="27.69472,48.11877,36.7242" />
+							<Hotspot Name="Exchange Eliminator" XYZ="29.7026,47.93571,42.362" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0005B96B9F1BB8C) and not IsStepComplete(0xE0005B96B9F1BB8C, 2)">
 				<MoveTo QuestId="0xE0005B96B9F1BB8C" XYZ="20.28754,49.26955,40.21146" />
@@ -1270,9 +872,42 @@
 		<If Condition="((HasQuest(0xE000B9DA7DC3141D)) and (not IsQuestComplete(0xE000B9DA7DC3141D)))">
 			<!-- Combat Advantage -->
 			<If Condition="(not IsQuestComplete(0xE000D30AA6EDC5B7))">
-				<Grind GrindRef="Combat Advantage - Dispatch Exchange Forces" While="(not IsQuestComplete(0xE000D30AA6EDC5B7))" />
+				<Grind While="(not IsQuestComplete(0xE000D30AA6EDC5B7))">
+					<GrindArea Name="Combat Advantage - Dispatch Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Weapons Specialist</Mob>
+							<Mob>Exchange Attack Droid</Mob>
+							<Mob>Exchange Captain</Mob>
+							<Mob>Exchange Enforcer</Mob>
+							<Mob>Exchange Gun Technician</Mob>
+							<Mob>Exchange Informer</Mob>
+							<Mob>Exchange Surveyor</Mob>
+							<Mob>Exchange Weapon Tester</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Exchange Weapons Specialist" XYZ="-22.33845,45.74397,64.16488" />
+							<Hotspot Name="My Location" XYZ="-28.03979,45.53493,63.49699" />
+							<Hotspot Name="My Location" XYZ="-30.35781,45.91379,68.53695" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
-			<Grind GrindRef="Weapons Calibration - Recover the Data Spikes" While="not IsStepComplete(0xE000B9DA7DC3141D, 2)" />
+			<Grind While="not IsStepComplete(0xE000B9DA7DC3141D, 2)">
+				<GrindArea Name="Weapons Calibration - Recover the Data Spikes">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Exchange Weapons Specialist</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Exchange Weapons Specialist" XYZ="-22.33845,45.74397,64.16488" />
+						<Hotspot Name="My Location" XYZ="-28.03979,45.53493,63.49699" />
+						<Hotspot Name="My Location" XYZ="-30.35781,45.91379,68.53695" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Wide Area Jammer" QuestId="0xE000B9DA7DC3141D" BranchId="1" StepId="3" WaitTime="1500" IgnoreLOS="True" XYZ="-31.39975,45.90592,71.20812" />
 			<If Condition="HasQuest(0xE000B9DA7DC3141D) and not IsStepComplete(0xE000B9DA7DC3141D, 4)">
 				<UseItem ItemName="Calibrated Orbital Strike Designator" QuestId="0xE000B9DA7DC3141D" StepId="4" WaitTime="2" Range="2" InCombat="False" Radius="2" XYZ="-18.34405,45.8144,65.43819" />
@@ -1291,7 +926,23 @@
 		<If Condition="((HasQuest(0xE000624769E3186C)) and (not IsQuestComplete(0xE000624769E3186C)))">
 			<If Condition="((HasQuest(0xE000624769E3186C)) and (not IsBranchStepComplete(0xE000624769E3186C, 1, 2)))">
 				<MoveTo QuestId="1" XYZ="-37.05068,45.26577,36.17786" />
-				<Grind GrindRef="Bleed the Wound" While="(not IsStepComplete(0xE000AFA862DDA728, 2))" /> <!-- Bonus -->
+				<Grind While="(not IsStepComplete(0xE000AFA862DDA728, 2))">
+					<GrindArea Name="Bleed the Wound">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Sand People Firewalker</Mob>
+							<Mob>Sand People Assault Rill</Mob>
+							<Mob>Sand People Gunner</Mob>
+						</Mobs>
+						<HotSpots>
+							<HotSpot Name="Sand People Gunner" XYZ="-38.78614,45.36166,36.41507" />
+							<HotSpot Name="Sand People Firewalker" XYZ="-40.18617,45.56287,40.2383" />
+							<HotSpot Name="Sand People Gunner" XYZ="-41.04989,45.87774,46.9468" />
+							<HotSpot Name="Sand People Firewalker" XYZ="-47.51869,45.20315,45.8449" />
+						</HotSpots>
+					</GrindArea>
+				</Grind> <!-- Bonus -->
 				<MoveTo QuestId="1" XYZ="-61.45681,44.71823,53.41117" />
 			</If>
 			<If Condition="((HasQuest(0xE000624769E3186C)) and (not IsBranchStepComplete(0xE000624769E3186C, 1, 3)))">
@@ -1317,7 +968,19 @@
 			<If Condition="HasQuest(0xE00054291E242297) and not IsStepComplete(0xE00054291E242297, 7)" >
 				<TalkTo QuestId="0xE00054291E242297" WaitTime="1" Name="Captain Golah" XYZ="-47.6441,46.24954,4.036003" />
 			</If>
-			<Grind GrindRef="Defeat the Transformed Forces" While="not IsStepComplete(0xE00054291E242297, 8)" />
+			<Grind While="not IsStepComplete(0xE00054291E242297, 8)">
+				<GrindArea Name="Defeat the Transformed Forces">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Transformed Keighlah</Mob>
+						<Mob>Transformed Archaeologist</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-49.38709,46.24954,3.345078" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" TurnInName="Captain Golah" XYZ="-48.67225,46.24954,3.546862" />
 			<CompleteQuest QuestName="Journey into Dust" QuestId="0xE00054291E242297" />
 			<!-- The Ghosts of the Desert -->
@@ -1348,14 +1011,65 @@
 			<If Condition="HasQuest(0xE000DEF5D7A053EA) and not IsBranchStepComplete(0xE000DEF5D7A053EA, 1, 3)" >
 				<TalkTo QuestId="0xE000DEF5D7A053EA" WaitTime="1" Name="Palawa Leader" XYZ="-40.31477,46.2177,-9.503084" />
 			</If>
-			<Grind GrindRef="Defeat the Palawa Leader" While="not IsBranchStepComplete(0xE000DEF5D7A053EA, 2, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE000DEF5D7A053EA, 2, 2)">
+				<GrindArea Name="Defeat the Palawa Leader">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Palawa Leader</Mob>
+						<Mob>Palawa Follower</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Palawa Leader" XYZ="-40.3198,46.20502,-9.492437" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Central Camp Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="1" WaitTime="3" XYZ="-37.3673,45.79573,-12.91327" />
 			<UseObject ObjectName="Cave Entrance Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="2" WaitTime="3" XYZ="-39.47942,46.15166,-23.31636" />
 			<!-- Burn It Out -->
 			<If Condition="(not IsQuestComplete(0xE00069292DF250D6))">
-				<Grind GrindRef="Burn It Out - Defeat Non-Infected Palawa" While="not IsTaskComplete(0xE00069292DF250D6, 2, 0)" />
-				<Grind GrindRef="Defeat the Infected Palawa" While="not IsTaskComplete(0xE00069292DF250D6, 2, 1)" />
-				<Grind GrindRef="Defeat the Transformed Perrin" While="not IsTaskComplete(0xE00069292DF250D6, 2, 2)" />
+				<Grind While="not IsTaskComplete(0xE00069292DF250D6, 2, 0)">
+					<GrindArea Name="Burn It Out - Defeat Non-Infected Palawa">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Palawa Brawler</Mob>
+							<Mob>Palawa Warrior</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-38.82282,45.80495,-12.41521" />
+							<Hotspot Name="My Location" XYZ="-39.47942,46.15166,-23.31636" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+				<Grind While="not IsTaskComplete(0xE00069292DF250D6, 2, 1)">
+					<GrindArea Name="Defeat the Infected Palawa">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Infected Palawa Defender</Mob>
+							<Mob>Infected Palawa Leader</Mob>
+							<Mob>Infected Palawa Overlord</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-45.00381,46.20234,-12.87426" />
+							<Hotspot Name="My Location" XYZ="-48.67903,45.87878,-17.58916" />
+							<Hotspot Name="My Location" XYZ="-51.16454,45.67956,-23.85044" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+				<Grind While="not IsTaskComplete(0xE00069292DF250D6, 2, 2)">
+					<GrindArea Name="Defeat the Transformed Perrin">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Transformed Perrin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Transformed Perrin" XYZ="-55.3052,45.70635,-22.6108" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Palawa Chamber Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="0" Radius="15" WaitTime="3" XYZ="-54.83269,45.74515,-22.88047" />
 			<TurnInQuest QuestName="The Ghosts of the Desert" QuestId="0xE000DEF5D7A053EA" TurnInName="Captain Golah" XYZ="-43.5607,45.12094,1.3178" />
@@ -1372,7 +1086,27 @@
 		<If Condition="((HasQuest(0xE0009853C75EF6D9)) and (not IsQuestComplete(0xE0009853C75EF6D9)))">
 			<!-- See No Evil -->
 			<If Condition="(not IsQuestComplete(0xE000DC589C7E664F))">
-				<Grind GrindRef="See No Evil - Eliminate Exchange Forces" While="(not IsQuestComplete(0xE000DC589C7E664F))" />
+				<Grind While="(not IsQuestComplete(0xE000DC589C7E664F))">
+					<GrindArea Name="See No Evil - Eliminate Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Carrier Droid</Mob>
+							<Mob>Exchange Coordinator Drone</Mob>
+							<Mob>Exchange Defender</Mob>
+							<Mob>Exchange Overseer</Mob>
+							<Mob>Exchange Sentinel Droid</Mob>
+							<Mob>Exchange Watchman</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Exchange Coordinator Drone" XYZ="-71.09905,43.2223,26.96628" />
+							<Hotspot Name="Exchange Coordinator Drone" XYZ="-67.70535,43.87571,26.36662" />
+							<Hotspot Name="Exchange Carrier Droid" XYZ="-72.69382,43.01148,26.52889" />
+							<Hotspot Name="Exchange Sentinel Droid" XYZ="-76.9437,43.13176,22.8403" />
+							<Hotspot Name="Exchange Carrier Droid" XYZ="-71.2467,44.2168,18.2021" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 2)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-69.44077,43.7254,29.38019" />
@@ -1383,7 +1117,24 @@
 			</If>
 			<!-- Harsh Lessons - Defeat Ghost Cell Forces -->
 			<If Condition="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
-				<Grind GrindRef="Harsh Lessons - Defeat Ghost Cell Forces" While="(not IsQuestComplete(0xE0005CCA12A2D5AE))" />
+				<Grind While="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
+					<GrindArea Name="Harsh Lessons - Defeat Ghost Cell Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Ghost Cell Espionage Droid</Mob>
+							<Mob>Ghost Cell Interrogation Drone</Mob>
+							<Mob>Ghost Cell Master Assassin</Mob>
+							<Mob>Ghost Cell Operative</Mob>
+							<Mob>Ghost Cell Sniper</Mob>
+							<Mob>Ghost Cell Terrorist</Mob>
+							<Mob>Ghost Cell Trainee</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ghost Cell Interrogation Drone" XYZ="-235.9029,38.11755,-206.7778" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 4)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-237.3999,38.95087,-214.551" />
@@ -1391,7 +1142,18 @@
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 5)" >
 				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.4283,38.95154,-214.609" />
 			</If>
-			<Grind GrindRef="The Assassin's Fortress - Defeat the Old Man" While="not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 6)" />
+			<Grind While="not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 6)">
+				<GrindArea Name="The Assassin's Fortress - Defeat the Old Man">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>The Old Man</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="The Old Man" XYZ="-237.7604,38.9552,-214.8695" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 7)" >
 				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.6969,38.95692,-214.6994" />
 	
@@ -1433,7 +1195,22 @@
 					</Hotspots>
 				</UseObject>
 			</If>
-			<Grind GrindRef="Thirst for Glory - Defeat Sand People Forces" While="not IsStepComplete(0xE000B60B1707452F, 2)" />
+			<Grind While="not IsStepComplete(0xE000B60B1707452F, 2)">
+				<GrindArea Name="Thirst for Glory - Defeat Sand People Forces">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Sand People Bonebreaker</Mob>
+						<Mob>Sand People Brute</Mob>
+						<Mob>Sand People Gatekeeper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Sand People Bonebreaker" XYZ="-218.5518,44.22432,-68.3346" />
+						<Hotspot Name="Sand People Bonebreaker" XYZ="-228.0713,43.86726,-67.79019" />
+						<Hotspot Name="Sand People Gatekeeper" XYZ="-236.3046,41.44257,-72.4722" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- Warrior - Guru in the Dunes -->
@@ -1460,7 +1237,26 @@
 			<UseObject ObjectName="Czerka Technology" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="3" WaitTime="6" XYZ="-123.2823,41.20946,-20.32284" />
 			<!-- Sharing the Blame -->
 			<If Condition="(not IsQuestComplete(0xE0009C9D1645F6C2))">
-				<Grind GrindRef="Sharing the Blame - Eliminate Exchange Forces" While="(not IsQuestComplete(0xE0009C9D1645F6C2))" />
+				<Grind While="(not IsQuestComplete(0xE0009C9D1645F6C2))">
+					<GrindArea Name="Sharing the Blame - Eliminate Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Transformed Perrin</Mob>
+							<Mob>Exchange Bandit</Mob>
+							<Mob>Exchange Bodyguard</Mob>
+							<Mob>Exchange Gunner</Mob>
+							<Mob>Exchange Patrol Droid</Mob>
+							<Mob>Exchange Scrounger</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Exchange Bandit" XYZ="-112.7617,41.44614,-1.013398" />
+							<Hotspot Name="Exchange Scrounger" XYZ="-103.8731,41.62349,-5.271643" />
+							<Hotspot Name="Exchange Bandit" XYZ="-104.2389,41.52208,-0.4812855" />
+							<Hotspot Name="Exchange Bandit" XYZ="-106.1377,41.54724,0.977038" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Czerka Relay Tower" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="5" XYZ="-90.289,46.75028,-99.8541" />
 			<UseObject ObjectName="Czerka Relay Tower" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="5" IgnoreLOS="True" WaitTime="5" XYZ="-122.6849,43.60084,-126.9832" />
@@ -1470,7 +1266,29 @@
 			<!-- Ele going down -->
 			<!-- Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces -->
 			<If Condition="not HasQuest(0xE00043A05ADFF616) and not IsQuestComplete(0xE00043A05ADFF616)">
-				<Grind GrindRef="Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces" While="not IsQuestComplete(0xE00043A05ADFF616) " />
+				<Grind While="not IsQuestComplete(0xE00043A05ADFF616) ">
+					<GrindArea Name="Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Berserk Czerka Droid</Mob>
+							<Mob>Charged Czerka Droid</Mob>
+							<Mob>Cybernecrotic Czerka Observer</Mob>
+							<Mob>Cybernecrotic Czerka Soldier</Mob>
+							<Mob>Rakata Enforcer Unit</Mob>
+							<Mob>Reanimated Czerka Guard</Mob>
+							<Mob>Reprogrammed Czerka Worker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-243.6358,37.71009,-31.19582" />
+							<Hotspot Name="Cybernecrotic Czerka Observer" XYZ="-244.9848,36.91859,-20.961" />
+							<Hotspot Name="Cybernecrotic Czerka Observer" XYZ="-244.84,30.88753,-21.0524" />
+							<Hotspot Name="Reanimated Czerka Guard" XYZ="-240.7398,30.91546,-15.3759" />
+							<Hotspot Name="Rakata Enforcer Unit" XYZ="-238.095,30.92528,-6.782582" />
+							<Hotspot Name="Reprogrammed Czerka Worker" XYZ="-237.4144,30.91764,-2.179597" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Archaeology of Opportunity - Recover Excavated Alien Artifacts -->
 			<If Condition="HasQuest(0xE00046A05ADFED0F) and not IsStepComplete(0xE00046A05ADFED0F, 4)">
@@ -1486,10 +1304,32 @@
 			</If>
 			<!-- Final Stage - Archaeology of Opportunity -->
 			<If Condition="not IsQuestComplete(0xE00045A05ADFF370)">
-				<Grind GrindRef="Final Stage - Archaeology of Opportunity" While="not IsQuestComplete(0xE00045A05ADFF370)" />
+				<Grind While="not IsQuestComplete(0xE00045A05ADFF370)">
+					<GrindArea Name="Final Stage - Archaeology of Opportunity">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Cybernecrotic Director Antayen</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Cybernecrotic Director Antayen" XYZ="-202.9696,30.72147,-23.17714" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Ancient Machine" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="9" WaitTime="2" XYZ="-199.7458,30.92782,-36.19707" />
-			<Grind GrindRef="The Thing Czerka Found - Defeat the Imprisoned One's Ambush" While="not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 10)" />
+			<Grind While="not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 10)">
+				<GrindArea Name="The Thing Czerka Found - Defeat the Imprisoned One's Ambush">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Mutated Czerka Guard</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Mutated Czerka Guard" XYZ="-200.0969,30.91985,-35.0676" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Ignore Combat and use this object -->
 			<UseObject ObjectName="Ancient Cybernetic Enhancement Equipment" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="11" WaitTime="5" XYZ="-204.3786,30.16483,-28.40017" />
 			<!-- Ignore Combat and use this object -->
@@ -1567,7 +1407,25 @@
 			<UseObject ObjectName="Defense Computer Console" QuestId="0xE000CCB737D490F6" BranchId="1" StepId="2" WaitTime="3" XYZ="156.1691,45.301,10.60142" />
 			<!-- Raid the Defenses -->
 			<If Condition="(not IsQuestComplete(0xE00050360F3355C5))">
-				<Grind GrindRef="Raid the Defenses - Defeat Gamorrean Forces" While="(not IsQuestComplete(0xE00050360F3355C5))" />
+				<Grind While="(not IsQuestComplete(0xE00050360F3355C5))">
+					<GrindArea Name="Raid the Defenses - Defeat Gamorrean Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Gamorrean Brawler</Mob>
+							<Mob>Gamorrean Deadeye</Mob>
+							<Mob>Gamorrean Mauler</Mob>
+							<Mob>Gamorrean Tusker</Mob>
+							<Mob>Reprogrammed Guard Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gamorrean Mauler" XYZ="152.3116,44.5523,15.919" />
+							<Hotspot Name="Gamorrean Tusker" XYZ="156.1609,44.101,9.293745" />
+							<Hotspot Name="Gamorrean Mauler" XYZ="153.1273,45.29433,6.341197" />
+							<Hotspot Name="Gamorrean Deadeye" XYZ="156.1277,45.291,9.343643" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" TurnInName="Zola Arvannus" XYZ="124.4105,43.05461,13.3592" />
 			<CompleteQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" />
@@ -1585,7 +1443,28 @@
 			</If>
 			<!-- Stage 1 - Sand Will Fall -->
 			<If Condition="(not IsQuestComplete(0xE00035FC16B9CD41))">
-				<Grind GrindRef="Stage 1 - Sand Will Fall - Defeat Sand People Forces" While="not IsQuestComplete(0xE00035FC16B9CD41)" />
+				<Grind While="not IsQuestComplete(0xE00035FC16B9CD41)">
+					<GrindArea Name="Stage 1 - Sand Will Fall - Defeat Sand People Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Gamorrean Brawler</Mob>
+							<Mob>Sand People Chieftain</Mob>
+							<Mob>Sand People Deathwhisperer</Mob>
+							<Mob>Sand People Marauder</Mob>
+							<Mob>Sand People Raider</Mob>
+							<Mob>Sand People Sentry Rill</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sand People Deathwhisperer" XYZ="223.5609,47.31212,25.6284" />
+							<Hotspot Name="Sand People Marauder" XYZ="226.2787,44.15707,15.70713" />
+							<Hotspot Name="Sand People Deathwhisperer" XYZ="228.2013,43.33723,6.989104" />
+							<Hotspot Name="Sand People Marauder" XYZ="218.4033,44.29581,25.62724" />
+							<Hotspot Name="Sand People Deathwhisperer" XYZ="211.0645,44.78148,21.8056" />
+							<Hotspot Name="Sand People Raider" XYZ="210.0849,44.08512,31.42842" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Sand Will Fall -->
 			<If Condition="(not IsQuestComplete(0xE00032FC16B9C058))">
@@ -1634,7 +1513,20 @@
 		
 		<!-- Vacation's Over and Turnin -->
 		<If Condition="((HasQuest(0xE000646EC6883317)) and (not IsQuestComplete(0xE000646EC6883317)))">
-			<Grind GrindRef="Vacation's Over - Collect Womp Rat Skulls" While="not IsStepComplete(0xE000646EC6883317, 2)" />
+			<Grind While="not IsStepComplete(0xE000646EC6883317, 2)">
+				<GrindArea Name="Vacation's Over - Collect Womp Rat Skulls">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Ravenous Womp Rat</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Ravenous Womp Rat" XYZ="159.8664,44.45905,-16.96957" />
+						<Hotspot Name="Ravenous Womp Rat" XYZ="151.9365,44.46115,-15.0324" />
+						<Hotspot Name="Ravenous Womp Rat" XYZ="146.0388,44.55016,-8.582593" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Vacation's Over" QuestId="0xE000646EC6883317" TurnInName="Bounty Terminal" XYZ="163.1835,44.80745,-58.39105" />
 			<CompleteQuest QuestName="Vacation's Over" QuestId="0xE000646EC6883317" />
 		</If>
@@ -1646,7 +1538,22 @@
 		<If Condition="((HasQuest(0xE000062A3FF6ED5E)) and (not IsQuestComplete(0xE000062A3FF6ED5E)))">
 			<!-- Mandalorian Submission -->
 			<If Condition="(not IsQuestComplete(0xE000FCCDF0E02283))">
-				<Grind GrindRef="Mandalorian Submission - Eliminate Mandalorian Forces" While="(not IsQuestComplete(0xE000FCCDF0E02283))" />
+				<Grind While="(not IsQuestComplete(0xE000FCCDF0E02283))">
+					<GrindArea Name="Mandalorian Submission - Eliminate Mandalorian Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Mandalorian Obliterator Droid</Mob>
+							<Mob>Mandalorian Scout</Mob>
+							<Mob>Mandalorian Sentinel</Mob>
+							<Mob>Mandalorian Warrior</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="115.6428,45.81217,-57.34566" />
+							<Hotspot Name="Mandalorian Warrior" XYZ="114.7647,44.18621,-71.63461" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE000062A3FF6ED5E" ObjectName="Cannon Turret" BranchId="1" StepId="2" Radius="200" WaitTime="3" >
 				<Hotspots>
@@ -1659,9 +1566,36 @@
 		<If Condition="((HasQuest(0xE0002EC2AFC6E8BE)) and (not IsQuestComplete(0xE0002EC2AFC6E8BE)))">
 			<!-- Armed Escort - Defeat Republic Forces -->
 			<If Condition="(not IsQuestComplete(0xE0008E1E24B03728))">
-				<Grind GrindRef="Armed Escort - Defeat Republic Forces" While="(not IsQuestComplete(0xE0008E1E24B03728))" />
+				<Grind While="(not IsQuestComplete(0xE0008E1E24B03728))">
+					<GrindArea Name="Armed Escort - Defeat Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Specialist</Mob>
+							<Mob>RX-77 Defense Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Archaeologist Escort" XYZ="94.14003,44.03234,-51.8562" />
+							<Hotspot Name="Republic Archaeologist" XYZ="86.7373,44.31664,-50.023" />
+							<Hotspot Name="Republic Specialist" XYZ="87.1486,44.02336,-41.7514" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
-			<Grind GrindRef="Trespassing - Defeat Republic Archaeologists" While="not IsStepComplete(0xE0002EC2AFC6E8BE, 2)" />
+			<Grind While="not IsStepComplete(0xE0002EC2AFC6E8BE, 2)">
+				<GrindArea Name="Trespassing - Defeat Republic Archaeologists">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Archaeologist</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Archaeologist Escort" XYZ="94.14003,44.03234,-51.8562" />
+						<Hotspot Name="Republic Archaeologist" XYZ="86.7373,44.31664,-50.023" />
+						<Hotspot Name="Republic Specialist" XYZ="87.1486,44.02336,-41.7514" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" TurnInName="Lieutenant Berrig" XYZ="161.1453,44.7781,-62.5987" />
 			<CompleteQuest QuestName="Trespassing" QuestId="0xE0002EC2AFC6E8BE" />
 		</If>
@@ -1688,7 +1622,38 @@
 			</If>
 			<!-- Stage 1 - Enforcing Order - Defeat Exchange Forces -->
 			<If Condition="(not IsQuestComplete(0xE000BD9395ED6CDA))">
-				<Grind GrindRef="Stage 1 - Enforcing Order - Defeat Exchange Forces" While="not IsQuestComplete(0xE000BD9395ED6CDA)" />
+				<Grind While="not IsQuestComplete(0xE000BD9395ED6CDA)">
+					<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Anti-Aircraft Gunner</Mob>
+							<Mob>Exchange Assault Droid</Mob>
+							<Mob>Exchange Droid Technician</Mob>
+							<Mob>Exchange Investigation Drone</Mob>
+							<Mob>Exchange Quartermaster</Mob>
+							<Mob>Exchange Raider</Mob>
+							<Mob>Exchange Raider</Mob>
+							<Mob>Exchange Sentry</Mob>
+							<Mob>Exchange Slicer</Mob>
+							<Mob>Exchange Supply Runner</Mob>
+							<Mob>Exchange Tech-Runner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="90.29421,42.04658,-9.047235" />
+							<Hotspot Name="Exchange Supply Runner" XYZ="99.5886,43.669,-16.3968" />
+							<Hotspot Name="Exchange Raider" XYZ="84.38779,42.09078,2.251667" />
+							<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
+							<Hotspot Name="My Location" XYZ="86.6192,42.09088,-3.703967" />
+							<Hotspot Name="My Location" XYZ="94.43649,42.37826,-0.9193409" />
+							<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+							<Hotspot Name="Exchange Sentry" XYZ="79.4231,44.84555,-15.7237" />
+							<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+							<Hotspot Name="Exchange Raider" XYZ="63.3857,42.04995,-8.873597" />
+							<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />		
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Enforcing Order - Destroy Exchange Weapon Caches -->
 			<If Condition="(not IsQuestComplete(0xE000C09395ED6233))">
@@ -1707,11 +1672,42 @@
 			</If>
 			<!-- Stage 3 - Enforcing Order - Defeat Exchange Droids and Elite Guards -->
 			<If Condition="(not IsQuestComplete(0xE000BF9395ED607C))">
-				<Grind GrindRef="Stage 3 - Enforcing Order" While="not IsStepComplete(0xE000BF9395ED607C, 4)" />
+				<Grind While="not IsStepComplete(0xE000BF9395ED607C, 4)">
+					<GrindArea Name="Stage 3 - Enforcing Order">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Assault Droid</Mob>
+							<Mob>Exchange Elite Guard</Mob>
+							<Mob>Exchange Quartermaster</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
+							<Hotspot Name="My Location" XYZ="86.6192,42.09088,-3.703967" />
+							<Hotspot Name="My Location" XYZ="94.43649,42.37826,-0.9193409" />
+							<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+							<Hotspot Name="Exchange Sentry" XYZ="79.4231,44.84555,-15.7237" />
+							<Hotspot Name="Exchange Slicer" XYZ="85.53374,44.86664,-19.51609" />
+							<Hotspot Name="Exchange Raider" XYZ="63.3857,42.04995,-8.873597" />
+							<Hotspot Name="Exchange Supply Runner" XYZ="65.40141,42.55984,-0.1335971" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Final Stage - Enforcing Order -->
 			<If Condition="(not IsQuestComplete(0xE000C29395ED6555))">
-				<Grind GrindRef="Final Stage - Enforcing Order - Retrieve Exchange Shipping Records from Exchange Division Commander" While="not IsStepComplete(0xE000C29395ED6555, 4)" />
+				<Grind While="not IsStepComplete(0xE000C29395ED6555, 4)">
+					<GrindArea Name="Final Stage - Enforcing Order - Retrieve Exchange Shipping Records from Exchange Division Commander">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Exchange Division Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Exchange Division Commander" XYZ="68.31181,42.0803,-11.79397" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Soldiers' Explosives" QuestId="0xE00069F60DB34EE2" BranchId="1" StepId="4" WaitTime="3" XYZ="70.1908,42.06465,-10.09273" />
 			<UseObject QuestId="0xE00069F60DB34EE2" ObjectName="Ammo Stockpile" BranchId="1" StepId="5" Radius="200" WaitTime="3" >

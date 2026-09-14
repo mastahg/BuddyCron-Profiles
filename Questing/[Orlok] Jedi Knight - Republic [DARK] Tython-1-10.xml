@@ -5,40 +5,7 @@
   <!-- Beginning of Grind References -->	
   <GrindAreas>
     <!-- First Grind Reference -->	
-    <GrindArea Name="Attack of the Flesh Raiders 4">
-      <MinLevel>1</MinLevel>
-      <MaxLevel>3</MaxLevel>
-      <Mobs>
-        <Mob>Flesh Raider Scout</Mob>
-        <Mob>Flesh Raider Hunter</Mob>
-        <Mob>Flesh Raider Bloodletter</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="Flesh Raider Hunter" XYZ="-8.957046,-3.274314,-99.07837"/>
-        <Hotspot Name="Flesh Raider Scout" XYZ="-6.4218,-3.484634,-100.4231"/>
-        <Hotspot Name="Flesh Raider Hunter" XYZ="-8.473801,-3.306393,-101.872"/>
-        <Hotspot Name="Flesh Raider Scout" XYZ="-1.3614,-4.013114,-104.9115"/>
-        <Hotspot Name="Flesh Raider Scout" XYZ="-1.827752,-4.159701,-100.181"/>
-        <Hotspot Name="Flesh Raider Scout" XYZ="-3.3478,-4.265152,-98.5755"/>
-        <Hotspot Name="Flesh Raider Hunter" XYZ="0.3049,-3.855632,-102.9328"/>
-        <Hotspot Name="My Location" XYZ="24.88696,-5.379164,-119.9835"/>
-      </Hotspots>
-    </GrindArea>
     <!-- Second Grind Reference -->	
-    <GrindArea Name="Halt the Assault (Bonus)">
-      <MinLevel>1</MinLevel>
-      <MaxLevel>5</MaxLevel>
-      <Mobs>
-        <Mob>Flesh Raider Ravager</Mob>
-        <Mob>Flesh Raider Brute</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="Flesh Raider Brute" XYZ="30.35947,-5.862119,-76.97369"/>
-        <Hotspot Name="Flesh Raider Ravager" XYZ="37.70578,-6.854006,-76.92126"/>
-        <Hotspot Name="My Location" XYZ="42.73677,-8.30991,-82.18724"/>
-        <Hotspot Name="Flesh Raider Brute" XYZ="39.90929,-8.289795,-79.63228"/>
-      </Hotspots>
-    </GrindArea>
     <!-- Third Grind Reference -->	
     <GrindArea Name="Attack of the Flesh Raiders 7-8">
       <MinLevel>1</MinLevel>
@@ -52,61 +19,9 @@
       </Hotspots>
     </GrindArea>
     <!-- Fourth Grind Reference -->	
-    <GrindArea Name="Clear the Path to the Jedi Temple (Bonus)">
-      <MinLevel>1</MinLevel>
-      <MaxLevel>60</MaxLevel>
-      <Mobs>
-        <Mob>Flesh Raider Lurker</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="Flesh Raider Lurker" XYZ="-9.4622,-2.099293,-79.6216"/>
-        <Hotspot Name="Flesh Raider Lurker" XYZ="-12.7541,-2.067433,-77.21391"/>
-        <Hotspot Name="Flesh Raider Lurker" XYZ="-8.545899,-1.123448,-70.12659"/>
-        <Hotspot Name="Flesh Raider Hunter" XYZ="-5.397388,-1.786554,-71.99511"/>
-        <Hotspot Name="Flesh Raider Scout" XYZ="-4.6734,-1.170054,-66.6288"/>
-        <Hotspot Name="Flesh Raider Lurker" XYZ="-0.9062001,-1.215531,-66.1236"/>
-        <Hotspot Name="Flesh Raider Lurker" XYZ="0.0387,-0.3826405,-61.4106"/>
-      </Hotspots>
-    </GrindArea>
     <!-- Fifth Grind Reference -->	
-    <GrindArea Name="High-Tech Savages 5">
-      <MinLevel>1</MinLevel>
-      <MaxLevel>60</MaxLevel>
-      <Mobs>
-        <Mob>Flesh Raider Warmaster</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="Flesh Raider Warmaster" XYZ="31.56553,-3.993451,-45.13751"/>
-      </Hotspots>
-    </GrindArea>
     <!-- Sixth Grind Reference -->	
-    <GrindArea Name="Scars of the Dark Side (Bonus)">
-      <MinLevel>7</MinLevel>
-      <MaxLevel>10</MaxLevel>
-      <Mobs>
-        <Mob>Flesh Raider Savage Adept</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="My Location" XYZ="-42.87069,-2.036721,26.84647"/>
-        <Hotspot Name="Flesh Raider Savage Adept" XYZ="-42.2033,-2.411096,31.8365"/>
-        <Hotspot Name="Flesh Raider Savage Adept" XYZ="-40.1029,-2.394503,33.5955"/>
-        <Hotspot Name="Flesh Raider Savage Adept" XYZ="-37.0239,-2.067572,32.8562"/>
-        <Hotspot Name="Flesh Raider Savage Adept" XYZ="-46.6918,-2.417198,31.64279"/>
-        <Hotspot Name="My Location" XYZ="-43.53875,-1.695117,34.10836"/>
-      </Hotspots>
-    </GrindArea>
     <!-- Seventh Grind Reference -->	
-    <GrindArea Name="Weapon of the Jedi 5">
-      <MinLevel>7</MinLevel>
-      <MaxLevel>11</MaxLevel>
-      <Mobs>
-        <Mob>Bengel Morr</Mob>
-        <Mob>Flesh Raider Bodyguard Adept</Mob>
-      </Mobs>
-      <Hotspots>
-        <Hotspot Name="Bengel Morr" XYZ="-24.36744,16.99446,150.634"/>
-      </Hotspots>
-    </GrindArea>
     <!-- End of Grind References -->	
   </GrindAreas>	
 
@@ -128,7 +43,27 @@
     <!--  Knight: Attack of the Flesh Raiders 4-11  -->
     <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsQuestComplete(0xE000D8E514C906C4)))">
       <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 4)))">
-        <Grind GrindRef="Attack of the Flesh Raiders 4" While="(not IsBranchStepComplete(0xE000D8E514C906C4, 1, 4))"/>
+        <Grind While="(not IsBranchStepComplete(0xE000D8E514C906C4, 1, 4))">
+        	<GrindArea Name="Attack of the Flesh Raiders 4">
+        	  <MinLevel>1</MinLevel>
+        	  <MaxLevel>3</MaxLevel>
+        	  <Mobs>
+        	    <Mob>Flesh Raider Scout</Mob>
+        	    <Mob>Flesh Raider Hunter</Mob>
+        	    <Mob>Flesh Raider Bloodletter</Mob>
+        	  </Mobs>
+        	  <Hotspots>
+        	    <Hotspot Name="Flesh Raider Hunter" XYZ="-8.957046,-3.274314,-99.07837"/>
+        	    <Hotspot Name="Flesh Raider Scout" XYZ="-6.4218,-3.484634,-100.4231"/>
+        	    <Hotspot Name="Flesh Raider Hunter" XYZ="-8.473801,-3.306393,-101.872"/>
+        	    <Hotspot Name="Flesh Raider Scout" XYZ="-1.3614,-4.013114,-104.9115"/>
+        	    <Hotspot Name="Flesh Raider Scout" XYZ="-1.827752,-4.159701,-100.181"/>
+        	    <Hotspot Name="Flesh Raider Scout" XYZ="-3.3478,-4.265152,-98.5755"/>
+        	    <Hotspot Name="Flesh Raider Hunter" XYZ="0.3049,-3.855632,-102.9328"/>
+        	    <Hotspot Name="My Location" XYZ="24.88696,-5.379164,-119.9835"/>
+        	  </Hotspots>
+        	</GrindArea>
+        </Grind>
       </If>
       <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 5)))">
         <UserDialog Title="Orlok" Message="Please accept the Holocom Call!" />
@@ -136,7 +71,22 @@
       <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 6)))">
         <!--  Halt the Assault (Bonus)  -->
         <If Condition="(not IsQuestComplete(0xE000C99074E53EFF))">
-          <Grind GrindRef="Halt the Assault (Bonus)" While="(not IsQuestComplete(0xE000C99074E53EFF))"/>
+          <Grind While="(not IsQuestComplete(0xE000C99074E53EFF))">
+          	<GrindArea Name="Halt the Assault (Bonus)">
+          	  <MinLevel>1</MinLevel>
+          	  <MaxLevel>5</MaxLevel>
+          	  <Mobs>
+          	    <Mob>Flesh Raider Ravager</Mob>
+          	    <Mob>Flesh Raider Brute</Mob>
+          	  </Mobs>
+          	  <Hotspots>
+          	    <Hotspot Name="Flesh Raider Brute" XYZ="30.35947,-5.862119,-76.97369"/>
+          	    <Hotspot Name="Flesh Raider Ravager" XYZ="37.70578,-6.854006,-76.92126"/>
+          	    <Hotspot Name="My Location" XYZ="42.73677,-8.30991,-82.18724"/>
+          	    <Hotspot Name="Flesh Raider Brute" XYZ="39.90929,-8.289795,-79.63228"/>
+          	  </Hotspots>
+          	</GrindArea>
+          </Grind>
         </If>
         <MoveTo QuestId="0xE000D8E514C906C4" Name="Callef" XYZ="42.67798,-7.356068,-84.98225"/>
       </If>
@@ -153,7 +103,24 @@
     <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 10)))">
       <!--  Clear the Path to the Jedi Temple (Bonus)  -->
       <If Condition="(not IsQuestComplete(0xE000B49F913A84A5))">
-        <Grind GrindRef="Clear the Path to the Jedi Temple (Bonus)" While="(not IsQuestComplete(0xE000B49F913A84A5))"/>
+        <Grind While="(not IsQuestComplete(0xE000B49F913A84A5))">
+        	<GrindArea Name="Clear the Path to the Jedi Temple (Bonus)">
+        	  <MinLevel>1</MinLevel>
+        	  <MaxLevel>60</MaxLevel>
+        	  <Mobs>
+        	    <Mob>Flesh Raider Lurker</Mob>
+        	  </Mobs>
+        	  <Hotspots>
+        	    <Hotspot Name="Flesh Raider Lurker" XYZ="-9.4622,-2.099293,-79.6216"/>
+        	    <Hotspot Name="Flesh Raider Lurker" XYZ="-12.7541,-2.067433,-77.21391"/>
+        	    <Hotspot Name="Flesh Raider Lurker" XYZ="-8.545899,-1.123448,-70.12659"/>
+        	    <Hotspot Name="Flesh Raider Hunter" XYZ="-5.397388,-1.786554,-71.99511"/>
+        	    <Hotspot Name="Flesh Raider Scout" XYZ="-4.6734,-1.170054,-66.6288"/>
+        	    <Hotspot Name="Flesh Raider Lurker" XYZ="-0.9062001,-1.215531,-66.1236"/>
+        	    <Hotspot Name="Flesh Raider Lurker" XYZ="0.0387,-0.3826405,-61.4106"/>
+        	  </Hotspots>
+        	</GrindArea>
+        </Grind>
       </If>
       <MoveTo QuestId="0xE000D8E514C906C4" Name="Jedi Temple" XYZ="-31.33523,-6.7236,-44.28101"/>
       <If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 11)))">
@@ -183,7 +150,18 @@
     <!--  Knight - High-Tech Savages  -->
     <If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsQuestComplete(0xE000941AE7D5C4D8)))">
       <If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5)))">
-        <Grind GrindRef="High-Tech Savages 5" While="(not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5))"/>
+        <Grind While="(not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 5))">
+        	<GrindArea Name="High-Tech Savages 5">
+        	  <MinLevel>1</MinLevel>
+        	  <MaxLevel>60</MaxLevel>
+        	  <Mobs>
+        	    <Mob>Flesh Raider Warmaster</Mob>
+        	  </Mobs>
+        	  <Hotspots>
+        	    <Hotspot Name="Flesh Raider Warmaster" XYZ="31.56553,-3.993451,-45.13751"/>
+        	  </Hotspots>
+        	</GrindArea>
+        </Grind>
       </If>
       <If Condition="((HasQuest(0xE000941AE7D5C4D8)) and (not IsBranchStepComplete(0xE000941AE7D5C4D8, 1, 6)))">
         <UseObject QuestId="0xE000941AE7D5C4D8" ObjectName="Door Control Panel" BranchId="1" StepId="6" Radius="20" XYZ="30.85593,-3.996245,-45.29167"/>
@@ -283,7 +261,23 @@
       <If Condition="((HasQuest(0xE000A9CB998FEBA9)) and (not IsBranchStepComplete(0xE000A9CB998FEBA9, 1, 4)))">
         <!--  Scars of the Dark Side (Bonus)  -->
         <If Condition="(not IsQuestComplete(0xE000A025C5285596))">
-          <Grind GrindRef="Scars of the Dark Side (Bonus)" While="(not IsQuestComplete(0xE000A025C5285596))"/>
+          <Grind While="(not IsQuestComplete(0xE000A025C5285596))">
+          	<GrindArea Name="Scars of the Dark Side (Bonus)">
+          	  <MinLevel>7</MinLevel>
+          	  <MaxLevel>10</MaxLevel>
+          	  <Mobs>
+          	    <Mob>Flesh Raider Savage Adept</Mob>
+          	  </Mobs>
+          	  <Hotspots>
+          	    <Hotspot Name="My Location" XYZ="-42.87069,-2.036721,26.84647"/>
+          	    <Hotspot Name="Flesh Raider Savage Adept" XYZ="-42.2033,-2.411096,31.8365"/>
+          	    <Hotspot Name="Flesh Raider Savage Adept" XYZ="-40.1029,-2.394503,33.5955"/>
+          	    <Hotspot Name="Flesh Raider Savage Adept" XYZ="-37.0239,-2.067572,32.8562"/>
+          	    <Hotspot Name="Flesh Raider Savage Adept" XYZ="-46.6918,-2.417198,31.64279"/>
+          	    <Hotspot Name="My Location" XYZ="-43.53875,-1.695117,34.10836"/>
+          	  </Hotspots>
+          	</GrindArea>
+          </Grind>
         </If>
         <MoveTo QuestId="0xE000A9CB998FEBA9" Name="Pillar" XYZ="-43.53875,-1.695117,34.10836"/>
         <WaitTimer QuestId="1" WaitTime="3"/>
@@ -336,7 +330,19 @@
       </If>
       <!--  4 - Cutscene  -->
       <If Condition="((HasQuest(0xE000CBD20FC5289B)) and (not IsStepComplete(0xE000CBD20FC5289B, 5)))">
-        <Grind GrindRef="Weapon of the Jedi 5" While="(not IsBranchStepComplete(0xE000CBD20FC5289B, 1, 5))"/>
+        <Grind While="(not IsBranchStepComplete(0xE000CBD20FC5289B, 1, 5))">
+        	<GrindArea Name="Weapon of the Jedi 5">
+        	  <MinLevel>7</MinLevel>
+        	  <MaxLevel>11</MaxLevel>
+        	  <Mobs>
+        	    <Mob>Bengel Morr</Mob>
+        	    <Mob>Flesh Raider Bodyguard Adept</Mob>
+        	  </Mobs>
+        	  <Hotspots>
+        	    <Hotspot Name="Bengel Morr" XYZ="-24.36744,16.99446,150.634"/>
+        	  </Hotspots>
+        	</GrindArea>
+        </Grind>
       </If>
       <If Condition="((HasQuest(0xE000CBD20FC5289B)) and (not IsStepComplete(0xE000CBD20FC5289B, 6)))">
         <TalkTo QuestId="0xE000CBD20FC5289B" Name="Bengel Morr" UseRange="0.1" XYZ="-25.02433,16.99446,149.9524"/>

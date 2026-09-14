@@ -24,191 +24,6 @@
 	<GrindAreas>
 
 	
-		<GrindArea Name="Thanaton Strikes Back 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Lord Cineratus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Cineratus" XYZ="28.6887,8.626201,-17.0489" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Quesh Showdown 3 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Master Berin Fraal</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Berin Fraal" XYZ="102.0277,9.030838,-96.09402" />
-				<Hotspot Name="My Location" XYZ="100.5712,9.036752,-95.61456" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Republic Teardown">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Sergeant</Mob>
-				<Mob>Republic Soldier</Mob>
-				<Mob>Weapon Emplacement</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-40.94608,6.85435,92.87829" />
-				<Hotspot Name="My Location" XYZ="-46.05997,6.79391,93.83894" />
-				<Hotspot Name="My Location" XYZ="-48.93426,6.807212,85.33134" />
-				<Hotspot Name="My Location" XYZ="-57.57261,6.659951,75.8955" />
-				<Hotspot Name="My Location" XYZ="-53.90548,6.87754,68.41071" />
-				<Hotspot Name="My Location" XYZ="-50.66098,7.171555,52.20551" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 3 - Atypical Tactics">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Turret Tech</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="77.08949,9.398376,-76.74745" />
-				<Hotspot Name="My Location" XYZ="77.09145,9.276547,-89.705" />
-				<Hotspot Name="Republic Turret Tech" XYZ="88.2199,9.782431,-87.4906" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 1 - Atypical Tactics - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jedi Commander</Mob>
-				<Mob>Jedi Defender</Mob>
-				<Mob>Republic Adrenal Armsmaster</Mob>
-				<Mob>Republic Adrenal Commando</Mob>
-				<Mob>Republic Adrenal Trooper</Mob>
-				<Mob>Republic Defense Droid</Mob>
-				<Mob>Republic Hazmat Captain</Mob>
-				<Mob>Republic Hazmat Soldier</Mob>
-				<Mob>Republic Tech Specialist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="59.18836,9.409407,-65.51719" />
-				<Hotspot Name="Jedi Commander" XYZ="65.99041,9.289906,-71.16478" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Three Families - Defeat the Republic Battle Droid">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Battle Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Battle Droid" XYZ="103.7572,19.3514,-34.58859" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 2 - A Family Concern - Defeat republic and Three Families Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Medical Officer</Mob>
-				<Mob>Families Assassin</Mob>
-				<Mob>Families Eraser</Mob>
-				<Mob>Families Gadgeteer</Mob>
-				<Mob>Families Mercenary</Mob>
-				<Mob>Families Sentry</Mob>
-				<Mob>Families Tech Guard</Mob>
-				<Mob>Families Tech Specialist</Mob>
-				<Mob>Republic Guard Commander</Mob>
-				<Mob>Republic Gunner</Mob>
-				<Mob>Republic Security Droid</Mob>
-				<Mob>Republic Security Droid</Mob>
-				<Mob>Republic Security Enforcer</Mob>
-				<Mob>Republic Security Guard</Mob>
-				<Mob>Republic Security Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Guard Commander" XYZ="45.76203,12.52457,-37.2201" />
-				<Hotspot Name="Families Mercenary" XYZ="55.97581,12.591,-41.37293" />
-				<Hotspot Name="Families Sentry" XYZ="65.46603,13.99699,-40.58113" />
-				<Hotspot Name="Republic Guard Commander" XYZ="67.08521,14.57861,-32.4611" />
-				<Hotspot Name="Families Sentry" XYZ="79.48694,17.22581,-30.08314" />
-				<Hotspot Name="Families Sentry" XYZ="82.14017,17.22957,-42.00963" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Stage 1 - A Family Concern - Defeat republic and Three Families Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Medical Officer</Mob>
-				<Mob>Families Assassin</Mob>
-				<Mob>Families Eraser</Mob>
-				<Mob>Families Gadgeteer</Mob>
-				<Mob>Families Mercenary</Mob>
-				<Mob>Families Sentry</Mob>
-				<Mob>Families Tech Guard</Mob>
-				<Mob>Families Tech Specialist</Mob>
-				<Mob>Republic Guard Commander</Mob>
-				<Mob>Republic Gunner</Mob>
-				<Mob>Republic Security Droid</Mob>
-				<Mob>Republic Security Droid</Mob>
-				<Mob>Republic Security Enforcer</Mob>
-				<Mob>Republic Security Guard</Mob>
-				<Mob>Republic Security Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Guard Commander" XYZ="45.76203,12.52457,-37.2201" />
-				<Hotspot Name="Families Mercenary" XYZ="55.97581,12.591,-41.37293" />
-				<Hotspot Name="Families Sentry" XYZ="65.46603,13.99699,-40.58113" />
-				<Hotspot Name="Republic Guard Commander" XYZ="67.08521,14.57861,-32.4611" />
-				<Hotspot Name="Families Sentry" XYZ="79.48694,17.22581,-30.08314" />
-				<Hotspot Name="Families Sentry" XYZ="82.14017,17.22957,-42.00963" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Shipment Lost - Defeat Republic Personnel">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Medical Officer</Mob>
-				<Mob>Republic Station Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Station Trainee" XYZ="3.8316,8.958008,31.4573" />
-				<Hotspot Name="Republic Station Trainee" XYZ="4.1431,10.32154,30.0122" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Adrenal Shutdown Selkath Scientists - Defeat the Selkath Head Scientist">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Selkath Head Scientist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Selkath Head Scientist" XYZ="-19.76011,2.439822,24.64037" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Stage 2 - Infusion - Defeat Republic Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Jedi Commander</Mob>
-				<Mob>Republic Guardsman</Mob>
-				<Mob>Republic Medical Officer</Mob>
-				<Mob>Republic Protector</Mob>
-				<Mob>Republic Station Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-18.67764,0.275163,18.6907" />
-				<Hotspot Name="My Location" XYZ="-17.62904,2.429568,22.92577" />
-			</Hotspots>
-		</GrindArea>
-	
 		<GrindArea Name="Stage 1 - Infusion - Defeat Republic Forces">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -226,87 +41,6 @@
 				<Hotspot Name="My Location" XYZ="-18.52338,7.824387,25.07046" />	  
 				<Hotspot Name="My Location" XYZ="-19.74261,7.82408,16.55333" />
 				<Hotspot Name="My Location" XYZ="-22.26068,9.221906,15.45055" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Adrenal Shutdown Selkath Scientists - Defeat Selkath Sceientists">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Selkath Scientist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-19.74261,7.82408,16.55333" />
-				<Hotspot Name="My Location" XYZ="-22.26068,9.221906,15.45055" />
-				<Hotspot Name="My Location" XYZ="-18.67764,0.275163,18.6907" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Blood and Venom - Riflemen">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Adrenal Sentry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Adrenal Sentry" XYZ="-35.25013,6.839863,78.98348" />
-				<Hotspot Name="My Location" XYZ="-35.57136,4.698745,71.13377" />
-				<Hotspot Name="Republic Adrenal Rifleman" XYZ="-43.94262,6.412784,69.38953" />
-				<Hotspot Name="Republic Adrenal Rifleman" XYZ="-33.1497,4.536495,66.1976" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Blood and Venom - Sentry">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Adrenal Sentry</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Adrenal Sentry" XYZ="-35.25013,6.839863,78.98348" />
-				<Hotspot Name="My Location" XYZ="-35.57136,4.698745,71.13377" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Breaker Breaker - Defeat Republic Convoy Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Weapon Emplacement</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-40.94608,6.85435,92.87829" />
-				<Hotspot Name="My Location" XYZ="-46.05997,6.79391,93.83894" />
-				<Hotspot Name="My Location" XYZ="-48.93426,6.807212,85.33134" />
-				<Hotspot Name="My Location" XYZ="-57.57261,6.659951,75.8955" />
-				<Hotspot Name="My Location" XYZ="-53.90548,6.87754,68.41071" />
-				<Hotspot Name="My Location" XYZ="-50.66098,7.171555,52.20551" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="Breaker Breaker - Defeat Republic Convoy Forces">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Convoy Scout</Mob>
-				<Mob>Republic Convoy Trooper</Mob>
-				<Mob>Republic Convoy Watchman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-11.14127,5.690411,100.5956" />
-				<Hotspot Name="Republic Convoy Trooper" XYZ="-7.1205,5.281374,91.81523" />
-				<Hotspot Name="Republic Convoy Trooper" XYZ="0.195882,5.715382,79.61826" />
-			</Hotspots>
-		</GrindArea>
-	
-		<GrindArea Name="The Mind Trap - Destroy the Chemical Droids">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Chemical Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Chemical Droid" XYZ="5.988433,9.258015,165.8178" />
 			</Hotspots>
 		</GrindArea>
 	
@@ -386,7 +120,18 @@
 				<TalkTo QuestId="0xE0007FA16B96ABE7" Name="Administrator Kroius" XYZ="4.5095,9.258024,165.5407" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="The Mind Trap - Destroy the Chemical Droids" While="not IsBranchStepComplete(0xE0007FA16B96ABE7, 3, 2)" />
+			<Grind While="not IsBranchStepComplete(0xE0007FA16B96ABE7, 3, 2)">
+				<GrindArea Name="The Mind Trap - Destroy the Chemical Droids">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Chemical Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Chemical Droid" XYZ="5.988433,9.258015,165.8178" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<PickUpQuest QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" Type="Placeable" UseRange="2" GiverName="Datapad" XYZ="2.980837,9.681746,130.8602" />
@@ -411,7 +156,25 @@
 			<UseObject ObjectName="Ventilation Controls" QuestId="0xE000F312709657D7" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="4" XYZ="-51.79393,7.175291,49.59192" />
 			<!-- Republic Teardown -->
 			<If Condition="(not IsQuestComplete(0xE00093F76C0E0860))">
-				<Grind GrindRef="Republic Teardown" While="(not IsQuestComplete(0xE00093F76C0E0860))" />
+				<Grind While="(not IsQuestComplete(0xE00093F76C0E0860))">
+					<GrindArea Name="Republic Teardown">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Sergeant</Mob>
+							<Mob>Republic Soldier</Mob>
+							<Mob>Weapon Emplacement</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-40.94608,6.85435,92.87829" />
+							<Hotspot Name="My Location" XYZ="-46.05997,6.79391,93.83894" />
+							<Hotspot Name="My Location" XYZ="-48.93426,6.807212,85.33134" />
+							<Hotspot Name="My Location" XYZ="-57.57261,6.659951,75.8955" />
+							<Hotspot Name="My Location" XYZ="-53.90548,6.87754,68.41071" />
+							<Hotspot Name="My Location" XYZ="-50.66098,7.171555,52.20551" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Pickup A Miner Situation -->
 			<If Condition="((not HasQuest(0xE000FD87F2197DE3)) and (not IsQuestComplete(0xE000FD87F2197DE3)))">
@@ -433,7 +196,23 @@
 			<UseObject ObjectName="Surveillance Equipment" QuestId="0xE000ACE785105EB2" BranchId="1" StepId="3" IgnoreLOS="True" IgnoreQuestRelation="True" WaitTime="2" XYZ="-9.075624,6.282239,56.14957" />
 			<!-- Breaker Breaker -->
 			<If Condition="(not IsQuestComplete(0xE00008ACEABC5917))">
-				<Grind GrindRef="Breaker Breaker - Defeat Republic Convoy Forces" While="(not IsQuestComplete(0xE00008ACEABC5917))" />
+				<Grind While="(not IsQuestComplete(0xE00008ACEABC5917))">
+					<GrindArea Name="Breaker Breaker - Defeat Republic Convoy Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Weapon Emplacement</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-40.94608,6.85435,92.87829" />
+							<Hotspot Name="My Location" XYZ="-46.05997,6.79391,93.83894" />
+							<Hotspot Name="My Location" XYZ="-48.93426,6.807212,85.33134" />
+							<Hotspot Name="My Location" XYZ="-57.57261,6.659951,75.8955" />
+							<Hotspot Name="My Location" XYZ="-53.90548,6.87754,68.41071" />
+							<Hotspot Name="My Location" XYZ="-50.66098,7.171555,52.20551" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest Type="Placeable" UseRange="2" QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" TurnInName="Holoterminal" XYZ="-8.687485,6.2963,52.59349" />
 			<CompleteQuest QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" />
@@ -457,8 +236,34 @@
 		
 		<!-- Blood and Venom and Turnin -->
 		<If Condition="((HasQuest(0xE00006051DEE068B)) and (not IsQuestComplete(0xE00006051DEE068B)))">
-			<Grind GrindRef="Blood and Venom - Sentry" While="not IsTaskComplete(0xE00006051DEE068B, 2, 1)" />
-			<Grind GrindRef="Blood and Venom - Riflemen" While="not IsTaskComplete(0xE00006051DEE068B, 2, 0)" />
+			<Grind While="not IsTaskComplete(0xE00006051DEE068B, 2, 1)">
+				<GrindArea Name="Blood and Venom - Sentry">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Adrenal Sentry</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Adrenal Sentry" XYZ="-35.25013,6.839863,78.98348" />
+						<Hotspot Name="My Location" XYZ="-35.57136,4.698745,71.13377" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
+			<Grind While="not IsTaskComplete(0xE00006051DEE068B, 2, 0)">
+				<GrindArea Name="Blood and Venom - Riflemen">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Adrenal Sentry</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Adrenal Sentry" XYZ="-35.25013,6.839863,78.98348" />
+						<Hotspot Name="My Location" XYZ="-35.57136,4.698745,71.13377" />
+						<Hotspot Name="Republic Adrenal Rifleman" XYZ="-43.94262,6.412784,69.38953" />
+						<Hotspot Name="Republic Adrenal Rifleman" XYZ="-33.1497,4.536495,66.1976" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" TurnInName="Sergeant Molvar" XYZ="-7.4672,6.280286,55.372" />
 			<CompleteQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" />
 		</If>
@@ -469,9 +274,33 @@
 				<MoveTo QuestId="0xE00085050F9F1FF2" XYZ="-15.36941,7.8366,19.95132" />
 			</If>
 			<!-- Ele going down -->
-			<Grind GrindRef="Adrenal Shutdown Selkath Scientists - Defeat the Selkath Head Scientist" While="not IsTaskComplete(0xE00085050F9F1FF2, 3, 1)" />
+			<Grind While="not IsTaskComplete(0xE00085050F9F1FF2, 3, 1)">
+				<GrindArea Name="Adrenal Shutdown Selkath Scientists - Defeat the Selkath Head Scientist">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Selkath Head Scientist</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Selkath Head Scientist" XYZ="-19.76011,2.439822,24.64037" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Ele going up -->
-			<Grind GrindRef="Adrenal Shutdown Selkath Scientists - Defeat Selkath Sceientists" While="not IsTaskComplete(0xE00085050F9F1FF2, 3, 0)" />
+			<Grind While="not IsTaskComplete(0xE00085050F9F1FF2, 3, 0)">
+				<GrindArea Name="Adrenal Shutdown Selkath Scientists - Defeat Selkath Sceientists">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Selkath Scientist</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-19.74261,7.82408,16.55333" />
+						<Hotspot Name="My Location" XYZ="-22.26068,9.221906,15.45055" />
+						<Hotspot Name="My Location" XYZ="-18.67764,0.275163,18.6907" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<!-- Stage 1 - Infusion -->
 			<If Condition="(not IsQuestComplete(0xE000D717FCBE6A1E))">
 				<Grind GrindRef="Stage 1 - Infusion - Defeat Republic Forces" While="(not IsQuestComplete(0xE000D717FCBE6A1E))" />
@@ -512,7 +341,20 @@
 			</UseObject>
 			<!-- Shipment Lost - Defeat Republic Personnel -->
 			<If Condition="(not IsQuestComplete(0xE000D534C4061085))">
-				<Grind GrindRef="Shipment Lost - Defeat Republic Personnel" While="(not IsQuestComplete(0xE000D534C4061085))" />
+				<Grind While="(not IsQuestComplete(0xE000D534C4061085))">
+					<GrindArea Name="Shipment Lost - Defeat Republic Personnel">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Medical Officer</Mob>
+							<Mob>Republic Station Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Station Trainee" XYZ="3.8316,8.958008,31.4573" />
+							<Hotspot Name="Republic Station Trainee" XYZ="4.1431,10.32154,30.0122" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -561,7 +403,18 @@
 				<MoveTo QuestId="0xE000BE72DB8AD93D" Name="Lord Cineratus" XYZ="28.6887,8.626201,-17.0489" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Thanaton Strikes Back 2 2" While="(not IsBranchStepComplete(0xE000BE72DB8AD93D, 2, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE000BE72DB8AD93D, 2, 2))">
+				<GrindArea Name="Thanaton Strikes Back 2 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Lord Cineratus</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Lord Cineratus" XYZ="28.6887,8.626201,-17.0489" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		
 		<!-- The Three Families: Charge the Front and Turnin -->
@@ -574,11 +427,71 @@
 			</If>
 			<!-- Stage 1 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000482FF42882E4))">
-				<Grind GrindRef="Stage 1 - A Family Concern - Defeat republic and Three Families Forces" While="(not IsQuestComplete(0xE000482FF42882E4))" />
+				<Grind While="(not IsQuestComplete(0xE000482FF42882E4))">
+					<GrindArea Name="Stage 1 - A Family Concern - Defeat republic and Three Families Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Medical Officer</Mob>
+							<Mob>Families Assassin</Mob>
+							<Mob>Families Eraser</Mob>
+							<Mob>Families Gadgeteer</Mob>
+							<Mob>Families Mercenary</Mob>
+							<Mob>Families Sentry</Mob>
+							<Mob>Families Tech Guard</Mob>
+							<Mob>Families Tech Specialist</Mob>
+							<Mob>Republic Guard Commander</Mob>
+							<Mob>Republic Gunner</Mob>
+							<Mob>Republic Security Droid</Mob>
+							<Mob>Republic Security Droid</Mob>
+							<Mob>Republic Security Enforcer</Mob>
+							<Mob>Republic Security Guard</Mob>
+							<Mob>Republic Security Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Guard Commander" XYZ="45.76203,12.52457,-37.2201" />
+							<Hotspot Name="Families Mercenary" XYZ="55.97581,12.591,-41.37293" />
+							<Hotspot Name="Families Sentry" XYZ="65.46603,13.99699,-40.58113" />
+							<Hotspot Name="Republic Guard Commander" XYZ="67.08521,14.57861,-32.4611" />
+							<Hotspot Name="Families Sentry" XYZ="79.48694,17.22581,-30.08314" />
+							<Hotspot Name="Families Sentry" XYZ="82.14017,17.22957,-42.00963" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000452FF428BF8D))">
-				<Grind GrindRef="Stage 2 - A Family Concern - Defeat republic and Three Families Forces" While="(not IsQuestComplete(0xE000452FF428BF8D))" />
+				<Grind While="(not IsQuestComplete(0xE000452FF428BF8D))">
+					<GrindArea Name="Stage 2 - A Family Concern - Defeat republic and Three Families Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Medical Officer</Mob>
+							<Mob>Families Assassin</Mob>
+							<Mob>Families Eraser</Mob>
+							<Mob>Families Gadgeteer</Mob>
+							<Mob>Families Mercenary</Mob>
+							<Mob>Families Sentry</Mob>
+							<Mob>Families Tech Guard</Mob>
+							<Mob>Families Tech Specialist</Mob>
+							<Mob>Republic Guard Commander</Mob>
+							<Mob>Republic Gunner</Mob>
+							<Mob>Republic Security Droid</Mob>
+							<Mob>Republic Security Droid</Mob>
+							<Mob>Republic Security Enforcer</Mob>
+							<Mob>Republic Security Guard</Mob>
+							<Mob>Republic Security Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Republic Guard Commander" XYZ="45.76203,12.52457,-37.2201" />
+							<Hotspot Name="Families Mercenary" XYZ="55.97581,12.591,-41.37293" />
+							<Hotspot Name="Families Sentry" XYZ="65.46603,13.99699,-40.58113" />
+							<Hotspot Name="Republic Guard Commander" XYZ="67.08521,14.57861,-32.4611" />
+							<Hotspot Name="Families Sentry" XYZ="79.48694,17.22581,-30.08314" />
+							<Hotspot Name="Families Sentry" XYZ="82.14017,17.22957,-42.00963" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 3 - A Family Concern -->
 			<If Condition="(not IsQuestComplete(0xE000462FF428815E))">
@@ -605,7 +518,18 @@
 			<UseObject ObjectName="Secondary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="1" IgnoreLOS="True" WaitTime="3" XYZ="104.7891,19.40402,-36.55947" />
 			<UseObject ObjectName="Primary Generator" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="3" TaskId="0" IgnoreLOS="True" WaitTime="3" XYZ="102.8459,19.40395,-36.53824" />
 			<UseObject ObjectName="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="4" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
-			<Grind GrindRef="The Three Families - Defeat the Republic Battle Droid" While="not IsBranchStepComplete(0xE000AAA33520D44A, 4, 5)" />
+			<Grind While="not IsBranchStepComplete(0xE000AAA33520D44A, 4, 5)">
+				<GrindArea Name="The Three Families - Defeat the Republic Battle Droid">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Republic Battle Droid</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Republic Battle Droid" XYZ="103.7572,19.3514,-34.58859" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject ObjectName="Forcefield Console" QuestId="0xE000AAA33520D44A" BranchId="4" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="103.639,19.40432,-36.51069" />
 			<If Condition="HasQuest(0xE000AAA33520D44A) and not IsBranchStepComplete(0xE000AAA33520D44A, 4, 7)" >
 				<TalkTo QuestId="0xE000AAA33520D44A" Name="Portho the Hutt" XYZ="106.2824,19.40491,-34.9706" />
@@ -632,7 +556,27 @@
 		<If Condition="((HasQuest(0xE000778438467841)) and (not IsQuestComplete(0xE000778438467841)))">
 			<!-- Stage 1 - Atypical Tactics - Defeat Republic Forces -->
 			<If Condition="(not IsQuestComplete(0xE00061AB236DB27D))">
-				<Grind GrindRef="Stage 1 - Atypical Tactics - Defeat Republic Forces" While="(not IsQuestComplete(0xE00061AB236DB27D))" />
+				<Grind While="(not IsQuestComplete(0xE00061AB236DB27D))">
+					<GrindArea Name="Stage 1 - Atypical Tactics - Defeat Republic Forces">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Jedi Commander</Mob>
+							<Mob>Jedi Defender</Mob>
+							<Mob>Republic Adrenal Armsmaster</Mob>
+							<Mob>Republic Adrenal Commando</Mob>
+							<Mob>Republic Adrenal Trooper</Mob>
+							<Mob>Republic Defense Droid</Mob>
+							<Mob>Republic Hazmat Captain</Mob>
+							<Mob>Republic Hazmat Soldier</Mob>
+							<Mob>Republic Tech Specialist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="59.18836,9.409407,-65.51719" />
+							<Hotspot Name="Jedi Commander" XYZ="65.99041,9.289906,-71.16478" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 2 - Atypical Tactics - Destroy Storage Cells -->
 			<If Condition="(not IsQuestComplete(0xE00060AB236DB4C0))">
@@ -647,7 +591,20 @@
 			</If>
 			<!-- Stage 3 - Atypical Tactics -->
 			<If Condition="(not IsQuestComplete(0xE0005FAB236DB693))">
-				<Grind GrindRef="Stage 3 - Atypical Tactics" While="(not IsQuestComplete(0xE0005FAB236DB693))" />
+				<Grind While="(not IsQuestComplete(0xE0005FAB236DB693))">
+					<GrindArea Name="Stage 3 - Atypical Tactics">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Republic Turret Tech</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="77.08949,9.398376,-76.74745" />
+							<Hotspot Name="My Location" XYZ="77.09145,9.276547,-89.705" />
+							<Hotspot Name="Republic Turret Tech" XYZ="88.2199,9.782431,-87.4906" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Final Stage - Atypical Tactics -->
 			<If Condition="(not IsQuestComplete(0xE0005EAB236DB766))">
@@ -661,7 +618,19 @@
 				<Interact Name="Door" IgnoreLOS="True" XYZ="95.61705,9.400139,-98.28984" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
-			<Grind GrindRef="Quesh Showdown 3 4" While="(not IsBranchStepComplete(0xE000778438467841, 3, 4))" />
+			<Grind While="(not IsBranchStepComplete(0xE000778438467841, 3, 4))">
+				<GrindArea Name="Quesh Showdown 3 4">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Master Berin Fraal</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Master Berin Fraal" XYZ="102.0277,9.030838,-96.09402" />
+						<Hotspot Name="My Location" XYZ="100.5712,9.036752,-95.61456" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE000778438467841)) and (not IsBranchStepComplete(0xE000778438467841, 3, 5)))">
 				<TalkTo QuestId="0xE000778438467841" Name="Master Berin Fraal" XYZ="99.67142,9.151001,-94.93866" />
 				<WaitTimer QuestId="1" WaitTime="8" />

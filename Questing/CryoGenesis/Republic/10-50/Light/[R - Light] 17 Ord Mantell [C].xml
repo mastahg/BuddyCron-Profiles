@@ -26,55 +26,6 @@
 		<Hotspot Name="Volcano Camp" XYZ="-69.99444,2.017646,-18.85642" />
 	</Mailboxes>
 		
-	<GrindAreas> 
-		<GrindArea Name="Going Dark (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Recruit</Mob>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Soldier" XYZ="-20.18404,-4.374,-93.22325" />
-				<Hotspot Name="Imperial Captain" XYZ="-23.20134,-4.202011,-91.40328" />
-				<Hotspot Name="Imperial Soldier" XYZ="-24.25407,-4.374,-88.86757" />
-				<Hotspot Name="Imperial Recruit" XYZ="-26.46727,-4.3865,-85.19218" />
-				<Hotspot Name="Imperial Soldier" XYZ="-27.4659,-4.415565,-81.3654" />
-				<Hotspot Name="Imperial Soldier" XYZ="-28.29,-4.406325,-92.45081" />
-				<Hotspot Name="Imperial Soldier" XYZ="-31.025,-4.394479,-89.2598" />
-			</Hotspots>
-		</GrindArea>  	
-
-		<GrindArea Name="New Intelligence - Lieutenant Marcovic">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lieutenant Marcovic</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lieutenant Marcovic" XYZ="-31.3469,-4.2,-85.5771" />
-			</Hotspots>
-		</GrindArea> 
-
-		<GrindArea Name="New Intelligence - Inquisitor Ferav">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Acolyte</Mob>
-				<Mob>Imperial Commando</Mob>
-				<Mob>Inquisitor Ferav</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Inquisitor Ferav" XYZ="-105.1008,-99.999,15.0514" />
-			</Hotspots>
-		</GrindArea>   		
-		
-
-
-	</GrindAreas>
-
-
 	<Questing>
 
 		<!-- Knight - New Intelligence -->
@@ -108,12 +59,42 @@
 				<!-- Going Dark (Bonus) -->
 				<If Condition="((HasQuest(0xE000F0697247572F)) and (not IsQuestComplete(0xE000F0697247572F)))">
 					<If Condition="((HasQuest(0xE000F0697247572F)) and (not IsBranchStepComplete(0xE000F0697247572F, 1, 2)))">		
-						<Grind GrindRef="Going Dark (Bonus)" While="(not IsQuestComplete(0xE000F0697247572F))" />
+						<Grind While="(not IsQuestComplete(0xE000F0697247572F))">
+							<GrindArea Name="Going Dark (Bonus)">
+								<MinLevel>1</MinLevel>
+								<MaxLevel>50</MaxLevel>
+								<Mobs>
+									<Mob>Imperial Recruit</Mob>
+									<Mob>Imperial Soldier</Mob>
+									<Mob>Imperial Captain</Mob>
+								</Mobs>
+								<Hotspots>
+									<Hotspot Name="Imperial Soldier" XYZ="-20.18404,-4.374,-93.22325" />
+									<Hotspot Name="Imperial Captain" XYZ="-23.20134,-4.202011,-91.40328" />
+									<Hotspot Name="Imperial Soldier" XYZ="-24.25407,-4.374,-88.86757" />
+									<Hotspot Name="Imperial Recruit" XYZ="-26.46727,-4.3865,-85.19218" />
+									<Hotspot Name="Imperial Soldier" XYZ="-27.4659,-4.415565,-81.3654" />
+									<Hotspot Name="Imperial Soldier" XYZ="-28.29,-4.406325,-92.45081" />
+									<Hotspot Name="Imperial Soldier" XYZ="-31.025,-4.394479,-89.2598" />
+								</Hotspots>
+							</GrindArea>
+						</Grind>
 					</If>
 				</If>
 			</If>	
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 8)))">	
-				<Grind GrindRef="New Intelligence - Lieutenant Marcovic" While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 8))">
+					<GrindArea Name="New Intelligence - Lieutenant Marcovic">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Lieutenant Marcovic</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lieutenant Marcovic" XYZ="-31.3469,-4.2,-85.5771" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 9)))">	
 				<TalkTo QuestId="0xE000DDE90A0F682E" Name="Lieutenant Marcovic" Radius="50" XYZ="-31.42086,-4.2,-85.57004" />
@@ -146,7 +127,20 @@
 				</If>					
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15)))">	
-				<Grind GrindRef="New Intelligence - Inquisitor Ferav" While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15))">
+					<GrindArea Name="New Intelligence - Inquisitor Ferav">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Acolyte</Mob>
+							<Mob>Imperial Commando</Mob>
+							<Mob>Inquisitor Ferav</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Inquisitor Ferav" XYZ="-105.1008,-99.999,15.0514" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>		
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 16)))">	
 				<TalkTo QuestId="0xE000DDE90A0F682E" Name="Kira Carsen" XYZ="-104.9751,-100.0022,15.0088" />

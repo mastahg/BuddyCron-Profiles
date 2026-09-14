@@ -6,96 +6,6 @@
 
 
 	<!-- Beginning of Grind References -->	
-	<GrindAreas>
-		<GrindArea Name="Reclaiming the Valley">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>K'lor'slug Forager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot XYZ="12.81861,-0.9160324,5.116463" Name="South"/>
-				<Hotspot XYZ="7.25055,-1.630702,5.163111" Name="Center"/>
-				<Hotspot XYZ="-0.05298621,-1.608829,3.756884" Name="North/West"/>
-				<Hotspot XYZ="2.896528,-1.639983,-4.145567" Name="North/East"/>
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Test Your New Blade">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>6</MaxLevel>
-			<Mobs>
-				<Mob>K'lor'slug Hatchling</Mob>
-				<Mob>K'lor'slug Crippler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot XYZ="-7.097929,-3.249048,18.99043" Name="South"/>
-				<Hotspot XYZ="-11.34171,-3.231303,10.5295" Name="North"/>
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Judge and Executioner 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Devotek</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Devotek" XYZ="-42.30521,1.813271,-6.969296"/>
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="Slaying the Beast 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Dolgis</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Dolgis" XYZ="-28.44736,1.401,5.919165"/>
-			</Hotspots>
-		</GrindArea>
-
-
-		<GrindArea Name="Kill Marka Ragnos">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>The Beast of Marka Ragnos</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="52.03604,-20.20113,-38.94627"/>
-			</Hotspots>
-		</GrindArea>
-
-
-		<GrindArea Name="Sith Arithmetic 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Klemral</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Klemral" WaitTime="2000" XYZ="-30.21322,3.807655,-2.583385"/>
-			</Hotspots>
-		</GrindArea>
-
-
-		<GrindArea Name="The Final Trial 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Vemrin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Vemrin" XYZ="6.15863,-3.109892,-48.06568"/>
-			</Hotspots>
-		</GrindArea>
-
-
-	</GrindAreas>	
-
-	
 	<Questing>
 
 
@@ -106,7 +16,21 @@
 			</If>
 			<!--  Reclaiming the Valley (Bonus)  -->
 			<If Condition="(not IsQuestComplete(0xE00094C42A69B6E9))">
-				<Grind GrindRef="Reclaiming the Valley" While="(not IsQuestComplete(0xE00094C42A69B6E9))"/>
+				<Grind While="(not IsQuestComplete(0xE00094C42A69B6E9))">
+					<GrindArea Name="Reclaiming the Valley">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>K'lor'slug Forager</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot XYZ="12.81861,-0.9160324,5.116463" Name="South"/>
+							<Hotspot XYZ="7.25055,-1.630702,5.163111" Name="Center"/>
+							<Hotspot XYZ="-0.05298621,-1.608829,3.756884" Name="North/West"/>
+							<Hotspot XYZ="2.896528,-1.639983,-4.145567" Name="North/East"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -121,7 +45,20 @@
 				<MoveTo QuestId="0xE000E15C7BB9C0FB" XYZ="-0.1550468,-4.249242,19.9586"/>
 			</If>
 			<If Condition="(not IsQuestComplete(0xE000806859730110))">
-				<Grind GrindRef="Test Your New Blade" While="(not IsQuestComplete(0xE000806859730110))"/>
+				<Grind While="(not IsQuestComplete(0xE000806859730110))">
+					<GrindArea Name="Test Your New Blade">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>6</MaxLevel>
+						<Mobs>
+							<Mob>K'lor'slug Hatchling</Mob>
+							<Mob>K'lor'slug Crippler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot XYZ="-7.097929,-3.249048,18.99043" Name="South"/>
+							<Hotspot XYZ="-11.34171,-3.231303,10.5295" Name="North"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -138,7 +75,18 @@
 				<WaitTimer QuestId="1" WaitTime="8"/>
 			</If>
 			<If Condition="HasQuest(0xE0005CFB931E7ACB) and not IsBranchStepComplete(0xE0005CFB931E7ACB, 4, 2)">
-				<Grind GrindRef="Judge and Executioner 4 2" While="(not IsBranchStepComplete(0xE0005CFB931E7ACB, 4, 2))"/>
+				<Grind While="(not IsBranchStepComplete(0xE0005CFB931E7ACB, 4, 2))">
+					<GrindArea Name="Judge and Executioner 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Devotek</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Devotek" XYZ="-42.30521,1.813271,-6.969296"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0005CFB931E7ACB) and not IsBranchStepComplete(0xE0005CFB931E7ACB, 4, 3)">
 				<TalkTo QuestId="0xE0005CFB931E7ACB" Name="Jailer Knash" XYZ="-42.6915,1.813271,-6.9345"/>
@@ -169,7 +117,18 @@
 				<MoveTo XYZ="50.50351,-19.34991,-33.30284"/>
 			</If>
 			<UseObject QuestId="0xE000BDCA4B3FB368" BranchId="1" StepId="4" ObjectName="Ancient Sith Carving" WaitTime="8" XYZ="50.52357,-19.97035,-38.89777"/>
-			<Grind GrindRef="Kill Marka Ragnos" While="(not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 5))"/>
+			<Grind While="(not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 5))">
+				<GrindArea Name="Kill Marka Ragnos">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>The Beast of Marka Ragnos</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="52.03604,-20.20113,-38.94627"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 		<!--  Warrior - Slaying the Beast  -->
 		<If Condition="((HasQuest(0xE000BDCA4B3FB368)) and (not IsQuestComplete(0xE000BDCA4B3FB368)))">
@@ -177,7 +136,18 @@
 				<MoveTo QuestId="0xE000BDCA4B3FB368" XYZ="-27.76652,1.401,5.964353"/>
 			</If>
 			<If Condition="HasQuest(0xE000BDCA4B3FB368) and not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 8)">
-				<Grind GrindRef="Slaying the Beast 8" While="(not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 8))"/>
+				<Grind While="(not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 8))">
+					<GrindArea Name="Slaying the Beast 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Dolgis</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Dolgis" XYZ="-28.44736,1.401,5.919165"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000BDCA4B3FB368) and not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 9)">
 				<TalkTo QuestId="0xE000BDCA4B3FB368" Name="Dolgis" XYZ="-27.57557,1.401,5.978369"/>
@@ -242,7 +212,18 @@
 			<If Condition="HasQuest(0xE000E8EA0B8485FC) and not IsStepComplete(0xE000E8EA0B8485FC, 3)">
 				<MoveTo QuestId="1" XYZ="-30.21322,3.807655,-2.583385"/>
 			</If>
-			<Grind GrindRef="Sith Arithmetic 5" While="(not IsBranchStepComplete(0xE000E8EA0B8485FC, 1, 5))"/>
+			<Grind While="(not IsBranchStepComplete(0xE000E8EA0B8485FC, 1, 5))">
+				<GrindArea Name="Sith Arithmetic 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Klemral</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Klemral" WaitTime="2000" XYZ="-30.21322,3.807655,-2.583385"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000E8EA0B8485FC) and not IsStepComplete(0xE000E8EA0B8485FC, 6)">
 				<TalkTo Name="Klemral" QuestId="0xE000E8EA0B8485FC" WaitTime="2000" XYZ="-30.21322,3.807655,-2.583385"/>
 			</If>
@@ -286,7 +267,18 @@
 				<MoveTo QuestId="0xE000918E60CB3E07" XYZ="7.904349,-3.238058,-47.62412"/>
 			</If>
 			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 7)">
-				<Grind GrindRef="The Final Trial 7" While="(not IsBranchStepComplete(0xE000918E60CB3E07, 1, 7))"/>
+				<Grind While="(not IsBranchStepComplete(0xE000918E60CB3E07, 1, 7))">
+					<GrindArea Name="The Final Trial 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Vemrin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Vemrin" XYZ="6.15863,-3.109892,-48.06568"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000918E60CB3E07) and not IsStepComplete(0xE000918E60CB3E07, 8)">
 				<TalkTo QuestId="0xE000918E60CB3E07" Name="Vemrin" WaitTime="2000" XYZ="8.098773,-3.238058,-47.50108"/>

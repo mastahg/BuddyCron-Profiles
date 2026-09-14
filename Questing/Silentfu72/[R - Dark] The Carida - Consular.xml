@@ -19,34 +19,6 @@
 	</AvoidMobs>
 	-->
 	
-	<GrindAreas> 
-		<GrindArea Name="Laranna Fain">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Laranna Fain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Laranna Fain" XYZ="-9.976212,-0.099,12.29069" />				
-			</Hotspots>
-		</GrindArea> 
-		
-		<GrindArea Name="Hacked Resistance">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Attack Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-8.561996,0.0009998947,5.807189" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.0268,0.0009999602,10.6039" />
-				<Hotspot Name="Reprogrammed Attack Droid" XYZ="-7.4271,-0.099,12.6122" />
-			</Hotspots>
-		</GrindArea> 
-		
-		
-	</GrindAreas>
-	
 	<!--
 	
 		<GrindArea Name="">
@@ -84,10 +56,34 @@
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-10.0804,-0.099,12.6062" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7)))">
-				<Grind GrindRef="Laranna Fain" While="(not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 7))">
+					<GrindArea Name="Laranna Fain">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Laranna Fain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Laranna Fain" XYZ="-9.976212,-0.099,12.29069" />				
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 1, 8)))">
-				<Grind GrindRef="Hacked Resistance" While="(not IsStepComplete(0xE0006DB518096937, 2))" />
+				<Grind While="(not IsStepComplete(0xE0006DB518096937, 2))">
+					<GrindArea Name="Hacked Resistance">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Reprogrammed Attack Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-8.561996,0.0009998947,5.807189" />
+							<Hotspot Name="Reprogrammed Attack Droid" XYZ="-12.0268,0.0009999602,10.6039" />
+							<Hotspot Name="Reprogrammed Attack Droid" XYZ="-7.4271,-0.099,12.6122" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<TalkTo QuestId="0xE000EDF4DDB848B6" Name="Laranna Fain" XYZ="-9.976212,-0.0989977,12.29069" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDF4DDB848B6)) and (not IsBranchStepComplete(0xE000EDF4DDB848B6, 3, 2)))">

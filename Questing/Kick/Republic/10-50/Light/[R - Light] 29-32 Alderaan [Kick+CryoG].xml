@@ -31,129 +31,6 @@
 	
 	<GrindAreas> 
 
-		<GrindArea Name="Defusing the Situation (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Patroller</Mob>
-				<Mob>Thul Commando</Mob>
-				<Mob>Thul Demolitionist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Patroller" XYZ="-140.1756,23.22578,119.2501" />
-				<Hotspot Name="Thul Patroller" XYZ="-139.5498,23.11026,111.8623" />
-				<Hotspot Name="Thul Demolitionist" XYZ="-137.0783,23.0065,111.7251" />
-				<Hotspot Name="Thul Commando" XYZ="-132.8216,23.23718,115.0611" />
-				<Hotspot Name="Thul Patroller" XYZ="-128.2362,23.04225,114.2747" />
-				<Hotspot Name="Thul Commando" XYZ="-130.4432,23.13908,110.5778" />
-				<Hotspot Name="Thul Commando" XYZ="-134.0276,23.23736,109.5157" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Raise the Flag 2 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Raider</Mob>
-				<Mob>Thul Infiltrator</Mob>
-				<Mob>Thul Siege Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Raider" XYZ="-105.0259,22.41456,149.8309" />
-				<Hotspot Name="Thul Siege Droid" XYZ="-105.7772,22.20507,152.6387" />
-				<Hotspot Name="Thul Raider" XYZ="-107.7192,22.56605,154.3732" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Raise the Flag 2 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Raider</Mob>
-				<Mob>Thul Infiltrator</Mob>
-				<Mob>Thul Siege Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Raider" XYZ="-84.7805,22.0575,146.4279" />
-				<Hotspot Name="Thul Siege Droid" XYZ="-81.6306,21.62267,146.4148" />
-				<Hotspot Name="Thul Raider" XYZ="-86.9541,21.8664,148.5305" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Raise the Flag 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Raider</Mob>
-				<Mob>Thul Infiltrator</Mob>
-				<Mob>Thul Siege Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Raider" XYZ="-76.5478,21.29183,172.0669" />
-				<Hotspot Name="Thul Siege Droid" XYZ="-75.4305,21.32166,169.903" />
-				<Hotspot Name="Thul Raider" XYZ="-81.6296,22.4834,175.7467" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Paladins 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Wolf Baron Blackguard Captain</Mob>
-				<Mob>Wolf Baron Blackguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Wolf Baron" XYZ="-93.7733,23.1199,182.1326" />
-				<Hotspot Name="Thul Guardsman" XYZ="-93.4714,23.14499,182.5121" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Paladins 3 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Prison Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Prison Guard" XYZ="-95.383,23.12008,180.5511" />
-				<Hotspot Name="Brant Sonn" XYZ="-94.05575,23.11993,181.9496" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Paladins 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith War Apprentice</Mob>
-				<Mob>Thul Cryo-Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith War Apprentice" XYZ="-110.2715,22.99246,188.5043" />
-				<Hotspot Name="Sith War Apprentice" XYZ="-115.1843,22.78662,189.6354" />
-				<Hotspot Name="Sith War Apprentice" XYZ="-116.4262,23.3471,185.0794" />
-				<Hotspot Name="Sith War Apprentice" XYZ="-125.8302,22.7281,197.6188" />
-				<Hotspot Name="Sith War Apprentice" XYZ="-128.5016,23.16632,182.6529" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Frozen Assets 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Cryo-Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-92.66632,23.10718,187.7409" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-100.1596,22.9971,189.4972" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-96.28629,23.286,178.8474" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-96.19881,23.46241,172.2212" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-121.2717,23.252,185.0421" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-127.1317,22.39138,195.3282" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-122.641,23.27003,183.6336" />
-				<Hotspot Name="Thul Cryo-Trooper" XYZ="-136.4868,23.32639,176.837" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Stage 1 - Revenge Served Cold (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -182,17 +59,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Final Stage - Revenge Served Cold (Bonus) 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thul Cryo Dragoon</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thul Cryo Dragoon" XYZ="-118.6257,22.66312,205.4546" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Hostile Negotiations 3">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -210,27 +76,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Reclaim House Teral (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Young Killik Larvae</Mob>
-				<Mob>Killik Warseeker</Mob>
-				<Mob>Killik Laborer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Young Killik Larvae" XYZ="96.47417,15.94606,157.2683" />
-				<Hotspot Name="Killik Warseeker" XYZ="105.8737,17.47678,153.8722" />
-				<Hotspot Name="Killik Laborer" XYZ="100.5575,15.82335,158.0392" />
-				<Hotspot Name="Killik Laborer" XYZ="100.7755,16.48921,154.4875" />
-				<Hotspot Name="Killik Warseeker" XYZ="105.8737,17.47678,153.8722" />
-				<Hotspot Name="Killik Warseeker" XYZ="109.5774,16.55924,160.5515" />
-				<Hotspot Name="Young Killik Larvae" XYZ="109.1033,17.65005,154.2415" />
-				<Hotspot Name="Killik Warseeker" XYZ="106.9242,18.42979,145.9623" />
-				<Hotspot Name="Young Killik Larvae" XYZ="99.71303,17.27106,146.6862" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Hostile Negotiations">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -241,177 +86,6 @@
 			</Mobs>
 			<Hotspots>
 				<Hotspot Name="Vox Mercenary" XYZ="103.3222,19.1524,123.8892" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="From the Brink 2 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Killik Operative</Mob>
-				<Mob>Killik Brute</Mob>
-				<Mob>Killik Invader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Killik Operative" XYZ="78.14886,17.98833,131.459" />
-				<Hotspot Name="Killik Invader" XYZ="73.72334,17.93213,133.5168" />
-				<Hotspot Name="Killik Brute" XYZ="76.28477,17.33586,137.5651" />
-				<Hotspot Name="Killik Brute" XYZ="65.66637,18.234,134.3168" />
-				<Hotspot Name="Killik Invader" XYZ="71.26939,18.28664,124.8263" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Pain Killer (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Defender</Mob>
-				<Mob>Ulgo Torture Droid</Mob>
-				<Mob>Ulgo Interrogator</Mob>
-				<Mob>Ulgo Major</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Defender" XYZ="89.06547,18.58687,114.262" />
-				<Hotspot Name="Ulgo Torture Droid" XYZ="91.3842,18.48693,113.1454" />
-				<Hotspot Name="Ulgo Interrogator" XYZ="89.1267,18.52931,109.3338" />
-				<Hotspot Name="Ulgo Defender" XYZ="92.5388,18.63431,103.5038" />
-				<Hotspot Name="Ulgo Torture Droid" XYZ="95.5114,18.69799,100.6678" />
-				<Hotspot Name="Ulgo Interrogator" XYZ="105.3598,18.63431,91.05383" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Ulgo's Secret 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Commander</Mob>
-				<Mob>Ulgo Researcher</Mob>
-				<Mob>Ulgo Torture Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Commander" XYZ="98.4441,18.56782,90.9318" />
-				<Hotspot Name="Ulgo Torture Droid" XYZ="98.9955,18.45809,88.6919" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="A Historic Endeavor 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Bushwacker</Mob>
-				<Mob>Rist Satellite Technician</Mob>
-				<Mob>Rist Sentinel</Mob>
-				<Mob>Rist Pathfinder</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Satellite Technician" XYZ="149.7631,22.27904,123.5609" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="157.2763,23.19522,119.4247" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="161.3257,23.47131,117.923" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="165.4334,23.65228,120.4996" />
-				<Hotspot Name="Rist Sentinel" XYZ="169.296,23.96105,131.074" />
-				<Hotspot Name="Rist Sentinel" XYZ="170.0853,25.18245,136.3449" />
-				<Hotspot Name="Rist Sentinel" XYZ="174.2776,25.14719,147.4743" />
-				<Hotspot Name="Rist Sentinel" XYZ="160.6232,27.80355,143.9279" />
-				<Hotspot Name="Rist Bushwacker" XYZ="160.4018,27.52727,135.7839" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Ruined Relay (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Bushwacker</Mob>
-				<Mob>Rist Satellite Technician</Mob>
-				<Mob>Rist Sentinel</Mob>
-				<Mob>Rist Pathfinder</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Satellite Technician" XYZ="149.7631,22.27904,123.5609" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="157.2763,23.19522,119.4247" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="161.3257,23.47131,117.923" />
-				<Hotspot Name="Rist Satellite Technician" XYZ="165.4334,23.65228,120.4996" />
-				<Hotspot Name="Rist Sentinel" XYZ="169.296,23.96105,131.074" />
-				<Hotspot Name="Rist Sentinel" XYZ="170.0853,25.18245,136.3449" />
-				<Hotspot Name="Rist Sentinel" XYZ="174.2776,25.14719,147.4743" />
-				<Hotspot Name="Rist Sentinel" XYZ="160.6232,27.80355,143.9279" />
-				<Hotspot Name="Rist Bushwacker" XYZ="160.4018,27.52727,135.7839" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Communication Breakdown (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Operative</Mob>
-				<Mob>Rist Comm Technician</Mob>
-				<Mob>Rist Strategist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Comm Technician" XYZ="144.828,18.72255,51.16586" />
-				<Hotspot Name="Rist Operative" XYZ="141.2053,19.31097,52.1887" />
-				<Hotspot Name="Rist Strategist" XYZ="138.3921,19.37442,51.2418" />
-				<Hotspot Name="Rist Strategist" XYZ="138.8962,18.69935,42.42161" />
-				<Hotspot Name="Rist Comm Technician" XYZ="143.8251,18.71781,45.0676" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Prison Breaking (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Kidnapper</Mob>
-				<Mob>Rist Guardsman</Mob>
-				<Mob>Rist Handle</Mob>
-				<Mob>Rist Jailkeeper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Kidnapper" XYZ="96.3289,20.09542,-64.9193" />
-				<Hotspot Name="My Location" XYZ="108.162,19.2543,-65.7001" />
-				<Hotspot Name="Rist Jailkeeper" XYZ="112.4981,19.0458,-65.59579" />
-				<Hotspot Name="Rist Guardsman" XYZ="108.9221,19.2543,-60.9488" />
-				<Hotspot Name="Rist Jailkeeper" XYZ="109.2282,19.2543,-70.55925" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Crisis Situation 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Overseer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Overseer" XYZ="108.6843,19.0458,-73.68259" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Rescue at House Rist (Bonus) 2 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Slayer</Mob>
-				<Mob>Rist Stalker</Mob>
-				<Mob>Rist Guard</Mob>
-				<Mob>Rist Enforcer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Guard" XYZ="94.96739,12.89804,-75.5031" />
-				<Hotspot Name="Rist Guard" XYZ="99.0728,12.86071,-75.0558" />
-				<Hotspot Name="Rist Guard" XYZ="106.2632,12.85431,-75.2771" />
-				<Hotspot Name="Rist Enforcer" XYZ="99.2662,12.63431,-70.85899" />
-				<Hotspot Name="Rist Guard" XYZ="108.937,12.85431,-79.9247" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Servant Girl 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Master Assassin</Mob>
-				<Mob>Rist Interrogator</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Master Assassin" XYZ="97.63299,12.63431,-89.65343" />
-				<Hotspot Name="Rist Interrogator" XYZ="97.48501,12.63431,-89.36652" />
 			</Hotspots>
 		</GrindArea>    
 		
@@ -438,48 +112,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Stage 2 - Their Own Weapons (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Security Officer Ganron</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Security Officer Ganron" XYZ="117.7648,23.10281,-100.1447" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Bridge Bombers 2 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rist Demolitionist</Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-				<Mob></Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rist Demolitionist" XYZ="81.0898,12.6863,-26.7791" />
-				<Hotspot Name="Rist Demolitionist" XYZ="74.8747,13.04865,-28.4632" />
-				<Hotspot Name="Rist Demolitionist" XYZ="74.2952,14.5439,-31.6067" />
-				<Hotspot Name="Rist Demolitionist" XYZ="76.99837,13.85865,-31.6031" />
-				<Hotspot Name="Rist Demolitionist" XYZ="83.1394,13.78874,-49.2885" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Summit 13 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Sidonie Garen</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Sidonie Garen" XYZ="-62.9625,25.814,-50.4024" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Stage 1 - Thwarting House Thul (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -497,318 +129,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Final Stage - Thwarting House Thul (Bonus) 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lord Deral Thul</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Deral Thul" XYZ="57.2765,21.24338,-68.4727" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Counterstrike (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Strike Droid</Mob>
-				<Mob>Ulgo Strike Commando</Mob>
-				<Mob>Ulgo Strike Captain</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Strike Droid" XYZ="16.83486,10.72166,-41.03194" />
-				<Hotspot Name="Ulgo Strike Captain" XYZ="15.8221,10.72166,-37.5802" />
-				<Hotspot Name="Ulgo Strike Droid" XYZ="-12.166,11.10603,-46.0772" />
-				<Hotspot Name="Ulgo Strike Operative" XYZ="-19.8777,12.22618,-53.3606" />
-				<Hotspot Name="Ulgo Strike Commando" XYZ="-19.422,11.49423,-46.8879" />
-				<Hotspot Name="Ulgo Strike Captain" XYZ="-36.5967,11.04703,-35.0841" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Sith Among the Ruins 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith Commander" XYZ="-58.37759,10.54607,-53.9069" />
-				<Hotspot Name="Sith Commander" XYZ="-48.11135,10.54461,-60.8012" />
-				<Hotspot Name="Sith Commander" XYZ="-52.25095,10.54711,-74.2344" />
-				<Hotspot Name="Sith Commander" XYZ="-71.75782,10.55715,-58.06825" />
-				<Hotspot Name="Sith Commander" XYZ="-74.00584,10.94134,-60.79718" />
-				<Hotspot Name="Sith Commander" XYZ="-74.36449,10.94774,-55.19535" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Stop the Ritual (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Ritualist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith Ritualist" XYZ="-55.67922,10.55095,-51.45199" />
-				<Hotspot Name="Sith Ritualist" XYZ="-54.83664,10.54453,-57.77289" />
-				<Hotspot Name="Sith Ritualist" XYZ="-52.3521,10.54334,-67.4415" />
-				<Hotspot Name="Sith Ritualist" XYZ="-48.7859,10.546,-75.2725" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Bomb on Board 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Bomb Technician</Mob>
-				<Mob>Ulgo War Camp Guard</Mob>
-				<Mob>Ulgo War Camp Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Bomb Technician" XYZ="-121.0135,17.68335,-24.39786" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-122.2766,17.68236,-19.7466" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-124.8416,17.71439,-15.9104" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-127.1212,17.68312,-21.84498" />
-				<Hotspot Name="Ulgo Bomb Technician" XYZ="-129.6169,17.68272,-22.87165" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-137.8825,17.68236,-27.5571" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-131.8815,19.82082,-37.8287" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-126.8629,19.88547,-40.17027" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-134.4467,20.24565,-45.26247" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-137.3874,20.38871,-49.07116" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Wipe Out the War Camp (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Bomb Technician</Mob>
-				<Mob>Ulgo War Camp Guard</Mob>
-				<Mob>Ulgo War Camp Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Bomb Technician" XYZ="-121.0135,17.68335,-24.39786" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-122.2766,17.68236,-19.7466" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-124.8416,17.71439,-15.9104" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-127.1212,17.68312,-21.84498" />
-				<Hotspot Name="Ulgo Bomb Technician" XYZ="-129.6169,17.68272,-22.87165" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-137.8825,17.68236,-27.5571" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-131.8815,19.82082,-37.8287" />
-				<Hotspot Name="Ulgo War Camp Guard" XYZ="-126.8629,19.88547,-40.17027" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-134.4467,20.24565,-45.26247" />
-				<Hotspot Name="Ulgo War Camp Officer" XYZ="-137.3874,20.38871,-49.07116" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Assault on Castle Panteer (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Shocktrooper</Mob>
-				<Mob>Ulgo Invader</Mob>
-				<Mob>Ulgo Turret Spotter</Mob>
-				<Mob>Ulgo Turret Gunner</Mob>
-				<Mob>Ulgo Royal Guard</Mob>
-				<Mob>Ulgo Royal Shield</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Shocktrooper" XYZ="-207.8516,9.543335,-42.2772" />
-				<Hotspot Name="Ulgo Turret Gunner" XYZ="-213.17,9.525443,-40.9882" />
-				<Hotspot Name="Ulgo Shocktrooper" XYZ="-213.8555,9.525202,-38.2786" />
-				<Hotspot Name="Ulgo Commander" XYZ="-217.9962,9.806001,-41.99377" />
-				<Hotspot Name="Ulgo Turret Spotter" XYZ="-217.7216,9.806001,-48.98185" />
-				<Hotspot Name="Ulgo Turret Spotter" XYZ="-218.0354,9.806001,-49.25903" />
-				<Hotspot Name="Ulgo Invader" XYZ="-222.887,10.1053,-34.7513" />
-				<Hotspot Name="Ulgo Shocktrooper" XYZ="-226.1694,10.19036,-41.41248" />
-				<Hotspot Name="Ulgo Turret Gunner" XYZ="-228.0953,10.39554,-36.36237" />
-				<Hotspot Name="Ulgo Commander" XYZ="-226.5769,10.201,-33.9997" />
-				<Hotspot Name="Ulgo Shocktrooper" XYZ="-231.8586,10.18778,-30.6696" />
-				<Hotspot Name="Ulgo Royal Guard" XYZ="-231.2473,11.16706,-42.5277" />
-				<Hotspot Name="Ulgo Commander" XYZ="-234.3679,10.19263,-53.9482" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="The Coming Storm">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Ulgo Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ulgo Commander" XYZ="-217.9962,9.806001,-41.99377" />
-				<Hotspot Name="Ulgo Commander" XYZ="-222.6933,10.10808,-50.19363" />
-				<Hotspot Name="Ulgo Commander" XYZ="-226.5769,10.201,-33.9997" />
-				<Hotspot Name="Ulgo Commander" XYZ="-234.3679,10.19263,-53.9482" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Usurper 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Bouris Ulgo</Mob>
-				<Mob>Ulgo Royal Guardsman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bouris Ulgo" XYZ="-280.3273,-26.5778,-38.91246" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="A Return Home 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Yuon Par</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Yuon Par" XYZ="-39.5961,-7.473516,-33.0294" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Welcome Party (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brainwashed Republic Sentry</Mob>
-				<Mob>Dreadnaught Security Droid</Mob>
-				<Mob>Dreadnaught Attack Droid</Mob>
-				<Mob>Brainwashed Republic Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-3.690451,0.0009999737,0.1602257" />
-				<Hotspot Name="Brainwashed Republic Sentry" XYZ="-4.0867,0.001000079,-2.1781" />
-				<Hotspot Name="Dreadnaught Attack Droid" XYZ="-11.1439,1.173711E-08,-2.9404" />
-				<Hotspot Name="Brainwashed Republic Sentry" XYZ="-9.4406,0.00100014,-0.05740001" />
-				<Hotspot Name="Brainwashed Republic Sentry" XYZ="-7.4241,-0.03899929,0.8475" />
-				<Hotspot Name="Dreadnaught Attack Droid" XYZ="-9.5561,0.001000137,2.8314" />
-				<Hotspot Name="Dreadnaught Security Droid" XYZ="-15.57733,8.243737E-06,-0.502529" />
-				<Hotspot Name="Dreadnaught Attack Droid" XYZ="-4.2809,-1.74324E-08,3.838" />
-				<Hotspot Name="Brainwashed Republic Sentry" XYZ="-1.9051,0.001,5.085" />
-				<Hotspot Name="Brainwashed Republic Commander" XYZ="-7.851485,-0.04,6.792775" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Command and Control (Bonus) 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brainwashed Blue Squad Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Brainwashed Blue Squad Leader" XYZ="1.459453,0.3810002,-19.8278" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Command and Control (Bonus) 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brainwashed Green Squad Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Brainwashed Green Squad Leader" XYZ="0.4161306,0.3809464,-26.37974" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Command and Control (Bonus) 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Brainwashed Red Squad Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Brainwashed Red Squad Leader" XYZ="-7.6312,0.381,-19.0686" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Vivicar Awaits 18">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Lord Vivicar</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Vivicar" XYZ="-19.82,0.7610192,-20" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="An Alliance of Opposites 10">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Arrax</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Arrax" XYZ="29.6795,4.101001,6.4559" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Friends of my Enemy (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Baliss Infantry</Mob>
-				<Mob>Baliss Guard</Mob>
-				<Mob>Baliss Mercenary</Mob>
-				<Mob>Thul Training Sergeant</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Baliss Infantry" XYZ="108.136,17.51016,199.479" />
-				<Hotspot Name="Baliss Guard" XYZ="110.4272,17.49617,196.6697" />
-				<Hotspot Name="Thul Training Sergeant" XYZ="105.0729,17.23281,202.3598" />
-				<Hotspot Name="Baliss Infantry" XYZ="99.3679,17.27676,196.9356" />
-				<Hotspot Name="Baliss Mercenary" XYZ="95.55559,17.2328,198.8689" />
-				<Hotspot Name="Thul Training Sergeant" XYZ="95.3494,17.2328,195.5522" />
-				<Hotspot Name="Thul Military Advisor" XYZ="95.8566,17.23186,193.8131" />
-			</Hotspots>
-		</GrindArea>    		
-
-		<GrindArea Name="Gearbox's Garrison (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Observer</Mob>
-				<Mob>Imperial Rifleman</Mob>
-				<Mob>Imperial Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Observer" XYZ="-30.18007,9.125998,-84.8104" />
-				<Hotspot Name="Imperial Rifleman" XYZ="-29.64676,9.101432,-89.06548" />
-				<Hotspot Name="Imperial Commander" XYZ="-27.4017,9.29799,-86.77779" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="The Future of War - Defending the generator">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Observer</Mob>
-				<Mob>Imperial Rifleman</Mob>
-				<Mob>Imperial Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-25.96566,9.125999,-89.00726" />
-				<Hotspot Name="My Location" XYZ="-30.01845,9.125999,-84.99914" />
-			</Hotspots>
-		</GrindArea>		
-
-		<GrindArea Name="The Future of War - Kill Gearbox and Droid">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Experimental Armored Walker</Mob>
-				<Mob>Gearbox</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Experimental Armored Walker" XYZ="4.129993,25.74126,-85.29963" />
-				<Hotspot Name="Gearbox" XYZ="3.004294,25.74076,-85.06347" />
-			</Hotspots>
-		</GrindArea>	
-		
-
-
-
-
 	</GrindAreas>
 
 	<!--
@@ -907,7 +227,26 @@
 			</If>
 			<!-- Defusing the Situation (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000B8CF9552DE3F))">
-				<Grind GrindRef="Defusing the Situation (Bonus)" While="(not IsQuestComplete(0xE000B8CF9552DE3F))" />
+				<Grind While="(not IsQuestComplete(0xE000B8CF9552DE3F))">
+					<GrindArea Name="Defusing the Situation (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thul Patroller</Mob>
+							<Mob>Thul Commando</Mob>
+							<Mob>Thul Demolitionist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thul Patroller" XYZ="-140.1756,23.22578,119.2501" />
+							<Hotspot Name="Thul Patroller" XYZ="-139.5498,23.11026,111.8623" />
+							<Hotspot Name="Thul Demolitionist" XYZ="-137.0783,23.0065,111.7251" />
+							<Hotspot Name="Thul Commando" XYZ="-132.8216,23.23718,115.0611" />
+							<Hotspot Name="Thul Patroller" XYZ="-128.2362,23.04225,114.2747" />
+							<Hotspot Name="Thul Commando" XYZ="-130.4432,23.13908,110.5778" />
+							<Hotspot Name="Thul Commando" XYZ="-134.0276,23.23736,109.5157" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004C5EBCA7C6E6)) and (not IsStepComplete(0xE0004C5EBCA7C6E6, 3)))">
 				<MoveTo QuestId="0xE0004C5EBCA7C6E6" Name="Organa Castle" XYZ="-80.47144,25.601,112.991" />
@@ -959,15 +298,60 @@
 			<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsStepComplete(0xE000C4832ED80AB4, 2)))">
 				<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsBranchTaskComplete(0xE000C4832ED80AB4, 1, 2, 0)))">
 					<MoveTo QuestId="1" Name="Thul Raider" XYZ="-105.0259,22.41456,149.8309" />
-					<Grind GrindRef="Raise the Flag 2 0" While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 0))" />
+					<Grind While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 0))">
+						<GrindArea Name="Raise the Flag 2 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Thul Raider</Mob>
+								<Mob>Thul Infiltrator</Mob>
+								<Mob>Thul Siege Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Thul Raider" XYZ="-105.0259,22.41456,149.8309" />
+								<Hotspot Name="Thul Siege Droid" XYZ="-105.7772,22.20507,152.6387" />
+								<Hotspot Name="Thul Raider" XYZ="-107.7192,22.56605,154.3732" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsBranchTaskComplete(0xE000C4832ED80AB4, 1, 2, 1)))">
 					<MoveTo QuestId="1" Name="Thul Raider" XYZ="-84.7805,22.0575,146.4279" />
-					<Grind GrindRef="Raise the Flag 2 1" While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 1))" />
+					<Grind While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 1))">
+						<GrindArea Name="Raise the Flag 2 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Thul Raider</Mob>
+								<Mob>Thul Infiltrator</Mob>
+								<Mob>Thul Siege Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Thul Raider" XYZ="-84.7805,22.0575,146.4279" />
+								<Hotspot Name="Thul Siege Droid" XYZ="-81.6306,21.62267,146.4148" />
+								<Hotspot Name="Thul Raider" XYZ="-86.9541,21.8664,148.5305" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<If Condition="((HasQuest(0xE000C4832ED80AB4)) and (not IsBranchTaskComplete(0xE000C4832ED80AB4, 1, 2, 2)))">
 					<MoveTo QuestId="1" Name="Thul Raider" XYZ="-79.24999,21.25422,168.9066" />
-					<Grind GrindRef="Raise the Flag 2 2" While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 2))" />
+					<Grind While="(not IsTaskComplete(0xE000C4832ED80AB4, 2, 2))">
+						<GrindArea Name="Raise the Flag 2 2">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Thul Raider</Mob>
+								<Mob>Thul Infiltrator</Mob>
+								<Mob>Thul Siege Droid</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Thul Raider" XYZ="-76.5478,21.29183,172.0669" />
+								<Hotspot Name="Thul Siege Droid" XYZ="-75.4305,21.32166,169.903" />
+								<Hotspot Name="Thul Raider" XYZ="-81.6296,22.4834,175.7467" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<TurnInQuest QuestName="Raise the Flag" QuestId="0xE000C4832ED80AB4" TurnInName="Duke Charle Organa" XYZ="-76.3657,29.201,103.1245" />
@@ -985,26 +369,85 @@
 				<MoveTo QuestId="0xE000BC57328A8B42" Name="The Wolf Baron" XYZ="-93.7733,23.1199,182.1326" />
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 1, 3)))">
-				<Grind GrindRef="Paladins 3" While="(not IsStepComplete(0xE000BC57328A8B42, 3))" />
+				<Grind While="(not IsStepComplete(0xE000BC57328A8B42, 3))">
+					<GrindArea Name="Paladins 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Wolf Baron Blackguard Captain</Mob>
+							<Mob>Wolf Baron Blackguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="The Wolf Baron" XYZ="-93.7733,23.1199,182.1326" />
+							<Hotspot Name="Thul Guardsman" XYZ="-93.4714,23.14499,182.5121" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 1, 4)))">
 				<TalkTo QuestId="0xE000BC57328A8B42" Name="The Wolf Baron" XYZ="-93.7733,23.1199,182.1326" />
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 3, 2)))">
-				<Grind GrindRef="Paladins 3 2" While="(not IsBranchStepComplete(0xE000BC57328A8B42, 3, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BC57328A8B42, 3, 2))">
+					<GrindArea Name="Paladins 3 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thul Prison Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thul Prison Guard" XYZ="-95.383,23.12008,180.5511" />
+							<Hotspot Name="Brant Sonn" XYZ="-94.05575,23.11993,181.9496" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 3, 3)))">
 				<TalkTo QuestId="0xE000BC57328A8B42" Name="Brant Sonn" XYZ="-94.05575,23.11993,181.9496" />
 			</If>
 			<If Condition="((HasQuest(0xE000BC57328A8B42)) and (not IsBranchStepComplete(0xE000BC57328A8B42, 4, 2)))">
-				<Grind GrindRef="Paladins 4 2" While="(not IsBranchStepComplete(0xE000BC57328A8B42, 4, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BC57328A8B42, 4, 2))">
+					<GrindArea Name="Paladins 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith War Apprentice</Mob>
+							<Mob>Thul Cryo-Trooper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith War Apprentice" XYZ="-110.2715,22.99246,188.5043" />
+							<Hotspot Name="Sith War Apprentice" XYZ="-115.1843,22.78662,189.6354" />
+							<Hotspot Name="Sith War Apprentice" XYZ="-116.4262,23.3471,185.0794" />
+							<Hotspot Name="Sith War Apprentice" XYZ="-125.8302,22.7281,197.6188" />
+							<Hotspot Name="Sith War Apprentice" XYZ="-128.5016,23.16632,182.6529" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Frozen Assets and Turnin -->
 		<If Condition="((HasQuest(0xE00091D297136B88)) and (not IsQuestComplete(0xE00091D297136B88)))">
 			<If Condition="((HasQuest(0xE00091D297136B88)) and (not IsStepComplete(0xE00091D297136B88, 2)))">
-				<Grind GrindRef="Frozen Assets 2" While="(not IsStepComplete(0xE00091D297136B88, 2))" />
+				<Grind While="(not IsStepComplete(0xE00091D297136B88, 2))">
+					<GrindArea Name="Frozen Assets 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thul Cryo-Trooper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-92.66632,23.10718,187.7409" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-100.1596,22.9971,189.4972" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-96.28629,23.286,178.8474" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-96.19881,23.46241,172.2212" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-121.2717,23.252,185.0421" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-127.1317,22.39138,195.3282" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-122.641,23.27003,183.6336" />
+							<Hotspot Name="Thul Cryo-Trooper" XYZ="-136.4868,23.32639,176.837" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stage 1 - Revenge Served Cold (Bonus) -->
 			<If Condition="((not HasQuest(0xE00013EBCCB6B899)) and (not IsQuestComplete(0xE00013EBCCB6B899)))">
@@ -1040,7 +483,18 @@
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<If Condition="((HasQuest(0xE00015EBCCB6BBE3)) and (not IsStepComplete(0xE00015EBCCB6BBE3, 7)))">
-					<Grind GrindRef="Final Stage - Revenge Served Cold (Bonus) 7" While="(not IsStepComplete(0xE00015EBCCB6BBE3, 7))" />
+					<Grind While="(not IsStepComplete(0xE00015EBCCB6BBE3, 7))">
+						<GrindArea Name="Final Stage - Revenge Served Cold (Bonus) 7">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Thul Cryo Dragoon</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Thul Cryo Dragoon" XYZ="-118.6257,22.66312,205.4546" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<TurnInQuest QuestName="Frozen Assets" QuestId="0xE00091D297136B88" TurnInName="Aza Gundo" XYZ="-103.9066,22.22038,142.4016" />
@@ -1103,7 +557,27 @@
 			</If>
 			<If Condition="((HasQuest(0xE00064F03B34C657)) and (not IsQuestComplete(0xE00064F03B34C657)))">
 				<If Condition="((HasQuest(0xE00064F03B34C657)) and (not IsStepComplete(0xE00064F03B34C657, 2)))">
-					<Grind GrindRef="Friends of my Enemy (Bonus)" While="(not IsStepComplete(0xE00064F03B34C657, 2))" />
+					<Grind While="(not IsStepComplete(0xE00064F03B34C657, 2))">
+						<GrindArea Name="Friends of my Enemy (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Baliss Infantry</Mob>
+								<Mob>Baliss Guard</Mob>
+								<Mob>Baliss Mercenary</Mob>
+								<Mob>Thul Training Sergeant</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Baliss Infantry" XYZ="108.136,17.51016,199.479" />
+								<Hotspot Name="Baliss Guard" XYZ="110.4272,17.49617,196.6697" />
+								<Hotspot Name="Thul Training Sergeant" XYZ="105.0729,17.23281,202.3598" />
+								<Hotspot Name="Baliss Infantry" XYZ="99.3679,17.27676,196.9356" />
+								<Hotspot Name="Baliss Mercenary" XYZ="95.55559,17.2328,198.8689" />
+								<Hotspot Name="Thul Training Sergeant" XYZ="95.3494,17.2328,195.5522" />
+								<Hotspot Name="Thul Military Advisor" XYZ="95.8566,17.23186,193.8131" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000A4CFA4F7738A)) and (not IsStepComplete(0xE000A4CFA4F7738A, 4)))">
@@ -1205,7 +679,28 @@
 			</If>
 			<!-- Reclaim House Teral (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000AF592258C56E))">
-				<Grind GrindRef="Reclaim House Teral (Bonus)" While="(not IsQuestComplete(0xE000AF592258C56E))" />
+				<Grind While="(not IsQuestComplete(0xE000AF592258C56E))">
+					<GrindArea Name="Reclaim House Teral (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Young Killik Larvae</Mob>
+							<Mob>Killik Warseeker</Mob>
+							<Mob>Killik Laborer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Young Killik Larvae" XYZ="96.47417,15.94606,157.2683" />
+							<Hotspot Name="Killik Warseeker" XYZ="105.8737,17.47678,153.8722" />
+							<Hotspot Name="Killik Laborer" XYZ="100.5575,15.82335,158.0392" />
+							<Hotspot Name="Killik Laborer" XYZ="100.7755,16.48921,154.4875" />
+							<Hotspot Name="Killik Warseeker" XYZ="105.8737,17.47678,153.8722" />
+							<Hotspot Name="Killik Warseeker" XYZ="109.5774,16.55924,160.5515" />
+							<Hotspot Name="Young Killik Larvae" XYZ="109.1033,17.65005,154.2415" />
+							<Hotspot Name="Killik Warseeker" XYZ="106.9242,18.42979,145.9623" />
+							<Hotspot Name="Young Killik Larvae" XYZ="99.71303,17.27106,146.6862" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1256,7 +751,24 @@
 					</UseObject>
 				</If>
 				<If Condition="((HasQuest(0xE0006C22906566F1)) and (not IsTaskComplete(0xE0006C22906566F1, 2, 1)))">
-					<Grind GrindRef="From the Brink 2 1" While="(not IsTaskComplete(0xE0006C22906566F1, 2, 1))" />
+					<Grind While="(not IsTaskComplete(0xE0006C22906566F1, 2, 1))">
+						<GrindArea Name="From the Brink 2 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Killik Operative</Mob>
+								<Mob>Killik Brute</Mob>
+								<Mob>Killik Invader</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Killik Operative" XYZ="78.14886,17.98833,131.459" />
+								<Hotspot Name="Killik Invader" XYZ="73.72334,17.93213,133.5168" />
+								<Hotspot Name="Killik Brute" XYZ="76.28477,17.33586,137.5651" />
+								<Hotspot Name="Killik Brute" XYZ="65.66637,18.234,134.3168" />
+								<Hotspot Name="Killik Invader" XYZ="71.26939,18.28664,124.8263" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 		</If>
@@ -1267,7 +779,26 @@
 			</If>
 			<!-- Pain Killer (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000DE2565619F35))">
-				<Grind GrindRef="Pain Killer (Bonus)" While="(not IsQuestComplete(0xE000DE2565619F35))" />
+				<Grind While="(not IsQuestComplete(0xE000DE2565619F35))">
+					<GrindArea Name="Pain Killer (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Defender</Mob>
+							<Mob>Ulgo Torture Droid</Mob>
+							<Mob>Ulgo Interrogator</Mob>
+							<Mob>Ulgo Major</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Defender" XYZ="89.06547,18.58687,114.262" />
+							<Hotspot Name="Ulgo Torture Droid" XYZ="91.3842,18.48693,113.1454" />
+							<Hotspot Name="Ulgo Interrogator" XYZ="89.1267,18.52931,109.3338" />
+							<Hotspot Name="Ulgo Defender" XYZ="92.5388,18.63431,103.5038" />
+							<Hotspot Name="Ulgo Torture Droid" XYZ="95.5114,18.69799,100.6678" />
+							<Hotspot Name="Ulgo Interrogator" XYZ="105.3598,18.63431,91.05383" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0008578FDC35929)) and (not IsBranchStepComplete(0xE0008578FDC35929, 1, 3)))">
 				<MoveTo QuestId="0xE0008578FDC35929" Name="My Location" XYZ="98.4441,18.56782,90.9318" />
@@ -1276,7 +807,21 @@
 				<TalkTo QuestId="0xE0008578FDC35929" Name="Ulgo Commander" XYZ="98.4441,18.56782,90.9318" />
 			</If>
 			<If Condition="((HasQuest(0xE0008578FDC35929)) and (not IsBranchStepComplete(0xE0008578FDC35929, 1, 5)))">
-				<Grind GrindRef="Ulgo's Secret 5" While="(not IsStepComplete(0xE0008578FDC35929, 5))" />
+				<Grind While="(not IsStepComplete(0xE0008578FDC35929, 5))">
+					<GrindArea Name="Ulgo's Secret 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Commander</Mob>
+							<Mob>Ulgo Researcher</Mob>
+							<Mob>Ulgo Torture Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Commander" XYZ="98.4441,18.56782,90.9318" />
+							<Hotspot Name="Ulgo Torture Droid" XYZ="98.9955,18.45809,88.6919" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0008578FDC35929)) and (not IsBranchStepComplete(0xE0008578FDC35929, 1, 6)))">
 				<UseObject QuestId="0xE0008578FDC35929" ObjectName="Pain Factory Mainframe" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="97.60818,18.55807,90.90726" />
@@ -1304,11 +849,55 @@
 		<!-- A Historic Endeavor and Turnin -->
 		<If Condition="((HasQuest(0xE0003303659D31D1)) and (not IsQuestComplete(0xE0003303659D31D1)))">
 			<If Condition="((HasQuest(0xE0003303659D31D1)) and (not IsStepComplete(0xE0003303659D31D1, 2)))">
-				<Grind GrindRef="A Historic Endeavor 2" While="(not IsStepComplete(0xE0003303659D31D1, 2))" />
+				<Grind While="(not IsStepComplete(0xE0003303659D31D1, 2))">
+					<GrindArea Name="A Historic Endeavor 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Bushwacker</Mob>
+							<Mob>Rist Satellite Technician</Mob>
+							<Mob>Rist Sentinel</Mob>
+							<Mob>Rist Pathfinder</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Satellite Technician" XYZ="149.7631,22.27904,123.5609" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="157.2763,23.19522,119.4247" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="161.3257,23.47131,117.923" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="165.4334,23.65228,120.4996" />
+							<Hotspot Name="Rist Sentinel" XYZ="169.296,23.96105,131.074" />
+							<Hotspot Name="Rist Sentinel" XYZ="170.0853,25.18245,136.3449" />
+							<Hotspot Name="Rist Sentinel" XYZ="174.2776,25.14719,147.4743" />
+							<Hotspot Name="Rist Sentinel" XYZ="160.6232,27.80355,143.9279" />
+							<Hotspot Name="Rist Bushwacker" XYZ="160.4018,27.52727,135.7839" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Ruined Relay (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C225226ACB35))">
-				<Grind GrindRef="Ruined Relay (Bonus)" While="(not IsQuestComplete(0xE000C225226ACB35))" />
+				<Grind While="(not IsQuestComplete(0xE000C225226ACB35))">
+					<GrindArea Name="Ruined Relay (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Bushwacker</Mob>
+							<Mob>Rist Satellite Technician</Mob>
+							<Mob>Rist Sentinel</Mob>
+							<Mob>Rist Pathfinder</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Satellite Technician" XYZ="149.7631,22.27904,123.5609" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="157.2763,23.19522,119.4247" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="161.3257,23.47131,117.923" />
+							<Hotspot Name="Rist Satellite Technician" XYZ="165.4334,23.65228,120.4996" />
+							<Hotspot Name="Rist Sentinel" XYZ="169.296,23.96105,131.074" />
+							<Hotspot Name="Rist Sentinel" XYZ="170.0853,25.18245,136.3449" />
+							<Hotspot Name="Rist Sentinel" XYZ="174.2776,25.14719,147.4743" />
+							<Hotspot Name="Rist Sentinel" XYZ="160.6232,27.80355,143.9279" />
+							<Hotspot Name="Rist Bushwacker" XYZ="160.4018,27.52727,135.7839" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0003303659D31D1)) and (not IsStepComplete(0xE0003303659D31D1, 3)))">
 				<MoveTo QuestId="1" XYZ="158.0686,27.52548,134.499" />
@@ -1329,7 +918,24 @@
 			</If>
 			<!-- Communication Breakdown (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00012B0046073FC))">
-				<Grind GrindRef="Communication Breakdown (Bonus)" While="(not IsQuestComplete(0xE00012B0046073FC))" />
+				<Grind While="(not IsQuestComplete(0xE00012B0046073FC))">
+					<GrindArea Name="Communication Breakdown (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Operative</Mob>
+							<Mob>Rist Comm Technician</Mob>
+							<Mob>Rist Strategist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Comm Technician" XYZ="144.828,18.72255,51.16586" />
+							<Hotspot Name="Rist Operative" XYZ="141.2053,19.31097,52.1887" />
+							<Hotspot Name="Rist Strategist" XYZ="138.3921,19.37442,51.2418" />
+							<Hotspot Name="Rist Strategist" XYZ="138.8962,18.69935,42.42161" />
+							<Hotspot Name="Rist Comm Technician" XYZ="143.8251,18.71781,45.0676" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00073E72940C051)) and (not IsStepComplete(0xE00073E72940C051, 3)))">
 				<MoveTo QuestId="1" XYZ="138.2545,18.85404,45.02652" />
@@ -1373,10 +979,39 @@
 			</If>
 			<!-- Prison Breaking (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0006136D06A4B01))">
-				<Grind GrindRef="Prison Breaking (Bonus)" While="(not IsQuestComplete(0xE0006136D06A4B01))" />
+				<Grind While="(not IsQuestComplete(0xE0006136D06A4B01))">
+					<GrindArea Name="Prison Breaking (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Kidnapper</Mob>
+							<Mob>Rist Guardsman</Mob>
+							<Mob>Rist Handle</Mob>
+							<Mob>Rist Jailkeeper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Kidnapper" XYZ="96.3289,20.09542,-64.9193" />
+							<Hotspot Name="My Location" XYZ="108.162,19.2543,-65.7001" />
+							<Hotspot Name="Rist Jailkeeper" XYZ="112.4981,19.0458,-65.59579" />
+							<Hotspot Name="Rist Guardsman" XYZ="108.9221,19.2543,-60.9488" />
+							<Hotspot Name="Rist Jailkeeper" XYZ="109.2282,19.2543,-70.55925" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 3)))">
-				<Grind GrindRef="Crisis Situation 3" While="(not IsStepComplete(0xE000ECFC36E3348B, 3))" />
+				<Grind While="(not IsStepComplete(0xE000ECFC36E3348B, 3))">
+					<GrindArea Name="Crisis Situation 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Overseer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Overseer" XYZ="108.6843,19.0458,-73.68259" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ECFC36E3348B)) and (not IsStepComplete(0xE000ECFC36E3348B, 4)))">
 				<UseObject QuestId="0xE000ECFC36E3348B" ObjectName="Control Panel" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="108.8716,19.0458,-73.788" />
@@ -1423,7 +1058,25 @@
 			
 				</If>
 				<If Condition="((HasQuest(0xE00080A13673A586)) and (not IsTaskComplete(0xE00080A13673A586, 2, 0)))">
-					<Grind GrindRef="Rescue at House Rist (Bonus) 2 0" While="(not IsTaskComplete(0xE00080A13673A586, 2, 0))" />
+					<Grind While="(not IsTaskComplete(0xE00080A13673A586, 2, 0))">
+						<GrindArea Name="Rescue at House Rist (Bonus) 2 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Rist Slayer</Mob>
+								<Mob>Rist Stalker</Mob>
+								<Mob>Rist Guard</Mob>
+								<Mob>Rist Enforcer</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Rist Guard" XYZ="94.96739,12.89804,-75.5031" />
+								<Hotspot Name="Rist Guard" XYZ="99.0728,12.86071,-75.0558" />
+								<Hotspot Name="Rist Guard" XYZ="106.2632,12.85431,-75.2771" />
+								<Hotspot Name="Rist Enforcer" XYZ="99.2662,12.63431,-70.85899" />
+								<Hotspot Name="Rist Guard" XYZ="108.937,12.85431,-79.9247" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>		  
 			</If>
 			
@@ -1431,7 +1084,20 @@
 				<TalkTo QuestId="0xE000864A57709643" Name="Rist Master Assassin" XYZ="97.63299,12.63431,-89.65343" />
 			</If>
 			<If Condition="((HasQuest(0xE000864A57709643)) and (not IsBranchStepComplete(0xE000864A57709643, 1, 4)))">
-				<Grind GrindRef="The Servant Girl 4" While="(not IsStepComplete(HasQuest0xE000864A57709643, 4))" />
+				<Grind While="(not IsStepComplete(HasQuest0xE000864A57709643, 4))">
+					<GrindArea Name="The Servant Girl 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Master Assassin</Mob>
+							<Mob>Rist Interrogator</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Master Assassin" XYZ="97.63299,12.63431,-89.65343" />
+							<Hotspot Name="Rist Interrogator" XYZ="97.48501,12.63431,-89.36652" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000864A57709643)) and (not IsBranchStepComplete(0xE000864A57709643, 1, 5)))">
 				<UseObject QuestId="0xE000864A57709643" ObjectName="Rist Holding Cell" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="97.64528,12.63431,-89.66267" />
@@ -1454,7 +1120,18 @@
 				</If>
 				<!-- Stage 2 - Their Own Weapons (Bonus) -->
 				<If Condition="((HasQuest(0xE000050911223DC8)) and (not IsQuestComplete(0xE000050911223DC8)))">
-					<Grind GrindRef="Stage 2 - Their Own Weapons (Bonus)" While="(HasQuest(0xE000050911223DC8))" />
+					<Grind While="(HasQuest(0xE000050911223DC8))">
+						<GrindArea Name="Stage 2 - Their Own Weapons (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Security Officer Ganron</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Security Officer Ganron" XYZ="117.7648,23.10281,-100.1447" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<!-- Stage 3 - Their Own Weapons (Bonus) -->
@@ -1542,7 +1219,27 @@
 					</UseObject>
 				</If>
 				<If Condition="((HasQuest(0xE0000FEAC0BD03B1)) and (not IsTaskComplete(0xE0000FEAC0BD03B1, 2, 1)))">
-					<Grind GrindRef="Bridge Bombers 2 1" While="(not IsTaskComplete(0xE0000FEAC0BD03B1, 2, 1))" />
+					<Grind While="(not IsTaskComplete(0xE0000FEAC0BD03B1, 2, 1))">
+						<GrindArea Name="Bridge Bombers 2 1">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Rist Demolitionist</Mob>
+								<Mob></Mob>
+								<Mob></Mob>
+								<Mob></Mob>
+								<Mob></Mob>
+								<Mob></Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Rist Demolitionist" XYZ="81.0898,12.6863,-26.7791" />
+								<Hotspot Name="Rist Demolitionist" XYZ="74.8747,13.04865,-28.4632" />
+								<Hotspot Name="Rist Demolitionist" XYZ="74.2952,14.5439,-31.6067" />
+								<Hotspot Name="Rist Demolitionist" XYZ="76.99837,13.85865,-31.6031" />
+								<Hotspot Name="Rist Demolitionist" XYZ="83.1394,13.78874,-49.2885" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<!-- Clear Out Their Caches (Bonus) -->
@@ -1633,7 +1330,18 @@
 				<TalkTo QuestId="0xE0000530981149E2" Name="Master Sidonie Garen" XYZ="-62.9625,25.814,-50.4024" />
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 3)))">
-				<Grind GrindRef="The Summit 13 3" While="(not IsBranchStepComplete(0xE0000530981149E2, 13, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000530981149E2, 13, 3))">
+					<GrindArea Name="The Summit 13 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Master Sidonie Garen</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Master Sidonie Garen" XYZ="-62.9625,25.814,-50.4024" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0000530981149E2)) and (not IsBranchStepComplete(0xE0000530981149E2, 13, 4)))">
 				<TalkTo QuestId="0xE0000530981149E2" Name="Master Sidonie Garen" XYZ="-62.9625,25.814,-50.4024" />
@@ -1680,7 +1388,18 @@
 				</If>
 				<If Condition="((HasQuest(0xE000461ADCF48875)) and (not IsStepComplete(0xE000461ADCF48875, 5)))">
 					<MoveTo QuestId="0xE000461ADCF48875" Name="My Location" XYZ="57.07617,21.18447,-68.4586" />
-					<Grind GrindRef="Final Stage - Thwarting House Thul (Bonus) 5" While="(not IsStepComplete(0xE000461ADCF48875, 5))" />
+					<Grind While="(not IsStepComplete(0xE000461ADCF48875, 5))">
+						<GrindArea Name="Final Stage - Thwarting House Thul (Bonus) 5">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Lord Deral Thul</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Lord Deral Thul" XYZ="57.2765,21.24338,-68.4727" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<!-- Quicktravel to Hurne -->
@@ -1703,18 +1422,66 @@
 			</If>
 			<!-- Counterstrike (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0001DE55FDE841D))">
-				<Grind GrindRef="Counterstrike (Bonus)" While="(not IsQuestComplete(0xE0001DE55FDE841D))" />
+				<Grind While="(not IsQuestComplete(0xE0001DE55FDE841D))">
+					<GrindArea Name="Counterstrike (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Strike Droid</Mob>
+							<Mob>Ulgo Strike Commando</Mob>
+							<Mob>Ulgo Strike Captain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Strike Droid" XYZ="16.83486,10.72166,-41.03194" />
+							<Hotspot Name="Ulgo Strike Captain" XYZ="15.8221,10.72166,-37.5802" />
+							<Hotspot Name="Ulgo Strike Droid" XYZ="-12.166,11.10603,-46.0772" />
+							<Hotspot Name="Ulgo Strike Operative" XYZ="-19.8777,12.22618,-53.3606" />
+							<Hotspot Name="Ulgo Strike Commando" XYZ="-19.422,11.49423,-46.8879" />
+							<Hotspot Name="Ulgo Strike Captain" XYZ="-36.5967,11.04703,-35.0841" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Sith Among the Ruins and Turnin -->
 		<If Condition="((HasQuest(0xE0000D0CF2E38FFD)) and (not IsQuestComplete(0xE0000D0CF2E38FFD)))">
 			<If Condition="((HasQuest(0xE0000D0CF2E38FFD)) and (not IsStepComplete(0xE0000D0CF2E38FFD, 2)))">
-				<Grind GrindRef="Sith Among the Ruins 2" While="(not IsStepComplete(0xE0000D0CF2E38FFD, 2))" />
+				<Grind While="(not IsStepComplete(0xE0000D0CF2E38FFD, 2))">
+					<GrindArea Name="Sith Among the Ruins 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith Commander" XYZ="-58.37759,10.54607,-53.9069" />
+							<Hotspot Name="Sith Commander" XYZ="-48.11135,10.54461,-60.8012" />
+							<Hotspot Name="Sith Commander" XYZ="-52.25095,10.54711,-74.2344" />
+							<Hotspot Name="Sith Commander" XYZ="-71.75782,10.55715,-58.06825" />
+							<Hotspot Name="Sith Commander" XYZ="-74.00584,10.94134,-60.79718" />
+							<Hotspot Name="Sith Commander" XYZ="-74.36449,10.94774,-55.19535" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Stop the Ritual (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000FB019032357B))">
-				<Grind GrindRef="Stop the Ritual (Bonus)" While="(not IsQuestComplete(0xE000FB019032357B))" />
+				<Grind While="(not IsQuestComplete(0xE000FB019032357B))">
+					<GrindArea Name="Stop the Ritual (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Ritualist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith Ritualist" XYZ="-55.67922,10.55095,-51.45199" />
+							<Hotspot Name="Sith Ritualist" XYZ="-54.83664,10.54453,-57.77289" />
+							<Hotspot Name="Sith Ritualist" XYZ="-52.3521,10.54334,-67.4415" />
+							<Hotspot Name="Sith Ritualist" XYZ="-48.7859,10.546,-75.2725" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Quicktravel to Hurne -->
 			<TurnInQuest QuestName="Sith Among the Ruins" QuestId="0xE0000D0CF2E38FFD" Type="Placeable" TurnInName="Mission Dropbox" XYZ="31.69144,16.701,-52.6535" />
@@ -1733,11 +1500,55 @@
 		<!-- Bomb on Board and Turnin -->
 		<If Condition="((HasQuest(0xE000D76E110CC483)) and (not IsQuestComplete(0xE000D76E110CC483)))">
 			<If Condition="((HasQuest(0xE000D76E110CC483)) and (not IsStepComplete(0xE000D76E110CC483, 2)))">
-				<Grind GrindRef="Bomb on Board 2" While="(not IsStepComplete(0xE000D76E110CC483, 2))" />
+				<Grind While="(not IsStepComplete(0xE000D76E110CC483, 2))">
+					<GrindArea Name="Bomb on Board 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Bomb Technician</Mob>
+							<Mob>Ulgo War Camp Guard</Mob>
+							<Mob>Ulgo War Camp Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Bomb Technician" XYZ="-121.0135,17.68335,-24.39786" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-122.2766,17.68236,-19.7466" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-124.8416,17.71439,-15.9104" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-127.1212,17.68312,-21.84498" />
+							<Hotspot Name="Ulgo Bomb Technician" XYZ="-129.6169,17.68272,-22.87165" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-137.8825,17.68236,-27.5571" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-131.8815,19.82082,-37.8287" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-126.8629,19.88547,-40.17027" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-134.4467,20.24565,-45.26247" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-137.3874,20.38871,-49.07116" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Wipe Out the War Camp (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BEDBA1075E26))">
-				<Grind GrindRef="Wipe Out the War Camp (Bonus)" While="(not IsQuestComplete(0xE000BEDBA1075E26))" />
+				<Grind While="(not IsQuestComplete(0xE000BEDBA1075E26))">
+					<GrindArea Name="Wipe Out the War Camp (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Bomb Technician</Mob>
+							<Mob>Ulgo War Camp Guard</Mob>
+							<Mob>Ulgo War Camp Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Bomb Technician" XYZ="-121.0135,17.68335,-24.39786" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-122.2766,17.68236,-19.7466" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-124.8416,17.71439,-15.9104" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-127.1212,17.68312,-21.84498" />
+							<Hotspot Name="Ulgo Bomb Technician" XYZ="-129.6169,17.68272,-22.87165" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-137.8825,17.68236,-27.5571" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-131.8815,19.82082,-37.8287" />
+							<Hotspot Name="Ulgo War Camp Guard" XYZ="-126.8629,19.88547,-40.17027" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-134.4467,20.24565,-45.26247" />
+							<Hotspot Name="Ulgo War Camp Officer" XYZ="-137.3874,20.38871,-49.07116" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Bomb on Board" QuestId="0xE000D76E110CC483" TurnInName="Selia Antares" XYZ="-173.9182,13.4959,-62.0556" />
 			<CompleteQuest QuestName="Bomb on Board" QuestId="0xE000D76E110CC483" />
@@ -1757,11 +1568,53 @@
 		<!-- The Coming Storm -->
 		<If Condition="((HasQuest(0xE000BF6F7D728668)) and (not IsQuestComplete(0xE000BF6F7D728668)))">
 			<If Condition="((HasQuest(0xE000BF6F7D728668)) and (not IsStepComplete(0xE000BF6F7D728668, 2)))">
-				<Grind GrindRef="The Coming Storm" While="(not IsBranchStepComplete(0xE000BF6F7D728668, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BF6F7D728668, 1, 2))">
+					<GrindArea Name="The Coming Storm">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Commander" XYZ="-217.9962,9.806001,-41.99377" />
+							<Hotspot Name="Ulgo Commander" XYZ="-222.6933,10.10808,-50.19363" />
+							<Hotspot Name="Ulgo Commander" XYZ="-226.5769,10.201,-33.9997" />
+							<Hotspot Name="Ulgo Commander" XYZ="-234.3679,10.19263,-53.9482" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Assault on Castle Panteer (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E626CD05DB87))">
-				<Grind GrindRef="Assault on Castle Panteer (Bonus)" While="(not IsQuestComplete(0xE000E626CD05DB87))" />
+				<Grind While="(not IsQuestComplete(0xE000E626CD05DB87))">
+					<GrindArea Name="Assault on Castle Panteer (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ulgo Shocktrooper</Mob>
+							<Mob>Ulgo Invader</Mob>
+							<Mob>Ulgo Turret Spotter</Mob>
+							<Mob>Ulgo Turret Gunner</Mob>
+							<Mob>Ulgo Royal Guard</Mob>
+							<Mob>Ulgo Royal Shield</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ulgo Shocktrooper" XYZ="-207.8516,9.543335,-42.2772" />
+							<Hotspot Name="Ulgo Turret Gunner" XYZ="-213.17,9.525443,-40.9882" />
+							<Hotspot Name="Ulgo Shocktrooper" XYZ="-213.8555,9.525202,-38.2786" />
+							<Hotspot Name="Ulgo Commander" XYZ="-217.9962,9.806001,-41.99377" />
+							<Hotspot Name="Ulgo Turret Spotter" XYZ="-217.7216,9.806001,-48.98185" />
+							<Hotspot Name="Ulgo Turret Spotter" XYZ="-218.0354,9.806001,-49.25903" />
+							<Hotspot Name="Ulgo Invader" XYZ="-222.887,10.1053,-34.7513" />
+							<Hotspot Name="Ulgo Shocktrooper" XYZ="-226.1694,10.19036,-41.41248" />
+							<Hotspot Name="Ulgo Turret Gunner" XYZ="-228.0953,10.39554,-36.36237" />
+							<Hotspot Name="Ulgo Commander" XYZ="-226.5769,10.201,-33.9997" />
+							<Hotspot Name="Ulgo Shocktrooper" XYZ="-231.8586,10.18778,-30.6696" />
+							<Hotspot Name="Ulgo Royal Guard" XYZ="-231.2473,11.16706,-42.5277" />
+							<Hotspot Name="Ulgo Commander" XYZ="-234.3679,10.19263,-53.9482" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1798,7 +1651,19 @@
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0000FDDF7B0B055)) and (not IsStepComplete(0xE0000FDDF7B0B055, 5)))">
-				<Grind GrindRef="Usurper 5" While="(not IsStepComplete(0xE0000FDDF7B0B055, 5))" />
+				<Grind While="(not IsStepComplete(0xE0000FDDF7B0B055, 5))">
+					<GrindArea Name="Usurper 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Bouris Ulgo</Mob>
+							<Mob>Ulgo Royal Guardsman</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Bouris Ulgo" XYZ="-280.3273,-26.5778,-38.91246" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" TurnInName="Bouris Ulgo" Radius="30" UseRange="2" XYZ="-279.8767,-26.5778,-38.40318" />
 			<CompleteQuest QuestName="Usurper" QuestId="0xE0000FDDF7B0B055" />

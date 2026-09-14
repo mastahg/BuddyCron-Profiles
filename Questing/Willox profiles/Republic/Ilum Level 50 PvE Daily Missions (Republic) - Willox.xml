@@ -161,7 +161,22 @@
 		QuestStep: Defend the Bomb (IsStepComplete(0xE0007EF27BCF8B18, 3))
 		Grind Reason: Defend the Bomb (QuestStep) -->
 		<If Condition="HasQuest(0xE0007EF27BCF8B18) and not IsQuestComplete(0xE0007EF27BCF8B18)">
-			<Grind GrindRef="Defend the Bomb" While="not IsStepComplete(0xE0007EF27BCF8B18, 3)" />
+			<Grind While="not IsStepComplete(0xE0007EF27BCF8B18, 3)">
+				<GrindArea Name="Defend the Bomb">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Imperial Sharpshooter</Mob>
+						<Mob>Imperial Hunter</Mob>
+						<Mob>Imperial Repair Droid</Mob>
+						<Mob>IImperial Colonel</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="My Location" XYZ="-59.29824,3.807119,-16.49279" />
+					</Hotspots>
+
+				</GrindArea>
+			</Grind>
 		</If>
 
 		<!-- 
@@ -171,7 +186,25 @@
 		QuestStep: Destroy the Turrets (IsStepComplete(0xE0004A97621FDCE4, 2))
 		Grind Reason: Destroy the turrets (QuestStep) -->
 		<If Condition="HasQuest(0xE0004A97621FDCE4) and not IsQuestComplete(0xE0004A97621FDCE4)">
-			<Grind GrindRef="Destroy the turrets" While="not IsStepComplete(0xE0004A97621FDCE4, 2)" />
+			<Grind While="not IsStepComplete(0xE0004A97621FDCE4, 2)">
+				<GrindArea Name="Destroy the turrets">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Turret</Mob>
+						<Mob>Turret</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Turret" XYZ="-66.50529,3.730955,-20.9519" />
+						<Hotspot Name="Turret" XYZ="-72.6527,3.810211,-23.9783" />
+						<Hotspot Name="Turret" XYZ="-75.90848,3.849447,-18.87322" />
+						<Hotspot Name="Turret" XYZ="-80.38141,3.772743,-15.43241" />
+						<Hotspot Name="Turret" XYZ="-81.16315,3.792351,-10.63293" />
+						<Hotspot Name="Turret" XYZ="-75.8707,3.761062,-12.72171" />
+						<Hotspot Name="Turret" XYZ="-77.28896,3.853388,-7.630353" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 		</If>
 
 		<!-- 
@@ -183,7 +216,26 @@
 		Task 2: Recover Mark III Prototype Shield  0/1     Script: IsTaskComplete(0xE00060932859C428, 2, 2)
 		
 		Grind Reason: Kill Mobs / Drop (QuestSteps) -->
-		<Grind GrindRef="A Fair Fight Recover" While="(not IsTaskComplete(0xE00060932859C428, 2, 0)) or (not IsTaskComplete(0xE00060932859C428, 2, 1)) or (not IsTaskComplete(0xE00060932859C428, 2, 2))" />
+		<Grind While="(not IsTaskComplete(0xE00060932859C428, 2, 0)) or (not IsTaskComplete(0xE00060932859C428, 2, 1)) or (not IsTaskComplete(0xE00060932859C428, 2, 2))">
+			<GrindArea Name="A Fair Fight Recover">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Imperial Gunner Droid</Mob>
+					<Mob>Imperial Rearguard</Mob>
+					<Mob>Imperial Watcher Droid</Mob>
+					<Mob>Imperial Rearguard</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="My Location" XYZ="76.62691,0.04909185,-38.6433" />
+					<Hotspot Name="My Location" XYZ="83.47381,-0.420707,-41.69299" />
+					<Hotspot Name="My Location" XYZ="87.0667,-0.4362461,-39.86319" />
+					<Hotspot Name="My Location" XYZ="85.98738,-0.4547084,-46.31882" />
+					<Hotspot Name="My Location" XYZ="90.84405,-0.4063074,-42.99359" />
+					<Hotspot Name="My Location" XYZ="91.84451,-0.397314,-48.01592" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 		<!-- 
 		***** UseObject *****
@@ -269,56 +321,6 @@
 			</Hotspots>
 		</GrindArea>
 
-		<GrindArea Name="Defend the Bomb">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Sharpshooter</Mob>
-				<Mob>Imperial Hunter</Mob>
-				<Mob>Imperial Repair Droid</Mob>
-				<Mob>IImperial Colonel</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-59.29824,3.807119,-16.49279" />
-			</Hotspots>
-
-		</GrindArea>
-		<GrindArea Name="Destroy the turrets">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Turret</Mob>
-				<Mob>Turret</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Turret" XYZ="-66.50529,3.730955,-20.9519" />
-				<Hotspot Name="Turret" XYZ="-72.6527,3.810211,-23.9783" />
-				<Hotspot Name="Turret" XYZ="-75.90848,3.849447,-18.87322" />
-				<Hotspot Name="Turret" XYZ="-80.38141,3.772743,-15.43241" />
-				<Hotspot Name="Turret" XYZ="-81.16315,3.792351,-10.63293" />
-				<Hotspot Name="Turret" XYZ="-75.8707,3.761062,-12.72171" />
-				<Hotspot Name="Turret" XYZ="-77.28896,3.853388,-7.630353" />
-			</Hotspots>
-		</GrindArea>
-
-		<GrindArea Name="A Fair Fight Recover">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Gunner Droid</Mob>
-				<Mob>Imperial Rearguard</Mob>
-				<Mob>Imperial Watcher Droid</Mob>
-				<Mob>Imperial Rearguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="76.62691,0.04909185,-38.6433" />
-				<Hotspot Name="My Location" XYZ="83.47381,-0.420707,-41.69299" />
-				<Hotspot Name="My Location" XYZ="87.0667,-0.4362461,-39.86319" />
-				<Hotspot Name="My Location" XYZ="85.98738,-0.4547084,-46.31882" />
-				<Hotspot Name="My Location" XYZ="90.84405,-0.4063074,-42.99359" />
-				<Hotspot Name="My Location" XYZ="91.84451,-0.397314,-48.01592" />
-			</Hotspots>
-		</GrindArea>
 	</GrindAreas>
 
 

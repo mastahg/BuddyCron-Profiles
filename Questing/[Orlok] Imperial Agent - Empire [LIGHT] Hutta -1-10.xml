@@ -5,58 +5,9 @@
 	<!-- Beginning of Grind References -->	
 	<GrindAreas>
 
-		<GrindArea Name="Vexx's Safehouse">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Hired Outlaw</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-41.50456,1.228285,40.63096"/>
-				<Hotspot Name="My Location" XYZ="-40.26883,1.227293,38.4526"/>
-				<Hotspot Name="My Location" XYZ="-38.35907,1.376182,38.47738"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- First Grind References -->	
-		<GrindArea Name="Leave No Witnesses">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Thief</Mob>
-				<Mob>Fa'athra Master Thief</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-50.65459,1.32339,39.48941"/>
-				<Hotspot Name="My Location" XYZ="-51.95601,1.3994,40.10004"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- Second Grind References -->	
-		<GrindArea Name="Economies of Scale 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>SP-3R Excavation Droid</Mob>
-				<Mob>Mining Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="SP-3R Excavation Droid" XYZ="41.18762,3.56582,19.65657"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- Third Grind References -->
-		<GrindArea Name="Change of Plans 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Karrels Javis's Bodyguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Karrels Javis's Bodyguard" XYZ="-44.68602,4.40612,62.71418"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- Fourth Grind References -->
 		<GrindArea Name="The New Truth">
 			<MinLevel>1</MinLevel>
@@ -72,43 +23,8 @@
 		</GrindArea>
 
 		<!-- Fifth Grind References -->
-		<GrindArea Name="Nothing Is Ever Easy 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>The Red Blade</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- Sixth Grind References -->
-		<GrindArea Name="Acquiring Disguise">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Industrial Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Acquiring Disguise" XYZ="27.16055,1.135495,20.15441"/>
-				<Hotspot Name="Acquiring Disguise" XYZ="23.84074,1.134742,17.79943"/>
-				<Hotspot Name="Acquiring Disguise" XYZ="21.67775,1.136625,15.24883"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- Seventh Grind References -->
-		<GrindArea Name="Nothing Is Ever Easy 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>The Red Blade</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678"/>
-			</Hotspots>
-		</GrindArea>
-
 		<!-- End of Grind References -->
 	</GrindAreas>	
 
@@ -128,7 +44,20 @@
 				<TalkTo QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="3" Name="Jheeg" XYZ="-44.9828,1.218928,31.3568"/>
 			</If>
 			<If Condition="(not IsQuestComplete(0xE00043C859E34E2F))">
-				<Grind GrindRef="Leave No Witnesses" While="(not IsQuestComplete(0xE00043C859E34E2F))"/>
+				<Grind While="(not IsQuestComplete(0xE00043C859E34E2F))">
+					<GrindArea Name="Leave No Witnesses">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Thief</Mob>
+							<Mob>Fa'athra Master Thief</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-50.65459,1.32339,39.48941"/>
+							<Hotspot Name="My Location" XYZ="-51.95601,1.3994,40.10004"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 5)">
 				<UseObject ObjectName="Stolen Tribute" QuestId="0xE000DE0B067099C0" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="3" XYZ="-52.00552,1.493211,40.5127"/>
@@ -237,7 +166,20 @@
 
 		<!--  Agent - Economies of Scale  -->
 		<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
-			<Grind GrindRef="Acquiring Disguise" While="not IsStepComplete(0xE000A1BCD0F891D3, 3)"/>
+			<Grind While="not IsStepComplete(0xE000A1BCD0F891D3, 3)">
+				<GrindArea Name="Acquiring Disguise">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Fa'athra Industrial Guard</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Acquiring Disguise" XYZ="27.16055,1.135495,20.15441"/>
+						<Hotspot Name="Acquiring Disguise" XYZ="23.84074,1.134742,17.79943"/>
+						<Hotspot Name="Acquiring Disguise" XYZ="21.67775,1.136625,15.24883"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 4)">
 				<MoveTo QuestId="1" Name="Access Panel" XYZ="45.05133,3.528655,16.91412"/>
 				<UserDialog Title="Orlok" Message="Use the guard disguise manually and hit continue if it doesn't do it for you!"/>
@@ -251,7 +193,19 @@
 				<UseObject ObjectName="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="40.27652,3.565821,19.3739"/>
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 7)">
-				<Grind GrindRef="Economies of Scale 7" While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))"/>
+				<Grind While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))">
+					<GrindArea Name="Economies of Scale 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>SP-3R Excavation Droid</Mob>
+							<Mob>Mining Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="SP-3R Excavation Droid" XYZ="41.18762,3.56582,19.65657"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -279,7 +233,18 @@
 				<UseObject QuestId="0xE000A5E970B33947" ObjectName="Karrels's Suite Security Terminal" BranchId="1" StepId="2" WaitTime="8" XYZ="-48.28339,4.605928,65.66214"/>
 			</If>
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 3)">
-				<Grind GrindRef="Change of Plans 3" While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))"/>
+				<Grind While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))">
+					<GrindArea Name="Change of Plans 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Karrels Javis's Bodyguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Karrels Javis's Bodyguard" XYZ="-44.68602,4.40612,62.71418"/>
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 4)">
 				<UserDialog Title="Orlok" Message="Talk to Karrel."/>
@@ -369,7 +334,18 @@
 			<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 4)">
 				<MoveTo QuestId="0xE00043378E644ABA" XYZ="-79.65849,2.352499,50.16945"/>
 			</If>
-			<Grind GrindRef="Nothing Is Ever Easy 2 2" While="(not IsBranchStepComplete(0xE00043378E644ABA, 2, 2))"/>
+			<Grind While="(not IsBranchStepComplete(0xE00043378E644ABA, 2, 2))">
+				<GrindArea Name="Nothing Is Ever Easy 2 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>The Red Blade</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" TurnInName="The Red Blade" XYZ="-79.8214,2.352499,50.1687"/>
 			<CompleteQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA"/>
 		</If>

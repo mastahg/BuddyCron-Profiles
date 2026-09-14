@@ -27,17 +27,6 @@
 	
 	<GrindAreas>
 	
-		<GrindArea Name="My Sponsorship 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Rarsk</Mob>
-			</Mobs>
-			<Hotspots>	
-				<Hotspot Name="Rarsk" XYZ="59.31158,4.701,73.36608" />
-			</Hotspots>
-		</GrindArea>
-		
 		<GrindArea Name="House Cleaning: Nem'ro's Aplology 5-7">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -53,64 +42,6 @@
 			</Hotspots>
 		</GrindArea>
 		
-		<GrindArea Name="Big Chief 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Huttsbane's Guardian</Mob>
-				<Mob>Baratatta Spirit-Leader</Mob>
-				<Mob>Huttsbane</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Baratatta Spirit-Leader" XYZ="-16.39879,1.47812,80.18681" />
-			</Hotspots>
-		</GrindArea>
-			
-		<GrindArea Name="Nothing Is Ever Easy 2 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>The Red Blade</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678" />
-			</Hotspots>
-		</GrindArea>
-			
-		<GrindArea Name="The New Truth 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nohn Veyaiko</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nohn Veyaiko" XYZ="62.23922,4.501,61.0117" />
-			</Hotspots>
-		</GrindArea>
-			
-		<GrindArea Name="Change of Plans 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Karrels Javis's Bodyguard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Karrels Javis's Bodyguard" XYZ="-44.68602,4.40612,62.71418" />
-			</Hotspots>
-		</GrindArea>
-			
-		<GrindArea Name="Economies of Scale 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>SP-3R Excavation Droid</Mob>
-				<Mob>Mining Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="SP-3R Excavation Droid" XYZ="41.18762,3.56582,19.65657" />
-			</Hotspots>
-		</GrindArea>
-			
 		<GrindArea Name="Death Mark: Fa'athra Gang">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -128,272 +59,6 @@
 			</Hotspots>
 		</GrindArea>
 		
-		<GrindArea Name="Vexx's Safehouse">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Hired Outlaw</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-41.50456,1.228285,40.63096" />
-				<Hotspot Name="My Location" XYZ="-40.26883,1.227293,38.4526" />
-				<Hotspot Name="My Location" XYZ="-38.35907,1.376182,38.47738" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Sending a Message">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Vexx's Mercenary</Mob>
-				<Mob>Vexx's Thug</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-74.58502,2.351,37.50565" />
-				<Hotspot Name="My Location" XYZ="-76.62797,2.356999,38.92131" />
-				<Hotspot Name="My Location" XYZ="-77.99863,2.352499,37.44772" />
-				<Hotspot Name="My Location" XYZ="-79.6722,2.352499,35.50579" />
-				<Hotspot Name="My Location" XYZ="-79.07516,2.35504,39.19087" />
-				<Hotspot Name="My Location" XYZ="-83.89108,2.51735,37.36004" />
-				<Hotspot Name="My Location" XYZ="-86.93756,2.195044,37.56961" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Hunting Party">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Hunting Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-12.93835,1.387427,70.48298" />
-				<Hotspot Name="My Location" XYZ="-12.40508,1.824238,72.94081" />
-				<Hotspot Name="My Location" XYZ="-9.388413,1.078018,69.42406" />
-				<Hotspot Name="My Location" XYZ="-8.929363,1.03504,72.31979" />
-				<Hotspot Name="My Location" XYZ="-7.283696,0.998755,74.09388" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Keeping Them in Line">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Evocii Insurgent</Mob>
-				<Mob>Renegade Evocii Raider</Mob>
-				<Mob>Renegade Evocii Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-15.31218,1.167514,75.56789" />
-				<Hotspot Name="My Location" XYZ="-19.24909,1.142115,76.72874" />
-				<Hotspot Name="My Location" XYZ="-22.22346,1.144161,76.22055" />
-				<Hotspot Name="My Location" XYZ="-22.56203,1.146021,74.52714" />
-				<Hotspot Name="My Location" XYZ="-19.88634,1.15566,81.04519" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Tech Jealousy">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Mining Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-27.49612,0.6707202,97.53318" />
-				<Hotspot Name="My Location" XYZ="-23.57792,0.5902108,100.5549" />
-				<Hotspot Name="My Location" XYZ="-18.07896,0.7013753,97.32067" />
-				<Hotspot Name="My Location" XYZ="-12.74301,0.7120055,101.0506" />
-				<Hotspot Name="My Location" XYZ="-4.304365,0.6096983,100.061" />
-				<Hotspot Name="My Location" XYZ="-2.737904,0.5551805,96.66288" />
-				<Hotspot Name="My Location" XYZ="-3.331098,0.2114031,85.87791" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="River Monsters">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Infected Chemilizard</Mob>
-				<Mob>Venomous Chemilizard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="14.18438,0.5694763,14.77407" />
-				<Hotspot Name="My Location" XYZ="14.74781,0.5474064,10.84808" />
-				<Hotspot Name="My Location" XYZ="14.80956,0.564543,6.811402" />
-				<Hotspot Name="My Location" XYZ="12.60482,0.5982975,3.505203" />
-				<Hotspot Name="My Location" XYZ="15.12096,0.6548738,3.629916" />
-				<Hotspot Name="My Location" XYZ="12.18404,0.574849,0.9840962" />
-				<Hotspot Name="My Location" XYZ="13.59265,0.7735772,-1.352356" />
-				<Hotspot Name="My Location" XYZ="9.883589,0.6970352,-6.278521" />
-				<Hotspot Name="My Location" XYZ="4.237009,1.142491,-6.775651" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Protection Bonus Quest">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Goon</Mob>
-				<Mob>Fa'athra Goon Boss</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="0.4817966,1.255461,31.84254" />
-				<Hotspot Name="My Location" XYZ="1.209673,1.241663,33.86893" />
-				<Hotspot Name="My Location" XYZ="2.78695,1.2567,33.81382" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Stopping the Runners">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Rust Runner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="24.39298,1.086764,28.35598" />
-				<Hotspot Name="My Location" XYZ="24.78628,1.669275,24.31862" />
-				<Hotspot Name="My Location" XYZ="23.72403,1.134616,18.29972" />
-				<Hotspot Name="My Location" XYZ="19.28853,1.142761,14.95261" />
-				<Hotspot Name="My Location" XYZ="19.52687,1.134916,10.25015" />
-				<Hotspot Name="My Location" XYZ="24.85408,1.126042,9.997885" />
-				<Hotspot Name="My Location" XYZ="28.39529,1.344099,7.964347" />
-				<Hotspot Name="My Location" XYZ="32.03223,1.306752,6.479496" />
-				<Hotspot Name="My Location" XYZ="33.39758,1.2212,13.84063" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Terminating Contracts">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Industrial Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="43.65648,1.401119,17.99156" />
-				<Hotspot Name="My Location" XYZ="38.68333,1.401122,19.35331" />
-				<Hotspot Name="My Location" XYZ="41.3821,1.400121,15.40248" />
-				<Hotspot Name="My Location" XYZ="38.50702,1.414079,13.06138" />
-				<Hotspot Name="My Location" XYZ="40.87837,2.584322,8.075354" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Finish Some More Business">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Commando</Mob>
-				<Mob>Fa'athra Enforcer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="34.2937,2.426,46.74483" />
-				<Hotspot Name="My Location" XYZ="36.48063,2.419774,52.17081" />
-				<Hotspot Name="My Location" XYZ="33.13536,2.403883,57.03334" />
-				<Hotspot Name="My Location" XYZ="31.6402,2.448617,59.84197" />
-				<Hotspot Name="My Location" XYZ="25.35701,3.164328,61.16028" />
-				<Hotspot Name="My Location" XYZ="29.39753,3.031672,63.31669" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Lizard Hunting">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Toxic Chemilizard</Mob>
-				<Mob>Vicious Chemilizard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="63.12168,1.684688,67.55084" Radius="200" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Leave No Witnesses">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Thief</Mob>
-				<Mob>Fa'athra Master Thief</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-50.65459,1.32339,39.48941" />
-				<Hotspot Name="My Location" XYZ="-51.95601,1.3994,40.10004" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Marked Evocii">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Evocii Insurgent</Mob>
-				<Mob>Renegade Evocii Raider</Mob>
-				<Mob>Renegade Evocii Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-15.31218,1.167514,75.56789" />
-				<Hotspot Name="My Location" XYZ="-19.24909,1.142115,76.72874" />
-				<Hotspot Name="My Location" XYZ="-22.22346,1.144161,76.22055" />
-				<Hotspot Name="My Location" XYZ="-22.56203,1.146021,74.52714" />
-				<Hotspot Name="My Location" XYZ="-19.88634,1.15566,81.04519" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Terminating Contracts">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Industrial Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="43.65648,1.401119,17.99156" />
-				<Hotspot Name="My Location" XYZ="38.68333,1.401122,19.35331" />
-				<Hotspot Name="My Location" XYZ="41.3821,1.400121,15.40248" />
-				<Hotspot Name="My Location" XYZ="38.50702,1.414079,13.06138" />
-				<Hotspot Name="My Location" XYZ="40.87837,2.584322,8.075354" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Settling Accounts 4 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Nails</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Nails" XYZ="-57.9512,4.6008,71.36234" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Ortoggan the Mercenary">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Ortoggan the Mercenary</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Ortoggan the Mercenary" XYZ="38.00393,2.404991,55.73867" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Bashrar the Smuggler">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Bashrar the Smuggler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Bashrar the Smuggler" XYZ="23.72341,3.160161,77.70309" />
-			</Hotspots>
-		</GrindArea>
-		
-		<GrindArea Name="Underboss Korkresh">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Underboss Korkresh</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Underboss Korkresh" XYZ="46.28374,4.486223,58.07682" />
-			</Hotspots>
-		</GrindArea>
-		
 		<GrindArea Name="Protection">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -408,19 +73,6 @@
 			</Hotspots>
 		</GrindArea>
 		
-		<GrindArea Name="Acquiring Disguise">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Industrial Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Acquiring Disguise" XYZ="27.16055,1.135495,20.15441" />
-				<Hotspot Name="Acquiring Disguise" XYZ="23.84074,1.134742,17.79943" />
-				<Hotspot Name="Acquiring Disguise" XYZ="21.67775,1.136625,15.24883" />
-			</Hotspots>
-		</GrindArea>
-
 		<GrindArea Name="The New Truth">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>51</MaxLevel>
@@ -433,32 +85,6 @@
 				<Hotspot Name="The New Truth" XYZ="60.75704,6.661715,67.50939" />
 			</Hotspots>
 		</GrindArea>
-		
-		<GrindArea Name="Grind to level 10 - Fa'athra's Palace">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Fa'athra Palace Lieutenant</Mob>
-				<Mob>Fa'athra Commando</Mob>
-				<Mob>Fa'athra Mercenary</Mob>
-				<Mob>Fa'athra Enforcer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Level 10" XYZ="34.51049,2.411412,47.58417" />
-				<Hotspot Name="Level 10" XYZ="34.54374,2.411412,50.66126" />
-				<Hotspot Name="Level 10" XYZ="36.16903,2.404303,52.83104" />
-				<Hotspot Name="Level 10" XYZ="35.36781,2.4178,56.59851" />
-				<Hotspot Name="Level 10" XYZ="33.45694,2.434285,54.41732" />
-				<Hotspot Name="Level 10" XYZ="31.8375,2.40075,57.7999" />
-				<Hotspot Name="Level 10" XYZ="28.15782,3.011412,62.82885" />
-				<Hotspot Name="Level 10" XYZ="30.81548,3.002767,64.07642" />
-				<Hotspot Name="Level 10" XYZ="27.74669,3.011412,68.85436" />
-				<Hotspot Name="Level 10" XYZ="29.8669,3.011412,72.95506" />
-				<Hotspot Name="Level 10" XYZ="32.05071,3.043177,70.49467" />
-				<Hotspot Name="Level 10" XYZ="38.42272,3.61889,67.01385" />
-			</Hotspots>
-		</GrindArea>
-		
 		
 	</GrindAreas>
 
@@ -485,7 +111,20 @@
 		<If Condition="((HasQuest(0xE0003A3DB752B5B9)) and (not IsQuestComplete(0xE0003A3DB752B5B9)))">
 			<!-- Clear out Vexx's Safehouse (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000F850BCE7348))">
-				<Grind GrindRef="Vexx's Safehouse" While="(not IsQuestComplete(0xE0000F850BCE7348))" />
+				<Grind While="(not IsQuestComplete(0xE0000F850BCE7348))">
+					<GrindArea Name="Vexx's Safehouse">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Hired Outlaw</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-41.50456,1.228285,40.63096" />
+							<Hotspot Name="My Location" XYZ="-40.26883,1.227293,38.4526" />
+							<Hotspot Name="My Location" XYZ="-38.35907,1.376182,38.47738" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject ObjectName="Datapad" QuestId="0xE0003A3DB752B5B9" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="6" XYZ="-38.35907,1.376182,38.47738" />
 		</If>
@@ -496,7 +135,20 @@
 				<TalkTo QuestName="Claim Your New Identity" QuestId="0xE000DE0B067099C0" BranchId="1" StepId="3" Name="Jheeg" XYZ="-44.9828,1.218928,31.3568" />
 			</If>
 			<If Condition="(not IsQuestComplete(0xE00043C859E34E2F))">
-				<Grind GrindRef="Leave No Witnesses" While="(not IsQuestComplete(0xE00043C859E34E2F))" />
+				<Grind While="(not IsQuestComplete(0xE00043C859E34E2F))">
+					<GrindArea Name="Leave No Witnesses">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Thief</Mob>
+							<Mob>Fa'athra Master Thief</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-50.65459,1.32339,39.48941" />
+							<Hotspot Name="My Location" XYZ="-51.95601,1.3994,40.10004" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000DE0B067099C0) and not IsStepComplete(0xE000DE0B067099C0, 5)">
 				<UseObject ObjectName="Stolen Tribute" QuestId="0xE000DE0B067099C0" IgnoreLOS="True" BranchId="1" StepId="5" WaitTime="3" XYZ="-52.00552,1.493211,40.5127" />
@@ -562,7 +214,25 @@
 			</If>
 			<!-- Sending a Message -->
 			<If Condition="(not IsQuestComplete(0xE000DFF00DEB8E73))">
-				<Grind GrindRef="Sending a Message" While="(not IsQuestComplete(0xE000DFF00DEB8E73))" />
+				<Grind While="(not IsQuestComplete(0xE000DFF00DEB8E73))">
+					<GrindArea Name="Sending a Message">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Vexx's Mercenary</Mob>
+							<Mob>Vexx's Thug</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-74.58502,2.351,37.50565" />
+							<Hotspot Name="My Location" XYZ="-76.62797,2.356999,38.92131" />
+							<Hotspot Name="My Location" XYZ="-77.99863,2.352499,37.44772" />
+							<Hotspot Name="My Location" XYZ="-79.6722,2.352499,35.50579" />
+							<Hotspot Name="My Location" XYZ="-79.07516,2.35504,39.19087" />
+							<Hotspot Name="My Location" XYZ="-83.89108,2.51735,37.36004" />
+							<Hotspot Name="My Location" XYZ="-86.93756,2.195044,37.56961" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0001CFF2D5A7A1A) and not IsStepComplete(0xE0001CFF2D5A7A1A, 3)">
 				<If Condition="HasQuest(0xE0001CFF2D5A7A1A) and not IsBranchStepComplete(0xE0001CFF2D5A7A1A, 1, 3)">
@@ -592,13 +262,43 @@
 			</If>
 			<!-- Keeping Them in Line -->
 			<If Condition="(not IsQuestComplete(0xE000C74A157A14A4))">
-				<Grind GrindRef="Keeping Them in Line" While="(not IsQuestComplete(0xE000C74A157A14A4))" />
+				<Grind While="(not IsQuestComplete(0xE000C74A157A14A4))">
+					<GrindArea Name="Keeping Them in Line">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Evocii Insurgent</Mob>
+							<Mob>Renegade Evocii Raider</Mob>
+							<Mob>Renegade Evocii Hunter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-15.31218,1.167514,75.56789" />
+							<Hotspot Name="My Location" XYZ="-19.24909,1.142115,76.72874" />
+							<Hotspot Name="My Location" XYZ="-22.22346,1.144161,76.22055" />
+							<Hotspot Name="My Location" XYZ="-22.56203,1.146021,74.52714" />
+							<Hotspot Name="My Location" XYZ="-19.88634,1.15566,81.04519" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F03D0FCDECA7)) and (not IsBranchStepComplete(0xE000F03D0FCDECA7, 1, 5)))">
 				<MoveTo QuestId="0xE000F03D0FCDECA7" XYZ="-16.46153,1.477306,80.31039" />
 			</If>
 			<If Condition="HasQuest(0xE000F03D0FCDECA7) and not IsBranchStepComplete(0xE000F03D0FCDECA7, 2, 2)">
-				<Grind GrindRef="Big Chief 2 2" While="(not IsBranchStepComplete(0xE000F03D0FCDECA7, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F03D0FCDECA7, 2, 2))">
+					<GrindArea Name="Big Chief 2 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Huttsbane's Guardian</Mob>
+							<Mob>Baratatta Spirit-Leader</Mob>
+							<Mob>Huttsbane</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Baratatta Spirit-Leader" XYZ="-16.39879,1.47812,80.18681" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000F03D0FCDECA7) and not IsBranchStepComplete(0xE000F03D0FCDECA7, 2, 3)">
 				<AnswerHolocomCall QuestName="Big Chief" QuestId="0xE000F03D0FCDECA7" />
@@ -686,7 +386,24 @@
 			</If>
 			<!-- Marked Evocii -->
 			<If Condition="(not IsQuestComplete(0xE00037295BAE24E2))">
-				<Grind GrindRef="Marked Evocii" While="(not IsQuestComplete(0xE00037295BAE24E2))" />
+				<Grind While="(not IsQuestComplete(0xE00037295BAE24E2))">
+					<GrindArea Name="Marked Evocii">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Evocii Insurgent</Mob>
+							<Mob>Renegade Evocii Raider</Mob>
+							<Mob>Renegade Evocii Hunter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-15.31218,1.167514,75.56789" />
+							<Hotspot Name="My Location" XYZ="-19.24909,1.142115,76.72874" />
+							<Hotspot Name="My Location" XYZ="-22.22346,1.144161,76.22055" />
+							<Hotspot Name="My Location" XYZ="-22.56203,1.146021,74.52714" />
+							<Hotspot Name="My Location" XYZ="-19.88634,1.15566,81.04519" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000E6A2DEE52C26) and not IsBranchStepComplete(0xE000E6A2DEE52C26, 5, 4)">
 				<UseObject QuestId="0xE000E6A2DEE52C26" ObjectName="Crate of Ore" BranchId="5" StepId="4" Radius="150" WaitTime="5" >
@@ -705,7 +422,22 @@
 			<Interact Name="Evocii Totem" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="-19.59094,1.334139,77.94814" />	<!-- Lore: Evocii Totem -->			
 			<!-- Hunting Party -->
 			<If Condition="(not IsQuestComplete(0xE0008F71F2AA2830))">
-				<Grind GrindRef="Hunting Party" While="(not IsQuestComplete(0xE0008F71F2AA2830))" />
+				<Grind While="(not IsQuestComplete(0xE0008F71F2AA2830))">
+					<GrindArea Name="Hunting Party">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Hunting Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-12.93835,1.387427,70.48298" />
+							<Hotspot Name="My Location" XYZ="-12.40508,1.824238,72.94081" />
+							<Hotspot Name="My Location" XYZ="-9.388413,1.078018,69.42406" />
+							<Hotspot Name="My Location" XYZ="-8.929363,1.03504,72.31979" />
+							<Hotspot Name="My Location" XYZ="-7.283696,0.998755,74.09388" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest Type="Placeable" UseRange="2" IgnoreLOS="True" QuestName="Trophy Hunter" QuestId="0xE0003E4D6BA748A0" TurnInName="Speeder Cockpit Release" XYZ="-7.893494,1.039713,72.95952" />
 			<CompleteQuest QuestName="Trophy Hunter" QuestId="0xE0003E4D6BA748A0" />
@@ -714,7 +446,24 @@
 		<!-- Turnin Tech Jealousy -->
 		<If Condition="((HasQuest(0xE000C8D888CB93DF)) and (not IsQuestComplete(0xE000C8D888CB93DF)))">
 			<If Condition="HasQuest(0xE000C8D888CB93DF) and not IsStepComplete(0xE000C8D888CB93DF, 2)">
-				<Grind GrindRef="Tech Jealousy" While="not IsStepComplete(0xE000C8D888CB93DF, 2)" />
+				<Grind While="not IsStepComplete(0xE000C8D888CB93DF, 2)">
+					<GrindArea Name="Tech Jealousy">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Mining Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-27.49612,0.6707202,97.53318" />
+							<Hotspot Name="My Location" XYZ="-23.57792,0.5902108,100.5549" />
+							<Hotspot Name="My Location" XYZ="-18.07896,0.7013753,97.32067" />
+							<Hotspot Name="My Location" XYZ="-12.74301,0.7120055,101.0506" />
+							<Hotspot Name="My Location" XYZ="-4.304365,0.6096983,100.061" />
+							<Hotspot Name="My Location" XYZ="-2.737904,0.5551805,96.66288" />
+							<Hotspot Name="My Location" XYZ="-3.331098,0.2114031,85.87791" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Tech Jealousy" QuestId="0xE000C8D888CB93DF" TurnInName="Doctor Terrab" XYZ="-14.5167,1.083268,51.4787" />
 			<CompleteQuest QuestName="Tech Jealousy" QuestId="0xE000C8D888CB93DF" />
@@ -785,7 +534,27 @@
 			</If>
 			<!-- River Monsters -->
 			<If Condition="(not IsQuestComplete(0xE00045A143B88753))">
-				<Grind GrindRef="River Monsters" While="(not IsQuestComplete(0xE00045A143B88753))" />
+				<Grind While="(not IsQuestComplete(0xE00045A143B88753))">
+					<GrindArea Name="River Monsters">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Infected Chemilizard</Mob>
+							<Mob>Venomous Chemilizard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="14.18438,0.5694763,14.77407" />
+							<Hotspot Name="My Location" XYZ="14.74781,0.5474064,10.84808" />
+							<Hotspot Name="My Location" XYZ="14.80956,0.564543,6.811402" />
+							<Hotspot Name="My Location" XYZ="12.60482,0.5982975,3.505203" />
+							<Hotspot Name="My Location" XYZ="15.12096,0.6548738,3.629916" />
+							<Hotspot Name="My Location" XYZ="12.18404,0.574849,0.9840962" />
+							<Hotspot Name="My Location" XYZ="13.59265,0.7735772,-1.352356" />
+							<Hotspot Name="My Location" XYZ="9.883589,0.6970352,-6.278521" />
+							<Hotspot Name="My Location" XYZ="4.237009,1.142491,-6.775651" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Spicecraft Down" QuestId="0xE00006E874E25E84" TurnInName="Tivlik" XYZ="-2.490617,1.123689,46.89935" />
 			<CompleteQuest QuestName="Spicecraft Down" QuestId="0xE00006E874E25E84" />
@@ -834,7 +603,26 @@
 				</UseObject>
 			</If>
 			<If Condition="(not IsQuestComplete(0xE000F722D42ABC25))">
-				<Grind GrindRef="Stopping the Runners" While="(not IsQuestComplete(0xE000F722D42ABC25))" />
+				<Grind While="(not IsQuestComplete(0xE000F722D42ABC25))">
+					<GrindArea Name="Stopping the Runners">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Rust Runner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="24.39298,1.086764,28.35598" />
+							<Hotspot Name="My Location" XYZ="24.78628,1.669275,24.31862" />
+							<Hotspot Name="My Location" XYZ="23.72403,1.134616,18.29972" />
+							<Hotspot Name="My Location" XYZ="19.28853,1.142761,14.95261" />
+							<Hotspot Name="My Location" XYZ="19.52687,1.134916,10.25015" />
+							<Hotspot Name="My Location" XYZ="24.85408,1.126042,9.997885" />
+							<Hotspot Name="My Location" XYZ="28.39529,1.344099,7.964347" />
+							<Hotspot Name="My Location" XYZ="32.03223,1.306752,6.479496" />
+							<Hotspot Name="My Location" XYZ="33.39758,1.2212,13.84063" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 
@@ -858,7 +646,20 @@
 		
 		<!-- Agent - Economies of Scale -->
 		<If Condition="((HasQuest(0xE000A1BCD0F891D3)) and (not IsQuestComplete(0xE000A1BCD0F891D3)))">
-			<Grind GrindRef="Acquiring Disguise" While="not IsStepComplete(0xE000A1BCD0F891D3, 3)" />
+			<Grind While="not IsStepComplete(0xE000A1BCD0F891D3, 3)">
+				<GrindArea Name="Acquiring Disguise">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Fa'athra Industrial Guard</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Acquiring Disguise" XYZ="27.16055,1.135495,20.15441" />
+						<Hotspot Name="Acquiring Disguise" XYZ="23.84074,1.134742,17.79943" />
+						<Hotspot Name="Acquiring Disguise" XYZ="21.67775,1.136625,15.24883" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 4)">
 				<MoveTo QuestId="1" Name="Access Panel" XYZ="45.05133,3.528655,16.91412" />
 				<UserDialog Title="Note from Metrienne" Message="Use the Guard Disguise (located in your Mission Items), use the access panel, then press OK." />
@@ -874,14 +675,41 @@
 				<UseObject ObjectName="Mine Shaft" QuestId="0xE000A1BCD0F891D3" BranchId="1" StepId="6" IgnoreLOS="True" WaitTime="3" XYZ="40.27652,3.565821,19.3739" />
 			</If>
 			<If Condition="HasQuest(0xE000A1BCD0F891D3) and not IsStepComplete(0xE000A1BCD0F891D3, 7)">
-				<Grind GrindRef="Economies of Scale 7" While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A1BCD0F891D3, 1, 7))">
+					<GrindArea Name="Economies of Scale 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>SP-3R Excavation Droid</Mob>
+							<Mob>Mining Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="SP-3R Excavation Droid" XYZ="41.18762,3.56582,19.65657" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Keeping Secrets -->
 		<If Condition="((HasQuest(0xE0005A924CF2B444)) and (not IsQuestComplete(0xE0005A924CF2B444)))">
 			<If Condition="(not IsQuestComplete(0xE000960E85A1A86C))">
-				<Grind GrindRef="Terminating Contracts" While="(not IsQuestComplete(0xE000960E85A1A86C))" />
+				<Grind While="(not IsQuestComplete(0xE000960E85A1A86C))">
+					<GrindArea Name="Terminating Contracts">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Industrial Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="43.65648,1.401119,17.99156" />
+							<Hotspot Name="My Location" XYZ="38.68333,1.401122,19.35331" />
+							<Hotspot Name="My Location" XYZ="41.3821,1.400121,15.40248" />
+							<Hotspot Name="My Location" XYZ="38.50702,1.414079,13.06138" />
+							<Hotspot Name="My Location" XYZ="40.87837,2.584322,8.075354" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE0005A924CF2B444) and not IsBranchStepComplete(0xE0005A924CF2B444, 1, 2)">
 				<MoveTo QuestId="1" XYZ="39.71999,1.40112,6.39715" />
@@ -928,7 +756,18 @@
 				<MoveTo QuestId="0xE000042855502834" XYZ="-58.1767,4.600999,71.91963" />
 			</If>
 			<If Condition="HasQuest(0xE000042855502834) and not IsBranchStepComplete(0xE000042855502834, 4, 3)">
-				<Grind GrindRef="Settling Accounts 4 3" While="not IsBranchStepComplete(0xE000042855502834, 4, 3)" />
+				<Grind While="not IsBranchStepComplete(0xE000042855502834, 4, 3)">
+					<GrindArea Name="Settling Accounts 4 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Nails</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Nails" XYZ="-57.9512,4.6008,71.36234" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000042855502834) and not IsBranchStepComplete(0xE000042855502834, 4, 4)">
 				<MoveTo QuestId="0xE000042855502834" XYZ="-53.44729,4.553899,74.32874" />
@@ -1004,7 +843,18 @@
 				<UseObject QuestId="0xE000A5E970B33947" ObjectName="Karrels's Suite Security Terminal" BranchId="1" StepId="2" WaitTime="8" XYZ="-48.28339,4.605928,65.66214" />
 			</If>
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 3)">
-				<Grind GrindRef="Change of Plans 3" While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A5E970B33947, 1, 3))">
+					<GrindArea Name="Change of Plans 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Karrels Javis's Bodyguard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Karrels Javis's Bodyguard" XYZ="-44.68602,4.40612,62.71418" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="HasQuest(0xE000A5E970B33947) and not IsBranchStepComplete(0xE000A5E970B33947, 1, 4)">
 				<UserDialog Title="Note From Metrienne" Message="Walk up to Karrels Javis to initiate a conversation. Afterwards, kill him and press OK." />
@@ -1071,7 +921,24 @@
 		<If Condition="((HasQuest(0xE000D51EB84CAB94)) and (not IsQuestComplete(0xE000D51EB84CAB94)))">
 			<!-- Finish Some More Business (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000EA7CC1B21EC0))">
-				<Grind GrindRef="Finish Some More Business" While="(not IsQuestComplete(0xE000EA7CC1B21EC0))" />
+				<Grind While="(not IsQuestComplete(0xE000EA7CC1B21EC0))">
+					<GrindArea Name="Finish Some More Business">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Fa'athra Commando</Mob>
+							<Mob>Fa'athra Enforcer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="34.2937,2.426,46.74483" />
+							<Hotspot Name="My Location" XYZ="36.48063,2.419774,52.17081" />
+							<Hotspot Name="My Location" XYZ="33.13536,2.403883,57.03334" />
+							<Hotspot Name="My Location" XYZ="31.6402,2.448617,59.84197" />
+							<Hotspot Name="My Location" XYZ="25.35701,3.164328,61.16028" />
+							<Hotspot Name="My Location" XYZ="29.39753,3.031672,63.31669" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000D51EB84CAB94)) and (not IsBranchStepComplete(0xE000D51EB84CAB94, 1, 2)))">
 				<If Condition="HasQuest(0xE000D51EB84CAB94) and not IsTaskComplete(0xE000D51EB84CAB94, 2, 2)">
@@ -1096,7 +963,19 @@
 				</If>
 				<!-- Lizard Hunting -->
 				<If Condition="(not IsQuestComplete(0xE000D910BF77EA86))">
-					<Grind GrindRef="Lizard Hunting" While="(not IsQuestComplete(0xE000D910BF77EA86))" />
+					<Grind While="(not IsQuestComplete(0xE000D910BF77EA86))">
+						<GrindArea Name="Lizard Hunting">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>51</MaxLevel>
+							<Mobs>
+								<Mob>Toxic Chemilizard</Mob>
+								<Mob>Vicious Chemilizard</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="63.12168,1.684688,67.55084" Radius="200" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<UseObject QuestId="0xE000EF0E521CB2DE" BranchId="1" StepId="2" TaskId="0" Radius="5" WaitTime="5" IgnoreLOS="False" ObjectName="Rancor Egg" XYZ="69.5481,1.661667,67.6657" />
 				<UseObject QuestId="0xE000EF0E521CB2DE" BranchId="1" StepId="2" TaskId="1" Radius="100" WaitTime="5" >
@@ -1156,7 +1035,18 @@
 			<If Condition="((HasQuest(0xE000FC4495BE6904)) and (not IsBranchStepComplete(0xE000FC4495BE6904, 1, 4)))">
 				<TalkTo QuestName="My Sponsorship" QuestId="0xE000FC4495BE6904" WaitTime="1" Name="Albea" XYZ="58.9096,4.701,73.136" />
 			</If>
-			<Grind GrindRef="My Sponsorship 5" While="(not IsBranchStepComplete(0xE000FC4495BE6904, 1, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE000FC4495BE6904, 1, 5))">
+				<GrindArea Name="My Sponsorship 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Rarsk</Mob>
+					</Mobs>
+					<Hotspots>	
+						<Hotspot Name="Rarsk" XYZ="59.31158,4.701,73.36608" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE000FC4495BE6904)) and (not IsBranchStepComplete(0xE000FC4495BE6904, 1, 6)))">
 				<TalkTo QuestName="My Sponsorship" QuestId="0xE000FC4495BE6904" WaitTime="1" Name="Albea" XYZ="58.9096,4.701,73.136" />
 			</If>
@@ -1188,10 +1078,43 @@
 		<!-- BH - Additional Bounties Available (Bonus) -->
 		<If Condition="((HasQuest(0xE000FC4495BE6904)) and (not IsQuestComplete(0xE000FC4495BE6904)))">
 			<If Condition="((HasQuest(0xE00017AE895A358F)) and (not IsQuestComplete(0xE00017AE895A358F)))">
-				<Grind GrindRef="Underboss Korkresh" While="not IsTaskComplete(0xE00017AE895A358F, 3, 1)" />
-				<Grind GrindRef="Ortoggan the Mercenary" While="not IsTaskComplete(0xE00017AE895A358F, 3, 2)" />
+				<Grind While="not IsTaskComplete(0xE00017AE895A358F, 3, 1)">
+					<GrindArea Name="Underboss Korkresh">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Underboss Korkresh</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Underboss Korkresh" XYZ="46.28374,4.486223,58.07682" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+				<Grind While="not IsTaskComplete(0xE00017AE895A358F, 3, 2)">
+					<GrindArea Name="Ortoggan the Mercenary">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Ortoggan the Mercenary</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ortoggan the Mercenary" XYZ="38.00393,2.404991,55.73867" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<MoveTo QuestId="1" XYZ="28.16803,2.402112,56.79771" />
-				<Grind GrindRef="Bashrar the Smuggler" While="not IsTaskComplete(0xE00017AE895A358F, 3, 0)" />
+				<Grind While="not IsTaskComplete(0xE00017AE895A358F, 3, 0)">
+					<GrindArea Name="Bashrar the Smuggler">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Bashrar the Smuggler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Bashrar the Smuggler" XYZ="23.72341,3.160161,77.70309" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1260,7 +1183,18 @@
 			<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 4)">
 				<MoveTo QuestId="0xE00043378E644ABA" XYZ="-79.65849,2.352499,50.16945" />
 			</If>
-			<Grind GrindRef="Nothing Is Ever Easy 2 2" While="(not IsBranchStepComplete(0xE00043378E644ABA, 2, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE00043378E644ABA, 2, 2))">
+				<GrindArea Name="Nothing Is Ever Easy 2 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>The Red Blade</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<TurnInQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" TurnInName="The Red Blade" XYZ="-79.8214,2.352499,50.1687" />
 			<CompleteQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" />
 		</If>

@@ -32,26 +32,6 @@
 	
 	<GrindAreas> 
 
-		<GrindArea Name="Stage 1 - Running Interference (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Forward Commander</Mob>
-				<Mob>Imperial Forward Watchman</Mob>
-				<Mob>Imperial Forward Guardian</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Forward Commander" XYZ="77.12363,-1.606458,131.219" />
-				<Hotspot Name="My Location" XYZ="72.88062,-1.606458,129.8191" />
-				<Hotspot Name="Imperial Forward Watchman" XYZ="72.046,-1.610364,140.0338" />
-				<Hotspot Name="Imperial Forward Watchman" XYZ="76.83691,-2.606045,141.7161" />
-				<Hotspot Name="Imperial Forward Watchman" XYZ="79.8176,-1.608411,132.7794" />
-				<Hotspot Name="War Hound" XYZ="98.23269,-3.5975,135.3337" />
-				<Hotspot Name="Imperial Forward Guardian" XYZ="107.4023,-3.5972,135.3755" />
-				<Hotspot Name="Imperial Forward Watchman" XYZ="106.2141,-3.598193,128.8176" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Final Stage - Running Interference (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -62,758 +42,6 @@
 				<Hotspot Name="Imperial Forward Cannoneer" XYZ="76.15698,-2.618499,165.988" />
 			</Hotspots>
 		</GrindArea>    
-
-		<GrindArea Name="Descent 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial XR-32 Hunter Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="38.75652,2.398871,108.2896" />
-				<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="27.93372,2.396109,113.3895" />
-				<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="20.7817,0.4367042,122.4413" />
-				<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="16.89576,2.425429,98.71885" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Travel Advisory 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Forward Overseer</Mob>
-				<Mob>Imperial Infiltrator Drone</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Forward Overseer" XYZ="26.04075,2.499289,95.62547" />
-				<Hotspot Name="Imperial Forward Overseer" XYZ="23.94346,3.401,101.6207" />
-				<Hotspot Name="Imperial Forward Overseer" XYZ="25.79819,4.198885,107.0207" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Securing CorSec (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Forward Overseer</Mob>
-				<Mob>Imperial Infiltrator Drone</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Forward Overseer" XYZ="26.04075,2.499289,95.62547" />
-				<Hotspot Name="Imperial Forward Overseer" XYZ="23.94346,3.401,101.6207" />
-				<Hotspot Name="Imperial Forward Overseer" XYZ="25.79819,4.198885,107.0207" />
-				<Hotspot Name="Imperial Forward Overseer" XYZ="26.96401,6.401,93.2674" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stopping the Siege (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Picket Droid</Mob>
-				<Mob>Imperial Siege Commander</Mob>
-				<Mob>Imperial Siege Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Picket Droid" XYZ="31.17035,-1.239127,221.542" />
-				<Hotspot Name="Imperial Siege Gunner" XYZ="29.5194,-1.034888,223.5692" />
-				<Hotspot Name="Imperial Siege Gunner" XYZ="27.3879,-1.044049,227.2858" />
-				<Hotspot Name="Imperial Siege Commander" XYZ="26.63428,-1.584613,220.8407" />
-				<Hotspot Name="Imperial Siege Gunner" XYZ="36.3794,-1.60289,216.4669" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Secure Zone 12 (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Commando Searcher</Mob>
-				<Mob>Imperial Commando Marksman</Mob>
-				<Mob>Imperial Commando Veteran</Mob>
-				<Mob>Imperial Battler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="58.19797,0.3875519,237.0126" />
-				<Hotspot Name="Imperial Commando Searcher" XYZ="60.2099,0.387552,233.9479" />
-				<Hotspot Name="Imperial Battler" XYZ="61.8588,0.1768275,237.6151" />
-				<Hotspot Name="Imperial Commando Searcher" XYZ="59.1309,0.387552,241.1336" />
-				<Hotspot Name="Imperial Commando Veteran" XYZ="62.3377,0.3873594,243.0874" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Selonian Tunnel Safari (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Shadow Hunter</Mob>
-				<Mob>Tunnel Stalker</Mob>
-				<Mob>Tunnel Flier</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Shadow Hunter" XYZ="4.792166,-2.730079,133.9104" />
-				<Hotspot Name="Tunnel Flier" XYZ="-1.092161,-2.775545,133.9801" />
-				<Hotspot Name="Shadow Hunter" XYZ="-2.474427,-3.175545,123.7705" />
-				<Hotspot Name="Tunnel Flier" XYZ="-5.881593,-3.128082,126.308" />
-				<Hotspot Name="Shadow Hunter" XYZ="-8.555,-3.142082,123.9597" />
-				<Hotspot Name="Tunnel Stalker" XYZ="-12.4546,-3.160121,127.7486" />
-				<Hotspot Name="Tunnel Flier" XYZ="-13.13146,-3.16012,123.256" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Hunting the Hunter 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Assassin Droid</Mob>
-				<Mob>Assault Droid</Mob>
-				<Mob>Stalker Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Assassin Droid" XYZ="-14.11368,-3.974603,134.5399" />
-				<Hotspot Name="Assault Droid" XYZ="-10.4408,-3.9755,132.9549" />
-				<Hotspot Name="Assault Droid" XYZ="-9.974999,-4.818674,140.3734" />
-				<Hotspot Name="Assassin Droid" XYZ="-5.9073,-4.53949,142.876" />
-				<Hotspot Name="Assault Droid" XYZ="0.384,-4.760321,148.4357" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Coronet Shipping Invasion (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Shock Troop Infantry</Mob>
-				<Mob>Imperial Shock Troop Guardian</Mob>
-				<Mob>Imperial Shock Troop Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Shock Troop Infantry" XYZ="-4.5878,-1.570851,155.2331" />
-				<Hotspot Name="Imperial Shock Troop Guardian" XYZ="-6.2321,-1.607275,165.5406" />
-				<Hotspot Name="Imperial Shock Troop Commander" XYZ="-10.00141,-1.607275,164.0858" />
-				<Hotspot Name="Imperial Shock Troop Guardian" XYZ="-14.2329,-1.570851,161.798" />
-				<Hotspot Name="Imperial Shock Troop Commander" XYZ="-5.758579,-1.609241,180.0493" />
-				<Hotspot Name="Imperial Shock Troop Commander" XYZ="-9.908601,-1.609241,180.6827" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Underground Invasion 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Captain Granta</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Captain Granta" XYZ="-3.11629,0.401,195.3218" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Hunting the Hunter 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Control Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Control Droid" XYZ="2.1779,-0.5836869,174.9623" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Local Trouble 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Turret Corona Gunner</Mob>
-				<Mob>Corona Bruiser</Mob>
-				<Mob>Corona Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Turret Corona Gunner" XYZ="52.5024,0.4374421,200.8991" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="54.1603,0.4374421,196.2168" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="56.7744,0.4364421,197.3043" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="55.875,0.4374421,200.4016" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="49.0693,0.4341421,191.2609" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Corona Gang (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Turret Corona Gunner</Mob>
-				<Mob>Corona Bruiser</Mob>
-				<Mob>Corona Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Turret Corona Gunner" XYZ="52.5024,0.4374421,200.8991" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="54.1603,0.4374421,196.2168" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="56.7744,0.4364421,197.3043" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="55.875,0.4374421,200.4016" />
-				<Hotspot Name="Turret Corona Gunner" XYZ="49.0693,0.4341421,191.2609" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Beharen Droid Reservice (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Beharen Heavy Droid</Mob>
-				<Mob>Beharen Assault Droid</Mob>
-				<Mob>Beharen Patrol Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Beharen Heavy Droid" XYZ="-394.4393,-7.5989,-190.3914" />
-				<Hotspot Name="Beharen Heavy Droid" XYZ="-397.5048,-8.575545,-181.0927" />
-				<Hotspot Name="Beharen Security Droid" XYZ="-399.7232,-9.089,-181.1577" />
-				<Hotspot Name="Beharen Heavy Droid" XYZ="-400.7001,-9.099,-183.961" />
-				<Hotspot Name="Beharen Assault Droid" XYZ="-410.7055,-9.075545,-178.3228" />
-				<Hotspot Name="Beharen Heavy Droid" XYZ="-414.3582,-8.599,-175.2765" />
-				<Hotspot Name="Beharen Patrol Droid" XYZ="-415.9198,-8.599,-182.0313" />
-				<Hotspot Name="Beharen Security Droid" XYZ="-414.5,-8.599,-186.439" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Volatile Droids (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Enforcer Droid</Mob>
-				<Mob>Imperial Guard Droid</Mob>
-				<Mob>Imperial Gunner Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-335.4945,-10.599,-214.1636" />
-				<Hotspot Name="Imperial Enforcer Droid" XYZ="-336.4568,-10.589,-209.2475" />
-				<Hotspot Name="Imperial Gunner Droid" XYZ="-333.8291,-10.599,-210.0838" />
-				<Hotspot Name="My Location" XYZ="-322.4206,-10.599,-209.6461" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="A Fine Line 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Patrol Droid</Mob>
-				<Mob>Reprogrammed Sentry Droid</Mob>
-				<Mob>Imperial Defense Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-317.6051,-9.599,-282.4791" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-316.5968,-9.099,-278.2302" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-311.2848,-8.59236,-279.4238" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-306.1346,-8.599,-279.3991" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-311.7186,-8.099,-282.8731" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-309.4514,-9.575545,-281.4064" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Clear the Factory (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Patrol Droid</Mob>
-				<Mob>Reprogrammed Sentry Droid</Mob>
-				<Mob>Imperial Defense Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-317.6051,-9.599,-282.4791" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-316.5968,-9.099,-278.2302" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-311.2848,-8.59236,-279.4238" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-306.1346,-8.599,-279.3991" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-311.7186,-8.099,-282.8731" />
-				<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
-				<Hotspot Name="Imperial Defense Droid" XYZ="-309.4514,-9.575545,-281.4064" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="A Fine Line 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Guardian Hold Battledroid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="" XYZ="-314.3975,-8.599,-286.7364" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="A Fine Line 9">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Aelan Kalder</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Aelan Kalder" XYZ="-316.9397,-8.570851,-284.4021" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Research and Destroy (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Tech-Scout</Mob>
-				<Mob>Imperial Electro-Trooper</Mob>
-				<Mob>Imperial Plasma-Gunner</Mob>
-				<Mob>Imperial Tech Trooper"</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Tech-Scout" XYZ="-326.0588,-6.598999,-335.9388" />
-				<Hotspot Name="My Location" XYZ="-326.2644,-6.598999,-336.5893" />
-				<Hotspot Name="Imperial Plasma-Gunner" XYZ="-326.7754,-6.598999,-340.92" />
-				<Hotspot Name="Imperial Tech Trooper" XYZ="-331.9023,-6.598999,-341.3198" />
-				<Hotspot Name="Imperial Plasma-Gunner" XYZ="-330.7779,-7.599,-348.8449" />
-				<Hotspot Name="Imperial Cryo-Soldier" XYZ="-335.1877,-7.598999,-349.3048" />
-				<Hotspot Name="Imperial Plasma-Gunner" XYZ="-340.7722,-8.598998,-345.3664" />
-				<Hotspot Name="Imperial Plasma-Gunner" XYZ="-344.1259,-9.598998,-355.7529" />
-				<Hotspot Name="Imperial Plasma-Gunner" XYZ="-338.7428,-9.598998,-357.9184" />
-				<Hotspot Name="Imperial Electro-Trooper" XYZ="-333.3512,-9.598998,-357.8537" />
-				<Hotspot Name="Imperial Electro-Trooper" XYZ="-336.6216,-8.598998,-355.3574" />
-				<Hotspot Name="Imperial Tech-Scout" XYZ="-335.2721,-8.598998,-360.5676" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Research and Development 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Prototype Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Prototype Droid" XYZ="-330.2982,-6.446751,-368.8067" />
-				<Hotspot Name="Prototype Droid" XYZ="-331.6373,-6.598999,-371.7638" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Morale Boost 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Mandalorian Crackshot</Mob>
-				<Mob>Mandalorian Armsman</Mob>
-				<Mob>Mandalorian Raider</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mandalorian Armsman" XYZ="42.0585,2.509669,-303.1889" />
-				<Hotspot Name="Mandalorian Raider" XYZ="46.2473,2.712982,-302.6954" />
-				<Hotspot Name="Mandalorian Raider" XYZ="49.3819,3.262199,-307.3788" />
-				<Hotspot Name="Mandalorian Raider" XYZ="44.2943,2.212277,-298.5048" />
-				<Hotspot Name="Mandalorian Pathfinder" XYZ="39.2829,2.002311,-298.2313" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Green Battleground 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Trench Stormer</Mob>
-				<Mob>Imperial Trench Charger</Mob>
-				<Mob>Sith Battler</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Trench Stormer" XYZ="30.5691,3.233679,-303.0528" />
-				<Hotspot Name="Imperial Trench Charger" XYZ="27.9126,3.251517,-301.0059" />
-				<Hotspot Name="Imperial Trench Stormer" XYZ="31.0083,3.14225,-296.7602" />
-				<Hotspot Name="Imperial Trench Stormer" XYZ="25.41501,2.49342,-305.2464" />
-				<Hotspot Name="Sith Battler" XYZ="25.75935,3.011909,-298.1765" />
-				<Hotspot Name="Imperial Trench Stormer" XYZ="24.03682,2.302647,-305.4091" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Green Battleground 4 0">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Heavy Assault Specialist</Mob>
-				<Mob>Imperial Heavy Assault Commander</Mob>
-				<Mob>Imperial Heavy Assault Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Heavy Assault Commander" XYZ="23.69996,2.960055,-282.3" />
-				<Hotspot Name="Imperial Heavy Assault Gunner" XYZ="25.9654,4.591772,-273.4767" />
-				<Hotspot Name="Imperial Heavy Assault Gunner" XYZ="26.69996,4.13538,-270.4" />
-				<Hotspot Name="Imperial Heavy Assault Commander" XYZ="31.91697,4.087698,-272.2252" />
-				<Hotspot Name="Imperial Heavy Assault Specialist" XYZ="29.8,4.593565,-275.2" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Green Battleground 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Expert Sniper</Mob>
-				<Mob>Imperial Sniper</Mob>
-				<Mob>Imperial Sniper Protector</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Expert Sniper" XYZ="72.78323,4.803895,-231.1314" />
-				<Hotspot Name="Imperial Sniper" XYZ="68.9355,4.803895,-233.7706" />
-				<Hotspot Name="Imperial Expert Sniper" XYZ="62.87567,4.803895,-235.6358" />
-				<Hotspot Name="Imperial Expert Sniper" XYZ="61.62086,4.803895,-239.9757" />
-				<Hotspot Name="Imperial Expert Sniper" XYZ="66.256,4.399591,-235.7854" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 1 - Front Lines (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Sensor Security</Mob>
-				<Mob>Imperial Scanner Droid</Mob>
-				<Mob>Imperial Sensor Chief</Mob>
-				<Mob>Imperial Assault Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Scanner Droid" XYZ="10.761,4.665349,-196.0783" />
-				<Hotspot Name="Imperial Sensor Chief" XYZ="13.9812,3.636576,-194.5656" />
-				<Hotspot Name="Imperial Sensor Security" XYZ="9.3547,4.970447,-205.2675" />
-				<Hotspot Name="Imperial Sensor Security" XYZ="4.0302,6.092671,-198.947" />
-				<Hotspot Name="Imperial Sensor Security" XYZ="6.315688,6.061343,-194.38" />
-				<Hotspot Name="Imperial Assault Commander" XYZ="12.402,4.388697,-185.5816" />
-				<Hotspot Name="Imperial Perimeter Sentry" XYZ="22.7081,1.474332,-229.2163" />
-				<Hotspot Name="Imperial Assault Scout" XYZ="39.2589,4.426,-211.9847" />
-				<Hotspot Name="Imperial Perimeter Defender" XYZ="32.5336,3.385184,-199.003" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 3 - Front Lines (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Decimator Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Decimator Droid" XYZ="30.0653,3.387137,-197.3833" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="21.7451,2.897582,-206.2144" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="13.6651,2.248029,-229.3511" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="33.029,3.401841,-216.802" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="31.1973,1.546242,-229.4241" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="0.6672,5.405382,-221.6862" />
-				<Hotspot Name="Imperial Decimator Droid" XYZ="4.4334,5.554958,-210.2191" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Final Stage - Front Lines (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Park Commander</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Park Commander" XYZ="59.98957,4.4236,-182.9206" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Command Clearance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Command Guardian</Mob>
-				<Mob>Imperial Command Sentinel</Mob>
-				<Mob>Imperial Command Officer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Command Sentinel" XYZ="47.61171,2.401001,-194.2748" />
-				<Hotspot Name="Imperial Command Officer" XYZ="46.9229,2.401,-202.1752" />
-				<Hotspot Name="Imperial Command Sentinel" XYZ="51.3538,2.401001,-195.2411" />
-				<Hotspot Name="Imperial Command Sentinel" XYZ="51.783,2.401001,-202.6626" />
-				<Hotspot Name="Imperial Command Guardian" XYZ="56.9756,3.401001,-194.4312" />
-				<Hotspot Name="Imperial Command Officer" XYZ="56.9855,3.401,-202.4539" />
-				<Hotspot Name="Imperial Command Sentinel" XYZ="57.1005,3.401001,-198.7554" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Retaking the Republica (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Assault Chief</Mob>
-				<Mob>Imperial Assault Sniper</Mob>
-				<Mob>Imperial Guard Chief</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Assault Chief" XYZ="51.90118,1.91134,-224.1786" />
-				<Hotspot Name="My Location" XYZ="56.8272,1.40755,-223.315" />
-				<Hotspot Name="Imperial Guard Chief" XYZ="57.1919,1.40755,-230.6784" />
-				<Hotspot Name="Imperial Guard Chief" XYZ="52.0811,1.402949,-235.3759" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Down In History 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Commander Tainor</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="" XYZ="51.4096,1.401,-230.6555" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Old Blood 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Munitions Officer</Mob>
-				<Mob>Imperial Soldier</Mob>
-				<Mob>Imperial Turret Gunner</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Munitions Officer" XYZ="-20.7037,4.693715,-229.4553" />
-				<Hotspot Name="Imperial Soldier" XYZ="-25.53162,4.7214,-229.7217" />
-				<Hotspot Name="Imperial Soldier" XYZ="-21.89226,4.415864,-232.9795" />
-				<Hotspot Name="Imperial Turret Gunner" XYZ="-23.49646,4.701,-235.6017" />
-				<Hotspot Name="Imperial Soldier" XYZ="-23.69217,4.701,-239.7737" />
-				<Hotspot Name="Imperial Gunnery Sergeant" XYZ="-16.8842,4.694129,-240.5737" />
-				<Hotspot Name="Imperial Soldier" XYZ="-17.7183,4.701,-237.1871" />
-				<Hotspot Name="Imperial Soldier" XYZ="-19.4002,4.396306,-237.2242" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Old Blood 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Guard Captain</Mob>
-				<Mob>Imperial Elite Commando</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Elite Commando" XYZ="-20.7578,4.415958,-241.4206" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Old Blood 10">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Corporal Daresha</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Corporal Daresha" XYZ="-14.7209,4.40284,-257.702" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Scatter The Siege (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sith Avenger</Mob>
-				<Mob>Sith Raider</Mob>
-				<Mob>Imperial Combat Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sith Avenger" XYZ="302.5436,24.3989,-230.1579" />
-				<Hotspot Name="Imperial Combat Commander" XYZ="297.3079,24.3989,-237.1801" />
-				<Hotspot Name="Imperial Combat Rifleman" XYZ="298.7776,24.39971,-243.2347" />
-				<Hotspot Name="Imperial Combat Commander" XYZ="279.4477,24.39957,-235.0832" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Liberation 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Scout</Mob>
-				<Mob>Imperial Guard</Mob>
-				<Mob>Imperial Assault Trooper</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Scout" XYZ="274.6177,22.41376,-278.4466" />
-				<Hotspot Name="Imperial Assault Trooper" XYZ="270.0194,22.53442,-275.5341" />
-				<Hotspot Name="Imperial Assault Trooper" XYZ="270.8033,22.51819,-281.288" />
-				<Hotspot Name="Imperial Scout" XYZ="265.8136,22.42108,-276.4248" />
-				<Hotspot Name="Imperial Guard" XYZ="263.2171,22.3995,-279.0159" />
-				<Hotspot Name="Imperial Guard" XYZ="267.4459,22.3989,-287.3648" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Keeping a Secret 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Intelligence Cipher Agent</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Intelligence Cipher Agent" XYZ="307.9491,24.90797,-279.4578" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Retaking Guardian Hold One (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Bunker Guardian</Mob>
-				<Mob>Imperial Guard Warrior</Mob>
-				<Mob>Imperial Bunker Rifleman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Bunker Rifleman" XYZ="209.1805,22.401,-227.7377" />
-				<Hotspot Name="Imperial Guard Warrior" XYZ="207.0292,21.92445,-231.0097" />
-				<Hotspot Name="Imperial Guard Warrior" XYZ="207.4855,22.401,-239.8702" />
-				<Hotspot Name="Imperial Bunker Patrol Droid" XYZ="211.8554,22.401,-241.2402" />
-				<Hotspot Name="Imperial Bunker Rifleman" XYZ="210.688,21.926,-244.2213" />
-				<Hotspot Name="Imperial Bunker Rifleman" XYZ="207.2286,21.926,-243.5724" />
-				<Hotspot Name="Imperial Guard Warrior" XYZ="206.0262,22.401,-244.0916" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="As Above, So Below 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Councillor Saiak</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Councillor Saiak" XYZ="208.7993,22.401,-247.3979" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Chaos and Harmony 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Master Syo Bakarn</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Master Syo Bakarn" XYZ="218.0758,21.831,-260.3711" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Ion Wall Disruptions (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Tech-Guardian</Mob>
-				<Mob>Sith Dominator</Mob>
-				<Mob>Imperial Tech-Rifleman</Mob>
-				<Mob>Sith Watcher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Tech-Guardian" XYZ="223.221,21.40255,-196.5079" />
-				<Hotspot Name="Sith Dominator" XYZ="224.8301,21.397,-204.5736" />
-				<Hotspot Name="Imperial Tech-Guardian" XYZ="234.7995,20.3621,-196.9133" />
-				<Hotspot Name="Imperial Tech-Rifleman" XYZ="231.8062,20.39495,-206.3998" />
-				<Hotspot Name="Sith Watcher" XYZ="235.976,20.39276,-200.0109" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Counter Intelligence (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Combat Demolitionist</Mob>
-				<Mob>Imperial Combat Soldier</Mob>
-				<Mob>Imperial Combat Master</Mob>
-				<Mob>Imperial Lancer Droid</Mob>
-				<Mob>Sith Ion Wall Overseer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Combat Demolitionist" XYZ="281.8989,24.421,-179.5329" />
-				<Hotspot Name="Imperial Combat Master" XYZ="283.9871,24.426,-184.9987" />
-				<Hotspot Name="Imperial Combat Demolitionist" XYZ="276.4147,24.401,-186.3003" />
-				<Hotspot Name="My Location" XYZ="277.2517,22.401,-185.199" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Government Clearance 6">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Darth Acharon</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Darth Acharon" XYZ="274.3443,22.401,-186.8621" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Retaking the Legislature (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Master Cannoneer</Mob>
-				<Mob>Imperial Master Armsman</Mob>
-				<Mob>Imperial Master Rifleman</Mob>
-				<Mob>Sith Enforcer</Mob>
-				<Mob>Imperial Watch-Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Master Rifleman" XYZ="223.9079,21.4025,-174.8389" />
-				<Hotspot Name="Imperial Master Cannoneer" XYZ="224.7139,21.401,-172.0782" />
-				<Hotspot Name="Imperial Master Cannoneer" XYZ="222.8401,21.401,-168.2229" />
-				<Hotspot Name="Imperial Master Armsman" XYZ="225.8804,21.401,-171.2056" />
-				<Hotspot Name="Imperial Master Cannoneer" XYZ="226.0813,21.401,-167.825" />
-				<Hotspot Name="Imperial Master Armsman" XYZ="225.4909,21.401,-160.5791" />
-				<Hotspot Name="Imperial Watch-Droid" XYZ="218.5398,21.401,-160.5956" />
-				<Hotspot Name="Imperial Master Rifleman" XYZ="220.4697,21.401,-162.4496" />
-				<Hotspot Name="Imperial Master Rifleman" XYZ="216.2216,21.401,-156.0244" />
-				<Hotspot Name="Imperial Master Rifleman" XYZ="226.1878,21.401,-156.7255" />
-				<Hotspot Name="Imperial Watch-Droid" XYZ="223.3704,20.401,-149.7162" />
-				<Hotspot Name="Imperial Master Rifleman" XYZ="231.5336,20.401,-145.9531" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Right to Arms 8">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Darth Hadra</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Darth Hadra" XYZ="237.1472,20.4,-153.1607" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Right to Arms 4 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Darth Decimus</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Darth Decimus" XYZ="218.3103,20.401,-132.4451" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Averting Further Disaster (Bonus) ">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Tunnel Hunter</Mob>
-				<Mob>Imperial Tunnel Tracker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Tunnel Tracker" XYZ="260.154,19.23987,-347.7389" />
-				<Hotspot Name="Imperial Tunnel Commander" XYZ="257.5734,17.63988,-351.2683" />
-				<Hotspot Name="Imperial Tunnel Commander" XYZ="254.9677,17.61671,-348.6223" />
-				<Hotspot Name="Imperial Tunnel Tracker" XYZ="255.8679,17.63988,-356.0005" />
-				<Hotspot Name="Imperial Tunnel Commander" XYZ="260.5567,17.63988,-353.3714" />
-				<Hotspot Name="My Location" XYZ="251.9987,20.03988,-364.3387" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Droid Hunt 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Droid Technician</Mob>
-				<Mob>Imperial Pacification Droid</Mob>
-				<Mob>Imperial Battledroid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="260.2303,22.401,-306.2909" />
-				<Hotspot Name="Imperial Droid Technician" XYZ="260.2159,21.921,-310.6284" />
-				<Hotspot Name="Imperial Pacification Droid" XYZ="259.5467,21.901,-315.8899" />
-				<Hotspot Name="Imperial Battledroid" XYZ="262.2962,21.901,-314.074" />
-				<Hotspot Name="Imperial Battledroid" XYZ="256.0842,21.901,-314.2758" />
-				<Hotspot Name="Imperial Battledroid" XYZ="254.7477,22.401,-317.2005" />
-				<Hotspot Name="Imperial Battledroid" XYZ="262.7983,22.401,-317.6361" />
-			</Hotspots>
-		</GrindArea>    
-
-
-
-
 
 	</GrindAreas>
 
@@ -927,7 +155,27 @@
 			</If>
 			<!-- Stage 1 - Running Interference (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000AD979D587526))">
-				<Grind GrindRef="Stage 1 - Running Interference (Bonus)" While="(not IsQuestComplete(0xE000AD979D587526))" />
+				<Grind While="(not IsQuestComplete(0xE000AD979D587526))">
+					<GrindArea Name="Stage 1 - Running Interference (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Forward Commander</Mob>
+							<Mob>Imperial Forward Watchman</Mob>
+							<Mob>Imperial Forward Guardian</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Forward Commander" XYZ="77.12363,-1.606458,131.219" />
+							<Hotspot Name="My Location" XYZ="72.88062,-1.606458,129.8191" />
+							<Hotspot Name="Imperial Forward Watchman" XYZ="72.046,-1.610364,140.0338" />
+							<Hotspot Name="Imperial Forward Watchman" XYZ="76.83691,-2.606045,141.7161" />
+							<Hotspot Name="Imperial Forward Watchman" XYZ="79.8176,-1.608411,132.7794" />
+							<Hotspot Name="War Hound" XYZ="98.23269,-3.5975,135.3337" />
+							<Hotspot Name="Imperial Forward Guardian" XYZ="107.4023,-3.5972,135.3755" />
+							<Hotspot Name="Imperial Forward Watchman" XYZ="106.2141,-3.598193,128.8176" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 2 - Running Interference (Bonus) -->
@@ -971,7 +219,21 @@
 		<!-- Consular - Descent 5 -->
 		<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsQuestComplete(0xE000253F776474E7)))">
 			<If Condition="((HasQuest(0xE000253F776474E7)) and (not IsBranchStepComplete(0xE000253F776474E7, 1, 5)))">
-				<Grind GrindRef="Descent 5" While="(not IsBranchStepComplete(0xE000253F776474E7, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000253F776474E7, 1, 5))">
+					<GrindArea Name="Descent 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial XR-32 Hunter Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="38.75652,2.398871,108.2896" />
+							<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="27.93372,2.396109,113.3895" />
+							<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="20.7817,0.4367042,122.4413" />
+							<Hotspot Name="Imperial XR-32 Hunter Droid" XYZ="16.89576,2.425429,98.71885" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -996,7 +258,21 @@
 		<!-- Travel Advisory and Turnin -->
 		<If Condition="((HasQuest(0xE000B432EEBDD03C)) and (not IsQuestComplete(0xE000B432EEBDD03C)))">
 			<If Condition="((HasQuest(0xE000B432EEBDD03C)) and (not IsBranchStepComplete(0xE000B432EEBDD03C, 1, 2)))">
-				<Grind GrindRef="Travel Advisory 2" While="(not IsBranchStepComplete(0xE000B432EEBDD03C, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000B432EEBDD03C, 1, 2))">
+					<GrindArea Name="Travel Advisory 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Forward Overseer</Mob>
+							<Mob>Imperial Infiltrator Drone</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Forward Overseer" XYZ="26.04075,2.499289,95.62547" />
+							<Hotspot Name="Imperial Forward Overseer" XYZ="23.94346,3.401,101.6207" />
+							<Hotspot Name="Imperial Forward Overseer" XYZ="25.79819,4.198885,107.0207" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Republic Rescue (Bonus) - 5 tasks - do this one at a later date
 		 <While Condition="(not IsQuestComplete(0xE0007EBD6AFB3B84))">
@@ -1016,7 +292,22 @@
 		 -->
 			<!-- Securing CorSec (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003E35AB6B63CE))">
-				<Grind GrindRef="Securing CorSec (Bonus)" While="(not IsQuestComplete(0xE0003E35AB6B63CE))" />
+				<Grind While="(not IsQuestComplete(0xE0003E35AB6B63CE))">
+					<GrindArea Name="Securing CorSec (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Forward Overseer</Mob>
+							<Mob>Imperial Infiltrator Drone</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Forward Overseer" XYZ="26.04075,2.499289,95.62547" />
+							<Hotspot Name="Imperial Forward Overseer" XYZ="23.94346,3.401,101.6207" />
+							<Hotspot Name="Imperial Forward Overseer" XYZ="25.79819,4.198885,107.0207" />
+							<Hotspot Name="Imperial Forward Overseer" XYZ="26.96401,6.401,93.2674" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Travel Advisory" QuestId="0xE000B432EEBDD03C" Type="Placeable" UseRange="2" TurnInName="Holding Cell Door" XYZ="30.5014,6.526992,93.58625" />
 			<CompleteQuest QuestName="Travel Advisory" QuestId="0xE000B432EEBDD03C" />
@@ -1081,7 +372,24 @@
 			</If>
 			<!-- Stopping the Siege (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0006CF370BC5756))">
-				<Grind GrindRef="Stopping the Siege (Bonus)" While="(not IsQuestComplete(0xE0006CF370BC5756))" />
+				<Grind While="(not IsQuestComplete(0xE0006CF370BC5756))">
+					<GrindArea Name="Stopping the Siege (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Picket Droid</Mob>
+							<Mob>Imperial Siege Commander</Mob>
+							<Mob>Imperial Siege Gunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Picket Droid" XYZ="31.17035,-1.239127,221.542" />
+							<Hotspot Name="Imperial Siege Gunner" XYZ="29.5194,-1.034888,223.5692" />
+							<Hotspot Name="Imperial Siege Gunner" XYZ="27.3879,-1.044049,227.2858" />
+							<Hotspot Name="Imperial Siege Commander" XYZ="26.63428,-1.584613,220.8407" />
+							<Hotspot Name="Imperial Siege Gunner" XYZ="36.3794,-1.60289,216.4669" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1095,18 +403,70 @@
 			</If>
 			<!-- Secure Zone 12 (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003E5ACB4283AF))">
-				<Grind GrindRef="Secure Zone 12 (Bonus)" While="(not IsQuestComplete(0xE0003E5ACB4283AF))" />
+				<Grind While="(not IsQuestComplete(0xE0003E5ACB4283AF))">
+					<GrindArea Name="Secure Zone 12 (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Commando Searcher</Mob>
+							<Mob>Imperial Commando Marksman</Mob>
+							<Mob>Imperial Commando Veteran</Mob>
+							<Mob>Imperial Battler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="58.19797,0.3875519,237.0126" />
+							<Hotspot Name="Imperial Commando Searcher" XYZ="60.2099,0.387552,233.9479" />
+							<Hotspot Name="Imperial Battler" XYZ="61.8588,0.1768275,237.6151" />
+							<Hotspot Name="Imperial Commando Searcher" XYZ="59.1309,0.387552,241.1336" />
+							<Hotspot Name="Imperial Commando Veteran" XYZ="62.3377,0.3873594,243.0874" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Local Trouble 2 -->
 		<If Condition="((HasQuest(0xE000A3FA35B408C5)) and (not IsQuestComplete(0xE000A3FA35B408C5)))">
 			<If Condition="((HasQuest(0xE000A3FA35B408C5)) and (not IsBranchStepComplete(0xE000A3FA35B408C5, 1, 2)))">
-				<Grind GrindRef="Local Trouble 2" While="(not IsBranchStepComplete(0xE000A3FA35B408C5, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A3FA35B408C5, 1, 2))">
+					<GrindArea Name="Local Trouble 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Turret Corona Gunner</Mob>
+							<Mob>Corona Bruiser</Mob>
+							<Mob>Corona Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Turret Corona Gunner" XYZ="52.5024,0.4374421,200.8991" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="54.1603,0.4374421,196.2168" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="56.7744,0.4364421,197.3043" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="55.875,0.4374421,200.4016" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="49.0693,0.4341421,191.2609" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- The Corona Gang (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00095EFB51EA92B))">
-				<Grind GrindRef="The Corona Gang (Bonus)" While="(not IsQuestComplete(0xE00095EFB51EA92B))" />
+				<Grind While="(not IsQuestComplete(0xE00095EFB51EA92B))">
+					<GrindArea Name="The Corona Gang (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Turret Corona Gunner</Mob>
+							<Mob>Corona Bruiser</Mob>
+							<Mob>Corona Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Turret Corona Gunner" XYZ="52.5024,0.4374421,200.8991" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="54.1603,0.4374421,196.2168" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="56.7744,0.4364421,197.3043" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="55.875,0.4374421,200.4016" />
+							<Hotspot Name="Turret Corona Gunner" XYZ="49.0693,0.4341421,191.2609" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1156,11 +516,47 @@
 		<!-- Hunting the Hunter 2 -->
 		<If Condition="((HasQuest(0xE000BD8D459D89C4)) and (not IsQuestComplete(0xE000BD8D459D89C4)))">
 			<If Condition="((HasQuest(0xE000BD8D459D89C4)) and (not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 2)))">
-				<Grind GrindRef="Hunting the Hunter 2" While="(not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 2))">
+					<GrindArea Name="Hunting the Hunter 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Assassin Droid</Mob>
+							<Mob>Assault Droid</Mob>
+							<Mob>Stalker Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Assassin Droid" XYZ="-14.11368,-3.974603,134.5399" />
+							<Hotspot Name="Assault Droid" XYZ="-10.4408,-3.9755,132.9549" />
+							<Hotspot Name="Assault Droid" XYZ="-9.974999,-4.818674,140.3734" />
+							<Hotspot Name="Assassin Droid" XYZ="-5.9073,-4.53949,142.876" />
+							<Hotspot Name="Assault Droid" XYZ="0.384,-4.760321,148.4357" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Selonian Tunnel Safari (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00044495C95EF2D))">
-				<Grind GrindRef="Selonian Tunnel Safari (Bonus)" While="(not IsQuestComplete(0xE00044495C95EF2D))" />
+				<Grind While="(not IsQuestComplete(0xE00044495C95EF2D))">
+					<GrindArea Name="Selonian Tunnel Safari (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Shadow Hunter</Mob>
+							<Mob>Tunnel Stalker</Mob>
+							<Mob>Tunnel Flier</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Shadow Hunter" XYZ="4.792166,-2.730079,133.9104" />
+							<Hotspot Name="Tunnel Flier" XYZ="-1.092161,-2.775545,133.9801" />
+							<Hotspot Name="Shadow Hunter" XYZ="-2.474427,-3.175545,123.7705" />
+							<Hotspot Name="Tunnel Flier" XYZ="-5.881593,-3.128082,126.308" />
+							<Hotspot Name="Shadow Hunter" XYZ="-8.555,-3.142082,123.9597" />
+							<Hotspot Name="Tunnel Stalker" XYZ="-12.4546,-3.160121,127.7486" />
+							<Hotspot Name="Tunnel Flier" XYZ="-13.13146,-3.16012,123.256" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1171,21 +567,61 @@
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE00028DC73962B11)) and (not IsBranchStepComplete(0xE00028DC73962B11, 1, 3)))">
-				<Grind GrindRef="Underground Invasion 3" While="(not IsBranchStepComplete(0xE00028DC73962B11, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE00028DC73962B11, 1, 3))">
+					<GrindArea Name="Underground Invasion 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Captain Granta</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Captain Granta" XYZ="-3.11629,0.401,195.3218" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00028DC73962B11)) and (not IsBranchStepComplete(0xE00028DC73962B11, 1, 4)))">
 				<UseObject QuestId="0xE00028DC73962B11" ObjectName="Neutron Emitter Controls" BranchId="1" StepId="4" IgnoreLOS="True" IgnoreQuestRelation="True" Radius="20" WaitTime="5" XYZ="-3.482039,0.401,201.1838" />
 			</If>
 			<!-- Coronet Shipping Invasion (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000FA5E8E67DBD8))">
-				<Grind GrindRef="Coronet Shipping Invasion (Bonus)" While="(not IsQuestComplete(0xE000FA5E8E67DBD8))" />
+				<Grind While="(not IsQuestComplete(0xE000FA5E8E67DBD8))">
+					<GrindArea Name="Coronet Shipping Invasion (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Shock Troop Infantry</Mob>
+							<Mob>Imperial Shock Troop Guardian</Mob>
+							<Mob>Imperial Shock Troop Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Shock Troop Infantry" XYZ="-4.5878,-1.570851,155.2331" />
+							<Hotspot Name="Imperial Shock Troop Guardian" XYZ="-6.2321,-1.607275,165.5406" />
+							<Hotspot Name="Imperial Shock Troop Commander" XYZ="-10.00141,-1.607275,164.0858" />
+							<Hotspot Name="Imperial Shock Troop Guardian" XYZ="-14.2329,-1.570851,161.798" />
+							<Hotspot Name="Imperial Shock Troop Commander" XYZ="-5.758579,-1.609241,180.0493" />
+							<Hotspot Name="Imperial Shock Troop Commander" XYZ="-9.908601,-1.609241,180.6827" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Hunting the Hunter 3 and Turnin -->
 		<If Condition="((HasQuest(0xE000BD8D459D89C4)) and (not IsQuestComplete(0xE000BD8D459D89C4)))">
 			<If Condition="((HasQuest(0xE000BD8D459D89C4)) and (not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 3)))">
-				<Grind GrindRef="Hunting the Hunter 3" While="(not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000BD8D459D89C4, 1, 3))">
+					<GrindArea Name="Hunting the Hunter 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Control Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Control Droid" XYZ="2.1779,-0.5836869,174.9623" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<MoveTo QuestId="1" Name="My Location" XYZ="12.13369,-0.8504059,137.357" />
 			<MoveTo QuestId="1" Name="My Location" IgnoreMesh="True" XYZ="11.14404,-1.161952,137.3532" />
@@ -1246,7 +682,23 @@
 			</If>
 			<!-- Volatile Droids (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0005F51CD19C5FA))">
-				<Grind GrindRef="Volatile Droids (Bonus)" While="(not IsQuestComplete(0xE0005F51CD19C5FA))" />
+				<Grind While="(not IsQuestComplete(0xE0005F51CD19C5FA))">
+					<GrindArea Name="Volatile Droids (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Enforcer Droid</Mob>
+							<Mob>Imperial Guard Droid</Mob>
+							<Mob>Imperial Gunner Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-335.4945,-10.599,-214.1636" />
+							<Hotspot Name="Imperial Enforcer Droid" XYZ="-336.4568,-10.589,-209.2475" />
+							<Hotspot Name="Imperial Gunner Droid" XYZ="-333.8291,-10.599,-210.0838" />
+							<Hotspot Name="My Location" XYZ="-322.4206,-10.599,-209.6461" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1279,7 +731,27 @@
 			</If>
 			<!-- Beharen Droid Reservice (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00050CBDD13DBC6))">
-				<Grind GrindRef="Beharen Droid Reservice (Bonus)" While="(not IsQuestComplete(0xE00050CBDD13DBC6))" />
+				<Grind While="(not IsQuestComplete(0xE00050CBDD13DBC6))">
+					<GrindArea Name="Beharen Droid Reservice (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Beharen Heavy Droid</Mob>
+							<Mob>Beharen Assault Droid</Mob>
+							<Mob>Beharen Patrol Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Beharen Heavy Droid" XYZ="-394.4393,-7.5989,-190.3914" />
+							<Hotspot Name="Beharen Heavy Droid" XYZ="-397.5048,-8.575545,-181.0927" />
+							<Hotspot Name="Beharen Security Droid" XYZ="-399.7232,-9.089,-181.1577" />
+							<Hotspot Name="Beharen Heavy Droid" XYZ="-400.7001,-9.099,-183.961" />
+							<Hotspot Name="Beharen Assault Droid" XYZ="-410.7055,-9.075545,-178.3228" />
+							<Hotspot Name="Beharen Heavy Droid" XYZ="-414.3582,-8.599,-175.2765" />
+							<Hotspot Name="Beharen Patrol Droid" XYZ="-415.9198,-8.599,-182.0313" />
+							<Hotspot Name="Beharen Security Droid" XYZ="-414.5,-8.599,-186.439" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Factory Recall" QuestId="0xE00073844A675682" TurnInName="Supply Grid Controls" XYZ="-414.1657,-8.599,-184.4996" />
 			<CompleteQuest QuestName="Factory Recall" QuestId="0xE00073844A675682" />
@@ -1310,23 +782,85 @@
 				<UseObject QuestId="0xE000DE1D5C7507D1" ObjectName="Master Control" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-316.4744,-9.599,-281.3937" />
 			</If>
 			<If Condition="((HasQuest(0xE000DE1D5C7507D1)) and (not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 5)))">
-				<Grind GrindRef="A Fine Line 5" While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 5))">
+					<GrindArea Name="A Fine Line 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Reprogrammed Patrol Droid</Mob>
+							<Mob>Reprogrammed Sentry Droid</Mob>
+							<Mob>Imperial Defense Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-317.6051,-9.599,-282.4791" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-316.5968,-9.099,-278.2302" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-311.2848,-8.59236,-279.4238" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-306.1346,-8.599,-279.3991" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-311.7186,-8.099,-282.8731" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-309.4514,-9.575545,-281.4064" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Clear the Factory (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007F1C8BDF5BE5))">
-				<Grind GrindRef="Clear the Factory (Bonus)" While="(not IsQuestComplete(0xE0007F1C8BDF5BE5))" />
+				<Grind While="(not IsQuestComplete(0xE0007F1C8BDF5BE5))">
+					<GrindArea Name="Clear the Factory (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Reprogrammed Patrol Droid</Mob>
+							<Mob>Reprogrammed Sentry Droid</Mob>
+							<Mob>Imperial Defense Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-317.6051,-9.599,-282.4791" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-316.5968,-9.099,-278.2302" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-311.2848,-8.59236,-279.4238" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-306.1346,-8.599,-279.3991" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-311.7186,-8.099,-282.8731" />
+							<Hotspot Name="Reprogrammed Patrol Droid" XYZ="-310.8161,-9.575545,-285.6448" />
+							<Hotspot Name="Imperial Defense Droid" XYZ="-309.4514,-9.575545,-281.4064" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000DE1D5C7507D1)) and (not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 6)))">
 				<TalkTo QuestId="0xE000DE1D5C7507D1" Name="Aelan Kalder" XYZ="-318.2884,-8.570851,-284.9672" />
 			</If>
 			<If Condition="((HasQuest(0xE000DE1D5C7507D1)) and (not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 7)))">
-				<Grind GrindRef="A Fine Line 7" While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 7))">
+					<GrindArea Name="A Fine Line 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Guardian Hold Battledroid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="" XYZ="-314.3975,-8.599,-286.7364" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000DE1D5C7507D1)) and (not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 8)))">
 				<UseObject QuestId="0xE000DE1D5C7507D1" ObjectName="Forcefield Controls" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="-315.3434,-8.579,-285.2669" />
 			</If>
 			<If Condition="((HasQuest(0xE000DE1D5C7507D1)) and (not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 9)))">
-				<Grind GrindRef="A Fine Line 9" While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 9))" />
+				<Grind While="(not IsBranchStepComplete(0xE000DE1D5C7507D1, 1, 9))">
+					<GrindArea Name="A Fine Line 9">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Aelan Kalder</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Aelan Kalder" XYZ="-316.9397,-8.570851,-284.4021" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="A Fine Line" QuestId="0xE000DE1D5C7507D1" Type="Placeable" UseRange="2" TurnInName="Guardian Hold Controls" XYZ="-316.5885,-8.570851,-288.8227" />
 			<CompleteQuest QuestName="A Fine Line" QuestId="0xE000DE1D5C7507D1" />
@@ -1374,13 +908,50 @@
 			</If> 
 			<!-- Research and Destroy (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000A821B7A6926))">
-				<Grind GrindRef="Research and Destroy (Bonus)" While="(not IsQuestComplete(0xE0000A821B7A6926))" />
+				<Grind While="(not IsQuestComplete(0xE0000A821B7A6926))">
+					<GrindArea Name="Research and Destroy (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Tech-Scout</Mob>
+							<Mob>Imperial Electro-Trooper</Mob>
+							<Mob>Imperial Plasma-Gunner</Mob>
+							<Mob>Imperial Tech Trooper"</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Tech-Scout" XYZ="-326.0588,-6.598999,-335.9388" />
+							<Hotspot Name="My Location" XYZ="-326.2644,-6.598999,-336.5893" />
+							<Hotspot Name="Imperial Plasma-Gunner" XYZ="-326.7754,-6.598999,-340.92" />
+							<Hotspot Name="Imperial Tech Trooper" XYZ="-331.9023,-6.598999,-341.3198" />
+							<Hotspot Name="Imperial Plasma-Gunner" XYZ="-330.7779,-7.599,-348.8449" />
+							<Hotspot Name="Imperial Cryo-Soldier" XYZ="-335.1877,-7.598999,-349.3048" />
+							<Hotspot Name="Imperial Plasma-Gunner" XYZ="-340.7722,-8.598998,-345.3664" />
+							<Hotspot Name="Imperial Plasma-Gunner" XYZ="-344.1259,-9.598998,-355.7529" />
+							<Hotspot Name="Imperial Plasma-Gunner" XYZ="-338.7428,-9.598998,-357.9184" />
+							<Hotspot Name="Imperial Electro-Trooper" XYZ="-333.3512,-9.598998,-357.8537" />
+							<Hotspot Name="Imperial Electro-Trooper" XYZ="-336.6216,-8.598998,-355.3574" />
+							<Hotspot Name="Imperial Tech-Scout" XYZ="-335.2721,-8.598998,-360.5676" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0005D43C1511B5E)) and (not IsBranchStepComplete(0xE0005D43C1511B5E, 1, 3)))">
 				<TalkTo QuestId="0xE0005D43C1511B5E" Name="Danison Varik" XYZ="-331.1187,-6.599,-369.933" />
 			</If>
 			<If Condition="((HasQuest(0xE0005D43C1511B5E)) and (not IsBranchStepComplete(0xE0005D43C1511B5E, 1, 4)))">
-				<Grind GrindRef="Research and Development 4" While="(not IsBranchStepComplete(0xE0005D43C1511B5E, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE0005D43C1511B5E, 1, 4))">
+					<GrindArea Name="Research and Development 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Prototype Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Prototype Droid" XYZ="-330.2982,-6.446751,-368.8067" />
+							<Hotspot Name="Prototype Droid" XYZ="-331.6373,-6.598999,-371.7638" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Research and Development" QuestId="0xE0005D43C1511B5E" TurnInName="Danison Varik" XYZ="-331.1187,-6.599,-369.933" />
 			<CompleteQuest QuestName="Research and Development" QuestId="0xE0005D43C1511B5E" />
@@ -1459,14 +1030,49 @@
 				<UseObject QuestId="0xE000E04541BAFCD4" ObjectName="Holostatue of Revan" Radius="20" WaitTime="5" XYZ="42.5608,1.647275,-296.3633" />
 			</If>
 			<If Condition="((HasQuest(0xE0000F54FFC8BD43)) and (not IsBranchStepComplete(0xE0000F54FFC8BD43, 1, 2)))">
-				<Grind GrindRef="Morale Boost 2" While="(not IsBranchStepComplete(0xE0000F54FFC8BD43, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000F54FFC8BD43, 1, 2))">
+					<GrindArea Name="Morale Boost 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Mandalorian Crackshot</Mob>
+							<Mob>Mandalorian Armsman</Mob>
+							<Mob>Mandalorian Raider</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mandalorian Armsman" XYZ="42.0585,2.509669,-303.1889" />
+							<Hotspot Name="Mandalorian Raider" XYZ="46.2473,2.712982,-302.6954" />
+							<Hotspot Name="Mandalorian Raider" XYZ="49.3819,3.262199,-307.3788" />
+							<Hotspot Name="Mandalorian Raider" XYZ="44.2943,2.212277,-298.5048" />
+							<Hotspot Name="Mandalorian Pathfinder" XYZ="39.2829,2.002311,-298.2313" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
 		<!-- Green Battleground -->
 		<If Condition="((HasQuest(0xE00057E7811611E9)) and (not IsQuestComplete(0xE00057E7811611E9)))">
 			<If Condition="((HasQuest(0xE00057E7811611E9)) and (not IsBranchStepComplete(0xE00057E7811611E9, 1, 3)))">
-				<Grind GrindRef="Green Battleground 3" While="(not IsBranchStepComplete(0xE00057E7811611E9, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE00057E7811611E9, 1, 3))">
+					<GrindArea Name="Green Battleground 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Trench Stormer</Mob>
+							<Mob>Imperial Trench Charger</Mob>
+							<Mob>Sith Battler</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Trench Stormer" XYZ="30.5691,3.233679,-303.0528" />
+							<Hotspot Name="Imperial Trench Charger" XYZ="27.9126,3.251517,-301.0059" />
+							<Hotspot Name="Imperial Trench Stormer" XYZ="31.0083,3.14225,-296.7602" />
+							<Hotspot Name="Imperial Trench Stormer" XYZ="25.41501,2.49342,-305.2464" />
+							<Hotspot Name="Sith Battler" XYZ="25.75935,3.011909,-298.1765" />
+							<Hotspot Name="Imperial Trench Stormer" XYZ="24.03682,2.302647,-305.4091" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1514,11 +1120,45 @@
 					<UseObject QuestId="0xE00057E7811611E9" ObjectName="Artillery Controls" BranchId="1" StepId="4" TaskId="4" Radius="20" WaitTime="5" XYZ="26.44416,4.592559,-276.6007" />
 				</If>
 				<If Condition="((HasQuest(0xE00057E7811611E9)) and (not IsBranchTaskComplete(0xE00057E7811611E9, 1, 4, 0)))">
-					<Grind GrindRef="Green Battleground 4 0" While="(not IsBranchTaskComplete(0xE00057E7811611E9, 1, 4, 0))" />
+					<Grind While="(not IsBranchTaskComplete(0xE00057E7811611E9, 1, 4, 0))">
+						<GrindArea Name="Green Battleground 4 0">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Imperial Heavy Assault Specialist</Mob>
+								<Mob>Imperial Heavy Assault Commander</Mob>
+								<Mob>Imperial Heavy Assault Gunner</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Imperial Heavy Assault Commander" XYZ="23.69996,2.960055,-282.3" />
+								<Hotspot Name="Imperial Heavy Assault Gunner" XYZ="25.9654,4.591772,-273.4767" />
+								<Hotspot Name="Imperial Heavy Assault Gunner" XYZ="26.69996,4.13538,-270.4" />
+								<Hotspot Name="Imperial Heavy Assault Commander" XYZ="31.91697,4.087698,-272.2252" />
+								<Hotspot Name="Imperial Heavy Assault Specialist" XYZ="29.8,4.593565,-275.2" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE00057E7811611E9)) and (not IsBranchStepComplete(0xE00057E7811611E9, 1, 5)))">
-				<Grind GrindRef="Green Battleground 5" While="(not IsBranchStepComplete(0xE00057E7811611E9, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE00057E7811611E9, 1, 5))">
+					<GrindArea Name="Green Battleground 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Expert Sniper</Mob>
+							<Mob>Imperial Sniper</Mob>
+							<Mob>Imperial Sniper Protector</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Expert Sniper" XYZ="72.78323,4.803895,-231.1314" />
+							<Hotspot Name="Imperial Sniper" XYZ="68.9355,4.803895,-233.7706" />
+							<Hotspot Name="Imperial Expert Sniper" XYZ="62.87567,4.803895,-235.6358" />
+							<Hotspot Name="Imperial Expert Sniper" XYZ="61.62086,4.803895,-239.9757" />
+							<Hotspot Name="Imperial Expert Sniper" XYZ="66.256,4.399591,-235.7854" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00057E7811611E9)) and (not IsBranchStepComplete(0xE00057E7811611E9, 1, 6)))">
 				<UseObject QuestId="0xE00057E7811611E9" ObjectName="Ordinance Crate" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="3.7419,6.1494,-195.4772" />
@@ -1543,7 +1183,29 @@
 			</If>
 			<!-- Stage 1 - Front Lines (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000470114B73C7F))">
-				<Grind GrindRef="Stage 1 - Front Lines (Bonus)" While="(not IsQuestComplete(0xE000470114B73C7F))" />
+				<Grind While="(not IsQuestComplete(0xE000470114B73C7F))">
+					<GrindArea Name="Stage 1 - Front Lines (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Sensor Security</Mob>
+							<Mob>Imperial Scanner Droid</Mob>
+							<Mob>Imperial Sensor Chief</Mob>
+							<Mob>Imperial Assault Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Scanner Droid" XYZ="10.761,4.665349,-196.0783" />
+							<Hotspot Name="Imperial Sensor Chief" XYZ="13.9812,3.636576,-194.5656" />
+							<Hotspot Name="Imperial Sensor Security" XYZ="9.3547,4.970447,-205.2675" />
+							<Hotspot Name="Imperial Sensor Security" XYZ="4.0302,6.092671,-198.947" />
+							<Hotspot Name="Imperial Sensor Security" XYZ="6.315688,6.061343,-194.38" />
+							<Hotspot Name="Imperial Assault Commander" XYZ="12.402,4.388697,-185.5816" />
+							<Hotspot Name="Imperial Perimeter Sentry" XYZ="22.7081,1.474332,-229.2163" />
+							<Hotspot Name="Imperial Assault Scout" XYZ="39.2589,4.426,-211.9847" />
+							<Hotspot Name="Imperial Perimeter Defender" XYZ="32.5336,3.385184,-199.003" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<!-- Stage 2 - Front Lines (Bonus) -->
@@ -1563,16 +1225,63 @@
 			</If>
 			<!-- Stage 3 - Front Lines (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000490114B72099))">
-				<Grind GrindRef="Stage 3 - Front Lines (Bonus)" While="(not IsQuestComplete(0xE000490114B72099))" />
+				<Grind While="(not IsQuestComplete(0xE000490114B72099))">
+					<GrindArea Name="Stage 3 - Front Lines (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Decimator Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Decimator Droid" XYZ="30.0653,3.387137,-197.3833" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="21.7451,2.897582,-206.2144" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="13.6651,2.248029,-229.3511" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="33.029,3.401841,-216.802" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="31.1973,1.546242,-229.4241" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="0.6672,5.405382,-221.6862" />
+							<Hotspot Name="Imperial Decimator Droid" XYZ="4.4334,5.554958,-210.2191" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<!-- Final Stage - Front Lines (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0004C0114B72580))">
-				<Grind GrindRef="Final Stage - Front Lines (Bonus)" While="(not IsQuestComplete(0xE0004C0114B72580))" />
+				<Grind While="(not IsQuestComplete(0xE0004C0114B72580))">
+					<GrindArea Name="Final Stage - Front Lines (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Park Commander</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Park Commander" XYZ="59.98957,4.4236,-182.9206" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Command Clearance (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000BFBE4AEDDF90))">
-				<Grind GrindRef="Command Clearance (Bonus)" While="(not IsQuestComplete(0xE000BFBE4AEDDF90))" />
+				<Grind While="(not IsQuestComplete(0xE000BFBE4AEDDF90))">
+					<GrindArea Name="Command Clearance (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Command Guardian</Mob>
+							<Mob>Imperial Command Sentinel</Mob>
+							<Mob>Imperial Command Officer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Command Sentinel" XYZ="47.61171,2.401001,-194.2748" />
+							<Hotspot Name="Imperial Command Officer" XYZ="46.9229,2.401,-202.1752" />
+							<Hotspot Name="Imperial Command Sentinel" XYZ="51.3538,2.401001,-195.2411" />
+							<Hotspot Name="Imperial Command Sentinel" XYZ="51.783,2.401001,-202.6626" />
+							<Hotspot Name="Imperial Command Guardian" XYZ="56.9756,3.401001,-194.4312" />
+							<Hotspot Name="Imperial Command Officer" XYZ="56.9855,3.401,-202.4539" />
+							<Hotspot Name="Imperial Command Sentinel" XYZ="57.1005,3.401001,-198.7554" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Green Battleground" QuestId="0xE00057E7811611E9" TurnInName="Imperial Command Console" XYZ="54.97244,3.411,-199.186" />
 			<CompleteQuest QuestName="Green Battleground" QuestId="0xE00057E7811611E9" />
@@ -1583,13 +1292,40 @@
 		<If Condition="((HasQuest(0xE0004BCF119B63A4)) and (not IsQuestComplete(0xE0004BCF119B63A4)))">
 			<!-- Retaking the Republica (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0004F447F26A97D))">
-				<Grind GrindRef="Retaking the Republica (Bonus)" While="(not IsQuestComplete(0xE0004F447F26A97D))" />
+				<Grind While="(not IsQuestComplete(0xE0004F447F26A97D))">
+					<GrindArea Name="Retaking the Republica (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Assault Chief</Mob>
+							<Mob>Imperial Assault Sniper</Mob>
+							<Mob>Imperial Guard Chief</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Assault Chief" XYZ="51.90118,1.91134,-224.1786" />
+							<Hotspot Name="My Location" XYZ="56.8272,1.40755,-223.315" />
+							<Hotspot Name="Imperial Guard Chief" XYZ="57.1919,1.40755,-230.6784" />
+							<Hotspot Name="Imperial Guard Chief" XYZ="52.0811,1.402949,-235.3759" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004BCF119B63A4)) and (not IsBranchStepComplete(0xE0004BCF119B63A4, 1, 2)))">
 				<TalkTo QuestId="0xE0004BCF119B63A4" Name="Commander Tainor" XYZ="51.5713,1.401,-230.2197" />
 			</If>
 			<If Condition="((HasQuest(0xE0004BCF119B63A4)) and (not IsBranchStepComplete(0xE0004BCF119B63A4, 1, 3)))">
-				<Grind GrindRef="Down In History 3" While="(not IsBranchStepComplete(0xE0004BCF119B63A4, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE0004BCF119B63A4, 1, 3))">
+					<GrindArea Name="Down In History 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Commander Tainor</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="" XYZ="51.4096,1.401,-230.6555" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004BCF119B63A4)) and (not IsBranchStepComplete(0xE0004BCF119B63A4, 1, 2)))">
 				<TalkTo QuestId="0xE0004BCF119B63A4" Name="Commander Tainor" XYZ="51.5713,1.401,-230.2197" />
@@ -1624,13 +1360,45 @@
 				<MoveTo QuestId="0xE0004534056039B5" Name="Courtyard" XYZ="-14.44773,4.451847,-233.4818" />
 			</If>
 			<If Condition="((HasQuest(0xE0004534056039B5)) and (not IsBranchStepComplete(0xE0004534056039B5, 1, 5)))">
-				<Grind GrindRef="Old Blood 5" While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 5))">
+					<GrindArea Name="Old Blood 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Munitions Officer</Mob>
+							<Mob>Imperial Soldier</Mob>
+							<Mob>Imperial Turret Gunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Munitions Officer" XYZ="-20.7037,4.693715,-229.4553" />
+							<Hotspot Name="Imperial Soldier" XYZ="-25.53162,4.7214,-229.7217" />
+							<Hotspot Name="Imperial Soldier" XYZ="-21.89226,4.415864,-232.9795" />
+							<Hotspot Name="Imperial Turret Gunner" XYZ="-23.49646,4.701,-235.6017" />
+							<Hotspot Name="Imperial Soldier" XYZ="-23.69217,4.701,-239.7737" />
+							<Hotspot Name="Imperial Gunnery Sergeant" XYZ="-16.8842,4.694129,-240.5737" />
+							<Hotspot Name="Imperial Soldier" XYZ="-17.7183,4.701,-237.1871" />
+							<Hotspot Name="Imperial Soldier" XYZ="-19.4002,4.396306,-237.2242" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004534056039B5)) and (not IsBranchStepComplete(0xE0004534056039B5, 1, 6)))">
 				<UseObject QuestId="0xE0004534056039B5" ObjectName="Security Door" BranchId="1" StepId="6" Radius="20" WaitTime="5" XYZ="-21.23051,4.415978,-241.5709" />
 			</If>
 			<If Condition="((HasQuest(0xE0004534056039B5)) and (not IsBranchStepComplete(0xE0004534056039B5, 1, 7)))">
-				<Grind GrindRef="Old Blood 7" While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 7))">
+					<GrindArea Name="Old Blood 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Guard Captain</Mob>
+							<Mob>Imperial Elite Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Elite Commando" XYZ="-20.7578,4.415958,-241.4206" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0004534056039B5)) and (not IsBranchStepComplete(0xE0004534056039B5, 1, 8)))">
 				<MoveTo QuestId="0xE0004534056039B5" Name="1st Room" XYZ="-18.48231,4.404484,-252.5266" />
@@ -1638,7 +1406,18 @@
 			</If>
 			<!-- Skip 9 -->
 			<If Condition="((HasQuest(0xE0004534056039B5)) and (not IsBranchStepComplete(0xE0004534056039B5, 1, 10)))">
-				<Grind GrindRef="Old Blood 10" While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 10))" />
+				<Grind While="(not IsBranchStepComplete(0xE0004534056039B5, 1, 10))">
+					<GrindArea Name="Old Blood 10">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Corporal Daresha</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Corporal Daresha" XYZ="-14.7209,4.40284,-257.702" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Old Blood" QuestId="0xE0004534056039B5" TurnInName="General Grann" XYZ="-13.808,4.40284,-258.0724" />
 			<CompleteQuest QuestName="Old Blood" QuestId="0xE0004534056039B5" />
@@ -1719,7 +1498,25 @@
 		<!-- Liberation 2-3 -->
 		<If Condition="((HasQuest(0xE00050925407183F)) and (not IsQuestComplete(0xE00050925407183F)))">
 			<If Condition="((HasQuest(0xE00050925407183F)) and (not IsBranchStepComplete(0xE00050925407183F, 1, 2)))">
-				<Grind GrindRef="Liberation 2" While="(not IsBranchStepComplete(0xE00050925407183F, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00050925407183F, 1, 2))">
+					<GrindArea Name="Liberation 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Scout</Mob>
+							<Mob>Imperial Guard</Mob>
+							<Mob>Imperial Assault Trooper</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Scout" XYZ="274.6177,22.41376,-278.4466" />
+							<Hotspot Name="Imperial Assault Trooper" XYZ="270.0194,22.53442,-275.5341" />
+							<Hotspot Name="Imperial Assault Trooper" XYZ="270.8033,22.51819,-281.288" />
+							<Hotspot Name="Imperial Scout" XYZ="265.8136,22.42108,-276.4248" />
+							<Hotspot Name="Imperial Guard" XYZ="263.2171,22.3995,-279.0159" />
+							<Hotspot Name="Imperial Guard" XYZ="267.4459,22.3989,-287.3648" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00050925407183F)) and (not IsBranchStepComplete(0xE00050925407183F, 1, 3)))">
 				<TalkTo QuestId="0xE00050925407183F" Name="Duros Prisoner" XYZ="260.1121,22.3995,-281.3556" />
@@ -1763,7 +1560,23 @@
 			</If>
 			<!-- Scatter The Siege (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000085C43DE02BB))">
-				<Grind GrindRef="Scatter The Siege (Bonus)" While="(not IsQuestComplete(0xE000085C43DE02BB))" />
+				<Grind While="(not IsQuestComplete(0xE000085C43DE02BB))">
+					<GrindArea Name="Scatter The Siege (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sith Avenger</Mob>
+							<Mob>Sith Raider</Mob>
+							<Mob>Imperial Combat Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sith Avenger" XYZ="302.5436,24.3989,-230.1579" />
+							<Hotspot Name="Imperial Combat Commander" XYZ="297.3079,24.3989,-237.1801" />
+							<Hotspot Name="Imperial Combat Rifleman" XYZ="298.7776,24.39971,-243.2347" />
+							<Hotspot Name="Imperial Combat Commander" XYZ="279.4477,24.39957,-235.0832" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1800,7 +1613,25 @@
 			</If>
 			<!-- Counter Intelligence (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000F738CC1C227D))">
-				<Grind GrindRef="Counter Intelligence (Bonus)" While="(not IsQuestComplete(0xE000F738CC1C227D))" />
+				<Grind While="(not IsQuestComplete(0xE000F738CC1C227D))">
+					<GrindArea Name="Counter Intelligence (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Combat Demolitionist</Mob>
+							<Mob>Imperial Combat Soldier</Mob>
+							<Mob>Imperial Combat Master</Mob>
+							<Mob>Imperial Lancer Droid</Mob>
+							<Mob>Sith Ion Wall Overseer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Combat Demolitionist" XYZ="281.8989,24.421,-179.5329" />
+							<Hotspot Name="Imperial Combat Master" XYZ="283.9871,24.426,-184.9987" />
+							<Hotspot Name="Imperial Combat Demolitionist" XYZ="276.4147,24.401,-186.3003" />
+							<Hotspot Name="My Location" XYZ="277.2517,22.401,-185.199" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00026736BE4BC4F)) and (not IsBranchStepComplete(0xE00026736BE4BC4F, 1, 4)))">
 				<MoveTo QuestId="0xE00026736BE4BC4F" Name="Darth Acharon" XYZ="274.3443,22.401,-186.8621" />
@@ -1809,7 +1640,18 @@
 				<TalkTo QuestId="0xE00026736BE4BC4F" Name="Darth Acharon" XYZ="274.3443,22.401,-186.8621" />
 			</If>
 			<If Condition="((HasQuest(0xE00026736BE4BC4F)) and (not IsBranchStepComplete(0xE00026736BE4BC4F, 1, 6)))">
-				<Grind GrindRef="Government Clearance 6" While="(not IsBranchStepComplete(0xE00026736BE4BC4F, 1, 6))" />
+				<Grind While="(not IsBranchStepComplete(0xE00026736BE4BC4F, 1, 6))">
+					<GrindArea Name="Government Clearance 6">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Darth Acharon</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Darth Acharon" XYZ="274.3443,22.401,-186.8621" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="Government Clearance" QuestId="0xE00026736BE4BC4F" TurnIname="Ion wall Controls" XYZ="274.4265,22.401,-188.2853" />
 			<CompleteQuest QuestName="Government Clearance" QuestId="0xE00026736BE4BC4F" />
@@ -1838,13 +1680,50 @@
 			</If>
 			<!-- Retaking the Legislature (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0000D11A2C9EC4D))">
-				<Grind GrindRef="Retaking the Legislature (Bonus)" While="(not IsQuestComplete(0xE0000D11A2C9EC4D))" />
+				<Grind While="(not IsQuestComplete(0xE0000D11A2C9EC4D))">
+					<GrindArea Name="Retaking the Legislature (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Master Cannoneer</Mob>
+							<Mob>Imperial Master Armsman</Mob>
+							<Mob>Imperial Master Rifleman</Mob>
+							<Mob>Sith Enforcer</Mob>
+							<Mob>Imperial Watch-Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Master Rifleman" XYZ="223.9079,21.4025,-174.8389" />
+							<Hotspot Name="Imperial Master Cannoneer" XYZ="224.7139,21.401,-172.0782" />
+							<Hotspot Name="Imperial Master Cannoneer" XYZ="222.8401,21.401,-168.2229" />
+							<Hotspot Name="Imperial Master Armsman" XYZ="225.8804,21.401,-171.2056" />
+							<Hotspot Name="Imperial Master Cannoneer" XYZ="226.0813,21.401,-167.825" />
+							<Hotspot Name="Imperial Master Armsman" XYZ="225.4909,21.401,-160.5791" />
+							<Hotspot Name="Imperial Watch-Droid" XYZ="218.5398,21.401,-160.5956" />
+							<Hotspot Name="Imperial Master Rifleman" XYZ="220.4697,21.401,-162.4496" />
+							<Hotspot Name="Imperial Master Rifleman" XYZ="216.2216,21.401,-156.0244" />
+							<Hotspot Name="Imperial Master Rifleman" XYZ="226.1878,21.401,-156.7255" />
+							<Hotspot Name="Imperial Watch-Droid" XYZ="223.3704,20.401,-149.7162" />
+							<Hotspot Name="Imperial Master Rifleman" XYZ="231.5336,20.401,-145.9531" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0002D003D270E0B)) and (not IsBranchStepComplete(0xE0002D003D270E0B, 1, 7)))">
 				<UseObject QuestId="0xE0002D003D270E0B" ObjectName="Holdout Room Door" BranchId="1" StepId="7" Radius="20" WaitTime="5" XYZ="234.5213,20.40151,-152.1027" />
 			</If>
 			<If Condition="((HasQuest(0xE0002D003D270E0B)) and (not IsBranchStepComplete(0xE0002D003D270E0B, 1, 8)))">
-				<Grind GrindRef="Right to Arms 8" While="(not IsBranchStepComplete(0xE0002D003D270E0B, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE0002D003D270E0B, 1, 8))">
+					<GrindArea Name="Right to Arms 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Darth Hadra</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Darth Hadra" XYZ="237.1472,20.4,-153.1607" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0002D003D270E0B)) and (not IsBranchStepComplete(0xE0002D003D270E0B, 1, 9)))">
 				<TalkTo QuestId="0xE0002D003D270E0B" Name="Councillor Belos" XYZ="235.7508,20.401,-154.2157" />
@@ -1853,7 +1732,18 @@
 				<TalkTo QuestId="0xE0002D003D270E0B" Name="Darth Decimus" XYZ="218.4052,20.401,-133.4213" />
 			</If>
 			<If Condition="((HasQuest(0xE0002D003D270E0B)) and (not IsBranchStepComplete(0xE0002D003D270E0B, 4, 2)))">
-				<Grind GrindRef="Right to Arms 4 2" While="(not IsBranchStepComplete(0xE0002D003D270E0B, 4, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0002D003D270E0B, 4, 2))">
+					<GrindArea Name="Right to Arms 4 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Darth Decimus</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Darth Decimus" XYZ="218.3103,20.401,-132.4451" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0002D003D270E0B)) and (not IsBranchStepComplete(0xE0002D003D270E0B, 4, 3)))">
 				<UseObject QuestId="0xE0002D003D270E0B" ObjectName="Broadcast Communicator" BranchId="4" StepId="3" Radius="20" WaitTime="5" XYZ="218.4174,20.44979,-133.7996" />
@@ -1869,13 +1759,43 @@
 			</If>
 			<!-- Retaking Guardian Hold One (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00022197769B5A2))">
-				<Grind GrindRef="Retaking Guardian Hold One (Bonus)" While="(not IsQuestComplete(0xE00022197769B5A2))" />
+				<Grind While="(not IsQuestComplete(0xE00022197769B5A2))">
+					<GrindArea Name="Retaking Guardian Hold One (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Bunker Guardian</Mob>
+							<Mob>Imperial Guard Warrior</Mob>
+							<Mob>Imperial Bunker Rifleman</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Bunker Rifleman" XYZ="209.1805,22.401,-227.7377" />
+							<Hotspot Name="Imperial Guard Warrior" XYZ="207.0292,21.92445,-231.0097" />
+							<Hotspot Name="Imperial Guard Warrior" XYZ="207.4855,22.401,-239.8702" />
+							<Hotspot Name="Imperial Bunker Patrol Droid" XYZ="211.8554,22.401,-241.2402" />
+							<Hotspot Name="Imperial Bunker Rifleman" XYZ="210.688,21.926,-244.2213" />
+							<Hotspot Name="Imperial Bunker Rifleman" XYZ="207.2286,21.926,-243.5724" />
+							<Hotspot Name="Imperial Guard Warrior" XYZ="206.0262,22.401,-244.0916" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000A188AEEF09CD)) and (not IsBranchStepComplete(0xE000A188AEEF09CD, 1, 7)))">
 				<TalkTo QuestId="0xE000A188AEEF09CD" Name="Councillor Saiak" XYZ="208.7993,22.401,-247.3979" />
 			</If>
 			<If Condition="((HasQuest(0xE000A188AEEF09CD)) and (not IsBranchStepComplete(0xE000A188AEEF09CD, 1, 8)))">
-				<Grind GrindRef="As Above, So Below 8" While="(not IsBranchStepComplete(0xE000A188AEEF09CD, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A188AEEF09CD, 1, 8))">
+					<GrindArea Name="As Above, So Below 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Councillor Saiak</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Councillor Saiak" XYZ="208.7993,22.401,-247.3979" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="As Above, So Below" QuestId="0xE000A188AEEF09CD" TurnInName="Secretary Nadien" XYZ="207.3867,22.401,-247.4803" />
 			<CompleteQuest QuestName="As Above, So Below" QuestId="0xE000A188AEEF09CD" />
@@ -1896,7 +1816,18 @@
 			</If>
 			<If Condition="((HasQuest(0xE000FBB74541F4FE)) and (not IsBranchStepComplete(0xE000FBB74541F4FE, 1, 4)))">
 				<!-- This guy hits hard as shit, consider turning in all other quests and coming back here and user dialog for the user to kill him -->
-				<Grind GrindRef="Chaos and Harmony 4" While="(not IsBranchStepComplete(0xE000FBB74541F4FE, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000FBB74541F4FE, 1, 4))">
+					<GrindArea Name="Chaos and Harmony 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Master Syo Bakarn</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Master Syo Bakarn" XYZ="218.0758,21.831,-260.3711" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000FBB74541F4FE)) and (not IsBranchStepComplete(0xE000FBB74541F4FE, 1, 5)))">
 				<TalkTo QuestId="0xE000FBB74541F4FE" Name="Master Syo Bakarn" XYZ="218.3102,21.85787,-260.2227" />
@@ -1956,7 +1887,26 @@
 		<!-- Droid Hunt -->
 		<If Condition="((HasQuest(0xE00057FB47C00819)) and (not IsQuestComplete(0xE00057FB47C00819)))">
 			<If Condition="((HasQuest(0xE00057FB47C00819)) and (not IsBranchStepComplete(0xE00057FB47C00819, 1, 2)))">
-				<Grind GrindRef="Droid Hunt 2" While="(not IsBranchStepComplete(0xE00057FB47C00819, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00057FB47C00819, 1, 2))">
+					<GrindArea Name="Droid Hunt 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Droid Technician</Mob>
+							<Mob>Imperial Pacification Droid</Mob>
+							<Mob>Imperial Battledroid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="260.2303,22.401,-306.2909" />
+							<Hotspot Name="Imperial Droid Technician" XYZ="260.2159,21.921,-310.6284" />
+							<Hotspot Name="Imperial Pacification Droid" XYZ="259.5467,21.901,-315.8899" />
+							<Hotspot Name="Imperial Battledroid" XYZ="262.2962,21.901,-314.074" />
+							<Hotspot Name="Imperial Battledroid" XYZ="256.0842,21.901,-314.2758" />
+							<Hotspot Name="Imperial Battledroid" XYZ="254.7477,22.401,-317.2005" />
+							<Hotspot Name="Imperial Battledroid" XYZ="262.7983,22.401,-317.6361" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<!-- I can't remember which one I picked -->

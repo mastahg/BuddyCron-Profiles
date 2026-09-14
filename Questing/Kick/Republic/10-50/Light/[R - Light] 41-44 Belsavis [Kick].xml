@@ -35,281 +35,6 @@
 	
 	<GrindAreas> 
 
-		<GrindArea Name="A Belsavis Welcome 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Condemned Assassin</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Condemned Assassin" XYZ="93.6866,28.49255,15.2621" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Escapee Hunting (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Mauler</Mob>
-				<Mob>Sharpshooter</Mob>
-				<Mob>Armsmaster</Mob>
-				<Mob>Toady</Mob>
-				<Mob>Traitor</Mob>
-				<Mob>Rioter</Mob>
-				<Mob>Corrupted Holocam Droid</Mob>
-				<Mob>Killer</Mob>
-				<Mob>War Criminal</Mob>
-				<Mob>Gang Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mauler" XYZ="90.87733,29.99161,37.64135" />
-				<Hotspot Name="Sharpshooter" XYZ="90.68957,29.99161,41.29659" />
-				<Hotspot Name="Gang Leader" XYZ="100.4959,30.1981,60.0808" />
-				<Hotspot Name="Armsmaster" XYZ="87.39935,29.99228,67.49539" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="For Want of a Droid">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Improvised Mandalorian Turret</Mob>
-				<Mob>Mandalorian Warrior</Mob>
-				<Mob>Mandalorian Clansman</Mob>
-				<Mob>Mandalorian Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Mando Negotiations (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Improvised Mandalorian Turret</Mob>
-				<Mob>Mandalorian Warrior</Mob>
-				<Mob>Mandalorian Clansman</Mob>
-				<Mob>Mandalorian Hunter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
-				<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
-				<Hotspot Name="Mandalorian Clansman" XYZ="103.5551,29.17633,86.8847" />
-				<Hotspot Name="Mandalorian Hunter" XYZ="105.3767,29.69583,79.81803" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Secure the Generator (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Condemned Gangster</Mob>
-				<Mob>Condemned Enforcer</Mob>
-				<Mob>Condemned Slicer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Condemned Gangster" XYZ="119.0299,28.96009,91.25396" />
-				<Hotspot Name="Condemned Slicer" XYZ="121.0787,28.96188,88.65842" />
-				<Hotspot Name="Condemned Enforcer" XYZ="121.7157,28.95907,91.00121" />
-				<Hotspot Name="Condemned Follower" XYZ="117.2402,28.96188,85.08685" />
-				<Hotspot Name="Condemned Follower" XYZ="120.1132,28.9626,83.75853" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Haywire Hindrance (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Reprogrammed Bunker Droid</Mob>
-				<Mob>Reprogrammed Vanguard Droid</Mob>
-				<Mob>Reprogrammed Manhandler Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="52.89299,25.19544,66.15514" />
-				<Hotspot Name="Reprogrammed Manhandler Droid" XYZ="54.06868,25.3519,70.0161" />
-				<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="49.78243,25.276,69.91103" />
-				<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.4183,24.8864,73.0776" />
-				<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.5865,24.876,67.3466" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Hostile Population 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>TZ-27 Annihilator Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="TZ-27 Annihilator Droid" XYZ="41.0702,24.86931,69.1943" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Evacuation 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Anarchist</Mob>
-				<Mob>Mercenary</Mob>
-				<Mob>Lunatic</Mob>
-				<Mob>Blackmailer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Mercenary" XYZ="62.24321,28.00393,24.55289" />
-				<Hotspot Name="Mercenary" XYZ="60.66288,27.91551,31.78945" />
-				<Hotspot Name="Blackmailer" XYZ="51.8419,28.11886,24.6758" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Crisis Prevention 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Tactical Coordinator</Mob>
-				<Mob>Condemned Minion</Mob>
-				<Mob>Condemned Fighter</Mob>
-				<Mob>Condemned Rioter</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Condemned Minion" XYZ="41.82037,24.40171,127.7676" />
-				<Hotspot Name="Condemned Fighter" XYZ="34.48977,24.48222,137.6874" />
-				<Hotspot Name="Imperial Tactical Coordinator" XYZ="34.51943,24.53024,135.0028" />
-				<Hotspot Name="Imperial Monitor Drone" XYZ="33.50751,24.47753,140.8709" />
-				<Hotspot Name="Imperial Tactical Coordinator" XYZ="29.67179,24.50386,125.3283" />
-				<Hotspot Name="Imperial Monitor Drone" XYZ="24.40553,24.45436,134.6449" />
-				<Hotspot Name="Imperial Tactical Coordinator" XYZ="19.4728,24.5182,132.9102" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Additional Force Authorized (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Condemned Pirate</Mob>
-				<Mob>Condemned Saboteur</Mob>
-				<Mob>Condemned Offender</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Condemned Saboteur" XYZ="98.46623,28.566,13.29392" />
-				<Hotspot Name="Condemned Pirate" XYZ="93.6396,28.501,14.1905" />
-				<Hotspot Name="Condemned Offender" XYZ="95.1399,29.576,19.7134" />
-				<Hotspot Name="Condemned Pirate" XYZ="92.49279,29.38843,11.56512" />
-				<Hotspot Name="Condemned Pirate" XYZ="87.984,29.701,15.1676" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Riot in the Warden's Station 6">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Agent Feldon</Mob>
-				<Mob>Escaped Condemned Killer</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Agent Feldon" XYZ="86.2313,28.501,19.8975" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Supply Chain (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rattataki Tribal</Mob>
-				<Mob>Rattataki Bloodletter</Mob>
-				<Mob>Rattataki Ambusher</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rattataki Tribal" XYZ="-8.631366,21.626,76.11381" />
-				<Hotspot Name="Rattataki Bloodletter" XYZ="-12.17599,21.61508,79.47771" />
-				<Hotspot Name="Rattataki Bloodletter" XYZ="-4.661103,21.61508,79.3817" />
-				<Hotspot Name="Rattataki Tribal" XYZ="4.702801,20.236,79.84701" />
-				<Hotspot Name="Rattataki Bloodletter" XYZ="3.625096,19.836,68.9168" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Before the Bomb (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Imperial Vanguard Droid</Mob>
-				<Mob>Imperial Deadeye</Mob>
-				<Mob>Imperial Invader</Mob>
-				<Mob>Imperial Squad Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Imperial Vanguard Droid" XYZ="-109.5293,22.5467,30.38527" />
-				<Hotspot Name="Imperial Deadeye" XYZ="-107.8985,22.54553,34.7135" />
-				<Hotspot Name="Imperial Invader" XYZ="-104.2026,22.54393,34.9184" />
-				<Hotspot Name="Imperial Squad Leader" XYZ="-108.8949,22.54944,41.5271" />
-				<Hotspot Name="Imperial Invader" XYZ="-112.4978,22.54944,44.1674" />
-				<Hotspot Name="Imperial Vanguard Droid" XYZ="-106.5047,22.84684,48.33767" />
-				<Hotspot Name="Imperial Squad Leader" XYZ="-104.2092,22.84623,50.93602" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 1 - Battle the Horde (Bonus)	">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rattataki Hunter</Mob>
-				<Mob>Rattataki Slayer</Mob>
-				<Mob>Rattataki Stalker</Mob>
-				<Mob>Tamed Acklay Ravager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Rattataki Hunter" XYZ="-33.29029,24.10148,61.04402" />
-				<Hotspot Name="Rattataki Stalker" XYZ="-35.7928,23.88995,54.5337" />
-				<Hotspot Name="Rattataki Hunter" XYZ="-32.3424,24.25099,39.3396" />
-				<Hotspot Name="Rattataki Stalker" XYZ="-35.06975,23.81979,29.51539" />
-				<Hotspot Name="Tamed Acklay Ravager" XYZ="-28.43013,23.82404,26.95622" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Stage 3 - Battle the Horde (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Tamed Acklay Hunter</Mob>
-				<Mob>Rattataki Savage</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Tamed Acklay Hunter" XYZ="-4.789648,21.00324,17.41844" />
-				<Hotspot Name="Rattataki Savage" XYZ="-8.019571,21.19757,15.7002" />
-				<Hotspot Name="Tamed Acklay Hunter" XYZ="1.051271,21.01508,18.25062" />
-				<Hotspot Name="Tamed Acklay Hunter" XYZ="1.053428,21.19757,21.52138" />
-				<Hotspot Name="Tamed Acklay Hunter" XYZ="-8.985332,21.01629,26.40404" />
-				<Hotspot Name="Rattataki Savage" XYZ="-8.444798,20.87846,29.5727" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Final Stage - Battle the Horde (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>The Beastmaster of Talath</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="The Beastmaster of Talath" XYZ="-12.7108,21.81886,18.33893" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="War Games  4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sulkhaz</Mob>
-				<Mob>Sulkhaz Minion</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sulkhaz" XYZ="-28.11871,20.86353,18.3708" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Ongree Rioters (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -322,94 +47,6 @@
 				<Hotspot Name="Ongree Mercenary" XYZ="-87.77895,21.901,-79.06445" />
 				<Hotspot Name="Ongree Warrior" XYZ="-88.56912,21.901,-84.0565" />
 				<Hotspot Name="Ongree General" XYZ="-89.9726,21.70101,-75.3955" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Scavenger Hunt (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Vault Defense Unit</Mob>
-				<Mob>Vault Sentinel Unit</Mob>
-				<Mob>Vault Targeter Unit</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="-61.04419,14.71437,-35.91248" />
-				<Hotspot Name="My Location" XYZ="-76.50053,14.68414,-35.94244" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Shadows from the Past: Esh-kha Leaders 2">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Leader</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Leader" XYZ="-221.8579,10.41891,-106.7312" />
-				<Hotspot Name="Esh-kha Leader" XYZ="-232.8604,10.4349,-118.1799" />
-				<Hotspot Name="Esh-kha Leader" XYZ="-223.794,10.801,-124.5861" />
-				<Hotspot Name="Esh-kha Leader" XYZ="-214.1553,10.437,-118.0935" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Esh-kha Offensive (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Exterminator</Mob>
-				<Mob>Esh-kha Bloodletter</Mob>
-				<Mob>Esh-kha Quickling</Mob>
-				<Mob>Esh-kha Scout</Mob>
-				<Mob>Esh-kha Explorer</Mob>
-				<Mob>Esh-kha Scavenger</Mob>
-				<Mob>Esh-kha Gouger</Mob>
-				<Mob>Esh-kha Ambusher</Mob>
-				<Mob>Esh-kha Reaver</Mob>
-				<Mob>Esh-kha Kinsman</Mob>
-				<Mob>Esh-kha Gene-Culler</Mob>
-				<Mob>Esh-kha Wild Huntsman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Scavenger" XYZ="-222.663,23.43348,-35.8263" />
-				<Hotspot Name="Esh-kha Bloodletter" XYZ="-223.9891,20.0546,-57.6905" />
-				<Hotspot Name="Esh-kha Bloodletter" XYZ="-220.0748,18.4,-65.84984" />
-				<Hotspot Name="Esh-kha Bloodletter" XYZ="-216.3523,18.40001,-66.65372" />
-				<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
-				<Hotspot Name="Esh-kha Ambusher" XYZ="-215.2182,18.40103,-71.11149" />
-				<Hotspot Name="Esh-kha Ambusher" XYZ="-203.2406,18.411,-68.3876" />
-				<Hotspot Name="Esh-kha Gouger" XYZ="-203.1936,18.411,-59.4434" />
-				<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
-				<Hotspot Name="Esh-kha Ambusher" XYZ="-247.6676,18.39168,-61.8668" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Scavengers (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Exterminator</Mob>
-				<Mob>Esh-kha Bloodletter</Mob>
-				<Mob>Esh-kha Quickling</Mob>
-				<Mob>Esh-kha Scout</Mob>
-				<Mob>Esh-kha Explorer</Mob>
-				<Mob>Esh-kha Scavenger</Mob>
-				<Mob>Esh-kha Gouger</Mob>
-				<Mob>Esh-kha Ambusher</Mob>
-				<Mob>Esh-kha Reaver</Mob>
-				<Mob>Esh-kha Kinsman</Mob>
-				<Mob>Esh-kha Gene-Culler</Mob>
-				<Mob>Esh-kha Wild Huntsman</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Reaver" XYZ="-189.5006,18.54987,-76.55219" />
-				<Hotspot Name="Esh-kha Reaver" XYZ="-193.8497,18.49283,-79.70932" />
-				<Hotspot Name="Esh-kha Kinsman" XYZ="-189.6233,18.63722,-75.88968" />
-				<Hotspot Name="Esh-kha Reaver" XYZ="-196.741,18.35109,-85.00349" />
-				<Hotspot Name="Esh-kha Gene-Culler" XYZ="-188.6318,19.001,-82.76469" />
-				<Hotspot Name="Esh-kha Wild Huntsman" XYZ="-198.6902,18.53236,-89.27592" />
-				<Hotspot Name="Esh-kha Reaver" XYZ="-198.9841,18.38721,-94.09012" />
-				<Hotspot Name="Esh-kha Reaver" XYZ="-199.6131,18.68738,-100.4798" />
 			</Hotspots>
 		</GrindArea>    
 
@@ -432,45 +69,6 @@
 			</Hotspots>
 		</GrindArea>    
 
-		<GrindArea Name="Final Stage - Esh-kha Proofing (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Sleeping Doom</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Sleeping Doom" XYZ="-168.1492,17.601,-125.3313" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="[AREA] Prison Scars">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Prison-Breaker</Mob>
-				<Mob>Esh-kha Minion</Mob>
-				<Mob>Esh-kha Crusher</Mob>
-				<Mob>Esh-kha Long-Reach</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Prison-Breaker" XYZ="-154.478,18.33774,-129.4539" />
-				<Hotspot Name="Esh-kha Minion" XYZ="-146.778,17.76587,-139.31" />
-				<Hotspot Name="Esh-kha Crusher" XYZ="-154.6519,17.57869,-144.4018" />
-				<Hotspot Name="Esh-kha Long-Reach" XYZ="-157.7411,17.76579,-149.5882" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="[AREA] Prison Scars 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Thorn Maw</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Thorn Maw" XYZ="-147.2732,24.65106,-93.41589" />
-			</Hotspots>
-		</GrindArea>    
-
 		<GrindArea Name="Esh-kha Assault (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -489,251 +87,6 @@
 				<Hotspot Name="Esh-kha Inquisitor" XYZ="-133.6956,17.5871,-114.6719" />
 			</Hotspots>
 		</GrindArea>    
-
-		<GrindArea Name="Striking the Esh-kha">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Hunter Moon</Mob>
-				<Mob>Esh-kha Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Chayloss" XYZ="-127.2998,17.69787,-105.3995" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Taking on the Asylum 4 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Bonebreaker</Mob>
-				<Mob>Esh-kha Lurker</Mob>
-				<Mob>Esh-kha Warrior-Tracker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Bonebreaker" XYZ="-163.6325,20.001,-85.806" />
-				<Hotspot Name="Esh-kha Warrior-Tracker" XYZ="-158.5774,20.011,-86.6846" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Assisting the Wardens (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Techno-Savant</Mob>
-				<Mob>Esh-kha Protector</Mob>
-				<Mob>Esh-kha Rampager</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Protector" XYZ="-106.7051,17.84351,-137.6762" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-102.0194,18.19773,-141.3525" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-99.45829,16.83593,-145.4541" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-94.90514,16.61366,-143.7838" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-85.27788,16.69084,-142.4539" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-81.21664,16.76187,-142.3973" />
-				<Hotspot Name="Reprogrammed Warden Droid" XYZ="-83.79981,16.63837,-146.4588" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="This is Sabotage (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Technician</Mob>
-				<Mob>Esh-kha Saboteur</Mob>
-				<Mob>Esh-kha Corruptor</Mob>
-				<Mob>Esh-kha Predator"</Mob>
-				<Mob>Esh-kha Genius</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Saboteur" XYZ="-91.60112,15.511,-155.3621" />
-				<Hotspot Name="Esh-kha Corruptor" XYZ="-84.22513,15.10628,-156.4016" />
-				<Hotspot Name="Esh-kha Predator" XYZ="-78.91669,14.50101,-158.5016" />
-				<Hotspot Name="Esh-kha Technician" XYZ="-71.76219,13.91276,-152.7826" />
-				<Hotspot Name="Esh-kha Predator" XYZ="-68.69116,13.9135,-142.3456" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Protecting the Failsafe (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Enforcer</Mob>
-				<Mob>Esh-kha Butcher</Mob>
-				<Mob>Esh-kha Marauder</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Butcher" XYZ="-49.26229,11.9094,-136.3136" />
-				<Hotspot Name="Esh-kha Butcher" XYZ="-46.2115,11.08363,-131.5836" />
-				<Hotspot Name="Esh-kha Marauder" XYZ="-46.09109,11.101,-126.589" />
-				<Hotspot Name="Esh-kha Butcher" XYZ="-57.72565,11.101,-119.8291" />
-				<Hotspot Name="Esh-kha Escapee" XYZ="-61.9222,11.08363,-116.6067" />
-				<Hotspot Name="Esh-kha Marauder" XYZ="-50.85127,10.71726,-116.2905" />
-				<Hotspot Name="Esh-kha Butcher" XYZ="-47.19965,10.701,-110.5942" />
-				<Hotspot Name="Esh-kha Escapee" XYZ="-41.1642,10.701,-111.1082" />
-				<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Failsafe 3">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Warrior-Striker</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Voice From The Tomb 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Primeval Purge Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Primeval Purge Droid" XYZ="-30.4959,16.70286,-117.0004" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Voice From The Tomb 7">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Primeval Stasis Guardian</Mob>
-				<Mob>Primeval Stasis Sentinel</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.89435,16.70221,-102.8807" />
-				<Hotspot Name="Primeval Stasis Guardian" XYZ="-18.6859,16.8,-101.1245" />
-				<Hotspot Name="Primeval Stasis Guardian" XYZ="-17.1255,16.8,-101.0732" />
-				<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.08551,16.8199,-101.1025" />
-				<Hotspot Name="Primeval Stasis Guardian" XYZ="-13.53321,16.80891,-101.0854" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Primeval Destruction (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Primeval Enforcer Droid</Mob>
-				<Mob>Primeval Subduer Droid</Mob>
-				<Mob>Primeval Recapture Droid</Mob>
-				<Mob>Primeval Obliterator Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Primeval Subduer Droid" XYZ="-33.85471,15.901,-140.1253" />
-				<Hotspot Name="Primeval Enforcer Droid" XYZ="-33.1162,16.701,-129.4153" />
-				<Hotspot Name="Primeval Recapture Droid" XYZ="-37.4563,16.7009,-125.7318" />
-				<Hotspot Name="Primeval Subduer Droid" XYZ="-40.7049,16.701,-128.9889" />
-				<Hotspot Name="Primeval Enforcer Droid" XYZ="-20.719,17.501,-127.0588" />
-				<Hotspot Name="Primeval Enforcer Droid" XYZ="-23.646,17.501,-123.9786" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Burning the Way (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Slaughterer</Mob>
-				<Mob>Esh-kha Lorekeeper</Mob>
-				<Mob>Esh-kha Weaponeer</Mob>
-				<Mob>Esh-kha Champion</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Lorekeeper" XYZ="-4.703199,15.19179,-124.8152" />
-				<Hotspot Name="Esh-kha Weaponeer" XYZ="0.7773204,15.11771,-120.3063" />
-				<Hotspot Name="Esh-kha Lorekeeper" XYZ="8.0137,15.11758,-115.4296" />
-				<Hotspot Name="Esh-kha Slaughterer" XYZ="16.3131,14.84442,-116.3568" />
-				<Hotspot Name="Esh-kha Champion" XYZ="20.28807,14.83336,-113.5058" />
-				<Hotspot Name="Esh-kha Assassin" XYZ="20.9463,15.0636,-98.8413" />
-				<Hotspot Name="Esh-kha Warleader" XYZ="13.12382,15.35088,-99.97031" />
-				<Hotspot Name="Esh-kha Soldier" XYZ="16.9689,14.02696,-92.92799" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The World Razer 4">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Gore Claw</Mob>
-				<Mob>Esh-kha Warrior-Guardian</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="For the Greater Good (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Heart Carver</Mob>
-				<Mob>Esh-kha Devout</Mob>
-				<Mob>Esh-kha Beastslayer</Mob>
-				<Mob>Esh-kha Flayer</Mob>
-				<Mob>Esh-kha Fiend</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Heart Carver" XYZ="-6.749297,11.901,-191.4382" />
-				<Hotspot Name="Esh-kha Devout" XYZ="-10.8298,11.901,-190.2563" />
-				<Hotspot Name="Esh-kha Heart Carver" XYZ="-17.23697,10.301,-191.4138" />
-				<Hotspot Name="Esh-kha Fiend" XYZ="-18.05899,10.1,-195.5498" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Voice From The Tomb 11">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Warrior-Captain</Mob>
-				<Mob>Esh-kha Warrior-Protector</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Warrior-Captain" XYZ="-17.4098,8.701,-179.6733" />
-				<Hotspot Name="Esh-kha Warrior-Protector" XYZ="-18.0045,8.701,-179.5011" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="The Voice From The Tomb 14">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Commander Geland</Mob>
-				<Mob>Primeval Battle Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Commander Geland" XYZ="-17.3363,8.715515,-173.3805" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Automated Defense (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Euphony Guard Droid</Mob>
-				<Mob>Euphony Sentry Droid</Mob>
-				<Mob>Heavy Security Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Euphony Guard Droid" XYZ="8.345834,7.436289,-21.15039" />
-				<Hotspot Name="Euphony Sentry Droid" XYZ="6.929261,7.4047,-23.1428" />
-				<Hotspot Name="Euphony Guard Droid" XYZ="0.3594,7.4047,-22.7407" />
-			</Hotspots>
-		</GrindArea>    
-
-		<GrindArea Name="Fearless 5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Stark</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Stark" XYZ="3.177081,7.8007,-17.44539" />
-			</Hotspots>
-		</GrindArea>    
-
 
 	</GrindAreas>
 
@@ -779,7 +132,18 @@
 				<TalkTo QuestId="0xE000B93790BD61B9" Name="Warden Playt" XYZ="92.2314,28.60099,14.5895" />
 			</If>
 			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3)))">
-				<Grind GrindRef="A Belsavis Welcome 3" While="(not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000B93790BD61B9, 1, 3))">
+					<GrindArea Name="A Belsavis Welcome 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Condemned Assassin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Condemned Assassin" XYZ="93.6866,28.49255,15.2621" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 4)))">
 				<TalkTo QuestId="0xE000B93790BD61B9" Name="Assistant Warden Graal" XYZ="92.50401,28.575,14.36949" />
@@ -796,21 +160,72 @@
 			</If>
 			<!-- Escapee Hunting (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003B7AA29F8381))">
-				<Grind GrindRef="Escapee Hunting (Bonus)" While="(not IsQuestComplete(0xE0003B7AA29F8381))" />
+				<Grind While="(not IsQuestComplete(0xE0003B7AA29F8381))">
+					<GrindArea Name="Escapee Hunting (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Mauler</Mob>
+							<Mob>Sharpshooter</Mob>
+							<Mob>Armsmaster</Mob>
+							<Mob>Toady</Mob>
+							<Mob>Traitor</Mob>
+							<Mob>Rioter</Mob>
+							<Mob>Corrupted Holocam Droid</Mob>
+							<Mob>Killer</Mob>
+							<Mob>War Criminal</Mob>
+							<Mob>Gang Leader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mauler" XYZ="90.87733,29.99161,37.64135" />
+							<Hotspot Name="Sharpshooter" XYZ="90.68957,29.99161,41.29659" />
+							<Hotspot Name="Gang Leader" XYZ="100.4959,30.1981,60.0808" />
+							<Hotspot Name="Armsmaster" XYZ="87.39935,29.99228,67.49539" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 5)))">
 				<AnswerHolocomCall QuestName="Hostile Population" QuestId="0xE000865F87CB1054" />
 			</If>
 			<!-- Haywire Hindrance (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0006FC4CDD78BDC))">
-				<Grind GrindRef="Haywire Hindrance (Bonus)" While="(not IsQuestComplete(0xE0006FC4CDD78BDC))" />
+				<Grind While="(not IsQuestComplete(0xE0006FC4CDD78BDC))">
+					<GrindArea Name="Haywire Hindrance (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Reprogrammed Bunker Droid</Mob>
+							<Mob>Reprogrammed Vanguard Droid</Mob>
+							<Mob>Reprogrammed Manhandler Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="52.89299,25.19544,66.15514" />
+							<Hotspot Name="Reprogrammed Manhandler Droid" XYZ="54.06868,25.3519,70.0161" />
+							<Hotspot Name="Reprogrammed Vanguard Droid" XYZ="49.78243,25.276,69.91103" />
+							<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.4183,24.8864,73.0776" />
+							<Hotspot Name="Reprogrammed Bunker Droid" XYZ="43.5865,24.876,67.3466" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 6)))">
 				<MoveTo QuestId="0xE000865F87CB1054" Name="Droid" XYZ="44.82988,24.85482,69.23444" />
 			</If>
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 7)))">
 				<!-- This Guy hits like a fucking truck! - get out at 'overloaded' cast -->
-				<Grind GrindRef="Hostile Population 7" While="(not IsBranchStepComplete(0xE000865F87CB1054, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE000865F87CB1054, 1, 7))">
+					<GrindArea Name="Hostile Population 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>TZ-27 Annihilator Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="TZ-27 Annihilator Droid" XYZ="41.0702,24.86931,69.1943" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000865F87CB1054)) and (not IsBranchStepComplete(0xE000865F87CB1054, 1, 8)))">
 				<UseObject QuestId="0xE000865F87CB1054" ObjectName="Identification Card" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="40.85533,25.04757,66.05173" />
@@ -822,11 +237,47 @@
 		<!-- For Want of a Droid -->
 		<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsQuestComplete(0xE00085A5F97528A5)))">
 			<If Condition="((HasQuest(0xE00085A5F97528A5)) and (not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2)))">
-				<Grind GrindRef="For Want of a Droid" While="(not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00085A5F97528A5, 1, 2))">
+					<GrindArea Name="For Want of a Droid">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Improvised Mandalorian Turret</Mob>
+							<Mob>Mandalorian Warrior</Mob>
+							<Mob>Mandalorian Clansman</Mob>
+							<Mob>Mandalorian Hunter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Mando Negotiations (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00069868317D121))">
-				<Grind GrindRef="Mando Negotiations (Bonus)" While="(not IsQuestComplete(0xE00069868317D121))" />
+				<Grind While="(not IsQuestComplete(0xE00069868317D121))">
+					<GrindArea Name="Mando Negotiations (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Improvised Mandalorian Turret</Mob>
+							<Mob>Mandalorian Warrior</Mob>
+							<Mob>Mandalorian Clansman</Mob>
+							<Mob>Mandalorian Hunter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.2824,29.07061,87.721" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="102.0043,29.42887,84.048" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="106.2708,29.88734,81.0987" />
+							<Hotspot Name="Improvised Mandalorian Turret" XYZ="107.8494,29.81658,84.679" />
+							<Hotspot Name="Mandalorian Clansman" XYZ="103.5551,29.17633,86.8847" />
+							<Hotspot Name="Mandalorian Hunter" XYZ="105.3767,29.69583,79.81803" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -834,7 +285,24 @@
 		<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsQuestComplete(0xE000B93790BD61B9)))">
 			<!-- Secure the Generator (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0003D2FB5468941))">
-				<Grind GrindRef="Secure the Generator (Bonus)" While="(not IsQuestComplete(0xE0003D2FB5468941))" />
+				<Grind While="(not IsQuestComplete(0xE0003D2FB5468941))">
+					<GrindArea Name="Secure the Generator (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Condemned Gangster</Mob>
+							<Mob>Condemned Enforcer</Mob>
+							<Mob>Condemned Slicer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Condemned Gangster" XYZ="119.0299,28.96009,91.25396" />
+							<Hotspot Name="Condemned Slicer" XYZ="121.0787,28.96188,88.65842" />
+							<Hotspot Name="Condemned Enforcer" XYZ="121.7157,28.95907,91.00121" />
+							<Hotspot Name="Condemned Follower" XYZ="117.2402,28.96188,85.08685" />
+							<Hotspot Name="Condemned Follower" XYZ="120.1132,28.9626,83.75853" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B93790BD61B9)) and (not IsBranchStepComplete(0xE000B93790BD61B9, 1, 5)))">
 				<UseObject QuestId="0xE000B93790BD61B9" ObjectName="Generator Control Panel" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="121.6967,29.49462,96.10966" />
@@ -886,7 +354,23 @@
 				<TalkTo QuestId="0xE000E72A70C485D1" Name="Transport Driver" XYZ="70.0991,27.82788,32.6962" />
 			</If>
 			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3)))">
-				<Grind GrindRef="Evacuation 3" While="(not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000E72A70C485D1, 1, 3))">
+					<GrindArea Name="Evacuation 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Anarchist</Mob>
+							<Mob>Mercenary</Mob>
+							<Mob>Lunatic</Mob>
+							<Mob>Blackmailer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mercenary" XYZ="62.24321,28.00393,24.55289" />
+							<Hotspot Name="Mercenary" XYZ="60.66288,27.91551,31.78945" />
+							<Hotspot Name="Blackmailer" XYZ="51.8419,28.11886,24.6758" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000E72A70C485D1)) and (not IsBranchStepComplete(0xE000E72A70C485D1, 1, 4)))">
 				<TalkTo QuestId="0xE000E72A70C485D1" Name="Family Member" XYZ="49.6298,30.74063,5.865002" />
@@ -899,7 +383,27 @@
 		<!-- Crisis Prevention and Turnin -->
 		<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsQuestComplete(0xE00028183F7D7C46)))">
 			<If Condition="((HasQuest(0xE00028183F7D7C46)) and (not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3)))">
-				<Grind GrindRef="Crisis Prevention 3" While="(not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE00028183F7D7C46, 1, 3))">
+					<GrindArea Name="Crisis Prevention 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Tactical Coordinator</Mob>
+							<Mob>Condemned Minion</Mob>
+							<Mob>Condemned Fighter</Mob>
+							<Mob>Condemned Rioter</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Condemned Minion" XYZ="41.82037,24.40171,127.7676" />
+							<Hotspot Name="Condemned Fighter" XYZ="34.48977,24.48222,137.6874" />
+							<Hotspot Name="Imperial Tactical Coordinator" XYZ="34.51943,24.53024,135.0028" />
+							<Hotspot Name="Imperial Monitor Drone" XYZ="33.50751,24.47753,140.8709" />
+							<Hotspot Name="Imperial Tactical Coordinator" XYZ="29.67179,24.50386,125.3283" />
+							<Hotspot Name="Imperial Monitor Drone" XYZ="24.40553,24.45436,134.6449" />
+							<Hotspot Name="Imperial Tactical Coordinator" XYZ="19.4728,24.5182,132.9102" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Non-lethal Negotiations (Bonus) -->
 			<If Condition="((HasQuest(0xE0009B41A4738FC8)) and (not IsQuestComplete(0xE0009B41A4738FC8)))">
@@ -928,7 +432,24 @@
 			</If>
 			<!-- Additional Force Authorized (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E881B79F3F6F))">
-				<Grind GrindRef="Additional Force Authorized (Bonus)" While="(not IsQuestComplete(0xE000E881B79F3F6F))" />
+				<Grind While="(not IsQuestComplete(0xE000E881B79F3F6F))">
+					<GrindArea Name="Additional Force Authorized (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Condemned Pirate</Mob>
+							<Mob>Condemned Saboteur</Mob>
+							<Mob>Condemned Offender</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Condemned Saboteur" XYZ="98.46623,28.566,13.29392" />
+							<Hotspot Name="Condemned Pirate" XYZ="93.6396,28.501,14.1905" />
+							<Hotspot Name="Condemned Offender" XYZ="95.1399,29.576,19.7134" />
+							<Hotspot Name="Condemned Pirate" XYZ="92.49279,29.38843,11.56512" />
+							<Hotspot Name="Condemned Pirate" XYZ="87.984,29.701,15.1676" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 3)))">
 				<TalkTo QuestId="0xE0008EB9032A851C" Name="Assistant Warden Graal" XYZ="89.3759,29.576,9.313" />
@@ -940,7 +461,19 @@
 				<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" XYZ="86.7851,28.501,19.6893" />
 			</If>
 			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6)))">
-				<Grind GrindRef="Riot in the Warden's Station 6" While="(not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6))" />
+				<Grind While="(not IsBranchStepComplete(0xE0008EB9032A851C, 1, 6))">
+					<GrindArea Name="Riot in the Warden's Station 6">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Agent Feldon</Mob>
+							<Mob>Escaped Condemned Killer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Agent Feldon" XYZ="86.2313,28.501,19.8975" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0008EB9032A851C)) and (not IsBranchStepComplete(0xE0008EB9032A851C, 1, 7)))">
 				<TalkTo QuestId="0xE0008EB9032A851C" Name="Nyranos" XYZ="86.7851,28.501,19.6893" />
@@ -963,7 +496,24 @@
 		<If Condition="((HasQuest(0xE0001D9E984EDB4F)) and (not IsQuestComplete(0xE0001D9E984EDB4F)))">
 			<!-- Supply Chain (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C5EEDF710488))">
-				<Grind GrindRef="Supply Chain (Bonus)" While="(not IsBranchStepComplete(0xE000C5EEDF710488, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000C5EEDF710488, 1, 2))">
+					<GrindArea Name="Supply Chain (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rattataki Tribal</Mob>
+							<Mob>Rattataki Bloodletter</Mob>
+							<Mob>Rattataki Ambusher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rattataki Tribal" XYZ="-8.631366,21.626,76.11381" />
+							<Hotspot Name="Rattataki Bloodletter" XYZ="-12.17599,21.61508,79.47771" />
+							<Hotspot Name="Rattataki Bloodletter" XYZ="-4.661103,21.61508,79.3817" />
+							<Hotspot Name="Rattataki Tribal" XYZ="4.702801,20.236,79.84701" />
+							<Hotspot Name="Rattataki Bloodletter" XYZ="3.625096,19.836,68.9168" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0001D9E984EDB4F)) and (not IsBranchStepComplete(0xE0001D9E984EDB4F, 1, 2)))">
 				<UseObject QuestId="0xE0001D9E984EDB4F" ObjectName="Power Core Bomb" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="8.197211,19.78205,69.98881" />
@@ -996,7 +546,27 @@
 		<If Condition="((HasQuest(0xE00043688F135798)) and (not IsQuestComplete(0xE00043688F135798)))">
 			<!-- Before the Bomb (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000DD54D8CA9F2F))">
-				<Grind GrindRef="Before the Bomb (Bonus)" While="(not IsQuestComplete(0xE000DD54D8CA9F2F))" />
+				<Grind While="(not IsQuestComplete(0xE000DD54D8CA9F2F))">
+					<GrindArea Name="Before the Bomb (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Vanguard Droid</Mob>
+							<Mob>Imperial Deadeye</Mob>
+							<Mob>Imperial Invader</Mob>
+							<Mob>Imperial Squad Leader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Vanguard Droid" XYZ="-109.5293,22.5467,30.38527" />
+							<Hotspot Name="Imperial Deadeye" XYZ="-107.8985,22.54553,34.7135" />
+							<Hotspot Name="Imperial Invader" XYZ="-104.2026,22.54393,34.9184" />
+							<Hotspot Name="Imperial Squad Leader" XYZ="-108.8949,22.54944,41.5271" />
+							<Hotspot Name="Imperial Invader" XYZ="-112.4978,22.54944,44.1674" />
+							<Hotspot Name="Imperial Vanguard Droid" XYZ="-106.5047,22.84684,48.33767" />
+							<Hotspot Name="Imperial Squad Leader" XYZ="-104.2092,22.84623,50.93602" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00043688F135798)) and (not IsBranchStepComplete(0xE00043688F135798, 1, 2)))">
 				<UseObject QuestId="0xE00043688F135798" ObjectName="Generator" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-110.2513,22.84684,52.67648" />
@@ -1067,12 +637,40 @@
 			-->
 			<!-- Stage 3 - Battle the Horde (Bonus) -->
 			<If Condition="((HasQuest(0xE0004B5B7D64F37D)) and (not IsQuestComplete(0xE0004B5B7D64F37D)))">
-				<Grind GrindRef="Stage 3 - Battle the Horde (Bonus)" While="(HasQuest(0xE0004B5B7D64F37D))" />
+				<Grind While="(HasQuest(0xE0004B5B7D64F37D))">
+					<GrindArea Name="Stage 3 - Battle the Horde (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Tamed Acklay Hunter</Mob>
+							<Mob>Rattataki Savage</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Tamed Acklay Hunter" XYZ="-4.789648,21.00324,17.41844" />
+							<Hotspot Name="Rattataki Savage" XYZ="-8.019571,21.19757,15.7002" />
+							<Hotspot Name="Tamed Acklay Hunter" XYZ="1.051271,21.01508,18.25062" />
+							<Hotspot Name="Tamed Acklay Hunter" XYZ="1.053428,21.19757,21.52138" />
+							<Hotspot Name="Tamed Acklay Hunter" XYZ="-8.985332,21.01629,26.40404" />
+							<Hotspot Name="Rattataki Savage" XYZ="-8.444798,20.87846,29.5727" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Battle the Horde (Bonus) -->
 			<If Condition="((HasQuest(0xE000525B7D64C758)) and (not IsQuestComplete(0xE000525B7D64C758)))">
-				<Grind GrindRef="Final Stage - Battle the Horde (Bonus)" While="(HasQuest(0xE000525B7D64C758))" />
+				<Grind While="(HasQuest(0xE000525B7D64C758))">
+					<GrindArea Name="Final Stage - Battle the Horde (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>The Beastmaster of Talath</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="The Beastmaster of Talath" XYZ="-12.7108,21.81886,18.33893" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 2)))">
 				<MoveTo QuestId="0xE000635999CDCE6E" Name="My Location" XYZ="-22.72616,20.93207,18.44869" />
@@ -1081,7 +679,19 @@
 				<TalkTo QuestId="0xE000635999CDCE6E" Name="Sulkhaz" XYZ="-28.11871,20.86353,18.3708" />
 			</If>
 			<If Condition="((HasQuest(0xE000635999CDCE6E)) and (not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4)))">
-				<Grind GrindRef="War Games  4" While="(not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000635999CDCE6E, 1, 4))">
+					<GrindArea Name="War Games  4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sulkhaz</Mob>
+							<Mob>Sulkhaz Minion</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sulkhaz" XYZ="-28.11871,20.86353,18.3708" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1101,7 +711,21 @@
 			</If>
 			<!-- Scavenger Hunt (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007639287A8A35))">
-				<Grind GrindRef="Scavenger Hunt (Bonus)" While="(not IsQuestComplete(0xE0007639287A8A35))" />
+				<Grind While="(not IsQuestComplete(0xE0007639287A8A35))">
+					<GrindArea Name="Scavenger Hunt (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Vault Defense Unit</Mob>
+							<Mob>Vault Sentinel Unit</Mob>
+							<Mob>Vault Targeter Unit</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-61.04419,14.71437,-35.91248" />
+							<Hotspot Name="My Location" XYZ="-76.50053,14.68414,-35.94244" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B1192853D0EC)) and (not IsBranchStepComplete(0xE000B1192853D0EC, 1, 3)))">
 				<MoveTo QuestId="1" XYZ="-77.99833,14.69944,-35.78953" />
@@ -1199,7 +823,21 @@
 				<MoveTo QuestId="0xE00062AF4E3B5FD6" Name="Unknown Guy" XYZ="-161.7515,20.001,-85.81305" />
 			</If>
 			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5)))">
-				<Grind GrindRef="Taking on the Asylum 4 5" While="(not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 5))">
+					<GrindArea Name="Taking on the Asylum 4 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Bonebreaker</Mob>
+							<Mob>Esh-kha Lurker</Mob>
+							<Mob>Esh-kha Warrior-Tracker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Bonebreaker" XYZ="-163.6325,20.001,-85.806" />
+							<Hotspot Name="Esh-kha Warrior-Tracker" XYZ="-158.5774,20.011,-86.6846" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00062AF4E3B5FD6)) and (not IsBranchStepComplete(0xE00062AF4E3B5FD6, 4, 6)))">
 				<TalkTo QuestId="0xE00062AF4E3B5FD6" Name="Lhunu" XYZ="-155.012,19.98414,-85.8068" />
@@ -1229,7 +867,36 @@
 			</If>
 			<!-- Scavengers (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00066468CC9ECDA))">
-				<Grind GrindRef="Scavengers (Bonus)" While="(not IsQuestComplete(0xE00066468CC9ECDA))" />
+				<Grind While="(not IsQuestComplete(0xE00066468CC9ECDA))">
+					<GrindArea Name="Scavengers (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Exterminator</Mob>
+							<Mob>Esh-kha Bloodletter</Mob>
+							<Mob>Esh-kha Quickling</Mob>
+							<Mob>Esh-kha Scout</Mob>
+							<Mob>Esh-kha Explorer</Mob>
+							<Mob>Esh-kha Scavenger</Mob>
+							<Mob>Esh-kha Gouger</Mob>
+							<Mob>Esh-kha Ambusher</Mob>
+							<Mob>Esh-kha Reaver</Mob>
+							<Mob>Esh-kha Kinsman</Mob>
+							<Mob>Esh-kha Gene-Culler</Mob>
+							<Mob>Esh-kha Wild Huntsman</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Reaver" XYZ="-189.5006,18.54987,-76.55219" />
+							<Hotspot Name="Esh-kha Reaver" XYZ="-193.8497,18.49283,-79.70932" />
+							<Hotspot Name="Esh-kha Kinsman" XYZ="-189.6233,18.63722,-75.88968" />
+							<Hotspot Name="Esh-kha Reaver" XYZ="-196.741,18.35109,-85.00349" />
+							<Hotspot Name="Esh-kha Gene-Culler" XYZ="-188.6318,19.001,-82.76469" />
+							<Hotspot Name="Esh-kha Wild Huntsman" XYZ="-198.6902,18.53236,-89.27592" />
+							<Hotspot Name="Esh-kha Reaver" XYZ="-198.9841,18.38721,-94.09012" />
+							<Hotspot Name="Esh-kha Reaver" XYZ="-199.6131,18.68738,-100.4798" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1237,7 +904,38 @@
 		<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsQuestComplete(0xE00044AC51F792D7)))">
 			<!-- Esh-kha Offensive (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0009025312C5C98))">
-				<Grind GrindRef="Esh-kha Offensive (Bonus)" While="(not IsQuestComplete(0xE0009025312C5C98))" />
+				<Grind While="(not IsQuestComplete(0xE0009025312C5C98))">
+					<GrindArea Name="Esh-kha Offensive (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Exterminator</Mob>
+							<Mob>Esh-kha Bloodletter</Mob>
+							<Mob>Esh-kha Quickling</Mob>
+							<Mob>Esh-kha Scout</Mob>
+							<Mob>Esh-kha Explorer</Mob>
+							<Mob>Esh-kha Scavenger</Mob>
+							<Mob>Esh-kha Gouger</Mob>
+							<Mob>Esh-kha Ambusher</Mob>
+							<Mob>Esh-kha Reaver</Mob>
+							<Mob>Esh-kha Kinsman</Mob>
+							<Mob>Esh-kha Gene-Culler</Mob>
+							<Mob>Esh-kha Wild Huntsman</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Scavenger" XYZ="-222.663,23.43348,-35.8263" />
+							<Hotspot Name="Esh-kha Bloodletter" XYZ="-223.9891,20.0546,-57.6905" />
+							<Hotspot Name="Esh-kha Bloodletter" XYZ="-220.0748,18.4,-65.84984" />
+							<Hotspot Name="Esh-kha Bloodletter" XYZ="-216.3523,18.40001,-66.65372" />
+							<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
+							<Hotspot Name="Esh-kha Ambusher" XYZ="-215.2182,18.40103,-71.11149" />
+							<Hotspot Name="Esh-kha Ambusher" XYZ="-203.2406,18.411,-68.3876" />
+							<Hotspot Name="Esh-kha Gouger" XYZ="-203.1936,18.411,-59.4434" />
+							<Hotspot Name="Esh-kha Ambusher" XYZ="-220.0654,18.40104,-70.63829" />
+							<Hotspot Name="Esh-kha Ambusher" XYZ="-247.6676,18.39168,-61.8668" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Breaking the War Machine (Bonus) -->
 			<If Condition="((HasQuest(0xE0004716F1655D21)) and (not IsQuestComplete(0xE0004716F1655D21)))">
@@ -1284,7 +982,21 @@
 			</If>
 			<If Condition="((HasQuest(0xE00044AC51F792D7)) and (not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2)))">
 				<!-- Use Ele down -->
-				<Grind GrindRef="Shadows from the Past: Esh-kha Leaders 2" While="(not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE00044AC51F792D7, 1, 2))">
+					<GrindArea Name="Shadows from the Past: Esh-kha Leaders 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Leader</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Leader" XYZ="-221.8579,10.41891,-106.7312" />
+							<Hotspot Name="Esh-kha Leader" XYZ="-232.8604,10.4349,-118.1799" />
+							<Hotspot Name="Esh-kha Leader" XYZ="-223.794,10.801,-124.5861" />
+							<Hotspot Name="Esh-kha Leader" XYZ="-214.1553,10.437,-118.0935" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1356,7 +1068,18 @@
 			</If>
 			<!-- Final Stage - Esh-kha Proofing (Bonus) -->
 			<If Condition="((HasQuest(0xE000EB721574E137)) and (not IsQuestComplete(0xE000EB721574E137)))">
-				<Grind GrindRef="Final Stage - Esh-kha Proofing (Bonus)" While="(HasQuest(0xE000EB721574E137))" />
+				<Grind While="(HasQuest(0xE000EB721574E137))">
+					<GrindArea Name="Final Stage - Esh-kha Proofing (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Sleeping Doom</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Sleeping Doom" XYZ="-168.1492,17.601,-125.3313" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1368,7 +1091,24 @@
 		<!-- [AREA] Prison Scars -->
 		<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsQuestComplete(0xE00028FC1FF57C03)))">
 			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3)))">
-				<Grind GrindRef="[AREA] Prison Scars" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 3))">
+					<GrindArea Name="[AREA] Prison Scars">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Prison-Breaker</Mob>
+							<Mob>Esh-kha Minion</Mob>
+							<Mob>Esh-kha Crusher</Mob>
+							<Mob>Esh-kha Long-Reach</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Prison-Breaker" XYZ="-154.478,18.33774,-129.4539" />
+							<Hotspot Name="Esh-kha Minion" XYZ="-146.778,17.76587,-139.31" />
+							<Hotspot Name="Esh-kha Crusher" XYZ="-154.6519,17.57869,-144.4018" />
+							<Hotspot Name="Esh-kha Long-Reach" XYZ="-157.7411,17.76579,-149.5882" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 5)))">
@@ -1385,7 +1125,18 @@
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<If Condition="((HasQuest(0xE00028FC1FF57C03)) and (not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7)))">
-				<Grind GrindRef="[AREA] Prison Scars 7" While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE00028FC1FF57C03, 1, 7))">
+					<GrindArea Name="[AREA] Prison Scars 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Thorn Maw</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Thorn Maw" XYZ="-147.2732,24.65106,-93.41589" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1407,7 +1158,19 @@
 				<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" XYZ="-127.5295,17.69787,-105.3228" />
 			</If>
 			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 4)))">
-				<Grind GrindRef="Striking the Esh-kha" While="(not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EDD86673B47E, 1, 3))">
+					<GrindArea Name="Striking the Esh-kha">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Hunter Moon</Mob>
+							<Mob>Esh-kha Warrior</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Chayloss" XYZ="-127.2998,17.69787,-105.3995" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EDD86673B47E)) and (not IsBranchStepComplete(0xE000EDD86673B47E, 1, 5)))">
 				<TalkTo QuestId="0xE000EDD86673B47E" Name="Hunter Moon" XYZ="-127.5295,17.69787,-105.3228" />
@@ -1456,7 +1219,26 @@
 			</If>
 			<!-- Assisting the Wardens (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000D9DFAEE44F30))">
-				<Grind GrindRef="Assisting the Wardens (Bonus)" While="(not IsQuestComplete(0xE000D9DFAEE44F30))" />
+				<Grind While="(not IsQuestComplete(0xE000D9DFAEE44F30))">
+					<GrindArea Name="Assisting the Wardens (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Techno-Savant</Mob>
+							<Mob>Esh-kha Protector</Mob>
+							<Mob>Esh-kha Rampager</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Protector" XYZ="-106.7051,17.84351,-137.6762" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-102.0194,18.19773,-141.3525" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-99.45829,16.83593,-145.4541" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-94.90514,16.61366,-143.7838" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-85.27788,16.69084,-142.4539" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-81.21664,16.76187,-142.3973" />
+							<Hotspot Name="Reprogrammed Warden Droid" XYZ="-83.79981,16.63837,-146.4588" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		
@@ -1475,7 +1257,26 @@
 			</If>
 			<!-- This is Sabotage (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000E943EF0DFBFD))">
-				<Grind GrindRef="This is Sabotage (Bonus)" While="(not IsQuestComplete(0xE000E943EF0DFBFD))" />
+				<Grind While="(not IsQuestComplete(0xE000E943EF0DFBFD))">
+					<GrindArea Name="This is Sabotage (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Technician</Mob>
+							<Mob>Esh-kha Saboteur</Mob>
+							<Mob>Esh-kha Corruptor</Mob>
+							<Mob>Esh-kha Predator"</Mob>
+							<Mob>Esh-kha Genius</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Saboteur" XYZ="-91.60112,15.511,-155.3621" />
+							<Hotspot Name="Esh-kha Corruptor" XYZ="-84.22513,15.10628,-156.4016" />
+							<Hotspot Name="Esh-kha Predator" XYZ="-78.91669,14.50101,-158.5016" />
+							<Hotspot Name="Esh-kha Technician" XYZ="-71.76219,13.91276,-152.7826" />
+							<Hotspot Name="Esh-kha Predator" XYZ="-68.69116,13.9135,-142.3456" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" Type="Placeable" UseRange="2" TurnInName="Rakata Computer" XYZ="-93.09548,16.311,-149.7126" />
 			<CompleteQuest QuestName="A Safety Feature" QuestId="0xE0002DD54723A3E9" />
@@ -1492,13 +1293,45 @@
 		<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsQuestComplete(0xE000ED82CBAE2C0E)))">
 			<!-- Protecting the Failsafe (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007854F21E894B))">
-				<Grind GrindRef="Protecting the Failsafe (Bonus)" While="(not IsQuestComplete(0xE0007854F21E894B))" />
+				<Grind While="(not IsQuestComplete(0xE0007854F21E894B))">
+					<GrindArea Name="Protecting the Failsafe (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Enforcer</Mob>
+							<Mob>Esh-kha Butcher</Mob>
+							<Mob>Esh-kha Marauder</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Butcher" XYZ="-49.26229,11.9094,-136.3136" />
+							<Hotspot Name="Esh-kha Butcher" XYZ="-46.2115,11.08363,-131.5836" />
+							<Hotspot Name="Esh-kha Marauder" XYZ="-46.09109,11.101,-126.589" />
+							<Hotspot Name="Esh-kha Butcher" XYZ="-57.72565,11.101,-119.8291" />
+							<Hotspot Name="Esh-kha Escapee" XYZ="-61.9222,11.08363,-116.6067" />
+							<Hotspot Name="Esh-kha Marauder" XYZ="-50.85127,10.71726,-116.2905" />
+							<Hotspot Name="Esh-kha Butcher" XYZ="-47.19965,10.701,-110.5942" />
+							<Hotspot Name="Esh-kha Escapee" XYZ="-41.1642,10.701,-111.1082" />
+							<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 2)))">
 				<MoveTo QuestId="0xE000ED82CBAE2C0E" Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
 			</If>
 			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3)))">
-				<Grind GrindRef="Failsafe 3" While="(not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3))" />
+				<Grind While="(not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 3))">
+					<GrindArea Name="Failsafe 3">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Warrior-Striker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Warrior-Striker" XYZ="-28.83686,9.700953,-121.4592" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000ED82CBAE2C0E)) and (not IsBranchStepComplete(0xE000ED82CBAE2C0E, 1, 4)))">
 				<UseObject QuestId="0xE000ED82CBAE2C0E" ObjectName="Stasis Chamber" BranchId="1" StepId="4" Radius="20" WaitTime="5" XYZ="-28.12756,9.7431,-122.4022" />
@@ -1518,20 +1351,66 @@
 				<MoveTo QuestId="0xE0007866ACA716C2" Name="Second Stasis Chamber" XYZ="-30.4903,16.701,-121.3808" />
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4)))">
-				<Grind GrindRef="The Voice From The Tomb 4" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 4))">
+					<GrindArea Name="The Voice From The Tomb 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Primeval Purge Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Primeval Purge Droid" XYZ="-30.4959,16.70286,-117.0004" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 5)))">
 				<TalkTo QuestId="0xE0007866ACA716C2" Name="Hidden Blade" XYZ="-30.2048,16.71959,-114.8634" />
 			</If>
 			<!-- Primeval Destruction (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002165BE8E8F5D))">
-				<Grind GrindRef="Primeval Destruction (Bonus)" While="(not IsQuestComplete(0xE0002165BE8E8F5D))" />
+				<Grind While="(not IsQuestComplete(0xE0002165BE8E8F5D))">
+					<GrindArea Name="Primeval Destruction (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Primeval Enforcer Droid</Mob>
+							<Mob>Primeval Subduer Droid</Mob>
+							<Mob>Primeval Recapture Droid</Mob>
+							<Mob>Primeval Obliterator Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Primeval Subduer Droid" XYZ="-33.85471,15.901,-140.1253" />
+							<Hotspot Name="Primeval Enforcer Droid" XYZ="-33.1162,16.701,-129.4153" />
+							<Hotspot Name="Primeval Recapture Droid" XYZ="-37.4563,16.7009,-125.7318" />
+							<Hotspot Name="Primeval Subduer Droid" XYZ="-40.7049,16.701,-128.9889" />
+							<Hotspot Name="Primeval Enforcer Droid" XYZ="-20.719,17.501,-127.0588" />
+							<Hotspot Name="Primeval Enforcer Droid" XYZ="-23.646,17.501,-123.9786" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 6)))">
 				<MoveTo QuestId="0xE0007866ACA716C2" Name="Third Stasis Chamber" XYZ="-15.87984,18.301,-115.6129" />
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7)))">
-				<Grind GrindRef="The Voice From The Tomb 7" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7))" />
+				<Grind While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 7))">
+					<GrindArea Name="The Voice From The Tomb 7">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Primeval Stasis Guardian</Mob>
+							<Mob>Primeval Stasis Sentinel</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.89435,16.70221,-102.8807" />
+							<Hotspot Name="Primeval Stasis Guardian" XYZ="-18.6859,16.8,-101.1245" />
+							<Hotspot Name="Primeval Stasis Guardian" XYZ="-17.1255,16.8,-101.0732" />
+							<Hotspot Name="Primeval Stasis Guardian" XYZ="-15.08551,16.8199,-101.1025" />
+							<Hotspot Name="Primeval Stasis Guardian" XYZ="-13.53321,16.80891,-101.0854" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 8)))">
 				<MoveTo QuestId="1" XYZ="-16.09044,16.70221,-103.0136" />
@@ -1543,7 +1422,28 @@
 		<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsQuestComplete(0xE000FBCE093C560A)))">
 			<!-- Burning the Way (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0007A4C9B79584D))">
-				<Grind GrindRef="Burning the Way (Bonus)" While="(not IsQuestComplete(0xE0007A4C9B79584D))" />
+				<Grind While="(not IsQuestComplete(0xE0007A4C9B79584D))">
+					<GrindArea Name="Burning the Way (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Slaughterer</Mob>
+							<Mob>Esh-kha Lorekeeper</Mob>
+							<Mob>Esh-kha Weaponeer</Mob>
+							<Mob>Esh-kha Champion</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Lorekeeper" XYZ="-4.703199,15.19179,-124.8152" />
+							<Hotspot Name="Esh-kha Weaponeer" XYZ="0.7773204,15.11771,-120.3063" />
+							<Hotspot Name="Esh-kha Lorekeeper" XYZ="8.0137,15.11758,-115.4296" />
+							<Hotspot Name="Esh-kha Slaughterer" XYZ="16.3131,14.84442,-116.3568" />
+							<Hotspot Name="Esh-kha Champion" XYZ="20.28807,14.83336,-113.5058" />
+							<Hotspot Name="Esh-kha Assassin" XYZ="20.9463,15.0636,-98.8413" />
+							<Hotspot Name="Esh-kha Warleader" XYZ="13.12382,15.35088,-99.97031" />
+							<Hotspot Name="Esh-kha Soldier" XYZ="16.9689,14.02696,-92.92799" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 2)))">
 				<MoveTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
@@ -1552,7 +1452,19 @@
 				<TalkTo QuestId="0xE000FBCE093C560A" Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
 			</If>
 			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4)))">
-				<Grind GrindRef="The World Razer 4" While="(not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000FBCE093C560A, 1, 4))">
+					<GrindArea Name="The World Razer 4">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Gore Claw</Mob>
+							<Mob>Esh-kha Warrior-Guardian</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Gore Claw" XYZ="18.13051,15.0636,-100.945" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000FBCE093C560A)) and (not IsBranchStepComplete(0xE000FBCE093C560A, 1, 5)))">
 				<UseObject QuestId="0xE000FBCE093C560A" ObjectName="Rataka Console" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="22.48197,15.09665,-94.67084" />
@@ -1563,14 +1475,45 @@
 		<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsQuestComplete(0xE0007866ACA716C2)))">
 			<!-- For the Greater Good (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE00091DC3DBBEECB))">
-				<Grind GrindRef="For the Greater Good (Bonus)" While="(not IsQuestComplete(0xE00091DC3DBBEECB))" />
+				<Grind While="(not IsQuestComplete(0xE00091DC3DBBEECB))">
+					<GrindArea Name="For the Greater Good (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Heart Carver</Mob>
+							<Mob>Esh-kha Devout</Mob>
+							<Mob>Esh-kha Beastslayer</Mob>
+							<Mob>Esh-kha Flayer</Mob>
+							<Mob>Esh-kha Fiend</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Heart Carver" XYZ="-6.749297,11.901,-191.4382" />
+							<Hotspot Name="Esh-kha Devout" XYZ="-10.8298,11.901,-190.2563" />
+							<Hotspot Name="Esh-kha Heart Carver" XYZ="-17.23697,10.301,-191.4138" />
+							<Hotspot Name="Esh-kha Fiend" XYZ="-18.05899,10.1,-195.5498" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 9)))">
 				<MoveTo QuestId="0xE0007866ACA716C2" Name="Esh-kha Warrior-Captain" XYZ="-17.39661,8.701,-179.7524" />
 			</If>
 			<!-- Skip 10 -->
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11)))">
-				<Grind GrindRef="The Voice From The Tomb 11" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11))" />
+				<Grind While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 11))">
+					<GrindArea Name="The Voice From The Tomb 11">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Esh-kha Warrior-Captain</Mob>
+							<Mob>Esh-kha Warrior-Protector</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Esh-kha Warrior-Captain" XYZ="-17.4098,8.701,-179.6733" />
+							<Hotspot Name="Esh-kha Warrior-Protector" XYZ="-18.0045,8.701,-179.5011" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 12)))">
 				<UseObject QuestId="0xE0007866ACA716C2" ObjectName="Stasis Vault Door" BranchId="1" StepId="12" Radius="20" WaitTime="5" XYZ="-17.41509,8.732846,-179.1968" />
@@ -1579,7 +1522,19 @@
 				<TalkTo QuestId="0xE0007866ACA716C2" Name="Commander Geland" XYZ="-17.36844,8.699,-173.2574" />
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14)))">
-				<Grind GrindRef="The Voice From The Tomb 14" While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14))" />
+				<Grind While="(not IsBranchStepComplete(0xE0007866ACA716C2, 1, 14))">
+					<GrindArea Name="The Voice From The Tomb 14">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Commander Geland</Mob>
+							<Mob>Primeval Battle Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Commander Geland" XYZ="-17.3363,8.715515,-173.3805" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0007866ACA716C2)) and (not IsBranchStepComplete(0xE0007866ACA716C2, 1, 15)))">
 				<MoveTo QuestId="1" XYZ="-17.36485,8.701751,-172.7633" />
@@ -1646,14 +1601,40 @@
 			</If>
 			<!-- Automated Defense (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000342A24346674))">
-				<Grind GrindRef="Automated Defense (Bonus)" While="(not IsQuestComplete(0xE000342A24346674))" />
+				<Grind While="(not IsQuestComplete(0xE000342A24346674))">
+					<GrindArea Name="Automated Defense (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Euphony Guard Droid</Mob>
+							<Mob>Euphony Sentry Droid</Mob>
+							<Mob>Heavy Security Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Euphony Guard Droid" XYZ="8.345834,7.436289,-21.15039" />
+							<Hotspot Name="Euphony Sentry Droid" XYZ="6.929261,7.4047,-23.1428" />
+							<Hotspot Name="Euphony Guard Droid" XYZ="0.3594,7.4047,-22.7407" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 3)))">
 				<MoveTo QuestId="0xE000EC7E57F1DD17" Name="Stark" XYZ="3.3897,7.801,-17.4983" />
 			</If>
 			<!-- Skip 4 -->
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5)))">
-				<Grind GrindRef="Fearless 5" While="(not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 5))">
+					<GrindArea Name="Fearless 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Stark</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Stark" XYZ="3.177081,7.8007,-17.44539" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000EC7E57F1DD17)) and (not IsBranchStepComplete(0xE000EC7E57F1DD17, 1, 6)))">
 				<TalkTo QuestId="0xE000EC7E57F1DD17" Name="Senator Grell" XYZ="3.6988,7.910185,-17.483" />

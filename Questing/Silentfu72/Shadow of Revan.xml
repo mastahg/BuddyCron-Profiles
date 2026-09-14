@@ -108,17 +108,6 @@
 			</Hotspots>
 		</GrindArea> 
 		
-		<GrindArea Name="Lingering Hate">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Lord Ivress' Guard</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Ivress' Guard" XYZ="-62.34895,1.4292,-161.1631" />			
-			</Hotspots>
-		</GrindArea> 
-		
 		<GrindArea Name="To Disrupt the Order">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>100</MaxLevel>
@@ -322,17 +311,6 @@
 			</Hotspots>
 		</GrindArea>
 		
-		<GrindArea Name="Lord Kantale">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Lord Kantale</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Lord Kantale" XYZ="246.0508,13.7029,67.7556" />	
-			</Hotspots>
-		</GrindArea>
-		
 		<GrindArea Name="[DAILY] Pushback">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>100</MaxLevel>
@@ -377,22 +355,6 @@
 				<Hotspot Name="My Location" XYZ="179.8751,12.55471,58.83692" />
 			</Hotspots>
 		</GrindArea>
-		
-		<GrindArea Name="Kanawyn Syndicate">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Kanawyn Syndicate</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kanawyn Syndicate" XYZ="88.08929,0.8005859,-6.039" />
-				<Hotspot Name="Kanawyn Syndicate" XYZ="68.3275,-0.2193719,7.9469" />
-				<Hotspot Name="Kanawyn Syndicate" XYZ="78.78349,0.4009999,-14.25437" />
-			</Hotspots>
-		</GrindArea>
-
-
-		
 		
 	</GrindAreas>
 	
@@ -1132,7 +1094,20 @@
 				<TalkTo QuestId="0xE000A43535D1112B" Name="Thera Markon" XYZ="62.2144,0.072284,-2.549" />
 			</If>
 			<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsBranchStepComplete(0xE000A43535D1112B, 1, 4)))">
-				<Grind GrindRef="Kanawyn Syndicate" While="(not IsBranchStepComplete(0xE000A43535D1112B, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A43535D1112B, 1, 4))">
+					<GrindArea Name="Kanawyn Syndicate">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Kanawyn Syndicate</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Kanawyn Syndicate" XYZ="88.08929,0.8005859,-6.039" />
+							<Hotspot Name="Kanawyn Syndicate" XYZ="68.3275,-0.2193719,7.9469" />
+							<Hotspot Name="Kanawyn Syndicate" XYZ="78.78349,0.4009999,-14.25437" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsBranchStepComplete(0xE000A43535D1112B, 1, 5)))">
 				<If Condition="((HasQuest(0xE000A43535D1112B)) and (not IsTaskComplete(0xE000A43535D1112B, 5, 2)))">
@@ -1271,7 +1246,18 @@
 			</If>
 			<If Condition="((HasQuest(0xE0003FEC71535B5F)) and (not IsBranchStepComplete(0xE0003FEC71535B5F, 2, 2)))">
 				<WaitTimer QuestId="1" WaitTime="5" />
-				<Grind GrindRef="Lingering Hate" While="(not IsBranchStepComplete(0xE0003FEC71535B5F, 2, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE0003FEC71535B5F, 2, 2))">
+					<GrindArea Name="Lingering Hate">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Lord Ivress' Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Lord Ivress' Guard" XYZ="-62.34895,1.4292,-161.1631" />			
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE0003FEC71535B5F)) and (not IsBranchStepComplete(0xE0003FEC71535B5F, 2, 3)))">
 				<MoveTo QuestId="1" XYZ="-61.87804,1.464876,-162.7017" />

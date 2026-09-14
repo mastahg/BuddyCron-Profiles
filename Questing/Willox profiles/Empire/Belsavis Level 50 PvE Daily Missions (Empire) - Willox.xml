@@ -124,7 +124,28 @@
 		Tasks: 2
 		Task 0: 0/10 - Script: IsTaskComplete(0xE000FD1E421BBC7A, 2, 0)
 		Task 1: 0/2 - Script: IsTaskComplete(0xE000FD1E421BBC7A, 2, 1)-->
-		<Grind GrindRef="Invisible Threat" While="HasQuest(0xE000FD1E421BBC7A) and not IsStepComplete(0xE000FD1E421BBC7A, 2)" />
+		<Grind While="HasQuest(0xE000FD1E421BBC7A) and not IsStepComplete(0xE000FD1E421BBC7A, 2)">
+			<GrindArea Name="Invisible Threat">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Republic Stealth Sniper</Mob>
+					<Mob>Republic Stealth Operative</Mob>
+					<Mob>Imperial Survey Drone</Mob>
+					<Mob>Republic Stealth Commander</Mob>
+					<Mob>Republic Stealth Scout</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Republic Stealth Sniper" XYZ="-79.56781,28.39856,244.0834" />
+					<Hotspot Name="Republic Stealth Operative" XYZ="-82.7787,28.37417,243.8297" />
+					<Hotspot Name="Republic Stealth Commander" XYZ="-80.9358,28.37417,242.0299" />
+					<Hotspot Name="Republic Stealth Scout" XYZ="-80.49419,26.62398,232.2832" />
+					<Hotspot Name="Republic Stealth Commander" XYZ="-71.1059,25.42397,232.9039" />
+					<Hotspot Name="Republic Stealth Sniper" XYZ="-70.71258,25.40672,236.2411" />
+					<Hotspot Name="Republic Stealth Commander" XYZ="-71.303,25.636,241.9016" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 		<!--  
 		Grind for Quest: Unintended Consequences
@@ -140,7 +161,23 @@
 		Task 0: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 2, 0)
 		Task 1: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 2, 1)
 		Task 2: 0/1 - Script: IsTaskComplete(0xE000A6DDB6F9A148, 2, 2)-->
-		<Grind GrindRef="Unintended Consequences" While="HasQuest(0xE000A6DDB6F9A148) and not IsStepComplete(0xE000A6DDB6F9A148, 2)" />
+		<Grind While="HasQuest(0xE000A6DDB6F9A148) and not IsStepComplete(0xE000A6DDB6F9A148, 2)">
+			<GrindArea Name="Unintended Consequences">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Kaleesh Hunter</Mob>
+					<Mob>Kaleesh Commander</Mob>
+					<Mob>Kaleesh Warrior</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Kaleesh Hunter" XYZ="-81.05198,27.89351,210.1513" />
+					<Hotspot Name="Kaleesh Commander" XYZ="-85.56503,27.901,209.7249" />
+					<Hotspot Name="Kaleesh Warrior" XYZ="-91.3098,19.901,210.9836" />
+					<Hotspot Name="Kaleesh Warrior" XYZ="-95.41041,19.711,207.3495" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 		<!-- 
 		UseOject Assemble the Wraith Box for Quest Unintended Consequences (its Current Step 3) 
@@ -310,7 +347,18 @@
 		HasQuest(0xE0006744EE8D74C2)
 		IsQuestComplete(0xE0006744EE8D74C2)
 		IsStepComplete(0xE0006744EE8D74C2, 2)-->
-		<Grind GrindRef="Reluctant Volunteers" While="HasQuest(0xE0006744EE8D74C2) and not IsStepComplete(0xE0006744EE8D74C2, 2)" />
+		<Grind While="HasQuest(0xE0006744EE8D74C2) and not IsStepComplete(0xE0006744EE8D74C2, 2)">
+			<GrindArea Name="Reluctant Volunteers">
+				<MinLevel>1</MinLevel>
+				<MaxLevel>51</MaxLevel>
+				<Mobs>
+					<Mob>Esh-kha Brute</Mob>
+				</Mobs>
+				<Hotspots>
+					<Hotspot Name="Esh-kha Brute" XYZ="-86.99247,12.26913,-262.5849" />
+				</Hotspots>
+			</GrindArea>
+		</Grind>
 
 
 
@@ -326,90 +374,6 @@
 
 
 	</Questing>	
-
-
-
-
-
-
-
-	<GrindAreas>
-		<GrindArea Name="Invisible Threat">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Republic Stealth Sniper</Mob>
-				<Mob>Republic Stealth Operative</Mob>
-				<Mob>Imperial Survey Drone</Mob>
-				<Mob>Republic Stealth Commander</Mob>
-				<Mob>Republic Stealth Scout</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Republic Stealth Sniper" XYZ="-79.56781,28.39856,244.0834" />
-				<Hotspot Name="Republic Stealth Operative" XYZ="-82.7787,28.37417,243.8297" />
-				<Hotspot Name="Republic Stealth Commander" XYZ="-80.9358,28.37417,242.0299" />
-				<Hotspot Name="Republic Stealth Scout" XYZ="-80.49419,26.62398,232.2832" />
-				<Hotspot Name="Republic Stealth Commander" XYZ="-71.1059,25.42397,232.9039" />
-				<Hotspot Name="Republic Stealth Sniper" XYZ="-70.71258,25.40672,236.2411" />
-				<Hotspot Name="Republic Stealth Commander" XYZ="-71.303,25.636,241.9016" />
-			</Hotspots>
-		</GrindArea>
-		<GrindArea Name="Unintended Consequences">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Kaleesh Hunter</Mob>
-				<Mob>Kaleesh Commander</Mob>
-				<Mob>Kaleesh Warrior</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Kaleesh Hunter" XYZ="-81.05198,27.89351,210.1513" />
-				<Hotspot Name="Kaleesh Commander" XYZ="-85.56503,27.901,209.7249" />
-				<Hotspot Name="Kaleesh Warrior" XYZ="-91.3098,19.901,210.9836" />
-				<Hotspot Name="Kaleesh Warrior" XYZ="-95.41041,19.711,207.3495" />
-			</Hotspots>
-		</GrindArea>
-		<GrindArea Name="Reluctant Volunteers">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>51</MaxLevel>
-			<Mobs>
-				<Mob>Esh-kha Brute</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Esh-kha Brute" XYZ="-86.99247,12.26913,-262.5849" />
-			</Hotspots>
-		</GrindArea>
-	</GrindAreas>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

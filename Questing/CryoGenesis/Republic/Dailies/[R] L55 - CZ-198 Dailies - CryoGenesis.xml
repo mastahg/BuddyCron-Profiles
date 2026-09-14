@@ -7,40 +7,6 @@
 		<Hotspot Name="Republic Medical Droid" XYZ="-39.1416,7.801,2.5987" /> <!-- CZ-198 before first elevator -->
 	</Vendors>
 
-	<GrindAreas>
-		<GrindArea Name="Workforce Reduction">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Czerka Containment Droid</Mob>
-				<Mob>Czerka Support Officer</Mob>
-				<Mob>Czerka Observer Droid</Mob>
-				<Mob>Czerka Combat Specialist</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Czerka Crew Loc. 1" XYZ="-42.99039,7.309303,6.435942" />
-				<Hotspot Name="Czerka Crew Loc. 2" XYZ="-40.79988,7.801,1.719404" />
-				<Hotspot Name="Czerka Crew Loc. 3" XYZ="-40.71667,7.801,-1.123103" />
-				<Hotspot Name="Czerka Crew Loc. 4" XYZ="-43.95172,7.8125,-0.7274484" />
-				<Hotspot Name="Czerka Crew Loc. 5" XYZ="-46.29009,8.801011,5.775673" />			
-				<Hotspot Name="Czerka Crew Loc. 6" XYZ="-48.08829,8.802676,5.575443" />	
-				<Hotspot Name="Czerka Crew Loc. 7" XYZ="-48.16343,8.821001,3.308605" />			
-			</Hotspots>
-		</GrindArea>	
-		<GrindArea Name="Project DS-5">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>100</MaxLevel>
-			<Mobs>
-				<Mob>Tentacle</Mob>
-				<Mob>Project DS-5</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Project" XYZ="-16.47721,1.301,2.057819" />
-			</Hotspots>
-		</GrindArea>			
-	</GrindAreas>	
-
-	
 	<Questing>
 		<If Condition="((not HasQuest(0xE000E14F725E1809)) and (not IsQuestComplete(0xE000E14F725E1809)) )">
 			<PickUpQuest QuestName="[DAILY] Give And Take" QuestId="0xE000E14F725E1809" GiverType="Placeable" UseRange="2" Radius="5" GiverName="Mission Terminal" XYZ="-55.38471,8.803679,0.3304866" />
@@ -201,7 +167,19 @@
 			
 			<If Condition="(not IsStepComplete(0xE00009A5ADED8A3C, 7))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">			
-					<Grind GrindRef="Project DS-5" While="(not IsStepComplete(0xE00009A5ADED8A3C, 7))"/>
+					<Grind While="(not IsStepComplete(0xE00009A5ADED8A3C, 7))">
+						<GrindArea Name="Project DS-5">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>100</MaxLevel>
+							<Mobs>
+								<Mob>Tentacle</Mob>
+								<Mob>Project DS-5</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Project" XYZ="-16.47721,1.301,2.057819" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 			</If>
 			
@@ -235,7 +213,27 @@
 					XYZ="-36.58764,7.841,1.848673" />
 			</If>	
 			<If Condition="(not IsStepComplete(0xE0009D1B108AE7B4, 2))">
-				<Grind GrindRef="Workforce Reduction" While="(not IsStepComplete(0xE0009D1B108AE7B4, 2))"/>
+				<Grind While="(not IsStepComplete(0xE0009D1B108AE7B4, 2))">
+					<GrindArea Name="Workforce Reduction">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Czerka Containment Droid</Mob>
+							<Mob>Czerka Support Officer</Mob>
+							<Mob>Czerka Observer Droid</Mob>
+							<Mob>Czerka Combat Specialist</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Czerka Crew Loc. 1" XYZ="-42.99039,7.309303,6.435942" />
+							<Hotspot Name="Czerka Crew Loc. 2" XYZ="-40.79988,7.801,1.719404" />
+							<Hotspot Name="Czerka Crew Loc. 3" XYZ="-40.71667,7.801,-1.123103" />
+							<Hotspot Name="Czerka Crew Loc. 4" XYZ="-43.95172,7.8125,-0.7274484" />
+							<Hotspot Name="Czerka Crew Loc. 5" XYZ="-46.29009,8.801011,5.775673" />			
+							<Hotspot Name="Czerka Crew Loc. 6" XYZ="-48.08829,8.802676,5.575443" />	
+							<Hotspot Name="Czerka Crew Loc. 7" XYZ="-48.16343,8.821001,3.308605" />			
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>	
 		</If>
 		

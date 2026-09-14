@@ -7,38 +7,6 @@
 		<Hotspot Name="Medical Droid" XYZ="0.3815,0.0037,-6.9829" />
 	</Vendors>
 
-	<GrindAreas> 
-		
-		<GrindArea Name="Malfunctioning Droid Cleanup (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Faulty Service Droid</Mob>
-				<Mob>Faulty Cargo Droid</Mob>
-				<Mob>Faulty Repair Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Faulty Repair Droid" XYZ="-8.298105,-0.3953,1.189391" />
-				<Hotspot Name="Faulty Cargo Droid" XYZ="-11.4599,-0.3943001,2.0894" />
-				<Hotspot Name="Faulty Service Droid" XYZ="-14.2498,-0.3953,1.7629" />
-				<Hotspot Name="Faulty Service Droid" XYZ="-12.55591,-0.3953,0.2325528" />
-			</Hotspots>
-		</GrindArea>    
-		
-		<GrindArea Name="Distressed 1">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Assassin Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="Assassin Droid" XYZ="-17.97992,-0.2669191,-2.364335" />
-				<Hotspot Name="Modified Assault Droid" XYZ="-17.53342,-0.399,-4.328615" />
-			</Hotspots>
-		</GrindArea>    
-	
-	</GrindAreas>
-
 	<Questing>
 
 		<If Condition="(Me.Class == CharacterClass.Smuggler)">
@@ -64,11 +32,39 @@
 				<TalkTo QuestId="0xE000D8DA630F65DD" Name="Feylara" XYZ="-18.8819,-0.399,-3.2425" />
 			</If>	
 			<If Condition="((HasQuest(0xE000D8DA630F65DD)) and (not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 10)))">
-				<Grind GrindRef="Distressed 1" While="(not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 10))" />
+				<Grind While="(not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 10))">
+					<GrindArea Name="Distressed 1">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Assassin Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Assassin Droid" XYZ="-17.97992,-0.2669191,-2.364335" />
+							<Hotspot Name="Modified Assault Droid" XYZ="-17.53342,-0.399,-4.328615" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<!-- Malfunctioning Droid Cleanup (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000A330367BBFC7))">
-				<Grind GrindRef="Malfunctioning Droid Cleanup (Bonus)" While="(not IsQuestComplete(0xE000A330367BBFC7))" />
+				<Grind While="(not IsQuestComplete(0xE000A330367BBFC7))">
+					<GrindArea Name="Malfunctioning Droid Cleanup (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Faulty Service Droid</Mob>
+							<Mob>Faulty Cargo Droid</Mob>
+							<Mob>Faulty Repair Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Faulty Repair Droid" XYZ="-8.298105,-0.3953,1.189391" />
+							<Hotspot Name="Faulty Cargo Droid" XYZ="-11.4599,-0.3943001,2.0894" />
+							<Hotspot Name="Faulty Service Droid" XYZ="-14.2498,-0.3953,1.7629" />
+							<Hotspot Name="Faulty Service Droid" XYZ="-12.55591,-0.3953,0.2325528" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>			
 			<If Condition="((HasQuest(0xE000D8DA630F65DD)) and (not IsBranchStepComplete(0xE000D8DA630F65DD, 1, 11)))">
 				<TalkTo QuestId="0xE000D8DA630F65DD" Name="Feylara" XYZ="-18.8819,-0.399,-3.2425" />
