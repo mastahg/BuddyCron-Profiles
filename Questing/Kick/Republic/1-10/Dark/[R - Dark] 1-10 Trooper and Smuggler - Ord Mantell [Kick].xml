@@ -1407,7 +1407,7 @@
         <!-- Rez Companion -->
       </If>
       <If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 5)))">
-        <If Condition="(BuddyTor.Client.AreaName == &quot;ord_resize&quot;)">
+        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
           <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
           <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
                       XYZ="26.7952,6.311908,38.06977" />
@@ -1421,7 +1421,7 @@
     <!-- Smuggler: The Gambler -->
     <If Condition="((HasQuest(0xE0008E987301305E)) and (not IsQuestComplete(0xE0008E987301305E)))">
       <If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 2)))">
-        <If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
+        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
           <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
           <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" InteractRange="0.4" Option="Republic Fleet"
                       XYZ="26.84871,6.363346,38.12912" />
@@ -1432,7 +1432,7 @@
     <!-- Trooper: New Assignment -->
     <If Condition="((HasQuest(0xE00015A1CAEE4F2E)) and (not IsQuestComplete(0xE00015A1CAEE4F2E)))">
       <If Condition="((HasQuest(0xE00015A1CAEE4F2E)) and (not IsStepComplete(0xE00015A1CAEE4F2E, 2)))">
-        <If Condition="(BuddyTor.Client.AreaName == &quot;ord_resize&quot;)">
+        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
           <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
           <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" InteractRange="0.4" Option="Republic Fleet"
                       XYZ="26.84871,6.363346,38.12912" />
@@ -1441,7 +1441,7 @@
         </If>
         <CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" />
         <!-- Open Jorgan's Urban Combat Outfit, click Take all button, then fit your companion with the 3 items Jorgan's Scout Pants, Boots, Jacket -->
-        <If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
+        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
           <UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
                       XYZ="-663.7174,0.4950807,-473.2921" />
 

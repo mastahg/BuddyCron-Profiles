@@ -200,7 +200,7 @@
 			<Escort QuestId="" Name="" X Y Z ToX ToY ToZ />
 			<Escort QuestId="" Name="" While="(not IsBranchStepComplete(, 1, 2))" X Y Z />
 			
-		 <If Condition="(BuddyTor.Client.AreaName == &quot;PlanetDumpName&quot;)">
+		 <If Condition="(HeroBaseClient.Instance.AreaName == &quot;PlanetDumpName&quot;)">
  		 </If>
 		 <If Condition="(TorMap.CurrentAreaName == &quot;Alderaan&quot;)">
  		 </If>

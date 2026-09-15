@@ -80,7 +80,7 @@
 		
 		<!-- Enter Nar Shaddaa Bonus Quests here -->
 		<If Condition="((not HasQuest(0xE0006ABC532A84C7)) and (not IsQuestComplete(0xE0006ABC532A84C7)))">
-			<If Condition="(BuddyTor.Client.AreaName == &quot;spc_ps_jedi_consular&quot;)">
+			<If Condition="(HeroBaseClient.Instance.AreaName == &quot;spc_ps_jedi_consular&quot;)">
 				<!-- Qyzen has a quest for us -->
 				<PickUpQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" GiverName="Qyzen Fess" XYZ="-0.005899999,0.8005782,3.957" />
 				<CompleteQuest QuestName="Memory's Claw" QuestId="0xE0005B1D29D6828E" />

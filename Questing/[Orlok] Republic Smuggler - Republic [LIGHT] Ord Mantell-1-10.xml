@@ -354,7 +354,7 @@
 				<!-- Rez Companion -->
 			</If>
 			<If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 5)))">
-				<If Condition="(BuddyTor.Client.AreaName == &quot;ord_resize&quot;)">
+				<If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
 					<MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
 					<UserDialog Title="Kick" Message="End of Trial Run.  Please post all bug reports in the designated Beta Testers thread!" />
 					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
@@ -369,7 +369,7 @@
 		<!-- Smuggler: The Gambler -->
 		<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsQuestComplete(0xE0008E987301305E)))">
 			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 2)))">
-				<If Condition="(BuddyTor.Client.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
+				<If Condition="(HeroBaseClient.Instance.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
 					<MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
 					<UserDialog Title="Orlok" Message="Use transport and head to the Republic Fleet! Thank you for using my profiles, please donate!"/>
 

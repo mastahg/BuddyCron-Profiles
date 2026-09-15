@@ -2228,7 +2228,7 @@
 			<!-- Attis Station 0xE00031F9F4E81A85-->
 		</If>
 		
-		<If Condition="(Me.Class == CharacterClass.Consular) and (BuddyTor.Client.AreaName == &quot;spc_ps_jedi_consular&quot;)">
+		<If Condition="(Me.Class == CharacterClass.Consular) and (HeroBaseClient.Instance.AreaName == &quot;spc_ps_jedi_consular&quot;)">
 			<PickUpQuest QuestName="The Unsigned Gift" QuestId="0xE0008CDD7D37572D" GiverName="Tharan Cedrax" XYZ="-1.028,0.8400244,1.3555" />
 			<CompleteQuest QuestName="The Unsigned Gift" QuestId="0xE0008CDD7D37572D" />
 		</If>
