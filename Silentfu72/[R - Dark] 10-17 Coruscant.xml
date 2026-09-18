@@ -1733,8 +1733,7 @@
 			</If>
 			<!-- This guy is hard as shit to kill if we haven't trained -->
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 5)))">
-				<UseObject QuestId="0xE00053DFB0207384" ObjectName="Jedi Archives" BranchId="1" StepId="5" IgnoreLOS="True" Radius="5" WaitTime="5" XYZ="-328.5112,48.70094,287.9092" />
-				<!--<Grind GrindRef="Ancient Secrets 5" While="(not IsStepComplete(0xE00053DFB0207384, 5))" />-->
+				<Grind GrindRef="Ancient Secrets 5" While="(not IsStepComplete(0xE00053DFB0207384, 5))" />
 			</If>
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 6)))">
 				<AnswerHolocomCall QuestName="Ancient Secrets" QuestId="0xE00053DFB0207384" />
