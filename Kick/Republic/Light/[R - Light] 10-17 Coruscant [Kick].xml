@@ -158,29 +158,6 @@
 			</Hotspots>
 		</GrindArea>    
 		
-		<GrindArea Name="Stage 1 - Enemy Droid-machines (Bonus)">
-			<MinLevel>1</MinLevel>
-			<MaxLevel>50</MaxLevel>
-			<Mobs>
-				<Mob>Rogue Security Droid</Mob>
-				<Mob>Rogue Maintenance Droid</Mob>
-				<Mob>Rogue Support Droid</Mob>
-				<Mob>Rogue Construction Droid</Mob>
-			</Mobs>
-			<Hotspots>
-				<Hotspot Name="My Location" XYZ="107.2274,-229.2753,437.353" />
-				<Hotspot Name="My Location" XYZ="107.5957,-230.2604,449.4848" />
-				<Hotspot Name="My Location" XYZ="107.9942,-230.2605,453.3441" />
-				<Hotspot Name="My Location" XYZ="108.2512,-230.262,456.533" />
-				<Hotspot Name="My Location" XYZ="111.0529,-231.2602,454.8341" />
-				<Hotspot Name="My Location" XYZ="98.40075,-229.2621,445.1886" />
-				<Hotspot Name="My Location" XYZ="114.0906,-229.2756,465.7724" />
-				<Hotspot Name="My Location" XYZ="115.2371,-229.2757,469.0194" />
-				<Hotspot Name="My Location" XYZ="120.0831,-229.2757,470.2032" />
-				<Hotspot Name="My Location" XYZ="105.9372,-228.2603,476.031" />
-			</Hotspots>
-		</GrindArea>    
-		
 		<GrindArea Name="Final Stage - Enemy Droid-machines (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>
@@ -1923,17 +1900,52 @@
 		<If Condition="((HasQuest(0xE0006C7A2D49F7A7)) and (not IsStepComplete(0xE0006C7A2D49F7A7, 2)))">
 			<UseObject QuestId="0xE0006C7A2D49F7A7" ObjectName="Power Conduit" BranchId="1" StepId="2" TaskId="1" Radius="20" WaitTime="5" XYZ="110.0096,-228.2635,473.0421" /> <!-- 2 of 3 -->
 			<!-- Stage 1 - Enemy Droid-machines (Bonus) -->
-			<If Condition="((not HasQuest(0xE000A6FA5A7656F4)) and (not IsQuestComplete(0xE000A6FA5A7656F4)))">
-				<Grind GrindRef="Stage 1 - Enemy Droid-machines (Bonus)" While="(not HasQuest(0xE000A6FA5A7656F4))" />
-			</If>
-			<!-- Stage 1 - Enemy Droid-machines (Bonus) -->
 			<If Condition="((HasQuest(0xE000A6FA5A7656F4)) and (not IsQuestComplete(0xE000A6FA5A7656F4)))">
-				<Grind GrindRef="Stage 1 - Enemy Droid-machines (Bonus)" While="(HasQuest(0xE000A6FA5A7656F4))" />
+				<Grind While="(HasQuest(0xE000A6FA5A7656F4))">
+					<GrindArea Name="Stage 1 - Enemy Droid-machines (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rogue Security Droid</Mob>
+							<Mob>Rogue Maintenance Droid</Mob>
+							<Mob>Rogue Support Droid</Mob>
+							<Mob>Rogue Construction Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="107.2274,-229.2753,437.353" />
+							<Hotspot Name="My Location" XYZ="107.5957,-230.2604,449.4848" />
+							<Hotspot Name="My Location" XYZ="107.9942,-230.2605,453.3441" />
+							<Hotspot Name="My Location" XYZ="108.2512,-230.262,456.533" />
+							<Hotspot Name="My Location" XYZ="111.0529,-231.2602,454.8341" />
+							<Hotspot Name="My Location" XYZ="98.40075,-229.2621,445.1886" />
+							<Hotspot Name="My Location" XYZ="114.0906,-229.2756,465.7724" />
+							<Hotspot Name="My Location" XYZ="115.2371,-229.2757,469.0194" />
+							<Hotspot Name="My Location" XYZ="120.0831,-229.2757,470.2032" />
+							<Hotspot Name="My Location" XYZ="105.9372,-228.2603,476.031" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Stage 2 - Enemy Droid-machines (Bonus) -->
 			<If Condition="((HasQuest(0xE000A5FA5A765529)) and (not IsQuestComplete(0xE000A5FA5A765529)))">
-				<Grind GrindRef="Stage 1 - Enemy Droid-machines (Bonus)" While="(HasQuest(0xE000A5FA5A765529))" />
+				<Grind While="(HasQuest(0xE000A5FA5A765529))">
+					<GrindArea Name="Core Dump 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>100</MaxLevel>
+						<Mobs>
+							<Mob>Rogue Support Droid</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="107.2274,-229.2753,437.353" />
+							<Hotspot Name="My Location" XYZ="107.5957,-230.2604,449.4848" />
+							<Hotspot Name="My Location" XYZ="107.9942,-230.2605,453.3441" />
+							<Hotspot Name="My Location" XYZ="108.2512,-230.262,456.533" />
+							<Hotspot Name="My Location" XYZ="111.0529,-231.2602,454.8341" />
+							<Hotspot Name="My Location" XYZ="98.40075,-229.2621,445.1886" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<!-- Final Stage - Enemy Droid-machines (Bonus)	Id: 0xE000A4FA5A765B9A 4 -->
