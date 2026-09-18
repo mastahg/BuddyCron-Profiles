@@ -8,12 +8,13 @@ Layout
 ------
 
 Profiles are filed by contributor. Where a contributor split their work, it is by faction and
-alignment: `<Contributor>/<Republic | Empire>/<Light | Dark>/`.
+alignment: `<Contributor>/<Republic | Empire>/<Light | Dark>/`. The `Kick/` profiles have had the
+most testing; start there.
 
 | Path                       | Contents                                                        |
 |----------------------------|-----------------------------------------------------------------|
+| `Kick/`                    | Kickazz006's 1-50 chains, space missions, grinding and utility profiles. **Most tested.** |
 | `Orlok/`                   | Orlok Raven's class stories, 1-29, one file per class and side. |
-| `Kick/`                    | Kickazz006's 1-50 chains, space missions, grinding and utility profiles. |
 | `CryoGenesis/`             | Republic 10-29 chain and level 55 dailies.                      |
 | `Silentfu72/`              | Republic Dark 1-37 chain.                                       |
 | `Metrienne/`               | 1-10 starter planets.                                           |
