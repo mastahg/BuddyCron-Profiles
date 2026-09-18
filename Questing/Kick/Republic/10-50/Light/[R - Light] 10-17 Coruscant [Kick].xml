@@ -357,15 +357,6 @@
 				
 				<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Galactic Market Taxi" 
 									XYZ="-114.6167,142.111,-425.4255" />
-				<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="Old Galactic Market Sector QT" XYZ="237.7164,43.21099,62.50198" />
-				<Interact Name="Old Galactic Market" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="237.7164,43.21099,62.50198" />	<!-- Bind point: Old Galactic Market Sector -->									
-				<!-- Learn Bind Point - 
-		<Hotspot Name="Old Galactic Market Sector" X="237.7842" Y="43.21099" Z="62.46188" />
-			-->
-				<If Condition="(Me.Position.X &gt; 0)">			
-					<MoveTo QuestId="0xE0000CB5D5BC1DD3" Name="Old Galactic Market Sector QT" XYZ="237.7164,43.21099,62.50198" />
-					<Interact Name="Old Galactic Market" Radius="20" UseRange="5" IgnoreLOS="true" XYZ="237.7164,43.21099,62.50198" />	<!-- Bind point: Old Galactic Market Sector -->									
-				</If>
 				<!-- Force Sell, Repair, Mail -->
 			</If>
 		</If>

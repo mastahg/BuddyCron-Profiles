@@ -256,9 +256,6 @@
 		
 	<!-- Bindpoint & Taxi -->
 	<If Condition="not IsStepComplete(0xE0007300095B167B, 2)" />
-	<!-- Learning Bind Point -->
-	<UseObject ObjectName="Troida Millitary Workshop" QuestId="0xE0007300095B167B" WaitTime="3000" XYZ="-15.61691,9.419967,184.7365" />
-
 	<!-- Learning Taxi Node -->
 </If>
 		
