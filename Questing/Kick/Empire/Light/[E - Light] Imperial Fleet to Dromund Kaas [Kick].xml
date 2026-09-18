@@ -1,7 +1,7 @@
 <Profile xmlns="http://tempuri.org/ProfileSchema.xsd">
-	<Name>[E - Dark] Imperial Fleet to Dromund Kaas [Kick]</Name>
+	<Name>[E - Light] Imperial Fleet to Dromund Kaas [Kick]</Name>
   
-	<ForceAlignment Type="Dark" AutoSkip="true" />
+	<ForceAlignment Type="Light" AutoSkip="true" />
 	
 	<Vendors>
 		<Hotspot Name="Jensen" XYZ="479.9774,69.801,460.4633" />
@@ -36,7 +36,7 @@
 			</If>
 		</If>
 	
-		<LoadProfile Path="..\..\10-50\Dark\[E - Dark] 10-17 Dromund Kaas [Kick].xml" />
+		<LoadProfile Path="[E - Light] 10-17 Dromund Kaas [Kick].xml" />
 
 	</Questing>    
 
