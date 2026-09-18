@@ -122,30 +122,6 @@
 		
 		<!-- Captured Padawns - Free 6 Padawans -->
 		<If Condition="((HasQuest(0xE00073A18DCED739)) and (not IsQuestComplete(0xE00073A18DCED739)))">
-			<!-- The Flesh Raider Menace (Bonus) -->
-			<If Condition="(not IsQuestComplete(0xE000962990EE5841))">
-				<Grind While="(not IsQuestComplete(0xE000962990EE5841))">
-					<GrindArea Name="The Flesh Raider Menace (Bonus)">
-						<MinLevel>1</MinLevel>
-						<MaxLevel>50</MaxLevel>
-						<Mobs>
-							<Mob>Flesh Raider Scout</Mob>
-							<Mob>Flesh Raider Hunter</Mob>
-						</Mobs>
-						<Hotspots>
-							<Hotspot Name="My Location" XYZ="7.064587,-5.010141,-109.343" />
-							<Hotspot Name="My Location" XYZ="11.01734,-4.795543,-114.1241" />
-							<Hotspot Name="My Location" XYZ="2.52097,-4.024741,-117.8409" />
-							<Hotspot Name="My Location" XYZ="8.737726,-4.140928,-106.6909" />
-							<Hotspot Name="My Location" XYZ="7.188076,-4.17089,-101.423" />
-							<Hotspot Name="My Location" XYZ="19.93045,-5.333676,-87.50093" />
-							<Hotspot Name="My Location" XYZ="31.21223,-5.255041,-95.74635" />
-							<Hotspot Name="My Location" XYZ="27.31836,-4.977191,-101.7378" />
-							<Hotspot Name="My Location" XYZ="29.32812,-5.427044,-104.9069" />
-						</Hotspots>
-					</GrindArea>
-				</Grind>
-			</If>
 			<UseObject QuestId="0xE00073A18DCED739" ObjectName="Fleshraider Cage" BranchId="1" StepId="2" Radius="50" BlacklistDuration="70" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="7.064587,-5.010141,-109.343" />
@@ -312,32 +288,6 @@
 				<CompleteQuest QuestName="The Path of a Jedi" QuestId="0xE000AADDC6313899" />
 				<!-- Auto-receive quest: Pilgrims (Bonus), ID: 0xE0009832354DE990, Step: 2 -->
 			</If>
-		</If>
-		
-		<!-- PickUp Consular Specific: Wisdom of Elders -->
-		<If Condition="(Me.Class == CharacterClass.Consular)">
-			<PickUpQuest QuestName="Wisdom of Elders" QuestId="0xE0004DFF611C9BA2" GiverName="Hallen" XYZ="-28.117,-7.670347,-43.3448" />
-		</If>
-		
-		<!-- PickUp Knight Specific: The Arm That Holds the Saber -->
-		<If Condition="(Me.Class == CharacterClass.Knight)">
-			<PickUpQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" GiverName="Aven" XYZ="-28.0648,-7.670347,-45.359" />
-		</If>
-		
-		<!-- Turnin Consular Specific: Wisdom of Elders -->
-		<If Condition="((HasQuest(0xE0004DFF611C9BA2)) and (not IsQuestComplete(0xE0004DFF611C9BA2)))">
-			<TurnInQuest QuestName="Wisdom of Elders" QuestId="0xE0004DFF611C9BA2" TurnInName="Master Wettle" XYZ="-36.6993,-5.12366,-36.1476" />
-			<CompleteQuest QuestName="Wisdom of Elders" QuestId="0xE0004DFF611C9BA2" />
-			<ForceVendor VendorType="Repair" />
-			<ForceVendor VendorType="Train" />
-		</If>
-		
-		<!-- Turnin Knight: The Arm That Holds the Saber -->
-		<If Condition="((HasQuest(0xE000241B683145EE)) and (not IsQuestComplete(0xE000241B683145EE)))">
-			<TurnInQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" TurnInName="Master Muheeda" XYZ="-33.6843,-5.12366,-37.3864" />
-			<CompleteQuest QuestName="The Arm That Holds the Saber" QuestId="0xE000241B683145EE" />
-			<ForceVendor VendorType="Repair" />
-			<ForceVendor VendorType="Train" />
 		</If>
 		
 		<PickUpQuest QuestName="Combat Leadership: Mark I" QuestId="0xE000742A9CEC2745" GiverName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
