@@ -275,7 +275,6 @@
 
 	<Questing>
 	
-		<UserDialog Title="CryoGenesis" Message="This profile has been edited for all Republic classes. All Class Quests have been added and improvements have been made to speed up the leveling. If you encounter any issues, please report it on the forums!" />
 
 		<!-- Jedi Consular - The Arrival and Turnin -->
 		<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsQuestComplete(0xE0000CB5D481F093)))">
@@ -429,8 +428,7 @@
 				<TalkTo QuestId="0xE0000CB5D5BC1DD3" Name="Captain Winborn" XYZ="222.4819,43.201,87.2388" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D5BC1DD3)) and (not IsStepComplete(0xE0000CB5D5BC1DD3, 4)))">
-				<!-- Placeable says Nework instead of Network - waiting for GM's to fix it -->
-				<UseObject QuestId="0xE0000CB5D5BC1DD3" ObjectName="Secure Nework Access Node" IgnoreLOS="true" BranchId="1" StepId="4" Radius="20" WaitTime="5" >
+				<UseObject QuestId="0xE0000CB5D5BC1DD3" ObjectName="Secure Network Access Node" IgnoreLOS="true" BranchId="1" StepId="4" Radius="20" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="219.8591,43.201,103.2895" />
 						<Hotspot Name="My Location" XYZ="220.135,43.201,101.1608" />
