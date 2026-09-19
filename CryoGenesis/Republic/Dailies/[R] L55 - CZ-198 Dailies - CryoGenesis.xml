@@ -58,57 +58,38 @@
 		
 		<!-- [DAILY] Give And Take -->
 		<If Condition="((HasQuest(0xE000E14F725E1809)) and (not IsQuestComplete(0xE000E14F725E1809)) )">
-			<If Condition="(Me.Position.X &gt; -45) and (Me.Position.X &lt; -37) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 7)">
-				<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-38.39104,7.801,2.039455" />
-			</If>
 			<If Condition="(not IsStepComplete(0xE000E14F725E1809, 2))">
 				<If Condition="(not IsTaskComplete(0xE000E14F725E1809, 2, 0))">
-					<If Condition="(Me.Position.X &gt; -45) and (Me.Position.X &lt; -37) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 7)">
-						<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
-						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-							XYZ="-38.39104,7.801,2.039455" />
-					</If>
-					<If Condition="(Me.Position.X &gt; -38) and (Me.Position.X &lt; -20) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 9) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 9)">
-						<UseObject QuestId="0xE000E14F725E1809" BranchId="1" StepId="2" TaskId="0" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
-							<Placeables>
-								<Placeable>Kolto Container</Placeable>
-							</Placeables>
-							<Hotspots>
-								<Hotspot Name="Kolto Container" XYZ="-30.11353,8.801001,-1.348612" />
-								<Hotspot Name="Kolto Container" XYZ="-27.77319,8.801001,-1.294912" />
-								<Hotspot Name="Kolto Container" XYZ="-25.16033,8.80088,-1.471976" />
-								<Hotspot Name="Kolto Container" XYZ="-25.11174,8.801001,0.3159655" />
-								<Hotspot Name="Kolto Container" XYZ="-24.82331,8.801001,2.723577" />
-								<Hotspot Name="Kolto Container" XYZ="-28.4704,8.801001,2.678186" />
-								<Hotspot Name="Kolto Container" XYZ="-29.90627,8.801,1.926747" />
-							</Hotspots>
-						</UseObject>
-					</If>
+					<UseObject QuestId="0xE000E14F725E1809" BranchId="1" StepId="2" TaskId="0" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+						<Placeables>
+							<Placeable>Kolto Container</Placeable>
+						</Placeables>
+						<Hotspots>
+							<Hotspot Name="Kolto Container" XYZ="-30.11353,8.801001,-1.348612" />
+							<Hotspot Name="Kolto Container" XYZ="-27.77319,8.801001,-1.294912" />
+							<Hotspot Name="Kolto Container" XYZ="-25.16033,8.80088,-1.471976" />
+							<Hotspot Name="Kolto Container" XYZ="-25.11174,8.801001,0.3159655" />
+							<Hotspot Name="Kolto Container" XYZ="-24.82331,8.801001,2.723577" />
+							<Hotspot Name="Kolto Container" XYZ="-28.4704,8.801001,2.678186" />
+							<Hotspot Name="Kolto Container" XYZ="-29.90627,8.801,1.926747" />
+						</Hotspots>
+					</UseObject>
 				</If>
 				<If Condition="(not IsTaskComplete(0xE000E14F725E1809, 2, 1))">
-					<If Condition="(Me.Position.X &gt; -45) and (Me.Position.X &lt; -37) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 7)">
-						<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
-						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-							XYZ="-38.39104,7.801,2.039455" />
-					</If>
-					<If Condition="(Me.Position.X &gt; -38) and (Me.Position.X &lt; -20) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 9) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 9)">
-						<UseObject QuestId="0xE000E14F725E1809" BranchId="1" StepId="2" TaskId="1" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
-							<Placeables>
-								<Placeable>Biotoxin Container</Placeable>
-							</Placeables>
-							<Hotspots>
-								<Hotspot Name="Biotoxin Container" XYZ="-28.28257,6.801007,-0.7643312" />
-								<Hotspot Name="Biotoxin Container" XYZ="-28.40003,6.801007,3.202631" />
-								<Hotspot Name="Biotoxin Container" XYZ="-31.56866,6.801,-1.611025" />				
-								<Hotspot Name="Biotoxin Container" XYZ="-33.80863,6.301,4.198784" />
-								<Hotspot Name="Biotoxin Container" XYZ="-31.50118,6.801,-5.757345" />
-								<Hotspot Name="Biotoxin Container" XYZ="-28.51702,6.801007,-4.172438" />
-								<Hotspot Name="Biotoxin Container" XYZ="-28.97196,6.801,7.155129" />				
-							</Hotspots>
-						</UseObject>
-					</If>
+					<UseObject QuestId="0xE000E14F725E1809" BranchId="1" StepId="2" TaskId="1" Radius="50" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+						<Placeables>
+							<Placeable>Biotoxin Container</Placeable>
+						</Placeables>
+						<Hotspots>
+							<Hotspot Name="Biotoxin Container" XYZ="-28.28257,6.801007,-0.7643312" />
+							<Hotspot Name="Biotoxin Container" XYZ="-28.40003,6.801007,3.202631" />
+							<Hotspot Name="Biotoxin Container" XYZ="-31.56866,6.801,-1.611025" />				
+							<Hotspot Name="Biotoxin Container" XYZ="-33.80863,6.301,4.198784" />
+							<Hotspot Name="Biotoxin Container" XYZ="-31.50118,6.801,-5.757345" />
+							<Hotspot Name="Biotoxin Container" XYZ="-28.51702,6.801007,-4.172438" />
+							<Hotspot Name="Biotoxin Container" XYZ="-28.97196,6.801,7.155129" />				
+						</Hotspots>
+					</UseObject>
 				</If>
 			</If>
 		</If>		
@@ -116,16 +97,6 @@
 				
 		<!-- [DAILY] Anti-Toxin Recovery -->
 		<If Condition="((HasQuest(0xE00009A5ADED8A3C)) and (not IsQuestComplete(0xE00009A5ADED8A3C)) )">
-			<If Condition="(Me.Position.X &gt; -45) and (Me.Position.X &lt; -37) and (Me.Position.Y &gt; 7) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 7)">
-				<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-38.39104,7.801,2.039455" />		<!-- GoTo Elevator 1 -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-38.39104,7.801,2.039455" />
-			</If>
-			<If Condition="(Me.Position.X &gt; -38) and (Me.Position.X &lt; -20) and (Me.Position.Y &gt; 5) and (Me.Position.Y &lt; 9) and (Me.Position.Z &gt; -7) and (Me.Position.Z &lt; 9)">
-				<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-28.15974,6.310806,9.812424" />		<!-- GoTo Elevator 2 -->				
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Waste Disposal"
-					XYZ="-28.15974,6.310806,9.812424" />	
-			</If> 
 
 			<If Condition="(not IsStepComplete(0xE00009A5ADED8A3C, 2))">
 				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
@@ -190,28 +161,11 @@
 				</If>
 			</If>
 			
-			<If Condition="(not IsStepComplete(0xE00009A5ADED8A3C, 9))">			
-				<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
-					<MoveTo QuestId="0xE00009A5ADED8A3C" XYZ="-28.11815,1.538235,6.18394" />		<!-- GoTo Elevator 2 -->				
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-						XYZ="-28.11815,1.538235,6.18394" />	
-				</If>
-			</If>
 		</If>	
 		
 
 		<!-- [DAILY] Workforce Reduction -->
 		<If Condition="((HasQuest(0xE0009D1B108AE7B4)) and (not IsQuestComplete(0xE0009D1B108AE7B4)) )">
-			<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
-				<MoveTo QuestId="0xE0009D1B108AE7B4" XYZ="-28.11815,1.538235,6.18394" />			<!-- GoTo Elevator 2 -->			
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-28.11815,1.538235,6.18394" />	
-			</If>
-			<If Condition="(Me.Position.X &gt; -37) and (Me.Position.X &lt; -25) and (Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 11)">
-				<MoveTo QuestId="0xE0009D1B108AE7B4" XYZ="-36.58764,7.841,1.848673" />		<!-- GoTo Elevator 1 -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Offices"
-					XYZ="-36.58764,7.841,1.848673" />
-			</If>	
 			<If Condition="(not IsStepComplete(0xE0009D1B108AE7B4, 2))">
 				<Grind While="(not IsStepComplete(0xE0009D1B108AE7B4, 2))">
 					<GrindArea Name="Workforce Reduction">
@@ -240,16 +194,6 @@
 		
 		<!-- Going to complete Dailies -->
 		<If Condition="((HasQuest(0xE0009D1B108AE7B4)) and (IsStepComplete(0xE0009D1B108AE7B4, 2)) and (HasQuest(0xE00009A5ADED8A3C)) and (IsStepComplete(0xE00009A5ADED8A3C, 8)) and (HasQuest(0xE000E14F725E1809)) and (IsStepComplete(0xE000E14F725E1809, 2)) and (HasQuest(0xE0006A54B7D0F1C2)) and (IsStepComplete(0xE0006A54B7D0F1C2, 2)))">	
-			<If Condition="(Me.Position.X &gt; -32) and (Me.Position.X &lt; -14) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 2) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 7)">
-				<MoveTo QuestId="0xE0009D1B108AE7B4" XYZ="-28.11815,1.538235,6.18394" />			<!-- GoTo Elevator 2 -->			
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Freight Depot"
-					XYZ="-28.11815,1.538235,6.18394" />	
-			</If>
-			<If Condition="(Me.Position.X &gt; -37) and (Me.Position.X &lt; -25) and (Me.Position.Y &gt; 6) and (Me.Position.Y &lt; 8) and (Me.Position.Z &gt; -3) and (Me.Position.Z &lt; 11)">
-				<MoveTo QuestId="0xE0009D1B108AE7B4" XYZ="-36.58764,7.841,1.848673" />		<!-- GoTo Elevator 1 -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Offices"
-					XYZ="-36.58764,7.841,1.848673" />
-			</If>				
 			<MoveTo QuestId="0xE0009D1B108AE7B4" XYZ="-55.38471,8.803679,0.3304866"  />
 			<UseObject QuestId="0xE0009D1B108AE7B4" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-55.38471,8.803679,0.3304866"  />	
 			<CompleteQuest QuestName="[DAILY] Give And Take" QuestId="0xE000E14F725E1809"/>	

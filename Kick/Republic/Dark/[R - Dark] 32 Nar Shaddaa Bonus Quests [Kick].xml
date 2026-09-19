@@ -89,15 +89,9 @@
 				<!-- Travel to Hutt Space - Nar Shaddaa -->
 				<UseObject QuestId="1" ObjectName="Ship Exit" XYZ="0.009287226,0.5900244,-2.999504" />
 			</If>
-			<If Condition="Me.Position.Z &lt; -200">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-									XYZ="-225.0826,68.001,-204.0825" />
-			</If>
 		
 			<PickUpQuest QuestName="Nar Shaddaa: Bonus Series" QuestId="0xE0006ABC532A84C7" GiverName="Deera Ulyette" XYZ="-217.6859,64.501,-180.997" />
  
-			<UseTransport TransporterName="Deucalon Spaceport Taxi" Type="Taxi" Option="Lower Industry Sector Taxi" 
-									XYZ="-193.91,64.50095,-183.16" />
 		</If>
 		
 		<PickUpQuest QuestName="Inspection" QuestId="0xE0008087A8D5DDED" GiverName="Mas Avaho" XYZ="-186.77,-170.0689,292.2" />

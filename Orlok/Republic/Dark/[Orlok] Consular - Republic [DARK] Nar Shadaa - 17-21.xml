@@ -123,10 +123,6 @@
 			</If>
 			<CompleteQuest QuestName="Authorized for Sabotage (Bonus)" QuestId="0xE000398CBAC8EDD9" />
 			<!-- Consular - The Master (Bonus) 0xE000581244AEE1B0 -->
-			<If Condition="(Me.Position.X &lt;= -250) and (Me.Position.Z &lt;= 301)">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
-										XYZ="-255.0624,-167.7633,296.8357" />
-			</If>			
 		</If>
 		
 		

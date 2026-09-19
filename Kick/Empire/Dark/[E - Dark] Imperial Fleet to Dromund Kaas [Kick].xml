@@ -15,25 +15,11 @@
 	<Questing>
 	
 		<!-- Agent, BH, Inquisitor, Warrior - Wonka to Fleet -->
-		<If Condition="(HasQuest(0xE000D722A9D8E989)) or (HasQuest(0xE0005EC6ED10F90F)) or (HasQuest(0xE0006DA1145988E6)) or (HasQuest(0xE000919D1513AC49))">
-			<If Condition="(Me.Position.Y &gt;= 0) and (Me.Position.Y &lt;= 1) and (Me.Position.X &gt;= 660) and (Me.Position.X &lt;= 675) and (Core.Player.AreaId == 0x4000001CCBDD9A50)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator to Station Core" Option="Main Level" 
-									XYZ="663.931,0.09508116,473.2502" />
-			</If>
-		</If>
 
 
 		<!-- Agent, BH, Inquisitor, Warrior - Shuttle to Dromund Kaas -->
 		<If Condition="(HasQuest(0xE000D722A9D8E989)) or (HasQuest(0xE0005EC6ED10F90F)) or (HasQuest(0xE0006DA1145988E6)) or (HasQuest(0xE000919D1513AC49))">
-			<If Condition="(Me.Position.Y &lt;= 72) and (Me.Position.Y &gt;= 68) and (Me.Position.X &gt;= 462) and (Me.Position.X &lt;= 490) and (Core.Player.AreaId == 0x4000001CCBDD9A50)">
-				<UseTransport TransporterName="Dromund Kaas Departures Elevator" Type="Wonkavator" Option="Dromund Kaas Departures" 
-									XYZ="469.9498,70.19608,454.3407" />
-			</If>
-			<If Condition="(Me.Position.Y &lt;= 2) and (Me.Position.Y &gt;= 0) and (Me.Position.X &gt;= 468) and (Me.Position.X &lt;= 483) and (Core.Player.AreaId == 0x4000001CCBDD9A50)">
-				<UseTransport TransporterName="Shuttle to Dromund Kaas" Type="Wonkavator" Option="Dromund Kaas Spaceport" 
-									XYZ="470.0637,0.5861785,267.8914" />
-				<WaitTimer QuestId="1" WaitTime="30" />
-			</If>
+			<WaitTimer QuestId="1" WaitTime="30" />
 		</If>
 	
 		<LoadProfile Path="[E - Dark] 10-17 Dromund Kaas [Kick].xml" />

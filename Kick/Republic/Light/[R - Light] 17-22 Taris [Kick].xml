@@ -291,8 +291,6 @@
 		<If Condition="(Me.Class == CharacterClass.Knight)">
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -41) and (Me.Position.Y &lt; -39) and (Me.Position.Z &gt; 20) and (Me.Position.Z &lt; 50)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'The Architect of Annihilation'" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-211.96,-40.60636,48.12917" />
 			</If>	
 		</If>
 
@@ -300,22 +298,14 @@
 			<If Condition="(not IsBranchStepComplete(0xE000033762E7E517, 3, 2))">
 				<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -35) and (Me.Position.Y &lt; -32) and (Me.Position.Z &gt; 24) and (Me.Position.Z &lt; 50)">
 					<UserDialog Title="CryoGenesis" Message="You are on 'The Vault', step 'Return to Beryl Thorne'. We are now going to complete this quest and the bonus series." />
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-											XYZ="-213.562,-33.60794,48.13525" />
 				</If>	
 			</If>
-			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -35) and (Me.Position.Y &lt; -32) and (Me.Position.Z &gt; 24) and (Me.Position.Z &lt; 50)">
-				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Beryl's Bargain'" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-213.562,-33.60794,48.13525" />
-			</If>	
+			<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Beryl's Bargain'" />
 		</If>	
 
 		<If Condition="(Me.Class == CharacterClass.Trooper)">
 			<If Condition="(Me.Position.X &gt; -214) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; -41) and (Me.Position.Y &lt; -39) and (Me.Position.Z &gt; 70) and (Me.Position.Z &lt; 95)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Welcome Party'" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-										XYZ="-211.2708,-40.61089,72.28619" />
 			</If>	
 		</If>
 
@@ -632,8 +622,6 @@
 			<PickUpQuest QuestName="The Corpse Counters" QuestId="0xE00019F65BB6893C" GiverName="Cera" XYZ="-71.20776,-12.99559,4.777747" />
 			<!-- Learn Bindpoint, Speeder, Sell / repair -->
  
-			<UseTransport TransporterName="Waypoint Station Aurek Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="-73.2112,-12.99559,0.5226" />
 		</If>
 	
 		<!-- Usetransport Aurek to Olaris -->
@@ -663,8 +651,6 @@
 			<!-- Wake of the Spire 0xE000AC5B6DD93272 -->
 			<!-- Force Vendor, Repair, Mail -->
  
-			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Aurek Speeder" 
-									XYZ="-183.4904,-20.01153,50.9324" />
 		</If>
 
 		<!-- Turnin Wake of the Spire -->
@@ -1459,13 +1445,7 @@
 		<!-- Trooper - An Imperial Presence -->
 		<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsQuestComplete(0xE0004A5DD1C1BD45)))">
 			<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsBranchStepComplete(0xE0004A5DD1C1BD45, 1, 4)))">	
-				<If Condition="Me.Position.X &gt;= -100">
-					<UseTransport TransporterName="Waypoint Station Draay Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-											XYZ="-74.5297,-23.71469,79.3271" />
-				</If>	
-				<If Condition="Me.Position.X &lt;= -100">
-					<TalkTo QuestId="0xE0004A5DD1C1BD45" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
-				</If>					
+				<TalkTo QuestId="0xE0004A5DD1C1BD45" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
 			</If>
 			<CompleteQuest QuestName="An Imperial Presence" QuestId="0xE0004A5DD1C1BD45" />
 		</If>
@@ -1476,8 +1456,6 @@
 				<If Condition="Me.Position.X &lt;= -100">
 					<ForceVendor VendorType="Train" />
 					<ForceVendor VendorType="Repair" />				
-					<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Draay Speeder" 
-											XYZ="-183.4904,-20.01153,50.9324" />
 				</If>			
 			</If>
 		</If>		
@@ -1559,10 +1537,6 @@
 		<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsQuestComplete(0xE0005896427A1928)))">
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 3)))">
 				<!-- If I am at Morne - UseTaxi to Olaris -->
-				<If Condition="Me.Position.X &gt;= 0">
-					<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78" />
-				</If>
 				<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" XYZ="-206.3995,-19.259,84.62611" />
 				<JumpTo 	QuestId="1" 
 							XYZ="-206.5343,-19.04475,84.03036" 
@@ -1925,14 +1899,8 @@
 		<!-- Smuggler - The Vault -->
 		<If Condition="((HasQuest(0xE0003BDD52123B85)) and (not IsQuestComplete(0xE0003BDD52123B85)))">
 			<If Condition="((HasQuest(0xE0003BDD52123B85)) and (not IsBranchStepComplete(0xE0003BDD52123B85, 1, 2)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-											XYZ="-212.8937,-19.51024,48.12398" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<MoveTo QuestId="0xE0003BDD52123B85" Name="Going to XS Stock Light for Risha" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />
-					<UserDialog Title="CryoGenesis" Message="I'm NOT Done on Taris! If you are not on your ship right now, stop the bot, get on it and speak to Risha for 'The Vault'. Then get back on this planet and start the bot again! (you need to restart the bot)" />
-				</If>
+				<MoveTo QuestId="0xE0003BDD52123B85" Name="Going to XS Stock Light for Risha" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />
+				<UserDialog Title="CryoGenesis" Message="I'm NOT Done on Taris! If you are not on your ship right now, stop the bot, get on it and speak to Risha for 'The Vault'. Then get back on this planet and start the bot again! (you need to restart the bot)" />
 			</If>
 		</If>
 		
@@ -1944,13 +1912,7 @@
 				<CompleteQuest QuestName="Beryl's Reward" QuestId="0xE000209461E490EF" />
 			</If>
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 2)))">
-				<If Condition="Me.Position.X &lt;= 0">
-					<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder" 
-											XYZ="-183.4904,-20.01153,50.9324" />
-				</If>
-				<If Condition="Me.Position.X &gt;= 0">
-					<MoveTo QuestId="0xE000033762E7E517" Name="Going for Slicing the Vault Door, but first kill Roksur" XYZ="115.8759,-19.01828,-31.48846" />
-				</If>	
+				<MoveTo QuestId="0xE000033762E7E517" Name="Going for Slicing the Vault Door, but first kill Roksur" XYZ="115.8759,-19.01828,-31.48846" />
 			</If>
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 4)))">
 				<Grind While="(not IsBranchStepComplete(0xE000033762E7E517, 4, 4))">
@@ -1976,12 +1938,6 @@
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 7)))">
 				<UseObject QuestId="0xE000033762E7E517" BranchId="4" StepId="7" ObjectName="Secured Chest" Radius="20" UseRange="5" IgnoreLOS="True" WaitTime="5" XYZ="118.2245,-19.00562,-31.48497" />
 			</If>		
-			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 8)))">
-				<If Condition="(Me.Position.X &gt;= 117) and (Me.Position.X &lt;= 120) and (Me.Position.Y &gt;= -21) and (Me.Position.Y &lt;= -18) and (Me.Position.Z &gt;= -33) and (Me.Position.Z &lt;= -30)">
-					<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-											XYZ="33.3469,-19.6577,49.78" />
-				</If>
-			</If>				
 		</If>		
 		
 		<!-- Pickup Taris: Bonus Series -->
@@ -2532,14 +2488,8 @@
 		<!-- Consular - Super Reactor -->
 		<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsQuestComplete(0xE00072624DFC54F8)))">
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 8, 2)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-213.5143,-19.5131,72.34254" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<Interact QuestId="0xE00072624DFC54F8" Name="Defender" Radius="20" WaitTime="5" XYZ="-209.0159,-33.10583,89.19955" />
-					<WaitTimer QuestId="1" WaitTime="15" />
-				</If>
+				<Interact QuestId="0xE00072624DFC54F8" Name="Defender" Radius="20" WaitTime="5" XYZ="-209.0159,-33.10583,89.19955" />
+				<WaitTimer QuestId="1" WaitTime="15" />
 				<!-- If I am in my ship -->
 				<TurnInQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" TurnInName="Holoterminal" XYZ="0.001393818,1.676,1.439556" />
 				<CompleteQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" />
@@ -2560,21 +2510,13 @@
 				<!-- This took me like 2 mins to load -->
  
 				<!-- If I am on Nar Shaddaa -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-									XYZ="-225.1948,68.01059,-204.0795" />
 			</If>
 		</If>
 	
 		<!-- Knight - The Rescue -->
 		<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsQuestComplete(0xE000437B1D0CE17C)))">
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 7)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-											XYZ="-211.3234,-19.51262,48.13313" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<MoveTo QuestId="0xE000437B1D0CE17C" Name="Meeting Doctor Godera" Radius="20" WaitTime="5" XYZ="-211.5993,-40.59901,46.55803" />
-				</If>
+				<MoveTo QuestId="0xE000437B1D0CE17C" Name="Meeting Doctor Godera" Radius="20" WaitTime="5" XYZ="-211.5993,-40.59901,46.55803" />
 			</If>
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 9)))">
 				<MoveTo QuestId="0xE000437B1D0CE17C" Name="Defender" Radius="20" WaitTime="5" XYZ="-208.0754,-40.619,34.91928" />
@@ -2585,28 +2527,16 @@
 		<!-- Trooper - A New Ally -->
 		<If Condition="((HasQuest(0xE000E9F9F3A702EC)) and (not IsQuestComplete(0xE000E9F9F3A702EC)))">
 			<If Condition="((HasQuest(0xE000E9F9F3A702EC)) and (not IsBranchStepComplete(0xE000E9F9F3A702EC, 1, 2)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-											XYZ="-211.9009,-19.51434,72.23331" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<MoveTo QuestId="0xE000E9F9F3A702EC" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="-209.6981,-40.599,88.60381" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Taris! If you are not on your ship right now, get on it and complete 'A New Ally'. Next Step is to travel to Nar Shaddaa, restart the bot and load up that quest profile on the planet!" />
-				</If>
+				<MoveTo QuestId="0xE000E9F9F3A702EC" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="-209.6981,-40.599,88.60381" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Taris! If you are not on your ship right now, get on it and complete 'A New Ally'. Next Step is to travel to Nar Shaddaa, restart the bot and load up that quest profile on the planet!" />
 			</If>
 		</If>
 		
 		<!-- Smuggler - The Vault -->
 		<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsQuestComplete(0xE000033762E7E517)))">
 			<If Condition="((HasQuest(0xE000033762E7E517)) and (not IsBranchStepComplete(0xE000033762E7E517, 4, 8)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-											XYZ="-212.8937,-19.51024,48.12398" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<MoveTo QuestId="0xE000033762E7E517" Name="XS Stock Light" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Taris! If you are not on your ship right now, get on it and complete 'The Vault @ Risha'. Next Step is to travel to Nar Shaddaa, restart the bot and load up that quest profile on the planet!" />
-				</If>
+				<MoveTo QuestId="0xE000033762E7E517" Name="XS Stock Light" Radius="20" WaitTime="5" XYZ="-208.0511,-33.60129,33.91807" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Taris! If you are not on your ship right now, get on it and complete 'The Vault @ Risha'. Next Step is to travel to Nar Shaddaa, restart the bot and load up that quest profile on the planet!" />
 			</If>
 		</If>
 		

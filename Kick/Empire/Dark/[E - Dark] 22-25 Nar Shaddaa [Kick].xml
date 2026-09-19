@@ -83,8 +83,6 @@
 					<WaitTimer WaitTime="90" QuestId="1" />
 				</If>
 				<If Condition="(Me.Position.Y &lt;= -5) and (Me.Position.X &lt;= -230) and (Me.Position.X &gt;= -210) and (Core.Player.AreaId == 0x40000002278FFC5D)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-225.1632,-6.966546,-204.0284" />
 									
 					<WaitTimer WaitTime="10" QuestId="1" />
 				</If>
@@ -97,10 +95,6 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- My Ship -->
 					<Interact QuestId="0xE000539A10248ED1" Name="Ship Exit" IgnoreLOS="True" WaitTime="3" XYZ="-0.0025963,0.7983624,4.418161" />
 					<WaitTimer WaitTime="60" QuestId="1" />
-				</If>
-				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-225.0887,5.501,-204.1261" />
 				</If>
 			</If>
 		</If>
@@ -118,8 +112,6 @@
 				<Interact QuestId="0xE0000232FCC11D4A" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 				<WaitTimer WaitTime="90" QuestId="1" />
 				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-224.8444,5.5011,-157.8653" />			
 					<WaitTimer WaitTime="10" QuestId="1" />
 				</If>
 			</If>
@@ -441,10 +433,6 @@
 				</GrindArea>
 			</Grind>
 			<If Condition="HasQuest(0xE000D040F1BDF795) and not IsBranchStepComplete(0xE000D040F1BDF795, 6, 4)">
-				<If Condition="(Me.Position.Y &gt;= 21)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Ukabi's Base" 
-									XYZ="-365.2407,21.53487,-187.0136" />
-				</If>
 				<Grind While="not IsBranchTaskComplete(0xE000D040F1BDF795, 6, 2, 1)">
 					<GrindArea Name="Tearing Apart the Foe - Xandral">
 						<MinLevel>1</MinLevel>
@@ -504,8 +492,6 @@
 				<UseObject ObjectName="Door Panel" QuestId="0xE000D040F1BDF795" BranchId="6" StepId="3" WaitTime="2" XYZ="-362.187,20.2009,-202.6782" />
 				<UseObject ObjectName="Holotable" QuestId="0xE000D040F1BDF795" BranchId="6" StepId="4" WaitTime="3" XYZ="-358.2018,20.201,-202.1072" />
 		
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Ukabi's Base Entrance"
-									XYZ="-374.2703,20.2099,-213.4627" />
 			</If>
 			<If Condition="HasQuest(0xE000D040F1BDF795) and not IsBranchStepComplete(0xE000D040F1BDF795, 6, 5)">
 				<MoveTo QuestId="0xE000D040F1BDF795" XYZ="-394.8856,23.501,-139.0542" />
@@ -549,10 +535,6 @@
 		<!-- Inquisitor - Manufacturing Miracles and Turnin -->
 		<If Condition="((HasQuest(0xE0006484FB280850)) and (not IsQuestComplete(0xE0006484FB280850)))">
 			<If Condition="((HasQuest(0xE0006484FB280850)) and (not IsBranchStepComplete(0xE0006484FB280850, 1, 2)))">
-				<If Condition="(Me.Position.Y &lt; -300) and (Me.Position.Y &gt; -350) and (Me.Position.X &lt; 200) and (Me.Position.X &gt; 150)">
-					<UseTransport TransporterName="Duros Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi"
-									XYZ="192.2398,-316.299,-258.7219" />
-				</If>
 				<MoveTo QuestId="0xE0006484FB280850" XYZ="-90.57227,53.801,-71.41254" />
 				<WaitTimer QuestId="1" WaitTime="8" />
 			</If>
@@ -577,8 +559,6 @@
 			<CompleteQuest QuestName="Manufacturing Miracles" QuestId="0xE0006484FB280850" />
 			-->
 			
-				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Duros Sector Taxi" 
-									XYZ="-125.5166,53.801,-78.1966" />
 			</If>
 			<If Condition="((HasQuest(0xE0006484FB280850)) and (not IsBranchStepComplete(0xE0006484FB280850, 1, 6)))">
 				<MoveTo QuestId="0xE0006484FB280850" XYZ="141.6365,-319.199,-311.6246" />
@@ -831,10 +811,6 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			
-			<If Condition="(Me.Class == CharacterClass.Inquisitor)">
-				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Upper Industrial Sector Taxi" 
-									XYZ="-125.5166,53.801,-78.1966" />
-			</If>
 		</If>
 		
 		<!-- Warrior - Disrupt Negotiations - Return to Halidrell Setsyn -->
@@ -917,15 +893,11 @@
 				<TalkTo QuestId="0xE000E4237A0FF284" Name="Screaming Blade Devotee" XYZ="-237.915,-144.4945,338.1537" />
 				<WaitTimer QuestId="1" WaitTime="8" />
  
-				<UseTransport TransporterName="Upper Industrial Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
-									XYZ="-198.0589,-145.499,274.9999" />
 			</If>
 			<TurnInQuest QuestName="The Big Show" QuestId="0xE000E4237A0FF284" TurnInName="Rylee Dray" XYZ="-82.8044,53.80226,-74.5531" />
 			<CompleteQuest QuestName="The Big Show" QuestId="0xE000E4237A0FF284" />
 			<!-- The Final Act 0xE00061035EAE48C8-->
  
-			<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="" 
-									XYZ="-125.5166,53.801,-78.1966" />
 		</If>
 		
 		<!-- Blackout -->
@@ -1089,18 +1061,8 @@
 	
 		<!-- The Infinite Engine -->
 		<If Condition="((HasQuest(0xE00066CA1CE0250E)) and (not IsQuestComplete(0xE00066CA1CE0250E)))">
-			<If Condition="(not IsBranchStepComplete(0xE00066CA1CE0250E, 1, 3)) or (not IsBranchStepComplete(0xE00066CA1CE0250E, 2, 3))">
-				<If Condition="(Me.Position.Y &lt;= -142)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Abandoned Factory" 
-									XYZ="-235.9684,-145.4901,264.1135" />
-				</If>
-			</If>
 			<!-- Explore Revan's Past (Bonus) -->
 			<If Condition="((HasQuest(0xE0007E97961ED09B)) and (not IsQuestComplete(0xE0007E97961ED09B)))">
-				<If Condition="(Me.Position.Y &lt;= -142)"> <!-- Added this incase you die during, you will use ele again - iN2Fun -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Abandoned Factory" 
-									XYZ="-235.9684,-145.4901,264.1135" />
-				</If>
 				<UseObject ObjectName="Ongree Servant Recording" QuestId="0xE0007E97961ED09B" BranchId="1" StepId="2" WaitTime="4" XYZ="-295.942,-139.9936,318.5753" />
 	
 				<If Condition="((HasQuest(0xE0007E97961ED09B)) and (not IsBranchStepComplete(0xE0007E97961ED09B, 1, 3)))">
@@ -1171,8 +1133,6 @@
 				</Grind>
 				<UseObject ObjectName="The Infinite Engine" QuestId="0xE00066CA1CE0250E" BranchId="2" StepId="3" WaitTime="3" XYZ="-297.7808,-138.358,334.7108" />
 			
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Upper Industrial Sector" 
-									XYZ="-282.2885,-139.9852,307.5773" />
 									
 			</If>
 			<TurnInQuest QuestName="The Infinite Engine" QuestId="0xE00066CA1CE0250E" TurnInName="General Kolvin" XYZ="-213.7062,-145.3951,264.3568" />
@@ -1360,10 +1320,6 @@
 			</If>
 			<UseObject ObjectName="Backup Generator Fwanna" QuestId="0xE000E1B61A1BA276" BranchId="1" StepId="5" WaitTime="4" XYZ="131.3042,-157.299,290.9823" />
 			<If Condition="((HasQuest(0xE000E1B61A1BA276)) and (not IsBranchStepComplete(0xE000E1B61A1BA276, 1, 6)))">
-				<If Condition="(Me.Position.Y &lt;= -157)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="134.5959,-157.299,287.9939" />
-				</If>
 				<UseObject ObjectName="Data Center Terminal" QuestId="0xE000E1B61A1BA276" BranchId="1" StepId="6" WaitTime="3" XYZ="141.9396,-156.299,273.1791" />
 			</If>
 			<CompleteQuest QuestName="Wiping the Slate" QuestId="0xE000E1B61A1BA276" />
@@ -1552,8 +1508,6 @@
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE0003BE7DB5CEA47)) and (not IsBranchStepComplete(0xE0003BE7DB5CEA47, 1, 5)))">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Communications Deck" 
-					  XYZ="-6.619065,5.441,-7.501329" />
 				<MoveTo QuestId="1" XYZ="-3.126952,-0.099,-7.499146" />
 				<MoveTo QuestId="1" XYZ="-0.005607143,-8.063434E-08,-8.231236" />
 				<!-- Cant get this bonus to work right. Bonus Quest
@@ -1562,10 +1516,6 @@
 				<Interact QuestId="0xE0003BE7DB5CEA47" Name="Communications Center Door" WaitTime="5" XYZ="0.01532633,0.006012034,-4.610687" />
 			</If>
 			<If Condition="((HasQuest(0xE0003BE7DB5CEA47)) and (not IsBranchStepComplete(0xE0003BE7DB5CEA47, 4, 2)))">
-				<If Condition="(Me.Position.Y &lt; 8) and (Me.Position.Y &gt; 1)"> <!-- Incase you die, way to get back down -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Communications Deck" 
-					  XYZ="-6.619065,5.441,-7.501329" />
-				</If>
 				<MoveTo QuestId="1" XYZ="0.1800999,0.101,-2.3213" /> <!-- This group of guys are a bitch, use kalto heal tanks close by -->
 				<!-- Cant get this bonus to work right.
 				<If Condition="((HasQuest(0xE000A15A64CCE71A)) and (not IsBranchStepComplete(0xE000A15A64CCE71A, 1, 2)))">
@@ -1577,16 +1527,10 @@
 				-->
 			</If>
 			<If Condition="((HasQuest(0xE0003BE7DB5CEA47)) and (not IsBranchStepComplete(0xE0003BE7DB5CEA47, 4, 3)))">
-				<If Condition="(Me.Position.Y &lt; 8) and (Me.Position.Y &gt; 1)"> <!-- Incase you die, way to get back down -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Communications Deck" 
-					  XYZ="-6.619065,5.441,-7.501329" />
-				</If>
 				<UseObject ObjectName="Holoterminal Controls" QuestId="0xE0003BE7DB5CEA47" BranchId="4" StepId="3" IgnoreLOS="True" WaitTime="5" XYZ="-0.1271026,0.101,-0.5874217" />
 			</If>
 			<If Condition="((HasQuest(0xE0003BE7DB5CEA47)) and (not IsBranchStepComplete(0xE0003BE7DB5CEA47, 5, 2)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000635D26534)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Engineering Deck" 
-					  XYZ="-6.520534,-0.06000007,-7.499419" />
 					<MoveTo QuestId="1" XYZ="-3.003024,5.421,-19.89376" />
 					<Interact QuestId="0xE0003BE7DB5CEA47" Name="Airlock Door" WaitTime="3" XYZ="-3.003024,5.421,-19.89376" /> <!-- Get back on ship -->
 					<WaitTimer QuestId="1" WaitTime="60" />
@@ -1616,24 +1560,15 @@
 					<TalkTo QuestId="0xE000B3DB9E8F94EC" Name="Sharack Breev" XYZ="70.8011,44.501,344.9927" />
 				</If>
 			</If>
-			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 5)))">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mos Ila Spaceport" 
-									XYZ="67.7333,44.50283,359.9426" />
-			</If> <!-- On Tatooine ready for next planet profile! -->
+			 <!-- On Tatooine ready for next planet profile! -->
 		</If>
 		
 		<!-- Agent - Ending the Terror Cycle and Turnin -->
 		<If Condition="((HasQuest(0xE000D7A2C9665385)) and (not IsQuestComplete(0xE000D7A2C9665385)))">
-			<If Condition="(Me.Position.Y &gt;= 10) and (Me.Position.Y &lt;= 20) and (Core.Player.AreaId == 0x40000002278FFC5D)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-									XYZ="-217.6691,14.5011,-187.5749" />
-			</If>
-			<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)">
-				<MoveTo QuestId="1" XYZ="-212.4707,-6.998997,-208.869" />
-				<MoveTo QuestId="1" XYZ="-212.0908,-6.301369,-210.6779" />
-				<Interact Name="X-70B Phantom" IgnoreLOS="True" UseRange="20" WaitTime="9" XYZ="-212.0908,-6.301369,-210.6779" />
-				<WaitTimer QuestId="1" WaitTime="60" />
-			</If>
+			<MoveTo QuestId="1" XYZ="-212.4707,-6.998997,-208.869" />
+			<MoveTo QuestId="1" XYZ="-212.0908,-6.301369,-210.6779" />
+			<Interact Name="X-70B Phantom" IgnoreLOS="True" UseRange="20" WaitTime="9" XYZ="-212.0908,-6.301369,-210.6779" />
+			<WaitTimer QuestId="1" WaitTime="60" />
 			<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)">
 				<Interact Name="Holoterminal" QuestId="0xE000D7A2C9665385" WaitTime="9" XYZ="-0.005310211,1.051,-0.5007078" />
 			</If>
@@ -1649,18 +1584,8 @@
 					<Interact Name="Ship Exit" WaitTime="9" XYZ="1.081685,0.8599994,1.799841" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(Me.Position.Z &lt; -200) and (Me.Position.Z &gt; -215) and (Me.Position.Y &lt; -5) and (Me.Position.Y &gt; -8)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mezenti Spaceport" 
-										XYZ="-225.1475,-6.999,-204.1156" />
-				</If>
-				<If Condition="(Me.Position.Z &lt; -170) and (Me.Position.Z &gt; -200) and (Me.Position.X &lt; -180) and (Me.Position.X &gt; -230)">
-					<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Duros Sector Taxi" 
-									XYZ="-193.4776,14.501,-179.3555" />
-				</If>
-				<If Condition="(Me.Position.Y &lt; -315) and (Me.Position.Y &gt; -320)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Yanol's Hideout" 
-										XYZ="175.3791,-317.699,-275.3097" />
-				</If>
+				<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Duros Sector Taxi" 
+								XYZ="-193.4776,14.501,-179.3555" />
 			</If>
 			<Grind While="(not IsBranchStepComplete(0xE000DCB2762AA893, 1, 3))">
 				<GrindArea Name="Shadow of the Dark Lord  1 3">
@@ -1683,18 +1608,12 @@
 				<TalkTo QuestId="0xE000DCB2762AA893" WaitTime="1" Name="Vyord Yanol" XYZ="-146.2361,-159.199,289.2027" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Duros Slums"
-										XYZ="-157.3457,-159.199,290.6172" />
 			</If>
 			<If Condition="HasQuest(0xE000DCB2762AA893) and not IsBranchStepComplete(0xE000DCB2762AA893, 2, 2)">
 				<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)">
 					<If Condition="(Me.Position.X &gt; 150)">
 						<UseTransport TransporterName="Duros Sector Taxi" Option="Mezenti Spaceport Taxi" 
 										XYZ="192.2398,-316.299,-258.7219" />
-					</If>
-					<If Condition="(Me.Position.X &lt; -175) and (Me.Position.Y &gt;= 10)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-										XYZ="-217.6697,14.5011,-187.4961" />
 					</If>
 					<MoveTo QuestId="1" XYZ="-212.4707,-6.998997,-208.869" />
 					<MoveTo QuestId="1" XYZ="-212.0908,-6.301369,-210.6779" />
@@ -1710,14 +1629,8 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					<If Condition="(Me.Position.Y &lt; -7) and (Me.Position.Y &gt; -8)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Dromund Kaas Spaceport" 
-										XYZ="96.56933,-7.807307,43.29991" />
-					</If>
-					<If Condition="(Me.Position.X &lt; 97) and (Me.Position.X &gt; 85)">
-						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-										XYZ="88.2997,6.340111,36.3558" />
-					</If>
+					<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
+									XYZ="88.2997,6.340111,36.3558" />
 					<If Condition="(Me.Position.Z &lt; 32) and (Me.Position.Z &gt; -5)">
 						<UseTransport TransporterName="Kaas City Central Taxi" Option="Sith Sanctum Taxi" 
 										XYZ="-19.36833,4.007462,-1.192061" />
@@ -1734,10 +1647,6 @@
 					<If Condition="(Me.Position.X &lt; -5) and (Me.Position.X &gt; -22)">
 						<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
 										XYZ="-8.4563,4.1061,31.0347" />
-					</If>
-					<If Condition="(Me.Position.Y &lt; 8) and (Me.Position.Y &gt; 5)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-										XYZ="96.79451,6.185659,42.70875" />
 					</If>
 					<MoveTo QuestId="1" XYZ="78.88722,-7.798998,51.27916" />
 					<MoveTo QuestId="1" XYZ="77.52087,-7.101369,50.18936" />
@@ -1764,10 +1673,6 @@
 					<Interact Name="Ship Exit" XYZ="1.125018,0.8599994,1.794628" />
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
-				<If Condition="(Me.Position.Y &lt; 45) and (Me.Position.Y &gt; 44)"> <!-- For some reason - this doesn't work -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mos Ila Spaceport" 
-									XYZ="53.37687,44.49774,360.0264" />
-				</If>
 			</If>
 		</If>
 		
@@ -1775,10 +1680,6 @@
 		<If Condition="((HasQuest(0xE00061035EAE48C8)) and (not IsQuestComplete(0xE00061035EAE48C8)))">
 			<If Condition="((HasQuest(0xE00061035EAE48C8)) and (not IsBranchStepComplete(0xE00061035EAE48C8, 1, 6)))">
 				<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
-					<If Condition="(Me.Position.Y &gt;= 10) and (Me.Position.Y &lt;= 20)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Sith Inquisitor Hangar" 
-									XYZ="-213.4138,14.53979,-187.2183" />
-					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="-214.0679,5.501002,-211.2578" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="-212.8216,6.176836,-211.649" />
 					<Interact IgnoreLOS="True" UseRange="40" WaitTime="5" Name="Fury" XYZ="-212.8216,6.176836,-211.649" />
@@ -1799,20 +1700,6 @@
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(Core.Player.AreaId == 0x4000000106296B6D)"> <!-- Korriban -->
-					<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 107) and (Me.Position.X &gt; 103)"> <!-- Inquisitor Airlock -->
-						<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Korriban Orbital Station"
-									XYZ="105.0125,-100.0039,8.820145" />
-					</If>
-					<If Condition="(Me.Position.Y &lt; -99) and (Me.Position.Y &gt; -101) and (Me.Position.X &lt; 103) and (Me.Position.X &gt; 99)"> <!-- Korriban Orbital Station -->
-						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Korriban"
-									XYZ="100.1065,-99.34077,-11.82215" />
-					</If>
-					<If Condition="(Me.Position.Y &lt; 10) and (Me.Position.Y &gt; -2) and (Me.Position.X &lt; 20) and (Me.Position.X &gt; -60)"> <!-- Korriban to Lord K Stronghold -->
-						<UseTransport TransporterName="Shuttle Request Terminal" Type="Wonkavator" Option="Lord Khreusis's Stronghold"
-									XYZ="-54.66706,8.67895,-1.824936" />
-					</If>
-				</If>
 				<MoveTo QuestId="0xE0004F4F887C2A7C" XYZ="52.55021,-7.399,-13.46925" />
 			</If>
 			<If Condition="((HasQuest(0xE0004F4F887C2A7C)) and (not IsBranchStepComplete(0xE0004F4F887C2A7C, 1, 4)))">
@@ -1832,16 +1719,6 @@
 			</Grind>
 			<!-- Skip 2 3 -->
 			<If Condition="((HasQuest(0xE0004F4F887C2A7C)) and (not IsBranchStepComplete(0xE0004F4F887C2A7C, 2, 4)))">
-				<If Condition="(Core.Player.AreaId == 0x4000000106296B6D)"> <!-- Korriban -->
-					<If Condition="(Me.Position.Y &lt; -5) and (Me.Position.Y &gt; -8) and (Me.Position.X &lt; 65) and (Me.Position.X &gt; 50)"> <!-- Lord K Stronghold to Korriban Main -->
-						<UseTransport TransporterName="Shuttle Request Terminal" Type="Wonkavator" Option="Sith Academy"
-									XYZ="54.19098,-7.383286,-12.34883" />
-					</If>
-					<If Condition="(Me.Position.Y &gt; -5) and (Me.Position.Y &lt; 5)">
-						<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship"
-									XYZ="14.34693,0.749236,12.68935" />
-					</If>
-				</If>
 				<Interact IgnoreLOS="True" WaitTime="5" Name="Holoterminal" XYZ="0.2502703,0.9977617,2.618363" />
 			</If>
 			<CompleteQuest QuestName="Preparations" QuestId="0xE0004F4F887C2A7C" />
@@ -1861,10 +1738,6 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 					<WaitTimer QuestId="1" WaitTime="60" />
-				</If>
-				<If Condition="(Me.Position.Y &gt; 37) and (Me.Position.Y &lt; 38)"> <!-- Inq Hangar to Tatooine Main -->
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mos Ila Spaceport"
-									XYZ="69.36097,37.50399,359.9852" />
 				</If>
 				<TalkTo QuestId="0xE0009674CCD5C6FE" Name="Ka'van Aip" XYZ="60.5228,51.911,357.9247" />
 			</If>

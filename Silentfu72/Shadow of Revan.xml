@@ -764,10 +764,6 @@
 		<!--Pub-->
 		<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
 			<If Condition="((HasQuest(0xE000402709268179)) and (not IsQuestComplete(0xE000402709268179)))">
-				<If Condition="((HasQuest(0xE000402709268179)) and (not IsBranchStepComplete(0xE000402709268179, 1, 2)))">
-					<UseTransport TransporterName="Transport Crate" Type="Wonkavator" Option="Slaver Camp"
-									XYZ="-17.508,-0.06895099,-31.93381" />
-				</If>
 				<If Condition="((HasQuest(0xE000402709268179)) and (not IsBranchStepComplete(0xE000402709268179, 1, 3)))">	
 					<MoveTo QuestId="1" XYZ="309.9585,0.5929859,-165.8189" />
 					<MoveTo QuestId="1" XYZ="309.823,0.6317617,-166.2239" />
@@ -818,10 +814,6 @@
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>			
 				<If Condition="((HasQuest(0xE000402709268179)) and (not IsBranchStepComplete(0xE000402709268179, 1, 5)))">
-					<If Condition="(Me.Position.X &gt; 309) and (Me.Position.X &lt; 314) and (Me.Position.Y &gt; 0.58) and (Me.Position.Y &lt; 0.63) and (Me.Position.Z &gt; -167) and (Me.Position.Z &lt; -161)">	
-						<UseTransport TransporterName="Speeder" Type="Wonkavator" Option="Raider's Cove Island"
-									XYZ="311.8945,0.6188578,-165.4711" />
-					</If>
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 					<TalkTo QuestId="0xE000402709268179" Name="Theron Shan" XYZ="111.2914,1.543695,35.8501" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -833,10 +825,6 @@
 		<!--Imp-->
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
 			<If Condition="((HasQuest(0xE000DFE4821D2A80)) and (not IsQuestComplete(0xE000DFE4821D2A80)))">
-				<If Condition="((HasQuest(0xE000DFE4821D2A80)) and (not IsBranchStepComplete(0xE000DFE4821D2A80, 1, 2)))">
-					<UseTransport TransporterName="Transport Crate" Type="Wonkavator" Option="Slaver Camp"
-									XYZ="-17.508,-0.06895099,-31.93381" />
-				</If>
 				<If Condition="((HasQuest(0xE000DFE4821D2A80)) and (not IsBranchStepComplete(0xE000DFE4821D2A80, 1, 3)))">	
 					<MoveTo QuestId="1" XYZ="309.9585,0.5929859,-165.8189" />
 					<MoveTo QuestId="1" XYZ="309.823,0.6317617,-166.2239" />
@@ -887,10 +875,6 @@
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>			
 				<If Condition="((HasQuest(0xE000DFE4821D2A80)) and (not IsBranchStepComplete(0xE000DFE4821D2A80, 1, 5)))">
-					<If Condition="(Me.Position.X &gt; 309) and (Me.Position.X &lt; 314) and (Me.Position.Y &gt; 0.58) and (Me.Position.Y &lt; 0.63) and (Me.Position.Z &gt; -167) and (Me.Position.Z &lt; -161)">	
-						<UseTransport TransporterName="Speeder" Type="Wonkavator" Option="Raider's Cove Island"
-									XYZ="311.8945,0.6188578,-165.4711" />
-					</If>
 					<MoveTo QuestId="1" XYZ="96.82137,1.116233,8.846463" />
 					<TalkTo QuestId="0xE000DFE4821D2A80" Name="Lana Beniko" XYZ="111.2827,1.543648,35.7456" />
 				</If>
@@ -1197,11 +1181,6 @@
 		<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
 			<If Condition="((HasQuest(0xE0006ABD17BC2AF4)) and (not IsQuestComplete(0xE0006ABD17BC2AF4)))">
 				<If Condition="((HasQuest(0xE0006ABD17BC2AF4)) and (not IsBranchStepComplete(0xE0006ABD17BC2AF4, 1, 2)))">
-					<If Condition="(Me.Position.Z &gt; -122)">	
-						<MoveTo QuestId="1" XYZ="101.9235,1.440086,34.70823" />
-						<UseTransport TransporterName="Biguh Johs" Type="Taxi" Option="South Ridge Beach" 
-									XYZ="108.6901,1.629778,52.875" />
-					</If>
 					<TalkTo QuestId="0xE0006ABD17BC2AF4" Name="Arankau" XYZ="22.1604,10.95924,-179.4751" />
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
 				<CompleteQuest QuestName="The Revanites Revealed" QuestId="0xE0006ABD17BC2AF4" />
@@ -1213,11 +1192,6 @@
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
 			<If Condition="((HasQuest(0xE0000682DEA7C54F)) and (not IsQuestComplete(0xE0000682DEA7C54F)))">
 				<If Condition="((HasQuest(0xE0000682DEA7C54F)) and (not IsBranchStepComplete(0xE0000682DEA7C54F, 1, 2)))">
-					<If Condition="(Me.Position.Z &gt; -122)">	
-						<MoveTo QuestId="1" XYZ="101.9235,1.440086,34.70823" />
-						<UseTransport TransporterName="Biguh Johs" Type="Taxi" Option="South Ridge Beach" 
-									XYZ="108.6901,1.629778,52.875" />
-					</If>
 					<TalkTo QuestId="0xE0000682DEA7C54F" Name="Arankau" XYZ="22.1604,10.95924,-179.4751" />	
 				</If>
 			</If>
@@ -1390,10 +1364,6 @@
 					<UserDialog Title="IMPORTANT" Message="Please complete the flashpoint Battle of Rishi and then click OK on this window or restart the bot to continue the bot." />
 				</If>
 				<If Condition="((HasQuest(0xE0004C197ECB9FA0)) and (not IsBranchStepComplete(0xE0004C197ECB9FA0, 1, 4)))">
-					<If Condition="(Me.Position.Z &lt; -122)">	
-						<UseTransport TransporterName="Bluuto Karlabasy" Type="Taxi" Option="Raider's Cove" 
-									XYZ="33.9957,11.3704,-184.0713" />
-					</If>
 					<MoveTo QuestId="1" XYZ="111.2914,1.543695,35.8501" />
 				</If>
 				<If Condition="((HasQuest(0xE0004C197ECB9FA0)) and (not IsBranchStepComplete(0xE0004C197ECB9FA0, 1, 5)))">
@@ -1414,10 +1384,6 @@
 					<UserDialog Title="IMPORTANT" Message="Please complete the flashpoint Battle of Rishi and then click OK on this window or restart the bot to continue the bot." />
 				</If>
 				<If Condition="((HasQuest(0xE000FF19E733F2AC)) and (not IsBranchStepComplete(0xE000FF19E733F2AC, 1, 4)))">
-					<If Condition="(Me.Position.Z &lt; -122)">	
-						<UseTransport TransporterName="Bluuto Karlabasy" Type="Taxi" Option="Raider's Cove" 
-									XYZ="33.9957,11.3704,-184.0713" />
-					</If>
 					<MoveTo QuestId="1" XYZ="111.2914,1.543695,35.8501" />
 				</If>
 				<If Condition="((HasQuest(0xE000FF19E733F2AC)) and (not IsBranchStepComplete(0xE000FF19E733F2AC, 1, 5)))">
@@ -1433,11 +1399,6 @@
 				<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 2)))">
 					<!--Consular Ship-->
 					<If Condition="(Me.Class == CharacterClass.Consular)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="111.0343,1.542105,66.87128" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="111.0343,1.542105,66.87128" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />			
 						<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 						<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
@@ -1447,11 +1408,6 @@
 					</If>
 					<!--Knight Ship-->
 					<If Condition="(Me.Class == CharacterClass.Knight)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="111.0343,1.542105,66.87128" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="111.0343,1.542105,66.87128" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />			
 						<MoveTo QuestId="1" XYZ="-0.00725059,0.5976821,-2.789144" />
 						<MoveTo QuestId="1" XYZ="-0.04013479,1.350018,-1.200922" />
@@ -1461,11 +1417,6 @@
 					</If>
 					<!--Trooper Ship-->
 					<If Condition="(Me.Class == CharacterClass.Trooper)">
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="111.0343,1.542105,66.87128" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="111.0343,1.542105,66.87128" /> <!--Needs to be updated-->
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />
 					
 					
@@ -1473,11 +1424,6 @@
 					</If>
 					<!--Smuggler Ship-->
 					<If Condition="(Me.Class == CharacterClass.Smuggler)">
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="111.0343,1.542105,66.87128" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="111.0343,1.542105,66.87128" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />
 						<Interact QuestId="0xE000F14973481E72" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="-0.09313411,0.2027456,-6.091435" />
 						<SpaceTravel Planet="Yavin 4" />					
@@ -1526,10 +1472,6 @@
 					<Interact QuestId="0xE000F14973481E72" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />
 				</If>
 				<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 4)))">
-					<If Condition="(Me.Position.X &gt; 320)">
-						<UseTransport TransporterName="Republic Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
-									XYZ="335.1349,39.74633,14.4142" />					
-					</If>
 					<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsTaskComplete(0xE000F14973481E72, 4, 1)))">
 						<MoveTo QuestId="1" XYZ="272.6001,9.827632,108.7865" />
 						<UseObject QuestId="0xE000F14973481E72" ObjectName="Perimeter Sensor Base" BranchId="1" StepId="4" TaskId="1" Radius="5" WaitTime="20" XYZ="272.6001,9.827632,108.7865" />
@@ -1564,10 +1506,6 @@
 					<Grind GrindRef="Savage Jungle (Bonus)" While="(not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2))" />
 				</If>
 				<If Condition="((HasQuest(0xE000F14973481E72)) and (not IsBranchStepComplete(0xE000F14973481E72, 1, 6)))">
-					<If Condition="(Me.Position.X &lt; 320)">		
-						<UseTransport TransporterName="Republic Forward Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="286.0565,10.29275,98.6374" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000F14973481E72" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />	
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -1582,44 +1520,24 @@
 				<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 2)))">
 					<!--Inquisitor Ship-->
 					<If Condition="(Me.Class == CharacterClass.Inquisitor)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="87.77984,1.542341,68.60228" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="87.77984,1.542341,68.60228" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />
 						<Interact QuestId="0xE000D8D15D9A152C" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1685938,1.114946,0.5352982" />
 						<SpaceTravel Planet="Yavin 4" />					
 					</If>
 					<!--Warrior Ship-->
 					<If Condition="(Me.Class == CharacterClass.Warrior)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="87.77984,1.542341,68.60228" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="87.77984,1.542341,68.60228" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />
 						<Interact QuestId="0xE000D8D15D9A152C" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1685938,1.114946,0.5352982" />
 						<SpaceTravel Planet="Yavin 4" />					
 					</If>
 					<!--Bounty Hunter Ship-->
 					<If Condition="(Me.Class == CharacterClass.BountyHunter)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="87.77984,1.542341,68.60228" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="87.77984,1.542341,68.60228" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />
 						<Interact QuestId="0xE000D8D15D9A152C" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="0.1098477,1.551,-4.595932" />
 						<SpaceTravel Planet="Yavin 4" />					
 					</If>
 					<!--Agent Ship-->
 					<If Condition="(Me.Class == CharacterClass.Agent)">				
-						<While Condition="(Core.Player.AreaId == 0x4000004D6A0E1328)"> <!--Rishi-->
-							<MoveTo QuestId="1" XYZ="87.77984,1.542341,68.60228" />
-							<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Your Ship" 
-										XYZ="87.77984,1.542341,68.60228" />
-						</While>
 						<WaitTimer QuestId="1" WaitTime="60" />	
 						<Interact QuestId="0xE000D8D15D9A152C" Name="Galaxy Map" Radius="20" WaitTime="5" XYZ="-0.1820712,1.111,-3.704983" />
 						<SpaceTravel Planet="Yavin 4" />
@@ -1670,10 +1588,6 @@
 					<TalkTo QuestId="0xE000D8D15D9A152C" Name="Darth Marr" XYZ="360.0846,40.05248,11.9717" />
 				</If>
 				<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 4)))">				
-					<If Condition="(Me.Position.X &gt; 320)">
-						<UseTransport TransporterName="Imperial Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
-											XYZ="335.0037,39.74633,16.3005" />
-					</If>
 					<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsTaskComplete(0xE000D8D15D9A152C, 4, 3)))">
 						<MoveTo QuestId="1" XYZ="267.7653,15.44802,22.21747" />
 						<UseObject QuestId="0xE000D8D15D9A152C" ObjectName="Perimeter Sensor Base" BranchId="1" StepId="4" TaskId="3" Radiuse="5" WaitTime="20" XYZ="267.7653,15.44802,22.21747" />
@@ -1708,10 +1622,6 @@
 					<Grind GrindRef="Savage Jungle (Bonus)" While="(not IsBranchStepComplete(0xE00020CEB852C1DD, 1, 2))" />
 				</If>
 				<If Condition="((HasQuest(0xE000D8D15D9A152C)) and (not IsBranchStepComplete(0xE000D8D15D9A152C, 1, 6)))">
-					<If Condition="(Me.Position.X &lt; 320)">		
-						<UseTransport TransporterName="Imperial Forward Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="289.0865,15.43625,22.644" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<TalkTo QuestId="0xE000D8D15D9A152C" Name="Darth Marr" XYZ="360.0846,40.05248,11.9717" />
 				</If>
@@ -1723,10 +1633,6 @@
 		<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
 			<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsQuestComplete(0xE000A4A661D5899C)))">
 				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 2)))">
-					<If Condition="(Me.Position.X &gt; 320)">	
-						<UseTransport TransporterName="Republic Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
-									XYZ="335.1349,39.74633,14.4142" />
-					</If>
 					<MoveTo QuestId="1" XYZ="243.0355,13.05629,87.82652" />				
 				</If>
 				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 3)))">
@@ -1773,10 +1679,6 @@
 					<TalkTo QuestId="0xE000A4A661D5899C" Name="Commandant Iven" Range="5" Radius="100" XYZ="228.4732,14.86376,67.6489" />
 				</If>
 				<If Condition="((HasQuest(0xE000A4A661D5899C)) and (not IsBranchStepComplete(0xE000A4A661D5899C, 1, 8)))">
-					<If Condition="(Me.Position.X &lt; 320)">		
-						<UseTransport TransporterName="Republic Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="205.3569,12.96009,97.6931" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000A4A661D5899C" Name="Conference Table" BranchId="1" StepId="3" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />	
 					<!--<If Condition="(Me.Class == CharacterClass.Consular)">
@@ -1789,10 +1691,6 @@
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
 			<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsQuestComplete(0xE000996E2650D4A3)))">
 				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 2)))">
-					<If Condition="(Me.Position.X &gt; 320)">
-						<UseTransport TransporterName="Imperial Taxi Droid" Type="Taxi" Option="Forward Camp Speeder" 
-											XYZ="335.0037,39.74633,16.3005" />
-					</If>
 					<MoveTo QuestId="1" XYZ="243.0355,13.05629,87.82652" />				
 				</If>
 				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 3)))">
@@ -1839,10 +1737,6 @@
 					<TalkTo QuestId="0xE000996E2650D4A3" Name="Commandant Iven" Range="5" Radius="100" XYZ="228.4732,14.86376,67.6489" />
 				</If>
 				<If Condition="((HasQuest(0xE000996E2650D4A3)) and (not IsBranchStepComplete(0xE000996E2650D4A3, 1, 8)))">
-					<If Condition="(Me.Position.X &lt; 320)">	
-						<UseTransport TransporterName="Imperial Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="204.7843,15.60768,36.6001" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<TalkTo QuestId="0xE000996E2650D4A3" Name="Darth Marr" XYZ="360.0846,40.05248,11.9717" />
 				</If>			
@@ -1854,10 +1748,6 @@
 		<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
 			<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsQuestComplete(0xE00058476DA69D01)))">
 				<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsBranchStepComplete(0xE00058476DA69D01, 1, 2)))">
-					<If Condition="(Me.Position.X &gt; 320)">
-						<UseTransport TransporterName="Republic Taxi Droid" Type="Taxi" Option="Republic Recon Camp Speeder" 
-									XYZ="335.1349,39.74633,14.4142" />
-					</If>
 					<MoveTo QuestId="1" XYZ="163.5884,15.14632,66.13719" />
 				</If>
 				<If Condition="((HasQuest(0xE00058476DA69D01)) and (not IsBranchStepComplete(0xE00058476DA69D01, 1, 3)))">
@@ -1924,10 +1814,6 @@
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
 			<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsQuestComplete(0xE00093446FD1183E)))">
 				<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsBranchStepComplete(0xE00093446FD1183E, 1, 2)))">
-					<If Condition="(Me.Position.X &gt; 320)">
-						<UseTransport TransporterName="Imperial Taxi Droid" Type="Taxi" Option="Imperial Recon Camp Speeder" 
-									XYZ="335.0037,39.74633,16.3005" />
-					</If>
 					<MoveTo QuestId="1" XYZ="163.5884,15.14632,66.13719" />
 				</If>
 				<If Condition="((HasQuest(0xE00093446FD1183E)) and (not IsBranchStepComplete(0xE00093446FD1183E, 1, 3)))">
@@ -1993,10 +1879,6 @@
 		<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
 			<If Condition="((HasQuest(0xE000A2F1D0ABB9D2)) and (not IsQuestComplete(0xE000A2F1D0ABB9D2)))">
 				<If Condition="((HasQuest(0xE000A2F1D0ABB9D2)) and (not IsBranchStepComplete(0xE000A2F1D0ABB9D2, 5, 2)))">
-					<If Condition="(Me.Position.X &lt; 320)">		
-						<UseTransport TransporterName="Temple Ruins Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="139.7675,16.33642,62.8517" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000A2F1D0ABB9D2" Name="Conference Table" BranchId="5" StepId="2" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />							
 				</If>
@@ -2022,12 +1904,6 @@
 						<UserDialog Title="IMPORTANT" Message="Please click Accept and then click OK on this window to continue." />
 					</If>
 					<!--Using Taxi-->
-					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
-						<If Condition="(Me.Position.X &gt; 320)">
-							<UseTransport TransporterName="Republic Taxi Droid" Type="Taxi" Option="Temple Ruins Speeder" 
-											XYZ="335.1349,39.74633,14.4142" />
-						</If>
-					</If>
 					<!--Picking up [DAILY] Pathfinding-->
 					<If Condition="((not HasQuest(0xE0009E9FAED31D0C)) and (not IsQuestComplete(0xE0009E9FAED31D0C)))">
 						<TalkTo QuestId="1" Name="Sergeant Geiz" XYZ="168.0009,15.3717,72.0302" />
@@ -2153,12 +2029,6 @@
 					</If>
 					<!--Turning in Dailies-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 4)))">
-						<If Condition="(Me.Position.X &lt; 320)">	
-							<If Condition="((Me.Class == CharacterClass.Consular) or (Me.Class == CharacterClass.Smuggler) or (Me.Class == CharacterClass.Knight) or (Me.Class == CharacterClass.Trooper))">
-								<UseTransport TransporterName="Republic Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-										XYZ="205.3569,12.96009,97.6931" />
-							</If>
-						</If>
 						<TalkTo QuestId="0xE0007EC3F5A3CF10" Name="Lord Ray'en" XYZ="342.1049,40.19028,16.0273" />
 						<CompleteQuest QuestName="[DAILY] Chopping Block" QuestId="0xE0007EC3F5A3CF10" />				
 					</If>
@@ -2192,10 +2062,6 @@
 		<If Condition="((Me.Class == CharacterClass.Inquisitor) or (Me.Class == CharacterClass.Agent) or (Me.Class == CharacterClass.Warrior) or (Me.Class == CharacterClass.BountyHunter))">
 			<If Condition="((HasQuest(0xE000B9519E8D8858)) and (not IsQuestComplete(0xE000B9519E8D8858)))">
 				<If Condition="((HasQuest(0xE000B9519E8D8858)) and (not IsBranchStepComplete(0xE000B9519E8D8858, 4, 2)))">
-					<If Condition="(Me.Position.X &lt; 320)">			
-						<UseTransport TransporterName="Temple Ruins Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="139.9597,16.33767,49.7826" />
-					</If>
 					<MoveTo QuestId="1" XYZ="359.9557,40.05248,12.4412" />
 					<Interact QuestId="0xE000B9519E8D8858" Name="Conference Table" BranchId="5" StepId="2" Range="6" Radius="20" WaitTime="5" XYZ="359.9557,40.05248,12.4412" />				
 				</If>
@@ -2221,12 +2087,6 @@
 						<UserDialog Title="IMPORTANT" Message="Please click Accept and then click OK on this window to continue." />
 					</If>
 					<!--Using Taxi-->
-					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 2)))">
-						<If Condition="(Me.Position.X &gt; 320)">	
-							<UseTransport TransporterName="Imperial Taxi Droid" Type="Taxi" Option="Temple Ruins Speeder" 
-											XYZ="335.0037,39.74633,16.3005" />
-						</If>
-					</If>
 					<!--Picking up [DAILY] Pathfinding-->
 					<If Condition="((not HasQuest(0xE0009E9FAED31D0C)) and (not IsQuestComplete(0xE0009E9FAED31D0C)))">
 						<TalkTo QuestId="1" Name="Sergeant Geiz" XYZ="168.0009,15.3717,72.0302" />
@@ -2352,10 +2212,6 @@
 					</If>
 					<!--Turning in Dailies-->
 					<If Condition="((HasQuest(0xE0007EC3F5A3CF10)) and (not IsBranchStepComplete(0xE0007EC3F5A3CF10, 1, 4)))">
-						<If Condition="(Me.Position.X &lt; 320)">
-							<UseTransport TransporterName="Imperial Alcove Camp Taxi Droid" Type="Taxi" Option="Landing Area Speeder" 
-									XYZ="204.7843,15.60768,36.6001" />
-						</If>
 						<TalkTo QuestId="0xE0007EC3F5A3CF10" Name="Lord Ray'en" XYZ="342.1049,40.19028,16.0273" />
 						<CompleteQuest QuestName="[DAILY] Chopping Block" QuestId="0xE0007EC3F5A3CF10" />				
 					</If>

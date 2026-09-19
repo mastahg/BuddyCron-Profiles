@@ -767,10 +767,6 @@
       </If>
       <!-- Auto Skip 3 -->
       <If Condition="((HasQuest(0xE0007C28919A35B3)) and (not IsBranchStepComplete(0xE0007C28919A35B3, 1, 4)))">
-        <If Condition="Me.Position.Y &gt; 3">
-          <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-                       XYZ="87.07934,3.401,41.01107" />
-        </If>
         <MoveTo QuestId="0xE0007C28919A35B3" Name="My Location" XYZ="78.02674,-1.244004E-12,33.97634" />
         <WaitTimer QuestId="1" WaitTime="5" />
       </If>
@@ -807,11 +803,6 @@
     <!-- Lost Son -->
     <If Condition="((HasQuest(0xE000F766AF41897B)) and (not IsQuestComplete(0xE000F766AF41897B)))">
       <If Condition="((HasQuest(0xE000F766AF41897B)) and (not IsBranchStepComplete(0xE000F766AF41897B, 1, 2)))">
-        <If Condition="Me.Position.Y &gt; 3">
-          <MoveTo QuestId="1"  XYZ="87.07934,3.401,41.01107"  />
-          <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-                       XYZ="87.07934,3.401,41.01107" />
-        </If>
         <TalkTo QuestId="0xE000F766AF41897B" Name="Paul" XYZ="70.2835,-0.008999144,31.3874" />
       </If>
     </If>
@@ -819,15 +810,7 @@
     <!-- The Untold Story and Turnin -->
     <If Condition="((HasQuest(0xE000280490BB04A5)) and (not IsQuestComplete(0xE000280490BB04A5)))">
       <If Condition="((HasQuest(0xE000280490BB04A5)) and (not IsBranchStepComplete(0xE000280490BB04A5, 1, 2)))">
-        <If Condition="Me.Position.Y &gt; 3">
-          <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-                       XYZ="87.07934,3.401,41.01107" />
-        </If>
         <TalkTo QuestId="0xE000280490BB04A5" Name="Waxx" XYZ="75.0227,1.001,30.4752" />
-      </If>
-      <If Condition="Me.Position.Y &lt; 3">
-        <UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-                    XYZ="86.96745,1.001,40.97755" />
       </If>
       <TurnInQuest QuestName="The Untold Story" QuestId="0xE000280490BB04A5" TurnInName="Lamalla Rann" XYZ="49.2098,0.8839074,25.8663" />
       <CompleteQuest QuestName="The Untold Story" QuestId="0xE000280490BB04A5" />
@@ -839,8 +822,6 @@
       <TurnInQuest QuestName="Bridging the Gap" QuestId="0xE0004DBF76C3CD7C" TurnInName="Commander Bragan" XYZ="44.671,2.62385,11.178" />
       <CompleteQuest QuestName="Bridging the Gap" QuestId="0xE0004DBF76C3CD7C" />
 
-      <UseTransport TransporterName="Falks Reach Speeder" Type="Taxi" Option="Fort Garnik Speeder"
-									XYZ="47.8944,0.8370317,23.8323" />
     </If>
 
     <!-- Turnin Lost Son -->
@@ -969,10 +950,6 @@
       <ForceVendor VendorType="Repair" />
       <!-- Go to Volcano and learn Taxi, Bindpoint -->
 
-      <If Condition="(Me.Class == CharacterClass.Trooper)">
-        <UseTransport TransporterName="Volcano Camp Speeder" Type="Taxi" Option="Fort Garnik Speeder"
-                    XYZ="-68.4418,2.113015,-20.398" />
-      </If>
     </If>
 
     <!-- Smuggler: Deadly Delivery and Turnin -->
@@ -983,8 +960,6 @@
       <If Condition="((HasQuest(0xE0002C673A9528A6)) and (not IsStepComplete(0xE0002C673A9528A6, 5)))">
         <UseObject QuestId="0xE0002C673A9528A6" ObjectName="Storage Unit" Radius="20" BranchId="1" StepId="5" WaitTime="5" XYZ="-77.61218,1.023154,-19.20007" />
 
-        <UseTransport TransporterName="Volcano Camp Speeder" Type="Taxi" Option="Fort Garnik Speeder"
-                    XYZ="-68.4418,2.113015,-20.398" />
       </If>
       <TurnInQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" TurnInName="Viidu" XYZ="26.0025,6.894484,5.666109" />
       <CompleteQuest QuestName="Deadly Delivery" QuestId="0xE0002C673A9528A6" />
@@ -1043,14 +1018,10 @@
       <If Condition="((HasQuest(0xE0006D8CCC628E00)) and (not IsBranchStepComplete(0xE0006D8CCC628E00, 1, 3)))">
         <TalkTo QuestId="0xE0006D8CCC628E00" Name="Kellik" XYZ="13.3245,6.719966,13.4369" />
 
-        <UseTransport TransporterName="Fort Garnik Speeder" Type="Taxi" Option="Oradam Village Speeder"
-                    XYZ="16.9402,5.880544,-13.348" />
       </If>
       <TurnInQuest QuestName="Hail the Liberators" QuestId="0xE0006D8CCC628E00" TurnInName="Odar" XYZ="-39.2903,1.284223,-49.1898" />
       <CompleteQuest QuestName="Hail the Liberators" QuestId="0xE0006D8CCC628E00" />
 
-      <UseTransport TransporterName="Oradam Village Speeder" Type="Taxi" Option="Volcano Camp Speeder"
-									XYZ="-29.187,2.163444,-61.0815" />
     </If>
 
     <!-- Securing the Landing Zone 2 -->
@@ -1240,8 +1211,6 @@
         </Grind>
         <!-- Until QT works, set up a taxi from volcano to fort garnik -->
 
-        <UseTransport TransporterName="Volcano Camp Speeder" Type="Taxi" Option="Fort Garnik Speeder"
-                    XYZ="-68.4418,2.113015,-20.398" />
       </If>
       <!-- Quick Travel to Fort Garnik -->
     </If>
@@ -1290,8 +1259,6 @@
         <TalkTo QuestId="0xE0001F04AA36AF01" Name="Morant" XYZ="-46.8316,11.89044,32.9331" />
         <!-- Until QT works, set up a taxi from volcano to fort garnik -->
 
-        <UseTransport TransporterName="Volcano Camp Speeder" Type="Taxi" Option="Fort Garnik Speeder"
-                    XYZ="-68.4418,2.113015,-20.398" />
       </If>
       <!-- Auto Skip 5 -->
       <!-- Quick Travel to Fort Garnik -->
@@ -1358,10 +1325,6 @@
       </If>
       <If Condition="((HasQuest(0xE000088232A04F86)) and (not IsStepComplete(0xE000088232A04F86, 5)))">
         <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
-        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
-          <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-                      XYZ="26.7952,6.311908,38.06977" />
-        </If>
       </If>
       <CompleteQuest QuestName="Chasing Skavak" QuestId="0xE000088232A04F86" />
       <!-- Open Corso's Arctic Outfit, click Take All, open companion character tab and equip Corso' Arctic Boots, Pants, Jacket -->
@@ -1369,31 +1332,17 @@
     </If>
 
     <!-- Smuggler: The Gambler -->
-    <If Condition="((HasQuest(0xE0008E987301305E)) and (not IsQuestComplete(0xE0008E987301305E)))">
-      <If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 2)))">
-        <If Condition="(HeroBaseClient.Instance.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
-          <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
-          <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" InteractRange="0.4" Option="Republic Fleet"
-                      XYZ="26.84871,6.363346,38.12912" />
-        </If>
-      </If>
-    </If>
 
     <!-- Trooper: New Assignment -->
     <If Condition="((HasQuest(0xE00015A1CAEE4F2E)) and (not IsQuestComplete(0xE00015A1CAEE4F2E)))">
       <If Condition="((HasQuest(0xE00015A1CAEE4F2E)) and (not IsStepComplete(0xE00015A1CAEE4F2E, 2)))">
         <If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
-          <MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
-          <UseTransport TransporterName="Shuttle Door" Type="Wonkavator" InteractRange="0.4" Option="Republic Fleet"
-                      XYZ="26.84871,6.363346,38.12912" />
 
           <WaitTimer QuestId="1" WaitTime="30" />
         </If>
         <CompleteQuest QuestName="New Assignment" QuestId="0xE00015A1CAEE4F2E" />
         <!-- Open Jorgan's Urban Combat Outfit, click Take all button, then fit your companion with the 3 items Jorgan's Scout Pants, Boots, Jacket -->
         <If Condition="(HeroBaseClient.Instance.AreaName == &quot;republic_fleet&quot;) and (Me.Position.X &lt; -650)">
-          <UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-                      XYZ="-663.7174,0.4950807,-473.2921" />
 
           <WaitTimer QuestId="1" WaitTime="10" />
         </If>

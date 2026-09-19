@@ -357,8 +357,6 @@
 				<If Condition="(HeroBaseClient.Instance.AreaName == &quot;ord_resize&quot;)">
 					<MoveTo QuestId="1" XYZ="26.84871,6.363346,38.12912" />
 					<UserDialog Title="Kick" Message="End of Trial Run.  Please post all bug reports in the designated Beta Testers thread!" />
-					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-									XYZ="26.7952,6.311908,38.06977" />
 				</If>
 			</If>
 			<CompleteQuest QuestName="Chasing Skavak" QuestId="0xE000088232A04F86" />

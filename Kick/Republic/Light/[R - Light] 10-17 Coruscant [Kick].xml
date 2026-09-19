@@ -257,8 +257,6 @@
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 3)))">
 				<UseObject QuestId="0xE0000CB5D481F093" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
  
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D481F093)) and (not IsStepComplete(0xE0000CB5D481F093, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -282,8 +280,6 @@
 				<MoveTo QuestId="0xE0002021F2CF1FFC" Name="Customs Terminal" Radius="20" XYZ="-96.88853,154.001,-389.6191" />
 				<UseObject QuestId="0xE0002021F2CF1FFC" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
  
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE0002021F2CF1FFC)) and (not IsStepComplete(0xE0002021F2CF1FFC, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -299,8 +295,6 @@
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 3)))">
 				<UseObject QuestId="0xE000AE7B9FA6A4D0" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
  
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
 			<If Condition="((HasQuest(0xE000AE7B9FA6A4D0)) and (not IsStepComplete(0xE000AE7B9FA6A4D0, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
@@ -316,10 +310,8 @@
 			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 3)))">
 				<UseObject QuestId="0xE0008E987301305E" ObjectName="Customs Terminal" BranchId="1" StepId="3" Radius="20" IgnoreLOS="true" XYZ="-96.88853,154.001,-389.6191" />
  
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Coruscant Spaceport"
-									XYZ="-101.6861,154.001,-390.5004" />
 			</If>
-			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4))) and (Me.Position.Z &gt; -391)">
+			<If Condition="((HasQuest(0xE0008E987301305E)) and (not IsStepComplete(0xE0008E987301305E, 4)))">
 				<PickupQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" GiverName="Anitol Rosspar" XYZ="-113.8069,143.601,-406.5756" />
 			</If>
 		</If>
@@ -332,8 +324,6 @@
 				<TalkTo QuestId="0xE0000CB5D5BC1DD3" Name="Minister Imogh" XYZ="-113.4124,143.5009,-458.7595" />
 			
 				
-				<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Galactic Market Taxi" 
-									XYZ="-114.6167,142.111,-425.4255" />
 				<!-- Force Sell, Repair, Mail -->
 			</If>
 		</If>
@@ -735,8 +725,6 @@
 			<If Condition="((HasQuest(0xE0000CB5D5BC1DD3)) and (not IsStepComplete(0xE0000CB5D5BC1DD3, 5)))">
 				<TalkTo QuestId="0xE0000CB5D5BC1DD3" Name="Captain Winborn" XYZ="222.4819,43.201,87.2388" />
 			
-				<UseTransport TransporterName="Galactic Market Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-									XYZ="246.0565,44.401,61.6166" />
 			</If>
 			<If Condition="((HasQuest(0xE0000CB5D5BC1DD3)) and (not IsStepComplete(0xE0000CB5D5BC1DD3, 6)))">
 				<TurnInQuest QuestName="Crisis in Galactic City" QuestId="0xE0000CB5D5BC1DD3" TurnInName="Minister Imogh" XYZ="-113.4124,143.5009,-458.7595" />
@@ -797,14 +785,8 @@
 		<!-- Knight - Kidnapped! -->
 		<If Condition="((HasQuest(0xE000D291CE32CB12)) and (not IsQuestComplete(0xE000D291CE32CB12)))">
 			<If Condition="((HasQuest(0xE000D291CE32CB12)) and (not IsBranchStepComplete(0xE000D291CE32CB12, 1, 2)))">
-				<If Condition="(Me.Position.Y &lt; 148)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-											XYZ="-116.383,143.621,-405.227" />
-				</If>
-				<If Condition="(Me.Position.Y &gt; 148)">	
-					<MoveTo QuestId="0xE000D291CE32CB12" Name="Kira Carsen" XYZ="-128.0143,154.011,-386.3517" />
-					<WaitTimer QuestId="0xE000D291CE32CB12" WaitTime="10" />
-				</If>	
+				<MoveTo QuestId="0xE000D291CE32CB12" Name="Kira Carsen" XYZ="-128.0143,154.011,-386.3517" />
+				<WaitTimer QuestId="0xE000D291CE32CB12" WaitTime="10" />
 			</If>	
 			<If Condition="((HasQuest(0xE000D291CE32CB12)) and (not IsBranchStepComplete(0xE000D291CE32CB12, 3, 2)))">	
 				<!-- Eradicate Abduction (Bonus) -->
@@ -838,14 +820,8 @@
 				<TalkTo QuestId="0xE000D291CE32CB12" Name="Zeer" Radius="50" XYZ="-143.9721,154.8,-381.4629" />
 			</If>
 			<If Condition="((HasQuest(0xE000D291CE32CB12)) and (not IsBranchStepComplete(0xE000D291CE32CB12, 4, 2)))">
-				<If Condition="(Me.Position.Y &gt; 148)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-											XYZ="-116.3577,152.021,-405.2718" />		
-				</If>
-				<If Condition="(Me.Position.Y &lt; 148)">
-					<MoveTo QuestId="0xE000D291CE32CB12" Name="Agent Galen" XYZ="-128.201,144.0011,-470.4529" />
-					<WaitTimer QuestId="0xE000D291CE32CB12" WaitTime="10" />
-				</If>		
+				<MoveTo QuestId="0xE000D291CE32CB12" Name="Agent Galen" XYZ="-128.201,144.0011,-470.4529" />
+				<WaitTimer QuestId="0xE000D291CE32CB12" WaitTime="10" />
 			</If>
 			<CompleteQuest QuestName="Kidnapped!" QuestId="0xE000D291CE32CB12" /> <!-- 0 planetary comm; 1 sentinels gloves; 2 Peacekeeper Gloves -->
 		</If>
@@ -854,8 +830,6 @@
 		<If Condition="((not HasQuest(0xE0003775DB998EEA)) and (not IsQuestComplete(0xE0003775DB998EEA)))">
 			<PickupQuest QuestName="The Freightskippers" QuestId="0xE0003775DB998EEA" GiverName="Agent Nurls Yorksin" XYZ="-115.2399,142.701,-431.7927" />
  
-			<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Black Sun Territory Taxi" 
-									XYZ="-114.6167,142.111,-425.4255" />
 			<!-- Learn Bind point -->
 		</If>
 
@@ -1231,40 +1205,32 @@
 		<If Condition="((not HasQuest(0xE000F0BE99AD590B)) and (not IsQuestComplete(0xE000F0BE99AD590B)))">
 			<PickUpQuest QuestName="Secret Passages" QuestId="0xE000F0BE99AD590B" GiverName="Lieutenant Doorn" XYZ="-329.2979,-127.0957,-30.1709" />
  
-			<UseTransport TransporterName="Black Sun Territory Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-									XYZ="-331.6994,-127.099,-30.0932" />
 		</If>
 
 		<!-- Smuggler - Hot Pursuit -->
 		<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsQuestComplete(0xE000D0A7D6B0A490)))">
 			<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 1, 4)))">
-				<If Condition="(Me.Position.Y &lt; 148)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-											XYZ="-116.383,143.621,-405.227" />
-				</If>
-				<If Condition="(Me.Position.Y &gt; 148)">	
-					<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Intercepting Urbax - getting Bonus first" XYZ="-128.1775,154.011,-373.9793" />
-					<!-- Eclipse the Lookouts (Bonus) -->
-					<If Condition="((HasQuest(0xE000B5DDEB1C09A7)) and (not IsQuestComplete(0xE000B5DDEB1C09A7)))">
-						<If Condition="((HasQuest(0xE000B5DDEB1C09A7)) and (not IsBranchStepComplete(0xE000B5DDEB1C09A7, 1, 2)))">
-							<Grind While="(not IsQuestComplete(0xE000B5DDEB1C09A7))">
-								<GrindArea Name="Eclipse the Lookouts (Bonus)">
-									<MinLevel>1</MinLevel>
-									<MaxLevel>100</MaxLevel>
-									<Mobs>
-										<Mob>Black Sun Mercenary</Mob>
-										<Mob>Black Sun Slicer</Mob>
-									</Mobs>
-									<Hotspots>
-										<Hotspot Name="Black Sun Mercenary" XYZ="-127.9353,154.001,-370.8163" />
-										<Hotspot Name="Black Sun Slicer" XYZ="-131.1052,154.001,-368.7877" />
-									</Hotspots>
-								</GrindArea>
-							</Grind>
-						</If>
+				<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Intercepting Urbax - getting Bonus first" XYZ="-128.1775,154.011,-373.9793" />
+				<!-- Eclipse the Lookouts (Bonus) -->
+				<If Condition="((HasQuest(0xE000B5DDEB1C09A7)) and (not IsQuestComplete(0xE000B5DDEB1C09A7)))">
+					<If Condition="((HasQuest(0xE000B5DDEB1C09A7)) and (not IsBranchStepComplete(0xE000B5DDEB1C09A7, 1, 2)))">
+						<Grind While="(not IsQuestComplete(0xE000B5DDEB1C09A7))">
+							<GrindArea Name="Eclipse the Lookouts (Bonus)">
+								<MinLevel>1</MinLevel>
+								<MaxLevel>100</MaxLevel>
+								<Mobs>
+									<Mob>Black Sun Mercenary</Mob>
+									<Mob>Black Sun Slicer</Mob>
+								</Mobs>
+								<Hotspots>
+									<Hotspot Name="Black Sun Mercenary" XYZ="-127.9353,154.001,-370.8163" />
+									<Hotspot Name="Black Sun Slicer" XYZ="-131.1052,154.001,-368.7877" />
+								</Hotspots>
+							</GrindArea>
+						</Grind>
 					</If>
-					<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Intercepting Urbax" XYZ="-135.2357,154.001,-367.9897" />
-				</If>	
+				</If>
+				<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Intercepting Urbax" XYZ="-135.2357,154.001,-367.9897" />
 			</If>
 			<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 1, 6)))">
 				<Grind While="(not IsBranchStepComplete(0xE000D0A7D6B0A490, 1, 6))">
@@ -1287,20 +1253,8 @@
 				<WaitTimer QuestId="0xE000D0A7D6B0A490" WaitTime="5" />
 			</If>	
 			<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 4, 2)))">
-				<If Condition="(Me.Position.Y &gt; 148)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-											XYZ="-116.3577,152.021,-405.2718" />		
-				</If>
-				<If Condition="(Me.Position.Y &lt; 148)">
-					<If Condition="(Me.Position.X &lt; 0)">
-						<UseTransport TransporterName="Senate Plaza Taxi" Type="Taxi" Option="Galactic Market Taxi" 
-												XYZ="-114.6167,142.111,-425.4255" />
-					</If>	
-					<If Condition="(Me.Position.X &gt; 0)">
-						<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Darmas Pollaran - killing some NPCs in the way" XYZ="223.5735,43.201,70.69602" /> 
-						<WaitTimer QuestId="1" WaitTime="5" />
-					</If>				
-				</If>	
+				<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Darmas Pollaran - killing some NPCs in the way" XYZ="223.5735,43.201,70.69602" /> 
+				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE000D0A7D6B0A490)) and (not IsBranchStepComplete(0xE000D0A7D6B0A490, 6, 2)))">
 				<MoveTo QuestId="0xE000D0A7D6B0A490" Name="Darmas Pollaran - killing some NPCs in the way" XYZ="222.8408,43.201,72.53123" /> 
@@ -1321,8 +1275,6 @@
 					<WaitTimer QuestId="1" WaitTime="5" />
 					<CompleteQuest QuestName="The Peace Brigade" QuestId="0xE000C9A84B526B5E" />	
 					
-					<UseTransport TransporterName="Galactic Market Taxi" Type="Taxi" Option="Senate Plaza Taxi" 
-						XYZ="246.0565,44.401,61.6166" />
 				</If>		
 			</If>
 		</If>			
@@ -1495,8 +1447,6 @@
 		<If Condition="((HasQuest(0xE0005D6EEB46C12F)) and (not IsQuestComplete(0xE0005D6EEB46C12F)))">
 			<If Condition="((HasQuest(0xE0005D6EEB46C12F)) and (not IsBranchStepComplete(0xE0005D6EEB46C12F, 1, 2)))">
 				<!-- If me.Y &gt; -108 ? -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Maintenance"
-									XYZ="94.51535,-107.199,424.9944" />
 									
 				<MoveTo QuestId="0xE0005D6EEB46C12F" Name="My Location" XYZ="96.18522,-109.7203,426.8578" />
 			</If>
@@ -1504,8 +1454,6 @@
 				<TalkTo QuestId="0xE0005D6EEB46C12F" Name="Gotrut" XYZ="95.82886,-109.7203,426.527" />
  
 				<!-- If me.Y &lt; -108 ? -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Justicar Territory"
-									XYZ="94.63613,-109.7635,424.9155" />
 			</If>
 		</If>
 		
@@ -1733,8 +1681,6 @@
 		<!-- Justicar Injustice 3-5 -->
 		<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsQuestComplete(0xE000E6BFD5F03C51)))">
 			<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsStepComplete(0xE000E6BFD5F03C51, 3)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="53.92227,-104.984,446.9867" />
  
 				<UseObject QuestId="0xE000E6BFD5F03C51" ObjectName="Field Generator" BranchId="1" StepId="3" IgnoreLOS="True" Radius="20" WaitTime="5" XYZ="50.16521,-108.3962,442.3809" />
 			</If>
@@ -1744,8 +1690,6 @@
 			<If Condition="((HasQuest(0xE000E6BFD5F03C51)) and (not IsStepComplete(0xE000E6BFD5F03C51, 5)))">
 				<UseObject QuestId="0xE000E6BFD5F03C51" ObjectName="Detainee Terminal" BranchId="1" StepId="5" Radius="20" WaitTime="5" XYZ="52.22342,-108.399,446.0835" />
  
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-									XYZ="54.1007,-108.399,446.9467" />
 			</If>
 		</If>
 	
@@ -1851,8 +1795,6 @@
 		<If Condition="((not HasQuest(0xE00011CDB88B88CF)) and (not IsQuestComplete(0xE00011CDB88B88CF)))">
 			<PickUpQuest QuestName="Planetary Checkup" QuestId="0xE00011CDB88B88CF" GiverName="Fez Burba" XYZ="124.813,-105.299,428.4864" />
  
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
-									XYZ="124.9337,-105.299,430.7395" />
 			<!-- Learn Bindpoint, Force Repair / Sell / Mail -->
 		</If>
 	
@@ -2076,16 +2018,12 @@
 			<CompleteQuest QuestName="Enemy Droid-machines" QuestId="0xE000FB20128A1E40" />
 			<!-- Learn The Works Taxi -->
  
-			<UseTransport TransporterName="The Works Taxi" Type="Taxi" Option="Jedi Temple Taxi" 
-									XYZ="80.1477,-226.6384,484.1165" />
 		</If>
 
 		<!-- Pickup Insult to Injury -->
 		<If Condition="((not HasQuest(0xE00039C476F69322)) and (not IsQuestComplete(0xE00039C476F69322)))">
 			<PickUpQuest QuestName="Insult to Injury" QuestId="0xE00039C476F69322" Type="Placeable" UseRange="2" GiverName="Sealed Door" XYZ="-274.4974,-244.5595,316.4988" />
  
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Temple Ruins"
-									XYZ="-272.4638,-244.5599,317.9294" />
 		</If>
 		
 		<!-- Insult to Injury -->
@@ -2159,12 +2097,6 @@
 
 		<!-- Consular: Ancient Secrets -->
 		<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsQuestComplete(0xE00053DFB0207384)))">
-			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 6)))">
-				<If Condition="(Me.Position.Y &lt; -240)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Temple Ruins"
-									XYZ="-272.3149,-244.5211,317.9462" />
-				</If>
-			</If>
 			<If Condition="((HasQuest(0xE00053DFB0207384)) and (not IsStepComplete(0xE00053DFB0207384, 2)))">
 				<!-- Assault on the Archives (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000B80A23D2540C))">
@@ -2206,10 +2138,6 @@
 	
 		<!-- Meltdown -->
 		<If Condition="((HasQuest(0xE000CB379DF8DDE0)) and (not IsQuestComplete(0xE000CB379DF8DDE0)))">
-			<If Condition="(Me.Position.Y &gt; -100)">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="The Works"
-									XYZ="124.9337,-105.299,430.7395" />
-			</If>
 			<TurnInQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" TurnInName="Ozurist" XYZ="120.9255,-226.2636,429.8125" />
 			<CompleteQuest QuestName="Meltdown" QuestId="0xE000CB379DF8DDE0" />
 			<!-- Consular - Equip Traditional Nylite Vestments -->
@@ -2345,14 +2273,8 @@
 		<!-- Smuggler - Race the Devil -->
 		<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsQuestComplete(0xE000D1E53CE5D671)))">
 			<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsBranchStepComplete(0xE000D1E53CE5D671, 2, 4)))">			
-				<If Condition="(Me.Position.Y &lt; 148)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-											XYZ="-112.8501,143.621,-404.5855" />
-				</If>
-				<If Condition="(Me.Position.Y &gt; 148)">	
-					<MoveTo QuestId="0xE000D1E53CE5D671" Name="Slice into Docking Bay 87" XYZ="-101.1061,154.0199,-371.1853" />
-					<WaitTimer QuestId="0xE000D1E53CE5D671" WaitTime="5" />
-				</If>			
+				<MoveTo QuestId="0xE000D1E53CE5D671" Name="Slice into Docking Bay 87" XYZ="-101.1061,154.0199,-371.1853" />
+				<WaitTimer QuestId="0xE000D1E53CE5D671" WaitTime="5" />
 			</If>
 			<If Condition="((HasQuest(0xE000D1E53CE5D671)) and (not IsBranchStepComplete(0xE000D1E53CE5D671, 2, 5)))">	
 				<MoveTo QuestId="0xE000D1E53CE5D671" Name="Finding Fabizan" XYZ="-100.2566,154.001,-369.5533" />

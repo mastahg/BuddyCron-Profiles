@@ -25,9 +25,6 @@
 		</If>
 		
 		<!-- Wonkavator to Vector Hyllus
-		<If Condition="not HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mezenti Spaceport" X="-225.1288" Y="-6.999" Z="-204.1034" ToX="-217.5112" ToY="14.5011" ToZ="-187.4107" />
-		</If>
 		-->
 		
 		<!-- Nar Shaddaa: Bonus Series -->
@@ -202,9 +199,6 @@
 		
 		
 		<!-- Wonkavator to Quest Zone - Binding it to quest "Getting the Message Across" -->
-		<If Condition="not HasQuest(0xE000C15BCE0BF4DE) and not IsStepComplete(0xE000C15BCE0BF4DE, 2)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Lower Office Atrium" XYZ="-168.2335,-145.4901,288.0036" />
-		</If>
 		
 		
 		<!-- Getting the Message Across - Defeat the Nova Guard and Crimson Brotherhood -->
@@ -285,9 +279,6 @@
 		
 		
 		<!-- A Message for the Mercenaries - Wonkavator to Eliss Pim -->
-		<If Condition="HasQuest(0xE0006D8E0420E64D) and not IsStepComplete(0xE0006D8E0420E64D, 3)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="-167.7092,-164.274,298.8677" />
-		</If>
 		
 		<!-- A Message for the Mercenaries -->
 		<TurnInQuest QuestName="A Message for the Mercenaries" QuestId="0xE0006D8E0420E64D" TurnInName="Eliss Pim" XYZ="-166.7533,-143.9001,258.765" />
@@ -310,9 +301,6 @@
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Narvusin -->
-		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 7)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Network Security District" XYZ="-168.259,-145.4901,288.0291" />
-		</If>
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Speak to Narvusin -->
@@ -562,9 +550,6 @@
 		<!-- Perhaps take Quick Travel to -->
 		
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Colonel Harok -->
-		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 10)">
-			<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Republic Research Division" XYZ="166.5646,-156.299,265.0335" />
-		</If>
 		<!-- Taxi to Colonel Harok -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 10)">
 			<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Mezenti Spaceport Taxi" XYZ="-198.0589,-145.499,274.9999" />
@@ -579,9 +564,6 @@
 		
 		
 			<!-- Traveling to Alderaan - Binding it to "Formal Introductions" -->
-			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" XYZ="-217.681,14.5011,-187.4632" />
-			</If>
 			<!-- Entering Ship -->
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
 				<UseObject ObjectName="X-70B Phantom" QuestId="0xE000C700544E8F98" StepId="2" WaitTime="30000" XYZ="-212.0615,-6.332781,-210.6347" />
@@ -600,9 +582,6 @@
 			</If>
 		
 			<!-- Wonkavator to Vector Hyllus -->
-			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)">
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport" XYZ="10.75562,13.98987,-128.4035" />
-			</If>
 		
 		</If>
 		<!-- Agent -->
