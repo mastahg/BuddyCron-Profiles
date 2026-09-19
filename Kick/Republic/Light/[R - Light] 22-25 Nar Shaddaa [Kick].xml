@@ -150,30 +150,18 @@
 		<If Condition="(Me.Class == CharacterClass.Knight)">
 			<If Condition="(Me.Position.X &gt; -230) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; 67) and (Me.Position.Y &lt; 69) and (Me.Position.Z &gt; -160) and (Me.Position.Z &lt; -140)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'The Search for Agent Galen - Go to SIS Safe House'" />
-				<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsQuestComplete(0xE000D421C466388C)))">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-											XYZ="-224.8383,68.001,-157.8801" />
-				</If>							
 			</If>	
 		</If>		
 		
 		<If Condition="(Me.Class == CharacterClass.Trooper)">
 			<If Condition="(Me.Position.X &gt; -230) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; 80) and (Me.Position.Y &lt; 81) and (Me.Position.Z &gt; -160) and (Me.Position.Z &lt; -140)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'The Republic's Finest - Rendezvous with Jonas Balkar'" />
-				<If Condition="((HasQuest(0xE000E1B98755D2B7)) and (not IsQuestComplete(0xE000E1B98755D2B7)))">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-											XYZ="-224.8483,80.501,-157.875" />
-				</If>							
 			</If>	
 		</If>	
 		
 		<If Condition="(Me.Class == CharacterClass.Smuggler)">
 			<If Condition="(Me.Position.X &gt; -230) and (Me.Position.X &lt; -200) and (Me.Position.Y &gt; 80) and (Me.Position.Y &lt; 81) and (Me.Position.Z &gt; -230) and (Me.Position.Z &lt; -200)">
 				<UserDialog Title="CryoGenesis" Message="You need to have the quest 'Nar Shaddaa Landing - Meet Drooga on the Promenade'" />
-				<If Condition="((HasQuest(0xE000FA070C342DC0)) and (not IsQuestComplete(0xE000FA070C342DC0)))">	
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-											XYZ="-225.1527,80.501,-204.1345" />
-				</If>							
 			</If>	
 		</If>			
 		
@@ -254,19 +242,9 @@
 			<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsBranchStepComplete(0xE000D421C466388C, 1, 2)))">
 				<MoveTo QuestId="0xE000D421C466388C" Name="Going to SIS Safe House" XYZ="-114.5635,51.8207,-100.0875" />
 			</If>
-			<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsBranchStepComplete(0xE000D421C466388C, 1, 3)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-										XYZ="-114.5635,51.8207,-100.0875" />
-			</If>
 			<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsBranchStepComplete(0xE000D421C466388C, 1, 4)))">
 				<TalkTo QuestId="0xE000D421C466388C" Name="Chief Rieekan" XYZ="-113.5148,48.60794,-102.5542" />
 			</If>
-			<If Condition="((HasQuest(0xE000D421C466388C)) and (not IsBranchStepComplete(0xE000D421C466388C, 1, 5)))">
-				<If Condition="(Me.Position.X &gt; -116) and (Me.Position.X &lt; -110) and (Me.Position.Y &gt; 48) and (Me.Position.Y &lt; 49) and (Me.Position.Z &gt; -105) and (Me.Position.Z &lt; -100)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-											XYZ="-113.3827,48.64977,-100.8934" />
-				</If>							
-			</If>			
 		</If>		
 
 		<!-- Trooper - The Republic's Finest -->
@@ -370,10 +348,6 @@
 		<!-- Slave Raiding and Turnin -->
 		<If Condition="((HasQuest(0xE0000CF61EB0D8FA)) and (not IsQuestComplete(0xE0000CF61EB0D8FA)))">
 			<If Condition="((HasQuest(0xE0000CF61EB0D8FA)) and (not IsStepComplete(0xE0000CF61EB0D8FA, 2)))">
-				<If Condition="Me.Position.Y &gt;= 18">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Fate's Hand Casino"
-									XYZ="-338.799,22.501,-342.9423" />
-				</If>
 				<UseObject QuestId="0xE0000CF61EB0D8FA" ObjectName="Slave Cage Release Panel" BranchId="1" StepId="2" Radius="200" WaitTime="5" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="-322.3437,17.39916,-269.3019" />
@@ -410,10 +384,6 @@
 			<CompleteQuest QuestName="Slave Raiding" QuestId="0xE0000CF61EB0D8FA" />
 			<!-- Strike the Mountain Asunder 0xE00092996437ED01 -->
  
-			<If Condition="Me.Position.Y &lt;= 18">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Nikto Sector"
-									XYZ="-328.6472,17.301,-267.0715" />
-			</If>
 		</If>
 		
 		<!-- One Fell Swoop -->
@@ -940,10 +910,6 @@
 		<!-- Double Negative -->
 		<If Condition="((HasQuest(0xE000C73014AF2DCC)) and (not IsQuestComplete(0xE000C73014AF2DCC)))">
 			<If Condition="((HasQuest(0xE000C73014AF2DCC)) and (not IsStepComplete(0xE000C73014AF2DCC, 2)))">
-				<If Condition="Me.Position.Y &gt; -318">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Quarantine Zone"
-									XYZ="302.3451,-313.6901,-358.0665" />
-				</If>
 				<MoveTo QuestId="0xE000C73014AF2DCC" Name="My Location" XYZ="237.6563,-321.199,-338.7465" />
 			</If>
 			<If Condition="((HasQuest(0xE000C73014AF2DCC)) and (not IsStepComplete(0xE000C73014AF2DCC, 3)))">
@@ -968,10 +934,6 @@
 						</Hotspots>
 					</GrindArea>
 				</Grind>
-			</If>
-			<If Condition="Me.Position.Y &lt;= -314">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Red Light Sector"
-									XYZ="234.1179,-319.179,-332.0605" />
 			</If>
 		</If>
 		
@@ -1219,8 +1181,6 @@
 			<!-- Genocide 0xE000339439E602CD -->
  
 			<!-- Turnin Class quest -->
-			<UseTransport TransporterName="Red Light Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
-									XYZ="334.5021,-312.499,-306.8633" />
 		</If>
 		
 		<!-- Turnin Consular - Running with the Lancers (Bonus) -->
@@ -1254,10 +1214,6 @@
 					</GrindArea>
 				</Grind>
 			</If>	
-			<If Condition="((HasQuest(0xE000D598E2AAEDAD)) and (not IsBranchStepComplete(0xE000D598E2AAEDAD, 1, 4)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-										XYZ="-114.4897,51.80783,-100.028" />
-			</If>
 			<If Condition="((HasQuest(0xE000D598E2AAEDAD)) and (not IsBranchStepComplete(0xE000D598E2AAEDAD, 1, 5)))">
 				<Grind While="(not IsBranchStepComplete(0xE000D598E2AAEDAD, 1, 5))">
 					<GrindArea Name="Striking Back 2">
@@ -1281,16 +1237,8 @@
 			<If Condition="BuddyTor.Me.Companion.Name.Contains(&quot;Kira&quot;)"> <!-- Primary stat: Willpower; Secundary stat: Endurance -->
 				<CompleteQuest QuestName="Striking Back" QuestId="0xE000D598E2AAEDAD" />
 			</If>
-			<If Condition="Me.Position.Z &lt; -100">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Level 1"
-										XYZ="-113.4312,48.62792,-100.9296" />
-			</If>
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />	
-			<If Condition="Me.Position.X &gt;= -150">
-				<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
-										XYZ="-101.73,53.801,-51.77" />		
-			</If>
 		</If>	
 
 		<!-- Trooper - Climbing the Ladder -->
@@ -1299,8 +1247,6 @@
 				<If Condition="(Me.Position.X &gt;= -150) and (Me.Position.X &lt;= -70)">
 					<ForceVendor VendorType="Train" />
 					<ForceVendor VendorType="Repair" />					
-					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
-											XYZ="-101.73,53.801,-51.77" />		
 				</If>
 			</If>
 		</If>
@@ -1311,8 +1257,6 @@
 				<If Condition="(Me.Position.X &gt;= -150) and (Me.Position.X &lt;= -70)">
 					<ForceVendor VendorType="Train" />
 					<ForceVendor VendorType="Repair" />					
-					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Lower Industrial Sector Taxi"  
-											XYZ="-101.73,53.801,-51.77" />		
 				</If>
 			</If>
 		</If>
@@ -1320,10 +1264,6 @@
 		<!-- Genocide -->
 		<If Condition="((HasQuest(0xE000339439E602CD)) and (not IsQuestComplete(0xE000339439E602CD)))">
 			<If Condition="((HasQuest(0xE000339439E602CD)) and (not IsStepComplete(0xE000339439E602CD, 2)))">
-				<If Condition="Me.Position.Y &gt; -172">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Labor District"
-									XYZ="-218.0849,-171.399,304.3596" />
-				</If>
 				<TalkTo QuestId="0xE000339439E602CD" Name="Ganuk" XYZ="-235.3,-172.9688,265.225" />
 			</If>
 			<CompleteQuest QuestName="Genocide" QuestId="0xE000339439E602CD" />
@@ -1701,13 +1641,7 @@
 		<!-- Trooper - Climbing the Ladder -->
 		<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsQuestComplete(0xE000EF8382BCC725)))">
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 2)))">		
-				<If Condition="(Me.Position.X &lt;= -240) and (Me.Position.Z &gt;= 300)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Club Vertica Security Substation"
-											XYZ="-246.3476,-170.599,331.1594" />
-				</If>
-				<If Condition="(Me.Position.X &lt;= -240) and (Me.Position.Z &lt;= 300)">
-					<TalkTo QuestId="0xE000EF8382BCC725" Name="Niall Piv" XYZ="-257.3364,-170.099,294.1194" />		
-				</If>					
+				<TalkTo QuestId="0xE000EF8382BCC725" Name="Niall Piv" XYZ="-257.3364,-170.099,294.1194" />		
 			</If>
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 3)))">		
 				<MoveTo QuestId="0xE000EF8382BCC725" Name="Taking Niall to the Master Security Terminal" XYZ="-265.311,-170.099,293.9223" />		
@@ -1755,12 +1689,6 @@
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 8)))">		
 				<TalkTo QuestId="0xE000EF8382BCC725" Name="Niall Piv" XYZ="-265.829,-170.099,293.8976" />		
 			</If>				
-			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 9)))">		
-				<If Condition="(Me.Position.X &lt;= -240) and (Me.Position.Z &lt;= 300)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Lower Industrial Sector"
-											XYZ="-257.3268,-170.099,290.4009" />
-				</If>				
-			</If>			
 		</If>	
 
 		<!-- Smuggler - Eco-Terrorists -->
@@ -1810,27 +1738,14 @@
 		<!-- Trooper - Climbing the Ladder -->
 		<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsQuestComplete(0xE000EF8382BCC725)))">
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 9)))">		
-				<If Condition="(Me.Position.X &lt;= -100)">
-					<!-- Usetransport from Lower Industry Sector to Club Vertica Casino Taxi -->
-					<UseTransport TransporterName="Lower Industry Sector Taxi" Type="Taxi" Option="Club Vertica Casino Taxi" 
-											XYZ="-197.8112,-170.599,284.6895" />
-				</If>	
-				<If Condition="(Me.Position.X &gt;= -100)">	
-					<MoveTo QuestId="0xE000EF8382BCC725" Name="Going to the Club Vertica Casino" XYZ="-34.78473,105.101,-206.3734" />
-				</If>			
+				<MoveTo QuestId="0xE000EF8382BCC725" Name="Going to the Club Vertica Casino" XYZ="-34.78473,105.101,-206.3734" />
 			</If>
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 10)))">		
 				<AnswerHolocomCall QuestName="Climbing the Ladder" QuestId="0xE000EF8382BCC725" />
 			</If>
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 11)))">		
 				<MoveTo QuestId="0xE000EF8382BCC725" Name="Infiltrating the Club Vertica Penthouse" XYZ="-34.29301,109.1099,-253.8641" />
-				<If Condition="(Me.Position.X &gt;= -40) and (Me.Position.X &lt;= -20) and (Me.Position.Y &gt;= 106)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Penthouse"
-											XYZ="-34.29301,109.1099,-253.8641" />	
-				</If>
-				<If Condition="(Me.Position.X &gt;= -40) and (Me.Position.X &lt;= -20) and (Me.Position.Y &lt;= 106)">
-					<MoveTo QuestId="0xE000EF8382BCC725" Name="Infiltrating the Club Vertica Penthouse" XYZ="-34.46054,104.901,-255.6154" />
-				</If>	
+				<MoveTo QuestId="0xE000EF8382BCC725" Name="Infiltrating the Club Vertica Penthouse" XYZ="-34.46054,104.901,-255.6154" />
 			</If>
 			<If Condition="((HasQuest(0xE000EF8382BCC725)) and (not IsBranchStepComplete(0xE000EF8382BCC725, 1, 13)))">		
 				<Grind While="(not IsBranchStepComplete(0xE000EF8382BCC725, 1, 13))">
@@ -1861,20 +1776,8 @@
 		<!-- Trooper - Overloaded -->
 		<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsQuestComplete(0xE000987F2216533C)))">		
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 2)))">		
-				<If Condition="(Me.Position.X &gt;= -40) and (Me.Position.X &lt;= -20) and (Me.Position.X &lt;= 106) and (Me.Position.Z &lt;= -250)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Club Vertica"
-											XYZ="-34.68596,104.9211,-252.2286" />	
-				</If>
-				<If Condition="(Me.Position.X &gt;= -40) and (Me.Position.X &lt;= -20) and (Me.Position.Y &gt;= 100)">
-					<UseTransport TransporterName="Club Vertica Casino Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
-											XYZ="-34.2,105.101,-201.5741" />					
-				</If>	
-				<If Condition="(Me.Position.X &lt;= -75) and (Me.Position.Y &gt;= 50) and (Me.Position.Y &lt;= 55)">
-					<ForceVendor VendorType="Repair" />							
-					<ForceVendor VendorType="Train" />
-					<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Shadow Town Taxi" 
-										XYZ="-101.73,53.801,-51.77" />					
-				</If>	
+				<ForceVendor VendorType="Repair" />							
+				<ForceVendor VendorType="Train" />
 			</If>
 		</If>
 		
@@ -1909,8 +1812,6 @@
 			<CompleteQuest QuestName="The Master (Bonus)" QuestId="0xE000581244AEE1B0" />
 			<!-- Consular - Shadow Town (Bonus) 0xE00066F2E7E7CB3E-->
 			<!-- Equip Companion Item - Qyzen's Reinforced Jacket -->
-			<UseTransport TransporterName="Red Light Sector Taxi" Type="Taxi" Option="Upper Promenade Taxi" 
-									XYZ="334.5021,-312.499,-306.8633" />
 			<ForceVendor VendorType="Repair" />							
 			<ForceVendor VendorType="Train" />
 		</If>
@@ -1925,8 +1826,6 @@
 			</If>
 			<!-- B4, S3 - we now have Tharan Cedrax as our companion -->
  
-			<UseTransport TransporterName="Upper Promenade Taxi" Type="Taxi" Option="Shadow Town Taxi" 
-									XYZ="-101.73,53.801,-51.77" />
 		</If>
 
 		<!-- Those Left Behind -->
@@ -2288,13 +2187,7 @@
 		<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsQuestComplete(0xE000987F2216533C)))">
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 2)))">
 				<MoveTo QuestId="0xE000987F2216533C" Name="Infiltrating the Droid Charging Facility" XYZ="233.9854,-155.799,291.7219" />
-				<If Condition="(Me.Position.X &gt;= 230) and (Me.Position.X &lt;= 240) and (Me.Position.Y &gt;= -156) and (Me.Position.Y &lt;= -155) and (Me.Position.Z &gt;= 290) and (Me.Position.Z &lt;= 295)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Droid Charging Facility"
-											XYZ="233.9854,-155.799,291.7219" />
-				</If>	
-				<If Condition="(Me.Position.Y &lt;= -256)">	
-					<MoveTo QuestId="0xE000987F2216533C" Name="Infiltrating the Droid Charging Facility" XYZ="241.2976,-160.799,289.536" />
-				</If>	
+				<MoveTo QuestId="0xE000987F2216533C" Name="Infiltrating the Droid Charging Facility" XYZ="241.2976,-160.799,289.536" />
 			</If>
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 4)))">
 				<Grind While="(not IsBranchStepComplete(0xE000987F2216533C, 1, 4))">
@@ -2331,12 +2224,6 @@
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 6)))">	
 				<TalkTo QuestId="0xE000987F2216533C" Name="SIS Technician" XYZ="240.3056,-160.799,290.2729" />
 			</If>
-			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 7)))">	
-				<If Condition="(Me.Position.Y &lt;= -256)">	
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Shadow Town"
-											XYZ="233.6558,-160.799,297.462" />
-				</If>
-			</If>			
 		</If>	
 
 		<!-- Smuggler - Lab Work -->
@@ -2459,64 +2346,30 @@
 				<TalkTo QuestId="0xE0003B1575C856CB" Name="Drooga the Hutt" XYZ="297.6102,-150.6341,272.0039" />
 			</If>
 			<If Condition="((HasQuest(0xE0003B1575C856CB)) and (not IsBranchStepComplete(0xE0003B1575C856CB, 15, 2)))">
-				<If Condition="(Me.Position.X &gt;= 0)">
-					<UseTransport TransporterName="Shadow Town Taxi" Type="Taxi" Option="Deucalon Spaceport Taxi" 
-										XYZ="259.8022,-152.799,267.618" />	
-				</If>				
-				<If Condition="(Me.Position.Z &gt;= -200)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-											XYZ="-217.5907,64.501,-187.4411" />
-				</If>
-				<If Condition="(Me.Position.Z &lt;= -200)">
-					<MoveTo QuestId="0xE000D5B37DA4810B" Name="XS Stock Light" XYZ="-212.5006,80.501,-210.9431" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Beast Mastery'. Next Step is to travel to Celestial Crow (Distant Outer Rim - The Celestial Crow) for the quest 'Distressed', restart the bot and load up that quest profile on the Celestial Crow! You also got a quest named 'Survival of a Species', that you will to complete by hand!" />
-				</If>	
+				<MoveTo QuestId="0xE000D5B37DA4810B" Name="XS Stock Light" XYZ="-212.5006,80.501,-210.9431" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Beast Mastery'. Next Step is to travel to Celestial Crow (Distant Outer Rim - The Celestial Crow) for the quest 'Distressed', restart the bot and load up that quest profile on the Celestial Crow! You also got a quest named 'Survival of a Species', that you will to complete by hand!" />
 			</If>	
 		</If>	
 		
 		<!-- Knight - Showdown with Lord Sadic -->
 		<If Condition="((HasQuest(0xE000D5B37DA4810B)) and (not IsQuestComplete(0xE000D5B37DA4810B)))">
 			<If Condition="((HasQuest(0xE000D5B37DA4810B)) and (not IsBranchStepComplete(0xE000D5B37DA4810B, 4, 6)))">
-				<If Condition="(Me.Position.X &gt;= 0)">
-					<UseTransport TransporterName="Shadow Town Taxi" Type="Taxi" Option="Deucalon Spaceport Taxi" 
-										XYZ="259.8022,-152.799,267.618" />	
-				</If>				
-				<If Condition="(Me.Position.Z &lt;= -160)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Knight Hangar"
-											XYZ="-217.6889,64.5011,-174.7888" />
-				</If>
-				<If Condition="(Me.Position.Z &gt;= -160)">
-					<MoveTo QuestId="0xE000D5B37DA4810B" Name="Defender" XYZ="-213.3035,67.971,-150.0077" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Showdown with Lord Sadic'. Next Step is to travel to the Abandoned Mining Facility (Unknown Regions - Abandoned Mining Facility) for the quest 'The Defector', restart the bot and load up that quest profile on the Abandoned Mining Facility!" />
-				</If>				
+				<MoveTo QuestId="0xE000D5B37DA4810B" Name="Defender" XYZ="-213.3035,67.971,-150.0077" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Showdown with Lord Sadic'. Next Step is to travel to the Abandoned Mining Facility (Unknown Regions - Abandoned Mining Facility) for the quest 'The Defector', restart the bot and load up that quest profile on the Abandoned Mining Facility!" />
 			</If>
 		</If>
 
 		<!-- Trooper - Overloaded-->
 		<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsQuestComplete(0xE000987F2216533C)))">
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 7)))">		
-				<If Condition="(Me.Position.X &gt;= 0)">
-					<UseTransport TransporterName="Shadow Town Taxi" Type="Taxi" Option="Upper Promenade Taxi"
-										XYZ="259.8022,-152.799,267.618" />																		
-				</If>
-				<If Condition="(Me.Position.X &gt;= -105) and (Me.Position.X &lt;= -80)">
-					<MoveTo QuestId="0xE000987F2216533C" Name="Going to report the Republic Embassy" XYZ="-89.17292,51.80297,-89.33427" />
-				</If>	
+				<MoveTo QuestId="0xE000987F2216533C" Name="Going to report the Republic Embassy" XYZ="-89.17292,51.80297,-89.33427" />
 			</If>
 			<If Condition="((HasQuest(0xE000987F2216533C)) and (not IsBranchStepComplete(0xE000987F2216533C, 1, 9)))">
 				<If Condition="(Me.Position.X &gt;= -105) and (Me.Position.X &lt;= -80)">
 					<ForceVendor VendorType="Train" />
-					<UseTransport TransporterName="Lower Promenade Taxi" Type="Taxi" Option="Deucalon Spaceport Taxi" 
-										XYZ="-86.9288,51.801,-100.0521" />					
 				</If>
-				<If Condition="(Me.Position.Z &lt;= -160)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-											XYZ="-213.5809,64.5011,-174.5349" />
-				</If>
-				<If Condition="(Me.Position.Z &gt;= -160)">
-					<MoveTo QuestId="0xE000987F2216533C" Name="BT-7 Thunderclap" XYZ="-214.6243,80.501,-151.487" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Overloaded'. Next Step is to travel to Tavus's Ship (Distant Outer Rim - Tavus's Ship) for the quest 'The Shadow Fist', restart the bot and load up that quest profile on Tavus's Ship!" />
-				</If>				
+				<MoveTo QuestId="0xE000987F2216533C" Name="BT-7 Thunderclap" XYZ="-214.6243,80.501,-151.487" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Nar Shaddaa! If you are not on your ship right now, get on it and complete 'Overloaded'. Next Step is to travel to Tavus's Ship (Distant Outer Rim - Tavus's Ship) for the quest 'The Shadow Fist', restart the bot and load up that quest profile on Tavus's Ship!" />
 			</If>
 		</If>
 
@@ -2625,10 +2478,6 @@
 				<!-- If I am on my ship -->
 				<Interact QuestId="0xE000F1A8B5387ABA" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="0.0004950617,0.5900244,-2.970323" />
 				<WaitTimer QuestId="1" WaitTime="60" /> <!-- It took me 2 mins to zone into the planet -->
-				<If Condition="Me.Position.Y &lt;= 44">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-									XYZ="161.4948,38.07876,-330.3893" />
-				</If>
 			</If>
 		</If>
 		

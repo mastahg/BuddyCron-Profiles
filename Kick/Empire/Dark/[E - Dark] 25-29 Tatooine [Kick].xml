@@ -72,10 +72,6 @@
 					<Interact Name="Ship Exit" XYZ="1.125018,0.8599994,1.794628" />
 					<WaitTimer QuestId="1" WaitTime="90" />
 				</If>
-				<If Condition="(Me.Position.Y &lt; 45) and (Me.Position.Y &gt; 44)"> <!-- For some reason - this doesn't work (Ila) -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mos Ila Spaceport" 
-									XYZ="53.37687,44.49774,360.0264" />
-				</If>
 			</If>
 		</If>
 		
@@ -97,12 +93,6 @@
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x400000000003FFE4)">
 					<TalkTo QuestId="0xE000B3DB9E8F94EC" Name="Sharack Breev" XYZ="70.8011,44.501,344.9927" />
-				</If>
-			</If>
-			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 5)))">
-				<If Condition="(Me.Position.Y &lt; 45) and (Me.Position.Y &gt; 43)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Mos Ila Spaceport" 
-									XYZ="67.7333,44.50283,359.9426" />
 				</If>
 			</If>
 		</If>
@@ -1111,10 +1101,6 @@
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 2)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-69.44077,43.7254,29.38019" />
 			</If>
-			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 3)">
-				<UseTransport TransporterName="Cargo Crate" Type="Wonkavator" Option="Hide Inside the Crate" 
-									XYZ="-69.44077,43.7254,29.38019" />
-			</If>
 			<!-- Harsh Lessons - Defeat Ghost Cell Forces -->
 			<If Condition="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
 				<Grind While="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
@@ -1157,8 +1143,6 @@
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 7)" >
 				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.6969,38.95692,-214.6994" />
 	
-				<UseTransport TransporterName="Ghost Cell Training Speeder" Type="Taxi" Option="Outpost Zaroshe Speeder"
-									XYZ="-238.5712,37.82982,-192.1966" />
 				<!-- Use Your Ships Holoterminal -->
 			</If>
 		</If>
@@ -1769,9 +1753,6 @@
 			<!-- Warrior - Guru in the Dunes -->
 			<If Condition="((HasQuest(0xE000AE60C7EE2F0C)) and (not IsQuestComplete(0xE000AE60C7EE2F0C)))">
 				<If Condition="((HasQuest(0xE000AE60C7EE2F0C)) and (not IsBranchStepComplete(0xE000AE60C7EE2F0C, 2, 2)))">
-					<MoveTo QuestId="1" XYZ="68.11395,51.501,361.0161" />
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Sith Warrior Hangar" 
-									XYZ="68.43826,51.48972,360.0107" />
 					<TalkTo QuestId="0xE000AE60C7EE2F0C" WaitTime="5" Name="Sharack Breev" XYZ="72.045,44.481,347.377" />
 				</If>
 				<If Condition="((HasQuest(0xE000AE60C7EE2F0C)) and (not IsBranchStepComplete(0xE000AE60C7EE2F0C, 5, 2)))">
@@ -1807,10 +1788,6 @@
 						<Interact QuestId="0xE0003BE7DB5CEA47" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 						<WaitTimer QuestId="1" WaitTime="90" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x400000014450FB0A)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport" 
-									XYZ="26.78128,13.99721,-128.2874" />
-					</If>
 				</If>
 			</If>
 		</If>
@@ -1820,11 +1797,6 @@
 			<!-- Agent - The Assassin's Fortress -->
 			<If Condition="((HasQuest(0xE0009853C75EF6D9)) and (not IsQuestComplete(0xE0009853C75EF6D9)))">
 				<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsStepComplete(0xE0009853C75EF6D9, 8) and (Core.Player.AreaId == 0x400000000003FFE4)">
-					<If Condition="(Me.Position.Y &gt; 46)">
-						<MoveTo QuestId="1" XYZ="54.03238,51.48971,359.9255" />
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-									XYZ="54.03238,51.48971,359.9255" />
-					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="47.1088,44.501,343.3805" />
 					<MoveTo QuestId="1" IgnoreMesh="True" XYZ="47.10094,45.17944,341.6424" />
 					<Interact Name="X-70B Phantom" WaitTime="5" UseRange="40" XYZ="47.10094,45.17944,341.6424" />
@@ -1846,10 +1818,6 @@
 					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- My Ship -->
 						<Interact Name="Ship Exit" WaitTime="5" XYZ="1.165987,0.8786522,1.797909" />
 						<WaitTimer QuestId="1" WaitTime="60" />
-					</If>
-					<If Condition="(Me.Position.Y &lt; 15) and (Me.Position.Y &gt; 13)">
-						<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Rhu Caenus Spaceport"
-									XYZ="10.75562,13.98987,-128.4035" />
 					</If>
 				</If>
 			</If>

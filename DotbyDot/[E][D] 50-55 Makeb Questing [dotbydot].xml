@@ -146,11 +146,6 @@
 			<!-- To Pierce the Heavens Finish -->
 
 			<If Condition="((not IsStepComplete(0xE00043B41935779B, 8)))">
-				<If Condition="(Me.Position.X &gt; -344) and (Me.Position.X &lt; -323) and (Me.Position.Y &gt; -26) and (Me.Position.Y &lt; -23) and (Me.Position.Z &gt; -18) and (Me.Position.Z &lt; -9)">
-					<MoveTo QuestId="0xE00043B41935779B" XYZ="-343.0327,-24.399,-13.79671" />
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring"
-													XYZ="-343.0327,-24.399,-13.79671" />
-				</If>
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-332.0557,132.301,0.5586675" />
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-327.5636,132.301,4.81282" />
 				<MoveTo QuestId="0xE00043B41935779B" XYZ="-331.7399,132.301,10.41996" />
@@ -174,17 +169,11 @@
 		<If Condition="((HasQuest(0xE00084AE8D790227)) and (not IsQuestComplete(0xE00084AE8D790227)))">
 			<If Condition="((not IsStepComplete(0xE00084AE8D790227, 2)))">
 				<If Condition="(Me.Position.X &gt; -336) and (Me.Position.X &lt; -324) and (Me.Position.Y &gt; 131) and (Me.Position.Y &lt; 133) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 17)">
-					<MoveTo QuestId="0xE00084AE8D790227" XYZ="-330.7273,132.361,4.276042" />
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Loading Ring"
-														XYZ="-330.7273,132.361,4.276042" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 					<ForceVendor VendorType="Repair" />
 					<ForceVendor VendorType="Train" />
-					<MoveTo QuestId="0xE00084AE8D790227" XYZ="-323.0785,-17.11476,-13.7874" />
-					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Solida Hesk's Estate Shuttle"
-														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE00084AE8D790227" XYZ="-306.8119,-23.94749,-244.4348" />
@@ -300,8 +289,6 @@
 			<UseObject QuestId="0xE000329FD64A6328" ObjectName="Mission Dropbox" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-317.2459,-24.50338,-242.1894" />
 			<CompleteQuest QuestName="Hesk's Hospitality" QuestId="0xE000329FD64A6328" />
 			<If Condition="(Me.Position.Y &gt; -25) and (Me.Position.Y &lt; -24)">
-				<UseTransport TransporterName="Solida Hesk's Estate Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
-									XYZ="-317.9326,-24.50653,-242.5705" />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 
@@ -309,8 +296,6 @@
 			
 			<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 				<If Condition="((HasQuest(0xE00084AE8D790227)) and (not IsStepComplete(0xE00084AE8D790227, 13)))">
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring" 
-											XYZ="-330.5677,-17.21365,-13.18888" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 			</If>
@@ -325,16 +310,10 @@
 		<If Condition="((HasQuest(0xE000680B73FBCF77)) and (not IsQuestComplete(0xE000680B73FBCF77)))">
 			<If Condition="((not IsStepComplete(0xE000680B73FBCF77, 2)))">
 				<If Condition="(Me.Position.X &gt; -336) and (Me.Position.X &lt; -324) and (Me.Position.Y &gt; 131) and (Me.Position.Y &lt; 133) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 17)">
-					<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-330.7273,132.361,4.276042" />
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Loading Ring"
-													XYZ="-330.7273,132.361,4.276042" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 					<PickUpQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" GiverName="Captain Hanthor" XYZ="-325.1853,-17.14256,-15.5067" />
-					<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-323.0785,-17.11476,-13.7874" />
-					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Civilian Settlements Shuttle"
-														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<PickUpQuest QuestName="To Even The Odds" QuestId="0xE0005D8285FA7C71" GiverType="Placeable" UseRange="4" Radius="5" GiverName="Imperial Command Uplink" XYZ="-380.1827,-21.30313,-169.9807" />
@@ -442,15 +421,11 @@
 			<!-- Transport from civilian Settlements to Gravity Hook 7 -->
 		
 			<If Condition="(Me.Position.X &gt; -381) and (Me.Position.X &lt; -375) and (Me.Position.Y &gt; -22) and (Me.Position.Y &lt; -20) and (Me.Position.Z &gt; -173) and (Me.Position.Z &lt; -160)">
-				<UseTransport TransporterName="Westwater Settlements Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
-												XYZ="-378.9786,-21.17981,-163.4021"  />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 			<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 				<TurnInQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" TurnInName="Captain Hanthor" XYZ="-325.1853,-17.14256,-15.5067" />
 				<CompleteQuest QuestName="The Lurker" QuestId="0xE0002343D5F86E09" />
-				<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring" 
-												XYZ="-330.5677,-17.21365,-13.18888" />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 			<MoveTo QuestId="0xE000680B73FBCF77" XYZ="-330.5801,132.411,13.75595" />
@@ -463,17 +438,11 @@
 
 		<If Condition="((HasQuest(0xE0001DC83CC34F75)) and (not IsQuestComplete(0xE0001DC83CC34F75)))">
 			<If Condition="(Me.Position.X &gt; -336) and (Me.Position.X &lt; -324) and (Me.Position.Y &gt; 131) and (Me.Position.Y &lt; 133) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 17)">
-				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-330.7273,132.361,4.276042" />
-				<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Loading Ring"
-													XYZ="-330.7273,132.361,4.276042" />
 				<WaitTimer QuestId="1" WaitTime="2" />
 			</If>
 			
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 2)))">
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -6)">
-					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-323.0785,-17.11476,-13.7874" />
-					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Volcanic Mesa Shuttle"
-														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				
@@ -563,9 +532,6 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 8)))">
 				<If Condition="(Me.Position.X &gt; -246) and (Me.Position.X &lt; -238) and (Me.Position.Y &gt; -28) and (Me.Position.Y &lt; -26) and (Me.Position.Z &gt; 269) and (Me.Position.Z &lt; 278)">
-					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-242.4113,-27.57086,274.5339" />
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Main Level"
-									XYZ="-242.4113,-27.57086,274.5339" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-230.4332,-36.59958,259.5837" />
@@ -593,9 +559,6 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 1, 13)))">
 				<If Condition="(Me.Position.X &gt; -228) and (Me.Position.X &lt; -218) and (Me.Position.Y &gt; -41) and (Me.Position.Y &lt; -38) and (Me.Position.Z &gt; 239) and (Me.Position.Z &lt; 251)">
-					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-224.66,-40.099,240.0857" />
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Vault"
-									XYZ="-224.66,-40.099,240.0857" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-235.7367,-49.12428,270.4984" />
@@ -613,9 +576,6 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE0001DC83CC34F75, 3, 2)))">
 				<If Condition="(Me.Position.X &gt; -237) and (Me.Position.X &lt; -230) and (Me.Position.Y &gt; -50) and (Me.Position.Y &lt; -48) and (Me.Position.Z &gt; 269) and (Me.Position.Z &lt; 276)">
-					<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-234.3265,-49.12428,274.8845" />
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Main Level"
-										XYZ="-234.3265,-49.12428,274.8845" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE0001DC83CC34F75, 2, 1)))">
@@ -643,8 +603,6 @@
 						<WaitTimer QuestId="1" WaitTime="19" />
 						<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-235.6729,-36.64633,257.7901"  />
 					</If>
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Entrance"
-										XYZ="-242.222,-36.499,273.3136" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 					
 				</If>
@@ -654,13 +612,9 @@
 				</If>
 				<CompleteQuest QuestName="Losing Control" QuestId="0xE000A7A0C0B21EB9"/>
 				<If Condition="(Me.Position.X &gt; -271) and (Me.Position.X &lt; -266) and (Me.Position.Y &gt; -23) and (Me.Position.Y &lt; -21) and (Me.Position.Z &gt; 292) and (Me.Position.Z &lt; 295)">
-					<UseTransport TransporterName="Volcanic Mesa Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
-														XYZ="-268.2759,-21.90409,293.1279" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring" 
-													XYZ="-330.5677,-17.21365,-13.18888" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE0001DC83CC34F75" XYZ="-330.5801,132.411,13.75595" />
@@ -674,16 +628,10 @@
 		<If Condition="((HasQuest(0xE000B4C8AD49CEF3)) and (not IsQuestComplete(0xE000B4C8AD49CEF3)))">
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 2)))">
 				<If Condition="(Me.Position.X &gt; -336) and (Me.Position.X &lt; -324) and (Me.Position.Y &gt; 131) and (Me.Position.Y &lt; 133) and (Me.Position.Z &gt; 0) and (Me.Position.Z &lt; 17)">
-					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-330.7273,132.361,4.276042" />
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Loading Ring"
-													XYZ="-330.7273,132.361,4.276042" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 			
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
-					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-323.0785,-17.11476,-13.7874" />
-					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Abandoned Drill Site Shuttle"
-														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				
 				</If>
@@ -720,9 +668,6 @@
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" IgnoreMesh="True" XYZ="-242.7004,2.051932,158.7783"  />
 				</If>
 				<If Condition="(Me.Position.X &gt; -247) and (Me.Position.X &lt; -224) and (Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 7) and (Me.Position.Z &gt; 155) and (Me.Position.Z &lt; 175)">
-					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-244.0172,2.101,157.1303"  />
-					<UseTransport Type="Wonkavator" TransporterName="Turbolift" Option="Mine Shaft Access"
-													XYZ="-244.0172,2.101,157.1303" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-242.0343,-22.19045,162.2699"  />
@@ -730,9 +675,6 @@
 			</If>
 			<If Condition="((not IsBranchStepComplete(0xE000B4C8AD49CEF3, 1, 5)))">
 				<If Condition="(Me.Position.X &gt; -246) and (Me.Position.X &lt; -236) and (Me.Position.Y &gt; -24) and (Me.Position.Y &lt; -21) and (Me.Position.Z &gt; 156) and (Me.Position.Z &lt; 164)">
-					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-237.8061,-23.2011,159.8416"  />
-					<UseTransport Type="Wonkavator" TransporterName="Turbolift" Option="Maintenance Shaft"
-													XYZ="-237.8061,-23.2011,159.8416" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-232.9214,-63.88482,125.448"  />
@@ -772,14 +714,10 @@
 					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-258.1245,9.065324,154.6232"  />
 					<UseObject QuestId="0xE00025EA0B9C72C2" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-258.1245,9.065324,154.6232" />
 					<CompleteQuest QuestName="Non-Routine Maintenance" QuestId="0xE00025EA0B9C72C2" />
-					<UseTransport TransporterName="Abandoned Mining Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
-														XYZ="-258.319,9.058147,154.239" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<WaitTimer QuestId="0xE000B4C8AD49CEF3" WaitTime="2" />
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
-					<UseTransport Type="Wonkavator" TransporterName="Gravity Hook Transport" Option="Gravity Hook Docking Ring" 
-												XYZ="-330.5677,-17.21365,-13.18888" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-236.52,20.98863,164.315" />
@@ -795,8 +733,6 @@
 				<WaitTimer QuestId="0xE000B4C8AD49CEF3" WaitTime="2" />
 				<If Condition="(Me.Position.X &gt; -248) and (Me.Position.X &lt; -231) and (Me.Position.Y &gt; 20) and (Me.Position.Y &lt; 22) and (Me.Position.Z &gt; 160) and (Me.Position.Z &lt; 174)">
 					<PickUpQuest QuestName="[HEROIC 2+] The Specialists" QuestId="0xE0005DD539C304ED" GiverName="D3-X9" XYZ="-246.5239,20.88661,168.2479" />
-					<UseTransport TransporterName="Drill Observation Ring Shuttle" Type="Taxi" Option="Perekta Mesa Shuttle"
-														XYZ="-247.0062,20.87449,166.8905" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="((not IsTaskComplete(0xE00050441AADBBED, 2, 0)))">
@@ -877,8 +813,6 @@
 				<UseObject QuestId="0xE0005BE2A2C5A73B" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-163.2904,-20.94797,421.5877" />
 				<CompleteQuest QuestName="Probes of Perekta" QuestId="0xE0005BE2A2C5A73B" />
 				<If Condition="(Me.Position.X &gt; -165) and (Me.Position.X &lt; -160) and (Me.Position.Y &gt; -21) and (Me.Position.Y &lt; -20) and (Me.Position.Z &gt; 417) and (Me.Position.Z &lt; 423)">
-					<UseTransport TransporterName="Perekta Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
-														XYZ="-162.0837,-20.94511,420.0616" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE00050441AADBBED" XYZ="-236.52,20.98863,164.315" />
@@ -893,17 +827,12 @@
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 2)))">
 				<If Condition="(Me.Position.X &gt; -248) and (Me.Position.X &lt; -231) and (Me.Position.Y &gt; 20) and (Me.Position.Y &lt; 22) and (Me.Position.Z &gt; 160) and (Me.Position.Z &lt; 174)">
 					<PickUpQuest QuestName="Retribution from Above" QuestId="0xE000DDDED5643B06" GiverName="Sergeant Bedareux" XYZ="-245.454,20.87977,165.1658" />
-					<UseTransport TransporterName="Drill Observation Ring Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
-														XYZ="-247.0062,20.87449,166.8905" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 					<ForceVendor VendorType="Repair" />
 					<ForceVendor VendorType="Train" />
 					<WaitTimer QuestId="1" WaitTime="3" />
-					<MoveTo QuestId="0xE000B4C8AD49CEF3" XYZ="-323.0785,-17.11476,-13.7874" />
-					<UseTransport TransporterName="Gravity Hook Seven Shuttle" Type="Taxi" Option="Drill Site Shuttle"
-														XYZ="-323.0785,-17.11476,-13.7874" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<Grind While="(not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 2))">
@@ -1014,8 +943,6 @@
 			<CompleteQuest QuestName="Testing Integrity" QuestId="0xE000D3ADE65222E8" />
 			<If Condition="((not IsBranchStepComplete(0xE000ABEA2E64D3CD, 1, 10)))">
 				<If Condition="(Me.Position.X &gt; -86) and (Me.Position.X &lt; -78) and (Me.Position.Y &gt; -70) and (Me.Position.Y &lt; -68) and (Me.Position.Z &gt; 213) and (Me.Position.Z &lt; 220)">
-					<UseTransport TransporterName="Cartel Mining Mesa Shuttle" Type="Taxi" Option="Drill Site Control Center Shuttle"
-														XYZ="-83.3998,-69.9072,216.1599" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000ABEA2E64D3CD" XYZ="-236.3938,20.98863,164.1104" />
@@ -1032,8 +959,6 @@
 		<If Condition="((HasQuest(0xE000DDDED5643B06)) and (not IsQuestComplete(0xE000DDDED5643B06)))">
 			<If Condition="((not IsBranchStepComplete(0xE000DDDED5643B06, 1, 2)))">
 				<If Condition="(Me.Position.X &gt; -248) and (Me.Position.X &lt; -231) and (Me.Position.Y &gt; 20) and (Me.Position.Y &lt; 22) and (Me.Position.Z &gt; 160) and (Me.Position.Z &lt; 174)">
-					<UseTransport TransporterName="Drill Observation Ring Shuttle" Type="Taxi" Option="Satellite Control Center Shuttle"
-														XYZ="-247.0062,20.87449,166.8905" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -109) and (Me.Position.X &lt; -105) and (Me.Position.Y &gt; -15) and (Me.Position.Y &lt; -14) and (Me.Position.Z &gt; -198) and (Me.Position.Z &lt; -192)">
@@ -1061,8 +986,6 @@
 		<If Condition="((HasQuest(0xE000E74DF274E415)) and (not IsQuestComplete(0xE000E74DF274E415)))">
 			<If Condition="((not IsBranchStepComplete(0xE000E74DF274E415, 1, 2)))">
 				<If Condition="(Me.Position.X &gt; -152) and (Me.Position.X &lt; -98) and (Me.Position.Y &gt; -16) and (Me.Position.Y &lt; -11) and (Me.Position.Z &gt; -200) and (Me.Position.Z &lt; -129)">
-					<UseTransport TransporterName="Telemur Mesa Shuttle" Type="Taxi" Option="Archon's Estates Shuttle"
-														XYZ="-106.621,-14.3277,-194.7611" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -26) and (Me.Position.X &lt; -21) and (Me.Position.Y &gt; -15) and (Me.Position.Y &lt; -14) and (Me.Position.Z &gt; -399) and (Me.Position.Z &lt; -393)">
@@ -1132,17 +1055,12 @@
 					<MoveTo QuestId="0xE000D27A47E88928" XYZ="-23.09138,-14.96838,-397.5682" />
 					<UseObject QuestId="0xE000D27A47E88928" ObjectName="Imperial Command Uplink" BranchId="1" StepId="3" WaitTime="4" UseRange="4" IgnoreLOS="True" XYZ="-23.09138,-14.96838,-397.5682"  />
 					<CompleteQuest QuestName="The Backup Plan" QuestId="0xE000D27A47E88928" />
-					<UseTransport TransporterName="Hutt Strongholds Shuttle" Type="Taxi" Option="Gravity Hook 7 Shuttle"
-														XYZ="-24.3611,-14.97505,-396.5716" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<If Condition="(Me.Position.X &gt; -335) and (Me.Position.X &lt; -321) and (Me.Position.Y &gt; -18) and (Me.Position.Y &lt; -17) and (Me.Position.Z &gt; -20) and (Me.Position.Z &lt; -7)">
 					<If Condition="(Me.Level == 55)">
 						<ForceVendor VendorType="Train" />
 					</If>
-					<MoveTo QuestId="0xE000E74DF274E415" XYZ="-322.3578,-17.11476,-12.68865" />
-					<UseTransport TransporterName="Shuttle" Type="Wonkavator" Option="Makeb Orbital Station"
-														XYZ="-322.3578,-17.11476,-12.68865" />
 					<WaitTimer QuestId="1" WaitTime="2" />
 				</If>
 				<MoveTo QuestId="0xE000E74DF274E415" XYZ="-328.3926,-55.8515,-6.981131" />

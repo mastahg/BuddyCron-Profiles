@@ -72,9 +72,6 @@
 
 <!--
 	
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option=""
-									
-									To 
 									
 			<WaitTimer QuestId="1" WaitTime="60" />
 			<WaitTimer QuestId="1" WaitTime="15" />
@@ -235,37 +232,13 @@
 		 
  Taxi Syntax
  
- 			<UseTransport TransporterName="" Type="Taxi" Option="" 
-									
-									To 
 
-<UseTransport TransporterName="" Type="Taxi" Option="Name of destination" 
-		X Y Z
-		ToX ToY ToZ />
 
  Wonkavator Syntax
  
- 		  <If Condition="(BuddyTor.Client.AreaID == 0x)">
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option=""
-									
-									To 
-		  </If>
 		 
- 		  <If Condition="(Me.Position.Y &lt; ) and (Me.Position.Y &gt; ) and (Me.Position.X &lt; ) and (Me.Position.X &gt; )">
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option=""
-									
-									To 
- 		  </If>
 		 
- 		  <If Condition="(Me.Position.Y &gt; ) and (Me.Position.Y &lt; )">
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option=""
-									
-									To 
-		  </If>
 			
- 			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Button Syntax"
-									X Y Z
-									ToX ToY ToZ />
 									
 									
 		InteractRange="0.1" 

@@ -319,8 +319,6 @@
 			<CompleteQuest QuestName="Allegiance" QuestId="0xE00082787B7B9F63" />
 			
 			<ForceVendor VendorType="Repair" />
-			<UseTransport TransporterName="Sith Academy Skyhopper" Type="Taxi" Option="Lower Wilds Taxi" 
-									XYZ="-18.9321,0.4588,-4.8698" />
 		</If>
 	  
 		<PickUpQuest QuestName="Experimental Needs" QuestId="0xE00008260B67A738" GiverName="Acolyte Krevan" XYZ="59.9594,-16.69371,-1.6444" />
@@ -484,10 +482,6 @@
 		
 		<!-- Warrior - Slaying the Beast -->
 		<If Condition="((HasQuest(0xE000BDCA4B3FB368)) and (not IsQuestComplete(0xE000BDCA4B3FB368)))">
-			<If Condition="HasQuest(0xE000BDCA4B3FB368) and not IsBranchStepComplete(0xE000BDCA4B3FB368, 1, 2)">
-				<UseTransport TransporterName="Sith Academy Skyhopper" Type="Taxi" Option="Lower Wilds Taxi" 
-									XYZ="-18.9321,0.4588,-4.8698" />
-			</If>
 			<!-- Destroying the Deserters (Bonus) --> 
 			<If Condition="(not IsQuestComplete(0xE000F455FA3C4C3D))">
 				<Grind While="(not IsQuestComplete(0xE000F455FA3C4C3D))">
@@ -538,8 +532,6 @@
 			<TurnInQuest QuestName="Dark Science" QuestId="0xE0004AF77448EBB0" TurnInName="Lord Renning" XYZ="35.51032,-16.7839,22.21641" />
 			<CompleteQuest QuestName="Dark Science" QuestId="0xE0004AF77448EBB0" />
  
-			<UseTransport TransporterName="Field Research Area Skyhopper" Type="Taxi" Option="Sith Academy Taxi" 
-									XYZ="37.5953,-15.20627,27.5524" />      
 		</If>
 	  
 		<!-- Turnin Lost Supplies -->
@@ -1044,8 +1036,6 @@
 		
 		<!-- Travel to Imperial Fleet - Inq, Warrior -->
 		<If Condition="(HasQuest(0xE0008DB4769571D5) or HasQuest(0xE00011DCC3956478)) and (Core.Player.AreaId == 0x4000000106296B6D)">
-			<UseTransport Type="Wonkavator" TransporterName="Shuttle Door" Option="Imperial Fleet"
-									XYZ="14.21082,0.7897972,12.77711" />
 			<WaitTimer QuestId="1" WaitTime="30" />
 		</If>
 	

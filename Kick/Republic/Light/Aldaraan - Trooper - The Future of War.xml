@@ -9,15 +9,9 @@
 				<MoveTo QuestId="0xE000F3534C0434DC" Name="Kill some dudes for obtaining bonus" XYZ="1.393369,25.70393,-76.79742" />
 			</If>
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 3)))">
-				<If Condition="(Me.Position.Y &gt; 15)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Generator Access"
-								XYZ="-0.7707567,25.741,-79.99551" />
-				</If>
-				<If Condition="(Me.Position.Y &lt; 15)">
-					<MoveTo QuestId="0xE000F3534C0434DC" Name="Cleaning up some Imps" XYZ="-30.46649,9.104074,-88.07248" />
-					<MoveTo QuestId="0xE000F3534C0434DC" Name="Moving to Console" XYZ="-27.63961,9.29668,-86.51675" />
-					<Interact Name="Power Generator Controls" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="-27.63509,9.296701,-86.51682" />	
-				</If>	
+				<MoveTo QuestId="0xE000F3534C0434DC" Name="Cleaning up some Imps" XYZ="-30.46649,9.104074,-88.07248" />
+				<MoveTo QuestId="0xE000F3534C0434DC" Name="Moving to Console" XYZ="-27.63961,9.29668,-86.51675" />
+				<Interact Name="Power Generator Controls" Radius="20" IgnoreLOS="True" WaitTime="5" XYZ="-27.63509,9.296701,-86.51682" />	
 			</If>
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 4)))">
 				<Grind While="(not IsStepComplete(0xE000525FC34FA588, 4))">
@@ -37,13 +31,7 @@
 				</Grind>	
 			</If>	
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 5)))">
-				<If Condition="(Me.Position.Y &lt; 15)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Gearbox's Bunker"
-								XYZ="-37.38632,9.325771,-70.12252" />
-				</If>
-				<If Condition="(Me.Position.Y &gt; 15)">
-					<MoveTo QuestId="0xE000F3534C0434DC" Name="Finding Gearbox" XYZ="1.818794,25.74206,-81.75397" />
-				</If>		
+				<MoveTo QuestId="0xE000F3534C0434DC" Name="Finding Gearbox" XYZ="1.818794,25.74206,-81.75397" />
 			</If>
 			<If Condition="((HasQuest(0xE000F3534C0434DC)) and (not IsStepComplete(0xE000F3534C0434DC, 7)))">
 				<Grind While="(not IsStepComplete(0xE000525FC34FA588, 7))">

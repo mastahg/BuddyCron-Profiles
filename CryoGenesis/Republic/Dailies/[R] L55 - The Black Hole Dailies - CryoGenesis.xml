@@ -25,10 +25,6 @@
 		
 		<!--<If Condition="((not HasQuest(0xE000557FD57DB2E8)) and (not HasQuest(0xE000332E98DB7B07)) and (not HasQuest(0xE0004B9AD68E0EBA)) and (not HasQuest(0xE00059299B493DB6)) and (not HasQuest(0xE000AB3D97853604)) and (not HasQuest(0xE0008CD48D625CF8)))"> -->
 		<If Condition="((not HasQuest(0xE000332E98DB7B07)) and (not HasQuest(0xE0004B9AD68E0EBA)) and (not HasQuest(0xE00059299B493DB6)) and (not HasQuest(0xE000AB3D97853604)))"> 
-			<If Condition="Me.Position.Z &gt;= -61">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 2"
-										XYZ="7.904294,1.912309,-60.07261" />
-			</If>	
 		
 			<If Condition="((not HasQuest(0xE000557FD57DB2E8)) and (not IsQuestComplete(0xE000557FD57DB2E8)) )">
 				<MoveTo QuestId="1" Name="Black Hole Mission Terminal" XYZ="4.216173,0.1018263,-65.57417" />
@@ -54,10 +50,6 @@
 				<PickUpQuest QuestName="[HEROIC 4] Chasing the Shadow" QuestId="0xE0008CD48D625CF8" GiverType="Placeable" UseRange="5" IgnoreLOS="true" Radius="1" GiverName="Black Hole Mission Terminal" XYZ="4.250726,0.1018265,-66.5527" />
 			</If>
 
-			<If Condition="Me.Position.Z &lt;= -61">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 1"
-										XYZ="12.63087,0.901,-62.80514" />
-			</If>				
 		</If> 
 
 		<!-- [DAILY] Stolen Victory Part 2 + [AREA] Criminal Crackdown Part 3 -->
@@ -148,38 +140,20 @@
 
 		<!-- [DAILY] Eyes and Ears -->
 		<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsQuestComplete(0xE000332E98DB7B07)))">
-			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 2)))">
-				<If Condition="Me.Position.Y &gt;= 0">
-					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 2"
-											XYZ="-12.4353,1.401,-37.75841" />
-				</If>					
-			</If>
 			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 3)))">
-				<If Condition="Me.Position.Z &gt;= -40">
-					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 2"
-											XYZ="-12.4353,1.401,-37.75841" />
-				</If>
-				<If Condition="Me.Position.Z &lt;= -40">	
-					<UseObject QuestId="0xE000332E98DB7B07" BranchId="1" StepId="3" Radius="5" UseRange="5" WaitTime="5" IgnoreLOS="True" >
-						<Placeables>
-							<Placeable>Listening Device Location</Placeable>						
-						</Placeables>
-						<Hotspots>
-							<Hotspot Name="Listening Device Location" XYZ="-18.66978,-8.598,-38.52102" />
-							<Hotspot Name="Listening Device Location" XYZ="-21.79131,-8.599,-40.53511" />
-							<Hotspot Name="Listening Device Location" XYZ="-19.45691,-8.599,-34.28481" />
-							<Hotspot Name="Listening Device Location" XYZ="-16.09886,-8.599,-34.1673" />
-							<Hotspot Name="Listening Device Location" XYZ="-13.17633,-8.599,-38.35008" />
-						</Hotspots>
-					</UseObject>	
-				</If>	
+				<UseObject QuestId="0xE000332E98DB7B07" BranchId="1" StepId="3" Radius="5" UseRange="5" WaitTime="5" IgnoreLOS="True" >
+					<Placeables>
+						<Placeable>Listening Device Location</Placeable>						
+					</Placeables>
+					<Hotspots>
+						<Hotspot Name="Listening Device Location" XYZ="-18.66978,-8.598,-38.52102" />
+						<Hotspot Name="Listening Device Location" XYZ="-21.79131,-8.599,-40.53511" />
+						<Hotspot Name="Listening Device Location" XYZ="-19.45691,-8.599,-34.28481" />
+						<Hotspot Name="Listening Device Location" XYZ="-16.09886,-8.599,-34.1673" />
+						<Hotspot Name="Listening Device Location" XYZ="-13.17633,-8.599,-38.35008" />
+					</Hotspots>
+				</UseObject>	
 			</If>
-			<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 4)))">
-				<If Condition="(Me.Position.Y &lt;= 0) and (Me.Position.Y &gt;= -10)">
-					<UseTransport TransporterName="HyperMatter Shipping Warehouse" Type="Wonkavator" Option="Shipping Warehouse Level 1"
-											XYZ="-15.41282,-7.599,-44.23388" />
-				</If>					
-			</If>			
 		</If>	
 		
 		<!-- [AREA] Criminal Crackdown -->
@@ -259,33 +233,23 @@
 		
 		<!-- Going to complete Dailies -->
 		<If Condition="((HasQuest(0xE000332E98DB7B07)) and (not IsStepComplete(0xE000332E98DB7B07, 4)) and (HasQuest(0xE0004B9AD68E0EBA)) and (not IsStepComplete(0xE0004B9AD68E0EBA, 3)) and (HasQuest(0xE00059299B493DB6)) and (not IsStepComplete(0xE00059299B493DB6, 3)) and (HasQuest(0xE0009A6887C8FC9F)) and (not IsStepComplete(0xE0009A6887C8FC9F, 9)))"> 
-			<If Condition="Me.Position.Z &gt;= -61">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 2"
-										XYZ="7.904294,1.912309,-60.07261" />
-			</If>	
 		
-			<If Condition="Me.Position.Z &lt;= -61">
-				<MoveTo Name="Black Hole Mission Terminal" XYZ="4.216173,0.1018263,-65.57417" />
-				<Interact Name="Black Hole Mission Terminal" XYZ="4.249666,0.1018263,-65.43777" />
-				<!--<CompleteQuest QuestName="[DAILY] Counter Eco-Terrorism" QuestId="0xE000557FD57DB2E8" />-->
-				<CompleteQuest QuestName="[DAILY] Eyes and Ears" QuestId="0xE000332E98DB7B07" />
-				<CompleteQuest QuestName="[DAILY] Forced Labor" QuestId="0xE0004B9AD68E0EBA" />
-				<CompleteQuest QuestName="[DAILY] Stolen Victory" QuestId="0xE00059299B493DB6" />
-				<CompleteQuest QuestName="[AREA] Criminal Crackdown" QuestId="0xE0009A6887C8FC9F" />
-				<!--<CompleteQuest QuestName="[WEEKLY] Black Hole Crisis" QuestId="0xE000AB3D97853604" />-->	
-				<!--<MoveTo Name="Black Hole Mission Terminal" X="4.252415" Y="0.1018265" Z="-66.57227" />
-				<Interact Name="Black Hole Mission Terminal" X="4.280947" Y="0.1018264" Z="-66.46231" />
-				<CompleteQuest QuestName="[HEROIC 4] Chasing the Shadow" QuestId="0xE0008CD48D625CF8" />-->
+			<MoveTo Name="Black Hole Mission Terminal" XYZ="4.216173,0.1018263,-65.57417" />
+			<Interact Name="Black Hole Mission Terminal" XYZ="4.249666,0.1018263,-65.43777" />
+			<!--<CompleteQuest QuestName="[DAILY] Counter Eco-Terrorism" QuestId="0xE000557FD57DB2E8" />-->
+			<CompleteQuest QuestName="[DAILY] Eyes and Ears" QuestId="0xE000332E98DB7B07" />
+			<CompleteQuest QuestName="[DAILY] Forced Labor" QuestId="0xE0004B9AD68E0EBA" />
+			<CompleteQuest QuestName="[DAILY] Stolen Victory" QuestId="0xE00059299B493DB6" />
+			<CompleteQuest QuestName="[AREA] Criminal Crackdown" QuestId="0xE0009A6887C8FC9F" />
+			<!--<CompleteQuest QuestName="[WEEKLY] Black Hole Crisis" QuestId="0xE000AB3D97853604" />-->	
+			<!--<MoveTo Name="Black Hole Mission Terminal" X="4.252415" Y="0.1018265" Z="-66.57227" />
+			<Interact Name="Black Hole Mission Terminal" X="4.280947" Y="0.1018264" Z="-66.46231" />
+			<CompleteQuest QuestName="[HEROIC 4] Chasing the Shadow" QuestId="0xE0008CD48D625CF8" />-->
 			
-				<ForceVendor VendorType="Repair" />	
+			<ForceVendor VendorType="Repair" />	
 			
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sentinel Outpost Level 1"
-										XYZ="12.63087,0.901,-62.80514" />
-			</If>	
 			
-			<If Condition="Me.Position.Z &gt;= -61">
-				<MoveTo QuestId="1" Name="Done with quests - going to transport area" XYZ="12.81523,1.992607,-50.49124" />
-			</If>
+			<MoveTo QuestId="1" Name="Done with quests - going to transport area" XYZ="12.81523,1.992607,-50.49124" />
 		</If> 		
 		
 		<UserDialog Title="Done!" Message="I'm Done!" />

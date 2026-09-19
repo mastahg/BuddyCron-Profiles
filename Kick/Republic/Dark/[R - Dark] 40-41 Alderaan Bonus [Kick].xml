@@ -67,8 +67,6 @@
 			<!-- If I am on my ship and quest 0xE0000A9CA0310C5C not completed - travel to alderaan - get off of ship - use ele to pallista -->
 			<PickUpQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" GiverName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
  
-			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Wardpost Luurdes Thranta" 
-									XYZ="-103.6758,23.17954,123.6498" />
 		</If>
 		
 		<!-- Alderaan: Bonus Series 2 -->
@@ -405,18 +403,12 @@
 			<If Condition="((HasQuest(0xE0000A9CA0310C5C)) and (not IsBranchStepComplete(0xE0000A9CA0310C5C, 1, 11)))">
 				<TalkTo QuestId="0xE0000A9CA0310C5C" Name="Captain Vakar" XYZ="298.873,18.33239,44.1935" />
  
-				<UseTransport TransporterName="House Traders' Circle Thranta" Type="Taxi" Option="House Organa Taxi" 
-									XYZ="300.0786,18.41762,53.691" />
 			</If>
 			<TurnInQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" TurnInName="Major Brom" XYZ="-71.1123,26.001,104.2059" />
 			<CompleteQuest QuestName="Alderaan: Bonus Series" QuestId="0xE0000A9CA0310C5C" />
 			
-			<UseTransport TransporterName="House Organa Taxi" Type="Taxi" Option="Pallista Spaceport Taxi" 
-									XYZ="-103.6758,23.17954,123.6498" />
 			
 			<!-- Consular -->
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-158.4106,22.28976,151.6067" />
 									
 			<UseObject QuestId="1" ObjectName="Defender" Radius="20" WaitTime="5" XYZ="-153.4679,-5.298329,167.8923" />
 		</If>
@@ -433,14 +425,10 @@
 				<UseObject QuestId="0xE000865F87CB1054" BranchId="1" StepId="3" ObjectName="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.01708296,0.5900244,-2.905477" />
 			
 				<!-- I am in Airlock  -->
-				<UseTransport TransporterName="Airlock" Type="Wonkavator" Option="Belsavis Orbital Station"
-									XYZ="62.00192,-78.00392,47.83056" />
 			
 				<PickUpQuest QuestName="A Belsavis Welcome" QuestId="0xE000B93790BD61B9" GiverName="Intake Officer" XYZ="56.4383,-77.589,32.7644" />
 	
 				<!-- I am on Orbital Station -->
-				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Minimum Security"
-									XYZ="56.95659,-77.3624,26.44885" />
 			
 				<!-- I am on Belsavis -->
 			</If>

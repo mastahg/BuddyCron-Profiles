@@ -1046,9 +1046,6 @@
 </If>
 		
 <!-- Repelling Invasion -->
-<If Condition="HasQuest(0xE000615560B84386) and not IsStepComplete(0xE000615560B84386, 3)">
-	<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 2" XYZ="154.0052,15.58527,-1.847997" />
-</If>
 
 <!-- Repelling Invasion -->
 <If Condition="not IsStepComplete(0xE000615560B84386, 3)">
@@ -1069,9 +1066,6 @@
 <!-- Inquisitor -->
 <If Condition="Me.Class == CharacterClass.Inquisitor">
 	<!-- Into the Pit -->
-	<If Condition="not IsBranchStepComplete(0xE0002FE18F814730, 7, 2)">
-		<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 1" XYZ="-111.0253,-0.6735284,167.5428"  />
-	</If>
 			
 	<!-- Into the Pit -->
 	<If Condition="not IsBranchStepComplete(0xE0002FE18F814730, 7, 2)">

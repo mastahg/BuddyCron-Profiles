@@ -89,11 +89,6 @@
 			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 2)))">
 				<TalkTo QuestId="0xE000D8E514C906C4" Name="Derrin Weller" XYZ="-64.29967,-6.9079,-128.0636" />
 			</If>
-			<If Condition="((HasQuest(0xE000D8E514C906C4)) and (not IsStepComplete(0xE000D8E514C906C4, 3)))">
-				<MoveTo QuestId="0xE000D8E514C906C4" XYZ="-53.4878,-7.713922,-125.4795" />
-				<UseTransport TransporterName="Masters' Retreat Taxi" Type="Taxi" Option="Gnarls Outpost Speeder" 
-									XYZ="-53.4878,-7.713922,-125.4795" />
-			</If>
 		</If>
 		
 		<!-- Consular: The Path of a Jedi -->
@@ -1104,8 +1099,6 @@
 			<!-- Weapon of the Jedi 0xE000CBD20FC5289B -->
 			<!-- open character tab, press companion tab, Equip Item: T7 Customization 2 -->
 			
-			<UseTransport TransporterName="Kalikori Village Speeder" Type="Taxi" Option="Forward Camp Speeder" 
-									XYZ="16.9777,-0.7802001,-29.4481" />
 		</If>
 			
 		<!-- Ignoring Combat V until we have pet -->
@@ -1587,32 +1580,22 @@
 		<!-- Consular - An Afflicted Master  -->
 		<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsQuestComplete(0xE000BEC612EFB6D0)))">
 			<If Condition="((HasQuest(0xE000BEC612EFB6D0)) and (not IsStepComplete(0xE000BEC612EFB6D0, 2)))">
-				<MoveTo QuestId="1" Name="Shuttle" XYZ="-43.59722,-5.060167,-54.38555" />
-				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-									XYZ="-43.54809,-5.122989,-54.29406" />
 									
 				<WaitTimer QuestId="1" WaitTime="60" />
 				<CompleteQuest QuestName="An Afflicted Master" QuestId="0xE000BEC612EFB6D0" />
 				<!-- Open Qyzen's Civilian Outfit, press Take All, equip them on companion (C, companion pane, equip items: Qyzen's Rugged Pants, Jacket, Boots) -->
 				<!-- The Arrival 0xE0000CB5D481F093 -->
-				<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7466,0.4950807,-473.3069" />
 			</If>
 		</If>
 			
 		<!-- Knight - Seeking Darkness -->
 		<If Condition="((HasQuest(0xE000904D233CD242)) and (not IsQuestComplete(0xE000904D233CD242)))">
 			<If Condition="((HasQuest(0xE000904D233CD242)) and (not IsStepComplete(0xE000904D233CD242, 2)))">
-				<MoveTo QuestId="1" Name="Shuttle" XYZ="-43.59722,-5.060167,-54.38555" />
-				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Republic Fleet"
-									XYZ="-43.54809,-5.122989,-54.29406" />
 									
 				<WaitTimer QuestId="1" WaitTime="60" />
 				<CompleteQuest QuestName="Seeking Darkness" QuestId="0xE000904D233CD242" />
 				<!-- The Jedi Envoy 0xE0002021F2CF1FFC -->
 			
-				<UseTransport TransporterName="Elevator to Station Core" Type="Wonkavator" Option="Main Level"
-									XYZ="-663.7466,0.4950807,-473.3069" />
 			</If>
 		</If>
 		

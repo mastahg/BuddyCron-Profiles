@@ -356,9 +356,6 @@
 			
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)"> <!-- On Taris -->
-					<MoveTo QuestId="1" XYZ="-211.2298,-40.60616,72.27157" />
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-									XYZ="-211.2298,-40.60616,72.27157" />
 					<TalkTo QuestId="0xE000D638F590B66F" Name="Colonel Gaff" XYZ="-190.0917,-19.509,79.043" />
 					<CompleteQuest QuestName="Welcome Party" QuestId="0xE000D638F590B66F" />
 		
@@ -389,12 +386,6 @@
 					<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="0.009938865,0.5951088,-3.069698" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)"> <!-- Taris - Consular Hangar -->
-					<If Condition="(Me.Position.Y &lt; -32) and (Me.Position.Y &gt; -34)">
-						<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-									XYZ="-212.8293,-33.60266,72.16498" />
-					</If>
-				</If>
 			</If>
 		</If>
 		
@@ -416,8 +407,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000E919187067A6)) and (not IsBranchStepComplete(0xE000E919187067A6, 1, 6)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-									XYZ="-213.5681,-33.60661,48.12357"  />
 					<TalkTo QuestId="0xE000E919187067A6" Name="Beryl Thorne" XYZ="-182.1259,-19.07482,62.8673" />
 					<CompleteQuest QuestName="Beryl's Bargain" QuestId="0xE000E919187067A6" />						
 				</If>
@@ -436,12 +425,7 @@
 					<WaitTimer QuestId="1" WaitTime="30" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000051FBCAB7)"> <!-- Ord Mantell - Knight Hangar -->
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Ord Mantell Orbital Station"
-									XYZ="-104.9985,-100.0039,8.794093" />
 					<!--Use Shuttle down to planet-->
-					<MoveTo QuestId="1" Name="Shuttle" XYZ="-99.73313,-99.28159,-10.93317" />
-					<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Ord Mantell"
-									XYZ="-99.73313,-99.28159,-10.93317" />
 									
 					<WaitTimer QuestId="1" WaitTime="6" />
 					<!--should be on the planet now.-->
@@ -503,12 +487,7 @@
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 13)))">
 				<!-- we gotta go back to the ship now.-->
-				<MoveTo QuestId="1" Name="Shuttle" XYZ="26.82306,6.352253,38.13026" />
-				<UseTransport TransporterName="Shuttle Door" Type="Wonkavator" Option="Ord Mantell Orbital Station"
-									XYZ="26.82306,6.352253,38.13026" />
 									
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Knight Airlock"
-									XYZ="-101.6962,-99.60392,7.702371" />
 				<MoveTo QuestId="1" XYZ="-104.976,-100.0024,15.0418"/>											 
 			</If>
 			<If Condition="((HasQuest(0xE000DDE90A0F682E)) and (not IsBranchStepComplete(0xE000DDE90A0F682E, 1, 15)))">
@@ -556,11 +535,6 @@
 				<If Condition="(Core.Player.AreaId == 0x40000007A66F6081)">
 					<MoveTo QuestId="1" XYZ="-0.01515916,0.6055213,-3.104141" />
 					<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="-0.01515916,0.6055213,-3.104141" />
-				</If>
-				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)">
-					<MoveTo QuestId="1" XYZ="-211.971,-40.60599,48.12616" />
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Olaris Spaceport"
-									XYZ="-211.971,-40.60599,48.12616" />
 				</If>
 			</If>
 
@@ -875,8 +849,6 @@
 			<!-- Learn Bindpoint, Speeder, Sell / repair -->
 			<ForceVendor VendorType="Repair" />
  
-			<UseTransport TransporterName="Waypoint Station Aurek Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="-73.2112,-12.99559,0.5226" />
 		</If>
 	
 		<!-- Turnin Surface Problems (From Bonuses) -->
@@ -904,8 +876,6 @@
 			<!-- Wake of the Spire 0xE000AC5B6DD93272 -->
 			<!-- Force Vendor, Repair, Mail -->
  
-			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Aurek Speeder" 
-									XYZ="-183.4904,-20.01153,50.9324" />
 		</If>
 
 		<!-- Turnin Wake of the Spire -->
@@ -1532,12 +1502,8 @@
 		<!--Trooper - An Imperial Presence - 0xE0004A5DD1C1BD45 - Step: 4 - Branch: 1-->
 		<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsQuestComplete(0xE0004A5DD1C1BD45)))">
 			<If Condition="((HasQuest(0xE0004A5DD1C1BD45)) and (not IsBranchStepComplete(0xE0004A5DD1C1BD45, 1, 4)))">
-				<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78" />
 				<TalkTo QuestId="0xE0004A5DD1C1BD45" Name="Sergeant Elara Dorne" XYZ="-190.2926,-19.499,79.6403" />
 				<CompleteQuest QuestName="An Imperial Presence" QuestId="0xE0004A5DD1C1BD45" />
-				<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder"
-									XYZ="-183.4904,-20.01153,50.9324" />
 			</If>
 		</If>
 		<!--End-->
@@ -1548,11 +1514,6 @@
 		<!-- Consular - Rakghoul Invasion and Turnin -->
 		<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsQuestComplete(0xE0005896427A1928)))">
 			<If Condition="((HasQuest(0xE0005896427A1928)) and (not IsStepComplete(0xE0005896427A1928, 3)))">
-				<If Condition="Me.Position.X &gt;= 0">
-					<!-- If I am at Morne - UseTaxi to Olaris -->
-					<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78" />
-				</If>
 				<MoveTo QuestId="0xE0005896427A1928" Name="Jump Point" XYZ="-206.3995,-19.259,84.62611" />
 				<MoveTo QuestId="0xE0005896427A1928" Name="My Location" XYZ="-206.5344,-19.04475,84.03107" />
 				<JumpTo 	QuestId="1" 
@@ -1629,8 +1590,6 @@
 			</If>
 			<!-- Super Reactor 0xE00072624DFC54F8 -->
  
-			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Waypoint Station Morne Speeder"
-									XYZ="-183.4904,-20.01153,50.9324" />
 		</If>
 		
 		<!-- Consular - Super Reactor -->
@@ -1919,8 +1878,6 @@ Room: int_h4g_Transport5_smuggler_room08
 			<TurnInQuest QuestName="Infectious Legacy" QuestId="0xE000BD226E0F07CB" Type="Placeable" TurnInName="Drop Box" XYZ="-178.5568,-19.94706,54.53786" />
 			<CompleteQuest QuestName="Infectious Legacy" QuestId="0xE000BD226E0F07CB" />
 			<!--not sure why this taxi is here. once i turn in the quest the requirement to use the taxi goes away.-->
-			<UseTransport TransporterName="Waypoint Station Morne Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder" 
-									XYZ="33.3469,-19.6577,49.78" />
 		</If>
 		
 		<!-- Turnin Chasing History -->
@@ -1978,8 +1935,6 @@ Room: int_h4g_Transport5_smuggler_room08
 			
 			<PickUpQuest QuestName="Taris: Bonus Series" QuestId="0xE000DD2E1F315748" GiverName="Strom" XYZ="-206.6253,-19.189,60.8031" />
  
-			<UseTransport TransporterName="Olaris Reclamation Base Speeder" Type="Taxi" Option="Brejik's Run Outpost Speeder" 
-									XYZ="-183.4904,-20.01153,50.9324" />
 									
 			<!-- Learn Bindpoint -->
 		</If>
@@ -2493,8 +2448,6 @@ Room: int_h4g_Transport5_smuggler_room08
 			<TurnInQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" TurnInName="Sergeant Mack" XYZ="41.0542,-13.39721,-20.6292" />
 			<CompleteQuest QuestName="Suicide Mission" QuestId="0xE00073024E775BA0" />
  
-			<UseTransport TransporterName="Kanner Outpost Speeder" Type="Taxi" Option="Olaris Reclamation Base Speeder"
-									XYZ="34.2049,-13.29579,-20.5859" />
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 		</If>
@@ -2508,8 +2461,6 @@ Room: int_h4g_Transport5_smuggler_room08
 		<If Condition="((HasQuest(0xE000B01A245DF2CC)) and (not IsQuestComplete(0xE000B01A245DF2CC)))">
 			<If Condition="((HasQuest(0xE000B01A245DF2CC)) and (not IsBranchStepComplete(0xE000B01A245DF2CC, 1, 4)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-									 XYZ="-211.9701,-19.50619,72.2662" />
 					<Interact QuestId="0xE000B01A245DF2CC" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="-209.7396,-39.9138,90.17558" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000814AD5B38)"> <!-- Our Ship -->
@@ -2526,14 +2477,8 @@ Room: int_h4g_Transport5_smuggler_room08
 		<!-- Consular - Super Reactor -->
 		<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsQuestComplete(0xE00072624DFC54F8)))">
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 8, 2)))">
-				<If Condition="Me.Position.Y &gt; -30">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="-213.5143,-19.5131,72.34254" />
-				</If>
-				<If Condition="Me.Position.Y &lt; -30">
-					<Interact QuestId="0xE00072624DFC54F8" Name="Defender" Radius="20" WaitTime="5" XYZ="-209.0159,-33.10583,89.19955" />
-					<WaitTimer QuestId="1" WaitTime="15" />
-				</If>
+				<Interact QuestId="0xE00072624DFC54F8" Name="Defender" Radius="20" WaitTime="5" XYZ="-209.0159,-33.10583,89.19955" />
+				<WaitTimer QuestId="1" WaitTime="15" />
 				<!-- If I am in my ship -->
 				<TurnInQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" TurnInName="Holoterminal" XYZ="0.001393818,1.676,1.439556" />
 				<CompleteQuest QuestName="Super Reactor" QuestId="0xE00072624DFC54F8" />
@@ -2547,9 +2492,6 @@ Room: int_h4g_Transport5_smuggler_room08
 			<If Condition="((HasQuest(0xE000437B1D0CE17C)) and (not IsBranchStepComplete(0xE000437B1D0CE17C, 4, 7)))">
 		
 				<If Condition="(Core.Player.AreaId == 0x4000000111629D34)">
-					<MoveTo QuestId="1"  XYZ="-211.3469,-19.51207,48.08252" />
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Knight Hangar"
-									 XYZ="-211.3469,-19.51207,48.08252" />
 					<!--should initate conversation - Takes place at step 8 -->
 					<MoveTo QuestId="1"  XYZ="-209.5202,-40.599,46.66306" />
 									 
@@ -2587,8 +2529,6 @@ Room: int_h4g_Transport5_smuggler_room08
 				<!-- This took me like 2 mins to load -->
  
 				<!-- If I am on Nar Shaddaa -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Deucalon Spaceport"
-									XYZ="-225.1948,68.01059,-204.0795" />
 			</If>
 		</If>
 	

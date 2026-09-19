@@ -41,12 +41,6 @@
 	<Questing>
 		
 		<!-- Agent - Be the Enemy -->
-		<If Condition="((HasQuest(0xE000DE1D7172F979)) and (not IsQuestComplete(0xE000DE1D7172F979)))">
-			<If Condition="HasQuest(0xE000DE1D7172F979) and not IsBranchStepComplete(0xE000DE1D7172F979, 1, 4) and (Me.Position.Y &lt; -14)" >
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-8.569576,-15.39565,83.75136" />
-			</If>
-		</If>
 		
 		<!-- Inq - Plans -->
 		<If Condition="((HasQuest(0xE000A80E99D61403)) and (not IsQuestComplete(0xE000A80E99D61403)))">
@@ -55,18 +49,10 @@
 					<Interact Name="Ship Exit" IgnoreLOS="True" WaitTime="5" XYZ="-0.0008129627,0.7982781,4.452863" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(Core.Player.AreaId == 0x40000000E21DD4EC) and (Me.Position.Y &lt; -14)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-25.42319,-15.42346,83.52718" />
-				</If>
 			</If>
 		</If>
 		
 		<!-- Warrior - Use elevator -->
-		<If Condition="HasQuest(0xE0009AFFC1139B71) and not IsQuestComplete(0xE0009AFFC1139B71) and (Me.Position.Y &lt; -14)" >
-			<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-23.84737,-22.40786,83.53815" />
-		</If>
 	
 		<PickUpQuest QuestName="Operation Breaking Point" QuestId="0xE000299B7B39CC58" GiverName="Captain Rigel" XYZ="-17.02295,6.011,84.79832" />
 		<PickUpQuest QuestName="Step Lightly" QuestId="0xE00029BD036CC1E5" Type="Placeable" UseRange="2" GiverName="Mission Terminal" XYZ="-17.70022,5.571,93.81511" />
@@ -267,8 +253,6 @@
 			<TurnInQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" TurnInName="Engineer Mucdermon" XYZ="-9.116968,9.186101,183.2975" />
 			<CompleteQuest QuestName="Wild Fire" QuestId="0xE0007300095B167B" />
 			
-			<UseTransport TransporterName="Troida Skyhopper" Type="Taxi" Option="Sobrik Speeder" 
-									XYZ="-15.29482,9.41999,185.3959" />
 		</If>
 		
 		<!-- Inquisitor - Scientific Inquiry -->
@@ -469,8 +453,6 @@
 		<If Condition="((HasQuest(0xE00037D6E63CF179)) and (not IsQuestComplete(0xE00037D6E63CF179)))">
 			<If Condition="((HasQuest(0xE00037D6E63CF179)) and (not IsBranchStepComplete(0xE00037D6E63CF179, 1, 6)))">
 				<If Condition="(HasQuest(0xE00037D6E63CF179) and not IsBranchStepComplete(0xE00037D6E63CF179, 1, 2))" >
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Computer Control Center"
-										XYZ="-97.0908,12.62447,175.8143"  />
 					<TalkTo QuestName="Chaos at the Droid Factory" QuestId="0xE00037D6E63CF179" Name="Zalia" XYZ="-96.1109,4.2128,169.0589" />
 				</If>
 				<If Condition="(not IsBranchStepComplete(0xE00037D6E63CF179, 1,5))">
@@ -489,26 +471,16 @@
 				</If>
 				<TalkTo QuestName="Chaos at the Droid Factory" QuestId="0xE00037D6E63CF179" Name="Zalia" XYZ="-96.1109,4.2128,169.0589" />
 			</If>
-			<If Condition="((HasQuest(0xE00037D6E63CF179)) and (IsBranchStepComplete(0xE00037D6E63CF179, 1, 6))and (Me.Position.Y &lt; 5))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Okara Droid Factory"
-									XYZ="-97.09984,4.196772,175.7474" />
-			</If>
 		</If>
 		
 		<!-- Agent - Be the Enemy -->
 		<If Condition="((HasQuest(0xE000DE1D7172F979)) and (not IsQuestComplete(0xE000DE1D7172F979)))">
 			<If Condition="HasQuest(0xE000DE1D7172F979) and not IsBranchStepComplete(0xE000DE1D7172F979, 1, 7)">
-				<If Condition="(Me.Position.Y &gt;= 5)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Power Generator"
-										XYZ="-110.6215,12.58777,167.8895" />
-				</If>
 				<If Condition="HasQuest(0xE000DE1D7172F979) and not IsBranchStepComplete(0xE000DE1D7172F979, 1, 6)">
 					<MoveTo QuestId="0xE000DE1D7172F979" XYZ="-121.2284,1.345383,147.3106" />
 				</If>
 				<UseObject QuestId="0xE000DE1D7172F979" ObjectName="Shielded Power Cores" BranchId="1" StepId="7" WaitTime="4" XYZ="-117.6489,1.4234,146.7882" />
 				
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Okara Droid Factory"
-										XYZ="-110.7094,-0.6735284,167.8417" />
 			</If>
 		</If>
 		
@@ -520,8 +492,6 @@
 			<TurnInQuest QuestName="Data Corruption" QuestId="0xE000C0623E27C4BE" TurnInName="Major Tyrus" XYZ="-56.84917,13.79671,154.0168" />
 			<CompleteQuest QuestName="Data Corruption" QuestId="0xE000C0623E27C4BE" />
  
-			<UseTransport TransporterName="Markaran Imperial Outpost Speeder" Type="Taxi" Option="Troida Taxi" 
-									XYZ="-57.2257,14.69548,144.8979" />
 		</If>
 		
 		<!-- Agent - Be the Enemy -->
@@ -572,10 +542,6 @@
 			</If>
 			<UseObject ObjectName="Computer Terminal" QuestId="0xE000AF0CFE57BD2D" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="11.50719,14.98756,200.6434" />
 			<If Condition="HasQuest(0xE000AF0CFE57BD2D) and not IsBranchStepComplete(0xE000AF0CFE57BD2D, 3, 2)">
-				<If Condition="(Me.Position.Y &gt;= 10)">
-					<UseTransport  TransporterName="Elevator" Type="Wonkavator" Option="Level 2"
-									XYZ="3.963287,15.26427,200.7869" />
-				</If>
 				<!-- No Sanctuary (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000E5780A43E23E))">
 					<Grind While="not IsTaskComplete(0xE000E5780A43E23E, 2, 1)">
@@ -640,17 +606,11 @@
 					</GrindArea>
 				</Grind>
 			
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 1"
-									XYZ="3.845974,4.087068,200.7102" />
 			</If>
 		</If>
 		
 		<!-- Bounty Hunter - Down with the Queen -->
 		<If Condition="((HasQuest(0xE0006FF534DE5CC2)) and (not IsQuestComplete(0xE0006FF534DE5CC2)))">
-			<If Condition="((HasQuest(0xE0006FF534DE5CC2)) and (not IsBranchStepComplete(0xE0006FF534DE5CC2, 1, 2))and (Me.Position.Y &gt; 5))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Kag'areth Queen's Nest"
-									XYZ="43.0878,6.758568,217.8011" />
-			</If>
 			<If Condition="(not IsBranchStepComplete(0xE0003EB8B7D53AA0, 1,2))">
 				<Grind While="(not IsBranchStepComplete(0xE0003EB8B7D53AA0, 1,2))">
 					<GrindArea Name="Fire in the Bug Hole">
@@ -683,10 +643,6 @@
 					</Hotspots>
 				</GrindArea>
 			</Grind>
-			<If Condition="((HasQuest(0xE0006FF534DE5CC2)) and (IsBranchStepComplete(0xE0006FF534DE5CC2, 1, 7))and (Me.Position.Y &lt; 2))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Gorinth Canyon"
-									XYZ="43.11407,1.206468,217.8301" />
-			</If>
 		</If>
 		
 		<!-- Secret of Cave 52 and Turnin -->
@@ -1186,12 +1142,6 @@
 					</Hotspots>
 				</UseObject>
 			</If>
-			<If Condition="HasQuest(0xE000615560B84386) and not IsBranchStepComplete(0xE000615560B84386, 1, 6)">
-				<If Condition="(Me.Position.Y &lt;= 20)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 2"
-									XYZ="154.028,15.58527,-1.912098" />
-				</If>
-			</If>
 			<If Condition="HasQuest(0xE000615560B84386) and not IsStepComplete(0xE000615560B84386, 3)">
 				<MoveTo QuestId="0xE000615560B84386" XYZ="160.9368,23.87038,-28.71541" />
 			</If>
@@ -1213,8 +1163,6 @@
 			<If Condition="HasQuest(0xE000615560B84386) and not IsStepComplete(0xE000615560B84386, 6)">
 				<TalkTo QuestName="Repelling Invasion" QuestId="0xE000615560B84386" Name="Grand Marshal Cheketta" XYZ="162.5125,23.87038,-26.49483" />
 			
-				<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Level 1"
-									XYZ="153.9414,23.99707,-8.329875" />
 			</If>
 		</If>
 		
@@ -1301,10 +1249,6 @@
 		
 		<!-- Bounty Hunter - Meet The Admiral-->
 		<If Condition="((HasQuest(0xE0001E0A9C716DDD)) and (not IsQuestComplete(0xE0001E0A9C716DDD)))">
-			<If Condition="((HasQuest(0xE0001E0A9C716DDD)) and (not IsBranchStepComplete(0xE0001E0A9C716DDD, 1, 2))and (Me.Position.Y &gt; -12))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar Bay 59"
-									XYZ="-4.875002,5.701154,80.6544" />
-			</If>
 			<If Condition="(not IsBranchStepComplete(0xE0001E0A9C716DDD, 1, 2))">
 				<TalkTo QuestName="Meet the Admiral" QuestId="0xE0001E0A9C716DDD" Name="Lieutenant Major Pirrell" XYZ="3.1471,-15.399,80.788" />
 			</If>
@@ -1329,31 +1273,21 @@
 			<If Condition="(not IsBranchStepComplete(0xE0001E0A9C716DDD, 3, 3))">
 				<TalkTo QuestName="Meet the Admiral" QuestId="0xE0001E0A9C716DDD" Name="Lieutenant Major Pirrell" XYZ="0.3692805,-15.399,81.61422" /><!-- 3 3 -->	
 			</If>
-			<If Condition="((HasQuest(0xE0001E0A9C716DDD)) and (not IsBranchStepComplete(0xE0001E0A9C716DDD, 5, 2))and (Me.Position.Y &lt; -12))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-4.989159,-15.4096,79.97578" />
-			</If>
 		</If>
 		
 		<!-- Warrior - To Kill a Legend -->
 		<If Condition="((HasQuest(0xE00016DD20D96D29)) and (not IsQuestComplete(0xE00016DD20D96D29)))">
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 9)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar Bay 61"
-									XYZ="-29.0679,5.696168,80.06026" />
 				<MoveTo QuestId="1" XYZ="-39.5136,-15.399,79.5213" />
 			</If>
 			<!-- She hits hard, might have to kill by hand -->
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 11)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar Bay 61"
-									XYZ="-29.0679,5.696168,80.06026" />
 				<MoveTo QuestId="1" XYZ="-39.5136,-15.399,79.5213" />
 			</If>
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 12)))">
 				<TalkTo QuestName="To Kill a Legend" QuestId="0xE00016DD20D96D29" Name="Jedi Knight Mashallon" XYZ="-39.45144,-15.399,79.74831" />
 			</If>
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 13)))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sobrik Spaceport"
-									XYZ="-29.10817,-15.42241,80.61677" />
 				<MoveTo QuestId="1" XYZ="-8.856123,5.1125,105.0822" />
 			</If>
 		</If>
@@ -1838,8 +1772,6 @@
 		<If Condition="((HasQuest(0xE00062183D8F80DE)) and (not IsQuestComplete(0xE00062183D8F80DE)))">
 			<If Condition="HasQuest(0xE00062183D8F80DE) and not IsBranchStepComplete(0xE00062183D8F80DE, 9, 2)">
 				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Imperial Agent Hangar" 
-									XYZ="-8.557227,5.605309,83.58036" />
 									
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
@@ -1868,8 +1800,6 @@
 					<WaitTimer WaitTime="90" QuestId="1" />
 				</If>
 				<If Condition="(Me.Position.Y &lt;= -5) and (Core.Player.AreaId == 0x40000002278FFC5D)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-225.1632,-6.966546,-204.0284" />
 									
 					<WaitTimer WaitTime="10" QuestId="1" />
 				</If>
@@ -1878,10 +1808,6 @@
 		
 		<!-- Bounty Hunter - Meet The Admiral - HoloTerminal -->
 		<If Condition="((HasQuest(0xE0001E0A9C716DDD)) and (not IsQuestComplete(0xE0001E0A9C716DDD)))">
-			<If Condition="((HasQuest(0xE0001E0A9C716DDD)) and (not IsBranchStepComplete(0xE0001E0A9C716DDD, 5, 2))and (Me.Position.Y &gt; 2))">
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Bounty Hunter Hangar"
-									XYZ="-10.11019,5.553259,83.72315" />
-			</If>
 			<UseObject QuestId="0xE0001E0A9C716DDD" ObjectName="D5-Mantis" IgnoreLOS="False" IgnoreQuestRelation="False"  XYZ="-3.764766,-22.0681,101.8464" />
 			<WaitTimer QuestId="1" WaitTime="90" />
 			<UseObject QuestId="0xE0001E0A9C716DDD" ObjectName="Holoterminal" BranchId="5" StepId="2" IgnoreQuestRelation="True" WaitTime="1" XYZ="-0.2284363,1.401,0.7807257" />
@@ -1892,8 +1818,6 @@
 		<If Condition="((HasQuest(0xE00081033ABE002B)) and (not IsQuestComplete(0xE00081033ABE002B)))">
 			<If Condition="HasQuest(0xE00081033ABE002B) and not IsBranchStepComplete(0xE00081033ABE002B, 9, 3)">
 				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)"> <!-- Balmorra -->
-					<UseTransport Type="Wonkavator" TransporterName="Elevator" Option="Sith Inquisitor Hangar" 
-									XYZ="-26.11348,5.589685,83.59577" />
 									
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
@@ -1927,10 +1851,6 @@
 					<Interact QuestId="0xE000539A10248ED1" Name="Ship Exit" IgnoreLOS="True" WaitTime="3" XYZ="-0.0025963,0.7983624,4.418161" />
 					<WaitTimer WaitTime="60" QuestId="1" />
 				</If>
-				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-225.0887,5.501,-204.1261" />
-				</If>
 			</If>
 		</If>
 		
@@ -1938,8 +1858,6 @@
 		<If Condition="((HasQuest(0xE00016DD20D96D29)) and (not IsQuestComplete(0xE00016DD20D96D29)))">
 			<If Condition="((HasQuest (0xE00016DD20D96D29)) and (not IsBranchStepComplete(0xE00016DD20D96D29, 1, 15)))">
 				<If Condition="(Me.Position.Y &gt;= 0) and (Core.Player.AreaId == 0x40000000E21DD4EC)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Sith Warrior Hangar"
-									XYZ="-24.46811,5.588664,83.58705" />
 					<MoveTo QuestId="1" XYZ="-28.01169,-22.419,97.08377" />
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
@@ -1969,8 +1887,6 @@
 				<Interact QuestId="0xE0000232FCC11D4A" Name="Ship Exit" WaitTime="3" XYZ="0.02740691,0.7981918,4.449235" />
 				<WaitTimer WaitTime="90" QuestId="1" />
 				<If Condition="(Me.Position.Y &lt;= 6) and (Core.Player.AreaId == 0x40000002278FFC5D)">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Mezenti Spaceport"
-									XYZ="-224.8444,5.5011,-157.8653" />			
 					<WaitTimer WaitTime="10" QuestId="1" />
 				</If>
 			</If>

@@ -360,10 +360,6 @@
 		<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsQuestComplete(0xE000908AED28019E)))">
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 6)))">
 				<MoveTo QuestId="0xE000908AED28019E" Name="My Location" XYZ="166.0784,45.08748,-335.1017" />
-				<If Condition="Me.Position.Y &gt;= 39">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar 21"
-									XYZ="166.1169,45.08802,-335.0212" />
-				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 7)))">
 				<!-- Shut Down the Slave Trade (Bonus) -->
@@ -409,10 +405,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 8)))">
 				<UseObject QuestId="0xE000908AED28019E" ObjectName="Slave Pen" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="191.6803,38.101,-325.9045" />
-				<If Condition="Me.Position.Y &lt;= 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-									XYZ="166.1,38.09373,-335.6349" />
-				</If>
 			</If>
 			<TurnInQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" TurnInName="Sheriff Encot" XYZ="176.4121,45.0668,-344.7314" />
 			<CompleteQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" />
@@ -423,8 +415,6 @@
 				<Hotspot Name="Vanush" X="186.7149" Y="44.79026" Z="-325.6669" /> // 8000 credits
 				Rendili Protector
 			-->
-			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-									XYZ="189.6707,44.79112,-327.2745" />
 			<!-- Learn Bindpoint -->
 		</If>
 	
@@ -645,10 +635,6 @@
 		<!-- Turnin Timely Arrival -->
 		<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsQuestComplete(0xE00092A1D0D46728)))">
 			<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsStepComplete(0xE00092A1D0D46728, 10)))">
-				<If Condition="Me.Position.Z &gt;= -200">
-					<UseTransport TransporterName="Dreviad Outpost Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="12.8318,43.82843,-155.0174" />
-				</If>
  
 				<!-- Elevator down -->
 				<TalkTo QuestId="0xE00092A1D0D46728" Name="Fauler" XYZ="237.84,34.18792,-377.7356" />
@@ -657,8 +643,6 @@
 			<CompleteQuest QuestName="Timely Arrival" QuestId="0xE00092A1D0D46728" />
 			<!-- Last One Out 0xE000CD19F6C033BB -->
 		 
-			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-									XYZ="189.6707,44.79112,-327.2745" />
 		</If>
 	
 		<!-- Last One Out and Turnin -->
@@ -682,8 +666,6 @@
 				<UseObject QuestId="0xE000CD19F6C033BB" ObjectName="Grommik's Cache" BranchId="4" StepId="4" TaskId="1" Radius="20" WaitTime="5" XYZ="30.26872,44.71626,-227.8979" />
 				<UseObject QuestId="0xE000CD19F6C033BB" ObjectName="Grommik's Cache" BranchId="4" StepId="4" TaskId="2" Radius="20" WaitTime="5" XYZ="76.97251,44.63871,-211.2475" />
 			
-				<UseTransport TransporterName="Dreviad Outpost Speeder" Type="Taxi" Option="Outpost Salara Speeder" 
-									XYZ="81.7213,44.65361,-162.2166" />
 			</If>
 			<If Condition="((HasQuest(0xE000CD19F6C033BB)) and (not IsBranchStepComplete(0xE000CD19F6C033BB, 4, 5)))">
 				<MoveTo QuestId="0xE000CD19F6C033BB" Name="Grommik Kurthson" XYZ="100.1075,43.31841,-246.7044" />
@@ -1184,8 +1166,6 @@
 			<TurnInQuest QuestName="A Thorough Cleaning" QuestId="0xE0007F163CBB8A29" Type="Placeable" TurnInName="Dropbox" XYZ="-113.6901,42.57442,-136.4757" />
 			<CompleteQuest QuestName="A Thorough Cleaning" QuestId="0xE0007F163CBB8A29" />
 		 
-			<UseTransport TransporterName="Outpost Thorazan Speeder" Type="Taxi" Option="Outpost Salara Speeder" 
-									XYZ="-112.8901,42.68666,-138.6788" />
 		</If>
 		
 		<!-- Turnin The Thing Czerka Found -->
@@ -1194,16 +1174,12 @@
 			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE000C745A1B9B4D5" />
 			<!-- Force Sell / Repair / Mail -->
 		 
-			<UseTransport TransporterName="Outpost Salara Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="12.8318,43.82843,-155.0174" />
 		</If>
 
 		<!-- Pickup Tatooine: Bonus Series -->
 		<If Condition="((not HasQuest(0xE000A37B0923E609)) and (not IsQuestComplete(0xE000A37B0923E609)))">
 			<PickUpQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" GiverName="Galen Besk" XYZ="170.4086,45.501,-341.3672" />
 		 
-			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-									XYZ="189.6707,44.79112,-327.2745" />
 		</If>
 
 		<!-- Tatooine: Bonus Series 2-3 -->
@@ -1470,8 +1446,6 @@
 			<!-- Learn Taxi, Bindpoint -->
 			<!-- Sell, Repair, Mail -->
 		 
-			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Espelar Settlement Speeder" 
-									XYZ="167.8405,44.83727,-110.8722" />
 		</If>
 		
 		<!-- Turnin Geonosian War -->
@@ -1495,8 +1469,6 @@
 			<CompleteQuest QuestName="Trail of Ruin" QuestId="0xE0009895549E5043" />
 			<!-- Force Sell / Repair / Mail -->
 		 
-			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
-									XYZ="168.106,44.20548,-212.314" />
 		</If>
 
 		<!-- Ignoring 2+ Pirate Bullies -->
@@ -1568,8 +1540,6 @@
 			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" />
 			<!-- Open Reinforced Small Credit Case -->
 		 
-			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
-									XYZ="168.106,44.20548,-212.314" />
 		</If>
 
 		<!-- The Water Pirates -->
@@ -1807,8 +1777,6 @@
 			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" />
 			<!-- Open Reinforced Small Credit Case -->
  
-			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="167.8405,44.83727,-110.8722" />
 		</If>
 		
 		<!-- Turnin Tatooine: Bonus Series -->
@@ -1821,10 +1789,6 @@
 		<!-- Consular - The Ultimate Warriors -->
 		<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsQuestComplete(0xE000AE4F49390A99)))">
 			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 6)))">
-				<If Condition="Me.Position.Y &gt;= 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-									XYZ="160.8575,45.19058,-330.4009" />
-				</If>
 				<Interact QuestId="1" Name="Defender" Radius="20" WaitTime="5" XYZ="166.4718,38.56984,-315.5696" />
 			</If>
 			<TurnInQuest QuestName="The Ultimate Warriors" QuestId="0xE000AE4F49390A99" Type="Placeable" TurnInName="Holoterminal" XYZ="-0.01485645,1.676,1.386945" /> <!-- on ship -->
@@ -1839,8 +1803,6 @@
 				<!-- auto skip 3 -->
 				<Interact QuestId="1" Name="Ship Exit" Radius="20" WaitTime="5" XYZ="-0.005170702,0.5900244,-3.01618" />
 				<WaitTimer QuestId="1" WaitTime="15" /> <!-- took me a min to load -->
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Pallista Spaceport"
-									XYZ="-157.8094,-5.810242,151.5989" />
 			</If>
 		</If>
 	

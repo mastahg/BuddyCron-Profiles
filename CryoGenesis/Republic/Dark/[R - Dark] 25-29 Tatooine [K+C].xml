@@ -135,9 +135,6 @@
 				<If Condition="(Me.Class == CharacterClass.Consular)">
 					<UserDialog Title="CryoGenesis" Message="Edited for Jedi Consular. You must have the quest Looking Out for the Little Guy - Speak to Rowan Delk!!!" />
 				</If>
-				<MoveTo QuestId="0xE000F1A8B5387ABA" Name="Jedi Consular Hangar exit" XYZ="161.5434,38.07928,-330.3872" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="161.5434,38.07928,-330.3872" />	
 			</If>		
 		</If>
 		
@@ -146,9 +143,6 @@
 				<If Condition="(Me.Class == CharacterClass.Knight)">
 					<UserDialog Title="CryoGenesis" Message="Edited for Jedi Knight. You must have the quest 'The Shock Drum - Explore the Shock Drum Facility'!!!" />
 				</If>
-				<MoveTo QuestId="0xE000CC6570F3E830" Name="Jedi Knight Hangar exit" XYZ="162.4599,38.09117,-354.5615" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="162.4599,38.09117,-354.5615" />	
 			</If>	
 		</If>
 		
@@ -157,9 +151,6 @@
 				<If Condition="(Me.Class == CharacterClass.Trooper)">
 					<UserDialog Title="CryoGenesis" Message="Edited for Trooper. You must have the quest Local Resources!!!" />
 				</If>
-				<MoveTo QuestId="0xE0008AFAC01D4B5D" Name="Trooper Hangar exit" XYZ="163.13,31.09148,-330.4094" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="163.13,31.09148,-330.4094" />	
 			</If>		
 		</If>	
 		
@@ -168,9 +159,6 @@
 				<If Condition="(Me.Class == CharacterClass.Smuggler)">
 					<UserDialog Title="CryoGenesis" Message="Edited for Smuggler. You must have the quest Dry Run - Speak to Tookreek!!!" />
 				</If>	
-				<MoveTo QuestId="0xE00025FDC943A8D0" Name="Smuggler Hangar exit" XYZ="160.9173,31.08976,-354.6024" />
-				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-						XYZ="160.9173,31.08976,-354.6024" />	
 			</If>			
 		</If>
 	
@@ -427,8 +415,6 @@
 				<If Condition="Me.Position.Y &gt;= 40">
 					<MoveTo QuestId="0xE000908AED28019E" Name="Going to Hangar 21" XYZ="166.1169,45.08802,-335.0212" />
 					<WaitTimer QuestId="1" WaitTime="10" />
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Hangar 21"
-											XYZ="166.1169,45.08802,-335.0212" />
 				</If>
 				<MoveTo QuestId="0xE000908AED28019E" Name="My Location" XYZ="168.1107,38.10099,-335.0339" />
 			</If>
@@ -476,10 +462,6 @@
 			</If>
 			<If Condition="((HasQuest(0xE000908AED28019E)) and (not IsStepComplete(0xE000908AED28019E, 8)))">
 				<UseObject QuestId="0xE000908AED28019E" ObjectName="Slave Pen" BranchId="1" StepId="8" Radius="20" WaitTime="5" XYZ="191.6803,38.101,-325.9045" />
-				<If Condition="Me.Position.Y &lt;= 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Anchorhead Spaceport"
-											XYZ="166.1,38.09373,-335.6349" />
-				</If>
 			</If>
 			<TurnInQuest QuestName="Smuggler's Route" QuestId="0xE000908AED28019E" TurnInName="Sheriff Encot" XYZ="176.4121,45.0668,-344.7314" />
 			<If Condition="((BuddyTor.Me.Companion.Name.Contains(&quot;T7&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;Aric&quot;)) or (BuddyTor.Me.Companion.Name.Contains(&quot;M1&quot;)))">
@@ -508,8 +490,6 @@
 			<If Condition="(Me.Position.X &gt;= 175) and (Me.Position.Z &lt;= -320) and (not IsStepComplete(0xE00092A1D0D46728, 6))">
 				<ForceVendor VendorType="Train" />
 				<ForceVendor VendorType="Repair" />			
-				<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-					XYZ="189.6707,44.79112,-327.2745" />
 			</If>	
 		</If>
 	
@@ -880,10 +860,6 @@
 		<!-- Turnin Timely Arrival -->
 		<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsQuestComplete(0xE00092A1D0D46728)))">
 			<If Condition="((HasQuest(0xE00092A1D0D46728)) and (not IsStepComplete(0xE00092A1D0D46728, 10)))">
-				<If Condition="Me.Position.Z &gt;= -200">
-					<UseTransport TransporterName="Dreviad Outpost Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-											XYZ="81.7213,44.65361,-162.2166" />
-				</If>
 				<!-- Elevator down -->
 				<ForceVendor VendorType="Repair" />
 				<ForceVendor VendorType="Train" />		
@@ -913,10 +889,6 @@
 		<!-- Last One Out -->
 		<If Condition="((HasQuest(0xE000CD19F6C033BB)) and (not IsQuestComplete(0xE000CD19F6C033BB)))">
 			<If Condition="((HasQuest(0xE000CD19F6C033BB)) and (not IsBranchStepComplete(0xE000CD19F6C033BB, 1, 2)))">
-				<If Condition="(Me.Position.X &gt;= 186) and (Me.Position.Z &lt;= -320)">
-					<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-								XYZ="189.6707,44.79112,-327.2745" />
-				</If>	
 				<UseObject QuestId="0xE000CD19F6C033BB" ObjectName="Secure Holoterminal" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="68.22174,44.46263,-171.8339" />
 			</If>
 		</If>			
@@ -1989,8 +1961,6 @@
 			<TurnInQuest QuestName="A Thorough Cleaning" QuestId="0xE0007F163CBB8A29" Type="Placeable" TurnInName="Dropbox" XYZ="-113.6901,42.57442,-136.4757" />
 			<CompleteQuest QuestName="A Thorough Cleaning" QuestId="0xE0007F163CBB8A29" />
 			<!-- 0=comms -->
-			<UseTransport TransporterName="Outpost Thorazan Speeder" Type="Taxi" Option="Outpost Salara Speeder" 
-									XYZ="-112.8901,42.68666,-138.6788" />
 		</If>
 		
 		<!-- Turnin The Thing Czerka Found -->
@@ -2007,8 +1977,6 @@
 			<!-- Knight - 0=2comms; 1=blue container; 2=equippable hands -->
 			<!-- Smuggler - 0=2comms; 1=deff equip. hands; 2=blue container; 3=dps equip. hands -->
 			<ForceVendor VendorType="Repair" />
-			<UseTransport TransporterName="Outpost Salara Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="12.65602,43.82751,-154.8958" />
 			<ForceVendor VendorType="Train" />						
 		</If>
 
@@ -2022,8 +1990,6 @@
 	
 		<If Condition="((not HasQuest(0xE000A37B0923E609)) and (not IsQuestComplete(0xE000A37B0923E609)))">
 			<PickUpQuest QuestName="Tatooine: Bonus Series" QuestId="0xE000A37B0923E609" GiverName="Galen Besk" XYZ="170.4086,45.501,-341.3672" />
-			<UseTransport TransporterName="Anchorhead Speeder" Type="Taxi" Option="Dreviad Outpost Speeder" 
-					XYZ="189.6707,44.79112,-327.2745" />
 		</If>
 
 		
@@ -2465,8 +2431,6 @@
 		<!-- Geonosian War -->
 		<If Condition="((HasQuest(0xE0002FF87879E56D)) and (not IsQuestComplete(0xE0002FF87879E56D)))">
 			<ForceVendor VendorType="Repair" />
-			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Espelar Settlement Speeder" 
-				XYZ="167.8405,44.83727,-110.8722" />
 			<TurnInQuest QuestName="Geonosian War" QuestId="0xE0002FF87879E56D" Type="Placeable" TurnInName="Dropbox" XYZ="170.7845,44.28576,-211.8757" />
 			<CompleteQuest QuestName="Geonosian War" QuestId="0xE0002FF87879E56D" />
 			<!-- 0=3comms -->
@@ -2479,8 +2443,6 @@
 			<CompleteQuest QuestName="The Geonosian Offensive" QuestId="0xE000807CD4DCC6DE" />
 			<!-- All - 0=comms; 1=container -->
 			<!-- Usetaxi Espelar (Karnori) to Largona -->
-			<UseTransport TransporterName="Espelar Settlement Speeder" Type="Taxi" Option="Outpost Largona Speeder" 
-				XYZ="168.106,44.20548,-212.314" />			
 		</If>
 
 		<!-- The Water Pirates -->
@@ -2749,8 +2711,6 @@
 			<CompleteQuest QuestName="Buried Treasure" QuestId="0xE00051CDBBBB167D" />
 			<!-- All - 0=comms; 1=container -->
 			<ForceVendor VendorType="Repair" />
-			<UseTransport TransporterName="Outpost Largona Speeder" Type="Taxi" Option="Anchorhead Speeder" 
-									XYZ="167.8405,44.83727,-110.8722" />
 		</If>
 		
 		<!-- Turnin Tatooine: Bonus Series -->
@@ -2775,14 +2735,8 @@
 		<!-- Consular - The Ultimate Warriors -->
 		<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsQuestComplete(0xE000AE4F49390A99)))">
 			<If Condition="((HasQuest(0xE000AE4F49390A99)) and (not IsBranchStepComplete(0xE000AE4F49390A99, 14, 6)))">
-				<If Condition="Me.Position.Y &gt; 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Consular Hangar"
-										XYZ="160.8575,45.19058,-330.4009" />
-				</If>
-				<If Condition="Me.Position.Y &lt; 40">	
-					<MoveTo QuestId="0xE000AE4F49390A99" Name="Defender" Radius="20" WaitTime="5" XYZ="166.3473,38.081,-316.7698" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Ultimate Warriors'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
-				</If>	
+				<MoveTo QuestId="0xE000AE4F49390A99" Name="Defender" Radius="20" WaitTime="5" XYZ="166.3473,38.081,-316.7698" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Ultimate Warriors'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
 			</If>		
 		</If>
 
@@ -2790,14 +2744,8 @@
 		<!-- Smuggler - The Lightspring -->
 		<If Condition="((HasQuest(0xE000CF23BCF7D10C)) and (not IsQuestComplete(0xE000CF23BCF7D10C)))">
 			<If Condition="((HasQuest(0xE000CF23BCF7D10C)) and (not IsBranchStepComplete(0xE000CF23BCF7D10C, 7, 3)))">
-				<If Condition="Me.Position.Y &gt; 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Smuggler Hangar"
-										XYZ="161.5202,45.18606,-354.5351" />
-				</If>
-				<If Condition="Me.Position.Y &lt; 40">	
-					<MoveTo QuestId="0xE000CF23BCF7D10C" Name="XS Stock Light" Radius="20" WaitTime="5" XYZ="166.3023,31.081,-367.785" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Lightspring'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
-				</If>					
+				<MoveTo QuestId="0xE000CF23BCF7D10C" Name="XS Stock Light" Radius="20" WaitTime="5" XYZ="166.3023,31.081,-367.785" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Lightspring'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
 			</If>
 		</If> 
 		
@@ -2805,14 +2753,8 @@
 		<!-- Trooper - Evacuation -->
 		<If Condition="((HasQuest(0xE0006C4932DE1987)) and (not IsQuestComplete(0xE0006C4932DE1987)))">
 			<If Condition="((HasQuest(0xE0006C4932DE1987)) and (not IsBranchStepComplete(0xE0006C4932DE1987, 9, 2)))">
-				<If Condition="Me.Position.Y &gt; 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Trooper Hangar"
-											XYZ="162.4526,45.19342,-330.4059" />
-				</If>
-				<If Condition="Me.Position.Y &lt; 40">	
-					<MoveTo QuestId="0xE0006C4932DE1987" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="165.8232,31.101,-314.2257" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'Evacuation'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
-				</If>
+				<MoveTo QuestId="0xE0006C4932DE1987" Name="BT-7 Thunderclap" Radius="20" WaitTime="5" XYZ="165.8232,31.101,-314.2257" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'Evacuation'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
 			</If>
 		</If>
 		
@@ -2820,14 +2762,8 @@
 		<!-- Knight - The Sand Demon's Lair -->
 		<If Condition="((HasQuest(0xE000BBDBA66D502F)) and (not IsQuestComplete(0xE000BBDBA66D502F)))">
 			<If Condition="((HasQuest(0xE000BBDBA66D502F)) and (not IsBranchStepComplete(0xE000BBDBA66D502F, 4, 2)))">
-				<If Condition="Me.Position.Y &gt; 40">
-					<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Jedi Knight Hangar"
-											XYZ="163.1399,45.19144,-354.6096" />
-				</If>
-				<If Condition="Me.Position.Y &lt; 40">	
-					<MoveTo QuestId="0xE000BBDBA66D502F" Name="Defender" Radius="20" WaitTime="5" XYZ="166.462,38.081,-367.4873" />
-					<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Sand Demon's Lair'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
-				</If>
+				<MoveTo QuestId="0xE000BBDBA66D502F" Name="Defender" Radius="20" WaitTime="5" XYZ="166.462,38.081,-367.4873" />
+				<UserDialog Title="CryoGenesis" Message="I'm Done on Tatooine! If you are not on your ship right now, get on it and complete 'The Sand Demon's Lair'. Next Step is to travel to Alderaan, restart the bot and load up that quest profile on the planet!" />
 			</If>
 		</If>		
 
