@@ -757,7 +757,19 @@
 				<MoveTo QuestId="0xE000F7755A02B770" XYZ="-74.4893,1.221992,-17.089" />
 			</If>
 			<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsStepComplete(0xE000F7755A02B770, 4)))">
-				<Grind GrindRef="Enemy Force 2" While="(not IsBranchStepComplete(0xE000F7755A02B770, 1, 4))" />
+				<Grind While="(not IsBranchStepComplete(0xE000F7755A02B770, 1, 4))">
+					<GrindArea Name="Enemy Force 2">
+						<MinLevel>5</MinLevel>
+						<MaxLevel>10</MaxLevel>
+						<Mobs>
+							<Mob>Flesh Raider Ravager</Mob>
+							<Mob>Flesh Raider Ravager Chieftain</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ancient Shrine" XYZ="-74.4893,1.221992,-17.089" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsStepComplete(0xE000F7755A02B770, 5)))">
 				<TalkTo QuestId="0xE000F7755A02B770" Name="Master Bela Kiwiiks" XYZ="-74.21259,1.219631,-16.62807" />
