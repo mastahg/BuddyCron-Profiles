@@ -1178,7 +1178,18 @@
 			<If Condition="HasQuest(0xE00043378E644ABA) and not IsBranchStepComplete(0xE00043378E644ABA, 1, 4)">
 				<MoveTo QuestId="0xE00043378E644ABA" XYZ="-79.65849,2.352499,50.16945" />
 			</If>
-			<Grind GrindRef="Nothing Is Ever Easy 3 2" While="(not IsBranchStepComplete(0xE00043378E644ABA, 3, 2))" />
+			<Grind While="(not IsBranchStepComplete(0xE00043378E644ABA, 3, 2))">
+				<GrindArea Name="Nothing Is Ever Easy 3 2">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>The Red Blade</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="The Red Blade" XYZ="-79.98521,2.3473,50.1678" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<CompleteQuest QuestName="Red Blade Gun Reward" QuestId="0xE000CE56FDDD1D77" />
 			<TurnInQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" TurnInName="The Red Blade" XYZ="-79.8214,2.352499,50.1687" />
 			<CompleteQuest QuestName="Nothing Is Ever Easy" QuestId="0xE00043378E644ABA" />

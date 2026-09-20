@@ -35,6 +35,24 @@
 	
 	<GrindAreas> 
 
+		<GrindArea Name="Stage 1 - Battle the Horde (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>50</MaxLevel>
+			<Mobs>
+				<Mob>Rattataki Hunter</Mob>
+				<Mob>Rattataki Slayer</Mob>
+				<Mob>Rattataki Stalker</Mob>
+				<Mob>Tamed Acklay Ravager</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="Rattataki Hunter" XYZ="-33.29029,24.10148,61.04402" />
+				<Hotspot Name="Rattataki Stalker" XYZ="-35.7928,23.88995,54.5337" />
+				<Hotspot Name="Rattataki Hunter" XYZ="-32.3424,24.25099,39.3396" />
+				<Hotspot Name="Rattataki Stalker" XYZ="-35.06975,23.81979,29.51539" />
+				<Hotspot Name="Tamed Acklay Ravager" XYZ="-28.43013,23.82404,26.95622" />
+			</Hotspots>
+		</GrindArea>
+
 		<GrindArea Name="Ongree Rioters (Bonus)">
 			<MinLevel>1</MinLevel>
 			<MaxLevel>50</MaxLevel>

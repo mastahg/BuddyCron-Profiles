@@ -109,7 +109,19 @@
 				<MoveTo QuestId="0xE000936144F2E728" XYZ="35.84739,-18.29934,-32.3595"/>
 			</If>
 			<UseObject QuestId="0xE000936144F2E728" ObjectName="Great Stone Monument" BranchId="1" StepId="4" WaitTime="1" XYZ="31.78556,-17.66019,-32.08852"/>
-			<Grind GrindRef="A Little Knowledge 5" While="(not IsBranchStepComplete(0xE000936144F2E728, 1, 5))"/>
+			<Grind While="(not IsBranchStepComplete(0xE000936144F2E728, 1, 5))">
+				<GrindArea Name="A Little Knowledge 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Shyrack Forager</Mob>
+						<Mob>Vicious Tuk'ata Hound</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Shyrack Forager" XYZ="31.47495,-17.65267,-32.16053"/>
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000936144F2E728) and not IsStepComplete(0xE000936144F2E728, 6)">
 				<UserDialog Title="Orlok Raven" Message="You will have to manually shoot lightning at the shard on the second option."/>
 			</If>

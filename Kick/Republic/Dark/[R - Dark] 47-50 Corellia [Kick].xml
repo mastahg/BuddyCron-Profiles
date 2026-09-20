@@ -1606,7 +1606,25 @@
 				</If>
 				<!-- Ion Wall Disruptions (Bonus) -->
 				<If Condition="(not IsQuestComplete(0xE000576E4DCDF810))">
-					<Grind GrindRef="Ion Wall Disruptions (Bonus) " While="(not IsQuestComplete(0xE000576E4DCDF810))" />
+					<Grind While="(not IsQuestComplete(0xE000576E4DCDF810))">
+						<GrindArea Name="Ion Wall Disruptions (Bonus)">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>50</MaxLevel>
+							<Mobs>
+								<Mob>Imperial Tech-Guardian</Mob>
+								<Mob>Sith Dominator</Mob>
+								<Mob>Imperial Tech-Rifleman</Mob>
+								<Mob>Sith Watcher</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="Imperial Tech-Guardian" XYZ="223.221,21.40255,-196.5079" />
+								<Hotspot Name="Sith Dominator" XYZ="224.8301,21.397,-204.5736" />
+								<Hotspot Name="Imperial Tech-Guardian" XYZ="234.7995,20.3621,-196.9133" />
+								<Hotspot Name="Imperial Tech-Rifleman" XYZ="231.8062,20.39495,-206.3998" />
+								<Hotspot Name="Sith Watcher" XYZ="235.976,20.39276,-200.0109" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
 				</If>
 				<UseTransport TransporterName="Elevator" Type="Wonkavator" Option="Intra-Corellian Intelligence"
 									XYZ="247.8556,20.401,-195.1031" />
@@ -1856,7 +1874,24 @@
 			</If>
 			<!-- Averting Further Disaster (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE0002D0E564263C5))">
-				<Grind GrindRef="Averting Further Disaster (Bonus)" While="(not IsQuestComplete(0xE0002D0E564263C5))" />
+				<Grind While="(not IsQuestComplete(0xE0002D0E564263C5))">
+					<GrindArea Name="Averting Further Disaster (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Tunnel Hunter</Mob>
+							<Mob>Imperial Tunnel Tracker</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Tunnel Tracker" XYZ="260.154,19.23987,-347.7389" />
+							<Hotspot Name="Imperial Tunnel Commander" XYZ="257.5734,17.63988,-351.2683" />
+							<Hotspot Name="Imperial Tunnel Commander" XYZ="254.9677,17.61671,-348.6223" />
+							<Hotspot Name="Imperial Tunnel Tracker" XYZ="255.8679,17.63988,-356.0005" />
+							<Hotspot Name="Imperial Tunnel Commander" XYZ="260.5567,17.63988,-353.3714" />
+							<Hotspot Name="My Location" XYZ="251.9987,20.03988,-364.3387" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<TurnInQuest QuestName="A Disaster in the Making" QuestId="0xE000EC60843ACB9C" TurnInName="Rigged Republic Warhead" XYZ="252.1865,20.03988,-365.1401" />
 			<CompleteQuest QuestName="A Disaster in the Making" QuestId="0xE000EC60843ACB9C" />

@@ -1058,7 +1058,20 @@
 		<If Condition="((HasQuest(0xE000B405E6F6F7B1)) and (not IsQuestComplete(0xE000B405E6F6F7B1)))">
 			<!-- Grathan Bounty (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000882F6EA14E56))">
-				<Grind GrindRef="Grathan Bounty" While="(not IsQuestComplete(0xE000882F6EA14E56))" />
+				<Grind While="(not IsQuestComplete(0xE000882F6EA14E56))">
+					<GrindArea Name="Grathan Bounty">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Grathan Estate Overlord</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Grathan Estate" XYZ="-58.31891,-4.883002,156.815" />
+							<Hotspot Name="Grathan Estate" XYZ="-62.76091,-4.366013,165.845" />
+							<Hotspot Name="Family Cleansing" XYZ="-63.2555,-9.035928,171.0113" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000B405E6F6F7B1)) and (not IsBranchStepComplete(0xE000B405E6F6F7B1, 1, 5)))">
 				<TalkTo QuestName="Family Cleansing" QuestId="0xE000B405E6F6F7B1" Name="Vereta Fraabaal" WaitTime="1" XYZ="-63.2555,-9.035928,171.0113" />

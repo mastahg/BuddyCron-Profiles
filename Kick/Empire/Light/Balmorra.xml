@@ -236,7 +236,22 @@
 	</If>
 		
 	<!-- Life Sentence -->
-	<Grind GrindRef="Life Sentence" While="not IsStepComplete(0xE000E9F085933DAE, 2)" />
+	<Grind While="not IsStepComplete(0xE000E9F085933DAE, 2)">
+		<GrindArea Name="Life Sentence">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>51</MaxLevel>
+			<Mobs>
+				<Mob>Resistance Convict</Mob>
+				<Mob>Resistance Killer</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" XYZ="-47.30046,8.198861,193.1162" />
+				<Hotspot Name="My Location" XYZ="-47.34091,7.7135,196.6299" />
+				<Hotspot Name="My Location" XYZ="-50.46512,7.7135,197.0815" />
+				<Hotspot Name="My Location" XYZ="-50.83501,7.710391,200.818" />
+			</Hotspots>
+		</GrindArea>
+	</Grind>
 		
 		
 	<!-- Inquisitor -->

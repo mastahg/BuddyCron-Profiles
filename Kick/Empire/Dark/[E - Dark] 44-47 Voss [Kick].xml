@@ -699,7 +699,18 @@
 			<UseObject QuestId="0xE0001CF8157DFCD6" ObjectName="Reformation" BranchId="6" StepId="3" TaskId="3" Radius="20" WaitTime="5" XYZ="-222.4857,-0.07654257,-250.9084" />
 			<UseObject QuestId="0xE0001CF8157DFCD6" ObjectName="Divisiveness" BranchId="6" StepId="3" TaskId="0" Radius="20" WaitTime="5" XYZ="-225.6219,-0.02628418,-250.7791" />
 			<UseObject QuestId="0xE0001CF8157DFCD6" ObjectName="The Gormak Heresy" BranchId="6" StepId="3" TaskId="1" Radius="20" WaitTime="5" XYZ="-225.5138,-0.03890586,-252.7948" />
-			<Grind GrindRef="The Trials 6 5" While="(not IsBranchStepComplete(0xE0001CF8157DFCD6, 6, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE0001CF8157DFCD6, 6, 5))">
+				<GrindArea Name="The Trials 6 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>50</MaxLevel>
+					<Mobs>
+						<Mob>Corruption</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Corruption" XYZ="-224.1165,0.0009996201,-251.7919" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<UseObject QuestId="0xE0001CF8157DFCD6" ObjectName="Trial Chamber Door" BranchId="6" StepId="6" Radius="20" WaitTime="5" XYZ="-245.4188,-1.099,-251.7781" />
 			<If Condition="((HasQuest(0xE0001CF8157DFCD6)) and (not IsBranchStepComplete(0xE0001CF8157DFCD6, 6, 7)))">
 				<TalkTo QuestId="0xE0001CF8157DFCD6" Name="Injured Voss Pilgrim" XYZ="-249.0555,-1.099,-252.0161" />

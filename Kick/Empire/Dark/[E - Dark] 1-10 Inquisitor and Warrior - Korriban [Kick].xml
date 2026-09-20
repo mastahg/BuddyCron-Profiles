@@ -743,7 +743,30 @@
 			</Grind>
 			<!-- Make an Example (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C7B00B90060D))">
-				<Grind GrindRef="Make an Example" While="(not IsQuestComplete(0xE000C7B00B90060D))" />
+				<Grind While="(not IsQuestComplete(0xE000C7B00B90060D))">
+					<GrindArea Name="Make an Example">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Slave Rebellion Fighter</Mob>
+							<Mob>Slave Rebellion Organizer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="-1.498906,-1.11197,21.45315" />
+							<Hotspot Name="My Location" XYZ="-0.9184999,-1.244739,24.51104" />
+							<Hotspot Name="My Location" XYZ="-3.090828,-1.150131,23.62583" />
+							<Hotspot Name="My Location" XYZ="-4.347406,-0.1332974,26.55433" />
+							<Hotspot Name="My Location" XYZ="2.777712,-0.289305,32.92773" />
+							<Hotspot Name="My Location" XYZ="5.790991,-0.1557489,34.87187" />
+							<Hotspot Name="My Location" XYZ="-2.387491,-1.091681,33.89353" />
+							<Hotspot Name="My Location" XYZ="-3.606668,-0.9772999,37.29106" />
+							<Hotspot Name="My Location" XYZ="-8.18793,-0.9153258,42.34178" />
+							<Hotspot Name="My Location" XYZ="-9.483396,-0.9176246,39.15727" />
+							<Hotspot Name="My Location" XYZ="2.597726,-0.1854797,41.85001" />
+							<Hotspot Name="My Location" XYZ="6.23514,0.1452541,41.763" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 	  

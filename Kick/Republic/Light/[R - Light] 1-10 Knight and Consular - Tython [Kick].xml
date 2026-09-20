@@ -1059,7 +1059,20 @@
 				<WaitTimer QuestId="1" WaitTime="7" />
 			</If>
 			<If Condition="((HasQuest(0xE000A9CB998FEBA9)) and (not IsBranchStepComplete(0xE000A9CB998FEBA9, 6, 2)))">
-				<Grind GrindRef="Dark Temptations 6 2" While="(not IsBranchStepComplete(0xE000A9CB998FEBA9, 6, 2))" />
+				<Grind While="(not IsBranchStepComplete(0xE000A9CB998FEBA9, 6, 2))">
+					<GrindArea Name="Dark Temptations 6 2">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Scout Chief Moorint</Mob>
+							<Mob>Saylew</Mob>
+							<Mob>Eseni</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Scout Chief Moorint" XYZ="12.7808,0.3692374,-43.4252" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE000A9CB998FEBA9)) and (not IsBranchStepComplete(0xE000A9CB998FEBA9, 6, 3)))">
 				<TalkTo QuestId="0xE000A9CB998FEBA9" Name="Ranna Tao'Ven" XYZ="12.926,0.3716033,-44.088" />

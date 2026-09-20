@@ -1046,7 +1046,18 @@
 			<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchStepComplete(0xE000A82017A8B038, 5, 3)))">
 				<MoveTo Questid="0xE000A82017A8B038" Name="My Location" XYZ="71.47149,2.901493,-187.3483" />
 			</If>
-			<Grind GrindRef="The Sky Burns 5 5" While="(not IsBranchStepComplete(0xE000A82017A8B038, 5, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE000A82017A8B038, 5, 5))">
+				<GrindArea Name="The Sky Burns 5 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>50</MaxLevel>
+					<Mobs>
+						<Mob>Jedi Knight</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Razer's Office" XYZ="71.47149,2.901493,-187.3483" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="((HasQuest(0xE000A82017A8B038)) and (not IsBranchStepComplete(0xE000A82017A8B038, 5, 6)))">
 				<TalkTo Questid="0xE000A82017A8B038" Name="Major Nedecca" XYZ="70.7879,2.901,-187.9208" />
 			</If>
@@ -1255,7 +1266,24 @@
 			</If>
 			<!-- Party Crashing (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000C55E931A2C9C))">
-				<Grind GrindRef="Party Crashing (Bonus)" While="(not IsQuestComplete(0xE000C55E931A2C9C))" />
+				<Grind While="(not IsQuestComplete(0xE000C55E931A2C9C))">
+					<GrindArea Name="Party Crashing (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Mercenary Quickdraw</Mob>
+							<Mob>Mercenary Battler</Mob>
+							<Mob>Mercenary Swordsman</Mob>
+							<Mob>Mercenary Ambusher</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mercenary Quickdraw" XYZ="102.9372,2.405372,-287.5881" />
+							<Hotspot Name="Mercenary Battler" XYZ="105.6846,2.968665,-282.0611" />
+							<Hotspot Name="Mercenary Swordsman" XYZ="115.6763,4.393682,-291.0965" />
+							<Hotspot Name="Mercenary Ambusher" XYZ="110.4044,4.409469,-283.0282" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		

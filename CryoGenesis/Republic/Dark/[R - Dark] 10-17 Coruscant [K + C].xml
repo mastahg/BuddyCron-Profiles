@@ -758,7 +758,18 @@
 			<If Condition="(HasQuest(0xE000E209ED442C1B)) and (not IsBranchStepComplete(0xE000E209ED442C1B, 1, 4))">
 				<TalkTo QuestId="0xE000E209ED442C1B" Name="Vistis Garn" XYZ="221.2269,46.101,128.4585" />
 			</If>
-			<Grind GrindRef="Kill Vistis Garn" While="(not IsBranchStepComplete(0xE000E209ED442C1B, 1, 5))" />
+			<Grind While="(not IsBranchStepComplete(0xE000E209ED442C1B, 1, 5))">
+				<GrindArea Name="Kill Vistis Garn">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>100</MaxLevel>
+					<Mobs>
+						<Mob>Vistis Garn</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Vistis Garn" XYZ="221.2269,46.101,128.4585" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="(HasQuest(0xE000E209ED442C1B)) and (not IsBranchStepComplete(0xE000E209ED442C1B, 1, 6))">
 				<TalkTo QuestId="0xE000E209ED442C1B" Name="Vistis Garn" XYZ="220.8849,46.101,128.1394" />
 			</If>

@@ -265,7 +265,20 @@
 				<TalkTo QuestId="0xE00004D9B7BBFFF8" Name="Doctor Orlian" XYZ="44.93,10.60693,72.45" />
 			</If>
 			<If Condition="((HasQuest(0xE00004D9B7BBFFF8)) and (not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8)))">
-				<Grind GrindRef="Extracting the Scientist 8" While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8))" />
+				<Grind While="(not IsBranchStepComplete(0xE00004D9B7BBFFF8, 1, 8))">
+					<GrindArea Name="Extracting the Scientist 8">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Imperial Security Chief</Mob>
+							<Mob>Imperial Gunner</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Imperial Security Chief" XYZ="43.1096,10.5775,71.502" />
+							<Hotspot Name="Imperial Gunner" XYZ="42.9481,10.5875,71.6999" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 		</If>
 		

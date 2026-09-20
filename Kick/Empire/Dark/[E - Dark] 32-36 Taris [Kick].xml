@@ -399,7 +399,19 @@
 			</If>
 			<UseObject ObjectName="Blast Door Controls" QuestId="0xE000E743C2981279" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="4" XYZ="4.98433,-19.67085,20.69036" />
 			<UseObject ObjectName="Force Field Control Panel" QuestId="0xE000E743C2981279" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="2" XYZ="8.210474,-19.67085,16.07115" />
-			<Grind GrindRef="Despair" While="not IsBranchStepComplete(0xE000E743C2981279, 1, 5)" />
+			<Grind While="not IsBranchStepComplete(0xE000E743C2981279, 1, 5)">
+				<GrindArea Name="Race for the Kill 5">
+					<MinLevel>1</MinLevel>
+					<MaxLevel>51</MaxLevel>
+					<Mobs>
+						<Mob>Kom Orda</Mob>
+						<Mob>Orda's Trooper</Mob>
+					</Mobs>
+					<Hotspots>
+						<Hotspot Name="Kom Orda" XYZ="7.010581,-19.6676,13.65588" />
+					</Hotspots>
+				</GrindArea>
+			</Grind>
 			<If Condition="HasQuest(0xE000E743C2981279) and not IsBranchStepComplete(0xE000E743C2981279, 1, 6)" >
 				<TalkTo QuestId="0xE000E743C2981279" Name="Kom Orda" XYZ="7.010581,-19.6676,13.65588" />
 			</If>

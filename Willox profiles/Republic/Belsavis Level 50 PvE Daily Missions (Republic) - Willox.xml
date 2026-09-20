@@ -35,6 +35,25 @@
 	</AvoidMobs>
 	-->
 
+	<GrindAreas>
+		<GrindArea Name="Restraining the Darkness and Drive Out the Looters (Bonus)">
+			<MinLevel>1</MinLevel>
+			<MaxLevel>51</MaxLevel>
+			<Mobs>
+				<Mob>Imperial Bodyguard</Mob>
+				<Mob>Imperial Excavator</Mob>
+				<Mob>Imperial Survey Drone</Mob>
+				<Mob>Sith Seeker</Mob>
+			</Mobs>
+			<Hotspots>
+				<Hotspot Name="My Location" XYZ="-161.9555,31.25561,134.8032" />
+				<Hotspot Name="My Location" XYZ="-159.5513,31.21098,130.7047" />
+				<Hotspot Name="My Location" XYZ="-157.1608,31.64281,134.4766" />
+				<Hotspot Name="My Location" XYZ="-152.7813,31.38931,134.4976" />
+			</Hotspots>
+		</GrindArea>
+	</GrindAreas>
+
 	<Questing>
 
 		<!-- We go to:  High Security Section - The Gran Exile -->

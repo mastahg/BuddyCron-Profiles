@@ -1086,7 +1086,25 @@
 			</If>
 			<!-- Cleanse the Vault -->
 			<If Condition="(not IsQuestComplete(0xE0005DDBE725C305))">
-				<Grind GrindRef="Cleanse the Vault" While="(not IsQuestComplete(0xE0005DDBE725C305))" />
+				<Grind While="(not IsQuestComplete(0xE0005DDBE725C305))">
+					<GrindArea Name="Cleanse the Vault">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Mutated Colicoid Worker</Mob>
+							<Mob>Mutated Colicoid Guardian</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mutated Colicoid Worker" XYZ="124.7054,15.67276,2.635144" />
+							<Hotspot Name="Mutated Colicoid Guardian" XYZ="125.5151,9.325665,-0.2912999" />
+							<Hotspot Name="Mutated Colicoid Worker" XYZ="125.5879,8.708782,4.5232" />
+							<Hotspot Name="Mutated Colicoid Worker" XYZ="120.1985,9.92329,-2.4085" />
+							<Hotspot Name="Mutated Colicoid Worker" XYZ="115.341,9.735858,4.334435" />
+							<Hotspot Name="Mutated Colicoid Worker" XYZ="115.5225,10.60842,8.5367" />
+							<Hotspot Name="Mutated Colicoid Guardian" XYZ="113.3586,11.33612,19.1312" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE00081033ABE002B" BranchId="7" StepId="6" Radius="5" WaitTime="10" IgnoreLOS="True" ObjectName="Ancient Artifact" XYZ="114.1014,9.797386,-5.81751" />
 			<If Condition="((HasQuest(0xE00081033ABE002B)) and (not IsBranchStepComplete(0xE00081033ABE002B, 9, 2)))">

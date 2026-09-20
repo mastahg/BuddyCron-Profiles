@@ -1030,7 +1030,25 @@
 			<!-- Rescue at House Rist (Bonus) -->
 			<!-- make apoc fix stuff -->
 			<If Condition="((not HasQuest(0xE00080A13673A586)) and (not IsQuestComplete(0xE00080A13673A586)))">
-				<Grind GrindRef="Rescue at House Rist (Bonus)" While="(not HasQuest(0xE00080A13673A586))" />
+				<Grind While="(not HasQuest(0xE00080A13673A586))">
+					<GrindArea Name="Rescue at House Rist (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rist Slayer</Mob>
+							<Mob>Rist Stalker</Mob>
+							<Mob>Rist Guard</Mob>
+							<Mob>Rist Enforcer</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rist Guard" XYZ="94.96739,12.89804,-75.5031" />
+							<Hotspot Name="Rist Guard" XYZ="99.0728,12.86071,-75.0558" />
+							<Hotspot Name="Rist Guard" XYZ="106.2632,12.85431,-75.2771" />
+							<Hotspot Name="Rist Enforcer" XYZ="99.2662,12.63431,-70.85899" />
+							<Hotspot Name="Rist Guard" XYZ="108.937,12.85431,-79.9247" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<If Condition="((HasQuest(0xE00080A13673A586)) and (not IsQuestComplete(0xE00080A13673A586)))">
 				<If Condition="((HasQuest(0xE00080A13673A586)) and (not IsTaskComplete(0xE00080A13673A586, 2, 1)))">

@@ -1832,7 +1832,30 @@ Room: int_h4g_Transport5_smuggler_room08
 			</If>
 			<!-- Stage 2 - Infectious Legacy (Bonus) -->
 			<If Condition="((HasQuest(0xE000FDD24F971A33)) and (not IsQuestComplete(0xE000FDD24F971A33)))">
-				<Grind GrindRef="Stage 2 - Infectious Legacy (Bonus)" While="(HasQuest(0xE000FDD24F971A33))" />
+				<Grind While="(HasQuest(0xE000FDD24F971A33))">
+					<GrindArea Name="Stage 2 - Infectious Legacy (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Ravenous Tunnel Rakghoul</Mob>
+							<Mob>Savage Tunnel Rakghoul</Mob>
+							<Mob>Infected Relic Hunter</Mob>
+							<Mob>Infected Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Ravenous Tunnel Rakghoul" XYZ="38.9141,-18.37027,-5.713168" />
+							<Hotspot Name="My Location" XYZ="39.05072,-18.31943,-11.55519" />
+							<Hotspot Name="My Location" XYZ="46.28169,-17.43443,-11.22059" />
+							<Hotspot Name="Ravenous Tunnel Rakghoul" XYZ="50.0483,-17.42698,-12.6055" />
+							<Hotspot Name="Savage Tunnel Rakghoul" XYZ="49.72319,-17.41558,-17.0083" />
+							<Hotspot Name="Lurking Tunnel Rakghoul" XYZ="57.85802,-17.49776,-15.15977" />
+							<Hotspot Name="Savage Tunnel Rakghoul" XYZ="58.73811,-18.05179,-9.589282" />
+							<Hotspot Name="Infected Relic Hunter" XYZ="66.9333,-17.90134,-9.006" />
+							<Hotspot Name="Infected Guard" XYZ="69.95821,-17.64689,-9.286678" />
+							<Hotspot Name="Ravenous Tunnel Rakghoul" XYZ="79.1796,-18.25615,-15.6445" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<WaitTimer QuestId="1" WaitTime="15" />
 			</If>
 			<If Condition="((HasQuest(0xE00023E5FBEC5BF5)) and (not IsStepComplete(0xE00023E5FBEC5BF5, 5)))">

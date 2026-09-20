@@ -1412,7 +1412,18 @@
 					<TalkTo QuestId="0xE0002CD3DFA43D6F" Name="Darth Zash" XYZ="-193.5175,19.37909,-53.8732" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<Grind GrindRef="Legacy 6" While="(not IsBranchStepComplete(0xE0002CD3DFA43D6F, 1, 6))" />
+				<Grind While="(not IsBranchStepComplete(0xE0002CD3DFA43D6F, 1, 6))">
+					<GrindArea Name="Legacy 6">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Darth Zash</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Darth Zash" XYZ="-193.5175,19.37909,-53.8732" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<If Condition="((HasQuest(0xE0002CD3DFA43D6F)) and (not IsBranchStepComplete(0xE0002CD3DFA43D6F, 1, 7)))">
 					<TalkTo QuestId="0xE0002CD3DFA43D6F" Name="Darth Zash" SearchRadius="50" XYZ="-193.5175,19.37909,-53.8732" />
 					<WaitTimer QuestId="1" WaitTime="8" />

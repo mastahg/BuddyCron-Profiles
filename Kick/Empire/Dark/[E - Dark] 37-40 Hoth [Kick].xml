@@ -371,7 +371,23 @@
 			<UseObject QuestId="0xE000F7F22510F7CB" BranchId="1" StepId="3" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Explosive Device" XYZ="-329.9672,4.645903,154.1125" />
 			<!-- Reclaim the Power Station (Bonus) -->
 			<If Condition="(not IsQuestComplete(0xE000A756020CFA98))">
-				<Grind GrindRef="Reclaim the Power Station (Bonus)" While="(not IsQuestComplete(0xE000A756020CFA98))" />
+				<Grind While="(not IsQuestComplete(0xE000A756020CFA98))">
+					<GrindArea Name="Reclaim the Power Station (Bonus)">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Talz Ranger</Mob>
+							<Mob>Talz Shock Trooper</Mob>
+							<Mob>Talz Commando</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Talz Ranger" XYZ="-314.794,6.236703,133.161" />
+							<Hotspot Name="Talz Shock Trooper" XYZ="-317.833,6.402762,135.2227" />
+							<Hotspot Name="Talz Shock Trooper" XYZ="-323.5321,6.436703,141.776" />
+							<Hotspot Name="Talz Ranger" XYZ="-312.3259,6.986862,142.6575" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 			</If>
 			<UseObject QuestId="0xE000F7F22510F7CB" BranchId="1" StepId="4" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Explosive Device" XYZ="-336.9252,2.001,172.3305" />
 			<If Condition="((HasQuest(0xE000F7F22510F7CB)) and (not IsBranchStepComplete(0xE000F7F22510F7CB, 1, 5)))">
@@ -1300,7 +1316,18 @@
 					<TalkTo QuestId="0xE0000C9E0B16F1AE" Name="Darth Thanaton" XYZ="3.085,1.639999,-90.0332" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
-				<Grind GrindRef="Conflagration 5" While="(not IsBranchStepComplete(0xE0000C9E0B16F1AE, 1, 5))" />
+				<Grind While="(not IsBranchStepComplete(0xE0000C9E0B16F1AE, 1, 5))">
+					<GrindArea Name="Conflagration 5">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>50</MaxLevel>
+						<Mobs>
+							<Mob>Rolan</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Rolan" XYZ="3.6062,1.640999,-90.0395" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
 				<If Condition="((HasQuest(0xE0000C9E0B16F1AE)) and (not IsBranchStepComplete(0xE0000C9E0B16F1AE, 1, 6)))">
 					<TalkTo QuestId="0xE0000C9E0B16F1AE" Name="Darth Thanaton" XYZ="3.6393,1.640999,-90.0369" />
 					<WaitTimer QuestId="1" WaitTime="8" />
