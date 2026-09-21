@@ -214,10 +214,15 @@
           <UseObject QuestId="0xE000F7755A02B770" ObjectName="Surveillance Device" BranchId="1" StepId="6" TaskId="1" Radius="10" WaitTime="5" XYZ="-55.06948,-1.724711,-0.5036687"/>
           <!--  Sector 02  -->
         </If>
-        <If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsBranchTaskComplete(0xE000F7755A02B770, 1, 6, 2)))">
-          <MoveTo QuestId="1" XYZ="-50.50684,-2.395264,8.106718"/>
-          <UserDialog Title="Note From Metrienne" Message="You will manually have to get the datapad on top of bridge."/>
-        </If>
+        <TempDisablePlugin/>
+        
+        
+        <MoveTo QuestId="0xE000F7755A02B770" Name="My Location" XYZ="-48.42136, -2.4553022, 10.007329"/> 
+        <MoveTo QuestId="0xE000F7755A02B770" Name="My Location" XYZ="-49.50079,-2.267053,9.896438"/> <!-- bottom of ramp -->
+        <MoveTo QuestId="0xE000F7755A02B770" Name="My Location" IgnoreMesh="True" XYZ="-48.93623,-2.027446,10.29765"/> <!-- top of ramp -->
+        <UseObject QuestId="0xE000F7755A02B770" ObjectName="Surveillance Device" BranchId="1" StepId="6" TaskId="2" Radius="10" UseRange="12" IgnoreLOS="True" WaitTime="5" XYZ="-48.4673,-1.874625,10.28182"/> <!-- Sector 03 -->
+        <MoveTo QuestId="0xE000F7755A02B770" Name="My Location" IgnoreMesh="True" XYZ="-49.50079,-2.267053,9.896438"/> <!-- bottom of ramp -->
+        <TempRestorePlugin/>
       </If>
       <If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsStepComplete(0xE000F7755A02B770, 7)))">
         <AnswerHolocomCall QuestName="Enemy Force " QuestId="0xE000F7755A02B770"/>

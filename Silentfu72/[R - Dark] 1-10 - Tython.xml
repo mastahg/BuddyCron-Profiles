@@ -341,6 +341,7 @@
 		<If Condition="((HasQuest(0xE000742A9CEC2745)) and (not IsStepComplete(0xE000742A9CEC2745, 2)))">
 			<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 			<UseObject QuestId="1" ObjectName="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
+			<WaitTimer QuestId="1" WaitTime="5" />
 		</If>
 		
 		<!-- Turnin Combat Leadership: Mark I -->
@@ -622,6 +623,7 @@
 			<If Condition="((HasQuest(0xE00016D3F5B7BDCF)) and (not IsStepComplete(0xE00016D3F5B7BDCF, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" ObjectName="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
+				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 		</If>
 
@@ -794,12 +796,15 @@
 					<UseObject QuestId="0xE000F7755A02B770" ObjectName="Surveillance Device" BranchId="1" StepId="6" TaskId="1" Radius="10" WaitTime="5" XYZ="-55.06948,-1.724711,-0.5036687" /> <!-- Sector 02 -->
 				</If>
 				<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsBranchTaskComplete(0xE000F7755A02B770, 1, 6, 2)))">
-					<MoveTo QuestId="0xE000F7755A02B770" Name="My Location" XYZ="-49.50079,-2.267053,9.896438" /> <!-- bottom of ramp -->
-					<WaitTimer QuestId="1" WaitTime="3" />
+					<TempDisablePlugin />
+					
+					
+					<MoveTo QuestId="0xE000F7755A02B770" Name="My Location" XYZ="-48.42136, -2.4553022, 10.007329" /> 
 					<MoveTo QuestId="0xE000F7755A02B770" Name="My Location" XYZ="-49.50079,-2.267053,9.896438" /> <!-- bottom of ramp -->
 					<MoveTo QuestId="0xE000F7755A02B770" Name="My Location" IgnoreMesh="True" XYZ="-48.93623,-2.027446,10.29765" /> <!-- top of ramp -->
 					<UseObject QuestId="0xE000F7755A02B770" ObjectName="Surveillance Device" BranchId="1" StepId="6" TaskId="2" Radius="10" UseRange="12" IgnoreLOS="True" WaitTime="5" XYZ="-48.4673,-1.874625,10.28182" /> <!-- Sector 03 -->
 					<MoveTo QuestId="0xE000F7755A02B770" Name="My Location" IgnoreMesh="True" XYZ="-49.50079,-2.267053,9.896438" /> <!-- bottom of ramp -->
+					<TempRestorePlugin />
 				</If>
 			</If>
 			<If Condition="((HasQuest(0xE000F7755A02B770)) and (not IsStepComplete(0xE000F7755A02B770, 7)))">
@@ -882,6 +887,7 @@
 			<If Condition="((HasQuest(0xE0006E2A873C0E01)) and (not IsStepComplete(0xE0006E2A873C0E01, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" ObjectName="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
+				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 		</If>
 
@@ -1057,6 +1063,7 @@
 			<If Condition="((HasQuest(0xE000F7D3F5B7F161)) and (not IsStepComplete(0xE000F7D3F5B7F161, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" ObjectName="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
+				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 		</If>
 
@@ -1604,6 +1611,7 @@
 			<If Condition="((HasQuest(0xE000ACDB6951E3FC)) and (not IsStepComplete(0xE000ACDB6951E3FC, 2)))">
 				<MoveTo QuestId="1" Name="Droid Activation Console" XYZ="-19.08806,-7.960167,-48.32384" />
 				<UseObject QuestId="1" ObjectName="Droid Activation Console" IgnoreQuestRelation="True" BranchId="1" StepId="2" Radius="20" WaitTime="5" XYZ="-18.9383,-7.960167,-48.28152" />
+				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
 			<TurnInQuest QuestName="Combat Leadership: Mark V" QuestId="0xE000ACDB6951E3FC" TurnInName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 			<CompleteQuest QuestName="Combat Leadership: Mark V" QuestId="0xE000ACDB6951E3FC" />
