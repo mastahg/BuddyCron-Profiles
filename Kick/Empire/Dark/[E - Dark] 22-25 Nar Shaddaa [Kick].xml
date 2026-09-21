@@ -122,15 +122,8 @@
 		<If Condition="((not HasQuest(0xE0000BD87306E3B1)) and (not IsQuestComplete(0xE0000BD87306E3B1)))">
 			<PickUpQuest QuestName="A Crushing Blow" QuestId="0xE0000BD87306E3B1" GiverName="CN-94" XYZ="-215.3057,14.501,-180.9979" />
 			
-			<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Lower Promenade Taxi" 
-									XYZ="-193.4776,14.501,-179.3555" />
 			
 			
-			<If Condition="(Me.Class != CharacterClass.Inquisitor)">
-				<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
-									XYZ="-125.5166,53.801,-78.1966" />
-									
-			</If>
 		</If>
 		
 		<!-- Inquisitor - The Prophet Arrives -->
@@ -156,8 +149,6 @@
 			<CompleteQuest QuestName="The Prophet Arrives" QuestId="0xE0002CB06A3D9FAE" />
 			<!-- The Krayt Gang 0xE000C00DF585581E-->
 			
-			<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
-									XYZ="-125.5166,53.801,-78.1966" />
 									
 		</If>
 
@@ -379,15 +370,9 @@
 		<!-- Agent - Closing the Deal -->
 		<If Condition="((HasQuest(0xE000539A10248ED1)) and (not IsQuestComplete(0xE000539A10248ED1)))">
 			<If Condition="HasQuest(0xE000539A10248ED1) and not IsBranchStepComplete(0xE000539A10248ED1, 1, 4)">
-				<If Condition="(Me.Position.X &lt;= -300)">
-					<UseTransport TransporterName="Corellian Sector Taxi" Option="High Profile Ward Taxi" 
-									XYZ="-402.9798,24.00051,-164.194" />
-				</If>
 				<MoveTo QuestId="0xE000539A10248ED1" XYZ="224.1523,-151.799,331.0289" />
 				<WaitTimer QuestId="1" WaitTime="10" />
 			
-				<UseTransport TransporterName="High Profile Ward Taxi" Option="Corellian Sector Taxi"
-									XYZ="214,-151.299,366.45" />
 			</If>
 			<If Condition="HasQuest(0xE000539A10248ED1) and not IsBranchStepComplete(0xE000539A10248ED1, 1, 6)">
 				<MoveTo QuestId="0xE000539A10248ED1" Name="Ekayn Liistot" XYZ="-334.7186,22.501,-143.1347" />
@@ -516,8 +501,6 @@
 			
 			<ForceVendor VendorType="Repair" />
 
-			<UseTransport TransporterName="Corellian Sector Taxi" Option="Duros Sector Taxi"
-									XYZ="-402.9798,24.00051,-164.194" />
 		</If>
 	
 		<PickUpQuest Type="Placeable" UseRange="2" QuestName="Privileged Information" QuestId="0xE000C7A0A8D7FA28" GiverName="Datapad" XYZ="186.804,-318.699,-263.8947" />
@@ -803,10 +786,6 @@
 			<TurnInQuest QuestName="The Flame" QuestId="0xE0007D79BEDD837E" TurnInName="Agent Madel Felth" XYZ="162.0222,-318.5989,-258.5681" />
 			<CompleteQuest QuestName="The Flame" QuestId="0xE0007D79BEDD837E" />
 			
-			<If Condition="(Me.Position.X &lt; 250) and (Me.Position.X &gt; 100)">
-				<UseTransport TransporterName="Duros Sector Taxi" Option="Upper Promenade Taxi" 
-									XYZ="192.2398,-316.299,-258.7219" />
-			</If>
 
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -816,8 +795,6 @@
 		<!-- Warrior - Disrupt Negotiations - Return to Halidrell Setsyn -->
 		<If Condition="((HasQuest(0xE00073956804C0B7)) and (not IsQuestComplete(0xE00073956804C0B7)))">
 			<If Condition="((HasQuest(0xE00073956804C0B7)) and (not IsBranchStepComplete(0xE00073956804C0B7, 4, 2)))">
-				<UseTransport TransporterName="Upper Promenade Taxi" Option="Corellian Sector Taxi" 
-									XYZ="-125.5166,53.801,-78.1966" />
 				<TalkTo QuestId="0xE00073956804C0B7" Name="Halidrell Setsyn" XYZ="-390.1,23.501,-156.4" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 				<CompleteQuest QuestName="Disrupt Negotiations" QuestId="0xE00073956804C0B7" />
@@ -825,22 +802,10 @@
 		</If>
 		
 		<!-- Warrior - An Army of One - Go to Republic Outpost Shylon -->
-		<If Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsQuestComplete(0xE000B94A7F5AAE3A)))">
-			<If Condition="((HasQuest(0xE000B94A7F5AAE3A)) and (not IsBranchStepComplete(0xE000B94A7F5AAE3A, 1, 2)))">
-				<If Condition="(Me.Position.X &lt; -380) and (Me.Position.X &gt; -420)">
-					<UseTransport TransporterName="Corellian Sector Taxi" Option="Upper Industrial Sector Taxi" 
-									XYZ="-403.0259,24.001,-164.1409" />
-				</If>
-			</If>
-		</If>
 		
 		<!-- Agent - Contract Negotiations -->
 		<If Condition="((HasQuest(0xE00042C8134BB428)) and (not IsQuestComplete(0xE00042C8134BB428)))">
 			<If Condition="HasQuest(0xE00042C8134BB428) and not IsBranchStepComplete(0xE00042C8134BB428, 1, 7)">
-				<If Condition="(Me.Position.X &lt; -50) and (Me.Position.X &gt; -150)">
-					<UseTransport TransporterName="Lower Promenade Taxi" Option="Star Cluster Casino Taxi" 
-									XYZ="-78.8646,51.801,-92.5" />
-				</If>
 				<MoveTo QuestId="0xE00042C8134BB428" XYZ="68.29439,107.101,-109.8541" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 			</If>
@@ -856,8 +821,6 @@
 				<AnswerHolocomCall QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" />
 				<WaitTimer QuestId="1" WaitTime="5" />
 	
-				<UseTransport TransporterName="Star Cluster Casino Taxi" Option="Upper Industrial Sector Taxi" 
-									XYZ="30.3638,104.101,-123.4151" />
 			</If>
 		</If>
 		
@@ -1141,19 +1104,11 @@
 			
 			<!-- Do all classes need to go to High Profile Ward? or just Agent? Taking taxi to Network Access (iN2Fun . maybe go to proenade train?)-->
 			<!-- inq goes to network access taxi -->
-			<If Condition="(Me.Class != CharacterClass.Warrior)">
-				<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Network Access Taxi" 
-									XYZ="-198.0589,-145.499,274.9999" />
-			</If>
 		</If>
 		
 		<!-- Warrior - Distress Call -->
 		<If Condition="((HasQuest(0xE000975020D125E9)) and (not IsQuestComplete(0xE000975020D125E9)))">
 			<If Condition="((HasQuest(0xE000975020D125E9)) and (not IsBranchStepComplete(0xE000975020D125E9, 1, 2)))">
-				<If Condition="(Me.Position.X &lt; -210) and (Me.Position.X &gt; -180)">
-					<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Corellian Sector Taxi" 
-									XYZ="-198.0589,-145.499,274.9999" />
-				</If>
 				<If Condition="(Me.Position.X &lt; -420) and (Me.Position.X &gt; -380)">
 					<MoveTo QuestId="1" XYZ="-395.0139,23.501,-159.0555" />
 					<WaitTimer QuestId="1" WaitTime="3" />
@@ -1168,30 +1123,18 @@
 		<If Condition="((HasQuest(0xE0001780139B48B7)) and (not IsQuestComplete(0xE0001780139B48B7)))">
 			<If Condition="((HasQuest(0xE0001780139B48B7)) and (not IsBranchStepComplete(0xE0001780139B48B7, 1, 2)))">
 				<If Condition="(Me.Position.X &lt; -380) and (Me.Position.X &gt; -420)">
-					<UseTransport TransporterName="Corellian Sector Taxi" Option="Upper Promenade Taxi" 
-					  XYZ="-403.0259,24.001,-164.1409" />
 					<ForceVendor VendorType="Repair" />
 					<ForceVendor VendorType="Train" />
-				</If>
-				<If Condition="(Me.Position.X &lt; -80) and (Me.Position.X &gt; -140)">
-					<UseTransport TransporterName="Upper Promenade Taxi" Option="Network Access Taxi" 
-					  XYZ="-125.5166,53.801,-78.1966" />
 				</If>
 			</If>
 		</If>
 		
 		<!-- Agent - Contract Negotiations -->
 		<If Condition="((HasQuest(0xE00042C8134BB428)) and (not IsQuestComplete(0xE00042C8134BB428)))">
-			<If Condition="(Me.Position.Z &lt;= 300)">
-				<UseTransport TransporterName="Network Access Taxi" Option="High Profile Ward Taxi" 
-										XYZ="200.8,-156.299,243.4" />
-			</If>
 			<TurnInQuest QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" TurnInName="Watcher X" XYZ="224.2115,-151.799,331.0908" />
 			<CompleteQuest QuestName="Contract Negotiations" QuestId="0xE00042C8134BB428" />
 			<!-- Hostile Takeover -->
 		
-			<UseTransport TransporterName="High Profile Ward Taxi" Option="Upper Industrial Sector Taxi" 
-									XYZ="213.5565,-151.299,366.1036" />
 		</If>
 		
 		<!-- Agent - Hostile Takeover -->
@@ -1228,8 +1171,6 @@
 			<CompleteQuest QuestName="Hostile Takeover" QuestId="0xE0006776DC457E03" />
 			<!-- Agent - Liquidation -->
 				
-			<UseTransport TransporterName="High Profile Ward Taxi" Option="Network Access Taxi" 
-									XYZ="214,-151.299,366.45" />
 		</If>
 		
 		<!-- Turnin Datacenter Raid -->
@@ -1467,8 +1408,6 @@
 			<TurnInQuest QuestName="Quality Assurance" QuestId="0xE000D47443EB40A7" TurnInName="Doctor Proh'ven" XYZ="198.627,-156.799,265.2605" />
 			<CompleteQuest QuestName="Quality Assurance" QuestId="0xE000D47443EB40A7" />
 			
-			<UseTransport TransporterName="Network Access Taxi" Option="Mezenti Spaceport Taxi" 
-									XYZ="200.8,-156.299,243.4" />
 		</If>
 		
 		<!-- End of planet, just need to finish up class quest and gtfo -->
@@ -1584,8 +1523,6 @@
 					<Interact Name="Ship Exit" WaitTime="9" XYZ="1.081685,0.8599994,1.799841" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Duros Sector Taxi" 
-								XYZ="-193.4776,14.501,-179.3555" />
 			</If>
 			<Grind While="(not IsBranchStepComplete(0xE000DCB2762AA893, 1, 3))">
 				<GrindArea Name="Shadow of the Dark Lord  1 3">
@@ -1611,10 +1548,6 @@
 			</If>
 			<If Condition="HasQuest(0xE000DCB2762AA893) and not IsBranchStepComplete(0xE000DCB2762AA893, 2, 2)">
 				<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)">
-					<If Condition="(Me.Position.X &gt; 150)">
-						<UseTransport TransporterName="Duros Sector Taxi" Option="Mezenti Spaceport Taxi" 
-										XYZ="192.2398,-316.299,-258.7219" />
-					</If>
 					<MoveTo QuestId="1" XYZ="-212.4707,-6.998997,-208.869" />
 					<MoveTo QuestId="1" XYZ="-212.0908,-6.301369,-210.6779" />
 					<Interact Name="X-70B Phantom" IgnoreLOS="True" UseRange="20" WaitTime="8" XYZ="-212.0908,-6.301369,-210.6779" />
@@ -1629,25 +1562,11 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.2997,6.340111,36.3558" />
-					<If Condition="(Me.Position.Z &lt; 32) and (Me.Position.Z &gt; -5)">
-						<UseTransport TransporterName="Kaas City Central Taxi" Option="Sith Sanctum Taxi" 
-										XYZ="-19.36833,4.007462,-1.192061" />
-					</If>
 					<MoveTo QuestId="0xE000DCB2762AA893" XYZ="-7.7304,2.200364,-90.4867" />
 				</If>
 			</If>
 			<If Condition="HasQuest(0xE000DCB2762AA893) and not IsBranchStepComplete(0xE000DCB2762AA893, 6, 3)">
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					<If Condition="(Me.Position.Z &lt; -30) and (Me.Position.Z &gt; -100)">
-						<UseTransport TransporterName="Citadel Taxi" Option="Kaas City Central Taxi" 
-										XYZ="-10.64321,2.307461,-50.83017" />
-					</If>
-					<If Condition="(Me.Position.X &lt; -5) and (Me.Position.X &gt; -22)">
-						<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
-										XYZ="-8.4563,4.1061,31.0347" />
-					</If>
 					<MoveTo QuestId="1" XYZ="78.88722,-7.798998,51.27916" />
 					<MoveTo QuestId="1" XYZ="77.52087,-7.101369,50.18936" />
 					<Interact Name="X-70B Phantom" UseRange="20" XYZ="77.52087,-7.101369,50.18936" />

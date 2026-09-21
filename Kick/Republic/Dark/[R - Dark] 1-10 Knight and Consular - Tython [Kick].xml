@@ -96,10 +96,6 @@
 			<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 2)))">
 				<TalkTo QuestId="0xE000AADDC6313899" Name="Master Syo Bakarn" XYZ="-58.8284,-6.906225,-133.0678" />
 			</If>
-			<If Condition="((HasQuest(0xE000AADDC6313899)) and (not IsStepComplete(0xE000AADDC6313899, 3)))">
-				<UseTransport TransporterName="Masters' Retreat Taxi" Option="Gnarls Outpost Speeder" 
-									XYZ="-53.4878,-7.713922,-125.4795" />
-			</If>
 		</If>
 		
 		<PickUpQuest QuestName="Early Lessons" QuestId="0xE00029CA85D06E76" GiverName="Master Relnex" XYZ="-13.8792,-2.704312,-101.7782" />
@@ -542,8 +538,6 @@
 			<!-- Force Mail -->
 			<ForceVendor VendorType="Repair" />
 			
-			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481"
-									Option="Jedi Temple Speeder" />
 		</If>
 
 		<!-- Turnin Consular - Pilgrims -->
@@ -776,8 +770,6 @@
 			<CompleteQuest QuestName="Enemy Force" QuestId="0xE000F7755A02B770" />
 			<!-- open item in bags: Medium Credit Box -->
 			<!-- The Face of the Enemy 0xE000A722C5D14F73 -->
-			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481" 
-									Option="Jedi Temple Speeder" />
 		</If>
 
 		<!-- Turnin Consular - Trials in Kaleth -->
@@ -814,8 +806,6 @@
 			<TurnInQuest QuestName="Combat Leadership: Mark III" QuestId="0xE0006E2A873C0E01" TurnInName="Liam Dentiri" XYZ="-21.3857,-7.657335,-43.9586" />
 			<CompleteQuest QuestName="Combat Leadership: Mark III" QuestId="0xE0006E2A873C0E01" />
 			
-			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Kalikori Village Speeder" />
 		</If>
 		
 		<PickUpQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" GiverName="Master Meeb Wix" XYZ="13.7071,-0.7828179,-31.4855" />
@@ -967,8 +957,6 @@
 			<TurnInQuest QuestName="Pilgrim Medicine" QuestId="0xE00090E5E21BD7DF" TurnInName="Bahlea" XYZ="17.5402,-0.2233399,-44.278" />
 			<CompleteQuest QuestName="Pilgrim Medicine" QuestId="0xE00090E5E21BD7DF" />
 			
-			<UseTransport TransporterName="Kalikori Village Speeder" XYZ="16.9777,-0.7802001,-29.4481" 
-									Option="Jedi Temple Speeder" />
 		</If>
 		
 		<!-- Turnin Consular - Hunter's Eye -->
@@ -996,8 +984,6 @@
 			<CompleteQuest QuestName="Combat Leadership: Mark IV" QuestId="0xE000F7D3F5B7F161" />
 			<ForceVendor VendorType="Repair" />
 			
-			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Forward Camp Speeder" />
 		</If>
 	
 		<PickUpQuest QuestName="Commune With the Light" QuestId="0xE000DF08498AC1C3" GiverName="Flingeld" XYZ="-59.7379,-0.7714155,16.9973" /> <!-- SW Ruins of Kaleth -->
@@ -1040,8 +1026,6 @@
 			<!-- Open Medium Credit Box -->
 			<ForceVendor VendorType="Train" />
 			
-			<UseTransport TransporterName="Jedi Temple Speeder" XYZ="-13.1076,-7.968236,-45.234" 
-									Option="Forward Camp Speeder" />
 		</If>
 		
 		<!-- Knight - Dark Temptations and Turnin -->

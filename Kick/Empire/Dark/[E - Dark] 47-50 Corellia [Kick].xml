@@ -1488,8 +1488,6 @@
 		<!-- Agent - Armageddon 2 -->
 		<If Condition="((HasQuest(0xE000D780762486C8)) and (not IsQuestComplete(0xE000D780762486C8)))">
 			<UseObject QuestId="0xE000D780762486C8" BranchId="1" StepId="2" IgnoreLOS="True" Radius="5" WaitTime="5" ObjectName="Ordinance Container" XYZ="261.1552,21.401,-156.4358" />
-			<If Condition="((HasQuest(0xE000D780762486C8)) and (not IsBranchStepComplete(0xE000D780762486C8, 1, 2)))">
-			</If>
 		</If>
 		
 		<!-- Inquisitor - The Duel 2 -->
@@ -2042,12 +2040,6 @@
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.2997,6.340111,36.3558" />
-					<If Condition="(Me.Position.Z &lt; 32) and (Me.Position.Z &gt; -5)">
-						<UseTransport TransporterName="Kaas City Central Taxi" Option="Sith Sanctum Taxi" 
-										XYZ="-19.36833,4.007462,-1.192061" />
-					</If>
 				</If>
 				<MoveTo QuestId="0xE000AFA71CDE8549" XYZ="-5.342464,1.801015,-87.44279" /> <!-- this xyz may be wrong -->
 			</If>
@@ -2059,14 +2051,6 @@
 		<If Condition="((HasQuest(0xE0003913E4F692A9)) and (not IsQuestComplete(0xE0003913E4F692A9))) and (Me.Class == CharacterClass.Inquisitor)">
 			<If Condition="((HasQuest(0xE0003913E4F692A9)) and (not IsBranchStepComplete(0xE0003913E4F692A9, 1, 2)))">
 				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					<If Condition="(Me.Position.Z &gt; -100) and (Me.Position.Z &lt; -55)">
-						<UseTransport TransporterName="Citadel Taxi" Option="Kaas City Central Taxi" 
-										XYZ="-10.5032,2.307461,-50.798" />
-					</If>
-					<If Condition="(Me.Position.Z &gt; -5) and (Me.Position.Z &lt; 33)">
-						<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder"
-										XYZ="-8.558567,4.1061,31.20626" />
-					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="81.64088,-7.798999,23.57328" />
 					<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="80.74992,-7.122471,22.5519" />
 					<Interact Name="Fury" IgnoreLOS="True" UseRange="40" WaitTime="5" XYZ="80.74992,-7.122471,22.5519" />

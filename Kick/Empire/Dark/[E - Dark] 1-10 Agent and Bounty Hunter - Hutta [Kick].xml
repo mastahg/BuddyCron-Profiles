@@ -352,8 +352,6 @@
 		<If Condition="((not HasQuest(0xE000DE45E4C10CD4)) and (not IsQuestComplete(0xE000DE45E4C10CD4)))">
 			<PickUpQuest QuestName="A Slight Lean" QuestId="0xE000DE45E4C10CD4" GiverName="Morsel" XYZ="-53.1481,4.551,65.747" />
 			
-			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Jiguuna Speeder"
-									XYZ="-53.31712,2.134857,49.10521" />
 		</If>
 		
 		<!-- Turnin A Slight Lean -->
@@ -452,8 +450,6 @@
 			<TurnInQuest QuestName="Tech Jealousy" QuestId="0xE000C8D888CB93DF" TurnInName="Doctor Terrab" XYZ="-14.5167,1.083268,51.4787" />
 			<CompleteQuest QuestName="Tech Jealousy" QuestId="0xE000C8D888CB93DF" />
 			
-			<UseTransport TransporterName="Jiguuna Speeder" Option="Nemro's Palace Speeder"
-										XYZ="-30.99755,1.177323,40.86168" />
 										
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -492,8 +488,6 @@
 		<If Condition="((not HasQuest(0xE0009E7E4C9DBE56)) and (not IsQuestComplete(0xE0009E7E4C9DBE56)))">
 			<PickUpQuest QuestName="To Boom or Not to Boom" QuestId="0xE0009E7E4C9DBE56" GiverName="Getzo" XYZ="-54.424,4.554522,67.135" />
 	
-			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Jiguuna Speeder"
-									XYZ="-53.31166,2.134839,49.12879" />
 		</If>
 		
 		<!-- To Boom or Not to Boom -->
@@ -713,8 +707,6 @@
 			<TurnInQuest QuestName="Keeping Secrets" QuestId="0xE0005A924CF2B444" TurnInName="Kraay" XYZ="28.47543,1.298484,35.84464" />
 			<CompleteQuest QuestName="Keeping Secrets" QuestId="0xE0005A924CF2B444" />
 			
-			<UseTransport TransporterName="Rust Yards Speeder" Option="Nemro's Palace Speeder"
-									XYZ="26.84658,1.278584,37.27312" />
 			
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
@@ -866,8 +858,6 @@
 	
 			<ForceVendor VendorType="Repair" />
 			<ForceVendor VendorType="Train" />
-			<UseTransport TransporterName="Nemro's Palace Speeder" Option="Rust Yards Speeder" 
-									XYZ="-53.28392,2.130127,49.0124" />
 		</If>
 		<PickUpQuest QuestName="Unfinished Business" QuestId="0xE000D51EB84CAB94" GiverName="Cy Krolo" XYZ="30.3276,1.311847,41.9702" />
 		

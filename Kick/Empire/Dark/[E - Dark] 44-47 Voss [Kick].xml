@@ -1619,26 +1619,12 @@
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.3737,6.340111,36.17062" />
-						<If Condition="(Me.Position.Z &gt; -5)">
-							<UseTransport TransporterName="Kaas City Central Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.5048,4.007461,-1.2225" />
-						</If>
 					</If>
 					<MoveTo QuestId="0xE000AD89F260835D" Name="Watcher Three" XYZ="12.2699,2.680449,-83.593" />
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>
 				<If Condition="((HasQuest(0xE000AD89F260835D)) and (not IsBranchStepComplete(0xE000AD89F260835D, 1, 6)))">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<If Condition="(Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 3)">
-							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi"
-										XYZ="12.28,1.799508,-56.9" />
-						</If>
-						<If Condition="(Me.Position.Y &gt; 4) and (Me.Position.Y &lt; 5)">
-							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
-										XYZ="-8.558567,4.1061,31.20626" />
-						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="78.94019,-7.798998,51.2834" />
 						<MoveTo QuestId="1" IgnoreLOS="True" XYZ="77.48743,-7.084901,50.17662" />
 						<Interact Name="X-70B Phantom" WaitTime="5" IgnoreLOS="True" UseRange="20" XYZ="77.52463,-7.10961,50.19477" />

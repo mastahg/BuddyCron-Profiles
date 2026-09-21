@@ -545,8 +545,6 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			
-			<UseTransport TransporterName="Mos Ila Speeder" Option="Outpost Varath Speeder"
-									XYZ="72.2576,46.50851,280.5351" />
 		</If>
 		
 		<!-- Journey into Dust -->
@@ -1350,8 +1348,6 @@
 			<TurnInQuest QuestName="The Thing Czerka Found" QuestId="0xE0004E36DF9E2E01" TurnInName="Captain Golah" XYZ="-48.6998,46.24954,3.5408" />
 			<CompleteQuest QuestName="The Thing Czerka Found" QuestId="0xE0004E36DF9E2E01" />
 			
-			<UseTransport TransporterName="Mos Anek Speeder" Option="Mos Ila Speeder"
-									XYZ="-3.044205,44.6794,32.8439" />
 									
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1361,8 +1357,6 @@
 		<If Condition="((not HasQuest(0xE0003D60C6FDE2DC)) and (not IsQuestComplete(0xE0003D60C6FDE2DC)))">
 			<PickUpQuest QuestName="Tatooine: Bonus Series" QuestId="0xE0003D60C6FDE2DC" GiverName="Sergeant Charnso" XYZ="61.7212,51.901,355.5105" />
 	
-			<UseTransport TransporterName="Mos Ila Speeder" Option="Outpost Varath Speeder" 
-									XYZ="72.2576,46.50851,280.5351" />
 		</If>
 		
 		<!-- Ignoring H2+ Supply Lines from Captain Cibinel -->
@@ -1735,8 +1729,6 @@
 			<TurnInQuest QuestName="Three Strikes" QuestId="0xE00069F60DB34EE2" TurnInName="Captain Tremont" XYZ="163.5028,44.79177,-57.8458" />
 			<CompleteQuest QuestName="Three Strikes" QuestId="0xE00069F60DB34EE2" />
 		
-			<UseTransport TransporterName="Ridgeside Sentry Post Speeder" Option="Mos Ila Speeder"
-									XYZ="163.3215,45.05154,-53.6032" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />

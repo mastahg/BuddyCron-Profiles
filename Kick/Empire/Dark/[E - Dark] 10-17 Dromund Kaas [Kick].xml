@@ -329,10 +329,6 @@
 			<TurnInQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" TurnInName="Renegin" XYZ="-34.31099,2.307461,-51.37895" />
 			<CompleteQuest QuestName="Sport Hunting" QuestId="0xE000681C28D22248" />
 			
-			<If Condition="(Me.Class == CharacterClass.Agent)">
-				<UseTransport TransporterName="Mandalorian Enclave Taxi" Option="Intelligence Headquarters Taxi" 
-									XYZ="-33.41899,2.307461,-50.84061" />
-			</If>
 		</If>
 		
 		<!-- Agent - Turnin The Path Leads to Dromund Kaas -->

@@ -57,9 +57,6 @@
 	<Questing>
 
 		<!-- We go to:  High Security Section - The Gran Exile -->
-		<If Condition="((not HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3)) )">
-			<UseTransport TransporterName="Prison Administration Center Speeder" XYZ="119.8138,30.03653,29.60563" Option="Republic Wilderness Outpost Speeder" />
-		</If>
 
 		<!--
 		***** Pickup Quest: Strengthening The Chain  *****
@@ -178,7 +175,6 @@
 		</If>
 
 		<!-- Use Rakata Transporter. -->
-		<UseTransport TransporterName="Rakata Transporter" Option="Frozen Transport Center" XYZ="-157.8339,31.3312,174.6194" />
 
 
 

@@ -276,8 +276,6 @@
 			<If Condition="HasQuest(0xE0002FE18F814730) and not IsBranchStepComplete(0xE0002FE18F814730, 1, 2)">
 				<TalkTo QuestName="The Leak" QuestId="0xE0002FE18F814730" Name="Bartender" XYZ="-21.50215,5.404947,130.3585" />
 			
-				<UseTransport TransporterName="Sobrik Taxi" Option="Troida Taxi" 
-									XYZ="-21.71545,5.664196,96.41971" />
 			</If>
 			<TurnInQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" TurnInName="Senior Science Officer Sakoal" XYZ="-23.19461,9.4682,182.0577" />
 			<CompleteQuest QuestName="The Leak" QuestId="0xE0002FE18F814730" />
@@ -744,8 +742,6 @@
 					<UseObject QuestId="0xE000CF4A58F3CD97" BranchId="3" StepId="3" Radius="5" WaitTime="5" IgnoreLOS="True" ObjectName="Sith Burial Site" XYZ="37.44193,16.67467,186.1088" />
 				</If>
 			
-				<UseTransport TransporterName="Sundari Imperial Outpost Skyhopper" Option="Sobrik Speeder" 
-									XYZ="85.82637,14.30889,156.6779" />
 									
 				<ForceVendor VendorType="Train" />
 				<ForceVendor VendorType="Repair" />
@@ -757,8 +753,6 @@
 			<CompleteQuest QuestName="The Path to Power" QuestId="0xE000CF4A58F3CD97" />
 			<!-- Into the Pit -->
 		
-			<UseTransport TransporterName="Sobrik Taxi" Option="Sundari Imperial Outpost" 
-									XYZ="-21.62744,5.664193,96.37432" />
 		</If>
 	
 		<!-- Warrior - Silence the Son -->
@@ -1219,8 +1213,6 @@
 			<CompleteQuest QuestName="Repelling Invasion" QuestId="0xE000615560B84386" />
 			<!-- Ele down -->
 			
-			<UseTransport TransporterName="Sundari Imperial Outpost Skyhopper" Option="Sobrik Speeder" 
-									XYZ="85.923,14.30889,156.7627" />
 		</If>
 		
 		<!-- Agent - Destroy the Enemy -->
@@ -1296,8 +1288,6 @@
 		<If Condition="((not HasQuest(0xE00029E61EADE4B5)) and (not IsQuestComplete(0xE00029E61EADE4B5)))">
 			<PickUpQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" GiverName="Captain Laverse" XYZ="-16.09664,6.001,87.91265" />
 		
-			<UseTransport TransporterName="Sobrik Taxi" Option="Markaran Imperial Outpost Speeder" 
-									XYZ="-21.62744,5.664193,96.37432" />
 									
 		</If>
 		
@@ -1627,8 +1617,6 @@
 			<TurnInQuest QuestName="Biohazard" QuestId="0xE000C014A6AF06EB" TurnInName="Captain Jaggard" XYZ="-114.3568,14.39025,98.3371" />
 			<CompleteQuest QuestName="Biohazard" QuestId="0xE000C014A6AF06EB" />
 		
-			<UseTransport TransporterName="Remote Markaran Outpost Skyhopper" Option="Vanguard Outpost Skyhopper"
-									XYZ="-115.8359,14.50528,96.3506" />
 		</If>
 
 		<!-- Turnin Escape and Evade -->
@@ -1657,8 +1645,6 @@
 			<TurnInQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" TurnInName="Maverse Pontilo" XYZ="-154.0097,14.41033,133.4132" />
 			<CompleteQuest QuestName="Over the Top" QuestId="0xE0008037C3C9808B" />
 			
-			<UseTransport TransporterName="Vanguard Outpost Skyhopper" Option="Bugtown Outpost Skyhopper"
-									XYZ="-155.0228,14.10858,128.7553" />
 		</If>
 		
 		<!-- Ignoring H2+ A Question of Motivation from Lieutenant Piloc -->
@@ -1746,8 +1732,6 @@
 			<TurnInQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" TurnInName="Captain Augatta" XYZ="28.3404,-0.05312235,-8.9814" />
 			<CompleteQuest QuestName="Colicoid Expulsion" QuestId="0xE00096FE13A3C207" />
 		
-			<UseTransport TransporterName="Bugtown Outpost Skyhopper" Option="Vanguard Outpost Skyhopper" 
-									XYZ="30.6715,1.495295,-3.5652" />
 		</If>
 		
 		<!-- Turnin Colicoid Feast -->
@@ -1755,8 +1739,6 @@
 			<TurnInQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" TurnInName="Captain Renzfeil Neuwt" XYZ="-155.0889,14.36972,133.5063" />
 			<CompleteQuest QuestName="Colicoid Feast" QuestId="0xE0005D3BD4CFC5CB" />
 		
-			<UseTransport TransporterName="Vanguard Outpost Skyhopper" Option="Sobrik Speeder" 
-									XYZ="-155.0228,14.10858,128.7553" />
 		</If>
 		
 		<!-- Turnin Balmorra: Bonus Series -->

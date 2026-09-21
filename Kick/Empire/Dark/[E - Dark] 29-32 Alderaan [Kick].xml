@@ -549,10 +549,6 @@
 		
 		<!-- Agent - The Privileges of Royalty -->
 		<If Condition="((HasQuest(0xE000F88E819FF5D9)) and (not IsQuestComplete(0xE000F88E819FF5D9)))">
-			<If Condition="(Me.Position.X &gt; 165)">
-				<UseTransport TransporterName="Outpost Bolym Thranta" Option="House Thul Taxi"
-									XYZ="175.0771,39.00214,-107.1227" />
-			</If>
 			<TurnInQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" TurnInName="Vector Hyllus" XYZ="37.6141,27.7131,-154.701" />
 			<CompleteQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" />
 			<!-- The Assassin's Prize -->
@@ -568,10 +564,6 @@
 		
 		<!-- Inquisitor - Turnin The Secrets of the Jedi -->
 		<If Condition="((HasQuest(0xE000D1B7E8AB0DE3)) and (not IsQuestComplete(0xE000D1B7E8AB0DE3)))">
-			<If Condition="(Me.Position.X &gt; 165)">
-				<UseTransport TransporterName="Outpost Bolym Thranta" Option="House Thul Taxi"
-									XYZ="175.0771,39.00214,-107.1227" />
-			</If>
 			<TurnInQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" TurnInName="Elana Thul" XYZ="87.3139,29.90325,-142.3869" />
 			<CompleteQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" />
 			<!-- A Woman Scorned 0xE0009870E1D10934-->
@@ -878,10 +870,6 @@
 		<!-- Agent - The Assassin's Prize -->
 		<If Condition="((HasQuest(0xE000C87E8D37D98E)) and (not IsQuestComplete(0xE000C87E8D37D98E)))">
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 11)">
-				<If Condition="(Me.Position.X &gt; 165)">
-					<UseTransport TransporterName="Outpost Talarn Thranta" Option="House Cortess Taxi" 
-										XYZ="192.1982,22.12099,75.9707" />
-				</If>
 				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="-23.32081,28.69597,-81.06084" />
 			</If>
 			<UseObject ObjectName="Cortess Access Panel" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="12" IgnoreLOS="True" WaitTime="2" XYZ="-23.28956,28.70393,-78.78322" />
@@ -895,8 +883,6 @@
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 			
-			<UseTransport TransporterName="House Thul Taxi" Option="Outpost Talarn Thranta" 
-									XYZ="63.042,28.27721,-160.0131" />
 		</If>
 		
 		<PickUpQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" GiverName="Sir Deris Panteer" XYZ="27.6175,10.63736,-17.2285" />
@@ -1244,8 +1230,6 @@
 			<TurnInQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" TurnInName="General Gurveer" XYZ="-149.6272,19.65751,10.7364" />
 			<CompleteQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" />
 			
-			<UseTransport TransporterName="Panteer Hideout Thranta" Option="Rhu Caenus Spaceport Taxi"
-									XYZ="-154.9804,19.88037,8.6088" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1286,19 +1270,9 @@
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Star Cluster Casino Taxi"
-								XYZ="-193.4776,14.501,-179.3555" />
 					<TalkTo QuestId="0xE0008F57DB94F7F1" Name="Mila Escalus" XYZ="64.3932,105.941,-124.5876" />
-					<If Condition="(Me.Position.Y &gt; 100)">
-						<UseTransport TransporterName="Star Cluster Casino Taxi" Option="Upper Industrial Sector Taxi"
-										XYZ="30.3638,104.101,-123.4151" />
-					</If>
 				</If>
 				<If Condition="((HasQuest(0xE0008F57DB94F7F1)) and (not IsBranchStepComplete(0xE0008F57DB94F7F1, 1, 6)))">
-					<If Condition="(Me.Position.Y &gt; 100)">
-						<UseTransport TransporterName="Star Cluster Casino Taxi" Option="Upper Industrial Sector Taxi"
-										XYZ="30.3638,104.101,-123.4151" />
-					</If>
 					<MoveTo QuestId="0xE0008F57DB94F7F1" Name="Gyl Rosen" XYZ="-259.3548,-145.499,293.6584" />
 				</If>
 				<Grind While="(not IsBranchStepComplete(0xE0008F57DB94F7F1, 4, 2))">
@@ -1314,14 +1288,8 @@
 					</GrindArea>
 				</Grind>
 				<If Condition="((HasQuest(0xE0008F57DB94F7F1)) and (not IsBranchStepComplete(0xE0008F57DB94F7F1, 4, 3)))">
-					<If Condition="(Me.Position.Y &lt; -140)">
-						<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Star Cluster Casino Taxi" 
-										XYZ="-198.1175,-145.499,275.0904" />
-					</If>
 					<TalkTo QuestId="0xE0008F57DB94F7F1" Name="Mila Escalus" XYZ="64.3932,105.941,-124.5876" />
 			
-					<UseTransport TransporterName="Star Cluster Casino Taxi" Option="Mezenti Spaceport Taxi" 
-									XYZ="30.3638,104.101,-123.4151" />
 				</If>
 				<If Condition="((HasQuest(0xE0008F57DB94F7F1)) and (not IsBranchStepComplete(0xE0008F57DB94F7F1, 7, 2)))">
 					<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
@@ -1347,12 +1315,6 @@
 					<If Condition="(Core.Player.AreaId == 0x40000007A66F6619)"> <!-- Inquisitor Ship -->
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 						<WaitTimer QuestId="1" WaitTime="60" />
-					</If>
-					<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.2997,6.340111,36.3558" />
-					<If Condition="(Me.Position.Z &lt; 32) and (Me.Position.Z &gt; -5)">
-						<UseTransport TransporterName="Kaas City Central Taxi" Option="Outpost Warden Speeder" 
-										XYZ="-19.36833,4.007462,-1.192061" />
 					</If>
 					<!-- We must have Khem Val with us, which is weird -->
 					<TalkTo QuestId="0xE0002CD3DFA43D6F" Name="Darth Zash" XYZ="-193.5175,19.37909,-53.8732" />
@@ -1466,14 +1428,6 @@
 				</If>
 				<If Condition="((HasQuest(0xE000F8061758E1A6)) and (not IsBranchStepComplete(0xE000F8061758E1A6, 1, 17)))">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<If Condition="(Me.Position.Z &gt; -100) and (Me.Position.Z &lt; -55)">
-							<UseTransport TransporterName="Citadel Taxi" Option="Kaas City Central Taxi" 
-										XYZ="-10.5032,2.307461,-50.798" />
-						</If>
-						<If Condition="(Me.Position.Z &gt; -5) and (Me.Position.Z &lt; 33)">
-							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder"
-										XYZ="-8.558567,4.1061,31.20626" />
-						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="81.64088,-7.798999,23.57328" />
 						<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="80.74992,-7.122471,22.5519" />
 						<Interact Name="Fury" IgnoreLOS="True" UseRange="40" WaitTime="5" XYZ="80.74992,-7.122471,22.5519" />
@@ -1510,8 +1464,6 @@
 			<!-- Agent - The Fall of House Cortess -->
 			<If Condition="((HasQuest(0xE00041FDD9F0A4F6)) and (not IsQuestComplete(0xE00041FDD9F0A4F6)))">
 				<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 1, 5)">
-					<UseTransport TransporterName="Rhu Caenus Spaceport Taxi" Option="House Cortess Taxi"
-									XYZ="19.8109,28.57548,-140.667" />
 									
 					<MoveTo QuestId="1" XYZ="-23.39356,28.70393,-78.69674" />
 					<Interact Name="Security Door" IgnoreLOS="True" WaitTime="5" XYZ="-23.39356,28.70393,-78.69674" />
@@ -1538,8 +1490,6 @@
 						<WaitTimer QuestId="1" WaitTime="5" />
 					</If>
 			
-					<UseTransport TransporterName="House Cortess Taxi" Option="Rhu Caenus Spaceport Taxi" 
-									XYZ="-30.6181,28.28497,-111.3201" />
 				</If>
 				<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 4) and (Core.Player.AreaId == 0x400000014450FB0A)">
 					<MoveTo QuestId="1" Name="My Location" XYZ="9.056255,14.001,-144.9635" />
@@ -1622,12 +1572,6 @@
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.3737,6.340111,36.17062" />
-						<If Condition="(Me.Position.Z &gt; -5)">
-							<UseTransport TransporterName="Kaas City Central Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.5048,4.007461,-1.2225" />
-						</If>
 					</If>
 				</If>
 				<TurnInQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" TurnInName="Keeper" XYZ="13.1868,3.0004,-87.7223" />
@@ -1647,14 +1591,6 @@
 				</If>
 				<If Condition="HasQuest(0xE0002CAB0740C1D8) and not IsBranchStepComplete(0xE0002CAB0740C1D8, 10, 2)">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<If Condition="(Me.Position.Z &gt; -100) and (Me.Position.Z &lt; -55)">
-							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi" 
-										XYZ="12.28,1.799508,-56.9" />
-						</If>
-						<If Condition="(Me.Position.Z &gt; -5) and (Me.Position.Z &lt; 33)">
-							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder"
-										XYZ="-8.558567,4.1061,31.20626" />
-						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="81.03297,-7.798998,49.39358" />
 						<MoveTo QuestId="1" Name="My Location" XYZ="79.12991,-7.798998,51.44976" />
 						<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="77.51842,-7.093621,50.16871" />
@@ -1701,12 +1637,6 @@
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.3737,6.340111,36.17062" />
-						<If Condition="(Me.Position.Z &gt; -5)">
-							<UseTransport TransporterName="Kaas City Central Taxi" Option="Sith Sanctum Taxi"
-										XYZ="-19.5048,4.007461,-1.2225" />
-						</If>
 					</If>
 					<If Condition="HasQuest(0xE0008E497B81109A) and not IsStepComplete(0xE0008E497B81109A, 2)">
 						<TalkTo QuestId="0xE0008E497B81109A" Name="Darth Zhorrid" XYZ="-7.7289,2.200419,-90.7921" />
@@ -1761,14 +1691,6 @@
 				</If>
 				<If Condition="HasQuest(0xE00004A21F30E21C) and not IsBranchStepComplete(0xE00004A21F30E21C, 4, 2)">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-						<If Condition="(Me.Position.Z &gt; -100) and (Me.Position.Z &lt; -55)">
-							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi" 
-										XYZ="12.28,1.799508,-56.9" />
-						</If>
-						<If Condition="(Me.Position.Z &gt; -5) and (Me.Position.Z &lt; 33)">
-							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder"
-										XYZ="-8.558567,4.1061,31.20626" />
-						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="81.03297,-7.798998,49.39358" />
 						<MoveTo QuestId="1" Name="My Location" XYZ="79.12991,-7.798998,51.44976" />
 						<MoveTo QuestId="1" IgnoreMesh="True" Name="My Location" XYZ="77.51842,-7.093621,50.16871" />
@@ -1785,15 +1707,9 @@
 						<Interact Name="Ship Exit" WaitTime="8" XYZ="1.08813,0.8609994,1.817172" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Star Cluster Casino Taxi"
-									XYZ="-193.4776,14.501,-179.3555" />
 					<MoveTo QuestId="0xE00004A21F30E21C" XYZ="73.6701,107.101,-138.0721" />
 				</If>
 				<If Condition="HasQuest(0xE00004A21F30E21C) and not IsBranchStepComplete(0xE00004A21F30E21C, 4, 6)">
-					<If Condition="(Me.Position.Y &gt; 100)">
-						<UseTransport TransporterName="Star Cluster Casino Taxi" Option="Upper Industrial Sector Taxi"
-										XYZ="30.3638,104.101,-123.4151" />
-					</If>
 					<MoveTo QuestId="0xE00004A21F30E21C" XYZ="-217.3934,-145.499,285.0142" />
 				</If>
 				<If Condition="HasQuest(0xE00004A21F30E21C) and not IsBranchStepComplete(0xE00004A21F30E21C, 4, 7)">
@@ -1845,10 +1761,6 @@
 				</If>
 				<If Condition="HasQuest(0xE00004A21F30E21C) and not IsBranchStepComplete(0xE00004A21F30E21C, 4, 16)">
 					<If Condition="(Core.Player.AreaId == 0x40000002278FFC5D)"> <!-- Nar Shaddaa -->
-						<If Condition="(Me.Position.Y &lt; -140)">
-							<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Mezenti Spaceport Taxi" 
-										XYZ="-198.1175,-145.499,275.0904" />
-						</If>
 						<MoveTo QuestId="1" XYZ="-212.4707,-6.998997,-208.869" />
 						<MoveTo QuestId="1" XYZ="-212.0908,-6.301369,-210.6779" />
 						<Interact Name="X-70B Phantom" IgnoreLOS="True" UseRange="20" WaitTime="8" XYZ="-212.0908,-6.301369,-210.6779" />

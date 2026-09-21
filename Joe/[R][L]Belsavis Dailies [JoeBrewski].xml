@@ -49,7 +49,6 @@
 
       <!-- ***************************************** Republic High Security Section:  The Gran Exile Dailies ***************************************** -->
 
-      <!-- <UseTransport TransporterName="Imperial Lodgement Speeder"  X="156.7063" Y="31.70771" Z="140.5391" Option="Imperial Domination Outpost Speeder" ToX="-89.6066" ToY="30.80301" ToZ="214.7109" />  -->
 
       <If Condition="(not HasQuest(0xE000830A40E929B3)) and (not IsQuestComplete(0xE000830A40E929B3))">
         <PickupQuest QuestName="Strengthening the Chain" QuestId="0xE000830A40E929B3" GiverName="Major Harris" XYZ="-168.9536,30.09492,115.9593"/>

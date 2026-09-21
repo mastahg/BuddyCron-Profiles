@@ -342,8 +342,6 @@
 			<CompleteQuest QuestName="Bombing the Walkers" QuestId="0xE00002048AFDB926" />
 			<!-- Race for the Kill -->
 			
-			<UseTransport TransporterName="Bomber Command Post Speeder" Option="Toxic Lake Garrison Speeder" 
-										XYZ="-74.3224,-23.71337,79.62973" />
 		</If>
 		
 		<!-- [HEROIC 4] The Fathers of Taris - Mission Terminal -->
@@ -912,11 +910,6 @@
 			<Interact WaitTime="3" Name="Forward Outpost Alpha" X="35.47054" Y="-13.37768" Z="-21.72139" />
 		
 		// Breaking the Mighty Cathar - Taxi to Quest Zone \\
-		<If Condition="HasQuest(0xE0001E5C1D1FB742) and not IsStepComplete(0xE0001E5C1D1FB742, 2)">
-			<If Condition="(Me.Position.Z &gt; -18) and (Me.Position.Z &lt; -22)">
-				<UseTransport TransporterName="Forward Outpost Alpha Speeder" Option="75th Legion Forward Camp Speeder" X="34.08191" Y="-13.31442" Z="-20.72631" ToX="72.9142" ToY="-17.68729" ToZ="41.1166" />
-			</If>
-		</If>
 		-->
 		
 		<!-- Deadly Hospital -->
@@ -1524,8 +1517,6 @@
 			<TurnInQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" TurnInName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
 			<CompleteQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" />
 			
-			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder"
-									XYZ="72.7968,-17.68709,41.6978" />
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
@@ -1534,8 +1525,6 @@
 		<!-- Pickup Taris: Bonus Series -->
 		<If Condition="((not HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<PickUpQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" GiverName="Colonel Surab" XYZ="-6.6689,-25.45396,65.1455" />
-			<UseTransport TransporterName="Toxic Lake Garrison Speeder" Option="75th Legion Forward Camp Speeder" 
-									XYZ="-7.805839,-25.72946,59.3979" />
 		</If>
 		
 		<!-- Taris: Bonus Series 2 -->
@@ -1852,8 +1841,6 @@
 			<TurnInQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" TurnInName="Lord Vago" XYZ="73.0722,-18.70979,26.1403" />
 			<CompleteQuest QuestName="The Hidden Hangar" QuestId="0xE000D82897D9DCC6" />
 			
-			<UseTransport TransporterName="75th Legion Forward Camp Speeder" Option="Toxic Lake Garrison Speeder" 
-									XYZ="72.78806,-17.6871,41.60294" />
 		</If>
 		
 		<!-- Taris: Bonus Series -->
@@ -1920,12 +1907,6 @@
 						<Interact Name="Ship Exit" IgnoreLOS="True" WaitTime="5" XYZ="1.134433,0.8599994,1.801755" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<UseTransport TransporterName="Spaceport Speeder" Option="Kaas City Entrance Speeder" 
-									XYZ="88.3737,6.340111,36.17062" />
-					<If Condition="(Me.Position.Y &gt; 3) and (Me.Position.Y &lt; 5) and (Me.Position.X &gt; -21) and (Me.Position.X &lt; -8)">
-						<UseTransport TransporterName="Kaas City Central Taxi" Option="Intelligence Headquarters Taxi" 
-										XYZ="-19.5048,4.007461,-1.2225" />
-					</If>
 					<MoveTo QuestId="0xE0007FA16B96ABE7" XYZ="11.37652,2.600966,-84.12134" />
 					<WaitTimer QuestId="1" WaitTime="5" />
 				</If>
@@ -1958,14 +1939,6 @@
 				</If>
 				<If Condition="HasQuest(0xE0007FA16B96ABE7) and not IsStepComplete(0xE0007FA16B96ABE7, 12)">
 					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"><!-- Dromund Kaas -->
-						<If Condition="(Me.Position.Y &gt; 1) and (Me.Position.Y &lt; 3)">
-							<UseTransport TransporterName="Imperial Taxi" Option="Kaas City Central Taxi"
-										XYZ="12.28,1.799508,-56.9" />
-						</If>
-						<If Condition="(Me.Position.Y &gt; 4) and (Me.Position.Y &lt; 5)">
-							<UseTransport TransporterName="Kaas City Entrance Speeder" Option="Spaceport Speeder" 
-										XYZ="-8.558567,4.1061,31.20626" />
-						</If>
 						<MoveTo QuestId="1" Name="My Location" XYZ="78.94019,-7.798998,51.2834" />
 						<MoveTo QuestId="1" IgnoreLOS="True" XYZ="77.48743,-7.084901,50.17662" />
 						<Interact Name="X-70B Phantom" WaitTime="5" IgnoreLOS="True" UseRange="20" XYZ="77.52463,-7.10961,50.19477" />

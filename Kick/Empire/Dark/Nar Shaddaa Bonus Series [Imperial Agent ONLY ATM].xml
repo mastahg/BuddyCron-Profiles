@@ -32,9 +32,6 @@
 		
 		
 		<!-- Nar Shaddaa: Bonus Series - Taxi to Captain Westro -->
-		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)">
-			<UseTransport TransporterName="Mezenti Spaceport Taxi" Option="Upper Industrial Sector Taxi" XYZ="-193.4776,14.501,-179.3555" />
-		</If>
 		
 		<!-- Speak to Captain Westro -->
 		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 2)" >
@@ -551,9 +548,6 @@
 		
 		<!-- Nar Shaddaa: Bonus Series - Wonkavator to Colonel Harok -->
 		<!-- Taxi to Colonel Harok -->
-		<If Condition="HasQuest(0xE000FA06A85AE58A) and not IsStepComplete(0xE000FA06A85AE58A, 10)">
-			<UseTransport TransporterName="Upper Industrial Sector Taxi" Option="Mezenti Spaceport Taxi" XYZ="-198.0589,-145.499,274.9999" />
-		</If>
 		
 	
 		<!-- Agent -->

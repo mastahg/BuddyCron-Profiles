@@ -206,8 +206,6 @@
 			<CompleteQuest QuestName="Walker Tripping" QuestId="0xE000ACE785105EB2" />
 			
 			
-			<UseTransport TransporterName="Imperial Waystation Speeder" Option="Imperial Base Speeder"
-									XYZ="-8.7859,6.3053,54.8327" />
 		</If>
 		
 		<!-- Turnin Toxic Clash -->
@@ -215,8 +213,6 @@
 			<TurnInQuest QuestName="Toxic Clash" QuestId="0xE000F312709657D7" TurnInName="Moff Dracen" XYZ="31.6622,9.300301,168.0151" />
 			<CompleteQuest QuestName="Toxic Clash" QuestId="0xE000F312709657D7" />
 			
-			<UseTransport TransporterName="Imperial Garrison Speeder" Option="Imperial Waystation Speeder" 
-									XYZ="20.97402,8.526,175.2507" />
 		</If>
 		
 		<PickUpQuest QuestName="Blood and Venom" QuestId="0xE00006051DEE068B" GiverName="Sergeant Molvar" XYZ="-7.4672,6.280286,55.372" />
@@ -366,8 +362,6 @@
 			<TurnInQuest QuestName="Adrenal Appropriation" QuestId="0xE00048E78F6B713D" TurnInName="Captain Franges" XYZ="-8.0133,6.280286,53.4737" />
 			<CompleteQuest QuestName="Adrenal Appropriation" QuestId="0xE00048E78F6B713D" />
 			
-			<UseTransport TransporterName="Imperial Waystation Speeder" Option="Imperial Base Speeder" 
-									XYZ="-8.7859,6.3053,54.8327" />
 		</If>
 		
 		<!-- Turnin Infusion -->
@@ -381,8 +375,6 @@
 			<TurnInQuest QuestName="Adrenal Shutdown: Selkath Scientists" QuestId="0xE00085050F9F1FF2" TurnInName="Moff Dracen" XYZ="32.1439,9.310301,168.1429" />
 			<CompleteQuest QuestName="Adrenal Shutdown: Selkath Scientists" QuestId="0xE00085050F9F1FF2" />
 			
-			<UseTransport TransporterName="Imperial Garrison Speeder" Option="Imperial Waystation Speeder" 
-									XYZ="20.97402,8.526,175.2507" />
 		</If>
 		
 		<!-- Inquisitor - Thanaton Strikes Back -->
@@ -630,8 +622,6 @@
 			<TurnInQuest QuestName="A Family Concern" QuestId="0xE000E1975B124C43" Type="Placeable" UseRange="2" TurnInName="Mission Dropbox" XYZ="-9.509397,6.282239,53.12862" />
 			<CompleteQuest QuestName="A Family Concern" QuestId="0xE000E1975B124C43" />
 			
-			<UseTransport TransporterName="Imperial Waystation Speeder" Option="Imperial Base Speeder" 
-									XYZ="-8.7859,6.3053,54.8327" />
 		</If>
 		
 		<!-- Turnin Atypical Tactics -->
