@@ -869,8 +869,7 @@
 						<MinLevel>4</MinLevel>
 						<MaxLevel>10</MaxLevel>
 						<Mobs>
-							<Mob>Flesh Raider Deathwatcher</Mob>
-							<Mob>Flesh Raider Scavenger</Mob>
+							<Mob>Savage Manka Cat</Mob>
 						</Mobs>
 						<Hotspots>
 							<Hotspot Name="My Location" XYZ="22.55794,-2.17979,-7.86595" />
@@ -916,6 +915,18 @@
 		<If Condition="((HasQuest(0xE000DB8D5F9EB7DC)) and (not IsQuestComplete(0xE000DB8D5F9EB7DC)))">
 			<TurnInQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" TurnInName="Master Meeb Wix" XYZ="13.7071,-0.7828179,-31.4855" />
 			<CompleteQuest QuestName="Flesh Raider Fact-finding" QuestId="0xE000DB8D5F9EB7DC" />
+		</If>
+		
+		<!-- New Recruit and Turnin -->
+		<If Condition="((HasQuest(0xE000BCB5BCA7DCF7)) and (not IsQuestComplete(0xE000BCB5BCA7DCF7)))">
+			<If Condition="((HasQuest(0xE000BCB5BCA7DCF7)) and (not IsBranchStepComplete(0xE000BCB5BCA7DCF7, 2, 3)))">
+				<UseObject QuestId="0xE000BCB5BCA7DCF7" ObjectName="Signal Fire" BranchId="2" StepId="3" Radius="20" WaitTime="5" XYZ="-5.396712,-0.3126708,-2.272465" />
+			
+			</If>
+			<TurnInQuest QuestName="New Recruit" QuestId="0xE000BCB5BCA7DCF7" TurnInName="Trea Kobbeth" XYZ="12.1877,-0.8000388,-35.0941" />
+			<CompleteQuest QuestName="New Recruit" QuestId="0xE000BCB5BCA7DCF7" />
+			<!-- Open Medium Credit Box -->
+
 		</If>
 	
 		<!-- Turnin New Recruit -->
