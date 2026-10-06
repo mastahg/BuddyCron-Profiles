@@ -228,8 +228,8 @@
 				</UseObject>
 			</If>
 			<!-- Stage 1 - Sending a Message -->
-			<If Condition="(not IsQuestComplete(0xE000E8FA248B2599))">
-				<Grind While="(not IsQuestComplete(0xE000E8FA248B2599))">
+			<If Condition="HasQuest(0xE000E8FA248B2599) and (not IsQuestComplete(0xE000E8FA248B2599))">
+				<Grind While="HasQuest(0xE000E8FA248B2599) and (not IsQuestComplete(0xE000E8FA248B2599))">
 					<GrindArea Name="Stage 1 - Sending a Message">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -311,8 +311,8 @@
 		<!-- The Walls Have Ears and Turnin -->
 		<If Condition="((HasQuest(0xE0000E532FD25BD8)) and (not IsQuestComplete(0xE0000E532FD25BD8)))">
 			<!-- Silence in the Listening Post -->
-			<If Condition="(not IsQuestComplete(0xE000A7CC5F1BF143))">
-				<Grind While="(not IsQuestComplete(0xE000A7CC5F1BF143))">
+			<If Condition="HasQuest(0xE000A7CC5F1BF143) and (not IsQuestComplete(0xE000A7CC5F1BF143))">
+				<Grind While="HasQuest(0xE000A7CC5F1BF143) and (not IsQuestComplete(0xE000A7CC5F1BF143))">
 					<GrindArea Name="Silence in the Listening Post">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -333,9 +333,10 @@
 			<TurnInQuest QuestName="The Walls Have Ears" QuestId="0xE0000E532FD25BD8" TurnInName="Officer Keeling" XYZ="-397.8891,23.501,-147.7107" />
 			<CompleteQuest QuestName="The Walls Have Ears" QuestId="0xE0000E532FD25BD8" />
 		</If>
-		
+		<!-- Skip unavailable B9-D7 side quest
+		<MoveTo XYZ="-394.3502,23.501,-144.8" />
 		<PickUpQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" GiverName="B9-D7" XYZ="-394.3502,23.501,-144.4404" />
-		
+		-->
 		<!-- The Exchange Enhancement Facility -->
 		<If Condition="((HasQuest(0xE000833722A79AB8)) and (not IsQuestComplete(0xE000833722A79AB8)))">
 			<UseObject QuestId="0xE000833722A79AB8" ObjectName="Chemical Incubator" BranchId="1" StepId="2" Radius="200" WaitTime="3" >
@@ -345,8 +346,8 @@
 				</Hotspots>
 			</UseObject>
 			<!-- Slay the Enhanced Soldiers -->
-			<If Condition="(not IsQuestComplete(0xE0008557EEAA9AE6))">
-				<Grind GrindRef="Slay the Enhanced Soldiers" While="(not IsQuestComplete(0xE0008557EEAA9AE6))" />
+			<If Condition="HasQuest(0xE0008557EEAA9AE6) and (not IsQuestComplete(0xE0008557EEAA9AE6))">
+				<Grind GrindRef="Slay the Enhanced Soldiers" While="HasQuest(0xE0008557EEAA9AE6) and (not IsQuestComplete(0xE0008557EEAA9AE6))" />
 			</If>
 		</If>
 		
@@ -354,9 +355,10 @@
 		<If Condition="((HasQuest(0xE00072DA1CF2D4A6)) and (not IsQuestComplete(0xE00072DA1CF2D4A6)))">
 			<UseObject ObjectName="Exchange Dossier" QuestId="0xE00072DA1CF2D4A6" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="3" XYZ="-346.8293,22.501,-185.0891" />
 			<!-- Putting Down the Stardogs -->
-			<If Condition="(not IsQuestComplete(0xE0004662D3F53DA4))">
-				<Grind GrindRef="Slay the Enhanced Soldiers" While="(not IsQuestComplete(0xE0004662D3F53DA4))" />
+			<If Condition="HasQuest(0xE0004662D3F53DA4) and (not IsQuestComplete(0xE0004662D3F53DA4))">
+				<Grind GrindRef="Slay the Enhanced Soldiers" While="HasQuest(0xE0004662D3F53DA4) and (not IsQuestComplete(0xE0004662D3F53DA4))" />
 			</If>
+			<MoveTo XYZ="-394.3502,23.501,-144.8" />
 			<TurnInQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" TurnInName="B9-D7" XYZ="-394.3502,23.501,-144.4404" />
 			<CompleteQuest QuestName="The First Casualty" QuestId="0xE00072DA1CF2D4A6" />
 		</If>
