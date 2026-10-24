@@ -346,7 +346,7 @@
 		
 		<!-- [HEROIC 4] The Fathers of Taris - Mission Terminal -->
 		<!-- Pickup Rakghoul Observation -->
-		<If Condition="((not HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
+		<If Condition="False and ((not HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
 			<PickUpQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" GiverName="Eton Vok" XYZ="33.2548,-19.65277,51.5048" />
 	
 			
@@ -405,7 +405,7 @@
 		</If>
 		
 		<!-- Rakghoul Roundup -->
-		<If Condition="((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
+		<If Condition="False and ((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
 			<If Condition="HasQuest(0xE0004AB030885F4C) and not IsBranchStepComplete(0xE0004AB030885F4C, 1, 2)" >
 				<TalkTo QuestId="0xE0004AB030885F4C" Name="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
 			</If>
@@ -439,7 +439,7 @@
 		</If>
 		
 		<!-- Rakghoul Observation -->
-		<If Condition="((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
+		<If Condition="False and ((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
 			<Grind While="not IsBranchStepComplete(0xE0008FA905C7BA04, 1, 2)">
 				<GrindArea Name="Rakghoul Observation - Kill Berserker Rakghouls">
 					<MinLevel>1</MinLevel>
@@ -455,7 +455,7 @@
 		</If>
 		
 		<!-- Rakghoul Roundup Bonuses -->
-		<If Condition="((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
+		<If Condition="False and ((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
 			<!-- Stage 1 - Rakghoul Rampage -->
 			<If Condition="(not IsQuestComplete(0xE0007D319FA72E69))">
 				<Grind While="(not IsQuestComplete(0xE0007D319FA72E69))">
@@ -584,20 +584,20 @@
 		</If>
 		
 		<!-- Turnin Rakghoul Observation -->
-		<If Condition="((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
+		<If Condition="False and ((HasQuest(0xE0008FA905C7BA04)) and (not IsQuestComplete(0xE0008FA905C7BA04)))">
 			<TurnInQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" TurnInName="Eton Vok" XYZ="33.2548,-19.65277,51.5048" />
 			<CompleteQuest QuestName="Rakghoul Observation" QuestId="0xE0008FA905C7BA04" />
 			<!-- Culling the Nekghouls -->
 		</If>
 		
 		<!-- Turnin Rakghoul Roundup -->
-		<If Condition="((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
+		<If Condition="False and ((HasQuest(0xE0004AB030885F4C)) and (not IsQuestComplete(0xE0004AB030885F4C)))">
 			<TurnInQuest QuestName="Rakghoul Roundup" QuestId="0xE0004AB030885F4C" TurnInName="Melkor Dinn" XYZ="32.8664,-19.60337,56.0295" />
 			<CompleteQuest QuestName="Rakghoul Roundup" QuestId="0xE0004AB030885F4C" />
 		</If>
 		
 		<!-- Turnin Rakghoul Rampage -->
-		<If Condition="((HasQuest(0xE000C76C00AC680E)) and (not IsQuestComplete(0xE000C76C00AC680E)))">
+		<If Condition="False and ((HasQuest(0xE000C76C00AC680E)) and (not IsQuestComplete(0xE000C76C00AC680E)))">
 			<TurnInQuest QuestName="Rakghoul Rampage" QuestId="0xE000C76C00AC680E" TurnInName="Mission Dropbox" Type="Placeable" UseRange="2"  XYZ="33.19357,-19.65277,52.39008" />
 			<CompleteQuest QuestName="Rakghoul Rampage" QuestId="0xE000C76C00AC680E" />
 		</If>
@@ -642,7 +642,7 @@
 		</If>
 
 		<!-- Culling the Nekghouls -->
-		<If Condition="((HasQuest(0xE000B2EF0F026708)) and (not IsQuestComplete(0xE000B2EF0F026708)))">
+		<If Condition="False and ((HasQuest(0xE000B2EF0F026708)) and (not IsQuestComplete(0xE000B2EF0F026708)))">
 			<If Condition="HasQuest(0xE000B2EF0F026708) and not IsBranchStepComplete(0xE000B2EF0F026708, 1, 2)">
 				<MoveTo QuestId="0xE000B2EF0F026708" XYZ="108.1851,-17.36107,111.5085" />
 			</If>
@@ -721,11 +721,11 @@
 			<TalkTo QuestId="0xE0002EAC805ADA1F" Name="General Farvin" XYZ="-82.338,-12.41901,21.2051" />
 		</If>
 		
-		<PickUpQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" GiverName="Captain Pandorr" XYZ="-83.9129,-12.41901,20.776" />
-		<PickUpQuest QuestName="Blood Sport" QuestId="0xE00004B64322517B" GiverName="Zenzo" XYZ="-74.9196,-12.93113,-2.0574" />
+		<!-- <PickUpQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" GiverName="Captain Pandorr" XYZ="-83.9129,-12.41901,20.776" /> -->
+		<!-- <PickUpQuest QuestName="Blood Sport" QuestId="0xE00004B64322517B" GiverName="Zenzo" XYZ="-74.9196,-12.93113,-2.0574" /> -->
 		
 		<!-- Blood Sport -->
-		<If Condition="((HasQuest(0xE00004B64322517B)) and (not IsQuestComplete(0xE00004B64322517B)))">
+		<If Condition="False and ((HasQuest(0xE00004B64322517B)) and (not IsQuestComplete(0xE00004B64322517B)))">
 			<Grind While="not IsStepComplete(0xE00004B64322517B, 2)">
 				<GrindArea Name="Blood Sport - Loot Staffs from Morgukai Blood Warriors">
 					<MinLevel>1</MinLevel>
@@ -913,7 +913,7 @@
 		-->
 		
 		<!-- Deadly Hospital -->
-		<If Condition="((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
+		<If Condition="False and ((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
 			<UseObject QuestId="0xE00072F4AA9B980E" ObjectName="Kolto Tank" BranchId="1" StepId="2" Radius="50" WaitTime="5" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="-39.58758,-12.35555,-36.33255" />
@@ -999,13 +999,13 @@
 		</If>
 		
 		<!-- Turnin Blood Sport -->
-		<If Condition="((HasQuest(0xE00004B64322517B)) and (not IsQuestComplete(0xE00004B64322517B)))">
+		<If Condition="False and ((HasQuest(0xE00004B64322517B)) and (not IsQuestComplete(0xE00004B64322517B)))">
 			<TurnInQuest QuestName="Blood Sport" QuestId="0xE00004B64322517B" TurnInName="Zenzo" XYZ="-74.9196,-12.93113,-2.0574" />
 			<CompleteQuest QuestName="Blood Sport" QuestId="0xE00004B64322517B" />
 		</If>
 		
 		<!-- Turnin Deadly Hospital -->
-		<If Condition="((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
+		<If Condition="False and ((HasQuest(0xE00072F4AA9B980E)) and (not IsQuestComplete(0xE00072F4AA9B980E)))">
 			<TurnInQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" TurnInName="Captain Pandorr" XYZ="-83.9129,-12.41901,20.776" />
 			<CompleteQuest QuestName="Deadly Hospital" QuestId="0xE00072F4AA9B980E" />
 		</If>
@@ -1064,7 +1064,7 @@
 		</If>
 		
 		<!-- [HEROIC 2+] Blackout - Lord Komo -->
-		<PickUpQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" GiverName="Agent Brayso" XYZ="-113.6277,-18.85155,35.8201" />
+		<!-- <PickUpQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" GiverName="Agent Brayso" XYZ="-113.6277,-18.85155,35.8201" /> -->
 		
 		<!-- Agent - Thieves and Liars -->
 		<If Condition="((HasQuest(0xE000CC415FBDD34F)) and (not IsQuestComplete(0xE000CC415FBDD34F)))">
@@ -1095,7 +1095,7 @@
 		</If>
 	
 		<!-- Interference -->
-		<If Condition="((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
+		<If Condition="False and ((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
 			<UseObject ObjectName="Orbital Targeting Jammer" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="-195.4539,-16.58494,47.73259" />
 			<UseObject ObjectName="Strike Beacon" QuestId="0xE0002BBC8A2359AE" BranchId="1" StepId="3" IgnoreLOS="True" WaitTime="2" XYZ="-190.0794,-18.87259,52.99295" />
 			<!-- Clearing the Jam -->
@@ -1212,7 +1212,7 @@
 		</If>
 		
 		<!-- Turnin Interference -->
-		<If Condition="((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
+		<If Condition="False and ((HasQuest(0xE0002BBC8A2359AE)) and (not IsQuestComplete(0xE0002BBC8A2359AE)))">
 			<TurnInQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" TurnInName="Agent Brayso" XYZ="-113.6277,-18.85155,35.8201" />
 			<CompleteQuest QuestName="Interference" QuestId="0xE0002BBC8A2359AE" />
 		</If>
@@ -1225,10 +1225,10 @@
 		</If>
 		
 		<!-- Is this quest available earlier? -->
-		<PickUpQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" GiverName="Lieutenant Trace" XYZ="-105.2406,-20.71469,62.0342" />
+		<!-- <PickUpQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" GiverName="Lieutenant Trace" XYZ="-105.2406,-20.71469,62.0342" /> -->
 		
 		<!-- Lines of Communication -->
-		<If Condition="((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
+		<If Condition="False and ((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
 			<UseObject ObjectName="Satellite Array" QuestId="0xE000F2E5D06C9D03" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="2" XYZ="-161.995,-18.71702,76.264" />
 			<!-- Com Silence -->
 			<If Condition="(not IsQuestComplete(0xE000E54D210C2423))">
@@ -1366,7 +1366,7 @@
 		</If>
 		
 		<!-- Turnin Lines of Communication -->
-		<If Condition="((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
+		<If Condition="False and ((HasQuest(0xE000F2E5D06C9D03)) and (not IsQuestComplete(0xE000F2E5D06C9D03)))">
 			<TurnInQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" TurnInName="Lieutenant Trace" XYZ="-105.2406,-20.71469,62.0342" />
 			<CompleteQuest QuestName="Lines of Communication" QuestId="0xE000F2E5D06C9D03" />
  
@@ -1382,9 +1382,9 @@
 		
 		<!-- [HEROIC 4] Last of the Tarisian Pirates - Praetor Nollus -->
 		<!-- [HEROIC 4] Highway to Destruction - Mission Terminal -->
-		<PickUpQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" GiverName="Doctor Korvus" XYZ="70.9494,-18.70979,31.6972" />
+		<!-- <PickUpQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" GiverName="Doctor Korvus" XYZ="70.9494,-18.70979,31.6972" /> -->
 		<!-- Pickup Razing the Researchers -->
-		<If Condition="((not HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
+		<If Condition="False and ((not HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<PickUpQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" GiverName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
 
 			<!--
@@ -1395,7 +1395,7 @@
 		</If>
 		
 		<!-- Razing the Researchers -->
-		<If Condition="((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
+		<If Condition="False and ((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<UseObject QuestId="0xE0004BD346FF4CA9" ObjectName="Rakghoul Research Equipment" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" Radius="200" WaitTime="3" >
 				<Hotspots>
 					<Hotspot Name="My Location" XYZ="86.69163,-20.06141,60.88838" />
@@ -1436,7 +1436,7 @@
 		</If>
 
 		<!-- Breaking the Mighty Cathar -->
-		<If Condition="((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
+		<If Condition="False and ((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
 			<If Condition="HasQuest(0xE0001E5C1D1FB742) and not IsStepComplete(0xE0001E5C1D1FB742, 2)">
 				<UseItem ItemName="Doctor Korvus's Serum" QuestId="0xE0001E5C1D1FB742" OnObject="Cathar Champion" BranchId="1" StepId="2" WaitTime="6" Range="7" InCombat="True" HealthPercent="100" Radius="200" XYZ="78.74837,-19.83746,58.51284" />
 			</If>
@@ -1460,10 +1460,10 @@
 			</If>
 		</If>
 		
-		<PickUpQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" GiverName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" />
+		<!-- <PickUpQuest QuestName="Infected Pirates" QuestId="0xE000ECFBAA4FB630" GiverName="Sergeant Skolin" XYZ="95.2099,-18.65882,69.9886" /> -->
 		
 		<!-- Infected Pirates and Turnin -->
-		<If Condition="((HasQuest(0xE000ECFBAA4FB630)) and (not IsQuestComplete(0xE000ECFBAA4FB630)))">
+		<If Condition="False and ((HasQuest(0xE000ECFBAA4FB630)) and (not IsQuestComplete(0xE000ECFBAA4FB630)))">
 			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="6" XYZ="87.96017,-17.52245,78.54147" />
 			<UseObject ObjectName="Power Generator" QuestId="0xE000ECFBAA4FB630" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="6" XYZ="88.56207,-17.61843,82.85453" />
 			<!-- Skullduggery -->
@@ -1492,7 +1492,7 @@
 		</If>
 		
 		<!-- Calling all Rakghouls and Turnin -->
-		<If Condition="((HasQuest(0xE0001127A1A36218)) and (not IsQuestComplete(0xE0001127A1A36218)))">
+		<If Condition="False and ((HasQuest(0xE0001127A1A36218)) and (not IsQuestComplete(0xE0001127A1A36218)))">
 			<If Condition="HasQuest(0xE0001127A1A36218) and not IsStepComplete(0xE0001127A1A36218, 2)">
 				<UseItem ItemName="Wylenn Pulse Beacon" QuestId="0xE0001127A1A36218" StepId="2" WaitTime="15" Range="4" InCombat="False" Radius="3" XYZ="95.25133,-17.61059,92.65758" />
 			</If>
@@ -1507,13 +1507,13 @@
 		</If>
 		
 		<!-- Turnin Breaking the Mighty Cathar -->
-		<If Condition="((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
+		<If Condition="False and ((HasQuest(0xE0001E5C1D1FB742)) and (not IsQuestComplete(0xE0001E5C1D1FB742)))">
 			<TurnInQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" TurnInName="Doctor Korvus" XYZ="70.9494,-18.70979,31.6972" />
 			<CompleteQuest QuestName="Breaking the Mighty Cathar" QuestId="0xE0001E5C1D1FB742" />
 		</If>
 		
 		<!-- Turnin Razing the Researchers -->
-		<If Condition="((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
+		<If Condition="False and ((HasQuest(0xE0004BD346FF4CA9)) and (not IsQuestComplete(0xE0004BD346FF4CA9)))">
 			<TurnInQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" TurnInName="Lord Vadus" XYZ="75.9335,-18.67751,30.7565" />
 			<CompleteQuest QuestName="Razing the Researchers" QuestId="0xE0004BD346FF4CA9" />
 			
@@ -1522,6 +1522,8 @@
 			<ForceVendor VendorType="Repair" />
 		</If>
 		
+		<!-- Taris: Bonus Series (Disabled for Purple Main Quest priority) -->
+		<If Condition="False">
 		<!-- Pickup Taris: Bonus Series -->
 		<If Condition="((not HasQuest(0xE0001A1F3A1FFEC9)) and (not IsQuestComplete(0xE0001A1F3A1FFEC9)))">
 			<PickUpQuest QuestName="Taris: Bonus Series" QuestId="0xE0001A1F3A1FFEC9" GiverName="Colonel Surab" XYZ="-6.6689,-25.45396,65.1455" />
@@ -1850,6 +1852,7 @@
 			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
+		</If>
 		</If>
 		
 		<!-- Inquisitor - Get off of Taris -->

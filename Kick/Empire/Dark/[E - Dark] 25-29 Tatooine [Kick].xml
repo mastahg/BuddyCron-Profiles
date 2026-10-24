@@ -159,8 +159,8 @@
 				<TalkTo QuestId="0xE000428B3C8095F2" WaitTime="1" Name="Captain Golah" XYZ="67.5067,51.5606,323.1493" />
 			</If>
 			<!-- Stage 1 - Danger in the Streets -->
-			<If Condition="(not IsQuestComplete(0xE0009A8942348C56))">
-				<Grind While="(not IsQuestComplete(0xE0009A8942348C56))">
+			<If Condition="HasQuest(0xE0009A8942348C56) and (not IsQuestComplete(0xE0009A8942348C56))">
+				<Grind While="HasQuest(0xE0009A8942348C56) and (not IsQuestComplete(0xE0009A8942348C56))">
 					<GrindArea Name="Stage 1 - Danger in the Streets">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -240,8 +240,8 @@
 				</UseObject>
 			</If>
 			<!-- Sweeping Up - Destroy Exchange Warehouse Droids -->
-			<If Condition="(not IsQuestComplete(0xE000D4797962A18F))">
-				<Grind While="(not IsQuestComplete(0xE000D4797962A18F))">
+			<If Condition="HasQuest(0xE000D4797962A18F) and (not IsQuestComplete(0xE000D4797962A18F))">
+				<Grind While="HasQuest(0xE000D4797962A18F) and (not IsQuestComplete(0xE000D4797962A18F))">
 					<GrindArea Name="Sweeping Up - Destroy Exchange Warehouse Droids">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -272,8 +272,8 @@
 		<!-- New Threats -->
 		<If Condition="((HasQuest(0xE0008F080295965B)) and (not IsQuestComplete(0xE0008F080295965B)))">
 			<!-- Jawa Dropping - Defeat Jawa Forces -->
-			<If Condition="(not IsQuestComplete(0xE000982D86CA9024))">
-				<Grind While="(not IsQuestComplete(0xE000982D86CA9024))">
+			<If Condition="HasQuest(0xE000982D86CA9024) and (not IsQuestComplete(0xE000982D86CA9024))">
+				<Grind While="HasQuest(0xE000982D86CA9024) and (not IsQuestComplete(0xE000982D86CA9024))">
 					<GrindArea Name="Jawa Dropping - Defeat Jawa Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -321,8 +321,8 @@
 		<!-- Wreaking Havoc and Turnin -->
 		<If Condition="((HasQuest(0xE000C39387AE075F)) and (not IsQuestComplete(0xE000C39387AE075F)))">
 			<!-- Exchange Roundup -->
-			<If Condition="(not IsQuestComplete(0xE000B9D23D268058))">
-				<Grind While="(not IsQuestComplete(0xE000B9D23D268058))">
+			<If Condition="HasQuest(0xE000B9D23D268058) and (not IsQuestComplete(0xE000B9D23D268058))">
+				<Grind While="HasQuest(0xE000B9D23D268058) and (not IsQuestComplete(0xE000B9D23D268058))">
 					<GrindArea Name="Exchange Roundup - Defeat Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -348,8 +348,8 @@
 		<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsQuestComplete(0xE000B3DB9E8F94EC)))">
 			<If Condition="((HasQuest(0xE000B3DB9E8F94EC)) and (not IsBranchStepComplete(0xE000B3DB9E8F94EC, 1, 5)))">
 				<MoveTo QuestId="1" XYZ="97.89266,47.98195,262.7581" />
-				<If Condition="(not IsQuestComplete(0xE0007101098C271E))">
-					<Grind While="(not IsQuestComplete(0xE0007101098C271E))">
+				<If Condition="HasQuest(0xE0007101098C271E) and (not IsQuestComplete(0xE0007101098C271E))">
+					<Grind While="HasQuest(0xE0007101098C271E) and (not IsQuestComplete(0xE0007101098C271E))">
 						<GrindArea Name="Defeat Exchange Forces">
 							<MinLevel>1</MinLevel>
 							<MaxLevel>51</MaxLevel>
@@ -375,8 +375,8 @@
 		<!-- Expedition into the Unknown -->
 		<If Condition="((HasQuest(0xE000428B3C8095F2)) and (not IsQuestComplete(0xE000428B3C8095F2)))">
 			<!-- Crush the Palawa - Defeat Palawa Forces -->
-			<If Condition="(not IsQuestComplete(0xE000FAE3F6FAAB70))">
-				<Grind While="(not IsQuestComplete(0xE000FAE3F6FAAB70))">
+			<If Condition="HasQuest(0xE000FAE3F6FAAB70) and (not IsQuestComplete(0xE000FAE3F6FAAB70))">
+				<Grind While="HasQuest(0xE000FAE3F6FAAB70) and (not IsQuestComplete(0xE000FAE3F6FAAB70))">
 					<GrindArea Name="Crush the Palawa - Defeat Palawa Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -436,8 +436,8 @@
 				<TalkTo QuestId="0xE000039E1A5DF69F" WaitTime="1" Name="Lord Berow" XYZ="56.4134,51.27333,329.0389" />
 			</If>
 			<!-- Thin Out the Training Ground - Eliminate Jawa Forces -->
-			<If Condition="(not IsQuestComplete(0xE000B51AB8F0FDB3))">
-				<Grind While="(not IsQuestComplete(0xE000B51AB8F0FDB3))">
+			<If Condition="HasQuest(0xE000B51AB8F0FDB3) and (not IsQuestComplete(0xE000B51AB8F0FDB3))">
+				<Grind While="HasQuest(0xE000B51AB8F0FDB3) and (not IsQuestComplete(0xE000B51AB8F0FDB3))">
 					<GrindArea Name="Thin Out the Training Ground - Eliminate Jawa Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -537,15 +537,14 @@
 			<CompleteQuest QuestName="Masters of the Desert Machines" QuestId="0xE00095906768AA09" />
 		</If>
 		
-		<!-- Shaman -->
+		<!-- Shaman Turnin (Commented out: incomplete side quest branch causes infinite interaction loop with Commander Vilos)
 		<If Condition="((HasQuest(0xE000039E1A5DF69F)) and (not IsQuestComplete(0xE000039E1A5DF69F)))">
 			<TurnInQuest QuestName="Shaman" QuestId="0xE000039E1A5DF69F" TurnInName="Commander Vilos" XYZ="84.4806,49.83815,311.6246" />
 			<CompleteQuest QuestName="Shaman" QuestId="0xE000039E1A5DF69F" />
-			
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
-			
 		</If>
+		-->
 		
 		<!-- Journey into Dust -->
 		<If Condition="((HasQuest(0xE00054291E242297)) and (not IsQuestComplete(0xE00054291E242297)))">
@@ -558,8 +557,8 @@
 		<If Condition="((HasQuest(0xE000DC0315532C4F)) and (not IsQuestComplete(0xE000DC0315532C4F)))">
 			<UseObject ObjectName="Ramshackle Generator" QuestId="0xE000DC0315532C4F" BranchId="1" StepId="2" WaitTime="1500" XYZ="108.1248,45.43859,66.83623" />
 			<!-- Junkers and Clunkers -->
-			<If Condition="(not IsQuestComplete(0xE000F4EFB90F0176))">
-				<Grind While="(not IsQuestComplete(0xE000F4EFB90F0176))">
+			<If Condition="HasQuest(0xE000F4EFB90F0176) and (not IsQuestComplete(0xE000F4EFB90F0176))">
+				<Grind While="HasQuest(0xE000F4EFB90F0176) and (not IsQuestComplete(0xE000F4EFB90F0176))">
 					<GrindArea Name="Junkers and Clunkers - Destroy Malfunctioning Droids">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -610,8 +609,8 @@
 				</GrindArea>
 			</Grind>
 			<!-- Stage 1 - Blood on the Sand -->
-			<If Condition="(not IsQuestComplete(0xE000331F41014B7F))">
-				<Grind While="(not IsQuestComplete(0xE000331F41014B7F))">
+			<If Condition="HasQuest(0xE000331F41014B7F) and (not IsQuestComplete(0xE000331F41014B7F))">
+				<Grind While="HasQuest(0xE000331F41014B7F) and (not IsQuestComplete(0xE000331F41014B7F))">
 					<GrindArea Name="Stage 1 - Blood on the Sand - Defeat Sand People Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -638,8 +637,8 @@
 				</Grind>
 			</If>
 			<!-- Stage 2 - Blood on the Sand -->
-			<If Condition="(not IsQuestComplete(0xE000301F41014046))">
-				<Grind While="(not IsQuestComplete(0xE000301F41014046))">
+			<If Condition="HasQuest(0xE000301F41014046) and (not IsQuestComplete(0xE000301F41014046))">
+				<Grind While="HasQuest(0xE000301F41014046) and (not IsQuestComplete(0xE000301F41014046))">
 					<GrindArea Name="Stage 2 - Blood on the Sand - Defeat Sand People Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -676,8 +675,8 @@
 				</UseObject>
 			</If>
 			<!-- Final Stage - Blood on the Sand -->
-			<If Condition="(not IsQuestComplete(0xE000361F4101B594))">
-				<Grind While="(not IsQuestComplete(0xE000361F4101B594))">
+			<If Condition="HasQuest(0xE000361F4101B594) and (not IsQuestComplete(0xE000361F4101B594))">
+				<Grind While="HasQuest(0xE000361F4101B594) and (not IsQuestComplete(0xE000361F4101B594))">
 					<GrindArea Name="Final Stage - Blood on the Sand">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -808,8 +807,8 @@
 		<!-- Agent - The Dragon's Tail -->
 		<If Condition="((HasQuest(0xE0005B96B9F1BB8C)) and (not IsQuestComplete(0xE0005B96B9F1BB8C)))">
 			<!-- The Dragon's Teeth - Dispatch Exchange Forces -->
-			<If Condition="(not IsQuestComplete(0xE000C400418BE1EA))">
-				<Grind While="(not IsQuestComplete(0xE000C400418BE1EA))">
+			<If Condition="HasQuest(0xE000C400418BE1EA) and (not IsQuestComplete(0xE000C400418BE1EA))">
+				<Grind While="HasQuest(0xE000C400418BE1EA) and (not IsQuestComplete(0xE000C400418BE1EA))">
 					<GrindArea Name="The Dragon's Teeth - Dispatch Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -859,8 +858,8 @@
 		<!-- Weapons Calibration and Turnin -->
 		<If Condition="((HasQuest(0xE000B9DA7DC3141D)) and (not IsQuestComplete(0xE000B9DA7DC3141D)))">
 			<!-- Combat Advantage -->
-			<If Condition="(not IsQuestComplete(0xE000D30AA6EDC5B7))">
-				<Grind While="(not IsQuestComplete(0xE000D30AA6EDC5B7))">
+			<If Condition="HasQuest(0xE000D30AA6EDC5B7) and (not IsQuestComplete(0xE000D30AA6EDC5B7))">
+				<Grind While="HasQuest(0xE000D30AA6EDC5B7) and (not IsQuestComplete(0xE000D30AA6EDC5B7))">
 					<GrindArea Name="Combat Advantage - Dispatch Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1015,7 +1014,7 @@
 			<UseObject ObjectName="Central Camp Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="1" WaitTime="3" XYZ="-37.3673,45.79573,-12.91327" />
 			<UseObject ObjectName="Cave Entrance Rock Formation" QuestId="0xE000DEF5D7A053EA" BranchId="2" StepId="3" TaskId="2" WaitTime="3" XYZ="-39.47942,46.15166,-23.31636" />
 			<!-- Burn It Out -->
-			<If Condition="(not IsQuestComplete(0xE00069292DF250D6))">
+			<If Condition="HasQuest(0xE00069292DF250D6) and (not IsQuestComplete(0xE00069292DF250D6))">
 				<Grind While="not IsTaskComplete(0xE00069292DF250D6, 2, 0)">
 					<GrindArea Name="Burn It Out - Defeat Non-Infected Palawa">
 						<MinLevel>1</MinLevel>
@@ -1073,8 +1072,8 @@
 		<!-- Agent - The Assassin's Fortress -->
 		<If Condition="((HasQuest(0xE0009853C75EF6D9)) and (not IsQuestComplete(0xE0009853C75EF6D9)))">
 			<!-- See No Evil -->
-			<If Condition="(not IsQuestComplete(0xE000DC589C7E664F))">
-				<Grind While="(not IsQuestComplete(0xE000DC589C7E664F))">
+			<If Condition="HasQuest(0xE000DC589C7E664F) and (not IsQuestComplete(0xE000DC589C7E664F))">
+				<Grind While="HasQuest(0xE000DC589C7E664F) and (not IsQuestComplete(0xE000DC589C7E664F))">
 					<GrindArea Name="See No Evil - Eliminate Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1099,9 +1098,15 @@
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 2)">
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-69.44077,43.7254,29.38019" />
 			</If>
+			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 3)">
+				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-69.44077,43.7254,29.38019" />
+				<UseObject QuestId="0xE0009853C75EF6D9" ObjectName="Cargo Crate" BranchId="1" StepId="3" Radius="30" WaitTime="4" XYZ="-69.44077,43.7254,29.38019" />
+				<Interact Name="Cargo Crate" QuestId="0xE0009853C75EF6D9" IgnoreLOS="True" UseRange="15" WaitTime="4" XYZ="-69.44077,43.7254,29.38019" />
+				<WaitTimer QuestId="1" WaitTime="8" />
+			</If>
 			<!-- Harsh Lessons - Defeat Ghost Cell Forces -->
-			<If Condition="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
-				<Grind While="(not IsQuestComplete(0xE0005CCA12A2D5AE))">
+			<If Condition="HasQuest(0xE0005CCA12A2D5AE) and (not IsQuestComplete(0xE0005CCA12A2D5AE))">
+				<Grind While="HasQuest(0xE0005CCA12A2D5AE) and (not IsQuestComplete(0xE0005CCA12A2D5AE))">
 					<GrindArea Name="Harsh Lessons - Defeat Ghost Cell Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1124,7 +1129,7 @@
 				<MoveTo QuestId="0xE0009853C75EF6D9" XYZ="-237.3999,38.95087,-214.551" />
 			</If>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 5)" >
-				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.4283,38.95154,-214.609" />
+				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="5" Name="The Old Man" XYZ="-237.4283,38.95154,-214.609" />
 			</If>
 			<Grind While="not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 6)">
 				<GrindArea Name="The Assassin's Fortress - Defeat the Old Man">
@@ -1139,7 +1144,7 @@
 				</GrindArea>
 			</Grind>
 			<If Condition="HasQuest(0xE0009853C75EF6D9) and not IsBranchStepComplete(0xE0009853C75EF6D9, 1, 7)" >
-				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="1" Name="The Old Man" XYZ="-237.6969,38.95692,-214.6994" />
+				<TalkTo QuestId="0xE0009853C75EF6D9" WaitTime="5" Name="The Old Man" XYZ="-237.6969,38.95692,-214.6994" />
 	
 				<!-- Use Your Ships Holoterminal -->
 			</If>
@@ -1218,8 +1223,8 @@
 			</If>
 			<UseObject ObjectName="Czerka Technology" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="3" WaitTime="6" XYZ="-123.2823,41.20946,-20.32284" />
 			<!-- Sharing the Blame -->
-			<If Condition="(not IsQuestComplete(0xE0009C9D1645F6C2))">
-				<Grind While="(not IsQuestComplete(0xE0009C9D1645F6C2))">
+			<If Condition="HasQuest(0xE0009C9D1645F6C2) and (not IsQuestComplete(0xE0009C9D1645F6C2))">
+				<Grind While="HasQuest(0xE0009C9D1645F6C2) and (not IsQuestComplete(0xE0009C9D1645F6C2))">
 					<GrindArea Name="Sharing the Blame - Eliminate Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1247,8 +1252,8 @@
 			<UseObject ObjectName="Czerka Relay Tower" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="8" IgnoreLOS="True" WaitTime="5" XYZ="-202.0034,41.3638,-60.14977" />
 			<!-- Ele going down -->
 			<!-- Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces -->
-			<If Condition="not HasQuest(0xE00043A05ADFF616) and not IsQuestComplete(0xE00043A05ADFF616)">
-				<Grind While="not IsQuestComplete(0xE00043A05ADFF616) ">
+			<If Condition="HasQuest(0xE00043A05ADFF616) and (not IsQuestComplete(0xE00043A05ADFF616))">
+				<Grind While="HasQuest(0xE00043A05ADFF616) and (not IsQuestComplete(0xE00043A05ADFF616))">
 					<GrindArea Name="Stage 1 - Archaeology of Opportunity - Defeat Czerka Dig site Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1285,8 +1290,8 @@
 				</UseObject>
 			</If>
 			<!-- Final Stage - Archaeology of Opportunity -->
-			<If Condition="not IsQuestComplete(0xE00045A05ADFF370)">
-				<Grind While="not IsQuestComplete(0xE00045A05ADFF370)">
+			<If Condition="HasQuest(0xE00045A05ADFF370) and (not IsQuestComplete(0xE00045A05ADFF370))">
+				<Grind While="HasQuest(0xE00045A05ADFF370) and (not IsQuestComplete(0xE00045A05ADFF370))">
 					<GrindArea Name="Final Stage - Archaeology of Opportunity">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1299,26 +1304,37 @@
 					</GrindArea>
 				</Grind>
 			</If>
-			<UseObject ObjectName="Ancient Machine" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="9" WaitTime="2" XYZ="-199.7458,30.92782,-36.19707" />
-			<Grind While="not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 10)">
-				<GrindArea Name="The Thing Czerka Found - Defeat the Imprisoned One's Ambush">
-					<MinLevel>1</MinLevel>
-					<MaxLevel>51</MaxLevel>
-					<Mobs>
-						<Mob>Mutated Czerka Guard</Mob>
-					</Mobs>
-					<Hotspots>
-						<Hotspot Name="Mutated Czerka Guard" XYZ="-200.0969,30.91985,-35.0676" />
-					</Hotspots>
-				</GrindArea>
-			</Grind>
+			<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 9)))">
+				<MoveTo QuestId="0xE0004E36DF9E2E01" XYZ="-199.7458,30.92782,-36.19707" />
+				<UseObject ObjectName="Ancient Machine" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="9" Radius="20" UseRange="40" IgnoreLOS="True" WaitTime="4" XYZ="-199.7458,30.92782,-36.19707" />
+			</If>
+			<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 10)))">
+				<Grind While="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 10)))">
+					<GrindArea Name="The Thing Czerka Found - Defeat the Imprisoned One's Ambush">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Mutated Czerka Guard</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Mutated Czerka Guard" XYZ="-200.0969,30.91985,-35.0676" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+			</If>
 			<!-- Ignore Combat and use this object -->
-			<UseObject ObjectName="Ancient Cybernetic Enhancement Equipment" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="11" WaitTime="5" XYZ="-204.3786,30.16483,-28.40017" />
+			<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 11)))">
+				<MoveTo QuestId="0xE0004E36DF9E2E01" XYZ="-204.3786,30.16483,-28.40017" />
+				<UseObject ObjectName="Ancient Cybernetic Enhancement Equipment" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="11" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="5" XYZ="-204.3786,30.16483,-28.40017" />
+			</If>
 			<!-- Ignore Combat and use this object -->
-			<UseObject ObjectName="Ancient Droid Manufacturing Equipment" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="12" WaitTime="5" XYZ="-206.1721,28.71707,-47.23711" />
+			<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 12)))">
+				<MoveTo QuestId="0xE0004E36DF9E2E01" XYZ="-206.1721,28.71707,-47.23711" />
+				<UseObject ObjectName="Ancient Droid Manufacturing Equipment" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="12" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="5" XYZ="-206.1721,28.71707,-47.23711" />
+			</If>
 			<If Condition="((HasQuest(0xE0004E36DF9E2E01)) and (not IsBranchStepComplete(0xE0004E36DF9E2E01, 1, 13)))">
-				<MoveTo QuestId="1" XYZ="-199.7458,30.92782,-36.19707" />
-				<UseObject ObjectName="Ancient Machine" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="13" UseRange="40" IgnoreLOS="True" WaitTime="2" XYZ="-199.7458,30.92782,-36.19707" />
+				<MoveTo QuestId="0xE0004E36DF9E2E01" XYZ="-199.7458,30.92782,-36.19707" />
+				<UseObject ObjectName="Ancient Machine" QuestId="0xE0004E36DF9E2E01" BranchId="1" StepId="13" Radius="20" UseRange="40" IgnoreLOS="True" WaitTime="4" XYZ="-199.7458,30.92782,-36.19707" />
 			</If>
 			<CompleteQuest QuestName="Imprisoned One's Reward" QuestId="0xE0000963D04DF130" />
 			<!-- Use Quick Travel to Outpost Zaroshe, if possible -->
@@ -1353,15 +1369,10 @@
 			<ForceVendor VendorType="Repair" />
 		</If>
 		
-		<!-- Pickup Tatooine: Bonus Series -->
+		<!-- Ignoring Tatooine: Bonus Series to avoid backtracking to Mos Ila
 		<If Condition="((not HasQuest(0xE0003D60C6FDE2DC)) and (not IsQuestComplete(0xE0003D60C6FDE2DC)))">
 			<PickUpQuest QuestName="Tatooine: Bonus Series" QuestId="0xE0003D60C6FDE2DC" GiverName="Sergeant Charnso" XYZ="61.7212,51.901,355.5105" />
-	
 		</If>
-		
-		<!-- Ignoring H2+ Supply Lines from Captain Cibinel -->
-		
-		<!-- Tatooine: Bonus Series -->
 		<If Condition="((HasQuest(0xE0003D60C6FDE2DC)) and (not IsQuestComplete(0xE0003D60C6FDE2DC)))">
 			<UseObject QuestId="0xE0003D60C6FDE2DC" ObjectName="Mandalorian Initiate Corpse" BranchId="1" StepId="2" Radius="200" WaitTime="4500" >
 				<Hotspots>
@@ -1376,6 +1387,7 @@
 				<TalkTo QuestId="0xE0003D60C6FDE2DC" WaitTime="5" Name="Randor Mohl" XYZ="121.8452,43.1343,11.9038" />
 			</If>
 		</If>
+		-->
 		
 		<PickUpQuest QuestName="Stirring Up the Natives" QuestId="0xE00008F3224BFDC5" GiverName="Geris Paelid" XYZ="124.2027,43.20512,9.062798" />
 		<PickUpQuest QuestName="Desert Conquest" QuestId="0xE000CCB737D490F6" GiverName="Zola Arvannus" XYZ="124.4105,43.05461,13.3592" />
@@ -1384,8 +1396,8 @@
 		<If Condition="((HasQuest(0xE000CCB737D490F6)) and (not IsQuestComplete(0xE000CCB737D490F6)))">
 			<UseObject ObjectName="Defense Computer Console" QuestId="0xE000CCB737D490F6" BranchId="1" StepId="2" WaitTime="3" XYZ="156.1691,45.301,10.60142" />
 			<!-- Raid the Defenses -->
-			<If Condition="(not IsQuestComplete(0xE00050360F3355C5))">
-				<Grind While="(not IsQuestComplete(0xE00050360F3355C5))">
+			<If Condition="HasQuest(0xE00050360F3355C5) and (not IsQuestComplete(0xE00050360F3355C5))">
+				<Grind While="HasQuest(0xE00050360F3355C5) and (not IsQuestComplete(0xE00050360F3355C5))">
 					<GrindArea Name="Raid the Defenses - Defeat Gamorrean Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1420,8 +1432,8 @@
 				<UseItem ItemName="Sand People's Poison Antidote" QuestId="0xE0005613665A0D61" StepId="4" WaitTime="4" Range="2" InCombat="False" Radius="2" XYZ="234.4493,47.22854,22.40755" />
 			</If>
 			<!-- Stage 1 - Sand Will Fall -->
-			<If Condition="(not IsQuestComplete(0xE00035FC16B9CD41))">
-				<Grind While="not IsQuestComplete(0xE00035FC16B9CD41)">
+			<If Condition="HasQuest(0xE00035FC16B9CD41) and (not IsQuestComplete(0xE00035FC16B9CD41))">
+				<Grind While="HasQuest(0xE00035FC16B9CD41) and (not IsQuestComplete(0xE00035FC16B9CD41))">
 					<GrindArea Name="Stage 1 - Sand Will Fall - Defeat Sand People Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1445,7 +1457,7 @@
 				</Grind>
 			</If>
 			<!-- Stage 2 - Sand Will Fall -->
-			<If Condition="(not IsQuestComplete(0xE00032FC16B9C058))">
+			<If Condition="HasQuest(0xE00032FC16B9C058) and (not IsQuestComplete(0xE00032FC16B9C058))">
 				<UseObject QuestId="0xE00032FC16B9C058" ObjectName="War Totem" Radius="60" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="213.6133,44.6266,24.86771" />
@@ -1455,7 +1467,7 @@
 				</UseObject>
 			</If>
 			<!-- Final Stage - Sand Will Fall -->
-			<If Condition="(not IsQuestComplete(0xE00030FC16B9C5C2))">
+			<If Condition="HasQuest(0xE00030FC16B9C5C2) and (not IsQuestComplete(0xE00030FC16B9C5C2))">
 				<UseObject ObjectName="Herald's Totem" QuestId="0xE00030FC16B9C5C2" WaitTime="2" XYZ="228.5976,44.04667,18.50042" />
 			</If>
 		</If>
@@ -1515,8 +1527,8 @@
 		<!-- Cannon Fodder -->
 		<If Condition="((HasQuest(0xE000062A3FF6ED5E)) and (not IsQuestComplete(0xE000062A3FF6ED5E)))">
 			<!-- Mandalorian Submission -->
-			<If Condition="(not IsQuestComplete(0xE000FCCDF0E02283))">
-				<Grind While="(not IsQuestComplete(0xE000FCCDF0E02283))">
+			<If Condition="HasQuest(0xE000FCCDF0E02283) and (not IsQuestComplete(0xE000FCCDF0E02283))">
+				<Grind While="HasQuest(0xE000FCCDF0E02283) and (not IsQuestComplete(0xE000FCCDF0E02283))">
 					<GrindArea Name="Mandalorian Submission - Eliminate Mandalorian Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1543,8 +1555,8 @@
 		<!-- Trespassing and Turnin -->
 		<If Condition="((HasQuest(0xE0002EC2AFC6E8BE)) and (not IsQuestComplete(0xE0002EC2AFC6E8BE)))">
 			<!-- Armed Escort - Defeat Republic Forces -->
-			<If Condition="(not IsQuestComplete(0xE0008E1E24B03728))">
-				<Grind While="(not IsQuestComplete(0xE0008E1E24B03728))">
+			<If Condition="HasQuest(0xE0008E1E24B03728) and (not IsQuestComplete(0xE0008E1E24B03728))">
+				<Grind While="HasQuest(0xE0008E1E24B03728) and (not IsQuestComplete(0xE0008E1E24B03728))">
 					<GrindArea Name="Armed Escort - Defeat Republic Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1599,8 +1611,8 @@
 				<Interact Name="Special Forces Soldier" UseRange="10" Radius="1" IgnoreLOS="True" WaitTime="4" XYZ="86.79064,42.01199,-10.92371" />
 			</If>
 			<!-- Stage 1 - Enforcing Order - Defeat Exchange Forces -->
-			<If Condition="(not IsQuestComplete(0xE000BD9395ED6CDA))">
-				<Grind While="not IsQuestComplete(0xE000BD9395ED6CDA)">
+			<If Condition="HasQuest(0xE000BD9395ED6CDA) and (not IsQuestComplete(0xE000BD9395ED6CDA))">
+				<Grind While="HasQuest(0xE000BD9395ED6CDA) and (not IsQuestComplete(0xE000BD9395ED6CDA))">
 					<GrindArea Name="Stage 1 - Enforcing Order - Defeat Exchange Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1634,7 +1646,7 @@
 				</Grind>
 			</If>
 			<!-- Stage 2 - Enforcing Order - Destroy Exchange Weapon Caches -->
-			<If Condition="(not IsQuestComplete(0xE000C09395ED6233))">
+			<If Condition="HasQuest(0xE000C09395ED6233) and (not IsQuestComplete(0xE000C09395ED6233))">
 				<UseObject QuestId="0xE000C09395ED6233" ObjectName="Weapon Cache" Radius="100" WaitTime="2" >
 					<Hotspots>
 						<Hotspot Name="My Location" XYZ="90.1539,42.04681,-7.388222" />
@@ -1649,7 +1661,7 @@
 				</UseObject>
 			</If>
 			<!-- Stage 3 - Enforcing Order - Defeat Exchange Droids and Elite Guards -->
-			<If Condition="(not IsQuestComplete(0xE000BF9395ED607C))">
+			<If Condition="HasQuest(0xE000BF9395ED607C) and (not IsQuestComplete(0xE000BF9395ED607C))">
 				<Grind While="not IsStepComplete(0xE000BF9395ED607C, 4)">
 					<GrindArea Name="Stage 3 - Enforcing Order">
 						<MinLevel>1</MinLevel>
@@ -1673,7 +1685,7 @@
 				</Grind>
 			</If>
 			<!-- Final Stage - Enforcing Order -->
-			<If Condition="(not IsQuestComplete(0xE000C29395ED6555))">
+			<If Condition="HasQuest(0xE000C29395ED6555) and (not IsQuestComplete(0xE000C29395ED6555))">
 				<Grind While="not IsStepComplete(0xE000C29395ED6555, 4)">
 					<GrindArea Name="Final Stage - Enforcing Order - Retrieve Exchange Shipping Records from Exchange Division Commander">
 						<MinLevel>1</MinLevel>

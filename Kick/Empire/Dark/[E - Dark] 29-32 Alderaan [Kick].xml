@@ -68,13 +68,15 @@
 
 	<Questing>
 		
+		<!--
 		<If Condition="(Me.Class == CharacterClass.BountyHunter)">
-			<UserDialog Title="Kick" Message="This profile cannot currently be used by a Bounty Hunter.  You can use it for BH, but it completes 0 class quests for BH's! Feel free to give correctly developed profile syntax and specific places to put said syntax at!" />
+			<WaitTimer WaitTime="1" StatusText="BH not supported" />
 		</If>
 		 
 		<If Condition="(Me.Class == CharacterClass.Warrior)">
-			<UserDialog Title="Kick" Message="Stop bot and do something" />
+			<WaitTimer WaitTime="1" StatusText="Warrior not supported" />
 		</If>
+		-->
 
 		<!-- Agent - Formal Introductions -->
 		<If Condition="((HasQuest(0xE000C700544E8F98)) and (not IsQuestComplete(0xE000C700544E8F98)))">
@@ -108,29 +110,41 @@
 			</If>
 		</If>
 	
-		<!-- Pickup An Iron Fist -->
+		<!-- Pickup An Iron Fist (Commented out to prioritize purple class quest) -->
+		<!--
 		<If Condition="((not HasQuest(0xE00025279526F8F3)) and (not IsQuestComplete(0xE00025279526F8F3)))">
 			<PickUpQuest QuestName="An Iron Fist" QuestId="0xE00025279526F8F3" GiverName="Geor Vers" XYZ="19.5226,28.411,-129.9022" />
-			<!--<TalkTo QuestId="1" Name="House Cortess Taxi" X="-30.6181" Y="28.28497" Z="-111.3201" />-->
 		</If>
+		-->
 		
 		<!-- Agent - Formal Introductions -->
 		<If Condition="((HasQuest(0xE000C700544E8F98)) and (not IsQuestComplete(0xE000C700544E8F98)))">
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 4)">
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="37.6475,27.73162,-155.2046" />
+				<TalkTo QuestId="0xE000C700544E8F98" Name="Vector Hyllus" XYZ="37.6475,27.73162,-155.2046" />
 			</If>
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 6)">
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-23.40208,28.69597,-79.4772" />
+				<Interact Name="Security Door" IgnoreLOS="True" WaitTime="5" XYZ="-23.39356,28.70393,-78.69674" />
+				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-21.0181,28.69999,-75.4174" />
+				<TalkTo QuestId="0xE000C700544E8F98" Name="Captain Perovius" XYZ="-21.0181,28.69999,-75.4174" />
 			</If>
-			<UseObject ObjectName="Damaged Cortess Patrol Droid" QuestId="0xE000C700544E8F98" BranchId="1" StepId="8" WaitTime="3" XYZ="-30.43209,29.07104,-163.9363" />
+			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 8)">
+				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-30.43209,29.07104,-163.9363" />
+				<UseObject ObjectName="Damaged Cortess Patrol Droid" QuestId="0xE000C700544E8F98" BranchId="1" StepId="8" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="4" XYZ="-30.43209,29.07104,-163.9363" />
+			</If>
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 9)">
 				<AnswerHolocomCall QuestName="Formal Introductions" QuestId="0xE000C700544E8F98" />
 			</If>
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 10)">
+				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-23.40208,28.69597,-79.4772" />
+				<Interact Name="Security Door" IgnoreLOS="True" WaitTime="5" XYZ="-23.39356,28.70393,-78.69674" />
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="-21.0181,28.69999,-75.4174" />
+				<TalkTo QuestId="0xE000C700544E8F98" Name="Cortess Escort" XYZ="-21.0181,28.69999,-75.4174" />
 			</If>
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 12)">
 				<MoveTo QuestId="0xE000C700544E8F98" XYZ="37.6475,27.73162,-155.2046" />
+				<TalkTo QuestId="0xE000C700544E8F98" Name="Vector Hyllus" XYZ="37.6475,27.73162,-155.2046" />
 				<WaitTimer WaitTime="5" StatusText="Waiting to make sure we've completed quest." />
 			</If>
 			<CompleteQuest QuestName="Formal Introductions" QuestId="0xE000C700544E8F98" />
@@ -146,12 +160,14 @@
 			<!-- Skip 5 -->
 		</If>
 
-		<!-- Pickup The Killik Problem -->
+		<!-- Pickup The Killik Problem (Commented out to prioritize purple class quest) -->
+		<!--
 		<If Condition="((not HasQuest(0xE000E97B55957E74)) and (not IsQuestComplete(0xE000E97B55957E74)))">
 			<PickUpQuest QuestName="The Killik Problem" QuestId="0xE000E97B55957E74" GiverName="Rylan Stallos" XYZ="66.58,28.006,-160.776" />
 			<ForceVendor VendorType="Train" />
 			<ForceVendor VendorType="Repair" />
 		</If>
+		-->
 		
 		<!-- An Iron Fist and Turnin  -->
 		<If Condition="((HasQuest(0xE00025279526F8F3)) and (not IsQuestComplete(0xE00025279526F8F3)))">
@@ -396,7 +412,8 @@
 		
 		<!-- Agent - The Privileges of Royalty -->
 		<If Condition="((HasQuest(0xE000F88E819FF5D9)) and (not IsQuestComplete(0xE000F88E819FF5D9)))">
-			<UseObject ObjectName="Alde Computer Terminal" QuestId="0xE000F88E819FF5D9" BranchId="1" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="197.6085,24.725,5.304387" />
+			<MoveTo QuestId="0xE000F88E819FF5D9" XYZ="197.6085,24.725,5.304387" />
+			<UseObject ObjectName="Alde Computer Terminal" QuestId="0xE000F88E819FF5D9" BranchId="1" StepId="2" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="4" XYZ="197.6085,24.725,5.304387" />
 		</If>
 		
 		<!-- Inquisitor - The Secrets of the Jedi -->
@@ -545,10 +562,11 @@
 			<!-- Dirty Deeds -->
 		</If>
 		
-		<PickUpQuest QuestName="First, Do Harm" QuestId="0xE00013AC90C85CB2" GiverName="Captain Taith" XYZ="176.763,38.57362,-105.4892" />
+		<!-- <PickUpQuest QuestName="First, Do Harm" QuestId="0xE00013AC90C85CB2" GiverName="Captain Taith" XYZ="176.763,38.57362,-105.4892" /> -->
 		
 		<!-- Agent - The Privileges of Royalty -->
 		<If Condition="((HasQuest(0xE000F88E819FF5D9)) and (not IsQuestComplete(0xE000F88E819FF5D9)))">
+			<MoveTo QuestId="0xE000F88E819FF5D9" XYZ="37.6141,27.7131,-154.701" />
 			<TurnInQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" TurnInName="Vector Hyllus" XYZ="37.6141,27.7131,-154.701" />
 			<CompleteQuest QuestName="The Privileges of Royalty" QuestId="0xE000F88E819FF5D9" />
 			<!-- The Assassin's Prize -->
@@ -557,8 +575,10 @@
 		<!-- Agent - The Assassin's Prize -->
 		<If Condition="((HasQuest(0xE000C87E8D37D98E)) and (not IsQuestComplete(0xE000C87E8D37D98E)))">
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 3)" >
+				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="-23.40208,28.69597,-79.4772" />
+				<Interact Name="Security Door" IgnoreLOS="True" WaitTime="5" XYZ="-23.39356,28.70393,-78.69674" />
+				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="-20.8016,28.69998,-75.3968" />
 				<TalkTo QuestId="0xE000C87E8D37D98E" Name="Cortess Escort" XYZ="-20.8016,28.69998,-75.3968" />
- 
 			</If>
 		</If>
 		
@@ -567,12 +587,11 @@
 			<TurnInQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" TurnInName="Elana Thul" XYZ="87.3139,29.90325,-142.3869" />
 			<CompleteQuest QuestName="The Secrets of the Jedi" QuestId="0xE000D1B7E8AB0DE3" />
 			<!-- A Woman Scorned 0xE0009870E1D10934-->
- 
 		</If>
 		
 		<!-- First, Do Harm and Turnin -->
 		<If Condition="((HasQuest(0xE00013AC90C85CB2)) and (not IsQuestComplete(0xE00013AC90C85CB2)))">
-			<PickUpQuest QuestName="Malevolent Malpractice" QuestId="0xE00098A006ADF53E" Type="Placeable" UseRange="2" GiverName="Organa Kolto Tank" XYZ="119.964,22.8209,-30.18016" />
+			<!-- <PickUpQuest QuestName="Malevolent Malpractice" QuestId="0xE00098A006ADF53E" Type="Placeable" UseRange="2" GiverName="Organa Kolto Tank" XYZ="119.964,22.8209,-30.18016" /> -->
 			<!-- Malevolent Malpractice -->
 			<If Condition="((HasQuest(0xE00098A006ADF53E)) and (not IsQuestComplete(0xE00098A006ADF53E)))">
 				<UseObject QuestId="0xE00098A006ADF53E" ObjectName="Organa Kolto Tank" BranchId="1" StepId="2" Radius="200" WaitTime="2" >
@@ -610,7 +629,7 @@
 		</If>
 		
 		<!-- [HEROIC 4] Insufficient Staff Sergeant Tegan -->
-		<PickUpQuest QuestName="The Black List" QuestId="0xE00075121BBBAE99" GiverName="Officer Jeral Vesk" XYZ="193.3147,21.66519,78.5251" />
+		<!-- <PickUpQuest QuestName="The Black List" QuestId="0xE00075121BBBAE99" GiverName="Officer Jeral Vesk" XYZ="193.3147,21.66519,78.5251" /> -->
 		
 		<!-- The Black List -->
 		<If Condition="((HasQuest(0xE00075121BBBAE99)) and (not IsQuestComplete(0xE00075121BBBAE99)))">
@@ -658,8 +677,10 @@
 			</Grind>
 		</If>
 		
+		<!--
 		<PickUpQuest Type="Placeable" UseRange="2" QuestName="Marked Men" QuestId="0xE0000A9FEF50C4DC" GiverName="Datapad" XYZ="89.92107,17.85366,39.00764" />
 		<PickUpQuest Type="Placeable" UseRange="2" QuestName="Tears of the Rist" QuestId="0xE0008F43AD95FDD3" GiverName="Mercenary Datapad" XYZ="91.41638,13.71319,18.15108" />
+		-->
 		
 		<!-- The Assassin's Secret and Turnin -->
 		<If Condition="((HasQuest(0xE000F2AD44EA42B5)) and (not IsQuestComplete(0xE000F2AD44EA42B5)))">
@@ -816,35 +837,45 @@
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 4)">
 				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="80.13495,21.65431,96.46587" />
 			</If>
-			<Grind While="not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 6)">
-				<GrindArea Name="The Assassin's Prize - Defeat the Rist Assassins">
-					<MinLevel>1</MinLevel>
-					<MaxLevel>51</MaxLevel>
-					<Mobs>
-						<Mob>Rist Assassin</Mob>
-					</Mobs>
-					<Hotspots>
-						<Hotspot Name="My Location" XYZ="79.58588,21.65431,96.14789" />
-					</Hotspots>
-				</GrindArea>
-			</Grind>
-			<UseObject ObjectName="Forcefield Controls" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="7" IgnoreLOS="True" WaitTime="3" XYZ="77.49628,21.4675,98.97035" />
-			<Grind While="not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 8)">
-				<GrindArea Name="The Assassin's Prize - Defeat Denri Ayl">
-					<MinLevel>1</MinLevel>
-					<MaxLevel>51</MaxLevel>
-					<Mobs>
-						<Mob>Rist Assassin</Mob>
-					</Mobs>
-					<Hotspots>
-						<Hotspot Name="Denri Ayl" XYZ="80.7223,20.6548,84.6228" />
-					</Hotspots>
-				</GrindArea>
-			</Grind>
+			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 6)">
+				<Grind While="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 6)">
+					<GrindArea Name="The Assassin's Prize - Defeat the Rist Assassins">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Rist Assassin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="My Location" XYZ="79.58588,21.65431,96.14789" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+			</If>
+			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 7)">
+				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="77.49628,21.4675,98.97035" />
+				<UseObject ObjectName="Forcefield Controls" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="7" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="3" XYZ="77.49628,21.4675,98.97035" />
+			</If>
+			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 8)">
+				<Grind While="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 8)">
+					<GrindArea Name="The Assassin's Prize - Defeat Denri Ayl">
+						<MinLevel>1</MinLevel>
+						<MaxLevel>51</MaxLevel>
+						<Mobs>
+							<Mob>Rist Assassin</Mob>
+						</Mobs>
+						<Hotspots>
+							<Hotspot Name="Denri Ayl" XYZ="80.7223,20.6548,84.6228" />
+						</Hotspots>
+					</GrindArea>
+				</Grind>
+			</If>
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 9)" >
 				<TalkTo QuestId="0xE000C87E8D37D98E" Name="Denri Ayl" XYZ="79.94326,20.6796,85.32114" />
 			</If>
-			<UseObject ObjectName="Denri Ayl's Computer" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="10" IgnoreLOS="True" WaitTime="2" XYZ="84.38772,20.65431,86.61594" />
+			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 10)">
+				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="84.38772,20.65431,86.61594" />
+				<UseObject ObjectName="Denri Ayl's Computer" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="10" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="2" XYZ="84.38772,20.65431,86.61594" />
+			</If>
 			<!-- Ele Up -->
 		</If>
 		
@@ -872,9 +903,12 @@
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 11)">
 				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="-23.32081,28.69597,-81.06084" />
 			</If>
-			<UseObject ObjectName="Cortess Access Panel" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="12" IgnoreLOS="True" WaitTime="2" XYZ="-23.28956,28.70393,-78.78322" />
+			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 12)">
+				<UseObject ObjectName="Cortess Access Panel" QuestId="0xE000C87E8D37D98E" BranchId="4" StepId="12" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="2" XYZ="-23.28956,28.70393,-78.78322" />
+			</If>
 			<If Condition="HasQuest(0xE000C87E8D37D98E) and not IsBranchStepComplete(0xE000C87E8D37D98E, 4, 13)">
 				<MoveTo QuestId="0xE000C87E8D37D98E" XYZ="41.5512,27.72099,-165.7553" />
+				<TalkTo QuestId="0xE000C87E8D37D98E" Name="Vector Hyllus" XYZ="41.5512,27.72099,-165.7553" />
 				<WaitTimer WaitTime="5" />
 			</If>
 			<CompleteQuest QuestName="The Assassin's Prize" QuestId="0xE000C87E8D37D98E" />
@@ -885,7 +919,7 @@
 			
 		</If>
 		
-		<PickUpQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" GiverName="Sir Deris Panteer" XYZ="27.6175,10.63736,-17.2285" />
+		<!-- <PickUpQuest QuestName="The Head That Wears the Crown" QuestId="0xE0004C8E910D42B6" GiverName="Sir Deris Panteer" XYZ="27.6175,10.63736,-17.2285" /> -->
 		
 		<!-- The Head That Wears the Crown -->
 		<If Condition="((HasQuest(0xE0004C8E910D42B6)) and (not IsQuestComplete(0xE0004C8E910D42B6)))">
@@ -958,7 +992,7 @@
 			</If>
 		</If>
 		
-		<PickUpQuest QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" GiverName="Imperial Mission Terminal" Type="Placeable" UseRange="2" XYZ="-66.54556,15.29028,7.921555" />
+		<!-- <PickUpQuest QuestName="Illegal Seizure" QuestId="0xE000552551F30AB0" GiverName="Imperial Mission Terminal" Type="Placeable" UseRange="2" XYZ="-66.54556,15.29028,7.921555" /> -->
 	
 		<!-- Inquisitor - Secret Rendezvous and Turnin -->
 		<If Condition="((HasQuest(0xE00004FA73DDD2A6)) and (not IsQuestComplete(0xE00004FA73DDD2A6)))">
@@ -1056,8 +1090,8 @@
 		<!-- Agent - The Fall of House Cortess -->
 		<If Condition="((HasQuest(0xE00041FDD9F0A4F6)) and (not IsQuestComplete(0xE00041FDD9F0A4F6)))">
 			<!-- Pierce the Shield (Bonus) -->
-			<If Condition="(not IsQuestComplete(0xE0001D0EF993E3BA))">
-				<Grind While="(not IsQuestComplete(0xE0001D0EF993E3BA))">
+			<If Condition="HasQuest(0xE0001D0EF993E3BA) and (not IsQuestComplete(0xE0001D0EF993E3BA))">
+				<Grind While="HasQuest(0xE0001D0EF993E3BA) and (not IsQuestComplete(0xE0001D0EF993E3BA))">
 					<GrindArea Name="Pierce the Shield - Defeat Cortess Forces">
 						<MinLevel>1</MinLevel>
 						<MaxLevel>51</MaxLevel>
@@ -1084,9 +1118,9 @@
 			<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 1, 2)">
 				<MoveTo QuestId="0xE00041FDD9F0A4F6" XYZ="-0.1524917,23.95471,51.47211" />
 			</If>
-			<UseObject ObjectName="Generator Release Lock" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="3" TaskId="0" IgnoreLOS="True" Radius="2" WaitTime="2" XYZ="-2.110895,22.5547,55.11488" />
-			<UseObject ObjectName="Generator Release Lock" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="3" TaskId="1" IgnoreLOS="True" Radius="2" WaitTime="2" XYZ="1.745464,22.5547,55.11479" />
-			<UseObject ObjectName="Generator Control Console" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="4" IgnoreLOS="True" WaitTime="4" XYZ="-0.1938097,23.806,57.90421" />
+			<UseObject ObjectName="Generator Release Lock" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="3" TaskId="0" IgnoreLOS="True" Radius="10" UseRange="10" WaitTime="2" XYZ="-2.110895,22.5547,55.11488" />
+			<UseObject ObjectName="Generator Release Lock" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="3" TaskId="1" IgnoreLOS="True" Radius="10" UseRange="10" WaitTime="2" XYZ="1.745464,22.5547,55.11479" />
+			<UseObject ObjectName="Generator Control Console" QuestId="0xE00041FDD9F0A4F6" BranchId="1" StepId="4" Radius="20" UseRange="10" IgnoreLOS="True" WaitTime="4" XYZ="-0.1938097,23.806,57.90421" />
 		</If>
 
 		<!-- Illegal Seizure and Turnin -->
@@ -1112,7 +1146,7 @@
 			
 		</If>
 		
-		<PickUpQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" GiverName="General Gurveer" XYZ="-149.6272,19.65751,10.7364" />
+		<!-- <PickUpQuest QuestName="Savior" QuestId="0xE000417BDC018E7D" GiverName="General Gurveer" XYZ="-149.6272,19.65751,10.7364" /> -->
 		
 		<!-- The Head That Wears the Crown -->
 		<If Condition="((HasQuest(0xE0004C8E910D42B6)) and (not IsQuestComplete(0xE0004C8E910D42B6)))">
@@ -1471,19 +1505,21 @@
 				<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 1, 6)">
 					<MoveTo QuestId="0xE00041FDD9F0A4F6" XYZ="-19.78622,25.07751,-75.37212" />
 				</If>
-				<Grind While="not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 2)">
-					<GrindArea Name="The Fall of House Cortess - Wipe Out House Cortess">
-						<MinLevel>1</MinLevel>
-						<MaxLevel>51</MaxLevel>
-						<Mobs>
-							<Mob>Baron Peyar</Mob>
-							<Mob>Captain Perovius</Mob>
-						</Mobs>
-						<Hotspots>
-							<Hotspot Name="My Location" XYZ="-19.68102,25.1469,-74.22735" />
-						</Hotspots>
-					</GrindArea>
-				</Grind>
+				<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 2)">
+					<Grind While="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 2)">
+						<GrindArea Name="The Fall of House Cortess - Wipe Out House Cortess">
+							<MinLevel>1</MinLevel>
+							<MaxLevel>51</MaxLevel>
+							<Mobs>
+								<Mob>Baron Peyar</Mob>
+								<Mob>Captain Perovius</Mob>
+							</Mobs>
+							<Hotspots>
+								<Hotspot Name="My Location" XYZ="-19.68102,25.1469,-74.22735" />
+							</Hotspots>
+						</GrindArea>
+					</Grind>
+				</If>
 				<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 3)" >
 					<If Condition="HasQuest(0xE00041FDD9F0A4F6) and not IsBranchStepComplete(0xE00041FDD9F0A4F6, 2, 3)" >
 						<TalkTo QuestId="0xE00041FDD9F0A4F6" Name="Killik Hive Founder" XYZ="-19.7087,25.07751,-75.68671" />
@@ -1571,8 +1607,7 @@
 						<Interact Name="Ship Exit" WaitTime="5" IgnoreLOS="True" XYZ="1.08352,0.8599994,1.770357" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					</If>
+					<!-- <If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> Dromund Kaas </If> -->
 				</If>
 				<TurnInQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" TurnInName="Keeper" XYZ="13.1868,3.0004,-87.7223" />
 				<CompleteQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" />
@@ -1610,16 +1645,18 @@
 						<TalkTo QuestId="0xE0002CAB0740C1D8" Name="Watcher Two" XYZ="-10.0147,0.001,4.2177" />
 					</If>
 				</If>
-				<!-- The Method and The Madness (Bonus) -->
+				<!-- The Method and The Madness (Bonus) - Commented out to prioritize purple class quest -->
+				<!--
 				<If Condition="((HasQuest(0xE000FC073BCCC832)) and (not IsQuestComplete(0xE000FC073BCCC832)))">
 					<UseObject ObjectName="Holo Computer" QuestId="0xE000FC073BCCC832" BranchId="1" StepId="2" TaskId="0" IgnoreLOS="True" WaitTime="2" XYZ="-2.507278,0.4009999,-11.76971" />
 					<UseObject ObjectName="Holo Computer" QuestId="0xE000FC073BCCC832" BranchId="1" StepId="2" TaskId="2" IgnoreLOS="True" WaitTime="2" XYZ="-3.026865,5.201,-19.78639" />
 					<UseObject ObjectName="Holo Computer" QuestId="0xE000FC073BCCC832" BranchId="1" StepId="2" TaskId="1" IgnoreLOS="True" WaitTime="2" XYZ="8.867107,4.806,-21.55231" />
 				</If>
+				-->
 				<If Condition="HasQuest(0xE0002CAB0740C1D8) and not IsBranchStepComplete(0xE0002CAB0740C1D8, 12, 3)">
 					<MoveTo QuestId="0xE0002CAB0740C1D8" XYZ="17.5048,5.48102,-16.5634" />
 				</If>
-				<UseObject ObjectName="Eradicator Launch Panel" QuestId="0xE0002CAB0740C1D8" BranchId="8" StepId="2" IgnoreLOS="True" WaitTime="4" XYZ="16.55928,5.48102,-16.63952" />
+				<UseObject ObjectName="Eradicator Launch Panel" QuestId="0xE0002CAB0740C1D8" BranchId="8" StepId="2" UseRange="15" Radius="20" IgnoreLOS="True" WaitTime="4" XYZ="16.55928,5.48102,-16.63952" />
 				<TurnInQuest QuestName="A New Epoch of Fear" QuestId="0xE0002CAB0740C1D8" TurnInName="Darth Jadus" XYZ="18.9885,5.661019,-16.0007" />
 				<CompleteQuest QuestName="A New Epoch of Fear" QuestId="0xE0002CAB0740C1D8" />
 			</If>
@@ -1636,8 +1673,7 @@
 						<Interact Name="Ship Exit" QuestId="0xE0002CAB0740C1D8" WaitTime="5" XYZ="1.080723,0.8599994,1.81502" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					</If>
+					<!-- <If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> Dromund Kaas </If> -->
 					<If Condition="HasQuest(0xE0008E497B81109A) and not IsStepComplete(0xE0008E497B81109A, 2)">
 						<TalkTo QuestId="0xE0008E497B81109A" Name="Darth Zhorrid" XYZ="-7.7289,2.200419,-90.7921" />
 					</If>
