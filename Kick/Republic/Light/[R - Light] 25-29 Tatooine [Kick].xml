@@ -315,7 +315,7 @@
 			<CompleteQuest QuestName="Local Resources" QuestId="0xE0008AFAC01D4B5D" /> 
 		</If> 
 
-		<PickUpQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" GiverName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
+		<PickUpQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" GiverName="Neb Munb" XYZ="223.0065,43.377,-365.8856" />
 		<!-- Ignoring 2+ Down the Hole 
 	<PickUpQuest QuestName="[HEROIC 2+] Down the Hole" QuestId="0xE0006104ADE237FB" GiverName="Ledo Melnic" X="224.095" Y="42.10264" Z="-369.4194" /> -->
 		<PickUpQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" GiverName="Constable Bakishan" XYZ="226.4605,42.10374,-369.1634" />
@@ -393,7 +393,7 @@
 					</GrindArea>
 				</Grind>
 			</If>
-			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
+			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,43.377,-365.8856" />
 			<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 		</If>
 	

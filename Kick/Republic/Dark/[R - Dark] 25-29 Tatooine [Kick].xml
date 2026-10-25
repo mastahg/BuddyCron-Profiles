@@ -197,7 +197,7 @@
 		<!-- Pickup The Hunted -->
 		<If Condition="((not HasQuest(0xE00099219A9CAE3C)) and (not IsQuestComplete(0xE00099219A9CAE3C)))">
 			<!-- Learn Cantina Bindpoint -->
-			<PickUpQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" GiverName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
+			<PickUpQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" GiverName="Neb Munb" XYZ="223.0065,43.377,-365.8856" />
 		</If>
 		<PickUpQuest QuestName="Astromenace" QuestId="0xE000E6769E03941D" GiverName="Constable Bakishan" XYZ="226.4605,42.10374,-369.1634" />
 		<!-- Ignoring 2+ Down the Hole -->
@@ -275,7 +275,7 @@
 					</GrindArea>
 				</Grind>
 			</If>
-			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,42.10234,-365.8856" />
+			<TurnInQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" TurnInName="Neb Munb" XYZ="223.0065,43.377,-365.8856" />
 			<CompleteQuest QuestName="The Hunted" QuestId="0xE00099219A9CAE3C" />
 		</If>
 	
