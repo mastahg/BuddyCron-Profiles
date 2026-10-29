@@ -562,12 +562,6 @@
 			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
 				<UseObject ObjectName="X-70B Phantom" QuestId="0xE000C700544E8F98" StepId="2" WaitTime="30000" XYZ="-212.0615,-6.332781,-210.6347" />
 			</If>
-			<!-- Use Galaxy Map to Alderaan - Binding it to "Formal Introductions" -->
-			<If Condition="HasQuest(0xE000C700544E8F98) and not IsStepComplete(0xE000C700544E8F98, 2)">
-				<!-- Use Galaxy Map -->
-				<!-- <Hotspot Name="My Location" X="-0.1344112" Y="1.087622" Z="-3.66448" /> -->
-				<!-- WaitTime = 20000 -->
-			</If>
 		
 			<!-- Formal Introductions -->
 			<!-- Exit Ship -->

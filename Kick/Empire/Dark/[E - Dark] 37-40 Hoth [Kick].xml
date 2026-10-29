@@ -1266,8 +1266,6 @@
 						<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					</If>
 					<TalkTo QuestId="0xE0000C9E0B16F1AE" Name="Darth Thanaton" XYZ="3.085,1.639999,-90.0332" />
 					<WaitTimer QuestId="1" WaitTime="8" />
 				</If>
@@ -1546,8 +1544,6 @@
 					<If Condition="(Core.Player.AreaId == 0x40000007C8166A37)"> <!-- X-70 Phantom -->
 						<Interact Name="Ship Exit" IgnoreLOS="True" XYZ="1.142586,0.8599994,1.801335" />
 						<WaitTimer QuestId="1" WaitTime="60" />
-					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 					</If>
 					<MoveTo QuestId="1" Name="My Location" XYZ="10.86437,3.001,-87.47677" />
 				</If>

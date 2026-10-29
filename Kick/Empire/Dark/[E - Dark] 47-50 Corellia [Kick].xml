@@ -2039,8 +2039,6 @@
 					<Interact IgnoreLOS="True" WaitTime="5" Name="Ship Exit" XYZ="0.006508447,0.7983922,4.372163" />
 					<WaitTimer QuestId="1" WaitTime="60" />
 				</If>
-				<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-				</If>
 				<MoveTo QuestId="0xE000AFA71CDE8549" XYZ="-5.342464,1.801015,-87.44279" /> <!-- this xyz may be wrong -->
 			</If>
 			<CompleteQuest QuestName="The Dark Council" QuestId="0xE000AFA71CDE8549" />

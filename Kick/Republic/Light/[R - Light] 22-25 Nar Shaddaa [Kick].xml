@@ -224,9 +224,6 @@
 					</GrindArea>
 				</Grind>
 			</If>
-			<If Condition="((HasQuest(0xE000BB1B620A30F6)) and (not IsStepComplete(0xE000BB1B620A30F6, 3)))">
-				<!-- Usetransport from Deucalon to Lower promenade -->
-			</If>
 		</If>
 		
 		<!-- Consular - The Professor -->

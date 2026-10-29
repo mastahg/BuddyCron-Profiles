@@ -1618,8 +1618,6 @@
 						<Interact Name="Ship Exit" WaitTime="5" XYZ="1.120779,0.8599994,1.784101" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					</If>
 					<MoveTo QuestId="0xE000AD89F260835D" Name="Watcher Three" XYZ="12.2699,2.680449,-83.593" />
 					<WaitTimer QuestId="1" WaitTime="15" />
 				</If>

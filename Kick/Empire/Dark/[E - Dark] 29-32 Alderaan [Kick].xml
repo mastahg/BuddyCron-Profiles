@@ -1571,8 +1571,6 @@
 						<Interact Name="Ship Exit" WaitTime="5" IgnoreLOS="True" XYZ="1.08352,0.8599994,1.770357" />
 						<WaitTimer QuestId="1" WaitTime="60" />
 					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
-					</If>
 				</If>
 				<TurnInQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" TurnInName="Keeper" XYZ="13.1868,3.0004,-87.7223" />
 				<CompleteQuest QuestName="The Eagle's Nest" QuestId="0xE000379B89A6D097" />
@@ -1635,8 +1633,6 @@
 						<SpaceTravel Planet="Dromund Kaas" />
 						<Interact Name="Ship Exit" QuestId="0xE0002CAB0740C1D8" WaitTime="5" XYZ="1.080723,0.8599994,1.81502" />
 						<WaitTimer QuestId="1" WaitTime="60" />
-					</If>
-					<If Condition="(Core.Player.AreaId == 0x4000000046FD234A)"> <!-- Dromund Kaas -->
 					</If>
 					<If Condition="HasQuest(0xE0008E497B81109A) and not IsStepComplete(0xE0008E497B81109A, 2)">
 						<TalkTo QuestId="0xE0008E497B81109A" Name="Darth Zhorrid" XYZ="-7.7289,2.200419,-90.7921" />

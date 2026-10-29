@@ -1914,9 +1914,6 @@
 			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 2, 4)))">
 				<TalkTo QuestId="0xE00072624DFC54F8" Name="Captain Nelex" XYZ="-207.8961,-19.049,83.7295" />
 			</If>
-			<If Condition="((HasQuest(0xE00072624DFC54F8)) and (not IsBranchStepComplete(0xE00072624DFC54F8, 8, 2)))">
-				<!-- Use Ship's Holoterminal -->
-			</If>
 		</If>
 		
 		<!-- Smuggler - The Vault -->

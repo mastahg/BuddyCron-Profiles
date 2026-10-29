@@ -79,22 +79,6 @@
 	
 		<Questing>
 	
-			<!-- Inquisitor -->
-			<If Condition="Me.Class == CharacterClass.Inquisitor">
-				<!--
-				Use Wonkavator
-				Elevator
-				Option 1 - "Sobrik Spaceport"
-				[07:12:25.368 N] <Hotspot Name="My Location" X="-1.891176E+25" Y="-1.898947E+25" Z="-1.890713E+25" />
-				[07:12:25.368 D] Area: 40000000E21DD4EC
-				[07:12:25.368 D] Area Name: bal_main
-				[07:12:25.368 D] Instance ID: 1
-				[07:12:25.368 D] Room: int_H1g_spaceport_Elevators_A
-			 -->
-			</If>
-			<!-- Inquisitor -->
-		
-		
 			<!-- Operation Breaking Point -->
 			<If Condition="not IsStepComplete(0xE000299B7B39CC58, 2)">
 				<PickupQuest QuestName="Operation Breaking Point" QuestId="0xE000299B7B39CC58" GiverName="Captain Rigel" XYZ="-17.0317,6.011,84.8944" />
@@ -1070,12 +1054,6 @@
 			
 	<!-- Into the Pit -->
 	<If Condition="not IsBranchStepComplete(0xE0002FE18F814730, 7, 4)">
-		<!-- Jump down into hole - 
-				<Hotspot Name="My Location" X="124.2443" Y="18.50057" Z="3.262208" /> -->
-	</If>
-			
-	<!-- Into the Pit -->
-	<If Condition="not IsBranchStepComplete(0xE0002FE18F814730, 7, 4)">
 		<MoveTo QuestId="0xE0002FE18F814730" XYZ="115.9434,9.427586,-3.171196" />
 		<WaitTimer WaitTime="5000" />
 	</If>
@@ -1867,25 +1845,6 @@
 		
 <!-- Balmorra: Bonus Series -->
 <CompleteQuest QuestName="Balmorra: Bonus Series" QuestId="0xE00029E61EADE4B5" />
-		
-		
-<!-- Inquisitor -->
-<If Condition="(Me.Class == CharacterClass.Inquisitor)">
-	<!-- Wonka
-			"Elevator" option 2 "Sith Inquisitor Hangar"
-			
-			[15:39:51.591 N] My Location: <-26.16082, 5.593729, 83.62598>
-			[15:39:51.591 N] <Hotspot Name="My Location" X="-26.16082" Y="5.593729" Z="83.62598" />
-			[15:39:51.591 D] Area: 40000000E21DD4EC
-			[15:39:51.591 D] Area Name: bal_main
-			[15:39:51.591 D] Instance ID: 1
-			[15:39:51.591 D] Room: int_H1g_spaceport_HangerElevLobbyC_B1 -->
-			
-	<!-- Get on ship
-			<Hotspot Name="My Location" X="-27.56421" Y="-14.72759" Z="102.456" />
-			<UseObject QuestId="" Name="Fury" WaitTime="" X="" Y="" Z="" /> -->
-</If>
-<!-- Inquisitor -->
 		
 </Questing>
 

@@ -223,16 +223,6 @@
 			<TurnInQuest QuestName="On The Scent" QuestId="0xE00088D248EEC6D5" TurnInName="Manda" XYZ="-34.3368,3.204947,1.5003" />
 		</If>
 		
-		<!-- Inquisitor -->
-		<If Condition="Me.Class == CharacterClass.Inquisitor">
-			<!-- Talk to Khem Val -->
-			<!-- Talk to Khem Val -->
-			
-			<!-- Welcome Khem Val -->
-			<!-- <CompleteQuest QuestName="Welcome Khem Val" QuestId="" /> -->
-		</If>
-		<!-- Inquisitor -->
-		
 		<!-- Flight Path -->
 		
 		<!-- Use Taxi From Kaas City Central Taxi To Citadel Taxi -->
